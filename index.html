@@ -2,30 +2,36 @@
 <html>
 <head>
 <meta name=viewport content="width=device-width,initial-scale=1">
-<title>home — Infinity</title>
+<title>home</title>
 <style>
-body{background:#0b0f14;color:#e6edf3;font-family:monospace}
-.panel{border:1px solid #30363d;padding:12px;margin:12px}
-a{color:#58a6ff}
-canvas{width:100%;height:auto}
+body{background:#0b0f14;color:#e6edf3;font-family:monospace;padding:12px}
+.panel{border:1px solid #30363d;padding:12px;margin:12px 0}
+button{padding:8px 12px;font-family:monospace}
+canvas{width:100%;max-width:360px}
 </style>
 </head>
 <body>
 
-<h1>🧱 home</h1>
+<h1>home</h1>
 
 <div class=panel>
-<h2>📍 Token</h2>
-<pre id=token>Loading…</pre>
+<h2>Token</h2>
+<pre id=token>loading...</pre>
 </div>
 
 <div class=panel>
-<h2>⚛ Quantum Field</h2>
+<h2>Quantum Visualizer</h2>
 <canvas id=q width=240 height=160></canvas>
 </div>
 
 <div class=panel>
-<h2>📚 Research Ledger</h2>
+<h2>Token Slot Machine</h2>
+<button onclick="spin()">SPIN</button>
+<pre id=slot>---</pre>
+</div>
+
+<div class=panel>
+<h2>Research Ledger</h2>
 <ul id=ledger></ul>
 </div>
 
