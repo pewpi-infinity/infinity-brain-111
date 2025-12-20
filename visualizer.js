@@ -1,4 +1,3 @@
-// Quantum visualizer
 const c=document.getElementById("q");
 const x=c.getContext("2d");
 let t=0;
@@ -18,13 +17,11 @@ function draw(){
 }
 draw();
 
-// Slot machine token generator
 const reels=[
   ["ALPHA","BETA","GAMMA","DELTA"],
   ["ION","FIELD","WAVE","TIME"],
   ["CORE","NODE","SEED","KEY"]
 ];
-
 function spin(){
   const r=reels.map(a=>a[Math.floor(Math.random()*a.length)]);
   document.getElementById("slot").textContent=r.join(" - ");
