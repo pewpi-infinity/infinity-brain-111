@@ -1,34 +1,20 @@
 <!doctype html>
-<!-- 🐶 PEWPI SIGN-IN (GLOBAL) -->
-<div id="pewpi-gate">
-  <h1>🐶 pewpi</h1>
-  <input id="pewpi_user" placeholder="Handle">
-  <button onclick="pewpiUnlock()">Enter</button>
-</div>
-<script>
-function pewpiUnlock(){
-  localStorage.setItem("pewpi_user", document.getElementById("pewpi_user").value);
-  document.getElementById("pewpi-gate").style.display="none";
-  document.body.classList.add("pewpi-live");
-}
-if(localStorage.getItem("pewpi_user")){
-  document.addEventListener("DOMContentLoaded",()=>{
-    const g=document.getElementById("pewpi-gate");
-    if(g) g.style.display="none";
-    document.body.classList.add("pewpi-live");
-  });
-}
-</script>
-<style>
-#pewpi-gate{position:fixed;inset:0;background:#0e0e0e;color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:9999}
-#pewpi-gate button{background:#ff69b4;border:0;padding:10px 18px}
-body:not(.pewpi-live)>*:not(#pewpi-gate){filter:blur(6px);pointer-events:none}
-</style>
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://github.com/pewpi-infinity/infinity-brain-111.git
+	fetch = +refs/heads/main:refs/remotes/origin/main
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>∞ pixie</title>
+<title>Notionique</title>
 <style>
   :root{--bg:#111417;--card:#181d23;--ink:#e9eef5;--muted:#9fb0c3;--accent:#ff6f91;--soft:#ffc2d1;--ok:#22c55e}
   html,body{background:var(--bg);color:var(--ink);font-family:system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;margin:0}
