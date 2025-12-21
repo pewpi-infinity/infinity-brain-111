@@ -1,20 +1,9 @@
 <!doctype html>
-[core]
-	repositoryformatversion = 0
-	filemode = true
-	bare = false
-	logallrefupdates = true
-[remote "origin"]
-	url = https://github.com/pewpi-infinity/infinity-brain-111.git
-	fetch = +refs/heads/main:refs/remotes/origin/main
-[branch "main"]
-	remote = origin
-	merge = refs/heads/main
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>Notionique</title>
+<title>Pixie Journal ✨</title>
 <style>
   :root{--bg:#111417;--card:#181d23;--ink:#e9eef5;--muted:#9fb0c3;--accent:#ff6f91;--soft:#ffc2d1;--ok:#22c55e}
   html,body{background:var(--bg);color:var(--ink);font-family:system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;margin:0}
@@ -89,6 +78,8 @@
   </div>
 
 <script type="module">
+/*** 1) Fill in your Firebase config (Project settings → Web app) ***/
+const firebaseConfig = {
   apiKey: "YOUR_API_KEY",
   authDomain: "YOUR_AUTH_DOMAIN",
   projectId: "YOUR_PROJECT_ID",
@@ -96,12 +87,16 @@
 };
 /*** 2) No other edits required ***/
 
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
 import {
   getAuth, GoogleAuthProvider, signInWithPopup, onAuthStateChanged, signOut
+} from "https://www.gstatic.com/firebasejs/10.12.2/firebase-auth.js";
 import {
   getFirestore, collection, addDoc, query, orderBy, onSnapshot,
   serverTimestamp, getDoc, doc, getDocs
+} from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
 
+const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 const db   = getFirestore(app);
 
@@ -209,5 +204,3 @@ el('btnExport').onclick = async ()=>{
 </script>
 </body>
 </html>
-<!-- PIXIE_BUILDER -->
-<script>console.log("🧱⭐🧱 PIXIE JOURNAL BUILDER READY");</script>
