@@ -1,200 +1,106 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>Pixie Journal ✨</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pixie 🌸</title>
 <style>
-  :root{--bg:#111417;--card:#181d23;--ink:#e9eef5;--muted:#9fb0c3;--accent:#ff6f91;--soft:#ffc2d1;--ok:#22c55e}
-  html,body{background:var(--bg);color:var(--ink);font-family:system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;margin:0}
-  header{padding:20px 16px;text-align:center}
-  h1{margin:0;font-size:1.9rem}
-  .sub{color:var(--muted);font-size:.95rem}
-  .wrap{max-width:920px;margin:0 auto;padding:12px}
-  .card{background:var(--card);border-radius:16px;padding:16px;margin:12px 0;box-shadow:0 8px 24px rgba(0,0,0,.25)}
-  .row{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
-  button{background:linear-gradient(135deg,var(--accent),#ff3c78);border:0;border-radius:999px;padding:10px 16px;color:#fff;font-weight:600}
-  .ghost{background:#26313f;color:var(--ink)}
-  input,textarea{width:100%;padding:10px;border-radius:12px;border:1px solid #2a3746;background:#141a20;color:var(--ink)}
-  textarea{min-height:120px}
-  .post{border:1px solid #26313f}
-  .meta{color:var(--muted);font-size:.85rem;margin-top:6px}
-  .ok{color:var(--ok)}
-  .warn{color:#f59e0b}
-  .chip{display:inline-block;padding:4px 10px;border-radius:999px;background:#243041;color:var(--muted);font-size:.8rem;margin-right:6px}
-  .mono{font-family:ui-monospace,SFMono-Regular,Consolas,Menlo,monospace}
-  a{color:#8ac4ff}
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: linear-gradient(180deg, #ffe6ef, #ffd1e1);
+    color: #5a2a3a;
+  }
+  .container {
+    max-width: 420px;
+    margin: 0 auto;
+    padding: 24px;
+  }
+  .card {
+    background: #fff7fa;
+    border-radius: 24px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 10px 30px rgba(255, 105, 180, 0.2);
+  }
+  .avatar {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 10px auto 16px;
+    border: 6px solid #ffb6c9;
+  }
+  h1 {
+    text-align: center;
+    font-size: 26px;
+    margin: 8px 0 4px;
+  }
+  p {
+    text-align: center;
+    font-size: 15px;
+    opacity: 0.85;
+  }
+  .pill {
+    background: #ffd9e6;
+    border-radius: 999px;
+    padding: 10px 14px;
+    margin: 8px 0;
+    text-align: center;
+    font-weight: 500;
+  }
+  textarea, input {
+    width: 100%;
+    border-radius: 14px;
+    border: none;
+    padding: 12px;
+    margin-top: 8px;
+    font-size: 14px;
+    background: #ffffff;
+  }
+  .footer {
+    text-align: center;
+    font-size: 12px;
+    opacity: 0.6;
+    margin-top: 16px;
+  }
 </style>
 </head>
 <body>
-  <header>
-    <h1>Pixie Journal ✨</h1>
-    <div class="sub">A gentle place for notes from family & friends</div>
-  </header>
+  <div class="container">
 
-  <div class="wrap">
-
-    <!-- Auth / Profile -->
     <div class="card">
-      <div class="row">
-        <div id="userChip" class="chip">Signed out</div>
-        <button id="btnSignIn">Sign in with Google</button>
-        <button id="btnSignOut" class="ghost" style="display:none">Sign out</button>
-      </div>
-      <div class="meta">Only approved emails can post. Everyone can read.</div>
-      <div id="allowNote" class="meta"></div>
+      <img src="wkh1u5.jpg" alt="Pixie" class="avatar">
+      <h1>Pixie 🌸</h1>
+      <p>A gentle, happy place</p>
     </div>
 
-    <!-- Compose -->
-    <div id="composer" class="card" style="display:none">
-      <h3 style="margin-top:0">Write a note to Mom 💗</h3>
-      <input id="title" placeholder="Short title (optional)" />
-      <div style="height:8px"></div>
-      <textarea id="body" placeholder="Write something kind…"></textarea>
-      <div class="row" style="justify-content:space-between">
-        <button id="btnPost">Post</button>
-        <button id="btnRequest" class="ghost" title="Ask to be added if you're not allowed yet" style="display:none">Request posting access</button>
-      </div>
-      <div id="postMsg" class="meta"></div>
-    </div>
-
-    <!-- Feed -->
     <div class="card">
-      <div class="row" style="justify-content:space-between">
-        <h3 style="margin:0">Latest notes</h3>
-        <button id="btnExport" class="ghost">Export JSON</button>
-      </div>
-      <div id="feed"></div>
+      <div class="pill">🍀 Try your luck</div>
+      <div class="pill">🌸 Make a wish</div>
+      <div class="pill">⭐ Keep it light</div>
     </div>
 
-    <!-- Admin hint -->
     <div class="card">
-      <div class="mono" style="font-size:.9rem">
-        Admin tip: In Firestore, add <b>allowlist/&lt;friend-email&gt;</b> to let them post.
-      </div>
+      <strong>Notes & Ideas ✨</strong>
+      <textarea rows="4" placeholder="Write ideas, wishes, or plans..."></textarea>
     </div>
 
-    <div class="meta" style="text-align:center;margin:24px 0">Pixie ©</div>
+    <div class="card">
+      <strong>This page can become:</strong>
+      <ul>
+        <li>a journal</li>
+        <li>a family space</li>
+        <li>a memory book</li>
+        <li>or just a happy place 💕</li>
+      </ul>
+    </div>
+
+    <div class="footer">
+      Made with love 🌷
+    </div>
+
   </div>
-
-<script type="module">
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  projectId: "YOUR_PROJECT_ID",
-  appId: "YOUR_APP_ID"
-};
-/*** 2) No other edits required ***/
-
-import {
-  getAuth, GoogleAuthProvider, signInWithPopup, onAuthStateChanged, signOut
-import {
-  getFirestore, collection, addDoc, query, orderBy, onSnapshot,
-  serverTimestamp, getDoc, doc, getDocs
-
-const auth = getAuth(app);
-const db   = getFirestore(app);
-
-const el = (id)=>document.getElementById(id);
-const userChip = el('userChip');
-const btnIn = el('btnSignIn');
-const btnOut = el('btnSignOut');
-const btnPost = el('btnPost');
-const btnReq = el('btnRequest');
-const allowNote = el('allowNote');
-const composer = el('composer');
-const feed = el('feed');
-const lbl = (ok,msg)=>{ const t=el('postMsg'); t.textContent=msg; t.className= ok?'meta ok':'meta warn'; };
-
-let currentUser=null;
-let canWrite=false;
-
-btnIn.onclick = async ()=>{
-  try{
-    await signInWithPopup(auth, new GoogleAuthProvider());
-  }catch(e){ alert(e.message); }
-};
-
-btnOut.onclick = async ()=>{ await signOut(auth); };
-
-btnPost.onclick = async ()=>{
-  if(!currentUser){ lbl(false,"Sign in first."); return; }
-  if(!canWrite){ lbl(false,"You're signed in, but not approved to post yet."); return; }
-  const title = el('title').value.trim().slice(0,120);
-  const body  = el('body').value.trim().slice(0,4000);
-  if(!body){ lbl(false,"Write a little note first."); return; }
-  try{
-    await addDoc(collection(db,"posts"),{
-      title, body,
-      uid: currentUser.uid,
-      authorName: currentUser.displayName || currentUser.email,
-      authorEmail: currentUser.email,
-      created: serverTimestamp()
-    });
-    el('body').value=""; el('title').value=""; lbl(true,"Posted!");
-  }catch(e){ lbl(false,e.message); }
-};
-
-btnReq.onclick = async ()=>{
-  if(!currentUser){ return; }
-  try{
-    await addDoc(collection(db,"access_requests"),{
-      email: currentUser.email,
-      when: serverTimestamp()
-    });
-    lbl(true,"Request sent. The admin will approve your email.");
-  }catch(e){ lbl(false,e.message); }
-};
-
-onAuthStateChanged(auth, async (u)=>{
-  currentUser = u || null;
-  userChip.textContent = u ? `Signed in as ${u.displayName || u.email}` : "Signed out";
-  btnIn.style.display = u ? "none":"inline-block";
-  btnOut.style.display = u ? "inline-block":"none";
-  composer.style.display = "block";
-
-  // check allowlist
-  if(u){
-    const d = await getDoc(doc(db,"allowlist", u.email));
-    canWrite = d.exists();
-    allowNote.textContent = canWrite ? "You are approved to post 💚" : "You're signed in. Ask the admin to approve your email to post.";
-    btnReq.style.display = canWrite ? "none":"inline-block";
-  }else{
-    canWrite = false;
-    allowNote.textContent = "Sign in to write a note.";
-    btnReq.style.display = "none";
-  }
-});
-
-// Live feed
-const q = query(collection(db,"posts"), orderBy("created","desc"));
-onSnapshot(q, (snap)=>{
-  feed.innerHTML = "";
-  snap.forEach(docSnap=>{
-    const p = docSnap.data();
-    const t = p.created?.toDate ? p.created.toDate() : null;
-    const when = t ? t.toLocaleString() : "just now";
-    const div = document.createElement('div');
-    div.className="card post";
-    div.innerHTML = `
-      <div style="font-weight:700">${p.title ? p.title : "Note"}</div>
-      <div style="white-space:pre-wrap;margin-top:6px">${(p.body||"")}</div>
-      <div class="meta">by ${p.authorName||"Unknown"} • ${when}</div>
-    `;
-    feed.appendChild(div);
-  });
-});
-
-// Export JSON backup
-el('btnExport').onclick = async ()=>{
-  const docs = await getDocs(q);
-  const items = docs.docs.map(d=>({id:d.id,...d.data(), created: d.data().created?.toMillis?.()||null}));
-  const blob = new Blob([JSON.stringify(items,null,2)], {type:"application/json"});
-  const a = document.createElement('a');
-  a.href = URL.createObjectURL(blob);
-  a.download = "pixie_posts.json";
-  a.click();
-  URL.revokeObjectURL(a.href);
-};
-</script>
 </body>
 </html>
