@@ -102,5 +102,24 @@
     </div>
 
   </div>
+<!-- 🧱👰🧱 Pewpi Emoji Login Embed -->
+<script>
+(function () {
+  // Check admin login flag set by pewpi-emoji-login
+  try {
+    const logged = JSON.parse(localStorage.getItem("pewpi_admin_logged"));
+    if (logged === true) {
+      document.documentElement.classList.add("pewpi-admin");
+      console.log("🧱👰🧱 Pewpi admin unlocked");
+    }
+  } catch (e) {}
+})();
+</script>
+
+<style>
+/* Admin-gated UI */
+.admin-only { display: none; }
+.pewpi-admin .admin-only { display: block; }
+</style>
 </body>
 </html>
