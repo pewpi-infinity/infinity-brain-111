@@ -126,27 +126,19 @@
 
 
 
+
 <!-- PEWPI_LOGIN_START -->
-<section class="card" id="pewpi-login-card">
+<section class="card">
   <strong>🔐 Pewpi Login</strong>
-  <p style="opacity:.7">Admin access</p>
-  <button onclick="pewpiLogin()" style="padding:10px 14px;border-radius:12px;">Login</button>
+  <button onclick="location.href=`https://pewpi-infinity.github.io/pewpi-emoji-login/?redirect=${location.origin}${location.pathname}?admin=1`">Login</button>
 </section>
 <script>
-function pewpiLogin(){
-  localStorage.setItem("pewpi_return_expected","1");
-  window.location.href="https://pewpi-infinity.github.io/pewpi-emoji-login/?redirect="+encodeURIComponent(location.origin+location.pathname);
-}
 (function(){
-  const cameBack = localStorage.getItem("pewpi_return_expected")==="1";
-  if(cameBack){
-    localStorage.removeItem("pewpi_return_expected");
-    localStorage.setItem("pewpi_admin_logged","true");
+  const p=new URLSearchParams(location.search);
+  if(p.get("admin")==="1"){
     document.documentElement.classList.add("pewpi-admin");
-    console.log("🧱👰🧱 Pewpi return detected — admin unlocked");
-  }
-  if(localStorage.getItem("pewpi_admin_logged")==="true"){
-    document.documentElement.classList.add("pewpi-admin");
+    console.log("🧱👰🧱 ADMIN UNLOCKED (URL FLAG)");
+    history.replaceState({},,location.pathname);
   }
 })();
 </script>
