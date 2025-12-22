@@ -1,11 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- INFINITY_MASTER -->
-<meta name="infinity-status" content="👑">
-<meta name="infinity-master" content="https://pewpi-infinity.github.io/infinity-brain-111/">
-<!-- /INFINITY_MASTER -->
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Pixie 🌸</title>
@@ -127,23 +122,27 @@
 .pewpi-admin .admin-only { display: block; }
 </style>
 
-
-
-
-
-
 <!-- PEWPI_LOGIN_START -->
-<section class="card">
+<section class="card" id="pewpi-login-card">
   <strong>🔐 Pewpi Login</strong>
-  <button onclick="location.href=`https://pewpi-infinity.github.io/pewpi-emoji-login/?redirect=${location.origin}${location.pathname}?admin=1`">Login</button>
+  <p style="opacity:.7">Admin access via Pewpi</p>
+  <button onclick="pewpiLogin()" style="padding:10px 14px;border-radius:12px;">Login</button>
 </section>
+
 <script>
+function pewpiLogin(){
+  window.location.href = "https://pewpi-infinity.github.io/pewpi-emoji-login/?redirect=" + encodeURIComponent(window.location.href);
+}
 (function(){
-  const p=new URLSearchParams(location.search);
-  if(p.get("admin")==="1"){
+  const params = new URLSearchParams(window.location.search);
+  if(params.get("admin")==="1"){
+    localStorage.setItem("pewpi_admin_logged","true");
     document.documentElement.classList.add("pewpi-admin");
-    console.log("🧱👰🧱 ADMIN UNLOCKED (URL FLAG)");
-    history.replaceState({},,location.pathname);
+    history.replaceState({}, "", window.location.pathname);
+    console.log("🧱👰🧱 Pewpi admin unlocked");
+  }
+  if(localStorage.getItem("pewpi_admin_logged")==="true"){
+    document.documentElement.classList.add("pewpi-admin");
   }
 })();
 </script>
