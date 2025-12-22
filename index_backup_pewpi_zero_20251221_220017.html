@@ -125,7 +125,6 @@
 
 
 
-
 <!-- PEWPI_LOGIN_START -->
 <section class="card" id="pewpi-login-card">
   <strong>🔐 Pewpi Login</strong>
@@ -134,16 +133,16 @@
 </section>
 <script>
 function pewpiLogin(){
-  localStorage.setItem("pewpi_return_expected","1");
-  window.location.href="https://pewpi-infinity.github.io/pewpi-emoji-login/?redirect="+encodeURIComponent(location.origin+location.pathname);
+  const r = encodeURIComponent(window.location.origin + window.location.pathname);
+  window.location.href = "https://pewpi-infinity.github.io/pewpi-emoji-login/?redirect=" + r;
 }
 (function(){
-  const cameBack = localStorage.getItem("pewpi_return_expected")==="1";
-  if(cameBack){
-    localStorage.removeItem("pewpi_return_expected");
+  const p = new URLSearchParams(window.location.search);
+  if(p.has("admin")){
     localStorage.setItem("pewpi_admin_logged","true");
     document.documentElement.classList.add("pewpi-admin");
-    console.log("🧱👰🧱 Pewpi return detected — admin unlocked");
+    history.replaceState({}, "", window.location.pathname);
+    console.log("🧱👰🧱 Pewpi admin unlocked");
   }
   if(localStorage.getItem("pewpi_admin_logged")==="true"){
     document.documentElement.classList.add("pewpi-admin");
