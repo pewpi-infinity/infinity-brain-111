@@ -122,20 +122,21 @@
 .pewpi-admin .admin-only { display: block; }
 </style>
 
+
 <!-- PEWPI_LOGIN_START -->
 <section class="card" id="pewpi-login-card">
   <strong>🔐 Pewpi Login</strong>
-  <p style="opacity:.7">Admin access via Pewpi</p>
+  <p style="opacity:.7">Admin access</p>
   <button onclick="pewpiLogin()" style="padding:10px 14px;border-radius:12px;">Login</button>
 </section>
-
 <script>
 function pewpiLogin(){
-  window.location.href = "https://pewpi-infinity.github.io/pewpi-emoji-login/?redirect=" + encodeURIComponent(window.location.href);
+  const r = encodeURIComponent(window.location.origin + window.location.pathname);
+  window.location.href = "https://pewpi-infinity.github.io/pewpi-emoji-login/?redirect=" + r;
 }
 (function(){
-  const params = new URLSearchParams(window.location.search);
-  if(params.get("admin")==="1"){
+  const p = new URLSearchParams(window.location.search);
+  if(p.has("admin")){
     localStorage.setItem("pewpi_admin_logged","true");
     document.documentElement.classList.add("pewpi-admin");
     history.replaceState({}, "", window.location.pathname);
