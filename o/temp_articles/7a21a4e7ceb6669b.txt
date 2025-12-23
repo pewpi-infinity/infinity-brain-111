@@ -1,0 +1,73 @@
+TERMS: fusion, plasma, singularity
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/kKoUvkFnL3eITB04/4eMUMrOX9E</id>
+  <title>arXiv Query: search_query=all:fusion AND all:plasma AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:22:28Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:fusion+AND+(all:plasma+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>32</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/plasm-ph/9608002v1</id>
+    <title>Magnetohydrodynamic equilibria of a cylindrical plasma with poloidal mass flow and arbitrary cross section shape</title>
+    <updated>1996-08-27T16:42:17Z</updated>
+    <link href="https://arxiv.org/abs/plasm-ph/9608002v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/plasm-ph/9608002v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The equilibrium of a cylindrical plasma with purely poloidal mass flow and cross section of arbitrary shape is investigated within the framework of the ideal MHD theory. For the system under consideration it is shown that only incompressible flows are possible and, conscequently, the general two dimensional flow equilibrium equations reduce to a single second-order quasilinear partial differential equation for the poloidal magnetic flux function $ψ$, in which four profile functionals of $ψ$ appear. Apart from a singularity occuring when the modulus of Mach number associated with the Alfvén velocity for the poloidal magnetic field is unity, this equation is always elliptic and permits the construction of several classes of analytic solutions. Specific exact equlibria for a plasma confined within a perfectly conducting circular cylindrical boundary and having i) a flat current density and ii) a peaked current density are obtained and studied.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1996-08-27T16:42:17Z</published>
+    <arxiv:comment>Accepted to Plasma Physics &amp; Controlled Fusion, 14 pages, revtex</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>G. N. Throumoulopoulos</name>
+      <arxiv:affiliation>Theoretical Physics Section, University of Ioannina, Greece</arxiv:affiliation>
+    </author>
+    <author>
+      <name>G. Pantis</name>
+      <arxiv:affiliation>Theoretical Physics Section, University of Ioannina, Greece</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1088/0741-3335/38/10/009</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0741-3335/38/10/009" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1506.01843v1</id>
+    <title>The mathematical theory of reduced MHD models for fusion plasmas</title>
+    <updated>2015-06-05T09:49:25Z</updated>
+    <link href="https://arxiv.org/abs/1506.01843v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1506.01843v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The derivation of reduced MHD models for fusion plasma is here formulated as a special instance of the general theory of singular limit of hyperbolic system of PDEs with large operator. This formulation allows to use the general results of this theory and to prove rigorously that reduced MHD models are valid approximations of the full MHD equations. In particular, it is proven that the solutions of the full MHD system converge to the solutions of an appropriate reduced model.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.flu-dyn" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-06-05T09:49:25Z</published>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>Hervé Guillard</name>
+      <arxiv:affiliation>CASTOR, JAD</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/physics/0206006v3</id>
+    <title>An equilibrium model for RFP plasmas in the presence of resonant tearing modes</title>
+    <updated>2002-12-02T14:09:44Z</updated>
+    <link href="https://arxiv.org/abs/physics/0206006v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/physics/0206006v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The equilibrium of a finite-beta RFP plasma in the presence of saturated-amplitude tearing modes is investigated. The singularities of the MHD force balance equation JXB=grad(p) at the modes rational surfaces are resolved through a proper regularization of the zeroth-order (equilibrium) profiles, by setting to zero there the gradient of the pressure and parallel current density. An equilibrium model, which satisfies the regularization rule at the various rational surfaces, is developed. The comparison with the experimental data from the Reversed Field eXperiment (RFX) gives encouraging results. The model provides an easy tool for magnetic analysis: many aspects of the perturbations can be analyzed and reconstructed.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-06-03T16:28:33Z</published>
+    <arxiv:comment>Final accepted version. 36 pages</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <arxiv:journal_ref>Plasma Physics and Controlled Fusion, vol. 45 (2003), p. 1-26</arxiv:journal_ref>
+    <author>
+      <name>P. Zanca</name>
+    </author>
+    <author>
+      <name>F. Sattin</name>
+    </author>
+    <arxiv:doi>10.1088/0741-3335/45/1/301</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0741-3335/45/1/301" title="doi"/>
+  </entry>
+</feed>

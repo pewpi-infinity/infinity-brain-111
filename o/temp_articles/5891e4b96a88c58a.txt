@@ -1,0 +1,30 @@
+TERMS: entropy, graphene, probability
+COLORS: red, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Egy+7VTCI2KamtDBQ0xQYHt4Zzc</id>
+  <title>arXiv Query: search_query=all:entropy AND all:graphene AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:18:44Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+(all:graphene+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2407.17871v1</id>
+    <title>Two-strand ladder network variants: localization, multifractality, and quantum dynamics under an Aubry-André-Harper kind of quasiperiodicity</title>
+    <updated>2024-07-25T08:43:48Z</updated>
+    <link href="https://arxiv.org/abs/2407.17871v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.17871v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we demonstrate, using a couple of variants of a two-strand ladder network that, a quasiperiodic Aubry-André-Harper (AAH) modulation applied to the vertical strands, mimicking a deterministic distortion in the network, can give rise to certain exotic features in the electronic spectrum of such systems. While, for the simplest ladder network all the eigenstates become localized as the modulation strength crosses a threshold, for the second variant, modelling an ultrathin graphene nano-ribbon, the central part of the energy spectrum remains populated by extended wavefunctions. The multifractal character in the energy spectrum is observed for both these networks close to the critical values of the modulation. We substantiate our findings also by studying the quantum dynamics of a wave packet on such decorated lattices. Interestingly, while the mean square displacement (MSD) changes in the usual manner in a pure two-strand ladder network as the modulation strength varies, for the ultrathin graphene nanoribbon the temporal behaviour of the MSD remains unaltered only up to a strong modulation strength. This, we argue, is due to the extendedness of the wavefunction at the central part of the energy spectrum. Other measurements like the return probability, temporal autocorrelation function, the time dependence of the inverse participation ratio, and the information entropy are calculated for both networks with different modulation strengths and corroborate our analytical findings.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-25T08:43:48Z</published>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Physica B: Condensed Matter (2024): 416705</arxiv:journal_ref>
+    <author>
+      <name>Sougata Biswas</name>
+    </author>
+    <arxiv:doi>10.1016/j.physb.2024.416705</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physb.2024.416705" title="doi"/>
+  </entry>
+</feed>

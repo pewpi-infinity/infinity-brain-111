@@ -1,0 +1,63 @@
+TERMS: probability, singularity
+COLORS: green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/q4J2rn8XyUkMFBxkkYZjTaswMRw</id>
+  <title>arXiv Query: search_query=all:probability AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:01:13Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:probability+AND+all:singularity&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>3678</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1003.3726v2</id>
+    <title>Escape probabilities for branching Brownian motion among mild obstacles</title>
+    <updated>2011-01-17T13:26:21Z</updated>
+    <link href="https://arxiv.org/abs/1003.3726v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1003.3726v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We derive asymptotics for the quenched probability that a critical branching Brownian motion killed at a small rate in Poissonian obstacles exits a large domain. Results are formulated in terms of the solution to a semilinear partial differential equation with singular boundary conditions. The proofs depend on a quenched homogenization theorem for branching Brownian motion among mild obstacles.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-03-19T06:56:31Z</published>
+    <arxiv:comment>24 pages, to appear in Journal of Theoretical Probability</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Jean-Francois Le Gall</name>
+    </author>
+    <author>
+      <name>Amandine Veber</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2411.17577v1</id>
+    <title>On the singularity probability of random circulant Bernoulli matrices</title>
+    <updated>2024-11-26T16:41:59Z</updated>
+    <link href="https://arxiv.org/abs/2411.17577v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.17577v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A complete characterization of the asymptotic singularity probability of random circulant Bernoulli matrices is given for all values of the probability parameter.</summary>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-26T16:41:59Z</published>
+    <arxiv:comment>15 pages</arxiv:comment>
+    <arxiv:primary_category term="math.CO"/>
+    <author>
+      <name>Niklas Miller</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1701.01248v4</id>
+    <title>Estimates for Invariant Probability Measures of Degenerate SPDEs with Singular and Path-Dependent Drifts</title>
+    <updated>2018-01-25T09:39:32Z</updated>
+    <link href="https://arxiv.org/abs/1701.01248v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1701.01248v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In terms of a nice reference probability measure, integrability conditions on the path-dependent drift are presented for (infinite-dimensional) degenerate PDEs to have regular positive solutions. To this end, the corresponding stochastic (partial) differential equations are proved to possess the weak existence and uniqueness of solutions, as well as the existence, uniqueness and entropy estimates of invariant probability measures. When the reference measure satisfies the log-Sobolev inequality, Sobolev estimates are derived for the density of invariant probability measures. Some results are new even for non-degenerate SDEs with path-independent drifts. The main results are applied to nonlinear functional SPDEs and degenerate functional SDEs/SPDEs.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-01-05T08:51:07Z</published>
+    <arxiv:comment>32 pages</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <arxiv:journal_ref>Probability Theory and Related Fields 2018</arxiv:journal_ref>
+    <author>
+      <name>Feng-Yu Wang</name>
+    </author>
+  </entry>
+</feed>

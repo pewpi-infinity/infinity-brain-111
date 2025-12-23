@@ -1,0 +1,74 @@
+TERMS: wavefunction, graphene, probability
+COLORS: yellow, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/P+Tuae1R+OfvWM6l9clsXy+ET3I</id>
+  <title>arXiv Query: search_query=all:wavefunction AND all:graphene AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:33:17Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:wavefunction+AND+(all:graphene+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>13</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1301.4960v1</id>
+    <title>Dirac-Schrodinger transformations in contacted graphene structures</title>
+    <updated>2013-01-21T18:55:45Z</updated>
+    <link href="https://arxiv.org/abs/1301.4960v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1301.4960v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>At an interface between contacts and graphene, the mathematical equation that governs the propagation of electrons transforms from the Schrodinger to the Dirac equation. The condition of current probability conservation at such an interface does not determine uniquely the boundary conditions for the quantum wavefunction. We discuss the possible form of boundary conditions, determine its influence on the transmission coefficient of a contacted graphene structure and suggest that optical experiments on photonic crystals with Dirac points can help identifying, under certain circumstances, the proper boundary condition at graphene- electrode interfaces.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-01-21T18:55:45Z</published>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>Daniela Dragoman</name>
+    </author>
+    <arxiv:doi>10.1063/1.4808904</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/1.4808904" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1006.3136v2</id>
+    <title>Electronic properties of a graphene antidot in magnetic fields</title>
+    <updated>2010-09-07T04:01:17Z</updated>
+    <link href="https://arxiv.org/abs/1006.3136v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1006.3136v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We report on several unusual properties of a graphene antidot created by a piecewise constant potential in a magnetic field. We find that the total probability of finding the electron in the barrier can be nearly one while it is almost zero outside the barrier. In addition, for each electron state of a graphene antidot there is a dot state with exactly the same wavefunction but with a different energy. This symmetry is a consequence of Klein tunneling of Dirac electrons. Moreover, in zigzag nanoribbons we find strong coupling between some antidot states and zigzag edge states. Experimental tests of these effects are proposed.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-06-16T06:18:57Z</published>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Journal of Physics: Condensed Matter 22 375302 (2010)</arxiv:journal_ref>
+    <author>
+      <name>P. S. Park</name>
+    </author>
+    <author>
+      <name>S. C. Kim</name>
+    </author>
+    <author>
+      <name>S. -R. Eric Yang</name>
+    </author>
+    <arxiv:doi>10.1088/0953-8984/22/37/375302</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0953-8984/22/37/375302" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1812.10148v1</id>
+    <title>Transport Properties in Graphene Superlattices</title>
+    <updated>2018-12-25T18:38:19Z</updated>
+    <link href="https://arxiv.org/abs/1812.10148v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1812.10148v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Using Chebyshev polynomials, we study the electronic transport properties of massless Dirac fermions in symmetrical graphene superlattice composed of three regions. Matching wavefunctions and using transfer matrix method, we explicitly determine transmission probability as well as the conductance and Fano factor. At vertical Dirac points, we numerically find that the transmission probability shows transmission gaps, conductance has minimums and Fano factor has maximums.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-12-25T18:38:19Z</published>
+    <arxiv:comment>17 pages, 13 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>El Bouâzzaoui Choubabi</name>
+    </author>
+    <author>
+      <name>Abdellatif Kamal</name>
+    </author>
+    <author>
+      <name>Ahmed Jellal</name>
+    </author>
+  </entry>
+</feed>

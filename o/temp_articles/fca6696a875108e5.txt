@@ -1,0 +1,84 @@
+TERMS: crystal, bandgap, vacuum
+COLORS: orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/SGHREyJji5W+v4vLJMQu/v5QrQo</id>
+  <title>arXiv Query: search_query=all:crystal AND all:bandgap AND all:vacuum&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:28:49Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:crystal+AND+(all:bandgap+AND+all:vacuum)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>23</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1401.1493v1</id>
+    <title>Two-dimensional phononic-photonic bandgap optomechanical crystal cavity</title>
+    <updated>2014-01-07T20:40:05Z</updated>
+    <link href="https://arxiv.org/abs/1401.1493v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1401.1493v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present the fabrication and characterization of an artificial crystal structure formed from a thin-film of silicon which has a full phononic bandgap for microwave X-band phonons and a two-dimensional pseudo-bandgap for near-infrared photons. An engineered defect in the crystal structure is used to localize optical and mechanical resonances in the bandgap of the planar crystal. Two-tone optical spectroscopy is used to characterize the cavity system, showing a large vacuum coupling rate of 220kHz between the fundamental optical cavity resonance at 195THz and a co-localized mechanical resonance at 9.3GHz.</summary>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-01-07T20:40:05Z</published>
+    <arxiv:comment>4 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.optics"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 112, 153603 (2014)</arxiv:journal_ref>
+    <author>
+      <name>Amir H. Safavi-Naeini</name>
+    </author>
+    <author>
+      <name>Jeff T. Hill</name>
+    </author>
+    <author>
+      <name>Sean Meenehan</name>
+    </author>
+    <author>
+      <name>Jasper Chan</name>
+    </author>
+    <author>
+      <name>Simon Groeblacher</name>
+    </author>
+    <author>
+      <name>Oskar Painter</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.112.153603</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.112.153603" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1504.06803v1</id>
+    <title>Cavity quantum electrodynamics with three-dimensional photonic bandgap crystals</title>
+    <updated>2015-04-26T11:32:29Z</updated>
+    <link href="https://arxiv.org/abs/1504.06803v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1504.06803v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper gives an overview of recent work on three-dimensional (3D) photonic crystals with a "full and complete" 3D photonic band gap. We review five main aspects: 1) spontaneous emission inhibition, 2) spatial localization of light within a tiny nanoscale volume (aka "a nanobox for light"), 3) the introduction of a gain medium leading to thresholdless lasers, 4) breaking of the weak-coupling approximation of cavity QED, both in the frequency and in the time-domain, 5) decoherence, in particular the shielding of vacuum fluctuations by a 3D photonic bandgap. In addition, we list and evaluate all known photonic crystal structures with a demonstrated 3D band gap.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-04-26T11:32:29Z</published>
+    <arxiv:comment>21 pages, 6 figures, 2 tables, Chapter 8 in "Light Localisation and Lasing: Random and Pseudorandom Photonic Structures", Eds. M. Ghulinyan and L. Pavesi (Cambridge University Press, Cambridge, 2015, ISBN 978-1-107-03877-6)</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>W. L. Vos</name>
+    </author>
+    <author>
+      <name>L. A. Woldering</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0306707v1</id>
+    <title>Radiation pattern of a classical dipole in a photonic crystal: photon focusing</title>
+    <updated>2003-06-27T18:52:30Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0306707v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0306707v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The asymptotic analysis of the radiation pattern of a classical dipole in a photonic crystal possessing an incomplete photonic bandgap is presented. The far-field radiation pattern demonstrates a strong modification with respect to the dipole radiation pattern in vacuum. Radiated power is suppressed in the direction of the spatial stopband and strongly enhanced in the direction of the group velocity, which is stationary with respect to a small variation of the wave vector. An effect of radiated power enhancement is explained in terms of \emph{photon focusing}. Numerical example is given for a square-lattice two-dimensional photonic crystal. Predictions of asymptotic analysis are substantiated with finite-difference time-domain calculations, revealing a reasonable agreement.</summary>
+    <category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-06-27T18:52:30Z</published>
+    <arxiv:comment>Submitted to Phys. Rev. E</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.soft"/>
+    <author>
+      <name>Dmitry N. Chigrin</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevE.70.056611</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevE.70.056611" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,85 @@
+TERMS: hydrogen, electron, ionization, wavefunction
+COLORS: purple, green, green, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/3WNm9qVu+FX4ZMJEh6IAgz5pq9Y</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:electron AND all:ionization AND all:wavefunction&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:55:38Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:electron+AND+(all:ionization+AND+all:wavefunction))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>14</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2107.01094v2</id>
+    <title>Conditional wavefunction theory: a unified treatment of molecular structure and nonadiabatic dynamics</title>
+    <updated>2021-07-21T09:46:45Z</updated>
+    <link href="https://arxiv.org/abs/2107.01094v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2107.01094v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We demonstrate that a conditional wavefunction theory enables a unified and efficient treatment of the equilibrium structure and nonadiabatic dynamics of correlated electron-ion systems. The conditional decomposition of the many-body wavefunction formally recasts the full interacting wavefunction of a closed system as a set of lower dimensional (conditional) coupled `slices'. We formulate a variational wavefunction ansatz based on a set of conditional wavefunction slices, and demonstrate its accuracy by determining the structural and time-dependent response properties of the hydrogen molecule. We then extend this approach to include time-dependent conditional wavefunctions, and address paradigmatic nonequilibrium processes including strong-field molecular ionization, laser driven proton transfer, and Berry phase effects induced by a conical intersection. This work paves the road for the application of conditional wavefunction theory in equilibrium and out of equilibrium ab-initio molecular simulations of finite and extended systems.</summary>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-07-02T14:17:40Z</published>
+    <arxiv:primary_category term="physics.chem-ph"/>
+    <author>
+      <name>Guillermo Albareda</name>
+    </author>
+    <author>
+      <name>Kevin Lively</name>
+    </author>
+    <author>
+      <name>Shunsuke A. Sato</name>
+    </author>
+    <author>
+      <name>Aaron Kelly</name>
+    </author>
+    <author>
+      <name>Angel Rubio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1909.07833v1</id>
+    <title>Theoretical description of the ionization processes with a discrete basis set representation of the electronic continuum</title>
+    <updated>2019-09-17T14:16:01Z</updated>
+    <link href="https://arxiv.org/abs/1909.07833v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1909.07833v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this work we present a new method of approximating the continuum wavefunctions with a discrete basis set. This method aims to be at least compatible with other well known methods of the electronic structure theory to describe processes in the electronic continuum. As an example of the application we present the results of the calculations of the photoionization cross sections for the hydrogen atom and hydrogen molecule and for the helium atom. We also obtained the photoelectron angular distribution for the hydrogen molecule. The agreement of our results with the experimental data is very good in the energy range from the ionization threshold up to photon energies of about 60 eV.</summary>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-09-17T14:16:01Z</published>
+    <arxiv:primary_category term="physics.chem-ph"/>
+    <author>
+      <name>Mateusz S. Szczygieł</name>
+    </author>
+    <author>
+      <name>Michał Lesiuk</name>
+    </author>
+    <author>
+      <name>Robert Moszynski</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1304.4133v2</id>
+    <title>Photoionization of hydrogen atom by coherent intense high-frequency short laser pulses: Direct propagation of electron wave packets on large spatial grids</title>
+    <updated>2013-06-05T18:13:36Z</updated>
+    <link href="https://arxiv.org/abs/1304.4133v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1304.4133v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The time-dependent Schrödinger equation for the hydrogen atom and its interaction with coherent intense high-frequency short laser pulses is solved numerically exactly by propagating the single-electron wave packets. Thereby, the wavefunction is followed in space and time for times longer than the pulse duration. Results are explicitly shown for 3 and 10 fs pulses. Particular attention is paid to identifying the effect of dynamic interference of photoelectrons emitted with the same kinetic energy at different times during the rising and falling sides of the pulse predicted in [\emph{Ph.V. Demekhin and L.S. Cederbaum}, Phys. Rev. Lett. \textbf{108}, 253001 (2012)]. In order to be able to see the dynamic interference pattern in the computed electron spectra, the photoelectron wave packet has to be propagated over long distances. Clearly, complex absorption potentials often employed to compute spectra of emitted particles cannot be used to detect dynamic interference. For the considered high-frequency pulses of 3 and 10 fs durations, this requires enormously large spatial grids. The presently computed photoionization and above-threshold ionization spectra are found to exhibit pronounced dynamic interference patterns. Where available, the patterns are in very good agreement with previously published results on the photoionization spectra which have been computed using a completely different method, thus supporting the previously made assumption that the above-threshold ionization processes are very weak for the considered pulse intensities and high carrier frequency. The quiver motion in space and time of a free electron in strong laser pulses is also investigated numerically. Finally, a discussion is presented of how fast the atom is ionized by an intense pulse.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-04-15T15:37:30Z</published>
+    <arxiv:comment>8 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <arxiv:journal_ref>Phys. Rev. A 88, 023422 (2013)</arxiv:journal_ref>
+    <author>
+      <name>Philipp V. Demekhin</name>
+    </author>
+    <author>
+      <name>David Hochstuhl</name>
+    </author>
+    <author>
+      <name>Lorenz S. Cederbaum</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.88.023422</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.88.023422" title="doi"/>
+  </entry>
+</feed>

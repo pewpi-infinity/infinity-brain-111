@@ -1,0 +1,52 @@
+TERMS: entropy, muon, boson
+COLORS: red, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/yNZuQ6AMqRbThKF12aK/6pwLLG0</id>
+  <title>arXiv Query: search_query=all:entropy AND all:muon AND all:boson&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:19:08Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+(all:muon+AND+all:boson)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1107.2182v1</id>
+    <title>Recent Heavy Ion Results with the ATLAS Detector at the LHC</title>
+    <updated>2011-07-12T02:49:11Z</updated>
+    <link href="https://arxiv.org/abs/1107.2182v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1107.2182v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Results are presented from the ATLAS collaboration from the 2010 LHC heavy ion run, during which nearly 10 inverse microbarns of luminosity were delivered. Soft physics results include charged particle multiplicities and collective flow. The charged particle multiplicity, which tracks initial state entropy production, increases by a factor of two relative to the top RHIC energy, with a centrality dependence very similar to that already measured at RHIC. Measurements of elliptic flow out to large transverse momentum also show similar results to what was measured at RHIC, but no significant pseudorapidity dependence. Extensions of these measurements to higher harmonics have also been made, and can be used to explain structures in the two-particle correlation functions that had long been attributed to jet-medium interactions. New hard probe measurements include single muons, jets and high $p_T$ hadrons. Single muons at high momentum are used to extract the yield of $W^{\pm}$ bosons and are found to be consistent within statistical uncertainties with binary collision scaling. Conversely, jets are found to be suppressed in central events by a factor of two relative to peripheral events, with no significant dependence on the jet energy. Fragmentation functions are also found to be the same in central and peripheral events. Finally, charged hadrons have been measured out to 30 GeV, and their centrality dependence relative to peripheral events is similar to that found for jets.</summary>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-07-12T02:49:11Z</published>
+    <arxiv:comment>9 pages, 9 figures, proceedings for Quark Matter 2011, Annecy, France, May 23-28, 2011</arxiv:comment>
+    <arxiv:primary_category term="nucl-ex"/>
+    <author>
+      <name>Peter Steinberg</name>
+    </author>
+    <author>
+      <name>ATLAS Collaboration</name>
+    </author>
+    <arxiv:doi>10.1088/0954-3899/38/12/124004</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0954-3899/38/12/124004" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1110.3352v1</id>
+    <title>Recent Heavy Ion Results with the ATLAS Detector at the LHC</title>
+    <updated>2011-10-14T22:35:43Z</updated>
+    <link href="https://arxiv.org/abs/1110.3352v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1110.3352v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Results are presented from the ATLAS collaboration from the 2010 LHC heavy ion run, during which nearly 10 inverse microbarns of luminosity were delivered. Soft physics results include final charged particle multiplicities and collective flow (including final elliptic flow results). The charged particle multiplicity, which tracks initial state entropy production, increases by a factor of two relative to the top RHIC energy, with a centrality dependence close to that already measured at RHIC. Measurements of elliptic flow out to large transverse momentum also show similar results to what was measured at RHIC, but no significant pseudorapidity dependence. Comparisons are made with elliptic flow predicted using energy loss calculations. Extensions of these measurements to higher harmonics have also been made, and can be used to explain novel structures in the two-particle correlation functions that had long been attributed to jet-medium interactions. New hard probe measurements include single muons, jets and high p_T hadrons. Single muons at high momentum can be used to extract the yield of W\pm bosons and are found to be consistent within statistical uncertainties with a scaling with binary collisions. Conversely, jets are found to be suppressed in central events by a factor of approximately two relative to peripheral events, with no significant dependence on the jet energy. Fragmentation functions are also found to be the same in central and peripheral events. Update asymmetry results confirm previous ATLAS measurements with increased statistics, and multiple jet cone sizes are presented. Finally, charged hadrons have been measured out to 30 GeV, and their centrality dependence relative to peripheral events is found to be similar to that found for jets.</summary>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-10-14T22:35:43Z</published>
+    <arxiv:comment>11 pages, proceedings of DPF 2011, Providence, RI, August 9-13, 2011</arxiv:comment>
+    <arxiv:primary_category term="nucl-ex"/>
+    <author>
+      <name>P. Steinberg</name>
+    </author>
+    <author>
+      <name>ATLAS Collaboration</name>
+    </author>
+  </entry>
+</feed>

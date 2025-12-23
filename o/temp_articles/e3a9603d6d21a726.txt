@@ -1,0 +1,57 @@
+TERMS: vapor, neutrino, plasma
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/4FFOpSUr4UXw2BxiTn901gCRBxo</id>
+  <title>arXiv Query: search_query=all:vapor AND all:neutrino AND all:plasma&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:26:47Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:vapor+AND+(all:neutrino+AND+all:plasma)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2011.06817v1</id>
+    <title>A practical approach of high precision U and Th concentration measurement in acrylic</title>
+    <updated>2020-11-13T09:17:03Z</updated>
+    <link href="https://arxiv.org/abs/2011.06817v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2011.06817v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Jiangmen Underground Neutrino Observatory will build the world's largest liquid scintillator detector to study neutrinos from various sources. The 20 kt liquid scintillator will be stored in a $\sim$600 t acrylic sphere with 35.4 m diameter due to the good light transparency, chemical compatibility and low radioactivity of acrylic. The concentration of U/Th in acrylic is required to be less than 1 ppt (10$^{-12}$ g/g) to achieve a low radioactive background in the fiducial volume of the JUNO detector. The mass production of acrylic has started, and the quality control requires a fast and reliable radioassay on U/Th in acrylic. We have developed a practical method of measuring U/Th in acrylic to sub-ppt level using the Inductively Coupled Plasma Mass Spectrometer (ICP-MS). The U/Th in acrylic can be concentrated by vaporizing acrylic in a class 100 environment, and the residue will be collected and sent to ICP-MS for measuring U/Th. All the other chemical operation is done in a class 100 clean room, and the ICP-MS measurement is done in a class 1000 clean room. The recovery efficiency is studied by adding the natural nonexistent nuclei $^{229}$Th and $^{233}$U as the tracers. The resulting method detection limit (MDL) with 99% confidence can reach 0.02/0.06 pg $^{238}$U/$^{232}$Th /g acrylic with $\sim$75% recovery efficiency. This equipment and method can not only be used for the quality control of JUNO acrylic, but also be further optimized for the radioassay on other materials with extremely low radioactivity, such as ultra-pure water and liquid scintillator.</summary>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-11-13T09:17:03Z</published>
+    <arxiv:primary_category term="physics.ins-det"/>
+    <author>
+      <name>Chuanya Cao</name>
+    </author>
+    <author>
+      <name>Nan Li</name>
+    </author>
+    <author>
+      <name>Xiaoyu Yang</name>
+    </author>
+    <author>
+      <name>Jie Zhao</name>
+    </author>
+    <author>
+      <name>Yuanxia Li</name>
+    </author>
+    <author>
+      <name>Zhiyan Cai</name>
+    </author>
+    <author>
+      <name>Liangjian Wen</name>
+    </author>
+    <author>
+      <name>Xiaolan Luo</name>
+    </author>
+    <author>
+      <name>Yuekun Heng</name>
+    </author>
+    <author>
+      <name>Yayun Ding</name>
+    </author>
+    <arxiv:doi>10.1016/j.nima.2021.165377</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.nima.2021.165377" title="doi"/>
+  </entry>
+</feed>

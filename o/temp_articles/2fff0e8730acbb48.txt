@@ -1,0 +1,77 @@
+TERMS: hydrogen, quantum, plasma, oxidation
+COLORS: purple, blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/fs61dcErGCQzg5APNs9/SvIBj1E</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:plasma AND all:oxidation&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:41:33Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:plasma+AND+all:oxidation))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2206.15358v1</id>
+    <title>Surface Passivation of III-V GaAs Nanopillars by Low Frequency Plasma Deposition of Silicon Nitride for Active Nanophotonic Devices</title>
+    <updated>2022-06-30T15:32:45Z</updated>
+    <link href="https://arxiv.org/abs/2206.15358v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2206.15358v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Numerous efforts have been devoted to improve the electronic and optical properties of III-V compound materials via reduction of their nonradiative states, aiming at highly-efficient III-V sub-micrometer devices. Despite many advances, there is still a controversial debate on which combination of chemical treatment and capping dielectric layer can best reproducibly protect the crystal surface of III-Vs, while being compatible with readily available plasma deposition methods. This work reports on a systematic experimental study on the role of sulfide ammonium chemical treatment followed by dielectric coating in the passivation effect of GaAs/AlGaAs nanopillars. Our results conclusively show that the best surface passivation is achieved using ammonium sulfide followed by encapsulation with a thin layer of silicon nitride by low frequency plasma enhanced chemical deposition. Here, the sulfurized GaAs surfaces, the high level of hydrogen ions and the low frequency (380 kHz) excitation plasma that enable intense bombardment of hydrogen, all seem to provide a combined active role in the passivation mechanism of the pillars. We observe up to a 29-fold increase of the photoluminescence (PL) integrated intensity for the best samples as compared to untreated nanopillars. X-ray photoelectron spectroscopy analysis confirms the best treatments show remarkable removal of gallium and arsenic native oxides. Time-resolved micro-PL measurements display nanosecond lifetimes resulting in a record-low surface recombination velocity for dry etched GaAs nanopillars. We achieve robust, stable and long-term passivated nanopillar surfaces which creates expectations for remarkable high internal quantum efficiency (IQE&gt;0.5) in nanoscale light-emitting diodes. The enhanced performance paves the way to many other nanostructures and devices such as miniature resonators, lasers, photodetectors and solar cells.</summary>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-06-30T15:32:45Z</published>
+    <arxiv:comment>32 pages, 1 table, 7 figures, supporting information</arxiv:comment>
+    <arxiv:primary_category term="physics.optics"/>
+    <author>
+      <name>Bejoys Jacob</name>
+    </author>
+    <author>
+      <name>Filipe Camarneiro</name>
+    </author>
+    <author>
+      <name>Jérôme Borme</name>
+    </author>
+    <author>
+      <name>Oleksandr Bondarchuk</name>
+    </author>
+    <author>
+      <name>Jana B. Nieder</name>
+    </author>
+    <author>
+      <name>Bruno Romeira</name>
+    </author>
+    <arxiv:doi>10.1021/acsaelm.2c00195</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1021/acsaelm.2c00195" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2403.03534v1</id>
+    <title>Characterization of the low electric field and zero-temperature two-level-system loss in hydrogenated amorphous silicon</title>
+    <updated>2024-03-06T08:27:53Z</updated>
+    <link href="https://arxiv.org/abs/2403.03534v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.03534v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Two-level systems (TLS) are an important, if not dominant, source of loss and noise for superconducting resonators such as those used in kinetic inductance detectors and some quantum information science platforms. They are similarly important for loss in photolithographically fabricated superconducting mm-wave/THz transmission lines. For both lumped-element and transmission-line structures, native amorphous surface oxide films are typically the sites of such TLS in non-microstripline geometries, while loss in the (usually amorphous) dielectric film itself usually dominates in microstriplines. We report here on the demonstration of low TLS loss at GHz frequencies in hydrogenated amorphous silicon (a-Si:H) films deposited by plasma-enhanced chemical vapor deposition in superconducting lumped-element resonators using parallel-plate capacitors (PPCs). The values we obtain from two recipes in different deposition machines, 7$\,\times\,10^{-6}$ and 12$\,\times\,10^{-6}$, improve on the best achieved in the literature by a factor of 2--4 for a-Si:H and are comparable to recent measurements of amorphous germanium. Moreover, we have taken care to extract the true zero-temperature, low-field loss tangent of these films, accounting for temperature and field saturation effects that can yield misleading results. Such robustly fabricated and characterized films render the use of PPCs with deposited amorphous films a viable architecture for superconducting resonators, and they also promise extremely low loss and high quality factor for photolithographically fabricated superconducting mm-wave/THz transmission lines used in planar antennas and resonant filters.</summary>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-06T08:27:53Z</published>
+    <arxiv:primary_category term="physics.ins-det"/>
+    <arxiv:journal_ref>Phys.Rev.Mater. 8 (2024) 035602</arxiv:journal_ref>
+    <author>
+      <name>Fabien Defrance</name>
+    </author>
+    <author>
+      <name>Andrew D. Beyer</name>
+    </author>
+    <author>
+      <name>Shibo Shu</name>
+    </author>
+    <author>
+      <name>Jack Sayers</name>
+    </author>
+    <author>
+      <name>Sunil R. Golwala</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevMaterials.8.035602</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevMaterials.8.035602" title="doi"/>
+  </entry>
+</feed>

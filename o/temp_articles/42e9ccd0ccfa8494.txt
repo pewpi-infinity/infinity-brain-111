@@ -1,0 +1,94 @@
+TERMS: entropy, electron, resonance
+COLORS: red, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/v7YpD4M2pgf3I3bwPF4fxxmUCIU</id>
+  <title>arXiv Query: search_query=all:entropy AND all:electron AND all:resonance&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:17:05Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+(all:electron+AND+all:resonance)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>64</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1003.0468v1</id>
+    <title>Entropy, fidelity, and double orthogonality for resonance states in two-electron quantum dots</title>
+    <updated>2010-03-01T22:21:39Z</updated>
+    <link href="https://arxiv.org/abs/1003.0468v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1003.0468v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Resonance states of a two-electron quantum dot are studied using a variational expansion with both real basis-set functions and complex scaling methods. The two-electron entanglement (linear entropy) is calculated as a function of the electron repulsion at both sides of the critical value, where the ground (bound) state becomes a resonance (unbound) state. The linear entropy and fidelity and double orthogonality functions are compared as methods for the determination of the real part of the energy of a resonance. The complex linear entropy of a resonance state is introduced using complex scaling formalism.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-03-01T22:21:39Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Phys. Rev. A 81, 042518 (2010)</arxiv:journal_ref>
+    <author>
+      <name>Federico M. Pont</name>
+    </author>
+    <author>
+      <name>Omar Osenda</name>
+    </author>
+    <author>
+      <name>Pablo Serra</name>
+    </author>
+    <author>
+      <name>Julio H. Toloza</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.81.042518</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.81.042518" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1512.08450v1</id>
+    <title>Quantization of entropy in a quasi-two-dimensional electron gas</title>
+    <updated>2015-12-28T16:34:11Z</updated>
+    <link href="https://arxiv.org/abs/1512.08450v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1512.08450v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We demonstrate that the partial entropy of a two-dimensional electron gas (2DEG) exhibits quantized peaks at resonances between the chemical potential and electron levels of size quantization. In the limit of no scattering, the peaks depend only on the subband quantization number and are independent on material parameters, shape of the confining potential, electron effective mass and temperature. The quantization of partial entropy is a signature of a topological phase transition in a 2DEG. In the presence of stationary disorder, the magnitude of peaks decreases. Its deviation from the quantized values is a direct measure of the disorder induced smearing of the electronic density of states.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-12-28T16:34:11Z</published>
+    <arxiv:comment>4 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Phys. Rev. B 93, 155404 (2016)</arxiv:journal_ref>
+    <author>
+      <name>A. A. Varlamov</name>
+    </author>
+    <author>
+      <name>A. V. Kavokin</name>
+    </author>
+    <author>
+      <name>Yu. M. Galperin</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.93.155404</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.93.155404" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1501.00952v1</id>
+    <title>Heat Bath Algorithmic Cooling with Spins: Review and Prospects</title>
+    <updated>2015-01-05T19:24:43Z</updated>
+    <link href="https://arxiv.org/abs/1501.00952v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1501.00952v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Application of multiple rounds of Quantum Error Correction (QEC) is an essential milestone towards the construction of scalable quantum information processing devices. However, experimental realizations of it are still in their infancy. The requirements for multiple round QEC are high control fidelity and the ability to extract entropy from ancilla qubits. Nuclear Magnetic Resonance (NMR) based quantum devices have demonstrated high control fidelity with up to 12 qubits. On the other hand, the major challenge in the NMR QEC experiment is to efficiently supply ancilla qubits in highly pure states at the beginning of each round of QEC. Purification of qubits in NMR, or in other ensemble based quantum systems can be accomplished through Heat Bath Algorithmic Cooling (HBAC). It is an efficient method for extracting entropy from qubits that interact with a heat bath, allowing cooling below the bath temperature. For practical HBAC, coupled electron-nuclear spin systems are more promising than conventional NMR quantum processors, since electron spin polarization is about $10^3$ times greater than that of a proton under the same experimental conditions. We provide an overview on both theoretical and experimental aspects of HBAC focusing on spin and magnetic resonance based systems, and discuss the prospects of exploiting electron-nuclear coupled systems for the realization of HBAC and multiple round QEC.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-01-05T19:24:43Z</published>
+    <arxiv:comment>26 pages, 17 figures. To appear in Electron Spin Quantum Computing: Electron Spin-Qubit Based Quantum Computing and Quantum Information Processing, Biological Magnetic Resonance Vol. 31 (2015)</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Daniel K. Park</name>
+    </author>
+    <author>
+      <name>Nayeli A. Rodriguez-Briones</name>
+    </author>
+    <author>
+      <name>Guanru Feng</name>
+    </author>
+    <author>
+      <name>Robabeh R. Darabad</name>
+    </author>
+    <author>
+      <name>Jonathan Baugh</name>
+    </author>
+    <author>
+      <name>Raymond Laflamme</name>
+    </author>
+  </entry>
+</feed>

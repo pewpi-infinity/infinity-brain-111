@@ -1,0 +1,80 @@
+TERMS: hydrogen, frequency, probability, vacuum
+COLORS: purple, green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ai5ekfBx4xRxhe9nV57OXIw+w7M</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:frequency AND all:probability AND all:vacuum&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:45:39Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:frequency+AND+(all:probability+AND+all:vacuum))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1712.05663v1</id>
+    <title>Neutron lifetime measurements with the big gravitational trap for ultracold neutrons</title>
+    <updated>2017-12-15T13:27:44Z</updated>
+    <link href="https://arxiv.org/abs/1712.05663v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1712.05663v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Neutron lifetime is one of the most important physical constants which determines parameters of the weak interaction and predictions of primordial nucleosynthesis theory. There remains the unsolved problem of a 3.9σ discrepancy between measurements of this lifetime using neutrons in beams and those with stored neutrons (UCN). In our experiment we measure the lifetime of neutrons trapped by Earth's gravity in an open-topped vessel. Two configurations of the trap geometry are used to change the mean frequency of UCN collisions with the surfaces - this is achieved by plunging an additional surface into the trap without breaking the vacuum. The trap walls are coated with a hydrogen-less fluorine-containing polymer to reduce losses of UCN. The stability of this coating to multiple thermal cycles between 80 K and 300 K was tested. At 80 K, the probability of UCN loss due to collisions with the trap walls is just 1.5% of the probability of beta-decay. The free neutron lifetime is determined by extrapolation to an infinitely large trap with zero collision frequency. The result of these measurements is 881.5 +/- 0.7_stat +/- 0.6_syst s which is consistent with the conventional value of 880.2 +/- 1.0 s presented by the Particle Data Group. Future prospects for this experiment are in further cooling to 10 K which will lead to an improved accuracy of measurement. In conclusion we present an analysis of currently-available data on various measurements of the neutron lifetime.</summary>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-12-15T13:27:44Z</published>
+    <arxiv:comment>14 pages, 22 figures</arxiv:comment>
+    <arxiv:primary_category term="nucl-ex"/>
+    <arxiv:journal_ref>Phys. Rev. C 97, 055503 (2018)</arxiv:journal_ref>
+    <author>
+      <name>A. P. Serebrov</name>
+    </author>
+    <author>
+      <name>E . A. Kolomensky</name>
+    </author>
+    <author>
+      <name>A. K. Fomin</name>
+    </author>
+    <author>
+      <name>I. A. Krasnoschekova</name>
+    </author>
+    <author>
+      <name>A. V. Vassiljev</name>
+    </author>
+    <author>
+      <name>D. M. Prudnikov</name>
+    </author>
+    <author>
+      <name>I. V. Shoka</name>
+    </author>
+    <author>
+      <name>A. V. Chechkin</name>
+    </author>
+    <author>
+      <name>M. E. Chaikovskiy</name>
+    </author>
+    <author>
+      <name>V. E. Varlamov</name>
+    </author>
+    <author>
+      <name>S. N. Ivanov</name>
+    </author>
+    <author>
+      <name>A. N. Pirozhkov</name>
+    </author>
+    <author>
+      <name>P. Geltenbort</name>
+    </author>
+    <author>
+      <name>O. Zimmer</name>
+    </author>
+    <author>
+      <name>T. Jenke</name>
+    </author>
+    <author>
+      <name>M. Van der Grinten</name>
+    </author>
+    <author>
+      <name>M. Tucker</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevC.97.055503</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevC.97.055503" title="doi"/>
+  </entry>
+</feed>

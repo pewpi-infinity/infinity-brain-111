@@ -1,0 +1,95 @@
+TERMS: quantum, vapor, spin
+COLORS: blue, green, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Kp10Pwhiq5Jt8+fFGJ5uhA/bEWU</id>
+  <title>arXiv Query: search_query=all:quantum AND all:vapor AND all:spin&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:07:07Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:vapor+AND+all:spin)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>195</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2204.12389v1</id>
+    <title>Single-Photon Storage in a Ground-State Vapor Cell Quantum Memory</title>
+    <updated>2022-04-26T15:46:20Z</updated>
+    <link href="https://arxiv.org/abs/2204.12389v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2204.12389v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Interfaced single-photon sources and quantum memories for photons together form a foundational component of quantum technology. Achieving compatibility between heterogeneous, state-of-the-art devices is a long-standing challenge. We built and successfully interfaced a heralded single-photon source based on cavity-enhanced spontaneous parametric down-conversion in ppKTP and a matched memory based on electromagnetically induced transparency in warm $^{87}$Rb vapor. The bandwidth of the photons emitted by the source is 370 MHz, placing its speed in the technologically relevant regime while remaining well within the acceptance bandwidth of the memory. Simultaneously, the experimental complexity is kept low, with all components operating at or above room temperature. Read-out noise of the memory is considerably reduced by exploiting polarization selection rules in the hyperfine structure of spin-polarized atoms. For the first time, we demonstrate single-photon storage and retrieval in a ground-state vapor cell memory, with $g_{c,\text{ret}}^{(2)}=0.177(23)$ demonstrating the single-photon character of the retrieved light. Our platform of single-photon source and atomic memory is attractive for future experiments on room-temperature quantum networks operating at high bandwidth.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-04-26T15:46:20Z</published>
+    <arxiv:comment>9 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>PRX Quantum 3, 020349 (2022)</arxiv:journal_ref>
+    <author>
+      <name>Gianni Buser</name>
+    </author>
+    <author>
+      <name>Roberto Mottola</name>
+    </author>
+    <author>
+      <name>Björn Cotting</name>
+    </author>
+    <author>
+      <name>Janik Wolters</name>
+    </author>
+    <author>
+      <name>Philipp Treutlein</name>
+    </author>
+    <arxiv:doi>10.1103/PRXQuantum.3.020349</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PRXQuantum.3.020349" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2408.04950v1</id>
+    <title>Regeneration of Spin Wave in Atomic Vapor</title>
+    <updated>2024-08-09T09:09:40Z</updated>
+    <link href="https://arxiv.org/abs/2408.04950v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2408.04950v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Conventionally, atomic vapor is perceived as a non-living system governed by the principles of thermodynamics and statistical physics. However, the demarcation line between life and non-life appears to be less distinct than previously thought. In a study of amplifying spin waves, we observe a phenomenon reminiscent of life: The atomic spin wave stored in atomic vapor has a capability of absorbing energy from an external light source, and exhibits behaviors akin to active regeneration. We demonstrate that this regeneration significantly enhances the lifetime and retrieval efficiency of the spin wave, while concurrently the noise is effectively suppressed. Our results suggest that the regeneration mechanism holds promise for mitigating the pronounced decoherence typically encountered in spin waves carried by room-temperature media, therefore offering potential applications in the realms of quantum information and precision measurements at ambient conditions.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-08-09T09:09:40Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Jian-Peng Dou</name>
+    </author>
+    <author>
+      <name>Feng Lu</name>
+    </author>
+    <author>
+      <name>Xiao-Wen Shang</name>
+    </author>
+    <author>
+      <name>Hao Tang</name>
+    </author>
+    <author>
+      <name>Xian-Min Jin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1908.05194v3</id>
+    <title>Quantum trajectories in spin-exchange collisions reveal the nature of spin-noise correlations in multi-species alkali vapors</title>
+    <updated>2019-10-11T08:59:26Z</updated>
+    <link href="https://arxiv.org/abs/1908.05194v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1908.05194v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Spin-exchange collisions in alkali vapors have been at the basis of several fundamental and applied investigations, like nuclear structure studies and tests of fundamental symmetries, ultra-sensitive atomic magnetometers, magnetic resonance and bio-magnetic imaging. Spin-exchange collisions cause loss of spin coherence, and concomittantly produce spin noise, both phenomena being central to quantum metrology. We here develop the quantum trajectory picture of spin-exchange collisions, consistent with their long-standing ensemble description using density matrices. We then use quantum trajectories to reveal the nature of spin-noise correlations that spontaneously build up in multi-species atomic vapors, frequently utilized in the most sensitive spin measurements.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-08-14T16:11:46Z</published>
+    <arxiv:comment>6 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <arxiv:journal_ref>Phys. Rev. Research 1, 033017 (2019)</arxiv:journal_ref>
+    <author>
+      <name>K. Mouloudakis</name>
+    </author>
+    <author>
+      <name>M. Loulakis</name>
+    </author>
+    <author>
+      <name>I. K. Kominis</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevResearch.1.033017</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevResearch.1.033017" title="doi"/>
+  </entry>
+</feed>

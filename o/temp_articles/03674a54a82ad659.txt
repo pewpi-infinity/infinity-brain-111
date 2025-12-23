@@ -1,0 +1,89 @@
+TERMS: hydrogen, lattice, spin, graphene
+COLORS: purple, orange, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/q2rr2vKWLJ/F8ARD8nzmw5lj+io</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:lattice AND all:spin AND all:graphene&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:47:42Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:lattice+AND+(all:spin+AND+all:graphene))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>17</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1303.2806v1</id>
+    <title>Spin-orbit coupling in hydrogenated graphene</title>
+    <updated>2013-03-12T08:43:08Z</updated>
+    <link href="https://arxiv.org/abs/1303.2806v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1303.2806v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>First-principles calculations of the spin-orbit coupling in graphene with hydrogen adatoms in dense and dilute limits are presented. The chemisorbed hydrogen induces a giant local enhancement of spin-orbit coupling due to $sp^3$ hybridization which depends strongly on the local lattice distortion. Guided by the reduced symmetry and the local structure of the induced dipole moments we use group theory to propose realistic minimal Hamiltonians that reproduce the relevant spin-orbit effects for both single-side semihydrogenated graphene (graphone) and for a single hydrogen adatom in a large supercell. The principal linear spin-orbit band splittings are driven by the breaking of the local pseudospin inversion symmetry and the emergence of spin flips on the same sublattice.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-03-12T08:43:08Z</published>
+    <arxiv:comment>5 pages, 3 figures, supplemental material</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 110, 246602 (2013)</arxiv:journal_ref>
+    <author>
+      <name>Martin Gmitra</name>
+    </author>
+    <author>
+      <name>Denis Kochan</name>
+    </author>
+    <author>
+      <name>Jaroslav Fabian</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.110.246602</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.110.246602" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1507.07714v2</id>
+    <title>Topological features of hydrogenated graphene</title>
+    <updated>2015-07-30T15:59:24Z</updated>
+    <link href="https://arxiv.org/abs/1507.07714v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1507.07714v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Hydrogen adatoms are one of the most the promising proposals for the functionalization of graphene. Hydrogen induces narrow resonances near the Dirac energy, which lead to the formation of magnetic moments. Furthermore, they also create local lattice distortions which enhance the spin-orbit coupling. The combination of magnetism and spin-orbit coupling allows for a rich variety of phases, some of which have non trivial topological features. We analyze the interplay between magnetism and spin-orbit coupling in ordered arrays of hydrogen on graphene monolayers, and classify the different phases that may arise. We extend our model to consider arrays of adsorbates in graphene-like crystals with stronger intrinsic spin-orbit couplings.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-07-28T10:31:30Z</published>
+    <arxiv:comment>6 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Physica B: Condensed Matter 496 (2016): 1-8</arxiv:journal_ref>
+    <author>
+      <name>Luis A. González-Árraga</name>
+    </author>
+    <author>
+      <name>J. L. Lado</name>
+    </author>
+    <author>
+      <name>F. Guinea</name>
+    </author>
+    <arxiv:doi>10.1016/j.physb.2016.05.006</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physb.2016.05.006" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1703.10142v1</id>
+    <title>Anomalous magnetism in hydrogenated graphene</title>
+    <updated>2017-03-29T17:18:53Z</updated>
+    <link href="https://arxiv.org/abs/1703.10142v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1703.10142v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We revisit the problem of local moment formation in graphene due to chemisorption of individual atomic hydrogen or other analogous sp$^3$ covalent functionalizations. We describe graphene with the single orbital Hubbard model, so that the H chemisorption is equivalent to a vacancy in the honeycomb lattice. In order to circumvent artefacts related to periodic unit cells, we use either huge simulation cells of up to $8\times10^5$ sites, or an embedding scheme that allows the modelling of a single vacancy in an otherwise pristine infinite honeycomb lattice. We find three results that stress the anomalous nature of the magnetic moment ($m$) in this system. First, in the non-interacting ($U=0$), zero temperature ($T=0$) case, the $m(B)$ is a continuous smooth curve with divergent susceptibility, different from the step-wise constant function found for a single unpaired spins in a gapped system. Second, for $U=0$ and $T&gt;0$, the linear susceptibility follows a power law $\propto{T}^{-α}$ with an exponent of $α=0.77$ different from conventional Curie's law. For $U&gt;0$, in the mean field approximation, the integrated moment is smaller than $m=1μ_B$, in contrast with results using periodic unit cells. These three results highlight that the magnetic response of the local moment induced by sp$^3$ functionalizations in graphene is different both from that of local moments in gaped systems, for which the magnetic moment is quantized and follows a Curie law, and from Pauli paramagnetism in conductors, for which a linear susceptibility can be defined at $T=0$.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-03-29T17:18:53Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>Phys. Rev. B 96, 024403 (2017)</arxiv:journal_ref>
+    <author>
+      <name>N. A. García-Martínez</name>
+    </author>
+    <author>
+      <name>J. L. Lado</name>
+    </author>
+    <author>
+      <name>D. Jacob</name>
+    </author>
+    <author>
+      <name>J. Fernández-Rossier</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.96.024403</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.96.024403" title="doi"/>
+  </entry>
+</feed>

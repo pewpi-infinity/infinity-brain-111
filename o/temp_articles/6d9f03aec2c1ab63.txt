@@ -1,0 +1,36 @@
+TERMS: hydrogen, entropy, crystal, graphene
+COLORS: purple, red, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/GaugWsSP6uCfIWSk4paqWg5vWsk</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:entropy AND all:crystal AND all:graphene&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:50:13Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:entropy+AND+(all:crystal+AND+all:graphene))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2108.11225v1</id>
+    <title>Nanoconfined fluids: Uniqueness of water compared to other liquids</title>
+    <updated>2021-08-25T13:26:19Z</updated>
+    <link href="https://arxiv.org/abs/2108.11225v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2108.11225v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Nanoconfinement can drastically change the behavior of liquids, puzzling us with counterintuitive properties. Moreover, it is relevant in applications, including decontamination and crystallization control. It still lacks a systematic analysis for fluids with different bulk properties. Here we fill this gap. We compare, by molecular dynamics simulations, three different liquids in a graphene slit pore: (A) A simple fluid, such as argon, described by a Lennard-Jones potential; (B) An anomalous fluid, such as a liquid metal, modeled with an isotropic core-softened potential; (C) Water, the prototypical anomalous liquid, with directional hydrogen bonds. We study how the slit-pore width affects the structure, thermodynamics, and dynamics of the fluids. We check that all the fluids, as expected, show similar oscillating properties by changing the pore size. However, the nature of the free-energy minima for the three fluids is quite different: i) only for the simple liquid all the minima are energy-driven, while their structural order increases with decreasing slit-pore width; ii) only for the isotropic core-softened potential all the minima are entropy-driven, while the energy in the minima increases with decreasing slit-pore width; iii) only the water has a changing nature of the minima: the monolayer minimum is entropy-driven, at variance with the simple liquid, while the bilayer minimum is energy-driven, at variance with the other anomalous liquid. Also, water diffusion has a large increase for sub-nm slit-pores, becoming faster than bulk. Instead, the other two fluids have diffusion oscillations much smaller than water slowing down for decreasing slit-pore width. Our results clarify that nanoconfined water is unique compared to other (simple or anomalous) fluids under similar confinement, and are possibly relevant in nanopores applications, e.g., in water purification from contaminants.</summary>
+    <category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-08-25T13:26:19Z</published>
+    <arxiv:primary_category term="cond-mat.soft"/>
+    <arxiv:journal_ref>ACS Nano 2021, 15, 12, 19864 -- 19876</arxiv:journal_ref>
+    <author>
+      <name>Fabio Leoni</name>
+    </author>
+    <author>
+      <name>Carles Calero</name>
+    </author>
+    <author>
+      <name>Giancarlo Franzese</name>
+    </author>
+    <arxiv:doi>10.1021/acsnano.1c07381</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1021/acsnano.1c07381" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,75 @@
+TERMS: frequency, probability
+COLORS: green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/xhrtEBWlcKafIyNZAbWwyiWmzQQ</id>
+  <title>arXiv Query: search_query=all:frequency AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T00:57:24Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+all:probability&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>6769</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1106.3584v1</id>
+    <title>The interpretation of quantum mechanics and of probability: Identical role of the 'observer'</title>
+    <updated>2011-06-17T21:36:49Z</updated>
+    <link href="https://arxiv.org/abs/1106.3584v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1106.3584v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The aim of the article is to argue that the interpretations of quantum mechanics and of probability are much closer than usually thought. Indeed, a detailed analysis of the concept of probability (within the standard frequency theory of R. von Mises) reveals that the latter concept always refers to an observing system. The enigmatic role of the observer in the Copenhagen interpretation therefore derives from a precise understanding of probability. Besides explaining several elements of the Copenhagen interpretation, our model also allows to reinterpret recent results from 'relational quantum mechanics', and to question the premises of the 'subjective approach to quantum probabilities'.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.hist-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-06-17T21:36:49Z</published>
+    <arxiv:comment>Presented in the Vaxjo Conference (FPP6) on the Foundations of Physics and Probability, Vaxjo (Sweden) June 2011</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Louis Vervoort</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1303.2456v3</id>
+    <title>High-frequency asymptotics for Lipschitz-Killing curvatures of excursion sets on the sphere</title>
+    <updated>2016-01-12T08:07:12Z</updated>
+    <link href="https://arxiv.org/abs/1303.2456v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1303.2456v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we shall be concerned with geometric functionals and excursion probabilities for some nonlinear transforms evaluated on Fourier components of spherical random fields. In particular, we consider both random spherical harmonics and their smoothed averages, which can be viewed as random wavelet coefficients in the continuous case. For such fields, we consider smoothed polynomial transforms; we focus on the geometry of their excursion sets, and we study their asymptotic behaviour, in the high-frequency sense. We focus on the analysis of Euler-Poincaré characteristics, which can be exploited to derive extremely accurate estimates for excursion probabilities. The present analysis is motivated by the investigation of asymmetries and anisotropies in cosmological data. The statistics we focus on are also suitable to deal with spherical random fields which can only be partially observed, the canonical example being provided by the masking effect of the Milky Way on Cosmic Microwave Background (CMB) radiation data.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-03-11T09:00:08Z</published>
+    <arxiv:comment>Published at http://dx.doi.org/10.1214/15-AAP1097 in the Annals of Applied Probability (http://www.imstat.org/aap/) by the Institute of Mathematical Statistics (http://www.imstat.org)</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <arxiv:journal_ref>Annals of Applied Probability 2016, Vol. 26, No. 1, 462-506</arxiv:journal_ref>
+    <author>
+      <name>Domenico Marinucci</name>
+    </author>
+    <author>
+      <name>Sreekar Vadlamani</name>
+    </author>
+    <arxiv:doi>10.1214/15-AAP1097</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1214/15-AAP1097" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.17406v3</id>
+    <title>Sampling probabilities, diffusions, ancestral graphs, and duality under strong selection</title>
+    <updated>2025-03-13T18:03:13Z</updated>
+    <link href="https://arxiv.org/abs/2312.17406v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.17406v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Wright-Fisher diffusions and their dual ancestral graphs occupy a central role in the study of allele frequency change and genealogical structure, and they provide expressions, explicit in some special cases but generally implicit, for the sampling probability, a crucial quantity in inference. Under a finite-allele mutation model, with possibly parent-dependent mutation, we consider the asymptotic regime where the selective advantage of one allele grows to infinity, while the other parameters remain fixed. In this regime, we show that the Wright-Fisher diffusion can be approximated either by a Gaussian process or by a process whose components are independent continuous-state branching processes with immigration, aligning with analogous results for Wright-Fisher models but employing different methods. While the first process becomes degenerate at stationarity, the latter does not and provides a simple, analytic approximation for the leading term of the sampling probability. Furthermore, using another approach based on a recursion formula, we characterise all remaining terms to provide a full asymptotic expansion for the sampling probability. Finally, we study the asymptotic behaviour of the rates of the block-counting process of the conditional ancestral selection graph and establish an asymptotic duality relationship between this and the diffusion.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.PE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-29T00:19:04Z</published>
+    <arxiv:comment>44 pages</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <arxiv:journal_ref>Electronic Journal of Probability 30: 1-43 (2025)</arxiv:journal_ref>
+    <author>
+      <name>Martina Favero</name>
+    </author>
+    <author>
+      <name>Paul A. Jenkins</name>
+    </author>
+    <arxiv:doi>10.1214/25-EJP1302</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1214/25-EJP1302" title="doi"/>
+  </entry>
+</feed>

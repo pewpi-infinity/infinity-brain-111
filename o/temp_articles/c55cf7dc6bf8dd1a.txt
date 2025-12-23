@@ -1,0 +1,104 @@
+TERMS: lattice, singularity, vacuum
+COLORS: orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/zStZB1PbS48jvlLPj+NDdWamIpk</id>
+  <title>arXiv Query: search_query=all:lattice AND all:singularity AND all:vacuum&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:16:40Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:singularity+AND+all:vacuum)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>57</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/0910.5785v1</id>
+    <title>Dyson's Instability in Lattice Gauge Theory</title>
+    <updated>2009-10-30T05:31:03Z</updated>
+    <link href="https://arxiv.org/abs/0910.5785v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0910.5785v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We discuss Dyson's argument that the vacuum is unstable under a change g^2 -&gt; - g^2, in the context of lattice gauge theory. For compact gauge groups, the partition function is well defined at negative g^2, but the average plaquette P has a discontinuity when g^2 changes sign. This reflects a change of vacuum rather than a loss of vacuum. In addition, P has poles in the complex g^2 plane, located at the complex zeros of the partition function (Fisher's zeros). We discuss the relevance of these singularities for lattice perturbation theory. We present new methods to locate Fisher's zeros using numerical values for the density of state in SU(2) and U(1) pure gauge theory. We briefly discuss similar issues for O(N) nonlinear sigma models where the local integrals are also over compact spaces.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-10-30T05:31:03Z</published>
+    <arxiv:comment>7 pages, 8 figures, talk given by Y. Meurice at Lattice 2009, PoS(LAT2009)218</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>PoS LAT2009:218,2009</arxiv:journal_ref>
+    <author>
+      <name>A. Bazavov</name>
+    </author>
+    <author>
+      <name>A. Denbleyker</name>
+    </author>
+    <author>
+      <name>Daping Du</name>
+    </author>
+    <author>
+      <name>Y. Meurice</name>
+    </author>
+    <author>
+      <name>A. Velytsky</name>
+    </author>
+    <author>
+      <name>Haiyuan Zou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-lat/0510020v1</id>
+    <title>Geometry of three dimensional vacuum domains in four dimensional SU(2) gluodynamics</title>
+    <updated>2005-10-04T08:34:40Z</updated>
+    <link href="https://arxiv.org/abs/hep-lat/0510020v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-lat/0510020v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We review briefly recent results of lattice simulations on 3d domains in the vacuum state of SU(2) gluodynamics. The defects are defined as unification of all the negative links in central projection under condition that the total number of negative links is minimized. In the continuum limit, negative links correspond, generally speaking to singular fields. The data indicate that total volume of the defects scales in physical units. We consider also correlator of negative links. The correlator scales in physical units as well, within the error bars. A new observation reported here is a strong anisotropy of the correlator.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-10-04T08:34:40Z</published>
+    <arxiv:comment>Talk presented at Lattice 2005 (topology and confinement)</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>PoS LAT2005 (2005) 328</arxiv:journal_ref>
+    <author>
+      <name>A. V. Kovalenko</name>
+    </author>
+    <author>
+      <name>M. I. Polikarpov</name>
+    </author>
+    <author>
+      <name>S. N. Syritsyn</name>
+    </author>
+    <author>
+      <name>V. I. Zakharov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.16056v1</id>
+    <title>Unidirectional lasing via vacuum induced coherent in defective atomic lattice</title>
+    <updated>2025-08-22T03:08:23Z</updated>
+    <link href="https://arxiv.org/abs/2508.16056v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.16056v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We skillfully utilized vacuum induced coherence to amplify the probe light, and then successfully achieved both nonreciprocal reflection and lasing oscillation in a single physical system by leveraging the distributed feedback and spatial symmetry breaking effect of the one-dimensional defective atomic lattice. This innovative scheme for realizing unidirectional reflection lasing (URL) is based on both non-Hermitian degeneracy and spectral singularity (NHDSS, means $λ_{+}^{-1}\simeqλ_{-}^{-1}\rightarrow0$). Therefore, we analyze the modulation of parameters such as the lattice structure and external optical fields in this system to find NHDSS point, and further verified the conditions for its occurrence by solving the transcendental equation of susceptibility satisfying the NHDSS point, as well as analyzed its physical essence. Our mechanism is not only beneficial for the integration of photonic devices in quantum networks, but also greatly improves the efficiency of optical information transmission.</summary>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-22T03:08:23Z</published>
+    <arxiv:primary_category term="physics.optics"/>
+    <author>
+      <name>Xinfu Zheng</name>
+    </author>
+    <author>
+      <name>Chen Peng</name>
+    </author>
+    <author>
+      <name>Duanfu Chen</name>
+    </author>
+    <author>
+      <name>Yiting Zheng</name>
+    </author>
+    <author>
+      <name>Hanxiao Zhang</name>
+    </author>
+    <author>
+      <name>Dong Yan</name>
+    </author>
+    <author>
+      <name>Jinhui Wu</name>
+    </author>
+    <author>
+      <name>Hong Yang</name>
+    </author>
+  </entry>
+</feed>

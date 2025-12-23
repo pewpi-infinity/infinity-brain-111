@@ -1,0 +1,65 @@
+TERMS: hydrogen, plasma, singularity
+COLORS: purple, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/98Ivl91cN7CUsl9knqLvskzDuys</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:plasma AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:05:21Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:plasma+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>4</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1212.4947v2</id>
+    <title>Generalized Normal Forms of Infinitesimal Symplectic and Contact Transformations in the Neighborhood of a Singular Point</title>
+    <updated>2013-01-12T11:22:09Z</updated>
+    <link href="https://arxiv.org/abs/1212.4947v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1212.4947v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Definition of generalized normal form for a system of ODEs corresponding to an infinitesimal symplectic or contact transformation near a singular point, with an arbitrary polynomial unperturbed part, and a method of its finding are introduced. Applicability of the introduced method to studying the critical phenomena in non-ideal media is shown. As examples, generalized normal forms for the equations of state of a mixture of non-ideal gases and non-ideal multicomponent plasma are considered within the framework of perturbation theory. In particular, it is shown that the lowest order perturbation effects in the Debye-Hückel hydrogen plasmas are classified by only three constant parameters.</summary>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-12-20T08:16:18Z</published>
+    <arxiv:comment>16 pages, LaTeX, 2 figures (8 subfigures); 1 reference and new results concerning the hydrogen plasma phase transition added in subsection 5.3</arxiv:comment>
+    <arxiv:primary_category term="math.DS"/>
+    <author>
+      <name>Arthur S. Vaganyan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.23314v1</id>
+    <title>Multi-Physics Mathematical Model for Weakly-Ionized Plasma Flows</title>
+    <updated>2024-10-29T14:52:19Z</updated>
+    <link href="https://arxiv.org/abs/2410.23314v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.23314v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This work presents a multidisciplinary mathematical model, as a set of coupled governing equations and auxiliary relations describing the fluid-flow, thermal, and electric fields of partially-ionized plasma with low magnetic Reynolds numbers. The model is generic enough to handle three-dimensionality, Hall effect, compressibility, and variability of fluid, thermal, and electric properties of the plasma. The model can be of interest to computational modelers aiming to build a solver that quantitatively assesses direct extraction of electric energy from a plasma flow. Three different approaches are proposed to solve numerically for the electric fields with different levels of tolerance toward possible numerical instability encountered at a large Hall parameter, where the effective conductivity tensor loses diagonal dominance and becomes close to singular. A submodel for calculating the local electric properties of the plasma is presented in detail and is applied to demonstrate the effect of different factors on the electric conductivity, including the fuel's carbon/hydrogen ratio and the alkaline seed element that acts as the ionizing species. An analytical expression for the collision cross-section for argon is developed, such that this noble gas can be included as one of the gaseous species comprising the plasma.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-29T14:52:19Z</published>
+    <arxiv:comment>16 pages, 90 equations, 3 figures, journal paper</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <arxiv:journal_ref>American Journal of Modern Physics, vol. 7(2), pp. 87-102, 2018</arxiv:journal_ref>
+    <author>
+      <name>Osama A. Marzouk</name>
+    </author>
+    <arxiv:doi>10.11648/j.ajmp.20180702.14</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.11648/j.ajmp.20180702.14" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/physics/0207125v1</id>
+    <title>Marginalization using the metric of the likelihood</title>
+    <updated>2002-07-31T07:14:33Z</updated>
+    <link href="https://arxiv.org/abs/physics/0207125v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/physics/0207125v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Although the likelihood function is normalizeable with respect to the data there is no guarantee that the same holds with respect to the model parameters. This may lead to singularities in the expectation value integral of these parameters, especially if the prior information is not sufficient to take care of finite integral values. However, the problem may be solved by obeying the correct Riemannian metric imposed by the likelihood. This will be demonstrated for the example of the electron temperature evaluation in hydrogen plasmas.</summary>
+    <category term="physics.data-an" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-07-31T07:14:33Z</published>
+    <arxiv:comment>8 pages, 2 figures, Presented at the MaxEnt 2000 conference in Gif-sur-Yvette/Paris</arxiv:comment>
+    <arxiv:primary_category term="physics.data-an"/>
+    <author>
+      <name>R. Preuss</name>
+    </author>
+    <author>
+      <name>V. Dose</name>
+    </author>
+  </entry>
+</feed>

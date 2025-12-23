@@ -1,0 +1,94 @@
+TERMS: lattice, oxidation, probability
+COLORS: orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/akutigDUNEn6fELDamzTCDvhoRU</id>
+  <title>arXiv Query: search_query=all:lattice AND all:oxidation AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:16:35Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:oxidation+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>20</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1405.7906v3</id>
+    <title>Monte Carlo Simulations of the Critical Properties of a Ziff-Gulari-Barshad model of Catalytic CO Oxidation with Long-range Reactivity</title>
+    <updated>2015-02-02T21:51:49Z</updated>
+    <link href="https://arxiv.org/abs/1405.7906v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1405.7906v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Ziff-Gulari-Barshad (ZGB) model, a simplified description of the oxidation of carbon monoxide (CO) on a catalyst surface, is widely used to study properties of nonequilibrium phase transitions. In particular, it exhibits a nonequilibrium, discontinuous transition between a reactive and a CO poisoned phase. If one allows a nonzero rate of CO desorption ($k$), the line of phase transitions terminates at a critical point ($k_{c}$). In this work, instead of restricting the CO and atomic oxygen (O) to react to form carbon dioxide (CO$_{2}$) only when they are adsorbed in close proximity, we consider a modified model that includes an adjustable probability for adsorbed CO and O atoms located far apart on the lattice to react. We employ large-scale Monte Carlo simulations for system sizes up to 240$\times$240 lattice sites, using the crossing of fourth-order cumulants to study the critical properties of this system. We find that the nonequilibrium critical point changes from the two-dimensional Ising universality class to the mean-field universality class upon introducing even a weak long-range reactivity mechanism. This conclusion is supported by measurements of cumulant fixed-point values, cluster percolation probabilities, correlation-length finite-size scaling properties, and the critical exponent ratio $β/ ν$. The observed behavior is consistent with that of the \emph{equilibrium} Ising ferromagnet with additional weak long-range interactions [T. Nakada, P. A. Rikvold, T. Mori, M. Nishino, and S. Miyashita, Phys. Rev. B 84, 054433 (2011)]. The large system sizes and the use of fourth-order cumulants also enable determination with improved accuracy of the critical point of the original ZGB model with CO desorption.</summary>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-05-30T16:16:39Z</published>
+    <arxiv:comment>26 pages, 10 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.chem-ph"/>
+    <arxiv:journal_ref>Phys. Rev. E 91, 012103 (2015)</arxiv:journal_ref>
+    <author>
+      <name>C. H. Chan</name>
+    </author>
+    <author>
+      <name>P. A. Rikvold</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevE.91.012103</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevE.91.012103" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1112.6100v1</id>
+    <title>Behavior of Lithium Oxide at Superionic Transition: First Principles and Molecular Dynamics Studies</title>
+    <updated>2011-12-28T11:21:50Z</updated>
+    <link href="https://arxiv.org/abs/1112.6100v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1112.6100v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We report studies on the vibrational and elastic behavior of lithium oxide, Li2O around its superionic transition temperature. Phonon frequencies calculated using the ab-initio and empirical potential model are in excellent agreement with the reported experimental data. Further, volume dependence of phonon dispersion relation has been calculated, which indicates softening of zone boundary transverse acoustic phonon mode along [110] at volume corresponding to the superionic transition in Li2O. The instability of phonon mode could be a precursor leading to the dynamical disorder of the lithium sub lattice. Empirical potential model calculations have been carried out to deduce the probable direction of lithium diffusion by constructing a super cell consisting of 12000 atoms. The barrier energy for lithium ion diffusion from one lattice site to another at ambient and elevated temperature has been computed. Barrier energy considerations along various symmetry directions indicate that [001] is the most favourable direction for lithium diffusion in the fast ion phase. This result corroborates our observation of dynamical instability in the transverse mode along (110) wave vector. Using molecular dynamics simulations we have studied the temperature variation of elastic constants, which are important to the high-temperature stability of lithium oxide.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-12-28T11:21:50Z</published>
+    <arxiv:comment>13 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>Phys. Rev. B 85, 184304 (2012)</arxiv:journal_ref>
+    <author>
+      <name>M. K. Gupta</name>
+    </author>
+    <author>
+      <name>Prabhatasree Goel</name>
+    </author>
+    <author>
+      <name>R. Mittal</name>
+    </author>
+    <author>
+      <name>N. Choudhury</name>
+    </author>
+    <author>
+      <name>S. L. Chaplot</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1206.6944v2</id>
+    <title>Double exchange model on triangular lattice: non-coplanar spin configuration and phase transition near quarter filling</title>
+    <updated>2013-03-18T08:21:52Z</updated>
+    <link href="https://arxiv.org/abs/1206.6944v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1206.6944v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Unconventional anomalous Hall effect in frustrated pyrochlore oxides is originated from spin chirality of non-coplanar localized spins, which can also be induced by the competition between ferromagnetic (FM) double exchange interaction $J_{H}$ and antiferromagnetic superexchange interaction $J_{AF}$. Here truncated polynomial expansion method and Monte Carlo simulation are adopted to investigate the above model on two-dimensional triangular lattice. We discuss the influence of the range of FM-type spin-spin correlation and strong electron-spin correlation on the truncation error of spin-spin correlation near quarter filling. Two peaks of the probability distribution of spin-spin correlation in non-coplanar spin configuration clearly show that non-coplanar spin configuration is an intermediate phase between FM and 120-degree spin phase. Near quarter filling, there is a phase transition from FM into non-coplanar and further into 120-degree spin phase when $J_{AF}$ continually increases. Finally the effect of temperature on magnetic structure is discussed.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-06-29T05:45:24Z</published>
+    <arxiv:comment>10 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Physica B 417, 4-8 (2013)</arxiv:journal_ref>
+    <author>
+      <name>G. P. Zhang</name>
+    </author>
+    <author>
+      <name>Jian Zhang</name>
+    </author>
+    <author>
+      <name>Qi-Li Zhang</name>
+    </author>
+    <author>
+      <name>Jiang-Tao Zhou</name>
+    </author>
+    <author>
+      <name>M. H. Shangguan</name>
+    </author>
+    <arxiv:doi>10.1016/j.physb.2013.02.028</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physb.2013.02.028" title="doi"/>
+  </entry>
+</feed>

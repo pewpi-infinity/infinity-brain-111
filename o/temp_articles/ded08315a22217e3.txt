@@ -1,0 +1,28 @@
+TERMS: vapor, superconductivity, singularity
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/boIYvdqPHQqIaXTB8ctb0XylMNE</id>
+  <title>arXiv Query: search_query=all:vapor AND all:superconductivity AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:25:44Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:vapor+AND+(all:superconductivity+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2310.06870v1</id>
+    <title>Does the Mott problem extend to Geiger counters?</title>
+    <updated>2023-10-07T14:08:31Z</updated>
+    <link href="https://arxiv.org/abs/2310.06870v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.06870v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Mott problem is a simpler version of the quantum measurement problem that asks: Is there a microscopic physical mechanism - based (explicitly or implicitly) only on Schroedinger's equation - that explains why a single alpha particle emitted in a spherically symmetric s-wave nuclear decay produces a manifestly non-spherically-symmetric single track in a cloud chamber? I attempt here to generalize earlier work that formulated such a mechanism. The key ingredient there was identification of sites at which the cross section for ionization by a passing charged particle is near singular at ionization threshold. This near singularity arose from a Penning-like process involving molecular polarization in sub-critical vapor clusters. Here, I argue that the same Mott problem question should be asked about Geiger counters. I then define a simple experiment to determine if ionization physics similar to the cloud chamber case takes place in the mica window of a Geiger counter and explains the collimation of wavefunctions that are spherically symmetric outside the counter into linear tracks inside. The experiment measures the count rate from a radioactive point source as a function of source-window separation. I have performed a proof of concept of this experiment; results are reported here and support the near-singular-ionization picture. These results are significant in their own right, but also because they may shed light on physical mechanisms underlying the full quantum measurement problem. I illustrate this for the Stern-Gerlach experiment and a particular realization of superconducting qubits. I conclude by detailing further work required to flesh out these results more rigorously.</summary>
+    <category term="physics.gen-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-07T14:08:31Z</published>
+    <arxiv:comment>Accepted by Open Physics (De Gruyter)</arxiv:comment>
+    <arxiv:primary_category term="physics.gen-ph"/>
+    <author>
+      <name>Jonathan F. Schonfeld</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,125 @@
+TERMS: hydrogen, quantum, superconductivity, spin
+COLORS: purple, blue, green, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api//kqFVq+mqMxG1t0ICC8S6VJVZhk</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:superconductivity AND all:spin&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:40:03Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:superconductivity+AND+all:spin))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>19</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2508.08229v2</id>
+    <title>Quantum-centric simulation of hydrogen abstraction by sample-based quantum diagonalization and entanglement forging</title>
+    <updated>2025-08-12T19:37:42Z</updated>
+    <link href="https://arxiv.org/abs/2508.08229v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.08229v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The simulation of electronic systems is an anticipated application for quantum-centric computers, i.e. heterogeneous architectures where classical and quantum processing units operate in concert. An important application is the computation of radical chain reactions, including those responsible for the photodegradation of composite materials used in aerospace engineering. Here, we compute the activation energy and reaction energy for hydrogen abstraction from 2,2-diphenyldipropane, used as a minimal model for a step in a radical chain reaction. Calculations are performed using a superconducting quantum processor of the IBM Heron family and classical computing resources. To this end, we combine a qubit-reduction technique called entanglement forging (EF) with sample based quantum diagonalization (SQD), a method that projects the Schrödinger equation into a subspace of configurations sampled from a quantum device. In conventional quantum simulations, a qubit represents a spin-orbital. In contrast, EF maps a qubit to a spatial orbital, reducing the required number of qubits by half. We provide a complete derivation and a detailed description of the combined EF and SQD approach, and we assess its accuracy across active spaces of varying sizes.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-11T17:48:17Z</published>
+    <arxiv:comment>14 pages, 8 figures, 2 tables</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Tyler Smith</name>
+    </author>
+    <author>
+      <name>Tanvi P. Gujarati</name>
+    </author>
+    <author>
+      <name>Mario Motta</name>
+    </author>
+    <author>
+      <name>Ben Link</name>
+    </author>
+    <author>
+      <name>Ieva Liepuoniute</name>
+    </author>
+    <author>
+      <name>Triet Friedhoff</name>
+    </author>
+    <author>
+      <name>Hiromichi Nishimura</name>
+    </author>
+    <author>
+      <name>Nam Nguyen</name>
+    </author>
+    <author>
+      <name>Kristen S. Williams</name>
+    </author>
+    <author>
+      <name>Javier Robledo Moreno</name>
+    </author>
+    <author>
+      <name>Caleb Johnson</name>
+    </author>
+    <author>
+      <name>Kevin J. Sung</name>
+    </author>
+    <author>
+      <name>Abdullah Ash Saki</name>
+    </author>
+    <author>
+      <name>Marna Kagele</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1410.1840v1</id>
+    <title>The Emergence of Superconductivity in Heavy Electron Materials</title>
+    <updated>2014-10-07T18:33:10Z</updated>
+    <link href="https://arxiv.org/abs/1410.1840v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1410.1840v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Although the pairing glue for the attractive quasiparticle interaction responsible for unconventional superconductivity in heavy electron materials has been identified as the spin fluctuations that arise from their proximity to a magnetic quantum critical point, there has been no model to describe their superconducting transition at Tc that is comparable to that found by Bardeen, Cooper, and Schrieffer (BCS) for conventional superconductors where phonons provide the pairing glue. Here we propose a phenomenological BCS-like expression for Tc in heavy electron materials, that is based on the unusual properties of the heavy electron normal state from which superconductivity emerges, and a simple model for the effective range and strength of the spin-fluctuation-induced quasiparticle interaction. We show that it provides both a physical explanation and the first quantitative understanding of the pressure-induced variation of Tc in the "hydrogen atoms" of unconventional superconductivity, CeCoIn5 and CeRhIn5, and predicts scaling behavior and a dome-like structure for Tc in all heavy electron quantum critical superconductors.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-10-07T18:33:10Z</published>
+    <arxiv:comment>21 pages, 2 figures, 1 table</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <arxiv:journal_ref>Proc. Natl. Acad. Sci. USA 111, 18178-18182 (2014)</arxiv:journal_ref>
+    <author>
+      <name>Yi-feng Yang</name>
+    </author>
+    <author>
+      <name>David Pines</name>
+    </author>
+    <arxiv:doi>10.1073/pnas.1422100112</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1073/pnas.1422100112" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1808.04666v2</id>
+    <title>Adiabatic quantum simulations with driven superconducting qubits</title>
+    <updated>2018-08-21T09:36:23Z</updated>
+    <link href="https://arxiv.org/abs/1808.04666v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1808.04666v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a quantum simulator based on driven superconducting qubits where the interactions are generated parametrically by a polychromatic magnetic flux modulation of a tunable bus element. Using a time-dependent Schrieffer-Wolff transformation, we analytically derive a multi-qubit Hamiltonian which features independently tunable $XX$ and $YY$-type interactions as well as local bias fields over a large parameter range. We demonstrate the adiabatic simulation of the ground state of a hydrogen molecule using two superconducting qubits and one tunable bus element. The time required to reach chemical accuracy lies in the few microsecond range and therefore could be implemented on currently available superconducting circuits. Further applications of this technique may also be found in the simulation of interacting spin systems.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-08-14T13:03:05Z</published>
+    <arxiv:comment>11 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Phys. Rev. A 99, 022323 (2019)</arxiv:journal_ref>
+    <author>
+      <name>Marco Roth</name>
+    </author>
+    <author>
+      <name>Nikolaj Moll</name>
+    </author>
+    <author>
+      <name>Gian Salis</name>
+    </author>
+    <author>
+      <name>Marc Ganzhorn</name>
+    </author>
+    <author>
+      <name>Daniel J. Egger</name>
+    </author>
+    <author>
+      <name>Stefan Filipp</name>
+    </author>
+    <author>
+      <name>Sebastian Schmidt</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.99.022323</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.99.022323" title="doi"/>
+  </entry>
+</feed>

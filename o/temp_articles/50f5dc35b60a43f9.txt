@@ -1,0 +1,110 @@
+TERMS: crystal, plasma, probability
+COLORS: orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/xKlPI9aazM9KvbE6wyD/LG+Vx0M</id>
+  <title>arXiv Query: search_query=all:crystal AND all:plasma AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:28:43Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:crystal+AND+(all:plasma+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>20</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1112.3947v1</id>
+    <title>Visualizing a Dusty Plasma Shock Wave via Interacting Multiple-Model Mode Probabilities</title>
+    <updated>2011-12-16T20:41:48Z</updated>
+    <link href="https://arxiv.org/abs/1112.3947v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1112.3947v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Particles in a dusty plasma crystal disturbed by a shock wave are tracked using a three-mode interacting multiple model approach. Color-coded mode probabilities are used to visualize the shock wave propagation through the crystal.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-12-16T20:41:48Z</published>
+    <arxiv:comment>2 pages, 1 reduced-quality figure (full quality in published version). IEEE Special Issue on Images in Plasma Science (2011)</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <arxiv:journal_ref>IEEE Transactions on Plasma Science, 39:11, 2772-2773 (2011)</arxiv:journal_ref>
+    <author>
+      <name>Neil P. Oxtoby</name>
+    </author>
+    <author>
+      <name>Jason F. Ralph</name>
+    </author>
+    <author>
+      <name>Céline Durniak</name>
+    </author>
+    <author>
+      <name>Dmitry Samsonov</name>
+    </author>
+    <arxiv:doi>10.1109/TPS.2011.2155101</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/TPS.2011.2155101" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1112.5316v1</id>
+    <title>Tracking shocked dust: state estimation for a complex plasma during a shock wave</title>
+    <updated>2011-12-22T13:58:24Z</updated>
+    <link href="https://arxiv.org/abs/1112.5316v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1112.5316v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider a two-dimensional complex (dusty) plasma crystal excited by an electrostatically-induced shock wave. Dust particle kinematics in such a system are usually determined using particle tracking velocimetry. In this work we present a particle tracking algorithm which determines the dust particle kinematics with significantly higher accuracy than particle tracking velocimetry. The algorithm uses multiple extended Kalman filters to estimate the particle states and an interacting multiple model to assign probabilities to the different filters. This enables the determination of relevant physical properties of the dust, such as kinetic energy and kinetic temperature, with high precision. We use a Hugoniot shock-jump relation to calculate a pressure-volume diagram from the shocked dust kinematics. Calculation of the full pressure-volume diagram was possible with our tracking algorithm, but not with particle tracking velocimetry.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-12-22T13:58:24Z</published>
+    <arxiv:comment>10 pages, 8 figures, accepted for publication in Physics of Plasmas</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <arxiv:journal_ref>Phys. Plasmas 19, 013708 (2012)</arxiv:journal_ref>
+    <author>
+      <name>Neil P. Oxtoby</name>
+    </author>
+    <author>
+      <name>Jason F. Ralph</name>
+    </author>
+    <author>
+      <name>Céline Durniak</name>
+    </author>
+    <author>
+      <name>Dmitry Samsonov</name>
+    </author>
+    <arxiv:doi>10.1063/1.3678201</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/1.3678201" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2103.07582v1</id>
+    <title>Bayesian modelling of multiple plasma diagnostics at Wendelstein 7-X</title>
+    <updated>2021-03-13T00:29:34Z</updated>
+    <link href="https://arxiv.org/abs/2103.07582v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.07582v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Consistent inference of the electron density and temperature has been carried out with multiple heterogeneous plasma diagnostic data sets at Wendelstein 7-X. The predictive models of the interferometer, Thomson scattering and helium beam emission spectroscopy systems have been developed in the Minerva framework and combined to a single joint model. The electron density and temperature profiles are modelled by Gaussian processes with their hyperparameters. The model parameters such as the calibration factor of the Thomson scattering system and the model predictive uncertainties are regarded as additional unknown parameters. The joint posterior probability distribution of the electron density and temperature profiles, hyperparameters of the Gaussian processes and model parameters is explored by Markov chain Monte Carlo algorithms. The posterior samples drawn from the joint posterior distribution are numerically marginalised over the hyperparameters and model parameters to obtain the marginal posterior distributions of the electron density and temperature profiles. The inference of these profiles is performed with different combinations of the interferometer and Thomson scattering data as well as either the empirical electron density and temperature constraints at the limiter/divertor positions introduced by \textit{virtual observations} or the edge density and temperature from the helium beam emission data. Furthermore, the addition of the X-ray imaging crystal spectrometers to the joint model for the ion temperature profiles is demonstrated. All these profiles presented in this work are inferred with the optimal hyperparameters and model parameters by exploring the full joint posterior distribution which intrinsically embodies Bayesian Occam's razor.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-13T00:29:34Z</published>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>Sehyun Kwak</name>
+    </author>
+    <author>
+      <name>J. Svensson</name>
+    </author>
+    <author>
+      <name>S. Bozhenkov</name>
+    </author>
+    <author>
+      <name>H. Trimino Mora</name>
+    </author>
+    <author>
+      <name>U. Hoefel</name>
+    </author>
+    <author>
+      <name>A. Pavone</name>
+    </author>
+    <author>
+      <name>M. Krychowiak</name>
+    </author>
+    <author>
+      <name>A. Langenberg</name>
+    </author>
+    <author>
+      <name>Y. -c. Ghim</name>
+    </author>
+    <author>
+      <name>W7-X Team</name>
+    </author>
+    <arxiv:doi>10.1088/1741-4326/ad6e02</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1741-4326/ad6e02" title="doi"/>
+  </entry>
+</feed>

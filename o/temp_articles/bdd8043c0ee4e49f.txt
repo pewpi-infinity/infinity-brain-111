@@ -1,0 +1,47 @@
+TERMS: hydrogen, electron, vapor, probability
+COLORS: purple, green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/UgmcEEb2TaTNaCT5k9Eqvxwf1yw</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:electron AND all:vapor AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:55:19Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:electron+AND+(all:vapor+AND+all:probability))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2011.12647v1</id>
+    <title>Processing slightly resolved ro-vibrational spectra during chemical vapor deposition of carbon materials: machine learning approach for plasma thermometry</title>
+    <updated>2020-11-25T11:13:53Z</updated>
+    <link href="https://arxiv.org/abs/2011.12647v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2011.12647v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A fast optical spectroscopic method for determination rotational ($T_{rot}$) and vibrational ($T_{vib}$) temperatures in two-temperature Boltzmann distribution of the excited state by using machine learning approach is presented. The method is applied to estimate molecular gas temperatures in a direct current glow discharge in hydrogen-methane gas mixture during plasma-enhanced chemical vapor deposition of carbon film materials. Slightly resolved ro-vibrational optical emission spectrum of the $C_2$ ($ν'=0 \to ν''=0$) Swan band system was used for local temperature measurements in plasma ball. Random Forest algorithm of machine learning was explored for determination of temperature distribution maps. In addition to the $T_{rot}$ , $T_{vib}$ maps, distribution maps and their gradients for electron temperature ($T_e$) and for the emission intensity of the spectral line 516,5$nm$ corresponding to $C_2$ species is presented and is discussed in detail.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.data-an" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-11-25T11:13:53Z</published>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>R. R. Ismagilov</name>
+    </author>
+    <author>
+      <name>I. P. Kudarenko</name>
+    </author>
+    <author>
+      <name>S. A. Malykhin</name>
+    </author>
+    <author>
+      <name>S. D. Babin</name>
+    </author>
+    <author>
+      <name>A. B. Loginov</name>
+    </author>
+    <author>
+      <name>V. I. Kleshch</name>
+    </author>
+    <author>
+      <name>A. N. Obraztsov</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,75 @@
+TERMS: hydrogen, crystal, spin, muon
+COLORS: purple, orange, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Nnc3SApxTwvm9bPDOlNi6KjgnLE</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:crystal AND all:spin AND all:muon&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T02:00:23Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:crystal+AND+(all:spin+AND+all:muon))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2403.10028v1</id>
+    <title>Nonmagnetic Ground State in RuO$_2$ Revealed by Muon Spin Rotation</title>
+    <updated>2024-03-15T05:21:08Z</updated>
+    <link href="https://arxiv.org/abs/2403.10028v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.10028v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The magnetic ground state of single crystalline RuO$_2$ was investigated by the muon spin rotation/relaxation ($μ$SR) experiment. The spin precession signal due to the spontaneous internal magnetic field $B_{\rm loc}$, which is expected in the magnetically ordered phase, was not observed in the temperature range 5--400~K. Muon sites were evaluated by first-principles calculations using dilute hydrogen simulating muon as pseudo-hydrogen, and $B_{\rm loc}$ was simulated for the antiferromagnetic (AFM) structures with a Ru magnetic moment $|{\bf m}_{\rm Ru}|\approx0.05μ_\mathrm{B}$ suggested from diffraction experiments. As a result, the possibility was ruled out that muons are localized at sites where $B_{\rm loc}$ accidentally cancels. Conversely, assuming that the slow relaxation observed in $μ$SR spectra was part of the precession signal, the upper limit for the magnitude of $|{\bf m}_{\rm Ru}|$ was estimated to be $4.8(2)\times10^{-4}μ_{\rm B}$, which is significantly less than $0.05μ_\mathrm{B}$. These results indicate that the AFM order, as reported, is unlikely to exist in the bulk crystal.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-15T05:21:08Z</published>
+    <arxiv:comment>6 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 132, 166702 (2024)</arxiv:journal_ref>
+    <author>
+      <name>M. Hiraishi</name>
+    </author>
+    <author>
+      <name>H. Okabe</name>
+    </author>
+    <author>
+      <name>A. Koda</name>
+    </author>
+    <author>
+      <name>R. Kadono</name>
+    </author>
+    <author>
+      <name>T. Muroi</name>
+    </author>
+    <author>
+      <name>D. Hirai</name>
+    </author>
+    <author>
+      <name>Z. Hiroi</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.132.166702</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.132.166702" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.05513v1</id>
+    <title>Muonium state exchange dynamics in n-type Gallium Arsenide</title>
+    <updated>2023-05-09T14:59:16Z</updated>
+    <link href="https://arxiv.org/abs/2305.05513v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.05513v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Muonium (Mu), a pseudo-isotope atom of hydrogen with a positively charged muon at the place of the proton, can form in a wide range of semiconductor materials. They can appear in different states, depending on their charge state and microscopic site within a crystal lattice. After the Mu formation, they undergo interactions with free charge carriers, electronic spins, and other Mu sites, and form a dynamic network of state exchange. We identified the model of Mu dynamics in n-type Gallium Arsenide using the density matrix simulation and photoexcited muon spin spectroscopy technique. Fitting to the dark and illuminated $μ$SR data provided transition rates between Mu states, which in turn showed the underlying mechanism of the $μ$SR time spectra. Deduced capture/scattering cross sections of the Mu states reflected the microscopic dynamics of Mu. Illumination studies enable us to measure interactions between Mu and generated minority carriers, which are unavailable in dark measurements. The methodology we developed in this study can be applied to other semiconductor systems for a deeper microscopic understanding of the Mu state exchange dynamics.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-09T14:59:16Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>K. Yokoyama</name>
+    </author>
+    <author>
+      <name>J. S. Lord</name>
+    </author>
+    <author>
+      <name>P. W. Mengyan</name>
+    </author>
+    <author>
+      <name>M. R. Goeks</name>
+    </author>
+    <author>
+      <name>R. L. Lichti</name>
+    </author>
+  </entry>
+</feed>

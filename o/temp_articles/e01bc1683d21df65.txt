@@ -1,0 +1,31 @@
+TERMS: hydrogen, frequency, crystal, muon
+COLORS: purple, green, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/MufKaXzlNOHTVhgieIM2qeRfwSQ</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:frequency AND all:crystal AND all:muon&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:43:35Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:frequency+AND+(all:crystal+AND+all:muon))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1612.07684v2</id>
+    <title>The proton radius puzzle</title>
+    <updated>2017-01-12T17:49:44Z</updated>
+    <link href="https://arxiv.org/abs/1612.07684v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1612.07684v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The FAMU (Fisica degli Atomi Muonici) experiment has the goal to measure precisely the proton Zemach radius, thus contributing to the solution of the so-called proton radius puzzle. To this aim, it makes use of a high-intensity pulsed muon beam at RIKEN-RAL impinging on a cryogenic hydrogen target with an high-Z gas admixture and a tunable mid-IR high power laser, to measure the hyperfine (HFS) splitting of the 1S state of the muonic hydrogen. From the value of the exciting laser frequency, the energy of the HFS transition may be derived with high precision and thus, via QED calculations, the Zemach radius of the proton. The experimental apparatus includes a precise fiber-SiPMT beam hodoscope and a crown of eight LaBr3 crystals and a few HPGe detectors for detection of the emitted characteristic X-rays. Preliminary runs to optimize the gas target filling and its operating conditions have been taken in 2014 and 2015-2016. The final run, with the pump laser to drive the HFS transition, is expected in 2018.</summary>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-12-22T16:27:36Z</published>
+    <arxiv:comment>to appear in the proceedings of the 5th International Conference of New Frontiers in Physics (ICNFP 2016), 6-14 July, 2016, Kolymbari, Crete, Greece</arxiv:comment>
+    <arxiv:primary_category term="physics.ins-det"/>
+    <author>
+      <name>M. Bonesini</name>
+    </author>
+    <arxiv:doi>10.1051/epjconf/201716407048</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1051/epjconf/201716407048" title="doi"/>
+  </entry>
+</feed>

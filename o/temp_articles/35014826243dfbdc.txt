@@ -1,0 +1,78 @@
+TERMS: frequency, entropy, wavefunction
+COLORS: green, red, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/kUKCRf8A0AOr6nkRoSQIcUFwWC0</id>
+  <title>arXiv Query: search_query=all:frequency AND all:entropy AND all:wavefunction&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:09:58Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:entropy+AND+all:wavefunction)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>7</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2412.01917v3</id>
+    <title>Measurement-induced phase transition in periodically driven free-fermionic systems</title>
+    <updated>2025-06-29T12:16:55Z</updated>
+    <link href="https://arxiv.org/abs/2412.01917v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.01917v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>It is well known that unitary evolution tends to increase entanglement, whereas continuous monitoring counteracts this growth by pinning the wavefunction trajectories to the eigenstates of the measurement operators. In this work, we investigate the fate of the measurement-induced phase transition in a periodically driven free-fermionic quantum system, where the hopping amplitude is modulated periodically in time using a square pulse. In the high-frequency limit, a renormalization group analysis of the non-Hermitian quantum sine-Gordon model [as proposed in {Phys. Rev. X 11, 041004 (2021)}] reveals that if the hopping amplitude is varied symmetrically around zero, the system always favors the area-law phase, where the steady-state entanglement entropy is independent of subsystem size. In contrast, asymmetry in the drive amplitudes tends to promote entanglement growth. Furthermore, numerical evidence for the system sizes accessible to us suggests that decreasing the drive frequency typically favors entanglement growth. For such driven systems, at least for reasonably small frequency regimes, as a function of measurement strength, we observe a potential signature of a Berezinskii-Kosterlitz-Thouless (BKT) phase transition between a gapless critical phase, characterized by logarithmic growth of entanglement entropy with subsystem size, and a gapped area-law phase. However, it is almost impossible to rule out the possibility that the transition observed here is not an actual thermodynamic transition, but a finite-size crossover between logarithmic to area law entanglement phase. Even in that scenario, the critical length scale beyond which the area law phase prevails increases with the increasing time period of driving. On the other hand, for a symmetric drive, the system consistently exhibits an area-law phase, regardless of the driving frequency.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-02T19:05:09Z</published>
+    <arxiv:comment>21 pages, 24 figures, Accepted for publication in Phys. Rev. B</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <arxiv:journal_ref>Phys. Rev. B 112, 024304 (2025)</arxiv:journal_ref>
+    <author>
+      <name>Pallabi Chatterjee</name>
+    </author>
+    <author>
+      <name>Ranjan Modak</name>
+    </author>
+    <arxiv:doi>10.1103/8l26-c7cv</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/8l26-c7cv" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0910.4188v1</id>
+    <title>Entropic functionals of Laguerre polynomials and complexity properties of the half-line Coulomb potential</title>
+    <updated>2009-10-21T21:59:02Z</updated>
+    <link href="https://arxiv.org/abs/0910.4188v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0910.4188v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The stationary states of the half-line Coulomb potential are described by quantum-mechanical wavefunctions which are controlled by the Laguerre polynomials $L_n^{(1)}(x$). Here we first calculate the $q$th-order frequency or entropic moments of this quantum system, which is controlled by some entropic functionals of the Laguerre polynomials. These functionals are shown to be equal to a Lauricella function $F_A^{(2q+1)}(\frac{1}{q},...,\frac{1}{q},1)$ by use of the Srivastava-Niukkanen linearization relation of Laguerre polynomials. The resulting general expressions are applied to obtain the following information-theoretic quantities of the half-line Coulomb potential: disequilibrium, Renyi and Tsallis entropies. An alternative and simpler expression for the linear entropy is also found by means of a different method. Then, the Shannon entropy and the LMC or shape complexity of the lowest and highest (Rydberg) energetic states are explicitly given; moreover, sharp information-theoretic-based upper bounds to these quantities are found for general physical states. These quantities are numerically discussed for the ground and various excited states. Finally, the uncertainty measures of the half-line Coulomb potential given by the information-theoretic lengths are discussed.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-10-21T21:59:02Z</published>
+    <arxiv:comment>24 pages, 6 figures. Submitted to Journal of Mathematical Physics</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>P. Sanchez-Moreno</name>
+    </author>
+    <author>
+      <name>J. J. Omiste</name>
+    </author>
+    <author>
+      <name>J. S. Dehesa</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2311.08138v1</id>
+    <title>Entanglement and correlations in an exactly-solvable model of a Bose-Einstein condensate in a cavity</title>
+    <updated>2023-11-14T13:06:39Z</updated>
+    <link href="https://arxiv.org/abs/2311.08138v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.08138v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>An exactly solvable model of a trapped interacting Bose-Einstein condensate (BEC) coupled in the dipole approximation to a quantized light mode in a cavity is presented. The model can be seen as a generalization of the harmonic-interaction model for a trapped BEC coupled to a bosonic bath. After obtaining the ground-state energy and wavefunction in closed form, we focus on computing the correlations in the system. The reduced one-particle density matrices of the bosons and the cavity are constructed and diagonalized analytically, and the von Neumann entanglement entropy of the BEC and the cavity is also expressed explicitly as a function of the number and mass of the bosons, frequencies of the trap and cavity, and the cavity-boson coupling strength. The results allow one to study the impact of the cavity on the bosons and vice versa on an equal footing. As an application we investigate a specific case of basic interest for itself, namely, non-interacting bosons in a cavity. We find that both the bosons and the cavity develop correlations in a complementary manner while increasing the coupling between them. Whereas the cavity wavepacket broadens in Fock space, the BEC density saturates in real space. On the other hand, while the cavity depletion saturates, and hence does the BEC-cavity entanglement entropy, the BEC becomes strongly correlated and eventually increasingly fragmented. The latter phenomenon implies single-trap fragmentation of otherwise ideal bosons, where their induced long-range interaction is mediated by the cavity. Finally, as a complimentary investigation, the mean-field equations for the BEC-cavity system are solved analytically as well, and the breakdown of mean-field theory for the cavity and the bosons with increasing coupling is discussed. Further applications are envisaged.</summary>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-14T13:06:39Z</published>
+    <arxiv:comment>28 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.quant-gas"/>
+    <arxiv:journal_ref>J. Phys. A 57, 295305 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Ofir E. Alon</name>
+    </author>
+    <author>
+      <name>Lorenz S. Cederbaum</name>
+    </author>
+    <arxiv:doi>10.1088/1751-8121/ad5bca</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1751-8121/ad5bca" title="doi"/>
+  </entry>
+</feed>

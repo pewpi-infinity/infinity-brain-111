@@ -1,0 +1,100 @@
+TERMS: hydrogen, quantum, superconductivity, probability
+COLORS: purple, blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/STMGRLYKS5SEWIOLOXQXb/b4jLE</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:superconductivity AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:40:16Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:superconductivity+AND+all:probability))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>4</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2505.01960v1</id>
+    <title>New quantum state formed by highly concentrated protons in superconducting palladium hydride</title>
+    <updated>2025-05-04T01:58:05Z</updated>
+    <link href="https://arxiv.org/abs/2505.01960v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.01960v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Hydrogen exhibits quantum phenomena, such as tunneling in materials. According to theory, the quantum properties of hydrogen change significantly in superconductors due to the emergence of an energy gap on the Fermi surface, which reduces the interaction between hydrogen nucleus (i.e., proton) and conduction electrons. This reduction is predicted to enhance the tunneling probability of protons. Here, we report the double transitions of the electrical resistivity in high-quality palladium hydride (PdHx) and deuteride (PdDx) prepared by low-temperature absorption below T = 180 K. After a sharp drop in the resistivity at T ~ 2 K owing to the superconducting transition of PdH(D)x, a large residual resistivity remained. Additionally, the resistivity dropped to zero below T = 1 K. The experimental results suggest that the quantum tunneling of highly concentrated protons (deuterons) in the superconducting state is responsible for the observed features: the residual resistivity arises from the weakening of the global coherence of superconductivity owing to the tunneling motion of protons (deuterons), while the zero resistivity is caused by long-range ordering of the protons (deuterons). This system offers a new platform for investigating the quantum many-body properties of tunneling particles.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-04T01:58:05Z</published>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>Ryoma Kato</name>
+    </author>
+    <author>
+      <name>Ten-ichiro Yoshida</name>
+    </author>
+    <author>
+      <name>Riku Iimori</name>
+    </author>
+    <author>
+      <name>Tai Zizhou</name>
+    </author>
+    <author>
+      <name>Masanobu Shiga</name>
+    </author>
+    <author>
+      <name>Yuji Inagaki</name>
+    </author>
+    <author>
+      <name>Takashi Kimura</name>
+    </author>
+    <author>
+      <name>Koichiro Ienaga</name>
+    </author>
+    <author>
+      <name>Tatsuya Kawae</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.17833v1</id>
+    <title>Efficient implementation of randomized quantum algorithms with dynamic circuits</title>
+    <updated>2025-03-22T18:22:42Z</updated>
+    <link href="https://arxiv.org/abs/2503.17833v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.17833v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Randomized algorithms are crucial subroutines in quantum computing, but the requirement to execute many types of circuits on a real quantum device has been challenging to their extensive implementation. In this study, we propose an engineering method to reduce the executing time for randomized algorithms using dynamic circuits, i.e., quantum circuits involving intermediate measurement and feedback processes. The main idea is to generate the probability distribution defining a target randomized algorithm on a quantum computer, instead of a classical computer, which enables us to implement a variety of static circuits on a single dynamic circuit with many measurements. We applied the proposed method to the task of random Pauli measurement for one qubit on an IBM superconducting device, showing that a 14,000-fold acceleration of executing time was observed compared with a conventional method using static circuits. Additionally, for the problem of estimating expectation values of 28- and 40-qubit hydrogen chain models, we successfully applied the proposed method to realize the classical shadow with 10 million random circuits, which is the largest demonstration of classical shadow. This work significantly simplifies the execution of randomized algorithms on real quantum hardware.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-22T18:22:42Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Shu Kanno</name>
+    </author>
+    <author>
+      <name>Ikko Hamamura</name>
+    </author>
+    <author>
+      <name>Rudy Raymond</name>
+    </author>
+    <author>
+      <name>Qi Gao</name>
+    </author>
+    <author>
+      <name>Naoki Yamamoto</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/nucl-th/0412012v1</id>
+    <title>Quantum tunneling of a complex systems: effects of finite size and intrinsic structure</title>
+    <updated>2004-12-03T05:10:44Z</updated>
+    <link href="https://arxiv.org/abs/nucl-th/0412012v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/nucl-th/0412012v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  A simple model is considered to study the effects of finite size and internal structure in the tunneling of bound two-body systems through a potential barrier. It is demonstrated that these effects are able to increase the tunneling probability. Applications may include nuclear fusion,hydrogen atom and Cooper pair tunneling.</summary>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-12-03T05:10:44Z</published>
+    <arxiv:comment>9 pages</arxiv:comment>
+    <arxiv:primary_category term="nucl-th"/>
+    <arxiv:journal_ref>J.Phys.G31:355-360,2005</arxiv:journal_ref>
+    <author>
+      <name>V. V. Flambaum</name>
+    </author>
+    <author>
+      <name>V. G. Zelevinsky</name>
+    </author>
+    <arxiv:doi>10.1088/0954-3899/31/5/006</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0954-3899/31/5/006" title="doi"/>
+  </entry>
+</feed>

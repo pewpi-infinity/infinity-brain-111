@@ -1,0 +1,100 @@
+TERMS: quantum, crystal
+COLORS: blue, orange
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/jPdY+YWVMKHAprgoLBoJ2WZ5Qdw</id>
+  <title>arXiv Query: search_query=all:quantum AND all:crystal&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T00:56:49Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+all:crystal&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>10872</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2504.12544v3</id>
+    <title>In-situ mid-circuit qubit measurement and reset in a single-species trapped-ion quantum computing system</title>
+    <updated>2025-11-26T18:40:42Z</updated>
+    <link href="https://arxiv.org/abs/2504.12544v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.12544v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We implement in-situ mid-circuit measurement and reset (MCMR) operations on a trapped-ion quantum computing system by using metastable qubit states in $^{171}\textrm{Yb}^+$ ions. We introduce and compare two methods for isolating data qubits from measured qubits: one shelves the data qubit into the metastable state and the other drives the measured qubit to the metastable state without disturbing the other qubits. We experimentally demonstrate both methods on a crystal of two $^{171}\textrm{Yb}^+$ ions using both the $S_{1/2}$ ground state hyperfine clock qubit and the $S_{1/2}$-$D_{3/2}$ optical qubit. These MCMR methods result in errors on the data qubit of about $2\%$ without degrading the measurement fidelity. With straightforward reductions in laser noise, these errors can be suppressed to less than $0.1\%$. The demonstrated method allows MCMR to be performed in a single-species ion chain without shuttling or additional qubit-addressing optics, greatly simplifying the architecture.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-17T00:10:35Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Yichao Yu</name>
+    </author>
+    <author>
+      <name>Keqin Yan</name>
+    </author>
+    <author>
+      <name>Debopriyo Biswas</name>
+    </author>
+    <author>
+      <name>Vivian Ni Zhang</name>
+    </author>
+    <author>
+      <name>Bahaa Harraz</name>
+    </author>
+    <author>
+      <name>Crystal Noel</name>
+    </author>
+    <author>
+      <name>Christopher Monroe</name>
+    </author>
+    <author>
+      <name>Alexander Kozhanov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1704.01277v2</id>
+    <title>Crystal basis theory for a quantum symmetric pair $(\mathbf{U},\mathbf{U}^{\jmath})$</title>
+    <updated>2018-06-15T02:03:19Z</updated>
+    <link href="https://arxiv.org/abs/1704.01277v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1704.01277v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the representation theory of a quantum symmetric pair $(\mathbf{U},\mathbf{U}^{\jmath})$ with two parameters $p,q$ of type AIII, by using highest weight theory and a variant of Kashiwara's crystal basis theory. Namely, we classify the irreducible $\mathbf{U}^{\jmath}$-modules in a suitable category and associate with each of them a basis at $p=q=0$, the $\jmath$-crystal basis. The $\jmath$-crystal bases have nice combinatorial properties as the ordinary crystal bases do.</summary>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-04-05T06:16:39Z</published>
+    <arxiv:comment>40 pages. The proof of the existence theorem for $\jmath$-crystal bases was modified</arxiv:comment>
+    <arxiv:primary_category term="math.RT"/>
+    <author>
+      <name>Hideya Watanabe</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2307.06047v1</id>
+    <title>Quantum information diode based on a magnonic crystal</title>
+    <updated>2023-07-12T09:50:33Z</updated>
+    <link href="https://arxiv.org/abs/2307.06047v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2307.06047v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Exploiting the effect of nonreciprocal magnons in a system with no inversion symmetry, we propose a concept of a quantum information diode, {\it i.e.}, a device rectifying the amount of quantum information transmitted in the opposite directions. We control the asymmetric left and right quantum information currents through an applied external electric field and quantify it through the left and right out-of-time-ordered correlation (OTOC). To enhance the efficiency of the quantum information diode, we utilize a magnonic crystal. We excite magnons of different frequencies and let them propagate in opposite directions. Nonreciprocal magnons propagating in opposite directions have different dispersion relations. Magnons propagating in one direction match resonant conditions and scatter on gate magnons. Therefore, magnon flux in one direction is damped in the magnonic crystal leading to an asymmetric transport of quantum information in the quantum information diode. A quantum information diode can be fabricated from an yttrium iron garnet (YIG) film. This is an experimentally feasible concept and implies certain conditions: low temperature and small deviation from the equilibrium to exclude effects of phonons and magnon interactions. We show that rectification of the flaw of quantum information can be controlled efficiently by an external electric field and magnetoelectric effects.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-07-12T09:50:33Z</published>
+    <arxiv:comment>Accepted for publication in Materials for Quantum Technology</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Rohit K. Shukla</name>
+    </author>
+    <author>
+      <name>Levan Chotorlishvili</name>
+    </author>
+    <author>
+      <name>Vipin Vijayan</name>
+    </author>
+    <author>
+      <name>Harshit Verma</name>
+    </author>
+    <author>
+      <name>Arthur Ernst</name>
+    </author>
+    <author>
+      <name>Stuart S. P. Parkin</name>
+    </author>
+    <author>
+      <name>Sunil K. Mishra</name>
+    </author>
+    <arxiv:doi>10.1088/2633-4356/ace603</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/2633-4356/ace603" title="doi"/>
+  </entry>
+</feed>

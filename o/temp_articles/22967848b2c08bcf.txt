@@ -1,0 +1,76 @@
+TERMS: lattice, crystal, bandgap
+COLORS: orange, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/U2KnRXGx14RCMJXYnD1xZl3+UB4</id>
+  <title>arXiv Query: search_query=all:lattice AND all:crystal AND all:bandgap&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:14:34Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:crystal+AND+all:bandgap)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>155</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/physics/0510225v2</id>
+    <title>Air-guiding photonic bandgap fiber with improved triangular air-silica photonic crystal cladding</title>
+    <updated>2005-10-29T08:28:05Z</updated>
+    <link href="https://arxiv.org/abs/physics/0510225v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/physics/0510225v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We introduce a small-core air-guiding photonic crystal fiber whose cladding is made of improved air-silica photonic crystal with non-circular air holes placed in triangular lattice. The fiber achieves un-disturbed bandgap guidance over 350nm wavelength range.</summary>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-10-25T15:48:37Z</published>
+    <arxiv:comment>Presented at the 31st European Conference on Optical Communication (ECOC), Glasgow, Scotland, September 2005</arxiv:comment>
+    <arxiv:primary_category term="physics.optics"/>
+    <author>
+      <name>M. Yan</name>
+    </author>
+    <author>
+      <name>P. Shum</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/physics/0311018v1</id>
+    <title>Bandgap engineering and defect modes in photonic crystals with rotated hexagonal holes</title>
+    <updated>2003-11-05T04:28:06Z</updated>
+    <link href="https://arxiv.org/abs/physics/0311018v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/physics/0311018v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We study the bandgap structure of two-dimensional photonic crystals created by a triangular lattice of rotated hexagonal holes, and explore the effects of the reduced symmetry in the unit-cell geometry on the value of the absolute bandgap and the frequencies of localized defect modes. We reveal that a maximum absolute bandgap for this structure is achieved for an intermediate rotation angle of the holes. This angle depends on the radius of the holes and the refractive index of the background material. We also study the properties of the defect modes created by missing holes, and discuss the mode tunability in such structures.</summary>
+    <category term="physics.class-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.gen-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-11-05T04:28:06Z</published>
+    <arxiv:comment>4 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.class-ph"/>
+    <arxiv:journal_ref>A. F. Matthews, S. F. Mingaleev and Y. S. Kivshar, "Band-Gap Engineering and Defect Modes in Photonic Crystals with Rotated Hexagonal Holes" Int. J. Las. Phys. 14, 631 (2004).</arxiv:journal_ref>
+    <author>
+      <name>Aaron F. Matthews</name>
+    </author>
+    <author>
+      <name>Sergei F. Mingaleev</name>
+    </author>
+    <author>
+      <name>Yuri S. Kivshar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2206.11774v3</id>
+    <title>Mechanically-tunable bandgap closing in 2D graphene phononic crystals</title>
+    <updated>2023-02-24T08:25:16Z</updated>
+    <link href="https://arxiv.org/abs/2206.11774v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2206.11774v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a tunable phononic crystal which undergoes a phase transition from mechanically insulating to mechanically transmissive (metallic). Specifically, in our simulations for a phononic lattice under biaxial tension ($σ_{xx} =σ_{yy}$ = 0.01 N$/$m), we find a bandgap for out-of-plane phonons in the range of 48.8 - 56.4 MHz, which we can close by increasing the degree of tension uniaxiality ($σ_{xx} / σ_{yy}$) to 1.7. To manipulate the tension distribution, we design a realistic device of finite size, where $σ_{xx} / σ_{yy}$ is tuned by applying a gate voltage to a phononic crystal made from suspended graphene. We show that the phase transition can be probed via acoustic transmission measurements and that the phononic bandgap persists even after the inclusion surface contaminants and random tension variations present in realistic devices. The proposed system acts as a transistor for phonons with an on/off ratio of $10^5$ (100 dB suppression) and is thus a valuable extension for phonon logic applications. In addition, this mechanical analogue to a metal-insulator transition (mMIT) allows tunable coupling between mechanical entities (e.g. mechanical qubits).</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-06-23T15:24:12Z</published>
+    <arxiv:comment>SI at the end of the document</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>Jan N. Kirchhof</name>
+    </author>
+    <author>
+      <name>Kirill I. Bolotin</name>
+    </author>
+    <arxiv:doi>10.1038/s41699-023-00374-4</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41699-023-00374-4" title="doi"/>
+  </entry>
+</feed>

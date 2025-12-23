@@ -1,0 +1,106 @@
+TERMS: entropy, crystal, bandgap
+COLORS: red, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/fM7KgfvoOEeKslClAzOfobo63Gc</id>
+  <title>arXiv Query: search_query=all:entropy AND all:crystal AND all:bandgap&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:17:40Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+(all:crystal+AND+all:bandgap)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>4</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1710.04088v2</id>
+    <title>Self-Assembled Chiral Photonic Crystals From Colloidal Helices Racemate</title>
+    <updated>2018-06-09T09:01:57Z</updated>
+    <link href="https://arxiv.org/abs/1710.04088v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1710.04088v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Chiral crystals consisting of micro-helices have many optical properties while presently available fabrication processes limit their large-scale applications in photonic devices. Here, by using a simplified simulation method, we investigate a bottom-up self-assembly route to build up helical crystals from the smectic monolayer of colloidal helices racemate. With increasing the density, the system undergoes an entropy-driven co-crystallization by forming crystals of various symmetries with different helical shapes. In particular, we identify two crystals of helices arranged in the binary honeycomb and square lattices, which are essentially composed by two sets of opposite-handed chiral crystal. Photonic calculations show that these chiral structures can have large complete photonic bandgaps. In addition, in the self-assembled chiral square crystal, we also find dual polarization bandgaps that selectively forbid the propagation of circularly polarized lights of a specific handedness along the helical axis direction. The self-assembly process in our proposed system is robust, suggesting possibilities of using chiral colloids to assemble photonic metamaterials.</summary>
+    <category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-10-11T14:29:44Z</published>
+    <arxiv:comment>Accepted in ACS Nano</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.soft"/>
+    <author>
+      <name>Qun-li Lei</name>
+    </author>
+    <author>
+      <name>Ran Ni</name>
+    </author>
+    <author>
+      <name>Yu-qiang Ma</name>
+    </author>
+    <arxiv:doi>10.1021/acsnano.8b02116</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1021/acsnano.8b02116" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2501.17373v1</id>
+    <title>Quantitative Modeling of Point Defects in $β$-Ga2O3 Combining Hybrid Functional Energetics with Semiconductor and Processes Thermodynamics</title>
+    <updated>2025-01-29T01:53:50Z</updated>
+    <link href="https://arxiv.org/abs/2501.17373v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2501.17373v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>B-gallium oxide (B-Ga2O3) is of high interest for power electronics because of its unique combination of melt growth, epitaxial growth, n-type dopability, ultrawide bandgap, and high critical field. Optimization of crystal growth processes to promote beneficial defects and suppress harmful ones requires accurate quantitative modelling of both native and impurity defects. Here we quantitatively model defect concentrations as a function of bulk crystal growth conditions and demonstrate the necessity of including effects such as bandgap temperature dependence, chemical potentials from thermochemistry, and defect vibrational entropy in modelling based on defect formation energies computed by density functional theory (DFT) with hybrid functionals. Without these contributions, grossly-erroneous and misleading predictions arise, e.g. that n-type doping attempts would be fully compensated by Ga vacancies. Including these effects reproduces the experimental facts that melt-grown Sn-doped B-Ga2O3 crystals are conductive with small compensation while annealing the same crystals in O2 at intermediate temperatures renders them insulating. To accomplish this modeling, we developed a comprehensive modelling framework (KROGER) based on calculated defect formation energies and flexible thermodynamic conditions. These capabilities allow KROGER to capture full and partial defect equilibria amongst native defects and impurities occurring during specific semiconductor growth or fabrication processes. We use KROGER to model 873 charge-states of 259 defects involving 19 elements in conditions representing bulk crystal growth by edge-fed growth (EFG) and annealing in O2. Our methodology is transferrable to a wide range of materials beyond B-Ga2O3. Integration of thermodynamic and first-principles modelling of point defects provides insight into optimization of point defect populations in growth and processing.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-01-29T01:53:50Z</published>
+    <arxiv:comment>39 pages, 6 figures, references</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Khandakar Aaditta Arnab</name>
+    </author>
+    <author>
+      <name>Megan Stephens</name>
+    </author>
+    <author>
+      <name>Isaac Maxfield</name>
+    </author>
+    <author>
+      <name>Channyung Lee</name>
+    </author>
+    <author>
+      <name>Elif Ertekin</name>
+    </author>
+    <author>
+      <name>Ymir K. Frodason</name>
+    </author>
+    <author>
+      <name>Joel B. Varley</name>
+    </author>
+    <author>
+      <name>Michael A. Scarpulla</name>
+    </author>
+    <arxiv:doi>10.1039/d4cp04817b</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1039/d4cp04817b" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2208.02582v1</id>
+    <title>Structure and optical properties of polymeric carbon nitrides from atomistic simulations</title>
+    <updated>2022-08-04T11:11:14Z</updated>
+    <link href="https://arxiv.org/abs/2208.02582v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2208.02582v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Detailed understanding of the structural and photophysical properties of polymeric carbon nitride (PCN) materials is of critical importance to derive future material optimization strategies towards more desirable optical properties and more photocatalytically active materials. However, the wide range of structural motifs found in synthesized PCNs complicates atomistic simulations that rely on well defined models. Performing hybrid DFT studies, we systematically investigate formation energy trends and optical properties of PCNs as a function of dimensionality, going from molecular oligomers over periodic sheet models to stacked crystals. Thermochemical calculations that take into account vibrational enthalpy and entropy contributions predict that a mixture of structural motifs including the melon string structure, poly(heptazine imide), and g-C3N4 motifs is stable under typical synthetic conditions. The degree of lateral condensation as well as stacking can reduce the bandgap while out-of-plane corrugation of the material increases both stability and the optical gap. The key result of this work is that already small domains of strongly condensed PCN are calculated to give rise to favorable optical properties. This result reconciles conflicting literature reports indicating that the thermodynamically favorable melon motif has a too large bandgap compared to experiments, while the g-C3N4 structure, for which bandgap calculations are in better agreement with experiments, does not agree with measured chemical compositions of PCNs. Finally, we postulate a new computational model for carbon nitride materials that encompasses the most important structural motifs and shows a bandgap of ca. 2.9 eV.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-08-04T11:11:14Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Changbin Im</name>
+    </author>
+    <author>
+      <name>Björn Kirchhoff</name>
+    </author>
+    <author>
+      <name>Igor Krivtsov</name>
+    </author>
+    <author>
+      <name>Dariusz Mitoraj</name>
+    </author>
+    <author>
+      <name>Radim Beranek</name>
+    </author>
+    <author>
+      <name>Timo Jacob</name>
+    </author>
+  </entry>
+</feed>

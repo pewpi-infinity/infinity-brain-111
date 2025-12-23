@@ -1,0 +1,68 @@
+TERMS: frequency, lattice, neutrino
+COLORS: green, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/v5L0GcMAuuEb8HD6Yy4rB2/wuWg</id>
+  <title>arXiv Query: search_query=all:frequency AND all:lattice AND all:neutrino&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:09:45Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:lattice+AND+all:neutrino)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>6</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/0805.4155v1</id>
+    <title>Hypersharp Neutrino Lines</title>
+    <updated>2008-05-27T15:31:19Z</updated>
+    <link href="https://arxiv.org/abs/0805.4155v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0805.4155v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Neutrino lines from very long lived nuclei in simple crystals such as metals have hypersharp natural width, motionally narrowed by lattice vibrations in analogy to recoilless emission. A generalized hypersharp line fraction including the recoilless part can be derived in a frequency modulation approach. The nue lines of natural width in 3H to 3He 2-body beta-decay can then be resonantly captured with geometrical cross section. The extreme sharpness DeltaE/E~10-29 of the tritium nue line can probe the Planck length L via its limits on the widths of states, DeltaE/E(L) =L(L/R)beta =10-20(beta ~1) to 10-40 (beta= L/R(fm)). Stringent limits can be set on beta, thus, on models of quantum gravity.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-05-27T15:31:19Z</published>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>R. S. Raghavan</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.102.091804</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.102.091804" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.10589v1</id>
+    <title>Theoretical Signatures of QCD Phase Transitions in Compact Astrophysical Systems</title>
+    <updated>2025-09-12T10:22:34Z</updated>
+    <link href="https://arxiv.org/abs/2509.10589v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.10589v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate theoretical signatures of first-order QCD phase transitions in high-density astrophysical systems through a framework combining lattice QCD, effective field theories, and multimessenger constraints. Hybrid equations of state with Maxwell and Gibbs constructions, constrained by lattice QCD at finite temperature and baryon chemical potential up to mu_B/T &lt; 3, interpolate consistently between chiral effective field theory at nuclear densities and perturbative QCD at asymptotic densities. Applying these models to static neutron stars via Tolman-Oppenheimer-Volkoff equations and to binary mergers via relativistic hydrodynamics, we find distinctive signatures: (i) twin star branches with 0.5-2.0 km radius differences at fixed mass, (ii) equation of state softening in coexistence regions reducing maximum masses by 0.2-0.4 solar masses, (iii) delayed post-merger gravitational-wave frequency shifts of 200-400 Hz, and (iv) enhanced neutrino emission during phase transitions. Confronted with multimessenger constraints from GW170817, NICER observations of PSR J0740+6620 and PSR J0030+0451, and perturbative QCD, our models suggest strong first-order transitions are marginally consistent with current data but produce signatures detectable by next-generation detectors. Neutron star core sound speeds satisfy c_s^2 &lt; 0.5c^2, with transient conformal bound violations in 2-4 times saturation density. This framework yields quantitative predictions for the Einstein Telescope and Cosmic Explorer, establishing foundations for precision QCD matter tests and possible quark matter discovery.</summary>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-12T10:22:34Z</published>
+    <arxiv:comment>15 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="nucl-th"/>
+    <author>
+      <name>Debarshi Mukherjee</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1704.03823v1</id>
+    <title>Improved Detection of Supernovae with the IceCube Observatory</title>
+    <updated>2017-04-12T16:28:39Z</updated>
+    <link href="https://arxiv.org/abs/1704.03823v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1704.03823v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The IceCube neutrino telescope monitors one cubic kilometer of deep Antarctic ice by detecting Cherenkov photons emitted from charged secondaries produced when neutrinos interact in the ice. The geometry of the detector, which comprises a lattice of 5160 photomultipliers, is optimized for the detection of neutrinos above 100 GeV. However, at subfreezing ice temperatures, dark noise rates are low enough that a high flux of MeV neutrinos streaming through the detector may be recognized by a collective rate enhancement in all photomultipliers. This method can be used to search for the signal of core collapse supernovae, providing sensitivity competitive to Mton neutrino detectors to a supernova in our Galaxy. An online data acquisition system dedicated to supernova detection has been running for several years, but its shortcomings include limited sampling frequency and the fact that the burst energy and direction cannot be reconstructed. A recently developed offline data acquisition system allows IceCube to buffer all registered photons in the detector in case of an alert with low probability to be erroneous. By analyzing such data offline, a precision determination of the burst onset time and the characteristics of rapidly varying fluxes, as well as estimates of the average neutrino energies may be obtained. For supernovae ending in a black hole, the IceCube data can also be used to determine the direction of the burst.</summary>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-04-12T16:28:39Z</published>
+    <arxiv:comment>8 pages, 6 figures, contribution to the 8th international symposium on large TPCs for low-energy rare event detection, Paris, Dec. 5-7, 2016</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.HE"/>
+    <author>
+      <name>Lutz Köpke</name>
+      <arxiv:affiliation>for the IceCube Collaboration</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1088/1742-6596/1029/1/012001</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1742-6596/1029/1/012001" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,83 @@
+TERMS: quantum, frequency
+COLORS: blue, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/EmzN099btQ3P8iP+oGD7kHBvDHc</id>
+  <title>arXiv Query: search_query=all:quantum AND all:frequency&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T00:56:42Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+all:frequency&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>30554</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2311.10822v2</id>
+    <title>Gradients and frequency profiles of quantum re-uploading models</title>
+    <updated>2024-11-08T16:20:00Z</updated>
+    <link href="https://arxiv.org/abs/2311.10822v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.10822v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Quantum re-uploading models have been extensively investigated as a form of machine learning within the context of variational quantum algorithms. Their trainability and expressivity are not yet fully understood and are critical to their performance. In this work, we address trainability through the lens of the magnitude of the gradients of the cost function. We prove bounds for the differences between gradients of the better-studied data-less parameterized quantum circuits and re-uploading models. We coin the concept of {\sl absorption witness} to quantify such difference. For the expressivity, we prove that quantum re-uploading models output functions with vanishing high-frequency components and upper-bounded derivatives with respect to data. As a consequence, such functions present limited sensitivity to fine details, which protects against overfitting. We performed numerical experiments extending the theoretical results to more relaxed and realistic conditions. Overall, future designs of quantum re-uploading models will benefit from the strengthened knowledge delivered by the uncovering of absorption witnesses and vanishing high frequencies.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-17T19:01:43Z</published>
+    <arxiv:comment>14 pages + 2 of references + 8 of appendix. 7+1 figures. Updated version after peer-review and acceptance in Quantum</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Quantum 8, 1523 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Alice Barthe</name>
+    </author>
+    <author>
+      <name>Adrián Pérez-Salinas</name>
+    </author>
+    <arxiv:doi>10.22331/q-2024-11-14-1523</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.22331/q-2024-11-14-1523" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1910.12549v2</id>
+    <title>Quantum frequency estimation with conditional states of continuously monitored independent dephasing channels</title>
+    <updated>2020-02-13T18:01:33Z</updated>
+    <link href="https://arxiv.org/abs/1910.12549v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1910.12549v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We discuss the problem of estimating a frequency via N-qubit probes undergoing independent dephasing channels that can be continuously monitored via homodyne or photo-detection. We derive the corresponding analytical solutions for the conditional states, for generic initial states and for arbitrary efficiency of the continuous monitoring. For the detection strategies considered, we show that: i) in the case of perfect continuous detection, the quantum Fisher information (QFI) of the conditional states is equal to the one obtained in the noiseless dynamics; ii) for smaller detection efficiencies, the QFI of the conditional state is equal to the QFI of a state undergoing the (unconditional) dephasing dynamics, but with an effectively reduced noise parameter.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-10-28T10:48:39Z</published>
+    <arxiv:comment>Accepted in Int. J. Quantum Inf. for the special issue related to the conference Quantum 2019, Torino, Italy</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Int. J. Quantum Inform. 17, 1941013 (2019)</arxiv:journal_ref>
+    <author>
+      <name>Francesco Albarelli</name>
+    </author>
+    <author>
+      <name>Matteo A. C. Rossi</name>
+    </author>
+    <author>
+      <name>Marco G. Genoni</name>
+    </author>
+    <arxiv:doi>10.1142/S0219749919410132</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/S0219749919410132" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1808.09100v2</id>
+    <title>Satellite-based quantum steering under the influence of spacetime curvature of the Earth</title>
+    <updated>2018-09-12T01:59:07Z</updated>
+    <link href="https://arxiv.org/abs/1808.09100v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1808.09100v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Spacetime curvature of the Earth deforms wavepackets of photons sent from the Earth to satellites, thus influencing the quantum state of light. We show that Gaussian steering of photon pairs, which are initially prepared in a two-mode squeezed state, is affected by the curved spacetime background of the Earth. We demonstrate that quantum steerability of the state increases for a specific range of height $h$ and then gradually approaches a finite value with further increasing height of the satellite's orbit. Comparing with the peak frequency parameter, the Gaussian steering changes more for different squeezing parameters, while the gravitational frequency effect leads to quantum steering asymmetry between the photon pairs. In addition, we find that the influence of spacetime curvature on the steering in the Kerr spacetime is very different from the non-rotating case because special relativistic effects are involved.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-08-28T03:30:41Z</published>
+    <arxiv:comment>7 pages, 4 figures, typos fixed, to appear in Advanced Quantum Technologies</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Adv. Quantum Technol. 1, 1800072 (2018)</arxiv:journal_ref>
+    <author>
+      <name>Tonghua Liu</name>
+    </author>
+    <author>
+      <name>Jiliang Jing</name>
+    </author>
+    <author>
+      <name>Jieci Wang</name>
+    </author>
+    <arxiv:doi>10.1002/qute.201800072</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1002/qute.201800072" title="doi"/>
+  </entry>
+</feed>

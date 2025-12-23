@@ -1,0 +1,76 @@
+TERMS: frequency, lattice, singularity
+COLORS: green, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/iqs05lI1RAQq+kscX50lfEgh6Pk</id>
+  <title>arXiv Query: search_query=all:frequency AND all:lattice AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:09:49Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:lattice+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>101</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0407684v1</id>
+    <title>Coreless and singular vortex lattices in rotating spinor Bose-Einstein condensates</title>
+    <updated>2004-07-27T03:08:38Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0407684v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0407684v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We theoretically investigate vortex-lattice phases of rotating spinor Bose-Einstein condensates (BEC) with the ferromagnetic spin-interaction by numerically solving the Gross-Pitaevskii equation. The spinor BEC under slow rotation can sustain a rich variety of exotic vortices due to the multi-component order parameters, such as the Mermin-Ho and Anderson-Toulouse coreless vortices (the 2-dimensional skyrmion and meron) and the non-axisymmetric vortices with the sifting vortex cores. Here, we present the spin texture of various vortex-lattice states at higher rotation rates and in the presence of the external magnetic field. In addition, the vortex phase diagram is constructed in the plane by the total magnetization $M$ and the external rotation frequency $Ω$ by comparing the free energies of possible vortices. It is shown that the vortex phase diagram in a $M$-$Ω$ plane may be divided into two categories; (i) the coreless vortex lattice formed by the several types of Mermin-Ho vortices and (ii) the vortex lattice filling in the cores with the pure polar (antiferromagnetic) state. In particular, it is found that the type-(ii) state forms the composite lattices of coreless and polar-core vortices. The difference between the type-(i) and type-(ii) results from the existence of the singularity of the spin textures, which may be experimentally confirmed by the spin imaging within polarized light recently proposed by Carusotto and Mueller. We also discussed on the stability of triangular and square lattice states for rapidly rotating condensates.</summary>
+    <category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-07-27T03:08:38Z</published>
+    <arxiv:comment>to be published in Phys. Rev. A</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.soft"/>
+    <author>
+      <name>Takeshi Mizushima</name>
+    </author>
+    <author>
+      <name>Naoko Kobayashi</name>
+    </author>
+    <author>
+      <name>Kazushige Machida</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.70.043613</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.70.043613" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2204.05216v1</id>
+    <title>Lattice dynamics in the charge-density-wave metal at a van-Hove-singularity filling</title>
+    <updated>2022-04-11T16:01:20Z</updated>
+    <link href="https://arxiv.org/abs/2204.05216v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2204.05216v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The charge-density-wave (CDW) order with macroscopically occupied electrons distorts the underlying lattice and usually causes the softening of the associated phonon mode. However, previous studies demonstrated that the spin-Peierls transition does not always induce an associated phonon softening, but the central-peak scenario applied in the quasi-one-dimensional compound CuGeO$_3$. We generalize the lattice-dynamics studies on the two-dimensional CDW state at van-Hove-singularity (VHS) filling and find that the CDW ordering could develop a central peak at zero frequency while the associated phonon undergoes hardening. The particle-hole scatterings between VHS points give rise to a low-energy increased charge-density susceptibility, and their coupling to the lattice dynamics induces two poles in the Green function for the CDW-associated phonon mode. The zero-frequency pole corresponds to the collective charge-density and phonon coupling mode. The high-frequency one is related to the high-temperature phonon mode that hardens as reaching the CDW transition. Our result may have the potential implication for the recently discovered Kagome metal $A$V$_3$Sb$_5$ ($A$ = K, Rb, Cs) in which no soft phonon is observed during the CDW transition.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-04-11T16:01:20Z</published>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <author>
+      <name>Jia-Wei Mei</name>
+    </author>
+    <author>
+      <name>Fei Ye</name>
+    </author>
+    <author>
+      <name>Xiaobin Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2104.04554v4</id>
+    <title>Synthetic plasmonic lattice formation through invariant frequency comb excitation in graphene structures</title>
+    <updated>2021-09-21T22:55:10Z</updated>
+    <link href="https://arxiv.org/abs/2104.04554v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2104.04554v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Nonlinear surface-plasmon polaritons~(NSPPs) in nanophotonic waveguides excite with dissimilar temporal properties due to input field modifications and material characteristics, but they possess similar nonlinear spectral evolution. In this work, we uncover the origin of this similarity and establish that the spectral dynamics is an inherent property of the system that depends on the synthetic dimension and is beyond waveguide geometrical dimensionality. To this aim, we design an ultra-low loss nonlinear plasmonic waveguide, to establish the invariance of the surface plasmonic frequency combs~(FCs) and phase singularities for plasmonic peregrine waves and Akhmediev breather. By finely tuning the nonlinear coefficient of the interaction interface, we uncover the conservation conditions through this plasmonic system and employ the mean-value evolution of the quantum NSPP field commensurate with the Schrödinger equation to evaluate spectral dynamics of the plasmonic FCs~(PFCs). Through providing suppressed interface losses and modified nonlinearity as dual requirements for conservative conditions, we propose exciting PFCs as equally spaced invariant quantities of this plasmonic scheme and prove that the spectral dynamics of the NSPPs within the interaction interface yields the formation of plasmonic analog of the synthetic photonic lattice, which we termed \textit{synthetic plasmonic lattice}~(SPL).</summary>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-04-09T18:32:48Z</published>
+    <arxiv:comment>are welcome!</arxiv:comment>
+    <arxiv:primary_category term="physics.optics"/>
+    <author>
+      <name>Zahra Jalali-Mola</name>
+    </author>
+    <author>
+      <name>Saeid Asgarnezhad-Zorgabad</name>
+    </author>
+    <arxiv:doi>10.1515/nanoph-2021-0163</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1515/nanoph-2021-0163" title="doi"/>
+  </entry>
+</feed>

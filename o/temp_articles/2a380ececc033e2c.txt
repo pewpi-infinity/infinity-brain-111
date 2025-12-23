@@ -1,0 +1,64 @@
+TERMS: vapor, superconductivity, boson
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/OtXCKvjEw8twJtkOoZf1drkAuwc</id>
+  <title>arXiv Query: search_query=all:vapor AND all:superconductivity AND all:boson&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:25:38Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:vapor+AND+(all:superconductivity+AND+all:boson)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/0805.0536v2</id>
+    <title>Controlled vaporization of the superconducting condensate in cuprate superconductors sheds light on the pairing boson</title>
+    <updated>2008-05-06T07:37:52Z</updated>
+    <link href="https://arxiv.org/abs/0805.0536v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0805.0536v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We use ultrashort intense laser pulses to study superconducting state vaporization dynamics in La(2-x)Sr(x)CuO4 (x=0.1 and 0.15) on the femtosecond timescale. We find that the energy density required to vaporize the superconducting state is 2+- 0.8 K/Cu and 2.6 +- 1 K/Cu for x=0.1 and 0.15 respectively. This is significantly greater than the condensation energy density, indicating that the quasiparticles share a large amount of energy with the boson glue bath on this timescale. Considering in detail both spin and lattice energy relaxation pathways which take place on the relevant timescale of picoseconds, we rule out purely spin-mediated pair-breaking in favor of phonon-mediated mechanisms, effectively ruling out spin-mediated pairing in cuprates as a consequence.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-05-05T14:24:35Z</published>
+    <arxiv:comment>5 pages of article plus 4 pages of supplementary material</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 101, 227001 (2008)</arxiv:journal_ref>
+    <author>
+      <name>P. Kusar</name>
+    </author>
+    <author>
+      <name>V. V. Kabanov</name>
+    </author>
+    <author>
+      <name>S. Sugai</name>
+    </author>
+    <author>
+      <name>J. Demsar</name>
+    </author>
+    <author>
+      <name>T. Mertelj</name>
+    </author>
+    <author>
+      <name>D. Mihailovic</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.101.227001</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.101.227001" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0810.3263v1</id>
+    <title>Dirty Bosons: Twenty Years Later</title>
+    <updated>2008-10-17T22:00:19Z</updated>
+    <link href="https://arxiv.org/abs/0810.3263v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0810.3263v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  A concise, somewhat personal, review of the problem of superfluidity and quantum criticality in regular and disordered interacting Bose systems is given, concentrating on general features and important symmetries that are exhibited in different parts of the phase diagram, and that govern the different possible types of critical behavior. A number of exact results for various insulating phase boundaries, which may be used to constrain the results of numerical simulations, can be derived using large rare region type arguments. The nature of the insulator-superfluid transition is explored through general scaling arguments, exact model calculations in one dimension, numerical results in two dimensions, and approximate renormalization group results in higher dimensions. Experiments on He-4 adsorbed in porous Vycor glass, on thin film superconductors, and magnetically trapped atomic vapors in a periodic optical potential, are used to illustrate many of the concepts.</summary>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-10-17T22:00:19Z</published>
+    <arxiv:comment>26 pages, 9 figures, submitted to Modern Physics Letters B (Brief Reviews)</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.dis-nn"/>
+    <author>
+      <name>Peter B. Weichman</name>
+    </author>
+    <arxiv:doi>10.1142/S0217984908017187</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/S0217984908017187" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,95 @@
+TERMS: frequency, lattice, fusion
+COLORS: green, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/88/9YudM/zbKbjgJ/T/IkHiR0S4</id>
+  <title>arXiv Query: search_query=all:frequency AND all:lattice AND all:fusion&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:09:32Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:lattice+AND+all:fusion)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>8</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2107.11222v3</id>
+    <title>Multi-channel Speech Enhancement with 2-D Convolutional Time-frequency Domain Features and a Pre-trained Acoustic Model</title>
+    <updated>2021-09-24T08:24:06Z</updated>
+    <link href="https://arxiv.org/abs/2107.11222v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2107.11222v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a multi-channel speech enhancement approach with a novel two-stage feature fusion method and a pre-trained acoustic model in a multi-task learning paradigm. In the first fusion stage, the time-domain and frequency-domain features are extracted separately. In the time domain, the multi-channel convolution sum (MCS) and the inter-channel convolution differences (ICDs) features are computed and then integrated with the first 2-D convolutional layer, while in the frequency domain, the log-power spectra (LPS) features from both original channels and super-directive beamforming outputs are combined with a second 2-D convolutional layer. To fully integrate the rich information of multi-channel speech, i.e. time-frequency domain features and the array geometry, we apply a third 2-D convolutional layer in the second fusion stage to obtain the final convolutional features. Furthermore, we propose to use a fixed clean acoustic model trained with the end-to-end lattice-free maximum mutual information criterion to enforce the enhanced output to have the same distribution as the clean waveform to alleviate the over-estimation problem of the enhancement task and constrain distortion. On the Task1 development dataset of ConferencingSpeech 2021 challenge, a PESQ improvement of 0.24 and 0.19 is attained compared to the official baseline and a recently proposed multi-channel separation method.</summary>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-07-23T13:32:43Z</published>
+    <arxiv:comment>7 pages, 3 figures, accepted to APSIPA 2021, revised</arxiv:comment>
+    <arxiv:primary_category term="cs.SD"/>
+    <author>
+      <name>Quandong Wang</name>
+    </author>
+    <author>
+      <name>Junnan Wu</name>
+    </author>
+    <author>
+      <name>Zhao Yan</name>
+    </author>
+    <author>
+      <name>Sichong Qian</name>
+    </author>
+    <author>
+      <name>Liyong Guo</name>
+    </author>
+    <author>
+      <name>Lichun Fan</name>
+    </author>
+    <author>
+      <name>Weiji Zhuang</name>
+    </author>
+    <author>
+      <name>Peng Gao</name>
+    </author>
+    <author>
+      <name>Yujun Wang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2308.03794v3</id>
+    <title>Quench Risk Increase With Irradiation Damage</title>
+    <updated>2024-06-25T17:34:38Z</updated>
+    <link href="https://arxiv.org/abs/2308.03794v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.03794v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Superconducting material enables fusion reactor magnet concepts to operate with current densities that would melt materials with non-zero resistance. The application of superconducting material is considered essential for net-positive power machines. Catastrophic damage can occur when superconductivity is lost and the current generates heat. This scenario is called a quench. Stabilizer material carries the magnet current (typically copper) during a quench and is the focus of this work. Irradiation-induced defects store energy in the Cu crystalline lattice. The release of stored energy in the magnet materials, combined with the associated magnet material property changes, can cause extreme off-normal events in superconducting magnets that worsen with fluence at an increasing rate. Stored energy can be released causing local heating and increasing the risk of a quench. For example, following irradiation at 4.6K and an estimated fluence of 0.45*10^18 n/cm^2, an energy release of 0.023 J/g was measured from Cu when increased in temperature from 10K to 18K, which would have been enough energy to create the same temperature increase spontaneously. Extrapolations of experimental data are used to estimate when spontaneous heating can occur due to the release of energy stored in irradiation-induced defects. Critical fluence values are estimated between 1.74*10^18 n/cm^2 and 2.85*10^19 n/cm^2 for neutron irradiation of Cu at a temperature of 20K. High-temperature ramp rate in-situ cryogenic calorimetry experiments of magnet materials following irradiation would provide more clarity to designers of fusion magnet systems. Due to the increased quench risk with superconducting magnet dose, magnetic confinement reactor designers should consider the frequency of maintenance temperature cycles to maintain an appropriate level of risk during operation.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.acc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-08-04T20:45:28Z</published>
+    <arxiv:comment>13 pages, 10 figures, 2 tables, 10 equations. Work presented at Symposium on Fusion Engineering 2023 in Oxford on July 13th. The work has significant implications for the design of some private machines. The document as been peer reviewed, and submitted to a Journal, currently waiting for feedback</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>Jacob John</name>
+    </author>
+    <author>
+      <name>Mark Gilbert</name>
+    </author>
+    <author>
+      <name>Chris Hardie</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1602.02277v1</id>
+    <title>Chemical and nuclear catalysis driven by localized anharmonic vibrations</title>
+    <updated>2016-02-06T16:38:10Z</updated>
+    <link href="https://arxiv.org/abs/1602.02277v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1602.02277v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In many-body nonlinear systems with sufficient anharmonicity, a special kind of lattice vibrations, namely, Localized Anharmonic Vibrations (LAV) can be excited either thermally or by external triggering, in which the amplitude of atomic oscillations greatly exceeds that of harmonic oscillations (phonons) that determine the system temperature. Coherency and persistence of LAV may have drastic effect on chemical and nuclear reaction rates due to time-periodic modulation of reaction sites. One example is a strong acceleration of chemical reaction rates driven by thermally-activated "jumps" over the reaction barrier due to the time-periodic modulation of the barrier height in the LAV vicinity. At sufficiently low temperatures, the reaction rate is controlled by quantum tunneling through the barrier rather than by classical jumping over it. A giant increase of sub-barrier transparency was demonstrated for a parabolic potential well with the time-periodic eigenfrequency, when the modulation frequency exceeds the eigenfrequency by a factor of ~2 (parametric regime). Such regime can be realized for a hydrogen or deuterium atom in metal hydrides/deuterides, such as NiH or PdD, in the vicinity of LAV. We present an analytical solution of the Schrodinger equation for a nonstationary harmonic oscillator, analyze the parametric regime in details and discuss its applications to the tunnel effect and to D-D fusion in PdD lattice. We obtain simple analytical expressions for the increase of amplitude and energy of zero-point oscillations (ZPO) induced by the parametric modulation. Based on that, we demonstrate a drastic increase of the D-D fusion rate with in-creasing number of modulation periods evaluated in the framework of Schwinger model, which takes into account suppression of the Coulomb barrier due to lattice vibrations.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-02-06T16:38:10Z</published>
+    <arxiv:comment>7 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>V. I. Dubinko</name>
+    </author>
+    <author>
+      <name>D. V. Laptev</name>
+    </author>
+  </entry>
+</feed>

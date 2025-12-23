@@ -1,0 +1,60 @@
+TERMS: electron, vapor, boson
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Qm4z+LLDywd7OnSUU7nhUfxKJxE</id>
+  <title>arXiv Query: search_query=all:electron AND all:vapor AND all:boson&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:22:48Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:electron+AND+(all:vapor+AND+all:boson)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1902.00128v2</id>
+    <title>Experimental limit on an exotic parity-odd spin- and velocity-dependent interaction using an optically polarized vapor</title>
+    <updated>2019-04-24T21:40:25Z</updated>
+    <link href="https://arxiv.org/abs/1902.00128v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1902.00128v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Exotic spin-dependent interactions between fermions have recently attracted attention in relation to theories beyond the Standard Model. The exotic interactions can be mediated by hypothetical fundamental bosons which may explain several unsolved mysteries in physics. Here we expand this area of research by probing an exotic parity-odd spin- and velocity-dependent interaction between the axial-vector electron coupling and the vector nucleon coupling for polarized electrons. This experiment utilizes a high-sensitivity atomic magnetometer, based on an optically polarized vapor that is a source of polarized electrons, and a solid-state mass containing unpolarized nucleons. The atomic magnetometer can detect an effective magnetic field induced by the exotic interaction between unpolarized nucleons and polarized electrons. We set an experimental limit on the electron-nucleon coupling $g_\text{A}^\text{e} g_\text{V}^\text{N}&lt;$ $10^{-30}$ at the mediator boson mass below $10^{-4}$ eV, significantly improving the current limit by up to 17 orders of magnitude.</summary>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-01-31T23:35:06Z</published>
+    <arxiv:comment>17 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-ex"/>
+    <author>
+      <name>Young Jin Kim</name>
+    </author>
+    <author>
+      <name>Ping-Han Chu</name>
+    </author>
+    <author>
+      <name>Igor Savukov</name>
+    </author>
+    <author>
+      <name>Shaun Newman</name>
+    </author>
+    <arxiv:doi>10.1038/s41467-019-10169-1</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41467-019-10169-1" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/quant-ph/0512157v1</id>
+    <title>Pairwise entanglement and readout of atomic-ensemble and optical wave-packet modes in traveling-wave Raman interactions</title>
+    <updated>2005-12-19T19:03:17Z</updated>
+    <link href="https://arxiv.org/abs/quant-ph/0512157v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/quant-ph/0512157v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We analyze quantum entanglement of Stokes light and atomic electronic polarization excited during single-pass, linear-regime, stimulated Raman scattering in terms of optical wave-packet modes and atomic-ensemble spatial modes. The output of this process is confirmed to be decomposable into multiple discrete, bosonic mode pairs, each pair undergoing independent evolution into a two-mode squeezed state. For this we extend the Bloch-Messiah reduction theorem, previously known for discrete linear systems (S. L. Braunstein, Phys. Rev. A, vol. 71, 055801 (2005)). We present typical mode functions in the case of one-dimensional scattering in an atomic vapor. We find that in the absence of dispersion, one mode pair dominates the process, leading to a simple interpretation of entanglement in this continuous-variable system. However, many mode pairs are excited in the presence of dispersion-induced temporal walkoff of the Stokes, as witnessed by the photon-count statistics. We also consider the readout of the stored atomic polarization using the anti-Stokes scattering process. We prove that the readout process can also be decomposed into multiple mode pairs, each pair undergoing independent evolution analogous to a beam-splitter transformation. We show that this process can have unit efficiency under realistic experimental conditions. The shape of the output light wave packet can be predicted. In case of unit readout efficiency it contains only excitations originating from a specified atomic excitation mode.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-12-19T19:03:17Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Phys. Rev. A 73, 063816 (2006)</arxiv:journal_ref>
+    <author>
+      <name>Wojciech Wasilewski</name>
+    </author>
+    <author>
+      <name>M. G. Raymer</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.73.063816</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.73.063816" title="doi"/>
+  </entry>
+</feed>

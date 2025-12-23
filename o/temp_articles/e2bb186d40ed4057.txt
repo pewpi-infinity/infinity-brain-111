@@ -1,0 +1,59 @@
+TERMS: fusion, ionization, oxidation
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/CbVjgAHkPbTIoHkK2G1YjKRCeX4</id>
+  <title>arXiv Query: search_query=all:fusion AND all:ionization AND all:oxidation&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:20:44Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:fusion+AND+(all:ionization+AND+all:oxidation)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2001.05300v1</id>
+    <title>Magnesium Oxide at Extreme Temperatures and Pressures Studied with First-Principles Simulations</title>
+    <updated>2020-01-14T11:15:44Z</updated>
+    <link href="https://arxiv.org/abs/2001.05300v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2001.05300v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We combine two first-principles computer simulation techniques, path integral Monte-Carlo and density functional theory molecular dynamics, to determine the equation of state of magnesium oxide in the regime of warm dense matter, with densities ranging from 0.35 to 71~g$\,$cm$^{-3}$ and temperatures from 10,000 K to $5\times10^8$~K. These conditions are relevant for the interiors of giant planets and stars as well as for shock wave compression measurements and inertial confinement fusion experiments. We study the electronic structure of MgO and the ionization mechanisms as a function of density and temperature. We show that the L-shell orbitals of magnesium and oxygen hybridize at high density. This results into a gradual ionization of the L-shell with increasing density and temperature. In this regard, MgO behaves differently from pure oxygen, which is reflected in the shape of the MgO principal shock Hugoniot curve. The curve of oxygen shows two compression maxima, while that of MgO shows only one. We predict a maximum compression ratio of 4.66 to occur for a temperature of 6.73 $\times 10^7$ K. Finally we study how multiple shocks and ramp waves can be used to cover a large range of densities and temperatures.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-01-14T11:15:44Z</published>
+    <arxiv:comment>12 pages, 9 figures. arXiv admin note: text overlap with arXiv:2001.00985</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>J. Chem. Phys. 151, 214104 (2019)</arxiv:journal_ref>
+    <author>
+      <name>François Soubiran</name>
+    </author>
+    <author>
+      <name>Felipe González-Cataldo</name>
+    </author>
+    <author>
+      <name>Kevin P. Driver</name>
+    </author>
+    <author>
+      <name>Shuai Zhang</name>
+    </author>
+    <author>
+      <name>Burkhard Militzer</name>
+    </author>
+    <arxiv:doi>10.1063/1.5126624</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/1.5126624" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1204.2393v3</id>
+    <title>Clouds of short-circuited thermionic nanobatteries and promising prospects for development of nanobattery-based aerosol fusion reactors. The preliminary report</title>
+    <updated>2012-04-13T09:49:14Z</updated>
+    <link href="https://arxiv.org/abs/1204.2393v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1204.2393v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The physical mechanisms of periodic separation and relaxation of electric charges within aerosol particles possessing the properties the short-circuited batteries can be extremely diverse. With use of appropriate materials and dispersing methods, the electrochemical, thermoelectric, thermionic, pyroelectric, photoelectric, photo electronic emission, or even radionuclide-based emission micro and nano-batteries can be synthesized and be dispersed in the air as clouds self-assembed of the short-circuited aerosol batteries due to the inter-particle electromagnetic dipole-dipole attraction. Intense thermionic emission from ionized hot spots migrating on the relatively cold surface of charged explosive particles, can convert these particles into short-circuited thermionic batteries, turning an aerosol cloud consisting of such unipolar charged, gradually decomposing explosive particles into ball lightning. The slow exothermic decomposition of the highly sensitive explosive aerosol particles, catalyzed by excess ions on their surface, and also ion-catalyzed reactions of slow water vapor induced oxidation of charged combustible aerosol particles underlie two main classes of natural ball lightning. At the same time, the artificially generated clouds consisting of such unipolar charged aerosol nanobatteries, probably, can have some useful applications, not only military ones. In particular, it seems that high-performance pyroelectric fusion reactors could be created on the basis of such ball-shaped aerosol clouds self-assembled of pyroelectric nanocrystals - short-circuited pyroelectric nanobatteries.</summary>
+    <category term="physics.gen-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-04-11T09:54:44Z</published>
+    <arxiv:comment>9 pages, 11 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.gen-ph"/>
+    <author>
+      <name>Oleg Meshcheryakov</name>
+    </author>
+  </entry>
+</feed>

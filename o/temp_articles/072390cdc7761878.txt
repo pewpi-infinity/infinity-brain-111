@@ -1,0 +1,86 @@
+TERMS: quantum, lattice
+COLORS: blue, orange
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/lKzS5u8PyWvhgZkWJQhAt6dJT48</id>
+  <title>arXiv Query: search_query=all:quantum AND all:lattice&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T00:56:43Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+all:lattice&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>31730</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1105.5582v1</id>
+    <title>Lattice quantum gravity - an update</title>
+    <updated>2011-05-27T15:18:06Z</updated>
+    <link href="https://arxiv.org/abs/1105.5582v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1105.5582v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We advocate lattice methods as the tool of choice to constructively define a background-independent theory of Lorentzian quantum gravity and explore its physical properties in the Planckian regime. The formulation that arguably has most furthered our understanding of quantum gravity (and of various pitfalls present in the nonperturbative sector) uses dynamical triangulations to regularize the nonperturbative path integral over geometries. Its Lorentzian version in terms of Causal Dynamical Triangulations (CDT) - in addition to having a definite quantum signature on short scales - has been shown to reproduce important features of the classical theory on large scales. This article recaps the most important developments in CDT of the last few years for the physically relevant case of four spacetime dimensions, and describes its status quo at present.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-05-27T15:18:06Z</published>
+    <arxiv:comment>14 pages, 8 figures, write-up of plenary talk at Lattice 2010, Villasimius, Sardegna, Italy, 14-19 June 2010</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>PoS (Lattice 2010) 014</arxiv:journal_ref>
+    <author>
+      <name>J. Ambjorn</name>
+    </author>
+    <author>
+      <name>J. Jurkiewicz</name>
+    </author>
+    <author>
+      <name>R. Loll</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1210.7794v1</id>
+    <title>Glueball spectral densities from the lattice</title>
+    <updated>2012-10-29T19:57:19Z</updated>
+    <link href="https://arxiv.org/abs/1210.7794v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1210.7794v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The propagator of a physical degree of freedom ought to obey a Källén-Lehmann spectral representation, with positive spectral density. The latter quantity is directly related to a cross section based on the optical theorem. The spectral density is a crucial ingredient of a quantum field theory with elementary and bound states, with a direct experimental connection as the masses of the excitations reflect themselves into (continuum) $δ$-singularities. In usual lattice simulational approaches to the QCD spectrum the spectral density itself is not accessed. The (bound state) masses are extracted from the asymptotic exponential decay of the two-point function. Given the importance of the spectral density, each nonperturbative continuum approach to QCD should be able to adequately describe it or to take into proper account. In this work, we wish to present a first trial in extracting an estimate for the scalar glueball spectral density in SU(3) gluodynamics using lattice gauge theory.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-10-29T19:57:19Z</published>
+    <arxiv:comment>Proceedings of the 30th International Symposium on Lattice Field Theory - Lattice 2012; June 24-29, 2012; Cairns, Australia</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>PoS(Lattice 2012)214</arxiv:journal_ref>
+    <author>
+      <name>O. Oliveira</name>
+    </author>
+    <author>
+      <name>D. Dudal</name>
+    </author>
+    <author>
+      <name>P. J. Silva</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1109.6549v1</id>
+    <title>Lattice Planar QED in external magnetic field</title>
+    <updated>2011-09-29T15:03:26Z</updated>
+    <link href="https://arxiv.org/abs/1109.6549v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1109.6549v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate planar Quantum ElectroDynamics (QED) with two degenerate staggered fermions in an external magnetic field on the lattice. Our preliminary results indicate that in external magnetic fields there is dynamical generation of mass for two-dimensional massless Dirac fermions in the weak coupling region. We comment on possible implications to the quantum Hall effect in graphene.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-09-29T15:03:26Z</published>
+    <arxiv:comment>7 pages, 1 figure, poster contribution to the XXIX International Symposium on Lattice Field Theory, LATTICE 2011</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>PoS (Lattice 2011) 307</arxiv:journal_ref>
+    <author>
+      <name>Paolo Cea</name>
+    </author>
+    <author>
+      <name>Leonardo Cosmai</name>
+    </author>
+    <author>
+      <name>Pietro Giudice</name>
+    </author>
+    <author>
+      <name>Alessandro Papa</name>
+    </author>
+  </entry>
+</feed>

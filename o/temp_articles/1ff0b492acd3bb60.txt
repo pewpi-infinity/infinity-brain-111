@@ -1,0 +1,80 @@
+TERMS: quantum, lattice, crystal
+COLORS: blue, orange, orange
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/BSi9gNhkjzOIkBG+6dTMwVdmQX8</id>
+  <title>arXiv Query: search_query=all:quantum AND all:lattice AND all:crystal&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:05:56Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:lattice+AND+all:crystal)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2080</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1106.0128v2</id>
+    <title>Quantum information processing in self-assembled crystals of cold polar molecules</title>
+    <updated>2011-07-14T08:03:28Z</updated>
+    <link href="https://arxiv.org/abs/1106.0128v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1106.0128v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We discuss the implementation of quantum gate operations in a self-assembled dipolar crystal of polar molecules. Here qubits are encoded in long-lived spin states of the molecular ground state and stabilized against collisions by repulsive dipole-dipole interactions. To overcome the single site addressability problem in this high density crystalline phase, we describe a new approach for implementing controlled single and two-qubit operations based on resonantly enhanced spin-spin interactions mediated by a localized phonon mode. This local mode is created at a specified lattice position with the help of an additional marker molecule such that individual qubits can be manipulated by using otherwise global static and microwave fields only. We present a general strategy for generating state and time dependent dipole moments to implement a universal set of gate operations for molecular qubits and we analyze the resulting gate fidelities under realistic conditions. Our analysis demonstrates the experimental feasibility of this approach for scalable quantum computing or digital quantum simulation schemes with polar molecules.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-06-01T09:41:44Z</published>
+    <arxiv:comment>Submitted to Quantum Information Processing</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>M. Ortner</name>
+    </author>
+    <author>
+      <name>Y. L. Zhou</name>
+    </author>
+    <author>
+      <name>P. Rabl</name>
+    </author>
+    <author>
+      <name>P. Zoller</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2108.01747v2</id>
+    <title>Non-Hermitian quantum gases: a platform for imaginary time crystals</title>
+    <updated>2022-05-16T09:03:51Z</updated>
+    <link href="https://arxiv.org/abs/2108.01747v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2108.01747v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>One of the most important applications of quantum mechanics is the thermodynamic description of quantum gases. Despite the fundamental importance of this topic, a comprehensive description of the thermodynamic properties of non-Hermitian quantum gases is still lacking. Here, we investigate the properties of bosonic and fermionic non-Hermitian systems at finite temperatures. We show that non-Hermitian systems exihibit oscillations both in temperature and imaginary time. As such, they can be a possible platform to realize an imaginary time crystal (iTC) phase. The Hatano-Nelson model is identified as a simple lattice model to reveal this effect. In addition, we show that the conditions for the iTC to be manifest are the same as the conditions for the presence of disorder points, where the correlation functions show oscillating behavior. This analysis makes clear that our realization of iTC is effectively a way to filter one specific Matsubara mode. In this realization, the Matsubara frequency, that enters as a mathematical tool to compute correlation functions for finite temperatures, can be measured experimentally.</summary>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-08-03T21:01:08Z</published>
+    <arxiv:comment>Reformulation of manuscript, some typos corrected, results are the same. 22+16 pages on single column</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.quant-gas"/>
+    <arxiv:journal_ref>Quantum Frontiers 1, 2 (2022)</arxiv:journal_ref>
+    <author>
+      <name>R. Arouca</name>
+    </author>
+    <author>
+      <name>E. C. Marino</name>
+    </author>
+    <author>
+      <name>C. Morais Smith</name>
+    </author>
+    <arxiv:doi>10.1007/s44214-022-00002-0</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s44214-022-00002-0" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2008.00980v1</id>
+    <title>From optical lattices to quantum crystals</title>
+    <updated>2020-08-03T16:03:54Z</updated>
+    <link href="https://arxiv.org/abs/2008.00980v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2008.00980v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Optical lattices can be loaded with atoms which can have strong interactions, such that the interaction of atoms at different lattice sites cannot be neglected. Moreover, the intersite interactions can be so strong that it can force the atoms to form a self-organized lattice, such that exists in crystals. With increasing intersite interactions, there can appear several lattice states, including conducting optical lattices, insulating optical lattices, delocalized quantum crystals, and localized quantum crystals.</summary>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-08-03T16:03:54Z</published>
+    <arxiv:comment>Latex file, 10 pages, no figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.quant-gas"/>
+    <arxiv:journal_ref>J. Phys. Conf. Ser. 1508 (2020) 012008</arxiv:journal_ref>
+    <author>
+      <name>V. I. Yukalov</name>
+    </author>
+  </entry>
+</feed>

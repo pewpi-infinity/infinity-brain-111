@@ -1,0 +1,89 @@
+TERMS: quantum, electron, spin
+COLORS: blue, green, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/guPKbol727aeG4uN8TttcDoZDuo</id>
+  <title>arXiv Query: search_query=all:quantum AND all:electron AND all:spin&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:06:51Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:electron+AND+all:spin)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>14223</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0301614v3</id>
+    <title>Entanglement of Electron Spin and Orbital States in Spintronic Quantum Transport</title>
+    <updated>2003-10-16T16:45:42Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0301614v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0301614v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  An electron within a mesoscopic (quantum-coherent) spintronic structure is described by a single wave function which, in the presence of both charge scattering and spin-orbit coupling, encodes an information about {\em entanglement} of its spin and orbital degrees of freedom. The quantum state--an {\em improper} mixture--of experimentally detectable spin subsystem is elucidated by evaluating quantum information theory measures of entanglement in the scattering states which determine {\em quantum transport} properties of spin-polarized electrons injected into a two-dimensional disordered Rashba spin-split conductor that is attached to the ferromagnetic source and drain electrodes. Thus, the Landauer transmission matrix, traditionally evaluated to obtain the spin-resolved conductances, also yields the reduced spin density operator allowing us to extract quantum-mechanical measures of the detected electron spin-polarization and spin-coherence, thereby pointing out how to avoid detrimental {\em decoherence} effects on spin-encoded information transport through semiconductor spintronic devices.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-01-31T19:21:33Z</published>
+    <arxiv:comment>5 pages, 2 color EPS figures; one new figure and discussion of some conceptual issues related to spin-polarization in quantum transport</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>Branislav K. Nikolic</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0804.2953v1</id>
+    <title>Towards quantum optics and entanglement with electron spin ensembles in semiconductors</title>
+    <updated>2008-04-18T07:43:34Z</updated>
+    <link href="https://arxiv.org/abs/0804.2953v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0804.2953v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We discuss a technique and a material system that enable the controlled realization of quantum entanglement between spin-wave modes of electron ensembles in two spatially separated pieces of semiconductor material. The approach uses electron ensembles in GaAs quantum wells that are located inside optical waveguides. Bringing the electron ensembles in a quantum Hall state gives selection rules for optical transitions across the gap that can selectively address the two electron spin states. Long-lived superpositions of these electron spin states can then be controlled with a pair of optical fields that form a resonant Raman system. Entangled states of spin-wave modes are prepared by applying quantum-optical measurement techniques to optical signal pulses that result from Raman transitions in the electron ensembles.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-04-18T07:43:34Z</published>
+    <arxiv:comment>Proceedings E-MRS 2007, session on solid-state quantum information, 7 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Solid State Sciences 11, 935 (2009) [special issue on Solid state approaches to quantum information processing and communication]</arxiv:journal_ref>
+    <author>
+      <name>C. H. van der Wal</name>
+    </author>
+    <author>
+      <name>M. Sladkov</name>
+    </author>
+    <arxiv:doi>10.1016/j.solidstatesciences.2008.02.017</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.solidstatesciences.2008.02.017" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/quant-ph/9905096v2</id>
+    <title>Electron Spin Resonance Transistors for Quantum Computing in Silicon-Germanium Heterostructures</title>
+    <updated>1999-06-11T23:34:02Z</updated>
+    <link href="https://arxiv.org/abs/quant-ph/9905096v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/quant-ph/9905096v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We apply the full power of modern electronic band structure engineering and epitaxial heterostructures to design a transistor that can sense and control a single donor electron spin. Spin resonance transistors may form the technological basis for quantum information processing. One and two qubit operations are performed by applying a gate bias. The bias electric field pulls the electron wave function away from the dopant ion into layers of different alloy composition. Owing to the variation of the g-factor (Si:g=1.995, Ge:g=1.563), this displacement changes the spin Zeeman energy, allowing single-qubit operations. By displacing the electron even further, the overlap with neighboring qubits is affected, which allows two-qubit operations. Certain Silicon-Germanium alloys allow a qubit spacing as large as 200 nm, which is well within the capabilities of current lithographic techniques. We discuss manufacturing limitations and issues regarding scaling up to a large size computer.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1999-05-28T00:06:19Z</published>
+    <arxiv:comment>10 pages LaTex, incl. 15 Figures 6/11/99 Added: discussion of g-factor and T1 and T2 of donor electron spin in Ge with related references, 1 figure and a discussion of ion implantation statistics in large arrays</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Rutger Vrijen</name>
+    </author>
+    <author>
+      <name>Eli Yablonovitch</name>
+    </author>
+    <author>
+      <name>Kang Wang</name>
+    </author>
+    <author>
+      <name>Hong Wen Jiang</name>
+    </author>
+    <author>
+      <name>Alex Balandin</name>
+    </author>
+    <author>
+      <name>Vwani Roychowdhury</name>
+    </author>
+    <author>
+      <name>Tal Mor</name>
+    </author>
+    <author>
+      <name>David DiVincenzo</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.62.012306</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.62.012306" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,66 @@
+TERMS: hydrogen, frequency, plasma, probability
+COLORS: purple, green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/0SU7A1z4q3zeUlIRU7fa6kwDKcA</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:frequency AND all:plasma AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:45:29Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:frequency+AND+(all:plasma+AND+all:probability))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>5</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1911.04215v1</id>
+    <title>An nl-model with radiative transfer for hydrogen recombination line masers</title>
+    <updated>2019-11-11T12:45:14Z</updated>
+    <link href="https://arxiv.org/abs/1911.04215v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1911.04215v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Atomic hydrogen masers occur in recombination plasmas in sufficiently dense HII regions. These hydrogen recombination line (HRL) masers have been observed in a handful of objects to date and the analysis of the atomic physics involved has been rudimentary. In this work a new model of HRL masers is presented which uses an nl-model to describe the atomic populations interacting with free-free radiation from the plasma, and an escape probability framework to deal with radiative transfer effects. The importance of including the collisions between angular momentum quantum states and the free-free emission in models of HRL masers is demonstrated. The model is used to describe the general behaviour of radiative transfer of HRLs and to investigate the conditions under which HRL masers form. The model results show good agreement with observations collected over a broad range of frequencies. Theoretical predictions are made regarding the ratio of recombination lines from the same upper quantum level for these objects.</summary>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-11-11T12:45:14Z</published>
+    <arxiv:comment>11 pages, 12 figures</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.GA"/>
+    <author>
+      <name>Andri Prozesky</name>
+    </author>
+    <author>
+      <name>Derck P. Smits</name>
+    </author>
+    <arxiv:doi>10.1093/mnras/stz3174</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1093/mnras/stz3174" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0704.3021v1</id>
+    <title>On the Critical Ionization Velocity Effect in Interstellar Space and Possible Detection of Related Continuum Emission</title>
+    <updated>2007-04-23T14:59:46Z</updated>
+    <link href="https://arxiv.org/abs/0704.3021v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0704.3021v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Interstellar neutral hydrogen (HI) emission spectra manifest several families of linewidths whose numerical values (34, 13 &amp; 6 km/s) appear to be related to the critical ionization velocities (CIVs) of the most abundant interstellar atomic species. Extended new analysis of HI emission profiles shows that the 34 km/s wide component, probably corresponding to the CIV for helium, is pervasive. The 34 km/s wide linewidth family is found in low-velocity (local) neutral hydrogen (HI) profiles as well as in the so-called high-velocity clouds. In addition, published studies of HI linewidths found in the Magellanic Stream, Very-High-Velocity Clouds, and Compact High-Velocity Clouds, all of which are believed to be intergalactic, have noted that typical values are of the same order. If the critical ionization velocity effect does play a role in interstellar space it may be expected to produce locally enhanced electron densities where rapidly moving neutral gas masses interact with surrounding plasma. Evidence is presented that suggests that this phenomenon is occurring in interstellar space. It manifests as a spatial association between peaks in HI structure offset with respect to peaks in high-frequency radio continuum data obtained with the Wilkinson Microwave Anisotropy Probe.</summary>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-04-23T14:59:46Z</published>
+    <arxiv:comment>To be published in IEEE Trans. Plasma Sci. Aug 2007</arxiv:comment>
+    <arxiv:primary_category term="astro-ph"/>
+    <author>
+      <name>Gerrit L. Verschuur</name>
+    </author>
+    <arxiv:doi>10.1109/TPS.2007.898037</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/TPS.2007.898037" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2203.12589v4</id>
+    <title>On thermalization of radiation in hydrostatic atmospheres</title>
+    <updated>2022-08-15T20:53:45Z</updated>
+    <link href="https://arxiv.org/abs/2203.12589v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2203.12589v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The problem of thermalization of radiation within a self-emitting hydrogen isothermal atmosphere is considered for the case of a hydrostatic profile of the plasma density. The probabilistic approach to define the thermalization depth for the photon of a given frequency is used. Quantitative conclusions are made on the value of the optical depth at which the radiation can be viewed as thermalized up to a given frequency. The analytical and numerical solutions of the radiative transfer equation confirm the obtained results. The frequency dependencies of the probability of free-free absorption of a photon due to single interaction in a cold nonmagnetized and magnetized plasma are calculated.</summary>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-03-23T17:54:08Z</published>
+    <arxiv:comment>Only very minor text changes and typographical corrections have been made in the current and previous versions. The solutions in both of these versions do not differ from the solutions in version 2 and the corresponding solutions in version 1</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.HE"/>
+    <author>
+      <name>M. I. Gornostaev</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,82 @@
+TERMS: hydrogen, lattice, singularity
+COLORS: purple, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/xQvHDmmDWSm0bgkAjschprqKjfg</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:lattice AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:02:19Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:lattice+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>4</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1709.08703v2</id>
+    <title>Hierarchical Lattice Models of Hydrogen Bond Networks in Water</title>
+    <updated>2018-06-18T13:17:10Z</updated>
+    <link href="https://arxiv.org/abs/1709.08703v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1709.08703v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We develop a graph-based model of the hydrogen bond network in water, with a view towards quantitatively modeling the molecular-level correlational structure of the network. The networks are formed are studied by the constructing the model on two infinite-dimensional lattices. Our models are built \emph{bottom up}, based on microscopic information coming from atomistic simulations, and we show that the predictions of the model are consistent with known results from ab-initio simulations of liquid water. We show that simple entropic models can predict the correlations and clustering of local-coordination defects around tetrahedral waters observed in the atomistic simulations. We also find that orientational correlations between bonds are longer ranged than density correlations, and determine the directional correlations within closed loops and show that the patterns of water wires within these structures are also consistent with previous atomistic simulations. Our models show the existence of density and compressibility anomalies, as seen in the real liquid, and the phase diagram of these models is consistent with the singularity-free scenario previously proposed by Sastry and co-workers (Sastry et al, PRE 53, 6144 (1996)).</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-09-25T19:55:46Z</published>
+    <arxiv:comment>17 pages, published version</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <arxiv:journal_ref>Phys. Rev. E 97, 062113 (2018)</arxiv:journal_ref>
+    <author>
+      <name>Rahul Dandekar</name>
+    </author>
+    <author>
+      <name>Ali A. Hassanali</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevE.97.062113</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevE.97.062113" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1108.2523v1</id>
+    <title>The nucleon and Delta(1232) form factors at low momentum-transfer and small pion masses</title>
+    <updated>2011-08-11T21:18:31Z</updated>
+    <link href="https://arxiv.org/abs/1108.2523v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1108.2523v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>An expansion of the electromagnetic form factors of the nucleon and Delta(1232) in small momentum transfer and pion mass is performed in a manifestly-covariant EFT framework consistent with chiral symmetry and analyticity. We present the expressions for the nucleon and Delta(1232) electromagnetic form factors, charge radii, and electromagnetic moments in the framework of SU(2) baryon chiral perturbation theory, with nucleon and Delta(1232)-isobar degrees of freedom, to next-to-leading order. Motivated by the results for the proton electric radius obtained from the muonic-hydrogen atom and electron-scattering process, we extract values for the second derivative of the electric form factor which is a genuine prediction of the p^3 BChPT. The chiral behavior of radii and moments is studied and compared to that obtained in the heavy-baryon framework and lattice QCD. The chiral behavior of Delta(1232)-isobar properties exhibits cusps and singularities at the threshold of Delta-&gt;pi N decay, and their physical significance is discussed.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-08-11T21:18:31Z</published>
+    <arxiv:comment>42 pages, 10 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>T. Ledwig</name>
+    </author>
+    <author>
+      <name>J. Martin-Camalich</name>
+    </author>
+    <author>
+      <name>V. Pascalutsa</name>
+    </author>
+    <author>
+      <name>M. Vanderhaeghen</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.85.034013</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.85.034013" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2005.11349v2</id>
+    <title>Exploring Hilbert space on a budget: Novel benchmark set and performance metric for testing electronic structure methods in the regime of strong correlation</title>
+    <updated>2020-08-19T13:25:37Z</updated>
+    <link href="https://arxiv.org/abs/2005.11349v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2005.11349v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This work explores the ability of classical electronic structure methods to efficiently represent (compress) the information content of full configuration interaction (FCI) wave functions. We introduce a benchmark set of four hydrogen model systems of different dimensionality and distinctive electronic structures: a 1D chain, a 1D ring, a 2D triangular lattice, and a 3D close-packed pyramid. To assess the ability of a computational method to produce accurate and compact wave functions, we introduce the accuracy volume, a metric that measures the number of variational parameters necessary to achieve a target energy error. Using this metric and the hydrogen models, we examine the performance of three classical deterministic methods: i) selected configuration interaction (sCI) realized both via an a posteriori and variational selection of the most important determinants, ii) rank-reduced FCI, obtained by an a posteriori singular value decomposition of the FCI tensor (SVD-FCI), and iii) the matrix product state representation obtained via the density matrix renormalization group (DMRG). We find that DMRG generally gives the most efficient wave function representation for all systems, particularly in the 1D chain with a localized basis. For the 2D and 3D systems, all methods perform best with a delocalized basis, and the efficiency of sCI is closer to that of DMRG, with the former having and accuracy volume approximately twice as large in the strong correlation regime. Compared to sCI, the SVD-FCI scheme is generally found to require a slightly larger number of parameters to achieve the same energy accuracy.</summary>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-05-22T18:37:03Z</published>
+    <arxiv:primary_category term="physics.chem-ph"/>
+    <author>
+      <name>Nicholas H. Stair</name>
+    </author>
+    <author>
+      <name>Francesco A. Evangelista</name>
+    </author>
+  </entry>
+</feed>

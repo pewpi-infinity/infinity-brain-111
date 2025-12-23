@@ -1,0 +1,86 @@
+TERMS: hydrogen, fusion, ionization, plasma
+COLORS: purple, green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/6J5ySWA+lUNgeuCVG4kqYC7VeTc</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:fusion AND all:ionization AND all:plasma&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:53:20Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:fusion+AND+(all:ionization+AND+all:plasma))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>20</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1207.5075v2</id>
+    <title>Using the X-FEL to understand X-ray Thomson scattering for partially ionized plasmas</title>
+    <updated>2012-10-01T18:28:23Z</updated>
+    <link href="https://arxiv.org/abs/1207.5075v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1207.5075v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For the last decade numerous researchers have been trying to develop experimental techniques to use X-ray Thomson scattering as a method to measure the temperature, electron density, and ionization state of high energy density plasmas such as those used in inertial confinement fusion. With the advent of the X-ray free electron laser (X-FEL) at the SLAC Linac Coherent Light Source (LCLS) we now have such a source available in the keV regime. One challenge with X-ray Thomson scattering experiments is understanding how to model the scattering for partially ionized plasmas. Most Thomson scattering codes used to model experimental data greatly simplify or neglect the contributions of the bound electrons to the scattered intensity. In this work we take the existing models of Thomson scattering that include elastic ion-ion scattering and the electron-electron plasmon scattering and add the contribution of the bound electrons in the partially ionized plasmas. Except for hydrogen plasmas almost every plasma that is studied today has bound electrons and it is important to understand their contribution to the Thomson scattering, especially as new X-ray sources such as the X-FEL will allow us to study much higher Z plasmas. Currently most experiments have looked at hydrogen or beryllium. We will first look at the bound electron contributions to beryllium by analysing existing experimental data. We then consider several higher Z materials such as Cr and predict the existence of additional peaks in the scattering spectrum that requires new computational tools to understand. For a Sn plasma we show that the bound contributions changes the shape of the scattered spectrum in a way that would change the plasma temperature and density inferred by the experiment.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-07-20T23:09:03Z</published>
+    <arxiv:comment>13th International Conference on X-ray Lasers Paris, France June 10, 2012 through June 15, 2012</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>J. Nilsen</name>
+    </author>
+    <author>
+      <name>W. R. Johnson</name>
+    </author>
+    <author>
+      <name>K. T. Cheng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1212.5972v2</id>
+    <title>The effect of bound states on X-ray Thomson scattering for partially ionized plasmas</title>
+    <updated>2013-01-15T18:33:12Z</updated>
+    <link href="https://arxiv.org/abs/1212.5972v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1212.5972v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>X-ray Thomson scattering is being developed as a method to measure the temperature, electron density, and ionization state of high energy density plasmas such as those used in inertial confinement fusion. X-ray laser sources have always been of interest because of the need to have a bright monochromatic x-ray source to overcome plasma emission and eliminate other lines in the background that complicate the analysis. With the advent of the xray free electron laser (X-FEL) at the SLAC Linac Coherent Light Source (LCLS) and other facilities coming online worldwide, we now have such a source available in the keV regime. Most Thomson scattering codes used to model experimental data greatly simplify or neglect the contributions of the bound electrons to the scattered intensity. In this work we take the existing models of Thomson scattering that include elastic ion-ion scattering and inelastic electron-electron scattering and add the contribution of bound electrons in the partially ionized plasmas. To date, most experiments have studied hydrogen or beryllium plasmas. We first analyze existing experimental data for beryllium to validate the code. We then consider several higher Z materials such as Cr and predict the existence of additional peaks in the scattering spectrum that requires new computational tools to understand. For a Sn plasma, we show that bound contributions change the shape of the scattered spectrum in a way that would change the plasma temperature and density inferred from experiment.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-12-24T22:12:40Z</published>
+    <arxiv:comment>Presented at the workshop "radiative Properties of Warm Dense Matter," Santa Barbara, CA, Nov. 6-10, 2012</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <arxiv:journal_ref>High Energy Density Physics, 9 388-391 (2013)</arxiv:journal_ref>
+    <author>
+      <name>J. Nilsen</name>
+    </author>
+    <author>
+      <name>W. R. Johnson</name>
+    </author>
+    <author>
+      <name>K. T. Cheng</name>
+    </author>
+    <arxiv:doi>10.1016/j.hedp.2013.04.010</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.hedp.2013.04.010" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/physics/0103002v1</id>
+    <title>Thermodynamics of hot dense H-plasmas: Path integral Monte Carlo simulations and analytical approximations</title>
+    <updated>2001-03-01T12:14:39Z</updated>
+    <link href="https://arxiv.org/abs/physics/0103002v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/physics/0103002v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  This work is devoted to the thermodynamics of high-temperature dense hydrogen plasmas in the pressure region between $10^{-1}$ and $10^2$ Mbar. In particular we present for this region results of extensive calculations based on a recently developed path integral Monte Carlo scheme (direct PIMC). This method allows for a correct treatment of the thermodynamic properties of hot dense Coulomb systems. Calculations were performed in a broad region of the nonideality parameter $Γ\lesssim 3$ and degeneracy parameter $n_e Λ^3 \lesssim 10$. We give a comparison with a few available results from other path integral calculations (restricted PIMC) and with analytical calculations based on Pade approximations for strongly ionized plasmas. Good agreement between the results obtained from the three independent methods is found.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2001-03-01T12:14:39Z</published>
+    <arxiv:comment>RevTex file, 21 pages, 5 ps-figures included</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <arxiv:journal_ref>Plasma Physics and Controlled Fusion 43, 743-759 (2001)</arxiv:journal_ref>
+    <author>
+      <name>V. S. Filinov</name>
+    </author>
+    <author>
+      <name>M. Bonitz</name>
+    </author>
+    <author>
+      <name>W. Ebeling</name>
+    </author>
+    <author>
+      <name>V. E. Fortov</name>
+    </author>
+    <arxiv:doi>10.1088/0741-3335/43/6/301</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0741-3335/43/6/301" title="doi"/>
+  </entry>
+</feed>

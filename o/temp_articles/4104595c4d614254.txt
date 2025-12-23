@@ -1,0 +1,34 @@
+TERMS: hydrogen, vapor, oxidation, probability
+COLORS: purple, green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/leokXRbT+G7P0uDXfTPrd5UIyGk</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:vapor AND all:oxidation AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:59:33Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:vapor+AND+(all:oxidation+AND+all:probability))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2207.04164v1</id>
+    <title>Predictions for Observable Atmospheres of Trappist-1 Planets from a Fully Coupled Atmosphere-Interior Evolution Model</title>
+    <updated>2022-07-09T00:28:02Z</updated>
+    <link href="https://arxiv.org/abs/2207.04164v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2207.04164v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Trappist-1 planets provide a unique opportunity to test the current understanding of rocky planet evolution. The James Webb Space Telescope is expected to characterize the atmospheres of these planets, potentially detecting CO$_2$, CO, H$_2$O, CH$_4$, or abiotic O$_2$ from water photodissociation and subsequent hydrogen escape. Here, we apply a coupled atmosphere-interior evolution model to the Trappist-1 planets to anticipate their modern atmospheres. This model, which has previously been validated for Earth and Venus, connects magma ocean crystallization to temperate geochemical cycling. Mantle convection, magmatic outgassing, atmospheric escape, crustal oxidation, a radiative-convective climate model, and deep volatile cycling are explicitly coupled to anticipate bulk atmospheres and planetary redox evolution over 8 Gyr. By adopting a Monte Carlo approach that samples a broad range of initial conditions and unknown parameters, we make some tentative predictions about current Trappist-1 atmospheres. We find that anoxic atmospheres are probable, but not guaranteed, for the outer planets; oxygen produced via hydrogen loss during the pre-main sequence is typically consumed by crustal sinks. In contrast, oxygen accumulation on the inner planets occurs in around half of all models runs. Complete atmospheric erosion is possible but not assured for the inner planets (occurs in 20%-50% of model runs), whereas the outer planets retain significant surface volatiles in virtually all model simulations. For all planets that retain substantial atmospheres, CO$_2$-dominated or CO$_2$-O$_2$ atmospheres are expected; water vapor is unlikely to be a detectable atmospheric constituent in most cases. There are necessarily many caveats to these predictions, but the ways in which they misalign with upcoming observations will highlight gaps in terrestrial planet knowledge.</summary>
+    <category term="astro-ph.EP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-07-09T00:28:02Z</published>
+    <arxiv:comment>Main text 16 pages, 11 figures</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.EP"/>
+    <arxiv:journal_ref>The Astrophysical Journal 2022, Volume 933, Number 1</arxiv:journal_ref>
+    <author>
+      <name>Joshua Krissansen-Totton</name>
+    </author>
+    <author>
+      <name>Jonathan J. Fortney</name>
+    </author>
+    <arxiv:doi>10.3847/1538-4357/ac69cb</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3847/1538-4357/ac69cb" title="doi"/>
+  </entry>
+</feed>

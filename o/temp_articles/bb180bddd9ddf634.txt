@@ -1,0 +1,72 @@
+TERMS: hydrogen, entropy, vapor
+COLORS: purple, red, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/lVYVyJcEO1SHCxrflUAz9SukPa8</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:entropy AND all:vapor&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:02:23Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:entropy+AND+all:vapor)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>3</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2207.04708v1</id>
+    <title>Convective inhibition with an atmosphere, I: super-critical cores on sub-Neptune/super-Earths</title>
+    <updated>2022-07-11T08:40:44Z</updated>
+    <link href="https://arxiv.org/abs/2207.04708v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2207.04708v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this work we generalize the notion of convective inhibition to apply in cases where there is an infinite reservoir of condensible species (i.e., an ocean). We propose a new model for the internal structure and thermal evolution of super-Earths with hydrogen envelopes. We derive the criterion for convective inhibition in a generalizes phase mixture from first principles thermodynamics. We then investigate the global ocean case using a water-hydrogen system, for which we have data, as an example. We then extend our arguments to apply to a system of hydrogen and silicate vapor. We then employ a simple atmospheric model to apply our findings to super-Earths and to make predictions about their internal structures and thermal evolution. For hydrogen envelope masses roughly in the range between 0.1-10% Earth's mass, convective contact between the envelope and core may shut down because of the compositional gradient that arises from silicate partial vaporization. For envelope hydrogen masses that cause the associated basal pressure to exceed the critical pressure of pure silicate (of order a couple kilobars), the base of that envelope and top of the core lie on the critical line of the two-phase hydrogen-silicate phase diagram. The corresponding temperature is much higher than convective models would suggest. The core then cools inefficiently, with intrinsic heat fluxes potentially comparable to the Earth's internal heat flux today. This low heat flux may allow the core to remain in a high entropy supercritical state for billions of years, but the details of this depend on the nature of the two-component phase diagram at high pressure, something that is currently unknown. A supercritical core thermodynamically permits the dissolution of large quantities of hydrogen into the core.</summary>
+    <category term="astro-ph.EP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-07-11T08:40:44Z</published>
+    <arxiv:comment>Accepted by Astronomy &amp; Astrophysics</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.EP"/>
+    <arxiv:journal_ref>A&amp;A 665, A12 (2022)</arxiv:journal_ref>
+    <author>
+      <name>Steve Markham</name>
+    </author>
+    <author>
+      <name>Dave Stevenson</name>
+    </author>
+    <author>
+      <name>Tristan Guillot</name>
+    </author>
+    <arxiv:doi>10.1051/0004-6361/202243359</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1051/0004-6361/202243359" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2108.05444v1</id>
+    <title>Assessment of Three Databases for the NASA Seven-Coefficient Polynomial Fits for Calculating Thermodynamic Properties of Individual Species</title>
+    <updated>2021-08-10T17:47:22Z</updated>
+    <link href="https://arxiv.org/abs/2108.05444v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2108.05444v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This work considers the seven-coefficient polynomials proposed by the National Aeronautics and Space Administration (NASA) to facilitate obtaining a normalized value for three thermodynamic standard-state specific properties of ideal gases or condenser matters over an interval of temperature. These properties are the heat capacity at constant pressure, the absolute enthalpy (sensible enthalpy plus heat contents due to chemical or physical changes), and the entropy. In the open literature, one can find several databases for the polynomial coefficients with variation in the number of species included or the range of temperature covered, and this raises a question of whether the choice of a database to use has an important impact on these evaluated thermodynamic properties. Addressing this point, we compare and assess three databases for the NASA 7-coefficient polynomials, over a selected range of temperature from 300 K to 3500 K, and for selected six common gaseous species encountered in combustion or industrial processes, which are molecular oxygen (O2), molecular nitrogen (N2), molecular hydrogen (H2), methane (CH4), carbon dioxide (CO2), and water vapor (H2O). Our comparisons suggest that despite the difference in the values of coefficients, there is no significant difference in their predictions. However, the latest (7th edition) database of Prof. Alexander Burcat hosted at Eötvös Loránd University (ELTE) in Budapest, Hungary showed superior features when contrasted to other two databases (one accompanying the simulation package OpenFOAM 6, and another provided by the natural-gas reaction mechanism GRI-MECH 3.0).</summary>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-08-10T17:47:22Z</published>
+    <arxiv:primary_category term="physics.chem-ph"/>
+    <arxiv:journal_ref>Int J Aeronautics Aerospace Res. 2018;5(1):150-163</arxiv:journal_ref>
+    <author>
+      <name>Osama A. Marzouk</name>
+    </author>
+    <arxiv:doi>10.19070/2470-4415-1800018</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.19070/2470-4415-1800018" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.09858v2</id>
+    <title>Critical surface phase behavior governs hydrophobic attraction between extended solutes</title>
+    <updated>2025-09-24T14:24:02Z</updated>
+    <link href="https://arxiv.org/abs/2506.09858v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.09858v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Hydrophobic interactions are central to biological self-assembly and soft matter organization, yet their microscopic origins remain debated. A key hallmark is the strengthening of attraction between hydrophobic solutes with increasing temperature, a feature often attributed to entropy changes from disrupted hydrogen bonding in water. Here we present an alternative framework based on surface phase behavior, supported by extensive molecular dynamics simulations. Using metadynamics, we quantify the solvent-mediated effective potential between nanometer-scale hydrophobic solutes in the monatomic water (mW) model, the SPCE water model, and a Lennard-Jones solvent. We develop a morphometric model which incorporates a scaling theory of critical drying, linking the range and strength of hydrophobic attraction to interfacial thermodynamics and proximity to vapor-liquid coexistence. The model reproduces the effective potential across diverse solute sizes, degrees of hydrophobicity, and thermodynamic states. Our simulations recover the inverse temperature dependence of hydrophobicity, showing it arises generically from rapid thermal expansion of the solvation shell.</summary>
+    <category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-11T15:31:19Z</published>
+    <arxiv:comment>22 pages, 16 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.soft"/>
+    <author>
+      <name>Nigel B. Wilding</name>
+    </author>
+    <author>
+      <name>Francesco Turci</name>
+    </author>
+  </entry>
+</feed>

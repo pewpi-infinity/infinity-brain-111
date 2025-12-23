@@ -1,0 +1,77 @@
+TERMS: frequency, entropy, probability
+COLORS: green, red, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/LPdlMTm8YrEdU4vblyJL0xqhsG8</id>
+  <title>arXiv Query: search_query=all:frequency AND all:entropy AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:10:08Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:entropy+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>197</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2207.00962v1</id>
+    <title>Low probability states, data statistics, and entropy estimation</title>
+    <updated>2022-07-03T06:06:12Z</updated>
+    <link href="https://arxiv.org/abs/2207.00962v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2207.00962v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A fundamental problem in analysis of complex systems is getting a reliable estimate of entropy of their probability distributions over the state space. This is difficult because unsampled states can contribute substantially to the entropy, while they do not contribute to the Maximum Likelihood estimator of entropy, which replaces probabilities by the observed frequencies. Bayesian estimators overcome this obstacle by introducing a model of the low-probability tail of the probability distribution. Which statistical features of the observed data determine the model of the tail, and hence the output of such estimators, remains unclear. Here we show that well-known entropy estimators for probability distributions on discrete state spaces model the structure of the low probability tail based largely on few statistics of the data: the sample size, the Maximum Likelihood estimate, the number of coincidences among the samples, the dispersion of the coincidences. We derive approximate analytical entropy estimators for undersampled distributions based on these statistics, and we use the results to propose an intuitive understanding of how the Bayesian entropy estimators work.</summary>
+    <category term="physics.data-an" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-07-03T06:06:12Z</published>
+    <arxiv:primary_category term="physics.data-an"/>
+    <author>
+      <name>Damián G. Hernández</name>
+    </author>
+    <author>
+      <name>Ahmed Roman</name>
+    </author>
+    <author>
+      <name>Ilya Nemenman</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevE.108.014101</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevE.108.014101" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1810.09262v3</id>
+    <title>The Price equation program: simple invariances unify population dynamics, thermodynamics, probability, information and inference</title>
+    <updated>2018-12-14T17:42:07Z</updated>
+    <link href="https://arxiv.org/abs/1810.09262v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1810.09262v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The fundamental equations of various disciplines often seem to share the same basic structure. Natural selection increases information in the same way that Bayesian updating increases information. Thermodynamics and the forms of common probability distributions express maximum increase in entropy, which appears mathematically as loss of information. Physical mechanics follows paths of change that maximize Fisher information. The information expressions typically have analogous interpretations as the Newtonian balance between force and acceleration, representing a partition between direct causes of change and opposing changes in the frame of reference. This web of vague analogies hints at a deeper common mathematical structure. I suggest that the Price equation expresses that underlying universal structure. The abstract Price equation describes dynamics as the change between two sets. One component of dynamics expresses the change in the frequency of things, holding constant the values associated with things. The other component of dynamics expresses the change in the values of things, holding constant the frequency of things. The separation of frequency from value generalizes Shannon's separation of the frequency of symbols from the meaning of symbols in information theory. The Price equation's generalized separation of frequency and value reveals a few simple invariances that define universal geometric aspects of change. For example, the conservation of total frequency, although a trivial invariance by itself, creates a powerful constraint on the geometry of change. That constraint plus a few others seem to explain the common structural forms of the equations in different disciplines. From that abstract perspective, interpretations such as selection, information, entropy, force, acceleration, and physical work arise from the same underlying geometry expressed by the Price equation.</summary>
+    <category term="q-bio.PE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-10-22T13:29:46Z</published>
+    <arxiv:comment>Version 3: added figure illustrating geometry; added table of symbols and two tables summarizing mathematical relations; this version accepted for publication in Entropy</arxiv:comment>
+    <arxiv:primary_category term="q-bio.PE"/>
+    <arxiv:journal_ref>2018. Entropy 20:978</arxiv:journal_ref>
+    <author>
+      <name>Steven A. Frank</name>
+    </author>
+    <arxiv:doi>10.3390/e20120978</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/e20120978" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/physics/0308006v1</id>
+    <title>Maximum Entropy method with non-linear moment constraints: challenges</title>
+    <updated>2003-08-01T11:07:40Z</updated>
+    <link href="https://arxiv.org/abs/physics/0308006v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/physics/0308006v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Traditionally, the Method of (Shannon-Kullback's) Relative Entropy Maximization (REM) is considered with linear moment constraints. In this work, the method is studied under frequency moment constraints which are non-linear in probabilities. The constraints challenge some justifications of REM since a) axiomatic systems are developed for classical linear moment constraints, b) the feasible set of distributions which is defined by frequency moment constraints admits several entropy maximizing distributions (I-projections), hence probabilistic justification of REM via Conditioned Weak Law of Large Numbers cannot be invoked. However, REM is not left completely unjustified in this setting, since Entropy Concentration Theorem and Maximum Probability Theorem can be applied.
+  Maximum Renyi-Tsallis' entropy method (maxTent) enters this work because of non-linearity of X-frequency moment constraints which are used in Non-extensive Thermodynamics. It is shown here that under X-frequency moment constraints maxTent distribution can be unique and different than the I-projection. This implies that maxTent does not choose the most probable distribution and that the maxTent distribution is asymptotically conditionally improbable. What are adherents of maxTent accomplishing when they maximize Renyi's or Tsallis' entropy?</summary>
+    <category term="physics.data-an" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-08-01T11:07:40Z</published>
+    <arxiv:comment>To be presented at MaxEnt 23</arxiv:comment>
+    <arxiv:primary_category term="physics.data-an"/>
+    <arxiv:journal_ref>In: Bayesian inference and Maximum Entropy methods in Science and Engineering, G. Erickson and Y. Zhai (eds.), AIP (Melville), 97-109, 2004</arxiv:journal_ref>
+    <author>
+      <name>M. Grendar,</name>
+    </author>
+    <author>
+      <name>M. Grendar</name>
+    </author>
+  </entry>
+</feed>

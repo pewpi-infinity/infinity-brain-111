@@ -1,0 +1,77 @@
+TERMS: hydrogen, quantum, ionization, singularity
+COLORS: purple, blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/wL2R30E6rydcsCAY81QO7Yc4TXY</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:ionization AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:40:01Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:ionization+AND+all:singularity))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1304.2686v1</id>
+    <title>Interpretation of the time delay in the ionization of Coulomb and two-center systems</title>
+    <updated>2013-04-09T18:16:37Z</updated>
+    <link href="https://arxiv.org/abs/1304.2686v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1304.2686v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the time delay of electron detachment from a Coulomb center and two-center systems in the process of ionization. It is shown that the attosecond streaking, most usual method of time delay measure, can be formally described by placing a virtual detector of the arrival time delay at a certain distance from the center of the system. This approach allows derivation of a simple formula for Coulomb-laser coupling that perfectly agrees with the results of numerical solution of the time-dependent Schrodinger equation. The dependence of the time delay upon the energy, the angular momentum projection, and the azimuthal quantum number is studied for the ionization of molecular hydrogen ion. Finally, we propose a physical interpretation of singularities, arising when the formal expression for the time delay is applied to the ionization of molecular hydrogen.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-04-09T18:16:37Z</published>
+    <arxiv:comment>30 pages, 9 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>Vladislav V. Serov</name>
+    </author>
+    <author>
+      <name>Vladimir L. Derbov</name>
+    </author>
+    <author>
+      <name>Tatyana A. Sergeeva</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.87.063414</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.87.063414" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0708.2641v1</id>
+    <title>Quantum Treatment of Continuum Electrons in the Fields of Moving Charges</title>
+    <updated>2007-08-20T18:45:39Z</updated>
+    <link href="https://arxiv.org/abs/0708.2641v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0708.2641v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  An ab initio, three-dimensional quantum mechanical calculation has been performed for the time-evolution of continuum electrons in the fields of moving charges. Here the essential singularity associated with the diverging phase factor in the continuum wave function is identified and removed analytically. As a result, the continuum components of the regularized wave function are slowly varying with time. Therefore, one can propagate continuum electrons to asymptotically large times and obtain numerically stable, well-converged ejected electron momentum spectra with very low numerical noise. As a consequence, our approach resolves outstanding controversies concerning structures in electron momentum distributions. The main conclusions are general and are illustrated here for ionization of atomic hydrogen by proton impact. Our results show that in order to obtain correct long-time free-particle propagation, the essential singularity identified here should be removed from the continuum components of solutions to the time-dependent Schrodinger equation.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-08-20T18:45:39Z</published>
+    <arxiv:comment>4 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>Teck-Ghee Lee</name>
+      <arxiv:affiliation>ORNL &amp; Univ. Kentucky</arxiv:affiliation>
+    </author>
+    <author>
+      <name>S. Yu. Ovchinnikov</name>
+      <arxiv:affiliation>ORNL &amp; Univ. Tennessee</arxiv:affiliation>
+    </author>
+    <author>
+      <name>J. Sternberg</name>
+      <arxiv:affiliation>Univ. Tennessee</arxiv:affiliation>
+    </author>
+    <author>
+      <name>V. Chupryna</name>
+      <arxiv:affiliation>Univ. Tennessee</arxiv:affiliation>
+    </author>
+    <author>
+      <name>D. R. Schultz</name>
+      <arxiv:affiliation>ORNL</arxiv:affiliation>
+    </author>
+    <author>
+      <name>J. H. Macek</name>
+      <arxiv:affiliation>ORNL &amp; Univ. Tennessee</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.76.050701</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.76.050701" title="doi"/>
+  </entry>
+</feed>

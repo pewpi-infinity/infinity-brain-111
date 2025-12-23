@@ -1,0 +1,46 @@
+TERMS: hydrogen, fusion, spin, neutrino
+COLORS: purple, green, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/FCUwgdWF5KuvLP9syHTi7dRHpIM</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:fusion AND all:spin AND all:neutrino&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:53:45Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:fusion+AND+(all:spin+AND+all:neutrino))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2212.04770v1</id>
+    <title>ViMA -- the spinning rotor gauge to measure the viscosity of tritium between 77 and 300 K</title>
+    <updated>2022-12-09T10:46:58Z</updated>
+    <link href="https://arxiv.org/abs/2212.04770v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2212.04770v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Experimental values for the viscosity of the radioactive hydrogen isotope tritium (T$_2$) are currently unavailable in literature. The value of this material property over a wide temperature range is of interest for applications in the field of fusion, neutrino physics, as well as to test ab initio calculations. As a radioactive gas, tritium requires careful experiment design to ensure safe and environmental contamination free measurements. In this contribution, we present a spinning rotor gauge based, tritium compatible design of a gas viscosity measurement apparatus (ViMA) capable of covering the temperature range from 80 K to 300 K.</summary>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-12-09T10:46:58Z</published>
+    <arxiv:comment>11 pages, 3 figures, Tritium Conference 2022</arxiv:comment>
+    <arxiv:primary_category term="physics.ins-det"/>
+    <author>
+      <name>Johanna Wydra</name>
+      <arxiv:affiliation>Institute for Astroparticle Physics, Tritium Laboratory Karlsruhe</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Alexander Marsteller</name>
+      <arxiv:affiliation>Institute for Astroparticle Physics, Tritium Laboratory Karlsruhe</arxiv:affiliation>
+      <arxiv:affiliation>Center for Experimental Nuclear Physics and Astrophysics, Department of Physics, University of Washington</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Robin Größle</name>
+      <arxiv:affiliation>Institute for Astroparticle Physics, Tritium Laboratory Karlsruhe</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Florian Priester</name>
+      <arxiv:affiliation>Institute for Astroparticle Physics, Tritium Laboratory Karlsruhe</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Michael Sturm</name>
+      <arxiv:affiliation>Institute for Astroparticle Physics, Tritium Laboratory Karlsruhe</arxiv:affiliation>
+    </author>
+  </entry>
+</feed>

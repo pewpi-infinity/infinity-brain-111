@@ -1,0 +1,110 @@
+TERMS: lattice, muon, oxidation
+COLORS: orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/YIAFqxiuWF+TY/9Q/ilwMgoCq7Y</id>
+  <title>arXiv Query: search_query=all:lattice AND all:muon AND all:oxidation&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:16:08Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:muon+AND+all:oxidation)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>12</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2312.05755v1</id>
+    <title>Understanding muon diffusion in perovskite oxides below room temperature based on harmonic transition state theory</title>
+    <updated>2023-12-10T04:31:09Z</updated>
+    <link href="https://arxiv.org/abs/2312.05755v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.05755v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In positive muon spin rotation and relaxation ($μ^+$SR) spectroscopy, positive muons ($μ^+$) implanted into solid oxides are conventionally treated as immobile spin-probes at interstitial sites below room temperature. This is because each $μ^+$ is thought to be tightly bound to an oxygen atom in the host lattice to form a muonic analogue of the hydroxy group. On the basis of this concept, anomalies in $μ^+$SR spectra observed in oxides have been attributed in most cases to the intrinsic properties of host materials. On the other hand, global $μ^+$ diffusion with an activation energy of $\sim$0.1~eV has been reported in some chemically-substituted perovskite oxides at cryogenic temperatures, although the reason for the small activation energy despite the formation of the strong O$μ$ bond has not yet been quantitatively understood. In this study, we investigated interstitial $μ^+$ diffusion in the perovskite oxide lattice using KTaO$_3$ cubic perovskite as a model system. We used the $μ^+$SR method and density functional theory calculations along with the harmonic transition state theory to study this phenomenon both experimentally and theoretically. Experimental activation energies for global $μ^+$ diffusion obtained below room temperature were less than a quarter of the calculated classical potential barrier height for a bottleneck $μ^+$ transfer path. The reduction in the effective barrier height could be explained by the harmonic transition state theory with a zero-point energy correction; a significant difference in zero-point energies for $μ^+$ at the positions in the O$μ$ bonding equilibrium state and a bond-breaking transition state was the primary cause of the reduction. This suggests that the assumption of immobile $μ^+$ in solid oxides is not always satisfied since such a significant decrease in diffusion barrier height can also occur in other oxides.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-10T04:31:09Z</published>
+    <arxiv:comment>11 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>Phys. Rev. B 108, 224301 (2023)</arxiv:journal_ref>
+    <author>
+      <name>T. U. Ito</name>
+    </author>
+    <author>
+      <name>W. Higemoto</name>
+    </author>
+    <author>
+      <name>K. Shimomura</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.108.224301</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.108.224301" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1708.05158v1</id>
+    <title>Excited configurations of hydrogen in the BaTiO$_{3-x}$H$_x$ perovskite lattice associated with hydrogen exchange and transport</title>
+    <updated>2017-08-17T07:33:05Z</updated>
+    <link href="https://arxiv.org/abs/1708.05158v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1708.05158v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Excited configurations of hydrogen in the oxyhydride BaTiO$_{3-x}$H$_x$ ($x=0.1-0.5$), which are considered to be involved in its hydrogen transport and exchange processes, were investigated by positive muon spin relaxation ($μ^+$SR) spectroscopy using muonium (Mu) as a pseudoisotope of hydrogen. Muons implanted into the BaTiO$_{3-x}$H$_x$ perovskite lattice were mainly found in two qualitatively different metastable states. One was assigned to a highly mobile interstitial protonic state, which is commonly observed in perovskite oxides. The other was found to form an entangled two spin-$\frac{1}{2}$ system with the nuclear spin of an H$^-$ ion at the anion site. The structure of the (H,Mu) complex agrees well with that of a neutralized center containing two H$^-$ ions at a doubly charged oxygen vacancy, which was predicted to form in the SrTiO$_{3-δ}$ perovskite lattice by a computational study [Y. Iwazaki $et$ $al$., APL Materials 2, 012103 (2014)]. Above 100 K, interstitial Mu$^+$ diffusion and retrapping to a deep defect were observed, which could be a rate-limiting step of macroscopic Mu/H transport in the BaTiO$_{3-x}$H$_x$ lattice.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-08-17T07:33:05Z</published>
+    <arxiv:comment>5 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>Phys. Rev. B 95, 020301(R) (2017)</arxiv:journal_ref>
+    <author>
+      <name>T. U. Ito</name>
+    </author>
+    <author>
+      <name>A. Koda</name>
+    </author>
+    <author>
+      <name>K. Shimomura</name>
+    </author>
+    <author>
+      <name>W. Higemoto</name>
+    </author>
+    <author>
+      <name>T. Matsuzaki</name>
+    </author>
+    <author>
+      <name>Y. Kobayashi</name>
+    </author>
+    <author>
+      <name>H. Kageyama</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.95.020301</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.95.020301" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0501232v1</id>
+    <title>Two dimensionality in quasi one-dimensional cobalt oxides</title>
+    <updated>2005-01-11T07:00:00Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0501232v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0501232v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  By means of muon spin rotation and relaxation ($μ^+$SR) techniques, we have investigated the magnetism of quasi one-dimensional (1D) cobalt oxides $AE_{n+2}$Co$_{n+1}$O$_{3n+3}$ ($AE$=Ca, Sr and Ba, $n$=1, 2, 3, 5 and $\infty$), in which the 1D CoO$_3$ chain is surrounded by six equally spaced chains forming a triangular lattice in the $ab$-plane, using polycrystalline samples, from room temperature down to 1.8 K. For the compounds with $n$=1 - 5, transverse field $μ^+$SR experiments showed the existence of a magnetic transition below $\sim$100 K. The onset temperature of the transition ($T_{\rm c}^{\rm on}$) was found to decrease with $n$; from 100 K for $n$=1 to 60 K for $n$=5. A damped muon spin oscillation was observed only in the sample with $n$=1 (Ca$_3$Co$_2$O$_6$), whereas only a fast relaxation obtained even at 1.8 K in the other three samples. In combination with the results of susceptibility measurements, this indicates that a two-dimensional short-range antiferromagnetic (AF) order appears below $T_{\rm c}^{\rm on}$ for all compounds with $n$=1 - 5; but quasi-static long-range AF order formed only in Ca$_3$Co$_2$O$_6$, below 25 K. For BaCoO$_3$ ($n$=$\infty$), as $T$ decreased from 300 K, 1D ferromagnetic (F) order appeared below 53 K, and a sharp 2D AF transition occurred at 15 K.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-01-11T07:00:00Z</published>
+    <arxiv:comment>12 pages, 14 figures, and 2 tables</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Physical Review B 72, 064418 (2005).</arxiv:journal_ref>
+    <author>
+      <name>J. Sugiyama</name>
+    </author>
+    <author>
+      <name>H. Nozaki</name>
+    </author>
+    <author>
+      <name>J. H. Brewer</name>
+    </author>
+    <author>
+      <name>E. J. Ansaldo</name>
+    </author>
+    <author>
+      <name>T. Takami</name>
+    </author>
+    <author>
+      <name>H. Ikuta</name>
+    </author>
+    <author>
+      <name>U. Mizutani</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.72.064418</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.72.064418" title="doi"/>
+  </entry>
+</feed>

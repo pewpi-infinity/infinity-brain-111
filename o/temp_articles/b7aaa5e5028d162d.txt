@@ -1,0 +1,91 @@
+TERMS: frequency, ionization, graphene
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/gbSSmROJSjI/fnNzY9cRAnIjs34</id>
+  <title>arXiv Query: search_query=all:frequency AND all:ionization AND all:graphene&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:11:21Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:ionization+AND+all:graphene)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>5</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1006.3774v1</id>
+    <title>Levitated Spinning Graphene</title>
+    <updated>2010-06-18T18:57:06Z</updated>
+    <link href="https://arxiv.org/abs/1006.3774v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1006.3774v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A method is described for levitating micron-sized few layer graphene flakes in a quadrupole ion trap. Starting from a liquid suspension containing graphene, charged flakes are injected into the trap using the electrospray ionization technique and are probed optically. At micro-torr pressures, torques from circularly polarized light cause the levitated particles to rotate at frequencies &gt;1 MHz, which can be inferred from modulation of light scattering off the rotating flake when an electric field resonant with the rotation rate is applied. Possible applications of these techniques will be presented, both to fundamental measurements of the mechanical and electronic properties of graphene and to new approaches to graphene crystal growth, modification and manipulation.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-06-18T18:57:06Z</published>
+    <arxiv:comment>23 pages, 11 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>B. E. Kane</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.82.115441</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.82.115441" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1108.3360v1</id>
+    <title>New Aspects of Photocurrent Generation at Graphene pn Junctions Revealed by Ultrafast Optical Measurements</title>
+    <updated>2011-08-16T21:31:13Z</updated>
+    <link href="https://arxiv.org/abs/1108.3360v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1108.3360v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The unusual electrical and optical properties of graphene make it a promising candidate for optoelectronic applications. An important, but as yet unexplored aspect is the role of photo-excited hot carriers in charge and energy transport at graphene interfaces. Here, we perform time-resolved (~250 fs) scanning photocurrent microscopy on a tunable graphene pn junction. The ultrafast pump-probe measurements yield a photocurrent response time of ~1.5 ps at room temperature increasing to ~4 ps at 20 K. Combined with the negligible dependence of photocurrent amplitude on environmental temperature this implies that hot carriers rather than phonons dominate energy transport at high frequencies. Gate-dependent pump-probe measurements demonstrate that both thermoelectric and built-in electric field effects contribute to the photocurrent excited by laser pulses. The relative weight of each contribution depends on the junction configuration. A single laser beam excitation also displays multiple polarity-reversals as a function of carrier density, a signature of impact ionization. Our results enhance the understanding of non-equilibrium electron dynamics, electron-electron interactions, and electron-phonon interactions in graphene. They also determine fundamental limits on ultrafast device operation speeds (~500 GHz) for potential graphene-based photon detection, sensing, and communication.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-08-16T21:31:13Z</published>
+    <arxiv:comment>12 pages, 4 figures, submitted to Nature Nanotechnology</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>Dong Sun</name>
+    </author>
+    <author>
+      <name>Grant Aivazian</name>
+    </author>
+    <author>
+      <name>Aaron M. Jones</name>
+    </author>
+    <author>
+      <name>Wang Yao</name>
+    </author>
+    <author>
+      <name>David Cobden</name>
+    </author>
+    <author>
+      <name>Xiaodong Xu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2104.09857v1</id>
+    <title>Towards GW Calculations on Thousands of Atoms</title>
+    <updated>2021-04-20T09:46:52Z</updated>
+    <link href="https://arxiv.org/abs/2104.09857v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2104.09857v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The GW approximation of many-body perturbation theory is an accurate method for computing electron addition and removal energies of molecules and solids. In a canonical implementation, however, its computational cost is $O(N^4)$ in the system size N, which prohibits its application to many systems of interest. We present a full-frequency GW algorithm in a Gaussian type basis, whose computational cost scales with $N^2$ to $N^3$. The implementation is optimized for massively parallel execution on state-of-the-art supercomputers and is suitable for nanostructures and molecules in the gas, liquid or condensed phase, using either pseudopotentials or all electrons. We validate the accuracy of the algorithm on the GW100 molecular test set, finding mean absolute deviations of 35 meV for ionization potentials and 27 meV for electron affinities. Furthermore, we study the length-dependence of quasiparticle energies in armchair graphene nanoribbons of up to 1734 atoms in size, and compute the local density of states across a nanoscale heterojunction.</summary>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-04-20T09:46:52Z</published>
+    <arxiv:primary_category term="physics.chem-ph"/>
+    <arxiv:journal_ref>J. Phys. Chem. Lett. 9, 306-312 (2018)</arxiv:journal_ref>
+    <author>
+      <name>Jan Wilhelm</name>
+    </author>
+    <author>
+      <name>Dorothea Golze</name>
+    </author>
+    <author>
+      <name>Leopold Talirz</name>
+    </author>
+    <author>
+      <name>Jürg Hutter</name>
+    </author>
+    <author>
+      <name>Carlo A. Pignedoli</name>
+    </author>
+    <arxiv:doi>10.1021/acs.jpclett.7b02740</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1021/acs.jpclett.7b02740" title="doi"/>
+  </entry>
+</feed>

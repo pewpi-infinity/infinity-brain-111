@@ -1,0 +1,81 @@
+TERMS: frequency, tachyon, boson
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/t4XD8ekL+vUAVeQckz4K+/nDOuM</id>
+  <title>arXiv Query: search_query=all:frequency AND all:tachyon AND all:boson&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:12:33Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:tachyon+AND+all:boson)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>8</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/0805.0570v3</id>
+    <title>Backreaction in Closed String Tachyon Condensation</title>
+    <updated>2008-08-13T14:46:03Z</updated>
+    <link href="https://arxiv.org/abs/0805.0570v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0805.0570v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We consider backreaction due to production of massless strings in the background of a condensing closed string tachyon. Working in the region of weak tachyon, we find the modified equations of motion for massless strings with conformal perturbation theory. We solve for the positive and negative frequency modes and estimate the backreaction on the background dilaton. In large (supercritical) dimensions, we find that the backreaction can be significant in a large region of spacetime. We work with the bosonic string, but we expect these results to carry over into the heterotic case.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-05-05T16:37:16Z</published>
+    <arxiv:comment>15 pg, 2 figures; v2. corrected eq of motion (does not substantially change conclusions), other minor changes; v3. minor changes, to be published in JHEP</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>JHEP 0808:053,2008</arxiv:journal_ref>
+    <author>
+      <name>Andrew R. Frey</name>
+    </author>
+    <arxiv:doi>10.1088/1126-6708/2008/08/053</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1126-6708/2008/08/053" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1711.01326v2</id>
+    <title>Tachyonic quench in a free bosonic field theory</title>
+    <updated>2017-12-27T12:50:42Z</updated>
+    <link href="https://arxiv.org/abs/1711.01326v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1711.01326v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a characterization of a bosonic field theory driven by a free (Gaussian) tachyonic Hamiltonian. This regime is obtained from a theory describing two coupled bosonic fields after a regular quench. Relevant physical quantities such as simple correlators, entanglement entropies, and the mutual information of disconnected subregions are computed. We show that the causal structure resembles a critical (massless) quench. For short times, physical quantities also resemble critical quenches. However, exponential divergences end up dominating the dynamics in a very characteristic way. This is related to the fact that the low-frequency modes do not equilibrate. Some applications and extensions are outlined.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-11-03T20:39:13Z</published>
+    <arxiv:comment>9 pages, 6 figures, 2 appendices. v2: A brief section on possible connections to physical systems is included</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>J. Stat. Mech. (2018) 023102</arxiv:journal_ref>
+    <author>
+      <name>Sebastian Montes</name>
+    </author>
+    <author>
+      <name>Javier Rodríguez-Laguna</name>
+    </author>
+    <author>
+      <name>Germán Sierra</name>
+    </author>
+    <arxiv:doi>10.1088/1742-5468/aaa8e9</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1742-5468/aaa8e9" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2006.11340v2</id>
+    <title>Towards the Classification of Tachyon-Free Models From Tachyonic Ten-Dimensional Heterotic String Vacua</title>
+    <updated>2020-11-10T20:47:57Z</updated>
+    <link href="https://arxiv.org/abs/2006.11340v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2006.11340v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recently it was proposed that ten-dimensional tachyonic string vacua may serve as starting points for the construction of viable four dimensional phenomenological string models which are tachyon free. This is achieved by projecting out the tachyons in the four-dimensional models using projectors other than the projector which is utilised in the supersymmetric models and those of the $SO(16)\times SO(16)$ heterotic string. We continue the exploration of this class of models by developing systematic computerised tools for their classification, the analysis of their tachyonic and massless spectra, as well as analysis of their partition functions and vacuum energy. We explore a randomly generated space of $2\times10^9$ string vacua in this class and find that tachyon--free models occur with $\sim 5\times 10^{-3}$ probability, and of those, phenomenologically inclined $SO(10)$ vacua with $a_{00}=N_b^0-N_f^0=0$, i.e. equal number of fermionic and bosonic massless states, occur with frequency $\sim 2\times 10^{-6}$. Extracting larger numbers of phenomenological vacua therefore requires adaptation of fertility conditions that we discuss, and significantly increase the frequency of tachyon--free models. Our results suggest that spacetime supersymmetry may not be a necessary ingredient in phenomenological string models, even at the Planck scale.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-06-19T19:35:59Z</published>
+    <arxiv:comment>33 pages. 7 figures. Standard LaTex. Published version</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Nuclear Physics B 961 (2020) 115231</arxiv:journal_ref>
+    <author>
+      <name>Alon E. Faraggi</name>
+    </author>
+    <author>
+      <name>Viktor G. Matyas</name>
+    </author>
+    <author>
+      <name>Benjamin Percival</name>
+    </author>
+    <arxiv:doi>10.1016/j.nuclphysb.2020.115231</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.nuclphysb.2020.115231" title="doi"/>
+  </entry>
+</feed>

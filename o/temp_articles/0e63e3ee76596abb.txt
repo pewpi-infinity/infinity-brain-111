@@ -1,0 +1,53 @@
+TERMS: ionization, superconductivity, wavefunction
+COLORS: green, green, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/lKKqeRvaKqdDkvGbDfUDVhD2MPk</id>
+  <title>arXiv Query: search_query=all:ionization AND all:superconductivity AND all:wavefunction&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:28:56Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:ionization+AND+(all:superconductivity+AND+all:wavefunction)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2310.06870v1</id>
+    <title>Does the Mott problem extend to Geiger counters?</title>
+    <updated>2023-10-07T14:08:31Z</updated>
+    <link href="https://arxiv.org/abs/2310.06870v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.06870v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Mott problem is a simpler version of the quantum measurement problem that asks: Is there a microscopic physical mechanism - based (explicitly or implicitly) only on Schroedinger's equation - that explains why a single alpha particle emitted in a spherically symmetric s-wave nuclear decay produces a manifestly non-spherically-symmetric single track in a cloud chamber? I attempt here to generalize earlier work that formulated such a mechanism. The key ingredient there was identification of sites at which the cross section for ionization by a passing charged particle is near singular at ionization threshold. This near singularity arose from a Penning-like process involving molecular polarization in sub-critical vapor clusters. Here, I argue that the same Mott problem question should be asked about Geiger counters. I then define a simple experiment to determine if ionization physics similar to the cloud chamber case takes place in the mica window of a Geiger counter and explains the collimation of wavefunctions that are spherically symmetric outside the counter into linear tracks inside. The experiment measures the count rate from a radioactive point source as a function of source-window separation. I have performed a proof of concept of this experiment; results are reported here and support the near-singular-ionization picture. These results are significant in their own right, but also because they may shed light on physical mechanisms underlying the full quantum measurement problem. I illustrate this for the Stern-Gerlach experiment and a particular realization of superconducting qubits. I conclude by detailing further work required to flesh out these results more rigorously.</summary>
+    <category term="physics.gen-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-07T14:08:31Z</published>
+    <arxiv:comment>Accepted by Open Physics (De Gruyter)</arxiv:comment>
+    <arxiv:primary_category term="physics.gen-ph"/>
+    <author>
+      <name>Jonathan F. Schonfeld</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1010.6168v2</id>
+    <title>Crystal structure and electronic states of tripotassium picene</title>
+    <updated>2011-10-07T08:53:14Z</updated>
+    <link href="https://arxiv.org/abs/1010.6168v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1010.6168v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The crystal structure of potassium doped picene with an exact stoichiometry (K3C22H14, K3picene from here onwards) has been theoretically determined within Density Functional Theory allowing complete variational freedom of the crystal structure parameters and the molecular atomic positions. A modified herringbone lattice is obtained in which potassium atoms are intercalated between two paired picene molecules displaying the two possible orientations in the crystal.Along the c-axis, organic molecules alternate with chains formed by three potassium atoms. The electronic structureof the doped material resembles pristine picene, except that now the bottom of the conduction band is occupied by six electrons coming from the ionized K atoms (six per unit cell). Wavefunctions remain based mainly on picene molecular orbitals getting their dispersion from intralayer edge to face CH/pi bonding, while eigenenergies have been modified by the change in the electrostatic potential. The small dispersion along the c-axis is assigned to small H-H overlap. From the calculated electronic density of states we expect metallic behavior for potassium doped picene.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-10-29T09:47:21Z</published>
+    <arxiv:comment>Published version: 8 twocolumn pages, 7 color figures, 2 structural .cif files included</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>Phys. Rev. B 83, 245113 (2011)</arxiv:journal_ref>
+    <author>
+      <name>P. L. de Andres</name>
+    </author>
+    <author>
+      <name>A. Guijarro</name>
+    </author>
+    <author>
+      <name>J. A. Verges</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.83.245113</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.83.245113" title="doi"/>
+  </entry>
+</feed>

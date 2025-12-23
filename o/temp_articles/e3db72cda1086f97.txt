@@ -1,0 +1,131 @@
+TERMS: quantum, resonance, muon
+COLORS: blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/69YAz0XjC3QNGXihLWfQsnu6YwI</id>
+  <title>arXiv Query: search_query=all:quantum AND all:resonance AND all:muon&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:08:39Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:resonance+AND+all:muon)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>88</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2202.05859v2</id>
+    <title>Many-Body Quantum Muon Effects and Quadrupolar Coupling in Solids</title>
+    <updated>2023-06-20T18:00:04Z</updated>
+    <link href="https://arxiv.org/abs/2202.05859v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2202.05859v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Strong quantum zero-point motion (ZPM) of light nuclei and other particles is a crucial aspect of many state-of-the-art quantum materials. However, it has only recently begun to be explored from an $\textit{ab initio}$ perspective, through several competing approximations. Here we develop a unified description of muon and light nucleus ZPM and establish the regimes of anharmonicity and positional quantum entanglement where different approximation schemes apply. Via density functional theory and path-integral molecular dynamics simulations we demonstrate that in solid nitrogen, $α\unicode{x2013}$N$_2$, muon ZPM is both strongly anharmonic and many-body in character, with the muon forming an extended electric-dipole polaron around a central, quantum-entangled [N$_2\unicode{x2013}μ\unicode{x2013}$N$_2$]$^+$ complex. By combining this quantitative description of quantum muon ZPM with precision muon quadrupolar level-crossing resonance experiments, we independently determine the static $^{14}$N nuclear quadrupolar coupling constant of pristine $α\unicode{x2013}$N$_2$ to be $-5.36(2)$ MHz, a significant improvement in accuracy over the previously-accepted value of $-5.39(5)$ MHz, and a validation of our unified description of light-particle ZPM.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-02-11T19:01:29Z</published>
+    <arxiv:comment>Main text: 11 pages, 3 figures, 2 tables. Supplementary Information: 2 pages, 6 figures, 2 videos. Data and code available at: https://doi.org/10.6084/m9.figshare.23203037</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Commun. Phys. 6, 142 (2023)</arxiv:journal_ref>
+    <author>
+      <name>M. Gomilšek</name>
+    </author>
+    <author>
+      <name>F. L. Pratt</name>
+    </author>
+    <author>
+      <name>S. P. Cottrell</name>
+    </author>
+    <author>
+      <name>S. J. Clark</name>
+    </author>
+    <author>
+      <name>T. Lancaster</name>
+    </author>
+    <arxiv:doi>10.1038/s42005-023-01260-7</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s42005-023-01260-7" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1412.7671v1</id>
+    <title>Probing the magnetic phases in the Ni-V alloy close to the disordered ferromagnetic quantum critical point with muSR</title>
+    <updated>2014-12-24T14:35:59Z</updated>
+    <link href="https://arxiv.org/abs/1412.7671v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1412.7671v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Zero (ZF) and longitudinal field (LF) muon spin relaxation data of the {\it d}-metal alloy Ni$_{1-x}$V$_{x}$ are presented at several vanadium concentrations $x$ below and above the critical $x_c \approx 11$% where long-range ferromagnetic (FM) order is suppressed. The clear single precession frequency observed for Ni, as expected for a homogeneous FM, changes to rather damped oscillation with small V substitution at $x=4$%, confirming magnetic inhomogeneities caused by the less magnetic V environments in the magnetic Ni matrix. Furthermore, local fields and spatial field distributions can be estimated to characterize different inhomogeneous regimes developing with $x$ in the FM phase of Ni$_{1-x}$V$_{x}$. In the regime of $x=7-10$% a Kubo Toyabe function well describes the low temperature ZF and LF asymmetry data supporting a static Gaussian field distribution. Closer to the quantum critical concentration a single scale static Kubo Toyabe function with one field distribution is not sufficient to describe the muon relaxation. These data indicate that further changes in spatial distributions and dynamics are evolving as expected within the critical regime of a disordered quantum critical point.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-12-24T14:35:59Z</published>
+    <arxiv:comment>6 pages, 4 figures, submitted to Proceedings of The 13th International Conference on Muon Spin Rotation, Relaxation and Resonance (similar to published article)</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>J. Phys. Conf. Ser. 551, 012003 (2014)</arxiv:journal_ref>
+    <author>
+      <name>A. Schroeder</name>
+    </author>
+    <author>
+      <name>R. Wang</name>
+    </author>
+    <author>
+      <name>P. J. Baker</name>
+    </author>
+    <author>
+      <name>F. L. Pratt</name>
+    </author>
+    <author>
+      <name>S. J. Blundell</name>
+    </author>
+    <author>
+      <name>T. Lancaster</name>
+    </author>
+    <author>
+      <name>I. Franke</name>
+    </author>
+    <author>
+      <name>J. S. Möller</name>
+    </author>
+    <arxiv:doi>10.1088/1742-6596/551/1/012003</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1742-6596/551/1/012003" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.12993v1</id>
+    <title>New Frontiers in Muon-Spin Spectroscopy Using Si-Pixel Detectors</title>
+    <updated>2025-04-17T15:02:36Z</updated>
+    <link href="https://arxiv.org/abs/2504.12993v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.12993v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The study of novel quantum materials relies on muon-spin rotation, relaxation, or resonance (\mSR) measurements. Yet, a fundamental limitation persists: many of these materials can only be synthesized in extremely small quantities, often at sub-millimeter scales. While \mSR ~offers unique insights into electronic and magnetic properties, existing spectrometers lack a sub-millimeter spatial resolution and the possibility of triggerless pump-probe data acquisition, which would enable more advanced measurements. The General Purpose Surface-muon instrument (GPS) at the Paul Scherrer Institute (PSI) is currently limited to a muon stopping rate of \SI{40}{\kilo\hertz} to \SI{120}{\kilo\hertz}, a constraint that will become more pressing with the upcoming High-Intensity Muon Beam (HIMB) project. To overcome these challenges, we demonstrate the feasibility of employing ultra-thin monolithic Si-pixel detectors to reconstruct the stopping position of muons within the sample, thereby significantly enhancing the capability of measuring at higher muon rate. Additionally, we explore the first steps toward a triggerless pump-probe \mSR ~measurement scheme. Unlike conventional pump-probe techniques that require external triggers, a triggerless readout system can continuously integrate stimuli pulses into the data stream, allowing real-time tracking of ultra-fast dynamics in quantum materials. This approach will enable the study of transient states, spin dynamics, and quantum coherence under external stimuli.</summary>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-17T15:02:36Z</published>
+    <arxiv:primary_category term="physics.ins-det"/>
+    <author>
+      <name>Heiko Augustin</name>
+    </author>
+    <author>
+      <name>Niklaus Berger</name>
+    </author>
+    <author>
+      <name>Andrin Doll</name>
+    </author>
+    <author>
+      <name>Pascal Isenring</name>
+    </author>
+    <author>
+      <name>Marius Köppel</name>
+    </author>
+    <author>
+      <name>Jonas A. Krieger</name>
+    </author>
+    <author>
+      <name>Hubertus Luetkens</name>
+    </author>
+    <author>
+      <name>Lukas Mandok</name>
+    </author>
+    <author>
+      <name>Thomas Prokscha</name>
+    </author>
+    <author>
+      <name>Thomas Rudzki</name>
+    </author>
+    <author>
+      <name>André Schöning</name>
+    </author>
+    <author>
+      <name>Zaher Salman</name>
+    </author>
+  </entry>
+</feed>

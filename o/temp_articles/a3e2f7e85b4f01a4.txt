@@ -1,0 +1,58 @@
+TERMS: hydrogen, frequency, ionization, oxidation
+COLORS: purple, green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ZtIOAGuLjCWiIsBI3hXNrkptA5c</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:frequency AND all:ionization AND all:oxidation&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:43:55Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:frequency+AND+(all:ionization+AND+all:oxidation))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2507.17355v2</id>
+    <title>pH-dependent interfacial rheology of polymer membranes assembled at liquid-liquid interfaces using hydrogen bonds</title>
+    <updated>2025-11-13T09:49:37Z</updated>
+    <link href="https://arxiv.org/abs/2507.17355v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.17355v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Self-assembly of polymers at liquid interfaces using non-covalent interactions has emerged as a promising technique to reversibly produce self-healing membranes. Besides the assembly process, it is also crucial to control the mechanical properties of these membranes. Here, we measure the interfacial rheological properties of PMAA-PPO (polymethacrylic acid - polypropylene oxide) polymer membranes assembled using hydrogen bonds at the interface between water and a polar oil, Mygliol. Varying the pH enables us to modify the degree of ionization of the PMAA chains, and hence their ability to establish hydrogen interactions with PPO. Frequency sweeps of the interfacial layers show a crossover between a viscous regime at low frequencies and an elastic regime at high frequencies. The crossover elastic modulus, measured one hour after the two phases were put into contact, decreases by a half over the pH range investigated, which can be accounted for by a decrease of the layer thickness as pH increases. Furthermore, we find that the crossover frequency varies exponentially with the degree of ionization of PMAA. To account for these observations, we propose a simple picture where the short PPO chains behave as non-covalent cross-linkers that bridge several PMAA chains. The dissociation rate and hence the crossover frequency are controlled by the number of PO units per PPO chain involved in the hydrogen bonds.</summary>
+    <category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-23T09:37:19Z</published>
+    <arxiv:primary_category term="cond-mat.soft"/>
+    <arxiv:journal_ref>Journal of Physical Chemistry Letters, 2025, 16, pp.11610-11615</arxiv:journal_ref>
+    <author>
+      <name>Julien Dupré de Baubigny</name>
+      <arxiv:affiliation>SIMM</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Corentin Tregouet</name>
+      <arxiv:affiliation>SIMM</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Elena N. Govorun</name>
+      <arxiv:affiliation>SIMM</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Mathilde Reyssat</name>
+      <arxiv:affiliation>SIMM</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Patrick Perrin</name>
+      <arxiv:affiliation>SIMM</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Nadège Pantoustier</name>
+      <arxiv:affiliation>SIMM</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Thomas Salez</name>
+      <arxiv:affiliation>LOMA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Cécile Monteux</name>
+      <arxiv:affiliation>SIMM</arxiv:affiliation>
+    </author>
+  </entry>
+</feed>

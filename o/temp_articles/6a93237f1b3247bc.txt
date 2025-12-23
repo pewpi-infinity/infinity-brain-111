@@ -1,0 +1,77 @@
+TERMS: quantum, entropy, spin
+COLORS: blue, red, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/YOEYDLpU4zKm+7bYYpxkAZv9eI8</id>
+  <title>arXiv Query: search_query=all:quantum AND all:entropy AND all:spin&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:06:17Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:entropy+AND+all:spin)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2504</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2111.11605v3</id>
+    <title>Spin Entropy</title>
+    <updated>2022-06-01T16:07:51Z</updated>
+    <link href="https://arxiv.org/abs/2111.11605v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2111.11605v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In classical physics, entropy quantifies the randomness of large systems, where the complete specification of the state, though possible in theory, is not possible in practice. In quantum physics, despite its inherently probabilistic nature, the concept of entropy has been elusive. The von Neumann entropy, currently adopted in quantum information and computing, models only the randomness associated with unknown specifications of a state and is zero for pure quantum states, and thus cannot quantify the inherent randomness of its observables. Our goal is to provide such quantification.
+  This paper focuses on the quantification of the observed spin values associated with a pure quantum state, given an axis $z$. To this end, we define a spin entropy, which is not zero for pure states, and its minimum is $\ln 2π$, reflecting the uncertainty principle for the spin observables. We study the spin entropy for single massive particles with spin $1/2$ and spin 1, photons, and two fermions in entangled and disentangled states. The spin entropy attains local minima for Bell states, which are pure entangled states of two fermions, and local maxima for disentangled states. The spin entropy may be useful for developing robust quantum computational processes.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-11-23T01:56:26Z</published>
+    <arxiv:comment>17 pages, 3 figures. This version adopts the geometric quantization method to evaluate the spin entropy. It also extends some applications of the method</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Davi Geiger</name>
+    </author>
+    <author>
+      <name>Zvi Kedem</name>
+    </author>
+    <arxiv:doi>10.3390/e24091292</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/e24091292" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2111.07927v2</id>
+    <title>Entanglement entropy in critical quantum spin chains with boundaries and defects</title>
+    <updated>2022-05-25T11:54:12Z</updated>
+    <link href="https://arxiv.org/abs/2111.07927v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2111.07927v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Entanglement entropy (EE) in critical quantum spin chains described by 1+1D conformal field theories contains signatures of the universal characteristics of the field theory. Boundaries and defects in the spin chain give rise to universal contributions in the EE. In this work, we analyze these universal contributions for the critical Ising and XXZ spin chains for different conformal boundary conditions and defects. For the spin chains with boundaries, we use the boundary states for the corresponding continuum theories to compute the subleading contribution to the EE analytically and provide supporting numerical computation for the spin chains. Subsequently, we analyze the behavior of EE in the presence of conformal defects for the two spin chains and describe the change in both the leading logarithmic and subleading terms in the EE.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-11-15T17:32:46Z</published>
+    <arxiv:comment>14 pages, 6 figures, Chapter in Entanglement in Spin Chains - Theory and Quantum Technology Applications, Springer</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Ananda Roy</name>
+    </author>
+    <author>
+      <name>Hubert Saleur</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1301.4553v3</id>
+    <title>Quantum Hairs and Entropy of Quantum Isolated Horizon from Chern-Simons Theory</title>
+    <updated>2014-08-15T14:07:29Z</updated>
+    <link href="https://arxiv.org/abs/1301.4553v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1301.4553v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We articulate the fact that the loop quantum gravity description of the quantum macrostates of black hole horizons, modeled as Quantum Isolated Horizons (QIHs), is completely characterized in terms of two independent integer-valued `quantum hairs', viz,. the coupling constant $(k)$ of the quantum $SU(2)$ Chern-Simons theory describing QIH dynamics, and the number of punctures $(N)$ produced by the bulk spin network edges piercing the isolated horizon (which act as pointlike sources for the Chern- Simons fields). We demonstrate that the microcanonical entropy of macroscopic (both parameters assuming very large values) QIHs can be obtained directly from the microstates of this Chern-Simons theory, using standard statistical mechanical methods, without having to additionally postulate the horizon as an ideal gas of punctures, or incorporate any additional classical or semi-classical input from general relativity vis-a-vis the functional dependence of the IH mass on its area, or indeed, without having to restrict to any special class of spins. Requiring the validity of the Bekenstein-Hawking area law relates these two parameters (as an equilibrium `equation of state') and consequently allows the Barbero-Immirzi parameter to take any real and positive value depending on the value of $k/N$. The logarithmic correction to the area law obtained a decade ago by R. Kaul and one of us (P.M.), ensues straightforwardly, with precisely the coefficient -3/2, making it a signature of the loop quantum gravity approach to black hole entropy.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-01-19T10:10:24Z</published>
+    <arxiv:comment>11 pages, version accepted for publication in Classical and Quantum Gravity</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Class. Quantum Grav. 31 (2014) 195003</arxiv:journal_ref>
+    <author>
+      <name>Abhishek Majhi</name>
+    </author>
+    <author>
+      <name>Parthasarathi Majumdar</name>
+    </author>
+    <arxiv:doi>10.1088/0264-9381/31/19/195003</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0264-9381/31/19/195003" title="doi"/>
+  </entry>
+</feed>

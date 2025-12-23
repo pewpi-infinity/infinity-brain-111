@@ -1,0 +1,98 @@
+TERMS: crystal, wavefunction, singularity
+COLORS: orange, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api//TwE1MSyoQ8pncA/wxOwgxfoQkg</id>
+  <title>arXiv Query: search_query=all:crystal AND all:wavefunction AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:27:54Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:crystal+AND+(all:wavefunction+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>5</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2301.04548v1</id>
+    <title>Orbital design of Berry curvature: pinch points and giant dipoles induced by crystal fields</title>
+    <updated>2023-01-11T16:18:19Z</updated>
+    <link href="https://arxiv.org/abs/2301.04548v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2301.04548v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Berry curvature (BC) - a quantity encoding the geometric properties of the electronic wavefunctions in a solid - is at the heart of different Hall-like transport phenomena, including the anomalous Hall and the non-linear Hall and Nernst effects. In non-magnetic quantum materials with acentric crystalline arrangements, local concentrations of BC are generally linked to single-particle wavefunctions that are a quantum superposition of electron and hole excitations. BC-mediated effects are consequently observed in two-dimensional systems with pairs of massive Dirac cones and three-dimensional bulk crystals with quartets of Weyl cones. Here, we demonstrate that in materials equipped with orbital degrees of freedom local BC concentrations can arise even in the complete absence of hole excitations. In these solids, the crystals fields appearing in very low-symmetric structures trigger BCs characterized by hot-spots and singular pinch points. These characteristics naturally yield giant BC dipoles and large non-linear transport responses in time-reversal symmetric conditions.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-01-11T16:18:19Z</published>
+    <arxiv:comment>11 pages, 4 figure and supplemental material (6 pages, figures)</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>npj Quantum Mater. 8, 12 (2023)</arxiv:journal_ref>
+    <author>
+      <name>Maria Teresa Mercaldo</name>
+    </author>
+    <author>
+      <name>Canio Noce</name>
+    </author>
+    <author>
+      <name>Andrea D. Caviglia</name>
+    </author>
+    <author>
+      <name>Mario Cuoco</name>
+    </author>
+    <author>
+      <name>Carmine Ortix</name>
+    </author>
+    <arxiv:doi>10.1038/s41535-023-00545-y</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41535-023-00545-y" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1605.08706v2</id>
+    <title>Boosting the accuracy and speed of quantum Monte Carlo: size-consistency and time-step</title>
+    <updated>2016-07-05T13:08:58Z</updated>
+    <link href="https://arxiv.org/abs/1605.08706v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1605.08706v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Diffusion Monte Carlo (DMC) simulations for fermions are becoming the standard to provide high quality reference data in systems that are too large to be investigated via quantum chemical approaches. DMC with the fixed-node approximation relies on modifications of the Green function to avoid singularities near the nodal surface of the trial wavefunction. We show that these modifications affect the DMC energies in a way that is not size-consistent, resulting in large time-step errors. Building on the modifications of Umrigar {\em et al.} and of DePasquale {\em et al.} we propose a simple Green function modification that restores size-consistency to large values of time-step; substantially reducing the time-step errors. The new algorithm also yields remarkable speedups of up to two orders of magnitude in the calculation of molecule-molecule binding energies and crystal cohesive energies, thus extending the horizons of what is possible with DMC.</summary>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-05-27T16:10:10Z</published>
+    <arxiv:primary_category term="physics.chem-ph"/>
+    <arxiv:journal_ref>Phys. Rev. B 93, 241118(R) (2016)</arxiv:journal_ref>
+    <author>
+      <name>Andrea Zen</name>
+    </author>
+    <author>
+      <name>Sandro Sorella</name>
+    </author>
+    <author>
+      <name>Michael J. Gillan</name>
+    </author>
+    <author>
+      <name>Angelos Michaelides</name>
+    </author>
+    <author>
+      <name>Dario Alfè</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.93.241118</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.93.241118" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.04213v1</id>
+    <title>Quantum Metric Enhancement and Hierarchical Scaling in One-Dimensional Quasiperiodic Systems</title>
+    <updated>2025-07-06T02:13:33Z</updated>
+    <link href="https://arxiv.org/abs/2507.04213v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.04213v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The quantum metric, a key component of quantum geometry, plays a central role in a wide range of physical phenomena and has been extensively studied in periodic crystals and moiré materials. Here, we systematically investigate quantum geometry in one-dimensional (1D) quasiperiodic systems and uncover novel properties that fundamentally distinguish them from both periodic crystals and disordered media. Our comparative analysis reveals that quasiperiodicity significantly enhances the quantum metric -- despite the absence of translational symmetry -- due to the presence of critical wavefunctions with long-range spatial correlations. In the Aubry-André-Harper model, we show that the quantum metric serves as a sensitive probe of localization transitions, exhibiting sharp changes at the critical point and distinct behaviors near mobility edges. In the Fibonacci chain, characterized by a singular continuous spectrum, we discover an anomalous enhancement of the quantum metric when the Fermi level lies within the minimal gaps of the fractal energy spectrum. Using a perturbative renormalization group framework, we trace this enhancement to the hierarchical structure of the spectrum and the bonding-antibonding nature of critical states across narrow gaps. Our findings establish a fundamental connection between wavefunction criticality, spectral fractality, and quantum geometry, suggesting quasiperiodic systems as promising platforms for engineering enhanced quantum geometric properties beyond conventional crystalline paradigms.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-06T02:13:33Z</published>
+    <arxiv:comment>18 pages 17 figures. comments are welcome</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>Jundi Wang</name>
+    </author>
+    <author>
+      <name>Yuxiao Chen</name>
+    </author>
+    <author>
+      <name>Huaqing Huang</name>
+    </author>
+  </entry>
+</feed>

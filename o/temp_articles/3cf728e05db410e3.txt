@@ -1,0 +1,85 @@
+TERMS: hydrogen, quantum, entropy, singularity
+COLORS: purple, blue, red, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/bwe63joaFn4JeBmEDTLlkUqaGtM</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:entropy AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:38:37Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:entropy+AND+all:singularity))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>3</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2509.16289v1</id>
+    <title>Charged particle dynamics in singular spacetimes: hydrogenic mapping and curvature-corrected thermodynamics</title>
+    <updated>2025-09-19T10:08:00Z</updated>
+    <link href="https://arxiv.org/abs/2509.16289v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.16289v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We analyze the dynamics of charged test particles in a singular, horizonless spacetime arising as the massless limit of a charged wormhole in the Einstein--Maxwell--Scalar framework. The geometry, sustained solely by an electric charge \(Q\), features an infinite sequence of curvature singularity shells, with the outermost at \(r_\ast = \frac{2|Q|}π\) acting as a hard boundary for nonradial motion, while radial trajectories can access it depending on the particle's charge-to-mass ratio \(\frac{|q|}{m}\). Exploiting exact first integrals, we construct the effective potential and obtain circular orbit radii, radial epicyclic frequencies, and azimuthal precession rates. In the weak-field limit (\(r \gg |Q|\)), the motion reduces to a Coulombic system with small curvature-induced retrograde precession. At large radii, the dynamics maps to a hydrogenic system, with curvature corrections inducing perturbative energy shifts. Approaching \(r_\ast\), the potential diverges, producing hard-wall confinement. Curvature corrections also modify the canonical thermodynamics, raising energies and slightly altering entropy and heat capacity. Our results characterize the transition from Newtonian-like orbits to strongly confined, curvature-dominated dynamics.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-19T10:08:00Z</published>
+    <arxiv:comment>11 pages, 4 figures, 2 tables</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <author>
+      <name>Abdullah Guvendi</name>
+    </author>
+    <author>
+      <name>Semra Gurtas Dogan</name>
+    </author>
+    <author>
+      <name>Omar Mustafa</name>
+    </author>
+    <author>
+      <name>Hassan Hassanabadi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2104.05451v1</id>
+    <title>Quantum oscillations in the black hole horizon</title>
+    <updated>2021-04-09T16:29:29Z</updated>
+    <link href="https://arxiv.org/abs/2104.05451v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2104.05451v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>By applying Rosen's quantization approach to the historical Oppenheimer and Snyder gravitational collapse and by setting the constraints for the formation of the Schwarzschild black hole (SBH), in a previous paper [1] two of the Authors (CC and FF) found the gravitational potential, the Schrodinger equation, the solution for the energy levels, the area quantum and the quantum representation of the ground state at the Planck scale of the SBH. Such results are consistent with previous ones in the literature. It was also shown that the traditional classical singularity in the core of the SBH is replaced by a quantum oscillator describing a non-singular two-particle system where the two components, named the "nucleus" and the "electron", strongly interact with each other through a quantum gravitational interaction. In agreement with the de Broglie hypothesis, the "electron" is interpreted in terms of the quantum oscillations of the BH horizon. In other words, the SBH should be the gravitational analogous of the hydrogen atom. In this paper, it is shown that these results allow us to compute the SBH entropy as a function of the BH principal quantum number in terms of Bekenstein-Hawking entropy and three sub-leading corrections. In addition, the coefficient of the formula of Bekenstein-Hawking entropy is reduced to a quarter of the traditional value. Then, it is shown that, by performing a correct rescaling of the energy levels, the semi-classical Bohr-like approach to BH quantum physics, previously developed by one of the Authors (CC), is consistent with the obtained results for large values of the BH principal quantum number. After this, Hawking radiation will be analysed by discussing its connection with the BH quantum structure. Finally, it is shown that the time evolution of the above mentioned system solves the BH information paradox.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-04-09T16:29:29Z</published>
+    <arxiv:comment>29 pages.Comments are welcome. arXiv admin note: text overlap with arXiv:1912.06478</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Theoretical and Mathematical Physics, 213(2): 1632-1664 (2022)</arxiv:journal_ref>
+    <author>
+      <name>C. Corda</name>
+    </author>
+    <author>
+      <name>F. Feleppa</name>
+    </author>
+    <author>
+      <name>F. Tamburini</name>
+    </author>
+    <author>
+      <name>I. Licata</name>
+    </author>
+    <arxiv:doi>10.1134/S0040577922110083</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1134/S0040577922110083" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-th/0611292v1</id>
+    <title>Atomic Structure in Black Hole</title>
+    <updated>2006-11-27T19:16:02Z</updated>
+    <link href="https://arxiv.org/abs/hep-th/0611292v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-th/0611292v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We propose that any black hole has atomic structure in its inside and has no horizon as a model of black holes. Our proposal is founded on a mean field approximation of gravity. The structure of our model consists of a (charged) singularity at the center and quantum fluctuations of fields around the singularity, namely, it is quite similar to that of atoms. Any properties of black holes, e.g. entropy, can be explained by the model. The model naturally quantizes black holes. In particular, we find the minimum black hole, whose structure is similar to that of the hydrogen atom and whose Schwarzschild radius is approximately 1.1287 times the Planck length. Our approach is conceptually similar to the Bohr's model of the atomic structure, and the concept of the minimum Schwarzschild radius is similar to that of the Bohr radius. The model predicts that black holes carry baryon number, and the baryon number is rapidly violated. This baryon number violation can be used as verification of the model.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-11-27T19:16:02Z</published>
+    <arxiv:comment>14 pages, 10 figures, PTPTeX.cls with graphicx macro, talk given at the international workshop "Frontiers of Quantum Physics", Kyoto, Japan, 17-19 February 2005</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Prog.Theor.Phys.Suppl.164:54-67,2007</arxiv:journal_ref>
+    <author>
+      <name>Yukinori Nagatani</name>
+      <arxiv:affiliation>Okayama Institute for Quantum Physics</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1143/PTPS.164.54</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1143/PTPS.164.54" title="doi"/>
+  </entry>
+</feed>

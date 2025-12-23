@@ -1,0 +1,91 @@
+TERMS: fusion, ionization, plasma
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/UKEupIhDcvzdiizecU4TGKGLBLE</id>
+  <title>arXiv Query: search_query=all:fusion AND all:ionization AND all:plasma&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:20:42Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:fusion+AND+(all:ionization+AND+all:plasma)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>117</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/physics/0512271v3</id>
+    <title>How much laser power can propagate through fusion plasma?</title>
+    <updated>2006-03-28T01:18:46Z</updated>
+    <link href="https://arxiv.org/abs/physics/0512271v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/physics/0512271v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Propagation of intense laser beams is crucial for inertial confinement fusion, which requires precise beam control to achieve the compression and heating necessary to ignite the fusion reaction. The National Ignition Facility (NIF), where fusion will be attempted, is now under construction. Control of intense beam propagation may be ruined by laser beam self-focusing. We have identified the maximum laser beam power that can propagate through fusion plasma without significant self-focusing and have found excellent agreement with recent experimental data, and suggest a way to increase that maximum by appropriate choice of plasma composition with implication for NIF designs. Our theory also leads to the prediction of anti-correlation between beam spray and backscatter and suggests the indirect control of backscatter through manipulation of plasma ionization state or acoustic damping.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.CD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.PS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-12-30T11:29:46Z</published>
+    <arxiv:comment>15 pages, 4 figures, submitted to Plasma Physics and Controlled Fusion</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <arxiv:journal_ref>Plasma Physics and Controlled Fusion, v. 48, pp. 1501-1513 (2006)</arxiv:journal_ref>
+    <author>
+      <name>Pavel M. Lushnikov</name>
+    </author>
+    <author>
+      <name>Harvey A. Rose</name>
+    </author>
+    <arxiv:doi>10.1088/0741-3335/48/10/004</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0741-3335/48/10/004" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1403.0380v2</id>
+    <title>Plasma burn-through simulations using the DYON code and predictions for ITER</title>
+    <updated>2014-03-04T10:22:15Z</updated>
+    <link href="https://arxiv.org/abs/1403.0380v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1403.0380v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper will discuss simulations of the full ionization process (i.e. plasma burn-through), fundamental to creating high temperature plasma. By means of an applied electric field, the gas is partially ionized by the electron avalanche process. In order for the electron temperature to increase, the remaining neutrals need to be fully ionized in the plasma burn-through phase, as radiation is the main contribution to the electron power loss. The radiated power loss can be significantly affected by impurities resulting from interaction with the plasma facing components. The DYON code is a plasma burn-through simulator developed at Joint European Torus (JET) [1] [2]. The dynamic evolution of the plasma temperature and plasma densities including impurity content is calculated in a self-consistent way, using plasma wall interaction models. The recent installation of a beryllium wall at JET enabled validation of the plasma burn-through model in the presence of new, metallic plasma facing components. The simulation results of the plasma burn-through phase show consistent good agreement against experiments at JET, and explain differences observed during plasma initiation with the old carbon plasma facing components. In the International Thermonuclear Experimental Reactor (ITER), the allowable toroidal electric field is restricted to 0.35 [V/m], which is significantly lower compared to the typical value (~ 1 [V/m]) used in the present devices. The limitation on toroidal electric field also reduces the range of other operation parameters during plasma formation in ITER. Thus, predictive simulations of plasma burn-through in ITER using validated model is of crucial importance. This paper provides an overview of the DYON code and the validation, together with new predictive simulations for ITER using the DYON code.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-03-03T10:48:32Z</published>
+    <arxiv:comment>11 pages, 12 figures. This is an author-created, un-copyedited version of an article accepted for publication in Plasma Physics and Controlled Fusion. IOP Publishing Ltd is not responsible for any errors or omissions in this version of the manuscript or any version derived from it</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <arxiv:journal_ref>Plasma Physics and Controlled Fusion, Vol.55, No.12, December 2013, p.124032</arxiv:journal_ref>
+    <author>
+      <name>Hyun-Tae Kim</name>
+    </author>
+    <author>
+      <name>A. C. C. Sips</name>
+    </author>
+    <author>
+      <name>P. C. de Vries</name>
+    </author>
+    <author>
+      <name>JET-EFDA Contributors</name>
+    </author>
+    <arxiv:doi>10.1088/0741-3335/55/12/124032</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0741-3335/55/12/124032" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1106.5951v1</id>
+    <title>Assessment of hydrocarbon electron-impact ionization cross section measurements for magnetic fusion</title>
+    <updated>2011-06-29T14:41:31Z</updated>
+    <link href="https://arxiv.org/abs/1106.5951v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1106.5951v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Partial ionization cross section experiments have been carried out recently at the University of Innsbruck for three types of hydrocarbons, i.e. acetylene, ethylene and propene. Cross section data fits are generated and compared to the compilation of earlier experimental data summarized in the online database HYDKIN [www.hydkin.de]. New data fits are brought into a suitable form to be incorporated into the database. In order to illuminate underlying dissociation mechanisms the energy dependence of branching ratios above energies of 20 - 30eV is reviewed in light of the present results. This is a pre-peer reviewed version which has been submitted to Contributions to Plasma Physics.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-06-29T14:41:31Z</published>
+    <arxiv:comment>23 pages, 3 figures, 6 tables, to be published in "Contributions to Plasma Physics"</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <arxiv:journal_ref>Contributions to Plasma Physics 51 (2011), 931-943</arxiv:journal_ref>
+    <author>
+      <name>Stefan E. Huber</name>
+    </author>
+    <author>
+      <name>Josef Seebacher</name>
+    </author>
+    <author>
+      <name>Alexander Kendl</name>
+    </author>
+    <author>
+      <name>Detlev Reiter</name>
+    </author>
+    <arxiv:doi>10.1002/ctpp.201100029</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1002/ctpp.201100029" title="doi"/>
+  </entry>
+</feed>

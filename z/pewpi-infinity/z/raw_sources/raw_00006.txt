@@ -1,0 +1,236 @@
+[2401.00006] Building Open-Ended Embodied Agent via Language-Policy Bidirectional Adaptation
+Skip to main content
+We gratefully acknowledge support from the Simons Foundation,
+member institutions
+, and all contributors.
+Donate
+>
+cs
+>
+arXiv:2401.00006
+Help
+|
+Advanced Search
+All fields
+Title
+Author
+Abstract
+Comments
+Journal reference
+ACM classification
+MSC classification
+Report number
+arXiv identifier
+DOI
+ORCID
+arXiv author ID
+Help pages
+Full text
+Search
+open search
+GO
+open navigation menu
+quick links
+Login
+Help Pages
+About
+Computer Science > Artificial Intelligence
+arXiv:2401.00006
+(cs)
+[Submitted on 12 Dec 2023 (
+v1
+), last revised 6 Feb 2024 (this version, v3)]
+Title:
+Building Open-Ended Embodied Agent via Language-Policy Bidirectional Adaptation
+Authors:
+Shaopeng Zhai
+,
+Jie Wang
+,
+Tianyi Zhang
+,
+Fuxian Huang
+,
+Qi Zhang
+,
+Ming Zhou
+,
+Jing Hou
+,
+Yu Qiao
+,
+Yu Liu
+View a PDF of the paper titled Building Open-Ended Embodied Agent via Language-Policy Bidirectional Adaptation, by Shaopeng Zhai and 7 other authors
+View PDF
+HTML (experimental)
+Abstract:
+Building embodied agents on integrating Large Language Models (LLMs) and Reinforcement Learning (RL) have revolutionized human-AI interaction: researchers can now leverage language instructions to plan decision-making for open-ended tasks. However, existing research faces challenges in meeting the requirement of open-endedness. They typically either train LLM/RL models to adapt to a fixed counterpart, limiting exploration of novel skills and hindering the efficacy of human-AI interaction. To this end, we present OpenPAL, a co-training framework comprising two stages: (1) fine-tuning a pre-trained LLM to translate human instructions into goals for planning, and goal-conditioned training a policy for decision-making; (2) co-training to align the LLM and policy, achieving instruction open-endedness. We conducted experiments using Contra, an open-ended FPS game, demonstrating that an agent trained with OpenPAL not only comprehends arbitrary instructions but also exhibits efficient execution. These results suggest that OpenPAL holds the potential to construct open-ended embodied agents in practical scenarios.
+Subjects:
+Artificial Intelligence (cs.AI)
+Cite as:
+arXiv:2401.00006
+[cs.AI]
+(or
+arXiv:2401.00006v3
+[cs.AI]
+for this version)
+https://doi.org/10.48550/arXiv.2401.00006
+Focus to learn more
+arXiv-issued DOI via DataCite
+Submission history
+From: Shaopeng Zhai [
+view email
+]
+[v1]
+Tue, 12 Dec 2023 11:06:07 UTC (8,033 KB)
+[v2]
+Mon, 5 Feb 2024 03:39:25 UTC (20,754 KB)
+[v3]
+Tue, 6 Feb 2024 16:30:55 UTC (22,814 KB)
+Full-text links:
+Access Paper:
+View a PDF of the paper titled Building Open-Ended Embodied Agent via Language-Policy Bidirectional Adaptation, by Shaopeng Zhai and 7 other authors
+View PDF
+HTML (experimental)
+TeX Source
+view license
+Current browse context:
+cs.AI
+< prev
+|
+next >
+new
+|
+recent
+|
+2024-01
+Change to browse by:
+cs
+References & Citations
+NASA ADS
+Google Scholar
+Semantic Scholar
+export BibTeX citation
+Loading...
+BibTeX formatted citation
+×
+loading...
+Data provided by:
+Bookmark
+Bibliographic Tools
+Bibliographic and Citation Tools
+Bibliographic Explorer Toggle
+Bibliographic Explorer
+(
+What is the Explorer?
+)
+Connected Papers Toggle
+Connected Papers
+(
+What is Connected Papers?
+)
+Litmaps Toggle
+Litmaps
+(
+What is Litmaps?
+)
+scite.ai Toggle
+scite Smart Citations
+(
+What are Smart Citations?
+)
+Code, Data, Media
+Code, Data and Media Associated with this Article
+alphaXiv Toggle
+alphaXiv
+(
+What is alphaXiv?
+)
+Links to Code Toggle
+CatalyzeX Code Finder for Papers
+(
+What is CatalyzeX?
+)
+DagsHub Toggle
+DagsHub
+(
+What is DagsHub?
+)
+GotitPub Toggle
+Gotit.pub
+(
+What is GotitPub?
+)
+Huggingface Toggle
+Hugging Face
+(
+What is Huggingface?
+)
+Links to Code Toggle
+Papers with Code
+(
+What is Papers with Code?
+)
+ScienceCast Toggle
+ScienceCast
+(
+What is ScienceCast?
+)
+Demos
+Demos
+Replicate Toggle
+Replicate
+(
+What is Replicate?
+)
+Spaces Toggle
+Hugging Face Spaces
+(
+What is Spaces?
+)
+Spaces Toggle
+TXYZ.AI
+(
+What is TXYZ.AI?
+)
+Related Papers
+Recommenders and Search Tools
+Link to Influence Flower
+Influence Flower
+(
+What are Influence Flowers?
+)
+Core recommender toggle
+CORE Recommender
+(
+What is CORE?
+)
+Author
+Venue
+Institution
+Topic
+About arXivLabs
+arXivLabs: experimental projects with community collaborators
+arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website.
+Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.
+Have an idea for a project that will add value for arXiv's community?
+Learn more about arXivLabs
+.
+Which authors of this paper are endorsers?
+|
+Disable MathJax
+(
+What is MathJax?
+)
+About
+Help
+contact arXiv
+Click here to contact arXiv
+Contact
+subscribe to arXiv mailings
+Click here to subscribe
+Subscribe
+Copyright
+Privacy Policy
+Web Accessibility Assistance
+arXiv Operational Status

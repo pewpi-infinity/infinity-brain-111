@@ -1,0 +1,114 @@
+TERMS: entropy, superconductivity, singularity
+COLORS: red, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Ini2KR08y+dZr0vPnLq+XcPoZhQ</id>
+  <title>arXiv Query: search_query=all:entropy AND all:superconductivity AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:18:11Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+(all:superconductivity+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>16</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2309.09494v1</id>
+    <title>Superconductivity in the bcc-type High-entropy Alloy TiHfNbTaMo</title>
+    <updated>2023-09-18T05:32:40Z</updated>
+    <link href="https://arxiv.org/abs/2309.09494v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2309.09494v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>X-ray powder diffraction, electrical resistivity, magnetization, and thermodynamic measurements were conducted to investigate the structure and superconducting properties of TiHfNbTaMo, a novel high-entropy alloy possessing a valence electron count (VEC) of 4.8. The TiHfNbTaMo HEA was discovered to have a body-centered cubic structure and a microscopically homogeneous distribution of the constituent elements. This material shows type-II superconductivity with Tc = 3.42 K, lower critical field with 22.8 mT, and upper critical field with 3.95 T. Low-temperature specific heat measurements show that the alloy is a conventional s-wave type with a moderately coupled superconductor. First-principles calculations show that the density of states (DOS) of the TiHfNbTaMo alloy is dominated by hybrid d orbitals of these five metal elements. Additionally, the TiHfNbTaMo HEA exhibits three van Hove singularities. Furthermore, the VEC and the composition of the elements (especially the Nb elemental content) affect the Tc of the bcc-type HEA.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-09-18T05:32:40Z</published>
+    <arxiv:comment>19 pages, 6 figures,The manuscript with the same title will be published by Advanced Quantum Technologies</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <arxiv:journal_ref>Advanced Quantum Technologies,2023</arxiv:journal_ref>
+    <author>
+      <name>Lingyong Zeng</name>
+    </author>
+    <author>
+      <name>Jie Zhan</name>
+    </author>
+    <author>
+      <name>Mebrouka Boubeche</name>
+    </author>
+    <author>
+      <name>Kuan Li</name>
+    </author>
+    <author>
+      <name>Longfu Li</name>
+    </author>
+    <author>
+      <name>Peifeng Yu</name>
+    </author>
+    <author>
+      <name>Kangwang Wang</name>
+    </author>
+    <author>
+      <name>Chao Zhang</name>
+    </author>
+    <author>
+      <name>Kui Jin</name>
+    </author>
+    <author>
+      <name>Yan Sun</name>
+    </author>
+    <author>
+      <name>Huixia Luo</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2007.06619v3</id>
+    <title>Rényi Entropy Singularities as Signatures of Topological Criticality in Coupled Photon-Fermion Systems</title>
+    <updated>2020-11-23T14:49:33Z</updated>
+    <link href="https://arxiv.org/abs/2007.06619v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2007.06619v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show that the topological phase transition for a Kitaev chain embedded in a cavity can be identified by measuring experimentally accessible photon observables such as the Fano factor and the cavity quadrature amplitudes. Moreover, based on density matrix renormalization group numerical calculations, endorsed by an analytical Gaussian approximation for the cavity state, we propose a direct link between those observables and quantum entropy singularities. We study two bipartite entanglement measures, the von Neumann and Rényi entanglement entropies, between light and matter subsystems. Even though both display singularities at the topological phase transition points, remarkably only the Rényi entropy can be analytically connected to the measurable Fano factor. Consequently, we show a method to recover the bipartite entanglement of the system from a cavity observable. Thus, we put forward a path to experimentally access the control and detection of a topological quantum phase transition via the Rényi entropy, which can be measured by standard low noise linear amplification techniques in superconducting circuits. In this way, the main quantum information features of Majorana polaritons in photon-fermion systems can be addressed in feasible experimental setups.</summary>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-07-13T18:49:28Z</published>
+    <arxiv:comment>Main text: 13 pages, 9 figures. Published in Phys. Rev. Research as an Editors' Suggestion</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.quant-gas"/>
+    <arxiv:journal_ref>Phys. Rev. Research 2, 043264 (2020)</arxiv:journal_ref>
+    <author>
+      <name>F. P. M. Méndez-Córdoba</name>
+    </author>
+    <author>
+      <name>J. J. Mendoza-Arenas</name>
+    </author>
+    <author>
+      <name>F. J. Gómez-Ruiz</name>
+    </author>
+    <author>
+      <name>F. J. Rodríguez</name>
+    </author>
+    <author>
+      <name>C. Tejedor</name>
+    </author>
+    <author>
+      <name>L. Quiroga</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevResearch.2.043264</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevResearch.2.043264" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.19211v2</id>
+    <title>Hidden Bose-Einstein Singularities in Correlated Electron Systems: III. Thermodynamic Signals</title>
+    <updated>2025-09-05T04:17:13Z</updated>
+    <link href="https://arxiv.org/abs/2506.19211v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.19211v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study thermodynamic consequences of the hidden Bose-Einstein singularities, which have been predicted to cause a pseudogap phase, based on quantum field theory of ordered phases. Starting from the Luttinger-Ward functional for the grand thermodynamic potential, we derive expressions of the Helmholtz free energy, internal energy, entropy, and heat capacity in a form suitable for numerical studies. They are applied to the weakly attractive Hubbard model in three dimensions to calculate the thermodynamic potentials numerically and continuously for the normal, pseudogap, and superconducting phases on the same footing. It is shown that the entry into the pseudogap phase is detectable as singularities of thermodynamic potentials, especially a discontinuity in the heat capacity.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-24T00:40:21Z</published>
+    <arxiv:comment>9 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>J. Phys. Soc. Jpn. 94, 104701 (2025)</arxiv:journal_ref>
+    <author>
+      <name>Takafumi Kita</name>
+    </author>
+    <arxiv:doi>10.7566/JPSJ.94.104701</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.7566/JPSJ.94.104701" title="doi"/>
+  </entry>
+</feed>

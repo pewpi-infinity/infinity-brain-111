@@ -1,0 +1,55 @@
+TERMS: hydrogen, ionization, boson
+COLORS: purple, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/90+lEGr9ilfDE5/B1IwHU0SPrYU</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:ionization AND all:boson&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:03:47Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:ionization+AND+all:boson)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2412.12526v1</id>
+    <title>Gravitational Atoms and Black Hole Binaries</title>
+    <updated>2024-12-17T04:34:59Z</updated>
+    <link href="https://arxiv.org/abs/2412.12526v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.12526v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Several models of physics beyond the Standard Model predict the existence of new ultralight bosons. This thesis investigates a way to discover such particles through observations of gravitational waves from binary black holes. This is possible through black hole superradiance, which spontaneously creates a "boson cloud" around a rapidly spinning black hole. The system is also known as a gravitational atom, due to its similarities with the hydrogen atom. The thesis focuses on a scenario where a gravitational atom is orbited by a binary companion. The goal is to characterize the dynamics of the system and identify the signatures left by the boson cloud on the gravitational waves emitted by the binary. The predictions can be tested with current and future interferometers, such as LISA, LIGO, DECIGO, Einstein Telescope and TianQin. First, I demonstrate that the cloud catalyzes the binary formation by increasing the dynamical capture cross section. I then introduce and study the ionization of the cloud, wherein the perturbation from the binary unbinds the bosons, analogous to the photoelectric effect in atomic physics. After that, I examine the accretion of the cloud on the companion black hole. To achieve realistic and complete results, I proceed to extend the treatment of ionization, as well as of the orbital resonances discussed in earlier works, to orbits with generic inclination and eccentricity. This allows to study the entire history of the system, from formation to merger. The most distinctive observational signatures of the cloud are found to be the orbital energy lost through ionization and the preference for specific inclinations and eccentricities induced by the orbital resonances.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-17T04:34:59Z</published>
+    <arxiv:comment>PhD thesis, University of Amsterdam, 2024, 186 pages</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <author>
+      <name>Giovanni Maria Tomaselli</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1201.4858v2</id>
+    <title>Millicharged Atomic Dark Matter</title>
+    <updated>2012-06-04T04:24:22Z</updated>
+    <link href="https://arxiv.org/abs/1201.4858v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1201.4858v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a simplified version of the atomic dark matter scenario, in which charged dark constituents are bound into atoms analogous to hydrogen by a massless hidden sector U(1) gauge interaction. Previous studies have assumed that interactions between the dark sector and the standard model are mediated by a second, massive Z' gauge boson, but here we consider the case where only a massless gamma' kinetically mixes with the standard model hypercharge and thereby mediates direct detection. This is therefore the simplest atomic dark matter model that has direct interactions with the standard model, arising from the small electric charge for the dark constituents induced by the kinetic mixing. We map out the parameter space that is consistent with cosmological constraints and direct searches, assuming that some unspecified mechanism creates the asymmetry that gives the right abundance, since the dark matter cannot be a thermal relic in this scenario. In the special case where the dark "electron" and "proton" are degenerate in mass, inelastic hyperfine transitions can explain the CoGeNT excess events. In the more general case, elastic transitions dominate, and can be close to current direct detection limits over a wide range of masses.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-01-23T21:00:01Z</published>
+    <arxiv:comment>5 pages, 2 figures; v2: added references, and formula for dark ionization fraction; published version</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys. Rev. D 85, 101302 (2012)</arxiv:journal_ref>
+    <author>
+      <name>James M. Cline</name>
+    </author>
+    <author>
+      <name>Zuowei Liu</name>
+    </author>
+    <author>
+      <name>Wei Xue</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.85.101302</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.85.101302" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,175 @@
+TERMS: hydrogen, vapor, plasma, probability
+COLORS: purple, green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/z9m0VoKtaFJNVo0XYJ5BcCQfoTo</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:vapor AND all:plasma AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:59:26Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:vapor+AND+(all:plasma+AND+all:probability))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2011.12647v1</id>
+    <title>Processing slightly resolved ro-vibrational spectra during chemical vapor deposition of carbon materials: machine learning approach for plasma thermometry</title>
+    <updated>2020-11-25T11:13:53Z</updated>
+    <link href="https://arxiv.org/abs/2011.12647v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2011.12647v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A fast optical spectroscopic method for determination rotational ($T_{rot}$) and vibrational ($T_{vib}$) temperatures in two-temperature Boltzmann distribution of the excited state by using machine learning approach is presented. The method is applied to estimate molecular gas temperatures in a direct current glow discharge in hydrogen-methane gas mixture during plasma-enhanced chemical vapor deposition of carbon film materials. Slightly resolved ro-vibrational optical emission spectrum of the $C_2$ ($ν'=0 \to ν''=0$) Swan band system was used for local temperature measurements in plasma ball. Random Forest algorithm of machine learning was explored for determination of temperature distribution maps. In addition to the $T_{rot}$ , $T_{vib}$ maps, distribution maps and their gradients for electron temperature ($T_e$) and for the emission intensity of the spectral line 516,5$nm$ corresponding to $C_2$ species is presented and is discussed in detail.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.data-an" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-11-25T11:13:53Z</published>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>R. R. Ismagilov</name>
+    </author>
+    <author>
+      <name>I. P. Kudarenko</name>
+    </author>
+    <author>
+      <name>S. A. Malykhin</name>
+    </author>
+    <author>
+      <name>S. D. Babin</name>
+    </author>
+    <author>
+      <name>A. B. Loginov</name>
+    </author>
+    <author>
+      <name>V. I. Kleshch</name>
+    </author>
+    <author>
+      <name>A. N. Obraztsov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2409.13364v1</id>
+    <title>A patchy CO$_2$ exosphere on Ganymede revealed by the James Webb Space Telescope</title>
+    <updated>2024-09-20T10:00:39Z</updated>
+    <link href="https://arxiv.org/abs/2409.13364v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2409.13364v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Jupiter's icy moon Ganymede has a tenuous exosphere produced by sputtering and possibly sublimation of water ice. To date, only atomic hydrogen and oxygen have been directly detected in this exosphere. Here, we present observations of Ganymede's CO$_2$ exosphere obtained with the James Webb Space Telescope. CO$_2$ gas is observed over different terrain types, mainly over those exposed to intense Jovian plasma irradiation, as well as over some bright or dark terrains. Despite warm surface temperatures, the CO$_2$ abundance over equatorial subsolar regions is low. CO$_2$ vapor has the highest abundance over the north polar cap of the leading hemisphere, reaching a surface pressure of 1 pbar. From modeling we show that the local enhancement observed near 12 h local time in this region can be explained by the presence of cold traps enabling CO$_2$ adsorption. However, whether the release mechanism in this high-latitude region is sputtering or sublimation remains unclear. The north polar cap of the leading hemisphere also has unique surface-ice properties, probably linked to the presence of the large atmospheric CO2 excess over this region. These CO2 molecules might have been initially released in the atmosphere after the radiolysis of CO$_2$ precursors, or from the sputtering of CO$_2$ embedded in the H$_2$O ice bedrock. Dark terrains (regiones), more widespread on the north versus south polar regions, possibly harbor CO$_2$ precursors. CO$_2$ molecules would then be redistributed via cold trapping on ice-rich terrains of the polar cap and be diurnally released and redeposited on these terrains. Ganymede's CO$_2$ exosphere highlights the complexity of surface-atmosphere interactions on Jupiter's icy Galilean moons.</summary>
+    <category term="astro-ph.EP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-09-20T10:00:39Z</published>
+    <arxiv:comment>21 pages, 21 figures, Accepted as a Letter in Astronomy and Astrophysics</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.EP"/>
+    <arxiv:journal_ref>A&amp;A 690, L11 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Dominique Bockelée-Morvan</name>
+      <arxiv:affiliation>LESIA, Observatoire de Paris, Université PSL, Sorbonne Université, Université Paris Cite, CNRS, Meudon, France</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Olivier Poch</name>
+      <arxiv:affiliation>Univ. Grenoble Alpes, CNRS, IPAG, Grenoble, France</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Françcois Leblanc</name>
+      <arxiv:affiliation>LATMOS/CNRS, Sorbonne Université, UVSQ, Paris, France</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Vladimir Zakharov</name>
+      <arxiv:affiliation>LESIA, Observatoire de Paris, Université PSL, Sorbonne Université, Université Paris Cite, CNRS, Meudon, France</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Emmanuel Lellouch</name>
+      <arxiv:affiliation>LESIA, Observatoire de Paris, Université PSL, Sorbonne Université, Université Paris Cite, CNRS, Meudon, France</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Eric Quirico</name>
+      <arxiv:affiliation>Univ. Grenoble Alpes, CNRS, IPAG, Grenoble, France</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Imke de Pater</name>
+      <arxiv:affiliation>Department of Astronomy, University of California, Berkeley, USA</arxiv:affiliation>
+      <arxiv:affiliation>Department of Earth and Planetary Science, University of California, Berkeley, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Thierry Fouchet</name>
+      <arxiv:affiliation>LESIA, Observatoire de Paris, Université PSL, Sorbonne Université, Université Paris Cite, CNRS, Meudon, France</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Pablo Rodriguez-Ovalle</name>
+      <arxiv:affiliation>LESIA, Observatoire de Paris, Université PSL, Sorbonne Université, Université Paris Cite, CNRS, Meudon, France</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Lorenz Roth</name>
+      <arxiv:affiliation>Space and Plasma Physics, KTH Royal Institute of Technology, Stockholm, Sweden</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Frédéric Merlin</name>
+      <arxiv:affiliation>LESIA, Observatoire de Paris, Université PSL, Sorbonne Université, Université Paris Cite, CNRS, Meudon, France</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Stefan Duling</name>
+      <arxiv:affiliation>Institute of Geophysics and Meteorology, University of Cologne, Germany</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Joachim Saur</name>
+      <arxiv:affiliation>Institute of Geophysics and Meteorology, University of Cologne, Germany</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Adrien Masson</name>
+      <arxiv:affiliation>LESIA, Observatoire de Paris, Université PSL, Sorbonne Université, Université Paris Cite, CNRS, Meudon, France</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Patrick Fry</name>
+      <arxiv:affiliation>University of Wisconsin, Madison, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Samantha Trumbo</name>
+      <arxiv:affiliation>Department of Astronomy and Astrophysics, University of California, San Diego, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Michael Brown</name>
+      <arxiv:affiliation>Division of Geological and Planetary Sciences, Caltech, Pasadena, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Richard Cartwright</name>
+      <arxiv:affiliation>Johns Hopkins University Applied Physics Laboratory, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Stéphanie Cazaux</name>
+      <arxiv:affiliation>Faculty of Aerospace Engineering, Delft University of Technology, Delft, The Netherlands</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Katherine de Kleer</name>
+      <arxiv:affiliation>Division of Geological and Planetary Sciences, Caltech, Pasadena, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Leigh N. Fletcher</name>
+      <arxiv:affiliation>School of Physics and Astronomy, University of Leicester, University Road, Leicester, UK</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Zachariah Milby</name>
+      <arxiv:affiliation>Division of Geological and Planetary Sciences, Caltech, Pasadena, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Audrey Moingeon</name>
+      <arxiv:affiliation>Univ. Grenoble Alpes, CNRS, IPAG, Grenoble, France</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Alessandro Mura</name>
+      <arxiv:affiliation>Istituto Nazionale di AstroFisica - Istituto di Astrofisica e Planetologia Spaziali</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Glenn S. Orton</name>
+      <arxiv:affiliation>Jet Propulsion Laboratory, California Institute of Technology, Pasadena, California, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Bernard Schmitt</name>
+      <arxiv:affiliation>Univ. Grenoble Alpes, CNRS, IPAG, Grenoble, France</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Federico Tosi</name>
+      <arxiv:affiliation>Istituto Nazionale di AstroFisica - Istituto di Astrofisica e Planetologia Spaziali</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Michael H. Wong</name>
+      <arxiv:affiliation>Department of Astronomy, University of California, Berkeley, USA</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1051/0004-6361/202451599</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1051/0004-6361/202451599" title="doi"/>
+  </entry>
+</feed>

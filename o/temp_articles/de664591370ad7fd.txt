@@ -1,0 +1,91 @@
+TERMS: lattice, resonance, singularity
+COLORS: orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/jAjQ/LvWd3ESqdTTRr/gWRA1g20</id>
+  <title>arXiv Query: search_query=all:lattice AND all:resonance AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:15:53Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:resonance+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>78</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2210.00375v1</id>
+    <title>Singular states of resonant nanophotonic lattices</title>
+    <updated>2022-10-01T21:11:13Z</updated>
+    <link href="https://arxiv.org/abs/2210.00375v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2210.00375v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Fundamental effects in nanophotonic resonance systems focused on singular states and their properties are presented. Strongly related to lattice geometry and material composition, there appear resonant bright channels and non-resonant dark channels in the spectra. The bright state corresponds to high reflectivity guided-mode resonance (GMR) whereas the dark channel represents a bound state in the continuum (BIC). Even in simple systems, singular states with tunable bandwidth appear as isolated spectral lines that are widely separated from other resonance features. Under moderate lattice modulation, there ensues leaky-band metamorphosis, merging modal bands and resulting in offset dark states and reflective BICs along with transmissive BICs within a high-reflectance wideband. Rytov-type effective medium theory (EMT) is shown to be a powerful means to describe, formulate, and understand the collective GMR/BIC fundamentals in resonant photonic systems. Particularly, the discarded Rytov analytical solution for asymmetric fields is shown here to predict the dark BIC states essentially exactly for considerable modulation levels. The propagation constant of an equivalent EMT homogeneous film provides a quantitative evaluation of the eminent, oft-cited embedded BIC eigenvalue. The work concludes with experimental verification of key effects.</summary>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-10-01T21:11:13Z</published>
+    <arxiv:comment>8 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.optics"/>
+    <author>
+      <name>Y. H. Ko</name>
+    </author>
+    <author>
+      <name>K. J. Lee</name>
+    </author>
+    <author>
+      <name>F. A. Simlan</name>
+    </author>
+    <author>
+      <name>R. Magnusson</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2311.14306v3</id>
+    <title>Roberge-Weiss periodicity and singularity in hadron resonance gas model with excluded volume effects</title>
+    <updated>2024-12-03T10:45:49Z</updated>
+    <link href="https://arxiv.org/abs/2311.14306v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.14306v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Quantum chromodynamics (QCD) with pure imaginary baryon number chemical potential mu =i theta T, where T is temperature and theta is a real number, has the Roberge-Weiss periodicity. We study the theta-dependence of the baryon number density and the pressure in the hadron resonance gas model with excluded volume effects of baryons. It is shown that the baryon number density and the pressure are smooth periodic functions of theta at low or high temperature. However, they have singular behavior at theta =(2k+1)pi where k is an integer, when T sim 211MeV. This temperature is consistent with the Roberge-Weiss transition temperature TRW obtained by lattice QCD simulations. This singularity can be explained by the dual excluded volume effects in which the roles of point-like and non point-like particles are exchanged each other in the ordinary excluded volume effects. It is also indicated that the excluded volume effect is visible just below TRW and is directly detectable by the lattice QCD simulation at finite theta. We compare the results with the one obtained by the Polyakov-loop extended Nambu-Jona-Lasinio model.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-24T06:32:10Z</published>
+    <arxiv:comment>11page, 17figures. (In the revised version, four references and some sentences have been added. In version 3, Fig.1 has been revised. Figs.4-9, 23 and 24 have been added. Some sentences have been added or revised. )</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Riki Oshima</name>
+    </author>
+    <author>
+      <name>Hiroaki Kouno</name>
+    </author>
+    <author>
+      <name>Kouji Kashiwa</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2009.10034v2</id>
+    <title>Decays of an exotic $1^{-+}$ hybrid meson resonance in QCD</title>
+    <updated>2021-03-22T12:28:34Z</updated>
+    <link href="https://arxiv.org/abs/2009.10034v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2009.10034v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present the first determination of the hadronic decays of the lightest exotic $J^{PC}=1^{-+}$ resonance in lattice QCD. Working with SU(3) flavor symmetry, where the up, down and strange quark masses approximately match the physical strange-quark mass giving $m_π\sim 700$ MeV, we compute finite-volume spectra on six lattice volumes which constrain a scattering system featuring eight coupled channels. Analytically continuing the scattering amplitudes into the complex energy plane, we find a pole singularity corresponding to a narrow resonance which shows relatively weak coupling to the open pseudoscalar--pseudoscalar, vector--pseudoscalar and vector--vector decay channels, but large couplings to at least one kinematically-closed axial-vector--pseudoscalar channel. Attempting a simple extrapolation of the couplings to physical light-quark mass suggests a broad $π_1$ resonance decaying dominantly through the $b_1 π$ mode with much smaller decays into $f_1 π$, $ρπ$, $η' π$ and $ηπ$. A large total width is potentially in agreement with the experimental $π_1(1564)$ candidate state, observed in $ηπ$, $η' π$, which we suggest may be heavily suppressed decay channels.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-09-21T17:14:25Z</published>
+    <arxiv:comment>33 pages, 20 figures, small changes to match published version</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>Phys. Rev. D 103, 054502 (2021)</arxiv:journal_ref>
+    <author>
+      <name>Antoni J. Woss</name>
+    </author>
+    <author>
+      <name>Jozef J. Dudek</name>
+    </author>
+    <author>
+      <name>Robert G. Edwards</name>
+    </author>
+    <author>
+      <name>Christopher E. Thomas</name>
+    </author>
+    <author>
+      <name>David J. Wilson</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.103.054502</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.103.054502" title="doi"/>
+  </entry>
+</feed>

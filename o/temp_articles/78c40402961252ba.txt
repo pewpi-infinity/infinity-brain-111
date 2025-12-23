@@ -1,0 +1,84 @@
+TERMS: frequency, oxidation, singularity
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/n4rGhT8YS0D7UmvONHSoeu1px48</id>
+  <title>arXiv Query: search_query=all:frequency AND all:oxidation AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:13:09Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:oxidation+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1907.12200v1</id>
+    <title>Does the boson peak survive in an ultrathin oxide glass?</title>
+    <updated>2019-07-29T03:44:20Z</updated>
+    <link href="https://arxiv.org/abs/1907.12200v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1907.12200v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Bulk glasses exhibit extra vibrational modes at low energies, known as the boson peak. The microscopic dynamics in nanoscale alumina impact the performance of qubits and other superconducting devices, however the existence of the boson peak in these glasses has not been previously measured. Here we report neutron spectroscopy on Al/Al$_2$O$_{3-x}$ nanoparticles consisting of spherical metallic cores from 20 to 1000 nm surrounded by a 3.5 nm thick alumina glass. An intense low-energy peak is observed at $ω_{BP}$ = 2.8 $\pm$ 0.6 meV for highly oxidised particles, concurrent with an excess in the density of states. The intensity of the peak scales inversely with particle size and oxide fraction indicating a surface origin, and is red-shifted by 3 meV with respect to the van-Hove singularity of $γ$-phase Al$_2$O$_{3-x}$ nanocrystals. Molecular dynamics simulations of $α$-Al$_2$O$_{3-x}$, $γ$-Al$_2$O$_{3-x}$ and a-Al$_2$O$_{3-x}$ show that the observed boson peak is a signature of the ultrathin glass surface, and the frequency is softened compared to that of the hypothetical bulk glass.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-07-29T03:44:20Z</published>
+    <arxiv:comment>5 pages, 3 figures [main manuscript] + supplemental</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>Phys. Rev. Research 2, 023320 (2020)</arxiv:journal_ref>
+    <author>
+      <name>D. L. Cortie</name>
+    </author>
+    <author>
+      <name>M. J. Cyster</name>
+    </author>
+    <author>
+      <name>J. S. Smith</name>
+    </author>
+    <author>
+      <name>G. N. Iles</name>
+    </author>
+    <author>
+      <name>X. L. Wang</name>
+    </author>
+    <author>
+      <name>D. R. G. Mitchell</name>
+    </author>
+    <author>
+      <name>R. A. Mole</name>
+    </author>
+    <author>
+      <name>N. de Souza</name>
+    </author>
+    <author>
+      <name>D. Yu</name>
+    </author>
+    <author>
+      <name>J. H. Cole</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevResearch.2.023320</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevResearch.2.023320" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0006104v1</id>
+    <title>Asymptotic Analysis of Diffuse-Layer Effects on Time-Dependent Interfacial Kinetics</title>
+    <updated>2000-06-07T13:24:14Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0006104v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0006104v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We investigate the subtle effects of diffuse charge on interfacial kinetics by solving the governing equations for ion transport (Nernst-Planck) with realistic boundary conditions representing reaction kinetics (Butler-Volmer) and compact-layer capacitance (Stern) in the asymptotic limit $ε= λ_D/L \to 0$, where $λ_D$ is the Debye screening length and $L$ is the distance between the working and counter electrodes. Using the methods of singular perturbation theory, we derive the leading-order steady-state response to a nonzero applied current in the case of the oxidation of a neutral species into cations, without any supporting electrolyte. In certain parameter regimes, the theory predicts a reaction-limited current smaller than the classical diffusion-limited current. We also analyze the impedance of the electrochemical cell when a small AC current modulation is added to an applied DC current. At sufficiently high AC frequencies, the Maxwell displacement current is found to exceed the Faradaic conduction current, and experimentally observed ``negative impedances'' (out of phase AC voltage responses) are predicted close to the reaction-limited current. Overall, we demonstrate that the dynamics of diffuse charge plays a fundamental role in nonequilibrium surface reactions when the transport of one of the reacting species is coupled to the total interfacial reponse of the compact and diffuse layers.</summary>
+    <category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2000-06-07T13:24:14Z</published>
+    <arxiv:comment>22 pages, 8 figs</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.soft"/>
+    <author>
+      <name>A. Bonnefont</name>
+      <arxiv:affiliation>Centre de Recherche Paul Pascal, Bordeaux, France</arxiv:affiliation>
+    </author>
+    <author>
+      <name>F. Argoul</name>
+      <arxiv:affiliation>Centre de Recherche Paul Pascal, Bordeaux, France</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. Z. Bazant</name>
+      <arxiv:affiliation>Department of Mathematics, MIT</arxiv:affiliation>
+    </author>
+  </entry>
+</feed>

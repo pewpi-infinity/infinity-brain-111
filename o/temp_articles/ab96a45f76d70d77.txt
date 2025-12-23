@@ -1,0 +1,83 @@
+TERMS: hydrogen, frequency, spin, muon
+COLORS: purple, green, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/BnoiJwokn0r4xdrqTMyVNNRsttg</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:frequency AND all:spin AND all:muon&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:44:16Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:frequency+AND+(all:spin+AND+all:muon))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2101.09235v1</id>
+    <title>Local Electronic Structure and Dynamics of Muon-Polaron Complexes in Fe$_2$O$_3$</title>
+    <updated>2021-01-22T17:41:44Z</updated>
+    <link href="https://arxiv.org/abs/2101.09235v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2101.09235v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We perform detailed muon spin rotation ($μ$SR) measurements in the classic antiferromagnet Fe$_2$O$_3$ and explain the spectra by considering dynamic population and dissociation of charge-neutral muon-polaron complexes. We show that charge-neutral muon states in Fe$_2$O$_3$, despite lacking the signatures typical of charge-neutral muonium centers in nonmagnetic materials, have a significant impact on the measured $μ$SR frequencies and relaxation rates. Our identification of such polaronic muon centers in Fe$_2$O$_3$ suggests that isolated hydrogen (H) impurities form analogous complexes, and that H interstitials may be a source of charge carrier density in Fe$_2$O$_3$.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-01-22T17:41:44Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 126 037202 (2021)</arxiv:journal_ref>
+    <author>
+      <name>M. H. Dehn</name>
+    </author>
+    <author>
+      <name>J. K. Shenton</name>
+    </author>
+    <author>
+      <name>D. J. Arseneau</name>
+    </author>
+    <author>
+      <name>W. A. MacFarlane</name>
+    </author>
+    <author>
+      <name>G. D. Morris</name>
+    </author>
+    <author>
+      <name>A. Maigné</name>
+    </author>
+    <author>
+      <name>N. A. Spaldin</name>
+    </author>
+    <author>
+      <name>R. F. Kiefl</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.126.037202</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.126.037202" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1311.7153v1</id>
+    <title>Strong Meissner screening change in superconducting radio frequency cavities due to mild baking</title>
+    <updated>2013-11-27T21:02:20Z</updated>
+    <link href="https://arxiv.org/abs/1311.7153v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1311.7153v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate "hot" regions with anomalous high field dissipation in bulk niobium superconducting radio frequency cavities for particle accelerators by using low energy muon spin rotation (LE-$μ$SR) on corresponding cavity cutouts. We demonstrate that superconducting properties at the hot region are well described by the non-local Pippard/BCS model for niobium in the clean limit with a London penetration depth $λ_\mathrm{L} = 23 \pm 2$ nm. In contrast, a cutout sample from the 120$^\circ$C baked cavity shows a much larger $λ&gt; 100$ nm and a depth dependent mean free path, likely due to gradient in vacancy concentration. We suggest that these vacancies can efficiently trap hydrogen and hence prevent the formation of hydrides responsible for rf losses in hot regions.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.acc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-11-27T21:02:20Z</published>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>A. Romanenko</name>
+    </author>
+    <author>
+      <name>A. Grassellino</name>
+    </author>
+    <author>
+      <name>F. Barkov</name>
+    </author>
+    <author>
+      <name>A. Suter</name>
+    </author>
+    <author>
+      <name>Z. Salman</name>
+    </author>
+    <author>
+      <name>T. Prokscha</name>
+    </author>
+    <arxiv:doi>10.1063/1.4866013</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/1.4866013" title="doi"/>
+  </entry>
+</feed>

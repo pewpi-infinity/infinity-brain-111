@@ -1,0 +1,66 @@
+TERMS: spin, tachyon, neutrino
+COLORS: yellow, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/lFgHTgy87wHwRMQHVGuoMi5h18A</id>
+  <title>arXiv Query: search_query=all:spin AND all:tachyon AND all:neutrino&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:32:31Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:spin+AND+(all:tachyon+AND+all:neutrino)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>11</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1111.4441v1</id>
+    <title>Tachyonic Majorana neutrinos or neutrino spin-to-orbital angular momentum conversion in OPERA</title>
+    <updated>2011-11-18T17:53:44Z</updated>
+    <link href="https://arxiv.org/abs/1111.4441v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1111.4441v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The new data release of OPERA - CNGS experiment, obtained with a shorter spill of protons, confirms the tachyionic behavior expected from the phenomenological model of a Majorana neutrino with a fictitious imaginary mass term acquired during the propagation in the Earth's crust, recently presented by us. We performed numerical simulations of neutrino event detections to compare the properties of these Majorana tachyons with the new OPERA results, finding a good agreement. The possibility of spin-to orbital angular momentum conversion that is expected to give a negative squared mass in a medium, is also briefly discussed.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-11-18T17:53:44Z</published>
+    <arxiv:comment>4 pages, two figures</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>M. Laveder</name>
+    </author>
+    <author>
+      <name>F. Tamburini</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-th/0011087v4</id>
+    <title>A new Dirac-type equation for tachyonic neutrinos</title>
+    <updated>2000-12-30T21:54:12Z</updated>
+    <link href="https://arxiv.org/abs/hep-th/0011087v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-th/0011087v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Based on experimental evidences supporting the hypothesis that neutrinos might be tachyonic fermions, a new Dirac-type equation is proposed and a spin-1/2 tachyonic quantum theory is developed. The new Dirac-type equation provides a solution for the puzzle of negative mass-square of neutrinos. This equation can be written in two spinor equations coupled together via nonzero mass while respecting the maximum parity violation, and it reduces to one Weyl equation in the massless limit. Some peculiar features of tachyonic neutrino are discussed in this theoretical framework.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2000-11-10T20:38:55Z</published>
+    <arxiv:comment>Latex, 9 Pages, v2. misprints corrected; v3. a discussion added; v4. an appendix added</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Tsao Chang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2105.03017v3</id>
+    <title>Tachyons with any Spin</title>
+    <updated>2021-12-04T15:26:37Z</updated>
+    <link href="https://arxiv.org/abs/2105.03017v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2105.03017v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In earlier work we showed how to handle the Group Theoretical issue of the Little Group for spin 1/2 tachyons by introducing a special metric in the Hilbert space of one-particle states. Here that technique is extended to tachyons of any spin. Examining the bi-linear algebra of the generating matrices for spin 5/2, we find a complete basis for the Gell-Mann matrices that form the Lie algebra for SU(3). A Dirac-like equation is developed for tachyons of any integer-plus-one-half spin; and it shows multiple distinct mass eigenvalues. The primary model shows a mass spectrum (in the case of j = 5/2) that roughly mimics the known data on masses of the three neutrinos; the model can be tweaked to fit that experimental data precisely.</summary>
+    <category term="physics.gen-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-05-07T00:23:05Z</published>
+    <arxiv:comment>12 pages; some new material beyond v2</arxiv:comment>
+    <arxiv:primary_category term="physics.gen-ph"/>
+    <arxiv:journal_ref>Int. J. Mod. Phys. A Vol. 37 No. 2 (2022) 2250001</arxiv:journal_ref>
+    <author>
+      <name>Charles Schwartz</name>
+    </author>
+    <arxiv:doi>10.1142/S0217751X22500014</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/S0217751X22500014" title="doi"/>
+  </entry>
+</feed>

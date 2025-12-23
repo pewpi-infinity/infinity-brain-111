@@ -1,0 +1,67 @@
+TERMS: lattice, resonance
+COLORS: orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/QsWEGmFrih7BPi1JMplgcwQziWk</id>
+  <title>arXiv Query: search_query=all:lattice AND all:resonance&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T00:57:36Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+all:resonance&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>6091</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1412.0701v1</id>
+    <title>Baryon resonances coupled to Pion-Nucleon states in lattice QCD</title>
+    <updated>2014-12-01T21:45:25Z</updated>
+    <link href="https://arxiv.org/abs/1412.0701v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1412.0701v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In recent years the study of two particle systems on the lattice has led to excellent results in the meson sector of the QCD spectrum, however baryon resonances mostly remain unexplored. We present a study of pion-nucleon systems as decay product of baryon resonances in different channels, with special focus on the nucleon spectrum. We evaluate the correlation functions of single and multi particle interpolators. All the Wick contributions are explicitly computed and the consequences of reduced symmetries in moving frames are taken into account. We discuss the theoretical setup together with results for $n_f=2$ mass degenerate light quarks.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-12-01T21:45:25Z</published>
+    <arxiv:comment>Contribution to the 32nd International Symposium on Lattice Field Theory (Lattice 2014)</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>PoS LATTICE 2014 (2014) 121</arxiv:journal_ref>
+    <author>
+      <name>Valentina Verduci</name>
+    </author>
+    <author>
+      <name>Christian B. Lang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1111.0377v1</id>
+    <title>$ρ$ meson decay width from 2+1 flavor lattice QCD</title>
+    <updated>2011-11-02T03:25:46Z</updated>
+    <link href="https://arxiv.org/abs/1111.0377v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1111.0377v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We perform a lattice QCD study of the $ρ$ meson decay from the $N_f=2+1$ full QCD configurations generated with a renormalization group improved gauge action and a non-perturbatively $O(a)$-improved Wilson fermion action. The resonance parameters, the effective $ρ\toππ$ coupling constant and the resonance mass, are estimated from the $P$-wave scattering phase shift for the isospin I=1 two-pion system. The finite size formulas are employed to calculate the phase shift from the energy on the lattice. Our calculations are carried out at two quark masses, $m_π=410\,{\rm MeV}$ ($m_π/m_ρ=0.46$) and $m_π=300\,{\rm MeV}$ ($m_π/m_ρ=0.35$), on a $32^3\times 64$ ($La=2.9\,{\rm fm}$) lattice at the lattice spacing $a=0.091\,{\rm fm}$. We compare our results at these two quark masses with those given in the previous works using $N_f=2$ full QCD configurations and the experiment.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-11-02T03:25:46Z</published>
+    <arxiv:comment>7 pages, 8 figures, Talk presented at the XXIX International Symposium on Lattice Filed Theory - Lattice 2011, July 10-16, 2011, Squaw Valley, Lake Tahoe, California</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>PoS (Lattice 2011) 125</arxiv:journal_ref>
+    <author>
+      <name>N. Ishizuka</name>
+    </author>
+    <author>
+      <name>for PACS-CS Collaboration</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1211.6163v1</id>
+    <title>Review of lattice studies of resonances</title>
+    <updated>2012-11-26T23:49:57Z</updated>
+    <link href="https://arxiv.org/abs/1211.6163v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1211.6163v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>I review recent progress in extracting resonance parameters using lattice field theory, with an emphasis on determining hadron resonances from lattice quantum chromodynamics. Until recently, the ρ-meson channel was the only one considered, while, during the last year, several resonant channels have been investigated for the first time. Recent lattice results for scattering phase shifts in resonant channels are presented.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-11-26T23:49:57Z</published>
+    <arxiv:comment>16 pages, 19 figures, plenary talk given at the 30th International Symposium on Lattice Field Theory, Cairns, Australia</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Daniel Mohler</name>
+    </author>
+  </entry>
+</feed>

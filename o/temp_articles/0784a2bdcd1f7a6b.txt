@@ -1,0 +1,84 @@
+TERMS: quantum, graphene, plasma
+COLORS: blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/+9MFDg4apWPX69pZOxJpbsxVhE0</id>
+  <title>arXiv Query: search_query=all:quantum AND all:graphene AND all:plasma&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:08:32Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:graphene+AND+all:plasma)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>72</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2304.13440v1</id>
+    <title>Plasma echoes in graphene</title>
+    <updated>2023-04-26T10:50:21Z</updated>
+    <link href="https://arxiv.org/abs/2304.13440v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2304.13440v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Plasma echo is a dramatic manifestation of plasma damping process reversibility. In this paper we calculate temporal and spatial plasma echoes in graphene in the acoustic plasmon regime when echoes dominate over plasmon emission. We show an extremely strong spatial echo response and discuss how electron collisions reduce the echo. We also discuss differences between various electron dispersions, and differences between semiclassical and quantum model of echoes.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-04-26T10:50:21Z</published>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>Marinko Jablan</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.108.085404</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.108.085404" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2012.15148v2</id>
+    <title>Wigner-Weyl description of massless Dirac plasmas</title>
+    <updated>2021-08-25T14:49:00Z</updated>
+    <link href="https://arxiv.org/abs/2012.15148v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2012.15148v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We derive a quantum kinetic model describing the dynamics of graphene electrons in phase space based on the Wigner--Weyl formalism. To take into account the quantum nature of the carriers, we make use of the quantum Liouville equation for the density matrix. By relating the density matrix elements with the Wigner function, the equation of motion for the latter is established, with the Coulomb interaction being introduced self-consistently (i.e., in the Hartree approximation). The long-wavelength limit for the plasmon dispersion relation is obtained, for both ungated and gated situations. As an application, we derive the corresponding fluid equations from first principles and discuss the correct value of the effective hydrodynamic mass of the carriers. This constitutes a crucial point in establishing the appropriate fluid description of Dirac electrons, thus paving the way to a more comprehensive description of graphene plasmonics.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-12-30T13:24:59Z</published>
+    <arxiv:comment>[12 pages] Graphene plasmonics, Wigner-Moyal approach, Dirac plasmas, quantum kinetic equations, plasmonics, quantum hydrodynamics</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>J. L. Figueiredo</name>
+    </author>
+    <author>
+      <name>J. P. S. Bizarro</name>
+    </author>
+    <author>
+      <name>H. Terças</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1201.0592v1</id>
+    <title>Hydrodynamic model for electron-hole plasma in graphene</title>
+    <updated>2012-01-03T08:53:18Z</updated>
+    <link href="https://arxiv.org/abs/1201.0592v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1201.0592v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a hydrodynamic model describing steady-state and dynamic electron and hole transport properties of graphene structures which accounts for the features of the electron and hole spectra. It is intended for electron-hole plasma in graphene characterized by high rate of intercarrier scattering compared to external scattering (on phonons and impurities), i.e., for intrinsic or optically pumped (bipolar plasma), and gated graphene (virtually monopolar plasma). We demonstrate that the effect of strong interaction of electrons and holes on their transport can be treated as a viscous friction between the electron and hole components. We apply the developed model for the calculations of the graphene dc conductivity, in particular, the effect of mutual drag of electrons and holes is described. The spectra and damping of collective excitations in graphene in the bipolar and monopolar limits are found. It is shown that at high gate voltages and, hence, at high electron and low hole densities (or vice-versa), the excitations are associated with the self-consistent electric field and the hydrodynamic pressure (plasma waves). In intrinsic and optically pumped graphene, the waves constitute quasineutral perturbations of the electron and hole densities (electron-hole sound waves) with the velocity being dependent only on the fundamental graphene constants.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-01-03T08:53:18Z</published>
+    <arxiv:comment>11 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>D. Svintsov</name>
+    </author>
+    <author>
+      <name>V. Vyurkov</name>
+    </author>
+    <author>
+      <name>S. Yurchenko</name>
+    </author>
+    <author>
+      <name>T. Otsuji</name>
+    </author>
+    <author>
+      <name>V. Ryzhii</name>
+    </author>
+    <arxiv:doi>10.1063/1.4705382</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/1.4705382" title="doi"/>
+  </entry>
+</feed>

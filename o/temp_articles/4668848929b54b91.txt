@@ -1,0 +1,130 @@
+TERMS: hydrogen, quantum, superconductivity, vacuum
+COLORS: purple, blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/dGDMPppRG9EDQUl89NMArCSkpTI</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:superconductivity AND all:vacuum&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:40:18Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:superconductivity+AND+all:vacuum))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>4</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2306.04112v2</id>
+    <title>Hydrogen crystals reduce dissipation in superconducting resonators</title>
+    <updated>2024-04-06T02:47:57Z</updated>
+    <link href="https://arxiv.org/abs/2306.04112v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.04112v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show that the internal quality factors of high impedance superconducting resonators made of granular aluminum can be improved by coating them with micrometric films of solid para-hydrogen molecular crystals. We attribute the average measured $\approx 8\%$ reduction in dissipation to absorption of stray terahertz radiation at the crystal-resonator interface and the subsequent dissipation of its energy in the form of phonons below the pair-breaking gap. Our results prove that, contrary to expectations, replacing the vacuum dielectric atop a superconducting resonator can be beneficial, thanks to the added protection against Cooper pair-braking terahertz radiation. Moreover, at the level of internal quality factors in the $10^5$ range, the hydrogen crystal does not introduce additional losses, which is promising for embedding impurities to couple to superconducting thin-film devices in hybrid quantum architectures.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-07T02:37:19Z</published>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <arxiv:journal_ref>Phys. Rev. B 109, 054503 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Francesco Valenti</name>
+    </author>
+    <author>
+      <name>Andrew N. Kanagin</name>
+    </author>
+    <author>
+      <name>Andreas Angerer</name>
+    </author>
+    <author>
+      <name>Luiza Buimaga-Iarinca</name>
+    </author>
+    <author>
+      <name>Cristian Morari</name>
+    </author>
+    <author>
+      <name>Jörg Schmiedmayer</name>
+    </author>
+    <author>
+      <name>Ioan M. Pop</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.109.054503</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.109.054503" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.12889v2</id>
+    <title>Reversing Hydrogen-Related Loss in $α$-Ta Thin Films for Quantum Device Fabrication</title>
+    <updated>2025-07-04T11:10:33Z</updated>
+    <link href="https://arxiv.org/abs/2503.12889v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.12889v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>$α$-Tantalum ($α$-Ta) is an emerging material for superconducting qubit fabrication due to the low microwave loss of its stable native oxide. However, hydrogen absorption during fabrication, particularly when removing the native oxide, can degrade performance by increasing microwave loss. In this work, we demonstrate that hydrogen can enter $α$-Ta thin films when exposed to 10 vol% hydrofluoric acid for 3 minutes or longer, leading to an increase in power-independent ohmic loss in high-Q resonators at millikelvin temperatures. Reduced resonator performance is likely caused by the formation of non-superconducting tantalum hydride (TaH$_x$) precipitates. We further show that annealing at 500°C in ultra-high vacuum (10$^{-8}$ Torr) for one hour fully removes hydrogen and restores the resonators' intrinsic quality factors to ~4 million at the single-photon level. These findings identify a previously unreported loss mechanism in $α$-Ta and offer a pathway to reverse hydrogen-induced degradation in quantum devices based on Ta and, by extension also Nb, enabling more robust fabrication processes for superconducting qubits.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-17T07:33:49Z</published>
+    <arxiv:comment>11 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Adv. Sci. 2025, e09244</arxiv:journal_ref>
+    <author>
+      <name>D. P. Lozano</name>
+    </author>
+    <author>
+      <name>M. Mongillo</name>
+    </author>
+    <author>
+      <name>B. Raes</name>
+    </author>
+    <author>
+      <name>Y. Canvel</name>
+    </author>
+    <author>
+      <name>S. Massar</name>
+    </author>
+    <author>
+      <name>A. M. Vadiraj</name>
+    </author>
+    <author>
+      <name>Ts. Ivanov</name>
+    </author>
+    <author>
+      <name>R. Acharya</name>
+    </author>
+    <author>
+      <name>J. Van Damme</name>
+    </author>
+    <author>
+      <name>J. Van de Vondel</name>
+    </author>
+    <author>
+      <name>D. Wan</name>
+    </author>
+    <author>
+      <name>A. Potocnik</name>
+    </author>
+    <author>
+      <name>K. De Greve</name>
+    </author>
+    <arxiv:doi>10.1002/advs.202509244</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1002/advs.202509244" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2010.15295v1</id>
+    <title>Superconducting Niobium Calorimeter for Studies of Adsorbed Helium Monolayers</title>
+    <updated>2020-10-29T00:57:03Z</updated>
+    <link href="https://arxiv.org/abs/2010.15295v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2010.15295v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We developed a calorimeter with a vacuum container made of superconducting niobium (Nb) to study monolayers of helium adsorbed on graphite which are prototypical two-dimensional quantum matters below 1 K. Nb was chosen because of its small specific heat in the superconducting state. It is crucially important to reduce the addendum heat capacity ($C_{\rm{ad}}$) when the specific surface area of substrate is small. Here we show details of design, construction and results of $C_{\rm{ad}}$ measurements of the Nb calorimeter down to 40 mK. The measured $C_{\rm{ad}}$ was sufficiently small so that we can use it for heat capacity measurements on helium monolayers in a wide temperature range below 1 K. We found a relatively large excess heat capacity in $C_{\rm{ad}}$, which was successfully attributed to atomic tunneling of hydrogen (H) and deuterium (D) between trap centers near oxygen or nitrogen impurities in Nb. The tunnel frequencies of H and D deduced by fitting the data to the tunneling model are consistent with the previous experiments on Nb doped with H or D.</summary>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-10-29T00:57:03Z</published>
+    <arxiv:primary_category term="cond-mat.other"/>
+    <author>
+      <name>Jun Usami</name>
+    </author>
+    <author>
+      <name>Koki Tokeshi</name>
+    </author>
+    <author>
+      <name>Tomohiro Matsui</name>
+    </author>
+    <author>
+      <name>Hiroshi Fukuyama</name>
+    </author>
+    <arxiv:doi>10.1007/s10909-020-02558-4</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s10909-020-02558-4" title="doi"/>
+  </entry>
+</feed>

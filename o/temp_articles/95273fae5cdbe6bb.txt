@@ -1,0 +1,100 @@
+TERMS: crystal, neutrino, plasma
+COLORS: orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/r/4S8hLY9KeRrsXZLBB5g8mOw9c</id>
+  <title>arXiv Query: search_query=all:crystal AND all:neutrino AND all:plasma&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:28:36Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:crystal+AND+(all:neutrino+AND+all:plasma)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/astro-ph/0204314v1</id>
+    <title>Stability of the lattice formed in first-order phase transitions to matter containing strangeness in protoneutron stars</title>
+    <updated>2002-04-18T15:08:23Z</updated>
+    <link href="https://arxiv.org/abs/astro-ph/0204314v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/astro-ph/0204314v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Well into the deleptonization phase of a core collapse supernova, a first-order phase transition to matter with macroscopic strangeness content is assumed to occur and lead to a structured lattice defined by negatively charged strange droplets. The lattice is shown to crystallize for expected droplet charges and separations at temperatures typically obtained during the protoneutronstar evolution. The melting curve of the lattice for small spherical droplets is presented. The one-component plasma model proves to be an adequate description for the lattice in its solid phase with deformation modes freezing out around the melting temperature. The mechanical stability against shear stresses is such that velocities predicted for convective phenomena and differential rotation during the Kelvin-Helmholtz cooling phase might prevent the crystallization of the phase transition lattice. A solid lattice might be fractured by transient convection, which could result in anisotropic neutrino transport. The melting curve of the lattice is relevant for the mechanical evolution of the protoneutronstar and therefore should be included in future hydrodynamics simulations.</summary>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-04-18T15:08:23Z</published>
+    <arxiv:comment>accepted for publication in Physical Review D</arxiv:comment>
+    <arxiv:primary_category term="astro-ph"/>
+    <arxiv:journal_ref>Phys.Rev. D65 (2002) 123002</arxiv:journal_ref>
+    <author>
+      <name>J. J. Zach</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.65.123002</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.65.123002" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2304.05043v1</id>
+    <title>ZnO-based scintillating bolometers: New prospects to study double beta decay of $^{64}$Zn</title>
+    <updated>2023-04-11T08:02:12Z</updated>
+    <link href="https://arxiv.org/abs/2304.05043v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2304.05043v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The first detailed study on the performance of a ZnO-based cryogenic scintillating bolometer as a detector to search for rare processes in zinc isotopes was performed. A 7.2 g ZnO low-temperature detector, containing more than 80\% of zinc in its mass, exhibits good energy resolution of baseline noise 1.0--2.7 keV FWHM at various working temperatures resulting in a low-energy threshold for the experiment, 2.0--6.0 keV. The light yield for $β$/$γ$ events was measured as 1.5(3) keV/MeV, while it varies for $α$ particles in the range of 0.2--3.0 keV/MeV. The detector demonstrate an effective identification of the $β$/$γ$ events from $α$ events using time-properties of only heat signals. %(namely, Rise time parameter). The radiopurity of the ZnO crystal was evaluated using the Inductively Coupled Plasma Mass Spectrometry, an ultra-low-background High Purity Ge $γ$-spectrometer, and bolometric measurements. Only limits were set at the level of $\mathcal{O}$(1--100) mBq/kg on activities of \Nuc{K}{40}, \Nuc{Cs}{137} and daughter nuclides from the U/Th natural decay chains. The total internal $α$-activity was calculated to be 22(2) mBq/kg, with a major contribution caused by 6(1) mBq/kg of \Nuc{Th}{232} and 12(2) mBq/kg of \Nuc{U}{234}. Limits on double beta decay (DBD) processes in \Nuc{Zn}{64} and \Nuc{Zn}{70} isotopes were set on the level of $\mathcal{O}(10^{17}$--$10^{18})$ yr for various decay modes profiting from 271 h of acquired background data in the above-ground lab. This study shows a good potential for ZnO-based scintillating bolometers to search for DBD processes of Zn isotopes, especially in \Nuc{Zn}{64}, with the most prominent spectral features at $\sim$10--20 keV, like the two neutrino double electron capture. A 10 kg-scale experiment can reach the experimental sensitivity at the level of $\mathcal{O}(10^{24})$ yr.</summary>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-04-11T08:02:12Z</published>
+    <arxiv:comment>Prepared for submission to JINST; 27 pages, 9 figures, and 7 tables</arxiv:comment>
+    <arxiv:primary_category term="physics.ins-det"/>
+    <author>
+      <name>A. Armatol</name>
+    </author>
+    <author>
+      <name>B. Broerman</name>
+    </author>
+    <author>
+      <name>L. Dumoulin</name>
+    </author>
+    <author>
+      <name>A. Giuliani</name>
+    </author>
+    <author>
+      <name>H. Khalife</name>
+    </author>
+    <author>
+      <name>M. Laubenstein</name>
+    </author>
+    <author>
+      <name>P. Loaiza</name>
+    </author>
+    <author>
+      <name>P. de Marcillac</name>
+    </author>
+    <author>
+      <name>S. Marnieros</name>
+    </author>
+    <author>
+      <name>S. S. Nagorny</name>
+    </author>
+    <author>
+      <name>S. Nisi</name>
+    </author>
+    <author>
+      <name>C. Nones</name>
+    </author>
+    <author>
+      <name>E. Olivieri</name>
+    </author>
+    <author>
+      <name>L. Pagnanini</name>
+    </author>
+    <author>
+      <name>S. Pirro</name>
+    </author>
+    <author>
+      <name>D. V. Poda</name>
+    </author>
+    <author>
+      <name>J. -A. Scarpaci</name>
+    </author>
+    <author>
+      <name>A. S. Zolotarova</name>
+    </author>
+    <arxiv:doi>10.1088/1748-0221/18/06/P06026</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1748-0221/18/06/P06026" title="doi"/>
+  </entry>
+</feed>

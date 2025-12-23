@@ -1,0 +1,82 @@
+TERMS: hydrogen, quantum, resonance, singularity
+COLORS: purple, blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/GRm+3ieb7/Uf1zuOCs/OWRMdED4</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:resonance AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:41:02Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:resonance+AND+all:singularity))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>3</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/quant-ph/0607113v1</id>
+    <title>The Role of Resonances in the Stochastic Limit</title>
+    <updated>2006-07-17T17:55:05Z</updated>
+    <link href="https://arxiv.org/abs/quant-ph/0607113v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/quant-ph/0607113v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In the stochastic limit the resonances play a fundamental role because they determine the generalized susceptivities which are the building blocks of all the physical information which survives in this limit. There are two sources of possible divergences: one related to the singularities of the form factor; another to the chaoticity of the spectrum. The situation will be illustrated starting from the example of the discrete part of the hydrogen atom in interaction with the electromagnetic field.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-07-17T17:55:05Z</published>
+    <arxiv:comment>20 pages</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>F. Gomez</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2106.14394v4</id>
+    <title>Resonant multigap superconductivity at room temperature near a Lifshitz topological transition in sulfur hydrides</title>
+    <updated>2021-11-09T19:11:10Z</updated>
+    <link href="https://arxiv.org/abs/2106.14394v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2106.14394v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The maximum critical temperature for superconductivity in pressurized hydrides appears at the top of superconducting domes in Tc versus pressure curves at a particular pressure, which is not predicted by standard superconductivity theories. The a high-order anisotropic van Hove singularity near the Fermi level observed in band structure calculations of pressurized sulfur hydride, typical of a supermetal, has been associated with the array of metallic hydrogen wires modules forming a nanoscale heterostructure at atomic limit called superstripes phase. Here we propose that pressurized sulfur hydrides behave as a heterostructure made of a nanoscale superlattice of interacting quantum wires with a multicomponent electronic structure. We present first-principles quantum calculation of a universal superconducting dome where Tc amplification in multi-gap superconductivity is driven by the Fano-Feshbach resonance due to configuration interaction between open and closed pairing channels, i.e., between multiple gaps in the BCS regime, resonating with a single gap in the BCS-BEC crossover regime. In the proposed three dimensional (3D) phase diagram the critical temperature shows a superconducting dome where Tc is a function of two variables (i) the Lifshitz parameter ($η$) measuring the separation of the chemical potential from the Lifshitz transition normalized by the inter-wires coupling and (ii) the effective electron phonon coupling (g) in the appearing new Fermi surface including phonon softening. The results will be of help for material design of room temperature superconductors at ambient pressure.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-06-28T04:55:48Z</published>
+    <arxiv:comment>13 pages, 11 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <arxiv:journal_ref>Journal of Applied Physics, 130, 173904 (2021)</arxiv:journal_ref>
+    <author>
+      <name>Maria Vittoria Mazziotti</name>
+    </author>
+    <author>
+      <name>Roberto Raimondi</name>
+    </author>
+    <author>
+      <name>Antonio Valletta</name>
+    </author>
+    <author>
+      <name>Gaetano Campi</name>
+    </author>
+    <author>
+      <name>Antonio Bianconi</name>
+    </author>
+    <arxiv:doi>10.1063/5.0070875</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/5.0070875" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1407.6262v2</id>
+    <title>Resolving single molecule structures with nitrogen-vacancy centers in diamond</title>
+    <updated>2024-10-30T16:17:49Z</updated>
+    <link href="https://arxiv.org/abs/1407.6262v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1407.6262v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present theoretical proposals for two-dimensional nuclear magnetic resonance spectroscopy protocols based on Nitrogen-vacancy (NV) centers in diamond that are strongly coupled to the target nuclei. Continuous microwave and radio-frequency driving fields together with magnetic field gradients achieve Hartmann-Hahn resonances between NV spin sensor and selected nuclei for control of nuclear spins and subsequent measurement of their polarization dynamics. The strong coupling between the NV sensor and the nuclei facilitates coherence control of nuclear spins and relaxes the requirement of nuclear spin polarization to achieve strong signals and therefore reduced measurement times. Additionally, we employ a singular value thresholding matrix completion algorithm to further reduce the amount of data required to permit the identification of key features in the spectra of strongly sub-sampled data. We illustrate the potential of this combined approach by applying the protocol to a shallowly implanted NV center addressing a small amino acid, alanine, to target specific hydrogen nuclei and to identify the corresponding peaks in their spectra.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-07-23T15:27:52Z</published>
+    <arxiv:comment>7 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Scientific Reports 5, 11007 (2015)</arxiv:journal_ref>
+    <author>
+      <name>Matthias Kost</name>
+    </author>
+    <author>
+      <name>Jianming Cai</name>
+    </author>
+    <author>
+      <name>Martin B. Plenio</name>
+    </author>
+    <arxiv:doi>10.1038/srep11007</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/srep11007" title="doi"/>
+  </entry>
+</feed>

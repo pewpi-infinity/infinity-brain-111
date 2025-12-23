@@ -1,0 +1,74 @@
+TERMS: electron, probability
+COLORS: green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/5fhsX/ARCYFa2BH4PL+qNqlS6yw</id>
+  <title>arXiv Query: search_query=all:electron AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T00:58:44Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:electron+AND+all:probability&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>5339</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1102.0217v4</id>
+    <title>The Seneta--Heyde scaling for the branching random walk</title>
+    <updated>2014-04-04T12:50:22Z</updated>
+    <link href="https://arxiv.org/abs/1102.0217v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1102.0217v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the boundary case (in the sense of Biggins and Kyprianou [Electron. J. Probab. 10 (2005) 609--631] in a one-dimensional super-critical branching random walk, and study the additive martingale $(W_n)$. We prove that, upon the system's survival, $n^{1/2}W_n$ converges in probability, but not almost surely, to a positive limit. The limit is identified as a constant multiple of the almost sure limit, discovered by Biggins and Kyprianou [Adv. in Appl. Probab. 36 (2004) 544--581], of the derivative martingale.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-02-01T17:02:48Z</published>
+    <arxiv:comment>Published in at http://dx.doi.org/10.1214/12-AOP809 the Annals of Probability (http://www.imstat.org/aop/) by the Institute of Mathematical Statistics (http://www.imstat.org)</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <arxiv:journal_ref>Annals of Probability 2014, Vol. 42, No. 3, 959-993</arxiv:journal_ref>
+    <author>
+      <name>Elie Aidekon</name>
+    </author>
+    <author>
+      <name>Zhan Shi</name>
+    </author>
+    <arxiv:doi>10.1214/12-AOP809</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1214/12-AOP809" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.01600v2</id>
+    <title>On the return probability of the simple random walk on Galton-Watson trees</title>
+    <updated>2025-01-03T11:46:10Z</updated>
+    <link href="https://arxiv.org/abs/2402.01600v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.01600v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the simple random walk on Galton-Watson trees with supercritical offspring distribution, conditioned on non-extinction. In case the offspring distribution has finite support, we prove an upper bound for the annealed return probability to the root which decays subexponentially in time with exponent 1/3. This exponent is optimal. Our result improves the previously known subexponential upper bound with exponent 1/5 by Piau [Ann. Probab. 26, 1016-1040 (1998)]. For offspring distributions with unbounded support but sufficiently fast decay, our method also yields improved subexponential upper bounds.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-02T17:55:47Z</published>
+    <arxiv:comment>23 pages. To appear in Electron. J. Probab. Changes in v2: Theorem 1.3 strengthened due to an improvement in Lemma 3.6</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <arxiv:journal_ref>Electron. J. Probab. 30, 10 (2025), 23 pages</arxiv:journal_ref>
+    <author>
+      <name>Peter Müller</name>
+    </author>
+    <author>
+      <name>Jakob Stern</name>
+    </author>
+    <arxiv:doi>10.1214/25-EJP1266</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1214/25-EJP1266" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0607124v1</id>
+    <title>Biased random-to-top shuffling</title>
+    <updated>2006-07-05T12:47:50Z</updated>
+    <link href="https://arxiv.org/abs/math/0607124v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0607124v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Recently Wilson [Ann. Appl. Probab. 14 (2004) 274--325] introduced an important new technique for lower bounding the mixing time of a Markov chain. In this paper we extend Wilson's technique to find lower bounds of the correct order for card shuffling Markov chains where at each time step a random card is picked and put at the top of the deck. Two classes of such shuffles are addressed, one where the probability that a given card is picked at a given time step depends on its identity, the so-called move-to-front scheme, and one where it depends on its position. For the move-to-front scheme, a test function that is a combination of several different eigenvectors of the transition matrix is used. A general method for finding and using such a test function, under a natural negative dependence condition, is introduced. It is shown that the correct order of the mixing time is given by the biased coupon collector's problem corresponding to the move-to-front scheme at hand. For the second class, a version of Wilson's technique for complex-valued eigenvalues/eigenvectors is used. Such variants were presented in [Random Walks and Geometry (2004) 515--532] and [Electron. Comm. Probab. 8 (2003) 77--85]. Here we present another such variant which seems to be the most natural one for this particular class of problems. To find the eigenvalues for the general case of the second class of problems is difficult, so we restrict attention to two special cases. In the first case the card that is moved to the top is picked uniformly at random from the bottom $k=k(n)=o(n)$ cards, and we find the lower bound $(n^3/(4π^2k(k-1)))\log n$. Via a coupling, an upper bound exceeding this by only a factor 4 is found. This generalizes Wilson's [Electron. Comm. Probab. 8 (2003) 77--85] result on the Rudvalis shuffle and Goel's [Ann. Appl. Probab. 16 (2006) 30--55] result on top-to-bottom shuffles. In the second case the card moved to the top is, with probability 1/2, the bottom card and with probability 1/2, the card at position $n-k$. Here the lower bound is again of order $(n^3/k^2)\log n$, but in this case this does not seem to be tight unless $k=O(1)$. What the correct order of mixing is in this case is an open question. We show that when $k=n/2$, it is at least $Θ(n^2)$.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-07-05T12:47:50Z</published>
+    <arxiv:comment>Published at http://dx.doi.org/10.1214/10505160600000097 in the Annals of Applied Probability (http://www.imstat.org/aap/) by the Institute of Mathematical Statistics (http://www.imstat.org)</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <arxiv:journal_ref>Annals of Applied Probability 2006, Vol. 16, No. 2, 1034-1058</arxiv:journal_ref>
+    <author>
+      <name>Johan Jonasson</name>
+    </author>
+    <arxiv:doi>10.1214/10505160600000097</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1214/10505160600000097" title="doi"/>
+  </entry>
+</feed>

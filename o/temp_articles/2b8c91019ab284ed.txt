@@ -1,0 +1,73 @@
+TERMS: quantum, crystal, singularity
+COLORS: blue, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/A3P8uI5CQOE2KyA9QM9DsjJYHKE</id>
+  <title>arXiv Query: search_query=all:quantum AND all:crystal AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:07:33Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:crystal+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>153</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1712.05588v3</id>
+    <title>Dynamical quantum phase transitions in discrete time crystals</title>
+    <updated>2018-05-30T07:12:57Z</updated>
+    <link href="https://arxiv.org/abs/1712.05588v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1712.05588v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Discrete time crystals are related to non-equilibrium dynamics of periodically driven quantum many-body systems where the discrete time translation symmetry of the Hamiltonian is spontaneously broken into another discrete symmetry. Recently, the concept of phase transitions has been extended to non-equilibrium dynamics of time-independent systems induced by a quantum quench, i.e. a sudden change of some parameter of the Hamiltonian. There, the return probability of a system to the ground state reveals singularities in time which are dubbed dynamical quantum phase transitions. We show that the quantum quench in a discrete time crystal leads to dynamical quantum phase transitions where the return probability of a periodically driven system to a Floquet eigenstate before the quench reveals singularities in time. It indicates that dynamical quantum phase transitions are not restricted to time-independent systems and can be also observed in systems that are periodically driven. We discuss how the phenomenon can be observed in ultra-cold atomic gases.</summary>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-12-15T09:22:57Z</published>
+    <arxiv:comment>version accepted for publication in Physical Review A (9 pages, 3 figs)</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.quant-gas"/>
+    <arxiv:journal_ref>Phys. Rev. A 97, 053621 (2018)</arxiv:journal_ref>
+    <author>
+      <name>Arkadiusz Kosior</name>
+    </author>
+    <author>
+      <name>Krzysztof Sacha</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.97.053621</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.97.053621" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1105.0166v2</id>
+    <title>Quantum extended crystal PDE's</title>
+    <updated>2011-05-16T14:09:07Z</updated>
+    <link href="https://arxiv.org/abs/1105.0166v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1105.0166v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Our recent results on {\em extended crystal PDE's} are generalized to PDE's in the category $\mathfrak{Q}_S$ of quantum supermanifolds. Then obstructions to the existence of global quantum smooth solutions for such equations are obtained, by using algebraic topologic techniques. Applications are considered in details to the quantum super Yang-Mills equations. Furthermore, our geometric theory of stability of PDE's and their solutions, is also generalized to quantum extended crystal PDE's. In this way we are able to identify quantum equations where their global solutions are stable at finite times. These results, are also extended to quantum singular (super)PDE's, introducing ({\em quantum extended crystal singular (super) PDE's}).</summary>
+    <category term="math.GM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-05-01T12:59:06Z</published>
+    <arxiv:comment>43 pages, 1 figure</arxiv:comment>
+    <arxiv:primary_category term="math.GM"/>
+    <arxiv:journal_ref>Nonlinear Studies 18(3)(2011), 1-39</arxiv:journal_ref>
+    <author>
+      <name>Agostino Prástaro</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1810.08155v1</id>
+    <title>Anisotropic quantum emitter interactions in two-dimensional photonic-crystal baths</title>
+    <updated>2018-10-18T16:46:52Z</updated>
+    <link href="https://arxiv.org/abs/1810.08155v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1810.08155v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Quantum emitters interacting with two-dimensional photonic-crystal baths experience strong and anisotropic collective dissipation when they are spectrally tuned to 2D Van-Hove singularities. In this work, we show how to turn this dissipation into coherent dipole-dipole interactions with tuneable range by breaking the lattice degeneracy at the Van-Hove point with a superlattice geometry. Using a coupled-mode description, we show that the origin of these interactions stems from the emergence of a qubit-photon bound state which inherits the anisotropic properties of the original dissipation, and whose spatial decay can be tuned via the superlattice parameters or the detuning of the optical transition respect to the band-edges. Within that picture, we also calculate the emitter induced dynamics in an exact manner, bounding the parameter regimes where the dynamics lies within a Markovian description. As an application, we develop a four-qubit entanglement protocol exploiting the shape of the interactions. Finally, we provide a proof-of-principle example of a photonic crystal where such interactions can be obtained.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-10-18T16:46:52Z</published>
+    <arxiv:comment>12 pages, 8 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>A. González-Tudela</name>
+    </author>
+    <author>
+      <name>F. Galve</name>
+    </author>
+  </entry>
+</feed>

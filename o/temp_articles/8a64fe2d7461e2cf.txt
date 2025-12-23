@@ -1,0 +1,45 @@
+TERMS: vapor, crystal, wavefunction
+COLORS: green, orange, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/RpeuvdkQVBVUwGPZIHTKOmu81Yk</id>
+  <title>arXiv Query: search_query=all:vapor AND all:crystal AND all:wavefunction&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:25:05Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:vapor+AND+(all:crystal+AND+all:wavefunction)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2504.06262v1</id>
+    <title>Paraxial fluids of light</title>
+    <updated>2025-04-08T17:59:42Z</updated>
+    <link href="https://arxiv.org/abs/2504.06262v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.06262v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Paraxial fluids of light are a promising platform for exploring collective phenomena in a highly tunable environment. These systems, which map the propagation of light through nonlinear media onto the wavefunction of effective 2D quantum fluids, offer a complementary approach to traditional platforms such as cold atomic gases or superfluid helium. In this review, we present a detailed overview of the theoretical framework underlying paraxial fluids of light, including the nonlinear Schrödinger equation (NLSE) and its mapping to the 2D+1 Gross-Pitaevskii equation (GPE). We explore the hydrodynamic formulation of these systems and we provide a comparative analysis of fluids of light and cold atomic gases, examining key parameters and figures of merit.
+  We then review the recent experimental advances and the experimental platforms currently used to realize paraxial fluids of light, including hot atomic vapors, photorefractive crystals, and thermo-optic media. Additionally, we question the geometry of the system extending the analogy from 2D+1 to lower or higher dimensions.
+  Looking forward, we outline the potential future directions for the field, including the use of laser cooled atoms as nonlinear media, the study of two-component mixtures, and the exploration of quantum effects beyond the mean-field approximation. These developments promise to deepen our understanding of quantum fluids and potentially contribute to advances in quantum technologies.</summary>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-08T17:59:42Z</published>
+    <arxiv:primary_category term="cond-mat.quant-gas"/>
+    <arxiv:journal_ref>Advances In Atomic, Molecular, and Optical Physics Volume 74, 2025, Pages 157-241</arxiv:journal_ref>
+    <author>
+      <name>Quentin Glorieux</name>
+    </author>
+    <author>
+      <name>Clara Piekarski</name>
+    </author>
+    <author>
+      <name>Quentin Schibler</name>
+    </author>
+    <author>
+      <name>Tangui Aladjidi</name>
+    </author>
+    <author>
+      <name>Myrann Baker-Rasooli</name>
+    </author>
+    <arxiv:doi>10.1016/bs.aamop.2025.04.002</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/bs.aamop.2025.04.002" title="doi"/>
+  </entry>
+</feed>

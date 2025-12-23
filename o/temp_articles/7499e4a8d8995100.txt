@@ -1,0 +1,87 @@
+TERMS: electron, muon, probability
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/lIkTyGUzPLelkvkgMPlDHgUxCEQ</id>
+  <title>arXiv Query: search_query=all:electron AND all:muon AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:24:34Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:electron+AND+(all:muon+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>136</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/0902.0985v2</id>
+    <title>Electrons from Muon Decay in Bound State</title>
+    <updated>2009-02-12T15:46:55Z</updated>
+    <link href="https://arxiv.org/abs/0902.0985v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0902.0985v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We present results of a study of the muon decay in orbit (DIO) contribution to the signal region of muon - electron conversion. Electrons from DIO are the dominant source of background for muon - electron conversion experiments because the endpoint of DIO electrons is the same as the energy of electrons from elastic muon - electron conversion.
+  The probability of DIO contribution to the signal region was considered for a tracker with Gaussian resolution function and with a realistic resolution function obtained in the application of pattern recognition and momentum reconstruction Kalman filter based procedure to GEANT simulated DIO events. It is found that the existence of non Gaussian tails in the realistic resolution function does not lead to a significant increase in DIO contribution to the signal region.
+  The probability of DIO contribution to the calorimeter signal was studied in dependence on the resolution, assuming a Gaussian resolution function of calorimeter. In this study the geometrical acceptance played an important role, suppressing DIO contribution of the intermediate range electrons from muon decay in orbit.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-02-05T21:40:24Z</published>
+    <arxiv:comment>20 pages, 13 figures a top margin was fixed, the muon lifetime was updated and a reference was added, a phrase was added to clarify one of references</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Rashid M. Djilkibaev</name>
+    </author>
+    <author>
+      <name>Rostislav V. Konoplich</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2005.07276v1</id>
+    <title>Decay of a bound muon into a bound electron</title>
+    <updated>2020-05-14T21:39:14Z</updated>
+    <link href="https://arxiv.org/abs/2005.07276v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2005.07276v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>When a muon bound in an atom decays, there is a small probability that the daughter electron remains bound. That probability is evaluated. Surprisingly, a significant part of the rate is contributed by the negative energy component of the wave function, neglected in a previous study. A simple integral representation of the rate is presented. In the limit of close muon and electron masses, an analytic formula is derived.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-05-14T21:39:14Z</published>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys. Rev. D 102, 073001 (2020)</arxiv:journal_ref>
+    <author>
+      <name>M. Jamil Aslam</name>
+    </author>
+    <author>
+      <name>Andrzej Czarnecki</name>
+    </author>
+    <author>
+      <name>Guangpeng Zhang</name>
+    </author>
+    <author>
+      <name>Anna Morozova</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.102.073001</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.102.073001" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ex/0412059v2</id>
+    <title>A Theory of Pattern Recognition for the Discrimination between Muon and Electron in the Super-Kamiokande</title>
+    <updated>2007-03-29T09:13:28Z</updated>
+    <link href="https://arxiv.org/abs/hep-ex/0412059v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ex/0412059v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The standard Super-Kamiokande analysis uses an estimator for particle identification by which it discriminates electrons (electron nutrinos) from muons (muon nutrinos). Use of this estimator has led to the claim of a significant deficiency of muons (muon nutrinos), suggesting the existence of neutrino oscillations. We investigate three areas of concern for the Super-Kamiokande estimator: the separation of the spatial part from the angular part in the probability functions, the neglect of fluctuations in the Cherenkov light in different physical processes due to the charged particles concerned, and the point-like approximation for the emission of Cherenkov light. We show that the first two factors are important for the consideration of stochastic processes in the generation of the Cherenkov light, and that the point-like assumption oversimplifies the estimation of the Cherenkov light quantities. We develop a new discrimination procedure for separating electron neutrinos from muon neutrinos, based on detailed simulations carried out with GEANT~3.21 and with newly derived mean angular distribution functions for the charged particles concerned (muons and electrons/positrons), as well as the corresponding functions for the relative fluctuations. These angular distribution functions are constructed introducing a ``moving point'' approximation. The application of our procedure between the discrimination between electron and muon to the analysis of the experimental data in SK will be made in a subsequent paper.</summary>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-12-21T07:37:35Z</published>
+    <arxiv:comment>16 pages,26 figures, latex</arxiv:comment>
+    <arxiv:primary_category term="hep-ex"/>
+    <author>
+      <name>V. I. Galkin</name>
+      <arxiv:affiliation>Department of Physics, Moscow State University, Moscow, Russia</arxiv:affiliation>
+    </author>
+    <author>
+      <name>A. M. Anokhina</name>
+      <arxiv:affiliation>Department of Physics, Moscow State University, Moscow, Russia</arxiv:affiliation>
+    </author>
+    <author>
+      <name>E. Konishi</name>
+      <arxiv:affiliation>Graduated School of Science and Technology, Hirosaki University, Hirosaki, Japan</arxiv:affiliation>
+    </author>
+    <author>
+      <name>A. Misaki</name>
+      <arxiv:affiliation>Advanced Research Institute for Science and Engineering, Waseda University, Tokyo, Japan</arxiv:affiliation>
+    </author>
+  </entry>
+</feed>

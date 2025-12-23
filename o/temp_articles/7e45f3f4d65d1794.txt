@@ -1,0 +1,99 @@
+TERMS: vapor, spin, wavefunction
+COLORS: green, yellow, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/s3bEfrKzR4FT/lbxsdc4DBcUVXs</id>
+  <title>arXiv Query: search_query=all:vapor AND all:spin AND all:wavefunction&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:25:45Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:vapor+AND+(all:spin+AND+all:wavefunction)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>3</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2306.04052v2</id>
+    <title>Nuclear Spin-Depleted, Isotopically Enriched 70Ge/28Si70Ge Quantum Wells</title>
+    <updated>2023-06-08T03:46:10Z</updated>
+    <link href="https://arxiv.org/abs/2306.04052v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.04052v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The p-symmetry of the hole wavefunction is associated with a weaker hyperfine interaction as compared to electrons, thus making hole spin qubits attractive candidates to implement long coherence quantum processors. However, recent studies demonstrated that hole qubits in planar germanium (Ge) heterostructures are still very sensitive to nuclear spin bath. These observations highlight the need to develop nuclear spin-free Ge qubits to suppress this decoherence channel and evaluate its impact. With this perspective, this work demonstrates the epitaxial growth of $^\text{73}$Ge-depleted isotopically enriched $^\text{70}$Ge/SiGe quantum wells. The growth was achieved by reduced pressure chemical vapor deposition using isotopically purified monogermane $^\text{70}$GeH$_\text{4}$ and monosilane $^\text{28}$SiH$_\text{4}$ with an isotopic purity higher than 99.9 $\%$ and 99.99 $\%$, respectively. The quantum wells consist of a series of $^\text{70}$Ge/SiGe heterostructures grown on Si wafers using a Ge virtual substrate and a graded SiGe buffer layer. The isotopic purity is investigated using atom probe tomography following an analytical procedure addressing the discrepancies in the isotopic content caused by the overlap of isotope peaks in mass spectra. The nuclear spin background in the quantum wells was found to be sensitive to the growth conditions. The lowest concentration of nuclear spin-full isotopes $^\text{73}$Ge and $^\text{29}$Si in the heterostructure was established at 0.01 $\%$ in the Ge quantum well and SiGe barriers. The measured average distance between nuclear spins reaches 3-4 nm in $^\text{70}$Ge/$^\text{28}$Si$^\text{70}$Ge, which is an order of magnitude larger than in natural Ge/SiGe heterostructures.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-06T22:53:30Z</published>
+    <arxiv:comment>9 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>O. Moutanabbir</name>
+    </author>
+    <author>
+      <name>S. Assali</name>
+    </author>
+    <author>
+      <name>A. Attiaoui</name>
+    </author>
+    <author>
+      <name>G. Daligou</name>
+    </author>
+    <author>
+      <name>P. Daoust</name>
+    </author>
+    <author>
+      <name>P. Del Vecchio</name>
+    </author>
+    <author>
+      <name>S. Koelling</name>
+    </author>
+    <author>
+      <name>L. Luo</name>
+    </author>
+    <author>
+      <name>N. Rotaru</name>
+    </author>
+    <arxiv:doi>10.1002/adma.202305703</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1002/adma.202305703" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2212.12068v1</id>
+    <title>Nonlocal transport signatures of Andreev bound states</title>
+    <updated>2022-12-22T22:57:07Z</updated>
+    <link href="https://arxiv.org/abs/2212.12068v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2212.12068v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this PhD thesis, quantum devices based on molecular-beam epitaxy grown InAs semiconductor with an in-situ grown epitaxial Al film were investigated. Novel device geometries were realized that allow for the study of bound states that emerge at low temperatures in semiconducting nanowires due to the presence of spin-orbit coupling, Zeeman effect, and superconducting proximity effect. Experiments utilizing either gate-defined nanowires in two-dimensional heterostructures or vapor-liquid-solid grown nanowires with a full-shell of Al are presented. Devices and experimental methods were developed that allow for tunneling spectroscopy at multiple locations of a nanowire. Results of nonlocal conductance transport measurements of Andreev bound states are discussed. Due to their extended wavefunction, bound states that are locally hybridized with a quantum dot show characteristic signatures in tunneling spectroscopy at neighboring measurement locations. If the distance between neighboring tunneling measurement locations is larger than 0.8 $\mathrm{μm}$ no signatures of extended bound states was observed.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-12-22T22:57:07Z</published>
+    <arxiv:comment>PhD thesis supervised by Prof. Charles M. Marcus at the Niels Bohr Institute, Faculty of Science, University of Copenhagen</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>Andreas Pöschl</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1503.04664v3</id>
+    <title>Intertwined orders from symmetry projected wavefunctions of repulsively interacting Fermi gases in optical lattices</title>
+    <updated>2015-10-18T09:16:49Z</updated>
+    <link href="https://arxiv.org/abs/1503.04664v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1503.04664v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Unconventional strongly correlated phases of the repulsive Fermi-Hubbard model, which could be emulated by ultracold vapors loaded in optical lattices, are investigated by means of energy minimizations with quantum number projection before variation and without any assumed order parameter. In a tube-like geometry of optical plaquettes to realize the four-leg ladder Hubbard Hamiltonian, we highlight the intertwining of spin-, charge-, and pair-density waves embedded in a uniform d-wave superfluid background. As the lattice filling increases, this phase emerges from homogenous states exhibiting spiral magnetism and evolves towards a doped antiferromagnet. A concomitant enhancement of long-ranged d-wave pairing correlations is also found. Numerical tests of the approach for two-dimensional clusters are carried out, too.</summary>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-03-16T14:22:02Z</published>
+    <arxiv:comment>26 pages, 15 figures ; replaced with the published manuscript ; substantial changes from previous version</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.quant-gas"/>
+    <arxiv:journal_ref>New J. Phys. 17 (2015) 103023</arxiv:journal_ref>
+    <author>
+      <name>A. Leprévost</name>
+    </author>
+    <author>
+      <name>O. Juillet</name>
+    </author>
+    <author>
+      <name>R. Frésard</name>
+    </author>
+    <arxiv:doi>10.1088/1367-2630/17/10/103023</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1367-2630/17/10/103023" title="doi"/>
+  </entry>
+</feed>

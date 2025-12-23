@@ -1,0 +1,58 @@
+TERMS: fusion, crystal, ionization
+COLORS: green, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/p2Z49caFVlKmFs0LWPbQwSXZ2aM</id>
+  <title>arXiv Query: search_query=all:fusion AND all:crystal AND all:ionization&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:20:19Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:fusion+AND+(all:crystal+AND+all:ionization)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2105.05707v1</id>
+    <title>The ionization of carbon at 10-100 times the diamond density and in the 10$^6$ K temperature range</title>
+    <updated>2021-05-12T14:48:22Z</updated>
+    <link href="https://arxiv.org/abs/2105.05707v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2105.05707v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The behaviour of partially ionized hot compressed matter is critical to the study of planetary interiors as well as for nuclear fusion studies. A recent quantum study of carbon in the 10-70 Gbar range and at a temperature of 100 eV used $N$-atom density functional theory (DFT) with $N\sim 32$-64 and molecular dynamics (MD). This involves band-structure type electronic calculations and averaging over many MD generated ion configurations. The calculated average number of free electrons per ion, viz., $\bar{Z}$, was systematically higher than from a standard average atom (AA) quantum calculation. To clarify this offset, we examine (a) the effect of the self-interaction (SI) error in such estimates (b) the possibility of carbon being a granular plasma containing Coulomb crystals. The possibility of `magic-number' bound states is considered. The electrical conductivity, pressure, and the compressibility of the carbon system are examined. The very low conductivity and the high $\bar{Z}$ results of DFT-MD point to the existence of carbon in a complex non-uniform low-conducting dispersed phase, possibly containing magic-number Coulomb crystals. The NPA estimate of $\bar{Z}$, conductivity, compressibility, and pressure reported here pertain to the {\it uniform liquid}.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-05-12T14:48:22Z</published>
+    <arxiv:comment>9 pages, four figures</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <arxiv:journal_ref>Phys. Rev. E 104, 015201 (2021)</arxiv:journal_ref>
+    <author>
+      <name>M. W. C. Dharma-wardana</name>
+      <arxiv:affiliation>NRC-Canada</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1103/PhysRevE.104.015201</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevE.104.015201" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2411.08414v1</id>
+    <title>Material Property Prediction with Element Attribute Knowledge Graphs and Multimodal Representation Learning</title>
+    <updated>2024-11-13T08:07:21Z</updated>
+    <link href="https://arxiv.org/abs/2411.08414v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.08414v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Machine learning has become a crucial tool for predicting the properties of crystalline materials. However, existing methods primarily represent material information by constructing multi-edge graphs of crystal structures, often overlooking the chemical and physical properties of elements (such as atomic radius, electronegativity, melting point, and ionization energy), which have a significant impact on material performance. To address this limitation, we first constructed an element property knowledge graph and utilized an embedding model to encode the element attributes within the knowledge graph. Furthermore, we propose a multimodal fusion framework, ESNet, which integrates element property features with crystal structure features to generate joint multimodal representations. This provides a more comprehensive perspective for predicting the performance of crystalline materials, enabling the model to consider both microstructural composition and chemical characteristics of the materials. We conducted experiments on the Materials Project benchmark dataset, which showed leading performance in the bandgap prediction task and achieved results on a par with existing benchmarks in the formation energy prediction task.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-13T08:07:21Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Chao Huang</name>
+    </author>
+    <author>
+      <name>Chunyan Chen</name>
+    </author>
+    <author>
+      <name>Ling Shi</name>
+    </author>
+    <author>
+      <name>Chen Chen</name>
+    </author>
+  </entry>
+</feed>

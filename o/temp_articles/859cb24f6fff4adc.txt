@@ -1,0 +1,70 @@
+TERMS: hydrogen, wavefunction, boson
+COLORS: purple, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/yxNqIWhs6m5AJVdorWUkbGWpMog</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:wavefunction AND all:boson&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:04:24Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:wavefunction+AND+all:boson)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>4</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2202.09401v1</id>
+    <title>Density Matrices of Seniority-Zero Geminal Wavefunctions</title>
+    <updated>2022-02-18T19:44:29Z</updated>
+    <link href="https://arxiv.org/abs/2202.09401v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2202.09401v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Scalar products and density matrix elements of closed-shell pair geminal wavefunctions are evaluated directly in terms of the pair amplitudes, resulting in an analogue of Wick's theorem for fermions or bosons. This expression is in general intractable, but it is shown how it becomes feasible in three distinct ways for Richardson-Gaudin (RG) states, the antisymmetrized geminal power, and the antisymmetrized product of strongly-orthogonal geminals. Dissociation curves for hydrogen chains are computed with off-shell RG states and the antisymmetrized product of interacting geminals. Both are near exact suggesting that the incorrect results observed with ground state RG states are fixable using a different RG state.</summary>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-02-18T19:44:29Z</published>
+    <arxiv:primary_category term="physics.chem-ph"/>
+    <author>
+      <name>Jean-David Moisset</name>
+    </author>
+    <author>
+      <name>Charles-Émile Fecteau</name>
+    </author>
+    <author>
+      <name>Paul A. Johnson</name>
+    </author>
+    <arxiv:doi>10.1063/5.0088602</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/5.0088602" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/physics/0409023v1</id>
+    <title>An advance report on particle invariance in particle physics</title>
+    <updated>2004-09-02T21:30:14Z</updated>
+    <link href="https://arxiv.org/abs/physics/0409023v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/physics/0409023v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Since particle such as molecule, atom and nucleus are composite particle, it is important to recognize that physics must be invariant for both the composite particle and its constituent particles, this requirement is called particle invariance. But difficulties arise immediately because for fermion we use the Dirac equation, for boson we use the Klein-Gordon equation. Therefore, the particle invariance demands there is a general wave equation for describing particle motion regardless particle class. In this paper, three advances in this subject are reported: (1) momentum-wavefunction relation is a general relation shared by both fermion and boson, meets the requirement of the particle invaiance. As a test, the momentum-wavefunction relation was directly applied to hydrogen atom, and get the correct fine structure and spin effect for the electron. (2) the Dirac equation and Klein-Gordon equation can be derived out from the momentum-wavefunction relation when we abandon some higher order terms. (3) according to the momentum-wavefunction relation a path integral method was developed, differing from Feynman's path integral, it simplfies quantum computation.</summary>
+    <category term="physics.gen-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-09-02T21:30:14Z</published>
+    <arxiv:comment>LaTex, 5 pages</arxiv:comment>
+    <arxiv:primary_category term="physics.gen-ph"/>
+    <author>
+      <name>H. Y. Cui</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1002.3468v5</id>
+    <title>Unconventional approach to orbital-free density functional theory derived from a model of extended electrons</title>
+    <updated>2010-10-19T13:52:38Z</updated>
+    <link href="https://arxiv.org/abs/1002.3468v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1002.3468v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>An equation proposed by Levy, Perdew and Sahni in 1984 [PRA 30, 2745 (1984)] is an orbital--free formulation of density functional theory. However, this equation describes a bosonic system. Here, we analyze on a very fundamental level, how this equation could be extended to yield a formulation for a general fermionic distribution of charge and spin. This analysis starts at the level of single electrons and with the question, how spin actually comes into a charge distribution in a non-relativistic model. To this end we present a space-time model of extended electrons, which is formulated in terms of geometric algebra. Wave properties of the electron are referred to mass density oscillations. We provide a comprehensive and non-statistical interpretation of wavefunctions, referring them to mass density components and internal field components. It is shown that these wavefunctions comply with the Schrödinger equation, for the free electron as well as for the electron in electrostatic and vector potentials. Spin-properties of the electron are referred to intrinsic field components and it is established that a measurement of spin in an external field yields exactly two possible results. The model agrees with the results of standard theory concerning the hydrogen atom. Finally, we analyze many-electron systems and derive a set of coupled equations suitable to characterize the system without any reference to single electron states. The model is expected to have the greatest impact in condensed matter theory, where it allows to describe an $N$-electron system by a many-electron wavefunction $Ψ$ of four, instead of 3N variables. The many-body aspect of a system is in this case encoded in a bivector potential.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-02-18T15:17:55Z</published>
+    <arxiv:comment>The paper has been extended by a modified Landau-Lifshitz equation, describing the change of spin in external magnetic fields. A figure has been added to demonstrate the process. The article has now been accepted for publication and will appear in Foundations of Physics. 21 pages, 1 figure, 59 references</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Found. Phys. 41, 754-791 (2011)</arxiv:journal_ref>
+    <author>
+      <name>Werner A. Hofer</name>
+    </author>
+    <arxiv:doi>10.1007/s10701-010-9517-0</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s10701-010-9517-0" title="doi"/>
+  </entry>
+</feed>

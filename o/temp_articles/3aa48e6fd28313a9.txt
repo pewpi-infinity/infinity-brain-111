@@ -1,0 +1,83 @@
+TERMS: hydrogen, frequency, ionization, spin
+COLORS: purple, green, green, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/d0yB9s1/vX0IlwJpQFhlq07M/Zs</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:frequency AND all:ionization AND all:spin&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:43:44Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:frequency+AND+(all:ionization+AND+all:spin))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>16</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/0901.0570v1</id>
+    <title>Observing Neutral Hydrogen Above Redshift 6: The "Global" Perspective</title>
+    <updated>2009-01-05T22:13:14Z</updated>
+    <link href="https://arxiv.org/abs/0901.0570v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0901.0570v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Above redshift 6, the dominant source of neutral hydrogen in the Universe shifts from localized clumps in and around galaxies and filaments to a pervasive, diffuse component of the intergalactic medium (IGM). This transition tracks the global neutral fraction of hydrogen in the IGM and can be studied, in principle, through the redshifted 21 cm hyperfine transition line. During the last half of the reionization epoch, the mean (global) brightness temperature of the redshifted 21 cm emission is proportional to the neutral fraction, but at earlier times (10 &lt; z &lt; 25), the mean brightness temperature should probe the spin temperature of neutral hydrogen in the IGM. Measuring the (of order 10 mK) mean brightness temperature of the redshifted 21 cm line as a function of frequency (and hence redshift) would chart the early evolution of galaxies through the heating and ionizing of the IGM by their stellar populations. Experiments are already underway to accomplish this task or, at least, provide basic constraints on the evolution of the mean brightness temperature. We provide a brief overview of one of these projects, the Experiment to the Detect the Global EOR Signature (EDGES), and discuss prospects for future results.</summary>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-01-05T22:13:14Z</published>
+    <arxiv:comment>From AIP Conference Proceedings, Volume 1035, 2008, "The Evolution of Galaxies through the Neutral Hydrogen Window". 3 pages</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.GA"/>
+    <author>
+      <name>Judd D. Bowman</name>
+      <arxiv:affiliation>Caltech</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Alan E. E. Rogers</name>
+      <arxiv:affiliation>MIT/Haystack</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jacqueline N. Hewitt</name>
+      <arxiv:affiliation>MIT</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1016/j.asr.2011.10.014</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.asr.2011.10.014" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/astro-ph/0409640v3</id>
+    <title>The spin temperature of neutral hydrogen during cosmic pre-reionization</title>
+    <updated>2005-03-03T12:51:49Z</updated>
+    <link href="https://arxiv.org/abs/astro-ph/0409640v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/astro-ph/0409640v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We re-examine the role of collisions in decoupling the HI 21-cm spin temperature from the cosmic microwave background (CMB). The cross section for de-exciting the 21-cm trasition in collisions with free electrons is more than 10 times larger than it is in collisions with other atoms. If the fraction of free electrons in the diffuse cosmic gas is between 10 and 30 per cent then collisions alone can decouple the spin temperature from the cosmic microwave background (CMB), even in moderately under-dense regions at z &gt;15. This decoupling is especially important during the very early stages of re-ionization when a Ly-alpha continuum background had yet to be established. As a detailed example, we develop a semi-analytic model to quantify 21-cm emission signatures from a diffuse gas which is partially ionized at z&gt;10 by an X-ray background. We find 21-cm differential brightness temperature fluctuations with a mean of ~8 mK and a rms value as large as 5 mK, for a frequency resolution bandwidth of 100 KHz and a beamsize of 3 arcmin. Another example where free electron-atom collisions are important is during the recombination of bubbles ionized by short-lived UV sources. When the ionized fraction in these bubbles drops to 10-20 per cent their differential temperature can be as high as 10 mK. We also consider the correlation of the 21-cm temperature as a function of frequency. By isotropy, a comparison with the angular projected correlation in the plane of the sky should yield an estimate for the matter density parameter, Omega_m, and the dark energy component. This variant of the Alcock-Paczyski test is applicable for any reionization scenario.</summary>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-09-27T16:04:01Z</published>
+    <arxiv:comment>version to appear in the MNRAS</arxiv:comment>
+    <arxiv:primary_category term="astro-ph"/>
+    <arxiv:journal_ref>Mon.Not.Roy.Astron.Soc. 359 (2005) 183-190</arxiv:journal_ref>
+    <author>
+      <name>Adi Nusser</name>
+    </author>
+    <arxiv:doi>10.1111/j.1365-2966.2005.08894.x</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1111/j.1365-2966.2005.08894.x" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.19401v1</id>
+    <title>Cygnus A Obscuring Torus: Ionized, Atomic or Molecular?</title>
+    <updated>2023-10-30T10:13:44Z</updated>
+    <link href="https://arxiv.org/abs/2310.19401v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.19401v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The prototypical powerful FR \Romannum{2} radio galaxy Cygnus A fits extremely well into the quasar/radio galaxy unified model: high polarization with an angle almost perpendicular to the radio jet and polarized flux showing broad permitted lines. It has been claimed that ionized gas in the torus reveals a very clear torus shape via Bremmstrahlung emission. We rule out the later with an energetic argument, and we constrain the molecular and atomic gas properties with existing observations. The atomic absorption against the core has been shown to match the X-ray column only if the spin temperature is an implausible $T_{\rm s} = 1\times 10^6$ K. This points to a molecular medium for the X-ray column $\log(N_{\rm H} ~[\rm{cm^{-2}}]) \sim 23.5$. Yet not low-J CO absorption is detected to sensitive limits. The non-detection is surprising given that this powerful radio galaxy hosts a luminous, dust-obscured active nucleus and copious warm molecular hydrogen. These conditions suggest a detectable level of emission. Furthermore, the torus X-ray column density suggests detectable absorption. We explore various possibilities to explain the lack of a signature from warm CO (200-250K). Specifically, that the radiative excitation by the radio core renders low-J CO absorption below current sensitivities, and that high-J levels are well populated and conducive to producing absorption. We test this hypothesis using archival \textit{Hershel}/SPIRE FTS observations of Cygnus A of high-J CO lines ($14 \geq J \geq 4$ transitions). Still high-J CO lines are not detected. We suggest that ALMA observations near its high frequency limit can be critical to obtain the signature of molecular line of the torus of Cygnus A.</summary>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-30T10:13:44Z</published>
+    <arxiv:primary_category term="astro-ph.GA"/>
+    <author>
+      <name>Atharva Bagul</name>
+    </author>
+    <author>
+      <name>Patrick Ogle</name>
+    </author>
+    <author>
+      <name>Robert Antonucci</name>
+    </author>
+    <author>
+      <name>Philip Maloney</name>
+    </author>
+    <author>
+      <name>Enrique Lopez-Rodriguez</name>
+    </author>
+  </entry>
+</feed>

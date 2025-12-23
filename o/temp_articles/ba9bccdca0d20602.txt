@@ -1,0 +1,125 @@
+TERMS: lattice, vapor, probability
+COLORS: orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/OdFOjrbZDijN5v7GHyWML1wubfI</id>
+  <title>arXiv Query: search_query=all:lattice AND all:vapor AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:14:20Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:vapor+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>7</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1807.03898v2</id>
+    <title>Atomic scale analysis of Nb3Sn on Nb prepared by a vapor-diffusion process for superconducting radiofrequency cavity applications</title>
+    <updated>2019-06-30T22:09:31Z</updated>
+    <link href="https://arxiv.org/abs/1807.03898v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1807.03898v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We report an atomic-scale analysis of the microstructure of Nb3Sn coating on Nb prepared by vapor diffusion process for superconducting radiofrequency (SRF) cavity application using transmission electron microscopy (TEM). Epitaxial growth of Nb3Sn on the Nb substrate is found and four types of orientation relationships at the Nb3Sn/Nb interface are identified by electron diffraction or high-resolution scanning transmission electron microscopy (STEM) analysis. Thin Nb3Sn grains are observed in regions with low Sn flux and they have the specific orientation relationship, Nb3Sn (1-20)//Nb (-111) and Nb3Sn (002)//Nb (0-11). The Nb3Sn/Nb interface of thin grains had a large lattice mismatch, 12.3 at.%, and a high density of misfit dislocations was observed by HR-STEM. Based on our microstructural analysis of the thin grains, we conclude that the thin regions are probably a result of a slow interfacial reaction with this particular orientation relationship at the interface. The Sn-deficient regions are seen to form initially at the Nb3Sn/Nb interface and remain in the grains due to the slow diffusion of Sn in bulk Nb3Sn. The formation of Sn-deficient regions and the effects of strain and interfacial energies on the formation of Sn-deficient regions at various interfaces were also estimated by first-principle calculation. The finding of orientation relationships at the Nb3Sn/Nb interface provides important information about the formation of defects in Nb3Sn coatings such as large thin regions, Sn-deficient regions, which are critical to the performance of Nb3Sn superconducting radiofrequency cavities for accelerators.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.acc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-07-10T23:07:01Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>Supercond. Sci. Technol. 32 (2019) 024001</arxiv:journal_ref>
+    <author>
+      <name>Jaeyel Lee</name>
+    </author>
+    <author>
+      <name>Sam Posen</name>
+    </author>
+    <author>
+      <name>Zugang Mao</name>
+    </author>
+    <author>
+      <name>Yulia Trenikhina</name>
+    </author>
+    <author>
+      <name>Kai He</name>
+    </author>
+    <author>
+      <name>Daniel L Hall</name>
+    </author>
+    <author>
+      <name>Matthias Liepe</name>
+    </author>
+    <author>
+      <name>David N Seidman</name>
+    </author>
+    <arxiv:doi>10.1088/1361-6668/aaf268</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1361-6668/aaf268" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0206461v2</id>
+    <title>On the Wang-Landau Method for Off-Lattice Simulations in the "Uniform" Ensemble</title>
+    <updated>2002-06-24T20:00:06Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0206461v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0206461v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We present a rigorous derivation for off-lattice implementations of the so-called "random-walk" algorithm recently introduced by Wang and Landau [PRL 86, 2050 (2001)]. Originally developed for discrete systems, the algorithm samples configurations according to their inverse density of states using Monte-Carlo moves; the estimate for the density of states is refined at each simulation step and is ultimately used to calculate thermodynamic properties. We present an implementation for atomic systems based on a rigorous separation of kinetic and configurational contributions to the density of states. By constructing a "uniform" ensemble for configurational degrees of freedom--in which all potential energies, volumes, and numbers of particles are equally probable--we establish a framework for the correct implementation of simulation acceptance criteria and calculation of thermodynamic averages in the continuum case. To demonstrate the generality of our approach, we perform sample calculations for the Lennard-Jones fluid using two implementation variants and in both cases find good agreement with established literature values for the vapor-liquid coexistence locus.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-06-24T19:23:19Z</published>
+    <arxiv:comment>21 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <arxiv:journal_ref>Phys. Rev. E, 66, 056703, 2002</arxiv:journal_ref>
+    <author>
+      <name>M. S. Shell</name>
+    </author>
+    <author>
+      <name>P. G. Debenedetti</name>
+    </author>
+    <author>
+      <name>A. Z. Panagiotopoulos</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevE.66.056703</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevE.66.056703" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1809.00431v2</id>
+    <title>The Atomic and Electronic structure of 0° and 60° grain boundaries in MoS2</title>
+    <updated>2019-03-28T02:09:28Z</updated>
+    <link href="https://arxiv.org/abs/1809.00431v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1809.00431v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We have investigated atomic and electronic structure of grain boundaries in monolayer MoS2, where relative angles between two different grains are 0 and 60 degree. The grain boundaries with specific relative angle have been formed with chemical vapor deposition growth on graphite and hexagonal boron nitride flakes; van der Waals interlayer interaction between MoS2 and the flakes restricts the relative angle. Through scanning tunneling microscopy and spectroscopy measurements, we have found that the perfectly stitched structure between two different grains of MoS2 was realized in the case of the 0 degree grain boundary. We also found that even with the perfectly stitched structure, valence band maximum and conduction band minimum shows significant blue shift, which probably arise from lattice strain at the boundary.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-09-03T02:27:36Z</published>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Frontiers in Physics, 7, 59-1-7 (2019)</arxiv:journal_ref>
+    <author>
+      <name>Terunobu Nakanishi</name>
+    </author>
+    <author>
+      <name>Shoji Yoshida</name>
+    </author>
+    <author>
+      <name>Kota Murase</name>
+    </author>
+    <author>
+      <name>Osamu Takeuchi</name>
+    </author>
+    <author>
+      <name>Takashi Taniguchi</name>
+    </author>
+    <author>
+      <name>Kenji Watanabe</name>
+    </author>
+    <author>
+      <name>Hidemi Shigekawa</name>
+    </author>
+    <author>
+      <name>Yu Kobayashi</name>
+    </author>
+    <author>
+      <name>Yasumitsu Miyata</name>
+    </author>
+    <author>
+      <name>Hisanori Shinohara</name>
+    </author>
+    <author>
+      <name>Ryo Kitaura</name>
+    </author>
+    <arxiv:doi>10.3389/fphy.2019.00059</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3389/fphy.2019.00059" title="doi"/>
+  </entry>
+</feed>

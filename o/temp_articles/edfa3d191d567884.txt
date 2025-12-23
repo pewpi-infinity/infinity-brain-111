@@ -1,0 +1,76 @@
+TERMS: wavefunction, singularity, vacuum
+COLORS: yellow, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/oeVLAvr9XQJu8FHMgaGGyCcUwdQ</id>
+  <title>arXiv Query: search_query=all:wavefunction AND all:singularity AND all:vacuum&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:34:09Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:wavefunction+AND+(all:singularity+AND+all:vacuum)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>6</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/hep-th/0205101v2</id>
+    <title>String Propagation in the Presence of Cosmological Singularities</title>
+    <updated>2002-05-24T22:33:37Z</updated>
+    <link href="https://arxiv.org/abs/hep-th/0205101v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-th/0205101v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We study string propagation in a spacetime with positive cosmological constant, which includes a circle whose radius approaches a finite value as |t|\to\infty, and goes to zero at t=0. Near this cosmological singularity, the spacetime looks like R^{1,1}/Z. In string theory, this spacetime must be extended by including four additional regions, two of which are compact. The other two introduce new asymptotic regions, corresponding to early and late times, respectively. States of quantum fields in this spacetime are defined in the tensor product of the two Hilbert spaces corresponding to the early time asymptotic regions, and the S-matrix describes the evolution of such states to states in the tensor product of the two late time asymptotic regions. We show that string theory provides a unique continuation of wavefunctions past the cosmological singularities, and allows one to compute the S-matrix. The incoming vacuum evolves into an outgoing state with particles. We also discuss instabilities of asymptotically timelike linear dilaton spacetimes, and the question of holography in such spaces. Finally, we briefly comment on the relation of our results to recent discussions of de Sitter space.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-05-10T16:39:57Z</published>
+    <arxiv:comment>harvmac, 43 pages, 2 figures; v2: some clarifications and references added</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>JHEP 0206 (2002) 053</arxiv:journal_ref>
+    <author>
+      <name>Ben Craps</name>
+    </author>
+    <author>
+      <name>David Kutasov</name>
+    </author>
+    <author>
+      <name>Govindan Rajesh</name>
+    </author>
+    <arxiv:doi>10.1088/1126-6708/2002/06/053</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1126-6708/2002/06/053" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/gr-qc/9705068v5</id>
+    <title>Darboux parameter for empty FRW quantum universes and quantum cosmological singularities</title>
+    <updated>1998-02-07T19:11:21Z</updated>
+    <link href="https://arxiv.org/abs/gr-qc/9705068v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/gr-qc/9705068v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  I present the factorization(s) of the Wheeler-DeWitt equation for vacuum FRW minisuperspace universes of arbitrary Hartle-Hawking factor ordering, including the so-called strictly isospectral supersymmetric method. By the latter means, one can introduce an infinite class of singular FRW minisuperspace wavefunctions characterized by a Darboux parameter that mathematically speaking is a Riccati integration constant, while physically determines the position of these strictly isospectral singularities on the Misner time axis</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1997-05-26T16:03:27Z</published>
+    <arxiv:comment>3 pages, LaTex</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Mod.Phys.Lett. A13 (1998) 227-230</arxiv:journal_ref>
+    <author>
+      <name>H. C. Rosu</name>
+    </author>
+    <arxiv:doi>10.1142/S0217732398000280</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/S0217732398000280" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2304.13780v4</id>
+    <title>Robust formulation of Wick's theorem for computing matrix elements between Hartree-Fock-Bogoliubov wavefunctions</title>
+    <updated>2023-06-08T17:03:27Z</updated>
+    <link href="https://arxiv.org/abs/2304.13780v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2304.13780v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Numerical difficulties associated with computing matrix elements of operators between Hartree-Fock-Bogoliubov (HFB) wavefunctions have plagued the development of HFB-based many-body theories for decades. The problem arises from divisions by zero in the standard formulation of the nonorthogonal Wick's theorem in the limit of vanishing HFB overlap. In this paper, we present a robust formulation of Wick's theorem that stays well-behaved regardless of whether the HFB states are orthogonal or not. This new formulation ensures cancellation between the zeros of the overlap and the poles of the Pfaffian, which appears naturally in fermionic systems. Our formula explicitly eliminates self-interaction, which otherwise causes additional numerical challenges. A computationally efficient version of our formalism enables robust symmetry-projected HFB calculations with the same computational cost as mean-field theories. Moreover, we avoid potentially diverging normalization factors by introducing a robust normalization procedure. The resulting formalism treats even and odd number of particles on equal footing and reduces to Hartree-Fock as a natural limit. As proof of concept, we present a numerically stable and accurate solution to a Jordan-Wigner-transformed Hamiltonian, whose singularities motivated the present work. Our robust formulation of Wick's theorem is a most promising development for methods using quasiparticle vacuum states.</summary>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-04-26T18:57:49Z</published>
+    <arxiv:primary_category term="physics.chem-ph"/>
+    <author>
+      <name>Guo P. Chen</name>
+    </author>
+    <author>
+      <name>Gustavo E. Scuseria</name>
+    </author>
+    <arxiv:doi>10.1063/5.0156124</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/5.0156124" title="doi"/>
+  </entry>
+</feed>

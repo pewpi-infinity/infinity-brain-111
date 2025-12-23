@@ -1,0 +1,99 @@
+TERMS: quantum, crystal, probability
+COLORS: blue, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/RCbGwNx3xtZlvMYxIuGG8rNPEKg</id>
+  <title>arXiv Query: search_query=all:quantum AND all:crystal AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:07:32Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:crystal+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>238</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1712.05588v3</id>
+    <title>Dynamical quantum phase transitions in discrete time crystals</title>
+    <updated>2018-05-30T07:12:57Z</updated>
+    <link href="https://arxiv.org/abs/1712.05588v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1712.05588v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Discrete time crystals are related to non-equilibrium dynamics of periodically driven quantum many-body systems where the discrete time translation symmetry of the Hamiltonian is spontaneously broken into another discrete symmetry. Recently, the concept of phase transitions has been extended to non-equilibrium dynamics of time-independent systems induced by a quantum quench, i.e. a sudden change of some parameter of the Hamiltonian. There, the return probability of a system to the ground state reveals singularities in time which are dubbed dynamical quantum phase transitions. We show that the quantum quench in a discrete time crystal leads to dynamical quantum phase transitions where the return probability of a periodically driven system to a Floquet eigenstate before the quench reveals singularities in time. It indicates that dynamical quantum phase transitions are not restricted to time-independent systems and can be also observed in systems that are periodically driven. We discuss how the phenomenon can be observed in ultra-cold atomic gases.</summary>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-12-15T09:22:57Z</published>
+    <arxiv:comment>version accepted for publication in Physical Review A (9 pages, 3 figs)</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.quant-gas"/>
+    <arxiv:journal_ref>Phys. Rev. A 97, 053621 (2018)</arxiv:journal_ref>
+    <author>
+      <name>Arkadiusz Kosior</name>
+    </author>
+    <author>
+      <name>Krzysztof Sacha</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.97.053621</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.97.053621" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.21790v1</id>
+    <title>Experimental measurement of quantum-first-passage-time distributions</title>
+    <updated>2025-08-29T17:09:45Z</updated>
+    <link href="https://arxiv.org/abs/2508.21790v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.21790v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Classical First-Passage-Time Distributions (FPTDs) have been extensively studied both theoretically and experimentally. Their quantum counterparts, Quantum First-Passage-Time Distributions (QFPTDs), remain largely unexplored and have deep implications for both fundamental physics and the development of emerging quantum technologies. We measure the first QFPTDs using a motional mode of a single trapped ion. We develop a novel composite-phase laser pulse sequence to perform tunable stroboscopic projective measurements of the motional state of a trapped ion. We measure QFPTDs of the ion energy when coupled to electric-field noise and establish a clear connection with its classical counterpart. The measurement protocol developed here is broadly applicable to other quantum systems and provides a powerful method for exploring a broad range of QFPTD phenomena. With these results we open a new field of experimental investigations of QFPT processes with potential future relevance to quantum search algorithms, unraveling connections between classical and quantum dynamics, and study of the quantum measurement problem.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.data-an" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-29T17:09:45Z</published>
+    <arxiv:comment>Main text: 6 pages, 4 figures. Supplementary material: 5 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Joseph M. Ryan</name>
+    </author>
+    <author>
+      <name>Simon Gorbaty</name>
+    </author>
+    <author>
+      <name>Thomas J. Kessler</name>
+    </author>
+    <author>
+      <name>Mitchell G. Peaks</name>
+    </author>
+    <author>
+      <name>Stephen W. Teitsworth</name>
+    </author>
+    <author>
+      <name>Crystal Noel</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.09356v1</id>
+    <title>Optimal elemental configuration search in crystal using quantum approximate optimization algorithm</title>
+    <updated>2025-03-12T13:00:20Z</updated>
+    <link href="https://arxiv.org/abs/2503.09356v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.09356v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Optimal elemental configuration search in crystal is a crucial task to discovering industrially important materials such as lithium-ion battery cathodes. In this paper we present application of quantum approximate optimization algorithm, the representative near-term quantum algorithm for combinatorial optimization, to finding the most stable elemental configuration in a crystal, using Au-Cu alloys as an example. After expressing the energy of the crystal in the form of the Ising model through the cluster expansion method combined with first-principles calculations, we numerically perform QAOA with three types of parameter optimization. As a result, we have demonstrated that the optimal solution can be sampled with a high probability for crystals containing up to 32 atoms. Our results could pave the way for optimal elemental configuration search in a crystal using a near-term quantum computer.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-12T13:00:20Z</published>
+    <arxiv:comment>10 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Kazuhide Ichikawa</name>
+    </author>
+    <author>
+      <name>Genta Hayashi</name>
+    </author>
+    <author>
+      <name>Satoru Ohuchi</name>
+    </author>
+    <author>
+      <name>Tomoyasu Yokoyama</name>
+    </author>
+    <author>
+      <name>Ken N. Okada</name>
+    </author>
+    <author>
+      <name>Keisuke Fujii</name>
+    </author>
+  </entry>
+</feed>

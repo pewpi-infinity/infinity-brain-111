@@ -1,0 +1,89 @@
+TERMS: frequency, superconductivity, singularity
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/J4gZQNdkYFzNJ4bZ8J8Oo2ztYzg</id>
+  <title>arXiv Query: search_query=all:frequency AND all:superconductivity AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:11:43Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:superconductivity+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>85</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/9902278v2</id>
+    <title>Josephson Frequency Singularity in the Noise of Normal Metal-Superconductor Junctions</title>
+    <updated>1999-06-25T14:28:09Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/9902278v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/9902278v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  A singularity at the Josephson frequency in the noise spectral density of a disordered normal metal -- superconductor junction is predicted for bias voltages below the superconducting gap. The non-stationary Aharonov-Bohm effect, recently introduced for normal metals, is proposed as a tool for detecting this singularity. In the presence of a harmonic external field, the derivative of the noise with respect to the voltage bias reveals jumps when the applied frequency is commensurate with the Josephson frequency associated with this bias. The height of these jumps is non-monotonic in the amplitude of the periodic field. The superconducting flux quantum enters this dependence. Additional singularities in the frequency dependent noise are predicted above gap.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1999-02-19T16:43:32Z</published>
+    <arxiv:comment>4 pages, 2 figures, revised version</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>Gordey B. Lesovik</name>
+    </author>
+    <author>
+      <name>Thierry Martin</name>
+    </author>
+    <author>
+      <name>Julien Torres</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.60.11935</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.60.11935" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1512.07365v3</id>
+    <title>Effect of van Hove singularities on high-Tc superconductivity in H3S</title>
+    <updated>2016-01-07T06:48:30Z</updated>
+    <link href="https://arxiv.org/abs/1512.07365v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1512.07365v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>One of interesting open questions for the high transition temperature (Tc) superconductivity in sulfur hydrides is why high pressure phases of H3S have extremely high Tc's. Recently, it has been pointed out that the presence of the van Hove singularities (vHs) around the Fermi level is crucial. However, while there have been quantitative estimates of Tc based on the Migdal-Eliashberg theory, the energy dependence of the density of states (DOS) has been neglected to simplify the Eliashberg equation. In this study, we go beyond the constant DOS approximation and explicitly consider the electronic structure over 40eV around the Fermi level. In contrast with the previous conventional calculations, this approach with a sufficiently large number of Matsubara frequencies enables us to calculate Tc without introducing the empirical pseudo Coulomb potential. We show that while H3S has much higher Tc than H2S for which the vHs is absent, the constant DOS approximation employed so far seriously overestimates (underestimates) Tc by ~ 60K (~ 10K) for H3S (H2S). We then discuss the impact of the strong electron-phonon coupling on the electronic structure with and without the vHs and how it affects the superconductivity. Especially, we focus on (1) the feedback effect in the self-consistent calculation of the self-energy, (2) the effect of the energy shift due to the zero-point motion, and (3) the effect of the changes in the phonon frequencies due to strong anharmonicity. We show that the effect of (1)-(3) on Tc is about 10-30K for both H3S and H2S. Eventually, Tc is estimated to be 181K for H3S at 250GPa and 34K for H2S at 140GPa, which explains the pressure dependence of Tc observed in the experiment. In addition, we evaluate the lowest order vertex correction beyond the Migdal-Eliashberg theory and discuss the validity of the Migdal approximation for sulfur hydrides.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-12-23T06:04:21Z</published>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <arxiv:journal_ref>Phys. Rev. B 93, 094525 (2016)</arxiv:journal_ref>
+    <author>
+      <name>Wataru Sano</name>
+    </author>
+    <author>
+      <name>Takashi Koretsune</name>
+    </author>
+    <author>
+      <name>Terumasa Tadano</name>
+    </author>
+    <author>
+      <name>Ryosuke Akashi</name>
+    </author>
+    <author>
+      <name>Ryotaro Arita</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.93.094525</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.93.094525" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0303053v1</id>
+    <title>Superconducting fluctuations in the Luther-Emery liquid</title>
+    <updated>2003-03-04T09:07:41Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0303053v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0303053v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The single-particle superconducting Green's functions of a Luther-Emery liquid is computed by bosonization techniques. Using a formulation introduced by Poilblanc and Scalapino [Phys. Rev. B v. 66, art. 052513 (2002)], an asymptotic expression of the superconducting gap is deduced in the long wavelength and small frequency limit. Due to superconducting phase fluctuations, the gap exhibits as a function of size L a (1/L)^{1/2K_ρ} power-law decay as well as an interesting singularity at the spectral gap energy. Similarities and differences with the 2-leg t-J ladder are outlined.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-03-04T09:07:41Z</published>
+    <arxiv:comment>RevTeX 4, 3 pages, 2 EPS figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Phys. Rev. B 68, 052504 (2003)</arxiv:journal_ref>
+    <author>
+      <name>Edmond Orignac</name>
+      <arxiv:affiliation>Ecole Normale Superieure</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Didier Poilblanc</name>
+      <arxiv:affiliation>Universite Toulouse III</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.68.052504</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.68.052504" title="doi"/>
+  </entry>
+</feed>

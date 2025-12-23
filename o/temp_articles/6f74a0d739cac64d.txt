@@ -1,0 +1,57 @@
+TERMS: lattice, ionization, vacuum
+COLORS: orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/2g5TAjEhaqU5t8ckM/kRIrVsrhw</id>
+  <title>arXiv Query: search_query=all:lattice AND all:ionization AND all:vacuum&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:14:53Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:ionization+AND+all:vacuum)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1401.6111v1</id>
+    <title>Boundary conditions effects on the ground state of a two-electron atom in a vacuum cavity</title>
+    <updated>2014-01-23T18:57:12Z</updated>
+    <link href="https://arxiv.org/abs/1401.6111v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1401.6111v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The ground state properties of the two-electron atom with atomic number $Z\geq 2$ in the spherical vacuum cavity with general boundary conditions of "not going out" are studied. It is shown that for certain parameters of the cavity such atom could either decay into the one-electron atom with the same atomic number and an electron or be in stable state with the binding and ionization energies several times bigger than the same energies of the free atom. By analogy with the Wigner-Seitz model of metallic bonding, the possibility of the existence of such effects on the lattice formed by the vacuum cavities filled with the two-electron atoms of the same type is discussed.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-01-23T18:57:12Z</published>
+    <arxiv:comment>8 pages, 10 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>A. Tolokonnikov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0809.1633v1</id>
+    <title>rf Breakdown with and without External Magnetic Fields</title>
+    <updated>2008-09-09T18:57:28Z</updated>
+    <link href="https://arxiv.org/abs/0809.1633v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0809.1633v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Neutrino Factories and Muon Colliders' cooling lattices require both high gradient rf and strong focusing solenoids. Experiments have shown that there may be serious problems operating rf in the required magnetic fields. The use of high pressure gas to avoid these problems is discussed, including possible loss problems from electron and ion production by the passage of an ionizing beam. It is also noted that high pressure gas cannot be used in later stages of cooling for a muon collider. Experimental observations using vacuum rf cavities in magnetic fields are discussed, current published models of breakdown with and without magnetic fields are summarized, and some of their predictions compared with observations.
+  A new theory of magnetic field dependent breakdown is presented. It is proposed that electrons emitted by field emission on asperities on one side of a cavity are focused by the magnetic field to the other side where they melt the cavity surface in small spots. Metal is then electrostatically drawn from the molten spots, becomes vaporized and ionized by field emission from the remaining damage and cause breakdown. The theory is fitted to existing 805 MHz data and predictions are made for performance at 201 MHz. The model predicts breakdown gradients significantly below those specified for either the International Scoping Study (ISS) Neutrino Factory or a Muon Collider.
+  Possible solutions to these problems are discussed, including designs for `magnetically insulated rf' in which the cavity walls are designed to be parallel to a chosen magnetic field contour line and consequently damage from field emission is suppressed. An experimental program to study these problems and their possible solution is outlined.</summary>
+    <category term="physics.acc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-09-09T18:57:28Z</published>
+    <arxiv:comment>16 pages, 21 figures, 2 tables</arxiv:comment>
+    <arxiv:primary_category term="physics.acc-ph"/>
+    <author>
+      <name>Robert B. Palmer</name>
+    </author>
+    <author>
+      <name>Richard C. Fernow</name>
+    </author>
+    <author>
+      <name>Juan C. Gallardo</name>
+    </author>
+    <author>
+      <name>Diktys Stratakis</name>
+    </author>
+    <author>
+      <name>Derun Li</name>
+    </author>
+  </entry>
+</feed>

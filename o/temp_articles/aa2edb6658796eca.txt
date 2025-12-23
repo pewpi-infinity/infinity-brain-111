@@ -1,0 +1,82 @@
+TERMS: fusion, ionization, wavefunction
+COLORS: green, green, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/src1+QmQrc7z54OUW6gCmI7bagg</id>
+  <title>arXiv Query: search_query=all:fusion AND all:ionization AND all:wavefunction&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:20:36Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:fusion+AND+(all:ionization+AND+all:wavefunction)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>4</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2511.15570v1</id>
+    <title>First ionization potentials of Cr, Mo, and W calculated with SHCI</title>
+    <updated>2025-11-19T16:03:06Z</updated>
+    <link href="https://arxiv.org/abs/2511.15570v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.15570v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The design and performance of future fusion power plants will depend on accurate atomic data for plasma-facing material and plasma impurity species. A leading candidate for the plasma-facing material is tungsten due to its high melting point, however, the energy levels and wavefunctions of high-Z atoms with many electrons (e.g. 30 or more), including tungsten, are difficult to calculate with high accuracy. Gaps and large uncertainties in atomic data for tungsten introduce design and performance uncertainties for a fusion power plant. Specifically, improved atomic data for ionization potential, excited state energies, and collisional excitation rates are needed for the low charge states of atomic tungsten. We aim to address these shortcomings by using the semistochastic heat-bath configuration interaction (SHCI) method, which nearly exactly calculates the energies that can be determined at higher cost with the full configuration interaction. Adding well-motivated approximations to SHCI, including orbital optimization and effective core potentials, we demonstrate good agreement between our calculated first ionization potentials and the best available experimental values for chromium, molybdenum, and tungsten. The efficiency and accuracy achieved in calculating these ionization potentials demonstrates that our SHCI workflow can yield improved electron structure data for ions with many electrons, suggesting that the method could also be useful for collisional processes, such as state-selective charge exchange reactions and electron impact ionization.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-19T16:03:06Z</published>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>Zachary T. Jerzyk</name>
+    </author>
+    <author>
+      <name>David R. Smith</name>
+    </author>
+    <author>
+      <name>Matthew Otten</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1703.10529v1</id>
+    <title>Partial and Total Dielectronic Recombination Rate Coefficients for W$^{55+}$ to W$^{38+}$</title>
+    <updated>2017-03-30T15:29:43Z</updated>
+    <link href="https://arxiv.org/abs/1703.10529v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1703.10529v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Dielectronic recombination (DR) is the dominant mode of recombination in magnetically confined fusion plasmas for intermediate to low-charged ions of W. Complete, final-state resolved partial isonuclear W DR rate coefficient data is required for detailed collisional-radiative modelling for such plasmas in preparation for the upcoming fusion experiment ITER. To realize this requirement, we continue {\it The Tungsten Project} by presenting our calculations for tungsten ions W$^{55+}$ to W$^{38+}$. As per our prior calculations for W$^{73+}$ to W$^{56+}$, we use the collision package {\sc autostructure} to calculate partial and total DR rate coefficients for all relevant core-excitations in intermediate coupling (IC) and configuration average (CA) using $κ$-averaged relativistic wavefunctions. Radiative recombination (RR) rate coefficients are also calculated for the purpose of evaluating ionization fractions. Comparison of our DR rate coefficients for W$^{46+}$ with other authors yields agreement to within 7-19\% at peak abundance verifying the reliability of our method. Comparison of partial DR rate coefficients calculated in IC and CA yield differences of a factor $\sim{2}$ at peak abundance temperature, highlighting the importance of relativistic configuration mixing. Large differences are observed between ionization fractions calculated using our recombination rate coefficient data and that of Pütterich~\etal [Plasma Phys. and Control. Fusion 50 085016, (2008)]. These differences are attributed to deficiencies in the average-atom method used by the former to calculate their data.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-03-30T15:29:43Z</published>
+    <arxiv:comment>Accepted for publication in Journal of Physics B. Manuscript contains 21 pages, 30 figures, and 7 tables</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>S. P. Preval</name>
+    </author>
+    <author>
+      <name>N. R. Badnell</name>
+    </author>
+    <author>
+      <name>M. G. O'Mullane</name>
+    </author>
+    <arxiv:doi>10.1088/1361-6455/aa6a3c</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1361-6455/aa6a3c" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1603.05920v1</id>
+    <title>Partial and Total Dielectronic Recombination rate coefficients for W73+ to W56+</title>
+    <updated>2016-03-18T16:53:07Z</updated>
+    <link href="https://arxiv.org/abs/1603.05920v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1603.05920v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Dielectronic recombination (DR) is a key atomic process which affects the spectroscopic diagnostic modelling of tungsten, most of whose ionization stages will be found somewhere in the ITER fusion reactor: in the edge, divertor, or core plasma. Accurate DR data is sparse while complete DR coverage is unsophisticated (e.g. average-atom or Burgess General Formula) as illustrated by the large uncertainties which currently exist in the tungsten ionization balance. To this end, we present a series of partial final state-resolved and total DR rate coefficients for W73+ to W56+ Tungsten ions. This is part of a wider effort within The Tungsten Project to calculate accurate dielectronic recombination rate coefficients for the tungsten isonuclear sequence for use in collisional-radiative modelling of finite-density tokamak plasmas. The recombination rate coefficients have been calculated with autostructure using kappa-averaged relativistic wavefunctions in level resolution (intermediate coupling) and configuration resolution (configuration average). The results are available from OPEN-ADAS according to the adf09 and adf48 standard formats. Comparison with previous calculations of total DR rate coefficients for W63+ and W56+ yield agreement to within 20% and 10%, respectively, at peak temperature. It is also seen that the Juttner correction to the Maxwell distribution has a significant effect on the ionization balance of tungsten at the highest charge states, changing both the peak abundance temperatures and the ionization fractions of several ions.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-03-18T16:53:07Z</published>
+    <arxiv:comment>36 pages, 23 figures. Accepted for publication in Physical Review A</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <arxiv:journal_ref>Phys. Rev. A 93, 042703, 2016</arxiv:journal_ref>
+    <author>
+      <name>S. P. Preval</name>
+    </author>
+    <author>
+      <name>N. R. Badnell</name>
+    </author>
+    <author>
+      <name>M. G. O'Mullane</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.93.042703</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.93.042703" title="doi"/>
+  </entry>
+</feed>

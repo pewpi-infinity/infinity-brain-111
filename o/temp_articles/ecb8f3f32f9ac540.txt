@@ -1,0 +1,33 @@
+TERMS: frequency, lattice, tachyon
+COLORS: green, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/D3s+2e2Ewwr5b7x1oL3h4+jF65Y</id>
+  <title>arXiv Query: search_query=all:frequency AND all:lattice AND all:tachyon&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:09:42Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:lattice+AND+all:tachyon)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2306.16896v1</id>
+    <title>Stochastic gravitational wave background from early dark energy</title>
+    <updated>2023-06-29T12:37:04Z</updated>
+    <link href="https://arxiv.org/abs/2306.16896v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.16896v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the production of stochastic gravitational wave background from early dark energy (EDE) model. It is caused by resonant amplification of scalar field fluctuations, which easily takes place for typical EDE potential based on the string axion or $α$-attractor model. The resultant spectrum of gravitational wave background is computed by performing 3D lattice simulations. We show that, specifically in some class of generalized $α$-attractor EDE model, a significant amount of gravitational waves can be produced via tachyonic instability with a peak around femto-Hz frequency range. Models predicting such gravitational waves can be constrained by the cosmic microwave background observations.</summary>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-29T12:37:04Z</published>
+    <arxiv:comment>15 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.CO"/>
+    <author>
+      <name>Naoya Kitajima</name>
+    </author>
+    <author>
+      <name>Tomo Takahashi</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,130 @@
+TERMS: ionization, wavefunction, plasma
+COLORS: green, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/3AVPNb0ETOvDfkd2pAaBwn80zcs</id>
+  <title>arXiv Query: search_query=all:ionization AND all:wavefunction AND all:plasma&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:29:27Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:ionization+AND+(all:wavefunction+AND+all:plasma)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>14</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/0912.2720v1</id>
+    <title>Resistivity in warm dense plasmas beyond the average-atom model</title>
+    <updated>2009-12-14T20:07:29Z</updated>
+    <link href="https://arxiv.org/abs/0912.2720v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0912.2720v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The exploration of atomic properties of strongly coupled partially degenerate plasmas, also referred to as warm dense matter, is important in astrophysics, since this thermodynamic regime is encountered for instance in Jovian planets' interior. One of the most important issues is the need for accurate equations of state and transport coefficients. The Ziman formula has been widely used for the computation of the static (DC) electrical resistivity. Usually, the calculations are based on the continuum wavefunctions computed in the temperature and density-dependent self-consistent potential of a fictive atom, representing the average ionization state of the plasma (average-atom model). We present calculations of the electrical resistivity of a plasma based on the superconfiguration (SC) formalism. In this modeling, the contributions of all the electronic configurations are taken into account. It is possible to obtain all the situations between the two limiting cases: detailed configurations (a super-orbital is a single orbital) and detailed ions (all orbitals are gathered in the same super-orbital). The ingredients necessary for the calculation are computed in a self-consistent manner for each SC, using a density-functional description of the electrons. Electron exchange-correlation is handled in the local-density approximation. The momentum transfer cross-sections are calculated by using the phase shifts of the continuum electron wavefunctions computed, in the potential of each SC, by the Schroedinger equation with relativistic corrections (Pauli approximation). Comparisons with experimental data are also presented.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-12-14T20:07:29Z</published>
+    <arxiv:comment>submitted to "Contributions to Plasma Physics"</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>Jean-Christophe Pain</name>
+    </author>
+    <author>
+      <name>Gerard Dejonghe</name>
+    </author>
+    <arxiv:doi>10.1002/ctpp.201010010</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1002/ctpp.201010010" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.27446v1</id>
+    <title>Modeling partially-ionized dense plasma using wavepacket molecular dynamics</title>
+    <updated>2025-10-31T12:54:32Z</updated>
+    <link href="https://arxiv.org/abs/2510.27446v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.27446v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We develop a wave packet molecular dynamics framework for modeling the structural properties of partially-ionized dense plasmas, based on a chemical model that explicitly includes bound state wavefunctions. Using hydrogen as a representative system, we compute self-consistent charge state distributions through free energy minimization, following the approach of Plummer et al. [Phys. Rev. E 111, 015204 (2025)]. This enables a direct comparison of static equilibrium properties with path integral Monte Carlo data, facilitating an evaluation of the model's underlying approximations and its ability to capture the complex interplay between ionization and structure in dense plasma environments.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-31T12:54:32Z</published>
+    <arxiv:comment>16 pages, 8 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>Daniel Plummer</name>
+    </author>
+    <author>
+      <name>Pontus Svensson</name>
+    </author>
+    <author>
+      <name>Wiktor Jasniak</name>
+    </author>
+    <author>
+      <name>Patrick Hollebon</name>
+    </author>
+    <author>
+      <name>Sam M. Vinko</name>
+    </author>
+    <author>
+      <name>Gianluca Gregori</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2302.04079v3</id>
+    <title>Investigating Mechanisms of State Localization in Highly-Ionized Dense Plasmas</title>
+    <updated>2023-08-14T06:30:39Z</updated>
+    <link href="https://arxiv.org/abs/2302.04079v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2302.04079v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present the first experimental observation of K$_β$ emission from highly charged Mg ions at solid density, driven by intense x-rays from a free electron laser. The presence of K$_β$ emission indicates the $n=3$ atomic shell is relocalized for high charge states, providing an upper constraint on the depression of the ionization potential. We explore the process of state relocalization in dense plasmas from first principles using finite-temperature density functional theory alongside a wavefunction localization metric, and find excellent agreement with experimental results.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-02-08T14:27:15Z</published>
+    <arxiv:comment>22 pages, 13 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>Thomas Gawne</name>
+    </author>
+    <author>
+      <name>Thomas Campbell</name>
+    </author>
+    <author>
+      <name>Alessandro Forte</name>
+    </author>
+    <author>
+      <name>Patrick Hollebon</name>
+    </author>
+    <author>
+      <name>Gabriel Perez-Callejo</name>
+    </author>
+    <author>
+      <name>Oliver Humphries</name>
+    </author>
+    <author>
+      <name>Oliver Karnbach</name>
+    </author>
+    <author>
+      <name>Muhammad F. Kasim</name>
+    </author>
+    <author>
+      <name>Thomas R. Preston</name>
+    </author>
+    <author>
+      <name>Hae Ja Lee</name>
+    </author>
+    <author>
+      <name>Alan Miscampbell</name>
+    </author>
+    <author>
+      <name>Quincy Y. van den Berg</name>
+    </author>
+    <author>
+      <name>Bob Nagler</name>
+    </author>
+    <author>
+      <name>Shenyuan Ren</name>
+    </author>
+    <author>
+      <name>Ryan B. Royle</name>
+    </author>
+    <author>
+      <name>Justin S. Wark</name>
+    </author>
+    <author>
+      <name>Sam M. Vinko</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevE.108.035210</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevE.108.035210" title="doi"/>
+  </entry>
+</feed>

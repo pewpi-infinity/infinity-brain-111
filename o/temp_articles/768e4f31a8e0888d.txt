@@ -1,0 +1,42 @@
+TERMS: resonance, tachyon, probability
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/CEVibH1Q9yn3b1n9o7IfOfMWpPc</id>
+  <title>arXiv Query: search_query=all:resonance AND all:tachyon AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:35:08Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:resonance+AND+(all:tachyon+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2001.02154v1</id>
+    <title>Generalized geometrical coupling for vector field localization on thick brane in asymptotic Anti-de Sitter spacetime</title>
+    <updated>2020-01-07T16:26:17Z</updated>
+    <link href="https://arxiv.org/abs/2001.02154v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2001.02154v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>It is known that a five-dimensional free vector field $A_{M}$ cannot be localized on Randall-Sundrum (RS)-like thick branes, namely, the thick branes embedded in asymptotic Anti-de Sitter (AdS) spacetime. In order to localize a vector field on the RS-like thick brane, an extra coupling term should be introduced. In this paper, we generalize the geometrical coupling mechanism by adding two mass terms ($αRg^{MN}A_{M}A_{N}+βR^{MN}A_{M}A_{N}$) into the action. We decompose the fundamental vector field $A_{M}$ into three parts: transverse vector part $\hat{A}_μ$, scalar parts $φ$ and $A_{5}$. Then, we find that the transverse vector part $\hat{A}_μ$ decouples from the scalar parts. In order to eliminate the tachyonic modes of $\hat{A}_μ$, the two coupling parameters $α$ and $β$ should satisfy a relation. Combining the restricted condition, we can get a combination parameter as $γ=\frac{3}{2}\pm\sqrt{1+12α}$. Only if $γ&gt;1/2$, the zero mode of $\hat{A}_μ$ can be localized on the RS-like thick brane. We also investigate the resonant character of the vector part $\hat{A}_μ$ for the general RS-like thick brane with the warp factor $A(z)=-\ln(1+k^2z^2)/2$ by choosing the relative probability method. The result shows that, only for $γ&gt;3$, the massive resonant Kaluza-Klein modes can exist. The number of resonant Kaluza-Klein states increases with the combination parameter $γ$, and the lifetime of the first resonant state can be long enough as the age of our universe. This indicates that the vector resonances might be considered as one of the candidates of dark matter.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-01-07T16:26:17Z</published>
+    <arxiv:comment>8 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Phys. Rev. D 101, 055031 (2020)</arxiv:journal_ref>
+    <author>
+      <name>Tao-Tao Sui</name>
+    </author>
+    <author>
+      <name>Wen-Di Guo</name>
+    </author>
+    <author>
+      <name>Qun-Ying Xie</name>
+    </author>
+    <author>
+      <name>Yu-Xiao Liu</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.101.055031</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.101.055031" title="doi"/>
+  </entry>
+</feed>

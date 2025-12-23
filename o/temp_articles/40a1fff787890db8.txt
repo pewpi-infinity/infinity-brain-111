@@ -1,0 +1,29 @@
+TERMS: hydrogen, fusion, crystal, muon
+COLORS: purple, green, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/wlYjxSLXQvUXIPbMRqYMj3ClF/0</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:fusion AND all:crystal AND all:muon&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:53:01Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:fusion+AND+(all:crystal+AND+all:muon))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2504.20057v1</id>
+    <title>Can 1957 cold-fusion explain 1989 cold-fusion?</title>
+    <updated>2025-04-13T15:10:42Z</updated>
+    <link href="https://arxiv.org/abs/2504.20057v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.20057v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The possibility that muon-catalyzed nuclear fusion at ambient temperature takes place in deuterated metals is analyzed theoretically. It is suggested that the muon-catalyzed deuterium-deuterium (dd) or deuterium-tritium (dt) fusion rate, experimentally observed in liquid deuterium, increases in a PdD crystal. The main reason is that, in the palladium crystal matrix, deuterium diffuses in ionic (d+), rather than molecular (D2), form, thereby favoring the rate of (d$μ$d)+ formation. The slightly enhanced deuterium density and the possibly reduced muon sticking probability (compared to liquid hydrogen) point to an increase of the fusion-rate, unfortunately counterbalanced by the probability of $μ^-$ capture by the Pd nucleus, whose value should be evaluated by a dedicated experiment. If this mechanism were possible, we advance the hypothesis that 1989 cold fusion might have been randomly triggered by cosmic muons: an order-of-magnitude analysis shows that, under special conditions, a mW power per $μ^-$ might be produced. Moreover, recent experimental results showing that neutrons can sustain deuterium fusion in out-of-equilibrium conditions might explain the remaining power generation. However, reliable quantitative figures are difficult to obtain theoretically, and an experiment is suggested, to be conducted at muon-beam sources, to verify or invalidate this idea.</summary>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-13T15:10:42Z</published>
+    <arxiv:comment>11 pages, 3 figures, 57 References</arxiv:comment>
+    <arxiv:primary_category term="physics.ins-det"/>
+    <author>
+      <name>S. Di Matteo</name>
+    </author>
+  </entry>
+</feed>

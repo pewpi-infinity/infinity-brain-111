@@ -1,0 +1,80 @@
+TERMS: hydrogen, fusion, electron, spin
+COLORS: purple, green, green, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ewh8/kmdro1u1syWBzmxUHb7Spg</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:fusion AND all:electron AND all:spin&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:52:20Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:fusion+AND+(all:electron+AND+all:spin))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>3</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2406.08849v3</id>
+    <title>Electronic processes in collisions between nitrogen ions and hydrogen atoms</title>
+    <updated>2024-09-06T07:36:02Z</updated>
+    <link href="https://arxiv.org/abs/2406.08849v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.08849v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In order to interpret and predict the behavior and properties of fusion plasma, accurate cross sections for electronic processes in collisions between plasma impurities and atomic hydrogen are required. In this work, we investigate the electron capture (or charge exchange), target excitation, and ionization processes occurring in collision of ${\rm N}^{4+}$ with atomic hydrogen in a broad energy domain ranging from 0.06 to 225 keV/u. We consider ${\rm N}^{4+}$ ground state ${\rm N}^{4+} (2s)$ and also ${\rm N}^{4+} (2p)$ since the impurities in the edge plasma environment may be excited due to collisions with electrons and ions/atoms. Total and partial cross sections in both spin-averaged and spin-resolved cases are calculated using a two-active-electron semiclassical asymptotic-state close-coupling approach. For electron capture cross sections the present results show the best overall agreement with available experimental data for both total and partial cross sections, and the origins of observed discrepancies are discussed. Furthermore, we provide new data for target excitation and ionization processes, which are essential to improve our understanding of this relevant collision system.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-13T06:24:54Z</published>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <arxiv:journal_ref>Physical Review A 110, 062820 (2024)</arxiv:journal_ref>
+    <author>
+      <name>C. C. Jia</name>
+    </author>
+    <author>
+      <name>Y. Y. Qi</name>
+    </author>
+    <author>
+      <name>J. J. Niu</name>
+    </author>
+    <author>
+      <name>Y. Wu J. G. Wang</name>
+    </author>
+    <author>
+      <name>A. Dubois</name>
+    </author>
+    <author>
+      <name>N. Sisourat</name>
+    </author>
+    <author>
+      <name>J. W. Gao</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.110.062820</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.110.062820" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1906.08243v12</id>
+    <title>A simple argument that small hydrogen may exist</title>
+    <updated>2025-11-14T05:45:14Z</updated>
+    <link href="https://arxiv.org/abs/1906.08243v12" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1906.08243v12" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper examines the possible existence of a tightly bound electron-proton state (small hydrogen), with a characteristic radius of a few femtometers. Motivated by early suggestions of deep relativistic solutions in the Dirac equation, we develop an approximate stability model based on the relativistic virial theorem, incorporating finite-size nuclear potentials, relativistic kinetic energy, and spin-magnetic and spin-orbit corrections. This approach yields a self-consistent estimate of the state's radius, total binding energy, and hyperfine splitting. The resulting predictions - a binding-energy feature near 150 keV and a hyperfine transition near 100 +/- 30 keV - define concrete, experimentally testable signatures. If such states form efficiently, they may have implications in astrophysics, fusion concepts, and dark-matter phenomenology.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-06-04T21:18:35Z</published>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>J. Va'vra</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/physics/0406141v1</id>
+    <title>Exact solution of the Zeeman effect in single-electron systems</title>
+    <updated>2004-06-28T10:16:48Z</updated>
+    <link href="https://arxiv.org/abs/physics/0406141v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/physics/0406141v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Contrary to popular belief, the Zeeman effect can be treated exactly in single-electron systems, for arbitrary magnetic field strengths, as long as the term quadratic in the magnetic field can be ignored. These formulas were actually derived already around 1927 by Darwin, using the classical picture of angular momentum, and presented in their proper quantum-mechanical form in 1933 by Bethe, although without any proof. The expressions have since been more or less lost from the literature; instead, the conventional treatment nowadays is to present only the approximations for weak and strong fields, respectively. However, in fusion research and other plasma physics applications, the magnetic fields applied to control the shape and position of the plasma span the entire region from weak to strong fields, and there is a need for a unified treatment. In this paper we present the detailed quantum-mechanical derivation of the exact eigenenergies and eigenstates of hydrogen-like atoms and ions in a static magnetic field. Notably, these formulas are not much more complicated than the better-known approximations. Moreover, the derivation allows the value of the electron spin gyromagnetic ratio $g_s$ to be different from 2. For completeness, we then review the details of dipole transitions between two hydrogenic levels, and calculate the corresponding Zeeman spectrum. The various approximations made in the derivation are also discussed in details.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-06-28T10:16:48Z</published>
+    <arxiv:comment>18 pages, 4 figures. Submitted to Physica Scripta</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>A. Blom</name>
+    </author>
+    <arxiv:doi>10.1088/0031-8949/2005/T120/014</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0031-8949/2005/T120/014" title="doi"/>
+  </entry>
+</feed>

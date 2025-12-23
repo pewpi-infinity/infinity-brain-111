@@ -1,0 +1,81 @@
+TERMS: hydrogen, crystal, spin, graphene
+COLORS: purple, orange, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/AiNruhVSxq+2OqKl+CAwPUR9lCE</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:crystal AND all:spin AND all:graphene&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T02:00:14Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:crystal+AND+(all:spin+AND+all:graphene))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1507.07714v2</id>
+    <title>Topological features of hydrogenated graphene</title>
+    <updated>2015-07-30T15:59:24Z</updated>
+    <link href="https://arxiv.org/abs/1507.07714v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1507.07714v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Hydrogen adatoms are one of the most the promising proposals for the functionalization of graphene. Hydrogen induces narrow resonances near the Dirac energy, which lead to the formation of magnetic moments. Furthermore, they also create local lattice distortions which enhance the spin-orbit coupling. The combination of magnetism and spin-orbit coupling allows for a rich variety of phases, some of which have non trivial topological features. We analyze the interplay between magnetism and spin-orbit coupling in ordered arrays of hydrogen on graphene monolayers, and classify the different phases that may arise. We extend our model to consider arrays of adsorbates in graphene-like crystals with stronger intrinsic spin-orbit couplings.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-07-28T10:31:30Z</published>
+    <arxiv:comment>6 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Physica B: Condensed Matter 496 (2016): 1-8</arxiv:journal_ref>
+    <author>
+      <name>Luis A. González-Árraga</name>
+    </author>
+    <author>
+      <name>J. L. Lado</name>
+    </author>
+    <author>
+      <name>F. Guinea</name>
+    </author>
+    <arxiv:doi>10.1016/j.physb.2016.05.006</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physb.2016.05.006" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.11413v1</id>
+    <title>Solving the Phase Problem of Diffraction: X-ray Standing Waves Imaging on Bismuthene/SiC(0001)</title>
+    <updated>2025-04-15T17:28:24Z</updated>
+    <link href="https://arxiv.org/abs/2504.11413v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.11413v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The phase retrieval problem is a fundamental shortcoming of all diffraction-based methods, arising from the inability to measure the phase of scattered waves. The (normal incidence) X-ray standing wave (NIXSW) technique circumvents this issue by introducing a (Bragg-generated) X-ray standing wave field throughout the sample, relative to which any atomic species can be localized by probing its fluorescence or photoelectron yield. In essence, in a single measurement the complex scattering factor (i.e., its amplitude \textit{and} phase) corresponding to the used Bragg reflection is determined. Performing this for multiple Bragg reflections enables one to reconstruct the scattering density of the sample in three dimensions, straightforwardly as the Fourier sum of all measured (complex) scattering factors. Here, we utilize this technique to reveal the structural key features involved in the formation of the quantum spin Hall insulator bismuthene on silicon carbide. In this prominent example, the two-dimensional Bi layer is confined between a 4H-SiC substrate crystal and an epitaxial graphene layer. The key finding is a change in the adsorption site of the Bi atoms underneath the graphene upon hydrogenation, caused by the H-saturation of one (out of three) Si dangling bonds per unit cell. This structural change, clearly revealed by our NIXSW imaging experiment, is the key feature leading to the formation of the characteristic band structure of the 2D bismuthene honeycomb.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-15T17:28:24Z</published>
+    <arxiv:comment>Five Figures, supplement with three figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>2D Materials 12, 045020 (2025)</arxiv:journal_ref>
+    <author>
+      <name>Niclas Tilgner</name>
+    </author>
+    <author>
+      <name>Susanne Wolff</name>
+    </author>
+    <author>
+      <name>Serguei Soubatch</name>
+    </author>
+    <author>
+      <name>Tien-Lin Lee</name>
+    </author>
+    <author>
+      <name>Fabian Göhler</name>
+    </author>
+    <author>
+      <name>F. Stefan Tautz</name>
+    </author>
+    <author>
+      <name>Thomas Seyller</name>
+    </author>
+    <author>
+      <name>Philip Schädlich</name>
+    </author>
+    <author>
+      <name>Christian Kumpf</name>
+    </author>
+    <arxiv:doi>10.1088/2053-1583/ae0f27</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/2053-1583/ae0f27" title="doi"/>
+  </entry>
+</feed>

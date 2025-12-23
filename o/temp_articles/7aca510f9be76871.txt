@@ -1,0 +1,37 @@
+TERMS: hydrogen, quantum, entropy, resonance
+COLORS: purple, blue, red, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/yKwNe48DqYz0qk7ykjX/MlujCsI</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:entropy AND all:resonance&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:38:28Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:entropy+AND+all:resonance))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1903.03567v5</id>
+    <title>Quantum valence bond ice theory for proton-driven quantum spin-dipole liquids</title>
+    <updated>2020-09-18T06:27:23Z</updated>
+    <link href="https://arxiv.org/abs/1903.03567v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1903.03567v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a theory of a hybrid quantum liquid state, $\textit{quantum spin-dipole liquid}$ (QSDL), in a hydrogen-bonded electron system, by combining a quantum proton ice and Anderson's resonating valence bond spin liquid theory, motivated by the recent experimental discovery of a quantum spin liquid with proton fluctuations in $κ$-H$_3$(Cat-EDT-TTF)$_2$ (a.k.a. H-Cat). In our theory, an electron spin liquid and a proton dipole liquid are realized simultaneously in the ground state called $\textit{quantum valence bond ice}$. In this state, neither of them can be established independently of the other. Analytical and numerical calculations reveal that this state has a large entanglement entropy between spins and dipoles, which is far beyond the (crude) Born-Oppenheimer approximation. We also examine the stability of QSDL with respect to perturbations and discuss implications for experiments in H-Cat and its deuterated analog D-Cat.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-03-08T17:20:22Z</published>
+    <arxiv:comment>9 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Phys. Rev. Research 2, 043077 (2020)</arxiv:journal_ref>
+    <author>
+      <name>Masahiko G. Yamada</name>
+    </author>
+    <author>
+      <name>Yasuhiro Tada</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevResearch.2.043077</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevResearch.2.043077" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,32 @@
+TERMS: entropy, ionization, wavefunction
+COLORS: red, green, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Bmh1qcu2yUZORQxE9XeCQj+zu2E</id>
+  <title>arXiv Query: search_query=all:entropy AND all:ionization AND all:wavefunction&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:17:47Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+(all:ionization+AND+all:wavefunction)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1105.5862v7</id>
+    <title>Quantum thermodynamics at critical points during melting and solidification processes</title>
+    <updated>2014-01-17T06:37:35Z</updated>
+    <link href="https://arxiv.org/abs/1105.5862v7" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1105.5862v7" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We systematically explore and show the existence of finite-temperature continuous quantum phase transition (CTQPT) at a critical point, namely, during solidification or melting such that the first-order thermal phase transition is a special case within CTQPT. Infact, CTQPT is related to chemical reaction where quantum fluctuation (due to wavefunction transformation) is caused by thermal energy and it can occur maximally for temperatures much higher than zero Kelvin. To extract the quantity related to CTQPT, we use the ionization energy theory and the energy-level spacing renormalization group method to derive the energy-level spacing entropy, renormalized Bose-Einstein distribution and the time-dependent specific heat capacity. This work unambiguously shows that the quantum phase transition applies for any finite temperatures.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-05-30T04:39:23Z</published>
+    <arxiv:comment>To be published in Indian Journal of Physics (Kolkata)</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Indian Journal of Physics 88 (2014) 609</arxiv:journal_ref>
+    <author>
+      <name>Andrew Das Arulsamy</name>
+    </author>
+    <arxiv:doi>10.1007/s12648-014-0450-5</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s12648-014-0450-5" title="doi"/>
+  </entry>
+</feed>

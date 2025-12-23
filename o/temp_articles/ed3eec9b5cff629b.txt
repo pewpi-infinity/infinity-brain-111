@@ -1,0 +1,37 @@
+TERMS: fusion, resonance, oxidation
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/bmVnlSv0BpMuj6huY/jxJvJr0Ts</id>
+  <title>arXiv Query: search_query=all:fusion AND all:resonance AND all:oxidation&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:21:51Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:fusion+AND+(all:resonance+AND+all:oxidation)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1411.5397v1</id>
+    <title>Internally Oxidized Nb3Sn Strands with Fine Grain Size and High Critical Current Density</title>
+    <updated>2014-11-19T22:22:22Z</updated>
+    <link href="https://arxiv.org/abs/1411.5397v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1411.5397v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Nb3Sn superconducting strands are the most practical conductors to generate high magnetic fields (12-16 T), and thus have significant applications in nuclear magnetic resonance (NMR), and great potential for fusion reactors and particle accelerator magnets. High critical current density (Jc) is a key parameter for such applications. Significant efforts towards optimization of various factors led to an 80% improvement in Jc from the early 1990s to 2003, when the 4.2 K, 12 T non-matrix Jc reached 3000 A/mm2 (corresponding to 5000 A/mm2 in Nb3Sn layer Jc). However, further efforts over the past decade have failed to bring about further increase beyond this level, leading some researchers to conclude that the Jc of conventional Nb3Sn strands had reached its maximum. Here, however, by applying an internal oxidation method, we reduce the grain size by a factor of three and nearly double the 12 T Jc. In this method, a Nb3Sn strand is fabricated with Nb-Zr alloy as starting material; with oxygen supplied properly via an oxide powder, the Zr atoms in the Nb-Zr alloy are internally oxidized, forming fine intra-granular and inter-granular ZrO2 particles in Nb3Sn layer, which effectively refine Nb3Sn grain size. At a reaction temperature of 625 °C, grain size down to 20-50 nm (36 nm on average) has been achieved. For this sample the 4.2 K, 12 T Nb3Sn layer Jc reached 9600 A/mm2.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-11-19T22:22:22Z</published>
+    <arxiv:comment>5 pages, 5 figures, to be published in Advanced Materials, 2014</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>Advanced Materials 2015, 27, 1346-1350</arxiv:journal_ref>
+    <author>
+      <name>Xingchen Xu</name>
+    </author>
+    <author>
+      <name>Michael D. Sumption</name>
+    </author>
+    <author>
+      <name>Xuan Peng</name>
+    </author>
+    <arxiv:doi>10.1002/adma.201404335</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1002/adma.201404335" title="doi"/>
+  </entry>
+</feed>

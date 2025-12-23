@@ -1,0 +1,72 @@
+TERMS: spin, probability, singularity
+COLORS: yellow, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/iSVMGtELyb7adsE6JN0iwGy1vxc</id>
+  <title>arXiv Query: search_query=all:spin AND all:probability AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:33:07Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:spin+AND+(all:probability+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>75</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1208.3182v3</id>
+    <title>Conditional ergodicity in infinite dimension</title>
+    <updated>2014-10-27T13:45:40Z</updated>
+    <link href="https://arxiv.org/abs/1208.3182v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1208.3182v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The goal of this paper is to develop a general method to establish conditional ergodicity of infinite-dimensional Markov chains. Given a Markov chain in a product space, we aim to understand the ergodic properties of its conditional distributions given one of the components. Such questions play a fundamental role in the ergodic theory of nonlinear filters. In the setting of Harris chains, conditional ergodicity has been established under general nondegeneracy assumptions. Unfortunately, Markov chains in infinite-dimensional state spaces are rarely amenable to the classical theory of Harris chains due to the singularity of their transition probabilities, while topological and functional methods that have been developed in the ergodic theory of infinite-dimensional Markov chains are not well suited to the investigation of conditional distributions. We must therefore develop new measure-theoretic tools in the ergodic theory of Markov chains that enable the investigation of conditional ergodicity for infinite dimensional or weak-* ergodic processes. To this end, we first develop local counterparts of zero-two laws that arise in the theory of Harris chains. These results give rise to ergodic theorems for Markov chains that admit asymptotic couplings or that are locally mixing in the sense of H. Föllmer, and to a non-Markovian ergodic theorem for stationary absolutely regular sequences. We proceed to show that local ergodicity is inherited by conditioning on a nondegenerate observation process. This is used to prove stability and unique ergodicity of the nonlinear filter. Finally, we show that our abstract results can be applied to infinite-dimensional Markov processes that arise in several settings, including dissipative stochastic partial differential equations, stochastic spin systems and stochastic differential delay equations.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-08-15T19:16:33Z</published>
+    <arxiv:comment>Published in at http://dx.doi.org/10.1214/13-AOP879 the Annals of Probability (http://www.imstat.org/aop/) by the Institute of Mathematical Statistics (http://www.imstat.org)</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <arxiv:journal_ref>Annals of Probability 2014, Vol. 42, No. 6, 2243-2313</arxiv:journal_ref>
+    <author>
+      <name>Xin Thomson Tong</name>
+    </author>
+    <author>
+      <name>Ramon van Handel</name>
+    </author>
+    <arxiv:doi>10.1214/13-AOP879</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1214/13-AOP879" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/gr-qc/0611047v3</id>
+    <title>Unconventional string-like singularities in flat spacetime</title>
+    <updated>2008-04-22T17:18:28Z</updated>
+    <link href="https://arxiv.org/abs/gr-qc/0611047v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/gr-qc/0611047v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The conical singularity in flat spacetime is mostly known as a model of the cosmic string or the wedge disclination in solids. Its another, equally important, function is to be a representative of quasiregular singularities.
+  From all these of views it seems interesting to find out whether there exist other similar singularities. To specify what "similar" means I introduce the notion of the string-like singularity, which is, roughly speaking, an absolutely mild singularity concentrated on a curve or on a 2-surface S (depending on whether the space is three- of four-dimensional). A few such singularities are already known: the aforementioned conical singularity, two its Lorentzian versions, the "spinning string", the "screw dislocation", and Tod's spacetime. In all these spacetimes S is a straight line (or a plane) and one may wonder if this is an inherent property of the string-like singularities. The aim of this paper is to construct string-like singularities with less trivial S. These include flat spacetimes in which S is a spiral, or even a loop. If such singularities exist in nature (in particular, as an approximation to gravitational field of strings) their cosmological and astrophysical manifestations must differ drastically from those of the conventional cosmic strings. Likewise, being realized as topological defects in crystals such loops and spirals will probably also have rather unusual properties.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-11-07T15:06:38Z</published>
+    <arxiv:comment>Draft. References and comments are welcome. v2. Section 3 is intact, the rest is made briefer and clearer. A couple of references are added. v3. Insignificant correstions. The published version</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Phys.Rev.D76:024010,2007</arxiv:journal_ref>
+    <author>
+      <name>S. Krasnikov</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.76.024010</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.76.024010" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0809.0683v1</id>
+    <title>A Remark on the Infinite-Volume Gibbs Measures of Spin Glasses</title>
+    <updated>2008-09-03T17:45:44Z</updated>
+    <link href="https://arxiv.org/abs/0809.0683v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0809.0683v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this note, we point out that infinite-volume Gibbs measures of spin glass models on the hypercube can be identified as random probability measures on the unit ball of a Hilbert space. This simple observation follows from a result of Dovbysh and Sudakov on weakly exchangeable random matrices. Limiting Gibbs measures can then be studied as single well-defined objects. This approach naturally extends the space of Random Overlap Structures as defined by Aizenman, Sims and Starr. We discuss the Ruelle Probability Cascades and the stochastic stability within this framework. As an application, we use an idea of Parisi and Talagrand to prove that if a sequence of finite-volume Gibbs measures satisfies the Ghirlanda-Guerra identities, then the infinite-volume measure must be singular as a measure on a Hilbert space.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-09-03T17:45:44Z</published>
+    <arxiv:comment>11 pages, to appear in the special issue "Statistical Mechanics of Random Structures" of J. Math. Phys</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <arxiv:journal_ref>J. Math. Phys. 49 (2008) 125204</arxiv:journal_ref>
+    <author>
+      <name>Louis-Pierre Arguin</name>
+    </author>
+    <arxiv:doi>10.1063/1.2966281</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/1.2966281" title="doi"/>
+  </entry>
+</feed>

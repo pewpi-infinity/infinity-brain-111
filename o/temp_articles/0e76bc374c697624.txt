@@ -1,0 +1,82 @@
+TERMS: frequency, entropy, resonance
+COLORS: green, red, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/8L3HR0NvZrYevIzwfar3XpL4/FQ</id>
+  <title>arXiv Query: search_query=all:frequency AND all:entropy AND all:resonance&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:10:01Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:entropy+AND+all:resonance)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>83</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/physics/0409005v1</id>
+    <title>Optimal behavior of viscoelastic flow at resonant frequencies</title>
+    <updated>2004-09-01T13:01:45Z</updated>
+    <link href="https://arxiv.org/abs/physics/0409005v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/physics/0409005v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The global entropy generation rate in the zero-mean oscillatory flow of a Maxwell fluid in a pipe is analyzed with the aim at determining its behavior at resonant flow conditions. This quantity is calculated explicitly using the analytic expression for the velocity field and assuming isothermal conditions. The global entropy generation rate shows well-defined peaks at the resonant frequencies where the flow displays maximum velocities. It was found that resonant frequencies can be considered optimal in the sense that they maximize the power transmitted to the pulsating flow at the expense of maximum dissipation.</summary>
+    <category term="physics.flu-dyn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.class-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-09-01T13:01:45Z</published>
+    <arxiv:comment>Paper accepted to be published in Phys. Rev. E</arxiv:comment>
+    <arxiv:primary_category term="physics.flu-dyn"/>
+    <arxiv:journal_ref>Phys. Rev. E 70, 056302 (2004).</arxiv:journal_ref>
+    <author>
+      <name>A. A. Lambert</name>
+    </author>
+    <author>
+      <name>G. Ibanez</name>
+    </author>
+    <author>
+      <name>S. Cuevas</name>
+    </author>
+    <author>
+      <name>J. A. del Rio</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevE.70.056302</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevE.70.056302" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0507340v1</id>
+    <title>Entropy bounds in nonlinear quantum nanooptics</title>
+    <updated>2005-07-14T14:33:05Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0507340v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0507340v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Optical entropy bounds for metal nanoparticles immersed in nonlinear optical media and for nonlinear dielectric microdroplets on metal surfaces are calculated near the frequency of the surface plasmon resonance. Similar to the Bekenstein-Hawking result for the black hole entropy, the entropy bounds in nonlinear quantum nanooptics may be expressed as the ratios of the droplet perimeter (nanoparticle area) to the effective Planck length (effective Planck length squared).</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-07-14T14:33:05Z</published>
+    <arxiv:comment>4 pages, 1 figure</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Modern Physics Letters B, 20, 321-342 (2006)</arxiv:journal_ref>
+    <author>
+      <name>Igor I. Smolyaninov</name>
+    </author>
+    <arxiv:doi>10.1142/S0217984906010846</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/S0217984906010846" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1803.01209v1</id>
+    <title>Stochastic Resonance for a Model with Two Pathways</title>
+    <updated>2018-03-03T17:50:10Z</updated>
+    <link href="https://arxiv.org/abs/1803.01209v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1803.01209v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this thesis we consider stochastic resonance for a diffusion with drift given by a potential, which has two metastable states and two pathways between them. Depending on the direction of the forcing the height of the two barriers, one for each path, will either oscillate alternating or in synchronisation.
+  We consider a simplified model given by discrete and continuous time Markov Chains with two states. This was done for alternating and synchronised wells. The invariant measures are derived for both cases and shown to be constant for the synchronised case. A PDF for the escape time from an oscillatory potential is reviewed.
+  Methods of detecting stochastic resonance are presented, which are linear response, signal-to-noise ratio, energy, out-of-phase measures, relative entropy and entropy. A new statistical test called the conditional Kolmogorov-Smirnov test is developed, which can be used to analyse stochastic resonance.
+  An explicit two dimensional potential is introduced, the critical point structure derived and the dynamics, the invariant state and escape time studied numerically.
+  The six measures are unable to detect the stochastic resonance in the case of synchronised saddles. The distribution of escape times however not only shows a clear sign of stochastic resonance, but changing the direction of the forcing from alternating to synchronised saddles an additional resonance at double the forcing frequency starts to appear. The conditional KS test reliably detects the stochastic resonance even for forcing quick enough and for data so sparse that the stochastic resonance is not obvious directly from the histogram of escape times.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.data-an" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.geo-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-03-03T17:50:10Z</published>
+    <arxiv:comment>PhD thesis defended at the University of Reading</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Tommy Liu</name>
+    </author>
+  </entry>
+</feed>

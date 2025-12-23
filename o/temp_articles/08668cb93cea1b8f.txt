@@ -1,0 +1,166 @@
+TERMS: hydrogen, frequency, ionization, muon
+COLORS: purple, green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/I/R9fRB5dfBZ4iL5R/pLmSZiuZg</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:frequency AND all:ionization AND all:muon&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:43:50Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:frequency+AND+(all:ionization+AND+all:muon))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>4</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/physics/0501071v3</id>
+    <title>6D Ionization Muon Cooling with Tabletop Rings</title>
+    <updated>2005-01-18T02:52:26Z</updated>
+    <link href="https://arxiv.org/abs/physics/0501071v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/physics/0501071v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Progress on six dimensional ionization muon cooling with relatively small rings of magnets is described. Lattices being explored include scaling sector cyclotrons with edge focusing and strong focusing, fixed field alternating gradient (FFAG) rings. Ionization cooling is provided by high pressure hydrogen gas which removes both transverse and longitudinal momentum. Lost longitudinal momentum is replaced using radio frequency (RF) cavities, giving a net transverse emittance reduction. The longer path length in the hydrogen of higher momentum muons decreases longitudinal emittance at the expense of transverse emittance. Thus emittance exchange allows these rings to cool in all six dimensions and not just transversely. Alternatively, if the RF is located after the ring, it may be possible to cool the muons by stopping them as they spiral adiabatically into a central swarm. As momentum goes to zero, the momentum spread goes to zero. The resulting cooled muons can lead to an intense muon beam which could be a source for neutrino factories or muon colliders.</summary>
+    <category term="physics.acc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-01-14T02:18:04Z</published>
+    <arxiv:comment>Six pages. One LaTeX, one style, and five postscript figure files. To appear in the proceedings of DPF 2004: Annual Meeting of the Division of Particles and Fields (DPF) of the American Physical Society (APS), Riverside, California, 26-31 Aug 2004</arxiv:comment>
+    <arxiv:primary_category term="physics.acc-ph"/>
+    <arxiv:journal_ref>Int.J.Mod.Phys.A20:3851-3856,2005</arxiv:journal_ref>
+    <author>
+      <name>D. J. Summers</name>
+      <arxiv:affiliation>Mississippi U</arxiv:affiliation>
+    </author>
+    <author>
+      <name>S. B. Bracker</name>
+      <arxiv:affiliation>Mississippi U</arxiv:affiliation>
+    </author>
+    <author>
+      <name>L. M. Cremaldi</name>
+      <arxiv:affiliation>Mississippi U</arxiv:affiliation>
+    </author>
+    <author>
+      <name>R. Godang</name>
+      <arxiv:affiliation>Mississippi U</arxiv:affiliation>
+    </author>
+    <author>
+      <name>D. B. Cline</name>
+      <arxiv:affiliation>UCLA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>A. A. Garren</name>
+      <arxiv:affiliation>UCLA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>G. G. Hanson</name>
+      <arxiv:affiliation>UC Riverside</arxiv:affiliation>
+    </author>
+    <author>
+      <name>A. Klier</name>
+      <arxiv:affiliation>UC Riverside</arxiv:affiliation>
+    </author>
+    <author>
+      <name>S. A. Kahn</name>
+      <arxiv:affiliation>Brookhaven</arxiv:affiliation>
+    </author>
+    <author>
+      <name>H. G. Kirk</name>
+      <arxiv:affiliation>Brookhaven</arxiv:affiliation>
+    </author>
+    <author>
+      <name>R. B. Palmer</name>
+      <arxiv:affiliation>Brookhaven</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1142/S0217751X05027795</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/S0217751X05027795" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.05285v2</id>
+    <title>Simulation of plasma loading of high-pressure RF cavities</title>
+    <updated>2017-11-06T01:59:35Z</updated>
+    <link href="https://arxiv.org/abs/1709.05285v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1709.05285v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Muon beam-induced plasma loading of radio-frequency (RF) cavities filled with high pressure hydrogen gas with 1% dry air dopant has been studied via numerical simulations. The electromagnetic code SPACE, that resolves relevant atomic physics processes, including ionization by the muon beam, electron attachment to dopant molecules, and electron-ion and ion-ion recombination, has been used. Simulations studies have been performed in the range of parameters typical for practical muon cooling channels.</summary>
+    <category term="physics.acc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-09-14T14:53:03Z</published>
+    <arxiv:comment>11 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.acc-ph"/>
+    <author>
+      <name>Kwangmin Yu</name>
+    </author>
+    <author>
+      <name>Roman Samulyak</name>
+    </author>
+    <author>
+      <name>Katsuya Yonehar</name>
+    </author>
+    <author>
+      <name>Ben Freemire</name>
+    </author>
+    <arxiv:doi>10.1088/1748-0221/13/01/P01008</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1748-0221/13/01/P01008" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1801.01907v1</id>
+    <title>Pressurized rf cavities in ionizing beams</title>
+    <updated>2018-01-05T20:00:56Z</updated>
+    <link href="https://arxiv.org/abs/1801.01907v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1801.01907v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A muon collider or Higgs factory requires significant reduction of the six dimensional emittance of the beam prior to acceleration. One method to accomplish this involves building a cooling channel using high pressure gas filled radio frequency cavities. The performance of such a cavity when subjected to an intense particle beam must be investigated before this technology can be validated. To this end, a high pressure gas filled radio frequency (rf) test cell was built and placed in a 400 MeV beam line from the Fermilab linac to study the plasma evolution and its effect on the cavity. Hydrogen, deuterium, helium and nitrogen gases were studied. Additionally, sulfur hexafluoride and dry air were used as dopants to aid in the removal of plasma electrons. Measurements were made using a variety of beam intensities, gas pressures, dopant concentrations, and cavity rf electric fields, both with and without a 3 T external solenoidal magnetic field. Energy dissipation per electron-ion pair, electron-ion recombination rates, ion-ion recombination rates, and electron attachment times to $SF_6$ and $O_2$ were measured.</summary>
+    <category term="physics.acc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-01-05T20:00:56Z</published>
+    <arxiv:comment>15 pp</arxiv:comment>
+    <arxiv:primary_category term="physics.acc-ph"/>
+    <arxiv:journal_ref>Phys.Rev.Accel.Beams 19,062004 (2016)</arxiv:journal_ref>
+    <author>
+      <name>B. Freemire</name>
+      <arxiv:affiliation>IIT, Chicago</arxiv:affiliation>
+    </author>
+    <author>
+      <name>A. V. Tollestrup</name>
+      <arxiv:affiliation>Fermilab</arxiv:affiliation>
+    </author>
+    <author>
+      <name>K. Yonehara</name>
+      <arxiv:affiliation>Fermilab</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. Chung</name>
+      <arxiv:affiliation>UNIST, Ulsan</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Y. Torun</name>
+      <arxiv:affiliation>IIT, Chicago</arxiv:affiliation>
+    </author>
+    <author>
+      <name>R. P. Johnson</name>
+      <arxiv:affiliation>MUONS Inc., Batavia</arxiv:affiliation>
+    </author>
+    <author>
+      <name>G. Flanagan</name>
+      <arxiv:affiliation>MUONS Inc., Batavia</arxiv:affiliation>
+    </author>
+    <author>
+      <name>P. M. Hanlet</name>
+      <arxiv:affiliation>IIT, Chicago</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. G. Collura</name>
+      <arxiv:affiliation>UC, Santa Barbara</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. R. Jana</name>
+      <arxiv:affiliation>Bhat, Inst. Plasma Res.</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. Leonova</name>
+      <arxiv:affiliation>Fermilab</arxiv:affiliation>
+    </author>
+    <author>
+      <name>A. Moretti</name>
+      <arxiv:affiliation>Fermilab</arxiv:affiliation>
+    </author>
+    <author>
+      <name>T. Schwarz</name>
+      <arxiv:affiliation>Michigan U.</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1103/PhysRevAccelBeams.19.062004</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevAccelBeams.19.062004" title="doi"/>
+  </entry>
+</feed>

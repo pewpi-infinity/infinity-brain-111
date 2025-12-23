@@ -1,0 +1,54 @@
+TERMS: hydrogen, lattice, vapor, plasma
+COLORS: purple, orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/22j9lemoj2+f2E/YLHYShsY/Jv0</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:lattice AND all:vapor AND all:plasma&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:46:51Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:lattice+AND+(all:vapor+AND+all:plasma))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0304307v1</id>
+    <title>Interaction of fcc-Palladium nano-crystals with Hydrogen during PECVD growth of Carbon nanotubes</title>
+    <updated>2003-04-14T04:33:04Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0304307v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0304307v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Using plasma-enhanced chemical vapor deposition (PECVD) with Acetylene and Ammoniac on Pd-specimens Carbon nanotubes (CNT) could be produced successfully. Two different devices are compared and the conditions for best growth conditions are explained. The detailed analysis of electron diffraction pattern obtained by transmissions electron microscopy (TEM) of as-grown specimen showed an expansion of the Pd lattice, which can be explained by the formation of fcc-PdHx for x=0...1. For x=1..2 the first investigation of hexagonal -PdH2 is reported, which lattice spacing is independent on the hydrogen content. The amount of fcc-PdH and hcp-PdH2 increases when the specimens are treated subsequently with Hydrogen. A growth model is provided.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-04-14T04:33:04Z</published>
+    <arxiv:comment>6 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>Advances in Solid State Physics 43 (2003) pp.171-180</arxiv:journal_ref>
+    <author>
+      <name>Wilfried Wunderlich</name>
+    </author>
+    <author>
+      <name>Masaki Tanemura</name>
+    </author>
+    <arxiv:doi>10.1007/978-3-540-44838-9_12</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/978-3-540-44838-9_12" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0803.4145v1</id>
+    <title>Diffusion and desorption of SiH3 on hydrogenated H:Si(100)-(2x1) from first principles</title>
+    <updated>2008-03-28T16:03:27Z</updated>
+    <link href="https://arxiv.org/abs/0803.4145v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0803.4145v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We have studied diffusion pathways of a silyl radical adsorbed on the hydrogenated Si (100)-(2x1) surface by density-functional theory. The process is of interest for the growth of crystalline silicon by plasma-enhanced chemical vapor deposition. Preliminary searches for migration mechanisms have been performed using metadynamics simulations. Local minima and transition states have been further refined by using the nudged-elastic-band method. Barriers for diffusion from plausible adsorption sites as low as 0.2 eV have been found, but trap states have also been spotted, leading to a more stable configuration, with escape barriers of 0.7 eV. Diffusion among weakly bound physisorbed states is also possible with very low activation barriers (&lt;50 meV). However, desorption mechanisms (either as SiH3 or as SiH4) from physisorbed or more strongly bound adsorption configurations turn out to have activation energies similar to diffusion barriers. Kinetic Monte Carlo simulations based on ab initio activation energies show that the silyl radical diffuses at most by a few lattice spacing before desorbing at temperatures in the range 300-1000 K.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-03-28T16:03:27Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>Physical Review B 76, 245309 (2007)</arxiv:journal_ref>
+    <author>
+      <name>Michele Ceriotti</name>
+    </author>
+    <author>
+      <name>Marco Bernasconi</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.76.245309</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.76.245309" title="doi"/>
+  </entry>
+</feed>

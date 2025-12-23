@@ -1,0 +1,87 @@
+TERMS: lattice, resonance, probability
+COLORS: orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/8kvjEdc/RrAQvi8tS+N+LwH/5Ag</id>
+  <title>arXiv Query: search_query=all:lattice AND all:resonance AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:15:52Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:resonance+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>112</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1009.6192v1</id>
+    <title>Extracting resonance parameters from lattice data</title>
+    <updated>2010-09-30T16:53:02Z</updated>
+    <link href="https://arxiv.org/abs/1009.6192v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1009.6192v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Monte Carlo simulations of the 4d O(4) model in the broken phase are performed to determine the parameters of a resonance. The standard method for extracting them on the lattice is through Lüscher's formula; recently a new method, based on the probability distribution concept, has been proposed. We study the application of these methods and compare them with Monte Carlo data.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-09-30T16:53:02Z</published>
+    <arxiv:comment>14 pages, 16 figures, The XXVIII International Symposium on Lattice Field Theory, Lattice2010</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>PoS Lattice2010:105,2010</arxiv:journal_ref>
+    <author>
+      <name>Pietro Giudice</name>
+    </author>
+    <author>
+      <name>Darran McManus</name>
+    </author>
+    <author>
+      <name>Mike Peardon</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1312.2314v1</id>
+    <title>Exploring the Roper wave function in Lattice QCD</title>
+    <updated>2013-12-09T05:59:14Z</updated>
+    <link href="https://arxiv.org/abs/1312.2314v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1312.2314v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Using a correlation matrix analysis consisting of a variety of smearings, the CSSM Lattice collaboration has successfully isolated states associated with the Roper resonance and other "exotic" excited states such as the $Λ(1405)$ on the lattice at near-physical pion masses. We explore the nature of the Roper by examining the eigenvectors that arise from the variational analysis, demonstrating that the Roper state is dominated by the $χ_1$ nucleon interpolator and only poorly couples to $χ_2.$ By examining the probability distribution of the Roper on the lattice, we find a structure consistent with a constituent quark model. In particular, the Roper $d$-quark wave function contains a single node consistent with a $2S$ state. A detailed comparison with constituent quark model wave functions is carried out, validating the approach of accessing these states by constructing a variational basis composed of different levels of fermion source and sink smearing.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-12-09T05:59:14Z</published>
+    <arxiv:comment>7 pages, 5 figures; presented at the 31st International Symposium on Lattice Field Theory (Lattice 2013), 29 July - 3 August 2013, Mainz, Germany</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Waseem Kamleh</name>
+    </author>
+    <author>
+      <name>Derek B. Leinweber</name>
+    </author>
+    <author>
+      <name>Dale S. Roberts</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2112.00460v1</id>
+    <title>Machine learning Hadron Spectral Functions in Lattice QCD</title>
+    <updated>2021-12-01T12:41:28Z</updated>
+    <link href="https://arxiv.org/abs/2112.00460v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2112.00460v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Hadron spectral functions carry all the information of hadrons and are encoded in the Euclidean two-point correlation functions. The extraction of hadron spectral functions from the correlator is a typical ill-posed inverse problem and infinite number of solutions to this problem exists. We propose a novel neural network (sVAE) based on the Variation Auto-Encoder (VAE) and Bayesian theorem. Inspired by the maximum entropy method (MEM) we construct the loss function of the neural work such that it includes a Shannon-Jaynes entropy term and a likelihood term. The sVAE is then trained to provide the most probable spectral functions. For the training samples of spectral function we used general spectral functions produced from the Gaussian Mixture Model. After the training is done we performed the mock data tests with input spectral functions consisting 1) only a free continuum, 2) only a resonance peak, 3) a resonance peak plus a free continuum and 4) a NRQCD motivated spectral function. From the mock data test we find that the sVAE in most cases is comparable to the maximum entropy method in the quality of reconstructing spectral functions and even outperforms the MEM in the case where the spectral function has sharp peaks with insufficient number of data points in the correlator. By applying to temporal correlation functions of charmonium in the pseudoscalar channel obtained in the quenched lattice QCD at 0.75 $T_c$ on $128^3\times96$ lattices and $1.5$ $T_c$ on $128^3\times48$ lattices, we find that the resonance peak of $η_c$ extracted from both the sVAE and MEM has a substantial dependence on the number of points in the temporal direction ($N_τ$) adopted in the lattice simulation and $N_τ$ larger than 48 is needed to resolve the fate of $η_c$ at 1.5 $T_c$.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-12-01T12:41:28Z</published>
+    <arxiv:comment>9 pages, 7 figures. Talk presented at the 38th International Symposium on Lattice Field Theory (Lattice 2021), 26-30 July, 2021, Zoom/Gather@Massachusetts Institute of Technology</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Shi-Yang Chen</name>
+    </author>
+    <author>
+      <name>Heng-Tong Ding</name>
+    </author>
+    <author>
+      <name>Fei-Yi Liu</name>
+    </author>
+    <author>
+      <name>Gabor Papp</name>
+    </author>
+    <author>
+      <name>Chun-Bin Yang</name>
+    </author>
+  </entry>
+</feed>

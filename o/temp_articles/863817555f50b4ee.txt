@@ -1,0 +1,27 @@
+TERMS: hydrogen, electron, muon, probability
+COLORS: purple, green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/D9SpjC/KuEspMnGx9r47lzF/RdA</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:electron AND all:muon AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:57:02Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:electron+AND+(all:muon+AND+all:probability))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/physics/0509007v1</id>
+    <title>The repository of physical models used for the CODATA-2002 FPC (re-)evaluation</title>
+    <updated>2005-09-01T11:54:25Z</updated>
+    <link href="https://arxiv.org/abs/physics/0509007v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/physics/0509007v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We present PAREVAL package containing a repository of theoretical physical models used for (re-)evaluation of the fundamental physical constants (FPC). It holds all necessary data for building 105 (so called) observational equations and can be used in high precision calculations. Among repository models there are expressions for energy levels of hydrogen and deuterium (with 16 types of contributions), electron and muon magnetic moment anomalies, muonium ground-state hyperfine splitting, Zeeman energy levels in muonium. Each model is represented as {\sl Mathematica} module with XML meta-data keeping information about the model (including data on dependence from others models). There are also modules for working with the basic FPC.</summary>
+    <category term="physics.data-an" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-09-01T11:54:25Z</published>
+    <arxiv:primary_category term="physics.data-an"/>
+    <author>
+      <name>A. S. Siver</name>
+    </author>
+  </entry>
+</feed>

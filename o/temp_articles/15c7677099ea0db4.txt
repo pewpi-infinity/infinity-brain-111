@@ -1,0 +1,72 @@
+TERMS: electron, muon
+COLORS: green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/FCkrT0wfgWjQl124CaBAqeSWEmA</id>
+  <title>arXiv Query: search_query=all:electron AND all:muon&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T00:58:38Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:electron+AND+all:muon&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>4460</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1903.02186v2</id>
+    <title>Performance of prototype GE1/1 chambers for the CMS muon spectrometer upgrade</title>
+    <updated>2020-06-07T05:31:11Z</updated>
+    <link href="https://arxiv.org/abs/1903.02186v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1903.02186v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The high-luminosity phase of the Large Hadron Collider (HL-LHC) will result in ten times higher particle background than measured during the first phase of LHC operation. In order to fully exploit the highly-demanding operating conditions during HL-LHC, the Compact Muon Solenoid (CMS) Collaboration will use Gas Electron Multiplier (GEM) detector technology. The technology will be integrated into the innermost region of the forward muon spectrometer of CMS as an additional muon station called GE11. The primary purpose of this auxiliary station is to help in muon reconstruction and to control level-1 muon trigger rates in the pseudo-rapidity region $1.6 &lt;|η|&lt;2.2$. The new station will contain trapezoidal-shaped GEM detectors called GE11 chambers. The design of these chambers is finalized, and the installation is in progress during the Long Shutdown phase two (LS-2) that started in 2019. Several full-size prototypes were built and operated successfully in various test beams at CERN. We describe performance measurements such as gain, efficiency, and time resolution of these prototype chambers, developed after years of R&amp;D, and summarize their behavior in different gas compositions as a function of the applied voltage.</summary>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-03-06T05:57:25Z</published>
+    <arxiv:comment>23 pages</arxiv:comment>
+    <arxiv:primary_category term="physics.ins-det"/>
+    <author>
+      <name> CMS Muon Group</name>
+    </author>
+    <arxiv:doi>10.1016/j.nima.2020.164104</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.nima.2020.164104" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/physics/0503151v1</id>
+    <title>The Muon System of the Run II D0 Detector</title>
+    <updated>2005-03-17T17:50:39Z</updated>
+    <link href="https://arxiv.org/abs/physics/0503151v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/physics/0503151v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We describe the design, construction and performance of the upgraded DO muon system for Run II of the Fermilab Tevatron collider. Significant improvements have been made to the major subsystems of the DO muon detector: trigger scintillation counters, tracking detectors, and electronics. The Run II central muon detector has a new scintillation counter system inside the iron toroid and an improved scintillation counter system outside the iron toroid. In the forward region, new scintillation counter and tracking systems have been installed. Extensive shielding has been added in the forward region. A large fraction of the muon system electronics is also new.</summary>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-03-17T17:50:39Z</published>
+    <arxiv:comment>42 pages, 26 figures. Submitted to NIM</arxiv:comment>
+    <arxiv:primary_category term="physics.ins-det"/>
+    <arxiv:journal_ref>Nucl.Instrum.Meth.A552:372-398,2005</arxiv:journal_ref>
+    <author>
+      <name> The D0 Muon Group</name>
+    </author>
+    <author>
+      <name>V. M. Abazov</name>
+    </author>
+    <arxiv:doi>10.1016/j.nima.2005.07.008</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.nima.2005.07.008" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0902.0985v2</id>
+    <title>Electrons from Muon Decay in Bound State</title>
+    <updated>2009-02-12T15:46:55Z</updated>
+    <link href="https://arxiv.org/abs/0902.0985v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0902.0985v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We present results of a study of the muon decay in orbit (DIO) contribution to the signal region of muon - electron conversion. Electrons from DIO are the dominant source of background for muon - electron conversion experiments because the endpoint of DIO electrons is the same as the energy of electrons from elastic muon - electron conversion.
+  The probability of DIO contribution to the signal region was considered for a tracker with Gaussian resolution function and with a realistic resolution function obtained in the application of pattern recognition and momentum reconstruction Kalman filter based procedure to GEANT simulated DIO events. It is found that the existence of non Gaussian tails in the realistic resolution function does not lead to a significant increase in DIO contribution to the signal region.
+  The probability of DIO contribution to the calorimeter signal was studied in dependence on the resolution, assuming a Gaussian resolution function of calorimeter. In this study the geometrical acceptance played an important role, suppressing DIO contribution of the intermediate range electrons from muon decay in orbit.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-02-05T21:40:24Z</published>
+    <arxiv:comment>20 pages, 13 figures a top margin was fixed, the muon lifetime was updated and a reference was added, a phrase was added to clarify one of references</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Rashid M. Djilkibaev</name>
+    </author>
+    <author>
+      <name>Rostislav V. Konoplich</name>
+    </author>
+  </entry>
+</feed>

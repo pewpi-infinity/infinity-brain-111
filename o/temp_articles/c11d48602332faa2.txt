@@ -1,0 +1,73 @@
+TERMS: boson, probability, singularity
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/vtU9EMUOQwDvi48t2gvXtTxbCfg</id>
+  <title>arXiv Query: search_query=all:boson AND all:probability AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:36:59Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:boson+AND+(all:probability+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>24</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1302.6508v1</id>
+    <title>Studies of W boson plus jets production in p\bar{p} collisions at sqrt(s)=1.96 TeV</title>
+    <updated>2013-02-26T17:29:43Z</updated>
+    <link href="https://arxiv.org/abs/1302.6508v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1302.6508v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a comprehensive analysis of inclusive W(\to eν)+n-jet (n\geq 1,2,3,4) production in proton-antiproton collisions at a center-of-mass energy of 1.96 TeV at the Tevatron collider using a 3.7 fb^{-1} dataset collected by the D0 detector. Differential cross sections are presented as a function of the jet rapidities (y), lepton transverse momentum (p_T) and pseudorapidity (η), the scalar sum of the transverse energies of the W boson and all jets (H_T), leading dijet p_T and invariant mass, dijet rapidity separations for a variety of jet pairings for p_T-ordered and angular-ordered jets, dijet opening angle, dijet azimuthal angular separations for p_T-ordered and angular-ordered jets, and W boson transverse momentum. The mean number of jets in an event containing a W boson is measured as a function of H_T, and as a function of the rapidity separations between the two highest-p_T jets and between the most widely separated jets in rapidity. Finally, the probability for third-jet emission in events containing a W boson and at least two jets is studied by measuring the fraction of events in the inclusive W+2-jet sample that contain a third jet over a p_T threshold. The analysis employs a regularized singular value decomposition technique to accurately correct for detector effects and for the presence of backgrounds. The corrected data are compared to particle level next-to-leading order perturbative QCD predictions, predictions from all-order resummation approaches, and a variety of leading-order and matrix-element plus parton-shower event generators. Regions of the phase space where there is agreement or disagreement with the data are discussed for the different models tested.</summary>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-02-26T17:29:43Z</published>
+    <arxiv:comment>30 pages plus author list (plus 84 pages auxiliary material for 114 pages total), 27 figures, 1 table, submitted to Phys. Rev. D</arxiv:comment>
+    <arxiv:primary_category term="hep-ex"/>
+    <arxiv:journal_ref>Phys. Rev. D 88 (2013) 092001</arxiv:journal_ref>
+    <author>
+      <name> D0 Collaboration</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.88.092001</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.88.092001" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.12247v1</id>
+    <title>The distribution of the moment of inertia for harmonically trapped noninteracting Bosons at finite temperature: large deviations</title>
+    <updated>2025-11-15T15:01:47Z</updated>
+    <link href="https://arxiv.org/abs/2511.12247v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.12247v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We compute the full probability distribution of the moment of inertia $I \propto \sum_{i=1}^N \vec{r}_i^{\,2}$ of a gas of $N$ noninteracting bosons trapped in a harmonic potential $V(r) = (1/2)\, m\, ω^2 r^2$, in all dimensions and at all temperature. The appropriate thermodynamic limit in a trapped Bose gas consists in taking the limit $N\to \infty$ and $ω\to 0$ with their product $ρ= N ω^d$ fixed, where $ρ$ plays the role analogous to the density in a translationally invariant system. In this thermodynamic limit and in dimensions $d&gt;1$, the harmonically trapped Bose gas undergoes a Bose-Einstein condensation (BEC) transition as the density $ρ$ crosses a critical value $ρ_c(β)$, where $β$ denotes the inverse temperature. We show that the probability distribution $P_β(I,N)$ of $I$ admits a large deviation form $P_β(I,N) \sim e^{-V Φ(I/V)}$ where $V = ω^{-d} \gg 1$. We compute explicitly the rate function $Φ(z)$ and show that it exhibits a singularity at a critical value $z=z_c$ where its second derivative undergoes a discontinuous jump. We show that the existence of such a singularity in the rate function is directly related to the existence of a BEC transition and it disappears when the system does not have a BEC transition as in $d \leq 1$. An interesting consequence of our results is that even if the actual system is in the fluid phase, i.e., when $ρ&lt; ρ_c(β)$, by measuring the distribution of $I$ and analysing the singularity in the associated rate function, one can get a signal of the BEC transition in $d&gt;1$. This provides a real space diagnostic for the BEC transition in the noninteracting Bose gas.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-15T15:01:47Z</published>
+    <arxiv:comment>31 pages, 6 Figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <author>
+      <name>Manas Kulkarni</name>
+    </author>
+    <author>
+      <name>Satya N. Majumdar</name>
+    </author>
+    <author>
+      <name>Gregory Schehr</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1909.07362v1</id>
+    <title>Uniform asymptotics of Toeplitz determinants with Fisher-Hartwig singularities</title>
+    <updated>2019-09-16T17:54:55Z</updated>
+    <link href="https://arxiv.org/abs/1909.07362v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1909.07362v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We obtain an asymptotic formula for $n\times n$ Toeplitz determinants as $n\to \infty$, for real valued symbols with any fixed number of Fisher-Hartwig singularities, which is uniform with respect to the location of the singularities. As an application, we prove a conjecture by Fyodorov and Keating regarding moments of averages of the characteristic polynomial of the Circular Unitary Ensemble. In addition, we obtain an asymptotic formula regarding the momentum of impenetrable bosons in one dimension with periodic boundary conditions.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-09-16T17:54:55Z</published>
+    <arxiv:comment>46 pages</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Benjamin Fahs</name>
+    </author>
+  </entry>
+</feed>

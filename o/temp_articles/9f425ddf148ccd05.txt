@@ -1,0 +1,82 @@
+TERMS: entropy, crystal, probability
+COLORS: red, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/c7mU67+/zSETFXhbz56Db7/DqrE</id>
+  <title>arXiv Query: search_query=all:entropy AND all:crystal AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:17:42Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+(all:crystal+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>46</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1207.0395v1</id>
+    <title>Dynamics of relaxation, decoherence and entropy of a qubit in anisotropic photonic crystals</title>
+    <updated>2012-07-02T14:17:47Z</updated>
+    <link href="https://arxiv.org/abs/1207.0395v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1207.0395v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the quantum dynamics of relaxation, decoherence and entropy of a qubit embedded in an anisotropic photonic crystal (PhC) through fractional calculus. These quantum measurements are investigated by analytically solving the fractional Langevin equation. The qubit with frequency lying inside the photonic band gap (PBG) exhibits the preserving behavior of energy, coherence and information amount through the steady values of excited-state probability, polarization oscillation and von Neumann entropy. This preservation does not exist in the Markovian system with qubit frequency lying outside the PBG region. These accurate results are based on the appropriate mathematical method of fractional calculus and reasonable inference of physical phenomena.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-07-02T14:17:47Z</published>
+    <arxiv:comment>20 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Jing-Nuo Wu</name>
+    </author>
+    <author>
+      <name>Hung-Kuang Chen</name>
+    </author>
+    <author>
+      <name>Wen-Feng Hsieh</name>
+    </author>
+    <author>
+      <name>Szu-Cheng Cheng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1204.5998v1</id>
+    <title>Configurational entropy of Wigner crystals</title>
+    <updated>2012-04-26T18:44:35Z</updated>
+    <link href="https://arxiv.org/abs/1204.5998v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1204.5998v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a theoretical study of classical Wigner crystals in two- and three-dimensional isotropic parabolic traps aiming at understanding and quantifying the configurational uncertainty due to the presence of multiple stable configurations. Strongly interacting systems of classical charged particles confined in traps are known to form regular structures. The number of distinct arrangements grows very rapidly with the number of particles, many of these arrangements have quite low occurrence probabilities and often the lowest-energy structure is not the most probable one. We perform numerical simulations on systems containing up to 100 particles interacting through Coulomb and Yukawa forces, and show that the total number of metastable configurations is not a well defined and representative quantity. Instead, we propose to rely on the configurational entropy as a robust and objective measure of uncertainty. The configurational entropy can be understood as the logarithm of the effective number of states; it is insensitive to the presence of overlooked low-probability states and can be reliably determined even within a limited time of a simulation or an experiment.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-04-26T18:44:35Z</published>
+    <arxiv:comment>12 pages, 8 figures. This is an author-created, un-copyedited version of an article accepted for publication in J. Phys.: Condens. Matter. IOP Publishing Ltd is not responsible for any errors or omissions in this version of the manuscript or any version derived from it. The definitive publisher-authenticated version is available online at 10.1088/0953-8984/23/7/075302.'</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <arxiv:journal_ref>A. Radzvilavičius and E. Anisimovas, J. Phys.: Condens. Matter 23, 075302 (2011)</arxiv:journal_ref>
+    <author>
+      <name>Arūnas Radzvilavičius</name>
+    </author>
+    <author>
+      <name>Egidijus Anisimovas</name>
+    </author>
+    <arxiv:doi>10.1088/0953-8984/23/7/075302</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0953-8984/23/7/075302" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1907.11094v1</id>
+    <title>Improving the Accuracy of Principal Component Analysis by the Maximum Entropy Method</title>
+    <updated>2019-07-24T03:24:33Z</updated>
+    <link href="https://arxiv.org/abs/1907.11094v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1907.11094v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Classical Principal Component Analysis (PCA) approximates data in terms of projections on a small number of orthogonal vectors. There are simple procedures to efficiently compute various functions of the data from the PCA approximation. The most important function is arguably the Euclidean distance between data items, This can be used, for example, to solve the approximate nearest neighbor problem. We use random variables to model the inherent uncertainty in such approximations, and apply the Maximum Entropy Method to infer the underlying probability distribution. We propose using the expected values of distances between these random variables as improved estimates of the distance. We show by analysis and experimentally that in most cases results obtained by our method are more accurate than what is obtained by the classical approach. This improves the accuracy of a classical technique that have been used with little change for over 100 years.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-07-24T03:24:33Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Guihong Wan</name>
+    </author>
+    <author>
+      <name>Crystal Maung</name>
+    </author>
+    <author>
+      <name>Haim Schweitzer</name>
+    </author>
+  </entry>
+</feed>

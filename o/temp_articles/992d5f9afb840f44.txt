@@ -1,0 +1,99 @@
+TERMS: lattice, entropy, resonance
+COLORS: orange, red, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/bxhM6bNdKWWsOpa0macwdU5ec7Q</id>
+  <title>arXiv Query: search_query=all:lattice AND all:entropy AND all:resonance&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:13:22Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:entropy+AND+all:resonance)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>134</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2112.00460v1</id>
+    <title>Machine learning Hadron Spectral Functions in Lattice QCD</title>
+    <updated>2021-12-01T12:41:28Z</updated>
+    <link href="https://arxiv.org/abs/2112.00460v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2112.00460v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Hadron spectral functions carry all the information of hadrons and are encoded in the Euclidean two-point correlation functions. The extraction of hadron spectral functions from the correlator is a typical ill-posed inverse problem and infinite number of solutions to this problem exists. We propose a novel neural network (sVAE) based on the Variation Auto-Encoder (VAE) and Bayesian theorem. Inspired by the maximum entropy method (MEM) we construct the loss function of the neural work such that it includes a Shannon-Jaynes entropy term and a likelihood term. The sVAE is then trained to provide the most probable spectral functions. For the training samples of spectral function we used general spectral functions produced from the Gaussian Mixture Model. After the training is done we performed the mock data tests with input spectral functions consisting 1) only a free continuum, 2) only a resonance peak, 3) a resonance peak plus a free continuum and 4) a NRQCD motivated spectral function. From the mock data test we find that the sVAE in most cases is comparable to the maximum entropy method in the quality of reconstructing spectral functions and even outperforms the MEM in the case where the spectral function has sharp peaks with insufficient number of data points in the correlator. By applying to temporal correlation functions of charmonium in the pseudoscalar channel obtained in the quenched lattice QCD at 0.75 $T_c$ on $128^3\times96$ lattices and $1.5$ $T_c$ on $128^3\times48$ lattices, we find that the resonance peak of $η_c$ extracted from both the sVAE and MEM has a substantial dependence on the number of points in the temporal direction ($N_τ$) adopted in the lattice simulation and $N_τ$ larger than 48 is needed to resolve the fate of $η_c$ at 1.5 $T_c$.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-12-01T12:41:28Z</published>
+    <arxiv:comment>9 pages, 7 figures. Talk presented at the 38th International Symposium on Lattice Field Theory (Lattice 2021), 26-30 July, 2021, Zoom/Gather@Massachusetts Institute of Technology</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Shi-Yang Chen</name>
+    </author>
+    <author>
+      <name>Heng-Tong Ding</name>
+    </author>
+    <author>
+      <name>Fei-Yi Liu</name>
+    </author>
+    <author>
+      <name>Gabor Papp</name>
+    </author>
+    <author>
+      <name>Chun-Bin Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1312.0791v1</id>
+    <title>Spectral functions of charmonium from 2 flavour anisotropic lattice data</title>
+    <updated>2013-12-03T12:12:54Z</updated>
+    <link href="https://arxiv.org/abs/1312.0791v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1312.0791v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The spectral functions of QCD can give us insight into properties of hadrons, and they are useful in probing the QCD vacuum. I will discuss the correlators and spectral functions of charmonium in high temperature two flavour QCD. The spectral functions have been obtained using the Maximum Entropy Method from anisotropic lattice data using the conserved vector current. This work has been done as part of the FASTSUM collaboration. We find that the spectral functions for zero momentum are stable. At non-zero momentum the spectral functions are less stable but still produce resonance and transport peaks. This work is part of our programme to calculate the heavy quark diffusion constant.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-12-03T12:12:54Z</published>
+    <arxiv:comment>7 pages, 5 figures, 31st International Symposium on Lattice Field Theory LATTICE 2013</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Aoife Kelly</name>
+    </author>
+    <author>
+      <name>Jon-Ivar Skullerud</name>
+    </author>
+    <author>
+      <name>Chris Allton</name>
+    </author>
+    <author>
+      <name>Dhagash Mehta</name>
+    </author>
+    <author>
+      <name>Mehmet B. Oktay</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1510.02901v1</id>
+    <title>A stochastic approach to the reconstruction of spectral functions in lattice QCD</title>
+    <updated>2015-10-10T09:44:39Z</updated>
+    <link href="https://arxiv.org/abs/1510.02901v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1510.02901v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a Stochastic Optimization Method (SOM) for the reconstruction of the spectral functions (SPFs) from Euclidean correlation functions. In this approach the SPF is parameterized as a sum of randomly distributed boxes. By varying the width, location and height of the boxes stochastically an optimal SPF can be obtained. Using this approach we reproduce mock SPFs fairly well, which contain sharp resonance peaks, transport peaks and continuum spectra. We also analyzed the charmonium correlators obtained from $N_τ$=96, 48, 32 lattices using SOM and found similar conclusion on the dissociation temperatures of charmonium ground states as that obtained using the Maximum Entropy Method.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-10-10T09:44:39Z</published>
+    <arxiv:comment>Proceedings of the 33rd International Symposium on Lattice Field Theory, Kobe, Japan</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Hai-Tao Shu</name>
+    </author>
+    <author>
+      <name>Heng-Tong Ding</name>
+    </author>
+    <author>
+      <name>Olaf Kaczmarek</name>
+    </author>
+    <author>
+      <name>Swagato Mukherjee</name>
+    </author>
+    <author>
+      <name>Hiroshi Ohno</name>
+    </author>
+  </entry>
+</feed>

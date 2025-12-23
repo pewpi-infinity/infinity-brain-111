@@ -1,0 +1,95 @@
+TERMS: quantum, ionization, bandgap
+COLORS: blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/90M3yszOfL7XaLEc4F6/c7RjvZ8</id>
+  <title>arXiv Query: search_query=all:quantum AND all:ionization AND all:bandgap&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:07:45Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:ionization+AND+all:bandgap)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>14</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2209.06729v1</id>
+    <title>A Noise Model for Multilayer Graded-Bandgap Avalanche Photodiodes</title>
+    <updated>2022-09-14T15:37:48Z</updated>
+    <link href="https://arxiv.org/abs/2209.06729v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2209.06729v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multilayer graded-bandgap avalanche photodiodes (APDs) are the future deterministic photomultipliers, owing to their deterministic amplification with twofold stepwise gain via impact ionization when operated in the staircase regime. Yet, the stepwise impact ionization irregularities worsen as the number of steps increases. These irregularities in impact ionization are the major source of noise in these APDs. These solid-state devices could replace conventional silicon photomultiplier tubes if they are carefully studied and designed. A noise model for multistep staircase APDs, considering equal stepwise ionization probabilities is previously reported. However, we derive a generalized noise model for multilayer graded-bandgap APDs, applicable for all operating biases, which include the sub-threshold, staircase, and tunnelling breakdown regimes. Moreover, the previous noise model's expression for the total excess noise factor in terms of ionization probabilities of the multistep staircase APD follows Friis's total noise factor. However, we demonstrate that our derived expression matches Bangera's correction to Friis's total noise factor.</summary>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-09-14T15:37:48Z</published>
+    <arxiv:comment>13 pages (including Appendices), 4 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.app-ph"/>
+    <author>
+      <name>Ankitha E. Bangera</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2011.00375v2</id>
+    <title>Spectral measurement of the breakdown limit of $β-Ga_{2}O_{3}$ and tunnel ionization of self-trapped excitons and holes</title>
+    <updated>2021-08-13T13:26:44Z</updated>
+    <link href="https://arxiv.org/abs/2011.00375v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2011.00375v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>$β-Ga_{2}O_{3}$ is an unusual semiconductor where large electric fields (~1-6 MV/cm) can be applied while still maintaining a dominant excitonic absorption peak below its ultra-wide bandgap. This provides a rare opportunity in the solid-state to examine exciton and carrier self-trapping dynamics in the strong-field limit at steady-state. Under sub-bandgap photon excitation, we observe a field-induced red-shift of the spectral photocurrent peak associated with exciton absorption and threshold-like increase in peak amplitude at high-field associated with self-trapped hole ionization. The field-dependent spectral response is quantitatively fit with an eXciton-modified Franz-Keldysh (XFK) effect model, which includes the electric-field dependent exciton binding energy due to the quadratic Stark effect. A saturation of the spectral red-shift with reverse bias is observed exactly at the onset of dielectric breakdown providing a spectral means to detect and quantify the local electric field and dielectric breakdown behavior. Additionally, the field-dependent responsivity provides insight to the photocurrent production pathway revealing the photocurrent contributions of self-trapped excitons (STXs) and self-trapped holes (STHs). Photocurrent and p-type transport in $β-Ga_{2}O_{3}$ are quantitatively explained by field-dependent tunnel ionization of excitons and self-trapped holes. We employ a quantum mechanical model of the field-dependent tunnel ionization of STX and STH to model the non-linear field-dependence of the photocurrent amplitude. Fitting to the data, we estimate an effective mass of valence band holes $(18.8 m_{0})$ and an ultrafast self-trapping time of holes (0.045 fs). This indicates that minority-hole transport in $β-Ga_{2}O_{3}$ can only arise through tunnel ionization of STH under strong fields.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-10-31T22:14:03Z</published>
+    <arxiv:comment>47 pages, 12 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>Phys. Rev. Applied 16, 034011 (2021)</arxiv:journal_ref>
+    <author>
+      <name>Md M. Adnan</name>
+    </author>
+    <author>
+      <name>Darpan Verma</name>
+    </author>
+    <author>
+      <name>Zhanbo Xia</name>
+    </author>
+    <author>
+      <name>Nidhin K. Kalarickal</name>
+    </author>
+    <author>
+      <name>Siddharth Rajan</name>
+    </author>
+    <author>
+      <name>Roberto C. Myers</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevApplied.16.034011</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevApplied.16.034011" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.18190v1</id>
+    <title>Photo-dynamics of quantum emitters in aluminum nitride</title>
+    <updated>2023-10-27T15:02:53Z</updated>
+    <link href="https://arxiv.org/abs/2310.18190v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.18190v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Aluminum nitride is a technologically important wide bandgap semiconductor which has been shown to host bright quantum emitters. In this paper, we probe the photodynamics of quantum emitters in aluminum nitride using photon emission correlations and time-resolved spectroscopy. We identify that each emitter contains as many as 6 internal energy levels with distinct laser power-dependent behaviors. Power-dependent shelving and de-shelving processes, such as optically induced ionization and recombination are considered, indicating complex optical dynamics associated with the spontaneous and optically pumped transitions. State population dynamics simulations qualitatively explain the temporal behaviours of the quantum emitters, revealing that those with pump-dependent de-shelving processes can saturate at significantly higher intensities, resulting in bright room-temperature quantum light emission.</summary>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-27T15:02:53Z</published>
+    <arxiv:comment>20 pages. 5 figures in main text, 3 in supplementary info</arxiv:comment>
+    <arxiv:primary_category term="physics.optics"/>
+    <arxiv:journal_ref>Phys. Rev. B 110, 014109 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Yanzhao Guo</name>
+    </author>
+    <author>
+      <name>John P. Hadden</name>
+    </author>
+    <author>
+      <name>Rachel N. Clark</name>
+    </author>
+    <author>
+      <name>Samuel G. Bishop</name>
+    </author>
+    <author>
+      <name>Anthony J. Bennett</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.110.014109</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.110.014109" title="doi"/>
+  </entry>
+</feed>

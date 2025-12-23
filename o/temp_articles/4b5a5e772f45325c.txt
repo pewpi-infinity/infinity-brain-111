@@ -1,0 +1,30 @@
+TERMS: hydrogen, frequency, entropy, spin
+COLORS: purple, green, red, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/xETXpihMvlmx747zCVeui4IEz48</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:frequency AND all:entropy AND all:spin&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:42:13Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:frequency+AND+(all:entropy+AND+all:spin))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2411.13743v1</id>
+    <title>The Grüneisen parameter applied to critical phenomena and experimental investigations of correlated phenomena in molecular conductors</title>
+    <updated>2024-11-20T22:57:47Z</updated>
+    <link href="https://arxiv.org/abs/2411.13743v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.13743v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this Ph.D. Thesis, a systematic review is performed on the derivation and generalization of the Grüneisen parameter followed by its unprecedented applications to several distinct scenarios, such as magnetic model systems, zero-field quantum phase transitions, the maximization of caloric effects close to any critical-end point based on entropy arguments, the here-proposed adiabatic magnetization of a paramagnetic salt, as well as for Cosmology in the frame of the universe expansion. Since this Ph.D. Thesis is a symbiosis between theoretical and experimental results, an experimental investigation of correlated phenomena was carried out for molecular conductors of the (TMTTF)$_2$X family, where TMTTF is the base molecule tetramethyltetrathiafulvalene and X a monovalent counter-anion such as PF$_6$, SbF$_6$, or AsF$_6$. Such strongly correlated electron systems are considered suitable ones for the exploration of Mott insulating phase, charge-ordering, spin-Peierls, and superconductivity. In particular, the investigation of a possible multiferroic character in these salts was performed via quasi-static (low-frequency) dielectric constant $\varepsilon'$ measurements as a function of temperature where a maximum in $\varepsilon'$ as a function of temperature was observed at the corresponding charge-ordering temperature for both hydrogenated and 97.5% deuterated (TMTTF)$_2$SbF$_6$ salts. Furthermore, Raman measurements were performed on the 97.5% deuterated (TMTTF)$_2$PF$_6$, showing a possible magneto-optical effect on the $ν_4(a_g)$ vibrational mode of the TMTTF molecule. Yet, fluorescence measurements demonstrated that the fully-hydrogenated (TMTTF)$_2$AsF$_6$ presents an expressive fluorescence background, which is roughly five orders of magnitude lower than that for the 97.5% deuterated variant of (TMTTF)$_2$PF$_6$.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-20T22:57:47Z</published>
+    <arxiv:comment>Ph.D. Thesis, 135 pages, 40 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <author>
+      <name>Lucas Squillante</name>
+    </author>
+  </entry>
+</feed>

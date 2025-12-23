@@ -1,0 +1,83 @@
+TERMS: hydrogen, frequency, electron, crystal
+COLORS: purple, green, green, orange
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ux4epsba2Bhnax0YZt6M/cGVyMQ</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:frequency AND all:electron AND all:crystal&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:42:49Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:frequency+AND+(all:electron+AND+all:crystal))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>14</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2011.09529v1</id>
+    <title>Structural and electronic properties of solid molecular hydrogen from many-electron theories</title>
+    <updated>2020-11-18T20:20:15Z</updated>
+    <link href="https://arxiv.org/abs/2011.09529v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2011.09529v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the structural and electronic properties of phase III of solid hydrogen using accurate many-electron theories and compare to state-of-the-art experimental findings. The atomic structures of phase III modelled by C2/c-24 crystals are fully optimized on the level of second-order perturbation theory, demonstrating that previously employed structures optimized on the level of approximate density functionals exhibit errors in the H$_2$ bond lengths that cause significant discrepancies in the computed quasi particle band gaps and vibrational frequencies compared to experiment. Using the newly optimized atomic structures, we study the band gap closure and change in vibrational frequencies as a function of pressure. Our findings are in good agreement with recent experimental observations and may prove useful in resolving long-standing discrepancies between experimental estimates of metallization pressures possibly caused by disagreeing pressure calibrations.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-11-18T20:20:15Z</published>
+    <arxiv:comment>MP2 forces' implementation and zero point renormalization on the bandgaps details are in supp.pdf</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>Phys. Rev. B 103, 054111 (2021)</arxiv:journal_ref>
+    <author>
+      <name>Ke Liao</name>
+    </author>
+    <author>
+      <name>Tong Shen</name>
+    </author>
+    <author>
+      <name>Xin-Zheng Li</name>
+    </author>
+    <author>
+      <name>Ali Alavi</name>
+    </author>
+    <author>
+      <name>Andreas Grüneis</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.103.054111</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.103.054111" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0003186v1</id>
+    <title>On the possibility to supercool molecular hydrogen down to superfluid transition</title>
+    <updated>2000-03-10T21:54:55Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0003186v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0003186v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Recent calculations by Vorobev and Malyshenko (JETP Letters, 71, 39, 2000) show that molecular hydrogen may stay liquid and superfluid in strong electric fields of the order of $4\times 10^7 V/cm$. I demonstrate that strong local electric fields of similar magnitude exist beneath a two-dimensional layer of electrons localized in the image potential above the surface of solid hydrogen. Even stronger local fields exist around charged particles (ions or electrons) if surface or bulk of a solid hydrogen crystal is statically charged. Measurements of the frequency shift of the $1 \to 2$ photoresonance transition in the spectrum of two-dimensional layer of electrons above positively or negatively charged solid hydrogen surface performed in the temperature range 7 - 13.8 K support the prediction of electric field induced surface melting. The range of surface charge density necessary to stabilize the liquid phase of molecular hydrogen at the temperature of superfluid transition is estimated.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2000-03-10T21:54:55Z</published>
+    <arxiv:comment>5 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Phys. Rev. Letters, 85, 2861-2864 (2000)</arxiv:journal_ref>
+    <author>
+      <name>Igor I. Smolyaninov</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.85.2861</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.85.2861" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/mtrl-th/9602004v1</id>
+    <title>Statistical Properties of the Dense Hydrogen Plasma: an ab initio Molecular Dynamics Investigation</title>
+    <updated>1996-02-22T15:40:05Z</updated>
+    <link href="https://arxiv.org/abs/mtrl-th/9602004v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/mtrl-th/9602004v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The metallic regime of the hydrogen plasma is studied by ab initio Molecular Dynamics simulations, for classical protons and fully degenerate electrons, in the strong coupling regime of the protons. The breakdown of linear screening observed for decreasing density gives rise to a surprisingly rich low-temperature phase diagram, showing in particular a dramatic drop of the melting temperature of the proton crystal. Extensive dynamical simulations reveal the remarkable persistence of a weakly damped high-frequency ion acoustic mode (plasmon-like), even under conditions of strong electron screening. This collective mode should disappear in the molecular phase, thus providing a probe for the metal-insulator transition in a region of parameters where experiment is difficult to achieve. Finite-size effects arising in the simulation of liquid metals are discussed. The status of the dense Hydrogen matter is extensively reviewed in the introduction.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1996-02-22T15:40:05Z</published>
+    <arxiv:comment>14 pages (twocolumn), 18 Postscript figures. To appear in Phys. Rev. E</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Jorge Kohanoff</name>
+    </author>
+    <author>
+      <name>Jean-Pierre Hansen</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevE.54.768</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevE.54.768" title="doi"/>
+  </entry>
+</feed>

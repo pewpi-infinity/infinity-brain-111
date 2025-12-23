@@ -1,0 +1,75 @@
+TERMS: entropy, fusion, probability
+COLORS: red, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/J6jnCqaVyAHFBXDZ8Z+QVjPA4ts</id>
+  <title>arXiv Query: search_query=all:entropy AND all:fusion AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:16:56Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+(all:fusion+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>34</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/physics/0111118v1</id>
+    <title>Probabilistic methods for data fusion</title>
+    <updated>2001-11-14T11:40:36Z</updated>
+    <link href="https://arxiv.org/abs/physics/0111118v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/physics/0111118v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The main object of this paper is to show how we can use classical probabilistic methods such as Maximum Entropy (ME), maximum likelihood (ML) and/or Bayesian (BAYES) approaches to do microscopic and macroscopic data fusion. Actually ME can be used to assign a probability law to an unknown quantity when we have macroscopic data (expectations) on it. ML can be used to estimate the parameters of a probability law when we have microscopic data (direct observation). BAYES can be used to update a prior probability law when we have microscopic data through the likelihood. When we have both microscopic and macroscopic data we can use first ME to assign a prior and then use BAYES to update it to the posterior law thus doing the desired data fusion. However, in practical data fusion applications, we may still need some engineering feeling to propose realistic data fusion solutions. Some simple examples in sensor data fusion and image reconstruction using different kind of data are presented to illustrate these ideas. Keywords: Data fusion, Maximum entropy, Maximum likelihood, Bayesian data fusion, EM algorithm.</summary>
+    <category term="physics.data-an" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2001-11-14T11:40:36Z</published>
+    <arxiv:comment>Presented at MaxEnt97. Appeared in Maximum Entropy and Bayesian Methods, G.J. Erickson, J.T. Rychert and C.R. Smith (Ed.), Kluwer Academic Publishers (http://www.wkap.nl/prod/b/0-7923-5047-2)</arxiv:comment>
+    <arxiv:primary_category term="physics.data-an"/>
+    <author>
+      <name>A. Mohammad-Djafari</name>
+      <arxiv:affiliation>Laboratoire des Signaux et Systèmes, CNRS-UPS-SUPELEC, Gif-sur-Yvette, France</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1105.5594v2</id>
+    <title>A risk profile for information fusion algorithms</title>
+    <updated>2011-08-18T20:41:09Z</updated>
+    <link href="https://arxiv.org/abs/1105.5594v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1105.5594v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>E.T. Jaynes, originator of the maximum entropy interpretation of statistical mechanics, emphasized that there is an inevitable trade-off between the conflicting requirements of robustness and accuracy for any inferencing algorithm. This is because robustness requires discarding of information in order to reduce the sensitivity to outliers. The principal of nonlinear statistical coupling, which is an interpretation of the Tsallis entropy generalization, can be used to quantify this trade-off. The coupled-surprisal, -ln_k (p)=-(p^k-1)/k, is a generalization of Shannon surprisal or the logarithmic scoring rule, given a forecast p of a true event by an inferencing algorithm. The coupling parameter k=1-q, where q is the Tsallis entropy index, is the degree of nonlinear coupling between statistical states. Positive (negative) values of nonlinear coupling decrease (increase) the surprisal information metric and thereby biases the risk in favor of decisive (robust) algorithms relative to the Shannon surprisal (k=0). We show that translating the average coupled-surprisal to an effective probability is equivalent to using the generalized mean of the true event probabilities as a scoring rule. The metric is used to assess the robustness, accuracy, and decisiveness of a fusion algorithm. We use a two-parameter fusion algorithm to combine input probabilities from N sources. The generalized mean parameter 'alpha' varies the degree of smoothing and raising to a power N^beta with beta between 0 and 1 provides a model of correlation.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-05-27T15:57:24Z</published>
+    <arxiv:comment>15 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.IT"/>
+    <arxiv:journal_ref>Entropy, vol. 13, no. 8, pp. 1518-1532, 2011</arxiv:journal_ref>
+    <author>
+      <name>Kenric P. Nelson</name>
+    </author>
+    <author>
+      <name>Brian J. Scannell</name>
+    </author>
+    <author>
+      <name>Herbert Landau</name>
+    </author>
+    <arxiv:doi>10.3390/e13081518</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/e13081518" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.15666v1</id>
+    <title>Generalized Type II Fusion of Cluster States</title>
+    <updated>2024-06-21T21:53:37Z</updated>
+    <link href="https://arxiv.org/abs/2406.15666v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.15666v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Measurement based quantum computation is a quantum computing paradigm, that employs single-qubit measurements performed on an entangled resource state in the form of a cluster state. A basic ingredient in the construction of the resource state is the type II fusion procedure, which connects two cluster states. We generalize the type II fusion procedure by generalizing the fusion matrix, and classify the resulting final states, which also include cluster states up to single-qubit rotations. We prove that the probability for the success of the generalized type II fusion is bounded by fifty percent, and classify all the possibilities to saturate the bound. We analyze the enhancement of the fusion success probability above the fifty percent bound, by the reduction of the entanglement entropy of the fusion link. We prove that the only states, that can be obtained with hundred percent probability of success, are product states.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-21T21:53:37Z</published>
+    <arxiv:comment>25 pages, 13 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Noam Rimock</name>
+    </author>
+    <author>
+      <name>Khen Cohen</name>
+    </author>
+    <author>
+      <name>Yaron Oz</name>
+    </author>
+  </entry>
+</feed>

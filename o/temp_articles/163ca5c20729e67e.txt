@@ -1,0 +1,121 @@
+TERMS: hydrogen, fusion, electron, crystal
+COLORS: purple, green, green, orange
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/uRWVpJGUAWw6DrTVCp84kWniDJE</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:fusion AND all:electron AND all:crystal&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:52:17Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:fusion+AND+(all:electron+AND+all:crystal))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>3</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2210.09667v2</id>
+    <title>Intense γ-photon and high-energy electron production by neutron irradiation: effects of nuclear excitations on reactor materials</title>
+    <updated>2023-06-16T16:17:12Z</updated>
+    <link href="https://arxiv.org/abs/2210.09667v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2210.09667v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The effects of neutron irradiation on materials are often interpreted in terms of atomic recoils, initiated by neutron impacts and producing crystal lattice defects. In addition, there is a remarkable two-step process, strongly pronounced in the medium-weight and heavy elements. This process involves the generation of energetic γ photons in nonelastic collisions of neutrons with atomic nuclei, achieved via capture and inelastic reactions. Subsequently, high-energy electrons are excited through the scattering of γ photons by the atomic electrons. We derive and validate equations enabling a fast and robust evaluation of photon and electron fluxes produced by the neutrons in the bulk of materials. The two-step n-γ-e scattering creates a nonequilibrium dynamically fluctuating steady-state population of high-energy electrons, with the spectra of photon and electron energies extending well into the mega-electron-volt range. This stimulates vacancy diffusion through electron-triggered atomic recoils, primarily involving vacancy-impurity dissociation, even if thermal activation is ineffective. Tungsten converts the energy of fusion or fission neutrons into a flux of γ radiation at the conversion efficiency approaching 99%, with implications for structural materials, superconductors, and insulators, as well as phenomena like corrosion, and helium and hydrogen isotope retention.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-10-18T08:09:07Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>PRX Energy 2, 023008 (2023)</arxiv:journal_ref>
+    <author>
+      <name>Luca Reali</name>
+    </author>
+    <author>
+      <name>Mark R. Gilbert</name>
+    </author>
+    <author>
+      <name>Max Boleininger</name>
+    </author>
+    <author>
+      <name>Sergei L. Dudarev</name>
+    </author>
+    <arxiv:doi>10.1103/PRXEnergy.2.023008</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PRXEnergy.2.023008" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1910.05155v1</id>
+    <title>Single-crystal and polycrystalline diamond erosion studies in Pilot-PSI</title>
+    <updated>2019-10-11T13:05:37Z</updated>
+    <link href="https://arxiv.org/abs/1910.05155v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1910.05155v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Diamond is a promising candidate for enhancing the negative-ion surface production in the ion sources for neutral injection in fusion reactors; hence evaluation of its reactivity towards hydrogen plasma is of high importance. High quality PECVD single crystal and polycrystalline diamond samples were exposed in Pilot-PSI with the D + flux of (4-7)$\times$10 24 m-2 s-1 and the impact energy of 7-9 eV per deuteron at different surface temperatures; under such conditions physical sputtering is negligible, however chemical sputtering is important. Net chemical sputtering yield $Y = 9.7\times 10^{-3}$ at/ion at 800$^\circ$C was precisely measured ex-situ using a protective platinum mask (5x10x2 $μ$m) deposited beforehand on a single crystal followed by the post-mortem analysis using Transmission Electron Microscopy (TEM). The structural properties of the exposed diamond surface were analyzed by Raman spectroscopy and X-ray Photoelectron Spectroscopy (XPS). Gross chemical sputtering yields were determined in-situ by means of optical emission spectroscopy of the molecular CH AX band for several surface temperatures. We observed a bell shape dependence of the erosion yield versus temperature between 400$^\circ$C and 1200$^\circ$C, with a maximum yield of ~1.5$\times$10-2 at/ion attained at 900$^\circ$C. The yields obtained for diamond are relatively high $(0.51.5)\times 10^{-2}$ at/ion, comparable with those of graphite. XPS analyses show amorphization of diamond surface within 1 nm depth, in good agreement with molecular dynamics (MD) simulation. MD was also applied to study the hydrogen impact energy threshold for erosion of [100] diamond surface at different temperatures.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-10-11T13:05:37Z</published>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <arxiv:journal_ref>Journal of Nuclear Materials, Elsevier, 2018, 500, pp.110-118</arxiv:journal_ref>
+    <author>
+      <name>D. Kogut</name>
+      <arxiv:affiliation>PIIM</arxiv:affiliation>
+    </author>
+    <author>
+      <name>D. Aussems</name>
+      <arxiv:affiliation>PIIM</arxiv:affiliation>
+    </author>
+    <author>
+      <name>N. Ning</name>
+      <arxiv:affiliation>PIIM</arxiv:affiliation>
+    </author>
+    <author>
+      <name>K. Bystrov</name>
+      <arxiv:affiliation>LSPM</arxiv:affiliation>
+    </author>
+    <author>
+      <name>A. Gicquel</name>
+      <arxiv:affiliation>LSPM</arxiv:affiliation>
+    </author>
+    <author>
+      <name>J. Achard</name>
+      <arxiv:affiliation>LSPM</arxiv:affiliation>
+    </author>
+    <author>
+      <name>O. Brinza</name>
+      <arxiv:affiliation>LSPM</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Y. Addab</name>
+      <arxiv:affiliation>PIIM</arxiv:affiliation>
+    </author>
+    <author>
+      <name>C. Martin</name>
+      <arxiv:affiliation>AMU</arxiv:affiliation>
+    </author>
+    <author>
+      <name>C. Pardanaud</name>
+      <arxiv:affiliation>AMU</arxiv:affiliation>
+    </author>
+    <author>
+      <name>S. Khrapak</name>
+      <arxiv:affiliation>PIIM</arxiv:affiliation>
+    </author>
+    <author>
+      <name>G. Cartry</name>
+      <arxiv:affiliation>IMN</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1016/j.jnucmat.2017.12.028</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.jnucmat.2017.12.028" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.00858v1</id>
+    <title>A comprehensive screening of plasma-facing materials for nuclear fusion</title>
+    <updated>2024-06-30T23:57:54Z</updated>
+    <link href="https://arxiv.org/abs/2407.00858v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.00858v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Plasma-facing materials (PFMs) represent one of the most significant challenges for the design of future nuclear fusion reactors. Inside the reactor, the divertor will experience the harshest material environment: intense bombardment of neutrons and plasma particles coupled with large and intermittent heat fluxes. The material designated to cover this role in ITER is tungsten (W). While no other materials have shown the potential to match the properties of W, many drawbacks associated with its application remain, including: cracking and erosion induced by a low recrystallization temperature combined with a high ductile-brittle transition temperature and neutron-initiated embrittlement; surface morphology changes (fuzz layer) due to plasma-W interaction with subsequent risk of spontaneous material melting and delamination; low oxidation resistance. This work aims to produce a structured and comprehensive materials screening of PFMs candidates based on known inorganic materials. The methodology applied in this study to identify the most promising PFM candidates combines peer-reviewed data present in the Pauling File database and DFT calculations of two key PFMs defects, namely the surface binding energy and the formation energy of a hydrogen interstitial. The crystal structures and their related properties, extracted from the Pauling File, are ranked according to the heat-balance equation of a PFM subject to the heat loads in the divertor region of an ITER-like tokamak. The materials satisfying the requirements are critically compared with the state-of-the-art literature, defining an optimal subset where to perform the first-principles electronic structure calculations. The majority of previously known PFMs are captured by this screening process, confirming its reliability. Additionally, less familiar refractory materials suggest performance that calls for further investigations.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-30T23:57:54Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Andrea Fedrigucci</name>
+    </author>
+    <author>
+      <name>Nicola Marzari</name>
+    </author>
+    <author>
+      <name>Paolo Ricci</name>
+    </author>
+  </entry>
+</feed>

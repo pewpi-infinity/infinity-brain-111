@@ -1,0 +1,78 @@
+TERMS: frequency, graphene, bandgap
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/sv04SryYupBbajuez1lzN+S4mEM</id>
+  <title>arXiv Query: search_query=all:frequency AND all:graphene AND all:bandgap&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:12:17Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:graphene+AND+all:bandgap)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>42</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1103.3943v2</id>
+    <title>Tunable graphene bandgaps from superstrate mediated interactions</title>
+    <updated>2011-09-20T17:07:45Z</updated>
+    <link href="https://arxiv.org/abs/1103.3943v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1103.3943v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A theory is presented for the strong enhancement of graphene-on-substrate bandgaps by attractive interactions mediated through phonons in a polarizable superstrate. It is demonstrated that gaps of up to 1eV can be formed for experimentally achievable values of electron-phonon coupling and phonon frequency. Gap enhancements range between 1 and 4, indicating possible benefits to graphene electronics through greater bandgap control for digital applications, lasers, LEDs and photovoltaics through the relatively simple application of polarizable materials such as SiO2 and Si3N4.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-03-21T09:01:53Z</published>
+    <arxiv:comment>4 pages, 4 figures, to appear in Phys. Rev. B</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Physical Review B, 84(15), p. 155438. (2011)</arxiv:journal_ref>
+    <author>
+      <name>J. P. Hague</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.84.155438</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.84.155438" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1103.1599v4</id>
+    <title>Explicit drain-current model of graphene field-effect transistors targeting analog and radio-frequency applications</title>
+    <updated>2011-06-24T15:39:33Z</updated>
+    <link href="https://arxiv.org/abs/1103.1599v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1103.1599v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a compact physics-based model of the current-voltage characteristics of graphene field-effect transistors, of especial interest for analog and radio-frequency applications where bandgap engineering of graphene could be not needed. The physical framework is a field-effect model and drift-diffusion carrier transport. Explicit closed-form expressions have been derived for the drain current covering continuosly all operation regions. The model has been benchmarked with measured prototype devices, demonstrating accuracy and predictive behavior. Finally, we show an example of projection of the intrinsic gain as a figure of merit commonly used in RF /analog applications.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-03-08T18:49:19Z</published>
+    <arxiv:comment>10 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>IEEE Transactions on Electron Devices, vol. 58, issue 11, pp. 4049-4052 (2011)</arxiv:journal_ref>
+    <author>
+      <name>David Jimenez</name>
+    </author>
+    <author>
+      <name>Oana Moldovan</name>
+    </author>
+    <arxiv:doi>10.1109/TED.2011.2163517</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/TED.2011.2163517" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1510.02529v1</id>
+    <title>Plasmon dissipation in gapped-graphene open systems at finite temperature</title>
+    <updated>2015-10-08T23:47:04Z</updated>
+    <link href="https://arxiv.org/abs/1510.02529v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1510.02529v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Numerical and closed-form analytic expressions for plasmon dispersion relations and rates of dissipation are first obtained at finite-temperatures for free-standing gapped graphene. These closed-system results are generalized to an open system with Coulomb coupling of graphene electrons to an external electron reservoir. New plasmon modes, as well as new plasmon dissipation channels, are found in this open system, including significant modifications arising from the combined effect of thermal excitation of electrons and an energy bandgap in gapped graphene. Moreover, the characteristics of the new plasmon mode and the additional plasmon dissipation may be fully controlled by adjusting the separation between the graphene layer from the surface of a thick conductor. Numerical results for the thermal shift of plasmon frequency in a doped gapped graphene layer, along with its sensitivity to the local environment, are demonstrated and analyzed. Such phenomenon associated with the frequency shift of plasmons may be applied to direct optical measurement of local electron temperature in transistors and nanoplasmonic structures.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-10-08T23:47:04Z</published>
+    <arxiv:comment>16 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>Andrii Iurov</name>
+    </author>
+    <author>
+      <name>Godfrey Gumbs</name>
+    </author>
+    <author>
+      <name>Danhong Huang</name>
+    </author>
+    <author>
+      <name>V. M. Silkin</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.93.035404</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.93.035404" title="doi"/>
+  </entry>
+</feed>

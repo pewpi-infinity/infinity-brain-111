@@ -1,0 +1,78 @@
+TERMS: quantum, neutrino
+COLORS: blue, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/8SFCirk7LVhTFysWUwMTr7dzolo</id>
+  <title>arXiv Query: search_query=all:quantum AND all:neutrino&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T00:56:58Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+all:neutrino&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>3502</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/9310280v1</id>
+    <title>The Tau Neutrino as the Lightest Supersymmetric Particle</title>
+    <updated>1993-10-13T15:39:48Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/9310280v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/9310280v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Given the conservation of baryon number as well as electron and muon numbers, all present data can be explained without the need of a conserved quantum number for the tau lepton and its neutrino. A supersymmetric extension of the standard model naturally allows for such a scenario. One consequence is that the tau neutrino becomes the lightest supersymmetric particle.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1993-10-13T15:39:48Z</published>
+    <arxiv:comment>6 pages, UCRHEP-T117 and MAD/PH/799, to appear in Proc. of the Second Talinn Neutrino Symposium, Lohusalu, Estonia, Oct 1993</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Proc. of 2nd Talinn Neutrino Symposium, p.162</arxiv:journal_ref>
+    <author>
+      <name>Ernest Ma</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.13923v2</id>
+    <title>Open system approach to Neutrino oscillations in a quantum walk framework</title>
+    <updated>2024-01-03T10:35:26Z</updated>
+    <link href="https://arxiv.org/abs/2305.13923v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.13923v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Quantum simulation provides a computationally-feasible approach to model and study many problems in chemistry, condensed-matter physics, or high-energy physics where quantum phenomenon define the systems behaviour. In high-energy physics, quite a few possible applications are investigated in the context of gauge theories and their application to dynamic problems, topological problems, high-baryon density configurations, or collective neutrino oscillations. In particular, schemes for simulating neutrino oscillations are proposed using a quantum walk framework. In this study, we approach the problem of simulating neutrino oscillation from the perspective of open quantum systems by treating the position space of quantum walk as environment. We have obtained the recurrence relation for Kraus operator which is used to represent the dynamics of the neutrino flavor change in the form of reduced coin states. We establish a connection between the dynamics of reduced coin state and neutrino phenomenology, enabling one to fix the simulation parameters for a given neutrino experiment and reduces the need for extended position space to simulate neutrino oscillations. We have also studied the behavior of linear entropy as a measure of entanglement between different flavors in the same framework.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-23T10:51:08Z</published>
+    <arxiv:comment>A section on 'Quantum circuit construction of PMNS Matrix' is added</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Quantum Information Processing 23, 7 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Himanshu Sahu</name>
+    </author>
+    <author>
+      <name>C. M. Chandrashekar</name>
+    </author>
+    <arxiv:doi>10.1007/s11128-023-04222-8</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s11128-023-04222-8" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2207.05883v2</id>
+    <title>Searches for massive neutrinos with mechanical quantum sensors</title>
+    <updated>2023-02-14T03:52:38Z</updated>
+    <link href="https://arxiv.org/abs/2207.05883v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2207.05883v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The development of quantum optomechanics now allows mechanical sensors with femtogram masses to be controlled and measured in the quantum regime. If the mechanical element contains isotopes that undergo nuclear decay, measuring the recoil of the sensor following the decay allows reconstruction of the total momentum of all emitted particles, including any neutral particles that may escape detection in traditional detectors. As an example, for weak nuclear decays the momentum of the emitted neutrino can be reconstructed on an event-by-event basis. We present the concept that a single nanometer-scale, optically levitated sensor operated with sensitivity near the standard quantum limit can search for heavy sterile neutrinos in the keV-MeV mass range with sensitivity significantly beyond existing constraints. We also comment on the possibility that mechanical sensors operated well into the quantum regime might ultimately reach the sensitivities required to provide an absolute measurement of the mass of the light neutrino states.</summary>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-07-12T23:12:49Z</published>
+    <arxiv:comment>11 pages + refs, 7 figures. v2: published version (+ an appendix containing a quantum model of the 3-body decay in a nanosphere)</arxiv:comment>
+    <arxiv:primary_category term="hep-ex"/>
+    <arxiv:journal_ref>PRX Quantum 4 (2023), 010315</arxiv:journal_ref>
+    <author>
+      <name>Daniel Carney</name>
+    </author>
+    <author>
+      <name>Kyle G. Leach</name>
+    </author>
+    <author>
+      <name>David C. Moore</name>
+    </author>
+    <arxiv:doi>10.1103/PRXQuantum.4.010315</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PRXQuantum.4.010315" title="doi"/>
+  </entry>
+</feed>

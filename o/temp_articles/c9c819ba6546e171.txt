@@ -1,0 +1,106 @@
+TERMS: crystal, neutrino, oxidation
+COLORS: orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Bozg8OWE1Q4omxbdP4LfRtgLuiE</id>
+  <title>arXiv Query: search_query=all:crystal AND all:neutrino AND all:oxidation&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:28:38Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:crystal+AND+(all:neutrino+AND+all:oxidation)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2302.02111v3</id>
+    <title>A method to measure the quenching factor for recoil energy of oxygen in bismuth germanium oxide scintillators</title>
+    <updated>2023-04-26T23:58:32Z</updated>
+    <link href="https://arxiv.org/abs/2302.02111v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2302.02111v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Bismuth germanium oxide ($\rm Bi_{4} Ge_{3} O_{12}$, BGO) scintillation crystals are widely used as detectors in the fields of particle physics and astrophysics due to their high density, and thus higher efficiency for gamma-ray detection. Owing to their good chemical stability, they can be used in any environment. For rare-event searches, such as dark matter and coherent elastic neutrino-nucleus scattering, BGO crystals are essential to comprehend the response of nuclear recoil. In this study, we have analyzed the events of neutron elastic scattering with oxygen in BGO crystals. Then, we have measured the quenching factor for oxygen recoil energy in the BGO crystal as a function of recoil energy by using a monoenergetic neutron source.</summary>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-02-04T06:39:55Z</published>
+    <arxiv:comment>14 pages, 11 figures, 1 table</arxiv:comment>
+    <arxiv:primary_category term="physics.ins-det"/>
+    <arxiv:journal_ref>JINST 18 T04006 (2023)</arxiv:journal_ref>
+    <author>
+      <name>Yuga Ommura</name>
+    </author>
+    <author>
+      <name>Hiroshi Ito</name>
+    </author>
+    <author>
+      <name>Takatomi Yano</name>
+    </author>
+    <author>
+      <name>Akihiro Minamino</name>
+    </author>
+    <author>
+      <name>Masaki Ishitsuka</name>
+    </author>
+    <arxiv:doi>10.1088/1748-0221/18/04/T04006</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1748-0221/18/04/T04006" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2203.15903v1</id>
+    <title>Large-mass, low-threshold sapphire detector for rare event searches</title>
+    <updated>2022-03-27T02:21:03Z</updated>
+    <link href="https://arxiv.org/abs/2203.15903v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2203.15903v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Low mass nuclear recoil dark matter and coherent-elastic-neutrino-nucleus-scattering (CENNS) searches confront similar challenges in choosing ultra-low threshold and large-mass detectors. We report experimental results from the first-of-its-kind 100 g single-crystal sapphire detector design with a diameter of 76 mm and thickness of 4 mm. The detector is designed to be sensitive for low-energy rare interactions with an intention to investigate the low mass region of dark matter phase-space and search for CENNS at the reactor site. Sapphire is a crystal of aluminum oxide (Al2O3) and has been found to be a good candidate for light mass spin-dependent dark matter search experiments due to its lower atomic mass compared to other detector materials such as germanium and silicon. Using the data collected from the test facility at Texas A&amp;M University, we were able to resolve low energy lines from calibration sources and estimated that our newly developed sapphire detector has a baseline recoil energy resolution of 18 eV. These detectors are operated at 0 V with the phonon-assisted detection providing a quenching-free low-threshold operation.</summary>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-03-27T02:21:03Z</published>
+    <arxiv:comment>9 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.ins-det"/>
+    <author>
+      <name>S. Verma</name>
+    </author>
+    <author>
+      <name>S. Maludze</name>
+    </author>
+    <author>
+      <name>M. Lee</name>
+    </author>
+    <author>
+      <name>M. Chaudhuri</name>
+    </author>
+    <author>
+      <name>V. Iyer</name>
+    </author>
+    <author>
+      <name>V. K. S. Kashyap</name>
+    </author>
+    <author>
+      <name>A. Kubik</name>
+    </author>
+    <author>
+      <name>T. Lin</name>
+    </author>
+    <author>
+      <name>R. Mahapatra</name>
+    </author>
+    <author>
+      <name>N. Mirabolfathi</name>
+    </author>
+    <author>
+      <name>N. Mishra</name>
+    </author>
+    <author>
+      <name>B. Mohanty</name>
+    </author>
+    <author>
+      <name>H. Neog</name>
+    </author>
+    <author>
+      <name>A. Jastram</name>
+    </author>
+    <author>
+      <name>M. Platt Platta</name>
+    </author>
+    <arxiv:doi>10.1016/j.nima.2022.167634</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.nima.2022.167634" title="doi"/>
+  </entry>
+</feed>

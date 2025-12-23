@@ -1,0 +1,54 @@
+TERMS: quantum, tachyon, plasma
+COLORS: blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/h2D0qbhbhFnIF3trAHrCyb3RYnU</id>
+  <title>arXiv Query: search_query=all:quantum AND all:tachyon AND all:plasma&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:08:50Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:tachyon+AND+all:plasma)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/0811.4401v1</id>
+    <title>What the inflaton might tell us about RHIC/LHC</title>
+    <updated>2008-11-26T19:03:39Z</updated>
+    <link href="https://arxiv.org/abs/0811.4401v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0811.4401v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Topical phenomena in high-energy physics related to collision experiments of heavy nuclei ("Little Bang") and early universe cosmology ("Big Bang") involve far-from-equilibrium dynamics described by quantum field theory. One example concerns the role of plasma instabilities for the process of thermalization in heavy-ion collisions. The reheating of the early universe after inflation may exhibit rather similar phenomena following a tachyonic or parametric resonance instability. Certain universal aspects associated to nonthermal fixed points even quantitatively agree, and considering these phenomena from a common perspective can be fruitful.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-11-26T19:03:39Z</published>
+    <arxiv:comment>Plenary talk at SEWM08, 9 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Nucl.Phys.A820:65c-73c,2009</arxiv:journal_ref>
+    <author>
+      <name>J. Berges</name>
+    </author>
+    <arxiv:doi>10.1016/j.nuclphysa.2009.01.020</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.nuclphysa.2009.01.020" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.04445v2</id>
+    <title>Higgs-Induced Gravitational Waves: the Interplay of Non-Minimal Couplings, Kination and Top Quark Mass</title>
+    <updated>2025-10-18T09:19:11Z</updated>
+    <link href="https://arxiv.org/abs/2502.04445v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.04445v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We explore a minimal scenario where the sole Standard-Model Higgs is responsible for reheating the Universe after inflation, produces a significant background of gravitational waves and maintains the full classical stability of the electroweak vacuum. As the Higgs self-coupling runs toward negative values at high energy scales, a non-minimal interaction with curvature during a stiff background expansion era drives the Higgs fluctuations closer to the instability scale. This curvature-induced tachyonic instability leads to an intense production of Higgs particles, accompanied by a stochastic gravitational-wave background. The characteristic features of such signal can be directly correlated to the inflationary scale, the non-minimal coupling parameter and the top quark Yukawa coupling. We distinguish between three possible scenarios: absolute stability with low top quark masses, potential vacuum instability, and absolute stability with new physics above the instability scale. Our findings suggest that the detection of a peaked background of gravitational waves together with its inflationary tail has the potential to unveil the features of the Higgs effective potential at very high energy scales while providing a minimal explanation for the reheating phase and the emergence of the Standard-Model plasma in the early Universe. Unlike other studies in the literature, the generation of gravitational waves in our scenario does not depend on the quantum instability of the Standard Model vacuum.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-06T19:00:05Z</published>
+    <arxiv:comment>27 pages, 9 figures, discussion and figures updated, matches published version</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Giorgio Laverda</name>
+    </author>
+    <author>
+      <name>Javier Rubio</name>
+    </author>
+  </entry>
+</feed>

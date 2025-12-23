@@ -1,0 +1,77 @@
+TERMS: hydrogen, spin, neutrino
+COLORS: purple, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/rSy9UX79v4onbuev9sImUi1ed3U</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:spin AND all:neutrino&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:04:14Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:spin+AND+all:neutrino)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>19</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1506.07883v2</id>
+    <title>Electromagnetic modulation of monochromatic neutrino beams</title>
+    <updated>2015-10-12T12:36:33Z</updated>
+    <link href="https://arxiv.org/abs/1506.07883v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1506.07883v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A possibility to produce a modulated monochromatic neutrino beam is discussed. Monochromatic neutrinos can be obtained in electron capture by nuclei of atoms or ions, in particular, by nuclei of hydrogen-like ions. It is shown that monochromatic neutrino beam from such hydrogen-like ions with nuclei of non-zero spin can be modulated because of different probabilities of electron capture from hyperfine states. Modulation arises by means of inducing of electromagnetic transitions between the hyperfine states. Requirements for the hydrogen-like ions with necessary properties are discussed. A list of the appropriate nuclei for such ions is presented.</summary>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-06-25T20:02:00Z</published>
+    <arxiv:comment>11 pages, 1 figure, minor corrections to match the final published version</arxiv:comment>
+    <arxiv:primary_category term="nucl-th"/>
+    <arxiv:journal_ref>Eur. Phys. J. A (2015) 51: 96</arxiv:journal_ref>
+    <author>
+      <name>A. L. Barabanov</name>
+    </author>
+    <author>
+      <name>O. A. Titov</name>
+    </author>
+    <arxiv:doi>10.1140/epja/i2015-15096-9</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1140/epja/i2015-15096-9" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1004.4098v2</id>
+    <title>Neutrino magnetic moment effects in electron-capture measurements at GSI</title>
+    <updated>2010-06-02T08:09:20Z</updated>
+    <link href="https://arxiv.org/abs/1004.4098v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1004.4098v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>I conjecture that the time modulated decay rates reported in single ion measurements of two body electron capture decay of hydrogen like heavy ions at GSI may be related to neutrino spin precession in the static magnetic field of the storage ring. These `GSI Oscillations' arise from interference between amplitudes of decay within and without the magnetic field, a scenario that requires a Dirac neutrino magnetic moment six times lower than the Borexino solar neutrino upper limit of 0.54 x 10E(-10) Bohr magneton. I also show in a way not discussed before that the time modulation associated with interference between massive neutrino amplitudes, if such interference could arise, is of a period at least four orders of magnitude shorter than reported and must average to zero given the time resolution of the GSI measurements.</summary>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-04-23T11:07:17Z</published>
+    <arxiv:comment>corrected for typos and references, outdates arXiv:0809.1213, matches journal published version</arxiv:comment>
+    <arxiv:primary_category term="nucl-th"/>
+    <arxiv:journal_ref>Nucl. Phys. A842:102-112, 2010</arxiv:journal_ref>
+    <author>
+      <name>Avraham Gal</name>
+    </author>
+    <arxiv:doi>10.1016/j.nuclphysa.2010.04.007</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.nuclphysa.2010.04.007" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0809.1213v7</id>
+    <title>Neutrino effects in two-body electron-capture measurements at GSI</title>
+    <updated>2010-05-30T15:46:35Z</updated>
+    <link href="https://arxiv.org/abs/0809.1213v7" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0809.1213v7" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Oscillatory behavior of electron capture rates in the two-body decay of hydrogen-like ions into recoil ions plus undetected neutrinos, with a period of approximately 7 s, was reported in storage ring single-ion experiments at the GSI Laboratory, Darmstadt. Ivanov and Kienle [PRL 103, 062502 (2009)] have relegated this period to neutrino masses through neutrino mixing in the final state. New arguments are given here against this interpretation, while suggesting that these `GSI Oscillations' may be related to neutrino spin precession in the static magnetic field of the storage ring. This scenario requires a Dirac neutrino magnetic moment six times smaller than the Borexino solar neutrino upper limit 0.54 x 10E(-10) of the Bohr magneton [PRL 101, 091302 (2008)], and its consequences are explored.</summary>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-09-07T09:59:58Z</published>
+    <arxiv:comment>extended but somewhat different version of the reference listed below; superseded by arXiv:1004.4098</arxiv:comment>
+    <arxiv:primary_category term="nucl-th"/>
+    <arxiv:journal_ref>Nucl. Phys. A842:102-112, 2010</arxiv:journal_ref>
+    <author>
+      <name>Avraham Gal</name>
+    </author>
+    <arxiv:doi>10.1016/j.nuclphysa.2010.04.007</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.nuclphysa.2010.04.007" title="doi"/>
+  </entry>
+</feed>

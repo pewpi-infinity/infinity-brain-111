@@ -1,0 +1,44 @@
+TERMS: vapor, muon, plasma
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/DKJx0BSrl+aYxTg9uH3bLdkGcpI</id>
+  <title>arXiv Query: search_query=all:vapor AND all:muon AND all:plasma&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:26:36Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:vapor+AND+(all:muon+AND+all:plasma)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2206.00925v1</id>
+    <title>Defect Profiling of Oxide-Semiconductor Interfaces Using Low-Energy Muons</title>
+    <updated>2022-06-02T08:39:16Z</updated>
+    <link href="https://arxiv.org/abs/2206.00925v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2206.00925v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Muon spin rotation with low-energy muons (LEμSR) is a powerful nuclear method where electrical and magnetic properties of surface-near regions and thin films can be studied on a length scale of $\approx$\SI{200}{\nano\meter}. In this work, we show the potential of utilizing low-energy muons for a depth-resolved characterization of oxide-semiconductor interfaces, i.e. for silicon (Si) and silicon carbide (4H-SiC). Silicon dioxide (SiO$_2$) grown by plasma-enhanced chemical vapor deposition (PECVD) and by thermal oxidation of the SiO$_2$-semiconductor interface are compared with respect to interface and defect formation. The nanometer depth resolution of μallows for a clear distinction between the oxide and semiconductor layers, while also quantifying the extension of structural changes caused by the oxidation of both Si and SiC.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-06-02T08:39:16Z</published>
+    <arxiv:comment>The following article has been submitted to Advanced Materials Interfaces</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Maria Inês Mendes Martins</name>
+    </author>
+    <author>
+      <name>Piyush Kumar</name>
+    </author>
+    <author>
+      <name>Judith Woerle</name>
+    </author>
+    <author>
+      <name>Xiaojie Ni</name>
+    </author>
+    <author>
+      <name>Ulrike Grossner</name>
+    </author>
+    <author>
+      <name>Thomas Prokscha</name>
+    </author>
+  </entry>
+</feed>

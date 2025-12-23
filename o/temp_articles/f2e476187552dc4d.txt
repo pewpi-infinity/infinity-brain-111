@@ -1,0 +1,150 @@
+TERMS: quantum, ionization, vacuum
+COLORS: blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/kOFO6M/sbk7hu1nHcQdkFMZsjHE</id>
+  <title>arXiv Query: search_query=all:quantum AND all:ionization AND all:vacuum&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:07:50Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:ionization+AND+all:vacuum)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>48</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1805.06928v1</id>
+    <title>Quantum-based vacuum metrology at NIST</title>
+    <updated>2018-05-17T19:01:13Z</updated>
+    <link href="https://arxiv.org/abs/1805.06928v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1805.06928v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The measurement science in realizing and disseminating the unit for pressure in the International System of Units (SI), the pascal (Pa), has been the subject of much interest at the National Institute of Standards and Technology (NIST). Modern optical-based techniques for pascal metrology have been investigated, including multi-photon ionization and cavity ringdown spectroscopy. Work is ongoing to recast the pascal in terms of quantum properties and fundamental constants and in so doing, make vacuum metrology consistent with the global trend toward quantum-based metrology. NIST has ongoing projects that interrogate the index of refraction of a gas using an optical cavity for low vacuum, and count background particles in high vacuum to extreme high vacuum using trapped laser-cooled atoms.</summary>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-05-17T19:01:13Z</published>
+    <arxiv:comment>49 pages, 11 figures, review article</arxiv:comment>
+    <arxiv:primary_category term="physics.ins-det"/>
+    <author>
+      <name>Julia Scherschligt</name>
+    </author>
+    <author>
+      <name>James A. Fedchak</name>
+    </author>
+    <author>
+      <name>Zeeshan Ahmed</name>
+    </author>
+    <author>
+      <name>Daniel S. Barker</name>
+    </author>
+    <author>
+      <name>Kevin Douglass</name>
+    </author>
+    <author>
+      <name>Stephen Eckel</name>
+    </author>
+    <author>
+      <name>Edward Hanson</name>
+    </author>
+    <author>
+      <name>Jay Hendricks</name>
+    </author>
+    <author>
+      <name>Nikolai Klimov</name>
+    </author>
+    <author>
+      <name>Thomas Purdy</name>
+    </author>
+    <author>
+      <name>Jacob Ricker</name>
+    </author>
+    <author>
+      <name>Robinjeet Singh</name>
+    </author>
+    <author>
+      <name>Jack Stone</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2007.11900v1</id>
+    <title>A spectrally bright wavelength-switchable vacuum ultraviolet source driven by quantum coherence in strong-field-ionized molecules</title>
+    <updated>2020-07-23T10:12:19Z</updated>
+    <link href="https://arxiv.org/abs/2007.11900v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2007.11900v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We report generation of spectrally bright vacuum ultraviolet (VUV) and deep UV (DUV) coherent radiations driven by quantum coherence in tunnel-ionized carbon monoxide (CO) molecules. Our technique allows us to switch between multiple wavelengths provided by the abundant energy levels of molecular ions. The DUV/VUV sources can have arbitrary polarization states by manipulating the pump laser polarization. The superior temporal and spectral properties of the developed source give rise to a broadband Raman comb in the DUV/VUV region.</summary>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-07-23T10:12:19Z</published>
+    <arxiv:comment>5 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.optics"/>
+    <author>
+      <name>Yuexin Wan</name>
+    </author>
+    <author>
+      <name>Zhaoxiang Liu</name>
+    </author>
+    <author>
+      <name>Jinping Yao</name>
+    </author>
+    <author>
+      <name>Bo Xu</name>
+    </author>
+    <author>
+      <name>Jinming Chen</name>
+    </author>
+    <author>
+      <name>Fangbo Zhang</name>
+    </author>
+    <author>
+      <name>Zhihao Zhang</name>
+    </author>
+    <author>
+      <name>Lingling Qiao</name>
+    </author>
+    <author>
+      <name>Ya Cheng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2206.10502v2</id>
+    <title>Quantum self-consistent equation-of-motion method for computing molecular excitation energies, ionization potentials, and electron affinities on a quantum computer</title>
+    <updated>2023-02-23T18:29:27Z</updated>
+    <link href="https://arxiv.org/abs/2206.10502v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2206.10502v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Near-term quantum computers are expected to facilitate material and chemical research through accurate molecular simulations. Several developments have already shown that accurate ground-state energies for small molecules can be evaluated on present-day quantum devices. Although electronically excited states play a vital role in chemical processes and applications, the search for a reliable and practical approach for routine excited-state calculations on near-term quantum devices is ongoing. Inspired by excited-state methods developed for the unitary coupled-cluster theory in quantum chemistry, we present an equation-of-motion-based method to compute excitation energies following the variational quantum eigensolver algorithm for ground-state calculations on a quantum computer. We perform numerical simulations on H$_2$, H$_4$, H$_2$O, and LiH molecules to test our quantum self-consistent equation-of-motion (q-sc-EOM) method and compare it to other current state-of-the-art methods. q-sc-EOM makes use of self-consistent operators to satisfy the vacuum annihilation condition, a critical property for accurate calculations. It provides real and size-intensive energy differences corresponding to vertical excitation energies, ionization potentials and electron affinities. We also find that q-sc-EOM is more suitable for implementation on NISQ devices as it is expected to be more resilient to noise compared with the currently available methods.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-06-21T16:21:04Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Ayush Asthana</name>
+    </author>
+    <author>
+      <name>Ashutosh Kumar</name>
+    </author>
+    <author>
+      <name>Vibin Abraham</name>
+    </author>
+    <author>
+      <name>Harper Grimsley</name>
+    </author>
+    <author>
+      <name>Yu Zhang</name>
+    </author>
+    <author>
+      <name>Lukasz Cincio</name>
+    </author>
+    <author>
+      <name>Sergei Tretiak</name>
+    </author>
+    <author>
+      <name>Pavel A. Dub</name>
+    </author>
+    <author>
+      <name>Sophia E. Economou</name>
+    </author>
+    <author>
+      <name>Edwin Barnes</name>
+    </author>
+    <author>
+      <name>Nicholas J. Mayhall</name>
+    </author>
+  </entry>
+</feed>

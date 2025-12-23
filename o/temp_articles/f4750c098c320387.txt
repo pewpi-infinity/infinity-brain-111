@@ -1,0 +1,64 @@
+TERMS: hydrogen, quantum, frequency, vapor
+COLORS: purple, blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/tQOFv3QM6bhzi4AbVDTHHl3RBlg</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:frequency AND all:vapor&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:37:42Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:frequency+AND+all:vapor))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1908.09433v1</id>
+    <title>Intrinsic pH of water/vapor interface revealed by ion-induced water alignment</title>
+    <updated>2019-08-26T01:48:32Z</updated>
+    <link href="https://arxiv.org/abs/1908.09433v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1908.09433v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Protons at the water/vapor interface are relevant for atmospheric and environmental processes, yet to characterize their surface affinity on the quantitative level is still challenging. Here we utilize phase-sensitive sum-frequency vibrational spectroscopy to quantify the surface density of protons (or their hydronium form) at the intrinsic water/vapor interface, through inspecting the surface-field-induced alignment of water molecules in the electrical double layer of ions. With hydrogen halides in water, the surface adsorption of protons is found to be independent of specific proton-halide anion interactions and to follow a constant adsorption free energy, G about -3.74 (+/-0.56) kJ/mol, corresponding to a reduction of the surface pH with respect to the bulk value by 0.66 (+/-0.10), for bulk ion concentrations up to 0.3 M. Our spectroscopic study is not only of importance in atmospheric chemistry, but also offers a microscopic-level basis to develop advanced quantum-mechanical models for molecular simulations.</summary>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-08-26T01:48:32Z</published>
+    <arxiv:comment>23 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.chem-ph"/>
+    <author>
+      <name>Kuo-Yang Chiang</name>
+    </author>
+    <author>
+      <name>Laetitia Dalstein</name>
+    </author>
+    <author>
+      <name>Yu-Chieh Wen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2403.03534v1</id>
+    <title>Characterization of the low electric field and zero-temperature two-level-system loss in hydrogenated amorphous silicon</title>
+    <updated>2024-03-06T08:27:53Z</updated>
+    <link href="https://arxiv.org/abs/2403.03534v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.03534v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Two-level systems (TLS) are an important, if not dominant, source of loss and noise for superconducting resonators such as those used in kinetic inductance detectors and some quantum information science platforms. They are similarly important for loss in photolithographically fabricated superconducting mm-wave/THz transmission lines. For both lumped-element and transmission-line structures, native amorphous surface oxide films are typically the sites of such TLS in non-microstripline geometries, while loss in the (usually amorphous) dielectric film itself usually dominates in microstriplines. We report here on the demonstration of low TLS loss at GHz frequencies in hydrogenated amorphous silicon (a-Si:H) films deposited by plasma-enhanced chemical vapor deposition in superconducting lumped-element resonators using parallel-plate capacitors (PPCs). The values we obtain from two recipes in different deposition machines, 7$\,\times\,10^{-6}$ and 12$\,\times\,10^{-6}$, improve on the best achieved in the literature by a factor of 2--4 for a-Si:H and are comparable to recent measurements of amorphous germanium. Moreover, we have taken care to extract the true zero-temperature, low-field loss tangent of these films, accounting for temperature and field saturation effects that can yield misleading results. Such robustly fabricated and characterized films render the use of PPCs with deposited amorphous films a viable architecture for superconducting resonators, and they also promise extremely low loss and high quality factor for photolithographically fabricated superconducting mm-wave/THz transmission lines used in planar antennas and resonant filters.</summary>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-06T08:27:53Z</published>
+    <arxiv:primary_category term="physics.ins-det"/>
+    <arxiv:journal_ref>Phys.Rev.Mater. 8 (2024) 035602</arxiv:journal_ref>
+    <author>
+      <name>Fabien Defrance</name>
+    </author>
+    <author>
+      <name>Andrew D. Beyer</name>
+    </author>
+    <author>
+      <name>Shibo Shu</name>
+    </author>
+    <author>
+      <name>Jack Sayers</name>
+    </author>
+    <author>
+      <name>Sunil R. Golwala</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevMaterials.8.035602</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevMaterials.8.035602" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,82 @@
+TERMS: wavefunction, probability, singularity
+COLORS: yellow, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/6mKqSRZwjUo2WSUxYOml7KWJDV8</id>
+  <title>arXiv Query: search_query=all:wavefunction AND all:probability AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:34:07Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:wavefunction+AND+(all:probability+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>18</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2510.07460v1</id>
+    <title>Analysis of divergent dynamics of exactly factorized electron-nuclear wavefunctions</title>
+    <updated>2025-10-08T19:05:52Z</updated>
+    <link href="https://arxiv.org/abs/2510.07460v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.07460v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Exact Factorization (XF) of molecular wavefunctions can be viewed as an 'electronic wavepacket' framework for quantum dynamics. It is an appealing alternative to the conventional non-adiabatic dynamics, unfolding in the space of coupled electronic eigenstates. However, implementation of the non-linear XF equations for general systems presents a formidable challenge: the XF counterparts to the non-adiabatic coupling involve division by the nuclear probability density, which leads to severe numerical instabilities in the low-density regions of space. In case of the non-adiabatic dynamics the effect of coupling is relatively smooth, but this theoretical framework becomes impractical when numerous electronic states are involved. In this paper the origin of the XF-specific challenge is analyzed analytically. We demonstrate that the problem arises when the factorized wavefunction diverges, even without the explicit coupling of the Born-Huang electronic states used to describe the molecular wavefunction. Using a 'minimal' model of the photodissociation, we derive expressions for the XF dynamics and locate the source of the XF instability. We analyze the dependence of this instability on the nuclear wavefunction bifurcation in the stationary and moving frames of reference, the latter associated with the quantum trajectory ensemble describing the nuclear XF wavepacket in a compact form. We show that the near-singular behavior persists in the moving frame and in the atomic basis representation of the electronic wavefunction. This model and insight into the root of the XF implementation challenge will help to address the issue, leading to further development of the XF methods.</summary>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-08T19:05:52Z</published>
+    <arxiv:comment>21 pages, 7 figures, 2 tables</arxiv:comment>
+    <arxiv:primary_category term="physics.chem-ph"/>
+    <author>
+      <name>Julian Stetzler</name>
+      <arxiv:affiliation>Department of Chemistry &amp; Biochemistry, University of South Carolina, Columbia, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Sophya Garashchuk</name>
+      <arxiv:affiliation>Department of Chemistry &amp; Biochemistry, University of South Carolina, Columbia, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Vitaly A. Rassolov</name>
+      <arxiv:affiliation>Department of Chemistry &amp; Biochemistry, University of South Carolina, Columbia, USA</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2110.03050v2</id>
+    <title>Probability distribution for the quantum universe</title>
+    <updated>2021-12-25T11:42:11Z</updated>
+    <link href="https://arxiv.org/abs/2110.03050v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2110.03050v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We determine the inner product on the Hilbert space of wavefunctions of the universe by imposing the Hermiticity of the quantum Hamiltonian in the context of the minisuperspace model. The corresponding quantum probability density reproduces successfully the classical probability distribution in the $\hbar \to 0$ limit, for closed universes filled with a perfect fluid of index $w$. When $-1/3&lt;w\le 1$, the wavefunction is normalizable and the quantum probability density becomes vanishingly small at the big bang/big crunch singularities, at least at the semi-classical level. Quantum expectation values of physical geometrical quantities, which diverge classically at the singularities, are shown to be finite.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-10-06T20:11:05Z</published>
+    <arxiv:comment>1+17 pages</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Alex Kehagias</name>
+    </author>
+    <author>
+      <name>Hervé Partouche</name>
+    </author>
+    <author>
+      <name>Nicolaos Toumbas</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP12(2021)165</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP12(2021)165" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1401.6182v3</id>
+    <title>Non-local (but also non-singular) physics at the last stages of gravitational collapse</title>
+    <updated>2014-03-04T23:27:42Z</updated>
+    <link href="https://arxiv.org/abs/1401.6182v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1401.6182v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the end stages of gravitational collapse of the thin shell of matter in ingoing Eddington-Finkelstein coordinates. We use the functional Schrodinger formalism to capture quantum effects in the near singularity limit. We find that that the equations of motion which govern the behavior of the collapsing shell near the classical singularity become strongly non-local. This reinforces previous arguments that quantum gravity in the strong field regime might be non-local. We managed to solve the non-local equation of motion for the dust shell case, and found an explicit form of the wavefunction describing the collapsing shell. This wavefunction and the corresponding probability density are non-singular at the origin, thus indicating that quantization should be able to rid gravity of singularities, just as it was the case with the singular Coulomb potential.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-01-23T21:00:17Z</published>
+    <arxiv:comment>Published in Phys. Rev. D 89, 044003 (2014)</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Phys. Rev. D 89, 044003 (2014)</arxiv:journal_ref>
+    <author>
+      <name>Anshul Saini</name>
+    </author>
+    <author>
+      <name>Dejan Stojkovic</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.89.044003</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.89.044003" title="doi"/>
+  </entry>
+</feed>

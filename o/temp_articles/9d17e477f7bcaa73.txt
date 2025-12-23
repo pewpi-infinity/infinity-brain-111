@@ -1,0 +1,33 @@
+TERMS: boson, bandgap, singularity
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/aknKFSkI/9kvDhCJUg+NiW13W7U</id>
+  <title>arXiv Query: search_query=all:boson AND all:bandgap AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:36:55Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:boson+AND+(all:bandgap+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1206.4455v1</id>
+    <title>Kondo effect near the Van Hove singularity in biased bilayer graphene</title>
+    <updated>2012-06-20T10:58:42Z</updated>
+    <link href="https://arxiv.org/abs/1206.4455v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1206.4455v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Magnetic impurity adsorbed on one of the carbon planes of a bilayer graphene is studied. The formation of the many-body SU(2) and SU(4) resonances close to the bandgap is analyzed within the mean field Kotliar-Ruckenstein slave boson approach. Impact of enhanced hybridization and magnetic instability of bilayer doped near the Van Hove singularity on the screening of magnetic moment is discussed.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-06-20T10:58:42Z</published>
+    <arxiv:comment>10 pages, 8 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>S. Lipinski</name>
+    </author>
+    <author>
+      <name>D. Krychowski</name>
+    </author>
+    <arxiv:doi>10.3938/jkps.62.1440</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3938/jkps.62.1440" title="doi"/>
+  </entry>
+</feed>

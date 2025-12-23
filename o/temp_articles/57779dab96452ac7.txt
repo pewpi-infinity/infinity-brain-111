@@ -1,0 +1,97 @@
+TERMS: graphene, boson, oxidation
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/BC2W0JGrKjvPt3LMs97RZH0eKgI</id>
+  <title>arXiv Query: search_query=all:graphene AND all:boson AND all:oxidation&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:34:37Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:graphene+AND+(all:boson+AND+all:oxidation)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2511.14253v1</id>
+    <title>Heat Capacity of Thermally Reduced Graphene Oxide: Compaction and Thermal Annealing Effects</title>
+    <updated>2025-11-18T08:43:37Z</updated>
+    <link href="https://arxiv.org/abs/2511.14253v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.14253v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a comprehensive investigation of the low-temperature heat capacity of thermally reduced graphene oxide (trGO) as a function of compaction pressure and annealing temperature. Graphene oxide was synthesized using a modified Hummers method and subsequently thermally reduced at 300\,°C, 500\,°C, and 700\,°C under vacuum to systematically vary the oxygen content and structural ordering. The specific heat data in the 2--300\,K range reveal that the thermal response is governed by phonons, including contributions from a Schottky-type anomaly, a defect-related linear term, a Debye term, and a dispersive term with a negative coefficient associated with out-of-plane flexural (ZA) phonons. Increasing compaction pressure alters interlayer coupling and leads to non-monotonic changes in heat capacity, while higher annealing temperatures enhance graphitization, reduce disorder, and modify phonon dispersion. The absence of a boson peak -- similar to that observed in carbon nanotubes -- supports the dominance of two-dimensional vibrational modes. These findings elucidate the relationship between dimensionality, structural disorder, and processing parameters in shaping the phonon dynamics of trGO, providing guidance for tailoring its thermal behavior in advanced carbon-based functional materials.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-18T08:43:37Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>A. I. Krivchikov</name>
+      <arxiv:affiliation>B. Verkin Institute for Low Temperature Physics and Engineering, NAS of Ukraine, Ukraine</arxiv:affiliation>
+    </author>
+    <author>
+      <name>A. Jezowski</name>
+      <arxiv:affiliation>Institute of Low Temperature and Structure Research PAS, Poland</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. S. Barabashko</name>
+      <arxiv:affiliation>B. Verkin Institute for Low Temperature Physics and Engineering, NAS of Ukraine, Ukraine</arxiv:affiliation>
+    </author>
+    <author>
+      <name>A. V. Dolbin</name>
+      <arxiv:affiliation>B. Verkin Institute for Low Temperature Physics and Engineering, NAS of Ukraine, Ukraine</arxiv:affiliation>
+    </author>
+    <author>
+      <name>N. A. Vinnikov</name>
+      <arxiv:affiliation>B. Verkin Institute for Low Temperature Physics and Engineering, NAS of Ukraine, Ukraine</arxiv:affiliation>
+    </author>
+    <author>
+      <name>S. V. Cherednichenko</name>
+      <arxiv:affiliation>B. Verkin Institute for Low Temperature Physics and Engineering, NAS of Ukraine, Ukraine</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Yu. Horbatenko</name>
+      <arxiv:affiliation>B. Verkin Institute for Low Temperature Physics and Engineering, NAS of Ukraine, Ukraine</arxiv:affiliation>
+    </author>
+    <author>
+      <name>O. Korolyuk</name>
+      <arxiv:affiliation>B. Verkin Institute for Low Temperature Physics and Engineering, NAS of Ukraine, Ukraine</arxiv:affiliation>
+    </author>
+    <author>
+      <name>O. Bezkrovnyi</name>
+      <arxiv:affiliation>Institute of Low Temperature and Structure Research PAS, Poland</arxiv:affiliation>
+    </author>
+    <author>
+      <name>O. Romantsova</name>
+      <arxiv:affiliation>B. Verkin Institute for Low Temperature Physics and Engineering, NAS of Ukraine, Ukraine</arxiv:affiliation>
+      <arxiv:affiliation>Institute of Low Temperature and Structure Research PAS, Poland</arxiv:affiliation>
+    </author>
+    <author>
+      <name>D. Szewczyk</name>
+      <arxiv:affiliation>Institute of Low Temperature and Structure Research PAS, Poland</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1904.12872v2</id>
+    <title>Metal to Orthogonal Metal Transition</title>
+    <updated>2020-03-28T04:39:55Z</updated>
+    <link href="https://arxiv.org/abs/1904.12872v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1904.12872v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Orthogonal metal is a new quantum metallic state that conducts electricity but acquires no Fermi surface (FS) or quasiparticles, and hence orthogonal to the established paradigm of Landau's Fermi-liquid (FL). Such a state may hold the key of understanding the perplexing experimental observations of quantum metals that are beyond FL, i.e., dubbed non-Fermi-liquid (nFL), ranging from the Cu- and Fe-based oxides, heavy fermion compounds to the recently discovered twisted graphene heterostructures. However, to fully understand such an exotic state of matter, at least theoretically, one would like to construct a lattice model and to solve it with unbiased quantum many-body machinery. Here we achieve this goal by designing a 2D lattice model comprised of fermionic and bosonic matter fields coupled with dynamic $\mathbb Z_2$ gauge fields, and obtain its exact properties with sign-free quantum Monte Carlo simulations. We find that as the bosonic matter fields become disordered, with the help of deconfinement of the $\mathbb Z_2$ gauge fields, the system reacts with changing its nature from the conventional normal metal with an FS to an orthogonal metal of nFL without FS and quasiparticles and yet still responds to magnetic probe like an FL. Such a quantum phase transition from a normal metal to an orthogonal metal, with its electronic and magnetic spectral properties revealed, is calling for the establishment of new paradigm of quantum metals and their transition with conventional ones.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-04-29T18:00:06Z</published>
+    <arxiv:comment>7 + 2 pages, 4 + 1 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Chin. Phys. Lett. 37 047103 (2020)</arxiv:journal_ref>
+    <author>
+      <name>Chuang Chen</name>
+    </author>
+    <author>
+      <name>Xiao Yan Xu</name>
+    </author>
+    <author>
+      <name>Yang Qi</name>
+    </author>
+    <author>
+      <name>Zi Yang Meng</name>
+    </author>
+    <arxiv:doi>10.1088/0256-307X/37/4/047103</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0256-307X/37/4/047103" title="doi"/>
+  </entry>
+</feed>

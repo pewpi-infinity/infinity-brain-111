@@ -1,0 +1,36 @@
+TERMS: hydrogen, electron, wavefunction, oxidation
+COLORS: purple, green, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/+fkREZYmO5XKHJTNZLUE73MhdFU</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:electron AND all:wavefunction AND all:oxidation&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:56:25Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:electron+AND+(all:wavefunction+AND+all:oxidation))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2504.02861v1</id>
+    <title>Bootstrapping the Electronic Structure of Quantum Materials</title>
+    <updated>2025-03-31T17:04:41Z</updated>
+    <link href="https://arxiv.org/abs/2504.02861v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.02861v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The last several decades have seen significant advances in the theoretical modeling of materials within the fields of solid-state physics and materials science, but many methods commonly applied to this problem struggle to capture strong electron correlation accurately. Recent widespread interest in quantum materials -- where strong correlation plays a crucial role in the quantum effects governing their behavior -- further highlights the need for theoretical methods capable of rigorously treating such correlation. Here, we present a periodic generalization of variational two-electron reduced density matrix (2-RDM) theory, a bootstrapping-type method that minimizes the ground-state energy as a functional of the 2-RDM without relying on the wavefunction. The 2-RDM is computed directly by semidefinite programming with $N$-representability conditions, ensuring accurate treatment of strongly correlated electronic systems. By exploiting translational symmetry, we significantly reduce computational scaling, enabling applications to realistic materials-scale systems. Additionally, we introduce an alternative to conventional energy band structures: natural-orbital occupation-number bands, which, being independent of mean-field assumptions, offer deeper insights into electron correlation effects. We demonstrate the effectiveness of this approach by applying the theory to hydrogen chains, molybdenum disulfide, and nickel oxide, showing that natural-orbital occupation bands correctly capture electronic character in regimes where density functional theory fails. This work represents a major step toward accurately describing the electronic structure of quantum materials using reduced density matrices rather than wavefunctions.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-31T17:04:41Z</published>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <author>
+      <name>Anna O. Schouten</name>
+    </author>
+    <author>
+      <name>Simon Ewing</name>
+    </author>
+    <author>
+      <name>David A. Mazziotti</name>
+    </author>
+  </entry>
+</feed>

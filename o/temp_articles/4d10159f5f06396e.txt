@@ -1,0 +1,51 @@
+TERMS: hydrogen, quantum, entropy, boson
+COLORS: purple, blue, red, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/uSZHXISFAulbikFjgfs57yosjrk</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:entropy AND all:boson&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:38:31Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:entropy+AND+all:boson))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1211.1907v3</id>
+    <title>Energy dependence of the entanglement entropy of composite boson (quasiboson) systems</title>
+    <updated>2013-03-14T17:26:10Z</updated>
+    <link href="https://arxiv.org/abs/1211.1907v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1211.1907v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Bipartite composite boson (quasiboson) systems, which admit realization in terms of deformed oscillators, were considered in our previous paper from the viewpoint of entanglement characteristics. These characteristics, including entanglement entropy and purity, were expressed through the relevant deformation parameter for different quasibosonic states. On the other hand, it is of interest to present the entanglement entropy and likewise the purity as function of energy for those states. In this work, the corresponding dependencies are found for different states of composite bosons realized by deformed oscillators and, for comparison, also for the hydrogen atom viewed as composite boson. The obtained results are expressed graphically and their implications discussed.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-11-08T17:14:13Z</published>
+    <arxiv:comment>10 pages, 14 figures; v2: introduction, conclusions rewritten, one section (on purity VS energy) and a number of refs. added; v3: minor changes in order to match journal version. Accepted in J. Phys. A</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>J. Phys. A: Math. Theor. 46 (2013) 145301 (20pp)</arxiv:journal_ref>
+    <author>
+      <name>A. M. Gavrilik</name>
+    </author>
+    <author>
+      <name>Yu. A. Mishchenko</name>
+    </author>
+    <arxiv:doi>10.1088/1751-8113/46/14/145301</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1751-8113/46/14/145301" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0503152v1</id>
+    <title>Theory of the liquid-glass transition in water</title>
+    <updated>2005-03-07T16:04:32Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0503152v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0503152v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  A quantum field theory of the liquid-glass transition in water based on the two band model in the harmonic potential approximation is presented by taking into account of the hydrogen bonding effect and the polarization effect. The sound and diffusion associated with intra-band density fluctuations, and the phonons and viscocity associated with inter-band density fluctuations are calculated. The Kauzmann paradox on the Kauzmann's entropy crisis and the Vogel-Tamman-Fulcher (VTF) law on the relaxation times and the transport coefficients are elucidated from the sound instability at a reciprocal particle distance corresponding a hydrogen bond length and at the sound instability temperature very close to the Kauzmann temperature. The gap of specific heat at the glass transition temperature and the boson peaks are also presented.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-03-07T16:04:32Z</published>
+    <arxiv:comment>26 pages, no figure</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <author>
+      <name>T. Kitamura</name>
+    </author>
+  </entry>
+</feed>

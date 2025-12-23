@@ -1,0 +1,80 @@
+TERMS: quantum, entropy, boson
+COLORS: blue, red, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/8kerxKo0dUnH57hgQF5zMTyQRGQ</id>
+  <title>arXiv Query: search_query=all:quantum AND all:entropy AND all:boson&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:06:22Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:entropy+AND+all:boson)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1010</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1801.09187v4</id>
+    <title>A model of Josephson Junctions on Boson Systems - Currents and Entropy Production Rate -</title>
+    <updated>2018-09-14T02:39:53Z</updated>
+    <link href="https://arxiv.org/abs/1801.09187v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1801.09187v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Non-equilibrium steady states (NESS), in the sense of D. Ruelle, of Boson systems with Bose--Einstein condensation (BEC) are investigated with the aid of the C^*-algebraic method. The model consists of a quantum particle and several bosonic reservoirs. We show that the mean entropy production rate is strictly positive, independent of phase differences provided that the temperatures or the chemical potentials of reservoirs are different. Moreover, Josephson currents occur without entropy production, if the temperatures and the chemical potentials of reservoirs are identical.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-01-28T06:24:55Z</published>
+    <arxiv:comment>21 pages, 2 figure, second major revised version, the title changed from "Non-equilibrium steady states for a Harmonic oscillator interacting several Boson system - Currents and Entropy production rate -"</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <arxiv:journal_ref>J. Math. Phys. 59 (2018), no. 10, 102107</arxiv:journal_ref>
+    <author>
+      <name>Tomohiro Kanda</name>
+    </author>
+    <arxiv:doi>10.1063/1.5025598</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/1.5025598" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1205.0222v2</id>
+    <title>Continuous variable methods in relativistic quantum information: Characterisation of quantum and classical correlations of scalar field modes in noninertial frames</title>
+    <updated>2012-06-25T19:51:31Z</updated>
+    <link href="https://arxiv.org/abs/1205.0222v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1205.0222v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We review a recently introduced unified approach to the analytical quantification of correlations in Gaussian states of bosonic scalar fields by means of Renyi-2 entropy. This allows us to obtain handy formulae for classical, quantum, total correlations, as well as bipartite and multipartite entanglement. We apply our techniques to the study of correlations between two modes of a scalar field as described by observers in different states of motion. When one or both observers are in uniform acceleration, the quantum and classical correlations are degraded differently by the Unruh effect, depending on which mode is detected. Residual quantum correlations, in the form of quantum discord without entanglement, may survive in the limit of an infinitely accelerated observer Rob, provided they are revealed in a measurement performed by the inertial Alice.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-05-01T17:27:22Z</published>
+    <arxiv:comment>23 pages, 3 figures. v2: Setting clarified. To appear in Class. Quantum Grav. Special Issue on `Relativistic Quantum Information'</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Class. Quantum Grav. 29 (2012) 224002</arxiv:journal_ref>
+    <author>
+      <name>Gerardo Adesso</name>
+    </author>
+    <author>
+      <name>Sammy Ragy</name>
+    </author>
+    <author>
+      <name>Davide Girolami</name>
+    </author>
+    <arxiv:doi>10.1088/0264-9381/29/22/224002</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0264-9381/29/22/224002" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2303.12749v3</id>
+    <title>Quantum and classical contributions to entropy production in fermionic and bosonic Gaussian systems</title>
+    <updated>2023-05-25T10:37:46Z</updated>
+    <link href="https://arxiv.org/abs/2303.12749v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2303.12749v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As previously demonstrated, the entropy production -- a key quantity characterizing the irreversibility of thermodynamic processes -- is related to generation of correlations between degrees of freedom of the system and its thermal environment. This raises the question of whether such correlations are of a classical or quantum nature, namely, whether they are accessible through local measurements on the correlated degrees of freedom. We address this problem by considering fermionic and bosonic Gaussian systems. We show that for fermions the entropy production is mostly quantum due to the parity superselection rule which restricts the set of physically allowed measurements to projections on the Fock states, thus significantly limiting the amount of classically accessible correlations. In contrast, in bosonic systems a much larger amount of correlations can be accessed through Gaussian measurements. Specifically, while the quantum contribution may be important at low temperatures, in the high temperature limit the entropy production corresponds to purely classical position-momentum correlations. Our results demonstrate an important difference between fermionic and bosonic systems regarding the existence of a quantum-to-classical transition in the microscopic formulation of the entropy production. They also show that entropy production can be mainly caused by quantum correlations even in the weak coupling limit, which admits a description in terms of classical rate equations for state populations, as well as in the low particle density limit, where the transport properties of both bosons and fermions converge to those of classical particles.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-03-22T17:05:15Z</published>
+    <arxiv:comment>23 pages, 17 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>PRX Quantum 4, 020353 (2023)</arxiv:journal_ref>
+    <author>
+      <name>Krzysztof Ptaszynski</name>
+    </author>
+    <author>
+      <name>Massimiliano Esposito</name>
+    </author>
+    <arxiv:doi>10.1103/PRXQuantum.4.020353</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PRXQuantum.4.020353" title="doi"/>
+  </entry>
+</feed>

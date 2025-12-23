@@ -1,0 +1,36 @@
+TERMS: ionization, boson, vacuum
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ysTb44tbYKen6nSn30EXMBA/kzk</id>
+  <title>arXiv Query: search_query=all:ionization AND all:boson AND all:vacuum&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:30:11Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:ionization+AND+(all:boson+AND+all:vacuum)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1311.1806v1</id>
+    <title>Measurement of the dispersion of radiation from a steady cosmological source</title>
+    <updated>2013-11-07T20:38:21Z</updated>
+    <link href="https://arxiv.org/abs/1311.1806v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1311.1806v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The `missing baryons' of the near universe are believed to be principally in a partially ionized state. Although passing electromagnetic waves are dispersed by the plasma, the effect has hitherto not been utilized as a means of detection because it is generally believed that a successful observation requires the background source to be highly variable, \ie~the class of sources that could potentially deliver a verdict is limited. We argue in two stages that this condition is not necessary. First, by modeling the fluctuations on macroscopic scales as interference between wave packets we show that, in accordance with the ideas advanced by Einstein in 1917, both the behavior of photons as bosons (\ie~the intensity variance has contributions from Poisson and phase noise) and the van-Cittert-Zernike theorem are a consequence of wave-particle duality. Nevertheless, we then point out that in general the variance on some macroscopic timescale $τ$ consists of (a) a main contributing term $\propto 1/τ$, plus (b) a small negative term $\propto 1/τ^2$ due to the finite size of the wave packets. If the radiation passes through a dispersive medium, this size will be enlarged well beyond its vacuum minimum value of $Δt \approx 1/Δν$, leading to a more negative (b) term (while (a) remains unchanged) and hence a suppression of the variance w.r.t. the vacuum scenario. The phenomenon, which is typically at the few parts in 10$^5$ level, enables one to measure cosmological dispersion in principle. Signal-to-noise estimates, along with systematic issues and how to overcome them, will be presented.</summary>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-11-07T20:38:21Z</published>
+    <arxiv:comment>22 pages, 1 table, 1 appendix, ApJ in press</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.CO"/>
+    <author>
+      <name>Richard Lieu</name>
+    </author>
+    <author>
+      <name>Lingze Duan</name>
+    </author>
+    <author>
+      <name>T. W. B. Kibble</name>
+    </author>
+    <arxiv:doi>10.1088/0004-637X/778/1/73</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0004-637X/778/1/73" title="doi"/>
+  </entry>
+</feed>

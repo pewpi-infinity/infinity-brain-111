@@ -1,0 +1,40 @@
+TERMS: hydrogen, electron, bandgap, vacuum
+COLORS: purple, green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/pupZjib4l+AgSPl5VLZudwfTIBQ</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:electron AND all:bandgap AND all:vacuum&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:57:26Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:electron+AND+(all:bandgap+AND+all:vacuum))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2001.06161v2</id>
+    <title>Prediction for structure stability and ultrahigh hydrogen evolution performance of monolayer 2H-CrS2</title>
+    <updated>2020-10-02T23:15:02Z</updated>
+    <link href="https://arxiv.org/abs/2001.06161v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2001.06161v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>By a combination of the first-principles calculations and climbing image nudged elastic band method (ciNEB) we investigate structure stabilities and hydrogen evolution reaction (HER) performance of monolayer 2H-CrS2. The results suggest the free energy for the Volmer reaction in the monolayer 2H-CrS2 with S vacancy is 0.07 eV, comparable with Pt-based catalyst, and HER on the surface of the monolayer is prone to the Volmer-Heyrovsky mechanism with no energy barrier. We propose that high HER performance stems from the reduction of the energy level of d-band center. Additionally, the S vacancy leads to defect states in the middle of electronic bandgap and the reduction of potential barrier between the S atom layer and the vacuum, which is conducive to improve HER performance.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-01-17T05:15:52Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Feng Sun</name>
+    </author>
+    <author>
+      <name>Aijun Hong</name>
+    </author>
+    <author>
+      <name>Wenda Zhou</name>
+    </author>
+    <author>
+      <name>Cailei Yuan</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+  </entry>
+</feed>

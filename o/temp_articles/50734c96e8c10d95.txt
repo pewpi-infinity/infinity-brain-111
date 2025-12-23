@@ -1,0 +1,75 @@
+TERMS: fusion, ionization
+COLORS: green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/OwxMIqvPrzdMkTLZaXWbBeCQUqw</id>
+  <title>arXiv Query: search_query=all:fusion AND all:ionization&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T00:58:12Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:fusion+AND+all:ionization&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>170</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/physics/0512271v3</id>
+    <title>How much laser power can propagate through fusion plasma?</title>
+    <updated>2006-03-28T01:18:46Z</updated>
+    <link href="https://arxiv.org/abs/physics/0512271v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/physics/0512271v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Propagation of intense laser beams is crucial for inertial confinement fusion, which requires precise beam control to achieve the compression and heating necessary to ignite the fusion reaction. The National Ignition Facility (NIF), where fusion will be attempted, is now under construction. Control of intense beam propagation may be ruined by laser beam self-focusing. We have identified the maximum laser beam power that can propagate through fusion plasma without significant self-focusing and have found excellent agreement with recent experimental data, and suggest a way to increase that maximum by appropriate choice of plasma composition with implication for NIF designs. Our theory also leads to the prediction of anti-correlation between beam spray and backscatter and suggests the indirect control of backscatter through manipulation of plasma ionization state or acoustic damping.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.CD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.PS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-12-30T11:29:46Z</published>
+    <arxiv:comment>15 pages, 4 figures, submitted to Plasma Physics and Controlled Fusion</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <arxiv:journal_ref>Plasma Physics and Controlled Fusion, v. 48, pp. 1501-1513 (2006)</arxiv:journal_ref>
+    <author>
+      <name>Pavel M. Lushnikov</name>
+    </author>
+    <author>
+      <name>Harvey A. Rose</name>
+    </author>
+    <arxiv:doi>10.1088/0741-3335/48/10/004</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0741-3335/48/10/004" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1108.1073v1</id>
+    <title>Storage-ring ionization and recombination experiments with multiply charged ions relevant to astrophysical and fusion plasmas</title>
+    <updated>2011-08-04T12:51:17Z</updated>
+    <link href="https://arxiv.org/abs/1108.1073v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1108.1073v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Past and ongoing research activities at the Heidelberg heavy-ion storage-ring TSR are reviewed which aim at providing accurate absolute rate coefficients and cross sections of atomic collision processes for applications in astrophysics and magnetically confined fusion. In particular, dielectronic recombination and electron impact ionization of iron ions are discussed as well as dielectronic recombination of tungsten ions.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-08-04T12:51:17Z</published>
+    <arxiv:comment>submitted to the proceedings of the XXVII International Conference on Photonic, Atomic, and Electronic Collisions (ICPEAC), July 27 - August 2, 2011, Belfast, U.K. (8 pages, 4 figures)</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <arxiv:journal_ref>J. Phys.: Conf. Ser. 388 (2012) 012010</arxiv:journal_ref>
+    <author>
+      <name>Stefan Schippers</name>
+    </author>
+    <arxiv:doi>10.1088/1742-6596/388/1/012007</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1742-6596/388/1/012007" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1408.5006v1</id>
+    <title>Modelling of turbulent impurity transport in fusion edge plasmas using measured and calculated ionization cross sections</title>
+    <updated>2014-08-21T14:07:30Z</updated>
+    <link href="https://arxiv.org/abs/1408.5006v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1408.5006v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Turbulent transport of trace impurities impurities in the edge and scrape-off-layer of tokamak fusion plasmas is modelled by three dimensional electromagnetic gyrofluid computations including evolution of plasma profile gradients. The source function of impurity ions is dynamically computed from pre-determined measured and calculated electron impact ionization cross section data. The simulations describe the generation and further passive turbulent E-cross-B advection of the impurities by intermittent fluctuations and coherent filamentary structures (blobs) across the scrape-off-layer.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-08-21T14:07:30Z</published>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <arxiv:journal_ref>Int. J. Mass Spectrometry 365/366, 106-113 (2014)</arxiv:journal_ref>
+    <author>
+      <name>Alexander Kendl</name>
+    </author>
+    <arxiv:doi>10.1016/j.ijms.2013.12.021</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.ijms.2013.12.021" title="doi"/>
+  </entry>
+</feed>

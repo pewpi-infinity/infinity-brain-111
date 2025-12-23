@@ -1,0 +1,104 @@
+TERMS: quantum, crystal, oxidation
+COLORS: blue, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/twamt9DQx7cwlt37Mj+CRIEt9C8</id>
+  <title>arXiv Query: search_query=all:quantum AND all:crystal AND all:oxidation&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:07:32Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:crystal+AND+all:oxidation)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>262</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2312.02123v1</id>
+    <title>In-situ tuning of optomechanical crystals with nano-oxidation</title>
+    <updated>2023-12-04T18:51:11Z</updated>
+    <link href="https://arxiv.org/abs/2312.02123v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.02123v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Optomechanical crystals are a promising device platform for quantum transduction and sensing. Precise targeting of the optical and acoustic resonance frequencies of these devices is crucial for future advances on these fronts. However, fabrication disorder in these wavelength-scale nanoscale devices typically leads to inhomogeneous resonance frequencies. Here we achieve in-situ, selective frequency tuning of optical and acoustic resonances in silicon optomechanical crystals via electric field-induced nano-oxidation using an atomic-force microscope. Our method can achieve a tuning range &gt;2 nm (0.13%) for the optical resonance wavelength in the telecom C-band, and &gt;60 MHz (1.2%) for the acoustic resonance frequency at 5 GHz. The tuning resolution of 1.1 nm for the optical wavelength, and $150$ kHz for the acoustic frequency allows us to spectrally align multiple optomechanical crystal resonators using optimal oxidation patterns determined via an inverse design protocol. Our results establish a method for precise post-fabrication tuning of optomechancical crystals. This technique can enable coupled optomechanical resonator arrays, scalable resonant optomechanical circuits, and frequency matching of microwave-optical quantum transducers.</summary>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-04T18:51:11Z</published>
+    <arxiv:primary_category term="physics.optics"/>
+    <author>
+      <name>Utku Hatipoglu</name>
+    </author>
+    <author>
+      <name>Sameer Sonar</name>
+    </author>
+    <author>
+      <name>David P. Lake</name>
+    </author>
+    <author>
+      <name>Srujan Meesala</name>
+    </author>
+    <author>
+      <name>Oskar Painter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2501.03348v1</id>
+    <title>Ab initio calculations of erbium crystal field splittings in oxide hosts</title>
+    <updated>2025-01-06T19:30:08Z</updated>
+    <link href="https://arxiv.org/abs/2501.03348v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2501.03348v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present an effective ab initio method to calculate the crystal field coefficients of an erbium (Er3+) ion experiencing different local site symmetries in several wide-band-gap oxides, and then evaluate crystal field splittings of these Er3+ ions for their ground and excited states. The optical transitions between the ground state (Z) and excited state (Y) manifolds of the environmentally shielded 4f states of these Er3+ ions have wavelengths ~1.5 microns and thus have potential applications to quantum communications and quantum memories. These results are in excellent agreement with recent low-temperature measurements, provided the inadequate calculation of the 4f shell screening is adjusted by reducing the radial extent of the 4f wavefunctions by approximately a factor of 2.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-01-06T19:30:08Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Yogendra Limbu</name>
+    </author>
+    <author>
+      <name>Yueguang Shi</name>
+    </author>
+    <author>
+      <name>Joseph Sink</name>
+    </author>
+    <author>
+      <name>Tharnier O. Puel</name>
+    </author>
+    <author>
+      <name>Durga Paudyal</name>
+    </author>
+    <author>
+      <name>Michael E. Flatté</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2005.06687v2</id>
+    <title>Simulating the fabrication of aluminium oxide tunnel junctions</title>
+    <updated>2020-05-15T03:17:02Z</updated>
+    <link href="https://arxiv.org/abs/2005.06687v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2005.06687v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Aluminium oxide (AlO$_\mathrm{x}$) tunnel junctions are important components in a range of nanoelectric devices including superconducting qubits where they can be used as Josephson junctions. While many improvements in the reproducibility and reliability of qubits have been made possible through new circuit designs, there are still knowledge gaps in the relevant materials science. A better understanding of how fabrication conditions affect the density, uniformity, and elemental composition of the oxide barrier may lead to the development of lower noise and more reliable nanoelectronics and quantum computers. In this paper we use molecular dynamics to develop models of Al-AlO$_\mathrm{x}$-Al junctions by iteratively growing the structures with sequential calculations. With this approach we can see how the surface oxide grows and changes during the oxidation simulation. Dynamic processes such as the evolution of a charge gradient across the oxide, the formation of holes in the oxide layer, and changes between amorphous and semi-crystalline phases are observed. Our results are widely in agreement with previous work including reported oxide densities, self-limiting of the oxidation, and increased crystallinity as the simulation temperature is raised. The encapsulation of the oxide with metal evaporation is also studied atom by atom. Low density regions at the metal-oxide interfaces are a common feature in the final junction structures which persists for different oxidation parameters, empirical potentials, and crystal orientations of the aluminium substrate.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-05-14T01:50:56Z</published>
+    <arxiv:comment>14 pages, 16 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>npj Quantum Inf 7, 12 (2021)</arxiv:journal_ref>
+    <author>
+      <name>M. J. Cyster</name>
+    </author>
+    <author>
+      <name>J. S. Smith</name>
+    </author>
+    <author>
+      <name>N. Vogt</name>
+    </author>
+    <author>
+      <name>G. Opletal</name>
+    </author>
+    <author>
+      <name>S. P. Russo</name>
+    </author>
+    <author>
+      <name>J. H. Cole</name>
+    </author>
+    <arxiv:doi>10.1038/s41534-020-00360-4</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41534-020-00360-4" title="doi"/>
+  </entry>
+</feed>

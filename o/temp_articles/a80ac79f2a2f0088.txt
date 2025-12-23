@@ -1,0 +1,77 @@
+TERMS: hydrogen, quantum, frequency, entropy
+COLORS: purple, blue, green, red
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/OUftSXe0izCTOpC5uer41NUbn4Q</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:frequency AND all:entropy&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:37:39Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:frequency+AND+all:entropy))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>6</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/0905.4148v1</id>
+    <title>Analytic continuation average spectrum method for quantum liquids</title>
+    <updated>2009-05-26T09:33:20Z</updated>
+    <link href="https://arxiv.org/abs/0905.4148v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0905.4148v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We revisit the problem of determining the real-frequency density response in quantum fluids via analytical continuation of imaginary-time quantum Monte Carlo data. We demonstrate that the average spectrum method (ASM) is capable of revealing resolved modes in the dynamic structure factor of both ortho-deuterium and liquid para-hydrogen, in agreement with experiments and quantum mode-coupling theories, while the maximum entropy approach yields only a smooth unimodal spectrum. Outstanding issues are discussed. Our work provides the first application of the ASM method in realistic off-lattice systems.</summary>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-05-26T09:33:20Z</published>
+    <arxiv:comment>7 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.other"/>
+    <author>
+      <name>David R. Reichman</name>
+    </author>
+    <author>
+      <name>Eran Rabani</name>
+    </author>
+    <arxiv:doi>10.1063/1.3185728</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/1.3185728" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2209.04392v2</id>
+    <title>The V30 Benchmark Set for Anharmonic Vibrational Frequencies of Molecular Dimers</title>
+    <updated>2024-09-11T17:38:17Z</updated>
+    <link href="https://arxiv.org/abs/2209.04392v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2209.04392v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Intermolecular vibrations are extremely challenging to describe but are the most crucial part for determining entropy and hence free energies, and enable for instance the distinction between different crystal-packing arrangements of the same molecule via THz spectroscopy. Herein, we introduce a benchmark data set - V30 - containing 30 small molecular dimers with intermolecular interactions ranging from exclusively van-der-Waals dispersion to systems with hydrogen bonds. All calculations are performed with the gold standard of Quantum Chemistry CCSD(T). We discuss vibrational frequencies obtained via different models starting with the harmonic approximation over independent Morse oscillators up to second-order vibrational perturbation theory (VPT2), which allows a proper anharmonic treatment including coupling of vibrational modes. However, large amplitude motions present in many low-frequency intermolecular modes are problematic for VPT2. In analogy to the often used treatment for internal rotations, we replace such problematic modes by a simple one-dimensional hindered rotor model. We compare selected dimers with available experimental data or high-level calculations of potential energy surfaces and show that VPT2 in combination with hindered rotors can yield a very good description of fundamental frequencies for the discussed subset of dimers involving small and semi-rigid molecules.</summary>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-09-09T16:54:32Z</published>
+    <arxiv:primary_category term="physics.chem-ph"/>
+    <author>
+      <name>Johannes Hoja</name>
+    </author>
+    <author>
+      <name>A. Daniel Boese</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.16289v1</id>
+    <title>Charged particle dynamics in singular spacetimes: hydrogenic mapping and curvature-corrected thermodynamics</title>
+    <updated>2025-09-19T10:08:00Z</updated>
+    <link href="https://arxiv.org/abs/2509.16289v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.16289v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We analyze the dynamics of charged test particles in a singular, horizonless spacetime arising as the massless limit of a charged wormhole in the Einstein--Maxwell--Scalar framework. The geometry, sustained solely by an electric charge \(Q\), features an infinite sequence of curvature singularity shells, with the outermost at \(r_\ast = \frac{2|Q|}π\) acting as a hard boundary for nonradial motion, while radial trajectories can access it depending on the particle's charge-to-mass ratio \(\frac{|q|}{m}\). Exploiting exact first integrals, we construct the effective potential and obtain circular orbit radii, radial epicyclic frequencies, and azimuthal precession rates. In the weak-field limit (\(r \gg |Q|\)), the motion reduces to a Coulombic system with small curvature-induced retrograde precession. At large radii, the dynamics maps to a hydrogenic system, with curvature corrections inducing perturbative energy shifts. Approaching \(r_\ast\), the potential diverges, producing hard-wall confinement. Curvature corrections also modify the canonical thermodynamics, raising energies and slightly altering entropy and heat capacity. Our results characterize the transition from Newtonian-like orbits to strongly confined, curvature-dominated dynamics.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-19T10:08:00Z</published>
+    <arxiv:comment>11 pages, 4 figures, 2 tables</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <author>
+      <name>Abdullah Guvendi</name>
+    </author>
+    <author>
+      <name>Semra Gurtas Dogan</name>
+    </author>
+    <author>
+      <name>Omar Mustafa</name>
+    </author>
+    <author>
+      <name>Hassan Hassanabadi</name>
+    </author>
+  </entry>
+</feed>

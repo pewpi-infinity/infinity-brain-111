@@ -1,0 +1,76 @@
+TERMS: quantum, boson, bandgap
+COLORS: blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Vw1PFIn1QTBBB3aezcKwHGQnMLY</id>
+  <title>arXiv Query: search_query=all:quantum AND all:boson AND all:bandgap&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:09:05Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:boson+AND+all:bandgap)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>14</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2009.11052v1</id>
+    <title>Kondo effects in small bandgap carbon nanotube quantum dots</title>
+    <updated>2020-09-23T11:00:39Z</updated>
+    <link href="https://arxiv.org/abs/2009.11052v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2009.11052v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study magnetoconductance of the small bandgap carbon nanotube quantum dots in the presence of spin-orbit coupling in the strong correlations regime. The finite-U mean field slave boson approach is used to study many-body effects. Different degeneracies are restored in magnetic field and Kondo effects of different symmetries arise including SU(3) effects of different types. Full spin-orbital degeneracy might be recovered for zero field and correspondingly SU(4) Kondo effect sets in. We point out on the possibility of the occurrence of electron-hole Kondo effects in slanting magnetic fields, which we predict will occur in the available magnetic fields for orientation of fields close to perpendicular. When the field approaches transverse orientation a crossover from SU(2) or SU(3) symmetry into SU(4) is observed.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-09-23T11:00:39Z</published>
+    <arxiv:comment>11 pages, 11 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>P. Florków</name>
+    </author>
+    <author>
+      <name>D. Krychowski</name>
+    </author>
+    <author>
+      <name>S. Lipiński</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.08006v1</id>
+    <title>A mechanical quantum memory for microwave photons</title>
+    <updated>2024-12-11T01:21:09Z</updated>
+    <link href="https://arxiv.org/abs/2412.08006v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.08006v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Long-lived mechanical oscillators are actively pursued as critical resources for quantum storage, sensing, and transduction. However, achieving deterministic quantum control while limiting mechanical dissipation remains a persistent challenge. Here, we demonstrate strong coupling between a transmon superconducting qubit and an ultra-long-lived nanomechanical oscillator ($T_\text{1} \approx 25 \text{ ms}$ at 5 GHz, $Q \approx 0.8 \times 10^9$) by leveraging the low acoustic loss in silicon and phononic bandgap engineering. The qubit-oscillator system achieves large cooperativity ($C_{T_1}\approx 1.5\times10^5$, $C_{T_2}\approx 150$), enabling the generation of non-classical states and the investigation of mechanisms underlying mechanical decoherence. We show that dynamical decoupling$\unicode{x2014}$implemented through the qubit$\unicode{x2014}$can mitigate decoherence, leading to a mechanical coherence time of $T_2\approx 1 \text{ ms}$. These findings extend the exceptional storage capabilities of mechanical oscillators to the quantum regime, putting them forward as compact bosonic elements for future applications in quantum computing and metrology.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-11T01:21:09Z</published>
+    <arxiv:comment>30 pages, 21 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Alkım B. Bozkurt</name>
+    </author>
+    <author>
+      <name>Omid Golami</name>
+    </author>
+    <author>
+      <name>Yue Yu</name>
+    </author>
+    <author>
+      <name>Hao Tian</name>
+    </author>
+    <author>
+      <name>Mohammad Mirhosseini</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2206.02952v2</id>
+    <title>Beyond The Fermi's Golden Rule: Discrete-Time Decoherence Of Quantum Mesoscopic Devices Due To Bandlimited Quantum Noise</title>
+    <updated>2023-09-18T11:41:58Z</updated>
+    <link href="https://arxiv.org/abs/2206.02952v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2206.02952v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We are at the midst of second quantum revolution where the mesoscopic quantum devies are actively employed for technological purposes. Despite this fact, the description of their real-time dynamics beyond the Fermi's golden rule remains a formiddable theoretical problem. This is due to the rapid spread of entanglement within the degrees of freedom of the surrounding environment. This is accompanied with a quantum noise (QN) acting on the mesoscopic device. In this work we propose a possible way out: to exploit the fact that this QN is usually bandlimited. This is because its spectral density is often contained in peaks of localized modes and resonances, and may be constrained by bandgaps. Inspired by the Kotelnikov sampling theorem from the theory of classical bandlimited signals, we put forward and explore the idea that when the QN spectral density has effective bandwidth $B$, the quantum noise becomes a discrete-time process, with an elementary time step $τ\propto B^{-1}$. After each time step $τ$, one new QN degree of freedom (DoF) gets coupled to the device for the first time, and one new QN DoF get irreversibly decoupled. Only a bounded number of QN DoFs are significantly coupled at any time moment. We call these DoFs the \textit{Kotelnikov modes}. As a result, the real-time dissipative quantum motion has a natural structure of a discrete-time matrix product state, with a bounded bond dimension. This yields a microscopically derived collision model. The temporal entanglement entropy appears to be bounded (area-law scaling) in the frame of Kotelnikov modes. The irreversibly decoupled modes can be traced out as soon as they occur during the real-time evolution. This leads to a novel\textit{bandlimited} input-output formalism and to quantum jump Monte Carlo simulation techniques for real-time motion of open quantum systems. We illustrate this idea on a spin-boson model.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-06-07T00:17:21Z</published>
+    <arxiv:comment>16 pages, 8 figures. Second version: fix typos and improve the style</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Evgeny A. Polyakov</name>
+    </author>
+  </entry>
+</feed>

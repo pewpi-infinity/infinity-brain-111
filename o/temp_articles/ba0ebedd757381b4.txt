@@ -1,0 +1,85 @@
+TERMS: quantum, singularity
+COLORS: blue, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/cnjT0tJdbjWRFSUx4HdHpZ5OBMg</id>
+  <title>arXiv Query: search_query=all:quantum AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T00:57:03Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+all:singularity&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>16182</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2006.02336v3</id>
+    <title>Variational Quantum Singular Value Decomposition</title>
+    <updated>2021-06-24T16:06:30Z</updated>
+    <link href="https://arxiv.org/abs/2006.02336v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2006.02336v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Singular value decomposition is central to many problems in engineering and scientific fields. Several quantum algorithms have been proposed to determine the singular values and their associated singular vectors of a given matrix. Although these algorithms are promising, the required quantum subroutines and resources are too costly on near-term quantum devices. In this work, we propose a variational quantum algorithm for singular value decomposition (VQSVD). By exploiting the variational principles for singular values and the Ky Fan Theorem, we design a novel loss function such that two quantum neural networks (or parameterized quantum circuits) could be trained to learn the singular vectors and output the corresponding singular values. Furthermore, we conduct numerical simulations of VQSVD for random matrices as well as its applications in image compression of handwritten digits. Finally, we discuss the applications of our algorithm in recommendation systems and polar decomposition. Our work explores new avenues for quantum information processing beyond the conventional protocols that only works for Hermitian data, and reveals the capability of matrix decomposition on near-term quantum devices.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-06-03T15:32:08Z</published>
+    <arxiv:comment>23 pages, v3 accepted by Quantum</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Quantum 5, 483 (2021)</arxiv:journal_ref>
+    <author>
+      <name>Xin Wang</name>
+    </author>
+    <author>
+      <name>Zhixin Song</name>
+    </author>
+    <author>
+      <name>Youle Wang</name>
+    </author>
+    <arxiv:doi>10.22331/q-2021-06-29-483</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.22331/q-2021-06-29-483" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1307.5623v2</id>
+    <title>Quantum cosmology and late-time singularities</title>
+    <updated>2013-08-26T16:40:08Z</updated>
+    <link href="https://arxiv.org/abs/1307.5623v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1307.5623v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The development of dark energy models has stimulated interest to cosmological singularities, which differ from the traditional Big Bang and Big Crunch singularities. We review a broad class of phenomena connected with soft cosmological singularities in classical and quantum cosmology. We discuss the classification of singularities from the geometrical point of view and from the point of view of the behaviour of finite size objects, crossing such singularities. We discuss in some detail quantum and classical cosmology of models based on perfect fluids (anti-Chaplygin gas and anti-Chaplygin gas plus dust), of models based on the Born-Infeld-type fields and of the model of a scalar field with a potential inversely proportional to the field itself. We dwell also on the phenomenon of the phantom divide line crossing in the scalar field models with cusped potentials. Then we discuss the Friedmann equations modified by quantum corrections to the effective action of the models under considerations and the influence of such modification on the nature and the existence of soft singularities. We review also quantum cosmology of models, where the initial quantum state of the universe is presented by the density matrix (mixed state). Finally, we discuss the exotic singularities arising in the brane-world cosmological models.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-07-22T09:05:01Z</published>
+    <arxiv:comment>final version, published in Classical and Quantum Gravity as a topical review</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Class. Quantum Grav. 30 (2013) 173001</arxiv:journal_ref>
+    <author>
+      <name>A. Yu. Kamenshchik</name>
+    </author>
+    <arxiv:doi>10.1088/0264-9381/30/17/173001</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0264-9381/30/17/173001" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1608.05366v2</id>
+    <title>Quantum Backreaction on Three-Dimensional Black Holes and Naked Singularities</title>
+    <updated>2017-03-07T18:18:45Z</updated>
+    <link href="https://arxiv.org/abs/1608.05366v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1608.05366v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We analytically investigate backreaction by a quantum scalar field on two rotating Bañados-Teitelboim-Zanelli (BTZ) geometries: that of a black hole and that of a naked singularity. In the former case, we explore the quantum effects on various regions of relevance for a rotating black hole space-time. We find that the quantum effects lead to a growth of both the event horizon and the radius of the ergosphere, and to a reduction of the angular velocity, compared to the unperturbed values. Furthermore, they give rise to the formation of a curvature singularity at the Cauchy horizon and show no evidence of the appearance of a superradiant instability. In the case of a naked singularity, we find that quantum effects lead to the formation of a horizon that shields it, thus supporting evidence for the rôle of quantum mechanics as a cosmic censor in nature.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-08-18T18:30:41Z</published>
+    <arxiv:comment>6 pages. Version to match the one published in Physical Review Letters. Apart from some reformatting, the main difference is that we now also include quantum backreaction effects on a rotating naked singularity as well as on a rotating black hole (both in (2+1)-dimensions)</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 118, 131102 (2017)</arxiv:journal_ref>
+    <author>
+      <name>Marc Casals</name>
+    </author>
+    <author>
+      <name>Alessandro Fabbri</name>
+    </author>
+    <author>
+      <name>Cristián Martínez</name>
+    </author>
+    <author>
+      <name>Jorge Zanelli</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.118.131102</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.118.131102" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,80 @@
+TERMS: hydrogen, probability
+COLORS: purple, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/nEt+6PsuLhY5QYNhcE03B4RBsmg</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T00:56:40Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+all:probability&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1137</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2304.11822v1</id>
+    <title>Enhancement of the laser-induced excitation probability of the hyperfine ground state of muonic hydrogen by a multipass cavity setup</title>
+    <updated>2023-04-24T05:12:06Z</updated>
+    <link href="https://arxiv.org/abs/2304.11822v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2304.11822v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the enhancement of the magnetic dipole induced excitation probability of the hyperfine ground state of Doppler-broadened muonic hydrogen ($p μ^{-}$) by a nanosecond laser pulse in the mid-infrared range with Gaussian temporal shape such that the pulse bandwidth is broader than the Doppler width at 10~K. The enhancement is achieved by shrinking the cross-section of the laser pulse and placing the muonic hydrogen medium in a multipass cavity, while preserving the total irradiated target volume. We numerically solve a set of Maxwell-Schr$\ddot{\rm o}$dinger equations to obtain the excitation probability and the total efficiency for various densities of the muonic hydrogen atomic medium and at various positions in the multipass cavity. For the typical range of densities of muonic hydrogen atoms at major proton accelerator facilities such as the J-PARC (density $\sim$ $10^5$cm$^{-3}$), the laser propagation effect is insignificant. For such cases, the total efficiency increases by an order of two for 100 reflections with a uniform polarization. If the density exceeds the value of $10^{17}$cm$^{-3}$ as might be in the future advances, the laser propagation effect has to be taken into account, and the total efficiency decreases with the number of reflections giving rise to a pulsed polarization of the beam. Our study can serve as a guideline for the development of a polarized muonic beam for a precise measurement of the ground state hyperfine splitting of muonic hydrogen, or for $μ$SR experiments.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-04-24T05:12:06Z</published>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>Rakesh Mohan Das</name>
+    </author>
+    <author>
+      <name>Masahiko Iwasaki</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0810.1045v2</id>
+    <title>Time-Dependent Corrections to the Ly-alpha Escape Probability During Cosmological Hydrogen Recombination</title>
+    <updated>2009-03-30T22:16:54Z</updated>
+    <link href="https://arxiv.org/abs/0810.1045v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0810.1045v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We consider the effects connected with the detailed radiative transfer during the epoch of cosmological recombination on the ionization history of our Universe. We focus on the escape of photons from the hydrogen Lyman-alpha resonance at redshifts 600&lt;~ z &lt;~ 2000, one of two key mechanisms defining the rate of cosmological recombination. We approach this problem within the standard formulation, and corrections due to two-photon interactions are deferred to another paper. As a main result we show here that within a non-stationary approach to the escape problem, the resulting correction in the free electron fraction, N_e, is about ~1.6-1.8% in the redshift range 800&lt;~z&lt;~1200. Therefore the discussed process results in one of the largest modifications to the ionization history close to the maximum of Thomson-visibility function at z~1100 considered so far. We prove our results both numerically and analytically, deriving the escape probability, and considering both Lyman-alpha line emission and line absorption in a way different from the Sobolev approximation. In particular, we give a detailed derivation of the Sobolev escape probability during hydrogen recombination, and explain the underlying assumptions. We then discuss the escape of photons for the case of coherent scattering in the lab frame, solving this problem analytically in the quasi-stationary approximation and also in the time-dependent case. We show here that during hydrogen recombination the Sobolev approximation for the escape probability is not valid at the level of DP/P~5-10%. This is because during recombination the ionization degree changes significantly over a characteristic time Dz/z~10%, so that at percent level accuracy the photon distribution is not evolving (abridged)</summary>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-10-06T19:59:05Z</published>
+    <arxiv:comment>18 pages, 12 figures, accepted version</arxiv:comment>
+    <arxiv:primary_category term="astro-ph"/>
+    <author>
+      <name>J. Chluba</name>
+    </author>
+    <author>
+      <name>R. A. Sunyaev</name>
+    </author>
+    <arxiv:doi>10.1051/0004-6361/200811100</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1051/0004-6361/200811100" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.10873v5</id>
+    <title>Machine learning interatomic potentials for reactive hydrogen dynamics at metal surfaces based on iterative refinement of reaction probabilities</title>
+    <updated>2023-11-16T16:43:24Z</updated>
+    <link href="https://arxiv.org/abs/2305.10873v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.10873v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Reactive chemistry of molecular hydrogen at surfaces, notably dissociative sticking and hydrogen evolution, plays a crucial role in energy storage and fuel cells. Theoretical studies can help to decipher underlying mechanisms and reaction design, but studying dynamics at surfaces is computationally challenging due to the complex electronic structure at interfaces and the high sensitivity of dynamics to reaction barriers. In addition, ab initio molecular dynamics, based on density functional theory, is too computationally demanding to accurately predict reactive sticking or desorption probabilities as it requires averaging over tens of thousands of initial conditions. High-dimensional machine learning-based interatomic potentials are starting to be more commonly used in gas-surface dynamics, yet, robust approaches to generate reliable training data and to assess how model uncertainty affects the prediction of dynamic observables are not well established. Here, we employ ensemble learning to adaptively generate training data while assessing model performance with full uncertainty quantification for reaction probabilities of hydrogen scattering on different copper facets. We use this approach to investigate the performance of two message-passing neural networks, SchNet and PaiNN. Ensemble-based uncertainty quantification and iterative refinement allow us to expose the shortcomings of the invariant pairwise-distance-based feature representation in the SchNet model for gas-surface dynamics.</summary>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-18T10:57:56Z</published>
+    <arxiv:primary_category term="physics.chem-ph"/>
+    <author>
+      <name>Wojciech G. Stark</name>
+    </author>
+    <author>
+      <name>Julia Westermayr</name>
+    </author>
+    <author>
+      <name>Oscar A. Douglas-Gallardo</name>
+    </author>
+    <author>
+      <name>James Gardner</name>
+    </author>
+    <author>
+      <name>Scott Habershon</name>
+    </author>
+    <author>
+      <name>Reinhard J. Maurer</name>
+    </author>
+  </entry>
+</feed>

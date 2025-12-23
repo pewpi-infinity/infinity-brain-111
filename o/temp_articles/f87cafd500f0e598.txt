@@ -1,0 +1,37 @@
+TERMS: fusion, wavefunction, neutrino
+COLORS: green, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/4yXA1h7lNJe8tgdE1QcIMf+7K3g</id>
+  <title>arXiv Query: search_query=all:fusion AND all:wavefunction AND all:neutrino&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:21:29Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:fusion+AND+(all:wavefunction+AND+all:neutrino)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/nucl-th/0004038v1</id>
+    <title>Proton-Proton Fusion in Effective Field Theory</title>
+    <updated>2000-04-17T22:52:23Z</updated>
+    <link href="https://arxiv.org/abs/nucl-th/0004038v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/nucl-th/0004038v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The rate for the fusion process $p + p \ra d + e^+ + ν_e$ is calculated using non-relativistic effective field theory. Including the four-nucleon derivative interaction, results are obtained in next-to-leading order in the momentum expansion. This reproduces the effects of the effective range parameter. Coulomb interactions between the incoming protons are included non-perturbatively in a systematic way. The resulting fusion rate is independent of specific models and wavefunctions for the interacting nucleons. At this order in the effective Lagrangian there is an unknown counterterm which limits the numerical accuracy of the calculated rate given by the squared reduced matrix element $Λ^2(0) = 7.37$. Assuming the counterterm to have a natural magnitude, we estimate the accuracy of this result to be 6\% - 8\%. This is consistent with previous nuclear physics calculations based on effective range theory and inclusion of axial two-body weak currents. The true magnitude of the counterterm can be determined from a precise measurement of the cross-section for low-energy neutrino scattering on deuterons.</summary>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2000-04-17T22:52:23Z</published>
+    <arxiv:comment>LaTeX, 26 pages, 9 figures</arxiv:comment>
+    <arxiv:primary_category term="nucl-th"/>
+    <arxiv:journal_ref>Phys.Rev. C64 (2001) 044002</arxiv:journal_ref>
+    <author>
+      <name>Xinwei Kong</name>
+      <arxiv:affiliation>TRIUMF</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Finn Ravndal</name>
+      <arxiv:affiliation>University of Oslo</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1103/PhysRevC.64.044002</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevC.64.044002" title="doi"/>
+  </entry>
+</feed>

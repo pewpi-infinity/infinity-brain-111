@@ -1,0 +1,53 @@
+TERMS: frequency, fusion, graphene
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/nzAQQSKI9GGxrjXkvbCvsBIZWq8</id>
+  <title>arXiv Query: search_query=all:frequency AND all:fusion AND all:graphene&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:10:17Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:fusion+AND+all:graphene)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1112.3016v2</id>
+    <title>Starship Sails Propelled by Cost-Optimized Directed Energy</title>
+    <updated>2012-05-16T16:08:39Z</updated>
+    <link href="https://arxiv.org/abs/1112.3016v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1112.3016v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Microwave propelled sails are a new class of spacecraft using photon acceleration. It is the only method of interstellar flight that has no physics issues. Laboratory demonstrations of basic features of beam-driven propulsion, flight, stability ('beam-riding'), and induced spin, have been completed in the last decade, primarily in the microwave. It offers much lower cost probes after a substantial investment in the launcher. Engineering issues are being addressed by other applications: fusion (microwave, millimeter and laser sources) and astronomy (large aperture antennas). There are many candidate sail materials: carbon nanotubes and microtrusses, graphene, beryllium, etc. For acceleration of a sail, what is the cost-optimum high power system? Here the cost is used to constrain design parameters to estimate system power, aperture and elements of capital and operating cost. From general relations for cost-optimal transmitter aperture and power, system cost scales with kinetic energy and inversely with sail diameter and frequency. So optimal sails will be larger, lower in mass and driven by higher frequency beams. Estimated costs include economies of scale. We present several starship point concepts. Systems based on microwave, millimeter wave and laser technologies are of equal cost at today's costs. The frequency advantage of lasers is cancelled by the high cost of both the laser and the radiating optic.</summary>
+    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.space-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-12-13T20:14:38Z</published>
+    <arxiv:comment>25 pages</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.IM"/>
+    <author>
+      <name>James Benford</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1106.4536v1</id>
+    <title>Substantial reduction of Stone-Wales activation barrier in fullerene</title>
+    <updated>2011-06-22T19:25:15Z</updated>
+    <link href="https://arxiv.org/abs/1106.4536v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1106.4536v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Stone-Wales transformation is a key mechanism responsible for growth, transformation, and fusion in fullerene, carbon nanotube and other carbon nanostructures. These topological defects also substantially alter the physical and chemical properties of the carbon nanostructures. However, this transformation is thermodynamically limited by very high activation energy (\sim 7 eV in fullerene), which can get reduced due to the presence of hydrogen, extra carbon atom, or due to endohedral metal doping. Using first-principles density functional calculations, we show that the substitutional boron doping substantially reduces the Stone-Wales activation barrier (from \sim 7 eV to 2.54 eV). This reduction is the largest in magnitude among all the mechanisms of barrier reduction reported till date. Analysis of bonding charge density and phonon frequencies suggests that the bond weakening at and around the active Stone-Wales site in B-heterofullerene is responsible for such reduction. The formation of Stone-Wales defect is, therefore, promoted in such heterofullerenes, and is expected to affect their proposed H2 storage properties. Such substitutional doping can also modify the Stone-Wales activation barrier in carbon nanotube and graphene naonostructures, and catalyze isomerization, fusion, and nanowelding processes.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-06-22T19:25:15Z</published>
+    <arxiv:comment>RevTex 4.1, 7 Pages and 7 Figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Phys. Rev. B 84, 205404 (2011)</arxiv:journal_ref>
+    <author>
+      <name>Mukul Kabir</name>
+    </author>
+    <author>
+      <name>Swarnakamal Mukherjee</name>
+    </author>
+    <author>
+      <name>Tanusri Saha-Dasgupta</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.84.205404</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.84.205404" title="doi"/>
+  </entry>
+</feed>

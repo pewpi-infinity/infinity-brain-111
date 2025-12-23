@@ -1,0 +1,112 @@
+TERMS: ionization, oxidation, vacuum
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/B01fzISGifl9sQF0UzEJFbFWil4</id>
+  <title>arXiv Query: search_query=all:ionization AND all:oxidation AND all:vacuum&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:30:29Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:ionization+AND+(all:oxidation+AND+all:vacuum)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>4</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2104.01630v2</id>
+    <title>Accurate Vertical Ionization Energy and Work Function Determinations of Liquid Water and Aqueous Solutions</title>
+    <updated>2021-07-01T09:08:32Z</updated>
+    <link href="https://arxiv.org/abs/2104.01630v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2104.01630v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The absolute-scale electronic energetics of liquid water and aqueous solutions, both in the bulk and at associated interfaces, are the central determiners of water-based chemistry. However, such information is generally experimentally inaccessible. We demonstrate that a refined implementation of the liquid microjet photoelectron spectroscopy (PES) technique can be adopted to address this. Implementing concepts from condensed matter physics, we establish novel all-liquid-phase vacuum and equilibrated solution-metal-electrode Fermi level referencing procedures. This enables the precise and accurate quantification of previously elusive solute-induced perturbations of water's electronic energetics and vertical ionization energy (VIE) definition on an absolute and universal chemical potential scale. Applying these procedures over a broad range of ionization energies, we accurately and respectively determine the VIE and oxidative stability of liquid water as 11.33 $\pm$ 0.02 eV and 6.60 $\pm$ 0.08 eV with respect to its liquid-vacuum-interface potential and Fermi level. Combining our referencing schemes, we determine the work function of liquid water as 4.73 $\pm$ 0.09 eV. Further, applying our novel approach to a pair of exemplary aqueous solutions, we extract absolute VIEs of aqueous iodide anions, reaffirm the robustness of water's electronic structure to high bulk salt concentrations, and quantify reference-level dependent reductions of water's VIE and a 0.48 $\pm$ 0.13 eV contraction of the solution's work function upon partial hydration of a known surfactant. Our combined experimental accomplishments mark a major advance in our ability to quantify electronic-structure interactions and chemical reactivity in water, which now explicitly extends to the measurement of absolute-scale bulk and interfacial solution energetics, including those of relevance to aqueous electrochemical processes.</summary>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-04-04T15:40:43Z</published>
+    <arxiv:comment>Main manuscript: 47 pages, 6 figures. Supporting information: 16 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.chem-ph"/>
+    <arxiv:journal_ref>Chem. Sci. 12, 10558-10582 (2021)</arxiv:journal_ref>
+    <author>
+      <name>Stephan Thürmer</name>
+    </author>
+    <author>
+      <name>Sebastian Malerz</name>
+    </author>
+    <author>
+      <name>Florian Trinter</name>
+    </author>
+    <author>
+      <name>Uwe Hergenhahn</name>
+    </author>
+    <author>
+      <name>Chin Lee</name>
+    </author>
+    <author>
+      <name>Daniel M. Neumark</name>
+    </author>
+    <author>
+      <name>Gerard Meijer</name>
+    </author>
+    <author>
+      <name>Bernd Winter</name>
+    </author>
+    <author>
+      <name>Iain Wilkinson</name>
+    </author>
+    <arxiv:doi>10.1039/D1SC01908B</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1039/D1SC01908B" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2401.08051v1</id>
+    <title>Mass inversion at the Lifshitz transition in monolayer graphene by diffusive, high-density, on-chip, doping</title>
+    <updated>2024-01-16T02:04:33Z</updated>
+    <link href="https://arxiv.org/abs/2401.08051v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.08051v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Experimental setups for charge transport measurements are typically not compatible with the ultra-high vacuum conditions for chemical doping, limiting the charge carrier density that can be investigated by transport methods. Field-effect methods, including dielectric gating and ionic liquid gating, achieve too low a carrier density to induce electronic phase transitions. To bridge this gap, we developed an integrated flip-chip method to dope graphene by alkali vapour in the diffusive regime, suitable for charge transport measurements at ultra-high charge carrier density. We introduce a cesium droplet into a sealed cavity filled with inert gas to dope a monolayer graphene sample by the process of cesium atom diffusion, adsorption and ionization at the graphene surface, with doping beyond an electron density of $4.7\times10^{14}~\mathrm{cm}^{-2}$ monitored by operando Hall measurement. The sealed assembly is stable against oxidation, enabling measurement of charge transport versus temperature and magnetic field. Cyclotron mass inversion is observed via the Hall effect, indicative of the change of Fermi surface geometry associated with the Liftshitz transition at the hyperbolic $M$ point of monolayer graphene. The transparent quartz substrate also functions as an optical window, enabling non-resonant Raman scattering. Our findings show that chemical doping, hitherto restricted to ultra-high vacuum, can be applied in a diffusive regime at ambient pressure in an inert gas environment and thus enable charge transport studies in standard cryogenic environments</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-16T02:04:33Z</published>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>ACS Nano 18, 9092 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Ayse Melis Aygar</name>
+    </author>
+    <author>
+      <name>Oliver Durnan</name>
+    </author>
+    <author>
+      <name>Bahar Molavi</name>
+    </author>
+    <author>
+      <name>Sam N. R. Bovey</name>
+    </author>
+    <author>
+      <name>Alexander Grüneis</name>
+    </author>
+    <author>
+      <name>Thomas Szkopek</name>
+    </author>
+    <arxiv:doi>10.1021/acsnano.3c13187</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1021/acsnano.3c13187" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1212.2550v1</id>
+    <title>Photoluminescence and High Temperature Persistent Photoconductivity Experiments in SnO2 Nanobelts</title>
+    <updated>2012-12-11T17:39:03Z</updated>
+    <link href="https://arxiv.org/abs/1212.2550v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1212.2550v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Persistent Photoconductivity (PPC) effect was studied in individual tin oxide (SnO2) nanobelts as a function of temperature, in air, helium, and vacuum atmospheres, and low temperature Photoluminescence measurements were carried out to study the optical transitions and to determine of the acceptor/donors levels and their best representation inside the band gap. Under ultraviolet (UV) illumination and at temperatures in the range of 200 to 400K we observed a fast and strong enhancement of the photoconductivity, and the maximum value of the photocurrent induced increases as the temperature or the oxygen concentration decreases. By turning off the UV illumination the induced photocurrent decays with lifetimes up to several hours. The photoconductivity and the PPC results were explained by adsorption and desorption of molecular oxygen at the surface of the SnO2 nanobelts. Based on the temperature dependence of the PPC decay an activation energy of 230 meV was found, which corresponds to the energy necessary for thermal ionization of free holes from acceptor levels to the valence band, in agreement with the photoluminescence results presented. The molecular-oxygen recombination with holes is the origin of the PPC effect in metal oxide semiconductors, so that, the PPC effect is not related to the oxygen vacancies, as commonly presented in the literature.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-12-11T17:39:03Z</published>
+    <arxiv:comment>6 pages, 10 figures, submitted to "The Journal of Physical Chemistry C"</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>E. R. Viana</name>
+    </author>
+    <author>
+      <name>J. C. González</name>
+    </author>
+    <author>
+      <name>G. M. Ribeiro</name>
+    </author>
+    <author>
+      <name>A. G. de Oliveira</name>
+    </author>
+  </entry>
+</feed>

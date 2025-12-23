@@ -1,0 +1,82 @@
+TERMS: quantum, fusion, vacuum
+COLORS: blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/PKggljtHzb5P2WAcIN1gGqQoQfo</id>
+  <title>arXiv Query: search_query=all:quantum AND all:fusion AND all:vacuum&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:06:46Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:fusion+AND+all:vacuum)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>49</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2106.04451v3</id>
+    <title>Topological impact of a simple self-replication geometric structure with great application potential in vacuum pumping and photovoltaic industry</title>
+    <updated>2021-09-03T09:12:23Z</updated>
+    <link href="https://arxiv.org/abs/2106.04451v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2106.04451v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Topological effects exist from a macroscopic system such as the universe to a microscopic system described by quantum mechanics. We show here that an interesting geometric structure can be created by the self replication procedure of a square with an enclosed circle, in which the sum of the circles area will remain the same but the sum of the circumference will increase. It is demonstrated by means of Monte Carlo simulations that these topological features have great impacts to the vacuum pumping probability and the photon absorption probability of the active surface. The results show significant improvement of the system performance and have application potential in vacuum pumping of large research facilities such as a nuclear fusion reactor, synchrotron and in photovoltaic industry.</summary>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-06-08T15:36:43Z</published>
+    <arxiv:comment>This article has been published in Journal of Vacuum Science and Technology B (https://doi.org/10.1116/6.0001222), and is distributed under a Creative Commons Attibution-NonCommercial-NonDerivatives (CC BY-NC-ND) License</arxiv:comment>
+    <arxiv:primary_category term="physics.app-ph"/>
+    <author>
+      <name>Xueli Luo</name>
+    </author>
+    <author>
+      <name>Christian Day</name>
+    </author>
+    <arxiv:doi>10.1116/6.0001222</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1116/6.0001222" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2308.03548v2</id>
+    <title>Fusion mechanism for quasiparticles and topological quantum order in the lowest Landau level</title>
+    <updated>2023-12-09T12:33:36Z</updated>
+    <link href="https://arxiv.org/abs/2308.03548v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.03548v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Starting from Halperin multilayer systems we develop a hierarchical scheme that generates, bosonic and fermionic, single-layer quantum Hall states (or vacua) of arbitrary filling factor. Our scheme allows for the insertion of quasiparticle excitations with either Abelian or non-Abelian statistics and quantum numbers that depend on the nature of the original vacuum. Most importantly, it reveals a fusion mechanism for quasielectrons and magnetoexcitons that generalizes ideas about particle fractionalization introduced in A. Bochniak, Z. Nussinov, A. Seidel, and G. Ortiz, Commun. Phys. 5, 171 (2022) for the case of Laughlin fluids. In addition, in the second quantization representation, we uncover the inherent topological quantum order characterizing these vacua. In particular, we illustrate the methodology by constructing generalized composite (generalized Read) operators for the non-Abelian Pfaffian and Hafnian quantum fluid states.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-08-07T12:55:41Z</published>
+    <arxiv:comment>24 pages, 12 figures, final version</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Phys. Rev. B 108, 245123 (2023)</arxiv:journal_ref>
+    <author>
+      <name>Arkadiusz Bochniak</name>
+    </author>
+    <author>
+      <name>Gerardo Ortiz</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.108.245123</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.108.245123" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2208.09228v3</id>
+    <title>Non-Abelian Fusion, Shrinking and Quantum Dimensions of Abelian Gauge Fluxes</title>
+    <updated>2022-11-06T09:32:02Z</updated>
+    <link href="https://arxiv.org/abs/2208.09228v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2208.09228v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Braiding and fusion rules of topological excitations are indispensable topological invariants in topological quantum computation and topological orders. While excitations in 2D are always particle-like anyons, those in 3D incorporate not only particles but also loops -- spatially nonlocal objects -- making it novel and challenging to study topological invariants in higher dimensions. While 2D fusion rules have been well understood from bulk Chern-Simons field theory and edge conformal field theory, it is yet to be thoroughly explored for 3D fusion rules from higher dimensional bulk topological field theory. Here, we perform a field-theoretical study on (i) how loops that carry Abelian gauge fluxes fuse and (ii) how loops are shrunk into particles in the path integral, which generates fusion rules, loop-shrinking rules, and descendent invariants, e.g., quantum dimensions. We first assign a gauge-invariant Wilson operator to each excitation and determine the number of distinct excitations through equivalence classes of Wilson operators. Then, we adiabatically shift two Wilson operators together to observe how they fuse and are split in the path integral; despite the Abelian nature of the gauge fluxes carried by loops, their fusions may be of non-Abelian nature. Meanwhile, we adiabatically deform world-sheets of unknotted loops into world-lines and examine the shrinking outcomes; we find that the resulting loop-shrinking rules are algebraically consistent to fusion rules. Interestingly, fusing a pair of loop and anti-loop may generate multiple vacua, but fusing a pair of anyon and anti-anyon in 2D has one vacuum only. By establishing a field-theoretical ground for fusion and shrinking in 3D, this work leaves intriguing directions, e.g., symmetry enrichment, quantum gates, and physics of braided monoidal 2-category of 2-group.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-08-19T09:07:53Z</published>
+    <arxiv:comment>Title adjusted. Abstract, Intro and Discussions revised. about 30 pages, 5 figures. 9 tables</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Phys. Rev. B 107, 165117 (2023)</arxiv:journal_ref>
+    <author>
+      <name>Zhi-Feng Zhang</name>
+    </author>
+    <author>
+      <name>Qing-Rui Wang</name>
+    </author>
+    <author>
+      <name>Peng Ye</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.107.165117</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.107.165117" title="doi"/>
+  </entry>
+</feed>

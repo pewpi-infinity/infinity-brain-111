@@ -1,0 +1,30 @@
+TERMS: hydrogen, quantum, plasma, singularity
+COLORS: purple, blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/c+9c9hcId4l0GXPwsIksAL2UWwE</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:plasma AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:41:35Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:plasma+AND+all:singularity))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2301.13210v2</id>
+    <title>Observables for moving, stupendously charged and massive primordial black holes</title>
+    <updated>2023-11-29T12:09:57Z</updated>
+    <link href="https://arxiv.org/abs/2301.13210v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2301.13210v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Stupendously large black holes exceeding $10^{11} M_\odot$ could exist, supported by recent observations of unexpectedly massive black holes at high redshifts. These objects may constitute a part of dark matter or even dark energy. One possibility to explain the cosmic accelerated expansion could be to consider charged black holes whose mutual repulsion overcomes their gravitational attraction. However, the extreme charge required turns these black holes into naked singularities, whose existence is questioned by the cosmic censorship hypothesis. Since the latter is driven by theoretical assumptions, we work out the most promising observables which are least cosmology-dependent to test their existence. We derive the electro-magnetic and gravitational lensing effects caused by such extreme objects at distances much larger than their extent to investigate possible ways for a discovery. Restricting searches to black holes between $10^{12}$ to $10^{14} M_\odot$, we show that such objects do not cause totally disruptive catastrophes, like dissociation of neutral hydrogen clouds or proton decay induced by strong electro-magnetic fields. Einstein rings of the order of 10" and rotation measures of plasma clouds subject to the magnetic fields induced by the moving black holes are identified as optimum observable signatures for now. Future space-based black-hole telescopes will follow up on these candidates and finally check the cosmic censorship hypothesis by their strong-field strong-lensing signatures, like an additional sub-arcsecond inner Einstein ring. Observable effects are so surprisingly moderate that a violation of cosmic censorship is hard to detect and even explaining cosmic expansion with moving naked singularities might be possible.</summary>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-01-30T19:00:01Z</published>
+    <arxiv:comment>26 pages, 11 figures, comments welcome</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.CO"/>
+    <author>
+      <name>Jenny Wagner</name>
+    </author>
+  </entry>
+</feed>

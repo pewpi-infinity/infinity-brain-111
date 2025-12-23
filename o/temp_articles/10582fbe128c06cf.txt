@@ -1,0 +1,95 @@
+TERMS: quantum, fusion, crystal
+COLORS: blue, green, orange
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/3ELy4rvd3a7gPxGMXH7C2VuW3t4</id>
+  <title>arXiv Query: search_query=all:quantum AND all:fusion AND all:crystal&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:06:32Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:fusion+AND+all:crystal)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>24</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2407.21015v2</id>
+    <title>Comparative Analyses of the Type D ASEP: Stochastic Fusion and Crystal Bases</title>
+    <updated>2025-02-10T15:50:31Z</updated>
+    <link href="https://arxiv.org/abs/2407.21015v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.21015v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Type D asymmetric simple exclusion process (ASEP) is a particle system involving two classes of particles that can be viewed from both a probabilistic and an algebraic perspective (arXiv:2011.13473). From a probabilistic perspective, we perform stochastic fusion on the Type D ASEP and analyze the outcome on generator matrices, limits of drift speed, stationary distributions, and Markov self-duality. From an algebraic perspective, we construct a fused Type D ASEP system from a Casimir element of $U_q(so_6)$, using crystal bases to analyze and manipulate various representations of $U_q(so_6)$. We conclude that both approaches produce different processes and therefore the previous method of arXiv:1908.02359, which analyzed the usual ASEP, does not generalize to all finite-dimensional simple Lie algebras.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-30T17:58:11Z</published>
+    <arxiv:comment>81 pages, 7 figures. This research was conducted during a mathematics REU at Texas A&amp;M University: an accessible version will be available at https://www.math.tamu.edu/reu/. Version 2: expanded the results of Lemma 3.3.1, and clarified the construction of the stochastic fusion matrix over a general number of fused sites. In addition, we condensed most of the proofs within the probability section</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Erik Brodsky</name>
+    </author>
+    <author>
+      <name>Eva R. Engel</name>
+    </author>
+    <author>
+      <name>Connor Panish</name>
+    </author>
+    <author>
+      <name>Lillian Stolberg</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0509276v4</id>
+    <title>Weyl modules, Demazure modules, KR-modules, crystals, fusion products and limit constructions</title>
+    <updated>2006-08-23T08:11:37Z</updated>
+    <link href="https://arxiv.org/abs/math/0509276v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0509276v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We study finite dimensional representations of current algebras, loop algebras and their quantized versions. For the current algebra of a simple Lie algebra of type {\tt ADE}, we show that Kirillov-Reshetikhin modules and Weyl modules are in fact all Demazure modules. As a consequence one obtains an elementary proof of the dimension formula for Weyl modules for the current and the loop algebra. Further, we show that the crystals of the Weyl and the Demazure module are the same up to some additional label zero arrows for the Weyl module.
+  For the current algebra $\Lgc$ of an arbitrary simple Lie algebra, the fusion product of Demazure modules of the same level turns out to be again a Demazure module. As an application we construct the $\Lgc$-module structure of the Kac-Moody algebra $\Lhg$-module $V(\ell\Lam_0)$ as a semi-infinite fusion product of finite dimensional $\Lgc$--modules.</summary>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-09-13T12:23:35Z</published>
+    <arxiv:primary_category term="math.RT"/>
+    <arxiv:journal_ref>Adv. Math. 211 (2007), no. 2, 566-593</arxiv:journal_ref>
+    <author>
+      <name>Ghislain Fourier</name>
+    </author>
+    <author>
+      <name>Peter Littelmann</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1112.5580v1</id>
+    <title>Experimental characterization of photonic fusion using fiber sources</title>
+    <updated>2011-12-23T13:09:18Z</updated>
+    <link href="https://arxiv.org/abs/1112.5580v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1112.5580v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We report the fusion of photons from two independent photonic crystal fiber sources into polarization entangled states using a fiber-based polarizing beam splitter. We achieve fidelities of up to F = 0.74 $\pm$ 0.01 with respect to the maximally entangled Bell state φ+ using a low pump power of 5.3mW with a success rate of 3.2 four-fold detections per second. By increasing the pump power we find that success rates of up to 111.6 four-folds per second can be achieved, with entanglement still present in the fused state. We characterize the fusion operation by providing a full quantum process reconstruction. Here a model is developed to describe the generation of entanglement, including the main causes of imperfection, and we show that this model fits well with the experimental results. Our work shows how non-ideal settings limit the success of the fusion, providing useful information about the practical requirements for an operation that may be used to build large entangled states in bulk and on-chip quantum photonic waveguides.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-12-23T13:09:18Z</published>
+    <arxiv:comment>19 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>New J. Phys. 14, 023021 (2012)</arxiv:journal_ref>
+    <author>
+      <name>B. Bell</name>
+    </author>
+    <author>
+      <name>A. S. Clark</name>
+    </author>
+    <author>
+      <name>M. S. Tame</name>
+    </author>
+    <author>
+      <name>M. Halder</name>
+    </author>
+    <author>
+      <name>J. Fulconis</name>
+    </author>
+    <author>
+      <name>W. Wadsworth</name>
+    </author>
+    <author>
+      <name>J. Rarity</name>
+    </author>
+    <arxiv:doi>10.1088/1367-2630/14/2/023021</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1367-2630/14/2/023021" title="doi"/>
+  </entry>
+</feed>

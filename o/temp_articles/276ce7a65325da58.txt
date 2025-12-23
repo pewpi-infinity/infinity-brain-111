@@ -1,0 +1,103 @@
+TERMS: hydrogen, quantum, vapor, superconductivity
+COLORS: purple, blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/cDmRqq7etx/hn3AVRHAtFG7axmE</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:vapor AND all:superconductivity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:39:16Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:vapor+AND+all:superconductivity))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2503.13285v1</id>
+    <title>Low-loss Nb on Si superconducting resonators from a dual-use spintronics deposition chamber and with acid-free post-processing</title>
+    <updated>2025-03-17T15:37:37Z</updated>
+    <link href="https://arxiv.org/abs/2503.13285v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.13285v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Magnetic impurities are known to degrade superconductivity. For this reason, physical vapor deposition chambers that have previously been used for magnetic materials have generally been avoided for making high-quality superconducting resonator devices. In this article, we show by example that such chambers can be used: with Nb films sputtered in a chamber that continues to be used for magnetic materials, we demonstrate compact (3 μm gap) coplanar waveguide resonators with low-power internal quality factors near one million. We achieve this using a resist strip bath with no post-fabrication acid treatment, which results in performance comparable to previous strip baths with acid treatments. We also find evidence that this improved resist strip bath provides a better surface chemical template for post-fabrication hydrogen fluoride processing. These results are consistent across three Si substrate preparation methods, including a \SI{700}{\celsius} anneal.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-17T15:37:37Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Maciej W. Olszewski</name>
+    </author>
+    <author>
+      <name>Jadrien T. Paustian</name>
+    </author>
+    <author>
+      <name>Tathagata Banerjee</name>
+    </author>
+    <author>
+      <name>Haoran Lu</name>
+    </author>
+    <author>
+      <name>Jorge L. Ramirez</name>
+    </author>
+    <author>
+      <name>Nhi Nguyen</name>
+    </author>
+    <author>
+      <name>Kiichi Okubo</name>
+    </author>
+    <author>
+      <name>Rohit Pant</name>
+    </author>
+    <author>
+      <name>Aleksandra B. Biedron</name>
+    </author>
+    <author>
+      <name>Daniel C. Ralph</name>
+    </author>
+    <author>
+      <name>Christopher J. K. Richardson</name>
+    </author>
+    <author>
+      <name>Gregory D. Fuchs</name>
+    </author>
+    <author>
+      <name>Corey Rae H. McRae</name>
+    </author>
+    <author>
+      <name>Ivan V. Pechenezhskiy</name>
+    </author>
+    <author>
+      <name>B. L. T. Plourde</name>
+    </author>
+    <author>
+      <name>Valla Fatemi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2403.03534v1</id>
+    <title>Characterization of the low electric field and zero-temperature two-level-system loss in hydrogenated amorphous silicon</title>
+    <updated>2024-03-06T08:27:53Z</updated>
+    <link href="https://arxiv.org/abs/2403.03534v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.03534v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Two-level systems (TLS) are an important, if not dominant, source of loss and noise for superconducting resonators such as those used in kinetic inductance detectors and some quantum information science platforms. They are similarly important for loss in photolithographically fabricated superconducting mm-wave/THz transmission lines. For both lumped-element and transmission-line structures, native amorphous surface oxide films are typically the sites of such TLS in non-microstripline geometries, while loss in the (usually amorphous) dielectric film itself usually dominates in microstriplines. We report here on the demonstration of low TLS loss at GHz frequencies in hydrogenated amorphous silicon (a-Si:H) films deposited by plasma-enhanced chemical vapor deposition in superconducting lumped-element resonators using parallel-plate capacitors (PPCs). The values we obtain from two recipes in different deposition machines, 7$\,\times\,10^{-6}$ and 12$\,\times\,10^{-6}$, improve on the best achieved in the literature by a factor of 2--4 for a-Si:H and are comparable to recent measurements of amorphous germanium. Moreover, we have taken care to extract the true zero-temperature, low-field loss tangent of these films, accounting for temperature and field saturation effects that can yield misleading results. Such robustly fabricated and characterized films render the use of PPCs with deposited amorphous films a viable architecture for superconducting resonators, and they also promise extremely low loss and high quality factor for photolithographically fabricated superconducting mm-wave/THz transmission lines used in planar antennas and resonant filters.</summary>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-06T08:27:53Z</published>
+    <arxiv:primary_category term="physics.ins-det"/>
+    <arxiv:journal_ref>Phys.Rev.Mater. 8 (2024) 035602</arxiv:journal_ref>
+    <author>
+      <name>Fabien Defrance</name>
+    </author>
+    <author>
+      <name>Andrew D. Beyer</name>
+    </author>
+    <author>
+      <name>Shibo Shu</name>
+    </author>
+    <author>
+      <name>Jack Sayers</name>
+    </author>
+    <author>
+      <name>Sunil R. Golwala</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevMaterials.8.035602</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevMaterials.8.035602" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,99 @@
+TERMS: crystal, bandgap, oxidation
+COLORS: orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Qu+wWS1bkRBCzKdRU5TYbvGlJ3E</id>
+  <title>arXiv Query: search_query=all:crystal AND all:bandgap AND all:oxidation&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:28:46Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:crystal+AND+(all:bandgap+AND+all:oxidation)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>59</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2405.07561v1</id>
+    <title>Crystal Structure-Based Multioutput Property Prediction of Lithium Manganese Nickel Oxide using EfficientNet-B0</title>
+    <updated>2024-05-13T08:51:14Z</updated>
+    <link href="https://arxiv.org/abs/2405.07561v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.07561v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Here, we present an EfficientNet-B0-based model to directly predict multiple properties of lithium manganese nickel oxides (LMNO) using their crystal structure images. The model is supposed to predict the energy above the convex hull, bandgap energy, crystal systems, and crystal space groups of LMNOs. In the last layer of the model, a linear function is used to predict the bandgap energy and energy above the convex hull, while a SoftMax function is used to classify the crystal systems and crystal space groups. In the test set, the percentages of coefficient of determination (R2) scores are 97.73% and 96.50% for the bandgap energy and energy above the convex hull predictions, respectively, while the percentages of accuracy are 99.45% and 99.27% for the crystal system and crystal space group classifications, respectively. The class saliency maps explain that the model pays more attention to the shape of the crystal lattices and gradients around the lattice region occupied by the larger ions. This work provides new insight into using an intelligent model to directly relate the crystal structures of LMNO materials with their properties.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-13T08:51:14Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Chee Sien Wong</name>
+    </author>
+    <author>
+      <name>Benediktus Madika</name>
+    </author>
+    <author>
+      <name>Jiwon Yeom</name>
+    </author>
+    <author>
+      <name>Youngwoo Choi</name>
+    </author>
+    <author>
+      <name>Seungbum Hong</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2205.09694v1</id>
+    <title>Ultrafast structural color change in indium tin oxide/titanium dioxide 1D photonic crystal</title>
+    <updated>2022-05-19T16:57:12Z</updated>
+    <link href="https://arxiv.org/abs/2205.09694v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2205.09694v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Photonic crystals can integrate plasmonic materials such as indium tin oxide (ITO) in their structure. Exploiting ITO plasmonic properties it is possible to tune the photonic band gap of the photonic crystal upon the application of an external stimuli. In this work, we have fabricated a one-dimensional multilayer photonic crystal via radiofrequency sputtering and we have triggered its optical response with ultrafast pump-probe spectroscopy. Upon photoexcitation we observe a change in the refractive index of indium tin oxide. Such effect has been used to create a photonic crystal that change its photonic bandgap in an ultrafast time scale. All optical modulation in the visible region, that can be tuned by designing the photonic crystal, has been demonstrated.</summary>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-05-19T16:57:12Z</published>
+    <arxiv:comment>7 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.optics"/>
+    <author>
+      <name>Liliana Moscardi</name>
+    </author>
+    <author>
+      <name>Stefano Varas</name>
+    </author>
+    <author>
+      <name>Alessandro Chiasera</name>
+    </author>
+    <author>
+      <name>Francesco Scotognella</name>
+    </author>
+    <author>
+      <name>Michele Guizzardi</name>
+    </author>
+    <arxiv:doi>10.1051/jeos/2022009</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1051/jeos/2022009" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2404.09986v1</id>
+    <title>Thermal conversion of ultrathin nickel hydroxide for wide bandgap 2D nickel oxides</title>
+    <updated>2024-04-15T17:58:40Z</updated>
+    <link href="https://arxiv.org/abs/2404.09986v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2404.09986v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Wide bandgap (WBG) semiconductors (Eg &gt;2.0 eV) are integral to the advancement of next generation electronics, optoelectronics, and power industries, owing to their capability for high temperature operation, high breakdown voltage and efficient light emission. Enhanced power efficiency and functional performance can be attained through miniaturization, specifically via the integration of device fabrication into two-dimensional (2D) structure enabled by WBG 2D semiconductors. However, as an essential subgroup of WBG semiconductors, 2D transition metal oxides (TMOs) remain largely underexplored in terms of physical properties and applications in 2D opto-electronic devices, primarily due to the scarcity of sufficiently large 2D crystals. Thus, our goal is to develop synthesis pathways for 2D TMOs possessing large crystal domain (e.g. &gt;10 nm), expanding the 2D TMOs family and providing insights for future engineering of 2D TMOs. Here, we demonstrate the synthesis of WBG 2D nickel oxide (NiO) (Eg &gt; 2.7 eV) thermally converted from 2D nickel hydroxide (Ni(OH)2) with the lateral domain size larger than 10 um. Moreover, the conversion process is investigated using various microscopic techniques such as atomic force microscopy (AFM), Raman spectroscopy, transmission electron microscopy (TEM) and X-ray photoelectron spectroscopy (XPS), providing significant insights on the morphology and structure variation under different oxidative conditions. The electronic structure of the converted NixOy is further investigated using multiple soft X-ray spectroscopies, such as X-ray absorption (XAS) and emission spectroscopies (XES).</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-04-15T17:58:40Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Lu Ping</name>
+    </author>
+    <author>
+      <name>Nicholas Russo</name>
+    </author>
+    <author>
+      <name>Zifan Wang</name>
+    </author>
+    <author>
+      <name>Ching-Hsiang Yao</name>
+    </author>
+    <author>
+      <name>Kevin E. Smith</name>
+    </author>
+    <author>
+      <name>Xi Ling</name>
+    </author>
+  </entry>
+</feed>

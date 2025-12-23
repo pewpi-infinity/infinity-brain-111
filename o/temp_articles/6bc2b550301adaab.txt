@@ -1,0 +1,41 @@
+TERMS: crystal, tachyon, singularity
+COLORS: orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/v9dLefWjnvf2Q4rPHxPRN7ySBXg</id>
+  <title>arXiv Query: search_query=all:crystal AND all:tachyon AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:28:21Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:crystal+AND+(all:tachyon+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1706.05470v2</id>
+    <title>Cosmology in the laboratory: an analogy between hyperbolic metamaterials and the Milne universe</title>
+    <updated>2017-11-19T18:05:59Z</updated>
+    <link href="https://arxiv.org/abs/1706.05470v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1706.05470v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This article shows that the compactified Milne universe geometry, a toy model for the big crunch/big bang transition, can be realized in hyperbolic metamaterials, a new class of nanoengineered systems which have recently found its way as an experimental playground for cosmological ideas. On one side, Klein-Gordon particles, as well as tachyons, are used as probes of the Milne geometry. On the other side, the propagation of light in two versions of a liquid crystal-based metamaterial provides the analogy. It is shown that ray and wave optics in the metamaterial mimic, respectively, the classical trajectories and wave function propagation, of the Milne probes, leading to the exciting perspective of realizing experimental tests of particle tunneling through the cosmic singularity, for instance.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-06-17T02:28:46Z</published>
+    <arxiv:comment>12 pages, 9 figures</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Phys. Rev. D 96, 105012 (2017)</arxiv:journal_ref>
+    <author>
+      <name>David Figueiredo</name>
+    </author>
+    <author>
+      <name>Fernando Moraes</name>
+    </author>
+    <author>
+      <name>Sébastien Fumeron</name>
+    </author>
+    <author>
+      <name>Bertrand Berche</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.96.105012</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.96.105012" title="doi"/>
+  </entry>
+</feed>

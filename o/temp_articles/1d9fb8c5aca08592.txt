@@ -1,0 +1,93 @@
+TERMS: hydrogen, crystal, plasma, oxidation
+COLORS: purple, orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/FUubj66wazYRvF66FNsYn+W+oiM</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:crystal AND all:plasma AND all:oxidation&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T02:01:51Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:crystal+AND+(all:plasma+AND+all:oxidation))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>6</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2210.15719v1</id>
+    <title>Characterization of AlW oxide coatings on aluminum formed by pulsed direct current plasma electrolytic oxidation at ultralow duty cycles</title>
+    <updated>2022-10-27T18:45:40Z</updated>
+    <link href="https://arxiv.org/abs/2210.15719v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2210.15719v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The growth of thin oxide coatings on the aluminum substrate in water-based sodium tungstate electrolyte by plasma electrolytic oxidation (PEO) is discussed and experimentally illustrated. The growth is carried out using a distinctive ultra-low duty cycle pulsed direct current (DC) power supply. During the PEO processing elements present in micro-discharges are identified using standard optical emission spectroscopy (OES) technique. The spectral line shape analysis of the first two hydrogen Balmer lines shows the presence of two types of micro-discharges. Obtained coatings are also characterized with respect to their morphology and chemical and phase composition. It is shown that coatings are composed of Al, O, and W, featuring low roughness and porosity. Partial crystallization of the coatings resulted in identification of WO3, W3O8, and gamma-Al2O3 crystalline phases.</summary>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-10-27T18:45:40Z</published>
+    <arxiv:primary_category term="physics.chem-ph"/>
+    <author>
+      <name>Kristina Mojsilovic</name>
+    </author>
+    <author>
+      <name>nenad Tadic</name>
+    </author>
+    <author>
+      <name>Uros Lacnjevac</name>
+    </author>
+    <author>
+      <name>Stevan Stojadinovic</name>
+    </author>
+    <author>
+      <name>Rastko Vasilic</name>
+    </author>
+    <arxiv:doi>10.1016/j.surfcoat.2021.126982</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.surfcoat.2021.126982" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1306.1431v1</id>
+    <title>Particle beam experiments for the investigation of plasma-surface interactions: application to magnetron sputtering and polymer treatment</title>
+    <updated>2013-06-06T15:13:00Z</updated>
+    <link href="https://arxiv.org/abs/1306.1431v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1306.1431v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A beam experiment is presented to study heterogeneous reactions relevant to plasma-surface interactions. Atom and ion beams are focused onto the sample to expose it to quantified beams of oxygen, nitrogen, hydrogen, noble gas ions and metal vapor. The heterogeneous surface processes are monitored in-situ and in real time by means of a quartz crystal microbalance (QCM) and Fourier transform infrared spectroscopy (FTIR). Two examples illustrate the capabilities of the particle beam setup: oxidation and nitriding of aluminum as a model of target poisoning during reactive magnetron sputtering, and plasma treatment of polymers (PET, PP).</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-06-06T15:13:00Z</published>
+    <arxiv:comment>30 pages, 10 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>Carles Corbella</name>
+    </author>
+    <author>
+      <name>Simon Grosse-Kreul</name>
+    </author>
+    <author>
+      <name>Oliver Kreiter</name>
+    </author>
+    <author>
+      <name>Teresa de los Arcos</name>
+    </author>
+    <author>
+      <name>Jan Benedikt</name>
+    </author>
+    <author>
+      <name>Achim von Keudell</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.00858v1</id>
+    <title>A comprehensive screening of plasma-facing materials for nuclear fusion</title>
+    <updated>2024-06-30T23:57:54Z</updated>
+    <link href="https://arxiv.org/abs/2407.00858v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.00858v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Plasma-facing materials (PFMs) represent one of the most significant challenges for the design of future nuclear fusion reactors. Inside the reactor, the divertor will experience the harshest material environment: intense bombardment of neutrons and plasma particles coupled with large and intermittent heat fluxes. The material designated to cover this role in ITER is tungsten (W). While no other materials have shown the potential to match the properties of W, many drawbacks associated with its application remain, including: cracking and erosion induced by a low recrystallization temperature combined with a high ductile-brittle transition temperature and neutron-initiated embrittlement; surface morphology changes (fuzz layer) due to plasma-W interaction with subsequent risk of spontaneous material melting and delamination; low oxidation resistance. This work aims to produce a structured and comprehensive materials screening of PFMs candidates based on known inorganic materials. The methodology applied in this study to identify the most promising PFM candidates combines peer-reviewed data present in the Pauling File database and DFT calculations of two key PFMs defects, namely the surface binding energy and the formation energy of a hydrogen interstitial. The crystal structures and their related properties, extracted from the Pauling File, are ranked according to the heat-balance equation of a PFM subject to the heat loads in the divertor region of an ITER-like tokamak. The materials satisfying the requirements are critically compared with the state-of-the-art literature, defining an optimal subset where to perform the first-principles electronic structure calculations. The majority of previously known PFMs are captured by this screening process, confirming its reliability. Additionally, less familiar refractory materials suggest performance that calls for further investigations.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-30T23:57:54Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Andrea Fedrigucci</name>
+    </author>
+    <author>
+      <name>Nicola Marzari</name>
+    </author>
+    <author>
+      <name>Paolo Ricci</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,77 @@
+TERMS: lattice, fusion, spin
+COLORS: orange, green, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/+7eDpKS8kBZ+TRWLEZWPG1AlHy4</id>
+  <title>arXiv Query: search_query=all:lattice AND all:fusion AND all:spin&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:13:37Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:fusion+AND+all:spin)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>86</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/0804.0483v3</id>
+    <title>Explicit demonstration of nonabelian anyon, braiding matrix and fusion rules in the Kitaev-type spin honeycomb lattice models</title>
+    <updated>2008-04-07T15:59:11Z</updated>
+    <link href="https://arxiv.org/abs/0804.0483v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0804.0483v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The exact solubility of the Kitaev-type spin honeycomb lattice model was proved by means of a Majorana fermion representation or a Jordan-Wigner transformation while the explicit form of the anyon in terms of Pauli matrices became not transparent. The nonabelian statistics of anyons and the fusion rules can only be expressed in indirect ways to Pauli matrices. We convert the ground state and anyonic excitations back to the forms of Pauli matrices and explicitly demonstrate the nonabelian anyonic statistics as well as the fusion rules. These results may instruct the experimental realization of the nonabelian anyons. We suggest a proof-in-principle experiment to verify the existence of the nonabelian anyons in nature.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-04-03T06:50:55Z</published>
+    <arxiv:comment>4 pages, 2 figures; references added; some discussions on the A phase added; derivations to the fusion rules and braiding matrix are refined</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <author>
+      <name>Yue Yu</name>
+    </author>
+    <author>
+      <name>Tieyan Si</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0811.1668v2</id>
+    <title>Explicit illustration of non-abelian fusion rules in a small spin lattice</title>
+    <updated>2008-11-13T07:37:28Z</updated>
+    <link href="https://arxiv.org/abs/0811.1668v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0811.1668v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We exactly solve a four-site spin model with site-dependent Kitaev's coupling in a tetrahedron by means of an analytical diagonalization. The non-abelian fusion rules of eigen vortex excitations in this small lattice model are explicitly illustrated in real space by using Pauli matrices. Comparing with solutions of Kitaev models on large lattices, our solution gives an intuitional picture using real space spin configurations to directly express zero modes of Majorana fermions, non-abelian vortices and non-abelian fusion rules. We generalize the single tetrahedron model to a chain model of tetrahedrons on a torus and find the non-abelian vortices become well-defined non-abelian anyons. We believe these manifest results are very helpful to demonstrate the nonabelian anyon in laboratory.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-11-11T10:08:47Z</published>
+    <arxiv:comment>4 pages, 2 figures, typos in eq.(13) corrected, reference added</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <author>
+      <name>Yue Yu</name>
+    </author>
+    <author>
+      <name>Tieyan Si</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2002.10472v1</id>
+    <title>Tensor network renormalization with fusion charges: applications to 3d lattice gauge theory</title>
+    <updated>2020-02-24T19:00:04Z</updated>
+    <link href="https://arxiv.org/abs/2002.10472v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2002.10472v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Tensor network methods are powerful and efficient tools to study the properties and dynamics of statistical and quantum systems, in particular in one and two dimensions. In recent years, these methods were applied to lattice gauge theories, yet these theories remain a challenge in $(2+1)$ dimensions. In this article, we present a new (decorated) tensor network algorithm, in which the tensors encode the lattice gauge amplitude expressed in the fusion basis.
+  This has several advantages: Firstly, the fusion basis does diagonalize operators measuring the magnetic fluxes and electric charges associated to a hierarchical set of regions. The algorithm allows therefore a direct access to these observables. Secondly the fusion basis is, as opposed to the previously employed spin network basis, stable under coarse graining. Thirdly, due to the hierarchical structure of the fusion basis, the algorithm does implement predefined disentangles, that remove short-scale entanglement.
+  We apply this new algorithm to lattice gauge theories defined for the quantum group $\text{SU}(2)_{\rm k}$ and identify a weak and a strong coupling phase for various levels $\rm k$. As we increase the level $\rm k$, the critical coupling $g_c$ decreases linearly, suggesting the absence of a deconfining phase for the continuous group $\text{SU}(2)$. Moreover, we illustrate the scaling behaviour of the Wilson loops in the two phases.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-02-24T19:00:04Z</published>
+    <arxiv:comment>43 pages (36 + 7 appendices), 26 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>William J. Cunningham</name>
+    </author>
+    <author>
+      <name>Bianca Dittrich</name>
+    </author>
+    <author>
+      <name>Sebastian Steinhaus</name>
+    </author>
+  </entry>
+</feed>

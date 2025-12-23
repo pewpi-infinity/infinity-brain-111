@@ -1,0 +1,80 @@
+TERMS: crystal, probability, singularity
+COLORS: orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/61nHSqGZ2W998skj9NLgWwRmeaY</id>
+  <title>arXiv Query: search_query=all:crystal AND all:probability AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:28:52Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:crystal+AND+(all:probability+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>14</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/gr-qc/0611047v3</id>
+    <title>Unconventional string-like singularities in flat spacetime</title>
+    <updated>2008-04-22T17:18:28Z</updated>
+    <link href="https://arxiv.org/abs/gr-qc/0611047v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/gr-qc/0611047v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The conical singularity in flat spacetime is mostly known as a model of the cosmic string or the wedge disclination in solids. Its another, equally important, function is to be a representative of quasiregular singularities.
+  From all these of views it seems interesting to find out whether there exist other similar singularities. To specify what "similar" means I introduce the notion of the string-like singularity, which is, roughly speaking, an absolutely mild singularity concentrated on a curve or on a 2-surface S (depending on whether the space is three- of four-dimensional). A few such singularities are already known: the aforementioned conical singularity, two its Lorentzian versions, the "spinning string", the "screw dislocation", and Tod's spacetime. In all these spacetimes S is a straight line (or a plane) and one may wonder if this is an inherent property of the string-like singularities. The aim of this paper is to construct string-like singularities with less trivial S. These include flat spacetimes in which S is a spiral, or even a loop. If such singularities exist in nature (in particular, as an approximation to gravitational field of strings) their cosmological and astrophysical manifestations must differ drastically from those of the conventional cosmic strings. Likewise, being realized as topological defects in crystals such loops and spirals will probably also have rather unusual properties.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-11-07T15:06:38Z</published>
+    <arxiv:comment>Draft. References and comments are welcome. v2. Section 3 is intact, the rest is made briefer and clearer. A couple of references are added. v3. Insignificant correstions. The published version</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Phys.Rev.D76:024010,2007</arxiv:journal_ref>
+    <author>
+      <name>S. Krasnikov</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.76.024010</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.76.024010" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1712.05588v3</id>
+    <title>Dynamical quantum phase transitions in discrete time crystals</title>
+    <updated>2018-05-30T07:12:57Z</updated>
+    <link href="https://arxiv.org/abs/1712.05588v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1712.05588v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Discrete time crystals are related to non-equilibrium dynamics of periodically driven quantum many-body systems where the discrete time translation symmetry of the Hamiltonian is spontaneously broken into another discrete symmetry. Recently, the concept of phase transitions has been extended to non-equilibrium dynamics of time-independent systems induced by a quantum quench, i.e. a sudden change of some parameter of the Hamiltonian. There, the return probability of a system to the ground state reveals singularities in time which are dubbed dynamical quantum phase transitions. We show that the quantum quench in a discrete time crystal leads to dynamical quantum phase transitions where the return probability of a periodically driven system to a Floquet eigenstate before the quench reveals singularities in time. It indicates that dynamical quantum phase transitions are not restricted to time-independent systems and can be also observed in systems that are periodically driven. We discuss how the phenomenon can be observed in ultra-cold atomic gases.</summary>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-12-15T09:22:57Z</published>
+    <arxiv:comment>version accepted for publication in Physical Review A (9 pages, 3 figs)</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.quant-gas"/>
+    <arxiv:journal_ref>Phys. Rev. A 97, 053621 (2018)</arxiv:journal_ref>
+    <author>
+      <name>Arkadiusz Kosior</name>
+    </author>
+    <author>
+      <name>Krzysztof Sacha</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.97.053621</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.97.053621" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1310.8474v1</id>
+    <title>Nonisothermal nematic liquid crystal flows with the Ball-Majumdar free energy</title>
+    <updated>2013-10-31T12:30:31Z</updated>
+    <link href="https://arxiv.org/abs/1310.8474v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1310.8474v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we prove the existence of global in time weak solutions for an evolutionary PDE system modelling nonisothermal Landau-de Gennes nematic liquid crystal (LC) flows in three dimensions of space. In our model, the incompressible Navier-Stokes system for the macroscopic velocity $\vu$ is coupled to a nonlinear convective parabolic equation describing the evolution of the Q-tensor $\QQ$, namely a tensor-valued variable representing the normalized second order moments of the probability distribution function of the LC molecules. The effects of the (absolute) temperature $\vt$ are prescribed in the form of an energy balance identity complemented with a global entropy production inequality. Compared to previous contributions, we can consider here the physically realistic singular configuration potential $f$ introduced by Ball and Majumdar. This potential gives rise to severe mathematical difficulties since it introduces, in the Q-tensor equation, a term which is at the same time singular in $\QQ$ and degenerate in $\vt$. To treat it a careful analysis of the properties of $f$, particularly of its blow-up rate, is carried out.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-10-31T12:30:31Z</published>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name>Eduard Feireisl</name>
+    </author>
+    <author>
+      <name>Elisabetta Rocca</name>
+    </author>
+    <author>
+      <name>Giulio Schimperna</name>
+    </author>
+    <author>
+      <name>Arghir Zarnescu</name>
+    </author>
+  </entry>
+</feed>

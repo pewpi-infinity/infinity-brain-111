@@ -1,0 +1,28 @@
+TERMS: entropy, vapor, vacuum
+COLORS: red, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/uFbMhe4wowttz8AHD0/U9JwjEoA</id>
+  <title>arXiv Query: search_query=all:entropy AND all:vapor AND all:vacuum&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:17:30Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+(all:vapor+AND+all:vacuum)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/gr-qc/0201060v2</id>
+    <title>The Inflaton and its Mass</title>
+    <updated>2002-01-20T17:54:37Z</updated>
+    <link href="https://arxiv.org/abs/gr-qc/0201060v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/gr-qc/0201060v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In the context of the two fluid model of space-time fluctuations proposed to tame the transplanckian problem encountered in black hole physics, it is postulated that the inflaton is the fluctuation of mode density, ``the vapor component'' of the model. The mass of the inflaton is occasioned by the exchange of degrees of freedom between the ``vapor'' and the ``liquid'', the planckian ``soup'' in which usual ``cisplanckian'' fields propagate. This exchange between vacuum fluctuations is modeled after its counterpart in the real world i.e. black hole evaporation. In order of magnitude, a very rough semiquantitative estimate, would situate the mass somewhere between $10^{-10}$ and $10^{-5}$ planck masses, the largest uncertainty being the mass of the planckian black hole fluctuation i.e. the entropy that one ascribes to it.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-01-18T16:12:38Z</published>
+    <arxiv:comment>LaTex file, 11 pages</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <author>
+      <name>Robert Brout</name>
+    </author>
+  </entry>
+</feed>

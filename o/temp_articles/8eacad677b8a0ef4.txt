@@ -1,0 +1,68 @@
+TERMS: crystal, wavefunction
+COLORS: orange, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/nJVuf6trRg4l2Ehbucdp+diLgjY</id>
+  <title>arXiv Query: search_query=all:crystal AND all:wavefunction&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T00:59:06Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:crystal+AND+all:wavefunction&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>294</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2409.06775v1</id>
+    <title>Wavefunction approach to the fractional anomalous Hall crystal</title>
+    <updated>2024-09-10T18:00:01Z</updated>
+    <link href="https://arxiv.org/abs/2409.06775v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2409.06775v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose fractional anomalous Hall crystals (FAHCs) as possible ground states of strongly interacting electrons in parent bands with Berry curvature. FAHCs are exotic states of matter that spontaneously break continuous translation symmetry to form a fractional Chern insulator. We construct a unified family of variational wavefunctions that describe FAHCs and their competing states in the presence of uniform parent Berry curvature. We calculate their variational energy with Coulomb interactions semi-analytically in the thermodynamic limit. Our analysis reveals that FAHCs can be energetically favorable over both Wigner crystals and integer anomalous Hall crystals for sufficiently strong interactions or flat dispersion.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-09-10T18:00:01Z</published>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>Tixuan Tan</name>
+    </author>
+    <author>
+      <name>Julian May-Mann</name>
+    </author>
+    <author>
+      <name>Trithep Devakul</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0702250v1</id>
+    <title>Crystal mean field based trial wavefunctions for the FQHE ground states</title>
+    <updated>2007-02-12T21:00:32Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0702250v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0702250v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Employing the Haldane-Rezayi periodic representation, the crystalline determinantal Hall crystal mean field solutions derived in previous works are used to construct variational wavefunctions for the FQHE at $ν=1/q$. The proposed states optimize the short range correlations in a similar measure as the Laughlin ones, since the zero of the states when the coordinates of two particles join is of order $q$. However, the proposed wavefunctions also incorporate the crystalline correlations of the mean field problem, through a determinantal mean field function entering their construction. The above properties, lead to the expectation that the considered states can be competitive in energy per particle with the Laughlin ones. Their similar structure also could explain way the breaking of the translation invariance in the FQHE ground states can result to be a weak one, which after disregarded, produce the Laughlin states as good approximations. Calculation for checking these possibilities are under consideration.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-02-12T21:00:32Z</published>
+    <arxiv:comment>10 pages, no figures, corrected for errors and presentation improved</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>Alejandro Cabo</name>
+    </author>
+    <author>
+      <name>Francisco Claro</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0806.3198v1</id>
+    <title>Correct form of the electron wavefunction in periodic solids</title>
+    <updated>2008-06-19T14:15:16Z</updated>
+    <link href="https://arxiv.org/abs/0806.3198v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0806.3198v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The Bloch wavefunction leads either to mathematically impossible consequences or suggests that the ground state energy is a function of size and shape when the geometry of large crystals is considered in detail. It is incompatible with the assumption underlying the Born-von Karman periodic boundary condition. The source of the difficulty is the incorrect dependence of the Bloch wavefunction on the wavenumber index k. The mathematically impossible consequences can be overcome if the periodic part of the electron wavefunction is represented as un(r), which is dependent only on the band index, n, and is independent of the wavenumber index k. This correct form of the wavefunction is consistent with the Bloch theorem and with all other properties of Bloch wavefunctions. The correct form is also consistent with the Born-von Karman periodic boundary condition. The correct form of the electronic wavefunction in a periodic solid has profound consequences. It simplifies the calculation of electronic structure as only one wavefunction per band, un(r), needs to be evaluated. It brings about a conceptual unification between the band picture favored by physicists and the bond picture favored by chemists. The correct form of the electron wavefunction will simplify the understanding of many phenomena involving valence electrons.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-06-19T14:15:16Z</published>
+    <arxiv:comment>15 pages, submitted for publication</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>T. R. S. Prasanna</name>
+    </author>
+  </entry>
+</feed>

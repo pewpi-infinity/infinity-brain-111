@@ -1,0 +1,104 @@
+TERMS: fusion, crystal, vacuum
+COLORS: green, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/cbaro0WNSAaZgU64nYxIMslsZtE</id>
+  <title>arXiv Query: search_query=all:fusion AND all:crystal AND all:vacuum&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:20:34Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:fusion+AND+(all:crystal+AND+all:vacuum)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2409.02112v1</id>
+    <title>Observation of Thermal Deuteron-Deuteron Fusion in Ion Tracks</title>
+    <updated>2024-08-21T17:48:19Z</updated>
+    <link href="https://arxiv.org/abs/2409.02112v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2409.02112v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A direct observation of the deuteron-deuteron (DD) fusion reaction at thermal meV energies, although theoretically possible, is not succeeded up to now. The electron screening effect that reduces the repulsive Coulomb barrier between reacting nuclei in metallic environments by several hundreds of eV and is additionally increased by crystal lattice defects in the hosting material, leads to strongly enhanced cross sections which means that this effect might be studied in laboratories. Here we present results of the 2H(d,p)3H reaction measurements performed on a ZrD2 target down to the lowest deuteron energy in the center mass system of 675 eV, using an ultra-high vacuum accelerator system, recently upgraded to achieve high beam currents at very low energies. The experimental thick target yield, decreasing over seven orders of magnitude for lowering beam energies, could be well described by the electron screening energy of 340 eV, which is much higher than the value of about 100 eV for a defect free material. At the energies below 2.5 keV, a constant plateau yield value could be observed. As indicated by significantly increased energies of emitted protons, this effect can be associated with the thermal DD fusion. A theoretical model explains the experimental observations by creation of ion tracks induced in the target by projectiles, and a high phonon density which locally increases temperature above the melting point. The nuclear reaction rate taking into account recently observed DD threshold resonance agrees very well with the experimental data.</summary>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-08-21T17:48:19Z</published>
+    <arxiv:primary_category term="nucl-ex"/>
+    <author>
+      <name>K. Czerski</name>
+    </author>
+    <author>
+      <name>R. Dubey</name>
+    </author>
+    <author>
+      <name>A. Kowalska</name>
+    </author>
+    <author>
+      <name>G. Haridas Das</name>
+    </author>
+    <author>
+      <name>M. Kaczmarski</name>
+    </author>
+    <author>
+      <name>N. Targosz-Sleczka</name>
+    </author>
+    <author>
+      <name>M. Valat</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2006.06798v3</id>
+    <title>Inference of Experimental Radial Impurity Transport on Alcator C-Mod: Bayesian Parameter Estimation and Model Selection</title>
+    <updated>2020-07-27T14:18:11Z</updated>
+    <link href="https://arxiv.org/abs/2006.06798v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2006.06798v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a fully Bayesian approach for the inference of radial profiles of impurity transport coefficients and compare its results to neoclassical, gyrofluid and gyrokinetic modeling. Using nested sampling, the Bayesian Impurity Transport InferencE (BITE) framework can handle complex parameter spaces with multiple possible solutions, offering great advantages in interpretative power and reliability with respect to previously demonstrated methods. BITE employs a forward model based on the pySTRAHL package, built on the success of the well-known STRAHL code [Dux, IPP Report, 2004], to simulate impurity transport in magnetically-confined plasmas. In this paper, we focus on calcium (Ca, Z=20) Laser Blow-Off injections into Alcator C-Mod plasmas. Multiple Ca atomic lines are diagnosed via high-resolution X-ray Imaging Crystal Spectroscopy and Vacuum Ultra-Violet measurements. We analyze a sawtoothing I-mode discharge for which neoclassical and turbulent (quasilinear and nonlinear) predictions are also obtained. We find good agreement in diffusion across the entire radial extent, while turbulent convection and density profile peaking are estimated to be larger in experiment than suggested by theory. Efforts and challenges associated with the inference of experimental pedestal impurity transport are discussed.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.data-an" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-06-11T20:27:52Z</published>
+    <arxiv:comment>38 pages, 19 figures, submitted for publication in Nuclear Fusion</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>F. Sciortino</name>
+    </author>
+    <author>
+      <name>N. T. Howard</name>
+    </author>
+    <author>
+      <name>E. S. Marmar</name>
+    </author>
+    <author>
+      <name>T. Odstrcil</name>
+    </author>
+    <author>
+      <name>N. M. Cao</name>
+    </author>
+    <author>
+      <name>R. Dux</name>
+    </author>
+    <author>
+      <name>A. E. Hubbard</name>
+    </author>
+    <author>
+      <name>J. W. Hughes</name>
+    </author>
+    <author>
+      <name>J. H. Irby</name>
+    </author>
+    <author>
+      <name>Y. Marzouk</name>
+    </author>
+    <author>
+      <name>L. M. Milanese</name>
+    </author>
+    <author>
+      <name>M. L. Reinke</name>
+    </author>
+    <author>
+      <name>J. E. Rice</name>
+    </author>
+    <author>
+      <name>P. Rodriguez-Fernandez</name>
+    </author>
+    <arxiv:doi>10.1088/1741-4326/abae85</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1741-4326/abae85" title="doi"/>
+  </entry>
+</feed>

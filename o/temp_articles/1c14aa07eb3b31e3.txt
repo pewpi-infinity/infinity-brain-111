@@ -1,0 +1,189 @@
+TERMS: fusion, electron, vacuum
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/SI41HeEXBy1u7+gEe3XKgZ1Aatg</id>
+  <title>arXiv Query: search_query=all:fusion AND all:electron AND all:vacuum&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:20:01Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:fusion+AND+(all:electron+AND+all:vacuum)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>45</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2401.11338v3</id>
+    <title>ENN's Roadmap for Proton-Boron Fusion Based on Spherical Torus</title>
+    <updated>2024-06-10T15:57:36Z</updated>
+    <link href="https://arxiv.org/abs/2401.11338v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.11338v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>ENN Science and Technology Development Co., Ltd. (ENN) is committed to generating fusion energy in an environmentally friendly and cost-effective manner, which requires abundant aneutronic fuel. Proton-boron ( p-$^{11}$B or p-B) fusion is considered an ideal choice for this purpose. Recent studies have suggested that p-B fusion, although challenging, is feasible based on new cross-section data, provided that a hot ion mode and high wall reflection can be achieved to reduce electron radiation loss. The high beta and good confinement of the spherical torus (ST) make it an ideal candidate for p-B fusion. By utilizing the new spherical torus energy confinement scaling law, a reactor with a major radius $R_0=4$ m, central magnetic field $B_0=6$ T, central temperature $T_{i0}=150$ keV, plasma current $I_p=30$ MA, and hot ion mode $T_i/T_e=4$ can yield p-B fusion with $Q&gt;10$. A roadmap for p-B fusion has been developed, with the next-generation device named EHL-2. EHL stands for ENN He-Long, which literally means ``peaceful Chinese Loong". The main target parameters include $R_0\simeq1.05$ m, $A\simeq1.85$, $B_0\simeq3$ T, $T_{i0}\simeq30$ keV, $I_p\simeq3$ MA, and $T_i/T_e\geq2$. The existing ST device EXL-50 was simultaneously upgraded to provide experimental support for the new roadmap, involving the installation and upgrading of the central solenoid, vacuum chamber, and magnetic systems. The construction of the upgraded ST fusion device, EXL-50U, was completed at the end of 2023, and it achieved its first plasma in January 2024. The construction of EHL-2 is estimated to be completed by 2026.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-20T22:09:00Z</published>
+    <arxiv:comment>16 pages, 8 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <arxiv:journal_ref>Phys. Plasmas 31, 062507 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Min-sheng Liu</name>
+    </author>
+    <author>
+      <name>Hua-sheng Xie</name>
+    </author>
+    <author>
+      <name>Yu-min Wang</name>
+    </author>
+    <author>
+      <name>Jia-qi Dong</name>
+    </author>
+    <author>
+      <name>Kai-ming Feng</name>
+    </author>
+    <author>
+      <name>Xiang Gu</name>
+    </author>
+    <author>
+      <name>Xian-li Huang</name>
+    </author>
+    <author>
+      <name>Xin-chen Jiang</name>
+    </author>
+    <author>
+      <name>Ying-ying Li</name>
+    </author>
+    <author>
+      <name>Zhi Li</name>
+    </author>
+    <author>
+      <name>Bing Liu</name>
+    </author>
+    <author>
+      <name>Wen-jun Liu</name>
+    </author>
+    <author>
+      <name>Di Luo</name>
+    </author>
+    <author>
+      <name>Yueng-Kay Martin Peng</name>
+    </author>
+    <author>
+      <name>Yue-jiang Shi</name>
+    </author>
+    <author>
+      <name>Shao-dong Song</name>
+    </author>
+    <author>
+      <name>Xian-ming Song</name>
+    </author>
+    <author>
+      <name>Tian-tian Sun</name>
+    </author>
+    <author>
+      <name>Mu-zhi Tan</name>
+    </author>
+    <author>
+      <name>Xue-yun Wang</name>
+    </author>
+    <author>
+      <name>Yuan-ming Yang</name>
+    </author>
+    <author>
+      <name>Gang Yin</name>
+    </author>
+    <author>
+      <name>Han-yue Zhao</name>
+    </author>
+    <author>
+      <name>ENN fusion team</name>
+    </author>
+    <arxiv:doi>10.1063/5.0199112</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/5.0199112" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1907.02747v1</id>
+    <title>Modelling the electron cyclotron emission below the fundamental resonance in ITER</title>
+    <updated>2019-07-05T09:55:04Z</updated>
+    <link href="https://arxiv.org/abs/1907.02747v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1907.02747v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The electron cyclotron emission (ECE) in fusion devices is non-trivial to model in detail at frequencies well below the fundamental resonance where the plasma is optically thin. However, doing so is important for evaluating the background for microwave diagnostics operating in this frequency range. Here we present a general framework for estimating the ECE levels of fusion plasmas at such frequencies using ensemble-averaging of rays traced through many randomized wall reflections. This enables us to account for the overall vacuum vessel geometry, self-consistently include cross-polarization, and quantify the statistical uncertainty on the resulting ECE spectra. Applying this to ITER conditions, we find simulated ECE levels that increase strongly with frequency and plasma temperature in the considered range of 55-75 GHz. At frequencies smaller than 70 GHz, we predict an X-mode ECE level below 100 eV in the ITER baseline plasma scenario, but with corresponding intensities reaching keV levels in the hotter hybrid plasma scenario. Benchmarking against the SPECE raytracing code reveals good agreement under relevant conditions, and the predicted strength of X-mode to O-mode conversion induced by wall reflections is consistent with estimates from existing fusion devices. We discuss possible implications of our findings for ITER microwave diagnostics such as ECE, reflectometry, and collective Thomson scattering.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-07-05T09:55:04Z</published>
+    <arxiv:comment>17 pages, 11 figures. Accepted for publication in Plasma Phys. Control. Fusion</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>Jesper Rasmussen</name>
+    </author>
+    <author>
+      <name>Morten Stejner</name>
+    </author>
+    <author>
+      <name>Lorenzo Figini</name>
+    </author>
+    <author>
+      <name>Thomas Jensen</name>
+    </author>
+    <author>
+      <name>Esben B. Klinkby</name>
+    </author>
+    <author>
+      <name>Søren B. Korsholm</name>
+    </author>
+    <author>
+      <name>Axel W. Larsen</name>
+    </author>
+    <author>
+      <name>Frank Leipold</name>
+    </author>
+    <author>
+      <name>Daniele Micheletti</name>
+    </author>
+    <author>
+      <name>Stefan K. Nielsen</name>
+    </author>
+    <author>
+      <name>Mirko Salewski</name>
+    </author>
+    <arxiv:doi>10.1088/1361-6587/ab2f4a</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1361-6587/ab2f4a" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.06537v3</id>
+    <title>3D-printed components for electron-ion trapping: Pre-experimental tests of functionality and ultra-high vacuum compatibility</title>
+    <updated>2025-11-18T08:25:20Z</updated>
+    <link href="https://arxiv.org/abs/2509.06537v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.06537v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We demonstrate the ultra-high vacuum compatibility of a microwave-driven electron trap and an atomic oven (for atomic beam generation) fabricated through 3D printing via Laser Powder Bed Fusion (L-PBF). The trap integrates into a coaxial microwave cavity, enabling stable, narrow-band, high-amplitude oscillations of the electric field at the electrodes. The design also supports simultaneous trapping of ions. The oven performs well in ultrahigh vacuum (UHV) environments without significant outgassing. In addition to achieving the UHV regime for 3D-printed components, pressure variations and their potential impact on electron-ion trapping experiments were investigated over a month. Our results show that experiments with electrons photodetached from trapped and laser-cooled ions are feasible with the trap and oven manufactured by the L-PBF method. These findings establish a foundation for future experiments in microwave detection and the study of low-energy ion-electron interactions at room temperature.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-08T10:43:39Z</published>
+    <arxiv:comment>15 pages, 11 figures, discussion on pressure deterioration during oven evaporation added, title changed to express the nature of the tests more accurately</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>Vineet Kumar</name>
+      <arxiv:affiliation>Charles University, Faculty of Mathematics and Physics, Dept. of Surface and Plasma Science, Prague, Czech Republic</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Niklas V. Lausti</name>
+      <arxiv:affiliation>Charles University, Faculty of Mathematics and Physics, Dept. of Surface and Plasma Science, Prague, Czech Republic</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jiří Hajnyš</name>
+      <arxiv:affiliation>Faculty of Mechanical Engineering, VŠB - Technical University of Ostrava, Ostrava, Czech Republic</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ivan Hudák</name>
+      <arxiv:affiliation>Charles University, Faculty of Mathematics and Physics, Dept. of Surface and Plasma Science, Prague, Czech Republic</arxiv:affiliation>
+      <arxiv:affiliation>Institute of Photonics and Electronics CAS, v.v.i., Prague, Czech Republic</arxiv:affiliation>
+    </author>
+    <author>
+      <name>David Motyčka</name>
+      <arxiv:affiliation>Charles University, Faculty of Mathematics and Physics, Dept. of Surface and Plasma Science, Prague, Czech Republic</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Adam Jelínek</name>
+      <arxiv:affiliation>Charles University, Faculty of Mathematics and Physics, Dept. of Surface and Plasma Science, Prague, Czech Republic</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Michal Hejduk</name>
+      <arxiv:affiliation>Charles University, Faculty of Mathematics and Physics, Dept. of Surface and Plasma Science, Prague, Czech Republic</arxiv:affiliation>
+    </author>
+  </entry>
+</feed>

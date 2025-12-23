@@ -1,0 +1,104 @@
+TERMS: wavefunction, oxidation
+COLORS: yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/sIKyyGU/+8A5CVwZ91RZveuZz9M</id>
+  <title>arXiv Query: search_query=all:wavefunction AND all:oxidation&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:00:02Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:wavefunction+AND+all:oxidation&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>62</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2504.16846v2</id>
+    <title>Wavefunctions and oscillator strengths of Rydberg excitons in cuprous oxide quantum wells</title>
+    <updated>2025-07-24T20:54:45Z</updated>
+    <link href="https://arxiv.org/abs/2504.16846v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.16846v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate the eigenstates, that is, the wavefunctions of Rydberg excitons in cuprous oxide quantum wells and derive expressions relating them to the oscillator strengths of different exciton states. Using the B-spline expansion, we compute the wavefunctions in coordinate space and estimate the oscillator strengths. The symmetry properties of the states and the non-separability of the wavefunctions are illustrated. Wavefunctions associated with resonances above the scattering threshold, in particular those of bound states in the continuum as well as their partner states, are also given.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-23T16:09:51Z</published>
+    <arxiv:comment>13 pages, 9 figures, revised paper accepted for publication in Phys. Rev. B</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Phys. Rev. B 112, 075409 (2025)</arxiv:journal_ref>
+    <author>
+      <name>Leon Kühner</name>
+    </author>
+    <author>
+      <name>Patric Rommel</name>
+    </author>
+    <author>
+      <name>Jörg Main</name>
+    </author>
+    <author>
+      <name>Stefan Scheel</name>
+    </author>
+    <author>
+      <name>Pavel A. Belov</name>
+    </author>
+    <arxiv:doi>10.1103/9pct-k79b</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/9pct-k79b" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0704.1906v1</id>
+    <title>Ab initio wavefunction based methods for excited states in solids: correlation corrections to the band structure of ionic oxides</title>
+    <updated>2007-04-15T16:32:37Z</updated>
+    <link href="https://arxiv.org/abs/0704.1906v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0704.1906v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Ab initio wavefunction based methods are applied to the study of electron correlation effects on the band structure of oxide systems. We choose MgO as a prototype closed-shell ionic oxide. Our analysis is based on a local Hamiltonian approach and performed on finite fragments cut from the infinite solid. Localized Wannier functions and embedding potentials are obtained from prior periodic Hartree-Fock (HF) calculations. We investigate the role of various electron correlation effects in reducing the HF band gap and modifying the band widths. On-site and nearest-neighbor charge relaxation as well as long-range polarization effects are calculated. Whereas correlation effects are essential for computing accurate band gaps, we found that they produce smaller changes on the HF band widths, at least for this material. Surprisingly, a broadening effect is obtained for the O 2p valence bands. The ab initio data are in good agreement with the energy gap and band width derived from thermoreflectance and x-ray photoemission experiments. The results show that the wavefunction based approach applied here allows for well controlled approximations and a transparent identification of the microscopic processes which determine the electronic band structure.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-04-15T16:32:37Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>Phys. Rev. B 76, 085109 (2007)</arxiv:journal_ref>
+    <author>
+      <name>L. Hozoi</name>
+    </author>
+    <author>
+      <name>U. Birkenheuer</name>
+    </author>
+    <author>
+      <name>P. Fulde</name>
+    </author>
+    <author>
+      <name>A. Mitrushchenkov</name>
+    </author>
+    <author>
+      <name>H. Stoll</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.76.085109</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.76.085109" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2403.03466v2</id>
+    <title>Systematic Improvement of Quantum Monte Carlo Calculations in Transition Metal Oxides: sCI-Driven Wavefunction Optimization for Reliable Band Gap prediction</title>
+    <updated>2024-03-15T21:12:53Z</updated>
+    <link href="https://arxiv.org/abs/2403.03466v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.03466v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Accurate determination of electronic properties of correlated oxides remains a significant challenge for computational theory. Traditional Hubbard-corrected density functional theory (DFT+U) frequently encounters limitations in precisely capturing electron correlation, particularly when predicting band gaps. We introduce a systematic methodology to enhance the accuracy of diffusion Monte Carlo (DMC) simulations for both ground and excited states, focusing on LiCoO$_2$ as a case study. By employing a selected CI (sCI) approach, we demonstrate the capability to optimize wavefunctions beyond the constraints of single-reference DFT+U trial wavefunctions. We show that the sCI framework enables accurate prediction of band gaps in LiCoO$_2$, closely aligning with experimental values and substantially improving upon traditional computational methods. The study uncovers a nuanced mixed state of $t_{2g}$ a $e_g$ orbitals at the band edges that is not captured by conventional single-reference methods, further elucidating the limitations of PBE+U in describing $d$-$d$ excitations. Our findings advocate for the adoption of beyond-DFT methodologies, such as sCI, to capture the essential physics of excited state wavefunctions in strongly correlated materials. The improved accuracy in band gap predictions and the ability to generate more reliable trial wavefunctions for DMC calculations underscore the potential of this approach for broader applications in the study of correlated oxides. This work not only provides a pathway for more accurate simulations of electronic structures in complex materials but also suggests a framework for future investigations into the excited states of other challenging systems.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-06T05:02:57Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Hyeondeok Shin</name>
+    </author>
+    <author>
+      <name>Kevin Gasperich</name>
+    </author>
+    <author>
+      <name>Tomas Rojas</name>
+    </author>
+    <author>
+      <name>Anh T. Ngo</name>
+    </author>
+    <author>
+      <name>Jaron T. Krogel</name>
+    </author>
+    <author>
+      <name>Anouar Benali</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,73 @@
+TERMS: entropy, fusion
+COLORS: red, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/AdWs6ngItUgiuoQ5i2AtKFk8i58</id>
+  <title>arXiv Query: search_query=all:entropy AND all:fusion&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T00:57:48Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+all:fusion&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>371</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1108.3250v1</id>
+    <title>The Statistical methods of Pixel-Based Image Fusion Techniques</title>
+    <updated>2011-08-12T16:51:21Z</updated>
+    <link href="https://arxiv.org/abs/1108.3250v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1108.3250v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>There are many image fusion methods that can be used to produce high-resolution mutlispectral images from a high-resolution panchromatic (PAN) image and low-resolution multispectral (MS) of remote sensed images. This paper attempts to undertake the study of image fusion techniques with different Statistical techniques for image fusion as Local Mean Matching (LMM), Local Mean and Variance Matching (LMVM), Regression variable substitution (RVS), Local Correlation Modeling (LCM) and they are compared with one another so as to choose the best technique, that can be applied on multi-resolution satellite images. This paper also devotes to concentrate on the analytical techniques for evaluating the quality of image fusion (F) by using various methods including Standard Deviation (SD), Entropy(En), Correlation Coefficient (CC), Signal-to Noise Ratio (SNR), Normalization Root Mean Square Error (NRMSE) and Deviation Index (DI) to estimate the quality and degree of information improvement of a fused image quantitatively.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-08-12T16:51:21Z</published>
+    <arxiv:comment>Keywords: Data Fusion, Resolution Enhancement, Statistical fusion, Correlation Modeling, Matching, pixel based fusion</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <arxiv:journal_ref>International Journal of Artificial Intelligence and Knowledge Discovery Vol.1, Issue 3, July, 2011</arxiv:journal_ref>
+    <author>
+      <name>Firouz Abdullah Al-Wassai</name>
+    </author>
+    <author>
+      <name>N. V. Kalyankar</name>
+    </author>
+    <author>
+      <name>Ali A. Al-Zaky</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1107.3348v2</id>
+    <title>Arithmetic and Frequency Filtering Methods of Pixel-Based Image Fusion Techniques</title>
+    <updated>2011-07-19T05:20:59Z</updated>
+    <link href="https://arxiv.org/abs/1107.3348v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1107.3348v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In remote sensing, image fusion technique is a useful tool used to fuse high spatial resolution panchromatic images (PAN) with lower spatial resolution multispectral images (MS) to create a high spatial resolution multispectral of image fusion (F) while preserving the spectral information in the multispectral image (MS).There are many PAN sharpening techniques or Pixel-Based image fusion techniques that have been developed to try to enhance the spatial resolution and the spectral property preservation of the MS. This paper attempts to undertake the study of image fusion, by using two types of pixel-based image fusion techniques i.e. Arithmetic Combination and Frequency Filtering Methods of Pixel-Based Image Fusion Techniques. The first type includes Brovey Transform (BT), Color Normalized Transformation (CN) and Multiplicative Method (MLT). The second type include High-Pass Filter Additive Method (HPFA), High-Frequency-Addition Method (HFA) High Frequency Modulation Method (HFM) and The Wavelet transform-based fusion method (WT). This paper also devotes to concentrate on the analytical techniques for evaluating the quality of image fusion (F) by using various methods including Standard Deviation (SD), Entropy(En), Correlation Coefficient (CC), Signal-to Noise Ratio (SNR), Normalization Root Mean Square Error (NRMSE) and Deviation Index (DI) to estimate the quality and degree of information improvement of a fused image quantitatively.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-07-18T01:41:37Z</published>
+    <arxiv:comment>Image Fusion, Pixel-Based Fusion, Brovey Transform, Color Normalized, High-Pass Filter, Modulation, Wavelet transform</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <arxiv:journal_ref>Journal-ref: International Journal of Advanced Research in Computer Science,Volume 2, No. 5, Sept-Oct 2011,www.ijarcs.info</arxiv:journal_ref>
+    <author>
+      <name>Firouz Abdullah Al-Wassai</name>
+    </author>
+    <author>
+      <name>N. V. Kalyankar</name>
+    </author>
+    <author>
+      <name>Ali A. Al-Zuky</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/physics/0111118v1</id>
+    <title>Probabilistic methods for data fusion</title>
+    <updated>2001-11-14T11:40:36Z</updated>
+    <link href="https://arxiv.org/abs/physics/0111118v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/physics/0111118v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The main object of this paper is to show how we can use classical probabilistic methods such as Maximum Entropy (ME), maximum likelihood (ML) and/or Bayesian (BAYES) approaches to do microscopic and macroscopic data fusion. Actually ME can be used to assign a probability law to an unknown quantity when we have macroscopic data (expectations) on it. ML can be used to estimate the parameters of a probability law when we have microscopic data (direct observation). BAYES can be used to update a prior probability law when we have microscopic data through the likelihood. When we have both microscopic and macroscopic data we can use first ME to assign a prior and then use BAYES to update it to the posterior law thus doing the desired data fusion. However, in practical data fusion applications, we may still need some engineering feeling to propose realistic data fusion solutions. Some simple examples in sensor data fusion and image reconstruction using different kind of data are presented to illustrate these ideas. Keywords: Data fusion, Maximum entropy, Maximum likelihood, Bayesian data fusion, EM algorithm.</summary>
+    <category term="physics.data-an" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2001-11-14T11:40:36Z</published>
+    <arxiv:comment>Presented at MaxEnt97. Appeared in Maximum Entropy and Bayesian Methods, G.J. Erickson, J.T. Rychert and C.R. Smith (Ed.), Kluwer Academic Publishers (http://www.wkap.nl/prod/b/0-7923-5047-2)</arxiv:comment>
+    <arxiv:primary_category term="physics.data-an"/>
+    <author>
+      <name>A. Mohammad-Djafari</name>
+      <arxiv:affiliation>Laboratoire des Signaux et Systèmes, CNRS-UPS-SUPELEC, Gif-sur-Yvette, France</arxiv:affiliation>
+    </author>
+  </entry>
+</feed>

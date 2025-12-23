@@ -1,0 +1,103 @@
+TERMS: lattice, entropy, graphene
+COLORS: orange, red, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/jgIvftWWUFXZUqBD2SByDVmDwRM</id>
+  <title>arXiv Query: search_query=all:lattice AND all:entropy AND all:graphene&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:13:21Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:entropy+AND+all:graphene)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>14</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1908.04666v2</id>
+    <title>Thermodynamic model of twisted bilayer graphene: Configuration entropy matters</title>
+    <updated>2021-11-06T03:56:18Z</updated>
+    <link href="https://arxiv.org/abs/1908.04666v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1908.04666v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Twisted bilayer materials have attracted tremendous attention due to their unique and novel properties. Here, we derive a thermodynamic model for twisted bilayer graphene (tBLG) within the framework of the classical statistical mechanics, based on which, the configuration entropy reflecting the number of micro-status in moire unit-cells, is directly derived from the Helmholtz free energy with a clear physical interpretation. More importantly, we show the configuration entropy of tBLG relative to the AB-stacked bilayer graphene is proportional to the logarithmic function of the ratio of moire period and the atomic lattice constant, which we found dominates the Helmholtz free energy of tBLG and can well explain experimental observations in superlubric contacts. Our work provides a theoretical foundation for studying moire effect of incommensurate contact interfaces and could facilitate twisting based applications such as superlubricity.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-08-13T14:35:14Z</published>
+    <arxiv:comment>19 pages, 8 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>Weidong Yan</name>
+    </author>
+    <author>
+      <name>Langquan Shui</name>
+    </author>
+    <author>
+      <name>Wengen Ouyang</name>
+    </author>
+    <author>
+      <name>Ze Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1307.8132v2</id>
+    <title>Lanczos transformation for quantum impurity problems in d-dimensional lattices: application to graphene nanoribbons</title>
+    <updated>2013-08-21T14:40:49Z</updated>
+    <link href="https://arxiv.org/abs/1307.8132v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1307.8132v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a completely unbiased and controlled numerical method to solve quantum impurity problems in d-dimensional lattices. This approach is based on a canonical transformation, of the Lanczos form, where the complete lattice Hamiltonian is exactly mapped onto an equivalent one dimensional system, in the same spirit as Wilson's numerical renormalization. The method is particularly suited to study systems that are inhomogeneous, and/or have a boundary. As a proof of concept, we use the density matrix renormalization group to solve the equivalent one-dimensional problem. The resulting dimensional reduction translates into a reduction of the scaling of the entanglement entropy by a factor $L^{d-1}$, where L is the linear dimension of the original d-dimensional lattice. This allows one to calculate the ground state of a magnetic impurity attached to an LxL square lattice and an LxLxL cubic lattice with L up to 140 sites. We also study the localized edge states in graphene nanoribbons by attaching a magnetic impurity to the edge or the center of the system. For armchair metallic nanoribbons we find a slow decay of the spin correlations as a consequence of the delocalized metallic states. In the case of zigzag ribbons, the decay of the spin correlations depends on the position of the impurity. If the impurity is situated in the bulk of the ribbon, the decay is slow as in the metallic case. On the other hand, if the adatom is attached to the edge, the decay is fast, within few sites of the impurity, as a consequence of the localized edge states, and the short correlation length. The mapping can be combined with ab-initio band structure calculations to model the system, and to understand correlation effects in quantum impurity problems from first principles.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-07-30T20:04:18Z</published>
+    <arxiv:comment>Replaced figures, fixed typos, and added references</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Phys. Rev. B 88, 245113 (2013)</arxiv:journal_ref>
+    <author>
+      <name>C. A. Busser</name>
+    </author>
+    <author>
+      <name>G. B. Martins</name>
+    </author>
+    <author>
+      <name>A. E. Feiguin</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.88.245113</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.88.245113" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.19436v1</id>
+    <title>Dynamical correlation effects in twisted bilayer graphene under strain and lattice relaxation</title>
+    <updated>2025-09-23T18:00:02Z</updated>
+    <link href="https://arxiv.org/abs/2509.19436v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.19436v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the impact of lattice effects due to heterostrain and relaxation on the correlated electron physics of magic-angle twisted bilayer graphene, by applying dynamical mean-field theory to the topological heavy fermion model. Heterostrain is responsible for splitting the 8-fold degenerate flat bands into two 4-fold degenerate subsets, while relaxation breaks the particle-hole symmetry of the unperturbed THF model. The interplay of dynamical correlation effects and lattice symmetry breaking enables us to satisfactorily reproduce a wide set of experimentally observed features: splitting the flat band degeneracy has observable consequences in the form of a filling-independent maximum in the spectral density away from zero bias, which faithfully reproduces scanning tunneling microscopy and quantum twisting microscopy results alike. We also observe an overall reduction in the size and degeneracy of local moments upon lowering the temperature, in agreement with entropy measurements. The absence of particle-hole symmetry has as a consequence the stronger suppression of local moments on the hole-doped side relatively to the electron-doped side, and ultimately causes the differences in existence and stability of the correlated phases for negative and positive doping. Our results show that even fine-level structures in the experimental data can now be faithfully reproduced and understood.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-23T18:00:02Z</published>
+    <arxiv:comment>6 pages, 4 figures plus supplementary material</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <author>
+      <name>Lorenzo Crippa</name>
+    </author>
+    <author>
+      <name>Gautam Rai</name>
+    </author>
+    <author>
+      <name>Dumitru Călugăru</name>
+    </author>
+    <author>
+      <name>Haoyu Hu</name>
+    </author>
+    <author>
+      <name>Jonah Herzog-Arbeitman</name>
+    </author>
+    <author>
+      <name>B. Andrei Bernevig</name>
+    </author>
+    <author>
+      <name>Roser Valentí</name>
+    </author>
+    <author>
+      <name>Giorgio Sangiovanni</name>
+    </author>
+    <author>
+      <name>Tim Wehling</name>
+    </author>
+  </entry>
+</feed>

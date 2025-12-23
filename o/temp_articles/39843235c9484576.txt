@@ -1,0 +1,77 @@
+TERMS: lattice, electron, wavefunction
+COLORS: orange, green, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/WX8hGdIo59Csve1UNCJzDu9SAlk</id>
+  <title>arXiv Query: search_query=all:lattice AND all:electron AND all:wavefunction&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:13:54Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:electron+AND+all:wavefunction)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>227</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1211.5881v1</id>
+    <title>Momentum Dependent Local-Ansatz Wavefunction from Weak to Strong Electron Correlations</title>
+    <updated>2012-11-26T08:27:49Z</updated>
+    <link href="https://arxiv.org/abs/1211.5881v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1211.5881v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Momentum dependent local-ansatz (MLA) wavefunction describes accurately electron correlations from the weak to intermediate Coulomb interaction regimes. We point out that the MLA can describe the correlations from the weak to strong Coulomb interaction regimes by modifying the starting wavefunction from the Hartree-Fock (HF) type to an alloy-analogy (AA) type wavefunction. Numerical results based on the half-filled band Hubbard model on the hypercubic lattice in infinite dimensions show up that the new wavefunction yields the ground-state energy lower than the Gutzwiller wavefunction (GW) in the whole Coulomb interaction regime. Calculated double occupation number is smaller than the result of the GW in the metallic regime, and is finite in the insulator regime. Furthermore, the momentum distribution shows a distinct momentum-dependence in both the metallic and insulator regions, which are qualitatively different from those of the GW.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-11-26T08:27:49Z</published>
+    <arxiv:comment>10 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <author>
+      <name>M. Atiqur R. Patoary</name>
+    </author>
+    <author>
+      <name>Sumal Chandra</name>
+    </author>
+    <author>
+      <name>Yoshiro Kakehashi</name>
+    </author>
+    <arxiv:doi>10.7566/JPSJ.82.013701</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.7566/JPSJ.82.013701" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1009.4194v2</id>
+    <title>Jastrow-Correlated Wavefunctions for Flat-Band Lattices</title>
+    <updated>2011-06-20T16:52:29Z</updated>
+    <link href="https://arxiv.org/abs/1009.4194v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1009.4194v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The electronic band structure of many compounds, e.g., carbon-based structures, can exhibit essentially no dispersion. Models of electrons in flat-band lattices define non-perturbative strongly correlated problems by default. We construct a set of Jastrow-correlated ansatz wavefunctions to capture the low energy physics of interacting particles in flat bands. We test the ansatz in a simple Coulomb model of spinless electrons in a honeycomb ribbon. We find that the wavefunction accurately captures the ground state in a transition from a crystal to a uniform quantum liquid.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-09-21T20:00:04Z</published>
+    <arxiv:comment>5 pages, 4 figures, update context, references and publication information</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Phys. Rev. B 83, 245109 (2011)</arxiv:journal_ref>
+    <author>
+      <name>Hao Wang</name>
+    </author>
+    <author>
+      <name>V. W. Scarola</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.83.245109</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.83.245109" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2009.12071v2</id>
+    <title>Mott transition and electronic excitation of the Gutzwiller wavefunction</title>
+    <updated>2020-10-23T01:04:42Z</updated>
+    <link href="https://arxiv.org/abs/2009.12071v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2009.12071v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Mott transition is usually considered as resulting from the divergence of the effective mass of the quasiparticle in the Fermi-liquid theory; the dispersion relation around the Fermi level is considered to become flat towards the Mott transition. Here, to clarify the characterization of the Mott transition under the assumption of a Fermi-liquid-like ground state, the electron-addition excitation from the Gutzwiller wavefunction in the $t$-$J$ model is investigated on a chain, ladder, square lattice, and bilayer square lattice in the single-mode approximation using a Monte Carlo method. The numerical results demonstrate that an electronic mode that is continuously deformed from a non-interacting band at zero electron density loses its spectral weight and gradually disappears towards the Mott transition. It exhibits essentially the magnetic dispersion relation shifted by the Fermi momentum in the small-doping limit as indicated by recent studies for the Hubbard and $t$-$J$ models, even if the ground state is assumed to be a Fermi-liquid-like state exhibiting gradual disappearance of the quasiparticle weight. This implies that, rather than as the divergence of the effective mass or disappearance of the carrier density that is expected in conventional single-particle pictures, the Mott transition can be better understood as freezing of the charge degrees of freedom while the spin degrees of freedom remain active, even if the ground state is like a Fermi liquid.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-09-25T07:40:11Z</published>
+    <arxiv:comment>10 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Phys. Rev. B 102, 165141 (2020)</arxiv:journal_ref>
+    <author>
+      <name>Masanori Kohno</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.102.165141</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.102.165141" title="doi"/>
+  </entry>
+</feed>

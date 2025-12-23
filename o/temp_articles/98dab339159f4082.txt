@@ -1,0 +1,85 @@
+TERMS: frequency, bandgap
+COLORS: green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/TAjsl+WIvDoNfCbijTY5Sy1JVnY</id>
+  <title>arXiv Query: search_query=all:frequency AND all:bandgap&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T00:57:22Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+all:bandgap&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>527</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2310.05662v3</id>
+    <title>On the lowest-frequency bandgap of 1D phononic crystals</title>
+    <updated>2024-02-28T20:37:45Z</updated>
+    <link href="https://arxiv.org/abs/2310.05662v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.05662v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This manuscript puts forward and verifies an analytical approach to design phononic crystals that feature a bandgap at the lowest possible frequencies. This new approach is verified against numerical optimization. It rests on the exact form of the trace of the cumulative transfer matrix. This matrix arises from the product of N elementary transfer matrices, where N represents the number of layers in the unit cell of the crystal. The paper presents first a new proof of the harmonic decomposition of the trace (which, unlike the original derivation, does not resort to group-theoretical concepts), and then goes to demonstrate that the long-wavelength asymptotics of the function that governs the dispersion relation can be described in closed form for any layering, plus that it possesses a simple and explicit form that facilitates its study. Using this asymptotic result for low frequencies, we then propose an analytical curvature-minimization approach to devise layerings that yield an opening of the first frequency bandgap at the lowest possible frequency value. Finally, we also show that minimizing the frequency at which the first gap opens can be at odds with obtaining broadband attenuation, i.e., maximizing the width of the first frequency bandgap.</summary>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-09T12:29:34Z</published>
+    <arxiv:comment>24 pages, 5 figures, 3 tables</arxiv:comment>
+    <arxiv:primary_category term="physics.app-ph"/>
+    <author>
+      <name>Javier González-Carbajal</name>
+    </author>
+    <author>
+      <name>Marius Lemm</name>
+    </author>
+    <author>
+      <name>Joaquin Garcia-Suarez</name>
+    </author>
+    <arxiv:doi>10.1016/j.euromechsol.2024.105466</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.euromechsol.2024.105466" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2308.00616v3</id>
+    <title>The role of frequency and impedance contrasts in bandgap closing and formation patterns of axially-vibrating phononic crystals</title>
+    <updated>2023-10-12T20:39:15Z</updated>
+    <link href="https://arxiv.org/abs/2308.00616v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.00616v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Bandgaps, or frequency ranges of forbidden wave propagation, are a hallmark of Phononic Crystals (PnCs). Unlike their lattice counterparts, PnCs taking the form of continuous structures exhibit an infinite number of bandgaps of varying location, bandwidth, and distribution along the frequency spectrum. While these bandgaps are commonly predicted from benchmark tools such as the Bloch-wave theory, the conditions that dictate the patterns associated with bandgap symmetry, attenuation, or even closing in multi-bandgap PnCs remain an enigma. In this work, we establish these patterns in one-dimensional rods undergoing longitudinal motion via a canonical transfer-matrix-based approach. In doing so, we connect the conditions governing bandgap formation and closing to their physical origins in the context of the Bragg condition (for infinite media) and natural resonances (for finite counterparts). The developed framework uniquely characterizes individual bandgaps within a larger dispersion spectrum regardless of their parity (i.e., odd vs even bandgaps) or location (low vs high-frequency), by exploiting dimensionless constants of the PnC unit cell which quantify the different contrasts between its constitutive layers. These developments are detailed for a bi-layered PnC and then generalized for a PnC of any number of layers by increasing the model complexity. We envision this mathematical development to be a future standard for the realization of hierarchically-structured PnCs with prescribed and finely tailored bandgap profiles.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-07-13T21:33:41Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Hasan B. Al Ba'ba'a</name>
+    </author>
+    <author>
+      <name>Mostafa Nouh</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2203.02062v1</id>
+    <title>Radiative energy bandgap of nanostructures coupled with quantum emitters around the epsilon-near-zero (ENZ) frequency</title>
+    <updated>2022-03-03T23:23:05Z</updated>
+    <link href="https://arxiv.org/abs/2203.02062v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2203.02062v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Epsilon-near-zero (ENZ) materials have been demonstrated to exhibit unique electromagnetic properties. Here we propose the concept of radiative energy bandgap for an ENZ nanoparticle coupled with a quantum emitter (QE). The radiative emission of the coupled QE-nanoparticle can be significantly suppressed around the ENZ frequency and substantially enhanced otherwise, yielding an effective energy bandgap for radiation. This suppression is effectively invariant with respect to the particle size and is therefore an intrinsic property of the ENZ material. Our concept also heralds an alternative pathway to quench the emission from a QE, which may find potential application in quantum information storage.</summary>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-03-03T23:23:05Z</published>
+    <arxiv:primary_category term="physics.optics"/>
+    <author>
+      <name>Tao Gong</name>
+    </author>
+    <author>
+      <name>Inigo Liberal</name>
+    </author>
+    <author>
+      <name>Miguel Camacho</name>
+    </author>
+    <author>
+      <name>Benjamin Spreng</name>
+    </author>
+    <author>
+      <name>Nader Engheta</name>
+    </author>
+    <author>
+      <name>Jeremy N. Munday</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.106.085422</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.106.085422" title="doi"/>
+  </entry>
+</feed>

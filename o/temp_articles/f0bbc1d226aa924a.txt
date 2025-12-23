@@ -1,0 +1,132 @@
+TERMS: hydrogen, fusion, ionization
+COLORS: purple, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/y/m049gCMscIUtQdvRbA77rk0P4</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:fusion AND all:ionization&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:02:42Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:fusion+AND+all:ionization)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>26</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2503.14014v1</id>
+    <title>Estimating ionization states and continuum lowering from ab initio path integral Monte Carlo simulations for warm dense hydrogen</title>
+    <updated>2025-03-18T08:21:47Z</updated>
+    <link href="https://arxiv.org/abs/2503.14014v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.14014v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Warm dense matter (WDM) is an active field of research, with applications ranging from astrophysics to inertial confinement fusion. Ionization degree and continuum lowering are important quantities to understand how materials behave under these conditions, but can be difficult to diagnose since experimental campaigns are limited and often require model-dependent analysis. This is especially true for hydrogen, which has a comparably low scattering cross section, making high quality data particularly difficult to obtain. Consequently, building equation of state tables often relies on exact simulations in combination with untested approximations to extract properties from experiments. Here, we investigate an approach for extracting the ionization potential depression and ionization degree -- quantities which are otherwise not directly accessible from the physical model -- from exact ab initio path integral Monte Carlo (PIMC) simulations utilizing a chemical model. In contrast to experimental measurements, where noise and non-equilibrium effects add to the uncertainty of the inferred parameters, PIMC simulations provide a clean signal with well-defined thermodynamic conditions. Comparisons against commonly used models show a qualitative agreement, but we find deviations primarily for the high density and high temperature cases. We also demonstrate the decreasing sensitivity of the dynamic structure factor with respect to both ionization and continuum lowering for increasing scattering angles in x-ray Thomson scattering experiments. Our work has important implications for the design of future experiments, but also offers qualitative understanding of structure factors and the imaginary-time correlation function obtained from exact quantum Monte Carlo simulations.</summary>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-18T08:21:47Z</published>
+    <arxiv:comment>23 pages, 16 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.chem-ph"/>
+    <author>
+      <name>Hannah M. Bellenbaum</name>
+    </author>
+    <author>
+      <name>Maximilian P. Böhme</name>
+    </author>
+    <author>
+      <name>Michael Bonitz</name>
+    </author>
+    <author>
+      <name>Tilo Döppner</name>
+    </author>
+    <author>
+      <name>Luke B. Fletcher</name>
+    </author>
+    <author>
+      <name>Thomas Gawne</name>
+    </author>
+    <author>
+      <name>Dominik Kraus</name>
+    </author>
+    <author>
+      <name>Zhandos A. Moldabekov</name>
+    </author>
+    <author>
+      <name>Sebastian Schwalbe</name>
+    </author>
+    <author>
+      <name>Jan Vorberger</name>
+    </author>
+    <author>
+      <name>Tobias Dornheim</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2011.02864v1</id>
+    <title>LIN 358: A symbiotic binary accreting above the steady hydrogen fusion limit</title>
+    <updated>2020-11-05T14:43:23Z</updated>
+    <link href="https://arxiv.org/abs/2011.02864v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2011.02864v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Symbiotic binaries are long period interacting binaries consisting of a white dwarf (WD) accreting material from a cool evolved giant star via stellar winds. In this paper we study the symbiotic binary LIN 358 located in the SMC. We have observed LIN 358 with the integral field spectrograph WiFeS and obtained its line emission spectrum. With the help of the plasma simulation and spectral synthesis code Cloudy, we have constructed a 2D photo-ionisation model of LIN 358. From comparison with the observations, we have determined the colour temperature of the WD in LIN 358 to be 19 eV, its bolometric luminosity $L = (1.02 \pm 0.15) \times 10^{38}$ erg s$^{-1}$, and the mass-loss rate from the donor star to be $ 1.2 \times 10^{-6}$ M$_{\odot}$ yr$^{-1}$. Assuming a solar H to He ratio in the wind material, a lower limit to the accreted mass fraction in LIN 358 is 0.31. The high mass-accretion efficiency of a wind Roche lobe overflow implies that the WD is accreting above the upper boundary of stable hydrogen fusion and thus growing in mass with the maximal rate of $\approx 4 \times 10^{-7}$ M$_{\odot}$ yr$^{-1}$. This causes the WD photosphere to expand, which explains its low colour temperature. Our calculations show that the circumstellar material in LIN 358 is nearly completely ionized except for a narrow cone around the donor star, and that the WD emission is freely escaping the system. However, due to its low colour temperature, this emission can be easily attenuated by even moderate amounts of neutral ISM. We speculate that other symbiotic systems may be operating in a similar regime, thus explaining the paucity of observed systems.</summary>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-11-05T14:43:23Z</published>
+    <arxiv:comment>14 pages, 13 figures. Accepted for publication in MNRAS</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.SR"/>
+    <author>
+      <name>J. Kuuttila</name>
+    </author>
+    <author>
+      <name>M. Gilfanov</name>
+    </author>
+    <author>
+      <name>T. E. Woods</name>
+    </author>
+    <author>
+      <name>I. R. Seitenzahl</name>
+    </author>
+    <author>
+      <name>A. J. Ruiter</name>
+    </author>
+    <arxiv:doi>10.1093/mnras/staa3485</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1093/mnras/staa3485" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2004.13698v1</id>
+    <title>Carbon ionization at Gbar pressures: an ab initio perspective on astrophysical high-density plasmas</title>
+    <updated>2020-04-28T17:53:01Z</updated>
+    <link href="https://arxiv.org/abs/2004.13698v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2004.13698v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A realistic description of partially-ionized matter in extreme thermodynamic states is critical to model the interior and evolution of the multiplicity of high-density astrophysical objects. Current predictions of its essential property, the ionization degree, rely widely on analytical approximations that have been challenged recently by a series of experiments. Here, we propose a novel ab initio approach to calculate the ionization degree directly from the dynamic electrical conductivity using the Thomas-Reiche-Kuhn sum rule. This Density Functional Theory framework captures genuinely the condensed matter nature and quantum effects typical for strongly-correlated plasmas. We demonstrate this new capability for carbon and hydrocarbon, which most notably serve as ablator materials in inertial confinement fusion experiments aiming at recreating stellar conditions. We find a significantly higher carbon ionization degree than predicted by commonly used models, yet validating the qualitative behavior of the average atom model Purgatorio. Additionally, we find the carbon ionization state to remain unchanged in the environment of fully-ionized hydrogen. Our results will not only serve as benchmark for traditional models, but more importantly provide an experimentally accessible quantity in the form of the electrical conductivity.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-04-28T17:53:01Z</published>
+    <arxiv:comment>accepted for publication in Physical Review Research</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <arxiv:journal_ref>Phys. Rev. Research 2, 023260 (2020)</arxiv:journal_ref>
+    <author>
+      <name>Mandy Bethkenhagen</name>
+    </author>
+    <author>
+      <name>Bastian B. L. Witte</name>
+    </author>
+    <author>
+      <name>Maximilian Schörner</name>
+    </author>
+    <author>
+      <name>Gerd Röpke</name>
+    </author>
+    <author>
+      <name>Tilo Döppner</name>
+    </author>
+    <author>
+      <name>Dominik Kraus</name>
+    </author>
+    <author>
+      <name>Siegfried H. Glenzer</name>
+    </author>
+    <author>
+      <name>Philip A. Sterne</name>
+    </author>
+    <author>
+      <name>Ronald Redmer</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevResearch.2.023260</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevResearch.2.023260" title="doi"/>
+  </entry>
+</feed>

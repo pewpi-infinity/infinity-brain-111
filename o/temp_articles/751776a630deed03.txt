@@ -1,0 +1,44 @@
+TERMS: hydrogen, crystal, spin, wavefunction
+COLORS: purple, orange, yellow, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/z6MCpV7AOjqHlur/50fFGLVwFRs</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:crystal AND all:spin AND all:wavefunction&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T02:00:11Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:crystal+AND+(all:spin+AND+all:wavefunction))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2510.00661v1</id>
+    <title>Possible evidence for Harper broadening in the yellow exciton series of Cu2O at ultrahigh magnetic fields</title>
+    <updated>2025-10-01T08:41:14Z</updated>
+    <link href="https://arxiv.org/abs/2510.00661v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.00661v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Hydrogen-like systems in ultra-high magnetic fields are of significant interest in interdisciplinary research. Previous studies have focused on the exciton wavefunction shrinkage under magnetic fields down to artificial crystal lattices (e.g., quantum wells, superlattices), where the effective mass approximation remains valid. However, further compression toward the natural crystal lattice scale remains experimentally challenging. In this study, we report magneto-absorption measurements on the yellow-exciton series in Cu2O using pulsed magnetic fields of up to 500 T. The strong low energy absorption features are assigned to the spin Zeeman split 2p0 and 3p0 exciton states. The high field data provides a value for the reduced effective mass of the exciton u* = 0.415 \pm 0.01me. Intriguingly, the broadening of the 2p0 ground state transition exhibits a sudden increase for ultrahigh magnetic fields above 300 T, providing possible evidence for Harper broadening - an indication of the breakdown of the effective mass approximation when the magnetic length becomes comparable to the lattice constant of the crystal.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-01T08:41:14Z</published>
+    <arxiv:comment>11 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Zhuo Yang</name>
+    </author>
+    <author>
+      <name>Jinbo Wang</name>
+    </author>
+    <author>
+      <name>Yuto Ishii</name>
+    </author>
+    <author>
+      <name>Duncan K. Maude</name>
+    </author>
+    <author>
+      <name>Atsuhiko Miyata</name>
+    </author>
+    <author>
+      <name>Yasuhiro H. Matsuda</name>
+    </author>
+  </entry>
+</feed>

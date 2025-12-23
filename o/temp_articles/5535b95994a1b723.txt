@@ -1,0 +1,99 @@
+TERMS: quantum, lattice, electron
+COLORS: blue, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/dEzgiyrZ64qi8vetGiQv8sCz0QU</id>
+  <title>arXiv Query: search_query=all:quantum AND all:lattice AND all:electron&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:05:54Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:lattice+AND+all:electron)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>4482</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2306.05917v3</id>
+    <title>Impact of conditional modelling for a universal autoregressive quantum state</title>
+    <updated>2024-02-02T17:35:31Z</updated>
+    <link href="https://arxiv.org/abs/2306.05917v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.05917v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a generalized framework to adapt universal quantum state approximators, enabling them to satisfy rigorous normalization and autoregressive properties. We also introduce filters as analogues to convolutional layers in neural networks to incorporate translationally symmetrized correlations in arbitrary quantum states. By applying this framework to the Gaussian process state, we enforce autoregressive and/or filter properties, analyzing the impact of the resulting inductive biases on variational flexibility, symmetries, and conserved quantities. In doing so we bring together different autoregressive states under a unified framework for machine learning-inspired ansätze. Our results provide insights into how the autoregressive construction influences the ability of a variational model to describe correlations in spin and fermionic lattice models, as well as ab initio electronic structure problems where the choice of representation affects accuracy. We conclude that, while enabling efficient and direct sampling, thus avoiding autocorrelation and loss of ergodicity issues in Metropolis sampling, the autoregressive construction materially constrains the expressivity of the model in many systems.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-09T14:17:32Z</published>
+    <arxiv:comment>16 pages, 5 figures, Accepted to Quantum (2024)</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Quantum 8, 1245 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Massimo Bortone</name>
+    </author>
+    <author>
+      <name>Yannic Rath</name>
+    </author>
+    <author>
+      <name>George H. Booth</name>
+    </author>
+    <arxiv:doi>10.22331/q-2024-02-08-1245</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.22331/q-2024-02-08-1245" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1111.0929v1</id>
+    <title>Strongly Coupled Graphene on the Lattice</title>
+    <updated>2011-11-03T17:42:35Z</updated>
+    <link href="https://arxiv.org/abs/1111.0929v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1111.0929v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The two-dimensional carbon allotrope graphene has recently attracted a lot of attention from researchers in the disciplines of Lattice Field Theory, Lattice QCD and Monte Carlo calculations. This interest has been prompted by several remarkable properties of the conduction electrons in graphene. For instance, the conical band structure of graphene at low energies is strongly reminiscent of relativistic Dirac fermions. Also, due the low Fermi velocity of v_F = c/300, where c is the speed of light in vacuum, the physics of the conduction electrons in graphene is qualitatively similar to Quantum Electrodynamics in a strongly coupled regime. In turn, this opens up the prospect of the experimental realization of gapped, strongly correlated states in the electronic phase diagram of graphene. Here, we review the experimental and theoretical motivations for Lattice Field Theory studies of graphene, and describe the directions that such research is likely to progress in during the next few years. We also give a brief overview of the two main lattice theories of graphene, the hexagonal Hubbard theory and the low-energy Dirac theory. Finally, we describe the prospect of extracting response functions, such as the electric conductivity, using Lattice Field Theory calculations.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-11-03T17:42:35Z</published>
+    <arxiv:comment>7 pages, talk presented at XXIX International Symposium on Lattice Field Theory (Lattice 2011), July 10-16, 2011, Squaw Valley, Lake Tahoe, California, USA</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Timo A. Lähde</name>
+    </author>
+    <author>
+      <name>Joaquín E. Drut</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2104.12843v1</id>
+    <title>Quantum simulating the electron transport in quantum cascade laser structures</title>
+    <updated>2021-04-26T19:40:07Z</updated>
+    <link href="https://arxiv.org/abs/2104.12843v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2104.12843v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose to use ultracold fermionic atoms in one-dimensional optical lattices to quantum simulate the electronic transport in quantum cascade laser (QCL) structures. The competition between the coherent tunneling among (and within) the wells and the dissipative decay at the basis of lasing is discussed. In order to validate the proposed simulation scheme, we quantitatively address such competition in a simplified one-dimensional model. We show the existence of optimal relationships between the model parameters, maximizing the particle current, the population inversion (or their product), and the stimulated emission rate. This substantiates the concept of emulating the QCL operation mechanisms in cold-atom optical lattice simulators, laying the groundwork for addressing open questions, such as the impact of electron-electron scattering and the origin of transport-induced noise, in the design of new-generation QCLs.</summary>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-04-26T19:40:07Z</published>
+    <arxiv:comment>22 pages, 12 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.quant-gas"/>
+    <arxiv:journal_ref>Adv. Quantum Technol. 2021, 2100044</arxiv:journal_ref>
+    <author>
+      <name>Andrea Trombettoni</name>
+    </author>
+    <author>
+      <name>Francesco Scazza</name>
+    </author>
+    <author>
+      <name>Francesco Minardi</name>
+    </author>
+    <author>
+      <name>Giacomo Roati</name>
+    </author>
+    <author>
+      <name>Francesco Cappelli</name>
+    </author>
+    <author>
+      <name>Luigi Consolino</name>
+    </author>
+    <author>
+      <name>Augusto Smerzi</name>
+    </author>
+    <author>
+      <name>Paolo De Natale</name>
+    </author>
+    <arxiv:doi>10.1002/qute.202100044</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1002/qute.202100044" title="doi"/>
+  </entry>
+</feed>

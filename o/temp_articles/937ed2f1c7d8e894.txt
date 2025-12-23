@@ -1,0 +1,72 @@
+TERMS: wavefunction, probability
+COLORS: yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/w0oY/Dz6/XODQpZ6IJczMKEuv60</id>
+  <title>arXiv Query: search_query=all:wavefunction AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:00:05Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:wavefunction+AND+all:probability&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>540</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2004.07938v2</id>
+    <title>Rebound Motion of Localized Dirac Wavefunctions</title>
+    <updated>2020-07-08T09:42:51Z</updated>
+    <link href="https://arxiv.org/abs/2004.07938v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2004.07938v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>It is shown that the carrier of a bounded localized free Dirac wavefunction shrinks from infinity and subsequently expands to infinity again. The motion occurs isotropicly at the speed of light. In between there is the phase of rebound, which is limited in time and space in the order of the diameter of the carrier at its minimal extension. This motion proceeds anisotropicly and abruptly as for every direction in space there is a specific time, at which the change from shrinking to expanding happens instantaneously. Asymptotically, regarding the past and the future as well, the probability of position concentrates up to 1 within any spherical shell whose outer radius increases at light speed.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-04-15T12:14:18Z</published>
+    <arxiv:comment>Keywords: Dirac wavefunction, localization, causal time evolution, negative energy. arXiv admin note: substantial text overlap with arXiv:1711.06556</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Domenico P. L. Castrigiano</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.02698v2</id>
+    <title>Chaos in a Nonlinear Wavefunction Model: An Alternative to Born's Probability Hypothesis</title>
+    <updated>2025-09-29T19:47:54Z</updated>
+    <link href="https://arxiv.org/abs/2502.02698v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.02698v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In a prior paper, the author described an instability in a nonlinear wavefunction model. Proposed in connection with the Measurement Problem, the model contained an external potential creating a ``classical'' instability. However, it is interesting to ask whether such models possess an intrinsic randomness -- even ``chaos" -- independent of external potentials. In this work, I investigate the criterion analytically and simulate from a small (``3 qubit") model, demonstrating that the Lyapunov exponent -- a standard measure of ``chaos" -- is positive. I also extend the instability criterion to models in the continuum. These results suggest that the boundary between classical and wavefunction physics may also constitute the threshold of chaos, and present an alternative to Max Born's ad hoc probability hypothesis: random outcomes in experiments result not from ``wave-particle duality" or ``the existence of the quantum," but from sensitive dependence on initial conditions, as is common in the other sciences.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-04T20:30:07Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>W. David Wick</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.05261v1</id>
+    <title>Fuzzy Neural Network Performance and Interpretability of Quantum Wavefunction Probability Predictions</title>
+    <updated>2025-11-07T14:24:49Z</updated>
+    <link href="https://arxiv.org/abs/2511.05261v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.05261v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Predicting quantum wavefunction probability distributions is crucial for computational chemistry and materials science, yet machine learning (ML) models often face a trade-off between accuracy and interpretability. This study compares Artificial Neural Networks (ANNs) and Adaptive Neuro-Fuzzy Inference Systems (ANFIS) in modeling quantum probability distributions for the H$_{2}^+$ ion, leveraging data generated via Physics-Informed Neural Networks (PINNs). While ANN achieved superior accuracy (R$^2$ = 0.99 vs ANFIS's 0.95 with Gaussian membership functions), it required over 50x more parameters (2,305 vs 39-45). ANFIS, however, provided unique interpretability: its Gaussian membership functions encoded spatial electron localization near proton positions ($μ= 1.2 A$), mirroring Born probability densities, while fuzzy rules reflected quantum superposition principles. Rules prioritizing the internuclear direction revealed the system's 1D symmetry, aligning with Linear Combination of Atomic Orbitals theory--a novel data-driven perspective on orbital hybridization. Membership function variances ($σ$) further quantified electron delocalization trends, and peak prediction errors highlighted unresolved quantum cusps. The choice of functions critically impacted performance: Gaussian/Generalized Bell outperformed Sigmoid, with errors improving as training data increased, showing scalability. This study underscores the context-dependent value of ML: ANN for precision and ANFIS for interpretable, parameter-efficient approximations that link inputs to physical behavior. These findings advocate hybrid approaches in quantum simulations, balancing accuracy with explainability to accelerate discovery. Future work should extend ANFIS to multi-electron systems and integrate domain-specific constraints (e.g., kinetic energy terms), bridging data-driven models and fundamental physics.</summary>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.data-an" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-07T14:24:49Z</published>
+    <arxiv:primary_category term="physics.chem-ph"/>
+    <author>
+      <name>Pedro H. M. Zanineli</name>
+    </author>
+    <author>
+      <name>Matheus Zaia Monteiro</name>
+    </author>
+    <author>
+      <name>Vinicius Francisco Wasques</name>
+    </author>
+    <author>
+      <name>Francielle Santo Pedro Simões</name>
+    </author>
+    <author>
+      <name>Gabriel R. Schleder</name>
+    </author>
+  </entry>
+</feed>

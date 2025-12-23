@@ -1,0 +1,103 @@
+TERMS: hydrogen, quantum, superconductivity, boson
+COLORS: purple, blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/XzH4Xr9HuD9Y/Bk0ohz6SJooXQc</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:superconductivity AND all:boson&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:40:11Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:superconductivity+AND+all:boson))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>4</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2508.17487v1</id>
+    <title>Mechanisms of superconductivity and inhomogeneous states in metallic hydrogen and electron systems with attraction</title>
+    <updated>2025-08-24T18:35:44Z</updated>
+    <link href="https://arxiv.org/abs/2508.17487v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.17487v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the Review we discuss anomalous aspects of superconductivity (SC) and normal state, as well as formation of inhomogeneous (droplet-like or cluster-like) states in electron systems with attraction. We consider both the models with the retardation (Eliashberg mechanism of SC for strong electron-phonon interaction in metallic hydrogen) and without retardation (but with local onsite attraction). We concentrate on the mechanism of the BCS-BEC crossover for the Hubbard model with local attraction and diagonal disorder for the two-dimensional films of the dirty metal. We analyze also the model of the inhomogeneous spaceseparated Fermi-Bose mixture for the bismuth oxides BaKBiO, which contains the paired clusters of bosonic states as well as unpaired fermionic clusters. Superconductivity is realized in this system due to local pairs tunneling from one bosonic cluster to the neighboring one via the fermionic barrier. For metallic hydrogen and metallic hydrides, we calculate the critical temperature and discuss important possibility for practical applications how to increase the temperature by decreasing pressure in the framework of the generalized Eliashberg approach. We advocate also interesting analogies with the quantum (vortex) crystal for long-living low-dimensional metastable phases of metallic hydrogen including filamentous phase with proton chains embedded in 3D electron Fermi liquid and planar phase with proton plains. We formulate the concept of two Bose-condensates in SC electron and superfluid (SF) ion subsystems and provide the estimate for the lifetime of the long-living metastable phases at normal pressure. The estimate is connected with the formation and growth of the critical seeds of the new (molecular) phase in the process of quantum under-barrier tunneling.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-24T18:35:44Z</published>
+    <arxiv:comment>14 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>M. Yu. Kagan</name>
+    </author>
+    <author>
+      <name>A. V. Krasavin</name>
+    </author>
+    <author>
+      <name>R. Sh. Ikhsanov</name>
+    </author>
+    <author>
+      <name>E. A. Mazur</name>
+    </author>
+    <author>
+      <name>A. P. Menushenkov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2409.13114v2</id>
+    <title>A Roadmap for Simulating Chemical Dynamics on a Parametrically Driven Bosonic Quantum Device</title>
+    <updated>2025-01-22T19:56:40Z</updated>
+    <link href="https://arxiv.org/abs/2409.13114v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2409.13114v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Chemical reactions are commonly described by the reactive flux transferring population from reactants to products across a double-well free energy barrier. Dynamics often involves barrier recrossing and quantum effects like tunneling, zero-point energy motion and interference, which traditional rate theories, such as transition-state theory, do not consider. In this study, we investigate the feasibility of simulating reaction dynamics using a parametrically driven bosonic superconducting Kerr-cat device. This approach provides control over parameters defining the double-well free energy profile, as well as external factors like temperature and the coupling strength between the reaction coordinate and the thermal bath of non-reactive degrees of freedom. We demonstrate the effectiveness of this protocol by showing that the dynamics of proton transfer reactions in prototypical benchmark model systems, such as hydrogen bonded dimers of malonaldehyde and DNA base pairs, could be accurately simulated on currently accessible Kerr-cat devices.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-09-19T22:43:08Z</published>
+    <arxiv:comment>53 pages including references and supporting material, 19 figures, revised</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Delmar G. A. Cabral</name>
+    </author>
+    <author>
+      <name>Pouya Khazaei</name>
+    </author>
+    <author>
+      <name>Brandon C. Allen</name>
+    </author>
+    <author>
+      <name>Pablo E. Videla</name>
+    </author>
+    <author>
+      <name>Max Schäfer</name>
+    </author>
+    <author>
+      <name>Rodrigo G. Cortiñas</name>
+    </author>
+    <author>
+      <name>Alejandro Cros Carrillo de Albornoz</name>
+    </author>
+    <author>
+      <name>Jorge Chávez-Carlos</name>
+    </author>
+    <author>
+      <name>Lea F. Santos</name>
+    </author>
+    <author>
+      <name>Eitan Geva</name>
+    </author>
+    <author>
+      <name>Victor S. Batista</name>
+    </author>
+    <arxiv:doi>10.1021/acs.jpclett.4c02864</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1021/acs.jpclett.4c02864" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/9910441v1</id>
+    <title>Field theory for trapped atomic gases</title>
+    <updated>1999-10-27T08:49:24Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/9910441v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/9910441v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this course we give a selfcontained introduction to the quantum field theory for trapped atomic gases, using functional methods throughout. We consider both equilibrium and nonequilibrium phenomena. In the equilibrium case, we first derive the appropriate Hartree-Fock theory for the properties of the gas in the normal phase. We then turn our attention to the properties of the gas in the superfluid phase, and present a microscopic derivation of the Bogoliubov and Popov theories of Bose-Einstein condensation and the Bardeen-Cooper-Schrieffer theory of superconductivity. The former are applicable to trapped bosonic gases such as rubidium, lithium, sodium and hydrogen, and the latter in particular to the fermionic isotope of atomic lithium. In the nonequilibrium case, we discuss various topics for which a field-theoretical approach is especially suited, because they involve physics that is not contained in the Gross-Pitaevskii equation. Examples are quantum kinetic theory, the growth and collapse of a Bose condensate, the phase dynamics of bosonic and fermionic superfluids, and the collisionless collective modes of a Bose gas below the critical temperature.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1999-10-27T08:49:24Z</published>
+    <arxiv:comment>Lecture notes for Les Houches summer school on coherent atom waves. The notes consist of 95 pages of LaTeX and 18 postscript figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <author>
+      <name>H. T. C. Stoof</name>
+    </author>
+  </entry>
+</feed>

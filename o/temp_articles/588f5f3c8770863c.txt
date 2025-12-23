@@ -1,0 +1,48 @@
+TERMS: hydrogen, fusion, ionization, spin
+COLORS: purple, green, green, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/NcEJFREd2gPLqErmQo2uHRCU7cM</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:fusion AND all:ionization AND all:spin&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:53:11Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:fusion+AND+(all:ionization+AND+all:spin))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2406.08849v3</id>
+    <title>Electronic processes in collisions between nitrogen ions and hydrogen atoms</title>
+    <updated>2024-09-06T07:36:02Z</updated>
+    <link href="https://arxiv.org/abs/2406.08849v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.08849v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In order to interpret and predict the behavior and properties of fusion plasma, accurate cross sections for electronic processes in collisions between plasma impurities and atomic hydrogen are required. In this work, we investigate the electron capture (or charge exchange), target excitation, and ionization processes occurring in collision of ${\rm N}^{4+}$ with atomic hydrogen in a broad energy domain ranging from 0.06 to 225 keV/u. We consider ${\rm N}^{4+}$ ground state ${\rm N}^{4+} (2s)$ and also ${\rm N}^{4+} (2p)$ since the impurities in the edge plasma environment may be excited due to collisions with electrons and ions/atoms. Total and partial cross sections in both spin-averaged and spin-resolved cases are calculated using a two-active-electron semiclassical asymptotic-state close-coupling approach. For electron capture cross sections the present results show the best overall agreement with available experimental data for both total and partial cross sections, and the origins of observed discrepancies are discussed. Furthermore, we provide new data for target excitation and ionization processes, which are essential to improve our understanding of this relevant collision system.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-13T06:24:54Z</published>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <arxiv:journal_ref>Physical Review A 110, 062820 (2024)</arxiv:journal_ref>
+    <author>
+      <name>C. C. Jia</name>
+    </author>
+    <author>
+      <name>Y. Y. Qi</name>
+    </author>
+    <author>
+      <name>J. J. Niu</name>
+    </author>
+    <author>
+      <name>Y. Wu J. G. Wang</name>
+    </author>
+    <author>
+      <name>A. Dubois</name>
+    </author>
+    <author>
+      <name>N. Sisourat</name>
+    </author>
+    <author>
+      <name>J. W. Gao</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.110.062820</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.110.062820" title="doi"/>
+  </entry>
+</feed>

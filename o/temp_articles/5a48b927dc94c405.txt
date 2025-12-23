@@ -1,0 +1,71 @@
+TERMS: quantum, fusion, wavefunction
+COLORS: blue, green, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/aLu2RoChejn6YI/nQ6Jq6Igevqc</id>
+  <title>arXiv Query: search_query=all:quantum AND all:fusion AND all:wavefunction&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:06:35Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:fusion+AND+all:wavefunction)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>23</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2203.14992v1</id>
+    <title>Operator fusion from wavefunction overlaps: Universal finite-size corrections and application to Haagerup model</title>
+    <updated>2022-03-28T18:01:54Z</updated>
+    <link href="https://arxiv.org/abs/2203.14992v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2203.14992v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Given a critical quantum spin chain described by a conformal field theory (CFT) at long distances, it is crucial to understand the universal conformal data. One most important ingredient is the operator product expansion (OPE) coefficients, which describe how operators fuse into each other. It has been proposed in [Zou, Vidal, Phys. Rev. B 105, 125125] that the OPE coefficients can be computed from overlaps of low-energy wavefunctions of the spin chain. In this work, we establish that all conformal data including central charge, conformal dimensions, and OPE coefficients are encoded in the wavefunction overlaps, with universal finite-size corrections that depend on the operator content of the cyclic orbifold CFT. Thus this method allows us to numerically compute all the conformal data based solely on the low-energy eigenstates. The predictions are verified in the Ising and XXZ model. As an application, we study the recently proposed Haagerup model built from the Haagerup fusion category. We find that the CFT has central charge $c \approx 2.1$ and the lowest spin-$1$ operator in the twisted sector has scaling dimension $1 &lt; Δ_J \leq 1.4$.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-03-28T18:01:54Z</published>
+    <arxiv:comment>22 pages, 12 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <author>
+      <name>Yuhan Liu</name>
+    </author>
+    <author>
+      <name>Yijian Zou</name>
+    </author>
+    <author>
+      <name>Shinsei Ryu</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.107.155124</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.107.155124" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2404.01516v4</id>
+    <title>Temporal quantum eraser: Fusion gates with distinguishable photons</title>
+    <updated>2024-12-16T04:46:18Z</updated>
+    <link href="https://arxiv.org/abs/2404.01516v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2404.01516v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Linear-optics gates, the enabling tool of photonic quantum information processing, depend on indistinguishable photons, as they harness quantum interference to achieve nonlinear operations. Traditionally, meeting this criterion involves generating pure identical photons, a task that remains a significant challenge in the field. Yet, the required indistinguishability is linked to the spatial exchange symmetry of the multiphoton wavefunction and does not strictly necessitate identical photons. Here, we show that the ideal operation of two-photon gates, particularly fusion gates, can be recovered from distinguishable photons by ensuring the exchange symmetry of the input photonic state. To this end, we introduce a temporal quantum eraser between a pair of modally-impure single-photon sources, which heralds the symmetry of the generated two-photon state. We demonstrate this mechanism in two relevant platforms: parametric photon pair generation and single-photon extraction by a single quantum emitter. The ability to lift the requirement for identical photons bears considerable potential in linear-optics quantum information processing.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-04-01T22:44:02Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Ziv Aqua</name>
+    </author>
+    <author>
+      <name>Barak Dayan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1303.6299v2</id>
+    <title>Analytic Wavefunctions for Collective Modes in Fractional Quantum Hall Fluids</title>
+    <updated>2013-04-12T20:10:50Z</updated>
+    <link href="https://arxiv.org/abs/1303.6299v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1303.6299v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show model wavefunctions for neutral collective modes in fractional quantum Hall (FQH) states have simple analytic forms obtained from judicially reducing the powers of selected pairs in the ground state Jastrow factor. This scheme of "pair excitations" works for the magneto-roton modes of single-component Abelian and non-Abeliean FQH states, as well as neutral fermion mode for the Moore-Read (MR) state. The analytic wavefunctions enable computations in the thermodynamic limit previous inaccessible to numerics, and the long wavelength limit of the neutral energy gap of the magneto-roton modes can be interpreted as fusion of charges in two-dimensional plasma picture, extending the plasma analogy to neutral excitations. A lattice diagrammatic method of representing these many-body wavefunctions and FQH elementary excitations is also presented.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-03-25T20:04:48Z</published>
+    <arxiv:comment>4+ pages, 4 figs, revised the abstract and introduction, slight polishing of the main text, reference added</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <author>
+      <name>Bo Yang</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,49 @@
+TERMS: spin, tachyon, probability
+COLORS: yellow, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/3EcgGUmhQqtoBPRVi+tJHej5snU</id>
+  <title>arXiv Query: search_query=all:spin AND all:tachyon AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:32:34Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:spin+AND+(all:tachyon+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1603.05965v2</id>
+    <title>Quantum Theory of Half-integer Spin Free Particles from the Perspective of the Majorana Equation</title>
+    <updated>2019-02-07T14:17:30Z</updated>
+    <link href="https://arxiv.org/abs/1603.05965v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1603.05965v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this study, the Majorana equation for particles with arbitrary spin is solved for a half-integer spin free particle. The solution for the fundamental state, corresponding to the reference frame in which the particle is at rest, is compared with that obtained using the Dirac equation, especially as regards the approximation in the relativistic limit, in which the speed of the particle is close to that of light. Furthermore, the solutions that Majorana defines unphysical, proving that their occupation probability increases with the particle velocity, are taken into consideration. The anomalous behavior exhibited by these states also shows that for high-energy particles with small mass, transitions from a bradyonic state to a tachyonic state become possible.</summary>
+    <category term="physics.gen-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-03-14T16:25:04Z</published>
+    <arxiv:comment>17 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.gen-ph"/>
+    <arxiv:journal_ref>Annals of Physics Volume 403, April 2019, Pages 24-33</arxiv:journal_ref>
+    <author>
+      <name>Luca Nanni</name>
+    </author>
+    <arxiv:doi>10.1016/j.aop.2019.01.013</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.aop.2019.01.013" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1909.06180v1</id>
+    <title>Evanescent Waves and Superluminal Behavior of Matter</title>
+    <updated>2019-09-10T18:53:46Z</updated>
+    <link href="https://arxiv.org/abs/1909.06180v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1909.06180v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>An evanescent wave is a non-propagating wave with an imaginary wave vector. In this study, we prove that these are solutions of the tachyon-like Klein Gordon equation, and that in the tunneling of ultrarelativistic half integer spin particles they describe superluminal states arising from interactions between a particle and barrier. These states decay as a particle emerges from the opposite side of a potential barrier, conserving the same initial energy but not necessarily the same mass. The obtained theory is applied to the neutrino, to explain flavor oscillations during free flight and determine the conditions that maximize the probability of their occurrence.</summary>
+    <category term="physics.gen-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-09-10T18:53:46Z</published>
+    <arxiv:comment>9 pages, 1 figure</arxiv:comment>
+    <arxiv:primary_category term="physics.gen-ph"/>
+    <arxiv:journal_ref>International Journal of Modern Physics A, Vol. 34, No. 25, 1950141 (2019)</arxiv:journal_ref>
+    <author>
+      <name>Luca Nanni</name>
+    </author>
+    <arxiv:doi>10.1142/S0217751X19501410</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/S0217751X19501410" title="doi"/>
+  </entry>
+</feed>

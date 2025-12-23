@@ -1,0 +1,87 @@
+TERMS: hydrogen, quantum, ionization, plasma
+COLORS: purple, blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/sJ0JqKjVc/fxbgG/uT4uhJjyAas</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:ionization AND all:plasma&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:39:57Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:ionization+AND+all:plasma))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>31</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2012.04069v1</id>
+    <title>Non-Maxwellian rate coefficients for electron and ion collisions in Rydberg plasmas: implications for excitation and ionization</title>
+    <updated>2020-12-07T21:23:57Z</updated>
+    <link href="https://arxiv.org/abs/2012.04069v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2012.04069v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Scattering phenomena between charged particles and highly excited Rydberg atoms are of critical importance in many processes in plasma physics and astrophysics. While a Maxwell-Boltzmann (MB) energy distribution for the charged particles is often assumed for calculations of collisional rate coefficients, in this contribution we relax this assumption and use two different energy distributions, a bimodal MB distribution and a $κ$-distribution. Both variants share a high-energy tails occurring with higher probability than the corresponding MB distribution. The high energy tail may significantly affect rate coefficients for various processes. We focus the analysis to specific situations by showing the dependence of the rate coefficients on the principal quantum number of hydrogen atoms in n-changing collisions with electrons in the excitation and ionization channels and in a temperature range relevant to the divertor region of a tokamak device. We finally discuss the implications for diagnostics of laboratory plasmas.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.space-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-12-07T21:23:57Z</published>
+    <arxiv:comment>14 pages, 4 figures, Journal of Plasma Physics collection on 'Laboratory and Astrophysical Plasmas: New Perspectives'</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <arxiv:journal_ref>J. Plasma Phys. 86, 845860391 (2020)</arxiv:journal_ref>
+    <author>
+      <name>Daniel Vrinceanu</name>
+    </author>
+    <author>
+      <name>Roberto Onofrio</name>
+    </author>
+    <author>
+      <name>Hossein R. Sadeghpour</name>
+    </author>
+    <arxiv:doi>10.1017/S0022377820000513</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1017/S0022377820000513" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/astro-ph/9907006v3</id>
+    <title>Partially ionized hydrogen plasma in strong magnetic fields</title>
+    <updated>2002-04-21T19:31:12Z</updated>
+    <link href="https://arxiv.org/abs/astro-ph/9907006v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/astro-ph/9907006v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We study the thermodynamic properties of a partially ionized hydrogen plasma in strong magnetic fields, B ~ 10^{12}-10^{13} G, typical of neutron stars. The properties of the plasma depend significantly on the quantum-mechanical sizes and binding energies of the atoms, which are strongly modified by thermal motion across the field. We use new fitting formulas for the atomic binding energies and sizes, based on accurate numerical calculations and valid for any state of motion of the atom. In particular, we take into account decentered atomic states, neglected in previous studies of thermodynamics of magnetized plasmas. We also employ analytic fits for the thermodynamic functions of nonideal fully ionized electron-ion Coulomb plasmas. This enables us to construct an analytic model of the free energy. An ionization equilibrium equation is derived, taking into account the strong magnetic field effects and the nonideality effects. This equation is solved by an iteration technique. Ionization degrees, occupancies, and the equation of state are calculated.</summary>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1999-07-01T10:53:35Z</published>
+    <arxiv:comment>17 pages, 11 figures (embedded using epsf.sty), REVTeX3. V2: two curves on the right panel of Fig. 8 are corrected. V3: a misprint (missed brackets) in Eq. (55) is corrected</arxiv:comment>
+    <arxiv:primary_category term="astro-ph"/>
+    <arxiv:journal_ref>Phys.Rev. E60 (1999) 2193</arxiv:journal_ref>
+    <author>
+      <name>A. Y. Potekhin</name>
+      <arxiv:affiliation>Ioffe Phys.-Tech. Inst., St.Petersburg;</arxiv:affiliation>
+    </author>
+    <author>
+      <name>G. Chabrier</name>
+      <arxiv:affiliation>CRAL, ENS-Lyon</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Yu. A. Shibanov</name>
+      <arxiv:affiliation>Ioffe Phys.-Tech. Inst., St.Petersburg;</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1103/PhysRevE.60.2193</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevE.60.2193" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1801.06774v1</id>
+    <title>Saha Equation for the Photo-Ionization of Hydrogen Atoms in Partially Ionized Relativistic Hydrogen Plasma and the Effect of Gravity on the Binding of Hydrogen Atoms in Rindler Space</title>
+    <updated>2018-01-21T06:21:18Z</updated>
+    <link href="https://arxiv.org/abs/1801.06774v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1801.06774v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We have studied Saha equation for photo-ionization of hydrogen atoms in partially ionized relativistic hydrogen plasma in Rindler space. Following the principle of equivalence, we have obtained the abundances of neutral hydrogen atoms, hydrogen ions and the electrons in dynamic equilibrium of the photo-ionization reaction of neutral hydrogen atoms and electron capture process by hydrogen ions (de-ionization process) and also investigated their variations with temperature of the plasma and the uniform gravitational field in the Rindler space or equivalently the uniform acceleration of the observer. Hence obtained the Saha ionization formula for partially ionized hydrogen plasma in Rindler space. It has been observed that the abundance of neutral hydrogen atoms decreases with the increase in temperature of the plasma, which is the usual picture, whereas it increases with the increases in the strength of uniform gravitational field. The second part of this observation shows that the binding of the electrons inside hydrogen atoms increases with the increase in the strength of gravitational field or equivalently an observer with very high acceleration will see less amount of ionized hydrogen atoms compared to inertial observer.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-01-21T06:21:18Z</published>
+    <arxiv:comment>6 pages REVTEX file with one .eps figure (included)</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Open Access Journal of Physics. volume 2, Issue 3, 2018, Pp 25-29</arxiv:journal_ref>
+    <author>
+      <name>Sanchita Das</name>
+    </author>
+    <author>
+      <name>Somenath Chakrabarty</name>
+    </author>
+  </entry>
+</feed>

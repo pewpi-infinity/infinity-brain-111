@@ -1,0 +1,88 @@
+TERMS: quantum, lattice, fusion
+COLORS: blue, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/OEZ8oXFbyjYMV69ebymy/sZnkGw</id>
+  <title>arXiv Query: search_query=all:quantum AND all:lattice AND all:fusion&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:05:53Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:lattice+AND+all:fusion)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>243</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2412.19657v2</id>
+    <title>Quantum Cluster State Model with Haagerup Fusion Category Symmetry</title>
+    <updated>2025-08-11T13:28:07Z</updated>
+    <link href="https://arxiv.org/abs/2412.19657v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.19657v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a (1+1)D lattice model, inspired by a weak Hopf algebra generalization of the cluster state model, which realizes Haagerup fusion category symmetry and features a tensor product Hilbert space. The construction begins with a reconstruction of the Haagerup weak Hopf algebra $H_3$ from the Haagerup fusion category, ensuring that the representation category of $H_3$ is equivalent to Haagerup fusion category. Utilizing the framework of symmetry topological field theory (SymTFT), we develop an ultra-thin weak Hopf quantum double model, characterized by a smooth topological boundary condition. We show that this model supports Haagerup fusion category symmetry. Finally, we solve the ground state of the model in terms of a weak Hopf matrix product state, which serves as a natural generalization of the cluster state, embodying Haagerup fusion category symmetry.</summary>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-27T14:05:15Z</published>
+    <arxiv:comment>v1: 8 pages; v2: 11pages</arxiv:comment>
+    <arxiv:primary_category term="math.QA"/>
+    <arxiv:journal_ref>Adv Quantum Technol. 2025 (00305), 1-11</arxiv:journal_ref>
+    <author>
+      <name>Zhian Jia</name>
+    </author>
+    <arxiv:doi>10.1002/qute.202500305</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1002/qute.202500305" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/q-alg/9604017v2</id>
+    <title>Representation Theory of Lattice Current Algebras</title>
+    <updated>1997-05-23T15:13:56Z</updated>
+    <link href="https://arxiv.org/abs/q-alg/9604017v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/q-alg/9604017v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Lattice current algebras were introduced as a regularization of the left- and right moving degrees of freedom in the WZNW model. They provide examples of lattice theories with a local quantum symmetry $U_q(\sg)$. Their representation theory is studied in detail. In particular, we construct all irreducible representations along with a lattice analogue of the fusion product for representations of the lattice current algebra. It is shown that for an arbitrary number of lattice sites, the representation categories of the lattice current algebras agree with their continuum counterparts.</summary>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1996-04-27T17:54:42Z</published>
+    <arxiv:comment>35 pages, LaTeX file, the revised version of the paper, to be published in Commun. Math. Phys. , the definition of the fusion product for lattice current algebras is corrected</arxiv:comment>
+    <arxiv:primary_category term="math.QA"/>
+    <arxiv:journal_ref>Commun.Math.Phys. 191 (1998) 31-60</arxiv:journal_ref>
+    <author>
+      <name>A. Yu. Alekseev</name>
+    </author>
+    <author>
+      <name>L. D. Faddeev</name>
+    </author>
+    <author>
+      <name>J. Fröhlich</name>
+    </author>
+    <author>
+      <name>V. Schomerus</name>
+    </author>
+    <arxiv:doi>10.1007/s002200050260</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s002200050260" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1607.08881v2</id>
+    <title>Fusion basis for lattice gauge theory and loop quantum gravity</title>
+    <updated>2017-05-17T14:58:02Z</updated>
+    <link href="https://arxiv.org/abs/1607.08881v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1607.08881v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce a new basis for the gauge-invariant Hilbert space of lattice gauge theory and loop quantum gravity in $(2+1)$ dimensions, the fusion basis. In doing so, we shift the focus from the original lattice (or spin-network) structure directly to that of the magnetic (curvature) and electric (torsion) excitations themselves. These excitations are classified by the irreducible representations of the Drinfel'd double of the gauge group, and can be readily "fused" together by studying the tensor product of such representations. We will also describe in detail the ribbon operators that create and measure these excitations and make the quasi-local structure of the observable algebra explicit. Since the fusion basis allows for both magnetic and electric excitations from the onset, it turns out to be a precious tool for studying the large scale structure and coarse-graining flow of lattice gauge theories and loop quantum gravity. This is in neat contrast with the widely used spin-network basis, in which it is much more complicated to account for electric excitations, i.e. for Gauß~constraint violations, emerging at larger scales. Moreover, since the fusion basis comes equipped with a hierarchical structure, it readily provides the language to design states with sophisticated multi-scale structures. Another way to employ this hierarchical structure is to encode a notion of subsystems for lattice gauge theories and $(2+1)$ gravity coupled to point particles. In a follow-up work, we will exploit this notion to provide a new definition of entanglement entropy for these theories.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-07-29T18:19:13Z</published>
+    <arxiv:comment>72 pages</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Clement Delcamp</name>
+    </author>
+    <author>
+      <name>Bianca Dittrich</name>
+    </author>
+    <author>
+      <name>Aldo Riello</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP02(2017)061</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP02(2017)061" title="doi"/>
+  </entry>
+</feed>

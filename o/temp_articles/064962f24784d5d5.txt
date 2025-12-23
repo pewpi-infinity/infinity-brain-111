@@ -1,0 +1,78 @@
+TERMS: vapor, neutrino
+COLORS: green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/b3xxhNgarroSSnj7FfD2f7MmCTk</id>
+  <title>arXiv Query: search_query=all:vapor AND all:neutrino&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T00:58:57Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:vapor+AND+all:neutrino&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>16</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1604.06642v1</id>
+    <title>Pairing effects on neutrino transport in low-density stellar matter</title>
+    <updated>2016-04-22T13:16:20Z</updated>
+    <link href="https://arxiv.org/abs/1604.06642v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1604.06642v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate the impact of pairing correlations on neutrino transport in stellar matter. Our analysis is extended to nuclear matter conditions where large density fluctuations develop, associated with the onset of the liquid-vapor phase transition, and clustering phenomena occur. Within a thermodynamical treatment, we show that at moderate temperatures, where pairing effects are still active, the scattering of neutrinos in the nuclear medium is significantly affected by pairing correlations, which increase the neutrino trapping, thus modifying the cooling mechanism, by neutrino emission, of neutron stars.</summary>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-04-22T13:16:20Z</published>
+    <arxiv:comment>5 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="nucl-th"/>
+    <author>
+      <name>S. Burrello</name>
+    </author>
+    <author>
+      <name>M. Colonna</name>
+    </author>
+    <author>
+      <name>F. Matera</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevC.94.012801</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevC.94.012801" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/nucl-ex/0305022v2</id>
+    <title>Measurement of 222Rn dissolved in water at the Sudbury Neutrino Observatory</title>
+    <updated>2003-12-10T21:58:05Z</updated>
+    <link href="https://arxiv.org/abs/nucl-ex/0305022v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/nucl-ex/0305022v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The technique used at the Sudbury Neutrino Observatory (SNO) to measure the concentration of 222Rn in water is described. Water from the SNO detector is passed through a vacuum degasser (in the light water system) or a membrane contact degasser (in the heavy water system) where dissolved gases, including radon, are liberated. The degasser is connected to a vacuum system which collects the radon on a cold trap and removes most other gases, such as water vapor and nitrogen. After roughly 0.5 tonnes of H2O or 6 tonnes of D2O have been sampled, the accumulated radon is transferred to a Lucas cell. The cell is mounted on a photomultiplier tube which detects the alpha particles from the decay of 222Rn and its daughters. The overall degassing and concentration efficiency is about 38% and the single-alpha counting efficiency is approximately 75%. The sensitivity of the radon assay system for D2O is equivalent to ~3 E(-15) g U/g water. The radon concentration in both the H2O and D2O is sufficiently low that the rate of background events from U-chain elements is a small fraction of the interaction rate of solar neutrinos by the neutral current reaction.</summary>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-05-22T20:38:02Z</published>
+    <arxiv:comment>14 pages, 6 figures; v2 has very minor changes</arxiv:comment>
+    <arxiv:primary_category term="nucl-ex"/>
+    <arxiv:journal_ref>Nucl.Instrum.Meth. A517 (2004) 139-153</arxiv:journal_ref>
+    <author>
+      <name>I. Blevis</name>
+    </author>
+    <arxiv:doi>10.1016/j.nima.2003.10.103</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.nima.2003.10.103" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1912.09444v3</id>
+    <title>Probing the two-neutrino exchange force using atomic parity violation</title>
+    <updated>2020-09-03T22:46:45Z</updated>
+    <link href="https://arxiv.org/abs/1912.09444v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1912.09444v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The exchange of two neutrinos at one loop leads to a long-range parity-violating force between fermions. We explore the two-neutrino force in the backdrop of atomic physics. We point out that this is the largest parity-violating long-range force in the Standard Model and calculate the effect of this force in experiments that probe atomic parity violation by measuring optical rotation of light as it passes through a sample of vaporized atoms. We perform explicit calculations for the hydrogen atom to demonstrate this effect. Although we find that the effect is too small to be observed in hydrogen in the foreseeable future, our approach may be applied to other setups where long-range parity violation is large enough to be probed experimentally.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-12-19T18:22:14Z</published>
+    <arxiv:comment>34 pages, 9 figures. Content in Section IIID updated</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys. Rev. D 101, 116006 (2020)</arxiv:journal_ref>
+    <author>
+      <name>Mitrajyoti Ghosh</name>
+    </author>
+    <author>
+      <name>Yuval Grossman</name>
+    </author>
+    <author>
+      <name>Walter Tangarife</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.101.116006</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.101.116006" title="doi"/>
+  </entry>
+</feed>

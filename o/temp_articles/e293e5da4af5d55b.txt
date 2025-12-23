@@ -1,0 +1,49 @@
+TERMS: hydrogen, frequency, muon, oxidation
+COLORS: purple, green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/DytvNIocWqQL3+E+KQegVV40t/0</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:frequency AND all:muon AND all:oxidation&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:45:08Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:frequency+AND+(all:muon+AND+all:oxidation))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1409.5534v1</id>
+    <title>Direct spectroscopic observation of a shallow hydrogen-like donor state in insulating SrTiO$_{3}$</title>
+    <updated>2014-09-19T07:30:36Z</updated>
+    <link href="https://arxiv.org/abs/1409.5534v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1409.5534v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a direct spectroscopic observation of a shallow hydrogen-like muonium state in SrTiO$_3$ which confirms the theoretical prediction that interstitial hydrogen may act as a shallow donor in this material. The formation of this muonium state is temperature dependent and appears below $\sim 70$ K. From the temperature dependence we estimate an activation energy of $\sim 50$ meV in the bulk and $\sim 23$ meV near the free surface. The field and directional dependence of the muonium precession frequencies further supports the shallow impurity state with a rare example of a fully anisotropic hyperfine tensor. From these measurements we determine the strength of the hyperfine interaction and propose that the muon occupies an interstitial site near the face of the oxygen octahedron in SrTiO$_3$. The observed shallow donor state provides new insight for tailoring the electronic and optical properties of SrTiO$_{3}$-based oxide interface systems.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-09-19T07:30:36Z</published>
+    <arxiv:comment>6 pages, 4 figures. To appear in Phys. Rev. Lett</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 113, 156801 (2014)</arxiv:journal_ref>
+    <author>
+      <name>Z. Salman</name>
+    </author>
+    <author>
+      <name>T. Prokscha</name>
+    </author>
+    <author>
+      <name>A. Amato</name>
+    </author>
+    <author>
+      <name>E. Morenzoni</name>
+    </author>
+    <author>
+      <name>R. Scheuermann</name>
+    </author>
+    <author>
+      <name>K. Sedlak</name>
+    </author>
+    <author>
+      <name>A. Suter</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.113.156801</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.113.156801" title="doi"/>
+  </entry>
+</feed>

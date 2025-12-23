@@ -1,0 +1,88 @@
+TERMS: superconductivity, wavefunction, boson
+COLORS: green, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/bdit7cjzfnz9wPFodaugxY/rp9g</id>
+  <title>arXiv Query: search_query=all:superconductivity AND all:wavefunction AND all:boson&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:30:49Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:superconductivity+AND+(all:wavefunction+AND+all:boson)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>38</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0001062v1</id>
+    <title>The Interacting Impurity Josephson Junction: Variational Wavefunctions and Slave Boson Mean Field Theory</title>
+    <updated>2000-01-06T17:24:18Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0001062v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0001062v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We investigate the Josephson coupling between two superconductors mediated through an infinite U Anderson impurity, adapting a variational wavefunction approach which has proved successful for the Kondo model. Unlike the Kondo problem, however, a crossing of singlet and doublet state energies may be produced by varying the ratio of Kondo energy to superconducting gap, in agreement with recent work of Clerk and Ambegaokar. We construct the phase diagram for the junction and discuss properties of different phases. In addition, we find the singlet and doublet state energies within a slave boson mean field approach. We find the slave boson mean field treatment is unable to account for the level crossing.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2000-01-06T17:24:18Z</published>
+    <arxiv:comment>5 pages; 4 encapsulated PostScript figures; submitted to Phys. Rev. B</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>A. V. Rozhkov</name>
+    </author>
+    <author>
+      <name>Daniel P. Arovas</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.62.6687</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.62.6687" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.08953v1</id>
+    <title>Introduction to the Modern Theory of Bose-Einstein Condensation, Superfluidity, and Superconductivity</title>
+    <updated>2025-11-12T03:58:05Z</updated>
+    <link href="https://arxiv.org/abs/2511.08953v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.08953v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The modern theory of Bose-Einstein condensation, superfluidity, and superconductivity is reviewed. The thermodynamic principle for superfluid flow and the equation of motion for condensed bosons are given. Computer simulations of Lennard-Jones $^4$He give the $λ$-transition and the superfluid viscosity. The statistical mechanical theory of high-temperature superconductivity is presented. Critical comparison is made with older approaches, such as ground energy state condensation, irrotational superfluid flow, and the macroscopic wavefunction.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-12T03:58:05Z</published>
+    <arxiv:comment>Review, 36 pages, 22 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <author>
+      <name>Phil Attard</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2010.01016v2</id>
+    <title>Spin-boson quantum phase transition in multilevel superconducting qubits</title>
+    <updated>2021-12-17T13:45:44Z</updated>
+    <link href="https://arxiv.org/abs/2010.01016v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2010.01016v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Superconducting circuits are currently developed as a versatile platform for the exploration of many-body physics, by building on non-linear elements that are often idealized as two-level qubits. A classic example is given by a charge qubit that is capacitively coupled to a transmission line, which leads to the celebrated spin-boson description of quantum dissipation. We show that the intrinsic multilevel structure of superconducting qubits drastically restricts the validity of the spin-boson paradigm due to phase localization, which spreads the wavefunction over many charge states. Numerical Renormalization Group simulations also show that the quantum critical point moves out of the physically accessible range in the multilevel regime. Imposing charge discreteness in a simple variational state accounts for these multilevel effects, that are relevant for a large class of devices.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-10-02T14:05:27Z</published>
+    <arxiv:comment>5 pages, 3 figures, bundled with Supplementary Material</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 127, 237702 (2021)</arxiv:journal_ref>
+    <author>
+      <name>Kuljeet Kaur</name>
+    </author>
+    <author>
+      <name>Théo Sépulcre</name>
+    </author>
+    <author>
+      <name>Nicolas Roch</name>
+    </author>
+    <author>
+      <name>Izak Snyman</name>
+    </author>
+    <author>
+      <name>Serge Florens</name>
+    </author>
+    <author>
+      <name>Soumya Bera</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.127.237702</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.127.237702" title="doi"/>
+  </entry>
+</feed>

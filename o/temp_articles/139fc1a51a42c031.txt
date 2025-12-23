@@ -1,0 +1,39 @@
+TERMS: hydrogen, lattice, crystal, muon
+COLORS: purple, orange, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/hOGMZPw7JrUVi/rKoBz8gpgyt4U</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:lattice AND all:crystal AND all:muon&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:47:05Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:lattice+AND+(all:crystal+AND+all:muon))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2305.05513v1</id>
+    <title>Muonium state exchange dynamics in n-type Gallium Arsenide</title>
+    <updated>2023-05-09T14:59:16Z</updated>
+    <link href="https://arxiv.org/abs/2305.05513v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.05513v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Muonium (Mu), a pseudo-isotope atom of hydrogen with a positively charged muon at the place of the proton, can form in a wide range of semiconductor materials. They can appear in different states, depending on their charge state and microscopic site within a crystal lattice. After the Mu formation, they undergo interactions with free charge carriers, electronic spins, and other Mu sites, and form a dynamic network of state exchange. We identified the model of Mu dynamics in n-type Gallium Arsenide using the density matrix simulation and photoexcited muon spin spectroscopy technique. Fitting to the dark and illuminated $μ$SR data provided transition rates between Mu states, which in turn showed the underlying mechanism of the $μ$SR time spectra. Deduced capture/scattering cross sections of the Mu states reflected the microscopic dynamics of Mu. Illumination studies enable us to measure interactions between Mu and generated minority carriers, which are unavailable in dark measurements. The methodology we developed in this study can be applied to other semiconductor systems for a deeper microscopic understanding of the Mu state exchange dynamics.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-09T14:59:16Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>K. Yokoyama</name>
+    </author>
+    <author>
+      <name>J. S. Lord</name>
+    </author>
+    <author>
+      <name>P. W. Mengyan</name>
+    </author>
+    <author>
+      <name>M. R. Goeks</name>
+    </author>
+    <author>
+      <name>R. L. Lichti</name>
+    </author>
+  </entry>
+</feed>

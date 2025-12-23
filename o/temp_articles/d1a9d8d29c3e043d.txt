@@ -1,0 +1,60 @@
+TERMS: electron, resonance, tachyon
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/I+2GcAxexBWFObg9J/JvhqZDqYE</id>
+  <title>arXiv Query: search_query=all:electron AND all:resonance AND all:tachyon&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:24:12Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:electron+AND+(all:resonance+AND+all:tachyon)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1903.10648v2</id>
+    <title>Plasmon Resonances and Tachyon Ghost Modes in Highly Conducting Sheets</title>
+    <updated>2020-05-24T17:42:54Z</updated>
+    <link href="https://arxiv.org/abs/1903.10648v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1903.10648v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Plasmon-polariton modes in two-dimensional electron gases have a dual field-matter nature that endows them with unusual properties when electrical conductivity exceeds a certain threshold set by the speed of light. In this regime plasmons display an interesting relation with tachyons, the hypothetical faster-than-light particles. While not directly observable, tachyons directly impact properties of plasmon modes. Namely, in the ``tachyon'' regime, plasmon resonances remain sharp even when the carrier collision rate $γ$ exceeds plasmon resonance frequency. Resonances feature a recurrent behavior as $γ$ increases, first broadening and then narrowing and acquiring asymmetric non-Lorentzian lineshapes with power-law tails extending into the tachyon continuum $ω&gt;ck$. This unusual behavior can be linked to the properties of tachyon poles located beneath $ω&gt;ck$ branch cuts in the complex $ω$ plane: as $γ$ grows, tachyon poles approach the light cone and hybridize with plasmons. Narrow resonances persisting for $γ&gt;ω$, along with the unusual density and temperature dependence of resonance frequencies, provide clear signatures of the tachyon regime.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-03-26T01:21:18Z</published>
+    <arxiv:comment>7pgs, 3fgs</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Phys. Rev. B 101, 245136 (2020)</arxiv:journal_ref>
+    <author>
+      <name>D. O. Oriekhov</name>
+    </author>
+    <author>
+      <name>L. S. Levitov</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.101.245136</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.101.245136" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0907.5409v2</id>
+    <title>Supercritical Coulomb center and excitonic instability in graphene</title>
+    <updated>2009-10-31T12:45:48Z</updated>
+    <link href="https://arxiv.org/abs/0907.5409v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0907.5409v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  It is well known that there are resonant states with complex energy for the supercritical Coulomb impurity in graphene. We show that opening of a quasiparticle gap decreases the imaginary part of energy, |ImE|, of these states and stabilizes the system. For gapless quasiparticles with strong Coulomb interaction in graphene, we solve the Bethe-Salpeter equation for the electron - hole bound state and show that it has a tachyonic solution for strong enough coupling α=e^2/κ\hbar v_F leading to instability of the system. In the random-phase approximation, the critical coupling is estimated to be α_c =1.62 and is an analogue of the critical charge in the Coulomb center problem. We argue that the excitonic instability should be resolved through the formation of an excitonic condensate and gap generation in the quasiparticle spectrum.</summary>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-07-30T19:57:37Z</published>
+    <arxiv:comment>17 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.other"/>
+    <arxiv:journal_ref>Phys. Rev. B 80, 165429 (2009)</arxiv:journal_ref>
+    <author>
+      <name>O. V. Gamayun</name>
+    </author>
+    <author>
+      <name>E. V. Gorbar</name>
+    </author>
+    <author>
+      <name>V. P. Gusynin</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.80.165429</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.80.165429" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,33 @@
+TERMS: hydrogen, frequency, crystal, graphene
+COLORS: purple, green, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/BzAL+Mco8zY+Fj6S/jemtwj7cFY</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:frequency AND all:crystal AND all:graphene&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:43:32Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:frequency+AND+(all:crystal+AND+all:graphene))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2111.06264v1</id>
+    <title>Electrostatic forces above graphene nanoribbons and edges interpreted as partly hydrogen-free</title>
+    <updated>2021-11-09T14:07:31Z</updated>
+    <link href="https://arxiv.org/abs/2111.06264v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2111.06264v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Graphene nanoribbons' electronic transport properties strongly depend on the type of edge, armchair, zigzag or other, and on edge functionalization that can be used for band-gap engineering. For only partly hydrogenated edges interesting magnetic properties are predicted. Electric charge accumulates at edges and corners. Scanning force microscopy has so far shown the centre of graphene nanoribbons with atomic resolution using a quartz crystal tuning fork sensor of high stiffness. Weak long-range electrostatic forces related to the charge accumulation on the edges of graphene nanoribbons could not be imaged so far. Here, we show the electrostatic forces at the corners and edges of graphene nanoribbons are amenable to measurement. We use soft cantilevers and a bimodal imaging technique to combine enhanced sensitivity to weak long-range electrostatic forces with the high resolution of the second-frequency shift. Additionally, in our work the edges of the nanoribbons are mainly hydrogen-free, opening to the route to investigations of partly hydrogenated magnetic nanoribbons.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-11-09T14:07:31Z</published>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Nanoscale, 2020, 12, 17895</arxiv:journal_ref>
+    <author>
+      <name>Sebastian Schneider</name>
+    </author>
+    <author>
+      <name>Regina Hoffmann-Vogel</name>
+    </author>
+    <arxiv:doi>10.1039/d0nr03348k</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1039/d0nr03348k" title="doi"/>
+  </entry>
+</feed>

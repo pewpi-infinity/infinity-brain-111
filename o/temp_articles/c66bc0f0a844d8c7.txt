@@ -1,0 +1,94 @@
+TERMS: quantum, bandgap, singularity
+COLORS: blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ET6ezpVaj2PA5ajkvsvmC+zgTfc</id>
+  <title>arXiv Query: search_query=all:quantum AND all:bandgap AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:09:23Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:bandgap+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>8</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2302.06797v1</id>
+    <title>Giant Thermomechanical Bandgap Engineering in Quasi-two-dimensional Tellurium</title>
+    <updated>2023-02-14T02:38:16Z</updated>
+    <link href="https://arxiv.org/abs/2302.06797v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2302.06797v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Mechanical straining-induced bandgap modulation in two-dimensional (2D) materials has been confined to volatile and narrow modulation due to substrate slippage and poor strain transfer. We report the thermomechanical modulation of the inherent bandgap in quasi-2D tellurium nanoflakes (TeNFs) via non-volatile strain induction during hot-press synthesis. We leveraged the coefficient of thermal expansion (CTE) mismatch between TeNFs and growth substrates by maintaining a high-pressure enforced non-slip condition during thermal relaxation (623 to 300K) to achieve the optimal biaxial compressive strain of -4.6 percent in TeNFs/sapphire. This resulted in an enormous bandgap modulation of 2.3 eV, at a rate of up to ~600 meV/%, which is two-fold larger than reported modulation rate. Strained TeNFs display robust band-to-band radiative excitonic blue photoemission with an intrinsic quantum efficiency (IQE) of c.a. 79.9%, making it promising for energy efficient blue LEDs and nanolasers. Computational studies reveal that biaxial compressive strain inhibits exciton-exciton annihilation by evading van-Hove singularities, hence promoting radiative-recombination. Bandgap modulation by such nonvolatile straining is scalable to other 2D semiconductors for on-demand nano(opto)-electronics.</summary>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-02-14T02:38:16Z</published>
+    <arxiv:primary_category term="physics.optics"/>
+    <author>
+      <name>Naveed Hussain</name>
+    </author>
+    <author>
+      <name>Shehzad Ahmed</name>
+    </author>
+    <author>
+      <name>Hüseyin U. Tep</name>
+    </author>
+    <author>
+      <name>Kaleem Ullah</name>
+    </author>
+    <author>
+      <name>Khurram Shahzad</name>
+    </author>
+    <author>
+      <name>Hui Wu</name>
+    </author>
+    <author>
+      <name>Maxim R. Shcherbakov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/9709291v1</id>
+    <title>Excitonic Effects in Quantum Wires</title>
+    <updated>1997-09-26T08:16:19Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/9709291v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/9709291v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We review the effects of Coulomb correlation on the linear and non-linear optical properties of semiconductor quantum wires, with emphasis on recent results for the bound excitonic states. Our theoretical approach is based on generalized semiconductor Bloch equations, and allows full three-dimensional multisubband description of electron-hole correlation for arbitrary confinement profiles. In particular, we consider V- and T-shaped structures for which significant experimental advances were obtained recently. Above band gap, a very general result obtained by this approach is that electron-hole Coulomb correlation removes the inverse-square-root single-particle singularity in the optical spectra at band edge, in agreement with previous reports from purely one-dimensional models. Strong correlation effects on transitions in the continuum are found to persist also at high densities of photoexcited carriers.
+  Below bandgap, we find that the same potential- (Coulomb) to kinetic-energy ratio holds for quite different wire cross sections and compositions. As a consequence, we identify a shape- and barrier-independent parameter that governs a universal scaling law for exciton binding energy with size. Previous indications that the shape of the wire cross-section may have important effects on exciton binding are discussed in the light of the present results.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1997-09-26T08:16:19Z</published>
+    <arxiv:comment>Proc. OECS-5 Conference, Göttingen, 1997 (To appear in Phys. Stat. Sol. (b))</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>Physica Status Solidi (a) 64, 265 (1997).</arxiv:journal_ref>
+    <author>
+      <name>G. Goldoni</name>
+      <arxiv:affiliation>INFM and Dipartimento di Fisica, Univ. of Modena, Italy</arxiv:affiliation>
+    </author>
+    <author>
+      <name>F. Rossi</name>
+      <arxiv:affiliation>INFM and Dipartimento di Fisica, Univ. of Modena, Italy</arxiv:affiliation>
+    </author>
+    <author>
+      <name>E. Molinari</name>
+      <arxiv:affiliation>INFM and Dipartimento di Fisica, Univ. of Modena, Italy</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1002/1521-396X(199711)164:1&lt;265::AID-PSSA265&gt;3.0.CO</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1002/1521-396X(199711)164:1&lt;265::AID-PSSA265&gt;3.0.CO" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1303.2027v2</id>
+    <title>Electron Spin Relaxation in Graphene Nanoribbon Quantum Dots</title>
+    <updated>2013-06-14T07:33:11Z</updated>
+    <link href="https://arxiv.org/abs/1303.2027v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1303.2027v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Graphene is promising as a host material for electron spin qubits because of its predicted potential for long coherence times. In armchair graphene nanoribbons (aGNRs) a small bandgap is opened, allowing for electrically gated quantum dots, and furthermore the valley degeneracy is lifted. The spin lifetime T_1 is limited by spin relaxation, where the Zeeman energy is absorbed by lattice vibrations, mediated by spin-orbit and electron-phonon coupling. We have calculated T_1 by treating all couplings analytically and find that T_1 can be in the range of seconds for several reasons: (i) low phonon density of states away from Van Hove singularities; (ii) destructive interference between two relaxation mechanisms; (iii) Van Vleck cancellation at low magnetic fields; (iv) vanishing coupling to out-of-plane modes in lowest order due to the electronic structure of aGNRs. Owing to the vanishing nuclear spin of 12C, T_1 may be a good measure for overall coherence. These results and recent advances in the controlled production of graphene nanoribbons make this system interesting for spintronics applications.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-03-08T15:38:23Z</published>
+    <arxiv:comment>11 pages, 9 figures, v2: published version</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Phys. Rev. B 87, 205432 (2013)</arxiv:journal_ref>
+    <author>
+      <name>Matthias Droth</name>
+    </author>
+    <author>
+      <name>Guido Burkard</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.87.205432</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.87.205432" title="doi"/>
+  </entry>
+</feed>

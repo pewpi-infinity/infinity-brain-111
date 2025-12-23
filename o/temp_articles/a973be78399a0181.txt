@@ -1,0 +1,137 @@
+TERMS: hydrogen, frequency, muon, plasma
+COLORS: purple, green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/J3cbogLSka49eL0+skE+aK7s9CA</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:frequency AND all:muon AND all:plasma&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:45:06Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:frequency+AND+(all:muon+AND+all:plasma))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>3</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1709.05285v2</id>
+    <title>Simulation of plasma loading of high-pressure RF cavities</title>
+    <updated>2017-11-06T01:59:35Z</updated>
+    <link href="https://arxiv.org/abs/1709.05285v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1709.05285v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Muon beam-induced plasma loading of radio-frequency (RF) cavities filled with high pressure hydrogen gas with 1% dry air dopant has been studied via numerical simulations. The electromagnetic code SPACE, that resolves relevant atomic physics processes, including ionization by the muon beam, electron attachment to dopant molecules, and electron-ion and ion-ion recombination, has been used. Simulations studies have been performed in the range of parameters typical for practical muon cooling channels.</summary>
+    <category term="physics.acc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-09-14T14:53:03Z</published>
+    <arxiv:comment>11 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.acc-ph"/>
+    <author>
+      <name>Kwangmin Yu</name>
+    </author>
+    <author>
+      <name>Roman Samulyak</name>
+    </author>
+    <author>
+      <name>Katsuya Yonehar</name>
+    </author>
+    <author>
+      <name>Ben Freemire</name>
+    </author>
+    <arxiv:doi>10.1088/1748-0221/13/01/P01008</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1748-0221/13/01/P01008" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1803.08957v1</id>
+    <title>Simulation of beam-induced plasma in gas-filled rf cavities</title>
+    <updated>2018-03-23T19:35:33Z</updated>
+    <link href="https://arxiv.org/abs/1803.08957v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1803.08957v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Processes occurring in a radio-frequency (rf) cavity, filled with high pressure gas and interacting with proton beams, have been studied via advanced numerical simulations. Simulations support the experimental program on the hydrogen gas-filled rf cavity in the Mucool Test Area (MTA) at Fermilab, and broader research on the design of muon cooling devices. SPACE, a 3D electromagnetic particle-in-cell (EM-PIC) code with atomic physics support, was used in simulation studies. Plasma dynamics in the rf cavity, including the process of neutral gas ionization by proton beams, plasma loading of the rf cavity, and atomic processes in plasma such as electron-ion and ion-ion recombination and electron attachment to dopant molecules, have been studied. Through comparison with experiments in the MTA, simulations quantified several uncertain values of plasma properties such as effective recombination rates and the attachment time of electrons to dopant molecules. Simulations have achieved very good agreement with experiments on plasma loading and related processes. The experimentally validated code SPACE is capable of predictive simulations of muon cooling devices.</summary>
+    <category term="physics.acc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-03-23T19:35:33Z</published>
+    <arxiv:comment>10 pp. arXiv admin note: text overlap with arXiv:1709.05285</arxiv:comment>
+    <arxiv:primary_category term="physics.acc-ph"/>
+    <arxiv:journal_ref>Phys.Rev.Accel.Beams 20,032002 (2017)</arxiv:journal_ref>
+    <author>
+      <name>Kwangmin Yu</name>
+      <arxiv:affiliation>Brookhaven</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Roman Samulyak</name>
+      <arxiv:affiliation>Stony Brook U. and Brookhaven</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Katsuya Yonehara</name>
+      <arxiv:affiliation>Fermilab</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ben Freemire</name>
+      <arxiv:affiliation>Northern Illinois U.</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1103/PhysRevAccelBeams.20.032002</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevAccelBeams.20.032002" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1801.01907v1</id>
+    <title>Pressurized rf cavities in ionizing beams</title>
+    <updated>2018-01-05T20:00:56Z</updated>
+    <link href="https://arxiv.org/abs/1801.01907v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1801.01907v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A muon collider or Higgs factory requires significant reduction of the six dimensional emittance of the beam prior to acceleration. One method to accomplish this involves building a cooling channel using high pressure gas filled radio frequency cavities. The performance of such a cavity when subjected to an intense particle beam must be investigated before this technology can be validated. To this end, a high pressure gas filled radio frequency (rf) test cell was built and placed in a 400 MeV beam line from the Fermilab linac to study the plasma evolution and its effect on the cavity. Hydrogen, deuterium, helium and nitrogen gases were studied. Additionally, sulfur hexafluoride and dry air were used as dopants to aid in the removal of plasma electrons. Measurements were made using a variety of beam intensities, gas pressures, dopant concentrations, and cavity rf electric fields, both with and without a 3 T external solenoidal magnetic field. Energy dissipation per electron-ion pair, electron-ion recombination rates, ion-ion recombination rates, and electron attachment times to $SF_6$ and $O_2$ were measured.</summary>
+    <category term="physics.acc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-01-05T20:00:56Z</published>
+    <arxiv:comment>15 pp</arxiv:comment>
+    <arxiv:primary_category term="physics.acc-ph"/>
+    <arxiv:journal_ref>Phys.Rev.Accel.Beams 19,062004 (2016)</arxiv:journal_ref>
+    <author>
+      <name>B. Freemire</name>
+      <arxiv:affiliation>IIT, Chicago</arxiv:affiliation>
+    </author>
+    <author>
+      <name>A. V. Tollestrup</name>
+      <arxiv:affiliation>Fermilab</arxiv:affiliation>
+    </author>
+    <author>
+      <name>K. Yonehara</name>
+      <arxiv:affiliation>Fermilab</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. Chung</name>
+      <arxiv:affiliation>UNIST, Ulsan</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Y. Torun</name>
+      <arxiv:affiliation>IIT, Chicago</arxiv:affiliation>
+    </author>
+    <author>
+      <name>R. P. Johnson</name>
+      <arxiv:affiliation>MUONS Inc., Batavia</arxiv:affiliation>
+    </author>
+    <author>
+      <name>G. Flanagan</name>
+      <arxiv:affiliation>MUONS Inc., Batavia</arxiv:affiliation>
+    </author>
+    <author>
+      <name>P. M. Hanlet</name>
+      <arxiv:affiliation>IIT, Chicago</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. G. Collura</name>
+      <arxiv:affiliation>UC, Santa Barbara</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. R. Jana</name>
+      <arxiv:affiliation>Bhat, Inst. Plasma Res.</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. Leonova</name>
+      <arxiv:affiliation>Fermilab</arxiv:affiliation>
+    </author>
+    <author>
+      <name>A. Moretti</name>
+      <arxiv:affiliation>Fermilab</arxiv:affiliation>
+    </author>
+    <author>
+      <name>T. Schwarz</name>
+      <arxiv:affiliation>Michigan U.</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1103/PhysRevAccelBeams.19.062004</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevAccelBeams.19.062004" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,92 @@
+TERMS: hydrogen, frequency
+COLORS: purple, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/oTs7xFL/OyqByrGHQRkdG791uqc</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:frequency&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T00:56:22Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+all:frequency&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1918</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1604.05076v1</id>
+    <title>On temporal correlations in high-resolution frequency counting</title>
+    <updated>2016-04-18T10:39:16Z</updated>
+    <link href="https://arxiv.org/abs/1604.05076v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1604.05076v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We analyze noise properties of time series of frequency data from different counting modes of a Keysight 53230A frequency counter. We use a 10 MHz reference signal from a passive hydrogen maser connected via phase-stable Huber+Suhner Sucoflex 104 cables to the reference and input connectors of the counter. We find that the high resolution gap-free (CONT) frequency counting process imposes long-term correlations in the output data, resulting in a modified Allan deviation that is characteristic of random walk phase noise. Equally important, the CONT mode results in a frequency bias. In contrast, the counter's undocumented raw continuous mode (RCON) yields unbiased frequency stability estimates with white phase noise characteristics, and of a magnitude consistent with the counter's 20 ps single-shot resolution. Furthermore, we demonstrate that a 100-point running average filter in conjunction with the RCON mode yields resolution enhanced frequency estimates with flicker phase noise characteristics. For instance, the counter's built-in moving-average function can be used. The improved noise characteristics of the averaged RCON mode versus the CONT mode imply that the former mode yields frequency estimates with improved confidence for a given measurement time.</summary>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-04-18T10:39:16Z</published>
+    <arxiv:comment>Submitted to the proceedings of the 30th European Frequency and Time Forum, held at the University of York, UK, 4 April to 7 April 2016</arxiv:comment>
+    <arxiv:primary_category term="physics.ins-det"/>
+    <arxiv:journal_ref>European Frequency and Time Forum (EFTF), 2016</arxiv:journal_ref>
+    <author>
+      <name>Tim Dunker</name>
+    </author>
+    <author>
+      <name>Harald Hauglin</name>
+    </author>
+    <author>
+      <name>Ole Petter Rønningen</name>
+    </author>
+    <arxiv:doi>10.1109/EFTF.2016.7477833</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/EFTF.2016.7477833" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2105.05706v1</id>
+    <title>The effect of hydrogen enrichment on the forced response of CH4/H2/Air laminar flames</title>
+    <updated>2021-05-12T14:47:44Z</updated>
+    <link href="https://arxiv.org/abs/2105.05706v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2105.05706v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Hydrogen-enrichment of conventional natural gas mixtures is an actively-explored strategy for reducing pollutant emissions from combustion. This study investigates the effect of hydrogen enrichment on the unsteady flame response to perturbations, with a view to understanding the implications for thermoacoustic stability. The Level Set Approach for kinematically tracking the flame front was applied to a laminar conical premixed methane / hydrogen / air flame subjected to 2D incompressible velocity perturbations. For hydrogen enrichment levels ranging from 0% to 80% by volume, the resulting unsteady heat release rate of the flame was used to generate the Flame Describing Functions (FDFs). This was performed across a range of perturbation frequencies and levels at ambient pressure. The mean heat release rate of the flame was fixed at $\overline{\dot{Q}} = 2.69\ \textrm{kW}$ and the equivalence ratio was set to $\varphi=1.08$ for all hydrogen enrichment levels. Hydrogen-enrichment was found to shift the FDF gain drop-off to higher frequencies, which will increase propensity to thermoacoustic instability. It also reduced the effective flame time delay. Sensitivity analyses at $\varphi = 0.8$ revealed that the changes in FDF were driven predominantly by the flame burning speed, and were insensitive to changes in Markstein length.</summary>
+    <category term="physics.flu-dyn" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-05-12T14:47:44Z</published>
+    <arxiv:comment>Accepted for publication in International Journal of Hydrogen Energy</arxiv:comment>
+    <arxiv:primary_category term="physics.flu-dyn"/>
+    <author>
+      <name>Zhengli Lim</name>
+    </author>
+    <author>
+      <name>Jingxuan Li</name>
+    </author>
+    <author>
+      <name>Aimee S. Morgans</name>
+    </author>
+    <arxiv:doi>10.1016/j.ijhydene.2021.04.171</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.ijhydene.2021.04.171" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1208.2637v2</id>
+    <title>Theory of the 2S-2P Lamb shift and 2S hyperfine splitting in muonic hydrogen</title>
+    <updated>2012-11-20T17:52:26Z</updated>
+    <link href="https://arxiv.org/abs/1208.2637v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1208.2637v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The 7 standard deviations between the proton rms charge radius from muonic hydrogen and the CODATA-10 value from hydrogen spectroscopy and electron-scattering has caused considerable discussions. Here, we review the theory of the 2S-2P Lamb shift and 2S hyperfine splitting in muonic hydrogen combining the published contributions and theoretical approaches. The prediction of these quantities is necessary for the determination of both proton charge and Zemach radii from the two 2S-2P transition frequencies measured in muonic hydrogen.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-08-13T16:52:39Z</published>
+    <arxiv:comment>20 pages with 3 Tables summarising the contributions to the muonic hydrogen Lamb shift and hyperfine splitting</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>Aldo Antognini</name>
+    </author>
+    <author>
+      <name>Franz Kottmann</name>
+    </author>
+    <author>
+      <name>François Biraben</name>
+    </author>
+    <author>
+      <name>Paul Indelicato</name>
+    </author>
+    <author>
+      <name>François Nez</name>
+    </author>
+    <author>
+      <name>Randolf Pohl</name>
+    </author>
+    <arxiv:doi>10.1016/j.aop.2012.12.003</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.aop.2012.12.003" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,61 @@
+TERMS: hydrogen, quantum, wavefunction, singularity
+COLORS: purple, blue, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/t31lPkpZkiJnB1bUst7XwdQ9Igk</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:wavefunction AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:40:41Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:wavefunction+AND+all:singularity))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/hep-th/9305102v1</id>
+    <title>On the Energy Levels of the Hydrogen Atom</title>
+    <updated>1993-05-21T11:43:06Z</updated>
+    <link href="https://arxiv.org/abs/hep-th/9305102v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-th/9305102v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We re-examine the justification for the imposition of regular boundary conditions on the wavefunction at the Coulomb singularity in the treatment of the hydrogen atom in non-relativistic quantum mechanics. We show that the issue of the correct boundary conditions is not independent of the physical structure of the proton. Under the physically reasonable assumption that the finite size and structure of the proton can be represented as a positive correction to the Coulomb potential, we give a justification for the regular boundary condition, which, in contrast to the usual treatments, is physically motivated and mathematically rigorous. We also describe how irregular boundary conditions can be used to model non-positive corrections to the Coulomb potential.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1993-05-21T11:43:06Z</published>
+    <arxiv:comment>26pp, LaTeX. 1 figure available on request, DAMTP-R93/9</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>C. J. Fewster</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1910.00437v1</id>
+    <title>Measuring the Berry phase of graphene from wavefront dislocations in Friedel oscillations</title>
+    <updated>2019-10-01T14:25:37Z</updated>
+    <link href="https://arxiv.org/abs/1910.00437v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1910.00437v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Electronic band structures dictate the mechanical, optical and electrical properties of crystalline solids. Their experimental determination is therefore of crucial importance for technological applications. While the spectral distribution in energy bands is routinely measured by various techniques, it is more difficult to access the topological properties of band structures such as the Berry phase γ. It is usually thought that measuring the Berry phase requires applying external electromagnetic forces because these allow realizing the adiabatic transport on closed trajectories along which quantum mechanical wave-functions pick up the Berry phase. In graphene, the anomalous quantum Hall effect results from the Berry phase γ = π picked up by massless relativistic electrons along cyclotron orbits and proves the existence of Dirac cones. Contradicting this belief, we demonstrate that the Berry phase of graphene can be measured in absence of any external magnetic field. We observe edge dislocations in the Friedel oscillations formed at hydrogen atoms chemisorbed on graphene. Following Nye and Berry in describing these topological defects as phase singularities of complex fields, we show that the number of additional wave-fronts in the dislocation is a real space measurement of the pseudo spin winding, i.e. graphene's Berry phase. Since the electronic dispersion can also be retrieved from Friedel oscillations, our study establishes the electronic density as a powerful observable to determine both the dispersion relation and topological properties of wavefunctions. This could have profound consequences for the study of the band-structure topology of relativistic and gapped phases in solids.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-10-01T14:25:37Z</published>
+    <arxiv:comment>Supplementary information available at Nature's web site</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>C. Dutreix</name>
+    </author>
+    <author>
+      <name>H. González-Herrero</name>
+    </author>
+    <author>
+      <name>I. Brihuega</name>
+    </author>
+    <author>
+      <name>M. I. Katsnelson</name>
+    </author>
+    <author>
+      <name>C. Chapelier</name>
+    </author>
+    <author>
+      <name>V. T. Renard</name>
+    </author>
+    <arxiv:doi>10.1038/s41586-019-1613-5</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41586-019-1613-5" title="doi"/>
+  </entry>
+</feed>

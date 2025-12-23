@@ -1,0 +1,45 @@
+TERMS: vapor, wavefunction, probability
+COLORS: green, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/kvqP7Jjz27a4G/ND3qmXG7eVqlA</id>
+  <title>arXiv Query: search_query=all:vapor AND all:wavefunction AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:26:05Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:vapor+AND+(all:wavefunction+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/physics/0308054v1</id>
+    <title>Sub-Doppler spectroscopy of Rb atoms in a sub-micron vapor cell in the presence of a magnetic field</title>
+    <updated>2003-08-14T05:42:14Z</updated>
+    <link href="https://arxiv.org/abs/physics/0308054v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/physics/0308054v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We report the first use of an extremely thin vapor cell (thickness ~ 400 nm) to study the magnetic-field dependence of laser-induced-fluorescence excitation spectra of alkali atoms. This thin cell allows for sub-Doppler resolution without the complexity of atomic beam or laser cooling techniques. This technique is used to study the laser-induced-fluorescence excitation spectra of Rb in a 50 G magnetic field. At this field strength the electronic angular momentum J and nuclear angular momentum I are only partially decoupled. As a result of the mixing of wavefunctions of different hyperfine states, we observe a nonlinear Zeeman effect for each sublevel, a substantial modification of the transition probabilities between different magnetic sublevels, and the appearance of transitions that are strictly forbidden in the absence of the magnetic field. For the case of right- and left- handed circularly polarized laser excitation, the fluorescence spectra differs qualitatively. Well pronounced magnetic field induced circular dichroism is observed. These observations are explained with a standard approach that describes the partial decoupling of I and J states.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-08-14T05:42:14Z</published>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>David Sarkisyan</name>
+    </author>
+    <author>
+      <name>Aram Papoyan</name>
+    </author>
+    <author>
+      <name>Tigran Varzhapetyan</name>
+    </author>
+    <author>
+      <name>Janis Alnis</name>
+    </author>
+    <author>
+      <name>Kaspars Blush</name>
+    </author>
+    <author>
+      <name>Marcis Auzinsh</name>
+    </author>
+    <arxiv:doi>10.1088/1464-4258/6/3/023</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1464-4258/6/3/023" title="doi"/>
+  </entry>
+</feed>

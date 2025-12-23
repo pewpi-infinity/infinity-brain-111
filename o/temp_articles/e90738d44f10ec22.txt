@@ -1,0 +1,89 @@
+TERMS: entropy, spin, plasma
+COLORS: red, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/SRgDug+Wr37K/czemaFP4qaiAZs</id>
+  <title>arXiv Query: search_query=all:entropy AND all:spin AND all:plasma&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:18:20Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+(all:spin+AND+all:plasma)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>23</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2401.04493v3</id>
+    <title>Electrodynamics of superconductors: from Lorentz to Galilei at zero temperature</title>
+    <updated>2024-06-26T11:17:43Z</updated>
+    <link href="https://arxiv.org/abs/2401.04493v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.04493v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We discuss the derivation of the electrodynamics of superconductors coupled to the electromagnetic field from a Lorentz-invariant bosonic model of Cooper pairs. Our results are obtained at zero temperature where, according to the third law of thermodynamics, the entropy of the system is zero. In the nonrelativistic limit we obtain a Galilei-invariant superconducting system which differs with respect to the familiar Schrödinger-like one. From this point of view, there are similarities with the Pauli equation of fermions which is derived from the Dirac equation in the nonrelativistic limit and has a spin-magnetic field term in contrast with the Schrödinger equation. One of the peculiar effects of our model is the decay of a static electric field inside a superconductor exactly with the London penetration length. In addition, our theory predicts a modified D'Alembert equation for the massive electromagnetic field also in the case of nonrelativistic superconducting matter. We emphasize the role of the Nambu-Goldstone phase field which is crucial to obtain the collective modes of the superconducting matter field. In the special case of a nonrelativistic neutral superfluid we find a gapless Bogoliubov-like spectrum, while for the charged superfluid we obtain a dispersion relation that is gapped by the plasma frequency.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-09T11:12:54Z</published>
+    <arxiv:comment>12 pages, no figures, invited feature paper, published in Entropy (MDPI). Some typos have been corrected, i.e. a missing term has been added in some equations</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <arxiv:journal_ref>Entropy 26, 69 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Luca Salasnich</name>
+    </author>
+    <arxiv:doi>10.3390/e26010069</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/e26010069" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2105.02378v3</id>
+    <title>Violation of energy conditions and entropy production in holographic Bjorken flow</title>
+    <updated>2021-11-16T14:30:01Z</updated>
+    <link href="https://arxiv.org/abs/2105.02378v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2105.02378v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We demonstrate that a Bjorken expanding strongly coupled $\mathcal{N}=4$ Supersymmetric Yang-Mills plasma can display dynamically-driven violations of the dominant and also the weak energy condition during hydrodynamization. In addition, we find that a period of vanishing entropy production in far-from-equilibrium stages induces later violations of the dominant energy condition in the strongly coupled plasma. Such violations cannot occur in a classical description of hydrodynamization and suggest that the inclusion of quantum effects in transport can lead to new phenomena in these regimes, even for systems without anomalies or spin.</summary>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-05-06T00:09:39Z</published>
+    <arxiv:comment>9 pages, 1 figure; v3: to appear in Physical Review D</arxiv:comment>
+    <arxiv:primary_category term="nucl-th"/>
+    <arxiv:journal_ref>Phys. Rev. D 104, 126012 (2021)</arxiv:journal_ref>
+    <author>
+      <name>Romulo Rougemont</name>
+    </author>
+    <author>
+      <name>Jorge Noronha</name>
+    </author>
+    <author>
+      <name>Willians Barreto</name>
+    </author>
+    <author>
+      <name>Gabriel S. Denicol</name>
+    </author>
+    <author>
+      <name>Travis Dore</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.104.126012</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.104.126012" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2411.03135v2</id>
+    <title>Contrasting thermodynamic and hydrodynamic entropy</title>
+    <updated>2024-12-05T05:34:55Z</updated>
+    <link href="https://arxiv.org/abs/2411.03135v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.03135v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, using \textit{hydrodynamic entropy} we quantify the multiscale disorder in Euler and hydrodynamic turbulence. These examples illustrate that the hydrodynamic entropy is not extensive because it is not proportional to the system size. Consequently, we cannot add hydrodynamic and thermodynamic entropies, which measure disorder at macroscopic and microscopic scales, respectively. In this paper, we also discuss the hydrodynamic entropy for the time-dependent Ginzburg-Landau equation and Ising spins.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.flu-dyn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-05T14:25:56Z</published>
+    <arxiv:comment>Title corrected</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <arxiv:journal_ref>Phys. Rev. E, 110, 055106 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Mahendra K. Verma</name>
+    </author>
+    <author>
+      <name>Rodion Stepanov</name>
+    </author>
+    <author>
+      <name>Alexandre Delache</name>
+    </author>
+  </entry>
+</feed>

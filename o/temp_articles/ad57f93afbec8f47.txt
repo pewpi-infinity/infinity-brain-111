@@ -1,0 +1,40 @@
+TERMS: hydrogen, crystal, spin, probability
+COLORS: purple, orange, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/iauSiq0HxKDd91CCHysEnlsBgo8</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:crystal AND all:spin AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T02:00:33Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:crystal+AND+(all:spin+AND+all:probability))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0011490v1</id>
+    <title>Dynamical Susceptibility in KH2PO4-type Crystals above and below Tc</title>
+    <updated>2000-11-29T12:35:24Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0011490v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0011490v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The time dependent cluster approximation called the path probability method (PPM) is applied to a pseudo-spin Ising Hamiltonian of the Slater-Takagi model for KH2PO4-type hydrogen-bonded ferroelectrics in order to calculate the homogeneous dynamical susceptibility above and below the ferroelectric transition temperature. Above the transition temperature all the calculations are carried out analytically in the cactus approximation of the PPM. Below the transition temperature the dynamical susceptibility is also calculated accurately since the analytical solution of spontaneous polarization in the ferroelectric phase can be utilized. When the temperature is approached from both sides of the transition temperature, only one of relaxation times shows a critical slowing down and makes a main contribution to the dynamical susceptibility. The discrepancy from Slater model (ice-rule limit) is discussed in comparison with some experimental data.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2000-11-29T12:35:24Z</published>
+    <arxiv:comment>8 pages, 10 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <author>
+      <name>Koh Wada</name>
+      <arxiv:affiliation>Hokkaido University, Sapporo,Japan</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Shun-ichi Yoshida</name>
+      <arxiv:affiliation>Hokkaido University, Sapporo,Japan</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Norihiro Ihara</name>
+      <arxiv:affiliation>Hokkaido University, Sapporo,Japan</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1143/JPSJ.70.1019</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1143/JPSJ.70.1019" title="doi"/>
+  </entry>
+</feed>

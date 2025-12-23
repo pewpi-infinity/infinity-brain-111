@@ -1,0 +1,98 @@
+TERMS: hydrogen, crystal, spin, oxidation
+COLORS: purple, orange, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/IA3+vCFeBEh19Y2XVLvc3u2FsQU</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:crystal AND all:spin AND all:oxidation&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T02:00:32Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:crystal+AND+(all:spin+AND+all:oxidation))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>3</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2403.18303v1</id>
+    <title>Classical dynamics and semiclassical analysis of excitons in cuprous oxide</title>
+    <updated>2024-03-27T06:58:50Z</updated>
+    <link href="https://arxiv.org/abs/2403.18303v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.18303v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Excitons, as bound states of electrons and holes, embody the solid state analogue of the hydrogen atom, whose quantum spectrum is explained within a classical framework by the Bohr-Sommerfeld atomic model. In a first hydrogenlike approximation the spectra of excitons are also well described by a Rydberg series, however, due to the surrounding crystal environment deviations from this series can be observed. A theoretical treatment of excitons in cuprous oxide needs to include the band structure of the crystal, leading to a prominent fine-structure splitting in the quantum spectra. This is achieved by introducing additional spin degrees of freedom into the system, making the existence and meaningfulness of classical exciton orbits in the physical system a non-trivial question. Recently, we have uncovered the contributions of periodic exciton orbits directly in the quantum mechanical recurrence spectra of cuprous oxide [J. Ertl et al., Phys. Rev. Lett. 129, 067401 (2022)] by application of a scaling technique and fixing the energy of the classical dynamics to a value corresponding to a principle quantum number $n=5$ in the hydrogenlike case. Here, we present a comprehensive derivation of the classical and semiclassical theory of excitons in cuprous oxide. In particular, we investigate the energy dependence of the exciton dynamics. Both the semiclassical and quantum mechanical recurrence spectra exhibit stronger deviations from the hydrogenlike behavior with decreasing energy, which is related to a growing influence of the spin-orbit coupling and thus a higher velocity of the secular motion of the exciton orbits. The excellent agreement between semiclassical and quantum mechanical exciton recurrence spectra demonstrates the validity of the classical and semiclassical approach to excitons in cuprous oxide.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.CD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-27T06:58:50Z</published>
+    <arxiv:comment>16 pages, 10 figures, accepted for publication in Phys. Rev. B</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Phys. Rev. B 109, 165203 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Jan Ertl</name>
+    </author>
+    <author>
+      <name>Michael Marquardt</name>
+    </author>
+    <author>
+      <name>Moritz Schumacher</name>
+    </author>
+    <author>
+      <name>Patric Rommel</name>
+    </author>
+    <author>
+      <name>Jörg Main</name>
+    </author>
+    <author>
+      <name>Manfred Bayer</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.109.165203</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.109.165203" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1006.2889v1</id>
+    <title>Quantum Dielectric Fluctuation in an Electronic Ferroelectricity studied by Variational Monte-Carlo Method</title>
+    <updated>2010-06-15T04:54:05Z</updated>
+    <link href="https://arxiv.org/abs/1006.2889v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1006.2889v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Electronic structure and dielectric property in an electronic ferroelectricty, where electric polarization is driven by an electronic charge order without inversion symmetry, are studied. Motivated from layered iron oxides, roles of quantum fluctuation on ferroelectricity in a paired-triangular lattice are focused on. Three types of the extended V-t model are examined by the variational Monte-Carlo method with the Gutzwiller-type correlation factor. It is shown that electron transfer between the triangular layers corresponding to the inter-layer polarization fluctuation promotes the three-fold charge order associated with an electric polarization. This result is in highly contrast to the usual manner of quantum fluctuation in the hydrogen-bond type ferroelectricities and the quantum paraelectric oxides. Spin degree of freedom of electron and a realistic crystal structure for the layered iron oxides further stabilize the polar charge ordered state. Implications of the numerical results for layered iron oxides are discussed.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-06-15T04:54:05Z</published>
+    <arxiv:comment>10 pages, 17 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <author>
+      <name>Tsutomu Watanabe</name>
+    </author>
+    <author>
+      <name>Sumio Ishihara</name>
+    </author>
+    <arxiv:doi>10.1143/JPSJ.79.114714</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1143/JPSJ.79.114714" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2105.01969v1</id>
+    <title>Ni$_{80}$Fe$_{20}$ Nanotubes with Optimized Spintronic Functionalities Prepared by Atomic Layer Deposition</title>
+    <updated>2021-05-05T10:47:44Z</updated>
+    <link href="https://arxiv.org/abs/2105.01969v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2105.01969v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Permalloy Ni$_{80}$Fe$_{20}$ is one of the key magnetic materials in the field of magnonics. Its potential would be further unveiled if it could be deposited in three dimensional (3D) architectures of sizes down to the nanometer. Atomic Layer Deposition, ALD, is the technique of choice for covering arbitrary shapes with homogeneous thin films. Early successes with ferromagnetic materials include nickel and cobalt. Still, challenges in depositing ferromagnetic alloys reside in the synthesis via decomposing the consituent elements at the same temperature and homogeneously. We report plasma-enhanced ALD to prepare permalloy Ni$_{80}$Fe$_{20}$ thin films and nanotubes using nickelocene and iron(III) tert-butoxide as metal precursors, water as the oxidant agent and an in-cycle plasma enhanced reduction step with hydrogen. We have optimized the ALD cycle in terms of Ni:Fe atomic ratio and functional properties. We obtained a Gilbert damping of 0.013, a resistivity of 28 $μΩ$cm and an anisotropic magnetoresistance effect of 5.6 $\%$ in the planar thin film geometry. We demonstrate that the process also works for covering GaAs nanowires, resulting in permalloy nanotubes with high aspect ratios and diameters of about 150 nm. Individual nanotubes were investigated in terms of crystal phase, composition and spin-dynamic response by microfocused Brillouin Light Scattering. Our results enable NiFe-based 3D spintronics and magnonic devices in curved and complex topology operated in the GHz frequency regime.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-05-05T10:47:44Z</published>
+    <arxiv:comment>19 pages, 14 figures (including supplementary information)</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Maria Carmen Giordano</name>
+    </author>
+    <author>
+      <name>Simon Escobar Steinvall</name>
+    </author>
+    <author>
+      <name>Sho Watanabe</name>
+    </author>
+    <author>
+      <name>Anna Fontcuberta i Morral</name>
+    </author>
+    <author>
+      <name>Dirk Grundler</name>
+    </author>
+    <arxiv:doi>10.1039/d1nr02291a</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1039/d1nr02291a" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,77 @@
+TERMS: frequency, entropy, spin
+COLORS: green, red, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/T7D4fCUUvsMbMxv1k8f5m+9PJVU</id>
+  <title>arXiv Query: search_query=all:frequency AND all:entropy AND all:spin&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:09:57Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:entropy+AND+all:spin)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>104</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1801.01159v1</id>
+    <title>On Maximum Entropy and Inference</title>
+    <updated>2017-11-25T20:09:23Z</updated>
+    <link href="https://arxiv.org/abs/1801.01159v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1801.01159v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Maximum Entropy is a powerful concept that entails a sharp separation between relevant and irrelevant variables. It is typically invoked in inference, once an assumption is made on what the relevant variables are, in order to estimate a model from data, that affords predictions on all other (dependent) variables. Conversely, maximum entropy can be invoked to retrieve the relevant variables (sufficient statistics) directly from the data, once a model is identified by Bayesian model selection. We explore this approach in the case of spin models with interactions of arbitrary order, and we discuss how relevant interactions can be inferred. In this perspective, the dimensionality of the inference problem is not set by the number of parameters in the model, but by the frequency distribution of the data. We illustrate the method showing its ability to recover the correct model in a few prototype cases and discuss its application on a real dataset.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-11-25T20:09:23Z</published>
+    <arxiv:comment>16 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <arxiv:journal_ref>Entropy 2017, 19, 642</arxiv:journal_ref>
+    <author>
+      <name>Luigi Gresele</name>
+    </author>
+    <author>
+      <name>Matteo Marsili</name>
+    </author>
+    <arxiv:doi>10.3390/e19120642</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/e19120642" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2401.04493v3</id>
+    <title>Electrodynamics of superconductors: from Lorentz to Galilei at zero temperature</title>
+    <updated>2024-06-26T11:17:43Z</updated>
+    <link href="https://arxiv.org/abs/2401.04493v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.04493v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We discuss the derivation of the electrodynamics of superconductors coupled to the electromagnetic field from a Lorentz-invariant bosonic model of Cooper pairs. Our results are obtained at zero temperature where, according to the third law of thermodynamics, the entropy of the system is zero. In the nonrelativistic limit we obtain a Galilei-invariant superconducting system which differs with respect to the familiar Schrödinger-like one. From this point of view, there are similarities with the Pauli equation of fermions which is derived from the Dirac equation in the nonrelativistic limit and has a spin-magnetic field term in contrast with the Schrödinger equation. One of the peculiar effects of our model is the decay of a static electric field inside a superconductor exactly with the London penetration length. In addition, our theory predicts a modified D'Alembert equation for the massive electromagnetic field also in the case of nonrelativistic superconducting matter. We emphasize the role of the Nambu-Goldstone phase field which is crucial to obtain the collective modes of the superconducting matter field. In the special case of a nonrelativistic neutral superfluid we find a gapless Bogoliubov-like spectrum, while for the charged superfluid we obtain a dispersion relation that is gapped by the plasma frequency.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-09T11:12:54Z</published>
+    <arxiv:comment>12 pages, no figures, invited feature paper, published in Entropy (MDPI). Some typos have been corrected, i.e. a missing term has been added in some equations</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <arxiv:journal_ref>Entropy 26, 69 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Luca Salasnich</name>
+    </author>
+    <arxiv:doi>10.3390/e26010069</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/e26010069" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1805.03722v4</id>
+    <title>Signatures of magnetic-field-driven quantum phase transitions in the entanglement entropy and spin dynamics of the Kitaev honeycomb model</title>
+    <updated>2019-04-30T22:04:26Z</updated>
+    <link href="https://arxiv.org/abs/1805.03722v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1805.03722v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The main question we address is how to probe the fractionalized excitations of a quantum spin liquid (QSL), for example, in the Kitaev honeycomb model. By analyzing the energy spectrum and entanglement entropy, for antiferromagnetic couplings and a field along either [111] or [001], we find a gapless QSL phase sandwiched between the non-Abelian Kitaev QSL and polarized phases. Increasing the field strength towards the polarized limit destroys this intermediate QSL phase, resulting in a considerable reduction in the number of frequency modes and the emergence of a beating pattern in the local dynamical correlations, possibly observable in pump-probe experiments.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-05-09T20:31:59Z</published>
+    <arxiv:comment>5 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Phys. Rev. B 99, 140413 (2019)</arxiv:journal_ref>
+    <author>
+      <name>David C. Ronquillo</name>
+    </author>
+    <author>
+      <name>Adu Vengal</name>
+    </author>
+    <author>
+      <name>Nandini Trivedi</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.99.140413</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.99.140413" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,78 @@
+TERMS: entropy, crystal, ionization
+COLORS: red, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/kEtIgnipjWqfgTLb0h+Tzqbi45w</id>
+  <title>arXiv Query: search_query=all:entropy AND all:crystal AND all:ionization&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:17:30Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+(all:crystal+AND+all:ionization)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>4</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2303.11311v1</id>
+    <title>On excess entropy and latent heat in crystallizing white dwarfs</title>
+    <updated>2023-03-20T17:51:26Z</updated>
+    <link href="https://arxiv.org/abs/2303.11311v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2303.11311v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Based on the linear mixing approach, we calculate the latent heat for crystallizing fully-ionized $^{12}$C/$^{16}$O and $^{16}$O/$^{20}$Ne mixtures in white dwarf (WD) cores for two different parametrizations of the corrections to the linear-mixing energies and with account of ion quantum effects. We report noticeable composition-dependent deviations of the excess entropy in both directions from the standard value of 0.77 per ion. Within the same framework, we evaluate the excess entropy and released or absorbed heat accompanying the exsolution process in solidified WD layers. The inclusion of this effect is shown to be important for reliable interpretation of WD cooling data. We also analyze the latent heat of crystallizing eutectic $^{12}$C/$^{22}$Ne mixture, where we find a qualitative dependence of both the phase diagram and the latent heat behaviour on ion quantum effects. This may be important for the model with $^{22}$Ne distillation in cooling C/O/$^{22}$Ne WD proposed as a solution for the ultramassive WD multi-Gyr cooling anomaly. Astrophysical implications of our findings for crystallizing WD are discussed.</summary>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-03-20T17:51:26Z</published>
+    <arxiv:comment>5 pages, 2 figures. Letter to MNRAS, in press</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.SR"/>
+    <author>
+      <name>D. A. Baiko</name>
+    </author>
+    <arxiv:doi>10.1093/mnrasl/slad039</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1093/mnrasl/slad039" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2005.05056v4</id>
+    <title>Sound Absorption in Partially Ionized Hydrogen Plasma and Heating Mechanism of Solar Chromosphere</title>
+    <updated>2020-10-28T13:39:35Z</updated>
+    <link href="https://arxiv.org/abs/2005.05056v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2005.05056v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The temperature dependence of rates of electron impact ionization and two electrons recombination are calculated using Wannier cross section of electron impact ionization of neutral hydrogen atom. Entropy production and power dissipation are derived for the case when the ionization degree deviates from its equilibrium value. This is the special case of the obtained general formula for entropy production accompanying chemical reactions. Damping rate of the sound waves is calculated and the conditions when ionization processes dominate are considered. A quasi-classical approximation for the heating mechanism of solar chromosphere is proposed. Several analogous phenomena for damping rates in liquids and crystals are shortly discussed, for example, deaf sound of a glass of beer or English salt solution. An explicit expression for the second or bulk (or volume) viscosity of hydrogen plasma is calculated from firsts principles. For the first time some second viscosity is calculated from first principles.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-05-11T12:52:33Z</published>
+    <arxiv:comment>Mandelstam-Leontovich theory applied to hydrogen plasma, 13 pages, 5 figs, 32 references</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <arxiv:journal_ref>Physica A: Stat. Mech. Appls., Vol. 563, 125442 (2021)</arxiv:journal_ref>
+    <author>
+      <name>Todor M. Mishonov</name>
+    </author>
+    <author>
+      <name>Iglika M. Dimitrova</name>
+    </author>
+    <author>
+      <name>Albert M. Varonov</name>
+    </author>
+    <arxiv:doi>10.1016/j.physa.2020.125442</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physa.2020.125442" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2112.04822v1</id>
+    <title>$Ab~initio$ thermodynamics of one-component plasma for astrophysics of white dwarfs and neutron stars</title>
+    <updated>2021-12-09T10:32:56Z</updated>
+    <link href="https://arxiv.org/abs/2112.04822v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2112.04822v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Using path-integral Monte Carlo (PIMC) simulations, we have calculated energy of a crystal composed of atomic nuclei and uniform incompressible electron background in the temperature and density range, covering fully ionized layers of compact stellar objects, white dwarfs and neutron stars, including the high-density regime, where ion quantization is important. We have approximated the results by convenient analytic formulae, which allowed us to integrate and differentiate the energy with respect to temperature and density to obtain various thermodynamic functions such as Helmholtz free energy, specific heat, pressure, entropy etc. In particular, we have demonstrated, that the total crystal specific heat can exceed the well-known harmonic lattice contribution by a factor of 1.5 due to anharmonic effects. By combining our results with the PIMC thermodynamics of a quantum Coulomb liquid, updated in the present work, we were able to determine density dependences of such melting parameters as the Coulomb coupling strength at melting, latent heat, and a specific heat jump. Our results are necessary for realistic modelling of thermal evolution of compact degenerate stars.</summary>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-12-09T10:32:56Z</published>
+    <arxiv:comment>17 pages, 17 figures, 4 tables, accepted to MNRAS</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.HE"/>
+    <arxiv:journal_ref>MNRAS 510 (2022), 2628-2643</arxiv:journal_ref>
+    <author>
+      <name>D. A. Baiko</name>
+    </author>
+    <author>
+      <name>A. I. Chugunov</name>
+    </author>
+    <arxiv:doi>10.1093/mnras/stab3613</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1093/mnras/stab3613" title="doi"/>
+  </entry>
+</feed>

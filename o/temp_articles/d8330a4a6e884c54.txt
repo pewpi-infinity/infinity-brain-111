@@ -1,0 +1,87 @@
+TERMS: entropy, electron, probability
+COLORS: red, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/bZOZFQklj99V1otECDXj9VeNDR0</id>
+  <title>arXiv Query: search_query=all:entropy AND all:electron AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:17:13Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+(all:electron+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>116</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/0910.4764v1</id>
+    <title>Entangled States and Entropy Remnants of a Photon-Electron System</title>
+    <updated>2009-10-25T19:51:36Z</updated>
+    <link href="https://arxiv.org/abs/0910.4764v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0910.4764v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In the present paper an example of entanglement between two different kinds of interacting particles, photons and electrons is analysed. The initial-value problem of the Schroedinger equation is solved non-perturbatively for the system of a free electron interacting with a quantized mode of the electromagnetic radiation. Wave packets of the dressed states so obtained are constructed in order to describe the spatio-temporal separation of the subsystems before and after the interaction. The joint probability amplitudes are calculated for the detection of the electron at some space-time location and the detection of a definite number of photons. The analytical study of the time evolution of entanglement between the initially separated electron wave packet and the radiation mode leads to the conclusion that in general there are non-vanishing entropy remnants in the subsystems after the interaction. On the basis of the simple model to be presented here, the calculated values of the entropy remnants crucially depend on the character of the switching-on and off of the interaction.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-10-25T19:51:36Z</published>
+    <arxiv:comment>12 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Physica Scripta T140 (2010) 014038 (8pp)</arxiv:journal_ref>
+    <author>
+      <name>Sandor Varro</name>
+    </author>
+    <arxiv:doi>10.1088/0031-8949/2010/T140/014038</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0031-8949/2010/T140/014038" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.16093v2</id>
+    <title>Electron Confinement study in a double quantum dot by means of Shannon Entropy Information</title>
+    <updated>2024-01-23T19:31:29Z</updated>
+    <link href="https://arxiv.org/abs/2312.16093v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.16093v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this work, we use the Shannon informational entropies to study an electron confined in a double quantum dot; we mean the entropy in the space of positions, $S_r$, in the space of momentum, $S_p$, and the total entropy, $S_t = S_r+S_p$. We obtain $S_r$, $S_p$ and $S_t$ as a function of the parameters $A_2$ and $k$ which rules the height and the width, respectively, of the internal barrier of the confinement potential. We conjecture that the entropy $S_r$ maps the degeneracy of states when we vary $A_2$ and also is an indicator of the level of decoupling/coupling of the double quantum dot. We study the quantities $S_r$ and $S_p$ as measures of delocalization/localization of the probability distribution. Furthermore, we analyze the behaviors of the quantities $S_p$ and $S_t$ as a function of $A_2$ and $k$. Finally, we carried out an energy analysis and, when possible, compared our results with work published in the literature.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-26T15:36:00Z</published>
+    <arxiv:comment>Version accepted for publication in Physica B: Condensed Matter</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <arxiv:journal_ref>Physica B: Condensed Matter 2024</arxiv:journal_ref>
+    <author>
+      <name>Wallas S. Nascimento</name>
+    </author>
+    <author>
+      <name>Angelo M. Maniero</name>
+    </author>
+    <author>
+      <name>Frederico V. Prudente</name>
+    </author>
+    <author>
+      <name>Carlos R. de Carvalho</name>
+    </author>
+    <author>
+      <name>Ginette Jalbert</name>
+    </author>
+    <arxiv:doi>10.1016/j.physb.2024.415692</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physb.2024.415692" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2501.16721v1</id>
+    <title>Decomposition of entropy production for free-energy generation in a non-equilibrium dot with multiple electron states</title>
+    <updated>2025-01-28T05:58:15Z</updated>
+    <link href="https://arxiv.org/abs/2501.16721v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2501.16721v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We experimentally demonstrate the decomposition of entropy production during free-energy generation in a nanometer-scale dot transitioning to a non-equilibrium steady state via single-electron counting statistics. An alternating-current signal driving a reservoir that injects multiple electrons into the dot makes it non-equilibrium, leading to free-energy generation, heat dissipation, and Shannon-entropy production. By analyzing the time-domain probability distributions of multiple electron states of the dot, we quantitatively decompose the heat dissipation into housekeeping and excess heats, revealing the correlation between the free energy and the decomposed components of heat dissipation. This correlation suggests that the ratio of the generated free energy to the work applied to the dot, can potentially reach 0.5 under far-from-equilibrium conditions induced by a large signal, while an efficiency of 0.25 was experimentally achieved. Our results, providing the theoretical and experimental efficiencies from the relation between decomposed heat dissipation and free-energy generation, promise to connect non-equilibrium thermodynamics perspectives to electronic devices.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-01-28T05:58:15Z</published>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <author>
+      <name>Chloe Salhani</name>
+    </author>
+    <author>
+      <name>Kensaku Chida</name>
+    </author>
+    <author>
+      <name>Takase Shimizu</name>
+    </author>
+    <author>
+      <name>Toshiaki Hayashi</name>
+    </author>
+    <author>
+      <name>Katsuhiko Nishiguchi</name>
+    </author>
+  </entry>
+</feed>

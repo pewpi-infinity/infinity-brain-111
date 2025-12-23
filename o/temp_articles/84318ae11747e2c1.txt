@@ -1,0 +1,76 @@
+TERMS: ionization, superconductivity, muon
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/5FOsaIgXeboZOe23clyCSg+f5ew</id>
+  <title>arXiv Query: search_query=all:ionization AND all:superconductivity AND all:muon&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:29:01Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:ionization+AND+(all:superconductivity+AND+all:muon)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>9</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1312.1626v1</id>
+    <title>Progress Towards Completion of the MICE Demonstration of Muon Ionization Cooling</title>
+    <updated>2013-12-05T17:40:58Z</updated>
+    <link href="https://arxiv.org/abs/1312.1626v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1312.1626v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Muon Ionization Cooling Experiment (MICE) at the Rutherford Appleton Laboratory aims to demonstrate $\approx$ 10% ionization cooling of a muon beam by its interaction with low-Z absorber materials followed by restoration of longitudinal momentum in RF linacs. MICE Step IV, including the first LH2 or LiH absorber cell sandwiched between two particle tracking spectrometers, is the collaboration's near-term goal. Two large superconducting spectrometer solenoids and one focus coil solenoid will provide a magnetic field of $\approx$4 T in the tracker and absorber-cell volumes. The status of these components is described, as well as progress towards Steps V and VI, including the eight RF cavities to provide the required 8 MV/m gradient in a strong magnetic field; this entails an RF drive system to deliver 2 MW, 1 ms pulses of 201 MHz frequency at 1 Hz repetition rate, the distribution network to deliver 1 MW to each cavity with correct RF phasing, diagnostics to determine the gradient and the muon transit phase, and development of the large-diameter magnets required for the linacs.</summary>
+    <category term="physics.acc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-12-05T17:40:58Z</published>
+    <arxiv:comment>4 pages, 5 figures. Presented at NuFact 2013, 15th International Workshop on Neutrino Factories, Super Beams and Beta Beams, 19--24 August 2013, IHEP, Beijing, China</arxiv:comment>
+    <arxiv:primary_category term="physics.acc-ph"/>
+    <author>
+      <name>Daniel M. Kaplan</name>
+      <arxiv:affiliation>for the MICE Collaboration</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2303.04938v7</id>
+    <title>Cosmic muon flux attenuation methods for superconducting qubit experiments</title>
+    <updated>2025-03-21T10:27:51Z</updated>
+    <link href="https://arxiv.org/abs/2303.04938v7" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2303.04938v7" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose and demonstrate two practical mitigation methods to attenuate the cosmic muon flux, compatible with experiments involving superconducting qubits: shallow underground sites and specific device orientation. Using a specifically-built cosmic muon detector, we identify underground sites, widely present in urban environments, where significant attenuation of cosmic muon flux, up to a factor 35 for 100-meter depths, can be attained. Furthermore, we employ two germanium wafers in an above-ground laboratory, each equipped with a particle sensor, to show how the orientation of the chip with respect to the sky affects the amount and type of energy deposited on the substrate by ionizing radiation. We observe that the horizontal detector sees more counts at lower energy, while the vertical one is impacted by more particles at higher energy. The methods here described proposed ways to directly understand and reduce the effects of cosmic rays on qubits by attenuating the source of this type of decoherence, complementing existing on-chip mitigation strategies. We expect that both on-chip and off-chip methods combined will become ubiquitous in quantum technologies based on superconducting qubit circuits.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-03-08T23:15:17Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Elia Bertoldo</name>
+    </author>
+    <author>
+      <name>Victor Pérez Sánchez</name>
+    </author>
+    <author>
+      <name>Maria Martínez</name>
+    </author>
+    <author>
+      <name>Manel Martínez</name>
+    </author>
+    <author>
+      <name>Hawraa Khalife</name>
+    </author>
+    <author>
+      <name>Pol Forn-Díaz</name>
+    </author>
+    <arxiv:doi>10.1088/1367-2630/adaedc</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1367-2630/adaedc" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1805.06623v1</id>
+    <title>Beam-based detector alignment in the MICE muon beam line</title>
+    <updated>2018-05-17T07:15:30Z</updated>
+    <link href="https://arxiv.org/abs/1805.06623v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1805.06623v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Muon Ionization Cooling Experiment (MICE) will perform a detailed study of ionization cooling to evaluate the feasibility of the technique. To carry out this program, MICE requires all of its detectors to reconstruct space points in a globally consistent fashion. The beam-based alignment constants were found to be more accurate than the survey for the scintillating-fibre trackers lodged inside the bores of the superconducting magnets. This alignment algorithm can achieve unbiased measurements of the trackers rotation angles with a resolution of 6 mrad/$\sqrt{N}$ and of their position with a resolution of 20 mm/$\sqrt{N}$, with $N$ the number of selected tracks.</summary>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-05-17T07:15:30Z</published>
+    <arxiv:primary_category term="physics.ins-det"/>
+    <author>
+      <name>F. Drielsma</name>
+    </author>
+  </entry>
+</feed>

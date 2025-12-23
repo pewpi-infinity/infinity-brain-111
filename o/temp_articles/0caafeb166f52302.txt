@@ -1,0 +1,156 @@
+TERMS: hydrogen, vapor, superconductivity, resonance
+COLORS: purple, green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/rReUvvguBY+pS+PiDsucxqmA1Nk</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:vapor AND all:superconductivity AND all:resonance&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:58:04Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:vapor+AND+(all:superconductivity+AND+all:resonance))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>5</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2012.07692v1</id>
+    <title>Characterization of low-loss hydrogenated amorphous silicon films for superconducting resonators</title>
+    <updated>2020-12-14T16:42:24Z</updated>
+    <link href="https://arxiv.org/abs/2012.07692v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2012.07692v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Superconducting resonators used in millimeter-submillimeter astronomy would greatly benefit from deposited dielectrics with a small dielectric loss. We deposited hydrogenated amorphous silicon films using plasma-enhanced chemical vapor deposition, at substrate temperatures of 100°C, 250°C and 350°C. The measured void volume fraction, hydrogen content, microstructure parameter, and bond-angle disorder are negatively correlated with the substrate temperature. All three films have a loss tangent below $10^{-5}$ for a resonator energy of $10^5$ photons, at 120 mK and 4-7 GHz. This makes these films promising for microwave kinetic inductance detectors and on-chip millimeter-submilimeter filters.</summary>
+    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-12-14T16:42:24Z</published>
+    <arxiv:comment>Presented at the SPIE Astronomical Telescopes + Instrumentation 2020. Full published paper, poster and video available at https://doi.org/10.1117/12.2562233</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.IM"/>
+    <arxiv:journal_ref>Journal of Astronomical Telescopes, Instruments, and Systems 8 (2022) 028006</arxiv:journal_ref>
+    <author>
+      <name>Bruno T. Buijtendorp</name>
+    </author>
+    <author>
+      <name>Juan Bueno</name>
+    </author>
+    <author>
+      <name>David J. Thoen</name>
+    </author>
+    <author>
+      <name>Vignesh Murugesan</name>
+    </author>
+    <author>
+      <name>Paolo M. Sberna</name>
+    </author>
+    <author>
+      <name>Jochem J. A. Baselmans</name>
+    </author>
+    <author>
+      <name>Sten Vollebregt</name>
+    </author>
+    <author>
+      <name>Akira Endo</name>
+    </author>
+    <arxiv:doi>10.1117/1.JATIS.8.2.028006</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1117/1.JATIS.8.2.028006" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.13285v1</id>
+    <title>Low-loss Nb on Si superconducting resonators from a dual-use spintronics deposition chamber and with acid-free post-processing</title>
+    <updated>2025-03-17T15:37:37Z</updated>
+    <link href="https://arxiv.org/abs/2503.13285v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.13285v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Magnetic impurities are known to degrade superconductivity. For this reason, physical vapor deposition chambers that have previously been used for magnetic materials have generally been avoided for making high-quality superconducting resonator devices. In this article, we show by example that such chambers can be used: with Nb films sputtered in a chamber that continues to be used for magnetic materials, we demonstrate compact (3 μm gap) coplanar waveguide resonators with low-power internal quality factors near one million. We achieve this using a resist strip bath with no post-fabrication acid treatment, which results in performance comparable to previous strip baths with acid treatments. We also find evidence that this improved resist strip bath provides a better surface chemical template for post-fabrication hydrogen fluoride processing. These results are consistent across three Si substrate preparation methods, including a \SI{700}{\celsius} anneal.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-17T15:37:37Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Maciej W. Olszewski</name>
+    </author>
+    <author>
+      <name>Jadrien T. Paustian</name>
+    </author>
+    <author>
+      <name>Tathagata Banerjee</name>
+    </author>
+    <author>
+      <name>Haoran Lu</name>
+    </author>
+    <author>
+      <name>Jorge L. Ramirez</name>
+    </author>
+    <author>
+      <name>Nhi Nguyen</name>
+    </author>
+    <author>
+      <name>Kiichi Okubo</name>
+    </author>
+    <author>
+      <name>Rohit Pant</name>
+    </author>
+    <author>
+      <name>Aleksandra B. Biedron</name>
+    </author>
+    <author>
+      <name>Daniel C. Ralph</name>
+    </author>
+    <author>
+      <name>Christopher J. K. Richardson</name>
+    </author>
+    <author>
+      <name>Gregory D. Fuchs</name>
+    </author>
+    <author>
+      <name>Corey Rae H. McRae</name>
+    </author>
+    <author>
+      <name>Ivan V. Pechenezhskiy</name>
+    </author>
+    <author>
+      <name>B. L. T. Plourde</name>
+    </author>
+    <author>
+      <name>Valla Fatemi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2110.03500v1</id>
+    <title>Hydrogenated Amorphous Silicon Carbide: A Low-loss Deposited Dielectric for Microwave to Submillimeter Wave Superconducting Circuits</title>
+    <updated>2021-10-07T14:36:01Z</updated>
+    <link href="https://arxiv.org/abs/2110.03500v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2110.03500v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Low-loss deposited dielectrics will benefit superconducting devices such as integrated superconducting spectrometers, superconducting qubits and kinetic inductance parametric amplifiers. Compared with planar structures, multi-layer structures such as microstrips are more compact and eliminate radiation loss at high frequencies. Multi-layer structures are most easily fabricated with deposited dielectrics, which typically exhibit higher dielectric loss than crystalline dielectrics. We measured the sub-kelvin and low-power microwave and mm-submm wave dielectric loss of hydrogenated amorphous silicon carbide (a-SiC:H), using a superconducting chip with NbTiN/a-SiC:H/NbTiN microstrip resonators. We deposited the a-SiC:H by plasma-enhanced chemical vapor deposition at a substrate temperature of 400°C. The a-SiC:H has a mm-submm loss tangent ranging from $0.80 \pm 0.01 \times 10^{-4}$ to $1.43 \pm 0.04 \times 10^{-4}$ in the range of 270 to 385 GHz. The microwave loss tangent is $3.2 \pm 0.2 \times 10^{-5}$. These are the lowest low-power sub-kelvin loss tangents that have been reported for microstrip resonators at mm-submm and microwave frequencies. We observe that the loss tangent increases with frequency. The a-SiC:H films are free of blisters and have low stress: $-$20 MPa compressive at 200 nm thickness to 60 MPa tensile at 1000 nm thickness.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-10-07T14:36:01Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>Phys. Rev. Appl. 18 (2022) 064003</arxiv:journal_ref>
+    <author>
+      <name>B. T. Buijtendorp</name>
+    </author>
+    <author>
+      <name>S. Vollebregt</name>
+    </author>
+    <author>
+      <name>K. Karatsu</name>
+    </author>
+    <author>
+      <name>D. J. Thoen</name>
+    </author>
+    <author>
+      <name>V. Murugesan</name>
+    </author>
+    <author>
+      <name>K. Kouwenhoven</name>
+    </author>
+    <author>
+      <name>S. Hähnle</name>
+    </author>
+    <author>
+      <name>J. J. A. Baselmans</name>
+    </author>
+    <author>
+      <name>A. Endo</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevApplied.18.064003</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevApplied.18.064003" title="doi"/>
+  </entry>
+</feed>

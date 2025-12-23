@@ -1,0 +1,97 @@
+TERMS: quantum, entropy, electron
+COLORS: blue, red, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/qRoUeso/iGSRUKoy3xfYPCRq/hg</id>
+  <title>arXiv Query: search_query=all:quantum AND all:entropy AND all:electron&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:06:12Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:entropy+AND+all:electron)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>693</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2104.13136v1</id>
+    <title>Multi-particle interference in an electronic Mach-Zehnder interferometer</title>
+    <updated>2021-04-27T12:30:49Z</updated>
+    <link href="https://arxiv.org/abs/2104.13136v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2104.13136v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The recent development of dynamic single-electron sources makes it possible to observe and manipulate the quantum properties of individual charge carriers in mesoscopic circuits. Here, we investigate multi-particle effects in an electronic Mach-Zehnder interferometer driven by dynamic voltage pulses. To this end, we employ a Floquet scattering formalism to evaluate the interference current and the visibility in the outputs of the interferometer. An injected multi-particle state can be described by its first-order correlation function, which we decompose into a sum of elementary correlation functions that each represent a single particle. Each particle in the pulse contributes independently to the interference current, while the visibility (determined by the maximal interference current) exhibits a Fraunhofer-like diffraction pattern caused by the multi-particle interference between different particles in the pulse. For a sequence of multi-particle pulses, the visibility resembles the diffraction pattern from a grid, with the role of the grid and the spacing between the slits being played by the pulses and the time delay between them. Our findings may be observed in future experiments by injecting multi-particle pulses into an electronic Mach-Zehnder interferometer.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-04-27T12:30:49Z</published>
+    <arxiv:comment>21 pages, 5 figures, contribution to special issue in Entropy on electron quantum optics</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Entropy 23, 736 (2021)</arxiv:journal_ref>
+    <author>
+      <name>Janne Kotilahti</name>
+    </author>
+    <author>
+      <name>Pablo Burset</name>
+    </author>
+    <author>
+      <name>Michael Moskalets</name>
+    </author>
+    <author>
+      <name>Christian Flindt</name>
+    </author>
+    <arxiv:doi>10.3390/e23060736</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/e23060736" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2012.02658v2</id>
+    <title>Measurement of entropy and quantum coherence properties of two type-I entangled photonic qubits</title>
+    <updated>2021-06-20T18:25:12Z</updated>
+    <link href="https://arxiv.org/abs/2012.02658v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2012.02658v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Using the type-I SPDC process in BBO nonlinear crystal (NLC), we generate a polarization-entangled state near to the maximally-entangled Bell-state with high-visibility (high-brightness) $ 98.50 \pm 1.33 ~ \% $ ($ 87.71 \pm 4.45 ~ \% $) for HV (DA) basis. We calculate the CHSH version of the Bell inequality, as a nonlocal realism test, and find a strong violation from the classical physics or any hidden variable theory (HVT), $ S= 2.71 \pm 0.10 $. Via measuring the coincidence count (CC) rate in the SPDC process, we obtain the quantum efficiency of single-photon detectors (SPDs) around $ (25.5\pm 3.4) \% $, which is in good agreement to their manufacturer company. As expected, we verify the linear dependency of the CC rate vs. pump power of input CW-laser, which may yield to find the effective second-order susceptibility crystal. Using the theory of the measurement of qubits, includes a tomographic reconstruction of quantum states due to the linear set of 16 polarization-measurement, together with a maximum-likelihood-technique (MLT), which is based on the numerical optimization, we calculate the physical non-negative definite density matrices, which implies on the non-separability and entanglement of prepared state. By having the maximum likelihood density operator, we calculate precisely the entanglement measures such as Concurrence, entanglement of formation, tangle, logarithmic negativity, and different entanglement entropies such as linear entropy, Von-Neumann entropy, and Renyi 2-entropy. Finally, this high-brightness and low-rate entangled photons source can be used for short-range quantum measurements in the Lab.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-12-04T15:34:02Z</published>
+    <arxiv:comment>This is the first quantum optics &amp; Entanglement experiment in IRAN using BBO NLC; 15 pages; 3 Tables and 4 figures. Accepted in Optical and Quantum Electronics</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Opt. Quant. Electron. 53, 378 (2021)</arxiv:journal_ref>
+    <author>
+      <name>Ali Motazedifard</name>
+    </author>
+    <author>
+      <name>Seyed Ahmad Madani</name>
+    </author>
+    <author>
+      <name>N. S. Vayaghan</name>
+    </author>
+    <arxiv:doi>10.1007/s11082-021-03067-8</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s11082-021-03067-8" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.04208v1</id>
+    <title>White Gaussian Noise Generation with a Vacuum State Quantum Entropy Source Chip</title>
+    <updated>2025-03-06T08:35:14Z</updated>
+    <link href="https://arxiv.org/abs/2503.04208v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.04208v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>White Gaussian noise (WGN) is widely used in communication system testing, physical modeling, Monte Carlo simulations, and electronic countermeasures. WGN generation relies heavily on random numbers. In this work, we present an implementation of WGN generation utilizing a quantum entropy source chip for the first time. A photonic integrated chip based on the vacuum state scheme generates quantum random numbers at a real-time output rate of up to 6.4 Gbps. A hardware-based inversion method converts uniform quantum random numbers into Gaussian random numbers using the inverse cumulative distribution function. Subsequently, the WGN signal is generated through a digital-to-analog converter and amplifiers. The WGN generator is characterized by a bandwidth of 230 MHz, a crest factor as high as 6.2, and an adjustable peak-to-peak range of 2.5 V. This work introduces a novel approach to WGN generation with information-theory provable quantum random numbers to enhance system security.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-06T08:35:14Z</published>
+    <arxiv:comment>7 pages, 4 figures. Accepted by IEEE Journal of Selected Topics in Quantum Electronics</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Guan-Ru Qiao</name>
+    </author>
+    <author>
+      <name>Bing Bai</name>
+    </author>
+    <author>
+      <name>Zi-Xuan Weng</name>
+    </author>
+    <author>
+      <name>Jia-Ying Wu</name>
+    </author>
+    <author>
+      <name>You-Qi Nie</name>
+    </author>
+    <author>
+      <name>Jun Zhang</name>
+    </author>
+    <arxiv:doi>10.1109/JSTQE.2025.3547839</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/JSTQE.2025.3547839" title="doi"/>
+  </entry>
+</feed>

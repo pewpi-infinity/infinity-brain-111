@@ -1,0 +1,44 @@
+TERMS: ionization, wavefunction, boson
+COLORS: green, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ggFet/lGrOp+TDHkLicoJVTrDy8</id>
+  <title>arXiv Query: search_query=all:ionization AND all:wavefunction AND all:boson&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:29:25Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:ionization+AND+(all:wavefunction+AND+all:boson)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1202.3447v1</id>
+    <title>How does an interacting many-body system tunnel through a potential barrier to open space?</title>
+    <updated>2012-02-15T21:18:52Z</updated>
+    <link href="https://arxiv.org/abs/1202.3447v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1202.3447v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The tunneling process in a many-body system is a phenomenon which lies at the very heart of quantum mechanics. It appears in nature in the form of alpha-decay, fusion and fission in nuclear physics, photoassociation and photodissociation in biology and chemistry. A detailed theoretical description of the decay process in these systems is a very cumbersome problem, either because of very complicated or even unknown interparticle interactions or due to a large number of constitutent particles. In this work, we theoretically study the phenomenon of quantum many-body tunneling in a more transparent and controllable physical system, in an ultracold atomic gas. We analyze a full, numerically exact many-body solution of the Schrödinger equation of a one-dimensional system with repulsive interactions tunneling to open space. We show how the emitted particles dissociate or fragment from the trapped and coherent source of bosons: the overall many-particle decay process is a quantum interference of single-particle tunneling processes emerging from sources with different particle numbers taking place simultaneously. The close relation to atom lasers and ionization processes allows us to unveil the great relevance of many-body correlations between the emitted and trapped fractions of the wavefunction in the respective processes.</summary>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-02-15T21:18:52Z</published>
+    <arxiv:comment>18 pages, 4 figures (7 pages, 2 figures supplementary information)</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.quant-gas"/>
+    <arxiv:journal_ref>Proc. Natl. Acad. Sci. USA 109, 13521 (2012)</arxiv:journal_ref>
+    <author>
+      <name>Axel U. J. Lode</name>
+    </author>
+    <author>
+      <name>Alexej I. Streltsov</name>
+    </author>
+    <author>
+      <name>Kaspar Sakmann</name>
+    </author>
+    <author>
+      <name>Ofir E. Alon</name>
+    </author>
+    <author>
+      <name>Lorenz S. Cederbaum</name>
+    </author>
+    <arxiv:doi>10.1073/pnas.1201345109</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1073/pnas.1201345109" title="doi"/>
+  </entry>
+</feed>

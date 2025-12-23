@@ -1,0 +1,68 @@
+TERMS: lattice, spin, probability
+COLORS: orange, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/sK+nvrsp/KA3wBdcJq7Gfkmmle4</id>
+  <title>arXiv Query: search_query=all:lattice AND all:spin AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:15:19Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:spin+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>629</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/0811.0464v2</id>
+    <title>Locations of multicritical points for spin glasses on regular lattices</title>
+    <updated>2009-03-03T07:33:43Z</updated>
+    <link href="https://arxiv.org/abs/0811.0464v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0811.0464v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We present an analysis leading to precise locations of the multicritical points for spin glasses on regular lattices. The conventional technique for determination of the location of the multicritical point was previously derived using a hypothesis emerging from duality and the replica method. In the present study, we propose a systematic technique, by an improved technique, giving more precise locations of the multicritical points on the square, triangular, and hexagonal lattices by carefully examining relationship between two partition functions related with each other by the duality. We can find that the multicritical points of the $\pm J$ Ising model are located at $p_c = 0.890813$ on the square lattice, where $p_c$ means the probability of $J_{ij} = J(&gt;0)$, at $p_c = 0.835985$ on the triangular lattice, and at $p_c = 0.932593$ on the hexagonal lattice. These results are in excellent agreement with recent numerical estimations.</summary>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-11-04T10:13:41Z</published>
+    <arxiv:comment>17pages, this is the published version with some minnor corrections. Previous title was "Precise locations of multicritical points for spin glasses on regular lattices"</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.dis-nn"/>
+    <arxiv:journal_ref>Phys. Rev. E 79, (2009) 021129</arxiv:journal_ref>
+    <author>
+      <name>Masayuki Ohzeki</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevE.79.021129</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevE.79.021129" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2308.06711v2</id>
+    <title>Instability of the $U(1)$ spin liquid with a large spinon Fermi surface in the Heisenberg-ring exchange model on the triangular lattice</title>
+    <updated>2023-11-16T05:38:10Z</updated>
+    <link href="https://arxiv.org/abs/2308.06711v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.06711v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>It is widely believed that the $U(1)$ spin liquid with a large spinon Fermi surface(SFS state) can be realized in the spin-$\frac{1}{2}$ $J_{1}-J_{4}$ model on the triangular lattice, when the ring exchange coupling $J_{4}$ is sufficiently strong to suppress the 120 degree magnetic ordered state. This belief is supported by many variational studies on this model and seems to be consistent with the observations on the organic spin liquid materials such as $κ$-(BEDT-TTF)$_{2}$Cu$_{2}$(CN)$_{3}$ and EtMe$_{3}$Sb[Pd(dmit)$_{2}$]$_{2}$, which are systems close to their Mott transition and thus have large $J_{4}$. Here we show through systematic variational search that such a state is never favored in the $J_{1}-J_{4}$ model on the triangular lattice. Instead, a state with broken spatial symmetry is favored in the most probable parameter regime for the SFS state and has an energy much lower than that of the SFS state and other proposed variational states. More specifically, we find that for $J_{4}\ge 0.09J_{1}$, the model favors a valence bond solid state with a $4\times6$ period in its local spin correlation pattern and has a variational energy that is about $5\%$ lower than that of the SFS state. This state is separated from the $π$-flux state for $J_{4}\le 0.045J_{1}$ by an intermediate symmetry breaking phase with a zigzag pattern in its local spin correlation. We find that the variational phase diagram we got is in qualitative agreement with that obtained from exact diagonalization on a $6\times6$ cluster.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-08-13T08:00:59Z</published>
+    <arxiv:comment>17 pages, 18 figures, the spin structure factor of the zigzag phase provided</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>PhysRevB.108.235105(2023)</arxiv:journal_ref>
+    <author>
+      <name>Jianhua Yang</name>
+    </author>
+    <author>
+      <name>Tao Li</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.108.235105</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.108.235105" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1609.02229v2</id>
+    <title>Quantum lattice gas model of spin-2 Bose-Einstein condensates and closed-form analytical continuation of nonlinear interactions in spin-2 superfluids</title>
+    <updated>2017-08-10T13:58:43Z</updated>
+    <link href="https://arxiv.org/abs/1609.02229v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1609.02229v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Presented is an unitary operator splitting method for handling the spin-density interaction in spinor Bose-Einstein condensates. The zero temperature behavior of a spinor BEC is given by mean field theory, where the Hamiltonian includes a nonlinear hyperfine spin interaction. This hyperfine interaction has a diagonal probability-density term (leading to the usual Gross-Pitaevskii type equation of motion) but also has a nondiagonal spin-density term. Since the F=2 spinor BEC (spin-2 BEC) has a non-Abelian superfluid phase (nonperturbative cyclic phase in the strong spin-density coupling regime), an infinite-order expansion of the quantum evolution operator is needed for quantum simulation applications. An infinite-order expansion, obtained by analytical continuation and expressed in analytically closed form, for the spin-2 BEC is presented.</summary>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-09-08T00:06:08Z</published>
+    <arxiv:comment>Version of the quantum lattice gas algorithm with an added spin-singlet density interaction, a more complete description of the quantum algorithm, and with a title update</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.quant-gas"/>
+    <author>
+      <name>Jeffrey Yepez</name>
+    </author>
+  </entry>
+</feed>

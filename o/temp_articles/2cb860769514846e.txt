@@ -1,0 +1,138 @@
+TERMS: quantum, superconductivity, neutrino
+COLORS: blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/BqmqT/E9TQIHlKi/wdaVfywSnGM</id>
+  <title>arXiv Query: search_query=all:quantum AND all:superconductivity AND all:neutrino&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:07:57Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:superconductivity+AND+all:neutrino)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>55</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2010.09603v1</id>
+    <title>Limits on the Existence of sub-MeV Sterile Neutrinos from the Decay of $^7$Be in Superconducting Quantum Sensors</title>
+    <updated>2020-10-19T15:36:02Z</updated>
+    <link href="https://arxiv.org/abs/2010.09603v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2010.09603v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Sterile neutrinos are natural extensions to the standard model of particle physics and provide a possible portal to the dark sector. We report a new search for the existence of sub-MeV sterile neutrinos using the decay-momentum reconstruction technique in the decay of $^7$Be. The experiment measures the total energy of the $^7$Li daughter atom from the electron capture decay of $^7$Be implanted into sensitive superconducting tunnel junction (STJ) quantum sensors. This first experiment presents data from a single STJ operated at a low count rate for a net total of 28 days, and provides exclusion limits on sterile neutrinos in the mass range from 100 to 850 keV that improve upon previous work by up to an order of magnitude.</summary>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-10-19T15:36:02Z</published>
+    <arxiv:comment>7 pages. 3 figures. Submitted to Physical Review Letters</arxiv:comment>
+    <arxiv:primary_category term="nucl-ex"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 126, 021803 (2021)</arxiv:journal_ref>
+    <author>
+      <name>S. Friedrich</name>
+    </author>
+    <author>
+      <name>G. B. Kim</name>
+    </author>
+    <author>
+      <name>C. Bray</name>
+    </author>
+    <author>
+      <name>R. Cantor</name>
+    </author>
+    <author>
+      <name>J. Dilling</name>
+    </author>
+    <author>
+      <name>S. Fretwell</name>
+    </author>
+    <author>
+      <name>J. A. Hall</name>
+    </author>
+    <author>
+      <name>A. Lennarz</name>
+    </author>
+    <author>
+      <name>V. Lordi</name>
+    </author>
+    <author>
+      <name>P. Machule</name>
+    </author>
+    <author>
+      <name>D. McKeen</name>
+    </author>
+    <author>
+      <name>X. Mougeot</name>
+    </author>
+    <author>
+      <name>F. Ponce</name>
+    </author>
+    <author>
+      <name>C. Ruiz</name>
+    </author>
+    <author>
+      <name>A. Samanta</name>
+    </author>
+    <author>
+      <name>W. K. Warburton</name>
+    </author>
+    <author>
+      <name>K. G. Leach</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.126.021803</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.126.021803" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2212.14170v2</id>
+    <title>Simulating neutrino oscillations on a superconducting qutrit</title>
+    <updated>2023-02-10T13:11:15Z</updated>
+    <link href="https://arxiv.org/abs/2212.14170v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2212.14170v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Precise measurements of parameters in the PMNS framework might lead to new physics beyond the Standard Model. However, they are incredibly challenging to determine in neutrino oscillation experiments. Quantum simulations can be a powerful supplementary tool to study these phenomenologies. In today's noisy quantum hardware, encoding neutrinos in a multi-qubit system requires a redundant basis and tricky entangling gates. We encode a three-flavor neutrino in a superconducting qutrit and study its oscillations using PMNS theory with time evolution expressed in terms of single qutrit gates. The qutrit is engineered from the multi-level structure of IBM transmon devices. High-fidelity gate control and readout are fine-tuned using programming microwave pulses using a high-level language. Our quantum simulations on real hardware match well to analytical calculations in three oscillation cases: vacuum, interaction with matter, and CP-violation.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-12-29T04:20:37Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Ha C. Nguyen</name>
+    </author>
+    <author>
+      <name>Bao G. Bach</name>
+    </author>
+    <author>
+      <name>Tien D. Nguyen</name>
+    </author>
+    <author>
+      <name>Duc M. Tran</name>
+    </author>
+    <author>
+      <name>Duy V. Nguyen</name>
+    </author>
+    <author>
+      <name>Hung Q. Nguyen</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.108.023013</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.108.023013" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/0605092v2</id>
+    <title>Phase space and quark mass effects in neutrino emissions in a color superconductor</title>
+    <updated>2006-06-30T01:52:08Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/0605092v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/0605092v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We study the phase space for neutrino emissions with massive quarks in direct Urca processes in normal and color superconducting quark matter. We derive in QCD and the NJL model the Fermi momentum reduction resulting from Fermi liquid properties which opens up the phase space for neutrino emissions. The relation between the Fermi momentum and chemical potential is found to be $p_{F}\approxμ(1-κ)$ with $κ$ depending on coupling constants. We find in the weak coupling regime that $κ$ is a monotonously increasing function of the chemical potential. This implies quenched phase space for neutrino emissions at low baryon densities. We calculate neutrino emissivities with massive quarks in a spin-one color superconductor. The quark mass corrections are found to be of the same order as the contributions in the massless case, which will bring sizable effects on the cooling behavior of compact stars.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-05-09T01:45:21Z</published>
+    <arxiv:comment>RevTex 4, 18 pages, 4 figures. An error in the third line of Eq. (13) is corrected. The definition of the coefficients B in Eq. (12) is modified. The physical solution of κ(μ) is fixed. The conclusion about the trend of phase space for neutrino emissions varied with the chemical potential is more definite than previous version. Phys. Rev. D accepted version</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys.Rev. D74 (2006) 014021</arxiv:journal_ref>
+    <author>
+      <name>Qun Wang</name>
+    </author>
+    <author>
+      <name>Zhi-gang Wang</name>
+    </author>
+    <author>
+      <name>Jian Wu</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.74.014021</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.74.014021" title="doi"/>
+  </entry>
+</feed>

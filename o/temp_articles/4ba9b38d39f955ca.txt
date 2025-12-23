@@ -1,0 +1,60 @@
+TERMS: hydrogen, electron, crystal, muon
+COLORS: purple, green, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/hk8M+CnJ9crxsxRdG6+x6X7eTlY</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:electron AND all:crystal AND all:muon&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:55:28Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:electron+AND+(all:crystal+AND+all:muon))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/9801269v1</id>
+    <title>Charge screening and magnetic anisotropy in metallic rare-earth systems</title>
+    <updated>1998-01-26T16:55:59Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/9801269v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/9801269v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The calculation of magnetic anisotropy constants is performed beyond the point charge model for a continuous charge density distribution of screening conduction electrons. An important role of the non-uniform electron density, in particular, of the Friedel oscillations, in the formation of crystal field is demonstrated. Such effects can modify strongly the effective ion (impurity) charge and even change its sign. This enables one to justify the anion model, which is often used at discussing experimental data on hydrogen-containing systems. Possible applications to the pure rare-earth metals and RCo5 compounds are discussed. The deformation of magnetic structure near the interstitial positive muon owing to the strong local anisotropy, and the corresponding contribution to the dipole field at the muon are considered.</summary>
+    <category term="cond-mat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1998-01-26T16:55:59Z</published>
+    <arxiv:comment>10 pages, RevTeX, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat"/>
+    <arxiv:journal_ref>Phys. Rev. B, 57 (1998) 2697</arxiv:journal_ref>
+    <author>
+      <name>V. Yu. Irkhin</name>
+    </author>
+    <author>
+      <name>Yu. P. Irkhin</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.57.2697</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.57.2697" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.05513v1</id>
+    <title>Muonium state exchange dynamics in n-type Gallium Arsenide</title>
+    <updated>2023-05-09T14:59:16Z</updated>
+    <link href="https://arxiv.org/abs/2305.05513v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.05513v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Muonium (Mu), a pseudo-isotope atom of hydrogen with a positively charged muon at the place of the proton, can form in a wide range of semiconductor materials. They can appear in different states, depending on their charge state and microscopic site within a crystal lattice. After the Mu formation, they undergo interactions with free charge carriers, electronic spins, and other Mu sites, and form a dynamic network of state exchange. We identified the model of Mu dynamics in n-type Gallium Arsenide using the density matrix simulation and photoexcited muon spin spectroscopy technique. Fitting to the dark and illuminated $μ$SR data provided transition rates between Mu states, which in turn showed the underlying mechanism of the $μ$SR time spectra. Deduced capture/scattering cross sections of the Mu states reflected the microscopic dynamics of Mu. Illumination studies enable us to measure interactions between Mu and generated minority carriers, which are unavailable in dark measurements. The methodology we developed in this study can be applied to other semiconductor systems for a deeper microscopic understanding of the Mu state exchange dynamics.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-09T14:59:16Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>K. Yokoyama</name>
+    </author>
+    <author>
+      <name>J. S. Lord</name>
+    </author>
+    <author>
+      <name>P. W. Mengyan</name>
+    </author>
+    <author>
+      <name>M. R. Goeks</name>
+    </author>
+    <author>
+      <name>R. L. Lichti</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,128 @@
+TERMS: frequency, vapor, spin
+COLORS: green, green, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/U6s8+jsRPLAf8uZXQ8J5eGf8nds</id>
+  <title>arXiv Query: search_query=all:frequency AND all:vapor AND all:spin&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:10:50Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:vapor+AND+all:spin)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>69</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2407.00184v2</id>
+    <title>Anomalous high-density spin noise in a strongly interacting atomic vapor</title>
+    <updated>2024-11-25T13:46:49Z</updated>
+    <link href="https://arxiv.org/abs/2407.00184v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.00184v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Spin noise spectroscopy (SNS) has become a mainstream approach to probe the dynamics of a spin ensemble in and out of equilibrium. Current models describing spin noise in interacting samples are based on an effective single particle dynamics in a bath. Here, we report the observation of a strong interaction regime which significantly affects the spin dynamics. Performing SNS in a dense Rubidium vapor, we observe anomalous distortions of the usual spin noise spectra, which we attribute to resonant dipole-dipole interaction within the ensemble. As the density of the vapor increases, we observe a dramatic broadening of the usual resonances and the emergence of an unexpected extra low-frequency noise component. We use a simple microscopic two-body numerical model to reproduce and discuss these observations. Our results suggests that the spectra cannot be described by usual models of single-atom dynamics and arise from the evolution of interacting pair of atoms. This work opens the way to the study of many-body spin noise or higher order correlators in atomic vapors using SNS.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-28T18:41:23Z</published>
+    <arxiv:comment>10 pages, 6 figures + Supplementary information</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>J. Delpy</name>
+    </author>
+    <author>
+      <name>N. Fayard</name>
+    </author>
+    <author>
+      <name>F. Bretenaker</name>
+    </author>
+    <author>
+      <name>F. Goldfarb</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevResearch.7.013298</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevResearch.7.013298" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2308.13090v2</id>
+    <title>Inter-species spin-noise correlations in hot atomic vapors</title>
+    <updated>2023-10-15T10:01:28Z</updated>
+    <link href="https://arxiv.org/abs/2308.13090v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.13090v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We report an experimental and theoretical study of spin noise correlations in a $^{87}$Rb-$^{133}$Cs unpolarized alkali-metal vapor dominated by spin-exchange collisions. We observe strong unequal-time inter-species correlations and account for these with a first-principles theoretical model. Since the two atomic species have different spin precession frequencies, the dual-species vapor enables the use of an additional experimental handle, the applied magnetic field, for untangling various sub-types of spin correlations. In particular, the measured cross-correlation and auto-correlation spectra shed light on a number of spin-dynamic effects involving intra-atom, inter-atom, intra-species and inter-species correlations. Cross-correlation coefficients exceeding $60\%$ have been observed at low-magnetic fields, where the two spin species couple strongly via spin-exchange collisions. The understanding of such spontaneously generated correlations can motivate the design of quantum-enhanced measurements with single or multi-species spin-polarized alkali-metal vapors used in quantum sensing applications.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-08-24T21:23:13Z</published>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>K. Mouloudakis</name>
+    </author>
+    <author>
+      <name>F. Vouzinas</name>
+    </author>
+    <author>
+      <name>A. Margaritakis</name>
+    </author>
+    <author>
+      <name>A. Koutsimpela</name>
+    </author>
+    <author>
+      <name>G. Mouloudakis</name>
+    </author>
+    <author>
+      <name>V. Koutrouli</name>
+    </author>
+    <author>
+      <name>M. Skotiniotis</name>
+    </author>
+    <author>
+      <name>G. P. Tsironis</name>
+    </author>
+    <author>
+      <name>M. Loulakis</name>
+    </author>
+    <author>
+      <name>M. W. Mitchell</name>
+    </author>
+    <author>
+      <name>G. Vasilakis</name>
+    </author>
+    <author>
+      <name>I. K. Kominis</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.108.052822</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.108.052822" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1906.03163v2</id>
+    <title>Spin-alignment noise in atomic vapor</title>
+    <updated>2019-12-25T14:36:01Z</updated>
+    <link href="https://arxiv.org/abs/1906.03163v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1906.03163v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the conventional spin noise spectroscopy, the probe laser light monitors fluctuations of the spin orientation of a paramagnet revealed as fluctuations of its gyrotropy, i.e., circular birefringence. For spins larger than 1/2, there exists spin arrangement of a higher order---the spin alignment---which also exhibits spontaneous fluctuations. We show theoretically and experimentally that the alignment fluctuations manifest themselves as the noise of the linear birefringence. In a magnetic field, the spin-alignment fluctuations, in contrast to those of spin orientation, show up as the noise of the probe-beam ellipticity at the double Larmor frequency, with the most efficient geometry of its observation being the Faraday configuration with the light propagating along the magnetic field. We have detected the spin-alignment noise in a cesium-vapor cell probed at the wavelength of D2 line (852.35 nm). The magnetic-field and polarization dependence of the ellipticity noise are in full agreement with the developed theory.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-06-07T15:33:04Z</published>
+    <arxiv:comment>6 pages, 4 figures, figure restyle, new references</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <arxiv:journal_ref>Phys. Rev. Research 2, 012008 (2020)</arxiv:journal_ref>
+    <author>
+      <name>A. A. Fomin</name>
+    </author>
+    <author>
+      <name>M. Yu. Petrov</name>
+    </author>
+    <author>
+      <name>G. G. Kozlov</name>
+    </author>
+    <author>
+      <name>M. M. Glazov</name>
+    </author>
+    <author>
+      <name>I. I. Ryzhov</name>
+    </author>
+    <author>
+      <name>M. V. Balabas</name>
+    </author>
+    <author>
+      <name>V. S. Zapasskii</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevResearch.2.012008</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevResearch.2.012008" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,83 @@
+TERMS: hydrogen, crystal, probability
+COLORS: purple, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/p5mt6cfuCFWbmbGzBmnTa26n7mA</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:crystal AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:03:38Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:crystal+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>19</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2309.13673v1</id>
+    <title>Alloy Informatics through Ab Initio Charge Density Profiles: Case Study of Hydrogen Effects in Face-Centered Cubic Crystals</title>
+    <updated>2023-09-24T15:43:51Z</updated>
+    <link href="https://arxiv.org/abs/2309.13673v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2309.13673v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Materials design has traditionally evolved through trial-error approaches, mainly due to the non-local relationship between microstructures and properties such as strength and toughness. We propose 'alloy informatics' as a machine learning based prototype predictive approach for alloys and compounds, using electron charge density profiles derived from first-principle calculations. We demonstrate this framework in the case of hydrogen interstitials in face-centered cubic crystals, showing that their differential electron charge density profiles capture crystal properties and defect-crystal interaction properties. Radial Distribution Functions (RDFs) of defect-induced differential charge density perturbations highlight the resulting screening effect, and, together with hydrogen Bader charges, strongly correlate to a large set of atomic properties of the metal species forming the bulk crystal. We observe the spontaneous emergence of classes of charge responses while coarse-graining over crystal compositions. Nudge-Elastic-Band calculations show that RDFs and charge features also connect to hydrogen migration energy barriers between interstitial sites. Unsupervised machine-learning on RDFs supports classification, unveiling compositional and configurational non-localities in the similarities of the perturbed densities. Electron charge density perturbations may be considered as bias-free descriptors for a large variety of defects.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.data-an" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-09-24T15:43:51Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>Acta Materialia Volume 268, 15 April 2024, 119773</arxiv:journal_ref>
+    <author>
+      <name>Dario Massa</name>
+    </author>
+    <author>
+      <name>Efthimios Kaxiras</name>
+    </author>
+    <author>
+      <name>Stefanos Papanikolaou</name>
+    </author>
+    <arxiv:doi>10.1016/j.actamat.2024.119773</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.actamat.2024.119773" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.01301v1</id>
+    <title>Designing Hydrogen Permeation Barriers in Titanium Aluminium Nitride through First Principles Density Functional Theory Calculations</title>
+    <updated>2024-10-02T07:50:07Z</updated>
+    <link href="https://arxiv.org/abs/2410.01301v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.01301v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This study investigates hydrogen permeation in titanium aluminium nitride (TiAlN) using ab initio density functional theory (DFT) for cubic and hexagonal crystal structures. Despite the significance of hydrogen barriers, the potential of TiAlN has not been fully explored. We analyzed site specificity, temperature-dependent insertion, and atomic hydrogen migration path energies. Our research highlights the decisive role of crystallographic structure over chemical composition in designing materials resistant to hydrogen absorption. However, once absorbed, hydrogen diffusion is governed by the local chemical environment. Specifically, hydrogen migration through an Al-N plane requires more energy than through Ti-N, which affects the overall diffusion process. We found hydrogen absorption is highly endothermic, with insertion energies from 50 to 320 kJ/mol of hydrogen atom, indicating low uptake probability at ambient conditions. Higher temperatures further increase the energy required, making absorption less favourable. We also identified substantial energy barriers for hydrogen migration, particularly in the hexagonal structure, with peaks up to 276 kJ/mol, indicating a very low probability of migration. These findings underscore the exceptional resistance of TiAlN to hydrogen permeation, making it a promising candidate for high-pressure applications such as hydrogen storage and nuclear reactors.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-02T07:50:07Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Cem Örnek</name>
+    </author>
+    <author>
+      <name>Rainer Fechte-Heinen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0406025v1</id>
+    <title>Revised crystal structure model of Li2NH by neutron powder diffraction</title>
+    <updated>2004-06-01T13:54:17Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0406025v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0406025v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We performed neutron powder diffraction experiments on lithium imide Li2NH, and have proposed a revised crystal structure model. Li2NH has a face-centered cubic structure with a partially occupied hydrogen site. Of the possible crystal structure models that represent the obtained data, the model with F-43m symmetry having hydrogen atoms at the 16e site, in which only one hydrogen atom randomly occupies one of the four hydrogen positions around a nitrogen atom, is most probable. For this model, the distance between the nearest nitrogen and hydrogen atoms is 0.82(6)A, and the angle between H-N-H is 109.5deg., which are close to those of the lithium amide LiNH2, indicating that the structural circumstances around nitrogen and hydrogen are similar in Li2NH and LiNH2.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-06-01T13:54:17Z</published>
+    <arxiv:comment>6 pages 5figures 1 Table submitted to PRB</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>K. Ohoyama</name>
+    </author>
+    <author>
+      <name>Y. Nakamori</name>
+    </author>
+    <author>
+      <name>S. Orimo</name>
+    </author>
+    <author>
+      <name>K. Yamada</name>
+    </author>
+    <arxiv:doi>10.1143/JPSJ.74.483</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1143/JPSJ.74.483" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,80 @@
+TERMS: lattice, superconductivity, plasma
+COLORS: orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/hbgXSqwl92gWk17yghYKGM6Q2B4</id>
+  <title>arXiv Query: search_query=all:lattice AND all:superconductivity AND all:plasma&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:15:01Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:superconductivity+AND+all:plasma)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>64</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2207.12443v2</id>
+    <title>Superconducting transition temperature of the Bose one-component plasma</title>
+    <updated>2023-06-08T04:00:26Z</updated>
+    <link href="https://arxiv.org/abs/2207.12443v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2207.12443v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present results of first principle numerical simulations of the Bose one-component plasma, i.e., a Bose gas with pairwise Coulomb interactions among particles and a uniform neutralizing background. We compute the superconducting transition temperature for a wide range of densities, in two and three dimensions, for both continuous and lattice versions of the model. Our results are of direct relevance to quantitative studies of bipolaron mechanisms of (high-temperature) superconductivity.</summary>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-07-25T18:00:53Z</published>
+    <arxiv:comment>5 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.quant-gas"/>
+    <author>
+      <name>Chao Zhang</name>
+    </author>
+    <author>
+      <name>Barbara Capogrosso-Sansone</name>
+    </author>
+    <author>
+      <name>Massimo Boninsegni</name>
+    </author>
+    <author>
+      <name>Nikolay V. Prokof'ev</name>
+    </author>
+    <author>
+      <name>Boris V. Svistunov</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.130.236001</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.130.236001" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1303.3490v1</id>
+    <title>Transmon-phonon coupling of plasma oscillations and lattice vibrations</title>
+    <updated>2013-03-14T15:59:40Z</updated>
+    <link href="https://arxiv.org/abs/1303.3490v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1303.3490v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the transmon qubit we expect from conservation of momentum and energy a coupling between the plasma oscillations and the vibrations of the underlying lattice. Specifically, the electron velocities and their kinetic energy density are boosted by the underlying lattice vibrations. We consider this effect in a representative transmon comprising two semi-circular superconducting charge islands joined by a Josephson junction. In particular, we solve the Fourier transform of a two-dimensional radial current density having inversion symmetry. The resulting spectral density is ohmic but also scales quadratically with the critical current I_c and logarithmically with the size of the transmon: J(w) ~ I_c^2 w log(kR). We make positive-definite Born-Markov approximations in a generalized Fermi's Golden Rule and estimate the phonon-induced dephasing rate is negligible compared to current experiments.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-03-14T15:59:40Z</published>
+    <arxiv:comment>6 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Andrew J. Skinner</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/9801216v1</id>
+    <title>Excitation of plasma oscillations by moving Josephson vortices in layered superconductors</title>
+    <updated>1998-01-21T14:40:31Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/9801216v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/9801216v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In the frame of an exactly solvable model we calculate electric and magnetic fields created by uniformly moving lattice of Josephson vortices driven by the transport current in the magnetic field parallel to conducting layers. The distribution of fields and currents is strongly modified at large velocities of the vortex lattice, plasma oscillations of superconducting electrons being excited by flux flow at low temperatures. This modifies the flux flow resistivity and results in interference features in I-V curves, thus regions of negative differential conductivity appear in which the uniform motion of the vortex lattice is not stable. The spectrum of electromagnetic radiation by moving vortices contains large peaks related to the excitation of plasma oscillations and to the Cherenkov radiation.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1998-01-21T14:40:31Z</published>
+    <arxiv:comment>7 pages, 2 postscript figures, Latex</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <arxiv:journal_ref>JETP Lett. 61 #12 (1997)</arxiv:journal_ref>
+    <author>
+      <name>S. N. Artemenko</name>
+      <arxiv:affiliation>Institute for Radioengineering and Electronics of Russian Academy of Sciences, Moscow, Russia</arxiv:affiliation>
+    </author>
+    <author>
+      <name>S. V. Remizov</name>
+      <arxiv:affiliation>Institute for Radioengineering and Electronics of Russian Academy of Sciences, Moscow, Russia</arxiv:affiliation>
+    </author>
+  </entry>
+</feed>

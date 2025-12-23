@@ -1,0 +1,87 @@
+TERMS: quantum, fusion, oxidation
+COLORS: blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/NkhGsi7KZVXnpiV7q2YTTdxqvvs</id>
+  <title>arXiv Query: search_query=all:quantum AND all:fusion AND all:oxidation&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:06:44Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:fusion+AND+all:oxidation)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1911.07839v2</id>
+    <title>Chip-to-chip quantum teleportation and multi-photon entanglement in silicon</title>
+    <updated>2020-02-09T18:04:01Z</updated>
+    <link href="https://arxiv.org/abs/1911.07839v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1911.07839v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Exploiting semiconductor fabrication techniques, natural carriers of quantum information such as atoms, electrons, and photons can be embedded in scalable integrated devices. Integrated optics provides a versatile platform for large-scale quantum information processing and transceiving with photons. Scaling up the integrated devices for quantum applications requires highperformance single-photon generation and photonic qubit-qubit entangling operations. However, previous demonstrations report major challenges in producing multiple bright, pure and identical single-photons, and entangling multiple photonic qubits with high fidelity. Another notable challenge is to noiselessly interface multiphoton sources and multiqubit operators in a single device. Here we demonstrate on-chip genuine multipartite entanglement and quantum teleportation in silicon, by coherently controlling an integrated network of microresonator nonlinear single-photon sources and linear-optic multiqubit entangling circuits. The microresonators are engineered to locally enhance the nonlinearity, producing multiple frequencyuncorrelated and indistinguishable single-photons, without requiring any spectral filtering. The multiqubit states are processed in a programmable linear circuit facilitating Bell-projection and fusion operation in a measurement-based manner. We benchmark key functionalities, such as intra-/inter-chip teleportation of quantum states, and generation of four-photon Greenberger-HorneZeilinger entangled states. The production, control, and transceiving of states are all achieved in micrometer-scale silicon chips, fabricated by complementary metal-oxide-semiconductor processes. Our work lays the groundwork for scalable on-chip multiphoton technologies for quantum computing and communication.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-11-15T22:16:56Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Nat. Phys. 16, 148-153 (2020)</arxiv:journal_ref>
+    <author>
+      <name>Daniel Llewellyn</name>
+    </author>
+    <author>
+      <name>Yunhong Ding</name>
+    </author>
+    <author>
+      <name>Imad I. Faruque</name>
+    </author>
+    <author>
+      <name>Stefano Paesani</name>
+    </author>
+    <author>
+      <name>Davide Bacco</name>
+    </author>
+    <author>
+      <name>Raffaele Santagati</name>
+    </author>
+    <author>
+      <name>Yan-Jun Qian</name>
+    </author>
+    <author>
+      <name>Yan Li</name>
+    </author>
+    <author>
+      <name>Yun-Feng Xiao</name>
+    </author>
+    <author>
+      <name>Marcus Huber</name>
+    </author>
+    <author>
+      <name>Mehul Malik</name>
+    </author>
+    <author>
+      <name>Gary F. Sinclair</name>
+    </author>
+    <author>
+      <name>Xiaoqi Zhou</name>
+    </author>
+    <author>
+      <name>Karsten Rottwitt</name>
+    </author>
+    <author>
+      <name>Jeremy L. O Brien</name>
+    </author>
+    <author>
+      <name>John G. Rarity</name>
+    </author>
+    <author>
+      <name>Qihuang Gong</name>
+    </author>
+    <author>
+      <name>Leif K. Oxenlowe</name>
+    </author>
+    <author>
+      <name>Jianwei Wang</name>
+    </author>
+    <author>
+      <name>Mark G. Thompson</name>
+    </author>
+    <arxiv:doi>10.1038/s41567-019-0727-x</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41567-019-0727-x" title="doi"/>
+  </entry>
+</feed>

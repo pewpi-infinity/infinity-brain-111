@@ -1,0 +1,89 @@
+TERMS: hydrogen, lattice, fusion
+COLORS: purple, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/hKZpyW4ETD8EQkO4UEpsdlhCzVM</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:lattice AND all:fusion&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:02:02Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:lattice+AND+all:fusion)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>9</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2106.12938v1</id>
+    <title>Parameter-free quantitative simulation of high dose microstructure and hydrogen retention in ion-irradiated tungsten</title>
+    <updated>2021-06-24T12:05:15Z</updated>
+    <link href="https://arxiv.org/abs/2106.12938v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2106.12938v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Hydrogen isotopes are retained in materials for fusion power applications, changing both hydrogen embrittlement and tritium inventory as the microstructure undergoes irradiation damage. But modelling of highly damaged materials - exposed to over 0.1 displacements per atom (dpa) - where asymptotic saturation is observed, for example tungsten facing the plasma in a fusion tokamak reactor, is difficult because a highly damaged microstructure cannot be treated as weakly interacting isolated defect traps. In this paper we develop computational techniques to find the defect content in highly irradiated materials without adjustable parameters. First we show how to generate converged high dose (&gt;1 dpa) microstructures using a combination of the creation-relaxation algorithm and molecular dynamics simulations of collision cascades. Then we make robust estimates of point defects and void regions with simple developments of the Wigner-Seitz decomposition of lattice sites. We use our estimates of the void surface area to predict the deuterium retention capacity of tungsten as a function of dose. This is then compared to 3He nuclear reaction analysis (NRA) measurements of tungsten samples self-irradiated at 290 K to different damage doses and exposed to deuterium plasma at low energy at 370 K. We show that our simulated microstructures give an excellent match to the experimental data, with both model and experiment showing 1.5-2.0 at.% deuterium retained in tungsten in the limit of high dose.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-06-24T12:05:15Z</published>
+    <arxiv:comment>preprint for submission to journal</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>Phys. Rev. Materials 5, 095403 (2021)</arxiv:journal_ref>
+    <author>
+      <name>Daniel R. Mason</name>
+    </author>
+    <author>
+      <name>Fredric Granberg</name>
+    </author>
+    <author>
+      <name>Max Boleininger</name>
+    </author>
+    <author>
+      <name>Thomas Schwarz-Selinger</name>
+    </author>
+    <author>
+      <name>Kai Nordlund</name>
+    </author>
+    <author>
+      <name>Sergei L. Dudarev</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevMaterials.5.095403</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevMaterials.5.095403" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.09112v1</id>
+    <title>Analysis of lattice locations of deuterium in tungsten and its application for predicting deuterium trapping conditions</title>
+    <updated>2023-12-14T16:47:31Z</updated>
+    <link href="https://arxiv.org/abs/2312.09112v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.09112v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Retention of hydrogen isotopes (protium, deuterium and tritium) in tungsten is one of the most severe issues in design of fusion power plants, since significant trapping of tritium may cause exceeding radioactivity safety limits in future reactors. Hydrogen isotopes in tungsten can be detected using the nuclear reaction analysis method in channeling mode (NRA/C). However, the information hidden within the experimental spectra is subject to interpretation. In this work, we propose the methodology to interpret the response of the experimental NRA/C spectra to the specific lattice locations of deuterium by simulations of the NRA/C spectra from atomic structures of deuterium lattice locations as obtained from the first principles calculations. We show that trapping conditions, i.e., states of local crystal structures retaining deuterium, affect the lattice locations of deuterium and the change of lattice locations can be detected by ion channeling method. By analyzing the experimental data, we are able to determine specific information on the deuterium trapping conditions, including the number of deuterium atoms trapped by one vacancy as well as the presence of impurity atoms along with deuterium in vacancies.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-14T16:47:31Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Xin Jin</name>
+    </author>
+    <author>
+      <name>Flyura Djurabekova</name>
+    </author>
+    <author>
+      <name>Etienne A. Hodille</name>
+    </author>
+    <author>
+      <name>Sabina Markelj</name>
+    </author>
+    <author>
+      <name>Kai Nordlund</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0803.1892v2</id>
+    <title>Nuclear Muon Capture in Hydrogen and its Interplay with Muon Atomic Physics</title>
+    <updated>2008-04-01T21:03:03Z</updated>
+    <link href="https://arxiv.org/abs/0803.1892v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0803.1892v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The singlet capture rate $Λ_S$ for the semileptonic weak process $μ+p \to n+ν_μ$ has been measured in the MuCap experiment. The novel experimental technique is based on stopping muons in an active target, consisting of a time projection chamber operating with ultra-pure hydrogen. This allows the unambiguous determination of the pseudoscalar form factor $g_P$ of the charged electroweak current of the nucleon. Our first result $g_P(q^2=-0.88 m^2_μ) = 7.3 \pm 1.1 $ is consistent with accurate theoretical predictions and constitutes an important test of QCD symmetries. Additional data are being collected with the aim of a three-fold reduction of the experimental uncertainties. Building on the developed advanced techniques, the new MuSun experiment is being planned to measure the muon capture rate on the deuteron to 1.5% precision. This would provide the by far most accurate experimental information on the axial current interacting with the two-nucleon system and determine the low energy constant $L_{1A}$ relevant for solar neutrino reactions.
+  Muon induced atomic and molecular processes represent challenges as well as opportunities for this science program, and their interplay with the main nuclear and weak-interaction physics aspects will be discussed.</summary>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-03-13T03:55:38Z</published>
+    <arxiv:comment>Invited talk at the International Conference on Muon Catalyzed Fusion and Related Topics (MCF-07), Dubna, 18-21 June, 2007; 4/1/08 Lattice references updated</arxiv:comment>
+    <arxiv:primary_category term="nucl-ex"/>
+    <author>
+      <name>Peter Kammel</name>
+      <arxiv:affiliation>for the MuCap Collaboration</arxiv:affiliation>
+    </author>
+  </entry>
+</feed>

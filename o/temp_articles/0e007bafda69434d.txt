@@ -1,0 +1,107 @@
+TERMS: lattice, fusion, vacuum
+COLORS: orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/+NBcUzWeai2MxcARSQSGP09B8VA</id>
+  <title>arXiv Query: search_query=all:lattice AND all:fusion AND all:vacuum&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:13:49Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:fusion+AND+all:vacuum)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>8</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2209.02149v3</id>
+    <title>Forward light-by-light scattering and electromagnetic correction to hadronic vacuum polarization</title>
+    <updated>2023-04-29T09:51:43Z</updated>
+    <link href="https://arxiv.org/abs/2209.02149v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2209.02149v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Lattice QCD calculations of the hadronic vacuum polarization (HVP) have reached a precision where the electromagnetic (e.m.) correction can no longer be neglected. This correction is both computationally challenging and hard to validate, as it leads to ultraviolet (UV) divergences and to sizeable infrared (IR) effects associated with the massless photon. While we precisely determine the UV divergence using the operator-product expansion, we propose to introduce a separation scale $Λ\sim400\;$MeV into the internal photon propagator, whereby the calculation splits into a short-distance part, regulated in the UV by the lattice and in the IR by the scale $Λ$, and a UV-finite long-distance part to be treated with coordinate-space methods, thereby avoiding power-law finite-size effects altogether. In order to predict the long-distance part, we express the UV-regulated e.m. correction to the HVP via the forward hadronic light-by-light (HLbL) scattering amplitude and relate the latter via a dispersive sum rule to $γ^*γ^*$ fusion cross-sections. Having tested the relation by reproducing the two-loop QED vacuum polarization (VP) from the tree-level $γ^*γ^*\to e^+e^-$ cross-section, we predict the expected lattice-QCD integrand resulting from the $γ^*γ^*\toπ^0$ process.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-09-05T21:44:35Z</published>
+    <arxiv:comment>29 pages, 6 figures; text matches the published version</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Volodymyr Biloshytskyi</name>
+    </author>
+    <author>
+      <name>En-Hung Chao</name>
+    </author>
+    <author>
+      <name>Antoine Gérardin</name>
+    </author>
+    <author>
+      <name>Jeremy R. Green</name>
+    </author>
+    <author>
+      <name>Franziska Hagelstein</name>
+    </author>
+    <author>
+      <name>Harvey B. Meyer</name>
+    </author>
+    <author>
+      <name>Julian Parrino</name>
+    </author>
+    <author>
+      <name>Vladimir Pascalutsa</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP03(2023)194</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP03(2023)194" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1204.1915v2</id>
+    <title>Non-linear BFKL dynamics: color screening vs. gluon fusion</title>
+    <updated>2012-11-01T09:04:42Z</updated>
+    <link href="https://arxiv.org/abs/1204.1915v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1204.1915v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A feasible mechanism of unitarization of amplitudes of deep inelastic scattering at small values of Bjorken $x$ is the gluon fusion. However, its efficiency depends crucially on the vacuum color screening effect which accompanies the multiplication and the diffusion of BFKL gluons from small to large distances. From the fits to lattice data on field strength correlators the propagation length of perturbative gluons is $R_c\simeq 0.2-0.3$ fermi. The probability to find a perturbative gluon with short propagation length at large distances is suppressed exponentially. It changes the pattern of (dif)fusion dramatically. The magnitude of the fusion effect appears to be controlled by the new dimensionless parameter $\sim R_c^2/8B$, with the diffraction cone slope $B$ standing for the characteristic size of the interaction region. It should slowly $\propto 1/\ln Q^2$ decrease at large $Q^2$. Smallness of the ratio $R_c^2/8B$ makes the non-linear effects rather weak even at lowest Bjorken $x$ available at HERA. We report the results of our studies of the non-linear BFKL equation which has been generalized to incorporate the running coupling and the screening radius $R_c$ as the infrared regulator.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-04-09T16:10:52Z</published>
+    <arxiv:comment>16 pages, 2 figures, version accepted for publication, references added</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>R. Fiore</name>
+    </author>
+    <author>
+      <name>P. V. Sasorov</name>
+    </author>
+    <author>
+      <name>V. R. Zoller</name>
+    </author>
+    <arxiv:doi>10.1134/S0021364012230063</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1134/S0021364012230063" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2409.02112v1</id>
+    <title>Observation of Thermal Deuteron-Deuteron Fusion in Ion Tracks</title>
+    <updated>2024-08-21T17:48:19Z</updated>
+    <link href="https://arxiv.org/abs/2409.02112v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2409.02112v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A direct observation of the deuteron-deuteron (DD) fusion reaction at thermal meV energies, although theoretically possible, is not succeeded up to now. The electron screening effect that reduces the repulsive Coulomb barrier between reacting nuclei in metallic environments by several hundreds of eV and is additionally increased by crystal lattice defects in the hosting material, leads to strongly enhanced cross sections which means that this effect might be studied in laboratories. Here we present results of the 2H(d,p)3H reaction measurements performed on a ZrD2 target down to the lowest deuteron energy in the center mass system of 675 eV, using an ultra-high vacuum accelerator system, recently upgraded to achieve high beam currents at very low energies. The experimental thick target yield, decreasing over seven orders of magnitude for lowering beam energies, could be well described by the electron screening energy of 340 eV, which is much higher than the value of about 100 eV for a defect free material. At the energies below 2.5 keV, a constant plateau yield value could be observed. As indicated by significantly increased energies of emitted protons, this effect can be associated with the thermal DD fusion. A theoretical model explains the experimental observations by creation of ion tracks induced in the target by projectiles, and a high phonon density which locally increases temperature above the melting point. The nuclear reaction rate taking into account recently observed DD threshold resonance agrees very well with the experimental data.</summary>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-08-21T17:48:19Z</published>
+    <arxiv:primary_category term="nucl-ex"/>
+    <author>
+      <name>K. Czerski</name>
+    </author>
+    <author>
+      <name>R. Dubey</name>
+    </author>
+    <author>
+      <name>A. Kowalska</name>
+    </author>
+    <author>
+      <name>G. Haridas Das</name>
+    </author>
+    <author>
+      <name>M. Kaczmarski</name>
+    </author>
+    <author>
+      <name>N. Targosz-Sleczka</name>
+    </author>
+    <author>
+      <name>M. Valat</name>
+    </author>
+  </entry>
+</feed>

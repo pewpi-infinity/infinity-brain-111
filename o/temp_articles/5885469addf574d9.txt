@@ -1,0 +1,94 @@
+TERMS: resonance, bandgap
+COLORS: green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/IAd42AQrKne3ud6zNrATQW19c3w</id>
+  <title>arXiv Query: search_query=all:resonance AND all:bandgap&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:00:27Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:resonance+AND+all:bandgap&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>457</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1503.09048v1</id>
+    <title>Local resonance and Bragg bandgaps in sandwich beams containing periodically inserted resonators</title>
+    <updated>2015-03-31T13:58:33Z</updated>
+    <link href="https://arxiv.org/abs/1503.09048v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1503.09048v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the low frequency wave propagation behavior of sandwich beams containing periodically embedded internal resonators. A closed form expression for the propagation constant is obtained using a phased array approach and verified using finite element simulations. We show that local resonance and Bragg bandgaps coexist in such a system and that the width of both bandgaps is a function of resonator parameters as well as their periodicity. The interaction between the two bandgaps is studied by varying the local resonance frequency. We find that a single combined bandgap does not exist for this system and that the Bragg bandgaps transition into sub-wavelength bandgaps when the local resonance frequency is above their associated classical Bragg frequency.</summary>
+    <category term="physics.class-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-03-31T13:58:33Z</published>
+    <arxiv:primary_category term="physics.class-ph"/>
+    <author>
+      <name>Bhisham Sharma</name>
+    </author>
+    <author>
+      <name>Chin-Teh Sun</name>
+    </author>
+    <arxiv:doi>10.1016/j.jsv.2015.11.019</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.jsv.2015.11.019" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1612.03130v1</id>
+    <title>A General Theory for Bandgap Estimation in Locally Resonant Metastructures</title>
+    <updated>2016-12-09T18:57:56Z</updated>
+    <link href="https://arxiv.org/abs/1612.03130v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1612.03130v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Locally resonant metamaterials are characterized by bandgaps at wavelengths that are much larger than the lattice size, enabling low-frequency vibration attenuation. Typically, bandgap analyses and predictions rely on the assumption of traveling waves in an infinite medium, and do not take advantage of modal representations typically used for the analysis of the dynamic behavior of finite structures. Recently, we developed a method for understanding the locally resonant bandgap in uniform finite metamaterial beams using modal analysis. Here we extend that framework to general locally resonant metastructures with specified boundary conditions using a general operator formulation. Using this approach, along with the assumption of an infinite number of resonators tuned to the same frequency, the frequency range of the locally resonant bandgap is easily derived in closed form. Furthermore, the bandgap expression is shown to be the same regardless of the type of vibration problem under consideration, depending only on the added mass ratio and target frequency. It is shown that the number of resonators required for the bandgap to appear increases with the target frequency range, i.e. respective modal neighborhood. Furthermore, it is observed that there is an optimal, finite number of resonators which gives a bandgap that is wider than the infinite-absorber bandgap, and that the optimal number of resonators increases with target frequency and added mass ratio. As the number of resonators becomes sufficiently large, the bandgap converges to the derived infinite-absorber bandgap. The derived bandgap edge frequencies are shown to agree with results from dispersion analysis using the plane wave expansion method. Numerical and experimental investigations are performed regarding the effects of mass ratio, non-uniform spacing of resonators, and parameter variations among the resonators.</summary>
+    <category term="physics.class-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-12-09T18:57:56Z</published>
+    <arxiv:primary_category term="physics.class-ph"/>
+    <author>
+      <name>C. Sugino</name>
+    </author>
+    <author>
+      <name>Y. Xia</name>
+    </author>
+    <author>
+      <name>S. Leadenham</name>
+    </author>
+    <author>
+      <name>M. Ruzzene</name>
+    </author>
+    <author>
+      <name>A. Erturk</name>
+    </author>
+    <arxiv:doi>10.1016/j.jsv.2017.06.004</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.jsv.2017.06.004" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.02786v2</id>
+    <title>Expanding momentum bandgaps in photonic time crystals through resonances</title>
+    <updated>2024-11-12T16:11:46Z</updated>
+    <link href="https://arxiv.org/abs/2310.02786v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.02786v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The realization of photonic time crystals is a major opportunity but also comes with significant challenges. The most pressing one, potentially, is the requirement for a substantial modulation strength in the material properties to create a noticeable momentum bandgap. Reaching that noticeable bandgap in optics is highly demanding with current, and possibly also future, material platforms since their modulation strength is small by tendency. Here, we demonstrate that by introducing temporal variations in a resonant material, the momentum bandgap can be drastically expanded with modulation strengths in reach with known low-loss materials and realistic laser pump powers. The resonance can emerge from an intrinsic material resonance or a suitably spatially structured material supporting a structural resonance. Our concept is validated for resonant bulk media and optical metasurfaces and paves the way toward the first experimental realizations of photonic time crystals.</summary>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-04T13:04:03Z</published>
+    <arxiv:comment>9 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.optics"/>
+    <author>
+      <name>X. Wang</name>
+    </author>
+    <author>
+      <name>P. Garg</name>
+    </author>
+    <author>
+      <name>M. S. Mirmoosa</name>
+    </author>
+    <author>
+      <name>A. G. Lamprianidis</name>
+    </author>
+    <author>
+      <name>C. Rockstuhl</name>
+    </author>
+    <author>
+      <name>V. S. Asadchy</name>
+    </author>
+    <arxiv:doi>10.1038/s41566-024-01563-3</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41566-024-01563-3" title="doi"/>
+  </entry>
+</feed>

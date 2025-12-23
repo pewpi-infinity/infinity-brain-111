@@ -1,0 +1,49 @@
+TERMS: wavefunction, graphene, oxidation
+COLORS: yellow, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/lH7lby7/Wgxzm8raRBAtbu9hLuA</id>
+  <title>arXiv Query: search_query=all:wavefunction AND all:graphene AND all:oxidation&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:33:16Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:wavefunction+AND+(all:graphene+AND+all:oxidation)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2412.18553v2</id>
+    <title>Advancing Surface Chemistry with Large-Scale Ab-Initio Quantum Many-Body Simulations</title>
+    <updated>2025-01-02T13:54:40Z</updated>
+    <link href="https://arxiv.org/abs/2412.18553v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.18553v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Predictive simulation of surface chemistry is of paramount importance for progress in fields from catalysis to electrochemistry and clean energy generation. Ab-initio quantum many-body methods should be offering deep insights into these systems at the electronic level, but are limited in their efficacy by their steep computational cost. In this work, we build upon state-of-the-art correlated wavefunctions to reliably converge to the `gold standard' accuracy in quantum chemistry for application to extended surface chemistry. Efficiently harnessing graphics processing unit acceleration along with systematically improvable multiscale resolution techniques, we achieve linear computational scaling up to 392 atoms in size. These large-scale simulations demonstrate the importance of converging to these extended system sizes, achieving a validating handshake between simulations with different boundary conditions for the interaction of water on a graphene surface. We provide a new benchmark for this water-graphene interaction that clarifies the preference for water orientations at the graphene interface. This is extended to the adsorption of carbonaceous molecules on chemically complex surfaces, including metal oxides and metal-organic frameworks, where we consistently achieve chemical accuracy compared to experimental references, and well inside the scatter of traditional density functional material modeling approaches. This pushes the state of the art for simulation of molecular adsorption on surfaces, and marks progress into a post-density functional era for more reliable and improvable approaches to first-principles modeling of surface problems at an unprecedented scale and accuracy using ab-initio quantum many-body methods.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-24T17:07:18Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Zigeng Huang</name>
+    </author>
+    <author>
+      <name>Zhen Guo</name>
+    </author>
+    <author>
+      <name>Changsu Cao</name>
+    </author>
+    <author>
+      <name>Hung Q. Pham</name>
+    </author>
+    <author>
+      <name>Xuelan Wen</name>
+    </author>
+    <author>
+      <name>George H. Booth</name>
+    </author>
+    <author>
+      <name>Ji Chen</name>
+    </author>
+    <author>
+      <name>Dingshun Lv</name>
+    </author>
+  </entry>
+</feed>

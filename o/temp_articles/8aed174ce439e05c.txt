@@ -1,0 +1,50 @@
+TERMS: hydrogen, fusion, spin, muon
+COLORS: purple, green, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/snDa+rLGROrIGu261KodHyoahN4</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:fusion AND all:spin AND all:muon&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:53:43Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:fusion+AND+(all:spin+AND+all:muon))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/0808.1544v1</id>
+    <title>Muon Capture on the Proton and Deuteron</title>
+    <updated>2008-08-11T17:12:26Z</updated>
+    <link href="https://arxiv.org/abs/0808.1544v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0808.1544v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  By measuring the lifetime of the negative muon in pure protium (hydrogen-1), the MuCap experiment determines the rate of muon capture on the proton, from which the proton's pseudoscalar coupling g_p may be inferred. A precision of 15% for g_p has been published; this is a step along the way to a goal of 7%. This coupling can be calculated precisely from heavy baryon chiral perturbation theory and therefore permits a test of QCD's chiral symmetry. Meanwhile, the MuSun experiment is in its final design stage; it will measure the rate of muon capture on the deuteron using a similar technique. This process can be related through pionless effective field theory and chiral perturbation theory to other two-nucleon reactions of astrophysical interest, including proton-proton fusion and deuteron breakup.</summary>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-08-11T17:12:26Z</published>
+    <arxiv:comment>Submitted to the proceedings of the 2007 Advanced Studies Institute on Symmetries and Spin (SPIN-Praha-2007)</arxiv:comment>
+    <arxiv:primary_category term="nucl-ex"/>
+    <arxiv:journal_ref>Eur.Phys.J.ST162:231-237,2008</arxiv:journal_ref>
+    <author>
+      <name>Frederick Gray</name>
+      <arxiv:affiliation>for the MuCap and MuSun Collaborations</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1140/epjst/e2008-00798-3</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1140/epjst/e2008-00798-3" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1110.4845v2</id>
+    <title>Spin Physics at COMPASS</title>
+    <updated>2012-01-02T14:37:16Z</updated>
+    <link href="https://arxiv.org/abs/1110.4845v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1110.4845v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The COMPASS experiment is a fixed target experiment at the CERN SPS using muon and hadron beams for the investigation of the spin structure of the nucleon and hadron spectroscopy. The main objective of the muon physics program is the study of the spin of the nucleon in terms of its constituents, quarks and gluons. COMPASS has accumulated data during 6 years scattering polarized muons off a longitudinally or a transversely polarized deuteron (6LiD) or proton (NH3) target. Results for the gluon polarization are obtained from longitudinal double spin cross section asymmetries using two different channels, open charm production and high transverse momentum hadron pairs, both proceeding through the photon-gluon fusion process. Also, the longitudinal spin structure functions of the proton and the deuteron were measured in parallel as well as the helicity distributions for the three lightest quark flavors. With a transversely polarized target, results were obtained with proton and deuteron targets for the Collins and Sivers asymmetries for charged hadrons as well as for identified kaons and pions. The Collins asymmetry is sensitive to the transverse spin structure of the nucleon, while the Sivers asymmetry reflects correlations between the quark transverse momentum and the nucleon spin. Recently, a new proposal for the COMPASS II experiment was accepted by the CERN SPS which includes two new topics: Exclusive reactions like DVCS and DVMP using the muon beam and a hydrogen target to study generalized parton distributions and Drell-Yan measurements using a pion beam and a polarized NH3 target to study transverse momentum dependent distributions.</summary>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-10-21T17:15:55Z</published>
+    <arxiv:comment>Proceedings of the Rutherford conference, Manchester, August 2011. Changes due to referees comments implemented</arxiv:comment>
+    <arxiv:primary_category term="hep-ex"/>
+    <author>
+      <name>C. Schill</name>
+      <arxiv:affiliation>for the COMPASS collaboration</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1088/1742-6596/381/1/012030</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1742-6596/381/1/012030" title="doi"/>
+  </entry>
+</feed>

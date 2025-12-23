@@ -1,0 +1,94 @@
+TERMS: quantum, frequency, wavefunction
+COLORS: blue, green, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/tBkYsoQ5g0S6iHc9aoLxlQ2LBtA</id>
+  <title>arXiv Query: search_query=all:quantum AND all:frequency AND all:wavefunction&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:05:40Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:frequency+AND+all:wavefunction)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>225</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1112.3575v1</id>
+    <title>Direct Measurement of the Quantum Wavefunction</title>
+    <updated>2011-12-15T17:22:28Z</updated>
+    <link href="https://arxiv.org/abs/1112.3575v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1112.3575v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Central to quantum theory, the wavefunction is the complex distribution used to completely describe a quantum system. Despite its fundamental role, it is typically introduced as an abstract element of the theory with no explicit definition. Rather, physicists come to a working understanding of the wavefunction through its use to calculate measurement outcome probabilities via the Born Rule. Presently, scientists determine the wavefunction through tomographic methods, which estimate the wavefunction that is most consistent with a diverse collection of measurements. The indirectness of these methods compounds the problem of defining the wavefunction. Here we show that the wavefunction can be measured directly by the sequential measurement of two complementary variables of the system. The crux of our method is that the first measurement is performed in a gentle way (i.e. weak measurement) so as not to invalidate the second. The result is that the real and imaginary components of the wavefunction appear directly on our measurement apparatus. We give an experimental example by directly measuring the transverse spatial wavefunction of a single photon, a task not previously realized by any method. We show that the concept is universal, being applicable both to other degrees of freedom of the photon (e.g. polarization, frequency, etc.) and to other quantum systems (e.g. electron spin-z quantum state, SQUIDs, trapped ions, etc.). Consequently, this method gives the wavefunction a straightforward and general definition in terms of a specific set of experimental operations. We expect it to expand the range of quantum systems scientists are able to characterize and initiate new avenues to understand fundamental quantum theory.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-12-15T17:22:28Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Nature, 474, 188 (2011)</arxiv:journal_ref>
+    <author>
+      <name>Jeff S. Lundeen</name>
+    </author>
+    <author>
+      <name>Brandon Sutherland</name>
+    </author>
+    <author>
+      <name>Aabid Patel</name>
+    </author>
+    <author>
+      <name>Corey Stewart</name>
+    </author>
+    <author>
+      <name>Charles Bamber</name>
+    </author>
+    <arxiv:doi>10.1038/nature10120</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/nature10120" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2005.03741v3</id>
+    <title>Frequency correlation requirements on the biphoton wavefunction in an induced coherence experiment between separate sources</title>
+    <updated>2020-10-21T23:50:26Z</updated>
+    <link href="https://arxiv.org/abs/2005.03741v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2005.03741v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>There is renewed interest in using the coherence between beams generated in separate down-converter sources for new applications in imaging, spectroscopy, microscopy and optical coherence tomography (OCT). These schemes make use of continuous wave (CW) pumping in the low parametric gain regime, which produces frequency correlations, and frequency entanglement, between signal-idler pairs generated in each single source. But can induced coherence still be observed if there is no frequency correlation, so the biphoton wavefunction is factorable? We will show that this is the case, and this might be an advantage for OCT applications. High axial resolution requires a large bandwidth. For CW pumping this requires the use of short nonlinear crystals. This is detrimental since short crystals generate small photon fluxes. We show that the use of ultrashort pump pulses allows improving axial resolution even for long crystal that produce higher photon fluxes.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-05-07T20:40:28Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Phys. Rev. A 102, 053711 (2020)</arxiv:journal_ref>
+    <author>
+      <name>Arturo Rojas-Santana</name>
+    </author>
+    <author>
+      <name>Gerard J. Machado</name>
+    </author>
+    <author>
+      <name>Dorilian Lopez-Mago</name>
+    </author>
+    <author>
+      <name>Juan P. Torres</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.102.053711</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.102.053711" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2303.04538v2</id>
+    <title>Hybrid quantum-classical dynamics of pure-dephasing systems</title>
+    <updated>2023-03-13T22:30:05Z</updated>
+    <link href="https://arxiv.org/abs/2303.04538v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2303.04538v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the interaction dynamics of a classical oscillator and a quantum two-level system for different pure-dephasing Hamiltonians of the type $\widehat{H}(q,p)=H_C(q,p)\boldsymbol{1}+H_I(q,p)\widehatσ_z$. This type of systems represents a severe challenge for popular hybrid quantum-classical descriptions. For example, in the case of the common Ehrenfest model, the classical density evolution is shown to decouple entirely from the pure-dephasing quantum dynamics. We focus on a recently proposed hybrid wave equation that is based on Koopman's wavefunction description of classical mechanics. This model retains quantum-classical correlations whenever a coupling potential is present. Here, several benchmark problems are considered and the results are compared with those arising from fully quantum dynamics. A good agreement is found for a series of study cases involving harmonic oscillators with linear and quadratic coupling, as well as time-varying coupling parameters. In all these cases the classical evolution coincides exactly with the oscillator dynamics resulting from the fully quantum description. In the special case of time-independent coupling involving a classical oscillator with varying frequency, the quantum Bloch rotation exhibits peculiar features that escape from the hybrid description. In addition, nonlinear corrections to the harmonic Hamiltonian lead to an overall growth of decoherence at long times, which is absent in the fully quantum treatment.</summary>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-03-08T12:22:00Z</published>
+    <arxiv:comment>24 pages, 10 figures. Contribution to the Special Collection "Koopman methods in classical and quantum-classical mechanics" in the Journal of Physics A</arxiv:comment>
+    <arxiv:primary_category term="physics.chem-ph"/>
+    <author>
+      <name>Giovanni Manfredi</name>
+    </author>
+    <author>
+      <name>Antoine Rittaud</name>
+    </author>
+    <author>
+      <name>Cesare Tronci</name>
+    </author>
+    <arxiv:doi>10.1088/1751-8121/acc21e</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1751-8121/acc21e" title="doi"/>
+  </entry>
+</feed>

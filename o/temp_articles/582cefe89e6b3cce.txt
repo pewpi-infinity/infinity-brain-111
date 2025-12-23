@@ -1,0 +1,79 @@
+TERMS: electron, ionization, singularity
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/UsEoXqusQdwxSaeZlhHpgaHA2NM</id>
+  <title>arXiv Query: search_query=all:electron AND all:ionization AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:23:24Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:electron+AND+(all:ionization+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>25</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2302.03777v1</id>
+    <title>Singularity in electron-core potential as a gateway to accurate multi-electron ionization spectra in strongly driven atoms</title>
+    <updated>2023-02-07T22:20:11Z</updated>
+    <link href="https://arxiv.org/abs/2302.03777v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2302.03777v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We demonstrate a general three-dimensional semiclassical model as a powerful technique for the study of correlated multi-electron escape in atoms driven by infrared laser pulses at intensities where electron-electron correlation prevails. We do so in the context of triple ionization of strongly driven Ne. We show that a drawback of other current quantum mechanical and classical models of triple ionization is that they soften the Coulomb potential of each electron with the core. The model we employ fully accounts for the singularity in the Coulomb potentials of a recolliding electron with the core and a bound electron with the core as well as for the interaction of a recolliding with a bound electron. Our model treats approximately only the interaction between bound electrons through the use of effective potentials. These effective potentials ensure that no artificial autoionization takes place as a result of the full treatment of the electron-core potential. We demonstrate the accuracy of our model by obtaining triple ionization distributions of the sum of the final electron momenta which we find to be in very good agreement with experiments. Also, we explain the main features of these momenta distributions in terms of the prevalent pathways of correlated three-electron escape in Ne. We also show that the different ionization pathways prevailing in three-electron escape in strongly driven Ne versus Ar give rise to different momenta distributions in these two atoms.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-02-07T22:20:11Z</published>
+    <arxiv:comment>6 pages, 4 figures. arXiv admin note: substantial text overlap with arXiv:2210.17394</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>Agapi Emmanouilidou</name>
+    </author>
+    <author>
+      <name>Matthew Benjamin Peters</name>
+    </author>
+    <author>
+      <name>Georgios Petros Katsoulis</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.107.L041101</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.107.L041101" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.20155v1</id>
+    <title>Multielectron ionization of three-electron strongly driven Ne at high intensities</title>
+    <updated>2025-09-24T14:19:43Z</updated>
+    <link href="https://arxiv.org/abs/2509.20155v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.20155v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We extend a recently developed three-dimensional semiclassical model to study double and triple ionization of Ne driven by infrared laser pulses at various intensities. This model fully accounts for the Coulomb singularity of each electron with the core, as well as for the interaction of a recolliding electron with a bound electron. The model avoids artificial autoionization by employing effective Coulomb potentials to describe the interaction between bound electrons. Using the extended effective-Coulomb-potential for bound-bound electrons (ECBB) model, we compute triple and double ionization spectra. For instance, we compute the distributions of the sum of the final momenta along the laser field of the escaping electrons. Taking focal volume averaging into account, we find very good agreement with experimental results, particularly for triple ionization. Also, we identify the main pathways of triple and double ionization and explain how these pathways give rise to the main features of the triple and double ionization spectra.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-24T14:19:43Z</published>
+    <arxiv:comment>14 pages, 8 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>Samuel James Praill</name>
+    </author>
+    <author>
+      <name>Georgios Petros Katsoulis</name>
+    </author>
+    <author>
+      <name>Agapi Emmanouilidou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2311.17533v1</id>
+    <title>A general model and toolkit for the ionization of three or more electrons in strongly driven molecules using an effective Coulomb potential for the interaction between bound electrons</title>
+    <updated>2023-11-29T11:12:26Z</updated>
+    <link href="https://arxiv.org/abs/2311.17533v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.17533v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We formulate a general three-dimensional semiclassical model for the study of correlated multielectron escape during fragmentation of molecules driven by intense infrared laser pulses, while fully accounting for the magnetic field of the laser pulse. We do so in the context of triple ionization of strongly driven HeH$_{2}^{+}$. Our model fully accounts for the singularity in the Coulomb potentials of a recolliding electron with the core and a bound electron with the core as well as for the interaction of a recolliding with a bound electron. To avoid artificial autoionization, our model employs effective potentials to treat the interaction between bound electrons. We focus on triple and double ionization as well as frustrated triple and frustrated double ionization. In these processes, we identify and explain the main features of the sum of the kinetic energies of the final ion fragments.
+  We find that frustrated double ionization is a major ionization process, and we identify the different channels and hence different final fragments that are obtained through frustrated double ionization. Also, we discuss the differences between frustrated double and triple ionization.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-29T11:12:26Z</published>
+    <arxiv:comment>20 pages, 9 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>Georgios Petros Katsoulis</name>
+    </author>
+    <author>
+      <name>Matthew Benjamin Peters</name>
+    </author>
+    <author>
+      <name>Agapi Emmanouilidou</name>
+    </author>
+  </entry>
+</feed>

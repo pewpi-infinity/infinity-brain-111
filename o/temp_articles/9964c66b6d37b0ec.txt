@@ -1,0 +1,34 @@
+TERMS: hydrogen, crystal, ionization, bandgap
+COLORS: purple, orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/M6xNjrqzNFkKRZZJENxUsZAPc1M</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:crystal AND all:ionization AND all:bandgap&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:59:47Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:crystal+AND+(all:ionization+AND+all:bandgap))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1911.07912v2</id>
+    <title>The cause of extremely long-lasting room-temperature persistent photoconductivity in SrTiO$_3$ and related materials</title>
+    <updated>2020-08-20T15:34:01Z</updated>
+    <link href="https://arxiv.org/abs/1911.07912v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1911.07912v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>It has been recently revealed that strontium titanate (SrTiO$_3$) displays persistent photoconductivity with unique characteristics: it occurs at room temperature and lasts over a very long period of time. Illumination of SrTiO$_3$ crystals at room temperature with sub-bandgap light reduces the electrical resistance by three orders of magnitude and persists for weeks or longer (Tarun ${\it et\: al.}$, Phys. Rev. Lett. ${\bf 111}$, 187403 (2013)). Experiments indicate that oxygen vacancy and hydrogen play important roles, yet the microscopic mechanism responsible for this remarkable effect has remained unidentified. Using hybrid density functional theory calculations we show that an instability associated with substitutional hydrogen H$_{\rm O}^+$ under illumination, which becomes doubly ionized and leaves the oxygen site, can explain the experimental observations. H$_{\rm O}$ then turns into an interstitial hydrogen and an oxygen vacancy, leading to excess carriers in the conduction band. This phenomenon is not exclusive to SrTiO$_3$, but it is also predicted to occur in other oxides. Interestingly, this phenomenon represents an elegant way of proving the existence of hydrogen substituting on an oxygen site (H$_{\rm O}$), forming an interesting, and rarely observed, type of three-center two-electron bond.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-11-18T20:19:11Z</published>
+    <arxiv:comment>5 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 125, 126404 (2020)</arxiv:journal_ref>
+    <author>
+      <name>Zhiqiang Zhang</name>
+    </author>
+    <author>
+      <name>Anderson Janotti</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.125.126404</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.125.126404" title="doi"/>
+  </entry>
+</feed>

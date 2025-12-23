@@ -1,0 +1,28 @@
+TERMS: tachyon, muon, plasma
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/XZnUYECIB+gsehw2AlQ6O5R6eJo</id>
+  <title>arXiv Query: search_query=all:tachyon AND all:muon AND all:plasma&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:35:45Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:tachyon+AND+(all:muon+AND+all:plasma)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/hep-th/0303108v1</id>
+    <title>Towards a QED-Based Vacuum Energy</title>
+    <updated>2003-03-12T15:18:15Z</updated>
+    <link href="https://arxiv.org/abs/hep-th/0303108v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-th/0303108v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  A QED-based mechanism, breaking translational invariance of the vacuum at sufficiently small distance scales, is suggested as an explanation for the vacuum energy pressure that accelerates the universe. Very-small-scale virtual vacuum currents are assumed to generate small-scale electromagnetic fields corresponding to the appearance of a 4-potential $A_μ^{ext} (x)$, which is itself equal to the vev of the operator $ A_μ(x)$ in the presence of that $A_μ^{ext}(x)$. The latter condition generates a bootstrap-like equation for $A_μ^{ext}(x)$ which has an approximate, tachyonic-like solution corresponding to propagation outside the light cone, and damping inside; this solution is given in terms of a mass parameter M that turns out to be on the order of the Planck mass if only the simplest, electron vacuum-bubble is included; if the muon and tau bubbles are included, M decreases to $\sim 10^6 - 10^7$ GeV. A multiplicative 4-vector $v_μ$, whose magnitude is determined by a comparison with the average mass density needed to produce the observed acceleration is introduced, and characterizes the distance d over which the fields so produced may be expected to be coherent; the present analysis suggests that d can lie anywhere in the range from $10^{-5} cm$ (corresponding to a "spontaneous vacuum phase change") to $10^{-13}cm$ (representing a "polarization of the QED vacuum" by quark-antiquark pairs of the QCD vacuum). Near the light-cone, such electric fields become large, introducing the possibility of copious charged-particle pair production, whose back-reaction-fields tend to diminish the vacuum electric field. The possibility of an experimental test of the resulting plasma at large momentum transfers is discussed.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-03-12T15:18:15Z</published>
+    <arxiv:comment>16pp</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>H. M. Fried</name>
+    </author>
+  </entry>
+</feed>

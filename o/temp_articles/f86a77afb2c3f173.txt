@@ -1,0 +1,72 @@
+TERMS: hydrogen, electron, spin, wavefunction
+COLORS: purple, green, yellow, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/EP1Urfe9t+7pz3eEw2KnASoeado</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:electron AND all:spin AND all:wavefunction&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:56:04Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:electron+AND+(all:spin+AND+all:wavefunction))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>17</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/physics/0408025v1</id>
+    <title>The novel aspect of hydrogen atom: the fine structure and spin can be derived by single component wavefunction</title>
+    <updated>2004-08-05T14:47:56Z</updated>
+    <link href="https://arxiv.org/abs/physics/0408025v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/physics/0408025v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The fine structure of hydrogen energy was calculated by using the usual momentum-wavefunction relation directly, rather than establishing the well-known Dirac wave equation. As the results, the energy levels are completely the same as that of the Dirac wave equation, while the wavefunction is single component that is quite different from Dirac's four component wavefunction, the most important thing is that the present calculation brings out electronic spin in a new way which has never been reported and indicates that the electronic spin is a kind of orbital motion.</summary>
+    <category term="physics.gen-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-08-05T14:47:56Z</published>
+    <arxiv:comment>LaTex2e,7 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.gen-ph"/>
+    <author>
+      <name>H. Y. Cui</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1002.3468v5</id>
+    <title>Unconventional approach to orbital-free density functional theory derived from a model of extended electrons</title>
+    <updated>2010-10-19T13:52:38Z</updated>
+    <link href="https://arxiv.org/abs/1002.3468v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1002.3468v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>An equation proposed by Levy, Perdew and Sahni in 1984 [PRA 30, 2745 (1984)] is an orbital--free formulation of density functional theory. However, this equation describes a bosonic system. Here, we analyze on a very fundamental level, how this equation could be extended to yield a formulation for a general fermionic distribution of charge and spin. This analysis starts at the level of single electrons and with the question, how spin actually comes into a charge distribution in a non-relativistic model. To this end we present a space-time model of extended electrons, which is formulated in terms of geometric algebra. Wave properties of the electron are referred to mass density oscillations. We provide a comprehensive and non-statistical interpretation of wavefunctions, referring them to mass density components and internal field components. It is shown that these wavefunctions comply with the Schrödinger equation, for the free electron as well as for the electron in electrostatic and vector potentials. Spin-properties of the electron are referred to intrinsic field components and it is established that a measurement of spin in an external field yields exactly two possible results. The model agrees with the results of standard theory concerning the hydrogen atom. Finally, we analyze many-electron systems and derive a set of coupled equations suitable to characterize the system without any reference to single electron states. The model is expected to have the greatest impact in condensed matter theory, where it allows to describe an $N$-electron system by a many-electron wavefunction $Ψ$ of four, instead of 3N variables. The many-body aspect of a system is in this case encoded in a bivector potential.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-02-18T15:17:55Z</published>
+    <arxiv:comment>The paper has been extended by a modified Landau-Lifshitz equation, describing the change of spin in external magnetic fields. A figure has been added to demonstrate the process. The article has now been accepted for publication and will appear in Foundations of Physics. 21 pages, 1 figure, 59 references</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Found. Phys. 41, 754-791 (2011)</arxiv:journal_ref>
+    <author>
+      <name>Werner A. Hofer</name>
+    </author>
+    <arxiv:doi>10.1007/s10701-010-9517-0</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s10701-010-9517-0" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2411.19938v1</id>
+    <title>Probing quantum critical phase from neural network wavefunction</title>
+    <updated>2024-11-29T18:56:14Z</updated>
+    <link href="https://arxiv.org/abs/2411.19938v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.19938v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>One-dimensional (1D) systems and models provide a versatile platform for emergent phenomena induced by strong electron correlation. In this work, we extend the newly developed real space neural network quantum Monte Carlo methods to study the quantum phase transition of electronic and magnetic properties. Hydrogen chains of different interatomic distances are explored systematically with both open and periodic boundary conditions, and fully correlated ground state many-body wavefunction is achieved via unsupervised training of neural networks. We demonstrate for the first time that neural networks are capable of capturing the quantum critical behavior of Tomonaga- Luttinger liquid (TLL), which is known to dominate 1D quantum systems. Moreover, we reveal the breakdown of TLL phase and the emergence of a Fermi liquid behavior, evidenced by abrupt changes in the spin structure and the momentum distribution. Such behavior is absent in commonly studied 1D lattice models and is likely due to the involvement of high-energy orbitals of hydrogen atoms. Our work highlights the powerfulness of neural networks for representing complex quantum phases.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-29T18:56:14Z</published>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <author>
+      <name>Haoxiang Chen</name>
+    </author>
+    <author>
+      <name>Weiluo Ren</name>
+    </author>
+    <author>
+      <name>Xiang Li</name>
+    </author>
+    <author>
+      <name>Ji Chen</name>
+    </author>
+  </entry>
+</feed>

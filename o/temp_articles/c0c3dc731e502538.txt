@@ -1,0 +1,66 @@
+TERMS: lattice, neutrino
+COLORS: orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/g6pFrxWoOjI5zQVusOWSQI4273s</id>
+  <title>arXiv Query: search_query=all:lattice AND all:neutrino&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T00:57:42Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+all:neutrino&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>290</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1212.6849v1</id>
+    <title>Lattice Hadron Structure: Applications within and beyond QCD</title>
+    <updated>2012-12-31T10:06:12Z</updated>
+    <link href="https://arxiv.org/abs/1212.6849v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1212.6849v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Study of the hadronic matrix elements can provide not only tests of the QCD sector of the Standard Model (in comparing with existing experiments) but also reliable low-energy hadronic quantities applicable to a wide range of beyond-the-Standard Model scenarios where experiments or theoretical calculations are limited or difficult. On the QCD side, progress has been made in the notoriously difficult problem of addressing gluonic structure inside the nucleon, reaching higher-$Q^2$ region of the form factors, and providing a complete picture of the proton spin. However, even further study and improvement of systematic uncertainties are needed. There are also proposed calculations of higher-order operators in the neutron electric dipole moment Lagrangian, which would be useful when combined with effective theory to probe BSM. Lattice isovector tensor and scalar charges can be combined with upcoming neutron beta-decay measurements of the Fierz interference term and neutrino asymmetry parameter to probe new interactions in the effective theory, revealing the scale of potential new TeV particles. Finally, I revisit the systematic uncertainties in recent calculations of $g_A$ and review prospects for future calculations.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-12-31T10:06:12Z</published>
+    <arxiv:comment>15 pages, 6 figures, Plenary given at the XXX International Symposium on Lattice Field Theory (Lattice 2012), June 24-29, 2012, Cairns, Australia</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>PoS(Lattice 2012)013</arxiv:journal_ref>
+    <author>
+      <name>Huey-Wen Lin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2301.04616v1</id>
+    <title>Neutrino Oscillation and Lattice QCD</title>
+    <updated>2023-01-11T18:18:17Z</updated>
+    <link href="https://arxiv.org/abs/2301.04616v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2301.04616v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Next generation high-precision neutrino scattering experiments have the goal of measuring the as-of-yet unknown parameters governing neutrino oscillation. This effort is hampered by the use of large nuclear targets: secondary interactions within a nucleus can confuse the interpretation of experimental data, leading to ambiguities about the initial neutrino interaction in scattering events. The distribution of energies for neutrino events must instead be inferred from the responses of a sum of dissimilar event topologies. For this reason, precise neutrino cross sections on nucleon targets are of vital importance to the neutrino oscillation experimental program. On the other hand, the necessary experimental data for neutrino scattering with elementary targets are scarce because of the weak interaction cross section, which leads to poorly-constrained nucleon and nuclear cross sections. Lattice QCD is uniquely positioned to provide the requisite nucleon amplitudes needed to enable high-precision oscillation experiments. In particular, LQCD has the ability to probe axial matrix elements that are challenging to isolate or completely inaccessible to experiments. In these proceedings, I will discuss some of my work to quantify neutrino cross sections with realistic uncertainty estimates, primarily focusing on neutrino quasielastic scattering and the nucleon axial form factor. I will also outline how the needs of next-generation neutrino oscillation experimental programs can be met with modern dedicated LQCD computations.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-01-11T18:18:17Z</published>
+    <arxiv:comment>18 pages, 5 figures. Plenary talk given at the Lattice 2022 conference</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Aaron S. Meyer</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1811.05554v1</id>
+    <title>Nuclear Matrix Elements for Neutrinoless Double Beta Decay from Lattice QCD</title>
+    <updated>2018-11-13T22:45:56Z</updated>
+    <link href="https://arxiv.org/abs/1811.05554v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1811.05554v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While neutrino oscillation experiments have demonstrated that neutrinos have small, nonzero masses, much remains unknown about their properties and decay modes. One potential decay mode --- neutrinoless double beta decay ($0 νββ$) --- is a particularly interesting target of experimental searches, since its observation would imply that the neutrino is a Majorana particle, demonstrate that lepton number conservation is violated in nature, and give further constraints on the neutrino masses and mixing angles. Relating experimental constraints on $0 νββ$ decay rates to the neutrino masses, however, requires theoretical input in the form of non-perturbative nuclear matrix elements which remain difficult to calculate reliably. In this talk we will discuss progress towards first-principles calculations of relevant nuclear matrix elements using lattice QCD and effective field theory techniques, assuming neutrinoless double beta decay mediated by a light Majorana neutrino. We will show preliminary results for the $π^{-} \rightarrow π^{+} e^{-} e^{-}$ transition amplitude computed on a $16^{3} \times 32$ domain wall fermion lattice with a pion mass of 420 MeV, and discuss improved methods applicable to general lattice calculations of $0 νββ$ decay amplitudes.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-11-13T22:45:56Z</published>
+    <arxiv:comment>7 pages, 3 figures, talk presented at the 36th Annual International Symposium on Lattice Field Theory (Lattice 2018)</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>W. Detmold</name>
+    </author>
+    <author>
+      <name>D. J. Murphy</name>
+    </author>
+  </entry>
+</feed>

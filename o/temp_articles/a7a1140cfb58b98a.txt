@@ -1,0 +1,68 @@
+TERMS: lattice, entropy, singularity
+COLORS: orange, red, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/5QEqddMJPLPMXcosf15JvoIvAA8</id>
+  <title>arXiv Query: search_query=all:lattice AND all:entropy AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:13:30Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:entropy+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>86</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2402.16206v3</id>
+    <title>Exact calculation of degrees for lattice equations: a singularity approach</title>
+    <updated>2025-11-15T12:29:17Z</updated>
+    <link href="https://arxiv.org/abs/2402.16206v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.16206v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The theory of degree growth and algebraic entropy plays a crucial role in the field of discrete integrable systems. However, a general method for calculating degree growth for lattice equations (partial difference equations) is not yet known. Here we propose a method to rigorously compute the exact degree of each iterate for lattice equations. Halburd's method, which is a novel approach to computing the exact degree of each iterate for mappings (recurrence relations, typically from ordinary difference equations) from the singularity structure, forms the basis of our idea. The strategy is to extend this method to lattice equations. First, we illustrate, without rigorous details, how to calculate degrees for lattice equations using the lattice version of Halburd's method, and outline the issues that must be resolved to make the method rigorous. We then provide a framework to ensure that all calculations are accurate and rigorous. We further address how to detect the singularity structure in lattice equations. Our method is not only accurate and rigorous but can also be easily applied to a wide range of lattice equations.</summary>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-25T21:59:53Z</published>
+    <arxiv:comment>Minor revision after peer review; improved presentation and corrected minor errors</arxiv:comment>
+    <arxiv:primary_category term="nlin.SI"/>
+    <author>
+      <name>Takafumi Mase</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1208.5162v1</id>
+    <title>Improved Maximum Entropy Method with an Extended Search Space</title>
+    <updated>2012-08-25T18:49:10Z</updated>
+    <link href="https://arxiv.org/abs/1208.5162v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1208.5162v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We report on an improvement to the implementation of the Maximum Entropy Method (MEM). It amounts to departing from the search space obtained through a singular value decomposition (SVD) of the Kernel. Based on the shape of the SVD basis functions we argue that the MEM spectrum for given $N_τ$ data-points $D(τ)$ and prior information $m(ω)$ does not in general lie in this $N_τ$ dimensional singular subspace. Systematically extending the search basis will eventually recover the full search space and the correct extremum. We illustrate this idea through a mock data analysis inspired by actual lattice spectra, to show where our improvement becomes essential for the success of the MEM. To remedy the shortcomings of Bryan's SVD prescription we propose to use the real Fourier basis, which consists of trigonometric functions. Not only does our approach lead to more stable numerical behavior, as the SVD is not required for the determination of the basis functions, but also the resolution of the MEM becomes independent from the position of the reconstructed peaks.</summary>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.data-an" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-08-25T18:49:10Z</published>
+    <arxiv:comment>7 pages, 3 figures, Talk given at the XXX International Symposium on Lattice Field Theory (LATTICE2012), June 24-29, 2012, Cairns, Australia</arxiv:comment>
+    <arxiv:primary_category term="physics.comp-ph"/>
+    <author>
+      <name>Alexander Rothkopf</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2202.04197v2</id>
+    <title>Differential entropy per particle as a probe of van Hove singularities and flat bands</title>
+    <updated>2022-07-15T09:24:20Z</updated>
+    <link href="https://arxiv.org/abs/2202.04197v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2202.04197v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the present paper we derive the general expressions for the differential entropy per particle near van Hove singularities (vHs) in the density of states. The dependence of entropy per particle on chemical potential and temperature demonstrates different behavior depending on the type of vHs, and distinguishes high-order vHs with different divergence exponents and flat bands. In addition, it allows one to test the ``flatness" of the band in experiment. We compare the analytic predictions with the numerical calculation of the differential entropy for tight-binding models of graphene, Lieb lattice and square-octagon lattice. Our results show that the obtained analytic expressions capture the main features of the differential entropy, thus serving as a good probe for details of the density of states structure.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-02-08T23:29:17Z</published>
+    <arxiv:comment>13 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Phys. Rev. B 106, 045115 (2022)</arxiv:journal_ref>
+    <author>
+      <name>Yelizaveta Kulynych</name>
+    </author>
+    <author>
+      <name>D. O. Oriekhov</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.106.045115</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.106.045115" title="doi"/>
+  </entry>
+</feed>

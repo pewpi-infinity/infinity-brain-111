@@ -1,0 +1,104 @@
+TERMS: lattice, vapor
+COLORS: orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/CEtp3Xq4jfs9UYJ0TNh8hGkTzzc</id>
+  <title>arXiv Query: search_query=all:lattice AND all:vapor&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T00:57:30Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+all:vapor&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>306</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/nlin/0305013v1</id>
+    <title>Reduction of spurious velocity in finite difference lattice Boltzmann models for liquid - vapor systems</title>
+    <updated>2003-05-09T07:08:18Z</updated>
+    <link href="https://arxiv.org/abs/nlin/0305013v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/nlin/0305013v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The origin of the spurious interface velocity in finite difference lattice Boltzmann models for liquid - vapor systems is related to the first order upwind scheme used to compute the space derivatives in the evolution equations. A correction force term is introduced to eliminate the spurious velocity. The correction term helps to recover sharp interfaces and sets the phase diagram close to the one derived using the Maxwell construction.</summary>
+    <category term="nlin.CG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-05-09T07:08:18Z</published>
+    <arxiv:comment>22 pages, 10 figures (submitted to International Journal of Modern Physics C- Physics and Computers)</arxiv:comment>
+    <arxiv:primary_category term="nlin.CG"/>
+    <author>
+      <name>Artur Cristea</name>
+    </author>
+    <author>
+      <name>Victor Sofonea</name>
+    </author>
+    <arxiv:doi>10.1142/S0129183103005388</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/S0129183103005388" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2112.01392v1</id>
+    <title>Ab initio nuclear thermodynamics from lattice effective field theory</title>
+    <updated>2021-12-02T16:21:49Z</updated>
+    <link href="https://arxiv.org/abs/2112.01392v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2112.01392v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show that the {\it ab initio} calculations of nuclear thermodynamics can be performed efficiently using lattice effective field theory. The simulations use a new approach called the pinhole trace algorithm to calculate thermodynamic observables for a fixed number of protons and neutrons enclosed in a finite box. In this framework, we calculate the equation of state, the liquid-vapor coexistence line and the critical point of neutral symmetric nuclear matter with high precision. Since the algorithm uses a canonical ensemble with a fixed number of particles, it provides a sizable computational advantage over grand canonical ensemble simulations that can be a factor of several thousands to as much as several millions for large volume simulations.</summary>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-12-02T16:21:49Z</published>
+    <arxiv:comment>17 pages, plenary talk at the 38th International Symposium on Lattice Field Theory (Lattice 2021), 26-30 July 2021, Zoom/Gather @ MIT, USA</arxiv:comment>
+    <arxiv:primary_category term="nucl-th"/>
+    <author>
+      <name>Bing-Nan Lu</name>
+    </author>
+    <author>
+      <name>Ning Li</name>
+    </author>
+    <author>
+      <name>Serdar Elhatisari</name>
+    </author>
+    <author>
+      <name>Dean Lee</name>
+    </author>
+    <author>
+      <name>Joaquín E. Drut</name>
+    </author>
+    <author>
+      <name>Timo A. Lähde</name>
+    </author>
+    <author>
+      <name>Evgeny Epelbaum</name>
+    </author>
+    <author>
+      <name>Ulf-G. Meißner</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1510.05872v1</id>
+    <title>Modulation of the photonic band structure topology of a honeycomb lattice in an atomic vapor</title>
+    <updated>2015-10-20T12:57:55Z</updated>
+    <link href="https://arxiv.org/abs/1510.05872v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1510.05872v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In an atomic vapor, a honeycomb lattice can be constructed by utilizing the three-beam interference method. In the method, the interference of the three beams splits the dressed energy level periodically, forming a periodic refractive index modulation with the honeycomb profile. The energy band topology of the honeycomb lattice can be modulated by frequency detunings, thereby affecting the appearance (and disappearance) of Dirac points and cones in the momentum space. This effect can be usefully exploited for the generation and manipulation of topological insulators.</summary>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-10-20T12:57:55Z</published>
+    <arxiv:comment>8 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.optics"/>
+    <arxiv:journal_ref>Ann. Phys. 363, 114-121(2015)</arxiv:journal_ref>
+    <author>
+      <name>Yiqi Zhang</name>
+    </author>
+    <author>
+      <name>Xing Liu</name>
+    </author>
+    <author>
+      <name>Milivoj R. Belić</name>
+    </author>
+    <author>
+      <name>Zhenkun Wu</name>
+    </author>
+    <author>
+      <name>Yanpeng Zhang</name>
+    </author>
+    <arxiv:doi>10.1016/j.aop.2015.09.017</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.aop.2015.09.017" title="doi"/>
+  </entry>
+</feed>

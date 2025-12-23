@@ -1,0 +1,40 @@
+TERMS: hydrogen, frequency, superconductivity, wavefunction
+COLORS: purple, green, green, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/o3Sfnlwbf0K3RPsEkbAd7zJPnvM</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:frequency AND all:superconductivity AND all:wavefunction&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:43:59Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:frequency+AND+(all:superconductivity+AND+all:wavefunction))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1011.0482v1</id>
+    <title>Quantum Incompressibility of a Freely Falling Hydrogen Atom in a Circular Rydberg State, and a Gravitationally-Induced Charge Separation Effect in Superconducting Systems</title>
+    <updated>2010-11-02T00:38:07Z</updated>
+    <link href="https://arxiv.org/abs/1011.0482v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1011.0482v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Freely falling point-like objects converge toward the center of the Earth. Hence the gravitational field of the Earth is inhomogeneous, and possesses a tidal component. The free fall of an extended quantum mechanical object such as a hydrogen atom prepared in a high principal-quantum-number state, i.e. a circular Rydberg atom, is predicted to fall more slowly than a classical point-like object, when both objects are dropped from the same height above the Earth's surface. This indicates that, apart from transitions between quantum states, the atom exhibits a kind of quantum mechanical incompressibility during free fall in inhomogeneous, tidal gravitational fields like those of the Earth.
+  A superconducting ring-like system with a persistent current circulating around it behaves like the circular Rydberg atom during free fall. Like the electronic wavefunction of the freely falling atom, the Cooper-pair wavefunction is quantum mechanically incompressible. The ions in the lattice of the superconductor, however, are not incompressible, since they do not possess a globally coherent quantum phase. The resulting difference during free fall in the response of the nonlocalizable Cooper pairs of electrons and the localizable ions to inhomogeneous gravitational fields is predicted to lead to a charge separation effect, which in turn leads to a large Coulomb force that opposes the convergence caused by the tidal gravitational force on the superconducting system.
+  A "Cavendish-like" experiment is proposed for observing the charge separation effect induced by inhomogeneous gravitational fields in a superconducting circuit. The charge separation effect is determined to be limited by a pair-breaking process that occurs when low frequency gravitational perturbations are present.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-11-02T00:38:07Z</published>
+    <arxiv:comment>15 pages, 9 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>R. Y. Chiao</name>
+    </author>
+    <author>
+      <name>S. J. Minter</name>
+    </author>
+    <author>
+      <name>K. Wegter-McNelly</name>
+    </author>
+    <author>
+      <name>L. A. Martinez</name>
+    </author>
+  </entry>
+</feed>

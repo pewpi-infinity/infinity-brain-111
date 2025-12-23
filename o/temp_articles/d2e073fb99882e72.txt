@@ -1,0 +1,79 @@
+TERMS: vapor, wavefunction, resonance
+COLORS: green, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/4gC34cAwcJrfjK/OnyassDxZ0Hs</id>
+  <title>arXiv Query: search_query=all:vapor AND all:wavefunction AND all:resonance&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:25:58Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:vapor+AND+(all:wavefunction+AND+all:resonance)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1107.2522v1</id>
+    <title>Charge control in InP/GaInP single quantum dots embedded in Schottky diodes</title>
+    <updated>2011-07-13T11:05:45Z</updated>
+    <link href="https://arxiv.org/abs/1107.2522v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1107.2522v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We demonstrate control by applied electric field of the charge states in single self-assembled InP quantum dots placed in GaInP Schottky structures grown by metalorganic vapor phase epitaxy. This has been enabled by growth optimization leading to suppression of formation of large dots uncontrollably accumulating charge. Using bias- and polarization-dependent micro-photoluminescence, we identify the exciton multi-particle states and carry out a systematic study of the neutral exciton state dipole moment and polarizability. This analysis allows for the characterization of the exciton wavefunction properties at the single dot level for this type of quantum dots. Photocurrent measurements allow further characterization of exciton properties by electrical means, opening new possibilities for resonant excitation studies for such system.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-07-13T11:05:45Z</published>
+    <arxiv:comment>7 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Phys. Rev. B 84 125301 (2011)</arxiv:journal_ref>
+    <author>
+      <name>O. D. D. Couto</name>
+    </author>
+    <author>
+      <name>J. Puebla</name>
+    </author>
+    <author>
+      <name>E. A. Chekhovich</name>
+    </author>
+    <author>
+      <name>I. J. Luxmoore</name>
+    </author>
+    <author>
+      <name>C. J. Elliott</name>
+    </author>
+    <author>
+      <name>N. Babazadeh</name>
+    </author>
+    <author>
+      <name>M. S. Skolnick</name>
+    </author>
+    <author>
+      <name>A. I. Tartakovskii</name>
+    </author>
+    <author>
+      <name>A. B. Krysa</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.84.125301</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.84.125301" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2008.04641v2</id>
+    <title>Direct observation and evolution of electronic coupling between organic semiconductors</title>
+    <updated>2020-11-17T19:39:53Z</updated>
+    <link href="https://arxiv.org/abs/2008.04641v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2008.04641v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The electronic wavefunctions of an atom or molecule are affected by its interactions with its environment. These interactions dictate electronic and optical processes at interfaces, and is especially relevant in the case of thin film optoelectronic devices such as organic solar cells. In these devices, charge transport and interfaces between multiple layers occur along the thickness or vertical direction, and thus such electronic interactions are crucial in determining the device properties. Here, we introduce a new in-situ spectroscopic ellipsometry data analysis method called DART with the ability to directly probe electronic coupling due to intermolecular interactions along the thickness direction using vacuum-deposited organic semiconductor thin films as a model system. The analysis, which does not require any model fitting, reveals direct observations of electronic coupling between frontier orbitals under optical excitations leading to delocalization of the corresponding electronic wavefunctions with thickness or, equivalently, number of molecules away from the interface in C60 and MeO-TPD deposited on an insulating substrate (SiO2). Applying the same methodology for C60 deposited on phthalocyanine thin films, the analyses shows strong, anomalous features - in comparison to C60 deposited on SiO2 - of the electronic wavefunctions corresponding to specific excitation energies in C60 and phthalocyanines. Translation of such interactions in terms of dielectric constants reveals plasmonic type resonance absorptions resulting from oscillations of the excited state wavefunctions between the two materials across the interface. Finally, reproducibility, angstrom-level sensitivity and simplicity of the method are highlighted showcasing its applicability for studying electronic coupling between any vapor-deposited material systems where real-time measurements during deposition are possible.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-08-11T11:55:48Z</published>
+    <arxiv:comment>12 pages, 6 figures, Supplementary information</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>Phys. Rev. Materials 5, 015601 (2021)</arxiv:journal_ref>
+    <author>
+      <name>Sameer Vajjala Kesava</name>
+    </author>
+    <author>
+      <name>Moritz K. Riede</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevMaterials.5.015601</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevMaterials.5.015601" title="doi"/>
+  </entry>
+</feed>

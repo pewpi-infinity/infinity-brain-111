@@ -1,0 +1,87 @@
+TERMS: wavefunction, graphene, singularity
+COLORS: yellow, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/6IgsHIfN+EmgyN6hS9gRzT22Lzg</id>
+  <title>arXiv Query: search_query=all:wavefunction AND all:graphene AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:33:18Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:wavefunction+AND+(all:graphene+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>9</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1306.6665v1</id>
+    <title>Electron localization in disordered graphene: multifractal properties of the wavefunctions</title>
+    <updated>2013-06-27T21:43:48Z</updated>
+    <link href="https://arxiv.org/abs/1306.6665v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1306.6665v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>An analysis of the electron localization properties in doped graphene is performed by doing a numerical multifractal analysis. By obtaining the singularity spectrum of a tight-binding model, it is found that the electron wave functions present a multifractal behavior. Such multifractality is preserved even for second neighbor interaction, which needs to be taken into account if a comparison is desired with experimental results. States close to the Dirac point have a wider multifractal character than those far from this point as the impurity concentration is increased. The analysis of the results allows to conclude that in the split-band limit, where impurities act as vacancies, the system can be well described by a chiral orthogonal symmetry class, with a singularity spectrum transition approaching freezing as disorder increases. This also suggests that in doped graphene, localization is in contrast with the conventional picture of Anderson localization in two dimensions, showing also that the common belief of the absence of quantum percolation in two dimensional systems needs to be revised.</summary>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-06-27T21:43:48Z</published>
+    <arxiv:comment>5 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.dis-nn"/>
+    <author>
+      <name>J. E. Barrios-Vargas</name>
+    </author>
+    <author>
+      <name>Gerardo G. Naumis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1807.02056v2</id>
+    <title>Electronic optics in graphene in the semiclassical approximation</title>
+    <updated>2018-08-28T17:47:01Z</updated>
+    <link href="https://arxiv.org/abs/1807.02056v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1807.02056v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study above-barrier scattering of Dirac electrons by a smooth electrostatic potential combined with a coordinate-dependent mass in graphene. We assume that the potential and mass are sufficiently smooth, so that we can define a small dimensionless semiclassical parameter $h \ll 1$. This electronic optics setup naturally leads to focusing and the formation of caustics, which are singularities in the density of trajectories. We construct a semiclassical approximation for the wavefunction in all points, placing particular emphasis on the region near the caustic, where the maximum of the intensity lies. Because of the matrix character of the Dirac equation, this wavefunction contains a nontrivial semiclassical phase, which is absent for a scalar wave equation and which influences the focusing. We carefully discuss the three steps in our semiclassical approach: the adiabatic reduction of the matrix equation to an effective scalar equation, the construction of the wavefunction using the Maslov canonical operator and the application of the uniform approximation to the integral expression for the wavefunction in the vicinity of a caustic. We consider several numerical examples and show that our semiclassical results are in very good agreement with the results of tight-binding calculations. In particular, we show that the semiclassical phase can have a pronounced effect on the position of the focus and its intensity.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-07-05T15:38:38Z</published>
+    <arxiv:comment>103 pages, 11 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Annals of Physics 397, 65-135 (2018)</arxiv:journal_ref>
+    <author>
+      <name>K. J. A. Reijnders</name>
+    </author>
+    <author>
+      <name>D. S. Minenkov</name>
+    </author>
+    <author>
+      <name>M. I. Katsnelson</name>
+    </author>
+    <author>
+      <name>S. Yu. Dobrokhotov</name>
+    </author>
+    <arxiv:doi>10.1016/j.aop.2018.08.004</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.aop.2018.08.004" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1404.5517v4</id>
+    <title>Influence of spatially varying pseudo-magnetic field on a 2D electron gas in graphene</title>
+    <updated>2015-01-28T00:17:55Z</updated>
+    <link href="https://arxiv.org/abs/1404.5517v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1404.5517v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The effect of a varying pseudo-magnetic field, which falls as $1/x^2$, on a two dimensional electron gas in graphene is investigated. By considering the second order Dirac equation, we show that its correct general solution is that which might present singular wavefunctions since such field induced by elastic deformations diverges as $x\rightarrow0$. We show that only this consideration yields the known relativistic Landau levels when we remove such elastic field. We have observed that the zero Landau level fails to develop for certain values of it. We then speculate about the consequences of these facts to the quantum Hall effect on graphene. We also analyze the changes in the relativistic cyclotron frequency. We hope our work being probed in these contexts, since graphene has great potential for electronic applications.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-04-22T14:49:23Z</published>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>L. G. da Silva Leite</name>
+    </author>
+    <author>
+      <name>D. Cogollo</name>
+    </author>
+    <author>
+      <name>C. Filgueiras</name>
+    </author>
+    <author>
+      <name>Edilberto O. Silva</name>
+    </author>
+    <arxiv:doi>10.1016/j.physleta.2015.01.007</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physleta.2015.01.007" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,89 @@
+TERMS: electron, resonance, singularity
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/u6yZOFv7TDVJ+0HBzVIRdnJE87A</id>
+  <title>arXiv Query: search_query=all:electron AND all:resonance AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:24:20Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:electron+AND+(all:resonance+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>148</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2012.14655v1</id>
+    <title>Coherent single-spin electron resonance spectroscopy manifested at an exceptional-point singularity in a doped polyacetylene</title>
+    <updated>2020-12-29T08:30:25Z</updated>
+    <link href="https://arxiv.org/abs/2012.14655v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2012.14655v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Spin-dependent charge transfer decay in an alkali atom doped polyacetylene is studied in terms of the complex spectral analysis, revealing the single-spin Zeeman splitting influenced by the spin-orbit interaction. Nonhermitian effective Hamiltonian has been derived from the total system hermitian Hamiltonian using Brillouin-Wigner-Feshbach projection method, where the microscopic spin-dependent dissipation effect is correctly incorporated in the energy-dependent self-energy. Since the present method maintains the dynamical and chiral symmetries of the total system, we discovered two types of exceptional point (EP) singularities in a unified perspective: the EP surface and EP ring are attributed to the dynamical and chiral symmetry breaking, respectively. We have revealed that the coherent single-spin electron resonance (SSESR) spectrum reflects the complex eigenenergy spectrum of the system. We have formulated the SSESR spectrum in terms of the nonlinear response function in the Liouville-space pathway approach, where we have constructed the Liouville space basis using the complex eigenstates of the total Hamiltonian. We have calculated the one- and two-dimensional Fourier transform SSESR (1DFT and 2DFT) spectra reflecting the spin-relaxation dynamics at the donor site. While the 1DFT SSESR spectrum reflects the complex eigenenergy spectrum, the 2DFT gives detailed information on the quantum coherence in the spin-relaxation dynamics as a cross-correlation between the two frequencies. We found a giant response of the coherent SSESR around the EP ring singularity due to the vanishing normalization factors at the EP ring and the resonance effect. We have discovered that the giant response is much larger in magnitudes in the 2DFT spectrum than in the 1DFT spectrum, which promises the 2DFT SSESR a useful tool to observe the single-spin response in a molecule.</summary>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-12-29T08:30:25Z</published>
+    <arxiv:comment>17 pages, 11 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.optics"/>
+    <arxiv:journal_ref>Phys. Rev. A 103, 043513 (2021)</arxiv:journal_ref>
+    <author>
+      <name>Yujin Dunham</name>
+    </author>
+    <author>
+      <name>Kazuki Kanki</name>
+    </author>
+    <author>
+      <name>Savannah Garmon</name>
+    </author>
+    <author>
+      <name>Gonzalo Ordonez</name>
+    </author>
+    <author>
+      <name>Satoshi Tanaka</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.103.043513</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.103.043513" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1507.08320v1</id>
+    <title>Resonance Van Hove Singularities in Wave Kinetics</title>
+    <updated>2015-07-29T21:12:11Z</updated>
+    <link href="https://arxiv.org/abs/1507.08320v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1507.08320v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Wave kinetic theory has been developed to describe the statistical dynamics of weakly nonlinear, dispersive waves. However, we show that systems which are generally dispersive can have resonant sets of wave modes with identical group velocities, leading to a local breakdown of dispersivity. This shows up as a geometric singularity of the resonant manifold and possibly as an infinite phase measure in the collision integral. Such singularities occur widely for classical wave systems, including acoustical waves, Rossby waves, helical waves in rotating fluids, light waves in nonlinear optics and also in quantum transport, e.g. kinetics of electron-hole excitations (matter waves) in graphene. These singularities are the exact analogue of the critical points found by Van Hove in 1953 for phonon dispersion relations in crystals. The importance of these singularities in wave kinetics depends on the dimension of phase space $D=(N-2)d$ ($d$ physical space dimension, $N$ the number of waves in resonance) and the degree of degeneracy $δ$ of the critical points. Following Van Hove, we show that non-degenerate singularities lead to finite phase measures for $D&gt;2$ but produce divergences when $D\leq 2$ and possible breakdown of wave kinetics if the collision integral itself becomes too large (or even infinite). Similar divergences and possible breakdown can occur for degenerate singularities, when $D-δ\leq 2,$ as we find for several physical examples, including electron-hole kinetics in graphene. When the standard kinetic equation breaks down, then one must develop a new singular wave kinetics. We discuss approaches from pioneering 1971 work of Newell \&amp; Aucoin on multi-scale perturbation theory for acoustic waves and field-theoretic methods based on exact Schwinger-Dyson integral equations for the wave dynamics.</summary>
+    <category term="physics.flu-dyn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-07-29T21:12:11Z</published>
+    <arxiv:primary_category term="physics.flu-dyn"/>
+    <author>
+      <name>Yi-Kang Shi</name>
+    </author>
+    <author>
+      <name>Gregory Eyink</name>
+    </author>
+    <arxiv:doi>10.1016/j.physd.2016.05.014</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physd.2016.05.014" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2311.08121v3</id>
+    <title>Enhanced classical radiation damping of electronic cyclotron motion in the vicinity of the Van Hove singularity in a waveguide</title>
+    <updated>2024-02-06T04:36:33Z</updated>
+    <link href="https://arxiv.org/abs/2311.08121v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.08121v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the damping process of electron cyclotron motion and the resulting emission in a waveguide using the classical Friedrichs model without relying on perturbation analysis such as Fermi's golden rule. A classical Van Hove singularity appears at the lower bound (or cut-off frequency) of the dispersion associated with each of the electromagnetic field modes in the waveguide. In the vicinity of the Van Hove singularity, we found that not only is the decay process associated with the resonance pole enhanced (amplification factor ~ $10^4$) but the branch-point effect is also comparably enhanced. As a result, the timescale on which most of the decay occurs is dramatically shortened. Further, this suggests that the non-Markovian branch point effect should be experimentally observable in the vicinity of the Van Hove singularity. Our treatment yields a physically-acceptable solution without the problematic runaway solution that is well known to appear in the traditional treatment of classical radiation damping based on the Abraham-Lorentz equation.</summary>
+    <category term="physics.class-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-14T12:35:27Z</published>
+    <arxiv:primary_category term="physics.class-ph"/>
+    <author>
+      <name>Yuki Goto</name>
+    </author>
+    <author>
+      <name>Savannah Garmon</name>
+    </author>
+    <author>
+      <name>Tomio Petrosky</name>
+    </author>
+    <arxiv:doi>10.1093/ptep/ptae021</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1093/ptep/ptae021" title="doi"/>
+  </entry>
+</feed>

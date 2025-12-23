@@ -1,0 +1,42 @@
+TERMS: hydrogen, frequency, fusion, vacuum
+COLORS: purple, green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/rKOwNM4/WuxWXBw3P5G544BjSv0</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:frequency AND all:fusion AND all:vacuum&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:42:44Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:frequency+AND+(all:fusion+AND+all:vacuum))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/physics/0201030v1</id>
+    <title>"Wild Cables" in Fusion Plasmas and their Diagnostics with Spectral Line Stark Broadening</title>
+    <updated>2002-01-14T18:07:02Z</updated>
+    <link href="https://arxiv.org/abs/physics/0201030v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/physics/0201030v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We discuss the opportunities of diagnosing the parameters of hypothetical "wild cables" in fusion plasmas via analyzing the Stark broadening of hydrogen spectral lines. The "wild cables" concept have suggested the observed long-lived skeletal structures in tokamaks and Z-pinches to be caused by a microdust-assembled skeleton. We present the results of calculating the widths of vacuum channels produced by the pressure of on-skeleton high-frequency (HF) electromagnetic waves of the TEM type, which thus might protect the skeletons from ambient high-temperature plasma. The values of amplitude of such wave appear to be compatible with the measurements of those in-plasma HF electric fields in tokamak T-10 and a gaseous Z-pinch which give observable Stark broadening of hydrogen spectral lines.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-01-14T18:07:02Z</published>
+    <arxiv:comment>13 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>A. V. Demura</name>
+      <arxiv:affiliation>INF RRC "Kurchatov Institute", Moscow, Russia</arxiv:affiliation>
+    </author>
+    <author>
+      <name>V. I. Kogan</name>
+      <arxiv:affiliation>INF RRC "Kurchatov Institute", Moscow, Russia</arxiv:affiliation>
+    </author>
+    <author>
+      <name>A. B. Kukushkin</name>
+      <arxiv:affiliation>INF RRC "Kurchatov Institute", Moscow, Russia</arxiv:affiliation>
+    </author>
+    <author>
+      <name>V. A. Rantsev-Kartinov</name>
+      <arxiv:affiliation>INF RRC "Kurchatov Institute", Moscow, Russia</arxiv:affiliation>
+    </author>
+  </entry>
+</feed>

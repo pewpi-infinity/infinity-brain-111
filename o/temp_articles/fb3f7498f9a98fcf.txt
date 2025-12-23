@@ -1,0 +1,60 @@
+TERMS: hydrogen, quantum, entropy, ionization
+COLORS: purple, blue, red, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/8jRIkpp7wHdW7Y2C9me+v85t3UE</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:entropy AND all:ionization&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:38:23Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:entropy+AND+all:ionization))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1504.05731v1</id>
+    <title>Shannon Information Entropy in Position Space for Two-Electron Atomic Systems</title>
+    <updated>2015-04-22T11:12:10Z</updated>
+    <link href="https://arxiv.org/abs/1504.05731v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1504.05731v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Entropic measures provide analytic tools to help us understand correlation in quantum systems. In our previous work, we calculated linear entropy and von Neumann entropy as entanglement measures for the ground state and lower lying excited states in helium-like systems. In this work, we adopt another entropic measure, Shannon entropy, to probe the nature of correlation effects. Besides the results of the Shannon entropy in coordinate space for the singlet ground states of helium-like systems including positronium negative ion, hydrogen negative ion, helium atom, and lithium positive ion, we also show results for systems with nucleus charge around the ionization threshold.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atm-clus" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-04-22T11:12:10Z</published>
+    <arxiv:comment>Four tables, 1 figure, 13 pages</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Chemical Physics Letters 633, 261 (2015)</arxiv:journal_ref>
+    <author>
+      <name>Chien-Hao Lin</name>
+    </author>
+    <author>
+      <name>Yew Kam Ho</name>
+    </author>
+    <arxiv:doi>10.1016/j.cplett.2015.05.029</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.cplett.2015.05.029" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1902.01852v1</id>
+    <title>A new equation of state for dense hydrogen-helium mixtures</title>
+    <updated>2019-02-05T18:56:13Z</updated>
+    <link href="https://arxiv.org/abs/1902.01852v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1902.01852v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a new equation of state (EOS) for dense hydrogen/helium mixtures which covers a range of densities from $10^{-8}$ to $10^6$ g.cm$^{-3}$, pressures from $10^{-9}$ to $10^{13}$ GPa and temperatures from $10^{2}$ to $10^{8}$ K. The calculations combine the EOS of Saumon, Chabrier &amp; vanHorn (1995) in the low density, low temperature molecular/atomic domain, the EOS of Chabrier &amp; Potekhin (1998) in the high-density, high-temperature fully ionized domain, the limits of which differ for H and He, and ab initio quantum molecular dynamics (QMD) calculations in the intermediate density and temperature regime, characteristic of pressure dissociation and ionization. The EOS for the H/He mixture is based on the so-called additive volume law and thus does not take into account the interactions between the two species. A major improvement of the present calculations over existing ones is that we calculate the entropy over the entire density-temperature domain, a necessary quantity for stellar or planetary evolution calculations. The EOS results are compared with existing experimental data, namely Hugoniot shock experiments for pure H and He, and with first principle numerical simulations for both the single elements and the mixture. This new EOS covers a wide range of physical and astrophysical conditions, from jovian planets to solar-type stars, and recovers the existing relativistic EOS at very high densities, in the domains of white dwarfs and neutron stars.</summary>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-02-05T18:56:13Z</published>
+    <arxiv:comment>To appear in Astrophysical Journal. Figures in the published version will be larger</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.SR"/>
+    <author>
+      <name>G. Chabrier</name>
+    </author>
+    <author>
+      <name>S. Mazevet</name>
+    </author>
+    <author>
+      <name>F. Soubiran</name>
+    </author>
+    <arxiv:doi>10.3847/1538-4357/aaf99f</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3847/1538-4357/aaf99f" title="doi"/>
+  </entry>
+</feed>

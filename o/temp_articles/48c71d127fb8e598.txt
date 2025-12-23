@@ -1,0 +1,83 @@
+TERMS: hydrogen, probability, singularity
+COLORS: purple, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/i+Vtg8DNRhz9sT4MDX7J0bS0nsA</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:probability AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:05:29Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:probability+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>9</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1410.8344v2</id>
+    <title>Hydrogen atom in de Sitter spaces</title>
+    <updated>2014-12-28T10:09:24Z</updated>
+    <link href="https://arxiv.org/abs/1410.8344v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1410.8344v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The hydrogen atom theory is developed for the de Sitter and anti de Sitter spaces on the basis of the Klein-Gordon-Fock wave equation in static coordinates. In both models, after separation of the variables, the problem is reduced to the general Heun equation, a second order linear differential equation having four regular singular points. A qualitative examination shows that the energy spectrum for the hydrogen atom in the de Sitter space should be quasi-stationary, and the atom should be unstable. We derive an approximate expression for energy levels within the quasi-classical approach and estimate the probability of decay of the atom. A similar analysis shows that in the anti de Sitter model the hydrogen atom should be stable in the quantum-mechanical sense. Using the quasi-classical approach, we derive approximate formulas for energy levels for this case as well. Finally, we present the extension to the case of a spin 1/2 particle for both de Sitter models. This extension leads to complicated differential equations with 8 singular points.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-10-30T12:21:48Z</published>
+    <arxiv:comment>17 pages, Report to International Conference and Workshop "Quanta and %Matter: Through Physics to Future Emerging Technologies. 22-26 September 2014. Yerevan-Tsaghkadzor, Armenia</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>O. V. Veko</name>
+    </author>
+    <author>
+      <name>K. V. Kazmerchuk</name>
+    </author>
+    <author>
+      <name>E. M. Ovsiyuk</name>
+    </author>
+    <author>
+      <name>V. M. Red'kov</name>
+    </author>
+    <author>
+      <name>A. M. Ishkhanyan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/physics/9805033v1</id>
+    <title>Antiproton-Hydrogen annihilation at sub-kelvin temperatures</title>
+    <updated>1998-05-24T20:17:43Z</updated>
+    <link href="https://arxiv.org/abs/physics/9805033v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/physics/9805033v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The main properties of the interaction of ultra low-energy antiprotons ($% E\le10^{-6}$ a.u.) with atomic hydrogen are established. They include the elastic and inelastic cross sections and Protonium (Pn) formation spectrum. The inverse Auger process ($Pn+e \to H+\bar{p}$) is taken into account in the framework of an unitary coupled-channels model. The annihilation cross-section is found to be several times smaller than the predictions made by the black sphere absorption models. A family of $\bar{p}H$ nearthreshold metastable states is predicited. The dependence of Protonium formation probability on the position of such nearthreshold S-matrix singularities is analysed. An estimation for the $H\bar{H}$ annihilation cross section is obtained.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1998-05-24T20:17:43Z</published>
+    <arxiv:comment>latex.tar.gz file, 22 pages, 9 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <arxiv:journal_ref>Physical Review A, vol.57 n.5 (1998)</arxiv:journal_ref>
+    <author>
+      <name>A. Yu. Voronin</name>
+    </author>
+    <author>
+      <name>J. Carbonell</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.57.4335</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.57.4335" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2411.18890v1</id>
+    <title>How Are Quantum Eigenfunctions of Hydrogen Atom Related To Its Classical Elliptic Orbits?</title>
+    <updated>2024-11-28T03:32:06Z</updated>
+    <link href="https://arxiv.org/abs/2411.18890v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.18890v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show that a highly-excited energy eigenfunction $ψ_{nlm}(\vec{r})$ of hydrogen atom can be approximated as an equal-weight superposition of classical elliptic orbits of energy $E_n$ and angular momentum $L=\sqrt{l(l+1)}\hbar$, and $z$ component of angular momentum $L_z=m\hbar$. This correspondence is established by comparing the quantum probability distribution $|ψ_{nlm}(\vec{r})|^2$ and the classical probability distribution $p_c(\vec{r})$ of an ensemble of such orbits. This finding illustrates a general principle: in the semi-classical limit, an energy eigenstate of a quantum system is in general reduced to a collection of classical orbits, rather than a single classical orbit. In light of this quantum-classical correspondence, we re-examine the classical singularity problem of a point mass falling toward a gravitational center. We find that Euler's intuition was correct: the mass point undergoes a sudden turn at the center.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-28T03:32:06Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Yixuan Yin</name>
+    </author>
+    <author>
+      <name>Tiantian Wang</name>
+    </author>
+    <author>
+      <name>Biao Wu</name>
+    </author>
+  </entry>
+</feed>

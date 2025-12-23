@@ -1,0 +1,94 @@
+TERMS: crystal, plasma, singularity
+COLORS: orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/y9wyuGmcMdw2hU7P1GfmwEO7ImY</id>
+  <title>arXiv Query: search_query=all:crystal AND all:plasma AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:28:45Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:crystal+AND+(all:plasma+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/physics/9912048v1</id>
+    <title>Coulomb crystals in the harmonic lattice approximation</title>
+    <updated>1999-12-23T15:36:39Z</updated>
+    <link href="https://arxiv.org/abs/physics/9912048v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/physics/9912048v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The dynamic structure factor ${\tilde S}({\bf k},ω)$ and the two-particle distribution function $g({\bf r},t)$ of ions in a Coulomb crystal are obtained in a closed analytic form using the harmonic lattice (HL) approximation which takes into account all processes of multi-phonon excitation and absorption. The static radial two-particle distribution function $g(r)$ is calculated for classical ($T \gtrsim \hbar ω_p$, where $ω_p$ is the ion plasma frequency) and quantum ($T \ll \hbar ω_p$) body-centered cubic (bcc) crystals. The results for the classical crystal are in a very good agreement with extensive Monte Carlo (MC) calculations at $1.5 \lesssim r/a \lesssim 7$, where $a$ is the ion-sphere radius. The HL Coulomb energy is calculated for classical and quantum bcc and face-centered cubic crystals, and anharmonic corrections are discussed. The inelastic part of the HL static structure factor $S''(k)$, averaged over orientations of wave-vector {\bf k}, is shown to contain pronounced singularities at Bragg diffraction positions. The type of the singularities is different in classical and quantum cases. The HL method can serve as a useful tool complementary to MC and other numerical methods.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1999-12-23T15:36:39Z</published>
+    <arxiv:comment>8 pages, 3 figures; accepted to Phys. Rev. E</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>D. A. Baiko</name>
+      <arxiv:affiliation>Ioffe Physical Technical Institute, St. Petersburg, Russia;</arxiv:affiliation>
+    </author>
+    <author>
+      <name>D. G. Yakovlev</name>
+      <arxiv:affiliation>Ioffe Physical Technical Institute, St. Petersburg, Russia;</arxiv:affiliation>
+    </author>
+    <author>
+      <name>H. E. De Witt</name>
+      <arxiv:affiliation>Lawrence Livermore National Laboratory, Livermore, USA;</arxiv:affiliation>
+    </author>
+    <author>
+      <name>W. L. Slattery</name>
+      <arxiv:affiliation>Los Alamos National Laboratory, Los Alamos, USA</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1103/PhysRevE.61.1912</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevE.61.1912" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1511.07634v1</id>
+    <title>Dirac-Point Solitons in Nonlinear Optical Lattices</title>
+    <updated>2015-11-24T10:26:26Z</updated>
+    <link href="https://arxiv.org/abs/1511.07634v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1511.07634v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The discovery of a new type of solitons occuring in periodic systems without photonic bandgaps is reported. Solitons are nonlinear self-trapped wave packets. They have been extensively studied in many branches of physics. Solitons in periodic systems, which have become the mainstream of soliton research in the past decade, are localized states supported by photonic bandgaps. In this Letter, we report the discovery of a new type of solitons located at the Dirac point beyond photonic bandgaps. The Dirac point is a conical singularity of a photonic band structure where wave motion obeys the famous Dirac equation. These new solitons are sustained by the Dirac point rather than photonic bandgaps, thus provides a sort of advance in conceptual understanding over the traditional gap solitons. Apart from their theoretical impact within soliton theory, they have many potential uses because such solitons have dramatic stability characteristics and are possible in both Kerr material and photorefractive crystals that possess self-focusing and self-defocusing nonlinearities. The new results elegantly reveal that traditional photonic bandgaps are not required when Dirac points are accessible. The findings enrich the soliton family and provide valuable information for studies of nonlinear waves in many branches of physics, including hydrodynamics, plasma physics, and Bose Einstein condensates.</summary>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-11-24T10:26:26Z</published>
+    <arxiv:primary_category term="physics.optics"/>
+    <author>
+      <name>Kang Xie</name>
+    </author>
+    <author>
+      <name>Qian Li</name>
+    </author>
+    <author>
+      <name>Allan D. Boardman</name>
+    </author>
+    <author>
+      <name>Qi Guo</name>
+    </author>
+    <author>
+      <name>Zhiwei Shi</name>
+    </author>
+    <author>
+      <name>Haiming Jiang</name>
+    </author>
+    <author>
+      <name>Zhijia Hu</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+    <author>
+      <name>Qiuping Mao</name>
+    </author>
+    <author>
+      <name>Lei Hu</name>
+    </author>
+    <author>
+      <name>Tianyu Yang</name>
+    </author>
+    <author>
+      <name>Fei Wen</name>
+    </author>
+    <author>
+      <name>Erlei Wang</name>
+    </author>
+  </entry>
+</feed>

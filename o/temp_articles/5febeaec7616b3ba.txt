@@ -1,0 +1,73 @@
+TERMS: lattice, entropy, spin
+COLORS: orange, red, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/bjg1F5dJyoX/6INrDfW8zHkPnu8</id>
+  <title>arXiv Query: search_query=all:lattice AND all:entropy AND all:spin&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:13:19Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:entropy+AND+all:spin)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>859</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0311056v4</id>
+    <title>Universality of Entropy Scaling in 1D Gap-less Models</title>
+    <updated>2005-07-24T17:52:33Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0311056v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0311056v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We consider critical models in one dimension. We study the ground state in thermodynamic limit [infinite lattice]. Following Bennett, Bernstein, Popescu, and Schumacher, we use the entropy of a sub-system as a measure of entanglement. We calculate the entropy of a part of the ground state. At zero temperature it describes entanglement of this part with the rest of the ground state. We obtain an explicit formula for the entropy of the subsystem at low temperature. At zero temperature we reproduce a logarithmic formula of Holzhey, Larsen and Wilczek. Our derivation is based on the second law of thermodynamics. The entropy of a subsystem is calculated explicitly for Bose gas with delta interaction, the Hubbard model and spin chains with arbitrary value of spin.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-11-04T01:50:58Z</published>
+    <arxiv:comment>A section on spin chains with arbitrary value of spin is included. The entropy of a subsystem is calculated explicitly as a function of spin. References updated</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Physical Review Letters, vol 92, issue 9, electronic identifier 096402, 05 March 2004</arxiv:journal_ref>
+    <author>
+      <name>Vladimir Korepin</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.92.096402</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.92.096402" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math-ph/0601038v3</id>
+    <title>The Entanglement Entropy of Solvable Lattice Models</title>
+    <updated>2006-03-15T09:30:55Z</updated>
+    <link href="https://arxiv.org/abs/math-ph/0601038v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math-ph/0601038v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We consider the spin k/2 analogue of the XXZ quantum spin chain. We compute the entanglement entropy S associated with splitting the infinite chain into two semi-infinite pieces. In the scaling limit, we find S ~ c_k/6 (ln(xi))+ln(g)+... . Here xi is the correlation length and c_k=3k/(k+2) is the central charge associated with the sl_2 WZW model at level k. ln(g) is the boundary entropy of the WZW model. Our result extends previous observations and suggests that this is a simple and perhaps rather general way both of extracting the central charge of the ultraviolet CFT associated with the scaling limit of a solvable lattice model, and of matching lattice and CFT boundary conditions.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-01-19T15:49:29Z</published>
+    <arxiv:comment>6 pages; connection with boundary entropy of Affleck and Ludwig added in revised version and notation slightly changed</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <arxiv:journal_ref>J.Stat.Mech.0603:L03002,2006</arxiv:journal_ref>
+    <author>
+      <name>Robert Weston</name>
+    </author>
+    <arxiv:doi>10.1088/1742-5468/2006/03/L03002</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1742-5468/2006/03/L03002" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2411.17231v1</id>
+    <title>Duality and entanglement in lattice gauge theories</title>
+    <updated>2024-11-26T08:52:13Z</updated>
+    <link href="https://arxiv.org/abs/2411.17231v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.17231v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The study of entanglement in quantum field theories provides insight into universal properties which are typically challenging to extract by means of local observables. However, calculations of quantities related to entanglement in gauge theories are limited by ambiguities that stem from the non-factorizability of the Hilbert space. On the other hand, (2+1)-dimensional lattice gauge theories are known to admit a dual description in terms of spin models, for which the replica trick and Rényi entropies are well defined. In this contribution, we exploit Kramers-Wannier duality to perform a numerical study of the entropic c-function of the (2+1)-dimensional $\mathbb{Z}_2$ gauge theory in the continuum limit. Our results are compared with analytical predictions from holographic models.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-26T08:52:13Z</published>
+    <arxiv:comment>1+10 pages, 3 figures, contribution for the 41st International Symposium on Lattice Field Theory (Lattice 2024), 28 July - 3 August 2024, Liverpool, UK</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Andrea Bulgarelli</name>
+    </author>
+    <author>
+      <name>Marco Panero</name>
+    </author>
+  </entry>
+</feed>

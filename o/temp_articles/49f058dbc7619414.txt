@@ -1,0 +1,84 @@
+TERMS: hydrogen, fusion, plasma, oxidation
+COLORS: purple, green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Rw1mM1UjyDRgdPIEY2xzki53kuo</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:fusion AND all:plasma AND all:oxidation&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:54:53Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:fusion+AND+(all:plasma+AND+all:oxidation))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2407.00858v1</id>
+    <title>A comprehensive screening of plasma-facing materials for nuclear fusion</title>
+    <updated>2024-06-30T23:57:54Z</updated>
+    <link href="https://arxiv.org/abs/2407.00858v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.00858v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Plasma-facing materials (PFMs) represent one of the most significant challenges for the design of future nuclear fusion reactors. Inside the reactor, the divertor will experience the harshest material environment: intense bombardment of neutrons and plasma particles coupled with large and intermittent heat fluxes. The material designated to cover this role in ITER is tungsten (W). While no other materials have shown the potential to match the properties of W, many drawbacks associated with its application remain, including: cracking and erosion induced by a low recrystallization temperature combined with a high ductile-brittle transition temperature and neutron-initiated embrittlement; surface morphology changes (fuzz layer) due to plasma-W interaction with subsequent risk of spontaneous material melting and delamination; low oxidation resistance. This work aims to produce a structured and comprehensive materials screening of PFMs candidates based on known inorganic materials. The methodology applied in this study to identify the most promising PFM candidates combines peer-reviewed data present in the Pauling File database and DFT calculations of two key PFMs defects, namely the surface binding energy and the formation energy of a hydrogen interstitial. The crystal structures and their related properties, extracted from the Pauling File, are ranked according to the heat-balance equation of a PFM subject to the heat loads in the divertor region of an ITER-like tokamak. The materials satisfying the requirements are critically compared with the state-of-the-art literature, defining an optimal subset where to perform the first-principles electronic structure calculations. The majority of previously known PFMs are captured by this screening process, confirming its reliability. Additionally, less familiar refractory materials suggest performance that calls for further investigations.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-30T23:57:54Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Andrea Fedrigucci</name>
+    </author>
+    <author>
+      <name>Nicola Marzari</name>
+    </author>
+    <author>
+      <name>Paolo Ricci</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1412.3104v1</id>
+    <title>Raman microscopy as a defect microprobe for hydrogen bonding characterization in materials used in fusion applications</title>
+    <updated>2014-12-09T18:35:06Z</updated>
+    <link href="https://arxiv.org/abs/1412.3104v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1412.3104v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present the Raman microscopy ability to detect and characterize the way hydrogen is bonded with elements that will be used for ITER's plasma facing components. For this purpose we first use hydrogenated amorphous carbon samples, formed subsequently to plasma-wall interactions (hydrogen implantation, erosion, deposition...) occurring inside tokamaks, to demonstrate how this technique can be used to retrieve useful information. We pay attention in identifying which spectroscopic parameters are sensitive to the local structure (sp 3 /sp 2) and which gives information on the hydrogen content using isothermal and linear temperature ramp studies on reference samples produced by plasma enhanced chemical vapor deposition. We then focus on the possibility to use this fast, non-destructive and non-contact technique to characterize the influence of hydrogen isotope implantation in few nanometers of graphite and beryllium as C is still used in the JT-60 tokamak and Be is used in JET and will be used as plasma-facing component in the future reactor ITER. We also pay attention on implantation in tungsten oxide which may be formed accidently in the machine.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-12-09T18:35:06Z</published>
+    <arxiv:comment>Physica Status Solidi C, 2014</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Cédric Pardanaud</name>
+      <arxiv:affiliation>PIIM</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Younès Addab</name>
+      <arxiv:affiliation>PIIM</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Céline Martin</name>
+      <arxiv:affiliation>PIIM</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Pascale Roubin</name>
+      <arxiv:affiliation>PIIM</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Bernard Pegourié</name>
+      <arxiv:affiliation>IRFM</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Martin Oberkofler</name>
+      <arxiv:affiliation>PIIM</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Martin Köppen</name>
+      <arxiv:affiliation>PIIM</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Timo Dittmar</name>
+      <arxiv:affiliation>IRFM</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Christian Linsmeier</name>
+      <arxiv:affiliation>PIIM</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1002/pssc.201400141</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1002/pssc.201400141" title="doi"/>
+  </entry>
+</feed>

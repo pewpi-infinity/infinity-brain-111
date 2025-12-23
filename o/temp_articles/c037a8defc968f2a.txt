@@ -1,0 +1,74 @@
+TERMS: muon, vacuum
+COLORS: green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/CIguTl8ZKsB8G9aq/phCf9HnqQs</id>
+  <title>arXiv Query: search_query=all:muon AND all:vacuum&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:00:47Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:muon+AND+all:vacuum&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>647</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ex/0602035v1</id>
+    <title>Final Report of the Muon E821 Anomalous Magnetic Moment Measurement at BNL</title>
+    <updated>2006-02-20T23:30:55Z</updated>
+    <link href="https://arxiv.org/abs/hep-ex/0602035v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ex/0602035v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We present the final report from a series of precision measurements of the muon anomalous magnetic moment, a_mu = (g-2)/2. The details of the experimental method, apparatus, data taking, and analysis are summarized. Data obtained at Brookhaven National Laboratory, using nearly equal samples of positive and negative muons, were used to deduce a_mu(Expt) = 11 659 208.0(5.4)(3.3) x 10^-10, where the statistical and systematic uncertainties are given, respectively. The combined uncertainty of 0.54 ppm represents a 14-fold improvement compared to previous measurements at CERN. The standard model value for a_mu includes contributions from virtual QED, weak, and hadronic processes. While the QED processes account for most of the anomaly, the largest theoretical uncertainty, ~0.55 ppm, is associated with first-order hadronic vacuum polarization. Present standard model evaluations, based on e+e- hadronic cross sections, lie 2.2 - 2.7 standard deviations below the experimental result.</summary>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-02-20T23:30:55Z</published>
+    <arxiv:comment>Summary paper of E821 Collaboration measurements of the muon anomalous magnetic moment, each reported earlier in Letters or Brief Reports; 96 pages, 41 figures, 16 tables. Revised version submitted to PRD</arxiv:comment>
+    <arxiv:primary_category term="hep-ex"/>
+    <arxiv:journal_ref>Phys.Rev.D73:072003,2006</arxiv:journal_ref>
+    <author>
+      <name> Muon</name>
+      <arxiv:affiliation>g-2</arxiv:affiliation>
+    </author>
+    <author>
+      <name> Collaboration</name>
+    </author>
+    <author>
+      <name> :</name>
+    </author>
+    <author>
+      <name>G. W. Bennett</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.73.072003</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.73.072003" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2308.11650v3</id>
+    <title>Standard Model Muon Magnetic Dipole Moment</title>
+    <updated>2023-10-05T17:38:52Z</updated>
+    <link href="https://arxiv.org/abs/2308.11650v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.11650v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The most recent high-precision determination of the hadronic leading order contribution to the muon magnetic dipole moment within the Standard Model of particle physics has revealed a five standard deviation discrepancy with the previous determination with the highest precision. A systematic effect of the luminous volume created during the measurements leading to the determinations seems to be the source of the discrepancy. Correcting for the luminous volume effect allows a consistent determination of the Standard Model muon magnetic dipole moment with precision that is comparable to the latest world average from muon spin precession experiments.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-08-19T06:54:57Z</published>
+    <arxiv:comment>Five pages, three tables. Updated following discussions in Muon g-2 Theory Initiative Hadronic Vacuum Polarization Working Group</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Noah Bray-Ali</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.16891v1</id>
+    <title>Vacuum muon decay and interaction with laser pulses</title>
+    <updated>2025-07-22T18:00:01Z</updated>
+    <link href="https://arxiv.org/abs/2507.16891v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.16891v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Muons decay in vacuum mainly via the leptonic channel to an electron, an electron neutrino and a muon antineutrino. Previous investigations have concluded that muon decay can only be significantly altered in a strong electromagnetic field when the muonic strong-field parameter is of order unity, which is far beyond the reach of lab-based experiments at current and planned facilities. In this letter, an alternative mechanism is presented in which a laser pulse affects the vacuum decay rate of a muon outside the pulse. Quantum interference between the muon decaying with or without interacting with the pulse generates fringes in the electron momentum spectra and can increase the muon lifetime by up to a factor 2. The required parameters to observe this effect are available in experiments today.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-22T18:00:01Z</published>
+    <arxiv:comment>10 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>B. King</name>
+    </author>
+    <author>
+      <name>D. Liu</name>
+    </author>
+  </entry>
+</feed>

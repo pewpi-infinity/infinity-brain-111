@@ -1,0 +1,32 @@
+TERMS: frequency, vapor, singularity
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/m1jqMZhO5yhKlKqODNywuxhJdyM</id>
+  <title>arXiv Query: search_query=all:frequency AND all:vapor AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:11:01Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:vapor+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2305.19722v3</id>
+    <title>Monte-Carlo simulation for the frequency comb spectrum of an atom laser</title>
+    <updated>2023-11-20T07:19:39Z</updated>
+    <link href="https://arxiv.org/abs/2305.19722v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.19722v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A theoretical particle-number conserving quantum field theory based on the concept of imaginary time is presented and applied to the scenario of a coherent atomic laser field at ultra-cold temperatures. The proposed theoretical model describes the analytical derivation of the frequency comb spectrum for an atomic laser realized from modeling a coherent atomic beam of condensate and non-condensate quantum field components released from a trapped Bose-Einstein condensate at a given repetition phase and frequency. The condensate part of the atomic vapor is assumed to be subjected to thermal noise induced by the temperature of the surrounding thermal atomic cloud. This new quantum approach uses time periodicity and an orthogonal decomposition of the quantum field in a complex-valued quantum field representation to derive and model the quantum field's forward- and backward-propagating components as a standing wave field in the same unique time and temperature domain without quantitative singularities at finite temperatures. The complex-valued atom laser field, the resulting frequency comb, and the repetition frequency distribution with the varying shape of envelopes are numerically monitored within a Monte-Carlo sampling method, as a function of temperature and trap frequency of the external confinement.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-31T10:28:25Z</published>
+    <arxiv:comment>7 pages, 11 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Quanta 2023; 12: 171-179</arxiv:journal_ref>
+    <author>
+      <name>A. Schelle</name>
+    </author>
+    <arxiv:doi>10.12743/quanta.v12i1.243</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.12743/quanta.v12i1.243" title="doi"/>
+  </entry>
+</feed>

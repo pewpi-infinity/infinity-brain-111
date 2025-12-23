@@ -1,0 +1,61 @@
+TERMS: electron, probability, singularity
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/M8ibCQjcR64JwbjkwcC1Dwq6Brs</id>
+  <title>arXiv Query: search_query=all:electron AND all:probability AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:25:00Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:electron+AND+(all:probability+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>71</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1206.3836v3</id>
+    <title>The probability distribution of the number of electron-positron pairs produced in a uniform electric field</title>
+    <updated>2012-07-27T10:10:00Z</updated>
+    <link href="https://arxiv.org/abs/1206.3836v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1206.3836v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The probability-generating function of the number of electron-positron pairs produced in a uniform electric field is constructed. The mean and variance of the numbers of pairs are calculated, and analytical expressions for the probability of low numbers of electron-positron pairs are given. A recursive formula is derived for evaluating the probability of any number of pairs. In electric fields of supercritical strength |eE| &gt; πm^2/ \ln 2, where e is the electron charge, E is the electric field, and m is the electron mass, a branch-point singularity of the probability-generating function penetrates the unit circle |z| = 1, which leads to the asymptotic divergence of the cumulative probability. This divergence indicates a failure of the continuum limit approximation. In the continuum limit and for any field strength, the positive definiteness of the probability is violated in the tail of the distribution. Analyticity, convergence, and positive definiteness are restored upon the summation over discrete levels of electrons in the normalization volume. Numerical examples illustrating the field strength dependence of the asymptotic behavior of the probability distribution are presented.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-06-18T06:34:09Z</published>
+    <arxiv:comment>7 pages, REVTeX, 4 figures; new references added; a short version of this e-print has appeared in PRD</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys.Rev.D86:027704,2012</arxiv:journal_ref>
+    <author>
+      <name>M. I. Krivoruchenko</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.86.027704</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.86.027704" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1001.0964v1</id>
+    <title>Spectral singularities in a non-Hermitian Friedrichs-Fano-Anderson model</title>
+    <updated>2010-01-06T20:54:54Z</updated>
+    <link href="https://arxiv.org/abs/1001.0964v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1001.0964v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Spectral singularities are predicted to occur in a non-Hermitian extension of the Friedrichs-Fano-Anderson model describing the decay of a discrete state $|a &gt;$ coupled to a continuum of modes. A physical realization of the model, based on electronic or photonic transport in a semi-infinite tight-binding lattice with an imaginary impurity site at the lattice boundary, is proposed. The occurrence of the spectral singularities is shown to correspond either to a diverging reflection probability (for an amplifying impurity) or to a vanishing reflection probability (for an absorbing impurity) from the lattice boundary. In the former case, the spectral singularity of the resolvent is also responsible for the non-decay of state $|a&gt;$ into the continuum, in spite of the absence of bound states.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-01-06T20:54:54Z</published>
+    <arxiv:comment>14 pages, 9 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Phys. Rev. B 80, 165125 (2009)</arxiv:journal_ref>
+    <author>
+      <name>S. Longhi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1701.00520v5</id>
+    <title>Anomalous electron states</title>
+    <updated>2018-03-01T23:53:54Z</updated>
+    <link href="https://arxiv.org/abs/1701.00520v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1701.00520v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>By the certain macroscopic perturbations in condensed matter anomalous electron wells can be formed due to a local reduction of electromagnetic zero point energy. These wells are narrow, of the width $\sim 10^{-11}cm$, and with the depth $\sim 1MeV$. Such anomalous states, from the formal standpoint of quantum mechanics, correspond to a singular solution of a wave equation produced by the non-physical $δ(\vec R)$ source. The resolution, on the level of the Standard Model, of the tiny region around the formal singularity shows that the state is physical. The creation of those states in an atomic system is of the formal probability $\exp(-1000)$. The probability becomes not small under a perturbation which rapidly varies in space, on the scale $10^{-11}cm$. In condensed matter such perturbation may relate to acoustic shock waves. In this process the short scale is the length of the standing de Broglie wave of a reflected lattice atom. Under electron transitions in the anomalous well (anomalous atom) $keV$ X-rays are expected to be emitted. A macroscopic amount of anomalous atoms, of the size $10^{-11}cm$ each, can be formed in a solid resulting in ${\it collapsed}$ ${\it matter}$ with $10^9$ times enhanced density.</summary>
+    <category term="physics.gen-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-12-29T17:09:32Z</published>
+    <arxiv:primary_category term="physics.gen-ph"/>
+    <author>
+      <name>Boris I. Ivlev</name>
+    </author>
+  </entry>
+</feed>

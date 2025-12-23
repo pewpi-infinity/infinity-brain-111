@@ -1,0 +1,60 @@
+TERMS: entropy, spin, bandgap
+COLORS: red, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Go5h9ruISqK2/FdqdBZ5THjPDbU</id>
+  <title>arXiv Query: search_query=all:entropy AND all:spin AND all:bandgap&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:18:21Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+(all:spin+AND+all:bandgap)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2110.04262v1</id>
+    <title>Defect Dipole Induced Improved Electrocaloric Effect in Modified NBT-6BT Lead-Free Ceramics</title>
+    <updated>2021-10-08T17:19:11Z</updated>
+    <link href="https://arxiv.org/abs/2110.04262v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2110.04262v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Rietveld refinement of the polycrystalline powders of 1% Fe and Mn-doped (Na0.5Bi0.5)0.94Ba0.06Ti0.98V0.02O3 at the Ti-site confirmed a single rhombohedral (R3c) phase. The bandgap, (Eg) was affected by the anti-phase octahedral tilt angle and the spin-orbit splitting energy of Ti4+2p3/2 and Ti4+2p1/2 states. The decrease in Bi loss and increase in the binding energy of Ba due to Fe/Mn doping has been correlated to the strengthening of Bi-O and Ba-O bonds which was revealed from the XPS studies thereby further related to the average A-O bond length from structural studies. Hence, a reduction of oxygen vacancy (VO) for the doped samples has been justified. A significant improvement of the dielectric constant, relaxation time (τ0), and the decrease in conductivity due to doping was revealed from the frequency-dependent (10Hz-1MHz) dielectric measurement study. The conduction and relaxation process is dominated by the short-range movement of defects. The activation energy (Ea ~1eV) revealed that there is a presence of double-ionized VOs. The ECE study showed a significant enhancement of the changes in entropy, and the adiabatic temperature difference due to doping, with the change in tempearture being highest in the Fe-doped sample. Such improvement of dielectric and ECE properties was confirmed due to the reduction of the mobility of oxygen vacancy because of the formation defect dipoles.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-10-08T17:19:11Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Koyal Suman Samantaray</name>
+    </author>
+    <author>
+      <name>Ruhul Amin</name>
+    </author>
+    <author>
+      <name>E. G Rini</name>
+    </author>
+    <author>
+      <name>Indranil Bhaumik</name>
+    </author>
+    <author>
+      <name>A. Mekki</name>
+    </author>
+    <author>
+      <name>K. Harrabi</name>
+    </author>
+    <author>
+      <name>Somaditya Sen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2206.02952v2</id>
+    <title>Beyond The Fermi's Golden Rule: Discrete-Time Decoherence Of Quantum Mesoscopic Devices Due To Bandlimited Quantum Noise</title>
+    <updated>2023-09-18T11:41:58Z</updated>
+    <link href="https://arxiv.org/abs/2206.02952v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2206.02952v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We are at the midst of second quantum revolution where the mesoscopic quantum devies are actively employed for technological purposes. Despite this fact, the description of their real-time dynamics beyond the Fermi's golden rule remains a formiddable theoretical problem. This is due to the rapid spread of entanglement within the degrees of freedom of the surrounding environment. This is accompanied with a quantum noise (QN) acting on the mesoscopic device. In this work we propose a possible way out: to exploit the fact that this QN is usually bandlimited. This is because its spectral density is often contained in peaks of localized modes and resonances, and may be constrained by bandgaps. Inspired by the Kotelnikov sampling theorem from the theory of classical bandlimited signals, we put forward and explore the idea that when the QN spectral density has effective bandwidth $B$, the quantum noise becomes a discrete-time process, with an elementary time step $τ\propto B^{-1}$. After each time step $τ$, one new QN degree of freedom (DoF) gets coupled to the device for the first time, and one new QN DoF get irreversibly decoupled. Only a bounded number of QN DoFs are significantly coupled at any time moment. We call these DoFs the \textit{Kotelnikov modes}. As a result, the real-time dissipative quantum motion has a natural structure of a discrete-time matrix product state, with a bounded bond dimension. This yields a microscopically derived collision model. The temporal entanglement entropy appears to be bounded (area-law scaling) in the frame of Kotelnikov modes. The irreversibly decoupled modes can be traced out as soon as they occur during the real-time evolution. This leads to a novel\textit{bandlimited} input-output formalism and to quantum jump Monte Carlo simulation techniques for real-time motion of open quantum systems. We illustrate this idea on a spin-boson model.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-06-07T00:17:21Z</published>
+    <arxiv:comment>16 pages, 8 figures. Second version: fix typos and improve the style</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Evgeny A. Polyakov</name>
+    </author>
+  </entry>
+</feed>

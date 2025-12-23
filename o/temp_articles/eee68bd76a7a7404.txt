@@ -1,0 +1,33 @@
+TERMS: superconductivity, wavefunction, muon
+COLORS: green, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/KMayp7jYvMfnSFsWdjiyHO68MIc</id>
+  <title>arXiv Query: search_query=all:superconductivity AND all:wavefunction AND all:muon&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:30:48Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:superconductivity+AND+(all:wavefunction+AND+all:muon)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/0805.4584v1</id>
+    <title>Positron potential and wavefunction in LaFeAsO</title>
+    <updated>2008-05-29T17:01:48Z</updated>
+    <link href="https://arxiv.org/abs/0805.4584v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0805.4584v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We report calculations of the positron potential and wavefunction in LaFeAsO. These calculations show that the positron wavefunction does sample the entire unit cell although it is largest in the interstices of the La layer adjacent to As atoms. The implication is that angular correlation of annihilation radiation (ACAR) is a viable probe of the Fermi surfaces in this material. The results also apply to positive muons, and indicate that these will be localized in the La layer adjacent to As.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-05-29T17:01:48Z</published>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <arxiv:journal_ref>Phys. Rev. B 78, 052503 (2008)</arxiv:journal_ref>
+    <author>
+      <name>H. Takenaka</name>
+    </author>
+    <author>
+      <name>D. J. Singh</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.78.052503</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.78.052503" title="doi"/>
+  </entry>
+</feed>

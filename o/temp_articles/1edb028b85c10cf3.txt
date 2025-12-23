@@ -1,0 +1,92 @@
+TERMS: entropy, electron, muon
+COLORS: red, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/YNcgbYGidGy7gavSj3mTyERDgMw</id>
+  <title>arXiv Query: search_query=all:entropy AND all:electron AND all:muon&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:17:07Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+(all:electron+AND+all:muon)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>13</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2312.05712v1</id>
+    <title>Entanglement Entropy Distributions of a Muon Decay</title>
+    <updated>2023-12-10T00:02:34Z</updated>
+    <link href="https://arxiv.org/abs/2312.05712v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.05712v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Divergences that occur in density matrices of decay and scattering processes are shown to be regularized by tracing and unitarity or the optical theorem. These divergences are regularized by the lifetime of the decaying particle or the total scattering cross section. Also, this regularization is shown to give the expected helicities of final particles. The density matrix is derived for the weak decay of a polarized muon at rest, $μ^- \rightarrow ν_μ (e^- \bar ν_e)$, with Lorentz invariant density matrix entries and unitarity upheld at tree level. The electron's von Neumann entanglement entropy distributions are calculated with respect to both the electron's emission angle and energy. The angular entropy distribution favors an electron emitted backwards with respect to the muon's polarization given a minimum volume regularization. The kinematic entropy distribution is maximal at half the muon's rest mass energy. These results are similar to the electron's angular and kinematic decay rate distributions. Both the density matrix and entanglement entropy can be cast either in terms of ratios of areas or volumes.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-10T00:02:34Z</published>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>LHEP 2024 (2024) 531</arxiv:journal_ref>
+    <author>
+      <name>Shanmuka Shivashankara</name>
+    </author>
+    <author>
+      <name>Patti Rizzo</name>
+    </author>
+    <author>
+      <name>Nicole Cafe</name>
+    </author>
+    <arxiv:doi>10.31526/lhep.2024.531</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.31526/lhep.2024.531" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.11799v1</id>
+    <title>Regularized Entanglement Entropy of Electron-Positron Scattering with a Witness Photon</title>
+    <updated>2024-05-20T05:46:12Z</updated>
+    <link href="https://arxiv.org/abs/2405.11799v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.11799v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Regularized quantum information metrics are calculated for the scattering process $e^-e^+ \rightarrow γ,Z\rightarrow μ^-μ^+$ that has a witness photon entangled with the initial electron-positron state. Unitarity implies the correct regularization of divergences that appear in both the final density matrix and von Neumann entanglement entropies. The entropies are found to quantify uncertainty or randomness. The variation of information, entanglement entropy, and correlation between the muon's and witness photon's helicities are found to convey equivalent information. The magnitude of the muon's expected helicity rises (falls) as the helicity entropy falls (rises). Area, or the scattering cross section, is a source of entropy for the muon's helicity entropy and momentum entropy. The muon's differential angular entropy distribution is similar to the differential angular cross section distribution, capturing the forward-backward asymmetry at high center of mass energies.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-20T05:46:12Z</published>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Phys. Rev. D 110, 096004 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Shanmuka Shivashankara</name>
+    </author>
+    <author>
+      <name>Grace Gogliettino</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.110.096004</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.110.096004" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.20723v2</id>
+    <title>Diagnosing electron-neutrino lepton number crossings in core-collapse supernovae: A comparison of methods</title>
+    <updated>2025-09-03T15:26:16Z</updated>
+    <link href="https://arxiv.org/abs/2506.20723v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.20723v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Fast neutrino flavor conversion may impact the explosion mechanism and nucleosynthesis in core-collapse supernovae. A necessary condition for fast flavor conversion is the presence of crossings in the angular distribution of the electron-neutrino lepton number (ELN) crossing. Because of the computational costs, flavor-dependent angular distributions are not computed by the vast majority of state-of-the-art hydrodynamical simulations; instead, angular distributions are reconstructed employing approximate methods in post-processing. In this work, we evaluate the performance of four methods adopted to diagnose the existence of ELN crossings. For selected post-bounce times, we extract the fluid and thermodynamic properties from spherically symmetric supernova simulations for an $18.6 M_\odot$ progenitor, testing cases with and without muons as well as with and without mixing-length treatment of proto-neutron star convection. We compare the occurrence of crossings in the angular distributions obtained by solving the Boltzmann equations with those in distributions reconstructed from angular moments of our Boltzmann solutions by using the maximum entropy and Minerbo schemes, and also with crossings identified via a polynomial weighting function applied to the angular moments. Our results show that the polynomial method and the Minerbo closure scheme have severe limitations. The maximum entropy approach captures most of the forward crossings, although it fails to reproduce or misidentifies crossings in a subset of our models. These findings highlight the need for robust modeling of the neutrino angular properties in order to assess the impact of flavor conversion on the supernova mechanism.</summary>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-25T18:00:03Z</published>
+    <arxiv:comment>13 pages, including 3 figures and 1 appendix. Minor changes. Matches version accepted for publication in Phys. Rev. D</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.HE"/>
+    <arxiv:journal_ref>Phys. Rev. D 112 (2025) 6, 063004</arxiv:journal_ref>
+    <author>
+      <name>Marie Cornelius</name>
+      <arxiv:affiliation>NBIA and DARK, Niels Bohr Institute</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Irene Tamborra</name>
+      <arxiv:affiliation>NBIA and DARK, Niels Bohr Institute</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Malte Heinlein</name>
+      <arxiv:affiliation>MPI Astrophysics, Garching and TUM, Garching</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Hans-Thomas Janka</name>
+      <arxiv:affiliation>MPI Astrophysics, Garching</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1103/gqd7-4ynz</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/gqd7-4ynz" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,104 @@
+TERMS: crystal, resonance, oxidation
+COLORS: orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/T+M/Q5Rl/4M7zjVAb0WhbweHhJo</id>
+  <title>arXiv Query: search_query=all:crystal AND all:resonance AND all:oxidation&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:28:11Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:crystal+AND+(all:resonance+AND+all:oxidation)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>133</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1106.0705v1</id>
+    <title>Selective tuning of high-Q silicon photonic crystal nanocavities via laser-assisted local oxidation</title>
+    <updated>2011-06-03T16:31:22Z</updated>
+    <link href="https://arxiv.org/abs/1106.0705v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1106.0705v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We examine the cavity resonance tuning of high-Q silicon photonic crystal heterostructures by localized laser-assisted thermal oxidation using a 532 nm continuous wave laser focused to a 2.5 mm radius spot-size. The total shift is consistent with the parabolic rate law. A tuning range of up to 8.7 nm is achieved with ~ 30 mW laser powers. Over this tuning range, the cavity Q decreases from 3.2\times10^5 to 1.2\times10^5. Numerical simulations model the temperature distributions in the silicon photonic crystal membrane and the cavity resonance shift from oxidation.</summary>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-06-03T16:31:22Z</published>
+    <arxiv:comment>12 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.optics"/>
+    <author>
+      <name>Charlton J. Chen</name>
+    </author>
+    <author>
+      <name>Jiangjun Zheng</name>
+    </author>
+    <author>
+      <name>Tingyi Gu</name>
+    </author>
+    <author>
+      <name>James F. McMillan</name>
+    </author>
+    <author>
+      <name>Mingbin Yu</name>
+    </author>
+    <author>
+      <name>Guo-Qiang Lo</name>
+    </author>
+    <author>
+      <name>Dim-Lee Kwong</name>
+    </author>
+    <author>
+      <name>Chee Wei Wong</name>
+    </author>
+    <arxiv:doi>10.1364/OE.19.012480</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1364/OE.19.012480" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.02123v1</id>
+    <title>In-situ tuning of optomechanical crystals with nano-oxidation</title>
+    <updated>2023-12-04T18:51:11Z</updated>
+    <link href="https://arxiv.org/abs/2312.02123v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.02123v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Optomechanical crystals are a promising device platform for quantum transduction and sensing. Precise targeting of the optical and acoustic resonance frequencies of these devices is crucial for future advances on these fronts. However, fabrication disorder in these wavelength-scale nanoscale devices typically leads to inhomogeneous resonance frequencies. Here we achieve in-situ, selective frequency tuning of optical and acoustic resonances in silicon optomechanical crystals via electric field-induced nano-oxidation using an atomic-force microscope. Our method can achieve a tuning range &gt;2 nm (0.13%) for the optical resonance wavelength in the telecom C-band, and &gt;60 MHz (1.2%) for the acoustic resonance frequency at 5 GHz. The tuning resolution of 1.1 nm for the optical wavelength, and $150$ kHz for the acoustic frequency allows us to spectrally align multiple optomechanical crystal resonators using optimal oxidation patterns determined via an inverse design protocol. Our results establish a method for precise post-fabrication tuning of optomechancical crystals. This technique can enable coupled optomechanical resonator arrays, scalable resonant optomechanical circuits, and frequency matching of microwave-optical quantum transducers.</summary>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-04T18:51:11Z</published>
+    <arxiv:primary_category term="physics.optics"/>
+    <author>
+      <name>Utku Hatipoglu</name>
+    </author>
+    <author>
+      <name>Sameer Sonar</name>
+    </author>
+    <author>
+      <name>David P. Lake</name>
+    </author>
+    <author>
+      <name>Srujan Meesala</name>
+    </author>
+    <author>
+      <name>Oskar Painter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0707.2412v2</id>
+    <title>Digital resonance tuning of high-Q/Vm silicon photonic crystal nanocavities by atomic layer deposition</title>
+    <updated>2007-09-16T20:47:23Z</updated>
+    <link href="https://arxiv.org/abs/0707.2412v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0707.2412v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We propose and demonstrate the digital resonance tuning of high-Q/Vm silicon photonic crystal nanocavities using a self-limiting atomic layer deposition technique. Control of resonances in discrete steps of 122 +/- 18 pm per hafnium oxide atomic layer is achieved through this post-fabrication process, nearly linear over a full 17 nm tuning range. The cavity Q is maintained in this perturbative process, and can reach up to its initial values of 49,000 or more. Our results are highly controllable, applicable to many material systems, and particularly critical to matching resonances and transitions involving mesoscopic optical cavities.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-07-17T00:25:39Z</published>
+    <arxiv:comment>9 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Xiaodong Yang</name>
+    </author>
+    <author>
+      <name>Charlton J. Chen</name>
+    </author>
+    <author>
+      <name>Chad A. Husko</name>
+    </author>
+    <author>
+      <name>Chee Wei Wong</name>
+    </author>
+    <arxiv:doi>10.1063/1.2800312</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/1.2800312" title="doi"/>
+  </entry>
+</feed>

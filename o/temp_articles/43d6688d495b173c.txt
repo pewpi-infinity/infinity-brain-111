@@ -1,0 +1,82 @@
+TERMS: fusion, resonance
+COLORS: green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/5oSM6Gd9/xqFe6oIuMPHnmxvXkE</id>
+  <title>arXiv Query: search_query=all:fusion AND all:resonance&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T00:58:19Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:fusion+AND+all:resonance&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>939</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1707.03043v1</id>
+    <title>Accelerator Based Fusion Reactor</title>
+    <updated>2017-07-10T20:05:55Z</updated>
+    <link href="https://arxiv.org/abs/1707.03043v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1707.03043v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A feasibility study of fusion reactors based on accelerators is carried out. We consider a novel scheme where a beam from the accelerator hits the target plasma on the resonance of the fusion reaction and establish characteristic criteria for a workable reactor. We consider the reactions $ d + t \rightarrow n + α, d + {}^3H_e \rightarrow p + α$, and $p + {}^{11}B \rightarrow 3 α$ in this study. The critical temperature of the plasma is determined from overcoming the stopping power of the beam with the fusion energy gain. The needed plasma lifetime is determined from the width of the resonance, the beam velocity and the plasma density. We estimate the critical beam flux by balancing the energy of fusion production against the plasma thermo-energy and the loss due to stopping power for the case of an inert plasma. The product of critical flux and plasma lifetime is independent of plasma density and has a weak dependence on temperature. Even though the critical temperatures for these reactions are lower than those for the thermonuclear reactors, the critical flux is in the range of $10^{22} - 10^{24}/\rm{cm^2/s}$ for the plasma density $ρ_t = 10^{15}/{\rm cm^3}$ in the case of an inert plasma. Several approaches to control the growth of the two-stream instability are discussed. We have also considered several scenarios for practical implementation which will require further studies. Finally, we consider the case where the injected beam at the resonance energy maintains the plasma temperature and prolongs its lifetime to reach a steady state. The equations for power balance and particle number conservation are given for this case.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.acc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-07-10T20:05:55Z</published>
+    <arxiv:comment>To be published in Nuclear Fusion as a letter, 7 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>Keh-Fei Liu</name>
+    </author>
+    <author>
+      <name>Alexander Wu Chao</name>
+    </author>
+    <arxiv:doi>10.1088/1741-4326/aa7642</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1741-4326/aa7642" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1209.2549v1</id>
+    <title>Double-resonant fast particle-wave interaction</title>
+    <updated>2012-09-12T10:27:41Z</updated>
+    <link href="https://arxiv.org/abs/1209.2549v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1209.2549v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In future fusion devices fast particles must be well confined in order to transfer their energy to the background plasma. Magnetohydrodynamic instabilities like Toroidal Alfvén Eigenmodes or core-localized modes such as Beta Induced Alfvén Eigenmodes and Reversed Shear Alfvén Eigenmodes, both driven by fast particles, can lead to significant losses. This is observed in many ASDEX Upgrade discharges. The present study applies the drift-kinetic HAGIS code with the aim of understanding the underlying resonance mechanisms, especially in the presence of multiple modes with different frequencies. Of particular interest is the resonant interaction of particles simultaneously with two different modes, referred to as 'double-resonance'. Various mode overlapping scenarios with different q profiles are considered. It is found that, depending on the radial mode distance, double-resonance is able to enhance growth rates as well as mode amplitudes significantly. Surprisingly, no radial mode overlap is necessary for this effect. Quite the contrary is found: small radial mode distances can lead to strong nonlinear mode stabilization of a linearly dominant mode.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-09-12T10:27:41Z</published>
+    <arxiv:comment>12 pages, 11 figures; Nuclear Fusion 52 (2012)</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <arxiv:journal_ref>Nucl. Fusion 52, 2012, 103019</arxiv:journal_ref>
+    <author>
+      <name>Mirjam Schneller</name>
+    </author>
+    <author>
+      <name>Philipp Lauber</name>
+    </author>
+    <author>
+      <name>Michael Brüdgam</name>
+    </author>
+    <author>
+      <name>Simon David Pinches</name>
+    </author>
+    <author>
+      <name>Sibylle Günter</name>
+    </author>
+    <arxiv:doi>10.1088/0029-5515/52/10/103019</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0029-5515/52/10/103019" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1507.01650v1</id>
+    <title>Thermal Resonance Fusion</title>
+    <updated>2015-07-07T01:21:42Z</updated>
+    <link href="https://arxiv.org/abs/1507.01650v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1507.01650v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We first show a possible mechanism to create a new type of nuclear fusion, thermal resonance fusion, i.e. low energy nuclear fusion with thermal resonance of light nuclei or atoms, such as deuterium or tritium. The fusion of two light nuclei has to overcome the Coulomb barrier between these two nuclei to reach up to the interacting region of nuclear force. We found nuclear fusion could be realized with thermal vibrations of crystal lattice atoms coupling with light atoms at low energy by resonance to overcome this Coulomb barrier. Thermal resonances combining with tunnel effects can greatly enhance the probability of the deuterium fusion to the detectable level. Our low energy nuclear fusion mechanism research - thermal resonance fusion mechanism results demonstrate how these light nuclei or atoms, such as deuterium, can be fused in the crystal of metal, such as Ni or alloy, with synthetic thermal vibrations and resonances at different modes and energies experimentally. The probability of tunnel effect at different resonance energy given by the WKB method is shown that indicates the thermal resonance fusion mode, especially combined with the tunnel effect, is possible and feasible. But the penetrating probability decreases very sharply when the input resonance energy decreases less than 3 keV, so for thermal resonance fusion, the key point is to increase the resonance peak or make the resonance sharp enough to the acceptable energy level by the suitable compound catalysts, and it is better to reach up more than 3 keV to make the penetrating probability larger than 10^{-10}.</summary>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-07-07T01:21:42Z</published>
+    <arxiv:comment>4 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="nucl-th"/>
+    <author>
+      <name>Bao-Guo Dong</name>
+    </author>
+  </entry>
+</feed>

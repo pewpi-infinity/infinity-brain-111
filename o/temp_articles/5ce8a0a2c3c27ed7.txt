@@ -1,0 +1,63 @@
+TERMS: frequency, tachyon, probability
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/vRX1TEJr8RQ+XNb1wac8pgwsFLI</id>
+  <title>arXiv Query: search_query=all:frequency AND all:tachyon AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:12:37Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:tachyon+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2006.11340v2</id>
+    <title>Towards the Classification of Tachyon-Free Models From Tachyonic Ten-Dimensional Heterotic String Vacua</title>
+    <updated>2020-11-10T20:47:57Z</updated>
+    <link href="https://arxiv.org/abs/2006.11340v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2006.11340v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recently it was proposed that ten-dimensional tachyonic string vacua may serve as starting points for the construction of viable four dimensional phenomenological string models which are tachyon free. This is achieved by projecting out the tachyons in the four-dimensional models using projectors other than the projector which is utilised in the supersymmetric models and those of the $SO(16)\times SO(16)$ heterotic string. We continue the exploration of this class of models by developing systematic computerised tools for their classification, the analysis of their tachyonic and massless spectra, as well as analysis of their partition functions and vacuum energy. We explore a randomly generated space of $2\times10^9$ string vacua in this class and find that tachyon--free models occur with $\sim 5\times 10^{-3}$ probability, and of those, phenomenologically inclined $SO(10)$ vacua with $a_{00}=N_b^0-N_f^0=0$, i.e. equal number of fermionic and bosonic massless states, occur with frequency $\sim 2\times 10^{-6}$. Extracting larger numbers of phenomenological vacua therefore requires adaptation of fertility conditions that we discuss, and significantly increase the frequency of tachyon--free models. Our results suggest that spacetime supersymmetry may not be a necessary ingredient in phenomenological string models, even at the Planck scale.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-06-19T19:35:59Z</published>
+    <arxiv:comment>33 pages. 7 figures. Standard LaTex. Published version</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Nuclear Physics B 961 (2020) 115231</arxiv:journal_ref>
+    <author>
+      <name>Alon E. Faraggi</name>
+    </author>
+    <author>
+      <name>Viktor G. Matyas</name>
+    </author>
+    <author>
+      <name>Benjamin Percival</name>
+    </author>
+    <arxiv:doi>10.1016/j.nuclphysb.2020.115231</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.nuclphysb.2020.115231" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.19980v2</id>
+    <title>Vacuum Energy of Non-Supersymmetric $\mathbf{\tilde{S}}$ Heterotic String Models</title>
+    <updated>2024-08-07T17:41:35Z</updated>
+    <link href="https://arxiv.org/abs/2407.19980v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.19980v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We use the free fermionic formulation of the heterotic-string in four dimensions to study the vacuum structure and energy of non-supersymmetric tachyon free models that correspond to compactifications of tachyonic vacua of the ten dimensional heterotic-string. We explore the class of heterotic $SO(10)$ non-supersymmetric models constructed from the $\tilde{S}$-model in the Free Fermionic Formalism, and investigate the dependence of the potential on the geometric moduli. This paper will explore a sample of $ 10^{9}$ string vacua to find the frequency of viable models, classifying these vacua by the following fertility criteria: tachyon presence; number of spinorial $\boldsymbol{16/\overline{16}}$ representations; vectorial $\boldsymbol{10}$ states; Top Quark Mass Coupling compatibility. Of these we find those that mimic supersymmetric models with equal number of bosons and fermions at the massless level - $a_{00} = 0$. Tachyon free models occur with a frequency of $5.309\times10^{-3}$. Furthermore, models that fulfil the rest of the phenomenological fertility conditions and the additional condition on $a_{00}$ occur with probability $4.0 \times 10^{-9}$ We analyse the partition functions and study the moduli dependence of such models, finding that almost all fertile models have finite, positive potential at the Free Fermionic Point, with $2$ out of $84$ of the fertile cores having negative, finite potential. We demonstratate that the Free Fermionic Point is not necessarily a minimum in the potential. This work provides further evidence that supersymmetry may not be a necessary ingredient of phenomenological models, recreating many of the desirable features of such models without employing supersymmetry.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-29T13:12:11Z</published>
+    <arxiv:comment>24 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Luke A. Detraux</name>
+    </author>
+    <author>
+      <name>Alonzo R. Diaz Avalos</name>
+    </author>
+    <author>
+      <name>Alon E. Faraggi</name>
+    </author>
+    <author>
+      <name>Benjamin Percival</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,75 @@
+TERMS: electron, muon, singularity
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/cqm4NGPUuCDIHz3j2OHCZBioz6Q</id>
+  <title>arXiv Query: search_query=all:electron AND all:muon AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:24:35Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:electron+AND+(all:muon+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>15</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2209.11110v1</id>
+    <title>Muon-Electron Scattering at NNLO</title>
+    <updated>2022-09-22T15:48:31Z</updated>
+    <link href="https://arxiv.org/abs/2209.11110v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2209.11110v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This thesis provides a pedagogical overview of the theoretical foundations of the McMule framework, a Monte Carlo integrator for processes with muons and other leptons. Among other things, we show how the simple infrared structure in QED can be exploited to construct FKS$^\ell$, a subtraction scheme for soft singularities to all orders in perturbation theory. Furthermore, we present the method of massification as a solution to the problem of multi-scale integrals in the presence of large scale hierarchies. Finally, we introduce next-to-soft stabilisation as an elegant tool to stabilise the numerically delicate real-virtual contribution. To this end, we generalise the Low-Burnett-Kroll theorem for massive fermions to one loop. This allows for a straightforward application of the method without the need of explicit calculations.
+  We have developed all of these techniques with fully differential NNLO QED calculations in mind and have successfully applied them to many processes such as the muon decay as well as Bhabha and Møller scattering. One of the main drivers of these developments has been the MUonE experiment requiring a high-precision theory prediction for muon-electron ($μ$-$e$) scattering at the level of $10\, \text{ppm}$. The multi-scale nature of $μ$-$e$ scattering makes this process particularly challenging from a technical point of view. Only the combined application of FKS$^\ell$, massification, and next-to-soft stabilisation makes the corresponding calculation possible. This thesis therefore presents for the first time the fully differential calculation of the complete set of NNLO corrections to $μ$-$e$ scattering. This represents a major step towards the ambitious $10\, \text{ppm}$ target precision of the MUonE experiment.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-09-22T15:48:31Z</published>
+    <arxiv:comment>PhD thesis, 135 pages, partially based on arXiv:1811.06461, arXiv:1909.10244, arXiv:2007.01654, arXiv:2106.07469, arXiv:2107.12311, and arXiv:2112.07570</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Tim Engel</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2409.02721v2</id>
+    <title>Muon collider probes of Majorana neutrino dipole moments and masses</title>
+    <updated>2025-03-11T12:18:43Z</updated>
+    <link href="https://arxiv.org/abs/2409.02721v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2409.02721v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Majorana neutrinos may have transitional dipole moments, which violate lepton number as well as lepton flavour. We estimate the sensitivity of future colliders to the electron-muon neutrino dipole moment, $λ_{eμ}$, by considering same-sign dilepton final states. We find that hadron colliders, even the proposed FCC-hh, are sensitive only to $|λ_{eμ}|\gtrsim 10^{-9}μ_B$ (with $μ_B$ the Bohr magneton), a value two-three orders of magnitude larger than current bounds from astrophysics and low-energy neutrino-scattering experiments. In the case of a future muon collider, we show that the sensitivity varies from $|λ_{eμ}|\sim 5\cdot 10^{-9}μ_B$ for energy $\sqrt{s}\simeq 3$ TeV, to $\sim 10^{-12}μ_B$ for $\sqrt{s}\simeq 50$ TeV, matching the current laboratory bounds for $\sqrt{s}\simeq 30$ TeV. The singular advantage of the muon collider signal would be a direct, clean identification of lepton number and flavour violation. We also show that a muon collider would improve by orders of magnitude the direct bounds on $m_{eμ}$ and $m_{μμ}$, two of the entries of the Majorana neutrino mass matrix. These bounds could be as strong as $\sim 50$ keV, still far above the neutrino mass scale.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-09-04T13:58:00Z</published>
+    <arxiv:comment>v2: discussion of the EFT validity and several clarifications added. Accepted for publication in JHEP</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>JHEP 04 (2025) 008</arxiv:journal_ref>
+    <author>
+      <name>Michele Frigerio</name>
+    </author>
+    <author>
+      <name>Natascia Vignaroli</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP04(2025)008</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP04(2025)008" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2205.06021v2</id>
+    <title>Muon-electron backward scattering: a prime example for endpoint singularities in SCET</title>
+    <updated>2022-09-23T08:16:41Z</updated>
+    <link href="https://arxiv.org/abs/2205.06021v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2205.06021v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We argue that energetic muon-electron scattering in the backward direction can be viewed as a template case to study the resummation of large logarithms related to endpoint divergences appearing in the effective-theory formulation of hard-exclusive processes. While it is known since the mid sixties that the leading double logarithms from QED corrections resum to a modified Bessel function on the amplitude level, the modern formulation in Soft-Collinear Effective Theory (SCET) shows a surprisingly complicated and iterative pattern of endpoint-divergent convolution integrals. In contrast to the bottom-quark induced $h \to γγ$ decay, for which a renormalized factorization theorem has been proposed recently, we find that rapidity logarithms generate an infinite tower of collinear-anomaly exponents. This can be understood as a generic consequence of the underlying $2\to 2$ kinematics. Using endpoint refactorization conditions for the collinear matrix elements, we show how the Bessel function is reproduced in the effective theory from consistency relations between quantities in a "bare" factorization theorem.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-05-12T11:05:55Z</published>
+    <arxiv:comment>v2: Discussions in Sections 2.3 and 3.2 slightly modified. Conclusions unchanged. Matches published version</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Guido Bell</name>
+    </author>
+    <author>
+      <name>Philipp Böer</name>
+    </author>
+    <author>
+      <name>Thorsten Feldmann</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP09(2022)183</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP09(2022)183" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,59 @@
+TERMS: fusion, vapor, bandgap
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/r0i1pONQlmuCWW4X5jdCc2Grb+o</id>
+  <title>arXiv Query: search_query=all:fusion AND all:vapor AND all:bandgap&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:20:14Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:fusion+AND+(all:vapor+AND+all:bandgap)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2210.07417v2</id>
+    <title>Ultra-Wide Bandgap Ga$_2$O$_3$-on-SiC MOSFETs</title>
+    <updated>2023-02-21T05:01:13Z</updated>
+    <link href="https://arxiv.org/abs/2210.07417v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2210.07417v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Ulta-wide bandgap semiconductors based on $β$-Ga$_2$O$_3$ offer the potential to achieve higher power switching performance, efficiency, and lower manufacturing cost than today's wide bandgap power semiconductors. However, the most critical challenge to the commercialization of Ga$_2$O$_3$ electronics is overheating, which impacts the device's performance and reliability. We fabricated a Ga$_2$O$_3$/4H-SiC composite wafer using a fusion-bonding method. A low temperature ($\le$ 600 $^{\circ}$C) epitaxy and device processing approach based on low-temperature (LT) metalorganic vapor phase epitaxy is developed to grow a Ga$_2$O$_3$ epitaxial channel layer on the composite wafer and subsequently fabricate into Ga$_2$O$_3$ power MOSFETs. This LT approach is essential to preserve the structural integrity of the composite wafer. These LT-grown epitaxial Ga$_2$O$_3$ MOSFETs deliver high thermal performance (56% reduction in channel temperature), high voltage blocking capabilities up to 2.45 kV, and power figures of merit of $\sim$ 300 MW/cm$^2$, which is a record high for any heterogeneously integrated Ga$_2$O$_3$ devices reported to date. This work is the first realization of multi-kilovolt homoepitaxial Ga$_2$O$_3$ power MOSFETs fabricated on a composite substrate with high heat transfer performance which delivers state-of-the-art power density values while running much cooler than those on native substrates. Thermal characterization and modeling results reveal that a Ga$_2$O$_3$/diamond composite wafer with a reduced Ga$_2$O$_3$ thickness ($\sim$ 1 $μ$m) and thinner bonding interlayer ($&lt;$ 10 nm) can reduce the device thermal impedance to a level lower than today's GaN-on-SiC power switches.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-10-13T23:45:37Z</published>
+    <arxiv:comment>17 pages, 9 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Yiwen Song</name>
+    </author>
+    <author>
+      <name>Arkka Bhattacharyya</name>
+    </author>
+    <author>
+      <name>Anwarul Karim</name>
+    </author>
+    <author>
+      <name>Daniel Shoemaker</name>
+    </author>
+    <author>
+      <name>Hsien-Lien Huang</name>
+    </author>
+    <author>
+      <name>Saurav Roy</name>
+    </author>
+    <author>
+      <name>Craig McGray</name>
+    </author>
+    <author>
+      <name>Jacob H. Leach</name>
+    </author>
+    <author>
+      <name>Jinwoo Hwang</name>
+    </author>
+    <author>
+      <name>Sriram Krishnamoorthy</name>
+    </author>
+    <author>
+      <name>Sukwon Choi</name>
+    </author>
+  </entry>
+</feed>

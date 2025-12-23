@@ -1,0 +1,68 @@
+TERMS: superconductivity, bandgap, vacuum
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/g25LyVtwj/HJ7knzpXH9qD+DSRo</id>
+  <title>arXiv Query: search_query=all:superconductivity AND all:bandgap AND all:vacuum&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:31:52Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:superconductivity+AND+(all:bandgap+AND+all:vacuum)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1906.10597v2</id>
+    <title>Bandgap-Assisted Quantum Control of Topological Edge States in a Cavity</title>
+    <updated>2020-03-02T13:46:04Z</updated>
+    <link href="https://arxiv.org/abs/1906.10597v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1906.10597v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Quantum matter with exotic topological order has potential applications in quantum computation. However, in present experiments, the manipulations on topological states are still challenging. We here propose an architecture for optical control of topological matter. We consider a topological superconducting qubit array with Su-Schrieffer-Heeger (SSH) Hamiltonian which couples to a microwave cavity. Based on parity properties of the topological qubit array, we propose an optical spectroscopy method to observe topological phase transition, i.e., edge-to-bulk transition. This new method can be achieved by designing cavity-qubit couplings. A main purpose of this work is to understand how topological phase transition affects light-matter interaction. We find that topological bandgap plays an essential role on this issue. In topological phase, the resonant vacuum Rabi splitting of degenerate edge states coupling to the cavity field is protected from those of bulk states by the bandgap. In dispersive regime, the cavity induced coupling between edge states is dominant over couplings between edge and bulk states, due to the topological bandgap. As a result, quantum interference between topological edge states occures and enables single-photon transport through boundaries of the topological qubit array. Our work may pave a way for topological quantum state engineering.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-06-25T15:16:10Z</published>
+    <arxiv:comment>7+15 pages, 5+11 figures, will appear in Physical Review Research</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Phys. Rev. Research 2, 012076 (2020)</arxiv:journal_ref>
+    <author>
+      <name>Wei Nie</name>
+    </author>
+    <author>
+      <name>Yu-xi Liu</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevResearch.2.012076</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevResearch.2.012076" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1808.04874v2</id>
+    <title>Quantum electromechanics of a hypersonic crystal</title>
+    <updated>2018-08-30T18:34:55Z</updated>
+    <link href="https://arxiv.org/abs/1808.04874v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1808.04874v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Radiation pressure within engineered structures has recently been used to couple the motion of nanomechanical objects with high sensitivity to optical and microwave electromagnetic fields. Here, we demonstrate a form of electromechanical crystal for coupling microwave photons and hypersonic phonons by embedding the vacuum-gap capacitor of a superconducting resonator within a phononic crystal acoustic cavity. Utilizing a two-photon resonance condition for efficient microwave pumping and a phononic bandgap shield to eliminate acoustic radiation, we demonstrate large cooperative coupling ($C \approx 30$) between a pair of electrical resonances at $10$GHz and an acoustic resonance at $0.425$GHz. Electrical read-out of the phonon occupancy shows that the hypersonic acoustic mode has an intrinsic energy decay time of $2.3$ms and thermalizes close to its quantum ground-state of motion (occupancy $1.5$) at a fridge temperature of $10$mK. Such an electromechanical transducer is envisioned as part of a hybrid quantum circuit architecture, capable of interfacing to both superconducting qubits and optical photons.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-08-14T19:54:19Z</published>
+    <arxiv:comment>16 pages, 12 figures, 8 appendices</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Mahmoud Kalaee</name>
+    </author>
+    <author>
+      <name>Mohammad Mirhosseini</name>
+    </author>
+    <author>
+      <name>Paul B. Dieterle</name>
+    </author>
+    <author>
+      <name>Matilda Peruzzo</name>
+    </author>
+    <author>
+      <name>Johannes M. Fink</name>
+    </author>
+    <author>
+      <name>Oskar Painter</name>
+    </author>
+    <arxiv:doi>10.1038/s41565-019-0377-2</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41565-019-0377-2" title="doi"/>
+  </entry>
+</feed>

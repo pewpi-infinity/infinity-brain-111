@@ -1,0 +1,95 @@
+TERMS: quantum, frequency, oxidation
+COLORS: blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/RiqCZRL57BxzUeiuLNXTYBJ0G/w</id>
+  <title>arXiv Query: search_query=all:quantum AND all:frequency AND all:oxidation&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:05:49Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:frequency+AND+all:oxidation)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>176</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2212.06692v1</id>
+    <title>Improving Josephson junction reproducibility for superconducting quantum circuits: shadow evaporation and oxidation</title>
+    <updated>2022-12-13T16:05:43Z</updated>
+    <link href="https://arxiv.org/abs/2212.06692v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2212.06692v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The most commonly used physical realization of superconducting qubits for quantum circuits is a transmon. There are a number of superconducting quantum circuits applications, where Josephson junction critical current reproducibility over a chip is crucial. Here, we report on a robust chip scale $Al/AlO_x/Al$ junctions fabrication method due to comprehensive study of shadow evaporation and oxidation steps. We experimentally demonstrate the evidence of optimal Josephson junction electrodes thickness, deposition rate and deposition angle, which ensure minimal electrode surface and line edge roughness. The influence of oxidation method, pressure and time on critical current reproducibility is determined. With the proposed method we demonstrate $Al/AlO_x/Al$ junction fabrication with the critical current variation ($σ/I_c$) less than 3.9% (from $150\times200$ to $150\times600$ $nm^2$ area) and 7.7% (for $100\times100$ $nm^2$ area) over $20\times20$ $mm^2$ chip. Finally, we fabricate separately three $5\times10$ $mm^2$ chips with 18 transmon qubits (near 4.3 GHz frequency) showing less than 1.9% frequency variation between qubit on different chips. The proposed approach and optimization criteria can be utilized for a robust wafer-scale superconducting qubit circuits fabrication.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-12-13T16:05:43Z</published>
+    <arxiv:comment>7 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>D. O. Moskalev</name>
+    </author>
+    <author>
+      <name>E. V. Zikiy</name>
+    </author>
+    <author>
+      <name>A. A. Pishchimova</name>
+    </author>
+    <author>
+      <name>D. A. Ezenkova</name>
+    </author>
+    <author>
+      <name>N. S. Smirnov</name>
+    </author>
+    <author>
+      <name>A. I. Ivanov</name>
+    </author>
+    <author>
+      <name>N. D. Korshakov</name>
+    </author>
+    <author>
+      <name>I. A. Rodionov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1312.7362v1</id>
+    <title>Characterization of low-temperature microwave loss of thin aluminum oxide formed by plasma oxidation</title>
+    <updated>2013-12-27T22:26:35Z</updated>
+    <link href="https://arxiv.org/abs/1312.7362v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1312.7362v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We report on the characterization of microwave loss of thin aluminum oxide films at low temperatures using superconducting lumped resonators. The oxide films are fabricated using plasma oxidation of aluminum and have a thickness of 5 nm. We measure the dielectric loss versus microwave power for resonators with frequencies in the GHz range at temperatures from 54 to 303 mK. The power and temperature dependence of the loss is consistent with the tunneling two-level system theory. These results are relevant to understanding decoherence in superconducting quantum devices. The obtained oxide films are thin and robust, making them suitable for capacitors in compact microwave resonators.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-12-27T22:26:35Z</published>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Appl. Phys. Lett. 104, 043506 (2014)</arxiv:journal_ref>
+    <author>
+      <name>Chunqing Deng</name>
+    </author>
+    <author>
+      <name>Martin Otto</name>
+    </author>
+    <author>
+      <name>Adrian Lupascu</name>
+    </author>
+    <arxiv:doi>10.1063/1.4863686</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/1.4863686" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2411.12396v1</id>
+    <title>Nuclear Quantum Effects on Proton Diffusivity in Perovskite Oxides</title>
+    <updated>2024-11-19T10:29:18Z</updated>
+    <link href="https://arxiv.org/abs/2411.12396v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.12396v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the present study, the nuclear quantum effects (NQEs) on proton diffusivity in oxides were evaluated by molecular dynamics (MD) simulations with the quantum thermal bath (QTB) based on the Langevin dynamics. We employed the proton diffusion in barium zirconate (BaZrO3) with the cubic perovskite structure as the model system, in which protons migrate by rotation around single oxide ions and hopping between adjacent oxide ions. MD simulations with the standard classical thermal bath (CTB) and phonon calculations were also conducted to verify the conventionally used classical harmonic transition state theory (classical h-TST), in which the transition state theory (TST), the harmonic approximation, and the classical approximation are assumed. As a result, the h-TST are reasonable for the proton rotation, while significantly overestimate the activation energy and the pre-exponential factor of the jump frequency for the proton hopping. Furthermore, the classical approximation makes the proton jump frequencies close to linear in the Arrhenius plots, which should actually be nonlinear by the NQEs in the temperature range of 500-2000 K. This suggests the necessity of the treatment beyond the classical h-TST for accurate evaluation of the proton diffusivity in oxides even in the intermediate temperature range (573-873 K).</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-19T10:29:18Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Shunya Yamada</name>
+    </author>
+    <author>
+      <name>Kansei Kanayama</name>
+    </author>
+    <author>
+      <name>Kazuaki Toyoura</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,28 @@
+TERMS: spin, tachyon, plasma
+COLORS: yellow, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/0RZZa+HdG0UzfNELJRE6Sq2eVwE</id>
+  <title>arXiv Query: search_query=all:spin AND all:tachyon AND all:plasma&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:32:32Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:spin+AND+(all:tachyon+AND+all:plasma)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/9908344v1</id>
+    <title>Pseudo-spin of time-like lepton and the solar neutrino problem</title>
+    <updated>1999-08-12T22:20:59Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/9908344v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/9908344v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Based on the dual principle in super-luminous Lorentz transformation this work shows that pseudo-spin of a time-like bradyon appears to space-like observers as iso-spin of a corresponding tachyon. Due to the weak interaction, lepton-tachyon appears as neutrino with hidden imaginary transcendent mass, suppressed by a factor of $ρ\sim G_F m^2_0$ compared to the rest mass $m_0$ of a corresponding space-like lepton. Assuming a coexistance of tachyon dark matter in the solar system, we show that the solar neutrino deficit might be explained by depolarisation of time-like electrons due to elastic scattering in time-like plasma and the maximal deficit would reach 0.5. Neither day-night nor seasonal effects are expected due to dynamic balance of fluxes with opposite pseudo-spin polarisation.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1999-08-12T22:20:59Z</published>
+    <arxiv:comment>Paper contributed to LP99 Symposium</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Vo Van Thuan</name>
+    </author>
+  </entry>
+</feed>

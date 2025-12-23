@@ -1,0 +1,32 @@
+TERMS: hydrogen, electron, plasma, singularity
+COLORS: purple, green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ufgJBLZ1r86Bn+TWW58W9nrT654</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:electron AND all:plasma AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:57:21Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:electron+AND+(all:plasma+AND+all:singularity))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/physics/0207125v1</id>
+    <title>Marginalization using the metric of the likelihood</title>
+    <updated>2002-07-31T07:14:33Z</updated>
+    <link href="https://arxiv.org/abs/physics/0207125v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/physics/0207125v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Although the likelihood function is normalizeable with respect to the data there is no guarantee that the same holds with respect to the model parameters. This may lead to singularities in the expectation value integral of these parameters, especially if the prior information is not sufficient to take care of finite integral values. However, the problem may be solved by obeying the correct Riemannian metric imposed by the likelihood. This will be demonstrated for the example of the electron temperature evaluation in hydrogen plasmas.</summary>
+    <category term="physics.data-an" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-07-31T07:14:33Z</published>
+    <arxiv:comment>8 pages, 2 figures, Presented at the MaxEnt 2000 conference in Gif-sur-Yvette/Paris</arxiv:comment>
+    <arxiv:primary_category term="physics.data-an"/>
+    <author>
+      <name>R. Preuss</name>
+    </author>
+    <author>
+      <name>V. Dose</name>
+    </author>
+  </entry>
+</feed>

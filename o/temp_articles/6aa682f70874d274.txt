@@ -1,0 +1,30 @@
+TERMS: hydrogen, quantum, ionization, boson
+COLORS: purple, blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/vTvYnHP4/K4aD+nXDuEeCj3zVnY</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:ionization AND all:boson&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:39:55Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:ionization+AND+all:boson))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2412.12526v1</id>
+    <title>Gravitational Atoms and Black Hole Binaries</title>
+    <updated>2024-12-17T04:34:59Z</updated>
+    <link href="https://arxiv.org/abs/2412.12526v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.12526v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Several models of physics beyond the Standard Model predict the existence of new ultralight bosons. This thesis investigates a way to discover such particles through observations of gravitational waves from binary black holes. This is possible through black hole superradiance, which spontaneously creates a "boson cloud" around a rapidly spinning black hole. The system is also known as a gravitational atom, due to its similarities with the hydrogen atom. The thesis focuses on a scenario where a gravitational atom is orbited by a binary companion. The goal is to characterize the dynamics of the system and identify the signatures left by the boson cloud on the gravitational waves emitted by the binary. The predictions can be tested with current and future interferometers, such as LISA, LIGO, DECIGO, Einstein Telescope and TianQin. First, I demonstrate that the cloud catalyzes the binary formation by increasing the dynamical capture cross section. I then introduce and study the ionization of the cloud, wherein the perturbation from the binary unbinds the bosons, analogous to the photoelectric effect in atomic physics. After that, I examine the accretion of the cloud on the companion black hole. To achieve realistic and complete results, I proceed to extend the treatment of ionization, as well as of the orbital resonances discussed in earlier works, to orbits with generic inclination and eccentricity. This allows to study the entire history of the system, from formation to merger. The most distinctive observational signatures of the cloud are found to be the orbital energy lost through ionization and the preference for specific inclinations and eccentricities induced by the orbital resonances.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-17T04:34:59Z</published>
+    <arxiv:comment>PhD thesis, University of Amsterdam, 2024, 186 pages</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <author>
+      <name>Giovanni Maria Tomaselli</name>
+    </author>
+  </entry>
+</feed>

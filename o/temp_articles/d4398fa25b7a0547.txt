@@ -1,0 +1,70 @@
+TERMS: entropy, vapor
+COLORS: red, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ss+r7s3jwcHGxpLQen/rpUwsgGs</id>
+  <title>arXiv Query: search_query=all:entropy AND all:vapor&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T00:57:50Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+all:vapor&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>95</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1710.04525v1</id>
+    <title>A thermodynamically consistent model of a liquid-vapor fluid with a gas</title>
+    <updated>2017-10-12T14:07:42Z</updated>
+    <link href="https://arxiv.org/abs/1710.04525v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1710.04525v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This work is devoted to the consistent modeling of a three-phase mixture of a gas, a liquid and its vapor. Since the gas and the vapor are mis-cible, the mixture is subjected to a non-symmetric constraint on the volume. Adopting the Gibbs formalism, the study of the extensive equilibrium entropy of the system allows to recover the Dalton's law between the two gaseous phases. In addition, we distinguish whether phase transition occurs or not between the liquid and its vapor. The thermodynamical equilibria are described both in extensive and intensive variables. In the latter case, we focus on the geometrical properties of equilibrium entropy. The consistent characterization of the thermodynamics of the three-phase mixture is used to introduce two Homogeneous Equilibrium Models (HEM) depending on mass transfer is taking into account or not. Hyperbolicity is investigated while analyzing the entropy structure of the systems. Finally we propose two Homogeneous Relaxation Models (HRM) for the three-phase mixtures with and without phase transition. Supplementary equations on mass, volume and energy fractions are considered with appropriate source terms which model the relaxation towards the thermodynamical equilibrium, in agreement with entropy growth criterion.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-10-12T14:07:42Z</published>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name>Hélène Mathis</name>
+      <arxiv:affiliation>LMJL</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.04787v1</id>
+    <title>Impact-induced Vaporization During Accretion of Planetary Bodies</title>
+    <updated>2025-02-07T09:45:19Z</updated>
+    <link href="https://arxiv.org/abs/2502.04787v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.04787v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Giant impacts dominate the late stages of accretion of rocky planets. They contribute to the heating, melting, and sometimes vaporizing of the bodies involved in the impacts. Due to fractionation during melting and vaporization, planet-building impacts can significantly change the composition and geochemical signatures of rocky objects. Using first-principles molecular dynamics simulations, we analyze the shock behavior of complex realistic silicate systems, representative of both rocky bodies. We introduce a novel criterion for vapor formation that uses entropy calculations to determine the minimum impact velocity required to pass the threshold for vapor production. We derive impact velocity criteria for vapor formation (7.1 km per s for chondritic bodies) and show that this threshold is reached in 61 and 89 percent of impacts in dynamical simulations of the late stages of accretion with classical and annulus starting configuration (respectively) for analogs of Earth. These outcomes should be nuanced by factors such as the impact angle and the mass of the impacting bodies, which further influence the vaporization dynamics and the resultant material distribution. Our findings indicate that vaporization was common during accretion and likely played a crucial role in shaping the early environments and material properties of terrestrial planets.</summary>
+    <category term="astro-ph.EP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-07T09:45:19Z</published>
+    <arxiv:comment>17 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.EP"/>
+    <author>
+      <name>Adrien Saurety</name>
+    </author>
+    <author>
+      <name>Razvan Caracas</name>
+    </author>
+    <author>
+      <name>Sean N. Raymond</name>
+    </author>
+    <arxiv:doi>10.3847/2041-8213/adb30e</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3847/2041-8213/adb30e" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2106.14221v2</id>
+    <title>Can a liquid drop on a substrate be in equilibrium with saturated vapor?</title>
+    <updated>2021-09-13T11:02:49Z</updated>
+    <link href="https://arxiv.org/abs/2106.14221v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2106.14221v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>It is well-known that liquid and saturated vapor, separated by a flat interface in an unbounded space, are in equilibrium. One would similarly expect a liquid drop, sitting on a flat substrate, to be in equilibrium with the vapor surrounding it. Yet, it is not: as shown in this work, the drop evaporates. Mathematically, this conclusion is deduced using the diffuse-interface model, but it can also be reformulated in terms of the maximum-entropy principle, suggesting model independence. Physically, evaporation of drops is due to the so-called Kelvin effect, which gives rise to a liquid-to-vapor mass flux in all cases where the boundary of the liquid phase is convex.</summary>
+    <category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.flu-dyn" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-06-27T12:37:09Z</published>
+    <arxiv:primary_category term="cond-mat.soft"/>
+    <arxiv:journal_ref>Phys. Rev. E 104, 032103 (2021)</arxiv:journal_ref>
+    <author>
+      <name>E. S. Benilov</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevE.104.L032103</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevE.104.L032103" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,34 @@
+TERMS: hydrogen, quantum, ionization, oxidation
+COLORS: purple, blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/viNeyAySEKaGFC8IUjzu8IUeKiI</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:ionization AND all:oxidation&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:39:59Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:ionization+AND+all:oxidation))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2005.00090v1</id>
+    <title>Excitation and characterization of long-lived hydrogenic Rydberg states of nitric oxide</title>
+    <updated>2020-04-30T20:32:29Z</updated>
+    <link href="https://arxiv.org/abs/2005.00090v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2005.00090v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>High Rydberg states of nitric oxide (NO) with principal quantum numbers between 40 and 100 and lifetimes in excess of 10 $μ$s have been prepared by resonance enhanced two-color two-photon laser excitation from the X $^2Π_{1/2}$ ground state through the A $^2Σ^+$ intermediate state. Molecules in these long-lived Rydberg states were detected and characterized 126 $μ$s after laser photoexcitation by state-selective pulsed electric field ionization. The laser excitation and electric field ionization data were combined to construct two-dimensional spectral maps. These maps were used to identify the rotational states of the NO$^+$ ion core to which the observed series of long-lived hydrogenic Rydberg states converge. The results presented pave the way for Rydberg-Stark deceleration and electrostatic trapping experiments with NO, which are expected to shed further light on the decay dynamics of these long-lived excited states, and are of interest for studies of ion-molecule reactions at low temperatures.</summary>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-04-30T20:32:29Z</published>
+    <arxiv:comment>12 pages, 10 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.chem-ph"/>
+    <arxiv:journal_ref>J. Chem. Phys. 152, 144305 (2020)</arxiv:journal_ref>
+    <author>
+      <name>A. Deller</name>
+    </author>
+    <author>
+      <name>S. D Hogan</name>
+    </author>
+    <arxiv:doi>10.1063/5.0003092</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/5.0003092" title="doi"/>
+  </entry>
+</feed>

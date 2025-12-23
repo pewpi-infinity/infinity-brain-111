@@ -1,0 +1,86 @@
+TERMS: hydrogen, frequency, lattice, plasma
+COLORS: purple, green, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/xrTHD2XF0kekZqDtdOO8qRk9oR4</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:frequency AND all:lattice AND all:plasma&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:42:01Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:frequency+AND+(all:lattice+AND+all:plasma))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2403.20019v1</id>
+    <title>An ultraviolet photodetector based on conductive hydrogenated TiO$_2$ film prepared by radio frequency atmospheric pressure plasma</title>
+    <updated>2024-03-29T07:15:06Z</updated>
+    <link href="https://arxiv.org/abs/2403.20019v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.20019v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The growing demand for real-time ultraviolet (UV) monitoring calls for a simple, rapid, and low-cost strategy to prepare UV photodetectors. We prepare a wearable real-time UV photodetector based on hydrogenated titanium dioxide film synthesized by radio frequency atmospheric pressure plasma. The conductivity of our hydrogenated titanium dioxide is improved to 10.2 S cm$^{-1}$, 9 orders of magnitude higher than that of pristine titanium dioxide after 10 min plasma treatment. Plasma hydrogenation disrupts the surface crystal structure, introducing oxygen vacancies (OVs) that create self-doped titanium(III) and titanium (II) species. First-principles calculations indicate the OVs raise the Fermi level of TiO$_2$ and distort the lattice nearby. Our optimized film has a distinctive periodic switching characteristic under intermittent illumination and good responsivity from 280 - 400 nm, peaking at 632.35 mA W^{-1}$ at 365 nm. The fabricated wearable sensor based on the optimized film effectively performs the monitoring of the daily variation of ambient UV intensity in three typical weather types and transferring its data to a smartphone via Wi-Fi.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-29T07:15:06Z</published>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>Yu Zhang</name>
+    </author>
+    <author>
+      <name>Haozhe Wang</name>
+    </author>
+    <author>
+      <name>Jie Cui</name>
+    </author>
+    <author>
+      <name>Tao He</name>
+    </author>
+    <author>
+      <name>Gaote Qiu</name>
+    </author>
+    <author>
+      <name>Yu Xu</name>
+    </author>
+    <author>
+      <name>Jing Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1805.10920v1</id>
+    <title>Theoretical investigation of novel electronic, optical, mechanical and thermal properties of metallic hydrogen at 495 GPa</title>
+    <updated>2018-05-28T13:43:19Z</updated>
+    <link href="https://arxiv.org/abs/1805.10920v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1805.10920v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Atomic metallic hydrogen has been produced in the laboratory at high pressure and low temperature, prompting further investigations of its different properties. However, purely experimental approaches are infeasible because of the extreme requirements in producing and preserving the metastable phase. Here we perform a systematic investigation of the electronic, optical, mechanical and thermal properties of $I4_1/amd$ hydrogen at 495 GPa using first-principles calculations. We calculate the electronic structure and dielectric function to verify the metallic behaviour of $I4_1/amd$ hydrogen. The calculated total plasma frequency from both intraband and interband transitions, 33.40 eV, agrees well with the experimental result. The mechanical properties including elastic stability and sound velocity are also investigated. The mechanical stability of $I4_1/amd$ hydrogen is limited by shear modulus other than bulk modulus, and the high Young's modulus indicates that $I4_1/amd$ hydrogen is a stiff material. After investigating the lattice vibrational properties, we study the thermodynamical properties and lattice anharmonicity to understand thermal behaviours in metallic hydrogen. Finally, the lattice thermal conductivity of $I4_1/amd$ hydrogen is calculated to be 194.72 W/mK and 172.96 W/mK along the $x$ and $z$ directions, respectively. Using metallic hydrogen as an example, we demonstrate that first-principles calculations can be a game-changing solution to understand a variety of material properties in extreme conditions.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-05-28T13:43:19Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Bo Peng</name>
+    </author>
+    <author>
+      <name>Ke Xu</name>
+    </author>
+    <author>
+      <name>Hao Zhang</name>
+    </author>
+    <author>
+      <name>Hezhu Shao</name>
+    </author>
+    <author>
+      <name>Gang Ni</name>
+    </author>
+    <author>
+      <name>Jing Li</name>
+    </author>
+    <author>
+      <name>Liangcai Wu</name>
+    </author>
+    <author>
+      <name>Hongliang Lu</name>
+    </author>
+    <author>
+      <name>Qingyuan Jin</name>
+    </author>
+    <author>
+      <name>Heyuan Zhu</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,101 @@
+TERMS: vapor, ionization, plasma
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/zBCDDNYH5THktUKvVf9c3SztPSo</id>
+  <title>arXiv Query: search_query=all:vapor AND all:ionization AND all:plasma&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:25:27Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:vapor+AND+(all:ionization+AND+all:plasma)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>36</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1708.08280v1</id>
+    <title>A Rubidium Vapor Source for a Plasma Source for AWAKE</title>
+    <updated>2017-08-28T11:48:25Z</updated>
+    <link href="https://arxiv.org/abs/1708.08280v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1708.08280v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present the scheme for a rubidium vapor source that is used as a plasma source in the AWAKE plasma wakefield acceleration experiment. The plasma wakefield acceleration process requires a number of stringent parameters for the plasma: electron density adjustable in the (1-10)$\times$10$^{14}$cm$^{-3}$ range, 0.25% relative density uniformity, sharp ($&lt;$10cm) density ramps at each end, density gradient adjustable from -3 to +10% over 10m, and %-level density step near the beginning the plasma column. We show with analytical and direct Simulation Monte Carlo results that the rubidium density in the proposed source should meet these requirements. Laser ionization then transfers the above neutral vapor parameters to the plasma.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-08-28T11:48:25Z</published>
+    <arxiv:comment>18 pages, 12 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <arxiv:journal_ref>Journal of Physics D: Applied Physics, 51(2), 025203 (2017)</arxiv:journal_ref>
+    <author>
+      <name>Gennady Plyushchev</name>
+    </author>
+    <author>
+      <name>Roberto Kersevan</name>
+    </author>
+    <author>
+      <name>Alexey Petrenko</name>
+    </author>
+    <author>
+      <name>Patric Muggli</name>
+    </author>
+    <arxiv:doi>10.1088/1361-6463/aa9dd7</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1361-6463/aa9dd7" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2106.12414v1</id>
+    <title>Seeding of proton bunch self-modulation by an electron bunch in plasma</title>
+    <updated>2021-06-23T14:02:28Z</updated>
+    <link href="https://arxiv.org/abs/2106.12414v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2106.12414v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The AWAKE experiment relies on the self-modulation instability of a long proton bunch to effectively drive wakefields and accelerate an electron bunch to GeV-level energies. During the first experimental run (2016-2018) the instability was made phase reproducible by means of a seeding process: a short laser pulse co-propagates within the proton bunch in a rubidium vapor. Thus, the fast creation of plasma and the onset of beam-plasma interaction within the bunch drives seed wakefields. However, this seeding method leaves the front of the bunch not modulated. The bunch front could self-modulate in a second, preformed plasma and drive wakefields that would interfere with those driven by the (already self-modulated) back of the bunch and with the acceleration process. We present studies of the seeded the self-modulation (SSM) of a long proton bunch using a short electron bunch. The short seed bunch is placed ahead of the proton bunch leading to self-modulation of the entire bunch. Numerical simulations show that this method have other advantages when compared to the ionization front method. We discuss the requirements for the electron bunch parameters (charge, emittance, transverse size at the focal point, length), to effectively seed the self-modulation process. We also present preliminary experimental studies on the electron bunch seed wakefields generation.</summary>
+    <category term="physics.acc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-06-23T14:02:28Z</published>
+    <arxiv:comment>47th EPS Conference on Plasma Physics</arxiv:comment>
+    <arxiv:primary_category term="physics.acc-ph"/>
+    <author>
+      <name>L. Verra</name>
+    </author>
+    <author>
+      <name>G. Zevi Della Porta</name>
+    </author>
+    <author>
+      <name>K. -J. Moon</name>
+    </author>
+    <author>
+      <name>A. -M. Bachmann</name>
+    </author>
+    <author>
+      <name>E. Gschwendtner</name>
+    </author>
+    <author>
+      <name>P. Muggli</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2205.12731v1</id>
+    <title>Machine learning methods for Schlieren imaging of a plasma channel in tenuous atomic vapor</title>
+    <updated>2022-05-13T17:27:59Z</updated>
+    <link href="https://arxiv.org/abs/2205.12731v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2205.12731v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate the usage of a Schlieren imaging setup to measure the geometrical dimensions of a plasma channel in atomic vapor. Near resonant probe light is used to image the plasma channel in a tenuous vapor and machine learning techniques are tested for extracting quantitative information from the images. By building a database of simulated signals with a range of plasma parameters for training Deep Neural Networks, we demonstrate that they can extract from the Schlieren images reliably and with high accuracy the location, the radius and the maximum ionization fraction of the plasma channel as well as the width of the transition region between the core of the plasma channel and the unionized vapor. We test several different neural network architectures with supervised learning and show that the parameter estimations supplied by the networks are resilient with respect to slight changes of the experimental parameters that may occur in the course of a measurement.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-05-13T17:27:59Z</published>
+    <arxiv:comment>26 pages, 13 figures, 1 table</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>Gábor Bíró</name>
+    </author>
+    <author>
+      <name>Mihály Pocsai</name>
+    </author>
+    <author>
+      <name>Imre Ferenc Barna</name>
+    </author>
+    <author>
+      <name>Joshua T. Moody</name>
+    </author>
+    <author>
+      <name>Gábor Demeter</name>
+    </author>
+    <arxiv:doi>10.1016/j.optlastec.2022.108948</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.optlastec.2022.108948" title="doi"/>
+  </entry>
+</feed>

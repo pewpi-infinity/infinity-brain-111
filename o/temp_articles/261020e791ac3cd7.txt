@@ -1,0 +1,68 @@
+TERMS: oxidation, probability, singularity
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/YUl4Fx2TrKmthMS6acYul93XKzU</id>
+  <title>arXiv Query: search_query=all:oxidation AND all:probability AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:37:35Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:oxidation+AND+(all:probability+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1003.2618v2</id>
+    <title>Spectroscopic ellipsometry of graphene and an exciton-shifted van Hove peak in absorption</title>
+    <updated>2010-04-06T16:24:43Z</updated>
+    <link href="https://arxiv.org/abs/1003.2618v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1003.2618v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We demonstrate that optical transparency of any two-dimensional system with a symmetric electronic spectrum is governed by the fine structure constant and suggest a simple formula that relates a quasi-particle spectrum to an optical absorption of such a system. These results are applied to graphene deposited on a surface of oxidized silicon for which we measure ellipsometric spectra, extract optical constants of a graphene layer and reconstruct the electronic dispersion relation near the K point using optical transmission spectra. We also present spectroscopic ellipsometry analysis of graphene placed on amorphous quartz substrates and report a pronounced peak in ultraviolet absorption at 4.6 eV because of a van Hove singularity in graphene's density of states. The peak is downshifted by 0.5 eV probably due to excitonic effects.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-03-12T20:48:06Z</published>
+    <arxiv:comment>14 pages, 5 figures, accepted to Phys Rev B</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Phys. Rev. B 81, 155413 (2010)</arxiv:journal_ref>
+    <author>
+      <name>V. G. Kravets</name>
+    </author>
+    <author>
+      <name>A. N. Grigorenko</name>
+    </author>
+    <author>
+      <name>R. R. Nair</name>
+    </author>
+    <author>
+      <name>P. Blake</name>
+    </author>
+    <author>
+      <name>S. Anissimova</name>
+    </author>
+    <author>
+      <name>K. S. Novoselov</name>
+    </author>
+    <author>
+      <name>A. K. Geim</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.81.155413</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.81.155413" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2205.03632v3</id>
+    <title>Interplay between the extended s-wave symmetry of the gap and the spin-orbit coupling in the low-electron concentration regime of quasi-two-dimensional superconductors</title>
+    <updated>2022-09-19T14:24:04Z</updated>
+    <link href="https://arxiv.org/abs/2205.03632v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2205.03632v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We analyze the real-space paired state with the $\mathbf{k}$-dependent superconducting gap in the presence of Rashba type spin-orbit coupling and external magnetic field. We show that the $extended$ $s$-$wave$ pairing symmetry is the most probable scenario to appear in the low-electron concentration regime. According to our study, the van Hove singularity induced by the spin-orbit coupling may lead to a significant enhancement of the superconducting gap, critical temperature and critical magnetic field. Moreover, the combined effect of the spin-orbit coupling and the external magnetic field results in a non-zero total momentum of the Cooper pairs, which is a characteristic feature of the so-called helical state. In such situation, due to the C$_4$ symmetry breaking, a small $d$-$wave$ and $p$-$wave$ contributions to the pairing appear, which significantly change the character of the helical state. The obtained results are discussed in the context of the experimental data related with the unconventional superconducting features of the transition metal oxide interfaces as well as the recently reported supercurrent diode effect.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-05-07T10:58:54Z</published>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>M. Zegrodnik</name>
+    </author>
+    <author>
+      <name>P. Wójcik</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.106.184508</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.106.184508" title="doi"/>
+  </entry>
+</feed>

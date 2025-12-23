@@ -1,0 +1,35 @@
+TERMS: graphene, neutrino, singularity
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/bhyycFhsZrtp6PH9ZJt3ke02ti4</id>
+  <title>arXiv Query: search_query=all:graphene AND all:neutrino AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:34:46Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:graphene+AND+(all:neutrino+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2202.07406v3</id>
+    <title>Importance of the X-ray edge singularity for the detection of relic neutrinos in the PTOLEMY project</title>
+    <updated>2024-06-11T12:10:08Z</updated>
+    <link href="https://arxiv.org/abs/2202.07406v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2202.07406v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Direct detection of relic neutrinos in a beta-decay experiment is an ambitious goal that has long been beyond the reach of available technology. One of the most challenging practical difficulties for such an experiment is managing a large amount of radioactive material without compromising the energy resolution required to distinguish useful events from the substantial beta-decay background. The PTOLEMY project offers an innovative solution to this problem by depositing radioactive material on graphene. While this approach is expected to address the main challenge, it introduces new issues due to the proximity of the beta decayers to a solid-state system. In this work, we focus on the effect of the shakeup of the graphene electron system caused by a beta-decay event. We calculate the distortion of the relic neutrino peaks resulting from this shakeup, analyze the impact of the distortion on the visibility of neutrino capture events, and discuss potential technological solutions to enhance the visibility of these events.</summary>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-02-15T13:57:46Z</published>
+    <arxiv:comment>17 pages, 9 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.ins-det"/>
+    <author>
+      <name>Zhiyang Tan</name>
+    </author>
+    <author>
+      <name>Vadim Cheianov</name>
+    </author>
+    <arxiv:doi>10.21468/SciPostPhys.17.1.022</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.21468/SciPostPhys.17.1.022" title="doi"/>
+  </entry>
+</feed>

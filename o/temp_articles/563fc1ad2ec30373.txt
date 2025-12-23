@@ -1,0 +1,78 @@
+TERMS: lattice, crystal, vacuum
+COLORS: orange, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/hHMv6FH5pXGirPkmEfApKyQ2mpQ</id>
+  <title>arXiv Query: search_query=all:lattice AND all:crystal AND all:vacuum&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:14:38Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:crystal+AND+all:vacuum)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>99</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2206.14008v2</id>
+    <title>Phase structure of electroweak vacuum in a strong magnetic field: the lattice results</title>
+    <updated>2023-12-17T11:31:00Z</updated>
+    <link href="https://arxiv.org/abs/2206.14008v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2206.14008v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Using first-principle lattice simulations, we demonstrate that in the background of a strong magnetic field (around $10^{20}$ T), the electroweak sector of the vacuum experiences two consecutive crossover transitions associated with dramatic changes in the zero-temperature dynamics of the vector $W$ bosons and the scalar Higgs particles, respectively. Above the first crossover, we observe the appearance of large, inhomogeneous structures consistent with a classical picture of the formation of $W$ and $Z$ condensates pierced by vortices. The presence of the $W$ and $Z$ condensates supports the emergence of the exotic superconducting and superfluid properties induced by a strong magnetic field in the vacuum. We find evidence that the vortices form a disordered solid or a liquid rather than a crystal. The second transition restores the electroweak symmetry. Such conditions can be realized in the near-horizon region of the magnetized black holes.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-06-28T13:50:36Z</published>
+    <arxiv:comment>11 pages, 4 figures (text + supplementary material); v2: minor improvements, matches published version; a short illustratory video is available at https://www.youtube.com/watch?v=-TCZcLZWIBk</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 130, 111802 (2023)</arxiv:journal_ref>
+    <author>
+      <name>M. N. Chernodub</name>
+    </author>
+    <author>
+      <name>V. A. Goy</name>
+    </author>
+    <author>
+      <name>A. V. Molochkov</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.130.111802</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.130.111802" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2409.04084v2</id>
+    <title>Surface Patterns Shaped by Additives in Crystals</title>
+    <updated>2025-02-04T10:05:26Z</updated>
+    <link href="https://arxiv.org/abs/2409.04084v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2409.04084v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>One technique for creating semiconductor crystals with new, desired properties involves replacing some atoms in the crystal lattice with additives - atoms of a different type. This substitution not only alters the bulk properties of the crystal but also affects the patterns formed on its surface. A surface that is smooth and regular in a uniform crystal can become bunched or meandered under the same growth conditions if some atoms are replaced by additives. The Vicinal Cellular Automaton (VicCA) model is used to study this behavior, analyzing the mechanism of pattern formation when additives are introduced into the system. It has also been shown that the newly formed structures resulting from the presence of additives can be smoothed by applying successive layers of a homogeneous composition on top for a sufficiently long time. Additives can also act as smoothing agents for bunched or meandered surface patterns that develop in a homogeneous crystal. However, their effectiveness diminishes for spatially extended patterns such as nanowires. Typically, when homogeneous crystal layers are applied to spatial structures, the resulting surface is not entirely smoothed but instead transforms into a distinct shape. This phenomenon is demonstrated, and its underlying mechanism is thoroughly analyzed.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-09-06T07:52:52Z</published>
+    <arxiv:comment>21 pages, 10 figures, Submitted to Vacuum</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>Vacuum 240, 114431 (2025)</arxiv:journal_ref>
+    <author>
+      <name>M. A. Chabowska</name>
+    </author>
+    <author>
+      <name>M. A. Załuska-Kotur</name>
+    </author>
+    <arxiv:doi>10.1016/j.vacuum.2025.114431</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.vacuum.2025.114431" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1001.4215v1</id>
+    <title>Tachyonic crystals and the laminar instability of the perturbative vacuum in asymptotically free gauge theories</title>
+    <updated>2010-01-24T01:25:19Z</updated>
+    <link href="https://arxiv.org/abs/1001.4215v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1001.4215v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Lattice Monte Carlo studies in SU(3) gauge theory have shown that the topological charge distribution in the vacuum is dominated by thin coherent membranes of codimension one arranged in a layered, alternating-sign sandwich. A similar lamination of topological charge occurs in the 2D $CP^{N-1}$ model. In holographic QCD, the observed topological charge sheets are naturally interpreted as $D6$ branes wrapped around an $S_4$.. With this interpretation, the laminated array of topological charge membranes observed on the lattice can be identified as a "tachyonic crystal", a regular, alternating-sign array of $D6$ and $\bar{D6}$ branes that arises as the final state of the decay of a non-BPS $D7$ brane via the tachyonic mode of the attached string. In the gauge theory, the homogeneous, space-filling $D7$ brane represents the perturbative gauge vacuum, which is unstable toward lamination associated with a marginal tachyonic boundary perturbation $\propto \cos(X/\sqrt{2α'})$. For the $CP^{N-1}$ model, the cutoff field theory can be cast as the low energy limit of an open string theory in background gauge and tachyon fields $A_μ(x)$ and $λ(x)$. This allows a detailed comparison with large $N$ field theory results and provides strong support for the tachyonic crystal interpretation of the gauge theory vacuum.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-01-24T01:25:19Z</published>
+    <arxiv:comment>21 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Phys.Rev.D81:125006,2010</arxiv:journal_ref>
+    <author>
+      <name>H. B. Thacker</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.81.125006</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.81.125006" title="doi"/>
+  </entry>
+</feed>

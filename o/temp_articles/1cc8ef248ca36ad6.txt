@@ -1,0 +1,79 @@
+TERMS: fusion, ionization, vacuum
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api//9I3lLHBJQrZxmQPgrm2Cr4Zofc</id>
+  <title>arXiv Query: search_query=all:fusion AND all:ionization AND all:vacuum&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:20:47Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:fusion+AND+(all:ionization+AND+all:vacuum)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>6</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1608.07052v1</id>
+    <title>The interaction of intense ultrashort laser pulses with cryogenic He jets</title>
+    <updated>2016-08-25T08:51:32Z</updated>
+    <link href="https://arxiv.org/abs/1608.07052v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1608.07052v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the interaction of intense ultrashort laser pulses with cryogenic He jets using 2d/3v relativistic Particle-in-Cell simulations (XOOPIC). Of particular interest are laser intensities $(10^{15}-10^{20})$ W/cm$^2$, pulse lengths $\le 100$ fs, and the frequency regime $\sim 800$ nm for which the jets are initially transparent and subsequently not homogeneously ionized. Pulses $\ge 10^{16}$ W/cm$^2$ are found to drive ionization along the jet and outside the laser spot, the ionization-front propagates along the jet at a fraction of the speed of light. Within the ionized region, there is a highly transient field, which may be interpreted as two-surface wave decay and as a result of the charge-neutralizing disturbance at the jet-vacuum interface. The ionized region has solid-like densities and temperatures of few to hundreds of eV, i.e., warm and hot dense matter regimes. Such extreme conditions are relevant for high-energy densities as found, e.g., in shock-wave experiments and inertial confinement fusion studies. The temporal evolution of the ionization is studied considering theoretically a pump-probe x-ray Thomson scattering (XRTS) scheme. We observe plasmon and non-collective modes that are generated in the jet, and their amplitude is proportional to the ionized volume. Our theoretical findings could be tested at free-electron laser facilities such as FLASH and the European XFEL (Hamburg) and the LCLS (Stanford).</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-08-25T08:51:32Z</published>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>M. Shihab</name>
+    </author>
+    <author>
+      <name>T. Bornath</name>
+    </author>
+    <author>
+      <name>R. Redmer</name>
+    </author>
+    <arxiv:doi>10.1088/1361-6587/aa5c02</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1361-6587/aa5c02" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/physics/9909030v1</id>
+    <title>Magnetic Field Stimulated Transitions of Excited States in Fast Muonic Helium Ions</title>
+    <updated>1999-09-17T14:32:24Z</updated>
+    <link href="https://arxiv.org/abs/physics/9909030v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/physics/9909030v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  It is shown that one can stimulate, by using the present-day laboratory magnetic fields, transitions between the $lm$ sub-levels of fast $μHe^+$ ions formating in muon catalyzed fusion. Strong fields also cause the self-ionization from highly excited states of such muonic ions. Both effects are the consequence of the interaction of the bound muon with the oscillating field of the Stark term coupling the center-of-mass and muon motions of the $μHe^+$ ion due to the non-separability of the collective and internal variables in this system. The performed calculations show a possibility to drive the population of the $lm$ sub-levels by applying a field of a few $Tesla$, which affects the reactivation rate and is especially important to the $Kα$ $x$-ray production in muon catalyzed fusion. It is also shown that the $2s-2p$ splitting in $μHe^+$ due to the vacuum polarization slightly decreases the stimulated transition rates.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1999-09-17T14:32:24Z</published>
+    <arxiv:comment>5 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <arxiv:journal_ref>Physical Review A 59, 4264 (1999)</arxiv:journal_ref>
+    <author>
+      <name>Vladimir S. Melezhik</name>
+    </author>
+    <author>
+      <name>Peter Schmelcher</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.59.4264</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.59.4264" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.19469v1</id>
+    <title>Energy coupling in intense laser solid interactions: material properties of gold</title>
+    <updated>2023-05-31T00:35:37Z</updated>
+    <link href="https://arxiv.org/abs/2305.19469v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.19469v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the double-cone ignition inertial confinement fusion scheme, high density DT fuel is rapidly heated with high-flux fast electrons, which are generated by short and intense laser pulses. Gold cone target is usually used to shorten the distance between the critical surface and the compressed high density DT core. The material properties of solid gold may affect the generation and transport of fast electrons significantly, among which the effects of ionization and collision are the main concerns. In this work, the effects of ionization, collision and blow-off plasma on laser energy absorption rate are investigated using the LAPINS code: A three-stage model is adopted to explain the mechanism of fast electron generation and the change in laser energy absorption rate. With the increase of the charge state of Au ions, the laser-plasma interaction transfers to the later stage, resulting in a decrease in laser energy absorption rate. Collision has both beneficial and harmful effects. On one hand, collision provides a thermal pressure that makes it easier for electrons to escape into the potential well in front of the target and be accelerated in the second stage. On the other hand, collision increases stopping power and suppress electron recirculation within the target in the third stage. The vacuum sheath field behind the target enhances the electron circulation inside the target and thus improves the laser energy absorption, however this effect will be suppressed when the blow-off plasma density behind the target increases or collision is considered.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-31T00:35:37Z</published>
+    <arxiv:comment>accepted by Phys. Plasmas</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>Xu Liu</name>
+    </author>
+    <author>
+      <name>Dong Wu</name>
+    </author>
+    <author>
+      <name>Jie Zhang</name>
+    </author>
+    <arxiv:doi>10.1063/5.0137597</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/5.0137597" title="doi"/>
+  </entry>
+</feed>

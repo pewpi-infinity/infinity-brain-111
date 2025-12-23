@@ -1,0 +1,91 @@
+TERMS: lattice, entropy, probability
+COLORS: orange, red, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/9+kFaOJ2Lwn+PVTPuzNPUUv5WpQ</id>
+  <title>arXiv Query: search_query=all:lattice AND all:entropy AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:13:29Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:entropy+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>265</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2112.00460v1</id>
+    <title>Machine learning Hadron Spectral Functions in Lattice QCD</title>
+    <updated>2021-12-01T12:41:28Z</updated>
+    <link href="https://arxiv.org/abs/2112.00460v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2112.00460v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Hadron spectral functions carry all the information of hadrons and are encoded in the Euclidean two-point correlation functions. The extraction of hadron spectral functions from the correlator is a typical ill-posed inverse problem and infinite number of solutions to this problem exists. We propose a novel neural network (sVAE) based on the Variation Auto-Encoder (VAE) and Bayesian theorem. Inspired by the maximum entropy method (MEM) we construct the loss function of the neural work such that it includes a Shannon-Jaynes entropy term and a likelihood term. The sVAE is then trained to provide the most probable spectral functions. For the training samples of spectral function we used general spectral functions produced from the Gaussian Mixture Model. After the training is done we performed the mock data tests with input spectral functions consisting 1) only a free continuum, 2) only a resonance peak, 3) a resonance peak plus a free continuum and 4) a NRQCD motivated spectral function. From the mock data test we find that the sVAE in most cases is comparable to the maximum entropy method in the quality of reconstructing spectral functions and even outperforms the MEM in the case where the spectral function has sharp peaks with insufficient number of data points in the correlator. By applying to temporal correlation functions of charmonium in the pseudoscalar channel obtained in the quenched lattice QCD at 0.75 $T_c$ on $128^3\times96$ lattices and $1.5$ $T_c$ on $128^3\times48$ lattices, we find that the resonance peak of $η_c$ extracted from both the sVAE and MEM has a substantial dependence on the number of points in the temporal direction ($N_τ$) adopted in the lattice simulation and $N_τ$ larger than 48 is needed to resolve the fate of $η_c$ at 1.5 $T_c$.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-12-01T12:41:28Z</published>
+    <arxiv:comment>9 pages, 7 figures. Talk presented at the 38th International Symposium on Lattice Field Theory (Lattice 2021), 26-30 July, 2021, Zoom/Gather@Massachusetts Institute of Technology</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Shi-Yang Chen</name>
+    </author>
+    <author>
+      <name>Heng-Tong Ding</name>
+    </author>
+    <author>
+      <name>Fei-Yi Liu</name>
+    </author>
+    <author>
+      <name>Gabor Papp</name>
+    </author>
+    <author>
+      <name>Chun-Bin Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0911.1852v2</id>
+    <title>Evaluation of Israel-Stewart parameters in lattice gauge theory</title>
+    <updated>2009-11-12T06:27:46Z</updated>
+    <link href="https://arxiv.org/abs/0911.1852v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0911.1852v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Navier-Stokes equations are known as hydrodynamic equations which take account of effects of dissipations. There are, however, problems in the relativistic Navier-Stokes equations, i.e. the equations violate causality. Israel-Stewart equations, which evade the problems of Navier-Stokes equations by introducing new parameters, such as the relaxation times, have recently been used in describing the space-time evolution of the quark-gluon plasma produced in high energy heavy ion collisions. The viscosities and the relaxation times are related to each other by imposing entropy constraints on the system. According to Boltzmann-Einstein principle, the probability distribution of the fluctuation in the energy-momentum tensor is related to the entropy of the system. Applying this principle to the entropy in Israel-Stewart theory, one can obtain the ratios of the viscosities to the relaxation times. We evaluate the ratios of the viscosities to the relaxation times in SU(3) lattice gauge theory.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-11-10T08:10:31Z</published>
+    <arxiv:comment>8 pages, 2 figures. Contribution to The XXVII International Symposium on Lattice Field Theory, July 26-31, 2009, Peking University, Beijing, China</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>PoS LAT2009:196,2009</arxiv:journal_ref>
+    <author>
+      <name>Yasuhiro Kohno</name>
+    </author>
+    <author>
+      <name>Masayuki Asakawa</name>
+    </author>
+    <author>
+      <name>Masakiyo Kitazawa</name>
+    </author>
+    <author>
+      <name>Chiho Nonaka</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0802.4247v2</id>
+    <title>Numerical study of entanglement entropy in SU(2) lattice gauge theory</title>
+    <updated>2008-04-29T11:57:14Z</updated>
+    <link href="https://arxiv.org/abs/0802.4247v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0802.4247v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The entropy of entanglement between a three-dimensional slab of thickness l and its complement is studied numerically for four-dimensional SU(2) lattice gauge theory. We find a signature of a nonanalytic behavior of the entanglement entropy, which was predicted recently for large N_c confining gauge theories in the framework of AdS/CFT correspondence. The derivative of the entanglement entropy over l is likely to have a discontinuity at some l = l_c. It is argued that such behavior persists even at finite temperatures, probably turning into a sort of crossover for temperatures larger than the temperature of the deconfinement phase transition. We also confirm that the entanglement entropy contains quadratically divergent l-independent term, and that the nondivergent terms behave as the inverse square of l at small distances.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-02-28T17:50:59Z</published>
+    <arxiv:comment>10 pages RevTeX, 8 figures, 1 table. Major revision of the introductory section, several references added, some plots updated</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>Nucl.Phys.B802:458-474,2008</arxiv:journal_ref>
+    <author>
+      <name>P. V. Buividovich</name>
+    </author>
+    <author>
+      <name>M. I. Polikarpov</name>
+    </author>
+    <arxiv:doi>10.1016/j.nuclphysb.2008.04.024</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.nuclphysb.2008.04.024" title="doi"/>
+  </entry>
+</feed>

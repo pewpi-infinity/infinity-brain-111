@@ -1,0 +1,80 @@
+TERMS: frequency, entropy, ionization
+COLORS: green, red, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/8tacY4aiaRiXn7HMXU3McI6PGrQ</id>
+  <title>arXiv Query: search_query=all:frequency AND all:entropy AND all:ionization&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:09:55Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:entropy+AND+all:ionization)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>6</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2402.01884v1</id>
+    <title>Onset of transmon ionization in microwave single-photon detection</title>
+    <updated>2024-02-02T20:13:12Z</updated>
+    <link href="https://arxiv.org/abs/2402.01884v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.01884v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>By strongly driving a transmon-resonator system, the transmon qubit may eventually escape from its cosine-shaped potential. This process is called transmon ionization (TI) and known to be detrimental to the qubit coherence and operation. In this work, we investigate the onset of TI in an irreversible, parametrically-driven, frequency conversion process in a system consisting of a superconducting 3D-cavity coupled to a fixed-frequency transmon qubit. Above a critical pump power we find a sudden increase in the transmon population. Using Renyi entropy, Floquet modes, and Husimi Q functions, we infer that this abrupt change can be attributed to a quantum-to-classical phase transition. Furthermore, in the context of the single-photon detection, we measure a TI-uncorrected detection efficiency of up to 86% and estimate a TI-corrected value of up to 78% by exploiting the irreversible frequency conversion. Our numerical simulations suggest that increasing the detuning between the pump and qubit frequencies and increasing the qubit anharmonicity can suppress the TI impact. Our findings highlight the general importance of the TI process when operating coupled qubit-cavity systems.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-02T20:13:12Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Yuki Nojiri</name>
+    </author>
+    <author>
+      <name>Kedar E. Honasoge</name>
+    </author>
+    <author>
+      <name>Achim Marx</name>
+    </author>
+    <author>
+      <name>Kirill G. Fedorov</name>
+    </author>
+    <author>
+      <name>Rudolf Gross</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0707.0188v2</id>
+    <title>Is there a need and another way to measure the Cosmic Microwave Background temperature more accurately?</title>
+    <updated>2007-12-07T11:30:23Z</updated>
+    <link href="https://arxiv.org/abs/0707.0188v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0707.0188v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The recombination history of the Universe depends exponentially on the temperature, T_0, of the cosmic microwave background. Therefore tiny changes of T_0 are expected to lead to significant changes in the free electron fraction. Here we show that even the current 1sigma-uncertainty in the value of T_0 results in more than half a percent ambiguity in the ionization history, and more than 0.1% uncertainty in the TT and EE power spectra at small angular scales. We discuss how the value of T_0 affects the highly redshifted cosmological hydrogen recombination spectrum and demonstrate that T_0 could, in principle, be measured by looking at the low frequency distortions of the cosmic microwave background spectrum. For this no absolute measurements are necessary, but sensitivities on the level of ~30nK are required to extract the quasi-periodic frequency-dependent signal with typical Delta nu/nu~0.1 coming from cosmological recombination. We also briefly mention the possibility of obtaining additional information on the specific entropy of the Universe, and other cosmological parameters.</summary>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-07-02T10:34:03Z</published>
+    <arxiv:comment>4+epsilon pages, 4 Figures, accepted version</arxiv:comment>
+    <arxiv:primary_category term="astro-ph"/>
+    <author>
+      <name>J. Chluba</name>
+    </author>
+    <author>
+      <name>R. A. Sunyaev</name>
+    </author>
+    <arxiv:doi>10.1051/0004-6361:20078200</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1051/0004-6361:20078200" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1908.10367v2</id>
+    <title>Thermal Instability of Halo Gas Heated by Streaming Cosmic Rays</title>
+    <updated>2020-02-20T22:54:10Z</updated>
+    <link href="https://arxiv.org/abs/1908.10367v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1908.10367v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Heating of virialized gas by streaming cosmic rays (CRs) may be energetically important in galaxy halos, groups and clusters. We present a linear thermal stability analysis of plasmas heated by streaming CRs. We separately treat equilibria with and without background gradients, and with and without gravity. We include both CR streaming and diffusion along the magnetic-field direction. Thermal stability depends strongly on the ratio of CR pressure to gas pressure, which determines whether modes are isobaric or isochoric. Modes with $\mathbf{k \cdot B }\neq 0$ are strongly affected by CR diffusion. When the streaming time is shorter than the CR diffusion time, thermally unstable modes (with $\mathbf{k \cdot B }\neq 0$) are waves propagating at a speed $\propto$ the Alfvén speed. Halo gas in photoionization equilibrium is thermally stable independent of CR pressure, while gas in collisional ionization equilibrium is unstable for physically realistic parameters. In gravitationally stratified plasmas, the oscillation frequency of thermally overstable modes can be higher in the presence of CR streaming than the buoyancy/free-fall frequency. This may modify the critical $t_{\rm cool}/t_{\rm ff}$ at which multiphase gas is present. The criterion for convective instability of a stratified, CR-heated medium can be written in the familiar Schwarzschild form $d s_{\rm eff} / d z &lt; 0$, where $s_{\rm eff}$ is an effective entropy involving the gas and CR pressures. We discuss the implications of our results for the thermal evolution and multiphase structure of galaxy halos, groups and clusters.</summary>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-08-27T18:00:00Z</published>
+    <arxiv:comment>Accepted for publication in MNRAS; 18 Pages, 7 Figures. Note the modified sections on the impact of CR diffusion</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.GA"/>
+    <author>
+      <name>Philipp Kempski</name>
+    </author>
+    <author>
+      <name>Eliot Quataert</name>
+    </author>
+    <arxiv:doi>10.1093/mnras/staa385</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1093/mnras/staa385" title="doi"/>
+  </entry>
+</feed>

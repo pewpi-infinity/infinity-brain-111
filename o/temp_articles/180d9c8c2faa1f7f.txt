@@ -1,0 +1,65 @@
+TERMS: frequency, wavefunction, muon
+COLORS: green, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/YP7NVLAO53TcujkGf2xDGSKknJs</id>
+  <title>arXiv Query: search_query=all:frequency AND all:wavefunction AND all:muon&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:12:03Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:wavefunction+AND+all:muon)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2411.05656v1</id>
+    <title>Magnetic structure and crystal field states of antiferromagnetic CeNiGe$_3$: Neutron scattering and $μ$SR investigations</title>
+    <updated>2024-11-08T15:56:02Z</updated>
+    <link href="https://arxiv.org/abs/2411.05656v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.05656v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present the results of microscopic investigations of antiferromagnetic CeNiGe$_3$, using neutron powder diffraction (NPD), inelastic neutron scattering (INS), and muon spin relaxation ($μ$SR) measurements. CeNiGe$_3$ crystallizes in a centrosymmetric orthorhombic crystal structure (space group: $Cmmm$) and undergoes antiferromagnetic (AFM) ordering. The occurrence of long-range AFM ordering at $T_{\rm N} \approx 5.2$~K is confirmed by magnetic susceptibility, heat capacity, neutron diffraction, and $μ$SR measurements. The NPD data characterize the AFM state with an incommensurate helical magnetic structure having a propagation vector $k$ = (0, 0.41, 1/2). In addition, INS measurements at 10~K identified two crystal electric field (CEF) excitations at 9.17~meV and 18.42~meV. We analyzed the INS data using a CEF model for an orthorhombic environment of Ce$^{3+}$ ($J=5/2$) and determined the CEF parameters and ground state wavefunctions of CeNiGe$_3$. Moreover, zero-field $μ$SR data for CeNiGe$_3$ at $T&lt; T_{\rm N}$ show long-range AFM ordering with three distinct oscillation frequencies corresponding to three different internal fields at the muon sites. The internal fields at the muon-stopping sites have been further investigated using density functional theory calculations.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-08T15:56:02Z</published>
+    <arxiv:comment>13 pages, 9 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Physical Review B 110, 184412 (2024)</arxiv:journal_ref>
+    <author>
+      <name>A. Kataria</name>
+    </author>
+    <author>
+      <name>R. Kumar</name>
+    </author>
+    <author>
+      <name>D. T. Adroja</name>
+    </author>
+    <author>
+      <name>C. Ritter</name>
+    </author>
+    <author>
+      <name>V. K. Anand</name>
+    </author>
+    <author>
+      <name>A. D. Hillier</name>
+    </author>
+    <author>
+      <name>B. M. Huddart</name>
+    </author>
+    <author>
+      <name>T. Lancaster</name>
+    </author>
+    <author>
+      <name>S. Rols</name>
+    </author>
+    <author>
+      <name>M. M. Koza</name>
+    </author>
+    <author>
+      <name>Sean Langridge</name>
+    </author>
+    <author>
+      <name>A. Sundaresan</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.110.184412</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.110.184412" title="doi"/>
+  </entry>
+</feed>

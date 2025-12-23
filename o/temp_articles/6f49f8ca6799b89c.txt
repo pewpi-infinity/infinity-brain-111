@@ -1,0 +1,92 @@
+TERMS: ionization, wavefunction
+COLORS: green, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/9mKHAK71oM0lv9AyZnQbZeb81V4</id>
+  <title>arXiv Query: search_query=all:ionization AND all:wavefunction&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T00:59:19Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:ionization+AND+all:wavefunction&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>132</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1411.3082v1</id>
+    <title>The structure of approximate two electron wavefunctions in intense laser driven ionization dynamics</title>
+    <updated>2014-11-12T06:15:06Z</updated>
+    <link href="https://arxiv.org/abs/1411.3082v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1411.3082v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The structure of approximate two electron wavefunction is deeply investigated, both theoretically and numerically, in the strong-field driven ionization dynamics. Theoretical analyses clarify that for two electron singlet systems, the previously proposed time-dependent extended Hartree-Fock (TD-EHF) method [Phys. Rev. A 51, 3999 (1995)] is equivalent to the multiconfiguration time-dependent Hartree-Fock method with two occupied orbitals. The latter wavefunction is further transformed into the natural expansion form, enabling the direct propagation of the natural orbitals (NOs). These methods, as well as the conventional time-dependent Hartree-Fock (TDHF) method, are numerically assessed for the description of ionization dynamics of one-dimensional helium atom model. This numerical analysis (i) explains the reason behind the well-known failure of TDHF method to describe tunneling ionization, (ii) demonstrates the interpretive power of the TD-EHF wavefunction both in the original nonorthogonal and the NO-based formulations, and (iii) highlights different manifestations of the electron correlation (effect beyond the single determinant description), in tunneling ionization, high harmonic generation, and nonsequential double ionization. Possible extensions of the NO basis approach to multielectron systems are briefly discussed.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-11-12T06:15:06Z</published>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <arxiv:journal_ref>J. Phys. B: At. Mol. Opt. Phys. 47 (2014) 204031</arxiv:journal_ref>
+    <author>
+      <name>Takeshi Sato</name>
+    </author>
+    <author>
+      <name>Kenichi L Ishikawa</name>
+    </author>
+    <arxiv:doi>10.1088/0953-4075/47/20/204031</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0953-4075/47/20/204031" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2107.01094v2</id>
+    <title>Conditional wavefunction theory: a unified treatment of molecular structure and nonadiabatic dynamics</title>
+    <updated>2021-07-21T09:46:45Z</updated>
+    <link href="https://arxiv.org/abs/2107.01094v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2107.01094v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We demonstrate that a conditional wavefunction theory enables a unified and efficient treatment of the equilibrium structure and nonadiabatic dynamics of correlated electron-ion systems. The conditional decomposition of the many-body wavefunction formally recasts the full interacting wavefunction of a closed system as a set of lower dimensional (conditional) coupled `slices'. We formulate a variational wavefunction ansatz based on a set of conditional wavefunction slices, and demonstrate its accuracy by determining the structural and time-dependent response properties of the hydrogen molecule. We then extend this approach to include time-dependent conditional wavefunctions, and address paradigmatic nonequilibrium processes including strong-field molecular ionization, laser driven proton transfer, and Berry phase effects induced by a conical intersection. This work paves the road for the application of conditional wavefunction theory in equilibrium and out of equilibrium ab-initio molecular simulations of finite and extended systems.</summary>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-07-02T14:17:40Z</published>
+    <arxiv:primary_category term="physics.chem-ph"/>
+    <author>
+      <name>Guillermo Albareda</name>
+    </author>
+    <author>
+      <name>Kevin Lively</name>
+    </author>
+    <author>
+      <name>Shunsuke A. Sato</name>
+    </author>
+    <author>
+      <name>Aaron Kelly</name>
+    </author>
+    <author>
+      <name>Angel Rubio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1001.3862v1</id>
+    <title>New determination of structure parameters in strong field tunneling ionization theory of molecules</title>
+    <updated>2010-01-21T18:09:36Z</updated>
+    <link href="https://arxiv.org/abs/1001.3862v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1001.3862v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In the strong field molecular tunneling ionization theory of Tong et al. [Phys. Rev. A 66, 033402 (2002)], the ionization rate depends on the asymptotic wavefunction of the molecular orbital from which the electron is removed. The orbital wavefunctions obtained from standard quantum chemistry packages in general are not good enough in the asymptotic region. Here we construct a one-electron model potential for several linear molecules using density functional theory (DFT). We show that the asymptotic wavefunction can be improved with an iteration method and after one iteration accurate asymptotic wavefunctions and structure parameters are determined. With the new parameters we examine the alignment-dependent tunneling ionization probabilities for several molecules and compare with other calculations and with recent measurements, including ionization from inner molecular orbitals.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-01-21T18:09:36Z</published>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>Song-Feng Zhao</name>
+    </author>
+    <author>
+      <name>Cheng Jin</name>
+    </author>
+    <author>
+      <name>Anh-Thu Le</name>
+    </author>
+    <author>
+      <name>T. F. Jiang</name>
+    </author>
+    <author>
+      <name>C. D. Lin</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.81.033423</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.81.033423" title="doi"/>
+  </entry>
+</feed>

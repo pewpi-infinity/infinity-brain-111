@@ -1,0 +1,76 @@
+TERMS: entropy, plasma, singularity
+COLORS: red, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/XA9bfQKx0+LVt6GsFrlIlU+6P4s</id>
+  <title>arXiv Query: search_query=all:entropy AND all:plasma AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:19:33Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+(all:plasma+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>22</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2110.04560v2</id>
+    <title>Configuration entropy and stability of bottomonium radial excitations in a plasma with magnetic fields</title>
+    <updated>2022-08-01T19:12:16Z</updated>
+    <link href="https://arxiv.org/abs/2110.04560v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2110.04560v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Heavy vector mesons produced in a heavy ion collision are important sources of information about the quark gluon plasma (QGP). For instance, the fraction of bottomonium states observed in such a collision is altered by the dissociation effect caused by the plasma. So, it is very important to understand how the properties of the plasma, like temperature $(T)$, density and the presence of background magnetic fields $(eB)$, affect the dissociation of bottomonium in the thermal medium. AdS/QCD holographic models provide a tool for investigating the properties of heavy mesons inside a thermal medium. The meson states are represented by quasinormal modes in a black hole geometry. In this work we calculate the quasinormal modes and the associated complex frequencies for the four lowest levels of radial excitation of bottomonium inside a plasma with a magnetic field background. We also calculate the differential configuration entropy (DCE) for all these states and investigate how the dissociation effect produced by the magnetic field is translated into a dependence of the DCE on $eB$. An interesting result obtained in this study is that the DCE increases with the radial excitation level $n$. Also, a nontrivial finding of this work is that the energy density associated with the bottomonium quasinormal modes presents a singularity near the black hole horizon for some combination of values of $T, eB$ and $n$. As we show here, it is possible to separate the singular factor and define a square integrable quantity that provides a DCE that is always finite. In addition, we discovered that, working with the potentially singular energy density, one finds a very interesting way to use the DCE as a tool for determining the dissociation temperature of the meson quasisates.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-10-09T12:57:45Z</published>
+    <arxiv:comment>22 pages, 2 tables and 10 figures with 26 subfigures in total. In version 2, we show an original result concerning the use of the differential configuration entropy to characterize the dissociation temperature of the physical system studied. Some clarifications were also included</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Nelson R. F. Braga</name>
+    </author>
+    <author>
+      <name>Yan F. Ferreira</name>
+    </author>
+    <author>
+      <name>Luiz F. Ferreira</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.105.114044</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.105.114044" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0711.3763v3</id>
+    <title>The quark-gluon plasma and D6-branes on the conifold</title>
+    <updated>2008-11-28T15:24:10Z</updated>
+    <link href="https://arxiv.org/abs/0711.3763v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0711.3763v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We investigate the possibility of constructing a supergravity background dual to the quark-gluon plasma using D6-branes wrapping a three-cycle in the deformed conifold. The UV-completion of this setup is given by M-theory on a G2 holonomy manifold. For the class of metrics considered we find that there are only non-extremal D-brane solutions in the limit of the singular conifold with the singularity being resolved by the D-brane horizon. The thermodynamic properties of the system show some puzzling features, such as negative specific heat at an unusual behavior of the entropy. Among the properties of the plasma studied using this holographic dual are the quark-antiquark potential, the shear viscosity and parton energy loss. While one finds the expected behavior for the potential and the viscosity -- deconfinement and the universal shear-viscosity to entropy ratio -- both the jet quenching parameter and the calculation of the drag force lead us to the conclusion that there is no parton energy loss in the dual plasma. Our results indicate that the background constructed is not dual to a realistic QGP, yet we argue that this should improve upon inclusion of the three-form gauge potential in the eleven-dimensional background.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-11-23T16:38:33Z</published>
+    <arxiv:comment>41 pages, 9 figures; minor corrections; discussion of Bekenstein-Hawking entropy</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Johannes Schmude</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2301.01322v2</id>
+    <title>Configuration entropy of a rotating quark-gluon plasma from holography</title>
+    <updated>2023-11-07T06:30:48Z</updated>
+    <link href="https://arxiv.org/abs/2301.01322v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2301.01322v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The configuration entropy (CE) provides a measure of the stability of physical systems that are spatially localized. An increase in the CE is associated with an increase in the instability of the system. In this work we apply a recently developed holographic description of a rotating plasma, in order to investigate the behaviour of the CE when the plasma has angular momentum. Considering the holographic dual to the plasma, namely a rotating AdS black hole, the CE is computed at different rotational speeds and temperatures. The result obtained shows not only an increase with the rotational speed $ v$ but, in particular, a divergence of the CE as $v$ approaches the speed of light: $\, v \to 1 $. We discuss the results obtained showing that they are consistent with the change in the geometry of the black hole caused by the rotation and the corresponding variation of the volume of the dual plasma. We also connect the results found here with those obtained in a recent work, where it was shown that the complete dissociation of heavy mesons in a plasma is represented by a positive singularity in the CE.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-01-03T19:23:55Z</published>
+    <arxiv:comment>Updated version accepted for publication. 17 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Phys.Lett.B 847 (2023) 138265</arxiv:journal_ref>
+    <author>
+      <name>Nelson R. F. Braga</name>
+    </author>
+    <author>
+      <name>Luiz F. Ferreira</name>
+    </author>
+    <author>
+      <name>Octavio C. Junqueira</name>
+    </author>
+    <arxiv:doi>10.1016/j.physletb.2023.138265</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physletb.2023.138265" title="doi"/>
+  </entry>
+</feed>

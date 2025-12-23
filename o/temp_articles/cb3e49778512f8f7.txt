@@ -1,0 +1,81 @@
+TERMS: lattice, spin, wavefunction
+COLORS: orange, yellow, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/zFBv3hdLgrltECBILT3+l5TlYdQ</id>
+  <title>arXiv Query: search_query=all:lattice AND all:spin AND all:wavefunction&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:15:07Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:spin+AND+all:wavefunction)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>245</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/hep-lat/0511060v1</id>
+    <title>Large-N QCD at strong transverse lattice gauge coupling</title>
+    <updated>2005-11-29T12:25:49Z</updated>
+    <link href="https://arxiv.org/abs/hep-lat/0511060v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-lat/0511060v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We had previously obtained an integral equation for mesons in transverse lattice QCD, in the limit of large number of colours and strong transverse lattice gauge coupling [1]. This equation is a generalisation of the 't Hooft equation [2], by inclusion of the spin degrees of freedom. We analyse this equation to extract spectral properties and light-front wavefunctions of mesons. We also extend the method to study baryon properties in the same limit.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-11-29T12:25:49Z</published>
+    <arxiv:comment>6 pages, PoS style, Presented at Lattice 2005, Dublin</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>PoS LAT2005 (2005) 255</arxiv:journal_ref>
+    <author>
+      <name>Apoorva D. Patel</name>
+    </author>
+    <author>
+      <name>Raghunath Ratabole</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-lat/0309063v1</id>
+    <title>A Transverse Lattice QCD Model for Mesons</title>
+    <updated>2003-09-14T09:26:55Z</updated>
+    <link href="https://arxiv.org/abs/hep-lat/0309063v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-lat/0309063v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  QCD is analysed with two light-front continuum dimensions and two transverse lattice dimensions. In the limit of large number of colours and strong transverse gauge coupling, the contributions of light-front and transverse directions factorise in the dynamics, and the theory can be analytically solved in a closed form. An integral equation is obtained, describing the properties of mesons, which generalises the 't Hooft equation by including spin degrees of freedom. The meson spectrum, light-front wavefunctions and form factors can be obtained by solving this equation numerically. These results would be a good starting point to model QCD observables which only weakly depend on transverse directions, e.g. deep inelastic scattering structure functions.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-09-14T09:26:55Z</published>
+    <arxiv:comment>Lattice 2003 (theory), 3 pages</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Apoorva Patel</name>
+    </author>
+    <author>
+      <name>Raghunath Ratabole</name>
+    </author>
+    <arxiv:doi>10.1016/S0920-5632(03)02744-0</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/S0920-5632(03)02744-0" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0611414v1</id>
+    <title>Projected wavefunction study of Spin-1/2 Heisenberg model on the Kagome lattice</title>
+    <updated>2006-11-15T18:56:54Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0611414v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0611414v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We perform a Gutzwiller projected wavefunction study for the spin-1/2 Heisenberg model on the Kagome lattice to compare energies of several spin-liquid states. The result indicates that a U(1)-Dirac spin-liquid state has the lowest energy. Furthermore, even without variational parameters, the energy turns out to be very close to that found by exact diagonalization. We show that such a U(1)-Dirac state represents a quantum phase whose low energy physics is governed by four flavors of two-component Dirac fermions coupled to a U(1) gauge field. These results are discussed in the context of recent experiments on ZnCu$_3$(OH)$_6$Cl$_2$.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-11-15T18:56:54Z</published>
+    <arxiv:comment>5 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 98, 117205 (2007)</arxiv:journal_ref>
+    <author>
+      <name>Ying Ran</name>
+    </author>
+    <author>
+      <name>Michael Hermele</name>
+    </author>
+    <author>
+      <name>Patrick A. Lee</name>
+    </author>
+    <author>
+      <name>Xiao-Gang Wen</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.98.117205</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.98.117205" title="doi"/>
+  </entry>
+</feed>

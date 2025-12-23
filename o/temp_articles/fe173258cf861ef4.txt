@@ -1,0 +1,38 @@
+TERMS: fusion, ionization, bandgap
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/vQdaMAamG6KAFDNbnyQ885j5bLg</id>
+  <title>arXiv Query: search_query=all:fusion AND all:ionization AND all:bandgap&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:20:43Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:fusion+AND+(all:ionization+AND+all:bandgap)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2411.08414v1</id>
+    <title>Material Property Prediction with Element Attribute Knowledge Graphs and Multimodal Representation Learning</title>
+    <updated>2024-11-13T08:07:21Z</updated>
+    <link href="https://arxiv.org/abs/2411.08414v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.08414v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Machine learning has become a crucial tool for predicting the properties of crystalline materials. However, existing methods primarily represent material information by constructing multi-edge graphs of crystal structures, often overlooking the chemical and physical properties of elements (such as atomic radius, electronegativity, melting point, and ionization energy), which have a significant impact on material performance. To address this limitation, we first constructed an element property knowledge graph and utilized an embedding model to encode the element attributes within the knowledge graph. Furthermore, we propose a multimodal fusion framework, ESNet, which integrates element property features with crystal structure features to generate joint multimodal representations. This provides a more comprehensive perspective for predicting the performance of crystalline materials, enabling the model to consider both microstructural composition and chemical characteristics of the materials. We conducted experiments on the Materials Project benchmark dataset, which showed leading performance in the bandgap prediction task and achieved results on a par with existing benchmarks in the formation energy prediction task.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-13T08:07:21Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Chao Huang</name>
+    </author>
+    <author>
+      <name>Chunyan Chen</name>
+    </author>
+    <author>
+      <name>Ling Shi</name>
+    </author>
+    <author>
+      <name>Chen Chen</name>
+    </author>
+  </entry>
+</feed>

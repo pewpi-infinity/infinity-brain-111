@@ -1,0 +1,64 @@
+TERMS: lattice, boson, vacuum
+COLORS: orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/cQaNEQlbwrVRGPv3Kv2e0E5cccU</id>
+  <title>arXiv Query: search_query=all:lattice AND all:boson AND all:vacuum&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:16:19Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:boson+AND+all:vacuum)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>177</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1311.1970v1</id>
+    <title>Vacuum Stability and the Higgs Boson</title>
+    <updated>2013-11-08T14:01:41Z</updated>
+    <link href="https://arxiv.org/abs/1311.1970v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1311.1970v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The discovery of the Higgs boson at the LHC, and especially the determination of its mass around 125 GeV, together with the absence of any trace of new physics make it conceivable that we live in a metastable (but long-lived) electroweak vacuum. I will describe the state-of-the-art calculation that leads to this conclusion, elaborate on possible implications as well as cures of this instability of the Higgs potential and discuss some possible lines of attack for lattice studies of such metastability.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-11-08T14:01:41Z</published>
+    <arxiv:comment>15 pages. Proceedings of the 31st International Symposium on Lattice Field Theory - LATTICE 2013</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Jose R. Espinosa</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-lat/0510037v1</id>
+    <title>Perturbative Study of the Supersymmetric Lattice Model from Matrix Model</title>
+    <updated>2005-10-06T08:05:56Z</updated>
+    <link href="https://arxiv.org/abs/hep-lat/0510037v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-lat/0510037v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We study the lattice model for the supersymmetric Yang-Mills theory in two dimensions proposed by Cohen, Kaplan, Katz, and Unsal. We re-examine the formal proof for the absence of susy breaking counter terms as well as the stability of the vacuum by an explicit perturbative calculation for the case of U(2) gauge group. Introducing fermion masses and treating the bosonic zero momentum mode nonperturbatively, we avoid the infra-red divergences in the perturbative calculation. As a result, we find that there appear mass counter terms for finite volume which vanish in the infinite volume limit so that the theory needs no fine-tuning.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-10-06T08:05:56Z</published>
+    <arxiv:comment>6 pages, 3 figures, talk presented at Lattice 2005 (Theoretical developments)</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>PoS LAT2005 (2005) 271</arxiv:journal_ref>
+    <author>
+      <name>Tetsuya Onogi</name>
+    </author>
+    <author>
+      <name>Tomohisa Takimi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2401.04049v1</id>
+    <title>Hadronic contribution to the running of the electromagnetic coupling constant from lattice QCD: challenges at short distances</title>
+    <updated>2024-01-08T17:40:13Z</updated>
+    <link href="https://arxiv.org/abs/2401.04049v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.04049v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The electromagnetic coupling constant, $α$, is one of the fundamental parameters of the Standard Model (SM). Its value at the Z boson mass, $α(M_Z)$, is of particular interest as it enters electroweak precision tests. When running $α$ from low energies up to the Z mass, five orders of magnitude in precision are lost. This makes it one of the least well determined parameters of the SM at that scale. The largest source of error comes from non-perturbative hadronic effects in the low energy region. These non-perturbative effects can be determined from ab-initio calculations in lattice QCD. At higher energies, needed to match onto QCD perturbation theory, discretization errors become large. In addition, the hadronic vacuum polarization receives logarithmically-enhanced cutoff effects which render the continuum extrapolation more difficult. To better control this extrapolation at higher energies, we test a number of improvement procedures based on lattice perturbation theory. To illustrate their effect, we present a preliminary analysis of the light quark, connected contribution to the Adler function at Euclidean $Q^2=5$ GeV$^2$. The lattice results are obtained using simulations with $2+1+1$ flavors of staggered fermions at physical values of the quark masses.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-08T17:40:13Z</published>
+    <arxiv:comment>11 pages, 5 figures, contribution to the 39th International Symposium on Lattice Field Theory</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Sophie Mutzel</name>
+    </author>
+  </entry>
+</feed>

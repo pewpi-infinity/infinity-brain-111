@@ -1,0 +1,85 @@
+TERMS: lattice, ionization, wavefunction
+COLORS: orange, green, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/aVMEv+dRQOB3IpMGXziw1n9gdCE</id>
+  <title>arXiv Query: search_query=all:lattice AND all:ionization AND all:wavefunction&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:14:41Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:ionization+AND+all:wavefunction)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>3</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1312.1738v1</id>
+    <title>Divalent Rydberg atoms in optical lattices: intensity landscape and magic trapping</title>
+    <updated>2013-12-06T00:07:15Z</updated>
+    <link href="https://arxiv.org/abs/1312.1738v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1312.1738v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We develop a theoretical understanding of trapping divalent Rydberg atoms in optical lattices. Because the size of the Rydberg electron cloud can be comparable to the scale of spatial variations of laser intensity, we pay special attention to averaging optical fields over the atomic wavefunctions. Optical potential is proportional to the ac Stark polarizability. We find that in the independent particle approximation for the valence electrons, this polarizability breaks into two contributions: the singly ionized core polarizability and the contribution from the Rydberg electron. Unlike the usually employed free electron polarizability, the Rydberg contribution depends both on laser intensity profile and the rotational symmetry of the total electronic wavefunction. We focus on the $J=0$ Rydberg states of Sr and evaluate the dynamic polarizabilities of the 5s$n$s($^1S_0$) and 5s$n$p($^3P_0$) Rydberg states. We specifically choose Sr atom for its optical lattice clock applications. We find that there are several magic wavelengths in the infrared region of the spectrum at which the differential Stark shift between the clock states (5s$^2$($^1S_0$) and 5s5p($^3P_0$)) and the $J=0$ Rydberg states, 5s$n$s($^1S_0$) and 5s$n$p($^3P_0$), vanishes. We tabulate these wavelengths as a function of the principal quantum number $n$ of the Rydberg electron. We find that because the contribution to the total polarizability from the Rydberg electron vanishes at short wavelengths, magic wavelengths below $\sim$1000 nm are ``universal" as they do not depend on the principal quantum number $n$.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-12-06T00:07:15Z</published>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>Turker Topcu</name>
+    </author>
+    <author>
+      <name>Andrei Derevianko</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.89.023411</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.89.023411" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0409420v1</id>
+    <title>Ab-Initio Calculation of the Metal-Insulator Transition in Lithium rings</title>
+    <updated>2004-09-16T11:48:14Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0409420v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0409420v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We study how the Mott metal-insulator transition (MIT) is affected when we have to deal with electrons with different angular momentum quantum numbers. For that purpose we apply ab-initio quantum-chemical methods to lithium rings in order to investigate the analogue of a MIT. By changing the interatomic distance we analyse the character of the many-body wavefunction and discuss the importance of the $s-p$ orbital quasi-degeneracy within the metallic regime. The charge gap (ionization potential minus electron affinity) shows a minimum and the static electric dipole polarizability has a pronounced maximum at a lattice constant where the character of the wavefunction changes from significant $p$ to essentially $s$-type. In addition, we examine rings with bond alternation in order to answer the question under which conditions a Peierls distortion occurs.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-09-16T11:48:14Z</published>
+    <arxiv:comment>9 pages, 11 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Phys. Rev. B 68, 235115 (2003)</arxiv:journal_ref>
+    <author>
+      <name>Beate Paulus</name>
+    </author>
+    <author>
+      <name>Krzysztof Rosciszewski</name>
+    </author>
+    <author>
+      <name>Peter Fulde</name>
+    </author>
+    <author>
+      <name>Hermann Stoll</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.68.235115</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.68.235115" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1010.6168v2</id>
+    <title>Crystal structure and electronic states of tripotassium picene</title>
+    <updated>2011-10-07T08:53:14Z</updated>
+    <link href="https://arxiv.org/abs/1010.6168v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1010.6168v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The crystal structure of potassium doped picene with an exact stoichiometry (K3C22H14, K3picene from here onwards) has been theoretically determined within Density Functional Theory allowing complete variational freedom of the crystal structure parameters and the molecular atomic positions. A modified herringbone lattice is obtained in which potassium atoms are intercalated between two paired picene molecules displaying the two possible orientations in the crystal.Along the c-axis, organic molecules alternate with chains formed by three potassium atoms. The electronic structureof the doped material resembles pristine picene, except that now the bottom of the conduction band is occupied by six electrons coming from the ionized K atoms (six per unit cell). Wavefunctions remain based mainly on picene molecular orbitals getting their dispersion from intralayer edge to face CH/pi bonding, while eigenenergies have been modified by the change in the electrostatic potential. The small dispersion along the c-axis is assigned to small H-H overlap. From the calculated electronic density of states we expect metallic behavior for potassium doped picene.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-10-29T09:47:21Z</published>
+    <arxiv:comment>Published version: 8 twocolumn pages, 7 color figures, 2 structural .cif files included</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>Phys. Rev. B 83, 245113 (2011)</arxiv:journal_ref>
+    <author>
+      <name>P. L. de Andres</name>
+    </author>
+    <author>
+      <name>A. Guijarro</name>
+    </author>
+    <author>
+      <name>J. A. Verges</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.83.245113</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.83.245113" title="doi"/>
+  </entry>
+</feed>

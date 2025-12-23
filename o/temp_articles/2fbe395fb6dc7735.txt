@@ -1,0 +1,93 @@
+TERMS: hydrogen, fusion, electron, ionization
+COLORS: purple, green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/2If/qS1ORX/HfbImL61ZmiJJD90</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:fusion AND all:electron AND all:ionization&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:52:18Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:fusion+AND+(all:electron+AND+all:ionization))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>13</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2406.08849v3</id>
+    <title>Electronic processes in collisions between nitrogen ions and hydrogen atoms</title>
+    <updated>2024-09-06T07:36:02Z</updated>
+    <link href="https://arxiv.org/abs/2406.08849v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.08849v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In order to interpret and predict the behavior and properties of fusion plasma, accurate cross sections for electronic processes in collisions between plasma impurities and atomic hydrogen are required. In this work, we investigate the electron capture (or charge exchange), target excitation, and ionization processes occurring in collision of ${\rm N}^{4+}$ with atomic hydrogen in a broad energy domain ranging from 0.06 to 225 keV/u. We consider ${\rm N}^{4+}$ ground state ${\rm N}^{4+} (2s)$ and also ${\rm N}^{4+} (2p)$ since the impurities in the edge plasma environment may be excited due to collisions with electrons and ions/atoms. Total and partial cross sections in both spin-averaged and spin-resolved cases are calculated using a two-active-electron semiclassical asymptotic-state close-coupling approach. For electron capture cross sections the present results show the best overall agreement with available experimental data for both total and partial cross sections, and the origins of observed discrepancies are discussed. Furthermore, we provide new data for target excitation and ionization processes, which are essential to improve our understanding of this relevant collision system.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-13T06:24:54Z</published>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <arxiv:journal_ref>Physical Review A 110, 062820 (2024)</arxiv:journal_ref>
+    <author>
+      <name>C. C. Jia</name>
+    </author>
+    <author>
+      <name>Y. Y. Qi</name>
+    </author>
+    <author>
+      <name>J. J. Niu</name>
+    </author>
+    <author>
+      <name>Y. Wu J. G. Wang</name>
+    </author>
+    <author>
+      <name>A. Dubois</name>
+    </author>
+    <author>
+      <name>N. Sisourat</name>
+    </author>
+    <author>
+      <name>J. W. Gao</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.110.062820</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.110.062820" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2401.16082v1</id>
+    <title>Parametric analysis of electron beam quality in laser wakefield acceleration based on the truncated ionization injection mechanism</title>
+    <updated>2024-01-29T11:47:25Z</updated>
+    <link href="https://arxiv.org/abs/2401.16082v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.16082v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Laser wakefield acceleration (LWFA) in a gas cell target separating injection and acceleration section has been investigated to produce high-quality electron beams. A detailed study has been performed on controlling the quality of accelerated electron beams using a combination of truncated ionization and density downramp injection mechanisms. For this purpose, extensive two-dimensional Particle-In-Cell (PIC) simulations have been carried out considering a gas cell target consisting of a hydrogen and nitrogen mixture in the first part and pure hydrogen in the second part. Such a configuration can be realized experimentally using a specially designed capillary setup. Using the parameters already available in the existing experimental setups, we show the generation of an electron beam with a peak energy of 500-600 MeV, relative energy spread less than 5%, normalized beam emittance around 1.5 mm-mrad, and beam charge of 2-5 pC/micrometer. Our study reveals that the quality of the accelerated electron beam can be independently controlled and manipulated through the beam loading effect by tuning the parameters, e.g., laser focusing position, nitrogen concentration, and gas target profile. These simulation results will be useful for future experimental campaigns on LWFA, particularly at ELI Beamlines.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-29T11:47:25Z</published>
+    <arxiv:comment>24 pages, 11 figures (accepted in Plasma Physics and Controlled Fusion, IOP Publishing)</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>Srimanta Maity</name>
+    </author>
+    <author>
+      <name>Alamgir Mondal</name>
+    </author>
+    <author>
+      <name>Eugene Vishnyakov</name>
+    </author>
+    <author>
+      <name>Alexander Molodozhentsev</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1108.4826v1</id>
+    <title>The hydrogen equation of state at high densities</title>
+    <updated>2011-08-24T12:45:36Z</updated>
+    <link href="https://arxiv.org/abs/1108.4826v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1108.4826v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We use a two-fluid model combining the quantum Green's function technique for the electrons and a classical HNC description for the ions to calculate the high-density equation of state of hydrogen. This approach allows us to describe fully ionized plasmas of any electron degeneracy and any ionic coupling strength which are important for the modeling of a variety of astrophysical objects and inertial confinement fusion targets. We have also performed density functional molecular dynamics simulations (DFT-MD) and show that the data obtained agree with our approach in the high density limit. Good agreement is also found between DFT-MD and quantum Monte Carlo simulations. The thermodynamic properties of dense hydrogen can thus be obtained for the entire density range using only calculations in the physical picture.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-08-24T12:45:36Z</published>
+    <arxiv:comment>10 pages, 6 figures, 1 table</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>J. Vorberger</name>
+    </author>
+    <author>
+      <name>D. O. Gericke</name>
+    </author>
+    <author>
+      <name>W. -D. Kraeft</name>
+    </author>
+  </entry>
+</feed>

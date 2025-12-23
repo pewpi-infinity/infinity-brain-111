@@ -1,0 +1,115 @@
+TERMS: quantum, entropy, superconductivity
+COLORS: blue, red, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/vjpZ1ySzGsGldrS0eZT0sPTRIcI</id>
+  <title>arXiv Query: search_query=all:quantum AND all:entropy AND all:superconductivity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:06:16Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:entropy+AND+all:superconductivity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>316</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2103.14041v2</id>
+    <title>How to build Hamiltonians that transport noncommuting charges in quantum thermodynamics</title>
+    <updated>2022-01-19T19:01:08Z</updated>
+    <link href="https://arxiv.org/abs/2103.14041v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.14041v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Noncommuting conserved quantities have recently launched a subfield of quantum thermodynamics. In conventional thermodynamics, a system of interest and an environment exchange quantities -- energy, particles, electric charge, etc. -- that are globally conserved and are represented by Hermitian operators. These operators were implicitly assumed to commute with each other, until a few years ago. Freeing the operators to fail to commute has enabled many theoretical discoveries -- about reference frames, entropy production, resource-theory models, etc. Little work has bridged these results from abstract theory to experimental reality. This paper provides a methodology for building this bridge systematically: We present a prescription for constructing Hamiltonians that conserve noncommuting quantities globally while transporting the quantities locally. The Hamiltonians can couple arbitrarily many subsystems together and can be integrable or nonintegrable. Our Hamiltonians may be realized physically with superconducting qudits, with ultracold atoms, and with trapped ions.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-25T18:00:01Z</published>
+    <arxiv:comment>6.5 pages + appendices. Version accepted by npj Quantum Information</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>npj Quantum Information 8, 10 (2022)</arxiv:journal_ref>
+    <author>
+      <name>Nicole Yunger Halpern</name>
+    </author>
+    <author>
+      <name>Shayan Majidy</name>
+    </author>
+    <arxiv:doi>10.1038/s41534-022-00516-4</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41534-022-00516-4" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2307.16438v1</id>
+    <title>Coexistence of Superconductivity and ferromagnetism in high entropy carbide ceramics</title>
+    <updated>2023-07-31T06:47:12Z</updated>
+    <link href="https://arxiv.org/abs/2307.16438v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2307.16438v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Generally, the superconductivity was expected to be absent in magnetic systems, but this reception was disturbed by unconventional superconductors, such as cuprates, iron-based superconductors and recently discovered nickelate, since their superconductivity is proposed to be related to the electron-electron interaction mediated by the spin fluctuation. However, the coexistence of superconductivity and magnetism is still rare in conventional superconductors. In this work, we reported the coexistence of these two quantum orderings in high entropy carbide ceramics (Mo0.2Nb0.2Ta0.2V0.2W0.2)C0.9, (Ta0.25Ti0.25Nb0.25Zr0.25)C, and they are expected to be conventional superconductors. Clear magnetic hysteresis loop was observed in these high entropy carbides, indicating a ferromagnetic ground state. A sharp superconducting transition is observed in (Mo0.2Nb0.2Ta0.2V0.2W0.2)C0.9 with a Tc of 3.4 K and upper critical field of ~3.35 T. Meanwhile, superconductivity is suppressed to some extent and zero-resistance state disappears in (Ta0.25Ti0.25Nb0.25Zr0.25)C, in which stronger magnetism is presented. The upper critical field of (Ta0.25Ti0.25Nb0.25Zr0.25)C is only ~1.5 T, though they show higher transition temperature near 5.7 K. The ferromagnetism stems from the carbon vacancies which occurs often during the high temperature synthesis process. This work not just demonstrate the observation of superconductivity in high entropy carbide ceramics, but also provide alternative exotic platform to study the correlation between superconductivity and magnetism, and is of great benefit for the design of multifunctional electronic devices.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-07-31T06:47:12Z</published>
+    <arxiv:comment>16 pages, 5 figures, 1 table. Suggestion and comments are welcome</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>Huchen Shu</name>
+    </author>
+    <author>
+      <name>Wei Zhong</name>
+    </author>
+    <author>
+      <name>Jiajia Feng</name>
+    </author>
+    <author>
+      <name>Hongyang Zhao</name>
+    </author>
+    <author>
+      <name>Fang Hong</name>
+    </author>
+    <author>
+      <name>Binbin Yue</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2309.09494v1</id>
+    <title>Superconductivity in the bcc-type High-entropy Alloy TiHfNbTaMo</title>
+    <updated>2023-09-18T05:32:40Z</updated>
+    <link href="https://arxiv.org/abs/2309.09494v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2309.09494v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>X-ray powder diffraction, electrical resistivity, magnetization, and thermodynamic measurements were conducted to investigate the structure and superconducting properties of TiHfNbTaMo, a novel high-entropy alloy possessing a valence electron count (VEC) of 4.8. The TiHfNbTaMo HEA was discovered to have a body-centered cubic structure and a microscopically homogeneous distribution of the constituent elements. This material shows type-II superconductivity with Tc = 3.42 K, lower critical field with 22.8 mT, and upper critical field with 3.95 T. Low-temperature specific heat measurements show that the alloy is a conventional s-wave type with a moderately coupled superconductor. First-principles calculations show that the density of states (DOS) of the TiHfNbTaMo alloy is dominated by hybrid d orbitals of these five metal elements. Additionally, the TiHfNbTaMo HEA exhibits three van Hove singularities. Furthermore, the VEC and the composition of the elements (especially the Nb elemental content) affect the Tc of the bcc-type HEA.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-09-18T05:32:40Z</published>
+    <arxiv:comment>19 pages, 6 figures,The manuscript with the same title will be published by Advanced Quantum Technologies</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <arxiv:journal_ref>Advanced Quantum Technologies,2023</arxiv:journal_ref>
+    <author>
+      <name>Lingyong Zeng</name>
+    </author>
+    <author>
+      <name>Jie Zhan</name>
+    </author>
+    <author>
+      <name>Mebrouka Boubeche</name>
+    </author>
+    <author>
+      <name>Kuan Li</name>
+    </author>
+    <author>
+      <name>Longfu Li</name>
+    </author>
+    <author>
+      <name>Peifeng Yu</name>
+    </author>
+    <author>
+      <name>Kangwang Wang</name>
+    </author>
+    <author>
+      <name>Chao Zhang</name>
+    </author>
+    <author>
+      <name>Kui Jin</name>
+    </author>
+    <author>
+      <name>Yan Sun</name>
+    </author>
+    <author>
+      <name>Huixia Luo</name>
+    </author>
+  </entry>
+</feed>

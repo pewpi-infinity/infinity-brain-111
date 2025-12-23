@@ -1,0 +1,98 @@
+TERMS: frequency, lattice, plasma
+COLORS: green, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/PirfoT3coAWOrRGz3P5m28lZ3k0</id>
+  <title>arXiv Query: search_query=all:frequency AND all:lattice AND all:plasma&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:09:46Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:lattice+AND+all:plasma)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>142</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2303.12184v1</id>
+    <title>Valley-dependent topological edge states in plasma photonic crystals</title>
+    <updated>2023-03-20T07:38:33Z</updated>
+    <link href="https://arxiv.org/abs/2303.12184v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2303.12184v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Plasma photonic crystals designed in this paper are composed of gas discharge tubes to control the flow of electromagnetic waves. The band structures calculated by the finite element method are consistent with the experimental results in that two distinct attenuation peaks appear in the ranges of 1 GHz to 2.5 GHz and 5 GHz to 6 GHz. Electromagnetic parameters of the plasma are extracted by the Nicolson-Ross-Weir method and effective medium theory. The measured electron density is between 1e11 cm-3 and 1e12 cm-3, which verifies the correctness of the parameter used in the simulation, and the collision frequency is near 1.5e10 Hz. As the band structures are corroborated by the measured scattering parameters, we introduce the concept of photonic topological insulator based on the quantum Valley Hall effect into the plasma photonic crystal. A valley-dependent plasma photonic crystal with hexagonal lattice is constructed, and the phase transition of the valley K(K') occurs by breaking the spatial inversion symmetry. Valley-spin locked topological edge states are generated and excited by chiral sources. The frequency of the non-bulk state can be dynamically regulated by the electron density. This concept paves the way for novel, tunable topological edge states. More interestingly, the Dirac cone is broken when the electron density increases to 3.1e12 cm-3, which distinguishes from the methods of applying a magnetic field and changing the symmetry of the point group.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-03-20T07:38:33Z</published>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <arxiv:journal_ref>Plasma Science and Technology, vol. 25, no. 3, pp. 035001, January 2023</arxiv:journal_ref>
+    <author>
+      <name>Jianfei Li</name>
+    </author>
+    <author>
+      <name>Chen Zhou</name>
+    </author>
+    <author>
+      <name>Jingfeng Yyao</name>
+    </author>
+    <author>
+      <name>Chengxun Yuan</name>
+    </author>
+    <author>
+      <name>Ying Wang</name>
+    </author>
+    <author>
+      <name>Zhongxiang Zhou</name>
+    </author>
+    <author>
+      <name>Jingwen Zhang</name>
+    </author>
+    <author>
+      <name>Anatoly A. Kudryavtsev</name>
+    </author>
+    <arxiv:doi>10.1088/2058-6272/ac9347</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/2058-6272/ac9347" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-lat/0510100v2</id>
+    <title>Transport Coefficient of Gluon Plasma from Lattice QCD</title>
+    <updated>2005-10-26T08:55:48Z</updated>
+    <link href="https://arxiv.org/abs/hep-lat/0510100v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-lat/0510100v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this report we present our calculation of the transport coefficient of gluon system on $24^3\times 8$ lattice in the quench approximation. Simulations are carried out in the range, $1.4 \le T/T_c \le 24$. In the temperature region slightly above the transition, where the perturbative calculation is not applicable, the shear viscosity($η$) is smaller than typical hadron masses. The bulk viscosity is consistent with zero within the range of error bars in $1.4 \le T/T_c \le 24$. We compare our results with the perturbative calculations in large $T/T_c$ region. It is found that the lattice and perturbative results are consistent with each other there. The ratio $η/s$ is around $0.1-0.4$ in $T/T_c &lt; 3$ region and satisfies the KSS bound\cite{KSS}. In order to estimate the contribution from high frequency part of the spectral function, we study the effects of a term $ρ^{high}$ proposed by Aarts and Resco\cite{Aarts}. It is found that until the threshold mass becomes small, its effect is quite small, and that viscosity decreases as the threshold decreases. From these studies we think that although our result is obtained under an assumptions for the spectral function, it gives a reasonable estimation for $η$($=πdρ/dω$ at $ω=0$), and qualitative results will not be changed when the accurate spectral function is obtained.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-10-24T10:41:55Z</published>
+    <arxiv:comment>8 pages, 3 figures, Revised Version of Proceedings of Lattice 2005 at Dublin</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>PoS LAT2005 (2005) 186</arxiv:journal_ref>
+    <author>
+      <name>Sunao Sakai</name>
+    </author>
+    <author>
+      <name>Atsushi Nakamura</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2411.17460v1</id>
+    <title>High-precision Quantum Monte-Carlo study of charge transport in a lattice model of molecular organic semiconductors</title>
+    <updated>2024-11-26T14:25:44Z</updated>
+    <link href="https://arxiv.org/abs/2411.17460v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.17460v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We use first-principle Quantum Monte-Carlo (QMC) simulations and numerical exact diagonalization to analyze the low-frequency charge carrier mobility within a simple tight-binding model of molecular organic semiconductors on a two-dimensional triangular lattice. These compounds feature transient localization, an unusual charge transport mechanism driven by dynamical disorder. The challenges of studying the transient localization of charge carriers in the low-frequency/long-time limit from first principles are discussed. We demonstrate that a combination of high-precision QMC data with prior estimates of frequency-dependent charge carrier mobility based on the static disorder approximation for phonon fields allows for improved estimates of mobility in the low-frequency limit. We also point out that a simple relaxation time approximation for charge mobility in organic semiconductors is not consistent with the QMC data. Physical similarities with charge transport in quark-gluon plasma are highlighted.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-26T14:25:44Z</published>
+    <arxiv:comment>Proceedings of the 41st International Symposium on Lattice Field Theory (Lattice 2024, Liverpool, UK). 10 pages, 4 figures, PoS style</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>PoS(LATTICE2024)067</arxiv:journal_ref>
+    <author>
+      <name>Pavel Buividovich</name>
+    </author>
+    <author>
+      <name>Johann Ostmeyer</name>
+    </author>
+    <author>
+      <name>Alessandro Troisi</name>
+    </author>
+    <arxiv:doi>10.22323/1.466.0067</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.22323/1.466.0067" title="doi"/>
+  </entry>
+</feed>

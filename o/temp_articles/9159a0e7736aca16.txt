@@ -1,0 +1,72 @@
+TERMS: lattice, entropy, crystal
+COLORS: orange, red, orange
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/2FLTl5QrG4NSr0ACj5bFeas19XE</id>
+  <title>arXiv Query: search_query=all:lattice AND all:entropy AND all:crystal&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:13:16Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:entropy+AND+all:crystal)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>232</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2004.09158v1</id>
+    <title>Hydrodynamic limits of interacting particle systems on crystal lattices in periodic realizations</title>
+    <updated>2020-04-20T09:36:26Z</updated>
+    <link href="https://arxiv.org/abs/2004.09158v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2004.09158v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the hydrodynamic limits of the simple exclusion processes and the zero range processes on crystal lattices. For a periodic realization of crystal lattice, we derive the hydrodynamic limit for the exclusion processes and the zero range processes, which depends on both the structure of crystal lattice and the periodic realization. Even through the crystal lattices have inhomogeneous local structure, for all periodic realizations, we apply the entropy method to derive the hydrodynamic limits. Also, we discuss how the limit equation depends on the choices of the realizations.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-04-20T09:36:26Z</published>
+    <arxiv:comment>29 pages, 6 figures. arXiv admin note: text overlap with arXiv:1105.6220 by other authors</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Zehao Guan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0911.0649v1</id>
+    <title>Energy Gap and the Ideal Glass as a Defective Crystal: A Lattice Model of Monatomic Systems</title>
+    <updated>2009-11-03T19:04:35Z</updated>
+    <link href="https://arxiv.org/abs/0911.0649v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0911.0649v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We use the cell model to justify the use of a lattice model to study the ideal glass transition. Based on empirical evidence and several previous exact calculations, we hypothesize that there exists an energy gap between the lowest possible energy of a glass (the ideal glass IG) and the crystal (CR). The gap is due to the presence of strongly correlated excitations with respect to the ideal CR; thus, one can treat IG as a highly defective crystal. We argue that an excitation in IG requires energy that increases logarithmically with the size of the system; as a consequence, we prove that IG must emerge at a positive temperature T_{K}. We propose an antiferromagnetic Ising model on a lattice to model liquid-crystal transition in a simple fluid or a binary mixture, which is then solved exactly on a recursive (Husimi) lattice to investigate the ideal glass transition, the nature of defects in the supercooled liquid and CR analytically, and the effects of competing interactions on the glass transition. The calculation establishes the gap. The lattice entropy of the supercooled liquid vanishes at a positive temperature T_{K}&gt;0, where IG emerges but where CR has a positive entropy. The macrostate IG is in a particular and unique disordered microstate at T_{K}, just as the ideal CR is in a perfectly ordered microstate at absolute zero. This explains why it is possible for CR to have a higher entropy at T_{K} than IG. The demonstration here of an entropy crisis in monatomic systems along with previously known results strongly suggests that the entropy crisis first noted by Kauzmann and demonstrated by Gibbs and DiMarzio in long polymers appears to be ubiquitous in all supercooled liquids.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-11-03T19:04:35Z</published>
+    <arxiv:comment>38 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>P. D. Gujrati</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1903.04082v1</id>
+    <title>The Paracrystalline Nature of Lattice Distortion in a High Entropy Alloy</title>
+    <updated>2019-03-11T00:20:51Z</updated>
+    <link href="https://arxiv.org/abs/1903.04082v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1903.04082v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Severe lattice distortion is suggested for high entropy alloys (HEAs), however, evidence for such effect so far is lacking, and the nature of distortion is yet to be understood. Here, we reveal the distortion in an fcc HEA, Al0.1CrFeCoNi, by direct imaging using electron nanodiffraction. Information about crystal symmetry, lattice strain and atomic distortion are data-mined and mapped from many (~10^4) diffraction patterns. Application to the HEA reveals two embodiments of distortion, nm-sized mosaic blocks of paracrystals and strained nano-clusters. Their interaction gives rise to fractal strain field across nanoscopic to mesoscopic scales. As lattice distortion impedes dislocation motion and contributes to strengthening, results here thus provide critical insights about the complex nature of distortion in a HEA.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-03-11T00:20:51Z</published>
+    <arxiv:comment>22 pages, 4 figures, 6 supplementary figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Yu-Tsun Shao</name>
+    </author>
+    <author>
+      <name>Renliang Yuan</name>
+    </author>
+    <author>
+      <name>Yang Hu</name>
+    </author>
+    <author>
+      <name>Qun Yang</name>
+    </author>
+    <author>
+      <name>Jian-Min Zuo</name>
+    </author>
+  </entry>
+</feed>

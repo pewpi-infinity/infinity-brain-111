@@ -1,0 +1,80 @@
+TERMS: hydrogen, frequency, fusion, plasma
+COLORS: purple, green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/brbz9wwSapQyiBYWXqiyXzXcw7M</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:frequency AND all:fusion AND all:plasma&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:42:38Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:frequency+AND+(all:fusion+AND+all:plasma))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>7</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/physics/0410112v2</id>
+    <title>Plasma heating due to X-B mode conversion in a cylindrical ECR plasma system</title>
+    <updated>2004-11-06T09:26:56Z</updated>
+    <link href="https://arxiv.org/abs/physics/0410112v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/physics/0410112v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Extra Ordinary (X) mode conversion to Bernstein wave near Upper Hybrid Resonance (UHR) layer plays an important role in plasma heating through cyclotron resonance. Wave generation at UHR and parametric decay at high power has been observed during Electron Cyclotron Resonance (ECR) heating experiments in toroidal magnetic fusion devices. A small linear system with ECR and UHR layer within the system has been used to conduct experiments on X-B conversion and parametric decay process as a function of system parameters. Direct probing {\em in situ} is conducted and plasma heating is evidenced by soft x-ray emission measurement. Experiments are performed with hydrogen plasma produced with 160-800 W microwave power at 2.45 GHz of operating frequency at $10^{-3}$ mbar pressure. The axial magnetic field required for ECR is such that the resonant surface (B = 875 G) is situated at the geometrical axis of the plasma system. Experimental results will be presented in the paper.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-10-16T12:52:24Z</published>
+    <arxiv:comment>12th International Congress on Plasma Physics, 25-29 October 2004, Nice (France)</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>Vipin K. Yadav</name>
+    </author>
+    <author>
+      <name>D. Bora</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/physics/0201030v1</id>
+    <title>"Wild Cables" in Fusion Plasmas and their Diagnostics with Spectral Line Stark Broadening</title>
+    <updated>2002-01-14T18:07:02Z</updated>
+    <link href="https://arxiv.org/abs/physics/0201030v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/physics/0201030v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We discuss the opportunities of diagnosing the parameters of hypothetical "wild cables" in fusion plasmas via analyzing the Stark broadening of hydrogen spectral lines. The "wild cables" concept have suggested the observed long-lived skeletal structures in tokamaks and Z-pinches to be caused by a microdust-assembled skeleton. We present the results of calculating the widths of vacuum channels produced by the pressure of on-skeleton high-frequency (HF) electromagnetic waves of the TEM type, which thus might protect the skeletons from ambient high-temperature plasma. The values of amplitude of such wave appear to be compatible with the measurements of those in-plasma HF electric fields in tokamak T-10 and a gaseous Z-pinch which give observable Stark broadening of hydrogen spectral lines.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-01-14T18:07:02Z</published>
+    <arxiv:comment>13 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>A. V. Demura</name>
+      <arxiv:affiliation>INF RRC "Kurchatov Institute", Moscow, Russia</arxiv:affiliation>
+    </author>
+    <author>
+      <name>V. I. Kogan</name>
+      <arxiv:affiliation>INF RRC "Kurchatov Institute", Moscow, Russia</arxiv:affiliation>
+    </author>
+    <author>
+      <name>A. B. Kukushkin</name>
+      <arxiv:affiliation>INF RRC "Kurchatov Institute", Moscow, Russia</arxiv:affiliation>
+    </author>
+    <author>
+      <name>V. A. Rantsev-Kartinov</name>
+      <arxiv:affiliation>INF RRC "Kurchatov Institute", Moscow, Russia</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2304.05006v1</id>
+    <title>Modeling inductive radio frequency coupling in powerful negative hydrogen ion sources: optimizing the RF coupling</title>
+    <updated>2023-04-11T06:24:49Z</updated>
+    <link href="https://arxiv.org/abs/2304.05006v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2304.05006v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the fusion experiment ITER powerful neutral beam injection (NBI) systems will be used. The NBI's core component is a negative hydrogen ion source, which is based on a modular concept. Eight cylindrical drivers, each having a volume of several liters, are attached to one common expansion and extraction region. Within the drivers an inductively coupled plasma is sustained by an external cylindrical coil at filling pressures not larger than 0.3 Pa. Radio frequency (RF) generators operating at a driving frequency of 1 MHz feed the coils via a matching network with powers of up to 100 kW per driver. These high powers entail high voltages, which make the ion source prone to electrical breakdowns and arcing, wherefore its reliability is reduced. Moreover, at the ITER prototype RF ion source not more than 60% of the power is absorbed by the plasma, whereas the rest is lost for heating the RF coil and conducting structures of the driver. To optimize the power coupling in the prototype source, a previously validated self-consistent fluid-electromagnetic model is applied. The optimization studies reveal a complex interplay between network losses (mainly caused by the skin effect and eddy currents), and nonlinear plasma phenomena, such as the RF Lorentz force. The model demonstrates promising optimization concepts for the RF coupling in future NBI ion sources. In particular, by increasing the axial driver length and the driving frequency it is possible to enhance the fraction of absorbed power to values around 90%.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-04-11T06:24:49Z</published>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>Dominikus Zielke</name>
+    </author>
+    <author>
+      <name>Stefan Briefi</name>
+    </author>
+    <author>
+      <name>Ursel Fantz</name>
+    </author>
+  </entry>
+</feed>

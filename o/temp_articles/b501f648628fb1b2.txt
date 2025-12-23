@@ -1,0 +1,43 @@
+TERMS: vapor, ionization, wavefunction
+COLORS: green, green, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/X+ky2Q2tXPakvVPkKgy8De1k0JQ</id>
+  <title>arXiv Query: search_query=all:vapor AND all:ionization AND all:wavefunction&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:25:21Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:vapor+AND+(all:ionization+AND+all:wavefunction)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2106.05178v1</id>
+    <title>The first droplet in a cloud chamber track</title>
+    <updated>2021-03-15T14:19:17Z</updated>
+    <link href="https://arxiv.org/abs/2106.05178v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2106.05178v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In a cloud chamber, the quantum measurement problem amounts to explaining the first droplet in a charged-particle track; subsequent droplets are explained by Mott's 1929 wave-theoretic argument about collision-induced wavefunction collimation. I formulate a mechanism for how the first droplet in a cloud chamber track arises, making no reference to quantum measurement axioms. I look specifically at tracks of charged particles emitted in the simplest slow decays, because I can reason about rather than guess the form that wave packets take. The first visible droplet occurs when a randomly occurring, barely-subcritical vapor droplet is pushed past criticality by ionization triggered by the faint wavefunction of the emitted charged particle. This is possible because potential energy incurred when an ionized vapor molecule polarizes the other molecules in a droplet can balance the excitation energy needed for the emitted charged particle to create the ion in the first place. This degeneracy is a singular condition for Coulombic scattering, leading to infinite or near-infinite ionization cross sections, and from there to an emergent Born rule in position space, but not an operator projection as in the projection postulate. Analogous mechanisms may explain canonical quantum measurement behavior in detectors such as ionization chambers, proportional counters, photomultiplier tubes or bubble chambers. This work is important because attempts to understand canonical quantum measurement behavior and its limitations have become urgent in view of worldwide investment in quantum computing and in searches for super-rare process (e.g., proton decay).</summary>
+    <category term="physics.gen-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-15T14:19:17Z</published>
+    <arxiv:comment>This paper has been accepted by "Foundations of Physics"</arxiv:comment>
+    <arxiv:primary_category term="physics.gen-ph"/>
+    <author>
+      <name>Jonathan F. Schonfeld</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.06870v1</id>
+    <title>Does the Mott problem extend to Geiger counters?</title>
+    <updated>2023-10-07T14:08:31Z</updated>
+    <link href="https://arxiv.org/abs/2310.06870v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.06870v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Mott problem is a simpler version of the quantum measurement problem that asks: Is there a microscopic physical mechanism - based (explicitly or implicitly) only on Schroedinger's equation - that explains why a single alpha particle emitted in a spherically symmetric s-wave nuclear decay produces a manifestly non-spherically-symmetric single track in a cloud chamber? I attempt here to generalize earlier work that formulated such a mechanism. The key ingredient there was identification of sites at which the cross section for ionization by a passing charged particle is near singular at ionization threshold. This near singularity arose from a Penning-like process involving molecular polarization in sub-critical vapor clusters. Here, I argue that the same Mott problem question should be asked about Geiger counters. I then define a simple experiment to determine if ionization physics similar to the cloud chamber case takes place in the mica window of a Geiger counter and explains the collimation of wavefunctions that are spherically symmetric outside the counter into linear tracks inside. The experiment measures the count rate from a radioactive point source as a function of source-window separation. I have performed a proof of concept of this experiment; results are reported here and support the near-singular-ionization picture. These results are significant in their own right, but also because they may shed light on physical mechanisms underlying the full quantum measurement problem. I illustrate this for the Stern-Gerlach experiment and a particular realization of superconducting qubits. I conclude by detailing further work required to flesh out these results more rigorously.</summary>
+    <category term="physics.gen-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-07T14:08:31Z</published>
+    <arxiv:comment>Accepted by Open Physics (De Gruyter)</arxiv:comment>
+    <arxiv:primary_category term="physics.gen-ph"/>
+    <author>
+      <name>Jonathan F. Schonfeld</name>
+    </author>
+  </entry>
+</feed>

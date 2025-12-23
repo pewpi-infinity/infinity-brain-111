@@ -1,0 +1,63 @@
+TERMS: hydrogen, fusion, electron, plasma
+COLORS: purple, green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/IeswN26LHMdu3NROYUhmKfJDrM0</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:fusion AND all:electron AND all:plasma&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:52:28Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:fusion+AND+(all:electron+AND+all:plasma))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>49</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/0710.3976v1</id>
+    <title>An attempt to control a manmade nuclear fusion</title>
+    <updated>2007-10-22T04:29:58Z</updated>
+    <link href="https://arxiv.org/abs/0710.3976v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0710.3976v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  A detailed simple model is applied to study a high temperature hydrogen plasma ball. It is assumed that the ions and delocalized electrons are distributed randomly throughout the charged plasma ball (extra/missing charge is assumed to be found in a thin layer on the surface of a ball). The energy of the microscopic electrostatic field around the ions is taken into account and calculated. It is shown in the framework of the model that charged hydrogen plasma ball can be stable as a metastable state, when subjected to external (atmospheric) pressure. Equilibrium radius of a ball, the barrier and the enthalpy of the equilibrium ball are calculated. It looks like the charged plasma ball in a metastable equilibrium should be used to conduct controllable nuclear fusion. Changes in the electric charge can be used to control the volume of a plasma ball.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-10-22T04:29:58Z</published>
+    <arxiv:comment>Electric charge and external pressure stabilize hydrogen plasma ball</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>Yuri Kornyushin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/physics/0410112v2</id>
+    <title>Plasma heating due to X-B mode conversion in a cylindrical ECR plasma system</title>
+    <updated>2004-11-06T09:26:56Z</updated>
+    <link href="https://arxiv.org/abs/physics/0410112v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/physics/0410112v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Extra Ordinary (X) mode conversion to Bernstein wave near Upper Hybrid Resonance (UHR) layer plays an important role in plasma heating through cyclotron resonance. Wave generation at UHR and parametric decay at high power has been observed during Electron Cyclotron Resonance (ECR) heating experiments in toroidal magnetic fusion devices. A small linear system with ECR and UHR layer within the system has been used to conduct experiments on X-B conversion and parametric decay process as a function of system parameters. Direct probing {\em in situ} is conducted and plasma heating is evidenced by soft x-ray emission measurement. Experiments are performed with hydrogen plasma produced with 160-800 W microwave power at 2.45 GHz of operating frequency at $10^{-3}$ mbar pressure. The axial magnetic field required for ECR is such that the resonant surface (B = 875 G) is situated at the geometrical axis of the plasma system. Experimental results will be presented in the paper.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-10-16T12:52:24Z</published>
+    <arxiv:comment>12th International Congress on Plasma Physics, 25-29 October 2004, Nice (France)</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>Vipin K. Yadav</name>
+    </author>
+    <author>
+      <name>D. Bora</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0804.3886v1</id>
+    <title>Nuclear fusion in muonic molecules and in deuterated metals</title>
+    <updated>2008-04-24T10:31:04Z</updated>
+    <link href="https://arxiv.org/abs/0804.3886v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0804.3886v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Study of the fusion reactions between hydrogen isotopes in muonic molecules is the first example of the accurate accounting of the nucleus charge screening by a muon in the fusion process. At LUNA installation the measurements of astrophysical reaction cross sections were extended down to collision energies of a few keV. The screening by atomic electrons of the target became substantial. The possibility to look over screening from unbound electrons is given by metal-hydrides used as targets in dd reaction measurements. The classical Debye screening in plasma, applied to quasi-free electrons in metal, provides an explanation of unexpectedly large screening potentials found for some metals in the research through the Periodic table of elements.</summary>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-04-24T10:31:04Z</published>
+    <arxiv:comment>9 pages, 7 fugures, talk at the International Conference on Muon Catalyzed Fusion and Related Topics (muCF-07), Dubna, Russia, June 18-21, 2007</arxiv:comment>
+    <arxiv:primary_category term="nucl-th"/>
+    <author>
+      <name>L. N. Bogdanova</name>
+    </author>
+  </entry>
+</feed>

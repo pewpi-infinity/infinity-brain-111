@@ -1,0 +1,96 @@
+TERMS: quantum, frequency, entropy
+COLORS: blue, green, red
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/aJgaC3901rmNYPRWbLfAfqfYAQk</id>
+  <title>arXiv Query: search_query=all:quantum AND all:frequency AND all:entropy&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:05:33Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:frequency+AND+all:entropy)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>510</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1905.04661v1</id>
+    <title>Quantum Probes for Ohmic Environments at Thermal Equilibrium</title>
+    <updated>2019-05-12T07:34:06Z</updated>
+    <link href="https://arxiv.org/abs/1905.04661v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1905.04661v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>It is often the case that the environment of a quantum system may be described as a bath of oscillators with Ohmic density of states. In turn, the precise characterization of these classes of environments is a crucial tool to engineer decoherence or to tailor quantum information protocols. Recently, the use of quantum probes in characterizing Ohmic environments at zero-temperature has been discussed, showing that a single qubit provides precise estimation of the cutoff frequency. On the other hand, thermal noise often spoil quantum probing schemes, and for this reason we here extend the analysis to complex system at thermal equilibrium. In particular, we discuss the interplay between thermal fluctuations and time evolution in determining the precision {attainable by} quantum probes. Our results show that the presence of thermal fluctuations degrades the precision for low values of the cutoff frequency, i.e. values of the order $ω_c \lesssim T$ (in natural units). For larger values of $ω_c$ decoherence is mostly due to the structure of environment, rather than thermal fluctuations, such that quantum probing by a single qubit is still an effective estimation procedure.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-05-12T07:34:06Z</published>
+    <arxiv:comment>Entropy, special issue on Open Quantum Systems (OQS) for quantum technologies (S. Lorenzo and M. G. Palma, Eds)</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Entropy 21, 486 (2019)</arxiv:journal_ref>
+    <author>
+      <name>Fahimeh Salari Sehdaran</name>
+    </author>
+    <author>
+      <name>Matteo Bina</name>
+    </author>
+    <author>
+      <name>Claudia Benedetti</name>
+    </author>
+    <author>
+      <name>Matteo G. A. Paris</name>
+    </author>
+    <arxiv:doi>10.3390/e21050486</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/e21050486" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0505084v2</id>
+    <title>Entropy flow in near-critical quantum circuits</title>
+    <updated>2019-01-30T20:08:27Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0505084v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0505084v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Near-critical quantum circuits are ideal physical systems for asymptotically large-scale quantum computers, because their low energy collective excitations evolve reversibly, effectively isolated from the environment. The design of reversible computers is constrained by the laws governing entropy flow within the computer. In near-critical quantum circuits, entropy flows as a locally conserved quantum current, obeying circuit laws analogous to the electric circuit laws. The quantum entropy current is just the energy current divided by the temperature. A quantum circuit made from a near-critical system (of conventional type) is described by a relativistic 1+1 dimensional relativistic quantum field theory on the circuit. The universal properties of the energy-momentum tensor constrain the entropy flow characteristics of the circuit components: the entropic conductivity of the quantum wires and the entropic admittance of the quantum circuit junctions. For example, near-critical quantum wires are always resistanceless inductors for entropy. A universal formula is derived for the entropic conductivity: σ_S(ω)=iv^{2}S/ωT, where ωis the frequency, T the temperature, S the equilibrium entropy density and v the velocity of `light'. The thermal conductivity is Real(Tσ_S(ω))=πv^{2}Sδ(ω). The thermal Drude weight is, universally, v^{2}S. This gives a way to measure the entropy density directly.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-05-04T01:51:25Z</published>
+    <arxiv:comment>2005 paper published 2017 in Kadanoff memorial issue of J Stat Phys with revisions for clarity following referee's suggestions, arguments and results unchanged, cross-posting now to quant-ph, 27 pages</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <arxiv:journal_ref>J Stat Phys (2017) 167:827-853</arxiv:journal_ref>
+    <author>
+      <name>Daniel Friedan</name>
+    </author>
+    <arxiv:doi>10.1007/s10955-017-1751-9</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s10955-017-1751-9" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2210.06305v1</id>
+    <title>Steering of Quantum Walks through Coherent Control of High-dimensional Bi-photon Quantum Frequency Combs with Tunable State Entropies</title>
+    <updated>2022-10-12T15:14:19Z</updated>
+    <link href="https://arxiv.org/abs/2210.06305v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2210.06305v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Quantum walks are central to a wide range of applications such as quantum search, quantum information processing, and entanglement transport. Gaining control over the duration and the direction of quantum walks (QWs) is crucial to implementing dedicated processing. However, in current systems, it is cumbersome to achieve in a scalable format. High-dimensional quantum states, encoded in the photons' frequency degree of freedom in on-chip devices are great assets for the scalable generation and reliable manipulation of large-scale complex quantum systems. These states, viz. quantum frequency combs (QFCs) accommodating huge information in a single spatial mode, are intrinsically noise tolerant, and suitable for transmission through optical fibers, thereby promising to revolutionize quantum technologies. Existing literature aimed to generate maximally entangled QFCs excited from continuous-wave lasers either from nonlinear microcavities or from waveguides with the help of filter arrays. QWs with flexible depth/duration have been lately demonstrated from such QFCs. Here, instead of maximally-entangled QFCs, we generate high-dimensional quantum photonic states with tunable entropies from periodically poled lithium niobate waveguides by exploiting a novel pulsed excitation and filtering scheme. We confirm the generation of QFCs with normalized entropies from $\sim 0.35$ to $1$ by performing quantum tomography with high fidelities. These states can be an excellent testbed for several quantum computation and communication protocols in nonideal scenarios and enable artificial neural networks to classify unknown quantum states. Further, we experimentally demonstrate the steering and coherent control of the directionality of QWs initiated from such QFCs with tunable entropies. Our findings offer a new control mechanism for QWs as well as novel modification means for joint probability distributions.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-10-12T15:14:19Z</published>
+    <arxiv:comment>The main manuscript contains 8 figures. The uploaded document includes a supplementary materials section</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Raktim Haldar</name>
+    </author>
+    <author>
+      <name>Robert Johanning</name>
+    </author>
+    <author>
+      <name>Philip Rübeling</name>
+    </author>
+    <author>
+      <name>Anahita Khodadad Kashi</name>
+    </author>
+    <author>
+      <name>Thomas Bækkegaard</name>
+    </author>
+    <author>
+      <name>Surajit Bose</name>
+    </author>
+    <author>
+      <name>Nikolaj Thomas Zinner</name>
+    </author>
+    <author>
+      <name>Michael Kues</name>
+    </author>
+  </entry>
+</feed>

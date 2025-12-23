@@ -1,0 +1,87 @@
+TERMS: frequency, bandgap, vacuum
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/+OXgYQmBcLUw1Dry+m8vGiNvcSE</id>
+  <title>arXiv Query: search_query=all:frequency AND all:bandgap AND all:vacuum&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:13:07Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:bandgap+AND+all:vacuum)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>13</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1011.1573v1</id>
+    <title>Ab-initio study of the bandgap engineering of Al(1-x)Ga(x)N for optoelectronic applications</title>
+    <updated>2010-11-06T17:58:02Z</updated>
+    <link href="https://arxiv.org/abs/1011.1573v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1011.1573v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A theoretical study of Al(1-x)Ga(x)N, based on full-potential linearized augmented plane wave method, is used to investigate the variations in the bandgap, optical properties and non-linear behavior of the compound with the variation of Ga concentration. It is found that the bandgap decreases with the increase of Ga in Al(1-x)Ga(x)N. A maximum value of 5.5 eV is determined for the bandgap of pure AlN which reaches to minimum value of 3.0 eV when Al is completely replaced by Ga. The static index of refraction and dielectric constant decreases with the increase in bandgap of the material, assigning a high index of refraction to pure GaN when compared to pure AlN. The refractive index drops below 1 for photon energies larger than 14 eV results group velocity of the incident radiation higher than the vacuum velocity of light. This astonishing result shows that at higher energies the optical properties of the material shifts from linear to non-linear. Furthermore, frequency dependent reflectivity and absorption coefficients show that peak value of the absorption coefficient and reflectivity shifts towards lower energy in the UV spectrum with the increase in Ga concentration. This comprehensive theoretical study of the optoelectronic properties of the alloys is presented for the first time which predicts that the material can be effectively used in the optical devices working in the visible and UV spectrum.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-11-06T17:58:02Z</published>
+    <arxiv:comment>18 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>JOURNAL OF APPLIED PHYSICS 109, 023109 (2011)</arxiv:journal_ref>
+    <author>
+      <name>B. Amin</name>
+    </author>
+    <author>
+      <name>Iftikhar Ahmad</name>
+    </author>
+    <author>
+      <name>M. Maqbool</name>
+    </author>
+    <author>
+      <name>S. Goumri-Said</name>
+    </author>
+    <author>
+      <name>R. Ahmad</name>
+    </author>
+    <arxiv:doi>10.1063/1.3531996</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/1.3531996" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1504.06803v1</id>
+    <title>Cavity quantum electrodynamics with three-dimensional photonic bandgap crystals</title>
+    <updated>2015-04-26T11:32:29Z</updated>
+    <link href="https://arxiv.org/abs/1504.06803v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1504.06803v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper gives an overview of recent work on three-dimensional (3D) photonic crystals with a "full and complete" 3D photonic band gap. We review five main aspects: 1) spontaneous emission inhibition, 2) spatial localization of light within a tiny nanoscale volume (aka "a nanobox for light"), 3) the introduction of a gain medium leading to thresholdless lasers, 4) breaking of the weak-coupling approximation of cavity QED, both in the frequency and in the time-domain, 5) decoherence, in particular the shielding of vacuum fluctuations by a 3D photonic bandgap. In addition, we list and evaluate all known photonic crystal structures with a demonstrated 3D band gap.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-04-26T11:32:29Z</published>
+    <arxiv:comment>21 pages, 6 figures, 2 tables, Chapter 8 in "Light Localisation and Lasing: Random and Pseudorandom Photonic Structures", Eds. M. Ghulinyan and L. Pavesi (Cambridge University Press, Cambridge, 2015, ISBN 978-1-107-03877-6)</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>W. L. Vos</name>
+    </author>
+    <author>
+      <name>L. A. Woldering</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1512.05253v5</id>
+    <title>Resonance interaction energy between two entangled atoms in a photonic bandgap environment</title>
+    <updated>2018-04-03T18:49:30Z</updated>
+    <link href="https://arxiv.org/abs/1512.05253v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1512.05253v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the resonance interaction energy between two identical entangled atoms, where one is in the excited state and the other in the ground state. They interact with the quantum electromagnetic field in the vacuum state and are placed in a photonic-bandgap environment with a dispersion relation quadratic near the gap edge and linear for low frequencies, while the atomic transition frequency is assumed to be inside the photonic gap and near its lower edge. This problem is strictly related to the coherent resonant energy transfer between atoms in external environments. The analysis involves both an isotropic three-dimensional model and the one-dimensional case. The resonance interaction asymptotically decays faster with distance compared to the free-space case, specifically as $1/r^2$ compared to the $1/r$ free-space dependence in the three-dimensional case, and as $1/r$ compared to the oscillatory dependence in free space for the one-dimensional case. Nonetheless, the interaction energy remains significant and much stronger than dispersion interactions between atoms. On the other hand, spontaneous emission is strongly suppressed by the environment and the correlated state is thus preserved by the spontaneous-decay decoherence effects. We conclude that our configuration is suitable for observing the elusive quantum resonance interaction between entangled atoms.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-12-16T17:16:27Z</published>
+    <arxiv:comment>12 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Scientific Reports 8, 5193 (2018)</arxiv:journal_ref>
+    <author>
+      <name>Valentina Notararigo</name>
+    </author>
+    <author>
+      <name>Roberto Passante</name>
+    </author>
+    <author>
+      <name>Lucia Rizzuto</name>
+    </author>
+    <arxiv:doi>10.1038/s41598-018-23416-0</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41598-018-23416-0" title="doi"/>
+  </entry>
+</feed>

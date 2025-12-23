@@ -1,0 +1,43 @@
+TERMS: fusion, vapor, crystal
+COLORS: green, green, orange
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/8VnKtwemmVcYPOo16qHmD/P1rzk</id>
+  <title>arXiv Query: search_query=all:fusion AND all:vapor AND all:crystal&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:20:02Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:fusion+AND+(all:vapor+AND+all:crystal)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1111.4302v1</id>
+    <title>Growth Techniques for Bulk ZnO and Related Compounds</title>
+    <updated>2011-11-18T08:42:34Z</updated>
+    <link href="https://arxiv.org/abs/1111.4302v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1111.4302v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>ZnO bulk crystals can be grown by several methods. 1) From the gas phase, usually by chemical vapor transport. Such CVT crystals may have high chemical purity, as the growth is performed without contact to foreign material. The crystallographic quality is often very high (free growth). 2) From melt fluxes such as alkaline hydroxides or other oxides (MoO3, V2O5, P2O5, PbO) and salts (PbCl2, PbF2). Melt fluxes offer the possibility to grow bulk ZnO under mild conditions (&lt;1000 deg. C, atmospheric pressure), but the crystals always contain traces of solvent. The limited purity is a severe drawback, especially for electronic applications. 3) From hydrothermal fluxes, usually alkaline (KOH, LiOH) aqueous solutions beyond the critical point. Due to the amphoteric character of ZnO, the supercritical bases can dissolve it up to several per cent of mass. The technical requirements for this growth technology are generally hard, but this did not hinder its development as the basic technique for the growth of α-quartz, and meanwhile also of zinc oxide, during the last decades. 4) From pure melts, which is the preferred technology for numerous substances applied whenever possible, e.g. for the growth of silicon, gallium arsenide, sapphire, YAG. The benefits of melt growth are (i) the high growth rate and (ii) the absence of solvent related impurities. In the case of ZnO, however, it is difficult to find container materials that are compatible from the thermal (fusion point Tf = 1975 deg. C) and chemical (required oxygen partial pressure) point of view. Either cold crucible (skull melting) or Bridgman (with reactive atmosphere) techniques were shown to overcome the problems that are inherent to melt growth. Reactive atmospheres allow to grow not only bulk ZnO single crystals, but also other TCOs such as β-Ga2O3 and In2O3.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-11-18T08:42:34Z</published>
+    <arxiv:comment>10 pages, 7 figures, talk on MRS Fall 2011 Boston</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>MRS Proc. 1394 (2012) mrsf11-1394-m10-01</arxiv:journal_ref>
+    <author>
+      <name>Detlef Klimm</name>
+    </author>
+    <author>
+      <name>Detlev Schulz</name>
+    </author>
+    <author>
+      <name>Steffen Ganschow</name>
+    </author>
+    <author>
+      <name>Zbigniew Galazka</name>
+    </author>
+    <author>
+      <name>Reinhard Uecker</name>
+    </author>
+    <arxiv:doi>10.1557/opl.2012.257</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1557/opl.2012.257" title="doi"/>
+  </entry>
+</feed>

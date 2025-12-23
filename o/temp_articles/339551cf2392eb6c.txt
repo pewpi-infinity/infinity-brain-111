@@ -1,0 +1,98 @@
+TERMS: vapor, singularity
+COLORS: green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/PesJDm2FH1oGABbzeIqDYwNqH/s</id>
+  <title>arXiv Query: search_query=all:vapor AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T00:59:01Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:vapor+AND+all:singularity&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>49</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2103.06637v2</id>
+    <title>Dissipation-enhanced collapse singularity of a nonlocal fluid of light in a hot atomic vapor</title>
+    <updated>2021-05-19T08:31:16Z</updated>
+    <link href="https://arxiv.org/abs/2103.06637v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.06637v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the out-of-equilibrium dynamics of a two-dimensional paraxial fluid of light using a near-resonant laser propagating through a hot atomic vapor. We observe a double shock-collapse instability: a shock (gradient catastrophe) for the velocity, as well as an annular (ring-shaped) collapse singularity for the density. We find experimental evidence that this instability results from the combined effect of the nonlocal photon-photon interaction and the linear photon losses. The theoretical analysis based on the method of characteristics reveals the main counterintuitive result that dissipation (photon losses) is responsible for an unexpected enhancement of the collapse instability. Detailed analytical modeling makes it possible to evaluate the nonlocality range of the interaction. The nonlocality is controlled by adjusting the atomic vapor temperature and is seen to increase dramatically when the atomic density becomes much larger than one atom per cubic wavelength. Interestingly, such a large range of the nonlocal photon-photon interaction has not been observed in an atomic vapor so far and its microscopic origin is currently unknown.</summary>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.PS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-11T12:27:57Z</published>
+    <arxiv:comment>8 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.quant-gas"/>
+    <arxiv:journal_ref>Phys. Rev. A 104, 013515 (2021)</arxiv:journal_ref>
+    <author>
+      <name>Pierre Azam</name>
+    </author>
+    <author>
+      <name>Adrien Fusaro</name>
+    </author>
+    <author>
+      <name>Quentin Fontaine</name>
+    </author>
+    <author>
+      <name>Josselin Garnier</name>
+    </author>
+    <author>
+      <name>Alberto Bramati</name>
+    </author>
+    <author>
+      <name>Antonio Picozzi</name>
+    </author>
+    <author>
+      <name>Robin Kaiser</name>
+    </author>
+    <author>
+      <name>Quentin Glorieux</name>
+    </author>
+    <author>
+      <name>Tom Bienaimé</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.104.013515</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.104.013515" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2301.08337v1</id>
+    <title>Modeling of Chemical Vapor Infiltration Using Boundary Singularity Method</title>
+    <updated>2023-01-19T21:52:34Z</updated>
+    <link href="https://arxiv.org/abs/2301.08337v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2301.08337v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Boundary Singularity Method (BSM) was used to model Chemical Vapor Infiltration (CVI) in a fibrous preform. Straight, long fibers of varying cross-sectional geometry, representing fibers of a preform, were placed within a domain of a pre-determined size. The preparation of dense fiber-reinforced Silicon-Carbon (SiC) composites was considered as a representative of CVI methodology, where methyl-trichlorosilane (MTS) was used as both the silicon and carbon donor for the silicon carbide matrix. Concentrations of MTS were then set at the domain boundaries, and the domain was gradually infiltrated with MTS as time progressed. The concentration of MTS at the surface of the preform fibers was calculated using the adopted BSM. For quasi-equilibrium considered, the reaction rate at solid surface is equal to the diffusion rate towards the surface. The Robin or third type boundary condition, which is a linear combination of the values of a function and the values of its derivative on the boundary of the domain, are developed and implemented to BSM. From the fibers surface concentrations obtained by BSM, deposition rates were calculated, and the geometry was updated to reflect the fiber growth during the time step, therefore, the fiber size growth and pore filling was modeled over time. The BSM analysis was verified by comparisons to a known analytical solution of concentric cylinders with a concentration set at the outer cylinder and a reaction at the inner. BSM solutions were also compared to experimental data as well as computational results obtained by a Level-Set Method (LSM). Obtained dynamics of pore size and location will help to evaluate quality of material manufactured by CVI. Porosity transients were obtained to show the relation between initial and current porosities as time progresses.</summary>
+    <category term="physics.flu-dyn" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-01-19T21:52:34Z</published>
+    <arxiv:comment>23 pages, 13 Figures</arxiv:comment>
+    <arxiv:primary_category term="physics.flu-dyn"/>
+    <arxiv:journal_ref>Math. Comput. Appl. 2024, 29, 27</arxiv:journal_ref>
+    <author>
+      <name>Alexander Povitsky</name>
+    </author>
+    <author>
+      <name>Patrick Mahoney</name>
+    </author>
+    <arxiv:doi>10.3390/mca29020027</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/mca29020027" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1202.0273v1</id>
+    <title>Moving contact lines in a pure-vapor atmosphere: a singularity-free description in the sole framework of classical physics</title>
+    <updated>2012-02-01T20:59:35Z</updated>
+    <link href="https://arxiv.org/abs/1202.0273v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1202.0273v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We here show that, even in the absence of "regularizing" microscopic effects (viz. slip at the wall or the disjoining pressure/precursor films), no singularities in fact arise for a moving contact line surrounded by the pure vapor of the liquid considered. There are no evaporation-related singularities either even should the substrate be superheated. We consider, within the lubrication approximation and a classical one-sided model, a contact line advancing/receding at a constant velocity, or immobile, and starting abruptly at a (formally) bare solid surface with a zero or finite contact angle.</summary>
+    <category term="physics.flu-dyn" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-02-01T20:59:35Z</published>
+    <arxiv:comment>To be submitted to Phys. Rev. Lett</arxiv:comment>
+    <arxiv:primary_category term="physics.flu-dyn"/>
+    <author>
+      <name>Alexey Rednikov</name>
+    </author>
+    <author>
+      <name>Pierre Colinet</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevE.87.010401</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevE.87.010401" title="doi"/>
+  </entry>
+</feed>

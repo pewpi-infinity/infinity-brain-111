@@ -1,0 +1,81 @@
+TERMS: lattice, wavefunction, resonance
+COLORS: orange, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/AxOveenSE73g/9Sskan2thNFCaQ</id>
+  <title>arXiv Query: search_query=all:lattice AND all:wavefunction AND all:resonance&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:15:23Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:wavefunction+AND+all:resonance)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>63</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2402.17211v1</id>
+    <title>Corner entanglement of a resonating valence bond wavefunction</title>
+    <updated>2024-02-27T05:04:58Z</updated>
+    <link href="https://arxiv.org/abs/2402.17211v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.17211v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We perform a quantum Monte Carlo simulation of the resonating valence bond wavefunction on a two-dimensional square lattice with periodic boundary conditions. Using two replicas of the system, we calculate the second Renyi entropy on a spatial bipartition with a square geometry. Through a finite-size scaling analysis, we extract the logarithmic correction to the area law due to the presence of the sharp corners in the entangling surface. We find that the coefficient of this logarithm is positive with a value of 0.073 for a single $90^{\circ}$ corner.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-27T05:04:58Z</published>
+    <arxiv:comment>4 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <author>
+      <name>Giacomo Torlai</name>
+    </author>
+    <author>
+      <name>Roger G. Melko</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0311604v1</id>
+    <title>A renormalised hamiltonian approach for a resonant valence bond wavefunction</title>
+    <updated>2003-11-26T14:43:00Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0311604v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0311604v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The effective Hamiltonian of strongly correlated electrons on a square lattice is replaced by a renormalised Hamiltonian and the factors that renormalise the kinetic energy of holes and the Heisenberg spin-spin coupling are calculated using a Gutzwiller approximation scheme. The accuracy of this renormalisation procedure is tested numerically and found to be qualitatively excellent. Within the scheme a resonant valence bond (RVB) wavefunction is found at half-filling to be lower in energy than the antiferromagnetic state. If the wavefunction is expressed in fermion operators, local SU(2) and U(l) invariance leads to a redundancy in the representation. The introduction of holes removes these local invariances and we find that a d-wave RVB state is lowest in energy. This state has a superconducting order parameter whose amplitude is linear in the density of holes.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-11-26T14:43:00Z</published>
+    <arxiv:comment>reproduced for reader's convenience. one of key references in cond-mat/0311467. Reprint at http://www.physics.hku.hk/~fczhang</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Supercond.Sci.Technol. 1 (1988) 36</arxiv:journal_ref>
+    <author>
+      <name>F. C. Zhang</name>
+    </author>
+    <author>
+      <name>C. Gros</name>
+    </author>
+    <author>
+      <name>T. M. Rice</name>
+    </author>
+    <author>
+      <name>H. Shiba</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1112.4917v1</id>
+    <title>Resonating valence bond wavefunctions and classical interacting dimer models</title>
+    <updated>2011-12-21T03:28:53Z</updated>
+    <link href="https://arxiv.org/abs/1112.4917v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1112.4917v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We relate properties of nearest-neighbour resonating valence bond (nnRVB) wavefunctions for $SU(g)$ spin systems on two dimensional bipartite lattices to those of fully-packed classical dimer models with potential energy $V$ on the same lattice. We define a cluster expansion of $V$ in terms of $n$-body potentials $V_n$, which are recursively determined from the nnRVB wavefunction on {\em finite subgraphs} of the original lattice. The magnitude of the $n$-body interaction $V_n$ ($n&gt;1$) is of order ${\mathcal O}(g^{-(n-1)})$ for small $g^{-1}$, while $V_1$ reduces to a constant due to the fully-packed nature of the model. At leading non-trivial order on the square lattice, the interacting dimer model only has two-body interactions $V_2(g)$ that favour two parallel dimers on elementary plaquettes. Setting $g=2$ and using the results of earlier work on this interacting dimer model, we find that the long-distance behaviour of the bond-energy correlation function is dominated by an oscillatory term that decays as $ 1/|\vec{r}|^α$ with $α\approx 1.22$ for SU(2) spins. This result is in remarkable quantitative agreement with earlier direct numerical studies of the corresponding wavefunction, which give $α\approx 1.20$.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-12-21T03:28:53Z</published>
+    <arxiv:comment>4+ pages, 2-column format, 1 figure</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 108, 247216 (2012)</arxiv:journal_ref>
+    <author>
+      <name>Kedar Damle</name>
+    </author>
+    <author>
+      <name>Deepak Dhar</name>
+    </author>
+    <author>
+      <name>Kabir Ramola</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.108.247216</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.108.247216" title="doi"/>
+  </entry>
+</feed>

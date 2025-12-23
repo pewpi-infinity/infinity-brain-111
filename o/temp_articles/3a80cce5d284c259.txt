@@ -1,0 +1,74 @@
+TERMS: entropy, ionization
+COLORS: red, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Xl5zg91lP7pq6gjOebJiQ1Hi99Q</id>
+  <title>arXiv Query: search_query=all:entropy AND all:ionization&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T00:57:52Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+all:ionization&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>114</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1811.09371v1</id>
+    <title>Entropy-based view of the strong field ionization process</title>
+    <updated>2018-11-23T06:43:32Z</updated>
+    <link href="https://arxiv.org/abs/1811.09371v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1811.09371v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We apply information theoretic entropies of coordinate and velocity distributions in quantum mechanics for the description of the strong field ionization process. The approach is based on the properties of the entropies used in the information theory, viz., their ability to gauge the "distance" between the probability distributions and thus to be sensitive to the distributions variations. Study of the entropies as functions of time allows thus to visualize conveniently evolution of the wave-function of the system undergoing strong field ionization, and to pin down, in particular, the times when the wave-function begins to change appreciably.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-11-23T06:43:32Z</published>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>I. A. Ivanov</name>
+    </author>
+    <author>
+      <name>Chang Hee Nam</name>
+    </author>
+    <author>
+      <name>Kyung Taec Kim</name>
+    </author>
+    <arxiv:doi>10.1088/1361-6455/aaf9e1</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1361-6455/aaf9e1" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1411.6610v1</id>
+    <title>Hydraulic effects in a radiative atmosphere with ionization</title>
+    <updated>2014-11-24T20:51:51Z</updated>
+    <link href="https://arxiv.org/abs/1411.6610v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1411.6610v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In a paper of 1978, Eugene Parker postulated the need for hydraulic downward motion to explain magnetic flux concentrations at the solar surface. A similar process has recently also been seen in simplified (e.g., isothermal) models of flux concentrations from the negative effective magnetic pressure instability. We study the effects of partial ionization near the radiative surface on the formation of such magnetic flux concentrations. We first obtain one-dimensional (1D) equilibrium solutions using either a Kramers-like opacity or the ${\rm H}^{-}$ opacity. The resulting atmospheres are then used as initial conditions in two-dimensional (2D) models where flows are driven by an imposed gradient force resembling a localized negative pressure in the form of a blob. To isolate the effects of partial ionization and radiation, we ignore turbulence and convection. In 1D models, due to partial ionization, an unstable stratification forms always near the surface. We show that the extrema in the specific entropy profiles correspond to the extrema in degree of ionization. In the 2D models without partial ionization, flux concentrations form close to the height where the blob is placed. In models with partial ionization, such flux concentrations form at the surface much above the blob. This is due to the corresponding unstable layer in specific entropy. With ${\rm H}^{-}$ opacity, flux concentrations are weaker due to the stably stratified deeper parts. We demonstrate that, together with density stratification, the imposed source of negative pressure drives the formation of flux concentrations. We find that the inclusion of partial ionization affects entropy profiles causing the strong flux concentrations to form closer to the surface. We speculate that turbulence is needed to limit the strength of flux concentrations and homogenize the specific entropy to a more nearly marginal stratification.</summary>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-11-24T20:51:51Z</published>
+    <arxiv:comment>11 pages, 13 figures, submitted to A&amp;A</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.SR"/>
+    <arxiv:journal_ref>Astron. Astrophys. 587, A90 (2016)</arxiv:journal_ref>
+    <author>
+      <name>Pallavi Bhat</name>
+    </author>
+    <author>
+      <name>Axel Brandenburg</name>
+    </author>
+    <arxiv:doi>10.1051/0004-6361/201425396</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1051/0004-6361/201425396" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1702.05881v1</id>
+    <title>The system of ionized gas dynamics</title>
+    <updated>2017-02-20T07:29:25Z</updated>
+    <link href="https://arxiv.org/abs/1702.05881v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1702.05881v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The aim of this paper is to study a system of three equations for ionized gas dynamics at high temperature, in one spatial dimension. In addition to the mass density, pressure and particle velocity, a further quantity is needed, namely, the degree of ionization. The system is supplemented by the first and second law of thermodynamics and by an equation of state; all of them involve the degree of ionization. At last, under the assumption of thermal equilibrium, the system is closed by requiring Saha's ionization equation. The geometric properties of the system are rather complicated: in particular, we prove the loss of convexity (genuine nonlinearity) for both forward and backward characteristic fields, and hence the loss of concavity of the physical entropy. This takes place in a small bounded region, which we are able to characterize by numerical estimates on the state functions. The structure of shock waves is also studied by a detailed analysis of the Hugoniot locus, which will be used in a forthcoming paper to study the shock tube problem.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-02-20T07:29:25Z</published>
+    <arxiv:comment>36 pages</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name>Andrea Corli</name>
+    </author>
+    <author>
+      <name>Fumioki Asakura</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,74 @@
+TERMS: spin, tachyon, boson
+COLORS: yellow, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/6MbblntC3VHhbat0EITaZ9n7FFY</id>
+  <title>arXiv Query: search_query=all:spin AND all:tachyon AND all:boson&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:32:30Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:spin+AND+(all:tachyon+AND+all:boson)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>20</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1607.07659v1</id>
+    <title>Higher Spins as Rolling Tachyons in Open String Field Theory</title>
+    <updated>2016-07-26T12:08:56Z</updated>
+    <link href="https://arxiv.org/abs/1607.07659v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1607.07659v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We find a simple analytic solution in open string field theory which, in the on-shell limit, generates a tower of higher spin vertex operators in bosonic string theory. The solution is related to irregular off-shell vertex operators for Gaiotto states. The wavefunctions for the irregular vertex operators are described by equations following from the cubic effective action for generalized rolling tachyons, indicating that the evolution from flat to collective higher-spin background in string field theory occurs according to cosmological pattern. We discuss the relation between nonlocalities of the rolling tachyon action and those of higher spin interactions.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-07-26T12:08:56Z</published>
+    <arxiv:comment>11 pages</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Phys.Rev. D94 (2016) no.6, 066005</arxiv:journal_ref>
+    <author>
+      <name>Dimitri Polyakov</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.94.066005</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.94.066005" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-th/0702155v1</id>
+    <title>Chiral symmetry breaking as open string tachyon condensation</title>
+    <updated>2007-02-20T17:06:05Z</updated>
+    <link href="https://arxiv.org/abs/hep-th/0702155v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-th/0702155v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We consider a general framework to study holographically the dynamics of fundamental quarks in a confining gauge theory. Flavors are introduced by placing a set of (coincident) branes and antibranes on a background dual to a confining color theory. The spectrum contains an open string tachyon and its condensation describes the U(N_f)_L x U(N_f)_R -&gt; U(N_f)_V symmetry breaking. By studying worldvolume gauge transformations of the flavor brane action, we obtain the QCD global anomalies and an IR condition that allows to fix the quark condensate in terms of the quark mass. We find the expected N_f^2 Goldstone bosons (for m_q=0), the Gell-Mann-Oakes-Renner relation (for m_q small) and the η' mass. Remarkably, the linear confinement behavior for the masses of highly excited spin-1 mesons, m_n^2 ~ n is naturally reproduced.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-02-20T17:06:05Z</published>
+    <arxiv:comment>30 pages + 5 appendices, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Nucl.Phys.B787:98-134,2007</arxiv:journal_ref>
+    <author>
+      <name>Roberto Casero</name>
+    </author>
+    <author>
+      <name>Elias Kiritsis</name>
+    </author>
+    <author>
+      <name>Angel Paredes</name>
+    </author>
+    <arxiv:doi>10.1016/j.nuclphysb.2007.07.009</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.nuclphysb.2007.07.009" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.03539v1</id>
+    <title>No "chaos" in bosonic string massive scalar amplitudes</title>
+    <updated>2025-02-05T19:00:36Z</updated>
+    <link href="https://arxiv.org/abs/2502.03539v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.03539v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We compute directly in covariant formalism a variety of four point massive scalar amplitudes in bosonic string with scalars up to level 10 and at least one tachyon.
+  All computed amplitudes are perfectly regular and show no sign of erratic behavior.
+  We give a naive argument based on a very simple model of why this can reasonably be expected and we check on the explicit examples that the intuition derived from the model is sensible.
+  Furthermore we discuss the complications due to null states (BRST exact states) in actually computing the covariant bosonic string spectrum and how these can be overcome by using a ``$Π$ gauge'' which makes manifest that the degeneration of any spin at any mass level is independent on the spacetime dimension.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-05T19:00:36Z</published>
+    <arxiv:comment>33 pages, 12 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Igor Pesando</name>
+    </author>
+  </entry>
+</feed>

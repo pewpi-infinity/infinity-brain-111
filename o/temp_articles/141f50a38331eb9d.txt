@@ -1,0 +1,79 @@
+TERMS: hydrogen, quantum, lattice, entropy
+COLORS: purple, blue, orange, red
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/DkAm2RJ/nixQy0cNKrNG7IzNOGE</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:lattice AND all:entropy&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:37:59Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:lattice+AND+all:entropy))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>3</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/0905.4148v1</id>
+    <title>Analytic continuation average spectrum method for quantum liquids</title>
+    <updated>2009-05-26T09:33:20Z</updated>
+    <link href="https://arxiv.org/abs/0905.4148v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0905.4148v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We revisit the problem of determining the real-frequency density response in quantum fluids via analytical continuation of imaginary-time quantum Monte Carlo data. We demonstrate that the average spectrum method (ASM) is capable of revealing resolved modes in the dynamic structure factor of both ortho-deuterium and liquid para-hydrogen, in agreement with experiments and quantum mode-coupling theories, while the maximum entropy approach yields only a smooth unimodal spectrum. Outstanding issues are discussed. Our work provides the first application of the ASM method in realistic off-lattice systems.</summary>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-05-26T09:33:20Z</published>
+    <arxiv:comment>7 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.other"/>
+    <author>
+      <name>David R. Reichman</name>
+    </author>
+    <author>
+      <name>Eran Rabani</name>
+    </author>
+    <arxiv:doi>10.1063/1.3185728</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/1.3185728" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1402.0503v1</id>
+    <title>Direct calculation of the Entanglement Spectrum in Quantum Monte Carlo with application to \textit{ab initio} Hamiltonians</title>
+    <updated>2014-02-03T21:00:03Z</updated>
+    <link href="https://arxiv.org/abs/1402.0503v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1402.0503v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Several algorithms have been proposed to calculate the spatial entanglement spectrum from high order Renyi entropies. In this work we present an alternative approach for computing the entanglement spectrum with quantum Monte Carlo for both continuum and lattice Hamiltonians. This method provides direct access to the matrix elements of the spatially reduced density matrix and we determine an estimator that can be used in variational Monte Carlo as well as other Monte Carlo methods. The algorithm is based on using a generalization of the Swap operator, which can be extended to calculate a general class of density matrices that can include combinations of spin, space, particle and even momentum coordinates. We demonstrate the method by applying it to the Hydrogen and Nitrogen molecules and describe for the first time how the spatial entanglement spectrum encodes a covalent bond that includes all the many body correlations.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-02-03T21:00:03Z</published>
+    <arxiv:comment>6 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Phys. Rev. B 90, 081116 (2014)</arxiv:journal_ref>
+    <author>
+      <name>Norm M. Tubman</name>
+    </author>
+    <author>
+      <name>D. ChangMo Yang</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.90.081116</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.90.081116" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2011.14986v3</id>
+    <title>Time-Dependent Self Consistent Harmonic Approximation: Anharmonic nuclear quantum dynamics and time correlation functions</title>
+    <updated>2021-03-05T19:43:53Z</updated>
+    <link href="https://arxiv.org/abs/2011.14986v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2011.14986v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Most material properties of great physical interest are directly related to nuclear dynamics, e.g. the ionic thermal conductivity, Raman/IR vibrational spectra, inelastic X-ray, and Neutron scattering. A theory able to compute from first principles these properties, accounting for the anharmonicity and quantum fluctuations in the nuclear energy landscape that can be implemented in systems with hundreds of atoms is missing. Here, we derive an approximate theory for the quantum time evolution of lattice vibrations at finite temperature. This theory introduces the time dynamics in the Self-Consistent Harmonic Approximation (SCHA) and shares with the static case the same computational cost. It is nonempirical, as pure states evolve according to the Dirac least action principle and the dynamics of the thermal ensemble conserves both energy and entropy. The static SCHA is recovered as a stationary solution of the dynamical equations. We apply perturbation theory around the static SCHA solution and derive an algorithm to compute efficiently quantum dynamical response functions. Thanks to this new algorithm, we have access to the response function of any general external time-dependent perturbation, enabling the simulation of phonon spectra without following any perturbative expansion of the nuclear potential or empirical methods. We benchmark the algorithm on the IR and Raman spectroscopy of high-pressure hydrogen phase III, with a simulation cell of 96 atoms. Our work also explores the nonlinear regime of the dynamical nuclear motion, providing a paradigm to simulate the interaction with intense or multiple probes, as in pump-probe spectroscopy, or chemical reactions involving light atoms, as the proton transfer in biomolecules</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-11-30T16:56:50Z</published>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <arxiv:journal_ref>Phys. Rev. B 103, 104305 (2021)</arxiv:journal_ref>
+    <author>
+      <name>Lorenzo Monacelli</name>
+    </author>
+    <author>
+      <name>Francesco Mauri</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.103.104305</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.103.104305" title="doi"/>
+  </entry>
+</feed>

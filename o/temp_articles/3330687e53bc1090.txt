@@ -1,0 +1,88 @@
+TERMS: frequency, fusion, resonance
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/dtLZFSZdOjf72w09VABwUvA95Nc</id>
+  <title>arXiv Query: search_query=all:frequency AND all:fusion AND all:resonance&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:10:18Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:fusion+AND+all:resonance)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>103</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1209.2549v1</id>
+    <title>Double-resonant fast particle-wave interaction</title>
+    <updated>2012-09-12T10:27:41Z</updated>
+    <link href="https://arxiv.org/abs/1209.2549v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1209.2549v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In future fusion devices fast particles must be well confined in order to transfer their energy to the background plasma. Magnetohydrodynamic instabilities like Toroidal Alfvén Eigenmodes or core-localized modes such as Beta Induced Alfvén Eigenmodes and Reversed Shear Alfvén Eigenmodes, both driven by fast particles, can lead to significant losses. This is observed in many ASDEX Upgrade discharges. The present study applies the drift-kinetic HAGIS code with the aim of understanding the underlying resonance mechanisms, especially in the presence of multiple modes with different frequencies. Of particular interest is the resonant interaction of particles simultaneously with two different modes, referred to as 'double-resonance'. Various mode overlapping scenarios with different q profiles are considered. It is found that, depending on the radial mode distance, double-resonance is able to enhance growth rates as well as mode amplitudes significantly. Surprisingly, no radial mode overlap is necessary for this effect. Quite the contrary is found: small radial mode distances can lead to strong nonlinear mode stabilization of a linearly dominant mode.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-09-12T10:27:41Z</published>
+    <arxiv:comment>12 pages, 11 figures; Nuclear Fusion 52 (2012)</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <arxiv:journal_ref>Nucl. Fusion 52, 2012, 103019</arxiv:journal_ref>
+    <author>
+      <name>Mirjam Schneller</name>
+    </author>
+    <author>
+      <name>Philipp Lauber</name>
+    </author>
+    <author>
+      <name>Michael Brüdgam</name>
+    </author>
+    <author>
+      <name>Simon David Pinches</name>
+    </author>
+    <author>
+      <name>Sibylle Günter</name>
+    </author>
+    <arxiv:doi>10.1088/0029-5515/52/10/103019</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0029-5515/52/10/103019" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2112.12384v1</id>
+    <title>Resonant tunneling of deuteron-triton fusion in strong high-frequency electromagnetic fields</title>
+    <updated>2021-12-23T06:47:48Z</updated>
+    <link href="https://arxiv.org/abs/2112.12384v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2112.12384v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate deuteron-triton (DT) fusion in the presence of linearly polarized strong electromagnetic fields in high-frequency limit, in which a complex spherical square-well potential is exploited to describe the nuclear potential. Within the framework of the Kramers-Henneberger (KH) transformation, we have calculated the total and angular differential fusion cross sections by investigating the asymptotical phase shifts of the Coulomb wavefunctions. With introducing a dimensionless quantity of $n_d$ representing the ratio of the particle quiver oscillation amplitude to the radius of nuclear potential, we find that, even though the tunneling probability of passing through the Coulomb repulsive potential keeps almost identical to that in the absence of electromagnetic fields, the peak of total fusion sections shows an apparent shift from the well known value of 110 keV to 78 keV for $n_d=0.01$. The angular differential cross sections also show some resonance peaks that shift from zero inclination angle to $π/2$ with increasing the parameter $n_d$. The corresponding astrophysical $S$-factors are found to be enhanced by several times in amplitudes. With the help of Wentzel-Kramers-Brillouin (WKB) approximate wavefunctions, the shape-resonance tunneling mechanism of the above findings are uncovered and some implications are discussed.</summary>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-12-23T06:47:48Z</published>
+    <arxiv:primary_category term="nucl-th"/>
+    <author>
+      <name>Binbing Wu</name>
+    </author>
+    <author>
+      <name>Hao Duan</name>
+    </author>
+    <author>
+      <name>Jie Liu</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevC.105.064615</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevC.105.064615" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2204.08667v1</id>
+    <title>Enhanced proton-boron nuclear fusion cross sections in intense high-frequency laser</title>
+    <updated>2022-04-19T05:00:53Z</updated>
+    <link href="https://arxiv.org/abs/2204.08667v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2204.08667v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate the proton-boron nuclear fusion cross sections under the influence of the intense linearly polarized monochromatic laser fields with high frequency. First, we rewrite the time-dependent Schrödinger equation using Kramers-Henneberger (KH) transformation which allows for shifting all time dependence of the problem into the potential function. Then, for the intense laser fields that satisfy the high frequency limit, the time-averaged scheme in the KH framework should be valid. We can use WKB approximation to evaluate Coulomb barrier penetrability and then calculate proton-boron nuclear fusion cross sections by a phenomenological Gamow form. We show that the corresponding Coulomb barrier penetrability increases significantly due to the depression of the time-averaged potential barrier. As a result, we find that proton-boron nuclear fusion cross sections can be enhanced effectively depending on a dimensionless quantity $n_{\mathrm{d}}$, which equals the ratio of the quiver oscillation amplitude to the geometrical touching radius of the proton and boron nucleus. For $n_{\mathrm{d}}=9$, we predict that the resonance peak of the fusion cross-section is enhanced by about $26$ times at the incident energy of $\varepsilon=148$ keV. And for another incident energy of $\varepsilon=586$ keV, the resonance peak of fusion cross-section is not only enhanced but also shifted to lower energy of $\varepsilon=392$ keV due to the mechanism of over-barrier fusion.</summary>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-04-19T05:00:53Z</published>
+    <arxiv:comment>arXiv admin note: text overlap with arXiv:2107.03085</arxiv:comment>
+    <arxiv:primary_category term="nucl-th"/>
+    <author>
+      <name>Wenjuan Lv</name>
+    </author>
+    <author>
+      <name>Hao Duan</name>
+    </author>
+    <author>
+      <name>Jie Liu</name>
+    </author>
+    <arxiv:doi>10.1016/j.nuclphysa.2022.122490</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.nuclphysa.2022.122490" title="doi"/>
+  </entry>
+</feed>

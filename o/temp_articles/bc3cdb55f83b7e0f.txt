@@ -1,0 +1,56 @@
+TERMS: fusion, crystal, wavefunction
+COLORS: green, orange, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/lnlhlZbYCdMcO3pkz4zwhcGRbC0</id>
+  <title>arXiv Query: search_query=all:fusion AND all:crystal AND all:wavefunction&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:20:22Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:fusion+AND+(all:crystal+AND+all:wavefunction)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1905.06065v2</id>
+    <title>Coupled Colloidal Quantum Dot Molecules</title>
+    <updated>2019-12-17T07:44:41Z</updated>
+    <link href="https://arxiv.org/abs/1905.06065v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1905.06065v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Coupling of atoms is the basis of chemistry, yielding the beauty and richness of molecules. We utilize semiconductor nanocrystals as artificial atoms to form nanocrystal molecules that are structurally and electronically coupled. CdSe/CdS core/shell nanocrystals are linked to form dimers which are then fused via constrained oriented attachment. The possible nanocrystal facets in which such fusion takes place are analyzed with atomic resolution revealing the distribution of possible crystal fusion scenarios. Coherent coupling and wavefunction hybridization are manifested by a red shift of the band gap, in agreement with quantum mechanical simulations. Single nanoparticle spectroscopy unravels the attributes of coupled nanocrystal dimers related to the unique combination of quantum mechanical tunneling and energy transfer mechanisms. This sets the stage for nanocrystals chemistry to yield a diverse selection of coupled nanocrystal molecules constructed from controlled core/shell nanocrystal building blocks. These are of direct relevance for numerous applications in displays, sensing, biological tagging and emerging quantum technologies.</summary>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-05-15T10:03:21Z</published>
+    <arxiv:comment>Main text - 23 pages, 5 figures. Supplementary Material - 34 pages, 24 figures, 3 tables</arxiv:comment>
+    <arxiv:primary_category term="physics.app-ph"/>
+    <arxiv:journal_ref>Nat Commun 10, 5401 (2019)</arxiv:journal_ref>
+    <author>
+      <name>Jiabin Cui</name>
+    </author>
+    <author>
+      <name>Yossef E. Panfil</name>
+    </author>
+    <author>
+      <name>Somnath Koley</name>
+    </author>
+    <author>
+      <name>Doaa Shamalia</name>
+    </author>
+    <author>
+      <name>Nir Waiskopf</name>
+    </author>
+    <author>
+      <name>Sergei Remennik</name>
+    </author>
+    <author>
+      <name>Inna Popov</name>
+    </author>
+    <author>
+      <name>Meirav Oded</name>
+    </author>
+    <author>
+      <name>Uri Banin</name>
+    </author>
+    <arxiv:doi>10.1038/s41467-019-13349-1</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41467-019-13349-1" title="doi"/>
+  </entry>
+</feed>

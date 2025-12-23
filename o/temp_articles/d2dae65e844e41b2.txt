@@ -1,0 +1,71 @@
+TERMS: entropy, resonance, muon
+COLORS: red, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Ae1FeSyVzmgsZeQXR9hENg2zT6s</id>
+  <title>arXiv Query: search_query=all:entropy AND all:resonance AND all:muon&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:18:47Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+(all:resonance+AND+all:muon)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1410.2767v1</id>
+    <title>New insights for the description of magnetic correlations inferred from muSR</title>
+    <updated>2014-10-10T12:44:19Z</updated>
+    <link href="https://arxiv.org/abs/1410.2767v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1410.2767v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Whenever a compound exhibits a spontaneous muSR oscillation, long-range magnetic ordering is usually inferred. Here we show that some caution is required. The coherence length needs not to be large for a spontaneous muon spin precession to be observed. Establishing the incommensurate nature of a magnetic structure, solely based on muSR measurements, may not be reliable. The absence of a spontaneous muon precession at low temperature does not mean that the system under investigation does not display long-range magnetic ordering.
+  The relaxation measured in zero and longitudinal field in the quasi-static limit is usually analyzed in the framework of the strong-collision model, the static polarization function being taken to be the famous Kubo-Toyabe function. This might not be satisfactory if short-range correlation effects are strong. Here we propose a method based on the maximum entropy concept and reverse Monte Carlo technique which gives results consistent with those obtained in 2013 by analytical means for the considered example.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-10-10T12:44:19Z</published>
+    <arxiv:comment>To appear in the proceedings of the 13th International Conference on Muon Spin Rotation, Relaxation and Resonance, Grindelwald, Switzerland, 1-6 June 2014</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>J. Phys.: Conf. Ser. 551, 012005 (2014)</arxiv:journal_ref>
+    <author>
+      <name>P. Dalmas de Reotier</name>
+    </author>
+    <author>
+      <name>A. Yaouanc</name>
+    </author>
+    <author>
+      <name>A. Maisuradze</name>
+    </author>
+    <arxiv:doi>10.1088/1742-6596/551/1/012005</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1742-6596/551/1/012005" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.06380v3</id>
+    <title>(H,Li)$_{6}$Ru$_{2}$O$_{6}$ : a possible zero-field Ru$^{3+}$-based Kitaev Quantum Spin Liquid</title>
+    <updated>2025-02-05T02:19:55Z</updated>
+    <link href="https://arxiv.org/abs/2405.06380v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.06380v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We report the synthesis and properties of (H,Li)$_{6}$Ru$_{2}$O$_{6}$, which is shown to be a $J_{\text{eff}}=\frac{1}{2}$ system made out of Ru$^{3+}$ moments in a honeycomb geometry. Bulk magnetization, heat capacity, nuclear magnetic resonance (NMR), and muon spin relaxation ($μ$SR) rule out the presence of static moments or any spin glass phase down to 84 mK. All techniques suggest a crossover to a liquid-like state below about 40 K. The $^{7}$Li nuclear magnetic resonance (NMR) shift data suggest a non-zero $T$-independent spin susceptibility at low $T$. In zero field, $C_m/T$ shows $T^{-0.9}$ divergence which is consistent with vacancy-induced effects on low-energy excitations of the pristine Kitaev spin liquid. With field, power-law variations in the $^{7}$Li NMR spin-lattice relaxation rate 1/T$_{1}$ and magnetic heat capacity $C_{m}$ show quantitatively new scaling behaviors. A two-step entropy release in heat capacity is also observed putatively from $Z_{2}$ flux (low-$T$ step) and itinerant Majorana fermions (high-$T$ step). Based on these findings, we propose that (H,Li)$_{6}$Ru$_{2}$O$_{6}$ realizes a Kitaev spin liquid with no evidence of inherent magnetic ordering in zero field unlike $α$-RuCl$_{3}$ where approximately $8$ Tesla field is required to suppress magnetic order.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-10T10:34:09Z</published>
+    <arxiv:comment>This is closest to the published version of 5 pages, 6 figures of main text + 12 pages, and 29 figures of supplementary information</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Phys. Rev. B 110, L241102 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Sanjay Bachhar</name>
+    </author>
+    <author>
+      <name>M. Baenitz</name>
+    </author>
+    <author>
+      <name>Hubertus Luetkens</name>
+    </author>
+    <author>
+      <name>John Wilkinson</name>
+    </author>
+    <author>
+      <name>Sumiran Pujari</name>
+    </author>
+    <author>
+      <name>A. V. Mahajan</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.110.L241102</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.110.L241102" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,81 @@
+TERMS: hydrogen, frequency, spin, resonance
+COLORS: purple, green, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/rwvWp4A4prQNmOFSDYpgaYKrzNs</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:frequency AND all:spin AND all:resonance&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:44:14Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:frequency+AND+(all:spin+AND+all:resonance))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>33</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2003.04653v1</id>
+    <title>Spin dynamics of a hydrogen atom in a periodic magnetic structure</title>
+    <updated>2020-03-10T11:56:49Z</updated>
+    <link href="https://arxiv.org/abs/2003.04653v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2003.04653v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The spin dynamics of a hydrogen atom during the passage of a periodic magnetic structure is discussed. The occupation numbers of the components of the hyperfine structure are considered as a function of time. The characteristic low-frequency oscillations are visible, which have a direct analogue in the effect of nuclear magnetic resonance. An envelope forms of these oscillations are found using the Krylov-Bogolyubov-Mitropol'skii method. The dependence of spin dynamics on the parameters of the magnetic structure is investigated. It is shown that this dependence is very sensitive to the structure of the magnetic field.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-03-10T11:56:49Z</published>
+    <arxiv:comment>8 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <arxiv:journal_ref>Nuclear Inst. and Methods in Physics Research A 969, 164046 (2020)</arxiv:journal_ref>
+    <author>
+      <name>A. I. Milstein</name>
+    </author>
+    <author>
+      <name>Yu. V. Shestakov</name>
+    </author>
+    <author>
+      <name>D. K. Toporkov</name>
+    </author>
+    <arxiv:doi>10.1016/j.nima.2020.164046</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.nima.2020.164046" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0902.4818v2</id>
+    <title>Hyperfine frequency shift in two-dimensional atomic hydrogen</title>
+    <updated>2009-04-22T15:31:14Z</updated>
+    <link href="https://arxiv.org/abs/0902.4818v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0902.4818v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We propose the explanation of a surprisingly small hyperfine frequency shift in the two-dimensional (2D) atomic hydrogen bound to the surface of superfluid helium below 0.1 K. Owing to the symmetry considerations, the microwave-induced triplet-singlet transitions of atomic pairs in the fully spin-polarized sample are forbidden. The apparent nonzero shift is associated with the density-dependent wall shift of the hyperfine constant and the pressure shift due to the presence of H atoms in the hyperfine state $a$ not involved in the observed $b\to c$ transition. The interaction of adsorbed atoms with one another effectively decreases the binding energy and, consequently, the wall shift by the amount proportional to their density. The pressure shift of the $b\to c$ resonance comes from the fact that the impurity $a$-state atoms interact differently with the initial $b$-state and final $c$-state atoms and is also linear in density. The net effect of the two contributions, both specific for 2D hydrogen, is comparable with the experimental observation. To our knowledge, this is the first mentioning of the density-dependent wall shift. We also show that the difference between the triplet and singlet scattering lengths of H atoms, $a_t-a_s=30(5)$ pm, is exactly twice smaller than the value reported by Ahokas {\it et al.}, Phys. Rev. Lett. {\bf101}, 263003 (2008).</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-02-27T12:24:41Z</published>
+    <arxiv:comment>4 pages, no figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>JETP Lett. 90, 8 (2009) [Pis'ma Zh. Eksp. Teor. Fiz. 90, 10 (2009)]</arxiv:journal_ref>
+    <author>
+      <name>A. I. Safonov</name>
+    </author>
+    <author>
+      <name>I. I. Safonova</name>
+    </author>
+    <author>
+      <name>I. S. Yasnikov</name>
+    </author>
+    <arxiv:doi>10.1134/S0021364009130037</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1134/S0021364009130037" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.10943v2</id>
+    <title>Spin and Obliquity Evolution of Hot Jupiter Hosts from Resonance Locks</title>
+    <updated>2025-03-14T17:54:35Z</updated>
+    <link href="https://arxiv.org/abs/2410.10943v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.10943v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>When a hot Jupiter orbits a star whose effective temperature exceeds $\sim$6100 K, its orbit normal tends to be misaligned with the stellar spin axis. Cooler stars typically have smaller obliquities, which may have been damped by hot Jupiters in resonance lock with axisymmetric stellar gravity modes (azimuthal number $m=0$). Here we allow for resonance locks with non-axisymmetric modes, which affect both stellar obliquity and spin frequency. Obliquities damp for all modes ($-2 \leq m \leq 2$). Stars spin up for $m &gt; 0$, and spin down for $m &lt; 0$. We carry out a population synthesis that assumes hot Jupiters form misaligned around both cool and hot stars, and subsequently lock onto modes whose $m$-values yield the highest mode energies for given starting obliquities. Core hydrogen burning enables hot Jupiters to torque low-mass stars, but not high-mass stars, into spin-orbit alignment. Resonance locking plus stellar spin-down from magnetic braking largely reproduces observed obliquities and stellar rotation rates and how they trend with stellar effective temperature and orbital separation. The possible suppression of resonance locking by non-linear dissipation of gravity waves remains an outstanding issue.</summary>
+    <category term="astro-ph.EP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-14T18:00:00Z</published>
+    <arxiv:comment>12 pages, 8 figures, accepted to ApJ</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.EP"/>
+    <author>
+      <name>J. J. Zanazzi</name>
+    </author>
+    <author>
+      <name>Eugene Chiang</name>
+    </author>
+  </entry>
+</feed>

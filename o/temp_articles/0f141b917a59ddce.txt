@@ -1,0 +1,74 @@
+TERMS: hydrogen, quantum, spin, probability
+COLORS: purple, blue, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Wfq9pvO7pot1CXqqODHH0dTYlO0</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:spin AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:40:29Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:spin+AND+all:probability))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>17</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2511.21430v1</id>
+    <title>Quantum electrodynamic description of the neutral hydrogen molecule ionization</title>
+    <updated>2025-11-26T14:21:43Z</updated>
+    <link href="https://arxiv.org/abs/2511.21430v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.21430v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The ionization dynamics of a hydrogen molecule, serving as a fundamental benchmark in quantum chemistry, is investigated within a comprehensive framework combining quantum electrodynamics and the Lindblad master equation. This approach enables a first-principles description of light--matter interactions while accounting for dissipative processes and external particle influx. We systematically explore the system's evolution across three distinct regimes: closed, dissipative open, and influx-driven open quantum systems. Our results reveal a universal tendency towards the formation of the neutral hydrogen molecule ($|\rm{H}_2\rangle$) across all configurations. The dissipation strengths for photons ($γ_Ω$), electrons ($γ_e$), and phonons ($γ_ω$) are identified as critical control parameters, with $γ_Ω$ significantly accelerating system stabilization. Furthermore, the introduction of particle influx ($μ_k$) leads to a complex redistribution of energy, notably populating the atomic state ($|\rm{H},\rm{H}\rangle$). The ionization pathway is exquisitely sensitive to the initial quantum state, dictated by the composition and number of photons, which governs the accessible spin-selective excitation channels. This is conclusively demonstrated in a model with an embedded anode, where the maximum ionization probability is fundamentally constrained to $\frac{3}{4}$ by orbital hybridization. This study provides a unified theoretical foundation for quantum-controlled chemistry, with direct implications for future experiments in cavity QED and quantum information processing.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-26T14:21:43Z</published>
+    <arxiv:comment>11 pages, 5 figures; Supplementary Information: 2 videos</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Hui-hui Miao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1410.8344v2</id>
+    <title>Hydrogen atom in de Sitter spaces</title>
+    <updated>2014-12-28T10:09:24Z</updated>
+    <link href="https://arxiv.org/abs/1410.8344v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1410.8344v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The hydrogen atom theory is developed for the de Sitter and anti de Sitter spaces on the basis of the Klein-Gordon-Fock wave equation in static coordinates. In both models, after separation of the variables, the problem is reduced to the general Heun equation, a second order linear differential equation having four regular singular points. A qualitative examination shows that the energy spectrum for the hydrogen atom in the de Sitter space should be quasi-stationary, and the atom should be unstable. We derive an approximate expression for energy levels within the quasi-classical approach and estimate the probability of decay of the atom. A similar analysis shows that in the anti de Sitter model the hydrogen atom should be stable in the quantum-mechanical sense. Using the quasi-classical approach, we derive approximate formulas for energy levels for this case as well. Finally, we present the extension to the case of a spin 1/2 particle for both de Sitter models. This extension leads to complicated differential equations with 8 singular points.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-10-30T12:21:48Z</published>
+    <arxiv:comment>17 pages, Report to International Conference and Workshop "Quanta and %Matter: Through Physics to Future Emerging Technologies. 22-26 September 2014. Yerevan-Tsaghkadzor, Armenia</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>O. V. Veko</name>
+    </author>
+    <author>
+      <name>K. V. Kazmerchuk</name>
+    </author>
+    <author>
+      <name>E. M. Ovsiyuk</name>
+    </author>
+    <author>
+      <name>V. M. Red'kov</name>
+    </author>
+    <author>
+      <name>A. M. Ishkhanyan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/quant-ph/0404084v1</id>
+    <title>Spin-orbit entanglement in time evolution of radial wave packets in hydrogenic systems</title>
+    <updated>2004-04-14T10:49:43Z</updated>
+    <link href="https://arxiv.org/abs/quant-ph/0404084v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/quant-ph/0404084v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Time evolution of radial wave packets built from the eigenstates of Dirac equation for a hydrogenic systems is considered. Radial wave packets are constructed from the states of different $n$ quantum number and the same lowest angular momentum. In general they exhibit a kind of breathing motion with dispersion and (partial) revivals. Calculations show that for some particular preparations of the wave packet one can observe interesting effects in spin motion, coming from inherent entanglement of spin and orbital degrees of freedom. These effects manifest themselves through some oscillations in the mean values of spin operators and through changes of spatial probability density carried by upper and lower components of the wave function. It is also shown that the characteristic time scale of predicted effects (called $T_{\mathrm{ls}}$) is for radial wave packets much smaller than in other cases, reaching values comparable to (or even less than) the time scale for the wave packet revival.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-04-14T10:49:43Z</published>
+    <arxiv:comment>12 pages, 5 postscript figures, 1 jpg figure</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>M. Turek</name>
+    </author>
+    <author>
+      <name>P. Rozmej</name>
+    </author>
+  </entry>
+</feed>

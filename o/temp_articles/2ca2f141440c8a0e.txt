@@ -1,0 +1,91 @@
+TERMS: lattice, electron, graphene
+COLORS: orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/HDNl6EicTSk4O7tc2kWUNtoPVek</id>
+  <title>arXiv Query: search_query=all:lattice AND all:electron AND all:graphene&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:13:55Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:electron+AND+all:graphene)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1627</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1204.5424v1</id>
+    <title>Hybrid Monte Carlo simulation on the graphene hexagonal lattice</title>
+    <updated>2012-04-24T16:29:36Z</updated>
+    <link href="https://arxiv.org/abs/1204.5424v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1204.5424v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>One of the many remarkable properties of graphene is that in the low energy limit the dynamics of its electrons can be effectively described by the massless Dirac equation. This has prompted investigations of graphene based on the lattice simulation of a system of 2-dimensional fermions on a square staggered lattice. We demonstrate here how to construct the path integral for graphene working directly on the graphene hexagonal lattice. For the nearest neighbor tight binding model interacting with a long range Coulomb interaction between the electrons, this leads to the hybrid Monte Carlo algorithm with no sign problem. The only approximation is the discretization of the Euclidean time. So as we extrapolate to the time continuum limit, the exact tight binding solution maybe found numerically to arbitrary precession on a finite hexagonal lattice. The potential for this approach is tested on a single hexagonal cell.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-04-24T16:29:36Z</published>
+    <arxiv:comment>14 pages, 7 figures, presented at Lattice 2011</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>PoS(Lattice 2011)056</arxiv:journal_ref>
+    <author>
+      <name>Richard Brower</name>
+    </author>
+    <author>
+      <name>Claudio Rebbi</name>
+    </author>
+    <author>
+      <name>David Schaich</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1111.0929v1</id>
+    <title>Strongly Coupled Graphene on the Lattice</title>
+    <updated>2011-11-03T17:42:35Z</updated>
+    <link href="https://arxiv.org/abs/1111.0929v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1111.0929v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The two-dimensional carbon allotrope graphene has recently attracted a lot of attention from researchers in the disciplines of Lattice Field Theory, Lattice QCD and Monte Carlo calculations. This interest has been prompted by several remarkable properties of the conduction electrons in graphene. For instance, the conical band structure of graphene at low energies is strongly reminiscent of relativistic Dirac fermions. Also, due the low Fermi velocity of v_F = c/300, where c is the speed of light in vacuum, the physics of the conduction electrons in graphene is qualitatively similar to Quantum Electrodynamics in a strongly coupled regime. In turn, this opens up the prospect of the experimental realization of gapped, strongly correlated states in the electronic phase diagram of graphene. Here, we review the experimental and theoretical motivations for Lattice Field Theory studies of graphene, and describe the directions that such research is likely to progress in during the next few years. We also give a brief overview of the two main lattice theories of graphene, the hexagonal Hubbard theory and the low-energy Dirac theory. Finally, we describe the prospect of extracting response functions, such as the electric conductivity, using Lattice Field Theory calculations.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-11-03T17:42:35Z</published>
+    <arxiv:comment>7 pages, talk presented at XXIX International Symposium on Lattice Field Theory (Lattice 2011), July 10-16, 2011, Squaw Valley, Lake Tahoe, California, USA</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Timo A. Lähde</name>
+    </author>
+    <author>
+      <name>Joaquín E. Drut</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0907.0122v2</id>
+    <title>Electronic properties of graphene antidot lattices</title>
+    <updated>2009-10-01T10:13:20Z</updated>
+    <link href="https://arxiv.org/abs/0907.0122v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0907.0122v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Graphene antidot lattices constitute a novel class of nano-engineered graphene devices with controllable electronic and optical properties. An antidot lattice consists of a periodic array of holes which causes a band gap to open up around the Fermi level, turning graphene from a semimetal into a semiconductor. We calculate the electronic band structure of graphene antidot lattices using three numerical approaches with different levels of computational complexity, efficiency, and accuracy. Fast finite-element solutions of the Dirac equation capture qualitative features of the band structure, while full tight-binding calculations and density functional theory are necessary for more reliable predictions of the band structure. We compare the three computational approaches and investigate the role of hydrogen passivation within our density functional theory scheme.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-07-01T11:37:14Z</published>
+    <arxiv:comment>19 pages, 10 figures, 1 table, final version of invited paper to focus issue on graphene in New Journal of Physics</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>New J. Phys. 11 (2009) 095020</arxiv:journal_ref>
+    <author>
+      <name>Joachim A. Fuerst</name>
+    </author>
+    <author>
+      <name>Jesper G. Pedersen</name>
+    </author>
+    <author>
+      <name>Christian Flindt</name>
+    </author>
+    <author>
+      <name>Niels Asger Mortensen</name>
+    </author>
+    <author>
+      <name>Mads Brandbyge</name>
+    </author>
+    <author>
+      <name>Thomas G. Pedersen</name>
+    </author>
+    <author>
+      <name>Antti-Pekka Jauho</name>
+    </author>
+    <arxiv:doi>10.1088/1367-2630/11/9/095020</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1367-2630/11/9/095020" title="doi"/>
+  </entry>
+</feed>

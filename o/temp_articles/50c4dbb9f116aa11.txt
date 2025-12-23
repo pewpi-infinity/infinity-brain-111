@@ -1,0 +1,72 @@
+TERMS: hydrogen, quantum, crystal, boson
+COLORS: purple, blue, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/CE2vAB817iX+q0ICBl7wGyYS3bA</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:crystal AND all:boson&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:39:40Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:crystal+AND+all:boson))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>4</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2508.17487v1</id>
+    <title>Mechanisms of superconductivity and inhomogeneous states in metallic hydrogen and electron systems with attraction</title>
+    <updated>2025-08-24T18:35:44Z</updated>
+    <link href="https://arxiv.org/abs/2508.17487v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.17487v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the Review we discuss anomalous aspects of superconductivity (SC) and normal state, as well as formation of inhomogeneous (droplet-like or cluster-like) states in electron systems with attraction. We consider both the models with the retardation (Eliashberg mechanism of SC for strong electron-phonon interaction in metallic hydrogen) and without retardation (but with local onsite attraction). We concentrate on the mechanism of the BCS-BEC crossover for the Hubbard model with local attraction and diagonal disorder for the two-dimensional films of the dirty metal. We analyze also the model of the inhomogeneous spaceseparated Fermi-Bose mixture for the bismuth oxides BaKBiO, which contains the paired clusters of bosonic states as well as unpaired fermionic clusters. Superconductivity is realized in this system due to local pairs tunneling from one bosonic cluster to the neighboring one via the fermionic barrier. For metallic hydrogen and metallic hydrides, we calculate the critical temperature and discuss important possibility for practical applications how to increase the temperature by decreasing pressure in the framework of the generalized Eliashberg approach. We advocate also interesting analogies with the quantum (vortex) crystal for long-living low-dimensional metastable phases of metallic hydrogen including filamentous phase with proton chains embedded in 3D electron Fermi liquid and planar phase with proton plains. We formulate the concept of two Bose-condensates in SC electron and superfluid (SF) ion subsystems and provide the estimate for the lifetime of the long-living metastable phases at normal pressure. The estimate is connected with the formation and growth of the critical seeds of the new (molecular) phase in the process of quantum under-barrier tunneling.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-24T18:35:44Z</published>
+    <arxiv:comment>14 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>M. Yu. Kagan</name>
+    </author>
+    <author>
+      <name>A. V. Krasavin</name>
+    </author>
+    <author>
+      <name>R. Sh. Ikhsanov</name>
+    </author>
+    <author>
+      <name>E. A. Mazur</name>
+    </author>
+    <author>
+      <name>A. P. Menushenkov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/quant-ph/9612040v3</id>
+    <title>Quantum Equivalence Principle</title>
+    <updated>1997-02-13T08:26:22Z</updated>
+    <link href="https://arxiv.org/abs/quant-ph/9612040v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/quant-ph/9612040v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  A simple mapping procedure is presented by which classical orbits and path integrals for the motion of a point particle in flat space can be transformed directly into those in curved space with torsion. Our procedure evolved from well-established methods in the theory of plastic deformations, where crystals with defects are described mathematically as images of ideal crystals under active nonholonomic coordinate transformations.
+  Our mapping procedure may be viewed as a natural extension of Einstein's famous equivalence principle. When applied to time-sliced path integrals, it gives rise to a new "quantum equivalence principle" which determines short-time action and measure of fluctuating orbits in spaces with curvature and torsion. The nonholonomic transformations possesses a nontrivial Jacobian in the path measure which produces in a curved space an additional term proportional to the curvature scalar R, thus canceling a similar term found earlier by DeWitt. This cancelation is important for correctly describing semiclassically and quantum mechanically various systems such as the hydrogen atom, a particle on the surface of a sphere, and a spinning top. It is also indispensable for the process of bosonization, by which Fermi particles are redescribed by those fields.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1996-12-17T12:29:18Z</published>
+    <arxiv:comment>Lectures presented at the 1996 Cargese Summer School on FUNCTIONAL INTEGRATION: BASICS AND APPLICATIONS. Author's institution under (http://www.physik.fu-berlin.de/~kleinert/institution.html) Paper can be read in HTML format under (http://www.physik.fu-berlin.de/~kleinert/kleiner_re252/preprint.html)</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>H. Kleinert</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/quant-ph/9606001v2</id>
+    <title>Classical and Fluctuating Paths in Spaces with Curvature and Torsion</title>
+    <updated>1996-08-08T06:46:08Z</updated>
+    <link href="https://arxiv.org/abs/quant-ph/9606001v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/quant-ph/9606001v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  This conference talk elaborates on a recently discovered mapping procedure by which classical orbits and path integrals for the motion of a point particle in flat space can be transformed correctly into those in curved space. This procedure evolved from well established methods in the theory of plastic deformations where crystals with defects are described mathematically by applying nonholonomic coordinate transformations to ideal crystals. In the context of time-sliced path integrals, there seems to exists a quantum equivalence principle which determines the measures of fluctating orbits in spaces with curvature and torsion. The nonholonomic transformations produce a nontrivial Jacobian in the path measure which in a curved space produces
+ an additional term proportional to the curvature scalar canceling a similar term found earlier by DeWitt from a naive formulation of Feynman's time-sliced path integral. This cancelation is important in correctly describing semiclassically and quantum mechanically various systems such as the hydrogen atom, a particle on the surface of a sphere, and a spinning top. It is also indispensible for the process of bosonization, by which Fermi particles are redescribed in terms of Bose fields.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1996-06-03T11:27:39Z</published>
+    <arxiv:comment>Lecture presented at the 5th INTERNATIONAL CONFERENCE ON PATH INTEGRALS FROM meV TO MeV, Dubna, May 27-31, 1996 For more info, see http://www.physik.fu-berlin.de/~kleinert/</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>H. Kleinert</name>
+    </author>
+  </entry>
+</feed>

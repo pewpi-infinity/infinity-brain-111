@@ -1,0 +1,36 @@
+TERMS: electron, crystal, tachyon
+COLORS: green, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/O9jMAWFACLbaJMM9Xvn7yeI8aGM</id>
+  <title>arXiv Query: search_query=all:electron AND all:crystal AND all:tachyon&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:23:01Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:electron+AND+(all:crystal+AND+all:tachyon)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2103.01547v1</id>
+    <title>Tachyonic and Plasma Instabilities of $η$-Pairing States Coupled to Electromagnetic Fields</title>
+    <updated>2021-03-02T08:06:13Z</updated>
+    <link href="https://arxiv.org/abs/2103.01547v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.01547v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Cooper pairs featuring a nonzero center-of-mass crystal momentum ${\boldsymbol Q}=(π,π, \dots)$ and an off-diagonal long-range order ($η$-pairing states) constitute exact eigenstates of a Hubbard model [C. N. Yang, Phys. Rev. Lett. 63, 2144 (1989)]. Here we show that the $η$-pairing states are rendered dynamically unstable via coupling to dynamical electromagnetic fields. The instability is caused by "tachyonic" electromagnetic fields and unstable plasma modes for attractive and repulsive interactions, respectively. The typical time scale of the growth of the instability is of the order of femtoseconds for electron systems in solids, which places a strict bound on the lifetime of the $η$-pairing states. The decay of the $η$-pairing states leads to enhanced light emission with frequencies shifted from the Hubbard interaction strength for the repulsive case and unattenuated electromagnetic penetration for the attractive case.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-02T08:06:13Z</published>
+    <arxiv:comment>19 pages, 14 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>Naoto Tsuji</name>
+    </author>
+    <author>
+      <name>Masaya Nakagawa</name>
+    </author>
+    <author>
+      <name>Masahito Ueda</name>
+    </author>
+  </entry>
+</feed>

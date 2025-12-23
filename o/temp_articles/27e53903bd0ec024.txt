@@ -1,0 +1,101 @@
+TERMS: vapor, spin, probability
+COLORS: green, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/MSP1ra/+kmgPWuC/xmmGnJxHzGg</id>
+  <title>arXiv Query: search_query=all:vapor AND all:spin AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:25:55Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:vapor+AND+(all:spin+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>10</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1601.07573v1</id>
+    <title>Raman and nuclear magnetic resonance investigation of alkali metal vapor interaction with alkene-based anti-relaxation coating</title>
+    <updated>2016-01-25T14:28:38Z</updated>
+    <link href="https://arxiv.org/abs/1601.07573v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1601.07573v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The use of anti-relaxation coatings in alkali vapor cells yields substantial performance improvements by reducing the probability of spin relaxation in wall collisions by several orders of magnitude. Some of the most effective anti-relaxation coating materials are alpha-olefins, which (as in the case of more traditional paraffin coatings) must undergo a curing period after cell manufacturing in order to achieve the desired behavior. Until now, however, it has been unclear what physicochemical processes occur during cell curing, and how they may affect relevant cell properties. We present the results of nondestructive Raman-spectroscopy and magnetic-resonance investigations of the influence of alkali metal vapor (Cs or K) on an alpha-olefin, 1-nonadecene coating the inner surface of a glass cell. It was found that during the curing process, the alkali metal catalyzes migration of the carbon-carbon double bond, yielding a mixture of cis- and trans-2-nonadecene.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-01-25T14:28:38Z</published>
+    <arxiv:comment>5 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>O. Yu. Tretiak</name>
+    </author>
+    <author>
+      <name>J. W. Blanchard</name>
+    </author>
+    <author>
+      <name>D. Budker</name>
+    </author>
+    <author>
+      <name>P. K. Olshin</name>
+    </author>
+    <author>
+      <name>S. N. Smirnov</name>
+    </author>
+    <author>
+      <name>M. V. Balabas</name>
+    </author>
+    <arxiv:doi>10.1063/1.4943123</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/1.4943123" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0303314v2</id>
+    <title>Spin-dependent magnetoresistance and spin-charge separation in multiwall carbon nanotubes</title>
+    <updated>2003-03-18T14:33:45Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0303314v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0303314v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The spin-dependent transport in multiwall carbon nanotubes obtained by chemical vapor deposition (CVD) in porous alumina membranes is studied. The zero bias anomaly is found to verify the predicted Luttinger liquid power law. The magnetoresistance at high fields varies in sign and amplitude from one sample to the other, which is probably due to the presence of dopant in the tube. In contrast, the magnetoresistance due to the spin polarized current is destroyed in the nanotube as expected in case of spin-charge separation.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-03-17T14:01:01Z</published>
+    <arxiv:comment>4 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>X. Hoffer</name>
+    </author>
+    <author>
+      <name>Ch. Klinke</name>
+    </author>
+    <author>
+      <name>J. -M. Bonard</name>
+    </author>
+    <author>
+      <name>L. Gravier</name>
+    </author>
+    <author>
+      <name>J. - E. Wegrowe</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.24825v1</id>
+    <title>Liquid-vapor transition in a model of a continuum particle system with finite-range modified Kac pair potential</title>
+    <updated>2025-10-28T15:41:57Z</updated>
+    <link href="https://arxiv.org/abs/2510.24825v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.24825v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We prove the existence of a phase transition in dimension $d&gt;1$ in a continuum particle system interacting with a pair potential containing a modified attractive Kac potential of range $γ^{-1}$, with $γ&gt;0$. This transition is "close", for small positive $γ$, to the one proved previously by Lebowitz and Penrose in the van der Waals limit $γ\downarrow0$. It is of the type of the liquid-vapor transition observed when a fluid, like water, heated at constant pressure, boils at a given temperature. Previous results on phase transitions in continuum systems with stable potentials required the use of unphysical four-body interactions or special symmetries between the liquid and vapor.
+  The pair interaction we consider is obtained by partitioning space into cubes of volume $γ^{-d}$, and letting the Kac part of the pair potential be uniform in each cube and act only between adjacent cubes. The "short-range" part of the pair potential is quite general (in particular, it may or may not include a hard core), but restricted to act only between particles in the same cube.
+  Our setup, the "boxed particle model", is a special case of a general "spin" system, for which we establish a first-order phase transition using reflection positivity and the Dobrushin--Shlosman criterion.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-28T15:41:57Z</published>
+    <arxiv:comment>39 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Qidong He</name>
+    </author>
+    <author>
+      <name>Ian Jauslin</name>
+    </author>
+    <author>
+      <name>Joel Lebowitz</name>
+    </author>
+    <author>
+      <name>Ron Peled</name>
+    </author>
+  </entry>
+</feed>

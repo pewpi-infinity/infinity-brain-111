@@ -1,0 +1,31 @@
+TERMS: hydrogen, frequency, lattice, fusion
+COLORS: purple, green, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/oOuXXNBRc+x0ugykuAfq9sLoqnk</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:frequency AND all:lattice AND all:fusion&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:41:47Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:frequency+AND+(all:lattice+AND+all:fusion))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1602.02277v1</id>
+    <title>Chemical and nuclear catalysis driven by localized anharmonic vibrations</title>
+    <updated>2016-02-06T16:38:10Z</updated>
+    <link href="https://arxiv.org/abs/1602.02277v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1602.02277v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In many-body nonlinear systems with sufficient anharmonicity, a special kind of lattice vibrations, namely, Localized Anharmonic Vibrations (LAV) can be excited either thermally or by external triggering, in which the amplitude of atomic oscillations greatly exceeds that of harmonic oscillations (phonons) that determine the system temperature. Coherency and persistence of LAV may have drastic effect on chemical and nuclear reaction rates due to time-periodic modulation of reaction sites. One example is a strong acceleration of chemical reaction rates driven by thermally-activated "jumps" over the reaction barrier due to the time-periodic modulation of the barrier height in the LAV vicinity. At sufficiently low temperatures, the reaction rate is controlled by quantum tunneling through the barrier rather than by classical jumping over it. A giant increase of sub-barrier transparency was demonstrated for a parabolic potential well with the time-periodic eigenfrequency, when the modulation frequency exceeds the eigenfrequency by a factor of ~2 (parametric regime). Such regime can be realized for a hydrogen or deuterium atom in metal hydrides/deuterides, such as NiH or PdD, in the vicinity of LAV. We present an analytical solution of the Schrodinger equation for a nonstationary harmonic oscillator, analyze the parametric regime in details and discuss its applications to the tunnel effect and to D-D fusion in PdD lattice. We obtain simple analytical expressions for the increase of amplitude and energy of zero-point oscillations (ZPO) induced by the parametric modulation. Based on that, we demonstrate a drastic increase of the D-D fusion rate with in-creasing number of modulation periods evaluated in the framework of Schwinger model, which takes into account suppression of the Coulomb barrier due to lattice vibrations.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-02-06T16:38:10Z</published>
+    <arxiv:comment>7 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>V. I. Dubinko</name>
+    </author>
+    <author>
+      <name>D. V. Laptev</name>
+    </author>
+  </entry>
+</feed>

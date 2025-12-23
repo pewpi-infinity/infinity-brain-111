@@ -1,0 +1,95 @@
+TERMS: entropy, muon
+COLORS: red, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/l3Vwf42ySDIygpmf2USgY4yz8IQ</id>
+  <title>arXiv Query: search_query=all:entropy AND all:muon&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T00:58:00Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+all:muon&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>54</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2312.05712v1</id>
+    <title>Entanglement Entropy Distributions of a Muon Decay</title>
+    <updated>2023-12-10T00:02:34Z</updated>
+    <link href="https://arxiv.org/abs/2312.05712v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.05712v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Divergences that occur in density matrices of decay and scattering processes are shown to be regularized by tracing and unitarity or the optical theorem. These divergences are regularized by the lifetime of the decaying particle or the total scattering cross section. Also, this regularization is shown to give the expected helicities of final particles. The density matrix is derived for the weak decay of a polarized muon at rest, $μ^- \rightarrow ν_μ (e^- \bar ν_e)$, with Lorentz invariant density matrix entries and unitarity upheld at tree level. The electron's von Neumann entanglement entropy distributions are calculated with respect to both the electron's emission angle and energy. The angular entropy distribution favors an electron emitted backwards with respect to the muon's polarization given a minimum volume regularization. The kinematic entropy distribution is maximal at half the muon's rest mass energy. These results are similar to the electron's angular and kinematic decay rate distributions. Both the density matrix and entanglement entropy can be cast either in terms of ratios of areas or volumes.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-10T00:02:34Z</published>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>LHEP 2024 (2024) 531</arxiv:journal_ref>
+    <author>
+      <name>Shanmuka Shivashankara</name>
+    </author>
+    <author>
+      <name>Patti Rizzo</name>
+    </author>
+    <author>
+      <name>Nicole Cafe</name>
+    </author>
+    <arxiv:doi>10.31526/lhep.2024.531</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.31526/lhep.2024.531" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.04664v3</id>
+    <title>Implicit Bias of Spectral Descent and Muon on Multiclass Separable Data</title>
+    <updated>2025-05-19T03:35:21Z</updated>
+    <link href="https://arxiv.org/abs/2502.04664v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.04664v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Different gradient-based methods for optimizing overparameterized models can all achieve zero training error yet converge to distinctly different solutions inducing different generalization properties. We provide the first complete characterization of implicit optimization bias for p-norm normalized steepest descent (NSD) and momentum steepest descent (NMD) algorithms in multi-class linear classification with cross-entropy loss. Our key theoretical contribution is proving that these algorithms converge to solutions maximizing the margin with respect to the classifier matrix's p-norm, with established convergence rates. These results encompass important special cases including Spectral Descent and Muon, which we show converge to max-margin solutions with respect to the spectral norm. A key insight of our contribution is that the analysis of general entry-wise and Schatten p-norms can be reduced to the analysis of NSD/NMD with max-norm by exploiting a natural ordering property between all p-norms relative to the max-norm and its dual sum-norm. For the specific case of descent with respect to the max-norm, we further extend our analysis to include preconditioning, showing that Adam converges to the matrix's max-norm solution. Our results demonstrate that the multi-class linear setting, which is inherently richer than the binary counterpart, provides the most transparent framework for studying implicit biases of matrix-parameter optimization algorithms.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-07T05:09:32Z</published>
+    <arxiv:comment>Paper restructured with results on normalized momentum steepest descent (including Muon as a special case) added</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Chen Fan</name>
+    </author>
+    <author>
+      <name>Mark Schmidt</name>
+    </author>
+    <author>
+      <name>Christos Thrampoulidis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2109.03368v1</id>
+    <title>Probing the superconducting ground state of noncentrosymmetric high entropy alloys using muon-spin rotation and relaxation</title>
+    <updated>2021-09-07T23:21:15Z</updated>
+    <link href="https://arxiv.org/abs/2109.03368v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2109.03368v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recently, high entropy alloys (HEAs) have emerged as a new platform for discovering superconducting materials and offer avenues to explore exotic superconductivity. The highly disordered nature of HEA suggests regular phonon required for BCS superconductivity may be unlikely to occur. Therefore understanding the microscopic properties of these superconducting HEA is important. We report the first detailed characterization of the superconducting properties of the noncentrosymmetric ($α$-Mn structure) HEA {(HfNb)}$_{0.10}${(MoReRu)}$_{0.90}$, and {(ZrNb)}$_{0.10}${(MoReRu)}$_{0.90}$ by using magnetization, specific heat, AC transport, and muon-spin relaxation/rotation ($μ$SR). Despite the disordered nature, low temperature specific heat and transverse-field muon spin rotation measurements suggest nodeless isotropic superconducting gap and Zero-field $μ$SR measurements confirm that time reversal symmetry is preserved in the superconducting ground state.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-09-07T23:21:15Z</published>
+    <arxiv:comment>8 pages, 8 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>Kapil Motla</name>
+    </author>
+    <author>
+      <name> Arushi</name>
+    </author>
+    <author>
+      <name>P. K. Meena</name>
+    </author>
+    <author>
+      <name>D. Singh</name>
+    </author>
+    <author>
+      <name>P. K. Biswas</name>
+    </author>
+    <author>
+      <name>A. D. Hillier</name>
+    </author>
+    <author>
+      <name>R. P. Singh</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.104.094515</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.104.094515" title="doi"/>
+  </entry>
+</feed>

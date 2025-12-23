@@ -1,0 +1,37 @@
+TERMS: hydrogen, frequency, graphene, resonance
+COLORS: purple, green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Pr8C44x/yOQi2oyX242C86hPJKQ</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:frequency AND all:graphene AND all:resonance&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:44:35Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:frequency+AND+(all:graphene+AND+all:resonance))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1808.04195v2</id>
+    <title>Giant non-linear susceptibility of hydrogenic donors in silicon and germanium</title>
+    <updated>2019-05-31T16:51:14Z</updated>
+    <link href="https://arxiv.org/abs/1808.04195v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1808.04195v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Implicit summation is a technique for the conversion of sums over intermediate states in multiphoton absorption and the high-order susceptibility in hydrogen into simple integrals. Here, we derive the equivalent technique for hydrogenic impurities in multi-valley semiconductors. While the absorption has useful applications, it is primarily a loss process; conversely, the non-linear susceptibility is a crucial parameter for active photonic devices. For Si:P, we predict the hyperpolarizability ranges from $χ^{(3)}/n_{\text{3D}}=2.9 $ to $580 \times 10^{-38}$ $\text{m}^5/\text{V}^2$ depending on the frequency, even while avoiding resonance. Using samples of a reasonable density, $n_{\text{3D}}$, and thickness, $L$, to produce third-harmonic generation at 9 THz, a frequency that is difficult to produce with existing solid-state sources, we predict that $χ^{(3)}$ should exceed that of bulk InSb and $χ^{(3)}L$ should exceed that of graphene and resonantly enhanced quantum wells.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-08-13T13:25:50Z</published>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>Nguyen H. Le</name>
+    </author>
+    <author>
+      <name>Grigory V. Lanskii</name>
+    </author>
+    <author>
+      <name>G. Aeppli</name>
+    </author>
+    <author>
+      <name>B. N. Murdin</name>
+    </author>
+  </entry>
+</feed>

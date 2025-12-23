@@ -1,0 +1,80 @@
+TERMS: lattice, wavefunction, bandgap
+COLORS: orange, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/CrJSNPVv4eRVexwBtfvgpYS9TP0</id>
+  <title>arXiv Query: search_query=all:lattice AND all:wavefunction AND all:bandgap&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:15:29Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:wavefunction+AND+all:bandgap)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2411.01071v3</id>
+    <title>Nanoscale and Element-Specific Lattice Temperature Measurements using Core-Loss Electron Energy-Loss Spectroscopy</title>
+    <updated>2025-05-28T06:04:44Z</updated>
+    <link href="https://arxiv.org/abs/2411.01071v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.01071v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Measuring nanoscale local temperatures, particularly in vertically integrated and multi-component systems, remains challenging. Spectroscopic techniques like X-ray absorption and core-loss electron energy-loss spectroscopy (EELS) are sensitive to lattice temperature, but understanding thermal effects is nontrivial. This work explores the potential for nanoscale and element-specific core-loss thermometry by comparing the Si L2,3 edge's temperature-dependent redshift against plasmon energy expansion thermometry (PEET) in a scanning TEM. Using density functional theory (DFT), time-dependent DFT, and the Bethe-Salpeter equation, we ab initio model both the Si L2,3 and plasmon redshift. We find that the core-loss redshift occurs due to bandgap reduction from electron-phonon renormalization. Our results indicate that despite lower core-loss signal intensity compared to plasmon features, core-loss thermometry has key advantages and can be more accurate through standard spectral denoising. Specifically, we show that the Varshni equation easily interprets the core-loss redshift for semiconductors, which avoids plasmon spectral convolution for PEET in complex junctions and interfaces. We also find that core-loss thermometry is more accurate than PEET at modeling thermal lattice expansion in semiconductors, unless the specimen's temperature-dependent dielectric properties are fully characterized. Furthermore, core-loss thermometry has the potential to measure nanoscale heating in multi-component materials and stacked interfaces with elemental specificity at length scales smaller than the plasmon's wavefunction.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-01T22:56:30Z</published>
+    <arxiv:comment>40 pages, 5 main text figures, 1 table</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Levi D. Palmer</name>
+    </author>
+    <author>
+      <name>Wonseok Lee</name>
+    </author>
+    <author>
+      <name>Daniel B. Durham</name>
+    </author>
+    <author>
+      <name>Javier Fajardo,</name>
+    </author>
+    <author>
+      <name>Yuzi Liu</name>
+    </author>
+    <author>
+      <name>A. Alec Talin</name>
+    </author>
+    <author>
+      <name>Thomas E. Gage</name>
+    </author>
+    <author>
+      <name>Scott K. Cushing</name>
+    </author>
+    <arxiv:doi>10.1021/acsphyschemau.5c00044</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1021/acsphyschemau.5c00044" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0712.1776v2</id>
+    <title>Reflection-Free One-Way Edge Modes in a Gyromagnetic Photonic Crystal</title>
+    <updated>2008-01-10T17:52:15Z</updated>
+    <link href="https://arxiv.org/abs/0712.1776v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0712.1776v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We point out that electromagnetic one-way edge modes analogous to quantum Hall edge states, originally predicted by Raghu and Haldane in 2D gyroelectric photonic crystals possessing Dirac point-derived bandgaps, can appear in more general settings. In particular, we show that the TM modes in a gyromagnetic photonic crystal can be formally mapped to electronic wavefunctions in a periodic electromagnetic field, so that the only requirement for the existence of one-way edge modes is that the Chern number for all bands below a gap is non-zero. In a square-lattice gyromagnetic Yttrium-Iron-Garnet photonic crystal operating at microwave frequencies, which lacks Dirac points, time-reversal breaking is strong enough that the effect should be easily observable. For realistic material parameters, the edge modes occupy a 10% band gap. Numerical simulations of a one-way waveguide incorporating this crystal show 100% transmission across strong defects, such as perfect conductors several lattice constants wide, larger than the width of the waveguide.</summary>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-12-11T17:18:44Z</published>
+    <arxiv:comment>4 pages, 3 figures (Figs. 1 and 2 revised.)</arxiv:comment>
+    <arxiv:primary_category term="physics.optics"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 100, 013905 (2008)</arxiv:journal_ref>
+    <author>
+      <name>Zheng Wang</name>
+    </author>
+    <author>
+      <name>Y. D. Chong</name>
+    </author>
+    <author>
+      <name>John D. Joannopoulos</name>
+    </author>
+    <author>
+      <name>Marin Soljacic</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.100.013905</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.100.013905" title="doi"/>
+  </entry>
+</feed>

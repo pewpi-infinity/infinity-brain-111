@@ -1,0 +1,87 @@
+TERMS: frequency, entropy, muon
+COLORS: green, red, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/5hJ2x9ET7JL0Wurg2O7kGSDwm4E</id>
+  <title>arXiv Query: search_query=all:frequency AND all:entropy AND all:muon&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:10:03Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:entropy+AND+all:muon)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1002.1635v1</id>
+    <title>Muon-spin relaxation and heat capacity measurements on the magnetoelectric and multiferroic pyroxenes LiFeSi2O6 and NaFeSi2O6</title>
+    <updated>2010-02-08T15:34:09Z</updated>
+    <link href="https://arxiv.org/abs/1002.1635v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1002.1635v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The results of muon-spin relaxation and heat capacity measurements on two pyroxene compounds LiFeSi2O6 and NaFeSi2O6 demonstrate that despite their underlying structural similarity the magnetic ordering is considerably different. In LiFeSi2O6 a single muon precession frequency is observed below TN, consistent with a single peak at TN in the heat capacity and a commensurate magnetic structure. In applied magnetic fields the heat capacity peak splits in two. In contrast, for natural NaFeSi2O6, where multiferroicity has been observed in zero-magnetic-field, a rapid Gaussian depolarization is observed showing that the magnetic structure is more complex. Synthetic NaFeSi2O6 shows a single muon precession frequency but with a far larger damping rate than in the lithium compound. Heat capacity measurements reproduce the phase diagrams previously derived from other techniques and demonstrate that the magnetic entropy is mostly associated with the build up of correlations in the quasi-one-dimensional Fe3+ chains.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-02-08T15:34:09Z</published>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Physical Review B 81, 214403 (2010)</arxiv:journal_ref>
+    <author>
+      <name>P. J. Baker</name>
+    </author>
+    <author>
+      <name>H. J. Lewtas</name>
+    </author>
+    <author>
+      <name>S. J. Blundell</name>
+    </author>
+    <author>
+      <name>T. Lancaster</name>
+    </author>
+    <author>
+      <name>I. Franke</name>
+    </author>
+    <author>
+      <name>W. Hayes</name>
+    </author>
+    <author>
+      <name>F. L. Pratt</name>
+    </author>
+    <author>
+      <name>L. Bohaty</name>
+    </author>
+    <author>
+      <name>P. Becker</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.81.214403</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.81.214403" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0811.4598v1</id>
+    <title>Two-dimensional magnetism in the pnictide superconductor parent material SrFeAsF probed by muon-spin relaxation</title>
+    <updated>2008-11-27T17:37:14Z</updated>
+    <link href="https://arxiv.org/abs/0811.4598v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0811.4598v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We report muon-spin relaxation measurements on SrFeAsF, which is the parent compound of a newly discovered iron-arsenic-fluoride based series of superconducting materials. We find that this material has very similar magnetic properties to LaFeAsO, such as separated magnetic and structural transitions (TN = 120 K, Ts = 175 K), contrasting with SrFe2As2 where they are coincident. The muon oscillation frequencies fall away very sharply at TN, which suggests that the magnetic exchange between the layers is weaker than in comparable oxypnictide compounds. This is consistent with our specific heat measurements, which find that the entropy change S = 0.05 J/mol/K largely occurs at the structural transition and there is no anomaly at TN.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-11-27T17:37:14Z</published>
+    <arxiv:comment>4 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>P. J. Baker</name>
+    </author>
+    <author>
+      <name>I. Franke</name>
+    </author>
+    <author>
+      <name>T. Lancaster</name>
+    </author>
+    <author>
+      <name>S. J. Blundell</name>
+    </author>
+    <author>
+      <name>L. Kerslake</name>
+    </author>
+    <author>
+      <name>S. J. Clarke</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.79.060402</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.79.060402" title="doi"/>
+  </entry>
+</feed>

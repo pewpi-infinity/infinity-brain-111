@@ -1,0 +1,72 @@
+TERMS: hydrogen, quantum, graphene, boson
+COLORS: purple, blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/cEfN0O2ja3IjIR3ltMu4n+oae/E</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:graphene AND all:boson&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:40:46Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:graphene+AND+all:boson))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>4</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1904.12452v2</id>
+    <title>Theory of Phonon-Assisted Adsorption in Graphene: Many-Body Infrared Dynamics</title>
+    <updated>2020-01-02T20:50:56Z</updated>
+    <link href="https://arxiv.org/abs/1904.12452v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1904.12452v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We devise a theory of adsorption of low-energy atoms on suspended graphene membranes maintained at 10 K based on a model of atom-acoustic phonon interactions. Our primary technique includes a non-perturbative method which treats the dynamics of the multiple phonons in an exact manner within the purview of the Independent Boson Model. We present a study on the effects of the phonons assisting the renormalization as well as decay of the incident atom propagator and discuss results for the many-body adsorption rates for atomic hydrogen on graphene micromembranes. Additionally, we report similarities of this model with other branches of quantum field theories that include long-range interactions like quantum electrodynamics (QED) and perturbative gravity.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-04-29T05:36:51Z</published>
+    <arxiv:comment>13 pages, 9 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Phys. Rev. B 100, 075429 (2019)</arxiv:journal_ref>
+    <author>
+      <name>Sanghita Sengupta</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.100.075429</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.100.075429" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1312.5754v2</id>
+    <title>Quantum Sticking of Atoms on Membranes</title>
+    <updated>2014-12-05T19:06:39Z</updated>
+    <link href="https://arxiv.org/abs/1312.5754v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1312.5754v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A continuum model for low-energy physisorption on a membrane under tension is proposed and studied with variational mean-field theory. A discontinuous change in the energy-dependent sticking coefficient is predicted under certain conditions. This singularity is a result of the bosonic orthogonality catastrophe of the vibrational states of the membrane. The energy-dependent sticking coefficient is predicted to have exponential scaling in 1/E above the singularity. The application of this model to the quantum sticking of cold hydrogen to suspended graphene is discussed. The model predicts that a beam of atomic hydrogen can be completely reflected by suspended graphene at ultralow energies.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-12-19T21:12:28Z</published>
+    <arxiv:comment>15 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Phys. Rev. B 90, 245412 (2014)</arxiv:journal_ref>
+    <author>
+      <name>Dennis P. Clougherty</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.90.245412</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.90.245412" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1705.04872v2</id>
+    <title>Radiative Corrections to Quantum Sticking on Graphene</title>
+    <updated>2017-07-17T15:09:19Z</updated>
+    <link href="https://arxiv.org/abs/1705.04872v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1705.04872v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the sticking rate of atomic hydrogen to suspended graphene using four different methods that include contributions from processes with multiphonon emission. We compare the numerical results of the sticking rate obtained by: (1) the loop expansion of the atom self-energy, (2) the non-crossing approximation (NCA), (3) the independent boson model approximation (IBMA), and (4) a leading-order soft-phonon resummation method (SPR). The loop expansion reveals an infrared problem, analogous to the infamous infrared problem in QED. The 2-loop contribution to the sticking rate gives a result that tends to diverge for large membranes. The latter three methods remedy this infrared problem and give results that are finite in the limit of an infinite membrane. We find that for micromembranes (sizes ranging 100 nm to 10 $μ$m), the latter three methods give results that are in good agreement with each other and yield sticking rates that are mildly suppressed relative to the lowest-order golden rule rate. Lastly, we find that the SPR sticking rate decreases slowly to zero with increasing membrane size, while both the NCA and IBMA rates tend to a nonzero constant in this limit. Thus, approximations to the sticking rate can be sensitive to the effects of soft-phonon emission for large membranes.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-05-13T18:41:38Z</published>
+    <arxiv:comment>18 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Phys. Rev. B 96, 035419 (2017)</arxiv:journal_ref>
+    <author>
+      <name>Sanghita Sengupta</name>
+    </author>
+    <author>
+      <name>Dennis P. Clougherty</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.96.035419</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.96.035419" title="doi"/>
+  </entry>
+</feed>

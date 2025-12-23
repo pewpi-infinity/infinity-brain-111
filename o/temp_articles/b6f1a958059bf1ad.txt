@@ -1,0 +1,76 @@
+TERMS: entropy, spin
+COLORS: red, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/MDVXGS+9H5BoYBhMDqdmOONrUfs</id>
+  <title>arXiv Query: search_query=all:entropy AND all:spin&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T00:57:54Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+all:spin&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>3980</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2111.11605v3</id>
+    <title>Spin Entropy</title>
+    <updated>2022-06-01T16:07:51Z</updated>
+    <link href="https://arxiv.org/abs/2111.11605v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2111.11605v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In classical physics, entropy quantifies the randomness of large systems, where the complete specification of the state, though possible in theory, is not possible in practice. In quantum physics, despite its inherently probabilistic nature, the concept of entropy has been elusive. The von Neumann entropy, currently adopted in quantum information and computing, models only the randomness associated with unknown specifications of a state and is zero for pure quantum states, and thus cannot quantify the inherent randomness of its observables. Our goal is to provide such quantification.
+  This paper focuses on the quantification of the observed spin values associated with a pure quantum state, given an axis $z$. To this end, we define a spin entropy, which is not zero for pure states, and its minimum is $\ln 2π$, reflecting the uncertainty principle for the spin observables. We study the spin entropy for single massive particles with spin $1/2$ and spin 1, photons, and two fermions in entangled and disentangled states. The spin entropy attains local minima for Bell states, which are pure entangled states of two fermions, and local maxima for disentangled states. The spin entropy may be useful for developing robust quantum computational processes.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-11-23T01:56:26Z</published>
+    <arxiv:comment>17 pages, 3 figures. This version adopts the geometric quantization method to evaluate the spin entropy. It also extends some applications of the method</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Davi Geiger</name>
+    </author>
+    <author>
+      <name>Zvi Kedem</name>
+    </author>
+    <arxiv:doi>10.3390/e24091292</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/e24091292" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1508.01702v1</id>
+    <title>Entropy Production and Equilibrium Conditions of General-Covariant Spin Systems</title>
+    <updated>2015-08-07T14:23:45Z</updated>
+    <link href="https://arxiv.org/abs/1508.01702v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1508.01702v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In generalizing the special-relativistic one-component version of Eckart's continuum thermodynamics to general-relativistic space-times with Riemannian or post-Riemannian geometry, we consider the entropy production and other themodynamical quantities such as the entropy flux and the Gibbs fundamental equation. We discuss equilibrium conditions in gravitational theories which are based on such geometries. In particular, thermodynamic implications of the non-symmetry of the energy-momentum tensor and the related spin balance equations are investigated, also for the special case of General Relativity.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-08-07T14:23:45Z</published>
+    <arxiv:comment>General-covariant spin systems are carefully discussed in the framework of non-equlibrium thermodynamics starting out with an already published entropy identity</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <author>
+      <name>Wolfgang Muschik</name>
+    </author>
+    <author>
+      <name>Horst-Heino von Borzeszkowski</name>
+    </author>
+    <arxiv:doi>10.3390/e17127884</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/e17127884" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0311056v4</id>
+    <title>Universality of Entropy Scaling in 1D Gap-less Models</title>
+    <updated>2005-07-24T17:52:33Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0311056v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0311056v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We consider critical models in one dimension. We study the ground state in thermodynamic limit [infinite lattice]. Following Bennett, Bernstein, Popescu, and Schumacher, we use the entropy of a sub-system as a measure of entanglement. We calculate the entropy of a part of the ground state. At zero temperature it describes entanglement of this part with the rest of the ground state. We obtain an explicit formula for the entropy of the subsystem at low temperature. At zero temperature we reproduce a logarithmic formula of Holzhey, Larsen and Wilczek. Our derivation is based on the second law of thermodynamics. The entropy of a subsystem is calculated explicitly for Bose gas with delta interaction, the Hubbard model and spin chains with arbitrary value of spin.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-11-04T01:50:58Z</published>
+    <arxiv:comment>A section on spin chains with arbitrary value of spin is included. The entropy of a subsystem is calculated explicitly as a function of spin. References updated</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Physical Review Letters, vol 92, issue 9, electronic identifier 096402, 05 March 2004</arxiv:journal_ref>
+    <author>
+      <name>Vladimir Korepin</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.92.096402</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.92.096402" title="doi"/>
+  </entry>
+</feed>

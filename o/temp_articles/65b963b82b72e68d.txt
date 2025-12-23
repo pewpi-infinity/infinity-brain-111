@@ -1,0 +1,78 @@
+TERMS: quantum, ionization, wavefunction
+COLORS: blue, green, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/AoE4402GymUnbXJtbWx1PheQQoM</id>
+  <title>arXiv Query: search_query=all:quantum AND all:ionization AND all:wavefunction&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:07:38Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:ionization+AND+all:wavefunction)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>65</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2506.00575v1</id>
+    <title>Quantum computation with longlived Rydberg-Landau atoms featuring suppressed ionization by the Magnetic Cage</title>
+    <updated>2025-05-31T14:14:01Z</updated>
+    <link href="https://arxiv.org/abs/2506.00575v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.00575v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Atomic processing units require robust entanglement between individual qubits, typically achieved via excitation to highly interacting Rydberg states. However, short Rydberg lifetimes and ionization risks limit the quantum volume score of the atomic processing units. Inspired by Landau resonances in alkaline atoms, we introduce Rydberg-Landau (rLandau) states created under a strong magnetic field (2.5 Tesla). These states exhibit significantly extended lifetimes and a magnetic confinement mechanism that prevents ionization, even under intense laser fields. We analyze their wavefunctions, excitation dynamics, dipole transition rules, lifetimes, and interactions, identifying states optimal for high-fidelity quantum operations. This approach simplifies the coherent excitation of long-lived, strongly interacting rLandau circular states akin to Coulombic counterparts, enabling deeper and more complex quantum algorithms.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-31T14:14:01Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Amirhossein Momtaheni</name>
+    </author>
+    <author>
+      <name>Mohammadsadegh Khazali</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2107.01094v2</id>
+    <title>Conditional wavefunction theory: a unified treatment of molecular structure and nonadiabatic dynamics</title>
+    <updated>2021-07-21T09:46:45Z</updated>
+    <link href="https://arxiv.org/abs/2107.01094v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2107.01094v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We demonstrate that a conditional wavefunction theory enables a unified and efficient treatment of the equilibrium structure and nonadiabatic dynamics of correlated electron-ion systems. The conditional decomposition of the many-body wavefunction formally recasts the full interacting wavefunction of a closed system as a set of lower dimensional (conditional) coupled `slices'. We formulate a variational wavefunction ansatz based on a set of conditional wavefunction slices, and demonstrate its accuracy by determining the structural and time-dependent response properties of the hydrogen molecule. We then extend this approach to include time-dependent conditional wavefunctions, and address paradigmatic nonequilibrium processes including strong-field molecular ionization, laser driven proton transfer, and Berry phase effects induced by a conical intersection. This work paves the road for the application of conditional wavefunction theory in equilibrium and out of equilibrium ab-initio molecular simulations of finite and extended systems.</summary>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-07-02T14:17:40Z</published>
+    <arxiv:primary_category term="physics.chem-ph"/>
+    <author>
+      <name>Guillermo Albareda</name>
+    </author>
+    <author>
+      <name>Kevin Lively</name>
+    </author>
+    <author>
+      <name>Shunsuke A. Sato</name>
+    </author>
+    <author>
+      <name>Aaron Kelly</name>
+    </author>
+    <author>
+      <name>Angel Rubio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.16135v1</id>
+    <title>Unravelling inter-channel quantum interference in below-threshold nonsequential double ionization with statistical measures</title>
+    <updated>2025-10-17T18:21:54Z</updated>
+    <link href="https://arxiv.org/abs/2510.16135v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.16135v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a systematic study of interchannel quantum interference in laser-induced nonsequential double ionization (NSDI) within the strong-field approximation. Focusing on the below-threshold intensity regime where the recollision-excitation with subsequent ionization (RESI) pathway dominates, we derive analytical phase conditions governing interference between distinct excitation channels for arbitrary driving fields. To quantify the interplay between channels resulting from a vast number of interfering processes, we introduce statistical metrics based on the Earth Mover's Distance, allowing us to assess the relative weight of each channel's contribution to the two-electron photoelectron momentum distributions (PMDs). We identify key factors that determine whether interchannel interference is appreciable such as comparable channel intensities, strong spatial overlap between the excited-state wavefunctions and the energy difference between contributing channels. We demonstrate that for linearly polarized few-cycle pulses, the typical intrachannel interference features associated with exchange, temporal shifts and combined exchange-temporal interference are retained with interchannel interference. Our findings establish a hierarchy of interference mechanisms in RESI and may provide practical guidelines for enhancing or suppressing interference in different regions of the momentum plane.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-17T18:21:54Z</published>
+    <arxiv:comment>21 pages including appendix, 14 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>S. Hashim</name>
+    </author>
+    <author>
+      <name>C. Figueira de Morisson Faria</name>
+    </author>
+  </entry>
+</feed>

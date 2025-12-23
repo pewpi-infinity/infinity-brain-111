@@ -1,0 +1,70 @@
+TERMS: electron, wavefunction, vacuum
+COLORS: green, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/MLDXq9WzurtQVVcXBrbAR9+3T2A</id>
+  <title>arXiv Query: search_query=all:electron AND all:wavefunction AND all:vacuum&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:24:01Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:electron+AND+(all:wavefunction+AND+all:vacuum)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>33</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1803.06834v1</id>
+    <title>Ground-state wavefunction of macroscopic electron systems</title>
+    <updated>2018-03-19T09:06:19Z</updated>
+    <link href="https://arxiv.org/abs/1803.06834v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1803.06834v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Wavefunctions for large electron numbers $N$ are plagued by the Exponential Wall Problem (EWP), i.e., an exponential increase in the dimensions of Hilbert space with $N$. Therefore they loose their meaning for macroscopic systems, a point stressed in particular by W. Kohn. The EWP has to be resolved in order to be able to perform electronic structure calculations, e.g., for solids. The origin of the EWP is the multiplicative property of wavefunctions when independent subsystems are considered. Therefore it can only be avoided when wavefunctions are formulated so that they are additive instead, in particular when matrix elements involving them are calculated. We describe how this is done for the ground state of a macroscopic electron system. Going over from a multiplicative to an additive quantity requires taking a logarithm. Here it implies going over from Hilbert space to the operator- or Liouville space with a metric based on cumulants. The operators which define the ground-state wavefunction generate fluctuations from a mean-field state. The latter does not suffer from an EWP and therefore may serve as a vacuum state. The fluctuations have to be {\it connected} like the ones caused by pair interactions in a classical gas when the free energy is calculated (Meyer's cluster expansion). This fixes the metric in Liouville space. The scheme presented here provides a solid basis for electronic structure calculations for the ground state of solids. In fact, its applicability has already been proven. We discuss also matrix product states, which have been applied to one-dimensional systems with results of high precision. Although these states are formulated in Hilbert space they are processed by using operators in Liouville space. We show that they fit into the general formalism described above.</summary>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-03-19T09:06:19Z</published>
+    <arxiv:comment>29 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.other"/>
+    <author>
+      <name>Peter Fulde</name>
+    </author>
+    <arxiv:doi>10.1063/1.5050329</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/1.5050329" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0406754v1</id>
+    <title>Multiple Scattering in a Vacuum Barrier from Real-Space Wavefunctions</title>
+    <updated>2004-06-30T09:17:00Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0406754v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0406754v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We have developed a method to simulate multiple electron scattering in a vacuum barrier using real-space single-electron wavefunctions of the separate surfaces. The tunnelling current is calculated to first order in the Dyson series. In zero order, we find a result which differs from the usual Bardeen approach by the decay constants of the wavefunctions, entering the description as individual weights of tunnelling transitions. To first order we find multiple electron scattering, which can be formulated in terms of Bardeen matrices. Here, we also derive a first-principles formulation for the interaction energy between the two surfaces. With this method the tunnelling current can in principle be computed to any order in the Dyson expansion.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-06-30T09:17:00Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Werner A Hofer</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0503016v1</id>
+    <title>Quasiparticle entanglement: redefinition of the vacuum and reduced density matrix approach</title>
+    <updated>2005-03-01T15:20:08Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0503016v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0503016v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  A scattering approach to entanglement in mesoscopic conductors with independent fermionic quasiparticles is discussed. We focus on conductors in the tunneling limit, where a redefinition of the quasiparticle vacuum transforms the wavefunction from a manybody product state of noninteracting particles to a state describing entangled two-particle excitations out of the new vacuum. The approach is illustrated with two examples (i) a normal-superconducting system, where the transformation is made between Bogoliubov-de Gennes quasiparticles and Cooper pairs, and (ii) a normal system, where the transformation is made between electron quasiparticles and electron-hole pairs. This is compared to a scheme where an effective two-particle state is derived from the manybody scattering state by a reduced density matrix approach.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-03-01T15:20:08Z</published>
+    <arxiv:comment>Submitted to New Journal of Physics, Focused Issue on "Solid State Quantum Information". 19 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>New. J. Phys. 7, 176 (2005)</arxiv:journal_ref>
+    <author>
+      <name>P. Samuelsson</name>
+    </author>
+    <author>
+      <name>E. V. Sukhorukov</name>
+    </author>
+    <author>
+      <name>M. Buttiker</name>
+    </author>
+    <arxiv:doi>10.1088/1367-2630/7/1/176</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1367-2630/7/1/176" title="doi"/>
+  </entry>
+</feed>

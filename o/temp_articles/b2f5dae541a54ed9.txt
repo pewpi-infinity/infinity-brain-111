@@ -1,0 +1,92 @@
+TERMS: hydrogen, fusion, electron, wavefunction
+COLORS: purple, green, green, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/M6xgyrZEWRrzwReXyzwLj/KNK+o</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:fusion AND all:electron AND all:wavefunction&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:52:21Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:fusion+AND+(all:electron+AND+all:wavefunction))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>3</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/nucl-th/9512041v2</id>
+    <title>Electron screening in molecular fusion reactions</title>
+    <updated>1996-01-02T16:23:15Z</updated>
+    <link href="https://arxiv.org/abs/nucl-th/9512041v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/nucl-th/9512041v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Recent laboratory experiments have measured fusion cross sections at center-of-mass energies low enough for the effects of atomic and molecular electrons to be important. To extract the cross section for bare nuclei from these data (as required for astrophysical applications), it is necessary to understand these screening effects. We study electron screening effects in the low-energy collisions of Z=1 nuclei with hydrogen molecules. Our model is based on a dynamical evolution of the electron wavefunctions within the TDHF scheme, while the motion of the nuclei is treated classically. We find that at the currently accessible energies the screening effects depend strongly on the molecular orientation. The screening is found to be larger for molecular targets than for atomic targets, due to the reflection symmetry in the latter. The results agree fairly well with data measured for deuteron collisions on molecular deuterium and tritium targets.</summary>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1995-12-29T17:47:50Z</published>
+    <arxiv:comment>15 Page RevTeX document, twelve postscript figures, now in a uufile package</arxiv:comment>
+    <arxiv:primary_category term="nucl-th"/>
+    <arxiv:journal_ref>Nucl.Phys. A605 (1996) 387-402</arxiv:journal_ref>
+    <author>
+      <name>T. D. Shoppa</name>
+      <arxiv:affiliation>Caltech</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. Jeng</name>
+      <arxiv:affiliation>Caltech</arxiv:affiliation>
+    </author>
+    <author>
+      <name>S. E. Koonin</name>
+      <arxiv:affiliation>Caltech</arxiv:affiliation>
+    </author>
+    <author>
+      <name>K. Langanke</name>
+      <arxiv:affiliation>Caltech</arxiv:affiliation>
+    </author>
+    <author>
+      <name>R. Seki</name>
+      <arxiv:affiliation>Caltech</arxiv:affiliation>
+      <arxiv:affiliation>Cal State Northridge</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1016/0375-9474(96)00183-2</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/0375-9474(96)00183-2" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/nucl-ex/0005003v1</id>
+    <title>The stopping of swift protons in matter and its implication for astrophysical fusion reactions</title>
+    <updated>2000-05-14T23:03:44Z</updated>
+    <link href="https://arxiv.org/abs/nucl-ex/0005003v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/nucl-ex/0005003v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The velocity dependence of the stopping power of swift protons and deuterons in low energy collisions is investigated. At low projectile energies the stopping is mainly due to nuclear stopping and charge exchange of the electron. The second mechanism dominates after Ep &gt;=200 eV. A dynamical treatment of the charge exchange mechanism based on two-center electronic wavefunctions yields very transparent results for the exchange probability. We predict that the stopping cross sections vary approximately as v to the 1.35 power for projectile protons on hydrogen targets in the 1 keV energy region.</summary>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2000-05-14T23:03:44Z</published>
+    <arxiv:comment>4 figures</arxiv:comment>
+    <arxiv:primary_category term="nucl-ex"/>
+    <arxiv:journal_ref>Phys.Rev. C62 (2000) 045802</arxiv:journal_ref>
+    <author>
+      <name>C. A. Bertulani</name>
+    </author>
+    <author>
+      <name>D. T. de Paula</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevC.62.045802</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevC.62.045802" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/nucl-th/0401007v1</id>
+    <title>The stopping of low energy ions in reactions of astrophysical interest</title>
+    <updated>2004-01-06T19:50:00Z</updated>
+    <link href="https://arxiv.org/abs/nucl-th/0401007v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/nucl-th/0401007v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  he velocity dependence of the stopping power of swift protons and deuterons in low energy collisions with hydrogen and helium gas targets is investigated with the numerical solution of the time-dependent Schroedinger coupled-channels equations using molecular orbital wavefunctions. At low projectile energies the stopping is mainly due to nuclear stopping, charge exchange of the electron, and excitation of the lowest levels in the target. The second and third mechanisms dominate at E &lt; 200 eV. At lower energies it is also shown that a threshold effect is responsible for a quick drop of the energy loss. This investigation sheds more light on the long standing electron screening problem in fusion reactions of astrophysical interest.</summary>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-01-06T19:50:00Z</published>
+    <arxiv:comment>8 pages, 3 figures, presented at FUSION03, Matsushima, Miyagi, Japan, Nov 12-15, 2003, to appear in Progress of Theoretical Physics</arxiv:comment>
+    <arxiv:primary_category term="nucl-th"/>
+    <arxiv:journal_ref>Prog.Theor.Phys.Suppl. 154 (2004) 325-332</arxiv:journal_ref>
+    <author>
+      <name>C. A. Bertulani</name>
+    </author>
+    <arxiv:doi>10.1143/PTPS.154.325</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1143/PTPS.154.325" title="doi"/>
+  </entry>
+</feed>

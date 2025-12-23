@@ -1,0 +1,123 @@
+TERMS: hydrogen, frequency, vapor, resonance
+COLORS: purple, green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/tvGDtRnYBehvX+V9AEntJwvLMVk</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:frequency AND all:vapor AND all:resonance&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:43:18Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:frequency+AND+(all:vapor+AND+all:resonance))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>3</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2110.03500v1</id>
+    <title>Hydrogenated Amorphous Silicon Carbide: A Low-loss Deposited Dielectric for Microwave to Submillimeter Wave Superconducting Circuits</title>
+    <updated>2021-10-07T14:36:01Z</updated>
+    <link href="https://arxiv.org/abs/2110.03500v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2110.03500v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Low-loss deposited dielectrics will benefit superconducting devices such as integrated superconducting spectrometers, superconducting qubits and kinetic inductance parametric amplifiers. Compared with planar structures, multi-layer structures such as microstrips are more compact and eliminate radiation loss at high frequencies. Multi-layer structures are most easily fabricated with deposited dielectrics, which typically exhibit higher dielectric loss than crystalline dielectrics. We measured the sub-kelvin and low-power microwave and mm-submm wave dielectric loss of hydrogenated amorphous silicon carbide (a-SiC:H), using a superconducting chip with NbTiN/a-SiC:H/NbTiN microstrip resonators. We deposited the a-SiC:H by plasma-enhanced chemical vapor deposition at a substrate temperature of 400°C. The a-SiC:H has a mm-submm loss tangent ranging from $0.80 \pm 0.01 \times 10^{-4}$ to $1.43 \pm 0.04 \times 10^{-4}$ in the range of 270 to 385 GHz. The microwave loss tangent is $3.2 \pm 0.2 \times 10^{-5}$. These are the lowest low-power sub-kelvin loss tangents that have been reported for microstrip resonators at mm-submm and microwave frequencies. We observe that the loss tangent increases with frequency. The a-SiC:H films are free of blisters and have low stress: $-$20 MPa compressive at 200 nm thickness to 60 MPa tensile at 1000 nm thickness.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-10-07T14:36:01Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>Phys. Rev. Appl. 18 (2022) 064003</arxiv:journal_ref>
+    <author>
+      <name>B. T. Buijtendorp</name>
+    </author>
+    <author>
+      <name>S. Vollebregt</name>
+    </author>
+    <author>
+      <name>K. Karatsu</name>
+    </author>
+    <author>
+      <name>D. J. Thoen</name>
+    </author>
+    <author>
+      <name>V. Murugesan</name>
+    </author>
+    <author>
+      <name>K. Kouwenhoven</name>
+    </author>
+    <author>
+      <name>S. Hähnle</name>
+    </author>
+    <author>
+      <name>J. J. A. Baselmans</name>
+    </author>
+    <author>
+      <name>A. Endo</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevApplied.18.064003</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevApplied.18.064003" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2403.03534v1</id>
+    <title>Characterization of the low electric field and zero-temperature two-level-system loss in hydrogenated amorphous silicon</title>
+    <updated>2024-03-06T08:27:53Z</updated>
+    <link href="https://arxiv.org/abs/2403.03534v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.03534v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Two-level systems (TLS) are an important, if not dominant, source of loss and noise for superconducting resonators such as those used in kinetic inductance detectors and some quantum information science platforms. They are similarly important for loss in photolithographically fabricated superconducting mm-wave/THz transmission lines. For both lumped-element and transmission-line structures, native amorphous surface oxide films are typically the sites of such TLS in non-microstripline geometries, while loss in the (usually amorphous) dielectric film itself usually dominates in microstriplines. We report here on the demonstration of low TLS loss at GHz frequencies in hydrogenated amorphous silicon (a-Si:H) films deposited by plasma-enhanced chemical vapor deposition in superconducting lumped-element resonators using parallel-plate capacitors (PPCs). The values we obtain from two recipes in different deposition machines, 7$\,\times\,10^{-6}$ and 12$\,\times\,10^{-6}$, improve on the best achieved in the literature by a factor of 2--4 for a-Si:H and are comparable to recent measurements of amorphous germanium. Moreover, we have taken care to extract the true zero-temperature, low-field loss tangent of these films, accounting for temperature and field saturation effects that can yield misleading results. Such robustly fabricated and characterized films render the use of PPCs with deposited amorphous films a viable architecture for superconducting resonators, and they also promise extremely low loss and high quality factor for photolithographically fabricated superconducting mm-wave/THz transmission lines used in planar antennas and resonant filters.</summary>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-06T08:27:53Z</published>
+    <arxiv:primary_category term="physics.ins-det"/>
+    <arxiv:journal_ref>Phys.Rev.Mater. 8 (2024) 035602</arxiv:journal_ref>
+    <author>
+      <name>Fabien Defrance</name>
+    </author>
+    <author>
+      <name>Andrew D. Beyer</name>
+    </author>
+    <author>
+      <name>Shibo Shu</name>
+    </author>
+    <author>
+      <name>Jack Sayers</name>
+    </author>
+    <author>
+      <name>Sunil R. Golwala</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevMaterials.8.035602</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevMaterials.8.035602" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2209.10893v1</id>
+    <title>Fingerprints of carbon defects in vibrational spectra of gallium nitride (GaN) consider-ing the isotope effect</title>
+    <updated>2022-09-22T09:58:27Z</updated>
+    <link href="https://arxiv.org/abs/2209.10893v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2209.10893v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This work examines the carbon defects associated with recently reported and novel peaks of infrared (IR) absorption and Raman scattering appearing in GaN crystals at carbon ($^{12}C$) doping in the range of concentrations from $3.2*10^{17}$ to $3.5*10^{19} cm^{-3}$. 14 unique vibrational modes of defects are observed in GaN samples grown by hydride vapor phase epitaxy (HVPE) and then compared with defect properties predicted from first-principles calculations. The vibrational frequency shift in two $^{13}C$ enriched samples related to the effect of the isotope mass indicates six distinct configurations of the carbon-containing point defects. The effect of the isotope replacement is well reproduced by the density functional theory (DFT) calculations. Specific attention is paid to the most pronounced defects, namely tri-carbon complexes($C_N=C=C_N$) and carbon substituting for nitrogen $C_N$. The position of the transition level (+/0) in the bandgap found for $C_N=C=C_N$ defects by DFT at 1.1 eV above the valence band maximum, suggest that $(C_N=C=C_N)^+$ provides compensation of ${C_N}^-$. $C_N=C=C_N$ defects are observed to be prominent, yet have high formation energies in DFT calculations. Regarding ${C_N}$ defects, it is shown that the host Ga and N atoms are involved in the defect's delocalized vibrations and significantly affect the isotopic frequency shift. Much more faint vibrational modes are found from di-atomic carbon-carbon and carbon-hydrogen (C-H) complexes. Also, we note changes of vibrational mode intensities of $C_N$, $C_N=C=C_N$, C-H, and $C_N-C_i$ defects in the IR absorption spectra upon irradiation in the defect-related UV/visible absorption range. Finally, it is demonstrated that the resonant enhancement of the Raman process in the range of defect absorption above 2.5 eV enables the detection of defects at carbon doping concentrations as low as $3.2*10^{17} cm^{-3}$.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atm-clus" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-09-22T09:58:27Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>I. Gamov</name>
+    </author>
+    <author>
+      <name>J. L. Lyons</name>
+    </author>
+    <author>
+      <name>G. Gärtner</name>
+    </author>
+    <author>
+      <name>K. Irmscher</name>
+    </author>
+    <author>
+      <name>E. Richter</name>
+    </author>
+    <author>
+      <name>M. Weyers</name>
+    </author>
+    <author>
+      <name>M. R. Wagner</name>
+    </author>
+    <author>
+      <name>M. Bickermann</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.106.184110</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.106.184110" title="doi"/>
+  </entry>
+</feed>

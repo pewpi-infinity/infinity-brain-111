@@ -1,0 +1,100 @@
+TERMS: frequency, electron, probability
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/2DTF9OjCf4L3UMZacaF8tbQr7vE</id>
+  <title>arXiv Query: search_query=all:frequency AND all:electron AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:10:44Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:electron+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>385</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1106.4050v3</id>
+    <title>The spatial Λ-Fleming-Viot process on a large torus: Genealogies in the presence of recombination</title>
+    <updated>2012-11-27T06:27:45Z</updated>
+    <link href="https://arxiv.org/abs/1106.4050v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1106.4050v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We extend the spatial $Λ$-Fleming-Viot process introduced in [Electron. J. Probab. 15 (2010) 162-216] to incorporate recombination. The process models allele frequencies in a population which is distributed over the two-dimensional torus $\mathbb{T}(L)$ of sidelength L and is subject to two kinds of reproduction events: small events of radius $\mathcal{O}(1)$ and much rarer large events of radius $\mathcal{O}(L^α)$ for some $α\in(0,1]$. We investigate the correlation between the times to the most recent common ancestor of alleles at two linked loci for a sample of size two from the population. These individuals are initially sampled from "far apart" on the torus. As L tends to infinity, depending on the frequency of the large events, the recombination rate and the initial distance between the two individuals sampled, we obtain either a complete decorrelation of the coalescence times at the two loci, or a sharp transition between a first period of complete correlation and a subsequent period during which the remaining times needed to reach the most recent common ancestor at each locus are independent. We use our computations to derive approximate probabilities of identity by descent as a function of the separation at which the two individuals are sampled.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-06-20T21:24:55Z</published>
+    <arxiv:comment>Published in at http://dx.doi.org/10.1214/12-AAP842 the Annals of Applied Probability (http://www.imstat.org/aap/) by the Institute of Mathematical Statistics (http://www.imstat.org)</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <arxiv:journal_ref>Annals of Applied Probability 2012, Vol. 22, No. 6, 2165-2209</arxiv:journal_ref>
+    <author>
+      <name>A. M. Etheridge</name>
+    </author>
+    <author>
+      <name>A. Véber</name>
+    </author>
+    <arxiv:doi>10.1214/12-AAP842</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1214/12-AAP842" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0807.0649v1</id>
+    <title>Search for Oscillation of the Electron-Capture Decay Probability of $^{142}$Pm</title>
+    <updated>2008-07-03T21:29:56Z</updated>
+    <link href="https://arxiv.org/abs/0807.0649v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0807.0649v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We have searched for time modulation of the electron capture decay probability of $^{142}$Pm in an attempt to confirm a recent claim from a group at the Gesellschaft für Schwerionenforschung (GSI). We produced $^{142}$Pm via the $^{124}$Sn($^{23}$Na, 5n)$^{142}$Pm reaction at the Berkeley 88-Inch Cyclotron with a bombardment time short compared to the reported modulation period. Isotope selection by the Berkeley Gas-filled Separator is followed by implantation and a long period of monitoring the $^{142}$Nd K$_α$ x-rays from the daughter. The decay time spectrum of the x-rays is well-described by a simple exponential and the measured half-life of 40.68(53) seconds is consistent with the accepted value. We observed no oscillatory modulation at the proposed frequency at a level 31 times smaller than that reported by Litvinov {\it et al.} (Phys. Lett. B 664 (2008) 162; arXiv:0801.2079 [nucl-ex]). A literature search for previous experiments that might have been sensitive to the reported modulation uncovered another example in $^{142}$Eu electron-capture decay. A reanalysis of the published data shows no oscillatory behavior.</summary>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-07-03T21:29:56Z</published>
+    <arxiv:comment>12 pages (double-spaced), 6 figures</arxiv:comment>
+    <arxiv:primary_category term="nucl-ex"/>
+    <arxiv:journal_ref>Phys.Lett.B670:196-199,2008</arxiv:journal_ref>
+    <author>
+      <name>P. A. Vetter</name>
+    </author>
+    <author>
+      <name>R. M. Clark</name>
+    </author>
+    <author>
+      <name>J. Dvorak</name>
+    </author>
+    <author>
+      <name>S. J. Freedman</name>
+    </author>
+    <author>
+      <name>K. E. Gregorich</name>
+    </author>
+    <author>
+      <name>H. B. Jeppesen</name>
+    </author>
+    <author>
+      <name>D. Mittelberger</name>
+    </author>
+    <author>
+      <name>M. Wiedeking</name>
+    </author>
+    <arxiv:doi>10.1016/j.physletb.2008.11.004</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physletb.2008.11.004" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/quant-ph/0312139v4</id>
+    <title>Electron spin detection in the frequency domain under the interrupted Oscillating Cantilever-driven Adiabatic Reversal (iOSCAR) Protocol</title>
+    <updated>2004-01-14T05:24:22Z</updated>
+    <link href="https://arxiv.org/abs/quant-ph/0312139v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/quant-ph/0312139v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Magnetic Resonance Force Microscopy (MRFM) is an emergent technology for measuring spin-induced attonewton forces using a micromachined cantilever. In the interrupted Oscillating Cantilever-driven Adiabatic Reversal (iOSCAR) method, small ensembles of electron spins are manipulated by an external radio frequency (RF) magnetic field to produce small periodic deviations in the resonant frequency of the cantilever. These deviations can be detected by frequency demodulation, followed by conventional amplitude or energy detection. In this paper, we develop optimal detectors for several signal models that have been hypothesized for measurements induced by iOSCAR spin manipulation. We show that two simple variants of the energy detector--the filtered energy detector and a hybrid filtered energy/amplitude/energy detector--are approximately asymptotically optimal for the Discrete-Time (D-T) random telegraph signal model assuming White Gaussian Noise (WGN). For the D-T random walk signal model, the filtered energy detector performs close to the optimal Likelihood Ratio Test (LRT) when the transition probabilities are symmetric.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-12-16T02:51:21Z</published>
+    <arxiv:comment>11 pages, Version 2: Removed extraneous author information, Version 3: Corrected references, Version 4: Re-arranged references and some cosmetic changes</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>M. Ting</name>
+    </author>
+    <author>
+      <name>A. O. Hero</name>
+    </author>
+    <author>
+      <name>D. Rugar</name>
+    </author>
+    <author>
+      <name>C. Y. Yip</name>
+    </author>
+    <author>
+      <name>J. A. Fessler</name>
+    </author>
+  </entry>
+</feed>

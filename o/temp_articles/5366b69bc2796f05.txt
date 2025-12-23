@@ -1,0 +1,98 @@
+TERMS: quantum, boson, singularity
+COLORS: blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/BoneQHnk8f4xFNUPN4HHkDQn7uA</id>
+  <title>arXiv Query: search_query=all:quantum AND all:boson AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:09:08Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:boson+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>459</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2212.14030v3</id>
+    <title>General quantum algorithms for Hamiltonian simulation with applications to a non-Abelian lattice gauge theory</title>
+    <updated>2023-12-14T18:40:43Z</updated>
+    <link href="https://arxiv.org/abs/2212.14030v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2212.14030v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>With a focus on universal quantum computing for quantum simulation, and through the example of lattice gauge theories, we introduce rather general quantum algorithms that can efficiently simulate certain classes of interactions consisting of correlated changes in multiple (bosonic and fermionic) quantum numbers with non-trivial functional coefficients. In particular, we analyze diagonalization of Hamiltonian terms using a singular-value decomposition technique, and discuss how the achieved diagonal unitaries in the digitized time-evolution operator can be implemented. The lattice gauge theory studied is the SU(2) gauge theory in 1+1 dimensions coupled to one flavor of staggered fermions, for which a complete quantum-resource analysis within different computational models is presented. The algorithms are shown to be applicable to higher-dimensional theories as well as to other Abelian and non-Abelian gauge theories. The example chosen further demonstrates the importance of adopting efficient theoretical formulations: it is shown that an explicitly gauge-invariant formulation using loop, string, and hadron degrees of freedom simplifies the algorithms and lowers the cost compared with the standard formulations based on angular-momentum as well as the Schwinger-boson degrees of freedom. The loop-string-hadron formulation further retains the non-Abelian gauge symmetry despite the inexactness of the digitized simulation, without the need for costly controlled operations. Such theoretical and algorithmic considerations are likely to be essential in quantumly simulating other complex theories of relevance to nature.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-12-28T18:56:25Z</published>
+    <arxiv:comment>49+16+8 pages, 16 figures. v3: includes minor scattered revisions to improve readability and correct a few typos. Version accepted to Quantum</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>Quantum 7, 1213 (2023)</arxiv:journal_ref>
+    <author>
+      <name>Zohreh Davoudi</name>
+    </author>
+    <author>
+      <name>Alexander F. Shaw</name>
+    </author>
+    <author>
+      <name>Jesse R. Stryker</name>
+    </author>
+    <arxiv:doi>10.22331/q-2023-12-20-1213</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.22331/q-2023-12-20-1213" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.01666v1</id>
+    <title>Multiple quantum exceptional, diabolical, and hybrid points in multimode bosonic systems: I. Inherited and genuine singularities</title>
+    <updated>2024-05-02T18:40:14Z</updated>
+    <link href="https://arxiv.org/abs/2405.01666v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.01666v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The existence and degeneracies of quantum exceptional, diabolical, and hybrid (i.e., diabolically degenerated exceptional) singularities of simple bosonic systems composed of up to five modes with damping and/or amplification are analyzed. Their dynamics governed by quadratic non-Hermitian Hamiltonians is followed using the Heisenberg-Langevin equations. Conditions for the observation of inherited quantum hybrid points, observed directly in the dynamics of field operators, having up to third-order exceptional and second-order diabolical degeneracies are revealed. Exceptional and diabolical genuine points and their degeneracies observed in the dynamics of second-order field-operator moments are analyzed. Surprisingly, exceptional degeneracies of only second and third orders are revealed. Nevertheless the analyzed bosonic systems exhibit rich dynamics, also owing to their common second-order diabolical degeneracies.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-02T18:40:14Z</published>
+    <arxiv:comment>Inherited EPs with second- and third-order singularities are observed in the bosonic systems with the usual (bidirectional) coupling. In the following paper entitled "Multiple quantum exceptional, diabolical, and hybrid points in multimode bosonic systems: II. Nonconventional PT-symmetric dynamics and unidirectional coupling", the investigation are further extended to other bosonic systems</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Kishore Thapliyal</name>
+    </author>
+    <author>
+      <name>Jan Peřina</name>
+    </author>
+    <author>
+      <name>Grzegorz Chimczak</name>
+    </author>
+    <author>
+      <name>Anna Kowalewska-Kudłaszyk</name>
+    </author>
+    <author>
+      <name>Adam Miranowicz</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2408.16824v3</id>
+    <title>Block encoding bosons by signal processing</title>
+    <updated>2025-05-12T21:16:31Z</updated>
+    <link href="https://arxiv.org/abs/2408.16824v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2408.16824v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Block Encoding (BE) is a crucial subroutine in many modern quantum algorithms, including those with near-optimal scaling for simulating quantum many-body systems, which often rely on Quantum Signal Processing (QSP). Currently, the primary methods for constructing BEs are the Linear Combination of Unitaries (LCU) and the sparse oracle approach. In this work, we demonstrate that QSP-based techniques, such as Quantum Singular Value Transformation (QSVT) and Quantum Eigenvalue Transformation for Unitary Matrices (QETU), can themselves be efficiently utilized for BE implementation. Specifically, we present several examples of using QSVT and QETU algorithms, along with their combinations, to block encode Hamiltonians for lattice bosons, an essential ingredient in simulations of high-energy physics. We also introduce a straightforward approach to BE based on the exact implementation of Linear Operators Via Exponentiation and LCU (LOVE-LCU). We find that, while using QSVT for BE results in the best asymptotic gate count scaling with the number of qubits per site, LOVE-LCU outperforms all other methods for operators acting on up to $\lesssim11$ qubits, highlighting the importance of concrete circuit constructions over mere comparisons of asymptotic scalings. Using LOVE-LCU to implement the BE, we simulate the time evolution of single-site and two-site systems in the lattice $\varphi^4$ theory using the Generalized QSP algorithm and compare the gate counts to those required for Trotter simulation.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-08-29T18:00:02Z</published>
+    <arxiv:comment>22 pages, 12 Figures, 2 Tables, 2 Appendices. Version published in Quantum</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Quantum 9, 1747 (2025)</arxiv:journal_ref>
+    <author>
+      <name>Christopher F. Kane</name>
+    </author>
+    <author>
+      <name>Siddharth Hariprakash</name>
+    </author>
+    <author>
+      <name>Neel S. Modi</name>
+    </author>
+    <author>
+      <name>Michael Kreshchuk</name>
+    </author>
+    <author>
+      <name>Christian W Bauer</name>
+    </author>
+    <arxiv:doi>10.22331/q-2025-05-15-1747</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.22331/q-2025-05-15-1747" title="doi"/>
+  </entry>
+</feed>

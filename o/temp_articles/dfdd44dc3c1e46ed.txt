@@ -1,0 +1,27 @@
+TERMS: hydrogen, lattice, fusion, wavefunction
+COLORS: purple, orange, green, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/HqS3WXjO5dlTuZr4ZpHCgwm+L+Y</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:lattice AND all:fusion AND all:wavefunction&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:46:06Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:lattice+AND+(all:fusion+AND+all:wavefunction))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/0711.1878v1</id>
+    <title>Enhanced low energy fusion rate in palladium (Pd) due to vibrational deuteron dipole-dipole interactions and associated resonant tunneling that over-cancels the Jastrow factor between deuteron pair wavefunctions</title>
+    <updated>2007-11-12T22:17:30Z</updated>
+    <link href="https://arxiv.org/abs/0711.1878v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0711.1878v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We show that interstitial hydrogen nucleii on a metallic lattice are strongly coupled to their near neighbours by the unscreened electromagnetic field mediating transitions between low-lying states. We then show that in almost-stoichiometric PdD clusters, in which most interstitial sites are occupied by a deuteron, certain specific superpositions of many-site product states exist that are lower in energy than the single-site ground state, suggesting the existence of a new low temperature phase. The modified behaviour of the two-particle wavefunction at small separations is investigated and prelimary results suggesting an over-canceling of the effective Coulomb barrier are presented.</summary>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-11-12T22:17:30Z</published>
+    <arxiv:primary_category term="cond-mat.other"/>
+    <author>
+      <name>J. S. Brown</name>
+    </author>
+  </entry>
+</feed>

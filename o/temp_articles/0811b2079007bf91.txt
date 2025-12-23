@@ -1,0 +1,106 @@
+TERMS: entropy, boson
+COLORS: red, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/MrBxwWomJxVShg0keeUDre4ZIBo</id>
+  <title>arXiv Query: search_query=all:entropy AND all:boson&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T00:58:01Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+all:boson&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1263</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1801.09187v4</id>
+    <title>A model of Josephson Junctions on Boson Systems - Currents and Entropy Production Rate -</title>
+    <updated>2018-09-14T02:39:53Z</updated>
+    <link href="https://arxiv.org/abs/1801.09187v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1801.09187v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Non-equilibrium steady states (NESS), in the sense of D. Ruelle, of Boson systems with Bose--Einstein condensation (BEC) are investigated with the aid of the C^*-algebraic method. The model consists of a quantum particle and several bosonic reservoirs. We show that the mean entropy production rate is strictly positive, independent of phase differences provided that the temperatures or the chemical potentials of reservoirs are different. Moreover, Josephson currents occur without entropy production, if the temperatures and the chemical potentials of reservoirs are identical.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-01-28T06:24:55Z</published>
+    <arxiv:comment>21 pages, 2 figure, second major revised version, the title changed from "Non-equilibrium steady states for a Harmonic oscillator interacting several Boson system - Currents and Entropy production rate -"</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <arxiv:journal_ref>J. Math. Phys. 59 (2018), no. 10, 102107</arxiv:journal_ref>
+    <author>
+      <name>Tomohiro Kanda</name>
+    </author>
+    <arxiv:doi>10.1063/1.5025598</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/1.5025598" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1608.00145v2</id>
+    <title>Inspecting non-perturbative contributions to the Entanglement Entropy via wavefunctions</title>
+    <updated>2017-12-05T03:52:03Z</updated>
+    <link href="https://arxiv.org/abs/1608.00145v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1608.00145v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we would like to systematically explore the implications of non-perturbative effects on entanglement in a many body system. Instead of pursuing the usual path-integral method in a singular space, we attempt to study the wavefunctions in detail. We begin with a toy model of multiple particles whose interaction potential admits multiple minima. We study the entanglement of the true ground state after taking the tunnelling effects into account and find some simple patterns. Notably, in the case of multiple particle interactions, entanglement entropy generically decreases with increasing number of minima. The knowledge of the subsystem actually increases with the number of minima. The reduced density matrix can also be seen to have close connections with graph spectra. In a more careful study of the two-well tunnelling system, we also extract the exponentially suppressed tail contribution, the analogues of instantons. To understand the effects of multiple minima in a field theory, it inspires us to inspect wavefunctions in a toy model of bosonic field describing quasi-particles of two different condensates related by Bogoliubov transformations. We find that the area law is naturally preserved. This is probably a useful set of perspectives that promise wider applications.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-07-30T16:50:44Z</published>
+    <arxiv:comment>32 pages, 4 figures, current version accepted by Entropy</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Entropy 2017, 19(12), 671</arxiv:journal_ref>
+    <author>
+      <name>Arpan Bhattacharyya</name>
+    </author>
+    <author>
+      <name>Ling-Yan Hung</name>
+    </author>
+    <author>
+      <name>P. H. C. Lau</name>
+    </author>
+    <author>
+      <name>Si-Nong Liu</name>
+    </author>
+    <arxiv:doi>10.3390/e19120671</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/e19120671" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0906.2758v3</id>
+    <title>The bosonic minimum output entropy conjecture and Lagrangian minimization</title>
+    <updated>2010-08-18T16:30:09Z</updated>
+    <link href="https://arxiv.org/abs/0906.2758v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0906.2758v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce a new form for the bosonic channel minimal output entropy conjecture, namely that among states with equal input entropy, the thermal states are the ones that have slightest increase in entropy when sent through a infinitesimal thermalizing channel. We then detail a strategy to prove the conjecture through variational techniques. This would lead to the calculation of the classical capacity of a communication channel subject to thermal noise. Our strategy detects input thermal ensembles as possible solutions for the optimal encoding of the channel, lending support to the conjecture. However, it does not seem to be able to exclude the possibility that other input ensembles can attain the channel capacity.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-06-15T18:50:10Z</published>
+    <arxiv:comment>Here we detail the progress in attacking the minimum output entropy conjecture with an infinitesimal thermalizing map approach. In particular, we give the details on why we could not complete the proof of the conjecture with this strategy</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>S. Lloyd</name>
+    </author>
+    <author>
+      <name>V. Giovannetti</name>
+    </author>
+    <author>
+      <name>L. Maccone</name>
+    </author>
+    <author>
+      <name>N. J. Cerf</name>
+    </author>
+    <author>
+      <name>S. Guha</name>
+    </author>
+    <author>
+      <name>R. Garcia-Patron</name>
+    </author>
+    <author>
+      <name>S. Mitter</name>
+    </author>
+    <author>
+      <name>S. Pirandola</name>
+    </author>
+    <author>
+      <name>M. B. Ruskai</name>
+    </author>
+    <author>
+      <name>J. H. Shapiro</name>
+    </author>
+    <author>
+      <name>H. Yuan</name>
+    </author>
+  </entry>
+</feed>

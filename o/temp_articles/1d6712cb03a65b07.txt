@@ -1,0 +1,96 @@
+TERMS: quantum, wavefunction, oxidation
+COLORS: blue, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/cbsJV0zHdRbRSwivLS48JV3j7tE</id>
+  <title>arXiv Query: search_query=all:quantum AND all:wavefunction AND all:oxidation&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:08:24Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:wavefunction+AND+all:oxidation)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>32</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2504.16846v2</id>
+    <title>Wavefunctions and oscillator strengths of Rydberg excitons in cuprous oxide quantum wells</title>
+    <updated>2025-07-24T20:54:45Z</updated>
+    <link href="https://arxiv.org/abs/2504.16846v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.16846v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate the eigenstates, that is, the wavefunctions of Rydberg excitons in cuprous oxide quantum wells and derive expressions relating them to the oscillator strengths of different exciton states. Using the B-spline expansion, we compute the wavefunctions in coordinate space and estimate the oscillator strengths. The symmetry properties of the states and the non-separability of the wavefunctions are illustrated. Wavefunctions associated with resonances above the scattering threshold, in particular those of bound states in the continuum as well as their partner states, are also given.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-23T16:09:51Z</published>
+    <arxiv:comment>13 pages, 9 figures, revised paper accepted for publication in Phys. Rev. B</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Phys. Rev. B 112, 075409 (2025)</arxiv:journal_ref>
+    <author>
+      <name>Leon Kühner</name>
+    </author>
+    <author>
+      <name>Patric Rommel</name>
+    </author>
+    <author>
+      <name>Jörg Main</name>
+    </author>
+    <author>
+      <name>Stefan Scheel</name>
+    </author>
+    <author>
+      <name>Pavel A. Belov</name>
+    </author>
+    <arxiv:doi>10.1103/9pct-k79b</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/9pct-k79b" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2108.11167v3</id>
+    <title>Variational quantum eigensolver techniques for simulating carbon monoxide oxidation</title>
+    <updated>2022-05-17T10:42:50Z</updated>
+    <link href="https://arxiv.org/abs/2108.11167v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2108.11167v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A family of Variational Quantum Eigensolver (VQE) methods is designed to maximize the resource of existing noisy intermediate-scale quantum (NISQ) devices. However, VQE approaches encounter various difficulties in simulating molecules of industrially relevant sizes, among which the choice of the ansatz for the molecular wavefunction plays a crucial role. In this work, we push forward the capabilities of adaptive variational algorithms (ADAPT-VQE) by demonstrating that the measurement overhead can be significantly reduced via adding multiple operators at each step while keeping the ansatz compact. Within the proposed approach, we simulate a set of molecules, O$_2$, CO, and CO$_2$, participating in the carbon monoxide oxidation processes using the statevector simulator and compare our findings with the results obtained using VQE-UCCSD and classical methods. Based on these results, we estimate the energy characteristics of the chemical reaction. Our results pave the way to the use of variational approaches for solving practically relevant chemical problems.</summary>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-08-25T10:38:03Z</published>
+    <arxiv:comment>17+2 pages, 6+4 figures, 2 tables; v3: more detailed analysis of qubit pools, reformulated the qubit pool completeness criteria in reduced qubit space and proposed an automated computational scheme for constructing pools</arxiv:comment>
+    <arxiv:primary_category term="physics.chem-ph"/>
+    <arxiv:journal_ref>Commun. Phys. 5, 199 (2022)</arxiv:journal_ref>
+    <author>
+      <name>M. D. Sapova</name>
+    </author>
+    <author>
+      <name>A. K. Fedorov</name>
+    </author>
+    <arxiv:doi>10.1038/s42005-022-00982-4</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s42005-022-00982-4" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2403.03466v2</id>
+    <title>Systematic Improvement of Quantum Monte Carlo Calculations in Transition Metal Oxides: sCI-Driven Wavefunction Optimization for Reliable Band Gap prediction</title>
+    <updated>2024-03-15T21:12:53Z</updated>
+    <link href="https://arxiv.org/abs/2403.03466v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.03466v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Accurate determination of electronic properties of correlated oxides remains a significant challenge for computational theory. Traditional Hubbard-corrected density functional theory (DFT+U) frequently encounters limitations in precisely capturing electron correlation, particularly when predicting band gaps. We introduce a systematic methodology to enhance the accuracy of diffusion Monte Carlo (DMC) simulations for both ground and excited states, focusing on LiCoO$_2$ as a case study. By employing a selected CI (sCI) approach, we demonstrate the capability to optimize wavefunctions beyond the constraints of single-reference DFT+U trial wavefunctions. We show that the sCI framework enables accurate prediction of band gaps in LiCoO$_2$, closely aligning with experimental values and substantially improving upon traditional computational methods. The study uncovers a nuanced mixed state of $t_{2g}$ a $e_g$ orbitals at the band edges that is not captured by conventional single-reference methods, further elucidating the limitations of PBE+U in describing $d$-$d$ excitations. Our findings advocate for the adoption of beyond-DFT methodologies, such as sCI, to capture the essential physics of excited state wavefunctions in strongly correlated materials. The improved accuracy in band gap predictions and the ability to generate more reliable trial wavefunctions for DMC calculations underscore the potential of this approach for broader applications in the study of correlated oxides. This work not only provides a pathway for more accurate simulations of electronic structures in complex materials but also suggests a framework for future investigations into the excited states of other challenging systems.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-06T05:02:57Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Hyeondeok Shin</name>
+    </author>
+    <author>
+      <name>Kevin Gasperich</name>
+    </author>
+    <author>
+      <name>Tomas Rojas</name>
+    </author>
+    <author>
+      <name>Anh T. Ngo</name>
+    </author>
+    <author>
+      <name>Jaron T. Krogel</name>
+    </author>
+    <author>
+      <name>Anouar Benali</name>
+    </author>
+  </entry>
+</feed>

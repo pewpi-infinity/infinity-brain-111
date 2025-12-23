@@ -1,0 +1,52 @@
+TERMS: lattice, vapor, singularity
+COLORS: orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/xd83P80FOIcy7VfRGLydY3lFBfA</id>
+  <title>arXiv Query: search_query=all:lattice AND all:vapor AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:14:21Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:vapor+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0204297v1</id>
+    <title>Growth and Characterization of Bulk Aluminum Nitride by Physical Vapor Transport</title>
+    <updated>2002-04-13T18:33:29Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0204297v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0204297v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  A major issue in the development of the technology of nitride based materials is the choice of substrate. The structural and optical properties of the layers are intimately connected to the substrate material used in the epitaxial growth. Key issues include lattice matching of substrate and epitaxial layer and the difference in the thermal expansion between the substrate and epitaxial layer. Due to the extremely high vapor pressure of nitrogen over Gallium Nitride (GaN), pure GaN substrate are very difficult to produce and currently almost all nitride-based device are fabricated by hetero-epitaxy on either Sapphire or Silicon Carbide (SiC). Alternatively, AlN has a significantly lower vapor pressure of nitrogen and can be grown in bulk form. In this paper we report on our results in the growth of AlN by physical vapor transport. A theoretical model was developed to investigate the growth process by to determine optimal growth parameters. Several different seed crystals were investigated, singular 6H-SiC, 3.50 off-axis 6H-SiC and 80 off-axis 4H-SiC, and AlN grown by hydride vapor deposition on silicon substrates (the silicon substrates were subsequently removed by etching). Auger electron microscopy, transmission electron microscopy, and various X-ray diffraction techniques were used to investigate the samples grown.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-04-13T18:33:29Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Tim K. Hossain</name>
+    </author>
+    <author>
+      <name>James V. Lindesay</name>
+    </author>
+    <author>
+      <name>Michael G. Spencer</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.07866v2</id>
+    <title>Easy bootstrap for the 3D Ising model: a hybrid approach of the lightcone bootstrap and error minimization methods</title>
+    <updated>2024-07-08T05:47:07Z</updated>
+    <link href="https://arxiv.org/abs/2312.07866v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.07866v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>As a simple lattice model that exhibits a phase transition, the Ising model plays a fundamental role in statistical and condensed matter physics. The Ising transition is realized by physical systems, such as the liquid-vapor transition. Its continuum limit also furnishes a basic example of interacting quantum field theories and universality classes. Motivated by a recent hybrid bootstrap study of the quantum quartic oscillator, we revisit the conformal bootstrap approach to the 3D Ising model at criticality, without resorting to positivity constraints. We use at most 10 nonperturbative crossing constraints at low derivatives from the Taylor expansion around a crossing symmetric point. The high-lying contributions are approximated by simple analytic formulae deduced from the lightcone singularity structure. Surprisingly, the low-lying properties are determined to good accuracy by this computationally very cheap approach. For instance, the results for the two relevant scaling dimensions $(Δ_σ,Δ_ε)\approx (0.518153,1.41278)$ are close to the most precise rigorous bounds obtained at a much higher computational cost.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-13T03:06:39Z</published>
+    <arxiv:comment>v2: 16 pages, 4 figures, many improvements, more accurate results and discussion about improved stability in section 4</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Wenliang Li</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP07(2024)047</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP07(2024)047" title="doi"/>
+  </entry>
+</feed>

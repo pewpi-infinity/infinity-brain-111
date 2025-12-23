@@ -1,0 +1,85 @@
+TERMS: hydrogen, entropy, electron, probability
+COLORS: purple, red, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/JnqA2dZf2idRR7Xiqk4UwQZUEPI</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:entropy AND all:electron AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:49:49Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:entropy+AND+(all:electron+AND+all:probability))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>4</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1909.11660v1</id>
+    <title>Analytical Shannon information entropies for all discrete multidimensional hydrogenic states</title>
+    <updated>2019-09-25T14:03:10Z</updated>
+    <link href="https://arxiv.org/abs/1909.11660v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1909.11660v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The entropic uncertainty measures of the multidimensional hydrogenic states quantify the multiple facets of the spatial delocalization of the electronic probability density of the system. The Shannon entropy is the most adequate uncertainty measure to quantify the electronic spreading and to mathematically formalize the Heisenberg uncertainty principle, partially because it does not depend on any specific point of their multidimensional domain of definition. In this work the radial and angular parts of the Shannon entropies for all the discrete stationary states of the multidimensional hydrogenic systems are obtained from first principles; that is, they are given in terms of the states' principal and magnetic hyperquantum numbers $(n,μ_1,μ_2,\ldots,μ_{D-1})$, the system's dimensionality $D$ and the nuclear charge $Z$ in an analytical, compact form. Explicit expressions for the total Shannon entropies are given for the quasi-spherical states, which conform a relevant class of specific states of the $D$-dimensional hydrogenic system characterized by the hyperquantum numbers $μ_1=μ_2\ldots=μ_{D-1}=n-1$, including the ground state.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-09-25T14:03:10Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Int J Quantum Chem. 2019;e26077</arxiv:journal_ref>
+    <author>
+      <name>Irene V. Toranzo</name>
+    </author>
+    <author>
+      <name>David Puertas-Centeno</name>
+    </author>
+    <author>
+      <name>Nahual Sobrino</name>
+    </author>
+    <author>
+      <name>Jesús S. Dehesa</name>
+    </author>
+    <arxiv:doi>10.1002/qua.26077</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1002/qua.26077" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1101.0609v1</id>
+    <title>Metallic liquid hydrogen and likely Al2O3 metallic glass</title>
+    <updated>2011-01-03T21:15:00Z</updated>
+    <link href="https://arxiv.org/abs/1101.0609v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1101.0609v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Dynamic compression has been used to synthesize liquid metallic hydrogen at 140 GPa (1.4 million bar) and experimental data and theory predict Al2O3 might be a metallic glass at ~300 GPa. The mechanism of metallization in both cases is probably a Mott-like transition. The strength of sapphire causes shock dissipation to be split differently in the strong solid and soft fluid. Once the 4.5-eV H-H and Al-O bonds are broken at sufficiently high pressures in liquid H2 and in sapphire (single-crystal Al2O3), electrons are delocalized, which leads to formation of energy bands in fluid H and probably in amorphous Al2O3. The high strength of sapphire causes shock dissipation to be absorbed primarily in entropy up to ~400 GPa, which also causes the 300-K isotherm and Hugoniot to be virtually coincident in this pressure range. Above ~400 GPa shock dissipation must go primarily into temperature, which is observed experimentally as a rapid increase in shock pressure above ~400 GPa. The metallization of glassy Al2O3, if verified, is expected to be general in strong oxide insulators. Implications for Super Earths are discussed.</summary>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-01-03T21:15:00Z</published>
+    <arxiv:comment>8 pages, 5 figures, 14th Liquid and Amorphous Metals Conference, Rome 2010</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.dis-nn"/>
+    <author>
+      <name>W. J. Nellis</name>
+    </author>
+    <arxiv:doi>10.1140/epjst/e2011-01423-2</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1140/epjst/e2011-01423-2" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1709.09489v1</id>
+    <title>Entropic uncertainty measures for large dimensional hydrogenic systems</title>
+    <updated>2017-09-27T13:17:36Z</updated>
+    <link href="https://arxiv.org/abs/1709.09489v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1709.09489v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The entropic moments of the probability density of a quantum system in position and momentum spaces describe not only some fundamental and/or experimentally accessible quantities of the system, but also the entropic uncertainty measures of Rényi type which allow one to find the most relevant mathematical formalizations of the position-momentum Heisenberg's uncertainty principle, the entropic uncertainty relations. It is known that the solution of difficult three-dimensional problems can be very well approximated by a series development in $1/D$ in similar systems with a non-standard dimensionality $D$; moreover, several physical quantities of numerous atomic and molecular systems have been numerically shown to have values in the large-$D$ limit comparable to the corresponding ones provided by the three-dimensional numerical self-consistent field methods. The $D$-dimensional hydrogenic atom is the main prototype of the physics of multidimensional many-electron systems. In this work we rigorously determine the leading term of the Rényi entropies of the $D$-dimensional hydrogenic atom at the limit of large $D$. As a byproduct, we show that our results saturate the known position-momentum Rényi-entropy-based uncertainty relations.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-09-27T13:17:36Z</published>
+    <arxiv:comment>Accepted in J. Math. Phys</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>J. Math. Phys. 58, 103302 (2017)</arxiv:journal_ref>
+    <author>
+      <name>D. Puertas-Centeno</name>
+    </author>
+    <author>
+      <name>N. M. Temme</name>
+    </author>
+    <author>
+      <name>I. V. Toranzo</name>
+    </author>
+    <author>
+      <name>J. S. Dehesa</name>
+    </author>
+    <arxiv:doi>10.1063/1.5006569</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/1.5006569" title="doi"/>
+  </entry>
+</feed>

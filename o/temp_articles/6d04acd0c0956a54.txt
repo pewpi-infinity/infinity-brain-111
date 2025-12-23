@@ -1,0 +1,105 @@
+TERMS: hydrogen, quantum, wavefunction, plasma
+COLORS: purple, blue, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/L9O6DRZ6PK3nQN/JizbJfccMR9Y</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:wavefunction AND all:plasma&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:40:38Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:wavefunction+AND+all:plasma))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>6</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1610.01120v2</id>
+    <title>Hydrogen atom in a Laser-Plasma</title>
+    <updated>2016-10-13T14:43:26Z</updated>
+    <link href="https://arxiv.org/abs/1610.01120v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1610.01120v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We scrutinize the behaviour of hydrogen atom's eigenvalues in a quantum plasma as it interacts with electric field directed along $θ=π$ and exposed to linearly polarized intense laser field radiation. Using the Kramers-Henneberger (KH) unitary transformation, which is semiclassical counterpart of the Block-Nordsieck transformation in the quantized field formalism, the squared vector potential that appears in the equation of motion is eliminated and the resultant equation is expressed in KH frame. Within this frame, the resulting potential and the corresponding wavefunction have been expanded in Fourier series and using Ehlotzky's approximation, we obtain a laser-dressed potential to simulate intense laser field. By fitting the exponential-cosine-screened Coulomb potential into the laser-dressed potential, and then expanding it in Taylor series up to $\mathcal{O}(r^4,α_0^9)$, we obtain the eigensolution (eigenvalues and wavefunction) of hydrogen atom in laser-plasma encircled by electric field, within the framework of perturbation theory formalism. Our numerical results show that for a weak external electric field and gargantuan length of Debye screening parameter, the system is strongly repulsive in contrast for strong external electric field and small length of Debye screening parameter, the system is very attractive. This work has potential application in the areas of atomic and molecular processes in external fields including interactions with strong fields and short pulses.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-10-04T18:40:17Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Laser Phys. Lett. 13 (2016) 116003</arxiv:journal_ref>
+    <author>
+      <name>Babatunde James Falaye</name>
+    </author>
+    <author>
+      <name>Guo-Hua Sun</name>
+    </author>
+    <author>
+      <name>Muhammed S. Liman</name>
+    </author>
+    <author>
+      <name>K. J. Oyewumi</name>
+    </author>
+    <author>
+      <name>Shi-Hai Dong</name>
+    </author>
+    <arxiv:doi>10.1088/1612-2011/13/11/116003</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1612-2011/13/11/116003" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2408.03693v2</id>
+    <title>A molecular dynamics framework coupled with smoothed particle hydrodynamics for quantum plasma simulations</title>
+    <updated>2025-01-14T16:21:09Z</updated>
+    <link href="https://arxiv.org/abs/2408.03693v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2408.03693v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a novel scheme for modelling quantum plasmas in the warm dense matter (WDM) regime via a hybrid smoothed particle hydrodynamic - molecular dynamic treatment, here referred to as 'Bohm SPH'. This treatment is founded upon Bohm's interpretation of quantum mechanics for partially degenerate fluids, does not apply the Born-Oppenheimer approximation, and is computationally tractable, capable of modelling dynamics over ionic timescales at electronic time resolution. Bohm SPH is also capable of modelling non-Gaussian electron wavefunctions. We present an overview of our methodology, validation tests of the single particle case including the hydrogen 1s wavefunction, and comparisons to simulations of a warm dense hydrogen system performed with wave packet molecular dynamics.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-08-07T11:14:00Z</published>
+    <arxiv:comment>21 pages, 17 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>Thomas Campbell</name>
+    </author>
+    <author>
+      <name>Pontus Svensson</name>
+    </author>
+    <author>
+      <name>Brett Larder</name>
+    </author>
+    <author>
+      <name>Daniel Plummer</name>
+    </author>
+    <author>
+      <name>Sam M. Vinko</name>
+    </author>
+    <author>
+      <name>Gianluca Gregori</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.27446v1</id>
+    <title>Modeling partially-ionized dense plasma using wavepacket molecular dynamics</title>
+    <updated>2025-10-31T12:54:32Z</updated>
+    <link href="https://arxiv.org/abs/2510.27446v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.27446v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We develop a wave packet molecular dynamics framework for modeling the structural properties of partially-ionized dense plasmas, based on a chemical model that explicitly includes bound state wavefunctions. Using hydrogen as a representative system, we compute self-consistent charge state distributions through free energy minimization, following the approach of Plummer et al. [Phys. Rev. E 111, 015204 (2025)]. This enables a direct comparison of static equilibrium properties with path integral Monte Carlo data, facilitating an evaluation of the model's underlying approximations and its ability to capture the complex interplay between ionization and structure in dense plasma environments.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-31T12:54:32Z</published>
+    <arxiv:comment>16 pages, 8 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>Daniel Plummer</name>
+    </author>
+    <author>
+      <name>Pontus Svensson</name>
+    </author>
+    <author>
+      <name>Wiktor Jasniak</name>
+    </author>
+    <author>
+      <name>Patrick Hollebon</name>
+    </author>
+    <author>
+      <name>Sam M. Vinko</name>
+    </author>
+    <author>
+      <name>Gianluca Gregori</name>
+    </author>
+  </entry>
+</feed>

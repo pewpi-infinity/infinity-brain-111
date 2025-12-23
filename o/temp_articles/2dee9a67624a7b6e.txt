@@ -1,0 +1,55 @@
+TERMS: vapor, bandgap, singularity
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/aOAHB0nd05wsYHLzZXQuTtYmEwY</id>
+  <title>arXiv Query: search_query=all:vapor AND all:bandgap AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:26:59Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:vapor+AND+(all:bandgap+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2502.20107v1</id>
+    <title>Harnessing Layer-Controlled Two-dimensional Semiconductors for Photoelectrochemical Energy Storage via Quantum Capacitance and Band Nesting</title>
+    <updated>2025-02-27T14:01:21Z</updated>
+    <link href="https://arxiv.org/abs/2502.20107v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.20107v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Two-dimensional (2D) transition metal dichalcogenides like molybdenum diselenide (MoSe$_2$) have shown great potential in optoelectronics and energy storage due to their layer-dependent bandgap. However, producing high-quality 2D MoSe$_2$ layers in a scalable and controlled manner remains challenging. Traditional methods, such as hydrothermal and liquid-phase exfoliation, lack precision and understanding at the nanoscale, limiting further applications. Atmospheric pressure chemical vapor deposition (APCVD) offers a scalable solution for growing high-quality, large-area, layer-controlled 2D MoSe$_2$. Despite this, the photoelectrochemical performance of APCVD-grown 2D MoSe$_2$, particularly in energy storage, has not been extensively explored. This study addresses this by examining MoSe$_2$'s layer-dependent quantum capacitance and photo-induced charge storage properties. Using a three-electrode setup in 0.5M H$_2$SO$_4$, we observed a layer-dependent increase in areal capacitance under both dark and illuminated conditions. A six-layer MoSe$_2$ film exhibited the highest capacitance, reaching $96 μ\mathrm{F/cm^2}$ in the dark and $115 μ\mathrm{F/cm^2}$ under illumination at a current density of $5 μ\mathrm{A/cm^2}$. Density Functional Theory (DFT) and Many-Body Perturbation Theory calculations reveal that Van Hove singularities and band nesting significantly enhance optical absorption and quantum capacitance. These results highlight APCVD-grown 2D MoSe$_2$'s potential as light-responsive, high-performance energy storage electrodes, paving the way for innovative energy storage systems.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-27T14:01:21Z</published>
+    <arxiv:comment>28 pages, 6 figures (Main Manuscript) 8 figures (Supporting Information)</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Praveen Kumar</name>
+    </author>
+    <author>
+      <name>Tushar Waghmare</name>
+    </author>
+    <author>
+      <name>Sudhir Kumar</name>
+    </author>
+    <author>
+      <name>Rajdeep Banerjee</name>
+    </author>
+    <author>
+      <name>Suman Kumar Chakraborty</name>
+    </author>
+    <author>
+      <name>Subrata Ghosh</name>
+    </author>
+    <author>
+      <name>Dipak Kumar Goswami</name>
+    </author>
+    <author>
+      <name>Sankha Mukherjee</name>
+    </author>
+    <author>
+      <name>Debabrata Pradhan</name>
+    </author>
+    <author>
+      <name>Prasana Kumar Sahoo</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,93 @@
+TERMS: quantum, lattice, plasma
+COLORS: blue, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/0u//qCBRzbQXO36AsFenTERHtnU</id>
+  <title>arXiv Query: search_query=all:quantum AND all:lattice AND all:plasma&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:06:06Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:lattice+AND+all:plasma)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>297</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/9504325v1</id>
+    <title>Quark Gluon Plasma from Numerical Simulations of Lattice QCD</title>
+    <updated>1995-04-18T20:23:32Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/9504325v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/9504325v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Numerical simulations of quantum chromodynamics at nonzero temperature provide information from first principles about the physical properties of the quark gluon plasma. Because the lattice approximation can be refined indefinitely, results of lattice simulations now provide the most reliable basis for our understanding of the nonperturbative characteristics of the plasma and of the high temperature phase transition. Following a brief overview of the methodology of lattice gauge theory at nonzero temperature, recent results and insights from lattice simulations are discussed. These include our understanding of the phase diagram of QCD, the nature of the phase transition, and the structure of the plasma.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1995-04-18T20:23:32Z</published>
+    <arxiv:comment>Review article to appear in Quark Gluon Plasma 2, edited by R. Hwa, World Scientific, 1995. 50 pp in one Postscript file, gz-compressed, uuencoded</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Carleton DeTar</name>
+    </author>
+    <arxiv:doi>10.1142/9789812830661_0001</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/9789812830661_0001" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2309.12492v2</id>
+    <title>Quantum Computing Perspective for Electromagnetic Wave Propagation in Cold Magnetized Plasmas</title>
+    <updated>2023-11-29T13:41:57Z</updated>
+    <link href="https://arxiv.org/abs/2309.12492v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2309.12492v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Electromagnetic waves are an inherent part of all plasmas -- laboratory fusion plasmas or astrophysical plasmas. The conventional methods for studying properties of electromagnetic waves rely on discretization of Maxwell equations suitable for implementing on classical, present day, computers. The traditional methodology is not efficient for quantum computing implementation -- a future computational source offering a tantalizing possibility of enormous speed up and a significant reduction in computational cost. This paper addresses two topics relevant to implementing Maxwell equations on a quantum computer. The first is on formulating a quantum Schrodinger representation of Maxwell equations for wave propagation in a cold, inhomogeneous, magnetized plasma. This representation admits unitary, energy preserving, evolution and conveniently lends itself to appropriate discretization for a quantum computer. Riding on the coattails of these results, the second topic is on developing a sequence of unitary operators which form the basis for a qubit lattice algorithm (QLA). The QLA, suitable for quantum computers, can be implemented and tested on existing classical computers for accuracy as well as scaling of computational time with the number of available processors. In order to illustrate the QLA for Maxwell equations, results are presented from a time evolving, full wave simulation of propagation and scattering of an electromagnetic wave packet by non-dispersive dielectric medium localized in space.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-09-21T21:23:19Z</published>
+    <arxiv:comment>13 Pages, 4 Figures A complexity analysis on the quantum implementation of QLA has been added along with a relocation of the sub-sections for coherence purposes</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>Efstratios Koukoutsis</name>
+    </author>
+    <author>
+      <name>Kyriakos Hizanidis</name>
+    </author>
+    <author>
+      <name>George Vahala</name>
+    </author>
+    <author>
+      <name>Min Soe</name>
+    </author>
+    <author>
+      <name>Linda Vahala</name>
+    </author>
+    <author>
+      <name>Abhay K. Ram</name>
+    </author>
+    <arxiv:doi>10.1063/5.0177589</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/5.0177589" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.15325v2</id>
+    <title>Quantum simulating continuum field theories with large-spin lattice models</title>
+    <updated>2025-08-29T15:19:22Z</updated>
+    <link href="https://arxiv.org/abs/2412.15325v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.15325v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Simulating the real-time dynamics of quantum field theories (QFTs) is one of the most promising applications of quantum simulators. Regularizing a bosonic QFT for quantum simulation purposes typically involves a truncation in Hilbert space in addition to a discretization of space. Here, we discuss how to perform such a regularization of scalar QFTs by explicitly constructing suitable many-body lattice Hamiltonians using multi-level or qudit systems, and show that this enables quantitative predictions in the continuum limit by extrapolating results obtained for large-spin models. With extensive matrix-product state simulations, we numerically demonstrate the sequence of extrapolations that leads to quantitative agreement of observables for the integrable sine-Gordon (sG) QFT. We further show how to prepare static and moving soliton excitations, and analyze their scattering dynamics in the continuum limit, in agreement with a semi-classical model and with quantitative analytical predictions. Finally, we illustrate how a non-integrable perturbation of the sG model gives rise to dynamics reminiscent of string breaking and plasma oscillations in gauge theories. Our methods are directly applicable in state-of-the-art analog quantum simulators, opening the door to quantitatively investigating a wide variety of scalar field theories and tackling long-standing questions in non-equilibrium QFT like the fate of the false vacuum.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-19T19:00:01Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>PRX Quantum 6, 030304 (2025)</arxiv:journal_ref>
+    <author>
+      <name>Gabriele Calliari</name>
+    </author>
+    <author>
+      <name>Marco Di Liberto</name>
+    </author>
+    <author>
+      <name>Hannes Pichler</name>
+    </author>
+    <author>
+      <name>Torsten V. Zache</name>
+    </author>
+    <arxiv:doi>10.1103/nt76-ttmj</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/nt76-ttmj" title="doi"/>
+  </entry>
+</feed>

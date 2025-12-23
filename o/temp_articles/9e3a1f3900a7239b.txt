@@ -1,0 +1,103 @@
+TERMS: hydrogen, ionization, vacuum
+COLORS: purple, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/kq+WynLxDs8P3kVaZJYd+MwsTyM</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:ionization AND all:vacuum&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:03:55Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:ionization+AND+all:vacuum)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>18</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/0905.3276v1</id>
+    <title>Models of magnetized neutron star atmospheres: thin atmospheres and partially ionized hydrogen atmospheres with vacuum polarization</title>
+    <updated>2009-05-20T11:00:57Z</updated>
+    <link href="https://arxiv.org/abs/0905.3276v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0905.3276v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Observed X-ray spectra of some isolated magnetized neutron stars display absorption features, sometimes interpreted as ion cyclotron lines. Modeling the observed spectra is necessary to check this hypothesis and to evaluate neutron star parameters.We develop a computer code for modeling magnetized neutron star atmospheres in a wide range of magnetic fields (10^{12} - 10^{15} G) and effective temperatures (3 \times 10^5 - 10^7 K). Using this code, we study the possibilities to explain the soft X-ray spectra of isolated neutron stars by different atmosphere models. The atmosphere is assumed to consist either of fully ionized electron-ion plasmas or of partially ionized hydrogen. Vacuum resonance and partial mode conversion are taken into account. Any inclination of the magnetic field relative to the stellar surface is allowed. We use modern opacities of fully or partially ionized plasmas in strong magnetic fields and solve the coupled radiative transfer equations for the normal electromagnetic modes in the plasma. Spectra of outgoing radiation are calculated for various atmosphere models: fully ionized semi-infinite atmosphere, thin atmosphere, partially ionized hydrogen atmosphere, or novel "sandwich" atmosphere (thin atmosphere with a hydrogen layer above a helium layer. Possibilities of applications of these results are discussed. In particular, the outgoing spectrum using the "sandwich" model is constructed. Thin partially ionized hydrogen atmospheres with vacuum polarization are shown to be able to improve the fit to the observed spectrum of the nearby isolated neutron star RBS 1223 (RX J1308.8+2127).</summary>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-05-20T11:00:57Z</published>
+    <arxiv:comment>Accepted for publications in Astronomy and Astrophysics, 9 pages, 12 figures</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.SR"/>
+    <arxiv:journal_ref>Astron. Astrophys, 500 (2009) 891-899</arxiv:journal_ref>
+    <author>
+      <name>V. F. Suleimanov</name>
+      <arxiv:affiliation>IAAT, Tuebingen, Germany; Kazan State University, Russia</arxiv:affiliation>
+    </author>
+    <author>
+      <name>A. Y. Potekhin</name>
+      <arxiv:affiliation>Ioffe Physical-Technical Institute, St. Petersburg, Russia</arxiv:affiliation>
+    </author>
+    <author>
+      <name>K. Werner</name>
+      <arxiv:affiliation>IAAT, Tuebingen, Germany</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1051/0004-6361/200912121</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1051/0004-6361/200912121" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/astro-ph/0309261v1</id>
+    <title>Atmospheres and Spectra of Strongly Magnetized Neutron Stars -- III. Partially Ionized Hydrogen Models</title>
+    <updated>2003-09-09T06:22:02Z</updated>
+    <link href="https://arxiv.org/abs/astro-ph/0309261v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/astro-ph/0309261v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We construct partially ionized hydrogen atmosphere models for magnetized neutron stars in radiative equilibrium with surface fields B=10^12-5 \times 10^14 G and effective temperatures T_eff \sim a few \times 10^5-10^6 K. These models are based on the latest equation of state and opacity results for magnetized, partially ionized hydrogen plasmas that take into account various magnetic and dense medium effects. The atmospheres directly determine the characteristics of thermal emission from isolated neutron stars. For the models with B=10^12-10^13 G, the spectral features due to neutral atoms lie at extreme UV and very soft X-ray energy bands and therefore are difficult to observe. However, the continuum flux is also different from the fully ionized case, especially at lower energies. For the superstrong field models (B\ga 10^14 G), we show that the vacuum polarization effect not only suppresses the proton cyclotron line as shown previously, but also suppresses spectral features due to bound species; therefore spectral lines or features in thermal radiation are more difficult to observe when the neutron star magnetic field is \ga 10^14 G.</summary>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-09-09T06:22:02Z</published>
+    <arxiv:comment>12 pages, 10 figures; ApJ, accepted (v599: Dec 20, 2003)</arxiv:comment>
+    <arxiv:primary_category term="astro-ph"/>
+    <arxiv:journal_ref>Astrophys.J.599:1293-1301,2003</arxiv:journal_ref>
+    <author>
+      <name>Wynn C. G. Ho</name>
+      <arxiv:affiliation>Cornell</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Dong Lai</name>
+      <arxiv:affiliation>Cornell</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Alexander Y. Potekhin</name>
+      <arxiv:affiliation>Ioffe Institute, St. Petersburg</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Gilles Chabrier</name>
+      <arxiv:affiliation>CRAL, ENS-Lyon</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1086/379507</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1086/379507" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/astro-ph/0212077v1</id>
+    <title>Atmospheres of Magnetized Neutron Stars: Vacuum Polarization and Partially Ionized Models</title>
+    <updated>2002-12-03T19:30:19Z</updated>
+    <link href="https://arxiv.org/abs/astro-ph/0212077v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/astro-ph/0212077v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We construct hydrogen atmosphere models for magnetized neutron stars in radiative equilibrium with surface fields B=10^12-5x10^14 G and effective temperatures T_eff a few x 10^5-10^6 K by solving the full radiative transfer equations for both polarization modes in the magnetized hydrogen plasma. The atmospheres directly determine the characteristics of thermal emission from isolated neutron stars. We study the effects of vacuum polarization and bound atoms on the atmosphere structure and spectra. For the lower magnetic field models (B 10^12 G), the spectral features due to neutral atoms lie at extreme UV and very soft X-ray energies and therefore are not likely to be observed. However, the continuum flux is also different from the fully ionized case, especially at lower energies. For the higher magnetic field models, we find that vacuum polarization softens the high energy tail of the thermal spectrum. We show that this depression of continuum flux strongly suppresses not only the proton cyclotron line but also spectral features due to bound species; therefore spectral lines or features in thermal radiation are more difficult to observe when the neutron star magnetic field is &gt; 10^14 G.</summary>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-12-03T19:30:19Z</published>
+    <arxiv:comment>6 pages, 6 figures, submitted to Adv Sp Res: Proceedings of the 34th COSPAR Scientific Assembly, E1.4 "High Energy Studies of Supernova Remnants and Neutron Stars"</arxiv:comment>
+    <arxiv:primary_category term="astro-ph"/>
+    <arxiv:journal_ref>Adv.Space Res. 33 (2004) 537-541</arxiv:journal_ref>
+    <author>
+      <name>Wynn C. G. Ho</name>
+      <arxiv:affiliation>Cornell</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Dong Lai</name>
+      <arxiv:affiliation>Cornell</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Alexander Y. Potekhin</name>
+      <arxiv:affiliation>Ioffe Institute, St. Petersburg</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Gilles Chabrier</name>
+      <arxiv:affiliation>ENS-Lyon</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1016/j.asr.2003.02.016</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.asr.2003.02.016" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,91 @@
+TERMS: quantum, probability
+COLORS: blue, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/vTMIpbX+DL02+N/ewqoNTYXEIB8</id>
+  <title>arXiv Query: search_query=all:quantum AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T00:57:03Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+all:probability&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>22864</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2405.05710v6</id>
+    <title>On the applicability of Kolmogorov's theory of probability to the description of quantum phenomena. Part I: foundations</title>
+    <updated>2025-11-14T15:49:56Z</updated>
+    <link href="https://arxiv.org/abs/2405.05710v6" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.05710v6" rel="related" type="application/pdf" title="pdf"/>
+    <summary>By formulating the axioms of quantum mechanics, von Neumann also laid the foundations of a "quantum probability theory". As such, it is regarded a generalization of the "classical probability theory" due to Kolmogorov. Outside of quantum physics, however, Kolmogorov's axioms enjoy universal applicability. This raises the question of whether quantum physics indeed requires such a generalization of our conception of probability or if von Neumann's axiomatization of quantum mechanics was contingent on the absence of a general theory of probability in the 1920s.
+  This work argues in favor of the latter position. In particular, it shows how to construct a mathematically rigorous theory for non-relativistic $N$-body quantum systems subject to a time-independent scalar potential, which is based on Kolmogorov's axioms and physically natural random variables. Though this theory is provably distinct from its quantum mechanical analog, it nonetheless reproduces central predictions of the latter. Further work may make an empirical comparison possible. Moreover, the approach can in principle be adapted to other classes of quantum-mechanical models.
+  Part II of this series discusses the empirical violation of Bell inequalities in the context of this approach. Part III addresses the projection postulate and the question of measurement.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-09T12:11:28Z</published>
+    <arxiv:comment>16 pages, 1 figure; published version; Keywords: geometric quantum theory, foundations of probability theory, quantum potential, double slit experiment, uncertainty principle</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Quantum Stud.: Math. Found. 13, 1 (2026)</arxiv:journal_ref>
+    <author>
+      <name>Maik Reddiger</name>
+    </author>
+    <arxiv:doi>10.1007/s40509-025-00375-6</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s40509-025-00375-6" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.01218v3</id>
+    <title>Double or nothing: a Kolmogorov extension theorem for multitime (bi)probabilities in quantum mechanics</title>
+    <updated>2024-08-19T12:57:45Z</updated>
+    <link href="https://arxiv.org/abs/2402.01218v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.01218v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The multitime probability distributions obtained by repeatedly probing a quantum system via the measurement of an observable generally violate Kolmogorov's consistency property. Therefore, one cannot interpret such distributions as the result of the sampling of a single trajectory. We show that, nonetheless, they do result from the sampling of one pair of trajectories. In this sense, rather than give up on trajectories, quantum mechanics requires to double down on them. To this purpose, we prove a generalization of the Kolmogorov extension theorem that applies to families of complex-valued bi-probability distributions (that is, defined on pairs of elements of the original sample spaces), and we employ this result in the quantum mechanical scenario. We also discuss the relation of our results with the quantum comb formalism.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-02T08:40:03Z</published>
+    <arxiv:comment>Accepted in Quantum</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Quantum 8, 1447 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Davide Lonigro</name>
+    </author>
+    <author>
+      <name>Fattah Sakuldee</name>
+    </author>
+    <author>
+      <name>Łukasz Cywiński</name>
+    </author>
+    <author>
+      <name>Dariusz Chruściński</name>
+    </author>
+    <author>
+      <name>Piotr Szańkowski</name>
+    </author>
+    <arxiv:doi>10.22331/q-2024-08-27-1447</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.22331/q-2024-08-27-1447" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2208.02585v2</id>
+    <title>Algebraic groups in non-commutative probability theory revisited</title>
+    <updated>2024-05-18T13:15:31Z</updated>
+    <link href="https://arxiv.org/abs/2208.02585v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2208.02585v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The role of coalgebras as well as algebraic groups in non-commutative probability has long been advocated by the school of von Waldenfels and Schürmann. Another algebraic approach was introduced more recently, based on shuffle and pre-Lie calculus, and results in another construction of groups of characters encoding the behaviour of states. Comparing the two, the first approach, recast recently in a general categorical language by Manzel and Schürmann, can be seen as largely driven by the theory of universal products, whereas the second construction builds on Hopf algebras and a suitable algebraization of the combinatorics of noncrossing set partitions. Although both address the same phenomena, moving between the two viewpoints is not obvious. We present here an attempt to unify the two approaches by making explicit the Hopf algebraic connections between them. Our presentation, although relying largely on classical ideas as well as results closely related to Manzel and Schürmann's aforementioned work, is nevertheless original on several points and fills a gap in the non-commutative probability literature. In particular, we systematically use the language and techniques of algebraic groups together with shuffle group techniques to prove that two notions of algebraic groups naturally associated with free, respectively Boolean and monotone, probability theories identify. We also obtain explicit formulas for various Hopf algebraic structures and detail arguments that had been left implicit in the literature.</summary>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-08-04T11:22:22Z</published>
+    <arxiv:comment>27 pages. Minor revisions. To appear in Infinite Dimensional Analysis, Quantum Probability and Related Topics</arxiv:comment>
+    <arxiv:primary_category term="math.RA"/>
+    <arxiv:journal_ref>Infinite Dimensional Analysis, Quantum Probability and Related Topics 27, No. 03, 2450005 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Ilya Chevyrev</name>
+    </author>
+    <author>
+      <name>Kurusch Ebrahimi-Fard</name>
+    </author>
+    <author>
+      <name>Frédéric Patras</name>
+    </author>
+    <arxiv:doi>10.1142/S021902572450005X</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/S021902572450005X" title="doi"/>
+  </entry>
+</feed>

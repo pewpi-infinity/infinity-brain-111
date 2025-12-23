@@ -1,0 +1,79 @@
+TERMS: neutrino, plasma, vacuum
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/TZBq/C/6/EM6PNpOEgdBVhxMZsg</id>
+  <title>arXiv Query: search_query=all:neutrino AND all:plasma AND all:vacuum&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:37:06Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:neutrino+AND+(all:plasma+AND+all:vacuum)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>25</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2210.10307v2</id>
+    <title>A review of neutrino decoupling from the early universe to the current universe</title>
+    <updated>2022-11-02T09:06:59Z</updated>
+    <link href="https://arxiv.org/abs/2210.10307v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2210.10307v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We review the distortions of spectra of relic neutrinos due to the interactions with electrons, positrons, and neutrinos in the early universe. We solve integro-differential kinetic equations for the neutrino density matrix, including vacuum three-flavor neutrino oscillations, oscillations in electron and positron background, a collision term and finite temperature corrections to electron mass and electromagnetic plasma up to the next-to-leading order $\mathcal{O}(e^3)$. After that, we estimate the effects of the spectral distortions in neutrino decoupling on the number density and energy density of the Cosmic Neutrino Background (C$ν$B) in the current universe, and discuss the implications of these effects on the capture rates in direct detection of the C$ν$B on tritium, with emphasis on the PTOLEMY-type experiment. In addition, we find a precise value of the effective number of neutrinos, $N_{\rm eff}=3.044$. However, QED corrections to weak interaction rates at order $\mathcal{O}(e^2 G_F^2)$ and forward scattering of neutrinos via their self-interactions have not been precisely taken into account in the whole literature so far. Recent studies suggest that these neglections might induce uncertainties of $\pm(10^{-3} - 10^{-4})$ in $N_{\rm eff}$.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-10-19T05:44:47Z</published>
+    <arxiv:comment>68 pages, 5 figures, 9 tables; comments welcome; invited review submitted in Universe, special issue "Recent Advances in Neutrino Physics: From Theory to Experiments" v2: Matches the published version in Universe</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Universe 2022, 8(11), 552</arxiv:journal_ref>
+    <author>
+      <name>Kensuke Akita</name>
+    </author>
+    <author>
+      <name>Masahide Yamaguchi</name>
+    </author>
+    <arxiv:doi>10.3390/universe8110552</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/universe8110552" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/astro-ph/0204187v1</id>
+    <title>Comment on ``The Effect of Vacuum Polarization ... in Strongly Magnetized Plasmas'' by Ozel (astro-ph/0203449)</title>
+    <updated>2002-04-11T14:49:21Z</updated>
+    <link href="https://arxiv.org/abs/astro-ph/0204187v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/astro-ph/0204187v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We have recently shown that in a highly magnetized neutron star atmospheric plasma, vacuum polarization can induce resonant conversion of photon polarization modes via a mechanism analogous to MSW neutrino oscillation. In a recent paper Ozel has dismissed this mode conversion effect as ``mistakes''. Here we explain why our arguments/calculations of this effect are correct.</summary>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-04-11T14:49:21Z</published>
+    <arxiv:comment>3 pages</arxiv:comment>
+    <arxiv:primary_category term="astro-ph"/>
+    <author>
+      <name>Dong Lai</name>
+      <arxiv:affiliation>Cornell</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Wynn C. G. Ho</name>
+      <arxiv:affiliation>Cornell</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1410.7915v2</id>
+    <title>Radiative decay of keV-mass sterile neutrinos in a strongly magnetized plasma</title>
+    <updated>2015-01-07T12:19:13Z</updated>
+    <link href="https://arxiv.org/abs/1410.7915v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1410.7915v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The radiative decay of sterile neutrinos with typical masses of 10 keV is investigated in the presence of a strong magnetic field and degenerate plasma. Full account is taken of the strongly modified photon dispersion relation relative to vacuum. The limiting cases of relativistic and non-relativistic plasma are analyzed. The decay rate in a strongly magnetized plasma as a function of the electron number density is compared with the un-magnetized case. We find that a strong magnetic field suppresses the catalyzing influence of the plasma on the decay rate.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-10-29T09:45:08Z</published>
+    <arxiv:comment>9 pages, 4 figures. Presentation streamlined, results unchanged. Corresponds to version published in PRD</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys. Rev. D 90, 113015 (2014)</arxiv:journal_ref>
+    <author>
+      <name>Alexandra A. Dobrynina</name>
+    </author>
+    <author>
+      <name>Nicolay V. Mikheev</name>
+    </author>
+    <author>
+      <name>Georg G. Raffelt</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.90.113015</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.90.113015" title="doi"/>
+  </entry>
+</feed>

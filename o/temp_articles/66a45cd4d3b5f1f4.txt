@@ -1,0 +1,33 @@
+TERMS: hydrogen, quantum, spin, bandgap
+COLORS: purple, blue, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/4TmSriD55Qm1L3/sLmIu+4Ie+J4</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:spin AND all:bandgap&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:40:27Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:spin+AND+all:bandgap))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1809.05746v1</id>
+    <title>Topological phases in hydrogenated gallenene and in its group elements</title>
+    <updated>2018-09-15T17:22:46Z</updated>
+    <link href="https://arxiv.org/abs/1809.05746v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1809.05746v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Nontrivial topology of Dirac (DSMs), Weyl (WSMs) and nodal line semimetals (NLSMs) are delineated by the novel band crossings near the Fermi level in the bulk and the appearance of exotic surface states. Among them, nodal line semimetals have gained immense interest due to the formation of one-dimensional nodal ring near the Fermi level. Using density funtional theory (DFT) calculations, we report that two dimensional (2D) NLSM phase can be hosted on hydrogen passivated (010) surface of gallium (gallenene) and on other group 13 elements, without inclusion of spin-orbit coupling (SOC). NLSM in these 2D systems is protected by the presence of crystalline (CS) along with inversion (IS) and the time reversal symmetry (TRS). In the presence of SOC, aluminane preserved its topological NLSM phase while in other single layered group 13 elements, a gap opened at the nodal point due to relatively stronger SOC effect. On applying tensile strain along with the inclusion of SOC, hydrogen passivated gallenene (gallenane) evolves into quantum spin Hall insulator with an indirect bandgap of 28 meV. The appearance of long range dissipationless linearly dispersive helical edge states and a large gap in gallenane make it promising for room temperature spintronics applications.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-09-15T17:22:46Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Ranjan Kumar Barik</name>
+    </author>
+    <author>
+      <name>Ritesh Kumar</name>
+    </author>
+    <author>
+      <name>Abhishek K. Singh</name>
+    </author>
+  </entry>
+</feed>

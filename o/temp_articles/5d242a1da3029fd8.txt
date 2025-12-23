@@ -1,0 +1,81 @@
+TERMS: muon, probability, singularity
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/3LNDXvCRLDIoPEVt5h3UrEGedys</id>
+  <title>arXiv Query: search_query=all:muon AND all:probability AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:36:40Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:muon+AND+(all:probability+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>3</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1102.0644v4</id>
+    <title>Long-range spatial correlation of neutrino in pion decay</title>
+    <updated>2011-08-08T13:36:17Z</updated>
+    <link href="https://arxiv.org/abs/1102.0644v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1102.0644v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Position-dependent property of the neutrino produced in high-energy pion decay is studied theoretically using a wave packet formalism. It is found that the neutrino probability has a universal finite-distance correction if the pion has a long coherence length. This correction has origins in the interference of the neutrino that is caused by the small neutrino mass and a light-cone singularity of the pion and muon system. This term is positive definite and leads excess to the neutrino flux over the in-coherent value at macroscopic distance of near detector region. The flux decreases slowly with distance in a universal manner that is determined by the absolute value of the neutrino mass and energy. Absolute value of the neutrino mass is expected to be measured indirectly from the neutrino detection probability at finite distance.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-02-03T11:03:56Z</published>
+    <arxiv:comment>56 pages, 8figures. Fig.4 and Fig.8 were revised. Section 5.3 was added</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>K. Ishikawa</name>
+    </author>
+    <author>
+      <name>Y. Tobita</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2211.04716v1</id>
+    <title>Trident pair creation by a train of laser pulses: Resonance, threshold, and carrier envelope phase effects</title>
+    <updated>2022-11-09T07:19:50Z</updated>
+    <link href="https://arxiv.org/abs/2211.04716v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2211.04716v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>General formulation in the realm of strong-field quantum electrodynamics is provided for a process that occurs in the presence of a train of laser pulses and, in the tree level, is represented by a two-vertex Feynman diagram with exchange of a virtual photon. A scheme of retrieving resonances in the corresponding probability distributions is also formulated in these general settings. While the presented formalism is applicable to a variety of processes like electron-positron pair creation and annihilation, Möller scattering, Bhabha scattering, etc., we illustrate it for a trident process. Specifically, we consider electron-positron pair creation in the muon--laser-field collisions. We demonstrate that the probability distributions exhibit integrable singularities close to the threshold of pair creation. Also, a variety of resonances is observed that originate from the poles of the Feynman photon propagator. While those resonances are, in general, obscured by strong quantum interferences, we show that they can be isolated by changing the carrier envelope phase of the driving laser pulses. In that case, while transformed into the Lorentz-Breit-Wigner shape profile, the resonance position and width can be determined.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-11-09T07:19:50Z</published>
+    <arxiv:comment>15 pages, 9 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>J. Z. Kamiński</name>
+    </author>
+    <author>
+      <name>K. Krajewska</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/astro-ph/0512189v2</id>
+    <title>Two-Dimensional Hydrodynamic Core-Collapse Supernova Simulations with Spectral Neutrino Transport II. Models for Different Progenitor Stars</title>
+    <updated>2006-07-10T18:27:48Z</updated>
+    <link href="https://arxiv.org/abs/astro-ph/0512189v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/astro-ph/0512189v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  1D and 2D supernova simulations for stars between 11 and 25 solar masses are presented, making use of the Prometheus/Vertex neutrino-hydrodynamics code, which employs a full spectral treatment of the neutrino transport. Multi-dimensional transport aspects are treated by the ``ray-by-ray plus'' approximation described in Paper I. Our set of models includes a 2D calculation for a 15 solar mass star whose iron core is assumed to rotate rigidly with an angular frequency of 0.5 rad/s before collapse. No important differences were found depending on whether random seed perturbations for triggering convection are included already during core collapse, or whether they are imposed on a 1D collapse model shortly after bounce. Convection below the neutrinosphere sets in about 40 ms p.b. at a density above 10**12 g/cm^3 in all 2D models, and encompasses a layer of growing mass as time goes on. It leads to a more extended proto-neutron star structure with accelerated lepton number and energy loss and significantly higher muon and tau neutrino luminosities, but reduced mean energies of the radiated neutrinos, at times later than ~100 ms p.b. In case of an 11.2 solar mass star we find that low (l = 1,2) convective modes cause a probably rather weak explosion by the convectively supported neutrino-heating mechanism after ~150 ms p.b. when the 2D simulation is performed with a full 180 degree grid, whereas the same simulation with 90 degree wedge fails to explode like all other models. This sensitivity demonstrates the proximity of our 2D models to the borderline between success and failure, and stresses the need of simulations in 3D, ultimately without the axis singularity of a polar grid. (abridged)</summary>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-12-07T17:30:52Z</published>
+    <arxiv:comment>42 pages, 44 figures; revised according to referee comments; accepted to Astronomy &amp; Astrophysics</arxiv:comment>
+    <arxiv:primary_category term="astro-ph"/>
+    <author>
+      <name>R. Buras</name>
+      <arxiv:affiliation>MPI for Astrophysics, Garching</arxiv:affiliation>
+    </author>
+    <author>
+      <name>H. -Th. Janka</name>
+      <arxiv:affiliation>MPI for Astrophysics, Garching</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. Rampp</name>
+      <arxiv:affiliation>MPI for Astrophysics, Garching</arxiv:affiliation>
+    </author>
+    <author>
+      <name>K. Kifonidis</name>
+      <arxiv:affiliation>MPI for Astrophysics, Garching</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1051/0004-6361:20054654</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1051/0004-6361:20054654" title="doi"/>
+  </entry>
+</feed>

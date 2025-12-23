@@ -1,0 +1,88 @@
+TERMS: lattice, entropy, boson
+COLORS: orange, red, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/R/Q/0VJdPvdLqAqrxpxValqWlec</id>
+  <title>arXiv Query: search_query=all:lattice AND all:entropy AND all:boson&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:13:25Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:entropy+AND+all:boson)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>223</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2207.08910v1</id>
+    <title>Entanglement Entropy across the Lattice-Continuum Correspondence</title>
+    <updated>2022-07-18T20:00:12Z</updated>
+    <link href="https://arxiv.org/abs/2207.08910v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2207.08910v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper revisits standard calculations of free field entanglement entropy in light of the newly developed lattice-continuum correspondence. This correspondence prescribes an explicit method to extract an approximately continuum quantum field theory out of a fully regularized lattice theory. This prescription will here be extended to subregion algebras, and it will be shown how entropies of continuum boson and fermion theories can be computed by working purely with lattice quantities. This gives a clear picture of the origin of divergences in entanglement entropy while also presenting a concise and detailed recipe for calculating this important quantity in continuum theories.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-07-18T20:00:12Z</published>
+    <arxiv:comment>19 pages. Invited submission to Mod. Phys. Lett. B. Text and formatting almost as published</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Mod. Phys. Lett. B 36 (2022) 10</arxiv:journal_ref>
+    <author>
+      <name>Djordje Radicevic</name>
+    </author>
+    <arxiv:doi>10.1142/S0217984922300010</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/S0217984922300010" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.07629v2</id>
+    <title>Exact lattice bosonization of finite N matrix quantum mechanics and c = 1</title>
+    <updated>2025-01-13T09:50:07Z</updated>
+    <link href="https://arxiv.org/abs/2406.07629v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.07629v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We describe a new exact lattice bosonization of matrix quantum mechanics (equivalently of non-relativistic fermions) that is valid for arbitrary rank N of the matrix, based on an exact operator bosonization introduced earlier in [1]. The trace identities are automatically incorporated in this formalism. The finite number N of fermions is reflected in the finite number N of bosonic oscillators, or equivalently to the finite number N of lattice points. The fermion Hamiltonian is exactly mappable to a bosonic Hamiltonian. At large N, the latter becomes local and corresponds to the lattice version of a relativistic boson Hamiltonian, with a lattice spacing of order 1/N. The finite lattice spacing leads to a finite entanglement entropy (EE) of the bosonic theory, which reproduces the finite EE of the fermionic theory. Such a description is not available in the standard bosonization in terms of fermion density fluctuations on the Fermi surface, which does not have a built-in short distance cut-off (see, however, [2]). The bosonic lattice is equipped with a geometry determined by the matrix potential or equivalently by the shape of the Fermi surface. Our bosonization also works in the double scaled c=1 model, where the bosonic EE again turns out to be finite, with the short distance cut-off turning as g_s l_s, and reproduces the matrix result. Once again, such a short distance cut-off cannot appear in the conventional dual of c=1 in terms of the 2D string ``tachyon'', where the expected short distance scale is l_s. This indicates our bosonization as a possibly different dual description to the c=1 matrix model appropriate for ``local physics'' like quantum entanglement, by contrast with the conventional duality to the eigenvalue density which works well for asymptotic observables like S-matrices. We briefly discuss possible relation of our bosonization to D0 branes.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-11T18:00:32Z</published>
+    <arxiv:comment>29 pages + appendices, 11 figures (v2) ; added section 6.2 on moments + clarifications are made in several sections (2.1.1, 2.2.4, 3.1, 3.3.1, 5.3, 7) + changed figure 3 to better represent the non-uniform lattice + typos corrected</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Gautam Mandal</name>
+    </author>
+    <author>
+      <name>Ajay Mohan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1607.05311v1</id>
+    <title>Shape dependence of two-cylinder Renyi entropies for free bosons on a lattice</title>
+    <updated>2016-07-18T20:20:48Z</updated>
+    <link href="https://arxiv.org/abs/1607.05311v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1607.05311v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Universal scaling terms occurring in Renyi entanglement entropies have the potential to bring new understanding to quantum critical points in free and interacting systems. Quantitative comparisons between analytical continuum theories and numerical calculations on lattice models play a crucial role in advancing such studies. In this paper, we exactly calculate the universal two-cylinder shape dependence of entanglement entropies for free bosons on finite-size square lattices, and compare to approximate functions derived in the continuum using several different ansatzes. Although none of these ansatzes are exact in the thermodynamic limit, we find that numerical fits are in good agreement with continuum functions derived using the AdS/CFT correspondence, an extensive mutual information model, and a quantum Lifshitz model. We use fits of our lattice data to these functions to calculate universal scalars defined in the thin-cylinder limit, and compare to values previously obtained for the free boson field theory in the continuum.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-07-18T20:20:48Z</published>
+    <arxiv:comment>7 pages, 5 figures, 1 table</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Phys. Rev. B 94, 165136 (2016)</arxiv:journal_ref>
+    <author>
+      <name>Leilee Chojnacki</name>
+    </author>
+    <author>
+      <name>Caleb Q. Cook</name>
+    </author>
+    <author>
+      <name>Denis Dalidovich</name>
+    </author>
+    <author>
+      <name>Lauren E. Hayward Sierens</name>
+    </author>
+    <author>
+      <name>Étienne Lantagne-Hurtubise</name>
+    </author>
+    <author>
+      <name>Roger G. Melko</name>
+    </author>
+    <author>
+      <name>Tiffany J. Vlaar</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.94.165136</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.94.165136" title="doi"/>
+  </entry>
+</feed>

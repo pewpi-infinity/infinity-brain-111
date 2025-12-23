@@ -1,0 +1,108 @@
+TERMS: lattice, fusion, muon
+COLORS: orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/dW32cjvETTzbfsOGadtwOFyO0rA</id>
+  <title>arXiv Query: search_query=all:lattice AND all:fusion AND all:muon&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:13:41Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:fusion+AND+all:muon)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>4</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1710.09359v1</id>
+    <title>Light-by-light forward scattering amplitudes in Lattice QCD</title>
+    <updated>2017-10-25T17:37:15Z</updated>
+    <link href="https://arxiv.org/abs/1710.09359v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1710.09359v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present our preliminary results on the calculation of hadronic light-by-light forward scattering amplitudes using vector four-point correlation functions computed on the lattice. Using a dispersive approach, forward scattering amplitudes can be described by $γ^* γ^* \to$ hadrons fusion cross sections and then compared with phenomenology. We show that only a few states are needed to reproduce our data. In particular, the sum rules considered in this study imply relations between meson$-γγ$ couplings and provide valuable information about individual form factors which are often used to estimate the meson-pole contributions to the hadronic light-by-light contribution to the $(g-2)$ of the muon.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-10-25T17:37:15Z</published>
+    <arxiv:comment>Proceedings of the 35th International Symposium on Lattice Field Theory (Lattice 2017), Granada, Spain. 8 pages, 15 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Antoine Gerardin</name>
+    </author>
+    <author>
+      <name>Jeremy Green</name>
+    </author>
+    <author>
+      <name>Oleksii Gryniuk</name>
+    </author>
+    <author>
+      <name>Georg von Hippel</name>
+    </author>
+    <author>
+      <name>Harvey B. Meyer</name>
+    </author>
+    <author>
+      <name>Vladimir Pascalutsa</name>
+    </author>
+    <author>
+      <name>Hartmut Wittig</name>
+    </author>
+    <arxiv:doi>10.1051/epjconf/201817506030</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1051/epjconf/201817506030" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0803.1892v2</id>
+    <title>Nuclear Muon Capture in Hydrogen and its Interplay with Muon Atomic Physics</title>
+    <updated>2008-04-01T21:03:03Z</updated>
+    <link href="https://arxiv.org/abs/0803.1892v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0803.1892v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The singlet capture rate $Λ_S$ for the semileptonic weak process $μ+p \to n+ν_μ$ has been measured in the MuCap experiment. The novel experimental technique is based on stopping muons in an active target, consisting of a time projection chamber operating with ultra-pure hydrogen. This allows the unambiguous determination of the pseudoscalar form factor $g_P$ of the charged electroweak current of the nucleon. Our first result $g_P(q^2=-0.88 m^2_μ) = 7.3 \pm 1.1 $ is consistent with accurate theoretical predictions and constitutes an important test of QCD symmetries. Additional data are being collected with the aim of a three-fold reduction of the experimental uncertainties. Building on the developed advanced techniques, the new MuSun experiment is being planned to measure the muon capture rate on the deuteron to 1.5% precision. This would provide the by far most accurate experimental information on the axial current interacting with the two-nucleon system and determine the low energy constant $L_{1A}$ relevant for solar neutrino reactions.
+  Muon induced atomic and molecular processes represent challenges as well as opportunities for this science program, and their interplay with the main nuclear and weak-interaction physics aspects will be discussed.</summary>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-03-13T03:55:38Z</published>
+    <arxiv:comment>Invited talk at the International Conference on Muon Catalyzed Fusion and Related Topics (MCF-07), Dubna, 18-21 June, 2007; 4/1/08 Lattice references updated</arxiv:comment>
+    <arxiv:primary_category term="nucl-ex"/>
+    <author>
+      <name>Peter Kammel</name>
+      <arxiv:affiliation>for the MuCap Collaboration</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1801.04238v1</id>
+    <title>Hadronic light-by-light scattering contribution to the muon g-2 on the lattice</title>
+    <updated>2018-01-12T17:07:23Z</updated>
+    <link href="https://arxiv.org/abs/1801.04238v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1801.04238v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We briefly review several activities at Mainz related to hadronic light-by-light scattering (HLbL) using lattice QCD. First we present a position-space approach to the HLbL contribution in the muon g-2, where we focus on exploratory studies of the pion-pole contribution in a simple model and the lepton loop in QED in the continuum and in infinite volume. The second part describes a lattice calculation of the double-virtual pion transition form factor F_{pi^0 gamma^* gamma^*}(q_1^2, q_2^2) in the spacelike region with photon virtualities up to 1.5 GeV^2 which paves the way for a lattice calculation of the pion-pole contribution to HLbL. The third topic involves HLbL forward scattering amplitudes calculated in lattice QCD which can be described, using dispersion relations (HLbL sum rules), by gamma^* gamma^* -&gt; hadrons fusion cross sections and then compared with phenomenological models.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-01-12T17:07:23Z</published>
+    <arxiv:comment>8 pages, 19 figures, contribution to the proceedings of FCCP2017 - Workshop on "Flavour changing and conserving processes", 7-9 September 2017, Anacapri, Capri Island, Italy</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Nils Asmussen</name>
+    </author>
+    <author>
+      <name>Antoine Gerardin</name>
+    </author>
+    <author>
+      <name>Jeremy Green</name>
+    </author>
+    <author>
+      <name>Oleksii Gryniuk</name>
+    </author>
+    <author>
+      <name>Georg von Hippel</name>
+    </author>
+    <author>
+      <name>Harvey B. Meyer</name>
+    </author>
+    <author>
+      <name>Andreas Nyffeler</name>
+    </author>
+    <author>
+      <name>Vladimir Pascalutsa</name>
+    </author>
+    <author>
+      <name>Hartmut Wittig</name>
+    </author>
+    <arxiv:doi>10.1051/epjconf/201817901017</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1051/epjconf/201817901017" title="doi"/>
+  </entry>
+</feed>

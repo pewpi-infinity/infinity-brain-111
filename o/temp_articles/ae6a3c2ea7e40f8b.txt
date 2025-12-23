@@ -1,0 +1,33 @@
+TERMS: hydrogen, frequency, boson, singularity
+COLORS: purple, green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/srpgDhHATwN7BQsq11M4+sJ+FWw</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:frequency AND all:boson AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:45:16Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:frequency+AND+(all:boson+AND+all:singularity))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1402.5125v1</id>
+    <title>Elastically Cooperative Activated Barrier Hopping Theory of Relaxation in Viscous Fluids. II. Thermal Liquids</title>
+    <updated>2014-02-20T20:28:38Z</updated>
+    <link href="https://arxiv.org/abs/1402.5125v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1402.5125v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Building on the elastically collective nonlinear Langevin equation theory developed for hard spheres in the preceding paper I, we propose and implement a quasi-universal theory for the alpha relaxation of thermal liquids based on mapping them to an effective hard sphere fluid via the dimensionless compressibility. The result is a zero adjustable parameter theory that can quantitatively address in a unified manner the alpha relaxation time over 14 or more decades. The theory has no singularities above zero Kelvin, and relaxation in the equilibrium low temperature limit is predicted to be of a roughly Arrhenius form. The two-barrier (local cage and long range collective elastic) description results in a rich dynamic behavior including apparent Arrhenius, narrow crossover and deeply supercooled regimes, and multiple characteristic or crossover times and temperatures of clear physical meaning. Application of the theory to nonpolar molecules, alcohols, rare gases and liquids metals is carried out. Overall, the agreement with experiment is quite good for the temperature dependence of the alpha time, plateau shear modulus and Boson-like peak frequency for van der Waals liquids, though less so for hydrogen-bonding molecules. The theory predicts multiple growing length scales upon cooling, which reflect distinct aspects of the coupled local hopping and cooperative elastic physics. Calculations of an activation volume that grows with cooling, which is correlated with a measure of dynamic cooperativity, agree quantitatively with experiment. Comparisons with elastic, entropy crisis, dynamic facilitation and other approaches are performed, and a fundamental basis for empirically-extracted crossover temperatures is established. The present work sets the stage for addressing distinctive glassy phenomena in polymer melts, and diverse liquids under strong confinement.</summary>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-02-20T20:28:38Z</published>
+    <arxiv:primary_category term="cond-mat.dis-nn"/>
+    <author>
+      <name>Stephen Mirigian</name>
+    </author>
+    <author>
+      <name>Kenneth S. Schweizer</name>
+    </author>
+    <arxiv:doi>10.1063/1.4874843</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/1.4874843" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,71 @@
+TERMS: hydrogen, wavefunction, probability
+COLORS: purple, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/VXGHhObSdM10MFuTfoihn1V6yaE</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:wavefunction AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:04:28Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:wavefunction+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>15</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2107.10315v1</id>
+    <title>The Fluid Dynamics of the One-Body Stationary States of Quantum Mechanics with Real Valued Wavefunctions</title>
+    <updated>2021-07-21T19:25:19Z</updated>
+    <link href="https://arxiv.org/abs/2107.10315v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2107.10315v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>It is demonstrated that the probability density function, given by the square of a quantum mechanical wavefunction that is a real-valued eigenvector of a time-independent, one-body Schroedinger equation, satisfies a compressible-flow generalization of the Bernoulli equation, where the mass density is the probability density times the mass of the system; the pressure and velocity fields are defined by functions depending on the probability density, and the gradient and the Laplacian of the probability density, where there are two possible directions of the velocity on a streamline. The velocity given definition implies a generalization of the steady-flow continuity equation where mass is not locally conserved. The gradient of the Bernoullian equation is demonstrated to be equivalent to the steady flow Euler equation for variable mass and irrotational flow. A speed of sound quadratic equation is obtained from a spherical wave-pulse. One of the solutions indicates that the wave-pulse velocity on a streamline is equal in magnitude but opposite in direction of the fluid velocity on the streamline. The other solution is the focus of attention from that point on. It is proven that the extremums of the momentum per volume on a streamline occur at points that are Mach 1 speed. The developed formalism is applied to a particle in a one-dimensional box, the ground and first excited-states of the one-dimensional harmonic oscillator, and the hydrogen 1s and 2s states. Some behavior is repeated in all the applications examined. For example, an antinode, a point of local-maximum density, has zero velocity and zero Mach speed on the streamline, while a node, a point of minimum density, has infinite velocity and Mach 2. In between the node and antinode is an extremum of the momentum, and Mach 1. (This is a short version of the abstract.)</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.flu-dyn" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-07-21T19:25:19Z</published>
+    <arxiv:comment>19 Figures all given at the end of the manuscript, after the citations</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>James P. Finley</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2011.12242v2</id>
+    <title>Multidimensional hydrogenic states: Position and momentum expectation values</title>
+    <updated>2021-06-17T08:05:07Z</updated>
+    <link href="https://arxiv.org/abs/2011.12242v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2011.12242v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The position and momentum probability densities of a multidimensional quantum system are fully characterized by means of the radial expectation values $\langle r^α\rangle$ and $\left\langle p^α\right\rangle$, respectively. These quantities, which describe and/or are closely related to various fundamental properties of realistic systems, have not been calculated in an analytical and effective manner up until now except for a number of three-dimensional hydrogenic states. In this work we explicitly show these expectation values for all discrete stationary $D$-dimensional hydrogenic states in terms of the dimensionality $D$, the strength of the Coulomb potential (i.e., the nuclear charge) and the $D$ state's hyperquantum numbers. Emphasis is placed on the momentum expectation values (mostly unknown, specially the ones with odd order) which are obtained in a closed compact form. Applications are made to circular, $S$-wave, high-energy (Rydberg) and high-dimensional (pseudo-classical) states of three- and multidimensional hydrogenic atoms. This has been possible because of the analytical algebraic and asymptotical properties of the special functions (orthogonal polynomials, hyperspherical harmonics) which control the states' wavefunctions. Finally, some Heisenberg-like uncertainty inequalities satisfied by these dispersion quantities are also given and discussed.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-11-24T17:34:14Z</published>
+    <arxiv:comment>Published in J. Phys. B: At. Mole. Opt. 54 (2021) 065006</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>J. S. Dehesa</name>
+    </author>
+    <author>
+      <name>D. Puertas-Centeno</name>
+    </author>
+    <arxiv:doi>10.1088/1361-6455/abcdee</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1361-6455/abcdee" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1603.09494v1</id>
+    <title>Rényi, Shannon and Tsallis entropies of Rydberg hydrogenic systems</title>
+    <updated>2016-03-31T08:57:03Z</updated>
+    <link href="https://arxiv.org/abs/1603.09494v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1603.09494v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Rényi entropies $R_{p}[ρ], 0&lt;p&lt;\infty$ of the probability density $ρ_{n,l,m}(\vec{r})$ of a physical system completely characterize the chemical and physical properties of the quantum state described by the three integer quantum numbers $(n,l,m)$. The analytical determination of these quantities is practically impossible up until now, even for the very few systems where their Schrödinger equation is exactly solved. In this work, the Rényi entropies of Rydberg (highly-excited) hydrogenic states are explicitly calculated in terms of the quantum numbers and the parameter $p$. To do that we use a methodology which first connects these quantities to the $\mathcal{L}_{p}$-norms $N_{n,l}(p)$ of the Laguerre polynomials which characterize the state's wavefunction. Then, the Rényi, Shannon and Tsallis entropies of the Rydberg states are determined by calculating the asymptotics ($n\rightarrow\infty$) of these Laguerre norms. Finally, these quantities are numerically examined in terms of the quantum numbers and the nuclear charge.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-03-31T08:57:03Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Eur. Phys. Lett. (EPL) 113 (2016) 48003</arxiv:journal_ref>
+    <author>
+      <name>I. V. Toranzo</name>
+    </author>
+    <author>
+      <name>J. S. Dehesa</name>
+    </author>
+    <arxiv:doi>10.1209/0295-5075/113/48003</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1209/0295-5075/113/48003" title="doi"/>
+  </entry>
+</feed>

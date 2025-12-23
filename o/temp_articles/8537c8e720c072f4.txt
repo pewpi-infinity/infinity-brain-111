@@ -1,0 +1,92 @@
+TERMS: frequency, entropy, oxidation
+COLORS: green, red, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/rKncc4WgjmBQRLzSCnfN7gqcAg8</id>
+  <title>arXiv Query: search_query=all:frequency AND all:entropy AND all:oxidation&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:10:07Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:entropy+AND+all:oxidation)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>6</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1812.11398v1</id>
+    <title>A microscopic perspective on heterogeneous catalysis</title>
+    <updated>2018-12-29T16:50:53Z</updated>
+    <link href="https://arxiv.org/abs/1812.11398v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1812.11398v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A general formalism is presented to describe the turnover frequency (TOF) during heterogeneous catalysis beyond a mean field treatment. For every elementary reaction we define its multiplicity as the number of times the reaction can be performed in the current configuration of the catalyst surface, divided by the number of active sites. It is shown that any change in the multiplicity with temperature can be directly understood as a modification in configurational entropy. Based on this, we determine the probability of observing any particular elementary reaction, leading to a procedure for identifying any Rate Controlling Step (RCS) as well as the Rate Determining Step (RDS), if it exists. Furthermore, it is shown that such probabilities provide a thorough description of the overall catalytic activity, enabling a deep understanding of the relative importance of every elementary reaction. Most importantly, we formulate a simple expression to describe accurately the apparent activation energy of the TOF, valid even when adsorbate-adsorbate interactions are included, and compare it to previous, approximate expressions, including the traditional Temkin formula for typical reaction mechanisms (Langmuir-Hinshelwood, Eley-Rideal, etc...). To illustrate the validity of our formalism beyond the mean field domain we present Kinetic Monte Carlo simulations for two widely-studied and industrially-relevant catalytic reactions, namely, the oxidation of CO on RuO$_2$(110) and the selective oxidation of NH$_{3}$ on the same catalyst.</summary>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-12-29T16:50:53Z</published>
+    <arxiv:comment>19 pages, 6 figures. Supporting Information with 15 pages, 5 figures and 3 tables</arxiv:comment>
+    <arxiv:primary_category term="physics.chem-ph"/>
+    <author>
+      <name>Miguel Angel Gosalvez</name>
+    </author>
+    <author>
+      <name>Joseba Alberdi-Rodriguez</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1404.5262v1</id>
+    <title>Unconventional magnetism in the spin-orbit driven Mott insulators Ba3MIr2O9 (M=Sc,Y)</title>
+    <updated>2014-04-21T18:20:16Z</updated>
+    <link href="https://arxiv.org/abs/1404.5262v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1404.5262v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We have carried out detailed bulk and local probe studies on the hexagonal oxides Ba3MIr2O9 (M=Sc,Y) where Ir is expected to have a fractional oxidation state of +4.5. In the structure, Ir-Ir dimers are arranged in an edge shared triangular network parallel to the ab plane. Whereas only weak anomalies are evident in the susceptibility data, clearer anomalies are present in the heat capacity data. Our 45Sc nuclear magnetic resonance (NMR) lineshape (first order quadrupole split) is symmetric at room temperature but becomes progressively asymmetric with decreasing temperatures. This is suggestive of distortions in the structure which could arise from progressive tilt/rotation of the IrO6 octahedra with a decrease in temperature T. The 45Sc NMR spectral weight shifts near the reference frequency with decreasing T indicating the development of magnetic singlet regions. Around 10K, a significant change in the spectrum takes place with a large intensity appearing near the reference frequency but with the spectrum remaining multi-peak. It appears from our 45Sc NMR data that in Ba3ScIr2O9 significant disorder is still present below 10K. In the case of Ba3YIr2O9, the 89Y NMR spectral lines are asymmetric at high temperatures but become nearly symmetric (single magnetic environment) below T~70K. Our 89Y spectra and T1 measurements confirm the onset of long range ordering (LRO) from a bulk of the sample at 4K in this compound. Our results suggest that Ba3YIr2O9 might be structurally distorted at room temperature (via, for example, tilt/rotations of the IrO6 octahedra) but becomes progressively a regular triangular lattice with decreasing T. The effective magnetic moments and magnetic entropy changes are strongly reduced in Ba3YIr2O9 as compared to those expected for a S=1/2 system. Similar effects have been found in other iridates which naturally have strong spin-orbit coupling (SOC).</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-04-21T18:20:16Z</published>
+    <arxiv:comment>9 pages, 10 figures, to appear in PRB</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Phys. Rev. B 89, 205101 (2014)</arxiv:journal_ref>
+    <author>
+      <name>Tusharkanti Dey</name>
+    </author>
+    <author>
+      <name>R. Kumar</name>
+    </author>
+    <author>
+      <name>A. V. Mahajan</name>
+    </author>
+    <author>
+      <name>S. D. Kaushik</name>
+    </author>
+    <author>
+      <name>V. Siruguri</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.89.205101</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.89.205101" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2303.11583v1</id>
+    <title>pgm: A Python package for free energy calculations within the phonon gas model</title>
+    <updated>2023-03-21T04:20:56Z</updated>
+    <link href="https://arxiv.org/abs/2303.11583v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2303.11583v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The quasi-harmonic approximation (QHA) is a powerful method that uses the volume dependence of non-interacting phonons to compute the free energy of materials at high pressures (P) and temperatures (T). However, anharmonicity, electronic excitations in metals, or both, introduce an intrinsic T-dependence on phonon frequencies, rendering the QHA inadequate. Here we present a Python code, pgm, to compute the free energy and thermodynamic property within the phonon gas model (PGM) that uses T-dependent phonon quasiparticle frequencies. In this case, the vibrational contribution to the Helmholtz free energy is obtained by integrating the vibrational entropy, which can be readily calculated for a system of phonon quasiparticles. Other thermodynamic properties are then obtained from standard thermodynamic relations. We demonstrate the successful applications of pgm to two cases of geophysical significance: cubic CaSiO3-perovskite (cCaPv), a strongly anharmonic insulator and the third most abundant phase of the Earth's lower mantle, and NiAs-type (B8) FeO, a partially covalent-metallic system. This is the oxide endmember of a recently discovered iron-rich Fe$_n$O alloy phase likely to exit in the Earth's inner core.</summary>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-03-21T04:20:56Z</published>
+    <arxiv:comment>26 pages, 9 figures, 5 tables</arxiv:comment>
+    <arxiv:primary_category term="physics.comp-ph"/>
+    <author>
+      <name>Hongjin Wang</name>
+    </author>
+    <author>
+      <name>Jingyi Zhuang</name>
+    </author>
+    <author>
+      <name>Zhen Zhang</name>
+    </author>
+    <author>
+      <name>Qi Zhang</name>
+    </author>
+    <author>
+      <name>Renata M. Wentzcovitch</name>
+    </author>
+    <arxiv:doi>10.1016/j.cpc.2023.108845</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.cpc.2023.108845" title="doi"/>
+  </entry>
+</feed>

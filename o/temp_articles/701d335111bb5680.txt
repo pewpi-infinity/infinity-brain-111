@@ -1,0 +1,83 @@
+TERMS: lattice, electron, spin
+COLORS: orange, green, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/53OHM7uoOzy/d8DZW1yuoHbUc24</id>
+  <title>arXiv Query: search_query=all:lattice AND all:electron AND all:spin&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:13:53Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:electron+AND+all:spin)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>5003</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1602.02707v1</id>
+    <title>Monopole holes in a partially ordered spin liquid</title>
+    <updated>2016-02-08T19:35:22Z</updated>
+    <link href="https://arxiv.org/abs/1602.02707v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1602.02707v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>If spin liquids have been famously defined by what they are not, i.e. ordered, the past years have seen the frontier between order and spin liquid starting to fade, with a growing number of materials whose low-temperature physics cannot be explained without co-existence of (partial) magnetic order and spin fluctuations. Here we study an example of such co-existence in the presence of magnetic dipolar interactions, related to spin ice, where the order is long range and the fluctuations support a Coulomb gauge field. Topological defects are effectively coupled via energetic and entropic Coulomb interactions, the latter one being stronger than for the spin-ice ground state. Depending on whether these defects break the divergence-free condition of the Coulomb gauge field or the long-range order, they are respectively categorized as monopoles - as in spin ice - or monopole holes, in analogy with electron holes in semiconductors. The long-range order plays the role of a fully-occupied valence band, while the Coulomb spin liquid can be seen as an empty conducting band. These results are discussed in the context of other lattices and models which support a similar co-existence of Coulomb gauge field and long-range order. We conclude this work by explaining how dipolar interactions lift the spin liquid degeneracy at very low energy scale by maximizing the number of flippable plaquettes, in light of the equivalent quantum dimer model.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-02-08T19:35:22Z</published>
+    <arxiv:comment>invited paper for the special issue on "Quantum Spin Ice and Liquid in Geometrically Frustrated Magnets" edited by Y.-J. Kao, S. Onoda and S. Nakatsuji</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Spin 5, 1540005 (2015)</arxiv:journal_ref>
+    <author>
+      <name>Ludovic D. C. Jaubert</name>
+    </author>
+    <arxiv:doi>10.1142/S2010324715400056</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/S2010324715400056" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1311.3973v1</id>
+    <title>Phase structure of topological insulators by lattice strong-coupling expansion</title>
+    <updated>2013-11-15T20:58:22Z</updated>
+    <link href="https://arxiv.org/abs/1311.3973v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1311.3973v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The effect of the strong electron correlation on the topological phase structure of 2-dimensional (2D) and 3D topological insulators is investigated, in terms of lattice gauge theory. The effective model for noninteracting system is constructed similarly to the lattice fermions with the Wilson term, corresponding to the spin-orbit coupling. Introducing the electron-electron interaction as the coupling to the gauge field, we analyze the behavior of emergent orders by the strong coupling expansion methods. We show that there appears a new phase with the in-plane antiferromagnetic order in the 2D topological insulator, which is similar to the so-called "Aoki phase" in lattice QCD with Wilson fermions. In the 3D case, on the other hand, there does not appear such a new phase, and the electron correlation results in the shift of the phase boundary between the topological phase and the normal phase.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-11-15T20:58:22Z</published>
+    <arxiv:comment>7 pages, 2 figures; Presented at the 31st International Symposium on Lattice Field Theory (Lattice 2013), 29 July - 3 August 2013, Mainz, Germany</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <author>
+      <name>Yasufumi Araki</name>
+    </author>
+    <author>
+      <name>Taro Kimura</name>
+    </author>
+    <author>
+      <name>Akihiko Sekine</name>
+    </author>
+    <author>
+      <name>Kentaro Nomura</name>
+    </author>
+    <author>
+      <name>Takashi Z. Nakano</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1307.3571v1</id>
+    <title>The electron-phonon interaction from fundamental local gauge symmetries in solids</title>
+    <updated>2013-07-12T20:30:19Z</updated>
+    <link href="https://arxiv.org/abs/1307.3571v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1307.3571v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The elastic properties of solids are described in close analogy with General Relativity, by locally gauging the translational group of space-time. Electron interactions with the crystal lattice are thus generated by enforcing full gauge invariance, with the introduction of a gauge field. Elementary excitations are associated with the local gauge, contrasting to the usual interpretation as being Goldstone bosons emerging from global symmetry breaking. In the linear limit of the theory, the gauge field displays elastic waves, that we identify with acoustic phonons, when the field is quantized. Coupling with the electronic part of the system yields the standard electron-phonon interaction. If spin-orbit effects are included, unusual couplings emerge between the strain field and the electronic spin current, leading to novel physics that may be relevant for spintronic applications.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-07-12T20:30:19Z</published>
+    <arxiv:comment>6 pages, no figures. KEYWORDS: non-linear elasticity; General Relativity; gauge symmetry; non-abelian gauge fields; electron-phonon interaction; spin currents</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>C. A. Dartora</name>
+    </author>
+    <author>
+      <name>G. G. Cabrera</name>
+    </author>
+    <arxiv:doi>10.1088/1751-8113/47/3/035004</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1751-8113/47/3/035004" title="doi"/>
+  </entry>
+</feed>

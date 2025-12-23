@@ -1,0 +1,75 @@
+TERMS: hydrogen, quantum, spin, boson
+COLORS: purple, blue, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Y+yhGimR8SZMiWhv5yjd69T/plc</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:spin AND all:boson&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:40:24Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:spin+AND+all:boson))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>15</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/quant-ph/0105143v1</id>
+    <title>Quantum algebraic symmetries in atomic clusters, molecules and nuclei</title>
+    <updated>2001-05-29T08:30:23Z</updated>
+    <link href="https://arxiv.org/abs/quant-ph/0105143v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/quant-ph/0105143v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Quantum algebras (also called quantum groups) are deformed versions of the usual Lie algebras, to which they reduce when the deformation parameter q is set equal to unity. From the mathematical point of view they are Hopf algebras. Their use in physics became popular with the introduction of the q-deformed harmonic oscillator as a tool for providing a boson realization of the quantum algebra SUq(2), although similar mathematical structures had already been known. Initially used for solving the quantum Yang-Baxter equation, quantum algebras have subsequently found applications in several branches of physics, as, for example, in the description of spin chains, squeezed states, hydrogen atom and hydrogen-like spectra, rotational and vibrational nuclear and molecular spectra, and in conformal field theories. By now much work has been done on the q-deformed oscillator and its relativistic extensions, and several kinds of generalized deformed oscillators and SU(2) algebras have been introduced. Here we shall confine ourselves to a list of applications of quantum algebras in nuclear structure physics and in molecular physics and, in addition, a recent application of quantum algebraic techniques to the structure of atomic clusters will be discussed in more detail.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2001-05-29T08:30:23Z</published>
+    <arxiv:comment>Plain TeX, 10 pages. Lecture given at the XXIII International Workshop on Condensed Matter Theories (Ithaca, Greece, 17-23/6/1999)</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Condensed Matter Theor. 15 (2000) 25</arxiv:journal_ref>
+    <author>
+      <name>D. Bonatsos</name>
+    </author>
+    <author>
+      <name>N. Karoussos</name>
+    </author>
+    <author>
+      <name>P. P. Raychev</name>
+    </author>
+    <author>
+      <name>R. P. Roussev</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1005.4859v1</id>
+    <title>Precision physics of simple atoms and constraints on a light boson with ultraweak coupling</title>
+    <updated>2010-05-26T16:05:28Z</updated>
+    <link href="https://arxiv.org/abs/1005.4859v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1005.4859v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Constraint on spin-dependent and spin-independent Yukawa potential at atomic scale is developed. That covers constraints on a coupling constant of an additional photon $γ^*$ and a pseudovector boson. The mass range considered is from $1\;{\rm eV}/c^2$ to $1\;{\rm MeV}/c^2$. The strongest constraint on a coupling constant $α^\prime$ is at the level of a few parts in $10^{13}$ (for $γ^*$) and below one part in $10^{16}$ (for a pseudovector) corresponding to mass below $1\;{\rm keV}/c^2$. The constraints are derived from low-energy tests of quantum electrodynamics and are based on spectroscopic data on light hydrogen-like atoms and experiments with magnetic moments of leptons and light nuclei.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-05-26T16:05:28Z</published>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys.Rev.Lett.104:220406,2010</arxiv:journal_ref>
+    <author>
+      <name>S. G. Karshenboim</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.104.220406</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.104.220406" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/quant-ph/9612040v3</id>
+    <title>Quantum Equivalence Principle</title>
+    <updated>1997-02-13T08:26:22Z</updated>
+    <link href="https://arxiv.org/abs/quant-ph/9612040v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/quant-ph/9612040v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  A simple mapping procedure is presented by which classical orbits and path integrals for the motion of a point particle in flat space can be transformed directly into those in curved space with torsion. Our procedure evolved from well-established methods in the theory of plastic deformations, where crystals with defects are described mathematically as images of ideal crystals under active nonholonomic coordinate transformations.
+  Our mapping procedure may be viewed as a natural extension of Einstein's famous equivalence principle. When applied to time-sliced path integrals, it gives rise to a new "quantum equivalence principle" which determines short-time action and measure of fluctuating orbits in spaces with curvature and torsion. The nonholonomic transformations possesses a nontrivial Jacobian in the path measure which produces in a curved space an additional term proportional to the curvature scalar R, thus canceling a similar term found earlier by DeWitt. This cancelation is important for correctly describing semiclassically and quantum mechanically various systems such as the hydrogen atom, a particle on the surface of a sphere, and a spinning top. It is also indispensable for the process of bosonization, by which Fermi particles are redescribed by those fields.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1996-12-17T12:29:18Z</published>
+    <arxiv:comment>Lectures presented at the 1996 Cargese Summer School on FUNCTIONAL INTEGRATION: BASICS AND APPLICATIONS. Author's institution under (http://www.physik.fu-berlin.de/~kleinert/institution.html) Paper can be read in HTML format under (http://www.physik.fu-berlin.de/~kleinert/kleiner_re252/preprint.html)</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>H. Kleinert</name>
+    </author>
+  </entry>
+</feed>

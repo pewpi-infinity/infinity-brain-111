@@ -1,0 +1,83 @@
+TERMS: frequency, lattice, vacuum
+COLORS: green, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/mDwy58XF7Ond+0Wk3uDuhQvD4gk</id>
+  <title>arXiv Query: search_query=all:frequency AND all:lattice AND all:vacuum&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:09:50Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:lattice+AND+all:vacuum)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>72</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2107.07074v2</id>
+    <title>Floquet vacuum engineering: Laser-driven chiral soliton lattice in the QCD vacuum</title>
+    <updated>2021-09-30T13:28:05Z</updated>
+    <link href="https://arxiv.org/abs/2107.07074v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2107.07074v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>What happens to the QCD vacuum when a time-periodic circularly polarized laser field with a sufficiently large intensity and frequency is applied? Based on the Floquet formalism for periodically driven systems and the systematic low-energy effective theory of QCD, we show that for a sufficiently large frequency and above a critical intensity, the QCD vacuum is unstable against the chiral soliton lattice of pions; a crystalline structure of topological solitons that spontaneously breaks parity and continuous translational symmetries. Our work would pave the way for novel "Floquet vacuum engineering."</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-07-15T02:11:03Z</published>
+    <arxiv:comment>7 pages; v2: added discussion of Weyl/Dirac semimetals, typos fixed, published version</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys. Rev. D 104, 054041 (2021)</arxiv:journal_ref>
+    <author>
+      <name>Akihiro Yamada</name>
+    </author>
+    <author>
+      <name>Naoki Yamamoto</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.104.054041</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.104.054041" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2001.08783v1</id>
+    <title>Frequency-splitting estimators for single-propagator traces</title>
+    <updated>2020-01-23T19:47:52Z</updated>
+    <link href="https://arxiv.org/abs/2001.08783v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2001.08783v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In these proceedings we address the computation of quark-line disconnected diagrams in lattice QCD. The evaluation of these diagrams is required for many phenomenologically interesting observables, but suffers from large statistical errors due to the vacuum and random-noise contributions to their variances. Motivated by a theoretical analysis of the variances, we introduce a new family of stochastic estimators of single-propagator traces built upon a frequency splitting combined with a hopping expansion of the quark propagator, and test their efficiency in two-flavour QCD with pions as light as 190 MeV. The use of these estimators reduces the cost of the computation by one to two orders of magnitude over standard estimators depending on the fermion bilinear. As a concrete application, we show the impact of these findings on the computation of the hadronic vacuum polarization contribution to the muon anomalous magnetic moment.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-01-23T19:47:52Z</published>
+    <arxiv:comment>7 pages, 4 figures; Proceedings of the 37th annual International Symposium on Lattice Field Theory (Lattice 2019), 16-22 June 2019, Wuhan, China</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Leonardo Giusti</name>
+    </author>
+    <author>
+      <name>Tim Harris</name>
+    </author>
+    <author>
+      <name>Alessandro Nada</name>
+    </author>
+    <author>
+      <name>Stefan Schaefer</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.10248v1</id>
+    <title>Frequency-domain engineering of bright squeezed vacuum for continuous-variable quantum information</title>
+    <updated>2023-05-17T14:36:41Z</updated>
+    <link href="https://arxiv.org/abs/2305.10248v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.10248v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multimode bright squeezed vacuum is a non-classical state of light hosting a macroscopic photon number while offering promising capacity for encoding quantum information in its spectral degree of freedom. Here, we employ an accurate model for parametric downconversion in the high-gain regime and use nonlinear holography to design quantum correlations of bright squeezed vacuum in the frequency domain. We propose the design of quantum correlations over two-dimensional lattice geometries that are all-optically controlled, paving the way toward continuous-variable cluster state generation on an ultrafast timescale. Specifically, we investigate the generation of a square cluster state in the frequency domain and calculate its covariance matrix and the quantum nullifier uncertainties, that exhibit squeezing below the vacuum noise level.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-17T14:36:41Z</published>
+    <arxiv:comment>11 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Inbar Hurvitz</name>
+    </author>
+    <author>
+      <name>Aviv Karnieli</name>
+    </author>
+    <author>
+      <name>Ady Arie</name>
+    </author>
+    <arxiv:doi>10.1364/OE.489606</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1364/OE.489606" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,82 @@
+TERMS: frequency, neutrino, singularity
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/oScu1fpJxJMeG9W5+DQ+6kIPOII</id>
+  <title>arXiv Query: search_query=all:frequency AND all:neutrino AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:12:57Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:neutrino+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>3</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1408.1735v2</id>
+    <title>Stability of event horizons against neutrino flux: The classical picture</title>
+    <updated>2015-03-05T10:17:09Z</updated>
+    <link href="https://arxiv.org/abs/1408.1735v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1408.1735v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>It has been claimed that cosmic censorship conjecture can be violated by quantum tunnelling of neutrinos, though it is strongly supported by classical arguments. We consider the classical interaction of an extremal Kerr black hole with a test massless Dirac field, i.e. a "neutrino field". Evaluating the flux integrals imposed by the energy momentum tensor for fermionic fields and the Killing vectors of the space-time, we prove that this interaction can indeed destroy the event horizon of the black hole and convert it to a naked singularity. The classical process leads to a more generic violation of cosmic censorship conjecture compared to quantum tunnelling processes which occur with a low probability. The range of frequencies of the test neutrino field that can be used to destroy the black hole turns out to be the superradiant range for bosonic fields. We comment on back reaction and quantum effects. We argue that the destruction of black holes by neutrino fields cannot be fixed by self-force effects unlike similar attempts involving test bodies and bosonic fields.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-08-07T23:51:04Z</published>
+    <arxiv:comment>Published version, 11 pages, no figures</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Class. Quantum Grav. 32 (2015) 075003</arxiv:journal_ref>
+    <author>
+      <name>Koray Duztas</name>
+    </author>
+    <arxiv:doi>10.1088/0264-9381/32/7/075003</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0264-9381/32/7/075003" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1001.2617v2</id>
+    <title>Neutrino emission from spin waves in neutron spin-triplet superfluid</title>
+    <updated>2010-04-19T07:27:50Z</updated>
+    <link href="https://arxiv.org/abs/1001.2617v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1001.2617v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The linear response of a neutron spin-triplet superfluid onto external weak axial-vector field is studied for the case of $^{3}P_{2}$ pairing with a projection of the total angular momentum $m_{j}=0$. The problem is considered in the BCS approximation discarding Fermi-liquid effects. The anomalous axial-vector vertices of neutron quasiparticles possess singularities at some frequencies which specify existence of undamped spin-density waves in the Cooper condensate. The spin waves are of a low excitation energy and are kinematically able to decay into neutrino pairs through neutral weak currents. We evaluate the neutrino emissivity from the spin wave decays in the bulk neutron superfluid in old neutron stars. This calculation predicts significant energy losses from within a neutron star at lowest temperatures when all other mechanisms of neutrino emission are killed by the neutron and proton superfluidity.</summary>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-01-15T06:28:20Z</published>
+    <arxiv:comment>14 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.SR"/>
+    <arxiv:journal_ref>Phys.Lett.B689:60-65,2010</arxiv:journal_ref>
+    <author>
+      <name>L. B. Leinson</name>
+    </author>
+    <arxiv:doi>10.1016/j.physletb.2010.04.046</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physletb.2010.04.046" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/astro-ph/0512189v2</id>
+    <title>Two-Dimensional Hydrodynamic Core-Collapse Supernova Simulations with Spectral Neutrino Transport II. Models for Different Progenitor Stars</title>
+    <updated>2006-07-10T18:27:48Z</updated>
+    <link href="https://arxiv.org/abs/astro-ph/0512189v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/astro-ph/0512189v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  1D and 2D supernova simulations for stars between 11 and 25 solar masses are presented, making use of the Prometheus/Vertex neutrino-hydrodynamics code, which employs a full spectral treatment of the neutrino transport. Multi-dimensional transport aspects are treated by the ``ray-by-ray plus'' approximation described in Paper I. Our set of models includes a 2D calculation for a 15 solar mass star whose iron core is assumed to rotate rigidly with an angular frequency of 0.5 rad/s before collapse. No important differences were found depending on whether random seed perturbations for triggering convection are included already during core collapse, or whether they are imposed on a 1D collapse model shortly after bounce. Convection below the neutrinosphere sets in about 40 ms p.b. at a density above 10**12 g/cm^3 in all 2D models, and encompasses a layer of growing mass as time goes on. It leads to a more extended proto-neutron star structure with accelerated lepton number and energy loss and significantly higher muon and tau neutrino luminosities, but reduced mean energies of the radiated neutrinos, at times later than ~100 ms p.b. In case of an 11.2 solar mass star we find that low (l = 1,2) convective modes cause a probably rather weak explosion by the convectively supported neutrino-heating mechanism after ~150 ms p.b. when the 2D simulation is performed with a full 180 degree grid, whereas the same simulation with 90 degree wedge fails to explode like all other models. This sensitivity demonstrates the proximity of our 2D models to the borderline between success and failure, and stresses the need of simulations in 3D, ultimately without the axis singularity of a polar grid. (abridged)</summary>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-12-07T17:30:52Z</published>
+    <arxiv:comment>42 pages, 44 figures; revised according to referee comments; accepted to Astronomy &amp; Astrophysics</arxiv:comment>
+    <arxiv:primary_category term="astro-ph"/>
+    <author>
+      <name>R. Buras</name>
+      <arxiv:affiliation>MPI for Astrophysics, Garching</arxiv:affiliation>
+    </author>
+    <author>
+      <name>H. -Th. Janka</name>
+      <arxiv:affiliation>MPI for Astrophysics, Garching</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. Rampp</name>
+      <arxiv:affiliation>MPI for Astrophysics, Garching</arxiv:affiliation>
+    </author>
+    <author>
+      <name>K. Kifonidis</name>
+      <arxiv:affiliation>MPI for Astrophysics, Garching</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1051/0004-6361:20054654</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1051/0004-6361:20054654" title="doi"/>
+  </entry>
+</feed>

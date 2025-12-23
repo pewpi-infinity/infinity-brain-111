@@ -1,0 +1,86 @@
+TERMS: entropy, muon, oxidation
+COLORS: red, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/2mKTTX/+jyDRpZJfzGA3zE3+yAU</id>
+  <title>arXiv Query: search_query=all:entropy AND all:muon AND all:oxidation&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:19:14Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+(all:muon+AND+all:oxidation)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2004.04218v2</id>
+    <title>Spin dynamics and a nearly continuous magnetic phase transition in an entropy-stabilized oxide antiferromagnet</title>
+    <updated>2020-07-11T15:33:33Z</updated>
+    <link href="https://arxiv.org/abs/2004.04218v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2004.04218v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The magnetic order and the spin dynamics in the antiferromagnetic entropy-stabilized oxide (Mg$_{0.2}$Co$_{0.2}$Ni$_{0.2}$Cu$_{0.2}$Zn$_{0.2}$)O (MgO-ESO) have been studied using muon spin relaxation ($μ$SR) and inelastic neutron scattering. We find that antiferromagnetic order develops gradually in the sample volume as it is cooled below 140 K, becoming fully ordered around 100 K. The spin dynamics show a critical slowing down in the vicinity of the transition, and the magnetic order parameter grows continuously in the ordered state. These results indicate that the antiferromagnetic transition is continuous but proceeds with a Gaussian distribution of ordering temperatures. The magnetic contribution to the specific heat determined from inelastic neutron scattering likewise shows a broad feature centered around 120 K. High-resolution inelastic neutron scattering further reveals an initially gapped spectrum at low temperature which sees an increase in a quasielastic contribution upon heating until the ordering temperature.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-04-08T19:38:53Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>Phys. Rev. Materials 4, 074405 (2020)</arxiv:journal_ref>
+    <author>
+      <name>Benjamin A. Frandsen</name>
+    </author>
+    <author>
+      <name>K. Alec Petersen</name>
+    </author>
+    <author>
+      <name>Nicolas A. Ducharme</name>
+    </author>
+    <author>
+      <name>Alexander G. Shaw</name>
+    </author>
+    <author>
+      <name>Ethan J. Gibson</name>
+    </author>
+    <author>
+      <name>Barry Winn</name>
+    </author>
+    <author>
+      <name>Jiaqiang Yan</name>
+    </author>
+    <author>
+      <name>Junjie Zhang</name>
+    </author>
+    <author>
+      <name>Michael E. Manley</name>
+    </author>
+    <author>
+      <name>Raphaël P. Hermann</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevMaterials.4.074405</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevMaterials.4.074405" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2303.14426v1</id>
+    <title>Muon spin relaxation and emergence of disorder-induced unconventional dynamic magnetic fluctuations in Dy$_{2}$Zr$_{2}$O$_{7}$</title>
+    <updated>2023-03-25T10:19:29Z</updated>
+    <link href="https://arxiv.org/abs/2303.14426v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2303.14426v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The disordered pyrochlore oxide Dy$_{2}$Zr$_{2}$O$_{7}$ shows the signatures of field-induced spin freezing with remnant zero-point spin-ice entropy at 5 kOe magnetic field. We have performed zero-field and longitudinal field Muon spin relaxation ($μ$SR) studies on Dy$_{2}$Zr$_{2}$O$_{7}$. Our zero field studies reveal the absence of both long-range ordering and spin freezing down to 62 mK. The $μ$SR relaxation rate exhibits a temperature-independent plateau below 4 K, indicating a dynamic ground state of fluctuating spins similar to the well-known spin ice system Dy$_{2}$Ti$_{2}$O$_{7}$. The low-temperature spin fluctuations persist in the longitudinal field of 20 kOe as well and show unusual field dependence of the relaxation rate, which is uncommon for a spin-liquid system. Our results, combined with the previous studies do not show any evidence of spin ice or spin glass ground state, rather point to a disorder-induced dynamic magnetic ground state in the Dy$_{2}$Zr$_{2}$O$_{7}$ material.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-03-25T10:19:29Z</published>
+    <arxiv:comment>6 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <author>
+      <name> Sheetal</name>
+    </author>
+    <author>
+      <name>Pabitra K. Biswas</name>
+    </author>
+    <author>
+      <name>K. Yokoyama</name>
+    </author>
+    <author>
+      <name>D. T. Adroja</name>
+    </author>
+    <author>
+      <name>C. S. Yadav</name>
+    </author>
+  </entry>
+</feed>

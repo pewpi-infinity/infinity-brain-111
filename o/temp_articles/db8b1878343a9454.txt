@@ -1,0 +1,91 @@
+TERMS: superconductivity, muon, vacuum
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/5rnClYOslwtkxJSQKv/57R3KMg4</id>
+  <title>arXiv Query: search_query=all:superconductivity AND all:muon AND all:vacuum&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:31:31Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:superconductivity+AND+(all:muon+AND+all:vacuum)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>4</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2401.05945v1</id>
+    <title>Precision test of the weak interaction with slow muons</title>
+    <updated>2024-01-11T14:30:26Z</updated>
+    <link href="https://arxiv.org/abs/2401.05945v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.05945v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose to use slow muons facilities combined with cyclotron radiation detection for precision test of the weak interaction in the muon decays. Slow positive muon bunches are first injected into a cylindrical superconducting vacuum chamber with uniform strong axial magnetic fields to radially confine the muons. The positrons resulting from muon decays can be detected by their cyclotron radiation, which can be transported to low-noise electronic devices through waveguides coupled to the chamber. The decay positron's energy can be precisely measured down to eV level in the low energy region, which is sensitive to new physics effects such as Majorana neutrinos and new structures of weak interactions.</summary>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-11T14:30:26Z</published>
+    <arxiv:primary_category term="physics.ins-det"/>
+    <author>
+      <name>Xin Chen</name>
+    </author>
+    <author>
+      <name>Zhen Hu</name>
+    </author>
+    <author>
+      <name>Hui Li</name>
+    </author>
+    <author>
+      <name>Shaogang Peng</name>
+    </author>
+    <author>
+      <name>Yongcheng Wu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.15500v2</id>
+    <title>Measurements of the first-flux-penetration field in surface-treated and coated Nb: Distinguishing between surface pinning and an interface energy barrier</title>
+    <updated>2024-05-23T20:25:40Z</updated>
+    <link href="https://arxiv.org/abs/2402.15500v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.15500v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We report measurements of the first-flux-penetration field in surface-treated and coated Nb samples using muon spin rotation ($μ$SR). Using thin Ag foils as energy moderators for the implanted muon spin-probes, we "profile" the vortex penetration field $μ_{0} H_{\mathrm{vp}}$ at sub-surface depths on the order of $\sim 10$ $\mathrmμ$m to $\sim 100$ $\mathrmμ$m. In a coated sample [Nb$_3$Sn(2 $\mathrmμ$m)/Nb], we find that $μ_{0} H_{\mathrm{vp}}$ is depth-independent with a value of 234.5(35) mT, consistent with Nb's metastable superheating field and suggestive of surface energy barrier for flux penetration. Conversely, in a surface-treated sample [Nb baked in vacuum at 120 $^{\circ}$C for 48 h], vortex penetration onsets close to pure Nb's lower critical field $μ_{0}H_\mathrm{c1} \approx 170$ mT, but increases with increasing implantation depth, consistent with flux-pinning localized at the surface. The implication of these results for technical applications of superconducting Nb, such as superconducting radio frequency (SRF) cavities, is discussed.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-23T18:49:14Z</published>
+    <arxiv:comment>10 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <arxiv:journal_ref>Supercond. Sci. Technol. 37, 085006 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Md Asaduzzaman</name>
+    </author>
+    <author>
+      <name>Ryan M. L. McFadden</name>
+    </author>
+    <author>
+      <name>Edward Thoeng</name>
+    </author>
+    <author>
+      <name>Robert E. Laxdal</name>
+    </author>
+    <author>
+      <name>Tobias Junginger</name>
+    </author>
+    <arxiv:doi>10.1088/1361-6668/ad54f3</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1361-6668/ad54f3" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.14615v3</id>
+    <title>Search for inhomogeneous Meissner screening in Nb induced by low-temperature surface treatments</title>
+    <updated>2024-08-22T23:55:41Z</updated>
+    <link href="https://arxiv.org/abs/2405.14615v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.14615v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Empirical surface treatments, such as low-temperature baking (LTB) in a gaseous atmosphere or in vacuum, are important for the surface preparation of Nb superconducting radio frequency (SRF) cavities. These treatments inhomogeneously dope the first $\sim$50 nm of Nb's subsurface and are expected to impart depth-dependent characteristics to its Meissner response; however, direct evidence supporting this remains elusive, suggesting the effect is subtle. In this work, we revisit the Meissner profile data for several LTB treatments obtained from low-energy muon spin rotation (LE-$μ$SR) experiments [A. Romanenko et al., Appl. Phys. Lett. 104, 072601 (2014) and R. M. L. McFadden et al., Phys. Rev. Appl. 19, 044018 (2023)], and search for signatures of inhomogeneous field screening. Using a generalized London expression with a recently proposed empirical model for a depth-dependent magnetic penetration depth $λ(z)$, we obtain improved fits to the Meissner data, revealing that the presence of a non-superconducting surface "dead layer" $d \geq 25$ nm is a strong indicator of a reduced supercurrent density at shallow subsurface depths. Our analysis supports the notion that vacuum annealing at 120 $^{\circ}$C for 48 h induces a depth-dependent Meissner response, which has consequences for Nb's ability to maintain a magnetic-flux-free state. Evidence of similar behavior from a "nitrogen infusion" treatment is less compelling. Suggestions for further investigation into the matter are provided.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-23T14:26:27Z</published>
+    <arxiv:comment>7 pages, 4 figures, 1 table</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <arxiv:journal_ref>AIP Adv. 14, 095320 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Ryan M. L. McFadden</name>
+    </author>
+    <author>
+      <name>Tobias Junginger</name>
+    </author>
+    <arxiv:doi>10.1063/5.0227039</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/5.0227039" title="doi"/>
+  </entry>
+</feed>

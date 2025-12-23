@@ -1,0 +1,83 @@
+TERMS: quantum, entropy, muon
+COLORS: blue, red, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/l96aX9KNjIedyykEA6tB+XDiQX4</id>
+  <title>arXiv Query: search_query=all:quantum AND all:entropy AND all:muon&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:06:21Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:entropy+AND+all:muon)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>16</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2312.05712v1</id>
+    <title>Entanglement Entropy Distributions of a Muon Decay</title>
+    <updated>2023-12-10T00:02:34Z</updated>
+    <link href="https://arxiv.org/abs/2312.05712v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.05712v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Divergences that occur in density matrices of decay and scattering processes are shown to be regularized by tracing and unitarity or the optical theorem. These divergences are regularized by the lifetime of the decaying particle or the total scattering cross section. Also, this regularization is shown to give the expected helicities of final particles. The density matrix is derived for the weak decay of a polarized muon at rest, $μ^- \rightarrow ν_μ (e^- \bar ν_e)$, with Lorentz invariant density matrix entries and unitarity upheld at tree level. The electron's von Neumann entanglement entropy distributions are calculated with respect to both the electron's emission angle and energy. The angular entropy distribution favors an electron emitted backwards with respect to the muon's polarization given a minimum volume regularization. The kinematic entropy distribution is maximal at half the muon's rest mass energy. These results are similar to the electron's angular and kinematic decay rate distributions. Both the density matrix and entanglement entropy can be cast either in terms of ratios of areas or volumes.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-10T00:02:34Z</published>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>LHEP 2024 (2024) 531</arxiv:journal_ref>
+    <author>
+      <name>Shanmuka Shivashankara</name>
+    </author>
+    <author>
+      <name>Patti Rizzo</name>
+    </author>
+    <author>
+      <name>Nicole Cafe</name>
+    </author>
+    <arxiv:doi>10.31526/lhep.2024.531</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.31526/lhep.2024.531" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2003.02762v1</id>
+    <title>Information and decoherence in a muon-fluorine coupled system</title>
+    <updated>2020-03-05T16:54:09Z</updated>
+    <link href="https://arxiv.org/abs/2003.02762v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2003.02762v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The unitary evolution of a quantum system preserves its coherence, but interactions between the system and its environment result in decoherence, a process in which the quantum information stored in the system becomes degraded. A spin-polarized positively-charged muon implanted in a fluoride crystal realises such a coherent quantum system, and the entanglement of muon and nearest-neighbour fluorine nuclear spins gives rise to an oscillatory time-dependence of the muon polarization which can be detected and measured. Here we show that the decohering effect of more distant nuclear spins can be precisely modelled, allowing a very detailed description of the decoherence processes coupling the muon-fluorine 'system' with its 'environment', and allowing us to track the system entropy as the quantum information degrades. These results show how to precisely quantify the spin relaxation of muons implanted into quantum entangled states in fluoride crystals, a feature that has hitherto only been described phenomenologically.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-03-05T16:54:09Z</published>
+    <arxiv:comment>14 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 125, 087201 (2020)</arxiv:journal_ref>
+    <author>
+      <name>J. M. Wilkinson</name>
+    </author>
+    <author>
+      <name>S. J. Blundell</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.125.087201</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.125.087201" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.11799v1</id>
+    <title>Regularized Entanglement Entropy of Electron-Positron Scattering with a Witness Photon</title>
+    <updated>2024-05-20T05:46:12Z</updated>
+    <link href="https://arxiv.org/abs/2405.11799v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.11799v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Regularized quantum information metrics are calculated for the scattering process $e^-e^+ \rightarrow γ,Z\rightarrow μ^-μ^+$ that has a witness photon entangled with the initial electron-positron state. Unitarity implies the correct regularization of divergences that appear in both the final density matrix and von Neumann entanglement entropies. The entropies are found to quantify uncertainty or randomness. The variation of information, entanglement entropy, and correlation between the muon's and witness photon's helicities are found to convey equivalent information. The magnitude of the muon's expected helicity rises (falls) as the helicity entropy falls (rises). Area, or the scattering cross section, is a source of entropy for the muon's helicity entropy and momentum entropy. The muon's differential angular entropy distribution is similar to the differential angular cross section distribution, capturing the forward-backward asymmetry at high center of mass energies.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-20T05:46:12Z</published>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Phys. Rev. D 110, 096004 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Shanmuka Shivashankara</name>
+    </author>
+    <author>
+      <name>Grace Gogliettino</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.110.096004</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.110.096004" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,86 @@
+TERMS: entropy, neutrino, probability
+COLORS: red, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/kFa5mEZQLUD2QJVb0jUR5r5/LnY</id>
+  <title>arXiv Query: search_query=all:entropy AND all:neutrino AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:19:27Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+(all:neutrino+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>19</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1804.08143v3</id>
+    <title>Maximum-Entropy Priors with Derived Parameters in a Specified Distribution</title>
+    <updated>2019-03-12T07:55:33Z</updated>
+    <link href="https://arxiv.org/abs/1804.08143v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1804.08143v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a method for transforming probability distributions so that parameters of interest are forced into a specified distribution. We prove that this approach is the maximum entropy choice, and provide a motivating example applicable to neutrino hierarchy inference.</summary>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-04-22T17:39:04Z</published>
+    <arxiv:comment>7 pages, 2 figures, Published in Entropy</arxiv:comment>
+    <arxiv:primary_category term="math.ST"/>
+    <author>
+      <name>Will Handley</name>
+    </author>
+    <author>
+      <name>Marius Millea</name>
+    </author>
+    <arxiv:doi>10.3390/e21030272</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/e21030272" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1209.1520v1</id>
+    <title>Analysis of Solar Neutrino Data from SuperKamiokande I and II: Back to the Solar Neutrino Problem</title>
+    <updated>2012-09-07T12:55:48Z</updated>
+    <link href="https://arxiv.org/abs/1209.1520v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1209.1520v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We are going back to the roots of the original solar neutrino problem: analysis of data from solar neutrino experiments. The application of standard deviation analysis (SDA) and diffusion entropy analysis (DEA) to the SuperKamiokande I and II data reveals that they represent a non-Gaussian signal. The Hurst exponent is different from the scaling exponent of the probability density function and both Hurst exponent and scaling exponent of the probability density function of the SuperKamiokande data deviate considerably from the value of 0.5 which indicates that the statistics of the underlying phenomenon is anomalous. To develop a road to the possible interpretation of this finding we utilize Mathai's pathway model and consider fractional reaction and fractional diffusion as possible explanations of the non-Gaussian content of the SuperKamiokande data.</summary>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-09-07T12:55:48Z</published>
+    <arxiv:comment>13 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.SR"/>
+    <arxiv:journal_ref>Entropy 16 (2014) 1414-1425</arxiv:journal_ref>
+    <author>
+      <name>H. J. Haubold</name>
+    </author>
+    <author>
+      <name>A. M. Mathai</name>
+    </author>
+    <author>
+      <name>R. K. Saxena</name>
+    </author>
+    <arxiv:doi>10.3390/e16031414</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/e16031414" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1703.02061v2</id>
+    <title>Maximum Entropy Inferences on the Axion Mass in Models with Axion-Neutrino Interaction</title>
+    <updated>2017-03-09T16:15:06Z</updated>
+    <link href="https://arxiv.org/abs/1703.02061v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1703.02061v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this work we use the Maximum Entropy Principle (MEP) to infer the mass of an axion which interacts to photons and neutrinos in an effective low energy theory. The Shannon entropy function to be maximized is suitably defined in terms of the axion branching ratios. We show that MEP strongly constrains the axion mass taking into account the current experimental bounds on the neutrinos masses. Assuming that the axion is massive enough to decay into all the three neutrinos and that MEP fixes all the free parameters of the model, the inferred axion mass is in the interval $0.1\ $eV$\ &lt;m_{A}&lt;0.2$ eV, which can be tested by forthcoming experiments such as IAXO. However, even in the case where MEP fixes just the axion mass and no other parameter, we found that $0.1$ eV $&lt; m_A &lt; 6.3$ eV in the DFSZ model with right-handed neutrinos. Moreover, a light axion, allowed to decay to photons and the lightest neutrino only, is determined by MEP as a viable dark matter candidate.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.data-an" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-03-06T19:02:09Z</published>
+    <arxiv:comment>13 pages, 5 figures, typos corrected, figures updated</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Alexandre Alves</name>
+    </author>
+    <author>
+      <name>Alex G. Dias</name>
+    </author>
+    <author>
+      <name>Roberto da Silva</name>
+    </author>
+    <arxiv:doi>10.1007/s13538-017-0515-y</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s13538-017-0515-y" title="doi"/>
+  </entry>
+</feed>

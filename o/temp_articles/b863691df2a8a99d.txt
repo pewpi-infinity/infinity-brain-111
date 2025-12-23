@@ -1,0 +1,78 @@
+TERMS: hydrogen, quantum, electron, wavefunction
+COLORS: purple, blue, green, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Fh0Jvld+wCR4fXqAVeF8xO2RqXQ</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:electron AND all:wavefunction&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:39:02Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:electron+AND+all:wavefunction))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>65</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2511.11173v1</id>
+    <title>Quantum Electron Clouds near Black Holes: Black Atoms and Molecules</title>
+    <updated>2025-11-14T11:15:10Z</updated>
+    <link href="https://arxiv.org/abs/2511.11173v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.11173v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study quantum mechanical wavefunctions near highly curved spaces, i.e., black holes. By utilizing the formalism developed by DeWitt, we derive the Schrödinger equations in the vicinity of the Schwarzschild and the Reissner-Nordström black hole geometries. The quantum electron cloud for the "black hydrogen atom" - an electron trapped by black holes - is particularly studied. We solve the equations and find that black holes generally attract the wavefunctions, localizing them near the horizon where the electrons are most likely to be trapped. These results imply that not only classical objects but also the quantum material and even the chemical properties of the atoms are affected by strong gravity. We also discuss black hydrogen molecules composed of multi-centered Majumdar-Papapetrou black holes.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-14T11:15:10Z</published>
+    <arxiv:comment>23 pages, 11 figures</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <author>
+      <name>Hinako Iseki</name>
+    </author>
+    <author>
+      <name>Shin Sasaki</name>
+    </author>
+    <author>
+      <name>Kenta Shiozawa</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0502161v3</id>
+    <title>Two electrons in a strongly coupled double quantum dot: from an artificial helium atom to a hydrogen molecule</title>
+    <updated>2005-08-28T14:49:35Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0502161v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0502161v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We study the formation of molecular states in a two-electron quantum dot as a function of the barrier potential dividing the dot. The increasing barrier potential drives the two electron system from an artificial helium atom to an artificial hydrogen molecule. To study this strongly coupled regime, we introduce variational wavefunctions which describe accurately two electrons in a single dot, and then study their mixing induced by the barrier. The evolution of the singlet-triplet gap with the barrier potential and with an external magnetic field is analyzed.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-02-06T22:23:02Z</published>
+    <arxiv:comment>10 pages, 11 figures, added references, extended discussion</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Phys. Rev. B 72, 205432 (2005)</arxiv:journal_ref>
+    <author>
+      <name>W. Dybalski</name>
+    </author>
+    <author>
+      <name>P. Hawrylak</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.72.205432</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.72.205432" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.02201v2</id>
+    <title>Computing Hydrogen Tunneling Splittings with Nuclear-Electronic Orbital Multireference Configuration Interaction</title>
+    <updated>2025-07-11T14:35:54Z</updated>
+    <link href="https://arxiv.org/abs/2506.02201v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.02201v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Hydrogen tunneling is an important process that impacts reaction rates and molecular spectra. Describing and understanding this process requires a quantum mechanical treatment of the transferring hydrogen. The nuclear-electronic orbital (NEO) approach treats specified nuclei quantum mechanically on the same level as electrons and has recently been implemented at the multireference configuration interaction (MRCI) wavefunction level. The NEO-MRCI method includes both the static correlation necessary to describe hydrogen tunneling and the electron-proton dynamic correlation required for computing quantitatively accurate nuclear-electronic vibronic states. Herein, the NEO-MRCI method is used to compute the nuclear-electronic wavefunctions and corresponding vibronic energies for four hydrogen tunneling systems at fixed geometries for a range of donor-acceptor distances. Comparison of the NEO-MRCI results to numerically exact grid-based calculations shows that the NEO-MRCI method can be used to obtain accurate hydrogen and deuterium tunneling splittings at fixed geometries. Thus, this work presents an important component for studying hydrogen tunneling systems.</summary>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-02T19:41:36Z</published>
+    <arxiv:comment>Added additional details on FGH and NEO-MRCI calculations, clarified language about tunneling splittings</arxiv:comment>
+    <arxiv:primary_category term="physics.chem-ph"/>
+    <author>
+      <name>Rachel J. Stein</name>
+    </author>
+    <author>
+      <name>Christopher L. Malbon</name>
+    </author>
+    <author>
+      <name>Sharon Hammes-Schiffer</name>
+    </author>
+  </entry>
+</feed>

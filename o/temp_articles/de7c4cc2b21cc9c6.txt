@@ -1,0 +1,73 @@
+TERMS: lattice, wavefunction, plasma
+COLORS: orange, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/HczoHUSK4vC/oI0H9IPfc0G5o0c</id>
+  <title>arXiv Query: search_query=all:lattice AND all:wavefunction AND all:plasma&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:15:28Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:wavefunction+AND+all:plasma)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>12</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2205.14015v3</id>
+    <title>Coherent Plasma in a Lattice</title>
+    <updated>2022-11-12T20:02:09Z</updated>
+    <link href="https://arxiv.org/abs/2205.14015v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2205.14015v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a fully second-quantized calculation showing the emergence of spontaneous coherent configurations of the electromagnetic field in interaction with charged bosons in a regular lattice. The bosons tend to oscillate at their plasma frequency, but are also subjected to electrostatic forces which keep them confined close to lattice sites and cause a frequency shift in the oscillation. Under certain conditions on these frequencies, we find that a suitably defined set of coherent states (coherent both in the field and matter degrees of freedom) exhibit a negative energy gap with respect to the perturbative ground state. This is true in the RWA approximation and for position-independent fields, both to first and second order in the interaction Hamiltonian. We compare this result with other recent findings from cavity QED and notice that: (1) consideration of full 3D wavefunctions and a careful definition of the coherent states are essential for obtaining the energy gap; (2) although our calculation is referred to bosons, it may also apply to protons bound in a crystal matrix, if their density is very low compared to the density of available states.</summary>
+    <category term="physics.gen-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-05-06T20:28:58Z</published>
+    <arxiv:comment>25 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.gen-ph"/>
+    <arxiv:journal_ref>Symmetry 2023, 15(2), 454</arxiv:journal_ref>
+    <author>
+      <name>L. Gamberale</name>
+    </author>
+    <author>
+      <name>G. Modanese</name>
+    </author>
+    <arxiv:doi>10.3390/sym15020454</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/sym15020454" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1505.02775v3</id>
+    <title>Wavefunctions of Symmetry Protected Topological Phases from Conformal Field Theories</title>
+    <updated>2016-01-08T17:49:52Z</updated>
+    <link href="https://arxiv.org/abs/1505.02775v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1505.02775v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a method for analyzing two-dimensional symmetry protected topological (SPT) wavefunctions using a correspondence with conformal field theories (CFTs) and integrable lattice models. This method generalizes the CFT approach for the fractional quantum Hall effect wherein the wavefunction amplitude is written as a many-operator correlator in the CFT. Adopting a bottom-up approach, we start from various known microscopic wavefunctions of SPTs with discrete symmetries and show how the CFT description emerges at large scale, thereby revealing a deep connection between group cocyles and critical, sometimes integrable, models. We show that the CFT describing the bulk wavefunction is often also the one describing the entanglement spectrum, but not always. Using a plasma analogy, we also prove the existence of hidden quasi-long-range order for a large class of SPTs. Finally, we show how response to symmetry fluxes is easily described in terms of the CFT.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-05-11T20:00:38Z</published>
+    <arxiv:comment>21 pages, 6 figures, previous results generalized to non-Abelian groups and new relations established between group cocycles and integrable models and between the CFT and the entanglement spectrum. The loop fugacity for the Z2xZ2xZ2 type 3 SPT has been corrected to a value of 2, instead of 1 previously, thereby leading to an exact mapping to an SU(2) level 1 integrable model</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Phys. Rev. B 93, 115105 (2016)</arxiv:journal_ref>
+    <author>
+      <name>Thomas Scaffidi</name>
+    </author>
+    <author>
+      <name>Zohar Ringel</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.93.115105</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.93.115105" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1901.00286v1</id>
+    <title>Wavefunction of Plasmon Excitations with Space Charge Effects</title>
+    <updated>2019-01-02T07:53:15Z</updated>
+    <link href="https://arxiv.org/abs/1901.00286v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1901.00286v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The one dimensional (1D) driven quantum coupled pseudoforce system governing the dynamics of collective Langmuir electron oscillations is used in order to investigate the effects of variety of space charge distributions on plasmon excitations of a nearly free electron gas with arbitrary degree of degeneracy and electron fluid temperature. A generalized closed form analytic expression for the grand wavefunction of collective excitations in presence of an arbitrary space charge distribution is presented based on the stationary solutions of the driven coupled pseudoforce system which has been derived from the Schrödinger-Poisson model. The wavefunction and electrostatic potential profiles for some especial cases such as the Heaviside charge distribution, Dirac charge sheet, impurity charge sheet in 1D plasmonic lattice and the Kroning-Penney Dirac charge distributions with particular applications in plasmonics and condensed matter physics is investigated in this paper. It is remarkably found that two parallel Dirac charged sheets completely shield all interior plasmon excitations with any given energy value from outside electrostatic fields and charge densities. It is also found that the presence of even a weakly charged impurity layer within a perfect 1D plasmonic crystal profoundly destroys the periodic electrostatic field of the crystal lattice, hence, the Bloch character of the wavefunction considered in band gap theory of solids. Current investigation of electron excitations in arbitrary degenerate electron gas in the presence of static charge distributions may be used to develop analytic models for a variety of real physical situations. It also helps in further developments of the rapidly growing fields of nanotechnology and plasmonics.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-01-02T07:53:15Z</published>
+    <arxiv:comment>18 pages 5 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>M. Akbari-Moghanjoughi</name>
+    </author>
+    <arxiv:doi>10.1063/1.5087201</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/1.5087201" title="doi"/>
+  </entry>
+</feed>

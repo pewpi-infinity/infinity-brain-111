@@ -1,0 +1,71 @@
+TERMS: ionization, superconductivity, spin
+COLORS: green, green, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/APNJwwt/7RKOggDMle+a7I38kBc</id>
+  <title>arXiv Query: search_query=all:ionization AND all:superconductivity AND all:spin&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:28:55Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:ionization+AND+(all:superconductivity+AND+all:spin)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>5</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0405291v4</id>
+    <title>Hall-Lorenz ratio of YBa2Cu3O7 using Ionization energy based Fermi-Dirac statistics and charge-spin separation</title>
+    <updated>2004-08-15T14:41:14Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0405291v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0405291v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The temperature dependent properties of heat capacity, heat conductivity and Hall-Lorenz ratio have been solved numerically after taking the previously proposed ionization energy based Fermi-Dirac statistics and the coexistence of Fermi and charge-spin separated liquid into account. The thermo-magneto-electronic properties are entirely for spin and charge carriers, hence the phonon contribution has been neglected. A linear dependence between the Hall-Lorenz ratio and temperature ($T$) is also obtained in accordance with the experimental results for overdoped YBa$_2$Cu$_3$O$_{7-δ}$, if these conditions, $E_I$ $&lt;$ $T_c$ with respect to resistivity and there are no spinon pairings ($T^*$ = 0) are satisfied. Heat conductivity based on both pure and electron-contaminated charge-spin separated liquid in $ab$-planes above $T_c$ are found to increase with decreasing $T$ as a consequence of inverse proportionality with $T$. The $T$-dependence of heat capacity are also highlighted, which qualitatively complies with the experimental findings.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-05-13T14:38:44Z</published>
+    <arxiv:comment>To be published in Physica B</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <arxiv:journal_ref>Physica B 352 (2004) 285</arxiv:journal_ref>
+    <author>
+      <name>Andrew Das Arulsamy</name>
+    </author>
+    <arxiv:doi>10.1016/j.physb.2004.07.022</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physb.2004.07.022" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1804.10198v3</id>
+    <title>Realizing Majorana zero mode with a stripe of \emph{ionized} and \emph{isolated} magnetic atoms on a \emph{layered} superconductor</title>
+    <updated>2019-03-17T01:07:19Z</updated>
+    <link href="https://arxiv.org/abs/1804.10198v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1804.10198v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>It has been proposed that a line junction between spiral magnet and superconductor or between ferromagnet and superconductor with Rashba spin-orbital coupling can produce Majorana zero mode (MZM) at the ends of the line. However, a strong magnetic exchange coupling between the magnetic atoms and the superconductor (about half of the bandwidth of the superconductor) is needed to obtain MZM. Here, we design devices to reduce the needed magnetic exchange coupling. In the first proposal, we cover a very narrow $s$-wave superconducting wire formed by a monolayer film or a layered material (such as FeSe or FeSe monolayer on SrTiO$_3$) with \emph{isolated} magnetic atoms. In our second proposal, we place a line of \emph{isolated} magnetic \emph{ions} on a monolayer superconductor or a \emph{layered} superconductor (such as FeSe). We show that, in the above devices, a spiral magnetic order will develop spontaneously to produce a 1D $p$-wave topological superconductor with a sizable gap (above 1/2 of the parent superconducting gap), even for a weak magnetic exchange coupling (less than 1/10 of the bandwidth). The topological superconductor has MZM at ends of the wire.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-04-26T17:55:18Z</published>
+    <arxiv:comment>4 pages main text with 3 figures and 7 pages supplementary materials. Comments are welcome</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>Wenjie Ji</name>
+    </author>
+    <author>
+      <name>Xiao-Gang Wen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0203164v8</id>
+    <title>Pseudogap and Conduction Dimensionalities in High-T_c Superconductors</title>
+    <updated>2002-08-26T13:33:18Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0203164v8" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0203164v8" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The nature of normal state charge-carriers' dynamics and the transition in conduction and gap dimensionalities between 2D and 3D for YBa_2 Cu_3 O_{7-delta} and Bi_2 Sr_2 Ca_{1-x} Y_x Cu_2 O_8 high-T_c superconductors were described by computing and fitting the resistivity curves, rho(T,delta,x). These were carried out by utilizing the 2D and 3D Fermi liquid (FL) and ionization energy (E_I) based resistivity models coupled with charge-spin (CS) separation based t-J model [Phys. Rev. B 64, 104516 (2001)]. rho(T,delta,x) curves of Y123 and Bi2212 samples indicate the beginning of the transition of conduction and gap from 2D to 3D with reduction in oxygen content (7-delta) and Ca^{2+} (1-x) as such, c-axis pseudogap could be a different phenomenon from superconductor and spin gaps. These models also indicate that the recent MgB_2 superconductor is at least not Y123 or Bi2212 type.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-03-07T15:31:33Z</published>
+    <arxiv:comment>To be published in Physica B</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <arxiv:journal_ref>Physica B 325 (2003) 164.</arxiv:journal_ref>
+    <author>
+      <name>Andrew Das Arulsamy</name>
+    </author>
+    <arxiv:doi>10.1016/S0921-4526(02)01518-1</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/S0921-4526(02)01518-1" title="doi"/>
+  </entry>
+</feed>

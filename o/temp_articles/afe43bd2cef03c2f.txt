@@ -1,0 +1,91 @@
+TERMS: hydrogen, ionization, wavefunction
+COLORS: purple, green, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/u737JYuw+P/r49prKREub5dZIC4</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:ionization AND all:wavefunction&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:03:43Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:ionization+AND+all:wavefunction)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>19</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/physics/0307114v1</id>
+    <title>Relativistic and retardation effects in the two--photon ionization of hydrogen--like ions</title>
+    <updated>2003-07-23T13:02:25Z</updated>
+    <link href="https://arxiv.org/abs/physics/0307114v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/physics/0307114v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The non-resonant two-photon ionization of hydrogen-like ions is studied in second-order perturbation theory, based on the Dirac equation. To carry out the summation over the complete Coulomb spectrum, a Green function approach has been applied to the computation of the ionization cross sections. Exact second-order relativistic cross sections are compared with data as obtained from a relativistic long-wavelength approximation as well as from the scaling of non-relativistic results. For high-Z ions, the relativistic wavefunction contraction may lower the two-photon ionization cross sections by a factor of two or more, while retardation effects appear less pronounced but still give rise to non-negligible contributions.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-07-23T13:02:25Z</published>
+    <arxiv:comment>6 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <arxiv:journal_ref>P.Koval, S. Fritzsche and A. Surzhikov, J. Phys. B36 (2003) 873-878</arxiv:journal_ref>
+    <author>
+      <name>Peter Koval</name>
+    </author>
+    <author>
+      <name>Stephan Fritzsche</name>
+    </author>
+    <author>
+      <name>Andrey Surzhykov</name>
+    </author>
+    <arxiv:doi>10.1088/0953-4075/36/5/307</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0953-4075/36/5/307" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2107.01094v2</id>
+    <title>Conditional wavefunction theory: a unified treatment of molecular structure and nonadiabatic dynamics</title>
+    <updated>2021-07-21T09:46:45Z</updated>
+    <link href="https://arxiv.org/abs/2107.01094v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2107.01094v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We demonstrate that a conditional wavefunction theory enables a unified and efficient treatment of the equilibrium structure and nonadiabatic dynamics of correlated electron-ion systems. The conditional decomposition of the many-body wavefunction formally recasts the full interacting wavefunction of a closed system as a set of lower dimensional (conditional) coupled `slices'. We formulate a variational wavefunction ansatz based on a set of conditional wavefunction slices, and demonstrate its accuracy by determining the structural and time-dependent response properties of the hydrogen molecule. We then extend this approach to include time-dependent conditional wavefunctions, and address paradigmatic nonequilibrium processes including strong-field molecular ionization, laser driven proton transfer, and Berry phase effects induced by a conical intersection. This work paves the road for the application of conditional wavefunction theory in equilibrium and out of equilibrium ab-initio molecular simulations of finite and extended systems.</summary>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-07-02T14:17:40Z</published>
+    <arxiv:primary_category term="physics.chem-ph"/>
+    <author>
+      <name>Guillermo Albareda</name>
+    </author>
+    <author>
+      <name>Kevin Lively</name>
+    </author>
+    <author>
+      <name>Shunsuke A. Sato</name>
+    </author>
+    <author>
+      <name>Aaron Kelly</name>
+    </author>
+    <author>
+      <name>Angel Rubio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2008.06287v1</id>
+    <title>Fitting continuum wavefunctions with complex Gaussians: Computation of ionization cross sections</title>
+    <updated>2020-08-14T10:40:09Z</updated>
+    <link href="https://arxiv.org/abs/2008.06287v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2008.06287v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We implement a full nonlinear optimization method to fit continuum states with complex Gaussians. The application to a set of regular scattering Coulomb functions allows us to validate the numerical feasibility, to explore the range of convergence of the approach, and to demonstrate the relative superiority of complex over real Gaussian expansions. We then consider the photoionization of atomic hydrogen, and ionization by electron impact in the first Born approximation, for which the closed form cross sections serve as a solid benchmark. Using the proposed complex Gaussian representation of the continuum combined with a real Gaussian expansion for the initial bound state, all necessary matrix elements within a partial wave approach become analytical. The successful numerical comparison illustrates that the proposed all-Gaussian approach works efficiently for ionization processes of one-center targets.</summary>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-08-14T10:40:09Z</published>
+    <arxiv:comment>31 pages, 8 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.comp-ph"/>
+    <arxiv:journal_ref>J. Comput. Chem. 2020, 41, 2365-2377</arxiv:journal_ref>
+    <author>
+      <name>Abdallah Ammar</name>
+    </author>
+    <author>
+      <name>Arnaud Leclerc</name>
+    </author>
+    <author>
+      <name>Lorenzo Ugo Ancarani</name>
+    </author>
+    <arxiv:doi>10.1002/jcc.26396</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1002/jcc.26396" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,35 @@
+TERMS: wavefunction, resonance, neutrino
+COLORS: yellow, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/kGk1v5bIiJFuvKXt0AIQJ5vwpSg</id>
+  <title>arXiv Query: search_query=all:wavefunction AND all:resonance AND all:neutrino&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:33:22Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:wavefunction+AND+(all:resonance+AND+all:neutrino)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2412.02925v3</id>
+    <title>Effects of Landau quantization on neutrino emission and absorption</title>
+    <updated>2025-02-20T01:12:28Z</updated>
+    <link href="https://arxiv.org/abs/2412.02925v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.02925v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Some neutron stars known as magnetars possess very strong magnetic fields, with surface fields as large as $10^{15}\,\rm G$ and internal fields that are possibly stronger. Recent observations of the radio pulsar GLEAM-X J1627 suggest it may have a surface field as strong as $10^{16} \,\rm G$. In the presence of a strong magnetic field, the energy levels of electrons and protons are quantized and the Direct Urca process allows neutron stars to cool rapidly, even at low density. For the case of magnetic fields $B \geq 10^{16}\,\rm G$, we find features in the emissivity due to energy quantization that are not captured by the frequently employed quasiclassical approximation where energy levels are treated as nearly continuous. Resonances can result in amplification of the neutrino emissivity at specific densities compared to a calculation that neglects quantization, particularly at low temperature. These effects are not important for the thermal evolution of an entire neutron star, but may be relevant for phenomena that depend on behavior at specific densities. We present a fully relativistic calculation of the Direct Urca rate in a strong magnetic field using the standard V-A weak Lagrangian incorporating mean field nuclear effects and discuss approaches to the numerical challenge the modified wavefunctions present and a new semi-analytic approximation. These tools are also applicable to calculating neutrino opacities in strong magnetic fields in the ejecta of binary neutron star mergers. We calculate the opacities for neutrinos capturing on free nucleons at sub-saturation densities and temperatures exceeding an MeV. We find an enhancement to capture processes of the lowest energy neutrinos by an order of magnitude or more due to suppression of electron Pauli blocking in the case of capture on neutrons, and from the effect of the nucleon magnetic moments in the case of capture on protons.</summary>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-04T00:30:37Z</published>
+    <arxiv:comment>14 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="nucl-th"/>
+    <arxiv:journal_ref>Phys. Rev. D 111, 063009, 3 March, 2025</arxiv:journal_ref>
+    <author>
+      <name>Mia Kumamoto</name>
+    </author>
+    <author>
+      <name>Catherine Welch</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.111.063009</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.111.063009" title="doi"/>
+  </entry>
+</feed>

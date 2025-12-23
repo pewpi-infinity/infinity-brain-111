@@ -1,0 +1,76 @@
+TERMS: hydrogen, quantum, crystal, wavefunction
+COLORS: purple, blue, orange, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/78lykx+iYFwLNeXbbdxXth59MiI</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:crystal AND all:wavefunction&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:39:35Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:crystal+AND+all:wavefunction))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>6</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2109.08401v4</id>
+    <title>Quantum hardware calculations of periodic systems with partition-measurement symmetry verification: simplified models of hydrogen chain and iron crystals</title>
+    <updated>2022-05-24T04:38:41Z</updated>
+    <link href="https://arxiv.org/abs/2109.08401v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2109.08401v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Running quantum algorithms on real hardware is essential for understanding their strengths and limitations, especially in the noisy intermediate scale quantum (NISQ) era. Herein we focus on the practical aspect of quantum computational calculations of solid-state crystalline materials based on theory developed in our group by using real quantum hardware with a novel noise mitigation technique referred to as partition-measurement symmetry verification, which performs post-selection of shot counts based on $Z_{2}$ and $U_{1}$ symmetry verification. We select two periodic systems with different level of complexity for these calculations. One of them is the distorted hydrogen chain as an example of very simple systems, and the other one is iron crystal in the BCC and FCC phases as it is considered to be inaccessible by using classical computational wavefunction methods. The ground state energies are evaluated based on the translational quantum subspace expansion (TransQSE) method for the hydrogen chain, and periodic boundary condition adapted VQE for our iron models. By applying these techniques for the simplest 2 qubit iron model systems, the correlation energies obtained by the hardware calculations agree with those of the state-vector simulations within $\sim$5 kJ/mol. Although the quantum computational resources used for those experiments are still limited, the techniques applied to obtain our simplified models will be applicable in essentially the same manner to more complicated cases as quantum hardware matures.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-09-17T08:24:48Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Kentaro Yamamoto</name>
+    </author>
+    <author>
+      <name>David Zsolt Manrique</name>
+    </author>
+    <author>
+      <name>Irfan Khan</name>
+    </author>
+    <author>
+      <name>Hideaki Sawada</name>
+    </author>
+    <author>
+      <name>David Muñoz Ramo</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevResearch.4.033110</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevResearch.4.033110" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1811.09983v2</id>
+    <title>Quantum crystals are at odds with the laws of thermodynamics</title>
+    <updated>2019-03-28T10:07:42Z</updated>
+    <link href="https://arxiv.org/abs/1811.09983v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1811.09983v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Experimental data and the principles of quantum mechanics suggest that a crystal is a condensate of `wavicles' enclosed in a box, where `wavicle' denotes the indefinite wave-particle status of the microscopic constituents. When it is not perturbed the crystal is in a classical-like state. The wavefunction, the internal energy and the entropy are all of them equal to zero. The thermodynamic temperature is indefinite. Perturbations via energy- and/or momentum-transfer reveal quantum effects. The temperature laws for the heat capacities of some hydrogen-bonded crystals are rationalized with superposition states depending on the quantum temperature which is crystal-dependent. Heat-transfer is a coherent anentropic process. Apart from energy conservation, the other laws of thermodynamics are irrelevant.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-11-25T10:27:39Z</published>
+    <arxiv:comment>6 pages</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>François Fillaux</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1111.0662v1</id>
+    <title>A neutron diffraction study from 6 to 293 K and a macroscopic-scale quantum theory of the hydrogen bonded dimers in the crystal of benzoic acid</title>
+    <updated>2011-11-02T20:58:42Z</updated>
+    <link href="https://arxiv.org/abs/1111.0662v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1111.0662v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The crystal of benzoic acid is comprised of tautomeric centrosymmetric dimers linked through bistable hydrogen bonds. Statistical disorder of the bonding protons is excluded by neutron diffraction from 6 K to 293 K. In addition to diffraction data, vibrational spectra and relaxation rates measured with solid-state-NMR and quasi-elastic neutron scattering are consistent with wave-like, rather than particle-like protons. We present a macroscopic-scale quantum theory for the bonding protons represented by a periodic lattice of fermions. The adiabatic separation, the exclusion principle, and the antisymmetry postulate yield a static lattice-state immune to decoherence. According to the theory of quantum measurements, vibrational spectroscopy and relaxometry involve realizations of decoherence-free Bloch states for nonlocal symmetry species that did not exist before the measurement. The eigen states are fully determined by three temperature-independent parameters which are effectively measured: the energy difference between tautomer sublattices; the double-well asymmetry for proton oscillators; the delocalization degree of the wavefunctions. The spontaneous decay of Bloch states accounts for relaxometry data. On the other hand, static states realized by elastic scattering account for diffraction data. We conclude that both quantum and classical physics hold at every temperature.</summary>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-11-02T20:58:42Z</published>
+    <arxiv:primary_category term="physics.chem-ph"/>
+    <author>
+      <name>François Fillaux</name>
+      <arxiv:affiliation>LADIR</arxiv:affiliation>
+    </author>
+    <author>
+      <name>A. Null Cousson</name>
+      <arxiv:affiliation>LLB</arxiv:affiliation>
+    </author>
+  </entry>
+</feed>

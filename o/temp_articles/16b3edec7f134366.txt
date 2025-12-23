@@ -1,0 +1,45 @@
+TERMS: hydrogen, frequency, vapor, graphene
+COLORS: purple, green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/I9Hi4Sgr3v2tJZmJCRDVBjcKqXs</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:frequency AND all:vapor AND all:graphene&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:43:17Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:frequency+AND+(all:vapor+AND+all:graphene))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2311.18038v1</id>
+    <title>Microstructure evolution of carbon films with increasing substrate temperature by using physical vapor deposition techniques</title>
+    <updated>2023-11-29T19:32:57Z</updated>
+    <link href="https://arxiv.org/abs/2311.18038v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.18038v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study how the substrate temperature influences the structural properties of carbon films deposited by PVD (physical vapor deposition) techniques. We adapted a heating system inside the deposition chamber, with temperatures up to 700$^{\circ}$C. Here we develop an experimental setup that allows us to obtain large films of the desired material on any substrate, with deposition times of the order of a minute. The characterization is based mainly on the analysis of the Raman spectra, where the evolution of the {\bf{G}} and {\bf{D}} peaks corresponding to the material in its amorphous phase is observed. With increasing substrate temperature, the $sp^{2}$ zones grow. A displacement to the right of the {\bf{G}} peak and an increase in the I(D)/I(G) ratio is seen. At 700$^{\circ}$C a 2D zone at a frequency greater than 2000 cm$^{-1}$ appears. Four Lorentzian-shaped bands are necessary to account for the peaks at this zone, whose centers correspond to different combinations of first-order ones. This indicates that we have a highly disordered sample and we are at the transition zone from amorphous carbon to a graphene layer. The Tauc gap energy ratio decreases as temperature increases indicating that there is a graphitization of the sample. Transmission FTIR study is carried out at some of the intermediate temperatures, determining the type of bond at low frequencies. These bonds are consistent with the ones of the hydrogenated amorphous carbon (a-C:H) structure. %\noindent Each keyword shall be separated by a \verb+\sep+ command.</summary>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-29T19:32:57Z</published>
+    <arxiv:primary_category term="physics.app-ph"/>
+    <author>
+      <name>Sindry Torres</name>
+    </author>
+    <author>
+      <name>Giuliano Frattini</name>
+    </author>
+    <author>
+      <name>Leonel I. Silva</name>
+    </author>
+    <author>
+      <name>Carlos E. Repetto</name>
+    </author>
+    <author>
+      <name>Alejo Aguirre</name>
+    </author>
+    <author>
+      <name>Bernardo J. Gómez</name>
+    </author>
+    <author>
+      <name>Ariel Dobry</name>
+    </author>
+  </entry>
+</feed>

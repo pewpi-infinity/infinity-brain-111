@@ -1,0 +1,33 @@
+TERMS: wavefunction, oxidation, singularity
+COLORS: yellow, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/j550Q262cYxfHJBCWQQO4MAQS6c</id>
+  <title>arXiv Query: search_query=all:wavefunction AND all:oxidation AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:34:05Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:wavefunction+AND+(all:oxidation+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1905.00542v1</id>
+    <title>Taming Convergence in the Determinant Approach for X-Ray Excitation Spectra</title>
+    <updated>2019-05-02T01:36:31Z</updated>
+    <link href="https://arxiv.org/abs/1905.00542v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1905.00542v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A determinant formalism in combination with \emph{ab initio} calculations proposed recently has paved a new way for simulating and interpreting x-ray excitation spectra. The new method systematically takes into account many-electron effects in the Mahan-Noziéres-De Dominicis (MND) theory, including core-level excitonic effects, the Fermi-edge singularity, shakeup excitations, and wavefunction overlap effects such as the orthogonality catastrophe, all within a universal framework using many-electron configurations. A heuristic search algorithm was introduced to search for the configurations that are important for defining spectral lineshapes, instead of enumerating them in a brute-force way. The algorithm has proven to be efficient for calculating \ce{O} $K$ edges of transition metal oxides, which converge at the second excitation order (denoted as $f^{(n)}$ with $n = 2$), i.e., the final-state configurations with two \emph{e-h} pairs (with one hole being the core hole). However, it remains unknown how the determinant calculations converge for general cases and at which excitation order $n$ one should stop the determinant calculation. Even with the heuristic algorithm, the number of many-electron configurations still grows exponentially with the excitation order $n$. In this work, we prove two theorems that can indicate the order of magnitude of the contribution of the $f^{(n)}$ configurations, so that one can estimate their contribution very quickly without actually calculating their amplitudes. The two theorems are based on the singular-value decomposition (SVD) analysis, a method that is widely used to quantify entanglement between two quantum many-body systems. We examine the $K$ edges of several metallic systems with the determinant formalism up to $f^{(5)}$ to illustrate the usefulness of the theorems.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-05-02T01:36:31Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>Phys. Rev. B 100, 075121 (2019)</arxiv:journal_ref>
+    <author>
+      <name>Yufeng Liang</name>
+    </author>
+    <author>
+      <name>David Prendergast</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.100.075121</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.100.075121" title="doi"/>
+  </entry>
+</feed>

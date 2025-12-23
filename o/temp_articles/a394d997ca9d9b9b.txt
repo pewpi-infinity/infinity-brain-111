@@ -1,0 +1,89 @@
+TERMS: hydrogen, quantum, lattice, spin
+COLORS: purple, blue, orange, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/JGb0SF+872UqcTYf//siS1TaZD8</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:lattice AND all:spin&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:38:06Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:lattice+AND+all:spin))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>37</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1501.02445v1</id>
+    <title>Hydrogenic states of monopoles in diluted quantum spin ice</title>
+    <updated>2015-01-11T11:21:30Z</updated>
+    <link href="https://arxiv.org/abs/1501.02445v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1501.02445v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the effect of adding quantum dynamics to a classical topological spin liquid, with particular view to how best to detect its presence in experiment. For the Coulomb phase of spin ice, we find quantum effects to be most visible in the gauge-charged monopole excitations. In the presence of weak dilution with nonmagnetic ions we find a particularly crisp phenomenon, namely the emergence of hydrogenic excited states in which a magnetic monopole is bound to a vacancy at various distances. Via a mapping to an analytically tractable single particle problem on the Bethe lattice, we obtain an approximate expression for the dynamic neutron scattering structure factor.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-01-11T11:21:30Z</published>
+    <arxiv:comment>4 pages, 4 figures; supplemental material: 3 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Phys. Rev. B 92, 100401 (2015)</arxiv:journal_ref>
+    <author>
+      <name>Olga Petrova</name>
+    </author>
+    <author>
+      <name>Roderich Moessner</name>
+    </author>
+    <author>
+      <name>S. L. Sondhi</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.92.100401</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.92.100401" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1803.00600v1</id>
+    <title>Hydrogen Diffusion and Trapping in α-Iron: The Role of Quantum and Anharmonic Fluctuations</title>
+    <updated>2018-03-01T19:46:38Z</updated>
+    <link href="https://arxiv.org/abs/1803.00600v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1803.00600v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate the thermodynamics and kinetics of a hydrogen interstitial in magnetic α-iron, taking account of the quantum fluctuations of the proton as well as the anharmonicities of lattice vibrations and hydrogen hopping. We show that the diffusivity of hydrogen in the lattice of BCC iron deviates strongly from an Arrhenius behavior at and below room temperature. We compare a quantum transition state theory to explicit ring polymer molecular dynamics in the calculation of diffusivity and we find that the role of phonons is to inhibit, not to enhance, diffusivity at intermediate temperatures in constrast to the usual polaron picture of hopping. We then address the trapping of hydrogen by a vacancy as a prototype lattice defect. By a sequence of steps in a thought experiment, each involving a thermodynamic integration, we are able to separate out the binding free energy of a proton to a defect into harmonic and anharmonic, and classical and quantum contributions. We find that about 30% of a typical binding free energy of hydrogen to a lattice defect in iron is accounted for by finite temperature effects and about half of these arise from quantum proton fluctuations. This has huge implications for the comparison between thermal desorption and permeation experiments and standard electronic structure theory. The implications are even greater for the interpretation of muon spin resonance experiments.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-03-01T19:46:38Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 120, 225901 (2018)</arxiv:journal_ref>
+    <author>
+      <name>Bingqing Cheng</name>
+    </author>
+    <author>
+      <name>Anthony T. Paxton</name>
+    </author>
+    <author>
+      <name>Michele Ceriotti</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.120.225901</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.120.225901" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2103.07420v2</id>
+    <title>Mapping quantum chemical dynamics problems onto spin-lattice simulators</title>
+    <updated>2021-06-08T16:29:33Z</updated>
+    <link href="https://arxiv.org/abs/2103.07420v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.07420v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The accurate computational determination of chemical, materials, biological, and atmospheric properties has critical impact on a wide range of health and environmental problems, but is deeply limited by the computational scaling of quantum-mechanical methods. The complexity of quantum-chemical studies arises from the steep algebraic scaling of electron correlation methods, and the exponential scaling in studying nuclear dynamics and molecular flexibility. To date, efforts to apply quantum hardware to such quantum chemistry problems have focused primarily on electron correlation. Here, we provide a framework which allows for the solution of quantum chemical nuclear dynamics by mapping these to quantum spin-lattice simulators. Using the example case of a short-strong hydrogen bonded system, we construct the Hamiltonian for the nuclear degrees of freedom on a single Born-Oppenheimer surface and show how it can be transformed to a generalized Ising model Hamiltonian. We then demonstrate a method to determine the local fields and spin-spin couplings needed to identically match the molecular and spin-lattice Hamiltonians. We describe a protocol to determine the on-site and inter-site coupling parameters of this Ising Hamiltonian from the Born-Oppenheimer potential and nuclear kinetic energy operator. Our approach represents a paradigm shift in the methods used to study quantum nuclear dynamics, opening the possibility to solve both electronic structure and nuclear dynamics problems using quantum computing systems.</summary>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-12T17:32:52Z</published>
+    <arxiv:comment>20 pages including supplementary information, 10 figures total</arxiv:comment>
+    <arxiv:primary_category term="physics.chem-ph"/>
+    <author>
+      <name>Debadrita Saha</name>
+    </author>
+    <author>
+      <name>Srinivasan S. Iyengar</name>
+    </author>
+    <author>
+      <name>Philip Richerme</name>
+    </author>
+    <author>
+      <name>Jeremy M. Smith</name>
+    </author>
+    <author>
+      <name>Amr Sabry</name>
+    </author>
+  </entry>
+</feed>

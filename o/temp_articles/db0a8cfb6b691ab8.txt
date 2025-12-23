@@ -1,0 +1,35 @@
+TERMS: hydrogen, quantum, wavefunction, vacuum
+COLORS: purple, blue, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/6a4wLeYFqWhUK2vZUMs5BEbQ0fA</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:wavefunction AND all:vacuum&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:40:42Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:wavefunction+AND+all:vacuum))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1604.07068v1</id>
+    <title>Handshake electron transfer from hydrogen Rydberg atoms incident at a series of metallic thin films</title>
+    <updated>2016-04-24T18:32:59Z</updated>
+    <link href="https://arxiv.org/abs/1604.07068v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1604.07068v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Thin metallic films have a 1D quantum well along the surface normal direction, which yields particle-in-a-box style electronic quantum states. However the quantum well is not infinitely deep and the wavefunctions of these states penetrate outside the surface where the electron is bound by its own image-charge attraction. Therefore a series of discrete, vacant states reach out from the thin film into the vacuum increasing the probability of electron transfer from an external atom or molecule to the thin film, especially for the resonant case where the quantum well energy matches that of the Rydberg atom.
+  We show that `handshake' electron transfer from a highly excited Rydberg atom to these thin-film states is experimentally measurable. Thicker films, have a wider 1D box, changing the energetic distribution and image-state contribution to the thin film wavefunctions, resulting in more resonances. Calculations successfully predict the number of resonances and the nature of the thin-film wavefunctions for a given film thickness.</summary>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-04-24T18:32:59Z</published>
+    <arxiv:comment>7 pages 6 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.chem-ph"/>
+    <author>
+      <name>Jemma A Gibbard</name>
+    </author>
+    <author>
+      <name>Timothy P Softley</name>
+    </author>
+    <arxiv:doi>10.1063/1.4953554</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/1.4953554" title="doi"/>
+  </entry>
+</feed>

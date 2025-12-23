@@ -1,0 +1,79 @@
+TERMS: hydrogen, quantum, entropy
+COLORS: purple, blue, red
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/rY6RVCXuFgY6t9YN0THVCpAKxho</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:entropy&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:01:18Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+all:entropy)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>78</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2002.08664v1</id>
+    <title>Two-dimensional confined hydrogen: An entropy and complexity approach</title>
+    <updated>2020-02-20T10:54:35Z</updated>
+    <link href="https://arxiv.org/abs/2002.08664v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2002.08664v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The position and momentum spreading of the electron distribution of the two-dimensional confined hydrogenic atom, which is a basic prototype of the general multidimensional confined quantum systems, is numerically studied in terms of the confinement radius for the 1s, 2s, 2p and 3d quantum states by means of the main entropy and complexity information-theoretic measures. First, the Shannon entropy and the Fisher information as well as the associated uncertainty relations are computed and discussed. Then, the Fisher-Shannon, LMC and LMC-Rényi complexity measures are examined and mutually compared. We have found that these entropy and complexity quantities reflect the rich properties of the electron confinement extent in the two conjugated spaces.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-02-20T10:54:35Z</published>
+    <arxiv:comment>International Journal of Quantum Chemistry 2020</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>C. R. Estañón</name>
+    </author>
+    <author>
+      <name>N. Aquino</name>
+    </author>
+    <author>
+      <name>D. Puertas-Centeno</name>
+    </author>
+    <author>
+      <name>J. S. Dehesa</name>
+    </author>
+    <arxiv:doi>10.1002/qua.26192</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1002/qua.26192" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2308.01708v2</id>
+    <title>Local entanglement of electrons in 1D hydrogen molecule</title>
+    <updated>2023-09-07T15:22:29Z</updated>
+    <link href="https://arxiv.org/abs/2308.01708v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.01708v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The quantum entanglement entropy of the electrons in one-dimensional hydrogen molecule is quantified locally using an appropriate partitioning of the two-dimensional configuration space. Both the global and the local entanglement entropy exhibit a monotonic increase when increasing the inter-nuclear distance, while the local entropy remains peaked at the middle between the nuclei with its width decreasing. Our findings show that at the inter-nuclear distance where stable hydrogen molecule is formed, the quantum entropy shows no peculiarity thus indicating that the entropy and the energy measures display different sensitivity with respect to the interaction between the two identical electrons involved. One possible explanation is that the calculation of the quantum entropy does not account explicitly for the distance between the nuclei, which contrasts to the total energy calculation where the energy minimum depends decisively on that distance. The numerically exact and the time-dependent quantum Monte Carlo calculations show close results.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-08-03T12:01:34Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Entropy 2023, 25, 1308</arxiv:journal_ref>
+    <author>
+      <name>Ivan P. Christov</name>
+    </author>
+    <arxiv:doi>10.3390/e25091308</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/e25091308" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1810.03888v2</id>
+    <title>Divergence of entanglement entropy in quantum systems: Zero-modes</title>
+    <updated>2019-02-04T20:16:39Z</updated>
+    <link href="https://arxiv.org/abs/1810.03888v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1810.03888v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>To this day, von Neumann definition of entropy remains the most popular measure of quantum entanglement. Much of the literature on entanglement entropy, particularly in the context of field theory, has focused on isolating the UV divergences. Zero-mode divergences of the entanglement entropy are less studied in this context, and apart from being easier to isolate, they offer an interesting insight into the physics of the system. To gain a better understanding of the system in this limit, we develop the free particle approximation of Harmonic oscillator, with which we investigate the properties of entropy divergence in continuous bi-partite quantum systems such as the coupled Harmonic oscillators and the Hydrogen atom. We also show zero-mode divergence of the entropy of environment-induced entanglement in a tri-partite oscillator system. We discuss the implications of our result for field theory and IR structure of gravity.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-10-09T10:09:26Z</published>
+    <arxiv:comment>Ver2: Title changed. Results unchanged</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Phys. Rev. D 99, 045010 (2019)</arxiv:journal_ref>
+    <author>
+      <name>S. Mahesh Chandran</name>
+    </author>
+    <author>
+      <name>S. Shankaranarayanan</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.99.045010</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.99.045010" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,82 @@
+TERMS: vapor, ionization, graphene
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/o/FQNt3Bja5NvCo2AZRHLNVUOCs</id>
+  <title>arXiv Query: search_query=all:vapor AND all:ionization AND all:graphene&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:25:22Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:vapor+AND+(all:ionization+AND+all:graphene)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1310.6085v1</id>
+    <title>Nitrogen-Doped Graphene Sheets Grown by Chemical Vapor Deposition: Synthesis and Influence of Nitrogen Impurities on Carrier Transport</title>
+    <updated>2013-10-23T01:16:38Z</updated>
+    <link href="https://arxiv.org/abs/1310.6085v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1310.6085v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A significant advance toward achieving practical applications of graphene as a two-dimensional material in nanoelectronics would be provided by successful synthesis of both n-type and p-type doped graphene. However reliable doping and a thorough understanding of carrier transport in the presence of charged impurities governed by ionized donors or acceptors in the graphene lattice are still lacking. Here we report experimental realization of few-layer nitrogen-doped (N-doped) graphene sheets by chemical vapor deposition of organic molecule 1, 3, 5-triazine on Cu metal catalyst. By reducing the growth temperature, the atomic percentage of nitrogen doping is raised from 2.1 % to 5.6 %. With increasing doping concentration, N-doped graphene sheet exhibits a crossover from p-type to n-type behavior accompanied by a strong enhancement of electron-hole transport asymmetry, manifesting the influence of incorporated nitrogen impurities. In addition, by analyzing the data of X-ray photoelectron spectroscopy, Raman spectroscopy, and electrical measurements, we show that pyridinic and pyrrolic N impurities play an important role in determining the transport behavior of carriers in N-doped graphene sheets.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-10-23T01:16:38Z</published>
+    <arxiv:comment>8 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>ACS Nano 7, 6522 (2013)</arxiv:journal_ref>
+    <author>
+      <name>Yu-Fen Lu</name>
+    </author>
+    <author>
+      <name>Shun-Tsung Lo</name>
+    </author>
+    <author>
+      <name>Jheng-Cyuan Lin</name>
+    </author>
+    <author>
+      <name>Wenjing Zhang</name>
+    </author>
+    <author>
+      <name>Jing-Yu Lu</name>
+    </author>
+    <author>
+      <name>Fan-Hung Liu</name>
+    </author>
+    <author>
+      <name>Chuan-Ming Tseng</name>
+    </author>
+    <author>
+      <name>Yi-Hsien Lee</name>
+    </author>
+    <author>
+      <name>Chi-Te Liang</name>
+    </author>
+    <author>
+      <name>Lain-Jong Li</name>
+    </author>
+    <arxiv:doi>10.1021/nn402102y</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1021/nn402102y" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2108.00136v2</id>
+    <title>Redox and Molecular Diffusion in 2D van der Waals Space</title>
+    <updated>2021-08-03T01:19:13Z</updated>
+    <link href="https://arxiv.org/abs/2108.00136v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2108.00136v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Understanding charge transfer (CT) between two chemical entities and subsequent change in their charge densities is essential not only for molecular species but also for various low-dimensional materials. Because of their extremely high fraction of surface atoms, two-dimensional (2-D) materials are most susceptible to charge exchange and exhibit drastically different physicochemical properties depending on their charge density. In this regard, spontaneous and uncontrollable ionization of graphene in the ambient air has caused much confusion and technical difficulty in achieving experimental reproducibility since its first report in 2004. Moreover, the same ambient hole doping was soon observed in 2-D semiconductors, which implied that a common mechanism should be operative and apply to other low-dimensional materials universally. In this Account, we review our breakthroughs in unraveling the chemical origin and mechanistic requirements of the hidden CT reactions using 2-D crystals. We developed in-situ optical methods to quantify charge density using Raman and photoluminescence (PL) spectroscopy and imaging. Using gas and temperature-controlled in-situ measurements, we revealed that the electrical holes are injected by the oxygen reduction reaction (ORR): $O_{2}$ + $4H^{+}$ + $4e^{-}$ $\rightleftharpoons$ $2H_{2}O$, which was independently verified by pH dependence in HCl solutions. In addition to oxygen and water vapor, the overall CT reaction requires hydrophilic dielectric substrates, which assist hydration of the sample-substrate interface. The interface-localized reaction allowed us to visualized and control interfacial molecular diffusion and CT by varing the 2-D gap spacing and introducing defects. The complete mechanism of the fundamental charge exchange summarized in this Account will be essential in exploring material and device properties of other low dimensional materials.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-07-31T02:53:27Z</published>
+    <arxiv:comment>27 pages, 10 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Haneul Kang</name>
+    </author>
+    <author>
+      <name>Kwanghee Park</name>
+    </author>
+    <author>
+      <name>Sunmin Ryu</name>
+    </author>
+  </entry>
+</feed>

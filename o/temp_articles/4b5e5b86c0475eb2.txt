@@ -1,0 +1,69 @@
+TERMS: quantum, ionization, probability
+COLORS: blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/TxX0+iEUdCmPeHOyGLEiILuwjgc</id>
+  <title>arXiv Query: search_query=all:quantum AND all:ionization AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:07:48Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:ionization+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>161</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0006451v1</id>
+    <title>Quantum Poincare' recurrences in microwave ionization of Rydberg atoms</title>
+    <updated>2000-06-28T16:23:43Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0006451v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0006451v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We study the time dependence of the ionization probability of Rydberg atoms driven by a microwave field. The quantum survival probability follows the classical one up to the Heisenberg time and then decays inversely proportional to time, due to tunneling and localization effects. We provide parameter values which should allow one to observe such decay in laboratory experiments. Relations to the $1/f$ noise are also discussed.</summary>
+    <category term="cond-mat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.CD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2000-06-28T16:23:43Z</published>
+    <arxiv:comment>6 pages, 3 figures, Contribution to the Proceedings of the Conference "Atoms, molecules and quantum dots in laser fields: fundamental processes", Pisa, June 2000</arxiv:comment>
+    <arxiv:primary_category term="cond-mat"/>
+    <author>
+      <name>Giuliano Benenti</name>
+    </author>
+    <author>
+      <name>Giulio Casati</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.21430v1</id>
+    <title>Quantum electrodynamic description of the neutral hydrogen molecule ionization</title>
+    <updated>2025-11-26T14:21:43Z</updated>
+    <link href="https://arxiv.org/abs/2511.21430v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.21430v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The ionization dynamics of a hydrogen molecule, serving as a fundamental benchmark in quantum chemistry, is investigated within a comprehensive framework combining quantum electrodynamics and the Lindblad master equation. This approach enables a first-principles description of light--matter interactions while accounting for dissipative processes and external particle influx. We systematically explore the system's evolution across three distinct regimes: closed, dissipative open, and influx-driven open quantum systems. Our results reveal a universal tendency towards the formation of the neutral hydrogen molecule ($|\rm{H}_2\rangle$) across all configurations. The dissipation strengths for photons ($γ_Ω$), electrons ($γ_e$), and phonons ($γ_ω$) are identified as critical control parameters, with $γ_Ω$ significantly accelerating system stabilization. Furthermore, the introduction of particle influx ($μ_k$) leads to a complex redistribution of energy, notably populating the atomic state ($|\rm{H},\rm{H}\rangle$). The ionization pathway is exquisitely sensitive to the initial quantum state, dictated by the composition and number of photons, which governs the accessible spin-selective excitation channels. This is conclusively demonstrated in a model with an embedded anode, where the maximum ionization probability is fundamentally constrained to $\frac{3}{4}$ by orbital hybridization. This study provides a unified theoretical foundation for quantum-controlled chemistry, with direct implications for future experiments in cavity QED and quantum information processing.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-26T14:21:43Z</published>
+    <arxiv:comment>11 pages, 5 figures; Supplementary Information: 2 videos</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Hui-hui Miao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1608.02854v1</id>
+    <title>Salecker-Wigner-Peres quantum clock applied to strong-field tunnel ionization</title>
+    <updated>2016-08-09T16:18:23Z</updated>
+    <link href="https://arxiv.org/abs/1608.02854v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1608.02854v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Salecker-Wigner-Peres quantum-clock approach is applied in order to determine the tunneling time of an electron in strong-field tunnel ionization via a time-dependent electric field. Our results show that the ionization of the electron takes a nonvanishing period of time. This tunneling time is of the order of the Keldysh time but strictly larger than the Keldysh time. Comparing the quantum-clock tunneling time to the mean tunneling time as obtained by the virtual-detector approach, one finds that these two complementary methods give very similar results. Due to the asymmetric distribution of the tunneling time, there is a nonnegligible discrepancy between the mean tunneling time and the most probable tunneling time.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-08-09T16:18:23Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Nicolas Teeny</name>
+    </author>
+    <author>
+      <name>Christoph H. Keitel</name>
+    </author>
+    <author>
+      <name>Heiko Bauke</name>
+    </author>
+  </entry>
+</feed>

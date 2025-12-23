@@ -1,0 +1,84 @@
+TERMS: ionization, bandgap, probability
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/aPh6xcsOcoMeWed9P6mupwbkbGI</id>
+  <title>arXiv Query: search_query=all:ionization AND all:bandgap AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:30:24Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:ionization+AND+(all:bandgap+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>3</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2209.06729v1</id>
+    <title>A Noise Model for Multilayer Graded-Bandgap Avalanche Photodiodes</title>
+    <updated>2022-09-14T15:37:48Z</updated>
+    <link href="https://arxiv.org/abs/2209.06729v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2209.06729v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multilayer graded-bandgap avalanche photodiodes (APDs) are the future deterministic photomultipliers, owing to their deterministic amplification with twofold stepwise gain via impact ionization when operated in the staircase regime. Yet, the stepwise impact ionization irregularities worsen as the number of steps increases. These irregularities in impact ionization are the major source of noise in these APDs. These solid-state devices could replace conventional silicon photomultiplier tubes if they are carefully studied and designed. A noise model for multistep staircase APDs, considering equal stepwise ionization probabilities is previously reported. However, we derive a generalized noise model for multilayer graded-bandgap APDs, applicable for all operating biases, which include the sub-threshold, staircase, and tunnelling breakdown regimes. Moreover, the previous noise model's expression for the total excess noise factor in terms of ionization probabilities of the multistep staircase APD follows Friis's total noise factor. However, we demonstrate that our derived expression matches Bangera's correction to Friis's total noise factor.</summary>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-09-14T15:37:48Z</published>
+    <arxiv:comment>13 pages (including Appendices), 4 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.app-ph"/>
+    <author>
+      <name>Ankitha E. Bangera</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.14722v1</id>
+    <title>A stochastic noise model based excess noise factor expressions for staircase avalanche photodiodes</title>
+    <updated>2025-06-17T16:58:44Z</updated>
+    <link href="https://arxiv.org/abs/2506.14722v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.14722v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multistep staircase avalanche photodiodes (APDs) are the solid-state analogue of photomultiplier tubes, owing to their deterministic amplification with twofold stepwise gain via impact ionization. Yet, the stepwise impact ionization irregularities worsen with increasing step counts, which are a major source of internal noise in these APDs. Some noise models for staircase APDs have been previously reported, where the excess noise factor expressions are based on Friis' noise factor formula for cascade networks, erroneously considering the power gains as the gains. Excess noise factor being a key component in staircase APDs' noise models, we formulate generalized excess noise factor expressions for multilayer graded-bandgap APDs in terms of their layer-wise ionization probabilities, applicable for all operating biases, which include the sub-threshold, staircase, and tunnelling breakdown regimes. We further derive simplified expressions for staircase APDs and prove that these expressions match Bangera's corrections to Friis' noise factor formulas for cascade networks.</summary>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-17T16:58:44Z</published>
+    <arxiv:comment>This article derives the excess noise factor expressions for staircase APDs using a stochastic noise model (18 pages, 4 figures, preprint under submission) and can be used as a replacement to Capasso's expressions. Capasso's formula and its equivalents are incorrect, detailed in our article titled "Mathematical proof of errors in Capasso's excess noise factor formula... ."</arxiv:comment>
+    <arxiv:primary_category term="eess.SP"/>
+    <author>
+      <name>Ankitha E Bangera</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1103.3630v1</id>
+    <title>Electrode level Monte Carlo model of radiation damage effects on astronomical CCDs</title>
+    <updated>2011-03-18T14:12:18Z</updated>
+    <link href="https://arxiv.org/abs/1103.3630v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1103.3630v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Current optical space telescopes rely upon silicon Charge Coupled Devices (CCDs) to detect and image the incoming photons. The performance of a CCD detector depends on its ability to transfer electrons through the silicon efficiently, so that the signal from every pixel may be read out through a single amplifier. This process of electron transfer is highly susceptible to the effects of solar proton damage (or non-ionizing radiation damage). This is because charged particles passing through the CCD displace silicon atoms, introducing energy levels into the semi-conductor bandgap which act as localized electron traps. The reduction in Charge Transfer Efficiency (CTE) leads to signal loss and image smearing. The European Space Agency's astrometric Gaia mission will make extensive use of CCDs to create the most complete and accurate stereoscopic map to date of the Milky Way. In the context of the Gaia mission CTE is referred to with the complementary quantity Charge Transfer Inefficiency (CTI = 1-CTE). CTI is an extremely important issue that threatens Gaia's performances. We present here a detailed Monte Carlo model which has been developed to simulate the operation of a damaged CCD at the pixel electrode level. This model implements a new approach to both the charge density distribution within a pixel and the charge capture and release probabilities, which allows the reproduction of CTI effects on a variety of measurements for a large signal level range in particular for signals of the order of a few electrons. A running version of the model as well as a brief documentation and a few examples are readily available at http://www.strw.leidenuniv.nl/~prodhomme/cemga.php as part of the CEMGA java package (CTI Effects Models for Gaia).</summary>
+    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-03-18T14:12:18Z</published>
+    <arxiv:comment>Accepted by MNRAS on 13 February 2011. 15 pages, 7 figures and 5 tables</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.IM"/>
+    <author>
+      <name>T. Prod'homme</name>
+      <arxiv:affiliation>Leiden Observatory, Leiden University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>A. G. A. Brown</name>
+      <arxiv:affiliation>Leiden Observatory, Leiden University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>L. Lindegren</name>
+      <arxiv:affiliation>Lund Observatory, Lund University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>A. D. T. Short</name>
+      <arxiv:affiliation>ESA, ESTEC</arxiv:affiliation>
+    </author>
+    <author>
+      <name>S. W. Brown</name>
+      <arxiv:affiliation>Institute of Astronomy, Cambridge</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1111/j.1365-2966.2011.18537.x</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1111/j.1365-2966.2011.18537.x" title="doi"/>
+  </entry>
+</feed>

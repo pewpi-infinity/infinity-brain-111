@@ -1,0 +1,35 @@
+TERMS: hydrogen, lattice, spin, probability
+COLORS: purple, orange, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/R3qp3b4b4WkRUVt1hCC2utZ9htk</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:lattice AND all:spin AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:47:50Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:lattice+AND+(all:spin+AND+all:probability))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2001.03410v1</id>
+    <title>Bilayer, hydrogenated and fluorinated graphene: QED vs SU(2) QCD theory</title>
+    <updated>2020-01-10T13:06:14Z</updated>
+    <link href="https://arxiv.org/abs/2001.03410v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2001.03410v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Motivated by recent experimental and calculational investigations of bilayer, hydrogenated and fluorinated graphene, we apply the formalisms of U(1) QED (quantum electrodynamics) and SU(2) QCD (quantum chromodynamics) theories of strongly correlated state. Unlike non-bipartite triangular lattice, on bipartite honeycomb lattice there always exists a monopole that transforms trivially under all the microscopic symmetries, destabilizing the Dirac spin liquid (DSL), so that one can continuously tune the DSL state to the state with parent SU(2) instead of U(1) gauge group. The SU(2) theory describes a spin-liquid state which is different from usual DSL and is probably unstable with respect to Neel or valence-bond solid (VBS) phases, except for the quantum critical point. This point of view means a possibility of VBS states in graphene systems.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-01-10T13:06:14Z</published>
+    <arxiv:comment>6 pages, JETP Letters, accepted</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>JETP Letters, 2020, Vol. 111, No. 4, pp. 230-234</arxiv:journal_ref>
+    <author>
+      <name>V. Yu. Irkhin</name>
+    </author>
+    <author>
+      <name>Yu. N. Skryabin</name>
+    </author>
+    <arxiv:doi>10.1134/S0021364020040025</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1134/S0021364020040025" title="doi"/>
+  </entry>
+</feed>

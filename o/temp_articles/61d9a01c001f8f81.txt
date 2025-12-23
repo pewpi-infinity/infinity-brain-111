@@ -1,0 +1,71 @@
+TERMS: quantum, fusion, graphene
+COLORS: blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api//jvIPCMcLD03DEByha0bXFeYRBE</id>
+  <title>arXiv Query: search_query=all:quantum AND all:fusion AND all:graphene&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:06:36Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:fusion+AND+all:graphene)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/0909.4568v1</id>
+    <title>Electron density and transport in top-gated graphene nanoribbon devices: First-principles Green function algorithms for systems containing large number of atoms</title>
+    <updated>2009-09-24T22:28:10Z</updated>
+    <link href="https://arxiv.org/abs/0909.4568v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0909.4568v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The recent fabrication of graphene nanoribbon (GNR) field-effect transistors poses a challenge for first-principles modeling of carbon nanoelectronics due to many thousand atoms present in the device. The state of the art quantum transport algorithms, based on the nonequilibrium Green function formalism combined with the density functional theory (NEGF-DFT), were originally developed to calculate self-consistent electron density in equilibrium and at finite bias voltage (as a prerequisite to obtain conductance or current-voltage characteristics, respectively) for small molecules attached to metallic electrodes where only a few hundred atoms are typically simulated. Here we introduce combination of two numerically efficient algorithms which make it possible to extend the NEGF-DFT framework to device simulations involving large number of atoms. We illustrate fusion of these two algorithms into the NEGF-DFT-type code by computing charge transfer, charge redistribution and conductance in zigzag-GNR/variable-width-armchair-GNR/zigzag-GNR two-terminal device covered with a gate electrode made of graphene layer as well. The total number of carbon and edge-passivating hydrogen atoms within the simulated central region of this device is ~7000. Our self-consistent modeling of the gate voltage effect suggests that rather large gate voltage might be required to shift the band gap of the proposed AGNR interconnect and switch the transport from insulating into the regime of a single open conducting channel.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-09-24T22:28:10Z</published>
+    <arxiv:comment>19 pages, 8 PDF figures, PDFLaTeX</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Phys. Rev. B 81, 155450 (2010).</arxiv:journal_ref>
+    <author>
+      <name>Denis A. Areshkin</name>
+    </author>
+    <author>
+      <name>Branislav K. Nikolic</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.81.155450</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.81.155450" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2212.03688v1</id>
+    <title>Direct observation of the magnetic ground state of the two smallest triangular nanographenes</title>
+    <updated>2022-12-07T15:03:22Z</updated>
+    <link href="https://arxiv.org/abs/2212.03688v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2212.03688v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Fusion of three benzene rings in a triangular fashion gives rise to the smallest open-shell graphene fragment, the phenalenyl radical, whose $π$-extension leads to an entire family of non-Kekulé triangular nanographenes with high-spin ground states. Here, we report the first synthesis of unsubstituted phenalenyl on a Au(111) surface, which is achieved by combining in-solution synthesis of the hydro-precursor and on-surface activation by atomic manipulation, using the tip of a scanning tunneling microscope (STM). Single-molecule structural and electronic characterization confirm its open-shell S = 1/2 ground state that gives rise to Kondo screening on the Au(111) surface. In addition, we compare the phenalenyl's electronic properties with those of triangulene, the second homolog in the series, whose S = 1 ground state induces an underscreened Kondo effect. Our results set a new lower size-limit in the on-surface synthesis of magnetic nanographenes that can serve as building blocks for the realization of new exotic quantum phases of matter.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-12-07T15:03:22Z</published>
+    <arxiv:comment>15 pages, 4 main figures; supplementary information containing additional data is included</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>JACS Au 2023, 3, 1358-1364</arxiv:journal_ref>
+    <author>
+      <name>Elia Turco</name>
+    </author>
+    <author>
+      <name>Annika Bernhardt</name>
+    </author>
+    <author>
+      <name>Nils Krane</name>
+    </author>
+    <author>
+      <name>Leoš Valenta</name>
+    </author>
+    <author>
+      <name>Roman Fasel</name>
+    </author>
+    <author>
+      <name>Michal Juríček</name>
+    </author>
+    <author>
+      <name>Pascal Ruffieux</name>
+    </author>
+    <arxiv:doi>10.1021/jacsau.2c00666</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1021/jacsau.2c00666" title="doi"/>
+  </entry>
+</feed>

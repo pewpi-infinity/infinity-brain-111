@@ -1,0 +1,62 @@
+TERMS: entropy, ionization, superconductivity
+COLORS: red, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Cbsb0jXpkXMp6ypbHq9PX9Sb4wI</id>
+  <title>arXiv Query: search_query=all:entropy AND all:ionization AND all:superconductivity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:17:45Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+(all:ionization+AND+all:superconductivity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2402.01884v1</id>
+    <title>Onset of transmon ionization in microwave single-photon detection</title>
+    <updated>2024-02-02T20:13:12Z</updated>
+    <link href="https://arxiv.org/abs/2402.01884v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.01884v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>By strongly driving a transmon-resonator system, the transmon qubit may eventually escape from its cosine-shaped potential. This process is called transmon ionization (TI) and known to be detrimental to the qubit coherence and operation. In this work, we investigate the onset of TI in an irreversible, parametrically-driven, frequency conversion process in a system consisting of a superconducting 3D-cavity coupled to a fixed-frequency transmon qubit. Above a critical pump power we find a sudden increase in the transmon population. Using Renyi entropy, Floquet modes, and Husimi Q functions, we infer that this abrupt change can be attributed to a quantum-to-classical phase transition. Furthermore, in the context of the single-photon detection, we measure a TI-uncorrected detection efficiency of up to 86% and estimate a TI-corrected value of up to 78% by exploiting the irreversible frequency conversion. Our numerical simulations suggest that increasing the detuning between the pump and qubit frequencies and increasing the qubit anharmonicity can suppress the TI impact. Our findings highlight the general importance of the TI process when operating coupled qubit-cavity systems.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-02T20:13:12Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Yuki Nojiri</name>
+    </author>
+    <author>
+      <name>Kedar E. Honasoge</name>
+    </author>
+    <author>
+      <name>Achim Marx</name>
+    </author>
+    <author>
+      <name>Kirill G. Fedorov</name>
+    </author>
+    <author>
+      <name>Rudolf Gross</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.09816v1</id>
+    <title>Constraints on the spectral signatures of superconducting cosmic strings</title>
+    <updated>2023-05-16T21:43:54Z</updated>
+    <link href="https://arxiv.org/abs/2305.09816v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.09816v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>If they exist, networks of superconducting cosmic strings are capable of injecting copious amounts of electromagnetic energy into the background over a broad range of frequencies. We study this injection both analytically, as well as numerically using the thermalization code CosmoTherm. With our refined analytic formalism, we update constraints from CMB spectral distortions by following the injection of entropy, as well as energy, on the amplitude of the $μ$-distortion, leading to a significant improvement in those limits. Furthermore, we utilize the full shape of the distorted spectrum from CosmoTherm to include constraints from non-$μ$, non-$y$ type distortions. Additionally, we use the outputs for the ionization history and global 21cm signal to derive and update constraints on string model parameters using measurements from other datasets. Analysis of CMB anisotropies provides the most stringent constraints, though with a slightly modified shape and strength when compared to previous results. Modifications of the reionization history provide new bounds in the high current domain, and we also find that the observations of the low-frequency radio background probe a small region of parameter space not explored by other datasets. We also analyze global $21$-cm constraints, and find that the inclusion of soft photon heating plays a crucial role, essentially removing any constraints in the considered parameter domain. Spectral distortion measurements from COBE/FIRAS are covered by other constraints, but our conservative forecast shows that a PIXIE-type satellite would probe important unexplored regions of parameter space.</summary>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-16T21:43:54Z</published>
+    <arxiv:comment>21 pages, 24 figures, comments welcome!</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.CO"/>
+    <author>
+      <name>Bryce Cyr</name>
+    </author>
+    <author>
+      <name>Jens Chluba</name>
+    </author>
+    <author>
+      <name>Sandeep Kumar Acharya</name>
+    </author>
+  </entry>
+</feed>

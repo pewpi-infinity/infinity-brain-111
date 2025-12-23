@@ -1,0 +1,74 @@
+TERMS: frequency, fusion, singularity
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/EfY1bKFzxDRxb+yeIq/c8Y+3pzQ</id>
+  <title>arXiv Query: search_query=all:frequency AND all:fusion AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:10:27Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:fusion+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>4</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2212.07007v1</id>
+    <title>Planar Metasurface Antenna with Tunable via Boundaries for Computational Imaging</title>
+    <updated>2022-12-14T03:42:52Z</updated>
+    <link href="https://arxiv.org/abs/2212.07007v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2212.07007v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The fusion of metasurface antennas and computational imaging facilitates the design of microwave imaging systems which require no lenses, phase shifters or moving parts. The technique involves the generation of appropriately designed diverse measurement modes to encode the scene information into a small number of measurements. We propose a novel boundary-tunable parallel plate waveguide-based metasurface antenna for computational microwave imaging. The proposed antenna leverages a switchable boundary of two layers of vias, to efficiently change the waveguide modes supported by the antenna cavity, leading to diverse measurement modes in the scene plane. The superiority of the boundary tuning approach over the frequency diversity approach for the same antenna is confirmed using the singular value decomposition. Synthetic imaging is performed using a coupled dipole model, which quantitatively proves the efficacy of the proposed antenna along with the robustness against noise down to 15 dB SNR.</summary>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-12-14T03:42:52Z</published>
+    <arxiv:primary_category term="physics.app-ph"/>
+    <author>
+      <name>Toufiq M. Hossain</name>
+    </author>
+    <author>
+      <name>Andrey E. Miroshnichenko</name>
+    </author>
+    <author>
+      <name>David A. Powell</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2007.10661v2</id>
+    <title>Accessing the ordered phase of correlated Fermi systems: vertex bosonization and mean-field theory within the functional renormalization group</title>
+    <updated>2020-11-27T13:47:48Z</updated>
+    <link href="https://arxiv.org/abs/2007.10661v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2007.10661v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a consistent fusion of functional renormalization group and mean-field theory which explicitly introduces a bosonic field via a Hubbard-Stratonovich transformation at the critical scale, at which the order sets in. We show that a minimal truncation of the flow equations, that neglects order parameter fluctuations, is integrable and fulfills fundamental constraints as the Goldstone theorem and the Ward identity connected with the broken global symmetry. To introduce the bosonic field, we present a technique to factorize the most singular part of the vertex, even when the full dependence on all its arguments is retained. We test our method on the two-dimensional attractive Hubbard model at half-filling and calculate the superfluid gap as well as the Yukawa couplings and residual two fermion interactions in the ordered phase as functions of fermionic Matsubara frequencies. Furthermore, we analyze the gap and the condensate fraction for weak and moderate couplings and compare our results with previous functional renormalization group studies, and with quantum Monte Carlo data. Our formalism constitutes a convenient starting point for the inclusion of order parameter fluctuations by keeping a full, non simplified, dependence on fermionic momenta and/or frequencies.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-07-21T08:42:00Z</published>
+    <arxiv:comment>20 pages, 10 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Phys. Rev. B 102, 235160 (2020)</arxiv:journal_ref>
+    <author>
+      <name>Pietro M. Bonetti</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.102.235160</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.102.235160" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2501.07948v1</id>
+    <title>Synchronization of Kuramoto oscillators via HEOL, and a discussion on AI</title>
+    <updated>2025-01-14T09:02:03Z</updated>
+    <link href="https://arxiv.org/abs/2501.07948v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2501.07948v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Artificial neural networks and their applications in deep learning have recently made an incursion into the field of control. Deep learning techniques in control are often related to optimal control, which relies on Pontryagin maximum principle or the Hamilton-Jacobi-Bellman equation. They imply control schemes that are tedious to implement. We show here that the new HEOL setting, resulting from the fusion of the two established approaches, namely differential flatness and model-free control, provides a solution to control problems that is more sober in terms of computational resources. This communication is devoted to the synchronization of the popular Kuramoto's coupled oscillators, which was already considered via artificial neural networks (Böttcher et al., Nature Communications 2022), where, contrarily to this communication, only the single control variable is examined. One establishes the flatness of Kuramoto's coupled oscillator model with multiplicative control and develops the resulting HEOL control. Unlike many exemples, this system reveals singularities that are avoided by a clever generation of phase angle trajectories. The results obtained, verified in simulation, show that it is not only possible to synchronize these oscillators in finite time, and even to follow angular frequency profiles, but also to exhibit robustness concerning model mismatches. To the best of our knowledge this has never been done before. Concluding remarks advocate a viewpoint, which might be traced back to Wiener's cybernetics: control theory belongs to AI.</summary>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-01-14T09:02:03Z</published>
+    <arxiv:comment>MATHMOD 2025 (11th Vienna International Conference on Mathematical Modelling, 19-21 February 2025, Vienna, Austria)</arxiv:comment>
+    <arxiv:primary_category term="math.OC"/>
+    <author>
+      <name>Emmanuel Delaleau</name>
+    </author>
+    <author>
+      <name>Cédric Join</name>
+    </author>
+    <author>
+      <name>Michel Fliess</name>
+    </author>
+  </entry>
+</feed>

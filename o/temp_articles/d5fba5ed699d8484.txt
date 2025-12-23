@@ -1,0 +1,94 @@
+TERMS: frequency, ionization, plasma
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/IBpnXTvN4eI1Y49gJO0ugQBJWQw</id>
+  <title>arXiv Query: search_query=all:frequency AND all:ionization AND all:plasma&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:11:27Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:ionization+AND+all:plasma)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>354</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1905.06399v1</id>
+    <title>Laser frequency upconversion in plasmas with finite ionization rates</title>
+    <updated>2019-05-15T19:18:25Z</updated>
+    <link href="https://arxiv.org/abs/1905.06399v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1905.06399v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Laser frequency can be upconverted in a plasma undergoing ionization. For finite ionization rates, the laser pulse energy is partitioned into a pair of counter-propagating waves and static transverse currents. The wave amplitudes are determined by the ionization rates and the input pulse duration. The strongest output waves can be obtained when the plasma is fully ionized in a time that is shorter than the pulse duration. The static transverse current can induce a static magnetic field with instant ionization, but it dissipates as heat if the ionization time is longer than a few laser periods. This picture comports with experimental data, providing a description of both laser frequency upconverters as well as other laser-plasma interaction with evolving plasma densities.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-05-15T19:18:25Z</published>
+    <arxiv:comment>7 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>Kenan Qu</name>
+    </author>
+    <author>
+      <name>Nathaniel J. Fisch</name>
+    </author>
+    <arxiv:doi>10.1063/1.5110292</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/1.5110292" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1208.6519v2</id>
+    <title>Ionization by bulk heating of electrons in capacitive radio frequency atmospheric pressure microplasmas</title>
+    <updated>2013-05-31T11:22:46Z</updated>
+    <link href="https://arxiv.org/abs/1208.6519v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1208.6519v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Electron heating and ionization dynamics in capacitively coupled radio frequency (RF) atmospheric pressure microplasmas operated in helium are investigated by Particle in Cell simulations and semi-analytical modeling. A strong heating of electrons and ionization in the plasma bulk due to high bulk electric fields are observed at distinct times within the RF period. Based on the model the electric field is identified to be a drift field caused by a low electrical conductivity due to the high electron-neutral collision frequency at atmospheric pressure. Thus, the ionization is mainly caused by ohmic heating in this "Omega-mode". The phase of strongest bulk electric field and ionization is affected by the driving voltage amplitude. At high amplitudes, the plasma density is high, so that the sheath impedance is comparable to the bulk resistance. Thus, voltage and current are about 45° out of phase and maximum ionization is observed during sheath expansion with local maxima at the sheath edges. At low driving voltages, the plasma density is low and the discharge becomes more resistive resulting in a smaller phase shift of about 4°. Thus, maximum ionization occurs later within the RF period with a maximum in the discharge center. Significant analogies to electronegative low pressure macroscopic discharges operated in the Drift-Ambipolar mode are found, where similar mechanisms induced by a high electronegativity instead of a high collision frequency have been identified.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-08-31T15:13:48Z</published>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <arxiv:journal_ref>Plasma Sources Sci. Technol. 22 015012</arxiv:journal_ref>
+    <author>
+      <name>T. Hemke</name>
+    </author>
+    <author>
+      <name>D. Eremin</name>
+    </author>
+    <author>
+      <name>T. Mussenbrock</name>
+    </author>
+    <author>
+      <name>A. Derzsi</name>
+    </author>
+    <author>
+      <name>Z. Donkó</name>
+    </author>
+    <author>
+      <name>K. Dittmann</name>
+    </author>
+    <author>
+      <name>J. Meichsner</name>
+    </author>
+    <author>
+      <name>J. Schulze</name>
+    </author>
+    <arxiv:doi>10.1088/0963-0252/22/1/015012</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0963-0252/22/1/015012" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2003.10302v2</id>
+    <title>The collision frequency of electron-neutral-particle in the weakly ionized plasma with the power-law velocity distribution</title>
+    <updated>2020-03-24T04:01:14Z</updated>
+    <link href="https://arxiv.org/abs/2003.10302v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2003.10302v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the collision frequency of electron-neutral-particle in the weakly ionized plasma with the power-law velocity q-distribution and derive the formulation of the average collision frequency. We find that the average collision frequency in the q-distributed plasma also depends strongly on the q-parameter and thus is generally different from that in the Maxwell-distributed plasma, which therefore modifies the transport coefficients in the previous studies of the weakly ionized plasmas with the power-law velocity distributions.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-03-07T02:49:53Z</published>
+    <arxiv:comment>11 pages, 43 references, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <arxiv:journal_ref>Contrib.Plasma Phys. 60 (2020) e201900183</arxiv:journal_ref>
+    <author>
+      <name>Futao Sun</name>
+    </author>
+    <author>
+      <name>Jiulin Du</name>
+    </author>
+    <arxiv:doi>10.1002/ctpp.201900183</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1002/ctpp.201900183" title="doi"/>
+  </entry>
+</feed>

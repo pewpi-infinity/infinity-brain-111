@@ -1,0 +1,33 @@
+TERMS: vapor, crystal, singularity
+COLORS: green, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/o3+IR6ZW1gJi6GnicejziptU0VE</id>
+  <title>arXiv Query: search_query=all:vapor AND all:crystal AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:25:15Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:vapor+AND+(all:crystal+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0204297v1</id>
+    <title>Growth and Characterization of Bulk Aluminum Nitride by Physical Vapor Transport</title>
+    <updated>2002-04-13T18:33:29Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0204297v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0204297v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  A major issue in the development of the technology of nitride based materials is the choice of substrate. The structural and optical properties of the layers are intimately connected to the substrate material used in the epitaxial growth. Key issues include lattice matching of substrate and epitaxial layer and the difference in the thermal expansion between the substrate and epitaxial layer. Due to the extremely high vapor pressure of nitrogen over Gallium Nitride (GaN), pure GaN substrate are very difficult to produce and currently almost all nitride-based device are fabricated by hetero-epitaxy on either Sapphire or Silicon Carbide (SiC). Alternatively, AlN has a significantly lower vapor pressure of nitrogen and can be grown in bulk form. In this paper we report on our results in the growth of AlN by physical vapor transport. A theoretical model was developed to investigate the growth process by to determine optimal growth parameters. Several different seed crystals were investigated, singular 6H-SiC, 3.50 off-axis 6H-SiC and 80 off-axis 4H-SiC, and AlN grown by hydride vapor deposition on silicon substrates (the silicon substrates were subsequently removed by etching). Auger electron microscopy, transmission electron microscopy, and various X-ray diffraction techniques were used to investigate the samples grown.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-04-13T18:33:29Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Tim K. Hossain</name>
+    </author>
+    <author>
+      <name>James V. Lindesay</name>
+    </author>
+    <author>
+      <name>Michael G. Spencer</name>
+    </author>
+  </entry>
+</feed>

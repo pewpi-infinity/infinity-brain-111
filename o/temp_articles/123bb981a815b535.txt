@@ -1,0 +1,115 @@
+TERMS: fusion, crystal
+COLORS: green, orange
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api//ZcNIab7Kz6gae07eOMT+KThMYg</id>
+  <title>arXiv Query: search_query=all:fusion AND all:crystal&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T00:58:11Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:fusion+AND+all:crystal&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>131</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2402.18603v5</id>
+    <title>MMSR: Symbolic Regression is a Multi-Modal Information Fusion Task</title>
+    <updated>2024-09-19T12:30:04Z</updated>
+    <link href="https://arxiv.org/abs/2402.18603v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.18603v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Mathematical formulas are the crystallization of human wisdom in exploring the laws of nature for thousands of years. Describing the complex laws of nature with a concise mathematical formula is a constant pursuit of scientists and a great challenge for artificial intelligence. This field is called symbolic regression (SR). Symbolic regression was originally formulated as a combinatorial optimization problem, and Genetic Programming (GP) and Reinforcement Learning algorithms were used to solve it. However, GP is sensitive to hyperparameters, and these two types of algorithms are inefficient. To solve this problem, researchers treat the mapping from data to expressions as a translation problem. And the corresponding large-scale pre-trained model is introduced. However, the data and expression skeletons do not have very clear word correspondences as the two languages do. Instead, they are more like two modalities (e.g., image and text). Therefore, in this paper, we proposed MMSR. The SR problem is solved as a pure multi-modal problem, and contrastive learning is also introduced in the training process for modal alignment to facilitate later modal feature fusion. It is worth noting that to better promote the modal feature fusion, we adopt the strategy of training contrastive learning loss and other losses at the same time, which only needs one-step training, instead of training contrastive learning loss first and then training other losses. Because our experiments prove training together can make the feature extraction module and feature fusion module wearing-in better. Experimental results show that compared with multiple large-scale pre-training baselines, MMSR achieves the most advanced results on multiple mainstream datasets including SRBench. Our code is open source at https://github.com/1716757342/MMSR</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-28T08:29:42Z</published>
+    <arxiv:comment>The Information Fusion has accepted this paper</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Yanjie Li</name>
+    </author>
+    <author>
+      <name>Jingyi Liu</name>
+    </author>
+    <author>
+      <name>Weijun Li</name>
+    </author>
+    <author>
+      <name>Lina Yu</name>
+    </author>
+    <author>
+      <name>Min Wu</name>
+    </author>
+    <author>
+      <name>Wenqiang Li</name>
+    </author>
+    <author>
+      <name>Meilan Hao</name>
+    </author>
+    <author>
+      <name>Su Wei</name>
+    </author>
+    <author>
+      <name>Yusong Deng</name>
+    </author>
+    <arxiv:doi>10.1016/j.inffus.2024.102681</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.inffus.2024.102681" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1809.10310v2</id>
+    <title>Quenching factor measurement for NaI(Tl) scintillation crystal</title>
+    <updated>2019-01-02T01:27:15Z</updated>
+    <link href="https://arxiv.org/abs/1809.10310v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1809.10310v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Scintillation crystals are commonly used for direct detection of weakly interacting massive particles (WIMPs), which are suitable candidates for a particle dark matter. It is well known that the scintillation light yields are different for electron recoil and nuclear recoil. To calibrate the energies of WIMP-induced nuclear recoil signals, the quenching factor (QF) needs to be measured, which is the light yield ratio of the nuclear recoil to electron recoil. Measurements of the QFs for Na and I recoils in a small (2 cm x 2 cm x 1.5 cm) NaI(Tl) crystal are performed with 2.43-MeV mono-energetic neutrons generated by deuteron-deuteron fusion. Depending on the scattering angle of the neutrons, the energies of the recoiled ions vary in the range of 9 - 152 keV for Na and 19 - 75 keV for I. The QFs of Na are measured at 9 points with values in the range of 10 - 23 % while those of I are measured at 4 points with values in the range of 4 - 6 %.</summary>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-09-27T01:55:36Z</published>
+    <arxiv:comment>18 pages, 10 figures. Quenching factor measured with COSINE crystal</arxiv:comment>
+    <arxiv:primary_category term="physics.ins-det"/>
+    <author>
+      <name>H. W. Joo</name>
+    </author>
+    <author>
+      <name>H. S. Park</name>
+    </author>
+    <author>
+      <name>J. H. Kim</name>
+    </author>
+    <author>
+      <name>S. K. Kim</name>
+    </author>
+    <author>
+      <name>Y. D. Kim</name>
+    </author>
+    <author>
+      <name>H. S. Lee</name>
+    </author>
+    <author>
+      <name>S. H. Kim</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.21015v2</id>
+    <title>Comparative Analyses of the Type D ASEP: Stochastic Fusion and Crystal Bases</title>
+    <updated>2025-02-10T15:50:31Z</updated>
+    <link href="https://arxiv.org/abs/2407.21015v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.21015v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Type D asymmetric simple exclusion process (ASEP) is a particle system involving two classes of particles that can be viewed from both a probabilistic and an algebraic perspective (arXiv:2011.13473). From a probabilistic perspective, we perform stochastic fusion on the Type D ASEP and analyze the outcome on generator matrices, limits of drift speed, stationary distributions, and Markov self-duality. From an algebraic perspective, we construct a fused Type D ASEP system from a Casimir element of $U_q(so_6)$, using crystal bases to analyze and manipulate various representations of $U_q(so_6)$. We conclude that both approaches produce different processes and therefore the previous method of arXiv:1908.02359, which analyzed the usual ASEP, does not generalize to all finite-dimensional simple Lie algebras.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-30T17:58:11Z</published>
+    <arxiv:comment>81 pages, 7 figures. This research was conducted during a mathematics REU at Texas A&amp;M University: an accessible version will be available at https://www.math.tamu.edu/reu/. Version 2: expanded the results of Lemma 3.3.1, and clarified the construction of the stochastic fusion matrix over a general number of fused sites. In addition, we condensed most of the proofs within the probability section</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Erik Brodsky</name>
+    </author>
+    <author>
+      <name>Eva R. Engel</name>
+    </author>
+    <author>
+      <name>Connor Panish</name>
+    </author>
+    <author>
+      <name>Lillian Stolberg</name>
+    </author>
+  </entry>
+</feed>

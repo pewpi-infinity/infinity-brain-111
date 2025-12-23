@@ -1,0 +1,62 @@
+TERMS: hydrogen, frequency, spin, vacuum
+COLORS: purple, green, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/A3xhsKfYBEFwqwpnSHTXvMAAoR4</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:frequency AND all:spin AND all:vacuum&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:44:23Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:frequency+AND+(all:spin+AND+all:vacuum))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/0812.0148v1</id>
+    <title>Silicon as a model ion trap: time domain measurements of donor Rydberg states</title>
+    <updated>2008-11-30T16:01:26Z</updated>
+    <link href="https://arxiv.org/abs/0812.0148v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0812.0148v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  One of the great successes of quantum physics is the description of the long-lived Rydberg states of atoms and ions. The Bohr model is equally applicable to donor impurity atoms in semiconductor physics, where the conduction band corresponds to the vacuum, and the loosely bound electron orbiting a singly charged core has a hydrogen-like spectrum according to the usual Bohr-Sommerfeld formula, shifted to the far-infrared due to the small effective mass and high dielectric constant. Manipulation of Rydberg states in free atoms and ions by single and multi-photon processes has been tremendously productive since the development of pulsed visible laser spectroscopy. The analogous manipulations have not been conducted for donor impurities in silicon. Here we use the FELIX pulsed free electron laser to perform time-domain measurements of the Rydberg state dynamics in phosphorus- and arsenic-doped silicon and we have obtained lifetimes consistent with frequency domain linewidths for isotopically purified silicon. This implies that the dominant decoherence mechanism for excited Rydberg states is lifetime broadening, just as for atoms in ion traps. The experiments are important because they represent the first step towards coherent control and manipulation of atomic-like quantum levels in the most common semiconductor and complement magnetic resonance experiments in the literature, which show extraordinarily long spin lattice relaxation times key to many well-known schemes for quantum computing qubits for the same impurities. Our results, taken together with the magnetic resonance data and progress in precise placement of single impurities, suggest that doped silicon, the basis for modern microelectronics, is also a model ion trap.</summary>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-11-30T16:01:26Z</published>
+    <arxiv:primary_category term="cond-mat.other"/>
+    <arxiv:journal_ref>PNAS Aug 5 2008 vol 105 no 31 10649-10653</arxiv:journal_ref>
+    <author>
+      <name>N Q Vinh</name>
+    </author>
+    <author>
+      <name>P T Greenland</name>
+    </author>
+    <author>
+      <name>K Litvinenko</name>
+    </author>
+    <author>
+      <name>B Redlich</name>
+    </author>
+    <author>
+      <name>A F G van der Meer</name>
+    </author>
+    <author>
+      <name>S A Lynch</name>
+    </author>
+    <author>
+      <name>M Warner</name>
+    </author>
+    <author>
+      <name>A M Stoneham</name>
+    </author>
+    <author>
+      <name>G Aeppli</name>
+    </author>
+    <author>
+      <name>D J Paul</name>
+    </author>
+    <author>
+      <name>C R Pidgeon</name>
+    </author>
+    <author>
+      <name>B N Murdin</name>
+    </author>
+  </entry>
+</feed>

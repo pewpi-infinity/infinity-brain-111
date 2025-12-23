@@ -1,0 +1,90 @@
+TERMS: entropy, boson, probability
+COLORS: red, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/jQpwNlXjTCNJ3jG4omJ2VJcekO4</id>
+  <title>arXiv Query: search_query=all:entropy AND all:boson AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:19:22Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+(all:boson+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>66</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1608.00145v2</id>
+    <title>Inspecting non-perturbative contributions to the Entanglement Entropy via wavefunctions</title>
+    <updated>2017-12-05T03:52:03Z</updated>
+    <link href="https://arxiv.org/abs/1608.00145v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1608.00145v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we would like to systematically explore the implications of non-perturbative effects on entanglement in a many body system. Instead of pursuing the usual path-integral method in a singular space, we attempt to study the wavefunctions in detail. We begin with a toy model of multiple particles whose interaction potential admits multiple minima. We study the entanglement of the true ground state after taking the tunnelling effects into account and find some simple patterns. Notably, in the case of multiple particle interactions, entanglement entropy generically decreases with increasing number of minima. The knowledge of the subsystem actually increases with the number of minima. The reduced density matrix can also be seen to have close connections with graph spectra. In a more careful study of the two-well tunnelling system, we also extract the exponentially suppressed tail contribution, the analogues of instantons. To understand the effects of multiple minima in a field theory, it inspires us to inspect wavefunctions in a toy model of bosonic field describing quasi-particles of two different condensates related by Bogoliubov transformations. We find that the area law is naturally preserved. This is probably a useful set of perspectives that promise wider applications.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-07-30T16:50:44Z</published>
+    <arxiv:comment>32 pages, 4 figures, current version accepted by Entropy</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Entropy 2017, 19(12), 671</arxiv:journal_ref>
+    <author>
+      <name>Arpan Bhattacharyya</name>
+    </author>
+    <author>
+      <name>Ling-Yan Hung</name>
+    </author>
+    <author>
+      <name>P. H. C. Lau</name>
+    </author>
+    <author>
+      <name>Si-Nong Liu</name>
+    </author>
+    <arxiv:doi>10.3390/e19120671</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/e19120671" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1408.0827v3</id>
+    <title>Maximum Entropy Principle and the Higgs Boson Mass</title>
+    <updated>2014-11-18T17:09:34Z</updated>
+    <link href="https://arxiv.org/abs/1408.0827v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1408.0827v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A successful connection between Higgs boson decays and the Maximum Entropy Principle is presented. Based on the information theory inference approach we determine the Higgs boson mass as $M_H= 125.04\pm 0.25$ GeV, a value fully compatible to the LHC measurement. This is straightforwardly obtained by taking the Higgs boson branching ratios as the target probability distributions of the inference, without any extra assumptions beyond the Standard Model. Yet, the principle can be a powerful tool in the construction of any model affecting the Higgs sector. We give, as an example, the case where the Higgs boson has an extra invisible decay channel. Our findings suggest that a system of Higgs bosons undergoing a collective decay to Standard Model particles is among the most fundamental ones where the Maximum Entropy Principle applies.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-08-04T21:53:32Z</published>
+    <arxiv:comment>Version published in Physica A</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Alexandre Alves</name>
+    </author>
+    <author>
+      <name>Alex G. Dias</name>
+    </author>
+    <author>
+      <name>Roberto da Silva</name>
+    </author>
+    <arxiv:doi>10.1016/j.physa.2014.10.084</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physa.2014.10.084" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2004.08407v2</id>
+    <title>The 7% Rule: A Maximum Entropy Prediction on New Decays of the Higgs Boson</title>
+    <updated>2020-08-12T20:28:45Z</updated>
+    <link href="https://arxiv.org/abs/2004.08407v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2004.08407v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The entropy of the Higgs boson decay probabilities distribution in the Standard Model (SM) is maximized for a Higgs mass value that is less than one standard deviation away from the current experimental measurement. This successful estimate of the Higgs mass encourages us to propose tests of the Maximum Entropy Principle (MEP) as a tool for theoretical inferences in other instances of Higgs physics. In this letter, we show that, irrespective of the extension of the SM predicting a new Higgs boson decay channel, its branching ratio can be inferred to be around 7% in such a way that the new entropy of decays still exhibits a maximum at the experimental Higgs mass. This 7% rule can be tested whenever a new Higgs decay channel is found. In order to illustrate the MEP predictions, we apply the MEP inference to Higgs portal models, Higgs-axion interactions, lepton flavour violating decays of the Higgs boson, and a dark gauge boson model.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-04-17T18:01:04Z</published>
+    <arxiv:comment>12 pages, 5 figures. Version published in Nuclear Physics B</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Alexandre Alves</name>
+    </author>
+    <author>
+      <name>Alex Gomes Dias</name>
+    </author>
+    <author>
+      <name>Roberto da Silva</name>
+    </author>
+    <arxiv:doi>10.1016/j.nuclphysb.2020.115137</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.nuclphysb.2020.115137" title="doi"/>
+  </entry>
+</feed>

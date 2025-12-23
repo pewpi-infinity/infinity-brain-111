@@ -1,0 +1,113 @@
+TERMS: entropy, crystal, resonance
+COLORS: red, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/+x2QNr0IKLGA4Rg8VB7LrGBNp2o</id>
+  <title>arXiv Query: search_query=all:entropy AND all:crystal AND all:resonance&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:17:35Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+(all:crystal+AND+all:resonance)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>19</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1807.01606v1</id>
+    <title>Entropy Signatures of Topological Phase Transitions</title>
+    <updated>2018-07-03T12:48:55Z</updated>
+    <link href="https://arxiv.org/abs/1807.01606v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1807.01606v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We review the behavior of the entropy per particle in various two-dimensional electronic systems. The entropy per particle is an important characteristic of any many body system that tells how the entropy of the ensemble of electrons changes if one adds one more electron. Recently, it has been demonstrated how the entropy per particle of a two-dimensional electron gas can be extracted from the recharging current dynamics in a planar capacitor geometry. These experiments pave the way to the systematic studies of entropy in various crystal systems including novel two-dimensional crystals such as gapped graphene, germanene and silicene. Theoretically, the entropy per particle is linked to the temperature derivative of the chemical potential of the electron gas by the Maxwell relation. Using this relation, we calculate the entropy per particle in the vicinity of topological transitions in various two-dimensional electronic systems. We show that the entropy experiences quantized steps at the points of Lifshitz transitions in a two-dimensional electronic gas with a parabolic energy spectrum. In contrast, in doubled-gapped Dirac materials, the entropy per particles demonstrates characteristic spikes once the chemical potential passes through the band edges. The transition from a topological to trivial insulator phase in germanene is manifested by the disappearance of a strong zero-energy resonance in the entropy per particle dependence on the chemical potential. We conclude that studies of the entropy per particle shed light on multiple otherwise hidden peculiarities of the electronic band structure of novel two-dimensional crystals.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-07-03T12:48:55Z</published>
+    <arxiv:comment>33 pages,15 figures. Accepted for publication in JETP. arXiv admin note: text overlap with arXiv:1803.02083, arXiv:1712.09118, arXiv:1703.08962, arXiv:1512.08450</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Journal of Experimental and Theoretical Physics, 2018, Vol. 127, No. 5, pp. 958-983</arxiv:journal_ref>
+    <author>
+      <name>Y. M. Galperin</name>
+    </author>
+    <author>
+      <name>D. Grassano</name>
+    </author>
+    <author>
+      <name>V. P. Gusynin</name>
+    </author>
+    <author>
+      <name>A. V. Kavokin</name>
+    </author>
+    <author>
+      <name>O. Pulci</name>
+    </author>
+    <author>
+      <name>S. G. Sharapov</name>
+    </author>
+    <author>
+      <name>V. O. Shubnyi</name>
+    </author>
+    <author>
+      <name>A. A. Varlamov</name>
+    </author>
+    <arxiv:doi>10.1134/S1063776118110134</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1134/S1063776118110134" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1803.02083v2</id>
+    <title>Detection of topological phase transitions through entropy measurements: the case of germanene</title>
+    <updated>2018-05-28T15:00:37Z</updated>
+    <link href="https://arxiv.org/abs/1803.02083v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1803.02083v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a characterization tool for studies of the band structure of new materials promising for the observation of topological phase transitions. We show that a specific resonant feature in the entropy per electron dependence on the chemical potential may be considered as a fingerprint of the transition between topological and trivial insulator phases. The entropy per electron in a honeycomb two-dimensional crystal of germanene subjected to the external electric field is obtained from the first principle calculation of the density of electronic states and the Maxwell relation. We demonstrate that, in agreement to the recent prediction of the analytical model, strong spikes in the entropy per particle dependence on the chemical potential appear at low temperatures. They are observed at the values of the applied bias both below and above the critical value that corresponds to the transition between the topological insulator and trivial insulator phases, while the giant resonant feature in the vicinity of zero chemical potential is strongly suppressed at the topological transition point, in the low temperature limit. In a wide energy range, the van Hove singularities in the electronic density of states manifest themselves as zeros in the entropy per particle dependence on the chemical potential.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-03-06T09:59:43Z</published>
+    <arxiv:comment>8 pages, 5 figures; final version published in PRB</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Phys. Rev. B 97, 205442 (2018)</arxiv:journal_ref>
+    <author>
+      <name>D. Grassano</name>
+    </author>
+    <author>
+      <name>O. Pulci</name>
+    </author>
+    <author>
+      <name>V. O. Shubnyi</name>
+    </author>
+    <author>
+      <name>S. G. Sharapov</name>
+    </author>
+    <author>
+      <name>V. P. Gusynin</name>
+    </author>
+    <author>
+      <name>A. V. Kavokin</name>
+    </author>
+    <author>
+      <name>A. A. Varlamov</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.97.205442</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.97.205442" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2302.02716v2</id>
+    <title>Ultrafast entropy production in pump-probe experiments</title>
+    <updated>2023-11-22T14:53:17Z</updated>
+    <link href="https://arxiv.org/abs/2302.02716v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2302.02716v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The ultrafast control of materials has opened the possibility to investigate non-equilibrium states of matter with striking properties, such as transient superconductivity and ferroelectricity, ultrafast magnetization and demagnetization, as well as Floquet engineering. The characterization of the ultrafast thermodynamic properties within the material is key for their control and design. Here, we develop the ultrafast stochastic thermodynamics for laser-excited phonons. We calculate the entropy production and heat absorbed from experimental data for single phonon modes of driven materials from time-resolved X-ray scattering experiments where the crystal is excited by a laser pulse. The spectral entropy production is calculated for SrTiO$_3$ and KTaO$_3$ for different temperatures and reveals a striking relation with the power spectrum of the displacement-displacement correlation function by inducing a broad peak beside the eigenmode-resonance.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-02-06T11:44:14Z</published>
+    <arxiv:comment>11 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Lorenzo Caprini</name>
+    </author>
+    <author>
+      <name>Hartmut Löwen</name>
+    </author>
+    <author>
+      <name>R. Matthias Geilhufe</name>
+    </author>
+  </entry>
+</feed>

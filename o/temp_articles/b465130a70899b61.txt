@@ -1,0 +1,74 @@
+TERMS: hydrogen, electron, spin, boson
+COLORS: purple, green, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/7YEfRk0LfjBVVfpYVz9aKrCj0go</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:electron AND all:spin AND all:boson&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:56:09Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:electron+AND+(all:spin+AND+all:boson))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>13</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1203.6894v2</id>
+    <title>Constraints on short-range spin-dependent interactions from scalar spin-spin coupling in deuterated molecular hydrogen</title>
+    <updated>2012-05-04T23:18:28Z</updated>
+    <link href="https://arxiv.org/abs/1203.6894v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1203.6894v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A comparison between existing measurements and calculations of the scalar spin-spin interaction (J-coupling) in deuterated molecular hydrogen (HD) yields stringent constraints on anomalous spin-dependent potentials between nucleons at the atomic scale (${\rm \sim 1 Å}$). The dimensionless coupling constant $g_P^pg_P^{N}/4π$ associated with exchange of pseudoscalar (axion-like) bosons between nucleons is constrained to be less than $5\times 10^{-7}$ for boson masses in the range of $5 {\rm keV}$. This represents improvement by a factor of about 100 over constraints placed by measurements of the dipole-dipole interaction in molecular ${\rm H_2}$. The dimensionless coupling constant $g_A^pg_A^N/4 π$ associated with exchange of a heretofore undiscovered axial-vector boson between nucleons is constrained to be $g_A^pg_A^N/4 π&lt; 2 \times 10^{-19}$ for bosons of mass $\lesssim 1000 {\rm eV}$, improving constraints at this distance scale by a factor of 100 for proton-proton couplings and more than 8 orders of magnitude for neutron-proton couplings. This limit is also a factor of 100 more stringent than recent constraints obtained for axial-vector couplings between electrons and nucleons obtained from comparison of measurements and calculations of hyperfine structure.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-03-30T19:16:40Z</published>
+    <arxiv:comment>4 pages 2 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>Micah Ledbetter</name>
+    </author>
+    <author>
+      <name>Michael Romalis</name>
+    </author>
+    <author>
+      <name>Derek Jackson-Kimball</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.110.040402</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.110.040402" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1005.4875v2</id>
+    <title>HFS interval of the $2s$ state of hydrogen-like atoms and a constraint on a pseudovector boson with mass below $1\;$keV$/c^2$</title>
+    <updated>2010-05-27T08:06:41Z</updated>
+    <link href="https://arxiv.org/abs/1005.4875v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1005.4875v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A constraint on a long-range spin-dependent interaction $α^{\prime\prime}({\bf s}_1\cdot{\bf s}_2)\,{\rm e}^{-λr}/r$, which can be induced by a pseudovector light boson, is presented. We study theoretical and experimental data on a specific difference $8\times E_{\rm hfs}(2s)-E_{\rm hfs}(1s)$ for light two-body atoms. The spin-dependent coupling constant $α^{\prime\prime}$ of electron-nucleus interaction in hydrogen, deuterium and helium-3 ion is constrained at the level below a part in $10^{16}$. The derived constraints are related to the range of masses below $4\;{\rm keV}/c^2$.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-05-26T16:44:43Z</published>
+    <arxiv:comment>Cross references to Arxiv are updated (arXiv:1005.4859, arXiv:1005.4868)</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>S. G. Karshenboim</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.83.062119</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.83.062119" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1002.3468v5</id>
+    <title>Unconventional approach to orbital-free density functional theory derived from a model of extended electrons</title>
+    <updated>2010-10-19T13:52:38Z</updated>
+    <link href="https://arxiv.org/abs/1002.3468v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1002.3468v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>An equation proposed by Levy, Perdew and Sahni in 1984 [PRA 30, 2745 (1984)] is an orbital--free formulation of density functional theory. However, this equation describes a bosonic system. Here, we analyze on a very fundamental level, how this equation could be extended to yield a formulation for a general fermionic distribution of charge and spin. This analysis starts at the level of single electrons and with the question, how spin actually comes into a charge distribution in a non-relativistic model. To this end we present a space-time model of extended electrons, which is formulated in terms of geometric algebra. Wave properties of the electron are referred to mass density oscillations. We provide a comprehensive and non-statistical interpretation of wavefunctions, referring them to mass density components and internal field components. It is shown that these wavefunctions comply with the Schrödinger equation, for the free electron as well as for the electron in electrostatic and vector potentials. Spin-properties of the electron are referred to intrinsic field components and it is established that a measurement of spin in an external field yields exactly two possible results. The model agrees with the results of standard theory concerning the hydrogen atom. Finally, we analyze many-electron systems and derive a set of coupled equations suitable to characterize the system without any reference to single electron states. The model is expected to have the greatest impact in condensed matter theory, where it allows to describe an $N$-electron system by a many-electron wavefunction $Ψ$ of four, instead of 3N variables. The many-body aspect of a system is in this case encoded in a bivector potential.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-02-18T15:17:55Z</published>
+    <arxiv:comment>The paper has been extended by a modified Landau-Lifshitz equation, describing the change of spin in external magnetic fields. A figure has been added to demonstrate the process. The article has now been accepted for publication and will appear in Foundations of Physics. 21 pages, 1 figure, 59 references</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Found. Phys. 41, 754-791 (2011)</arxiv:journal_ref>
+    <author>
+      <name>Werner A. Hofer</name>
+    </author>
+    <arxiv:doi>10.1007/s10701-010-9517-0</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s10701-010-9517-0" title="doi"/>
+  </entry>
+</feed>

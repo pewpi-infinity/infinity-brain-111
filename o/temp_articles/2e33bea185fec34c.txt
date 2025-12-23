@@ -1,0 +1,98 @@
+TERMS: hydrogen, quantum, crystal, spin
+COLORS: purple, blue, orange, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/V3t9nxmEvimpWMk2ETQDZ+IxDkU</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:crystal AND all:spin&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:39:34Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:crystal+AND+all:spin))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>24</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2510.16155v1</id>
+    <title>Environment-imposed selection rules for nuclear-spin conversion of H$_2$ in molecular crystals</title>
+    <updated>2025-10-17T18:59:36Z</updated>
+    <link href="https://arxiv.org/abs/2510.16155v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.16155v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Nuclear-spin conversion in molecular hydrogen is governed by strict symmetry rules that typically require magnetic fields or catalytic surfaces to break. Here we demonstrate that the intrinsic tensor composition of a non-magnetic molecular crystal field can impose and relax these rules without external fields. High-resolution infrared spectra of H$_2$ in crystalline CO$_2$ reveal large rank-2 (quadrupolar) crystal-field splittings of the $m$ sublevels, while nuclear-spin conversion occurs only through $Δm = 0$ channels. Replacing CO$_2$ with polar N$_2$O introduces rank-1 (dipole) components that partially open $Δm \neq 0$ pathways, while incorporation of paramagnetic NO$_2$ fully lifts the restriction. These results establish a direct correspondence between crystal-field tensor rank and nuclear-spin dynamics, introducing a general symmetry-based framework for designing and controlling spin-isomer populations and quantum-state connectivity in molecular solids.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-17T18:59:36Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Nathan Mclane</name>
+    </author>
+    <author>
+      <name>LeAnh Duckett</name>
+    </author>
+    <author>
+      <name>Leah G. Dodson</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.18254v1</id>
+    <title>Spin decoherence in molecular crystals: nuclear v.s. electronic spin baths</title>
+    <updated>2025-04-25T10:57:20Z</updated>
+    <link href="https://arxiv.org/abs/2504.18254v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.18254v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The loss of information about the relative phase between two quantum states, known as decoherence, strongly limits resolution in electron paramagnetic spectroscopy and hampers the use of molecules for quantum information processing. At low temperatures, the decoherence of an electronic molecular spin can be driven by its interaction with either other electron spins or nuclear spins. Many experimental techniques have been used to prolong the coherence time of molecular qubits, but these efforts have been hampered by the uncertainty about which of the two mechanisms is effectively limiting coherence in different experimental conditions. Here, we use the Cluster-Correlation Expansion (CCE) to simulate the decoherence of two prototypical molecular qubits and quantitatively demonstrate that nuclear spins become the leading source of decoherence only when the electron spin concentration is below 1 mM. Moreover, we show that deuterated samples, much easier to achieve than fully spin-free environments, could achieve record coherence times of 0.1 ms for an electron spin concentration of 0.1 mM. Alternatively, hydrogen-rich molecular crystals with electron spins concentration below 1 mM can still achieve coherence times of 10 ms through dynamical decoupling, showing that the potential of molecular spins for quantum technologies is still untapped.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-25T10:57:20Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Conor Ryan</name>
+    </author>
+    <author>
+      <name>Valerio Briganti</name>
+    </author>
+    <author>
+      <name>Cathal Hogan</name>
+    </author>
+    <author>
+      <name>Mark O'Neill</name>
+    </author>
+    <author>
+      <name>Alessandro Lunghi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0103023v2</id>
+    <title>Frustrated 3-Dimensional Quantum Spin Liquid in CuHpCl</title>
+    <updated>2001-09-24T18:28:02Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0103023v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0103023v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Inelastic neutron scattering measurements are reported for the quantum antiferromagnetic material Cu_2(C_5H_12N_2)_2Cl_4 (CuHpCl). The magnetic excitation spectrum forms a band extending from 0.9 meV to 1.4 meV. The spectrum contains two modes that disperse throughout the a-c plane of the monoclinic unit cell with less dispersion along the unique b-axis. Simple arguments based on the measured dispersion relations and the crystal structure show that a spin ladder model is inappropriate for describing CuHpCl. Instead, it is proposed that hydrogen bond mediated exchange interactions between the bi-nuclear molecular units yield a three-dimensional interacting spin system with a recurrent triangular motif similar to the Shastry-Sutherland Model (SSM). Model independent analysis based on the first moment sum rule shows that at least four distinct spin pairs are strongly correlated and that two of these, including the dimer bond of the corresponding SSM, are magnetically frustrated. These results show that CuHpCl should be classified as a frustration induced three dimensional quantum spin liquid.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2001-03-01T14:32:25Z</published>
+    <arxiv:comment>13 pages, 17 figures (Color) ReSubmitted to Phys. Rev. B 9/21/2001 resubmission has new content email comments to dhr@pha.jhu.edu or mstone@pha.jhu.edu</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <author>
+      <name>M. B. Stone</name>
+    </author>
+    <author>
+      <name>Y. Chen</name>
+    </author>
+    <author>
+      <name>J. Rittner</name>
+    </author>
+    <author>
+      <name>H. Yardimci</name>
+    </author>
+    <author>
+      <name>D. H. Reich</name>
+    </author>
+    <author>
+      <name>C. Broholm</name>
+    </author>
+    <author>
+      <name>D. V. Ferraris</name>
+    </author>
+    <author>
+      <name>T. Lectka</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.65.064423</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.65.064423" title="doi"/>
+  </entry>
+</feed>

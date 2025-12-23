@@ -1,0 +1,31 @@
+TERMS: lattice, crystal, tachyon
+COLORS: orange, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/h2oR/NS3U7rHY/ujNl72ppfkC1M</id>
+  <title>arXiv Query: search_query=all:lattice AND all:crystal AND all:tachyon&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:14:29Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:crystal+AND+all:tachyon)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1001.4215v1</id>
+    <title>Tachyonic crystals and the laminar instability of the perturbative vacuum in asymptotically free gauge theories</title>
+    <updated>2010-01-24T01:25:19Z</updated>
+    <link href="https://arxiv.org/abs/1001.4215v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1001.4215v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Lattice Monte Carlo studies in SU(3) gauge theory have shown that the topological charge distribution in the vacuum is dominated by thin coherent membranes of codimension one arranged in a layered, alternating-sign sandwich. A similar lamination of topological charge occurs in the 2D $CP^{N-1}$ model. In holographic QCD, the observed topological charge sheets are naturally interpreted as $D6$ branes wrapped around an $S_4$.. With this interpretation, the laminated array of topological charge membranes observed on the lattice can be identified as a "tachyonic crystal", a regular, alternating-sign array of $D6$ and $\bar{D6}$ branes that arises as the final state of the decay of a non-BPS $D7$ brane via the tachyonic mode of the attached string. In the gauge theory, the homogeneous, space-filling $D7$ brane represents the perturbative gauge vacuum, which is unstable toward lamination associated with a marginal tachyonic boundary perturbation $\propto \cos(X/\sqrt{2α'})$. For the $CP^{N-1}$ model, the cutoff field theory can be cast as the low energy limit of an open string theory in background gauge and tachyon fields $A_μ(x)$ and $λ(x)$. This allows a detailed comparison with large $N$ field theory results and provides strong support for the tachyonic crystal interpretation of the gauge theory vacuum.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-01-24T01:25:19Z</published>
+    <arxiv:comment>21 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Phys.Rev.D81:125006,2010</arxiv:journal_ref>
+    <author>
+      <name>H. B. Thacker</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.81.125006</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.81.125006" title="doi"/>
+  </entry>
+</feed>

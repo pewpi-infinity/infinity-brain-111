@@ -1,0 +1,59 @@
+TERMS: entropy, vapor, probability
+COLORS: red, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/3qIBT0dcWQ5XN1vTkkon4laeGJ0</id>
+  <title>arXiv Query: search_query=all:entropy AND all:vapor AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:17:28Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+(all:vapor+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2311.13294v1</id>
+    <title>Probabilistic Inference in Reinforcement Learning Done Right</title>
+    <updated>2023-11-22T10:23:14Z</updated>
+    <link href="https://arxiv.org/abs/2311.13294v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.13294v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A popular perspective in Reinforcement learning (RL) casts the problem as probabilistic inference on a graphical model of the Markov decision process (MDP). The core object of study is the probability of each state-action pair being visited under the optimal policy. Previous approaches to approximate this quantity can be arbitrarily poor, leading to algorithms that do not implement genuine statistical inference and consequently do not perform well in challenging problems. In this work, we undertake a rigorous Bayesian treatment of the posterior probability of state-action optimality and clarify how it flows through the MDP. We first reveal that this quantity can indeed be used to generate a policy that explores efficiently, as measured by regret. Unfortunately, computing it is intractable, so we derive a new variational Bayesian approximation yielding a tractable convex optimization problem and establish that the resulting policy also explores efficiently. We call our approach VAPOR and show that it has strong connections to Thompson sampling, K-learning, and maximum entropy exploration. We conclude with some experiments demonstrating the performance advantage of a deep RL version of VAPOR.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-22T10:23:14Z</published>
+    <arxiv:comment>NeurIPS 2023</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Jean Tarbouriech</name>
+    </author>
+    <author>
+      <name>Tor Lattimore</name>
+    </author>
+    <author>
+      <name>Brendan O'Donoghue</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.06534v3</id>
+    <title>Dynamical thermalization, Rayleigh-Jeans condensate, vortexes and wave collapse in quantum chaos fibers and fluid of light</title>
+    <updated>2025-09-19T20:01:54Z</updated>
+    <link href="https://arxiv.org/abs/2506.06534v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.06534v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study analytically and numerically the time evolution of a nonlinear field described by the nonlinear Schrödinger equation in a chaotic $D$-shape billiard. In absence of nonlinearity the system has standard properties of quantum chaos. This model describes a longitudinal light propagation in a multimode D-shape optical fiber and also those in a Kerr nonlinear medium of atomic vapor. We show that, above a certain chaos border of nonlinearity, chaos leads to dynamical thermalization with the Rayleigh-Jeans thermal distribution and the formation of the Rayleigh-Jeans condensate in a vicinity of the ground state accumulating in it about 80-90\% of total probability. Certain similarities of this phenomenon with the Fröhlich condensate are discussed. Below the chaos border the dynamics is quasi-integrable corresponding to the Kolmogorov-Arnold-Moser integrability. We describe also the time evolution during the process of relaxation to the thermal state and the time dependence of quantum von Neumann and classical Boltzmann entropies during this process. At a strong focusing nonlinearity we show that the wave collapse can take place even at sufficiently high positive energy being very different from the open space case. Finally for the defocusing case we establish the superfluid regime for vortex dynamics at strong nonlinearity. System parameters for optical fiber experimental studies of these effects are also discussed.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.CD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-06T21:05:23Z</published>
+    <arxiv:comment>41 pages, 33 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <author>
+      <name>Leonardo Ermann</name>
+    </author>
+    <author>
+      <name>Alexei D. Chepelianskii</name>
+    </author>
+    <author>
+      <name>Dima L. Shepelyansky</name>
+    </author>
+  </entry>
+</feed>

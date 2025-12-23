@@ -1,0 +1,97 @@
+TERMS: ionization, resonance, singularity
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/S6XPkGOr9P7Nqkrq+2t3juUz2j4</id>
+  <title>arXiv Query: search_query=all:ionization AND all:resonance AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:29:49Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:ionization+AND+(all:resonance+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>4</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2305.08869v1</id>
+    <title>Singular Azimuthally Propagating Electromagnetic Fields</title>
+    <updated>2023-05-11T13:34:19Z</updated>
+    <link href="https://arxiv.org/abs/2305.08869v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.08869v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the characteristics of azimuthally propagating electromagnetic fields in a cylindrical cavity. It is found that under certain conditions, the transverse components of the electromagnetic field are singular at the center of the cavity but the corresponding electromagnetic field remains of finite energy. The solutions are arranged in branches each of which starts from a root of $J_1(x)=0$ for the TE modes and a root of $J_0(x)=0$ for the TM modes. The lowest (dominant) branch starts from a resonance that corresponds to the solution $x=0$ of $J_1(x)=0$. Its energy has a logarithmic singularity in a lossless structure. The singular solutions with finite energy can be observed experimentally by forcing them to resonate in a cavity with inserted metallic wedges. They can also be excited by transient sources. The singular electromagnetic field of these waves is strong enough to ionize the air. Whether these transient singular fields can initiate lightning, a phenomenon that is still not understood, is a very interesting question. It is also worth investigating whether the lowest resonance is excited in violently energetic cosmological phenomena such as cosmic jets.</summary>
+    <category term="physics.class-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-11T13:34:19Z</published>
+    <arxiv:primary_category term="physics.class-ph"/>
+    <author>
+      <name>Mustafa Bakr</name>
+    </author>
+    <author>
+      <name>Smain Amari</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1806.06757v1</id>
+    <title>Electroluminescence on-off ratio control of n-i-n GaAs/AlGaAs-based resonant tunneling structures</title>
+    <updated>2018-06-18T15:13:18Z</updated>
+    <link href="https://arxiv.org/abs/1806.06757v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.06757v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We explore the nature of the electroluminescence (EL) emission of purely n-doped GaAs/AlGaAs resonant tunneling diodes (RTDs) and the EL evolution with voltage. A singular feature of such a device is unveiled when the electrical output current changes from high to low and the EL on-off ratio is enhanced by 2 orders of magnitude compared to the current on-off ratio. By combining the EL and current properties, we are able to identify two independent impact ionization channels associated with the coherent resonant tunneling current and the incoherent valley current. We also perform the same investigation with an associated series resistance, which induces a bistable electrical output in the system. By simulating a resistance variation for the current-voltage and the EL, we are able to tune the EL on-off ratio by up to 6 orders of magnitude. We further observe that the EL on and off states can be either direct or inverted compared to the tunneling current on and off states. This electroluminescence, combined with the unique RTD properties such as the negative differential resistance (NDR) and high frequency operation, enables the development of high speed functional opto-electronic devices and optical switches.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-18T15:13:18Z</published>
+    <arxiv:comment>6 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>Phys. Rev. B 98, 075302 (2018)</arxiv:journal_ref>
+    <author>
+      <name>E. R. Cardozo de Oliveira</name>
+    </author>
+    <author>
+      <name>A. Pfenning</name>
+    </author>
+    <author>
+      <name>E. D. Guarin</name>
+    </author>
+    <author>
+      <name>M. D. Teodoro</name>
+    </author>
+    <author>
+      <name>E. C. Santos</name>
+    </author>
+    <author>
+      <name>V. Lopez-Richard</name>
+    </author>
+    <author>
+      <name>G. E. Marques</name>
+    </author>
+    <author>
+      <name>L. Worschech</name>
+    </author>
+    <author>
+      <name>F. Hartmann</name>
+    </author>
+    <author>
+      <name>Sven Höfling</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.98.075302</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.98.075302" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/physics/0410213v1</id>
+    <title>A comparative analysis of the EEDF obtained by regularization methods and by a least-squares fitting</title>
+    <updated>2004-10-22T14:13:17Z</updated>
+    <link href="https://arxiv.org/abs/physics/0410213v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/physics/0410213v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  To establish the electron energy distribution function (EEDF), the second derivative of a Langmuir probe current-voltage (I-V) characteristic is numerically integrated using the Tikhonov singular value decomposition regularized method. A comparison of the numerically intagrated EDDF and by a least-squares fitting is discussed. The used I-V haracteristic is measured in an ECR plasma source using a cylindrical probe and the plasma parameters are determined by the Laframboise theory. This technique allows a rapid analysis of plasma parameters at any gas pressure. The obtained EEDF, for the case of the ECR plasma source, shows the existence of two groups of electrons with different temperatures. This result is associated with the collisional mechanism heating taking place in ECR plasma sources, where low pressure plasma is sustained by electron impact ionization of the ground state molecules or atoms by energetic electrons arising in the resonance zone.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-10-22T14:13:17Z</published>
+    <arxiv:comment>12th International Congress on Plasma Physics, 25-29 October 2004, Nice (France)</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>Cesar Gutierrez-Tapia</name>
+      <arxiv:affiliation>ININ</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Hector Flores Llamas</name>
+      <arxiv:affiliation>ININ</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1063/1.1802435</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/1.1802435" title="doi"/>
+  </entry>
+</feed>

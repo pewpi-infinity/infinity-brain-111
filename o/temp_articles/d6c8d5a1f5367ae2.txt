@@ -1,0 +1,82 @@
+TERMS: hydrogen, entropy, plasma
+COLORS: purple, red, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/0NvyFMuANWHp/yYxQxXxhmk9YHA</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:entropy AND all:plasma&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:02:33Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:entropy+AND+all:plasma)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>7</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2005.05056v4</id>
+    <title>Sound Absorption in Partially Ionized Hydrogen Plasma and Heating Mechanism of Solar Chromosphere</title>
+    <updated>2020-10-28T13:39:35Z</updated>
+    <link href="https://arxiv.org/abs/2005.05056v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2005.05056v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The temperature dependence of rates of electron impact ionization and two electrons recombination are calculated using Wannier cross section of electron impact ionization of neutral hydrogen atom. Entropy production and power dissipation are derived for the case when the ionization degree deviates from its equilibrium value. This is the special case of the obtained general formula for entropy production accompanying chemical reactions. Damping rate of the sound waves is calculated and the conditions when ionization processes dominate are considered. A quasi-classical approximation for the heating mechanism of solar chromosphere is proposed. Several analogous phenomena for damping rates in liquids and crystals are shortly discussed, for example, deaf sound of a glass of beer or English salt solution. An explicit expression for the second or bulk (or volume) viscosity of hydrogen plasma is calculated from firsts principles. For the first time some second viscosity is calculated from first principles.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-05-11T12:52:33Z</published>
+    <arxiv:comment>Mandelstam-Leontovich theory applied to hydrogen plasma, 13 pages, 5 figs, 32 references</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <arxiv:journal_ref>Physica A: Stat. Mech. Appls., Vol. 563, 125442 (2021)</arxiv:journal_ref>
+    <author>
+      <name>Todor M. Mishonov</name>
+    </author>
+    <author>
+      <name>Iglika M. Dimitrova</name>
+    </author>
+    <author>
+      <name>Albert M. Varonov</name>
+    </author>
+    <arxiv:doi>10.1016/j.physa.2020.125442</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physa.2020.125442" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2205.09531v1</id>
+    <title>Hydrogen-like ions in plasma environment</title>
+    <updated>2022-05-18T16:49:05Z</updated>
+    <link href="https://arxiv.org/abs/2205.09531v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2205.09531v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The behavior of H-like ions embedded in astrophysical plasmas in the form of \emph{dense, strongly and weakly coupled} plasmas are investigated. In these, the increase and decrease in temperature is impacted with a change in confinement radius $(r_{c})$. Two independent and generalized scaling ideas have been applied to modulate the effect of plasma screening constant ($λ$) and charge of ion ($Z$) on such systems. Several new relations are derived to interconnect the original Hamiltonian and two scaled Hamiltonians. In exponential cosine screened Coulomb potential (ECSCP) (dense) and weakly coupled plasma (WCP) these scaling relations have provided a linear equation connecting the critical screening constant $(λ^{(c)})$ and $Z$. Their ratio offers a state-dependent constant, beyond which, a particular state vanishes. Shannon entropy has been employed to understand the plasma effect on the ion. With increase in $λ$, the accumulation of opposite charge surrounding the ion increases leading to a reduction in number of bound states. However, with rise in ionic charge $Z$, this effect can be delayed. The competing effect of plasma charge density ($n_e$) and temperature in WCP and ECSCP is investigated. A recently proposed simple virial-like theorem has been established for these systems. Multipole ($k=1-4$) oscillator strength (OS) and polarizabilities for these are studied considering $1s, 2s$ states. As a bonus, analytical closed-form expressions are derived for $f^{(k)}$ and $α^{(k)} (k=1-4)$ involving $1s$ and $2s$ state, for \emph{free H-like ion}.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-05-18T16:49:05Z</published>
+    <arxiv:comment>37 pages, 10 figures, 6 tables</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <arxiv:journal_ref>Phys. Rev. A 104, 012803 (2021)</arxiv:journal_ref>
+    <author>
+      <name>Neetik Mukherjee</name>
+    </author>
+    <author>
+      <name>Chandra Nath Patra</name>
+    </author>
+    <author>
+      <name>Amlan K. Roy</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.104.012803</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.104.012803" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2205.09018v1</id>
+    <title>Shell-confined atom and plasma: incidental degeneracy, metallic character and information entropy</title>
+    <updated>2022-05-18T15:54:02Z</updated>
+    <link href="https://arxiv.org/abs/2205.09018v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2205.09018v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Shell confined atom can serve as a generalized model to explain both \emph{free} and \emph{confined} condition. In this scenario, an atom is trapped inside two concentric spheres of inner $(R_{a})$ and outer $(R_{b})$ radius. The choice of $R_{a}, R_{b}$ renders four different quantum mechanical systems. In hydrogenic atom, they are termed as (a) free hydrogen atom (FHA) (b) confined hydrogen atom (CHA) (c) shell-confined hydrogen atom (SCHA) (d) left-confined hydrogen atom (LCHA). By placing $R_{a}, R_{b}$ at the location of radial nodes of respective \emph{free} $n,\ell$ states, a new kind of degeneracy may arise. At a given $n$ of FHA, there exists $\frac{n(n+1)(n+2)}{6}$ number of iso-energic states with energy $-\frac{Z^{2}}{2n^{2}}$. Furthermore, within a given $n$, the individual contribution of each of these four potentials has also been enumerated. This incidental degeneracy concept is further explored and analyzed in certain well-known \emph{plasma} (Debye and exponential cosine screened) systems. Multipole oscillator strength, $f^{(k)}$, and polarizability, $α^{(k)}$, are evaluated for (a)-(d) in some low-lying states $(k=1-4)$. In excited states, \emph{negative} polarizability is also observed. In this context, metallic behavior of H-like systems in SCHA is discussed and demonstrated. Additionally analytical closed-form expression of $f^{(k)}$ and $α^{(k)}$ are reported for $1s,2s,2p,3d,4f,5g$ states of FHA. Finally, Shannon entropy and Onicescu {\color{red}information} energies are investigated in ground state in SCHA and LCHA in both position and momentum spaces. Much of the results are reported here for first time.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-05-18T15:54:02Z</published>
+    <arxiv:comment>32 pages, 6 tables, 19 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Phys. Rev. A, 104, 042803 (2021)</arxiv:journal_ref>
+    <author>
+      <name>Neetik Mukherjee</name>
+    </author>
+    <author>
+      <name>Amlan K. Roy</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.104.042803</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.104.042803" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,91 @@
+TERMS: wavefunction, resonance, boson
+COLORS: yellow, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ize+At0JlH/QPiV/Uo4lAPd6Thg</id>
+  <title>arXiv Query: search_query=all:wavefunction AND all:resonance AND all:boson&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:33:21Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:wavefunction+AND+(all:resonance+AND+all:boson)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>23</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1808.08633v1</id>
+    <title>Resonating quantum three-coloring wavefunctions for the kagome quantum antiferromagnet</title>
+    <updated>2018-08-26T22:18:18Z</updated>
+    <link href="https://arxiv.org/abs/1808.08633v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1808.08633v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Motivated by the recent discovery of a macroscopically degenerate exactly solvable point of the spin-$1/2$ $XXZ$ model for $J_z/J=-1/2$ on the kagome lattice [H. J. Changlani et al. Phys. Rev. Lett 120, 117202 (2018)] -- a result that holds for arbitrary magnetization -- we develop an exact mapping between its exact quantum three-coloring wavefunctions and the characteristic localized and topological magnons. This map, involving resonating two-color loops, is developed to represent exact many-body ground state wavefunctions for special high magnetizations. Using this map we show that these exact ground state solutions are valid for any $J_z/J \geq -1/2$. This demonstrates the equivalence of the ground-state wavefunction of the Ising, Heisenberg and $XY$ regimes all the way to the $J_z/J=-1/2$ point for these high magnetization sectors. In the hardcore bosonic language, this means that a certain class of exact many-body solutions, previously argued to hold for purely repulsive interactions ($J_z \geq 0$), actually hold for attractive interactions as well, up to a critical interaction strength. For the case of zero magnetization, where the ground state is not exactly known, we perform density matrix renormalization group calculations. Based on the calculation of the ground state energy and measurement of order parameters, we provide evidence for a lack of any qualitative change in the ground state on finite clusters in the Ising ($J_z \gg J$), Heisenberg ($J_z=J$) and $XY$ ($J_z=0$) regimes, continuing adiabatically to the vicinity of the macroscopically degenerate $J_z/J=-1/2$ point. These findings offer a framework for recent results in the literature, and also suggest that the $J_z/J=-1/2$ point is an unconventional quantum critical point whose vicinity may contain the key to resolving the spin-$1/2$ kagome problem.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-08-26T22:18:18Z</published>
+    <arxiv:comment>10 pages, 10 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Phys. Rev. B 99, 104433 (2019)</arxiv:journal_ref>
+    <author>
+      <name>Hitesh J. Changlani</name>
+    </author>
+    <author>
+      <name>Sumiran Pujari</name>
+    </author>
+    <author>
+      <name>Chia-Min Chung</name>
+    </author>
+    <author>
+      <name>Bryan K. Clark</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.99.104433</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.99.104433" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2107.09924v1</id>
+    <title>Spin-wave growth via Shapiro resonances in a spinor Bose-Einstein condensate</title>
+    <updated>2021-07-21T07:58:51Z</updated>
+    <link href="https://arxiv.org/abs/2107.09924v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2107.09924v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We theoretically study the resonant phenomenon in a spin-1 Bose-Einstein condensate periodically driven by a quadratic Zeeman coupling. This phenomenon is closely related to the Shapiro steps in superconducting Josephson junctions, and the previous experimental work [Evrard $et al.,$ Phys. Rev. A 100, 023604 (2019)] for a spin-1 bosonic system observed the resonant dynamics and then called it Shapiro resonance. In this work, using the spin-1 Gross-Pitaevskii equation, we study the Shapiro resonance beyond the single-mode approximation used in the previous work, which assumes that all components of the spinor wavefunction have the same spatial configuration. Considering resonant dynamics starting from a polar state, we analytically calculate the Floquet-Lyapunov exponents featuring an onset of the resonance under a linear analysis and find that spin waves with finite wavenumbers can be excited. This kind of non-uniform excitation cannot be described by the single-mode approximation. Furthermore, to study the long-time resonant dynamics beyond the linear analysis, we numerically solve the one-dimensional spin-1 Gross-Pitaevskii equation, finding that the nonresonant hydrodynamic variables also grow at wavelengths of even multiples of the resonant one due to the nonlinear effect.</summary>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-07-21T07:58:51Z</published>
+    <arxiv:comment>14 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.quant-gas"/>
+    <author>
+      <name>Yuya Imaeda</name>
+    </author>
+    <author>
+      <name>Kazuya Fujimoto</name>
+    </author>
+    <author>
+      <name>Yuki Kawaguchi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/0508147v2</id>
+    <title>Multi-Gauge-Boson Vertices and Chiral Lagrangian Parameters in Higgsless Models with Ideal Fermion Delocalization</title>
+    <updated>2005-08-18T15:39:44Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/0508147v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/0508147v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Higgsless models with fermions whose SU(2) properties are "ideally delocalized," such that the fermion's probability distribution is appropriately related to the W boson wavefunction, have been shown to minimize deviations in precision electroweak parameters. As contributions to the S parameter vanish to leading order, current constraints on these models arise from limits on deviations in multi-gauge-boson vertices. We compute the form of the triple and quartic gauge boson vertices in these models and show that these constraints provide lower bounds only of order a few hundred GeV on the masses of the lightest KK resonances. Higgsless models with ideal fermion delocalization provide an example of extended electroweak gauge interactions with suppressed couplings of fermions to extra gauge-bosons, and these are the only models for which triple-gauge-vertex measurements provide meaningful constraints. We relate the multi-gauge couplings to parameters of the electroweak chiral Lagrangian, and the parameters obtained in these SU(2) x SU(2) models apply equally to the corresponding five dimensional gauge theory models of QCD. We also discuss the collider phenomenology of the KK resonances in models with ideal delocalization. These resonances are found to be fermiophobic, therefore traditional direct collider searches are not sensitive to them and measurements of gauge-boson scattering will be needed to find them.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-08-12T16:37:08Z</published>
+    <arxiv:comment>28 pages, 1 eps figure. Typo in reference corrected</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys.Rev. D72 (2005) 075012</arxiv:journal_ref>
+    <author>
+      <name>R. Sekhar Chivukula</name>
+    </author>
+    <author>
+      <name>Hong-Jian He</name>
+    </author>
+    <author>
+      <name>Masafumi Kurachi</name>
+    </author>
+    <author>
+      <name>Elizabeth H. Simmons</name>
+    </author>
+    <author>
+      <name>Masaharu Tanabashi</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.72.075012</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.72.075012" title="doi"/>
+  </entry>
+</feed>

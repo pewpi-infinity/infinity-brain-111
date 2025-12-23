@@ -1,0 +1,83 @@
+TERMS: entropy, spin, neutrino
+COLORS: red, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/+UrMHjE++VNv6fhNBRi7sbT2n8M</id>
+  <title>arXiv Query: search_query=all:entropy AND all:spin AND all:neutrino&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:18:19Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+(all:spin+AND+all:neutrino)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>24</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/0909.3090v2</id>
+    <title>On The Origin of Neutrino Mass and Mixing in the Standard Model</title>
+    <updated>2013-02-12T19:23:46Z</updated>
+    <link href="https://arxiv.org/abs/0909.3090v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0909.3090v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  One can describe cosmological relic neutrinos by adding Lagrange multipliers to the Standard Model Lagrangian for them. The two possible Lagrange multipliers are a chemical potential, which fixes the mean neutrino/anti-neutrino asymmetry, and a Majorana mass, which fixes the mean spin-entropy. Because these neutrinos originated from a thermal bath, their entropy should be maximal, implying that each state in the background is a symmetric superposition of a neutrino and anti-neutrino. Therefore the Standard Model must be augmented by a flavor-diagonal Majorana neutrino mass matrix. This impacts the propagator via tadpole diagrams due to self-interactions. In the low-energy limit, neutrino self-interactions are entirely off-diagonal because same-flavor four-fermion operators vanish by Pauli exclusion. These interactions must be diagonalized when propagating through a bath of neutrinos, using the U(3) global flavor symmetry. U(3) gets broken broken down to SO(3) by Majorana masses, and down to $A_4$ if the three masses are different. Thus our universe today contains tri-bimaximal mixing and Majorana neutrinos. Neutrino mixing is due to the mismatch between the flavor-diagonal Majorana mass matrix arising at finite density and the self-interaction diagonal finite density propagator. The mass hierarchy is inverted and Majorana phases are absent. Lepton number is conserved and the neutrino-less double beta decay experiment absorbs a pair of neutrinos from the relic background and will prove their Majorana nature.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-09-16T19:56:54Z</published>
+    <arxiv:comment>Withdrawn because of an error in Eq.13 (prediction of neutrino mixings)</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Bob McElrath</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/gr-qc/0303076v6</id>
+    <title>Entropy of a Kerr-de Sitter black hole due to arbitrary spin fields</title>
+    <updated>2004-03-01T06:31:26Z</updated>
+    <link href="https://arxiv.org/abs/gr-qc/0303076v6" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/gr-qc/0303076v6" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The Newman-Penrose formalism is used to derive the Teukolsky master equations controlling massless scalar, neutrino, electromagnetic, gravitino, and gravitational field perturbations of the Kerr-de Sitter spacetime. Then the quantum entropy of a non-extreme Kerr-de Sitter black hole due to arbitrary spin fields is calculated by the improved thin-layer brick wall model. It is shown that the subleading order contribution to the entropy is dependent on the square of the spins of particles and that of the specific angular momentum of black holes as well as the cosmological constant. The logarithmic correction of the spins of particles to the entropy relies on the rotation of the black hole and the effect of the cosmological constant.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-03-20T02:45:34Z</published>
+    <arxiv:comment>28 pages, two figures, Revtex4.0. Final revised version to appear in PRD</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Phys.Rev.D69:044019,2004; Erratum-ibid.D73:089902,2006</arxiv:journal_ref>
+    <author>
+      <name>S. Q. Wu</name>
+    </author>
+    <author>
+      <name>M. L. Yan</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.69.044019</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.69.044019" title="doi"/>
+    <arxiv:doi>10.1103/PhysRevD.73.089902</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.73.089902" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.16742v2</id>
+    <title>Quantum coherence in neutrino spin-flavor oscillations</title>
+    <updated>2025-01-26T08:51:26Z</updated>
+    <link href="https://arxiv.org/abs/2407.16742v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.16742v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Coherence, which represents the superposition of orthogonal states, is a fundamental concept in quantum mechanics and can also be precisely defined within quantum resource theory. Thus exploring quantum coherence in neutrino oscillations can not only help in examining the intrinsic quantum nature but can also explore their potential applications in quantum information technologies. Previous studies on quantum coherence have focused on neutrino flavor oscillations (FO). However, FO imply that neutrinos have mass and this can lead to the generation of a tiny but finite magnetic dipole moment of neutrinos through quantum loop diagrams at higher orders of perturbative expansion of the interaction. This electromagnetic property of neutrinos can induce spin flavor oscillations (SFO) in the presence of an external magnetic field and hence is expected to enrich the study of coherence. In this work, we investigate quantum coherence in neutrino SFO with three flavor mixing within the interstellar as well as intergalactic magnetic fields, quantified by the $l_1$ norm and the relative entropy of coherence, and express these measures in terms of neutrino SFO probabilities. For FO, coherence measures can sustain higher values (say, within 50% of the maximum) over distances of several kilometers, which are relevant for terrestrial experiments like reactor and accelerator neutrinos. However, for SFO, we find that the coherence scale can extend to astrophysical distances, spanning from kiloparsecs to gigaparsecs.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-23T17:53:33Z</published>
+    <arxiv:comment>29 pages, 2 figures; matches the accepted version in Phys. Rev. D</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys.Rev.D 111 (2025) 3, 036015</arxiv:journal_ref>
+    <author>
+      <name>Ashutosh Kumar Alok</name>
+    </author>
+    <author>
+      <name>Trambak Jyoti Chall</name>
+    </author>
+    <author>
+      <name>Neetu Raj Singh Chundawat</name>
+    </author>
+    <author>
+      <name>Shireen Gangal</name>
+    </author>
+    <author>
+      <name>Gaetano Lambiase</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.111.036015</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.111.036015" title="doi"/>
+  </entry>
+</feed>

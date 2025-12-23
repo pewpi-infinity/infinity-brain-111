@@ -1,0 +1,84 @@
+TERMS: superconductivity, plasma, singularity
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/TLwAubxWaVJfGKtHaK29ByVAaFU</id>
+  <title>arXiv Query: search_query=all:superconductivity AND all:plasma AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:31:48Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:superconductivity+AND+(all:plasma+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>7</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/physics/0607073v1</id>
+    <title>The Breakdown of Alfven's Theorem in Ideal Plasma Flows</title>
+    <updated>2006-07-09T16:17:36Z</updated>
+    <link href="https://arxiv.org/abs/physics/0607073v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/physics/0607073v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  This paper presents both rigorous results and physical theory on the breakdown of magnetic flux conservation for ideal plasmas, by nonlinear effects. Our analysis is based upon an effective equation for magnetohydrodynamic (MHD) modes at length-scales $&gt;\ell,$ with smaller scales eliminated, as in renormalization-group methodology. We prove that flux-conservation can be violated for an arbitrarily small length-scale $\ell,$ and in the absence of any non-ideality, but only if singular current sheets and vortex sheets both exist and intersect in sets of large enough dimension. This result gives analytical support to and rigorous constraints on theories of fast turbulent reconnection. Mathematically, our theorem is analogous to Onsager's result on energy dissipation anomaly in hydrodynamic turbulence. As a physical phenomenon, the breakdown of magnetic-flux conservation in ideal MHD is similar to the decay of magnetic flux through a narrow superconducting ring, by phase-slip of quantized flux lines. The effect should be observable both in numerical MHD simulations and in laboratory plasma experiments at moderately high magnetic Reynolds numbers.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.space-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-07-09T16:17:36Z</published>
+    <arxiv:comment>38 pages, 1 figure</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>Gregory L. Eyink</name>
+    </author>
+    <author>
+      <name>Hussein Aluie</name>
+    </author>
+    <arxiv:doi>10.1016/j.physd.2006.08.009</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physd.2006.08.009" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1704.08004v1</id>
+    <title>Quantum phase fluctuations and density of states in superconducting nanowires</title>
+    <updated>2017-04-26T08:07:54Z</updated>
+    <link href="https://arxiv.org/abs/1704.08004v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1704.08004v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We argue that quantum fluctuations of the phase of the order parameter may strongly affect the electron density of states (DOS) in ultrathin superconducting wires. We demonstrate that the effect of such fluctuations is equivalent to that of a quantum dissipative environment formed by sound-like plasma modes propagating along the wire. We derive a non-perturbative expression for the local electron DOS in superconducting nanowires which fully accounts for quantum phase fluctuations. At any non-zero temperature these fluctuations smear out the square-root singularity in DOS near the superconducting gap and generate quasiparticle states at subgap energies. Furthermore, at sufficiently large values of the wire impedance this singularity is suppressed down to $T=0$ in which case DOS tends to zero at subgap energies and exhibits the power-law behavior above the gap. Our predictions can be directly tested in tunneling experiments with superconducting nanowires.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-04-26T08:07:54Z</published>
+    <arxiv:comment>6 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Phys. Rev. B 96, 085435 (2017)</arxiv:journal_ref>
+    <author>
+      <name>Alexey Radkevich</name>
+    </author>
+    <author>
+      <name>Andrew G. Semenov</name>
+    </author>
+    <author>
+      <name>Andrei D. Zaikin</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.96.085435</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.96.085435" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0809.4932v1</id>
+    <title>Experimental observation of the longitudinal plasma excitation in intrinsic Josephson junctions</title>
+    <updated>2008-09-29T11:14:29Z</updated>
+    <link href="https://arxiv.org/abs/0809.4932v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0809.4932v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We have investigated the current-voltage characteristics (IVCs) of intrinsic Josephson junctions (IJJs). Recently, it is predicted that the longitudinal plasma wave can be excited by the parametric resonance in IJJs. Such an excitation induces a singularity called as breakpoint region around switch back region in the IVC. We have succeeded in the observation of the breakpoint region in the IVC of the mesa with 5 IJJs at 4.2 K. Furthermore, it is found that the temperature dependence of the breakpoint current is in agreement with the theoretical prediction. This suggests that the wave number of the excited plasma wave varies with temperature.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-09-29T11:14:29Z</published>
+    <arxiv:comment>7 pages, 7 figures. Dubna-Nano2008, Accepted for JPCS,</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>A. Irie</name>
+    </author>
+    <author>
+      <name>Yu. M. Shukrinov</name>
+    </author>
+    <author>
+      <name>G. Oya</name>
+    </author>
+    <arxiv:doi>10.1088/1742-6596/129/1/012029</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1742-6596/129/1/012029" title="doi"/>
+  </entry>
+</feed>

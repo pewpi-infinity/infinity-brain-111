@@ -1,0 +1,86 @@
+TERMS: hydrogen, quantum, frequency, crystal
+COLORS: purple, blue, green, orange
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/sayLsPZVI/4s91jeMx3x/7+eNhA</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:frequency AND all:crystal&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:37:43Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:frequency+AND+all:crystal))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>18</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2209.07298v1</id>
+    <title>Frequency Conversion in High-Pressure Hydrogen</title>
+    <updated>2022-09-15T13:46:48Z</updated>
+    <link href="https://arxiv.org/abs/2209.07298v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2209.07298v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>State-preserving frequency conversion in the optical domain is a necessary component in many configurations of quantum information processing and communication. Thus far, nonlinear crystals are used for this purpose. Here, we report on a new approach based on coherent anti-Stokes Raman scattering (CARS) in a dense molecular hydrogen gas. This four-wave mixing process sidesteps the limitations imposed by crystal properties, it is intrinsically broadband and does not generate an undesired background. We demonstrate this method by converting photons from 434 nm to 370 nm and show that their polarization is preserved.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-09-15T13:46:48Z</published>
+    <arxiv:comment>4 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Alireza Aghababaei</name>
+    </author>
+    <author>
+      <name>Christoph Biesek</name>
+    </author>
+    <author>
+      <name>Frank Vewinger</name>
+    </author>
+    <author>
+      <name>Simon Stellmer</name>
+    </author>
+    <arxiv:doi>10.1364/OL.475703</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1364/OL.475703" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0108417v5</id>
+    <title>Collective dynamics of hydrogen atoms in the KIO_3*HIO_3 crystal dictated by a substructure of the hydrogen atoms' matter waves</title>
+    <updated>2004-04-15T06:54:44Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0108417v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0108417v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The behavior of the subsystem of hydrogen atoms of the KIO_3*HIO_3 crystal, whose IR absorption spectra exhibit equidistant submaximums in the vicinity of the maximums in the frequency range of stretching and bending vibrations of OH bonds, is studied in the present work. It is shown that hydrogen atoms co-operate in peculiar clusters in which, however, the hydrogen atoms do not move from their equilibrium positions, but become to vibrate synchronously. The interaction between the hydrogen atoms is associated with the overlapping of their matter waves, or more exactly, the waves' substructure, a very light quasi-particles called inertons, which play the basic role in submicroscopic quantum mechanics that has recently been constructed by the author. The number of atoms, which compose the cluster, is calculated.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2001-08-27T11:49:23Z</published>
+    <arxiv:comment>16 pages, 4 figures; two figures and new references have been added. Report delivered at the XV International School-Seminar "Spectroscopy of Molecules and Crystals", 23-30 June 2001, Chernihiv, Ukraine; new version. Revised, Ref. [1] was filled. Slightly revised</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <author>
+      <name>Volodymyr Krasnoholovets</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2401.10003v1</id>
+    <title>Frequency conversion to the telecom O-band using pressurized hydrogen</title>
+    <updated>2024-01-18T14:18:23Z</updated>
+    <link href="https://arxiv.org/abs/2401.10003v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.10003v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large-scale quantum networks rely on optical fiber networks and photons as so-called flying qubits for information transport. While dispersion and absorption of optical fibers are minimum at the infrared telecom wavelengths, most atomic and solid state platforms operate at visible or near-infrared wavelengths. Quantum frequency conversion is required to bridge these two wavelength regimes, and nonlinear crystals are currently employed for this process. Here, we report on a novel approach of frequency conversion to the telecom band. This interaction is based on coherent Stokes Raman scattering (CSRS), a four-wave mixing process resonantly enhanced in a dense molecular hydrogen gas. We show the conversion of photons from \SI{863}{\nano\meter} to the telecom O-Band and demonstrate that the input polarization state is preserved. This process is intrinsically broad-band and can be adapted to any other wavelength.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-18T14:18:23Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Anica Hamer</name>
+    </author>
+    <author>
+      <name>Seyed Mahdi Razavi Tabar</name>
+    </author>
+    <author>
+      <name>Priyanka Yashwantrao</name>
+    </author>
+    <author>
+      <name>Alireza Aghababaei</name>
+    </author>
+    <author>
+      <name>Frank Vewinger</name>
+    </author>
+    <author>
+      <name>Simon Stellmer</name>
+    </author>
+    <arxiv:doi>10.1364/OL.516461</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1364/OL.516461" title="doi"/>
+  </entry>
+</feed>

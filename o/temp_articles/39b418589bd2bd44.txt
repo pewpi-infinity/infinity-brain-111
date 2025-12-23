@@ -1,0 +1,122 @@
+TERMS: plasma, probability, singularity
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/8FgFDe2XodVfM6vTKLllXdJgOmk</id>
+  <title>arXiv Query: search_query=all:plasma AND all:probability AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:37:26Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:plasma+AND+(all:probability+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>20</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1803.06452v2</id>
+    <title>Spectral Estimation of Plasma Fluctuations II: Nonstationary Analysis of ELM Spectra</title>
+    <updated>2018-03-30T02:47:05Z</updated>
+    <link href="https://arxiv.org/abs/1803.06452v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1803.06452v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Several analysis methods for nonstationary fluctuations are described and applied to the edge localized mode (ELM) instabilities of limiter H-mode plasmas. The microwave scattering diagnostic observes poloidal $k_θ$ values of 3.3 cm$^{-1}$, averaged over a 20 cm region at the plasma edge.A short autoregressive filter enhances the nonstationary component of the plasma fluctuations by removing much of the background level of stationary fluctuations. Between ELMs, the spectrum predominantly consists of broad-banded 300-700 kHz fluctuations propagating in the electron diamagnetic drift direction, indicating the presence of a negative electric field near the plasma edge. The time-frequency spectrogram is computed with the multiple taper technique. By using the singular value decomposition of the spectrogram, it is shown that the spectrum during the ELM is broader and more symmetric than that of the stationary spectrum. The ELM period and the evolution of the spectrum between ELMs varies from discharge to discharge. For the discharge under consideration which has distinct ELMs with a 1 msec period, the spectrum has a maximum in the electron drift direction which relaxes to a near constant value %its characteristic shape in the first half millisecond after the end of the ELM and then grows slowly. In contrast, the level of the fluctuations in the ion drift direction increases exponentially by a factor of eight in the five milliseconds~after the ELM. High frequency precursors are found which occur one millisecond before the ELMs and propagate in the ion drift direction. These precursors are very short ($\sim 10 μ$secs), coherent bursts, and they predict the occurrence of an ELM with a high success rate.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.data-an" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-03-17T03:56:11Z</published>
+    <arxiv:comment>Figures missing</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <arxiv:journal_ref>Physics of Plasmas, Volume 1, Issue 3, March 1994, pp.501-514</arxiv:journal_ref>
+    <author>
+      <name>Kurt S. Riedel</name>
+    </author>
+    <author>
+      <name>Alexander Sidorenko</name>
+    </author>
+    <author>
+      <name>Norton Bretz</name>
+    </author>
+    <author>
+      <name>David J. Thomson</name>
+    </author>
+    <arxiv:doi>10.1063/1.870939</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/1.870939" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.02773v4</id>
+    <title>Disentangling Core and Edge Mechanisms of the Density Limit in DIII-D Negative Triangularity Plasmas</title>
+    <updated>2025-08-29T22:55:57Z</updated>
+    <link href="https://arxiv.org/abs/2504.02773v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.02773v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The density limit is investigated in the DIII-D negative triangularity (NT) plasmas which lack a standard H-mode edge. We find the limit may not be a singular disruptive boundary but a multifaceted density saturation phenomenon governed by distinct core and edge transport mechanisms. Sustained, non-disruptive operation is achieved at densities up to 1.8 times the Greenwald limit ($n_\mathrm{G}$) until the termination of auxiliary heating. Systematic power scans reveal distinct power scalings for the core ($n_e \propto P_\mathrm{SOL}^{0.27\pm0.03}$) and edge ($n_e \propto P_\mathrm{SOL}^{0.42\pm0.04}$) density limits. The edge density saturation is triggered abruptly by the onset of a non-disruptive, high-field side radiative instability that clamps the edge density below $n_\mathrm{G}$. In contrast, the core density continues to rise until it saturates, a state characterized by substantially enhanced core turbulence. Core transport evolves from a diffusive to an intermittent, avalanche-like state, as indicated by heavy-tailed probability density functions (kurtosis $\approx 6$), elevated Hurst exponents, and a $1/f$-type power spectrum. These findings suggest that the density limit in the low-confinement regime is determined by a combination of edge radiative instabilities and core turbulent transport. This distinction provides separate targets for control strategies aimed at extending the operational space of future fusion devices.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-03T17:14:44Z</published>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>R. Hong</name>
+    </author>
+    <author>
+      <name>P. H. Diamond</name>
+    </author>
+    <author>
+      <name>O. Sauter</name>
+    </author>
+    <author>
+      <name>J. Chen</name>
+    </author>
+    <author>
+      <name>F. Khabanov</name>
+    </author>
+    <author>
+      <name>Z. Li</name>
+    </author>
+    <author>
+      <name>D. Liu</name>
+    </author>
+    <author>
+      <name>A. Marinoni</name>
+    </author>
+    <author>
+      <name>G. R. McKee</name>
+    </author>
+    <author>
+      <name>T. L. Rhodes</name>
+    </author>
+    <author>
+      <name>F. Scotti</name>
+    </author>
+    <author>
+      <name>K. E. Thome</name>
+    </author>
+    <author>
+      <name>G. R. Tynan</name>
+    </author>
+    <author>
+      <name>M. A. Van Zeeland</name>
+    </author>
+    <author>
+      <name>Z. Yan</name>
+    </author>
+    <author>
+      <name>L. Zeng</name>
+    </author>
+    <author>
+      <name>the DIII-D NT Team</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1409.4951v1</id>
+    <title>Pulsar emission: Langmuir modes in a relativistic multi-component plasma</title>
+    <updated>2014-09-17T11:29:30Z</updated>
+    <link href="https://arxiv.org/abs/1409.4951v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1409.4951v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Ions, protons and possibly a small flux of electrons and positrons are accelerated outward from the polar cap of a normal or millisecond pulsar whose rotational spin is antiparallel with its magnetic moment. The Langmuir modes of this relativistic plasma have several properties of significance for the origin of coherent radio emission. The characteristics of the mode are determined by the sequence of singularities in the dielectric tensor at real angular frequencies, which in turn is fixed by the electron-positron momentum distribution. We find that under a certain condition on its momentum distribution, an electron-positron flux two orders of magnitude smaller than the Goldreich-Julian flux stabilizes the plasma and extinguishes the mode. But more generally, both the growth rate and wavenumber of the multi-component Langmuir mode can be as much as an order of magnitude larger than those of the two-component ion-proton mode. It appears to be a further effective source for the plasma turbulence whose decay is probably responsible for the observed emission.</summary>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-09-17T11:29:30Z</published>
+    <arxiv:comment>6 pages, 1 figure</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.HE"/>
+    <author>
+      <name>P. B. Jones</name>
+    </author>
+    <arxiv:doi>10.1093/mnras/stu1916</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1093/mnras/stu1916" title="doi"/>
+  </entry>
+</feed>

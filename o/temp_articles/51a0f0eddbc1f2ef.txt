@@ -1,0 +1,69 @@
+TERMS: hydrogen, wavefunction, singularity
+COLORS: purple, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Fi8Y0VKXiZWwKrXasa225waji3w</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:wavefunction AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:04:29Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:wavefunction+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>4</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/hep-th/9305102v1</id>
+    <title>On the Energy Levels of the Hydrogen Atom</title>
+    <updated>1993-05-21T11:43:06Z</updated>
+    <link href="https://arxiv.org/abs/hep-th/9305102v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-th/9305102v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We re-examine the justification for the imposition of regular boundary conditions on the wavefunction at the Coulomb singularity in the treatment of the hydrogen atom in non-relativistic quantum mechanics. We show that the issue of the correct boundary conditions is not independent of the physical structure of the proton. Under the physically reasonable assumption that the finite size and structure of the proton can be represented as a positive correction to the Coulomb potential, we give a justification for the regular boundary condition, which, in contrast to the usual treatments, is physically motivated and mathematically rigorous. We also describe how irregular boundary conditions can be used to model non-positive corrections to the Coulomb potential.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1993-05-21T11:43:06Z</published>
+    <arxiv:comment>26pp, LaTeX. 1 figure available on request, DAMTP-R93/9</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>C. J. Fewster</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1507.07062v1</id>
+    <title>A second mapping method in generalized discrete singular convolution algorithm: regularizing singularities for one electron system</title>
+    <updated>2015-07-25T03:32:03Z</updated>
+    <link href="https://arxiv.org/abs/1507.07062v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1507.07062v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A second mapping method is introduced in the generalized discrete singular convolution algorithm. The mapping approaches are adopted to regularize singularities for one electron system. The applications of the two mapping methods are generalized from the radial hydrogen problem to the one-dimensional hydrogen problem. Three mapping functions are chosen: the square-root mapping function, the cube-root mapping function, and the logarithm mapping function. However, the present mapping approaches fail in both the two-dimensional and three-dimensional hydrogen problems, because the wavefunctions of s-states at the nuclei are not correct.</summary>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-07-25T03:32:03Z</published>
+    <arxiv:comment>25 pages, 5 figures, 8 tables</arxiv:comment>
+    <arxiv:primary_category term="physics.comp-ph"/>
+    <author>
+      <name>Kaige Hu</name>
+    </author>
+    <author>
+      <name>Ruiqin Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1412.5015v3</id>
+    <title>Theory and computation of electromagnetic transition matrix elements in the continuous spectrum of atoms</title>
+    <updated>2017-01-23T12:29:30Z</updated>
+    <link href="https://arxiv.org/abs/1412.5015v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1412.5015v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The present study examines the mathematical properties of the free-free ( f-f) matrix elements of the full electric field operator, of the multipolar Hamiltonian. Special methods are developed and applied for their computation, for the general case where the scattering wavefunctions are calculated numerically in the potential of the term-dependent (N-1) electron core, and are energy-normalized. It is found that, on the energy axis, the f-f matrix elements of the full operator have singularities of first order in the case of equal photoelectron energies. The numerical applications are for f-f transitions in Hydrogen and Neon, obeying electric dipole and quadrupole selection rules. In the limit of zero photon wave-number, the full operator reduces to the length form of the electric dipole approximation (EDA). It is found that the results for the EDA agree with those of the full operator, with the exception of a photon wave-number region about the singularity.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-12-16T14:27:29Z</published>
+    <arxiv:comment>39 pages, 11 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>Yannis Komninos</name>
+    </author>
+    <author>
+      <name>Theodoros Mercouris</name>
+    </author>
+    <author>
+      <name>Cleanthes A. Nicolaides</name>
+    </author>
+    <arxiv:doi>10.1140/epjd/e2016-60706-8</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1140/epjd/e2016-60706-8" title="doi"/>
+  </entry>
+</feed>

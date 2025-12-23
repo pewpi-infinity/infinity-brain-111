@@ -1,0 +1,87 @@
+TERMS: frequency, entropy
+COLORS: green, red
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/nRFsSX6EESRY0foYF0DgUBS1t4Q</id>
+  <title>arXiv Query: search_query=all:frequency AND all:entropy&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T00:57:06Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+all:entropy&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1667</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/0711.2861v1</id>
+    <title>Filter Out High Frequency Noise in EEG Data Using The Method of Maximum Entropy</title>
+    <updated>2007-11-19T08:19:13Z</updated>
+    <link href="https://arxiv.org/abs/0711.2861v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0711.2861v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We propose a maximum entropy (ME) based approach to smooth noise not only in data but also to noise amplified by second order derivative calculation of the data especially for electroencephalography (EEG) studies. The approach includes two steps, applying method of ME to generate a family of filters and minimizing noise variance after applying these filters on data selects the preferred one within the family. We examine performance of the ME filter through frequency and noise variance analysis and compare it with other well known filters developed in the EEG studies. The results show the ME filters to outperform others. Although we only demonstrate a filter design especially for second order derivative of EEG data, these studies still shed an informatic approach of systematically designing a filter for specific purposes.</summary>
+    <category term="q-bio.QM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-11-19T08:19:13Z</published>
+    <arxiv:comment>8 pages and 1 figure. Presened at the 27rd International workshop on Bayesian Inference and Maximum Entropy Methods in science and ngineering, July 8-13, 2007, Saratoga Springs, NY, USA</arxiv:comment>
+    <arxiv:primary_category term="q-bio.QM"/>
+    <arxiv:journal_ref>Bayesian Inference and Maximum entropy methods in Science and Engineering, ed. by K. Knuth, A. Caticha, J. L. Center, A. Giffin, and C. C. Rodriguez, AIP Conf. Proc 954, 386 (2007)</arxiv:journal_ref>
+    <author>
+      <name>Chih-Yuan Tseng</name>
+    </author>
+    <author>
+      <name>HC Lee</name>
+    </author>
+    <arxiv:doi>10.1063/1.2821286</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/1.2821286" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0811.2119v1</id>
+    <title>On the entropy and letter frequencies of powerfree words</title>
+    <updated>2008-11-13T14:17:26Z</updated>
+    <link href="https://arxiv.org/abs/0811.2119v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0811.2119v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We review the recent progress in the investigation of powerfree words, with particular emphasis on binary cubefree and ternary squarefree words. Besides various bounds on the entropy, we provide bounds on letter frequencies and consider their empirical distribution obtained by an enumeration of binary cubefree words up to length 80.</summary>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-11-13T14:17:26Z</published>
+    <arxiv:comment>19 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="math.CO"/>
+    <arxiv:journal_ref>Entropy 10 (2008), 590-612</arxiv:journal_ref>
+    <author>
+      <name>Uwe Grimm</name>
+    </author>
+    <author>
+      <name>Manuela Heuer</name>
+    </author>
+    <arxiv:doi>10.3390/e10040590</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/e10040590" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2104.12447v1</id>
+    <title>Chaotic Time-Delay Signature Suppression and Entropy Growth Enhancement Using Frequency-Band Extractor</title>
+    <updated>2021-04-26T10:28:50Z</updated>
+    <link href="https://arxiv.org/abs/2104.12447v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2104.12447v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>By frequency-band extracting, we experimentally and theoretically investigate time-delay signature (TDS) suppression and entropy growth enhancement of a chaotic optical-feedback semiconductor laser under different injection currents and feedback strengths. The TDS and entropy growth are quantified by the peak value of autocorrelation function and the difference of permutation entropy at the feedback delay time. At the optimal extracting bandwidth, the measured TDS is suppressed up to 96% compared to the original chaos, and the entropy growth is higher than the noise-dominated threshold indicating that the dynamical process is noisy. The effects of extracting bandwidth and radio frequencies on the TDS and entropy growth are also clarified experimentally and theoretically. The experimental results are in good agreements with the theoretical results. The skewness of the laser intensity distribution is effectively improved to 0.001 with the optimal extracting bandwidth. This technique provides a promising tool to extract randomness and prepare desired entropy sources for chaotic secure communication and random number generation.</summary>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.CD" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-04-26T10:28:50Z</published>
+    <arxiv:comment>11 pages, 8 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.optics"/>
+    <arxiv:journal_ref>Entropy 2021, 23(5), 516</arxiv:journal_ref>
+    <author>
+      <name>Yanqiang Guo</name>
+    </author>
+    <author>
+      <name>Tong Liu</name>
+    </author>
+    <author>
+      <name>Tong Zhao</name>
+    </author>
+    <author>
+      <name>Haojie Zhang</name>
+    </author>
+    <author>
+      <name>Xiaomin Guo</name>
+    </author>
+    <arxiv:doi>10.3390/e23050516</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/e23050516" title="doi"/>
+  </entry>
+</feed>

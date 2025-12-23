@@ -1,0 +1,93 @@
+TERMS: quantum, lattice, tachyon
+COLORS: blue, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/9MLQ8aasYkKPlkzBDKYjgj9RzG0</id>
+  <title>arXiv Query: search_query=all:quantum AND all:lattice AND all:tachyon&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:06:02Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:lattice+AND+all:tachyon)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>29</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2312.08167v2</id>
+    <title>Quantum tachyonic preheating, revisited</title>
+    <updated>2024-04-18T06:30:29Z</updated>
+    <link href="https://arxiv.org/abs/2312.08167v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.08167v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In certain models of inflation, the postinflationary reheating of the Universe is not primarily due to perturbative decay of the inflaton field into particles, but proceeds through a tachyonic instability. In the process, long-wavelength modes of an unstable field, which is often distinct from the inflaton itself, acquire very large occupation numbers, which are subsequently redistributed into a thermal equilibrium state. We investigate this process numerically through quantum real-time lattice simulations of the Kadanoff-Baym equation, using a 1/N-NLO truncation of the 2PI-effective action. We identify the early-time maximum occupation number, the "classical" momentum range, the validity of the classical approximation and the effective IR temperature, and study the kinetic equilibration of the system and the equation of state.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-13T14:27:03Z</published>
+    <arxiv:comment>30 pages, 25 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Anders Tranberg</name>
+    </author>
+    <author>
+      <name>Gerhard Ungersbäck</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.07629v2</id>
+    <title>Exact lattice bosonization of finite N matrix quantum mechanics and c = 1</title>
+    <updated>2025-01-13T09:50:07Z</updated>
+    <link href="https://arxiv.org/abs/2406.07629v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.07629v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We describe a new exact lattice bosonization of matrix quantum mechanics (equivalently of non-relativistic fermions) that is valid for arbitrary rank N of the matrix, based on an exact operator bosonization introduced earlier in [1]. The trace identities are automatically incorporated in this formalism. The finite number N of fermions is reflected in the finite number N of bosonic oscillators, or equivalently to the finite number N of lattice points. The fermion Hamiltonian is exactly mappable to a bosonic Hamiltonian. At large N, the latter becomes local and corresponds to the lattice version of a relativistic boson Hamiltonian, with a lattice spacing of order 1/N. The finite lattice spacing leads to a finite entanglement entropy (EE) of the bosonic theory, which reproduces the finite EE of the fermionic theory. Such a description is not available in the standard bosonization in terms of fermion density fluctuations on the Fermi surface, which does not have a built-in short distance cut-off (see, however, [2]). The bosonic lattice is equipped with a geometry determined by the matrix potential or equivalently by the shape of the Fermi surface. Our bosonization also works in the double scaled c=1 model, where the bosonic EE again turns out to be finite, with the short distance cut-off turning as g_s l_s, and reproduces the matrix result. Once again, such a short distance cut-off cannot appear in the conventional dual of c=1 in terms of the 2D string ``tachyon'', where the expected short distance scale is l_s. This indicates our bosonization as a possibly different dual description to the c=1 matrix model appropriate for ``local physics'' like quantum entanglement, by contrast with the conventional duality to the eigenvalue density which works well for asymptotic observables like S-matrices. We briefly discuss possible relation of our bosonization to D0 branes.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-11T18:00:32Z</published>
+    <arxiv:comment>29 pages + appendices, 11 figures (v2) ; added section 6.2 on moments + clarifications are made in several sections (2.1.1, 2.2.4, 3.1, 3.3.1, 5.3, 7) + changed figure 3 to better represent the non-uniform lattice + typos corrected</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Gautam Mandal</name>
+    </author>
+    <author>
+      <name>Ajay Mohan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/0012142v1</id>
+    <title>Dynamics of Symmetry Breaking and Tachyonic Preheating</title>
+    <updated>2000-12-13T23:16:34Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/0012142v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/0012142v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We reconsider the old problem of the dynamics of spontaneous symmetry breaking using 3d lattice simulations, and develop a theory of tachyonic preheating, which occurs due to the spinodal instability of the scalar field. Tachyonic preheating is so efficient that symmetry breaking typically completes within a single oscillation of the field distribution as it rolls towards the minimum of its effective potential. As an application of this theory we consider preheating in the hybrid inflation scenario, including SUSY-motivated F-term and D-term inflationary models. We show that preheating in hybrid inflation is typically tachyonic and the stage of oscillations of a homogeneous component of the scalar fields driving inflation ends after a single oscillation. Our results may also be relevant for the theory of the formation of disoriented chiral condensates in heavy ion collisions.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.CD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.PS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2000-12-13T23:16:34Z</published>
+    <arxiv:comment>7 pages, 6 figures. Higher quality figures and computer generated movies in gif format illustrating our results can be found at http://physics.stanford.edu/gfelder/hybrid</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys.Rev.Lett.87:011601,2001</arxiv:journal_ref>
+    <author>
+      <name>Gary Felder</name>
+    </author>
+    <author>
+      <name>Juan Garcia-Bellido</name>
+    </author>
+    <author>
+      <name>Patrick B. Greene</name>
+    </author>
+    <author>
+      <name>Lev Kofman</name>
+    </author>
+    <author>
+      <name>Andrei Linde</name>
+    </author>
+    <author>
+      <name>Igor Tkachev</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.87.011601</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.87.011601" title="doi"/>
+  </entry>
+</feed>

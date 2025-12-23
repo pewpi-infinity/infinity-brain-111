@@ -1,0 +1,31 @@
+TERMS: hydrogen, lattice, electron, neutrino
+COLORS: purple, orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/vSHpoFLaHOM2T7OLudG0VeTFVDw</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:lattice AND all:electron AND all:neutrino&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:46:32Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:lattice+AND+(all:electron+AND+all:neutrino))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/astro-ph/9910215v1</id>
+    <title>Nuclear heating and melted layers in the inner crust of an accreting neutron star</title>
+    <updated>1999-10-12T16:58:18Z</updated>
+    <link href="https://arxiv.org/abs/astro-ph/9910215v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/astro-ph/9910215v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  A neutron star in a long-lived, low-mass binary can easily accrete enough matter to replace its entire crust. Previous authors noted that an accreted crust, being formed from the burning of accreted hydrogen and helium, allows a series of non-equilibrium reactions, at densities &gt;6e11 g/cc, which release a substantial amount of heat (1 MeV per accreted nucleon). Recent calculations by Schatz et al. showed that the crystalline lattice of an accreted crust is also likely to be quite impure. This paper discusses the thermal structure of such a neutron star and surveys how the crust reactions and impurities affect the crust temperature. During accretion rapid enough to make the accreted hydrogen and helium burn stably (near the Eddington accretion rate; typical of the brightest low-mass neutron star binaries), most of the heat released in the crust is conducted into the core, where neutrino emission regulates the temperature. As a result there is an inversion of the thermal gradient: the temperature decreases with depth in the inner crust. The thermal structure in the crust at these high accretion rates is insensitive to the temperature in the hydrogen/helium burning shell. When the crust is very impure, the temperature can reach approximately 8e8 K at densities &gt; 6e11 g/cc. This peak temperature depends mostly on the amount of heat released and the thermal conductivity and in particular is roughly independent of the core temperature. The high crust temperatures are sufficient to melt the crystalline lattice in thin layers where electron captures have substantially reduced the nuclear charge.</summary>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1999-10-12T16:58:18Z</published>
+    <arxiv:comment>36 pages, 14 figures, uses aastex version 5.0. Accepted for publication in ApJ</arxiv:comment>
+    <arxiv:primary_category term="astro-ph"/>
+    <author>
+      <name>Edward F. Brown</name>
+      <arxiv:affiliation>University of California, Berkeley; University of Chicago</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1086/308487</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1086/308487" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,75 @@
+TERMS: frequency, lattice
+COLORS: green, orange
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/00bi4mWIOaeOVBpVM5OisPwxkMM</id>
+  <title>arXiv Query: search_query=all:frequency AND all:lattice&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T00:57:05Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+all:lattice&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>5153</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1710.02672v1</id>
+    <title>Improved real-time dynamics from imaginary frequency lattice simulations</title>
+    <updated>2017-10-07T11:15:37Z</updated>
+    <link href="https://arxiv.org/abs/1710.02672v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1710.02672v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The computation of real-time properties, such as transport coefficients or bound state spectra of strongly interacting quantum fields in thermal equilibrium is a pressing matter. Since the sign problem prevents a direct evaluation of these quantities, lattice data needs to be analytically continued from the Euclidean domain of the simulation to Minkowski time, in general an ill-posed inverse problem. Here we report on a novel approach to improve the determination of real-time information in the form of spectral functions by setting up a simulation prescription in imaginary frequencies. By carefully distinguishing between initial conditions and quantum dynamics one obtains access to correlation functions also outside the conventional Matsubara frequencies. In particular the range between $ω_0$ and $ω_1=2πT$, which is most relevant for the inverse problem may be more highly resolved. In combination with the fact that in imaginary frequencies the kernel of the inverse problem is not an exponential but only a rational function we observe significant improvements in the reconstruction of spectral functions, demonstrated in a simple 0+1 dimensional scalar field theory toy model.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-10-07T11:15:37Z</published>
+    <arxiv:comment>8 pages, 5 figures, Talk given at the XXXVth International Symposium on Lattice Field Theory, June 18-24, 2017, Granada, Spain</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Jan M. Pawlowski</name>
+    </author>
+    <author>
+      <name>Alexander Rothkopf</name>
+    </author>
+    <arxiv:doi>10.1051/epjconf/201817507001</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1051/epjconf/201817507001" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-th/9908099v2</id>
+    <title>Hawking radiation on a falling lattice</title>
+    <updated>2000-01-12T23:30:55Z</updated>
+    <link href="https://arxiv.org/abs/hep-th/9908099v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-th/9908099v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Scalar field theory on a lattice falling freely into a 1+1 dimensional black hole is studied using both WKB and numerical approaches. The outgoing modes are shown to arise from incoming modes by a process analogous to a Bloch oscillation, with an admixture of negative frequency modes corresponding to the Hawking radiation. Numerical calculations show that the Hawking effect is reproduced to within 0.5% on a lattice whose proper spacing where the wavepacket turns around at the horizon is $\sim0.08$ in units where the surface gravity is 1.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1999-08-13T21:40:15Z</published>
+    <arxiv:comment>11 pages, 7 figures, RevTex; paragraph added to introduction discussing insensitivity to choice of lattice point worldlines, version appearing in PRD</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Phys.Rev.D61:024017,2000</arxiv:journal_ref>
+    <author>
+      <name>Ted Jacobson</name>
+    </author>
+    <author>
+      <name>David Mattingly</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.61.024017</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.61.024017" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1912.13061v2</id>
+    <title>Lattice computation of the quark propagator in Landau gauge at finite temperature</title>
+    <updated>2020-02-12T18:45:49Z</updated>
+    <link href="https://arxiv.org/abs/1912.13061v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1912.13061v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We report on the lattice computation of the quark propagator at finite temperature in the Landau gauge, using quenched gauge configurations. The propagator form factors are computed for various temperatures, above and below the gluon deconfinement temperature $T_c$, and for all the Matsubara frequencies. Our results suggest a strong connection between quark and gluon deconfinement and chiral symmetry restoration above $T_c$.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-12-30T19:05:18Z</published>
+    <arxiv:comment>7 pages, 7 figures, Lattice 2019 proceedings (minor correction on February 12, 2020)</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Paulo J. Silva</name>
+    </author>
+    <author>
+      <name>Orlando Oliveira</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,68 @@
+TERMS: entropy, crystal, wavefunction
+COLORS: red, orange, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/iiOJmy9jhqso2J/8vY6ZIRWbO9s</id>
+  <title>arXiv Query: search_query=all:entropy AND all:crystal AND all:wavefunction&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:17:33Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+(all:crystal+AND+all:wavefunction)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>3</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1811.09983v2</id>
+    <title>Quantum crystals are at odds with the laws of thermodynamics</title>
+    <updated>2019-03-28T10:07:42Z</updated>
+    <link href="https://arxiv.org/abs/1811.09983v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1811.09983v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Experimental data and the principles of quantum mechanics suggest that a crystal is a condensate of `wavicles' enclosed in a box, where `wavicle' denotes the indefinite wave-particle status of the microscopic constituents. When it is not perturbed the crystal is in a classical-like state. The wavefunction, the internal energy and the entropy are all of them equal to zero. The thermodynamic temperature is indefinite. Perturbations via energy- and/or momentum-transfer reveal quantum effects. The temperature laws for the heat capacities of some hydrogen-bonded crystals are rationalized with superposition states depending on the quantum temperature which is crystal-dependent. Heat-transfer is a coherent anentropic process. Apart from energy conservation, the other laws of thermodynamics are irrelevant.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-11-25T10:27:39Z</published>
+    <arxiv:comment>6 pages</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>François Fillaux</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1206.2247v1</id>
+    <title>Density Functional Theory Calculations for Spin Crossover Complexes</title>
+    <updated>2012-06-11T15:08:09Z</updated>
+    <link href="https://arxiv.org/abs/1206.2247v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1206.2247v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Density functional theory (DFT) provides a theoretical framework for efficient and fairly accurate calculations of the electronic structure of molecules and crystals. The main features of density functional theory are described and DFT methods are compared with wavefunction-based methods like the Hartree-Fock approach. Some recent applications of DFT to spin crossover complexes are reviewed, e.g., the calculation of Mössbauer parameters, of vibrational modes and of differences of entropy, vibrational energy, and total electronic energy between high-spin and low-spin isomers.</summary>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-06-11T15:08:09Z</published>
+    <arxiv:primary_category term="physics.chem-ph"/>
+    <arxiv:journal_ref>Top. Curr. Chem., 2004, 235, 197-219</arxiv:journal_ref>
+    <author>
+      <name>Hauke Paulsen</name>
+    </author>
+    <author>
+      <name>Alfred Xaver Trautwein</name>
+    </author>
+    <arxiv:doi>10.1007/b95428</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/b95428" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2401.04733v1</id>
+    <title>Characteristic features of the strongly-correlated regime: Lessons from a 3-fermion one-dimensional harmonic trap</title>
+    <updated>2024-01-05T03:38:48Z</updated>
+    <link href="https://arxiv.org/abs/2401.04733v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.04733v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The transition into a strongly-correlated regime of 3 fermions trapped in a one-dimensional harmonic potential is investigated. This interesting, but little-studied system, allows us to identify characteristic features of the regime, some of which are also present in strongly-correlated materials relevant to the industry. Furthermore, our findings describe the behavior of electrons in quantum dots, ions in Paul traps, and even fermionic atoms in one-dimensional optical lattices. Near the ground state, all these platforms can be described as fermions trapped in a harmonic potential. The correlation regime can be controlled by varying the natural frequency of the trapping potential, and to probe it, we propose to use twisted light. We identify 4 signatures of strong correlation in the one-dimensional 3-fermion trap, which are likely to be present for any number N of trapped fermions: i) the ground state density is strongly localized with N maximally separated peaks (Wigner Crystal) ii) the symmetric and antisymmetric ground state wavefunctions become degenerate (bosonization) iii) the von Neumann entropy grows, iv) the energy spectrum is fully characterized by N normal modes or less.</summary>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-05T03:38:48Z</published>
+    <arxiv:comment>8 figures, 14 pages</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.quant-gas"/>
+    <author>
+      <name>Victor Caliva</name>
+    </author>
+    <author>
+      <name>Johanna I Fuks</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,91 @@
+TERMS: superconductivity, wavefunction, singularity
+COLORS: green, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/zwSQWTug7gbXUDZjIAg7Y6in5cM</id>
+  <title>arXiv Query: search_query=all:superconductivity AND all:wavefunction AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:30:55Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:superconductivity+AND+(all:wavefunction+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>8</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2503.18902v2</id>
+    <title>Variational solution of the superconducting Anderson impurity model and the band-edge singularity phenomena</title>
+    <updated>2025-06-17T10:27:56Z</updated>
+    <link href="https://arxiv.org/abs/2503.18902v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.18902v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a set of variational wavefunctions for the sub-gap spin-doublet and spin-singlet eigenstates of the particle-hole symmetric superconducting Anderson impurity model. The wavefunctions include up to two Bogoliubov quasiparticles in the continuum which is necessary to correctly capture the weak-coupling asymptotics in all parameter regimes. The eigenvalue problems reduce to solving transcendental equations. We investigate how the lowest singlet state evolves with increasing charge repulsion $U$, transitioning from a proximitized state (a superposition of empty and doubly occupied impurity orbitals, corresponding to an Andreev bound state) to a local moment that is Kondo screened by Bogoliubov quasiparticles (Yu-Shiba-Rusinov state). This change occurs for $U = 2Δ$, where $Δ$ is the BCS gap. At this point, the band-edge effects make the eigenenergy scale in a singular way as $Γ^{2/3}$, where $Γ$ is the hybridization strength. Away from this special point, regular $Γ$-linear behavior is recovered, but only for $Γ\lesssim (U/2-Δ)^2/Δ$. The singular behavior thus extends over a broad range of parameters, including those relevant for some quantum devices in current use. The singular state is an equal-superposition state with maximal fluctuations between the local impurity charge configurations. Accurately capturing the band-edge singularity requires a continuum model, and it cannot be correctly described by discrete (truncated) models such as the zero-bandwidth approximation or the superconducting atomic limit. We determine the region of parameter space where the second spin-singlet state exists: in addition to the whole $U&lt;2Δ$ ABS region, it also includes a small part of the $U&gt;2Δ$ YSR region for finite values of $Γ$, as long as some ABS wavefunction component is admixed.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-24T17:15:15Z</published>
+    <arxiv:comment>28 pages, 15 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <arxiv:journal_ref>SciPost Phys. 19, 006 (2025)</arxiv:journal_ref>
+    <author>
+      <name>Teodor Iličin</name>
+    </author>
+    <author>
+      <name>Rok Žitko</name>
+    </author>
+    <arxiv:doi>10.21468/SciPostPhys.19.1.006</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.21468/SciPostPhys.19.1.006" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1512.05069v1</id>
+    <title>Spectral properties of Dirac billiards at the van Hove singularities</title>
+    <updated>2015-12-16T07:02:31Z</updated>
+    <link href="https://arxiv.org/abs/1512.05069v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1512.05069v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study distributions of the ratios of level spacings of a rectangular and an Africa-shaped superconducting microwave resonator containing circular scatterers on a triangular grid, so-called Dirac billiards (DBs). The high-precision measurements allowed the determination of all 1651 and 1823 eigenfrequencies in the first two bands, respectively. The resonance densities are similar to that of graphene. They exhibit two sharp peaks at the van Hove singularities, that separate the band structure into regions with a linear and a quadratic dispersion relation, respectively. In their vicinity we observe rapid changes, e.g., in the wavefunction structure. Accordingly, the question arose, whether there the spectral properties are still determined by the shapes of the DBs. The commonly used statistical measures, however, are no longer applicable whereas, as demonstrated in this Letter, the ratio distributions provide most suitable ones.</summary>
+    <category term="nlin.CD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-12-16T07:02:31Z</published>
+    <arxiv:primary_category term="nlin.CD"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 116, 023901 (2016)</arxiv:journal_ref>
+    <author>
+      <name>B. Dietz</name>
+    </author>
+    <author>
+      <name>T. Klaus</name>
+    </author>
+    <author>
+      <name>M. Miski-Oglu</name>
+    </author>
+    <author>
+      <name>A. Richter</name>
+    </author>
+    <author>
+      <name>M. Wunderle</name>
+    </author>
+    <author>
+      <name>C. Bouazza</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.116.023901</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.116.023901" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0101121v2</id>
+    <title>Projected Wavefunctions and High Temperature Superconductivity</title>
+    <updated>2001-03-30T11:42:50Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0101121v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0101121v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We study the Hubbard model with parameters relevant to the cuprates, using variational Monte Carlo with projected d-wave states. For doping 0 &lt; x &lt; 0.35 we obtain a superconductor whose order parameter tracks the observed nonmonotonic Tc(x). The variational parameter Delta_{var}(x) scales with the (pi,0) ``hump'' and T* seen in photoemission. Projection leads to incoherence in the spectral function, and from the singular behavior of its moments we obtain the nodal quasiparticle weight Z which vanishes linearly in x, though the Fermi velocity remains finite as x approaches zero. The Drude weight D_{low} and superfluid density are consistent with experiments, and D_{low} scales with Z.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2001-01-09T19:01:14Z</published>
+    <arxiv:comment>4 pages, 5 EPS figures. (1) Many improvements including discussion of n(k) and superfluid density. (2) Added comparison with slave boson mean field theory. (3) Added new references</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>Arun Paramekanti</name>
+    </author>
+    <author>
+      <name>Mohit Randeria</name>
+    </author>
+    <author>
+      <name>Nandini Trivedi</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.87.217002</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.87.217002" title="doi"/>
+  </entry>
+</feed>

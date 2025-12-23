@@ -1,0 +1,70 @@
+TERMS: hydrogen, frequency, electron, boson
+COLORS: purple, green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/gewaUvVc2SUdJlTNB+4snOhVLss</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:frequency AND all:electron AND all:boson&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:43:04Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:frequency+AND+(all:electron+AND+all:boson))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1709.02817v1</id>
+    <title>Probing new spin-independent interactions through precision spectroscopy in atoms with few electrons</title>
+    <updated>2017-09-08T18:00:10Z</updated>
+    <link href="https://arxiv.org/abs/1709.02817v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1709.02817v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The very high precision of current measurements and theory predictions of spectral lines in few-electron atoms allows to efficiently probe the existence of exotic forces between electrons, neutrons and protons. We investigate the sensitivity to new spin-independent interactions in transition frequencies (and their isotopic shifts) of hydrogen, helium and some helium-like ions. We find that present data probe new regions of the force-carrier couplings to electrons and neutrons around the MeV mass range. We also find that, below few keV, the sensitivity to the electron coupling in precision spectroscopy of helium and positronium is comparable to that of the anomalous magnetic moment of the electron. Finally, we interpret our results in the dark-photon model where a new gauge boson is kinetically mixed with the photon. There, we show that helium transitions, combined with the anomalous magnetic moment of the electron, provide the strongest indirect bound from laboratory experiments above 100keV.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-09-08T18:00:10Z</published>
+    <arxiv:comment>16 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys. Rev. D 96, 115002 (2017)</arxiv:journal_ref>
+    <author>
+      <name>Cédric Delaunay</name>
+    </author>
+    <author>
+      <name>Claudia Frugiuele</name>
+    </author>
+    <author>
+      <name>Elina Fuchs</name>
+    </author>
+    <author>
+      <name>Yotam Soreq</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.96.115002</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.96.115002" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2309.03732v2</id>
+    <title>Deuterium spectroscopy for enhanced bounds on physics beyond the Standard Model</title>
+    <updated>2023-10-31T15:28:30Z</updated>
+    <link href="https://arxiv.org/abs/2309.03732v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2309.03732v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the impact of combining precision spectroscopic measurements made in atomic hydrogen with similar measurements made in atomic deuterium on the search for physics beyond the Standard Model. Specifically we consider the wide class of models that can be described by an effective Yukawa-type interaction between the nucleus and the electron. We find that it is possible to set bounds on new light-mass bosons that are orders of magnitude more sensitive than those set using a single isotope only, provided the interaction couples differently to the deuteron and proton. Further enhancements of these bounds by an order of magnitude or more would be made possible by extending the current measurements of the isotope shift of the 1s$_{1/2}$-2s$_{1/2}$ transition frequency to that of a transition between the 2s$_{1/2}$ state and a Rydberg s-state.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-09-07T14:18:34Z</published>
+    <arxiv:comment>16 pages, 9 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys. Rev. A 108, 052825 (2023)</arxiv:journal_ref>
+    <author>
+      <name>Robert M. Potvliege</name>
+    </author>
+    <author>
+      <name>Adair Nicolson</name>
+    </author>
+    <author>
+      <name>Matthew P. A. Jones</name>
+    </author>
+    <author>
+      <name>Michael Spannowsky</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.108.052825</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.108.052825" title="doi"/>
+  </entry>
+</feed>

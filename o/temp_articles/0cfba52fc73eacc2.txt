@@ -1,0 +1,34 @@
+TERMS: hydrogen, quantum, entropy, plasma
+COLORS: purple, blue, red, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/S8V3JK0DczB4PpE1RGGEilnmEkA</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:entropy AND all:plasma&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:38:33Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:entropy+AND+all:plasma))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2205.09018v1</id>
+    <title>Shell-confined atom and plasma: incidental degeneracy, metallic character and information entropy</title>
+    <updated>2022-05-18T15:54:02Z</updated>
+    <link href="https://arxiv.org/abs/2205.09018v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2205.09018v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Shell confined atom can serve as a generalized model to explain both \emph{free} and \emph{confined} condition. In this scenario, an atom is trapped inside two concentric spheres of inner $(R_{a})$ and outer $(R_{b})$ radius. The choice of $R_{a}, R_{b}$ renders four different quantum mechanical systems. In hydrogenic atom, they are termed as (a) free hydrogen atom (FHA) (b) confined hydrogen atom (CHA) (c) shell-confined hydrogen atom (SCHA) (d) left-confined hydrogen atom (LCHA). By placing $R_{a}, R_{b}$ at the location of radial nodes of respective \emph{free} $n,\ell$ states, a new kind of degeneracy may arise. At a given $n$ of FHA, there exists $\frac{n(n+1)(n+2)}{6}$ number of iso-energic states with energy $-\frac{Z^{2}}{2n^{2}}$. Furthermore, within a given $n$, the individual contribution of each of these four potentials has also been enumerated. This incidental degeneracy concept is further explored and analyzed in certain well-known \emph{plasma} (Debye and exponential cosine screened) systems. Multipole oscillator strength, $f^{(k)}$, and polarizability, $α^{(k)}$, are evaluated for (a)-(d) in some low-lying states $(k=1-4)$. In excited states, \emph{negative} polarizability is also observed. In this context, metallic behavior of H-like systems in SCHA is discussed and demonstrated. Additionally analytical closed-form expression of $f^{(k)}$ and $α^{(k)}$ are reported for $1s,2s,2p,3d,4f,5g$ states of FHA. Finally, Shannon entropy and Onicescu {\color{red}information} energies are investigated in ground state in SCHA and LCHA in both position and momentum spaces. Much of the results are reported here for first time.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-05-18T15:54:02Z</published>
+    <arxiv:comment>32 pages, 6 tables, 19 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Phys. Rev. A, 104, 042803 (2021)</arxiv:journal_ref>
+    <author>
+      <name>Neetik Mukherjee</name>
+    </author>
+    <author>
+      <name>Amlan K. Roy</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.104.042803</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.104.042803" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,75 @@
+TERMS: lattice, entropy, wavefunction
+COLORS: orange, red, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/LvIJ1pCd8a28fosjoNtmV/F1ALI</id>
+  <title>arXiv Query: search_query=all:lattice AND all:entropy AND all:wavefunction&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:13:20Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:entropy+AND+all:wavefunction)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>38</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1911.12380v3</id>
+    <title>Model wavefunctions for interfaces between lattice Laughlin states</title>
+    <updated>2020-05-06T18:00:42Z</updated>
+    <link href="https://arxiv.org/abs/1911.12380v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1911.12380v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the interfaces between lattice Laughlin states at different fillings. We propose a class of model wavefunctions for such systems constructed using conformal field theory. We find a nontrivial form of charge conservation at the interface, similar to the one encountered in the field theory works from the literature. Using Monte Carlo methods, we evaluate the correlation function and entanglement entropy at the border. Furthermore, we construct the wavefunction for quasihole excitations and evaluate their mutual statistics with respect to quasiholes originating at the same or the other side of the interface. We show that some of these excitations lose their anyonic statistics when crossing the interface, which can be interpreted as impermeability of the interface to these anyons. Contrary to most of the previous works on interfaces between topological orders, our approach is microscopic, allowing for a direct simulation of e.g. an anyon crossing the interface. Even though we determine the properties of the wavefunction numerically, the closed-form expressions allow us to study systems too large to be simulated by exact diagonalization.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-11-27T19:01:04Z</published>
+    <arxiv:comment>A number of changes were made in response to referees' comments: large parts of the text were rewritten, new results were added, some of the old results were reinterpreted, the discussion of connection to earlier works was expanded</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Phys. Rev. B 101, 245164 (2020)</arxiv:journal_ref>
+    <author>
+      <name>Błażej Jaworowski</name>
+    </author>
+    <author>
+      <name>Anne E. B. Nielsen</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.101.245164</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.101.245164" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.17211v1</id>
+    <title>Corner entanglement of a resonating valence bond wavefunction</title>
+    <updated>2024-02-27T05:04:58Z</updated>
+    <link href="https://arxiv.org/abs/2402.17211v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.17211v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We perform a quantum Monte Carlo simulation of the resonating valence bond wavefunction on a two-dimensional square lattice with periodic boundary conditions. Using two replicas of the system, we calculate the second Renyi entropy on a spatial bipartition with a square geometry. Through a finite-size scaling analysis, we extract the logarithmic correction to the area law due to the presence of the sharp corners in the entangling surface. We find that the coefficient of this logarithm is positive with a value of 0.073 for a single $90^{\circ}$ corner.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-27T05:04:58Z</published>
+    <arxiv:comment>4 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <author>
+      <name>Giacomo Torlai</name>
+    </author>
+    <author>
+      <name>Roger G. Melko</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1306.3140v1</id>
+    <title>Charmonium Potentials at Finite Temperature</title>
+    <updated>2013-06-13T15:31:03Z</updated>
+    <link href="https://arxiv.org/abs/1306.3140v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1306.3140v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The charmonium states at non-zero temperature are studied on anisotropic lattices with 2 dynamical quark flavours. Non-local operators are used to determine the Nambu-Bethe-Salpeter (NBS) wavefunctions via both conventional fitting methods and the Maximum Entropy Method. The interquark potential is determined from the solution of the Schrodinger equation, given the NBS wavefunction as input following the HAL QCD method. We observe a temperature dependent potential which becomes steeper as the temperature decreases.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-06-13T15:31:03Z</published>
+    <arxiv:comment>Talk presented at the 30th International Symposium on Lattice Field Theory - Lattice 2012, Cairns, Australia</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>PoS LATTICE2012 (2012) 082</arxiv:journal_ref>
+    <author>
+      <name>C. R. Allton</name>
+    </author>
+    <author>
+      <name>P. W. M. Evans</name>
+    </author>
+    <author>
+      <name>J. -I. Skullerud</name>
+    </author>
+  </entry>
+</feed>

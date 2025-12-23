@@ -1,0 +1,56 @@
+TERMS: wavefunction, tachyon, singularity
+COLORS: yellow, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/8fSdTxT91q5ilSXppOpH4CBv3Lg</id>
+  <title>arXiv Query: search_query=all:wavefunction AND all:tachyon AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:33:34Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:wavefunction+AND+(all:tachyon+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/hep-th/9303116v1</id>
+    <title>Matrix Models and Nonperturbative String Propagation in Two-Dimensional Black Hole Backgrounds</title>
+    <updated>1993-03-19T18:04:15Z</updated>
+    <link href="https://arxiv.org/abs/hep-th/9303116v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-th/9303116v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We identify a quantity in the $c=1$ matrix model which describes the wavefunction for physical scattering of a tachyon from a black hole of the two dimensional critical string theory. At the semiclassical level this quantity corresponds to the usual picture of a wave coming in from infinity, part of which enters the black hole becoming singular at the singularity, while the rest is scattered back to infinity, with nothing emerging from the whitehole. We find, however, that the exact nonperturbative wavefunction is nonsingular at the singularity and appears to end up in the asymptotic region ``behind'' the singularity.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1993-03-19T18:04:15Z</published>
+    <arxiv:comment>14 pages, phyzzx, EFI-93-16</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Mod.Phys.Lett.A8:1331-1342,1993</arxiv:journal_ref>
+    <author>
+      <name>Sumit R. Das</name>
+    </author>
+    <arxiv:doi>10.1142/S0217732393001069</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/S0217732393001069" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/gr-qc/0303115v3</id>
+    <title>Brane classical and quantum cosmology from an effective action</title>
+    <updated>2003-07-18T18:01:21Z</updated>
+    <link href="https://arxiv.org/abs/gr-qc/0303115v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/gr-qc/0303115v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Motivated by the Randall-Sundrum brane-world scenario, we discuss the classical and quantum dynamics of a (d+1)-dimensional boundary wall between a pair of (d+2)-dimensional topological Schwarzschild-AdS black holes. We assume there are quite general -- but not completely arbitrary -- matter fields living on the boundary ``brane universe'' and its geometry is that of an Friedmann-Lemaitre-Robertson-Walker (FLRW) model. The effective action governing the model in the mini-superspace approximation is derived. We find that the presence of black hole horizons in the bulk gives rise to a complex action for certain classically allowed brane configurations, but that the imaginary contribution plays no role in the equations of motion. Classical and instanton brane trajectories are examined in general and for special cases, and we find a subset of configuration space that is not allowed at the classical or semi-classical level; these correspond to spacelike branes carrying tachyonic matter. The Hamiltonization and Dirac quantization of the model is then performed for the general case; the latter involves the manipulation of the Hamiltonian constraint before it is transformed into an operator that annihilates physical state vectors. The ensuing covariant Wheeler-DeWitt equation is examined at the semi-classical level, and we consider the possible localization of the brane universe's wavefunction away from the cosmological singularity. This is easier to achieve for branes with low density and/or spherical spatial sections.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-03-31T16:11:37Z</published>
+    <arxiv:comment>Shortened to match version accepted by Phys. Rev. D (unabridged text found in version 2), 42 pages, 9 figures, Rextex4</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Phys.Rev. D68 (2003) 066009</arxiv:journal_ref>
+    <author>
+      <name>Sanjeev S. Seahra</name>
+    </author>
+    <author>
+      <name>H. R. Sepangi</name>
+    </author>
+    <author>
+      <name>J. Ponce de Leon</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.68.066009</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.68.066009" title="doi"/>
+  </entry>
+</feed>

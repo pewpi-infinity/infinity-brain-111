@@ -1,0 +1,81 @@
+TERMS: lattice, entropy, neutrino
+COLORS: orange, red, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/2nQHuZjVRBvl/LNhRWXzRW6CrV8</id>
+  <title>arXiv Query: search_query=all:lattice AND all:entropy AND all:neutrino&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:13:26Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:entropy+AND+all:neutrino)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>4</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1906.05312v1</id>
+    <title>Towards the nucleon hadronic tensor from lattice QCD</title>
+    <updated>2019-06-12T18:06:18Z</updated>
+    <link href="https://arxiv.org/abs/1906.05312v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1906.05312v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present the first calculation of the hadronic tensor on the lattice for the nucleon. The hadronic tensor can be used to extract the structure functions in deep inelastic scatterings and also provide information for the neutrino-nucleon scattering which is crucial to the neutrino-nucleus scattering experiments at low energies. The most challenging part in the calculation is to solve an inverse problem. We have implemented and tested three algorithms using mock data, showing that the Bayesian Reconstruction method has the best resolution in extracting peak structures while the Backus-Gilbert and Maximum Entropy methods are somewhat more stable for the flat spectral function. Numerical results are presented for both the elastic case (clover fermions on domain wall configuration with $m_π\sim$ 370 MeV and $a\sim$ 0.06 fm) and a case (anisotropic clover lattice with $m_π\sim$ 380 MeV and $a_t\sim$ 0.035 fm) with large momentum transfer. For the former case, the reconstructed Minkowski hadronic tensor gives precisely the vector charge which proves the feasibility of the approach. While for the latter case, the nucleon resonances and possibly shallow inelastic scattering contributions around $ν=1$ GeV are clearly observed but no information is obtained for higher excited states with $ν&gt;2$ GeV. A check of the effective masses of $ρ$ meson with different lattice setups indicates that, in order to reach higher energy transfers, using lattices with smaller lattice spacings is essential.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-06-12T18:06:18Z</published>
+    <arxiv:comment>22 pages, 8 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys. Rev. D 101, 114503 (2020)</arxiv:journal_ref>
+    <author>
+      <name>Jian Liang</name>
+    </author>
+    <author>
+      <name>Terrence Draper</name>
+    </author>
+    <author>
+      <name>Keh-Fei Liu</name>
+    </author>
+    <author>
+      <name>Alexander Rothkopf</name>
+    </author>
+    <author>
+      <name>Yi-Bo Yang</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.101.114503</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.101.114503" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1905.13335v4</id>
+    <title>Exact solution of multi-angle quantum many-body collective neutrino flavor oscillations</title>
+    <updated>2020-06-25T16:21:10Z</updated>
+    <link href="https://arxiv.org/abs/1905.13335v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1905.13335v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>I study the flavor evolution of a dense neutrino gas by considering vacuum contributions, matter effects and neutrino self-interactions. Assuming a system of two flavors in a uniform matter background, the time evolution of the many-body system in discretized momentum space is computed. The multi-angle neutrino-neutrino interactions are treated exactly and compared to both the single-angle approximation and mean field calculations. %The time unit chosen is $μ_0^{-1}=(\frac{G_F}{2\sqrt{2}V})^{-1}$. The mono-energetic two neutrino beam scenario is solved analytically. I proceed to solve flavor oscillations for mono-energetic cubic lattices and quadratic lattices of two energy levels. In addition I study various configurations of twelve, sixteen, and twenty neutrinos. I find that when all neutrinos are initially of the same flavor, all methods agree. When both flavors are present, I find collective oscillations and flavor equilibration develop in the many body treatment but not in the mean field method. This difference persists in dense matter with tiny mixing angle and it can be ascribed to non-negligible flavor polarization correlations being present. Entanglement entropy is significant in all such cases. The relevance for supernovae or neutron stars mergers is contingent upon the value of the normalization volume $V$ and the large $N$ dependence of the timescale associated with oscillations. In future work, I intend to study this dependence using larger lattices and also include anti-neutrinos.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-05-30T22:11:14Z</published>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys. Rev. C 101, 065805 (2020)</arxiv:journal_ref>
+    <author>
+      <name>Ermal Rrapaj</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevC.101.065805</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevC.101.065805" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2401.08551v3</id>
+    <title>Hot quark matter and merger remnants</title>
+    <updated>2025-07-28T13:44:08Z</updated>
+    <link href="https://arxiv.org/abs/2401.08551v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.08551v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This work investigates hot quark matter under the thermodynamic conditions characteristic of a binary neutron star (BNS) merger remnants. We used the density-dependent quark mass model (DDQM) to access the microscopic nuclear equation of state (EoS) in a series of snapshots. The strange quark matter (SQM) is studied at finite temperature and entropy, in the presence of electrons and muons and their corresponding neutrinos to simulate the BNS merger conditions. For the first time, we introduced temperature into the DDQM model using a lattice QCD-motivated approach to construct both isentropic and isothermal EoSs. We observe that as the entropy of the SQM increases, the merger remnant becomes more massive and increases in size, whereas the neutrino abundance also increases. In the fixed-temperature case, on the other hand, we observe that the entropy spreads from the surface towards the center of the remnant. We determine the particle distribution in the core of the remnants, the structure of the remnant, the temperature profile, sound velocity, and the polytropic index, and discuss their effects. The strange-quark star (SQS) remnants satisfy the $2\,{\rm M_\odot}$ mass constraint associated with neutron stars (NS).</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-16T18:27:35Z</published>
+    <arxiv:comment>20 pages, 8 figures, 1 table (Version accepted in European Physical Journal A (EPJA))</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Adamu Issifu</name>
+    </author>
+    <author>
+      <name>Tobias Frederico</name>
+    </author>
+  </entry>
+</feed>

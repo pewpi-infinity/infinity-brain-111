@@ -1,0 +1,81 @@
+TERMS: fusion, crystal, superconductivity
+COLORS: green, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api//Bbq/lazyVvIEXxLpYApRHPa/R4</id>
+  <title>arXiv Query: search_query=all:fusion AND all:crystal AND all:superconductivity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:20:20Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:fusion+AND+(all:crystal+AND+all:superconductivity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>5</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2506.04338v2</id>
+    <title>Magnetic field-free braiding and nontrivial fusion of Majorana bound states in high-temperature planar Josephson junctions</title>
+    <updated>2025-07-07T13:18:51Z</updated>
+    <link href="https://arxiv.org/abs/2506.04338v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.04338v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Demonstration of non-Abelian statistics of Majorana bound states (MBS) is crucial for the realization of fault-tolerant topological quantum computation. Two-dimensional platforms such as planar Josephson junctions require an in-plane magnetic field to generate a pair of MBS at its non-superconducting channel ends; however, the fixed direction of the in-plane magnetic field puts a constraint on the realization of a multi-terminal topological planar junction, and hence its ability to physically move multiple MBS -- which is necessary for performing the fusion and braiding operations. Here we show that in a planar Josephson junction coupled to a skyrmion crystal, which can generate multiple pairs of MBS in the absence of any external magnetic field, the non-trivial fusion and braiding operations can be performed. Our numerical calculations, designed for realistic two-dimensional quantum systems, certify the feasibility of experimental realization of the proposed device schemes. We find that both $s$-wave and $d$-wave superconducting leads can generate the MBS; indicating that the MBS movement operations can be performed at higher temperatures using $d$-wave superconducting leads. Our results establish that the skyrmion crystal-coupled planar Josephson junction is a viable platform for the generation and controlled movement of the MBS.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-04T18:00:23Z</published>
+    <arxiv:comment>9 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>Pankaj Sharma</name>
+    </author>
+    <author>
+      <name>Narayan Mohanta</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.13625v1</id>
+    <title>Quantifying stored energy release in irradiated YBa$_2$Cu$_3$O$_7$ through molecular dynamics annealing simulations</title>
+    <updated>2025-06-16T15:54:02Z</updated>
+    <link href="https://arxiv.org/abs/2506.13625v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.13625v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Over the lifetime of a fusion power plant, irradiation-induced defects will accumulate in the superconducting magnets compromising their ability to carry current without losses, generate high magnetic fields, and thus maintain plasma confinement. These defects also store potential energy within the crystalline lattice of materials, which can be released upon annealing. This phenomenon raises the question of whether the energy stored in defects may be sufficient to accelerate, or even trigger, a magnet quench? To provide an order of magnitude estimate, we used molecular dynamics simulations to generate defected YBCO supercells and conduct isothermal annealing simulations. Our results reveal that the maximum volumetric stored energy in a 4 mDPA defected single crystal of YBCO (240 $J/cm^3$) is 30 times greater than the experimental minimum quench energy values for YBCO tapes (8.1 $J/cm^3$). Our simulations also show that the amount of energy released increases as a function of annealing temperature or irradiation dose. This trend demonstrates that localized heating events in an irradiated fusion magnet have the potential to release significant amounts of defect energy. These findings underscore the critical need for experimental validation of the accumulation and release of defect stored energy, and highlight the importance of incorporating this contribution into quench detection systems, to enhance the operational safety of large-scale YBCO fusion magnets.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-16T15:54:02Z</published>
+    <arxiv:comment>19 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>Lauryn Kortman</name>
+    </author>
+    <author>
+      <name>Alexis Devitre</name>
+    </author>
+    <author>
+      <name>Charles Hirst</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2304.06171v1</id>
+    <title>Potential Major Improvement in Superconductors for High-Field Magnets</title>
+    <updated>2023-04-12T22:07:15Z</updated>
+    <link href="https://arxiv.org/abs/2304.06171v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2304.06171v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Fusion reactors are limited by the magnetic field available to confine their plasma. The commercial fusion industry uses the larger magnetic field and higher operating temperature of the cuprate superconductor $\mathbf{YBa_{2}Cu_{3}O_{7-δ}}$ (YBCO) in order to confine their plasma into a dense volume. A superconductor is a macroscopic quantum state that is protected from the metallic (resistive) state by an energy gap. Unfortunately, YBCO has an anisotropic gap, known as D-wave because it has the shape of a $\mathbf{d_{x^2-y^2}}$ chemical orbital. This D-wave gap means that poly-crystalline wire cannot be made because a few degree misalignment between grains in the wire leads to a drastic loss in its supercurrent carrying ability, and thereby its magnetic field limit. The superconductor industry has responded by growing nearly-single-crystal superconducting YBCO films on carefully prepared substrate tapes kilometers in length. Heroic development programs have made such tapes commercially available, but they are very expensive and delicate. MRI magnet superconductors, such as $\mathbf{NbTi}$ and $\mathbf{Nb_{3}Sn}$, are formed into poly-crystalline wires because they have an isotropic gap in the shape of an s chemical orbital (called S-wave) that makes them insensitive to grain misalignment. However, these materials are limited to lower magnetic fields and liquid-He temperatures. Here, we modified YBCO by doping the Y site with Ca and Ce atoms to form $\mathbf{(Y_{1-x-y}Ca_{x}Ce_{y})Ba_{2}Cu_{3}O_{7-δ}}$, and show evidence that it changes to an S-wave gap. Its superconducting transition temperature, $\mathbf{T_c}$, of $\mathbf{\sim 70K}$, while lower than that of D-wave YBCO at $\mathbf{\sim 90K}$, is easily maintained using common, economic cryogenic equipment.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-04-12T22:07:15Z</published>
+    <arxiv:comment>28 pages, 23 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>Jamil Tahir-Kheli</name>
+    </author>
+    <author>
+      <name>Tomas Hlasek</name>
+    </author>
+    <author>
+      <name>Michal Lojka</name>
+    </author>
+    <author>
+      <name>Michael S. Osofsky</name>
+    </author>
+    <author>
+      <name>Carver A. Mead</name>
+    </author>
+  </entry>
+</feed>

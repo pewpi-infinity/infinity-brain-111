@@ -1,0 +1,86 @@
+TERMS: quantum, boson, probability
+COLORS: blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/mcH7FR41k9l2/HBBJlER1LiKPGc</id>
+  <title>arXiv Query: search_query=all:quantum AND all:boson AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:09:07Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:boson+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>732</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2102.04579v2</id>
+    <title>Quantum machine learning with adaptive linear optics</title>
+    <updated>2021-07-02T08:29:45Z</updated>
+    <link href="https://arxiv.org/abs/2102.04579v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2102.04579v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study supervised learning algorithms in which a quantum device is used to perform a computational subroutine - either for prediction via probability estimation, or to compute a kernel via estimation of quantum states overlap. We design implementations of these quantum subroutines using Boson Sampling architectures in linear optics, supplemented by adaptive measurements. We then challenge these quantum algorithms by deriving classical simulation algorithms for the tasks of output probability estimation and overlap estimation. We obtain different classical simulability regimes for these two computational tasks in terms of the number of adaptive measurements and input photons. In both cases, our results set explicit limits to the range of parameters for which a quantum advantage can be envisaged with adaptive linear optics compared to classical machine learning algorithms: we show that the number of input photons and the number of adaptive measurements cannot be simultaneously small compared to the number of modes. Interestingly, our analysis leaves open the possibility of a near-term quantum advantage with a single adaptive measurement.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-02-08T23:56:49Z</published>
+    <arxiv:comment>16 + 5 pages, presented at AQIS2020, accepted in Quantum</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Quantum 5, 496 (2021)</arxiv:journal_ref>
+    <author>
+      <name>Ulysse Chabaud</name>
+    </author>
+    <author>
+      <name>Damian Markham</name>
+    </author>
+    <author>
+      <name>Adel Sohbi</name>
+    </author>
+    <arxiv:doi>10.22331/q-2021-07-05-496</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.22331/q-2021-07-05-496" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1910.03093v2</id>
+    <title>A robust W-state encoding for linear quantum optics</title>
+    <updated>2020-07-12T14:31:14Z</updated>
+    <link href="https://arxiv.org/abs/1910.03093v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1910.03093v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Error-detection and correction are necessary prerequisites for any scalable quantum computing architecture. Given the inevitability of unwanted physical noise in quantum systems and the propensity for errors to spread as computations proceed, computational outcomes can become substantially corrupted. This observation applies regardless of the choice of physical implementation. In the context of photonic quantum information processing, there has recently been much interest in passive linear optics quantum computing, which includes boson-sampling, as this model eliminates the highly-challenging requirements for feed-forward via fast, active control. That is, these systems are passive by definition. In usual scenarios, error detection and correction techniques are inherently active, making them incompatible with this model, arousing suspicion that physical error processes may be an insurmountable obstacle. Here we explore a photonic error-detection technique, based on W-state encoding of photonic qubits, which is entirely passive, based on post-selection, and compatible with these near-term photonic architectures of interest. We show that this W-state redundant encoding techniques enables the suppression of dephasing noise on photonic qubits via simple fan-out style operations, implemented by optical Fourier transform networks, which can be readily realised today. The protocol effectively maps dephasing noise into heralding failures, with zero failure probability in the ideal no-noise limit. We present our scheme in the context of a single photonic qubit passing through a noisy communication or quantum memory channel, which has not been generalised to the more general context of full quantum computation.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-10-07T21:11:12Z</published>
+    <arxiv:comment>Updated draft to accepted version in Quantum</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Quantum 4, 303 (2020)</arxiv:journal_ref>
+    <author>
+      <name>Madhav Krishnan Vijayan</name>
+    </author>
+    <author>
+      <name>Austin P. Lund</name>
+    </author>
+    <author>
+      <name>Peter P. Rohde</name>
+    </author>
+    <arxiv:doi>10.22331/q-2020-08-03-303</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.22331/q-2020-08-03-303" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1607.00836v2</id>
+    <title>Many-body quantum interference on hypercubes</title>
+    <updated>2016-12-16T12:09:58Z</updated>
+    <link href="https://arxiv.org/abs/1607.00836v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1607.00836v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Beyond the regime of distinguishable particles, many-body quantum interferences influence quantum transport in an intricate manner. However, symmetries of the single-particle transformation matrix alleviate this complexity and even allow the analytic formulation of suppression laws, which predict final states to occur with a vanishing probability due to total destructive interference. Here we investigate the symmetries of hypercube graphs and their generalizations with arbitrary identical subgraphs on all vertices. We find that initial many-particle states, which are invariant under self-inverse symmetries of the hypercube, lead to a large number of suppressed final states. The condition for suppression is determined solely by the initial symmetry, while the fraction of suppressed states is given by the number of independent symmetries of the initial state. Our findings reveal new insights into particle statistics for ensembles of indistinguishable bosons and fermions and may represent a first step towards many-particle quantum protocols in higher-dimensional structures.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-07-04T12:00:31Z</published>
+    <arxiv:comment>21 pages, 5 figures, accepted in Quantum Science and Technology</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Quantum Science and Technology 2, 1 (2017)</arxiv:journal_ref>
+    <author>
+      <name>Christoph Dittel</name>
+    </author>
+    <author>
+      <name>Robert Keil</name>
+    </author>
+    <author>
+      <name>Gregor Weihs</name>
+    </author>
+    <arxiv:doi>10.1088/2058-9565/aa540c</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/2058-9565/aa540c" title="doi"/>
+  </entry>
+</feed>

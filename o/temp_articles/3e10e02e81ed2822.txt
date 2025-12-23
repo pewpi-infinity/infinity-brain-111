@@ -1,0 +1,74 @@
+TERMS: entropy, boson, plasma
+COLORS: red, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/lF3DaJVSSJgMf1KhtMMN9ygZ2PM</id>
+  <title>arXiv Query: search_query=all:entropy AND all:boson AND all:plasma&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:19:19Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+(all:boson+AND+all:plasma)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>8</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2401.04493v3</id>
+    <title>Electrodynamics of superconductors: from Lorentz to Galilei at zero temperature</title>
+    <updated>2024-06-26T11:17:43Z</updated>
+    <link href="https://arxiv.org/abs/2401.04493v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.04493v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We discuss the derivation of the electrodynamics of superconductors coupled to the electromagnetic field from a Lorentz-invariant bosonic model of Cooper pairs. Our results are obtained at zero temperature where, according to the third law of thermodynamics, the entropy of the system is zero. In the nonrelativistic limit we obtain a Galilei-invariant superconducting system which differs with respect to the familiar Schrödinger-like one. From this point of view, there are similarities with the Pauli equation of fermions which is derived from the Dirac equation in the nonrelativistic limit and has a spin-magnetic field term in contrast with the Schrödinger equation. One of the peculiar effects of our model is the decay of a static electric field inside a superconductor exactly with the London penetration length. In addition, our theory predicts a modified D'Alembert equation for the massive electromagnetic field also in the case of nonrelativistic superconducting matter. We emphasize the role of the Nambu-Goldstone phase field which is crucial to obtain the collective modes of the superconducting matter field. In the special case of a nonrelativistic neutral superfluid we find a gapless Bogoliubov-like spectrum, while for the charged superfluid we obtain a dispersion relation that is gapped by the plasma frequency.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-09T11:12:54Z</published>
+    <arxiv:comment>12 pages, no figures, invited feature paper, published in Entropy (MDPI). Some typos have been corrected, i.e. a missing term has been added in some equations</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <arxiv:journal_ref>Entropy 26, 69 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Luca Salasnich</name>
+    </author>
+    <arxiv:doi>10.3390/e26010069</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/e26010069" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.10858v1</id>
+    <title>Generalized Kappa Distribution Function for Mixed Fermiom-Boson Quantum Plasmas</title>
+    <updated>2025-05-16T04:55:09Z</updated>
+    <link href="https://arxiv.org/abs/2505.10858v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.10858v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A Kappa distribution function applicable to systems comprising mixed fermions and bosons has been developed through the thermodynamic Gibbs potential utilizing the quantum versions of the Olbert kappa distributions. The generalised expressions of the partition function and the entropy have been evaluated for such mixed quantum systems. The analysis shows that boson-rich systems consistently exhibit higher entropy than fermion-rich systems. The distribution functions show heavy-tailed characteristics at low Kappa values, indicating the presence of superthermal particles. It is observed that relativistic effects lead to a significant increase in entropy.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.space-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-16T04:55:09Z</published>
+    <arxiv:comment>16 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>Aakanksha Singh</name>
+    </author>
+    <author>
+      <name>Abhisek Kumar Singh</name>
+    </author>
+    <author>
+      <name>Punit Kumar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1210.4077v1</id>
+    <title>A Gravitino-rich Universe</title>
+    <updated>2012-10-15T15:40:42Z</updated>
+    <link href="https://arxiv.org/abs/1210.4077v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1210.4077v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The gravitino may well play an important role in cosmology, not only because its interactions are Planck-suppressed and therefore long-lived, but also because it is copiously produced via various processes such as particle scatterings in thermal plasma, and (pseudo) modulus and inflaton decays. We study a possibility that the early Universe was gravitino-rich from various aspects. In particular, a viable cosmology is possible, if high-scale supersymmetry is realized in nature as suggested by the recent discovery of the standard-model like Higgs boson of mass about 125-126 GeV. We find that the Universe can be even gravitino-dominated, in which case there will be an entropy dilution by the gravitino decay. If the gravitino abundance is proportional to the reheating temperature, both the maximal baryon asymmetry in leptogenesis and the dark matter from the gravitino decay become independent of the reheating temperature. The dark matter candidate is the Wino-like neutralino, whose mass is suppressed compared to the anomaly-mediation relation.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-10-15T15:40:42Z</published>
+    <arxiv:comment>29 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Kwang Sik Jeong</name>
+    </author>
+    <author>
+      <name>Fuminobu Takahashi</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP01(2013)173</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP01(2013)173" title="doi"/>
+  </entry>
+</feed>

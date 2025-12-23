@@ -1,0 +1,70 @@
+TERMS: lattice, boson, probability
+COLORS: orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/jO8qBFz6d8FQEKh1Ib6zc4ijKt0</id>
+  <title>arXiv Query: search_query=all:lattice AND all:boson AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:16:15Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:boson+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>107</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1104.0213v1</id>
+    <title>Simulation of supersymmetric models on the lattice without a sign problem</title>
+    <updated>2011-04-01T16:21:37Z</updated>
+    <link href="https://arxiv.org/abs/1104.0213v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1104.0213v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Simulations of supersymmetric models on the lattice with (spontaneously) broken supersymmetry suffer from a fermion sign problem related to the vanishing of the Witten index. We propose a novel approach which solves this problem in low dimensions by formulating the path integral on the lattice in terms of fermion loops. The formulation is based on the exact hopping expansion of the fermionic action and allows the explicit decomposition of the partition function into bosonic and fermionic contributions. We devise a simulation algorithm which separately samples the fermionic and bosonic sectors, as well as the relative probabilities between them. The latter then allows a direct calculation of the Witten index and the corresponding Goldstino mode. Finally, we present results from simulations on the lattice for the spectrum and the Witten index for N=2 supersymmetric quantum mechanics.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-04-01T16:21:37Z</published>
+    <arxiv:comment>14 pages, 4 figures, Talks presented at the XXVIII International Symposium on Lattice Field Theory, Lattice2010, Villasimius, Italy, June 14-19, 2010</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>David Baumgartner</name>
+    </author>
+    <author>
+      <name>Urs Wenger</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1512.01612v5</id>
+    <title>The Transition Probability of the $q$-TAZRP ($q$-Bosons) with Inhomogeneous Jump Rates</title>
+    <updated>2016-04-14T04:21:55Z</updated>
+    <link href="https://arxiv.org/abs/1512.01612v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1512.01612v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we consider the $q$-deformed totally asymmetric zero range process ($q$-TAZRP), also known as the $q$-boson (stochastic) particle system, on the ${\mathbb Z}$ lattice, such that the jump rate of a particle depends on the site where it is on the lattice. We derive the transition probability for an $n$ particle process in Bethe ansatz form as a sum of $n!$ $n$-fold contour integrals. Our result generalizes the transition probability formula by Korhonen and Lee for $q$-TAZRP with a homogeneous lattice, and our method follows the same approach as theirs.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-12-05T02:36:22Z</published>
+    <arxiv:primary_category term="math.PR"/>
+    <arxiv:journal_ref>SIGMA 12 (2016), 037, 16 pages</arxiv:journal_ref>
+    <author>
+      <name>Dong Wang</name>
+    </author>
+    <author>
+      <name>David Waugh</name>
+    </author>
+    <arxiv:doi>10.3842/SIGMA.2016.037</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3842/SIGMA.2016.037" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math-ph/0103002v1</id>
+    <title>Geometric and probabilistic aspects of boson lattice models</title>
+    <updated>2001-03-03T02:17:42Z</updated>
+    <link href="https://arxiv.org/abs/math-ph/0103002v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math-ph/0103002v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  This review describes quantum systems of bosonic particles moving on a lattice. These models are relevant in statistical physics, and have natural ties with probability theory. The general setting is recalled and the main questions about phase transitions are addressed. A lattice model with Lennard-Jones potential is studied as an example of a system where first-order phase transitions occur.
+  A major interest of bosonic systems is the possibility of displaying a Bose-Einstein condensation. This is discussed in the light of the main existing rigorous result, namely its occurrence in the hard-core boson model. Finally, we consider another approach that involves the lengths of the cycles formed by the particles in the space-time representation; Bose-Einstein condensation should be related to positive probability of infinite cycles.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2001-03-03T02:17:42Z</published>
+    <arxiv:comment>22 pages, 8 figures</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <arxiv:journal_ref>Progr. Probab. 51, 363-391, Birkhäuser (2002)</arxiv:journal_ref>
+    <author>
+      <name>D. Ueltschi</name>
+    </author>
+  </entry>
+</feed>

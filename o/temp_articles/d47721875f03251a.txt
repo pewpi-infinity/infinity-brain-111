@@ -1,0 +1,91 @@
+TERMS: lattice, boson, plasma
+COLORS: orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/inxrsWYPTblEQ8uFnRJMISD5AzI</id>
+  <title>arXiv Query: search_query=all:lattice AND all:boson AND all:plasma&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:16:12Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:boson+AND+all:plasma)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>30</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1802.00524v1</id>
+    <title>Simulations of relativistic-quantum plasmas using real-time lattice scalar QED</title>
+    <updated>2018-02-02T00:47:08Z</updated>
+    <link href="https://arxiv.org/abs/1802.00524v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1802.00524v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Real-time lattice quantum electrodynamics (QED) provides a unique tool for simulating plasmas in the strong-field regime, where collective plasma scales are not well-separated from relativistic-quantum scales. As a toy model, we study scalar QED, which describes self-consistent interactions between charged bosons and electromagnetic fields. To solve this model on a computer, we first discretize the scalar-QED action on a lattice, in a way that respects geometric structures of exterior calculus and U(1)-gauge symmetry. The lattice scalar QED can then be solved, in the classical-statistics regime, by advancing an ensemble of statistically equivalent initial conditions in time, using classical field equations obtained by extremizing the discrete action. To demonstrate the capability of our numerical scheme, we apply it to two example problems. The first example is the propagation of linear waves, where we recover analytic wave dispersion relations using numerical spectrum. The second example is an intense laser interacting with a 1D plasma slab, where we demonstrate natural transition from wakefield acceleration to pair production when the wave amplitude exceeds the Schwinger threshold. Our real-time lattice scheme is fully explicit and respects local conservation laws, making it reliable for long-time dynamics. The algorithm is readily parallelized using domain decomposition, and the ensemble may be computed using quantum parallelism in the future.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-02-02T00:47:08Z</published>
+    <arxiv:comment>12 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <arxiv:journal_ref>Phys. Rev. E 97, 053206 (2018)</arxiv:journal_ref>
+    <author>
+      <name>Yuan Shi</name>
+    </author>
+    <author>
+      <name>Jianyuan Xiao</name>
+    </author>
+    <author>
+      <name>Hong Qin</name>
+    </author>
+    <author>
+      <name>Nathaniel J. Fisch</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevE.97.053206</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevE.97.053206" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2205.14015v3</id>
+    <title>Coherent Plasma in a Lattice</title>
+    <updated>2022-11-12T20:02:09Z</updated>
+    <link href="https://arxiv.org/abs/2205.14015v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2205.14015v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a fully second-quantized calculation showing the emergence of spontaneous coherent configurations of the electromagnetic field in interaction with charged bosons in a regular lattice. The bosons tend to oscillate at their plasma frequency, but are also subjected to electrostatic forces which keep them confined close to lattice sites and cause a frequency shift in the oscillation. Under certain conditions on these frequencies, we find that a suitably defined set of coherent states (coherent both in the field and matter degrees of freedom) exhibit a negative energy gap with respect to the perturbative ground state. This is true in the RWA approximation and for position-independent fields, both to first and second order in the interaction Hamiltonian. We compare this result with other recent findings from cavity QED and notice that: (1) consideration of full 3D wavefunctions and a careful definition of the coherent states are essential for obtaining the energy gap; (2) although our calculation is referred to bosons, it may also apply to protons bound in a crystal matrix, if their density is very low compared to the density of available states.</summary>
+    <category term="physics.gen-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-05-06T20:28:58Z</published>
+    <arxiv:comment>25 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.gen-ph"/>
+    <arxiv:journal_ref>Symmetry 2023, 15(2), 454</arxiv:journal_ref>
+    <author>
+      <name>L. Gamberale</name>
+    </author>
+    <author>
+      <name>G. Modanese</name>
+    </author>
+    <arxiv:doi>10.3390/sym15020454</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/sym15020454" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-lat/9601016v2</id>
+    <title>Numerical tests of the electroweak phase transition and thermodynamics of the electroweak plasma</title>
+    <updated>1996-05-10T13:52:18Z</updated>
+    <link href="https://arxiv.org/abs/hep-lat/9601016v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-lat/9601016v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The finite temperature phase transition in the SU(2) Higgs model at a Higgs boson mass $M_H \simeq 34$ GeV is studied in numerical simulations on four-dimensional lattices with time-like extensions up to $L_t=5$. The effects of the finite volume and finite lattice spacing on masses and couplings are studied in detail. The errors due to uncertainties in the critical hopping parameter are estimated. The thermodynamics of the electroweak plasma near the phase transition is investigated by determining the relation between energy density and pressure.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1996-01-25T10:14:07Z</published>
+    <arxiv:comment>latex2e, 32 pages, 11 figures with epsfig; A few comments and a new table are added</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>Nucl.Phys. B474 (1996) 421-445</arxiv:journal_ref>
+    <author>
+      <name>F. Csikor</name>
+    </author>
+    <author>
+      <name>Z. Fodor</name>
+    </author>
+    <author>
+      <name>J. Hein</name>
+    </author>
+    <author>
+      <name>A. Jaster</name>
+    </author>
+    <author>
+      <name>I. Montvay</name>
+    </author>
+    <arxiv:doi>10.1016/0550-3213(96)00285-4</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/0550-3213(96)00285-4" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,97 @@
+TERMS: lattice, entropy, bandgap
+COLORS: orange, red, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/sY4MLTk4HLtgezx/NhyyzdIQm/0</id>
+  <title>arXiv Query: search_query=all:lattice AND all:entropy AND all:bandgap&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:13:28Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:entropy+AND+all:bandgap)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>4</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2204.04608v1</id>
+    <title>A First-Principles Study on Electronic, Thermodynamic, and Dielectric Properties of Monolayer Ca(OH)2 and Mg(OH)2</title>
+    <updated>2022-04-10T05:35:10Z</updated>
+    <link href="https://arxiv.org/abs/2204.04608v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2204.04608v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We perform first-principles calculations to explore electronic, thermodynamic, and dielectric properties of two-dimensional (2D) layered, alkaline-earth hydroxides Ca(OH)2 and Mg(OH)2. We calculate the lattice parameters, exfoliation energies, and phonon spectra of monolayers and also investigate the thermal properties of these monolayers such as Helmholtz free energy, heat capacity at constant volume, and entropy as a function of temperature. We employ Density Functional Perturbation Theory (DFPT) to calculate the in-plane and out-of-plane static dielectric constant of the bulk and monolayer samples. We compute the bandgap and electron affinity values using the HSE06 functional and estimate the leakage current density of transistors with monolayer Ca(OH)2 and Mg(OH)2 as dielectrics when combined with HfS2 and WS2, respectively. Our results show that bilayer Mg(OH)2 (EOT ~ 0.60 nm) with a lower solubility in water, offers higher out-of-plane dielectric constants and lower leakage currents than bilayer Ca(OH)2 (EOT ~ 0.56 nm). Additionally, the out-of-plane dielectric constant, leakage current, and EOT of Mg(OH)2 outperform bilayer h-BN. We verify the applicability of Anderson's rule and conclude that bilayers of Ca(OH)2 and Mg(OH)2 respectively paired with lattice-matched monolayer HfS2 and WS2 are effective structural combinations that could lead to the development of innovative multi-functional Field Effect Transistors (FETs).</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-04-10T05:35:10Z</published>
+    <arxiv:comment>25 pages, 5 figures, 3 tables</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Mehrdad Rostami Osanloo</name>
+    </author>
+    <author>
+      <name>Kolade A. Oyekan</name>
+    </author>
+    <author>
+      <name>William G. Vandenberghe</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.04101v1</id>
+    <title>Unveiling prethermalization and thermal processes through the simplest one-dimensional topological model</title>
+    <updated>2025-07-05T17:02:33Z</updated>
+    <link href="https://arxiv.org/abs/2507.04101v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.04101v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Drawing on classical thermodynamic principles-such as the equipartition of energy and entropy maximization-extensive research has shown that the evolution of optical power in multimode optical systems tends toward a Rayleigh-Jeans distribution at thermal equilibrium. Understanding of the processes associated with the thermalization dynamics are of fundamental importance in analyzing and controlling such complex systems. In this work, we utilize a one-dimensional Su-Schrieffer-Heeger lattice as the simplest topological model to investigate the thermalization process of multiband systems in both topologically trivial and nontrivial regimes. Specifically, we identify that thermalization develops in three stages: (i) out-of-equilibrium dynamics, (ii) prethermal stage and (iii) final thermalization. Each individual band constitutes a subsystem that prethermalizes to the Rayleigh-Jeans distribution predicted from its power and internal energy. We find that this leads to a continuously varying prethermalization that eventually relaxes to the final thermal state (a dynamically evolving prethermal state). The presence of topological edge states can accelerate the thermalization process, although prethermal states exist both in the topologically trivial and nontrivial regimes. Factors such as bandgap width, temperature and nonlinearity that can influence the thermalization dynamics are examined in detail. Our work may offer valuable physical insights into understanding and controlling the thermalization process in multiband optical systems, paving the way for more efficient manipulation of light in complex settings.</summary>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-05T17:02:33Z</published>
+    <arxiv:comment>14 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.optics"/>
+    <author>
+      <name>Guowen Yang</name>
+    </author>
+    <author>
+      <name>Jiale Wang</name>
+    </author>
+    <author>
+      <name>Yichuan Chen</name>
+    </author>
+    <author>
+      <name>Limin Song</name>
+    </author>
+    <author>
+      <name>Shiqi Xia</name>
+    </author>
+    <author>
+      <name>Daohong Song</name>
+    </author>
+    <author>
+      <name>Zhigang Chen</name>
+    </author>
+    <author>
+      <name>Nikolaos K. Efremidis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.04088v2</id>
+    <title>Self-Assembled Chiral Photonic Crystals From Colloidal Helices Racemate</title>
+    <updated>2018-06-09T09:01:57Z</updated>
+    <link href="https://arxiv.org/abs/1710.04088v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1710.04088v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Chiral crystals consisting of micro-helices have many optical properties while presently available fabrication processes limit their large-scale applications in photonic devices. Here, by using a simplified simulation method, we investigate a bottom-up self-assembly route to build up helical crystals from the smectic monolayer of colloidal helices racemate. With increasing the density, the system undergoes an entropy-driven co-crystallization by forming crystals of various symmetries with different helical shapes. In particular, we identify two crystals of helices arranged in the binary honeycomb and square lattices, which are essentially composed by two sets of opposite-handed chiral crystal. Photonic calculations show that these chiral structures can have large complete photonic bandgaps. In addition, in the self-assembled chiral square crystal, we also find dual polarization bandgaps that selectively forbid the propagation of circularly polarized lights of a specific handedness along the helical axis direction. The self-assembly process in our proposed system is robust, suggesting possibilities of using chiral colloids to assemble photonic metamaterials.</summary>
+    <category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-10-11T14:29:44Z</published>
+    <arxiv:comment>Accepted in ACS Nano</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.soft"/>
+    <author>
+      <name>Qun-li Lei</name>
+    </author>
+    <author>
+      <name>Ran Ni</name>
+    </author>
+    <author>
+      <name>Yu-qiang Ma</name>
+    </author>
+    <arxiv:doi>10.1021/acsnano.8b02116</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1021/acsnano.8b02116" title="doi"/>
+  </entry>
+</feed>

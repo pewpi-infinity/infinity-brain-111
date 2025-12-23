@@ -1,0 +1,94 @@
+TERMS: frequency, lattice, muon
+COLORS: green, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Hdl9PmZCYJaU7qTqc1pTvZBX8gE</id>
+  <title>arXiv Query: search_query=all:frequency AND all:lattice AND all:muon&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:09:43Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:lattice+AND+all:muon)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>21</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2001.08783v1</id>
+    <title>Frequency-splitting estimators for single-propagator traces</title>
+    <updated>2020-01-23T19:47:52Z</updated>
+    <link href="https://arxiv.org/abs/2001.08783v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2001.08783v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In these proceedings we address the computation of quark-line disconnected diagrams in lattice QCD. The evaluation of these diagrams is required for many phenomenologically interesting observables, but suffers from large statistical errors due to the vacuum and random-noise contributions to their variances. Motivated by a theoretical analysis of the variances, we introduce a new family of stochastic estimators of single-propagator traces built upon a frequency splitting combined with a hopping expansion of the quark propagator, and test their efficiency in two-flavour QCD with pions as light as 190 MeV. The use of these estimators reduces the cost of the computation by one to two orders of magnitude over standard estimators depending on the fermion bilinear. As a concrete application, we show the impact of these findings on the computation of the hadronic vacuum polarization contribution to the muon anomalous magnetic moment.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-01-23T19:47:52Z</published>
+    <arxiv:comment>7 pages, 4 figures; Proceedings of the 37th annual International Symposium on Lattice Field Theory (Lattice 2019), 16-22 June 2019, Wuhan, China</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Leonardo Giusti</name>
+    </author>
+    <author>
+      <name>Tim Harris</name>
+    </author>
+    <author>
+      <name>Alessandro Nada</name>
+    </author>
+    <author>
+      <name>Stefan Schaefer</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1604.04565v1</id>
+    <title>Novel magnetism on a honeycomb lattice in a-RuCl3 studied by muon spin rotation</title>
+    <updated>2016-04-15T16:44:52Z</updated>
+    <link href="https://arxiv.org/abs/1604.04565v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1604.04565v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Muon spin rotation measurements have been performed on a powder sample of a-RuCl3, a layered material which previously has been proposed to be a quantum magnet on a honeycomb lattice close to a quantum spin liquid ground state. Our data reveal two distinct phase transitions at 11 K and 14 K which we interpret as originating from the onset of three-dimensional order and in-plane magnetic order, respectively. We identify, with the help of density functional theory calculations, likely muon stopping sites and combine these with dipolar field calculations to show that the two measured muon rotation frequencies are consistent with two inequivalent muon sites within a zig-zag antiferromagnetic structure proposed previously.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-04-15T16:44:52Z</published>
+    <arxiv:comment>5 pages, 5 figures, plus Supplemental Information</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Phys. Rev. B 94, 020407 (2016)</arxiv:journal_ref>
+    <author>
+      <name>F. Lang</name>
+    </author>
+    <author>
+      <name>P. J. Baker</name>
+    </author>
+    <author>
+      <name>A. A. Haghighirad</name>
+    </author>
+    <author>
+      <name>Y. Li</name>
+    </author>
+    <author>
+      <name>D. Prabhakaran</name>
+    </author>
+    <author>
+      <name>R. Valenti</name>
+    </author>
+    <author>
+      <name>S. J. Blundell</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.94.020407</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.94.020407" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.19281v4</id>
+    <title>Distinguishing Ion Dynamics from Muon diffusion in Muon Spin Relaxation</title>
+    <updated>2024-03-08T23:49:29Z</updated>
+    <link href="https://arxiv.org/abs/2310.19281v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.19281v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a model to describe the fluctuations in the internal magnetic field due to ion dynamics observed in the muon spin relaxation ($μ$SR) by an Edwards-Anderson type autocorrelation function that separates the quasi-static and dynamic components of the correlation by a parameter $Q$ (where $0\le Q\le1$). Our Monte Carlo simulations for this model showed that the time evolution of muon spin polarization deviates significantly from the Kubo-Toyabe (KT) function. To further validate the model, the results of simulations were compared with the $μ$SR spectra observed in a hybrid organic-inorganic perovskite FAPbI$_3$ [with FA referring to HC(NH$_2)_2$], where local field fluctuations associated with the rotational motion of FA molecules and quasi-static fields from the PbI$_3$ lattice are presumed to coexist. The least-squares curve fitting showed reasonable agreement with the model with $Q=0.947(3)$, and the fluctuation frequency of the dynamical component was obtained. This result opens the door to the possibility of experimentally distinguishing fluctuations due to dynamics of ions around muons from those due to self-diffusion of muons. Meanwhile, it suggests the need to carefully consider the spin relaxation function when applying $μ$SR to the issue of ion dynamics.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-30T05:38:37Z</published>
+    <arxiv:comment>7 pages, 4 figures, Supplemental Material available at the JPSJ site</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>J. Phys. Soc. Jpn. 93, 044602 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Takashi U. Ito</name>
+    </author>
+    <author>
+      <name>Ryosuke Kadono</name>
+    </author>
+    <arxiv:doi>10.7566/JPSJ.93.044602</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.7566/JPSJ.93.044602" title="doi"/>
+  </entry>
+</feed>

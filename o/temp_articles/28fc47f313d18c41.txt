@@ -1,0 +1,82 @@
+TERMS: hydrogen, electron, vapor
+COLORS: purple, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/KFQmHaHBU+7w7YTHTiiuJcLstSE</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:electron AND all:vapor&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:02:57Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:electron+AND+all:vapor)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>45</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1311.5239v1</id>
+    <title>General aspects of the vapor growth of semiconductor crystals - a study based on DFT simulations of the NH3/NH2 covered GaN(0001) surface in hydrogen ambient</title>
+    <updated>2013-11-19T17:36:14Z</updated>
+    <link href="https://arxiv.org/abs/1311.5239v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1311.5239v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Vapor growth of semiconductors is analyzed using recently obtained dependence of the adsorption energy on the electron charge transfer between the surface adsorbed species and the bulk [Krukowski et al. J. Appl. Phys. 114 (2013) 063507, Kempisty et al. ArXiv 1307.5778 (2013)]. Ab initio calculations were performed to study the physical properties of GaN(0001) surface in ammonia-rich conditions, i.e. covered by mixture of NH3 molecules and NH2 radicals. The Fermi level is pinned at valence band maximum (VBM) and conduction band minimum (CBM) for full coverage by NH3 molecules and NH2 radicals, respectively. For the crossover content of ammonia of about 25% monolayer (ML), the Fermi level is unpinned. It was shown that hydrogen adsorption energy depends on the doping in the bulk for the unpinned Fermi level, i.e. for this coverage. Surface structure thermodynamic and mechanical stability criteria are defined and compared. Mechanical stability of the coverage of such surfaces was checked by determination of the desorption energy of hydrogen molecules. Thermodynamic stability analysis indicates that initally equilibrium hydrogen vapor partial pressure steeply increases with NH3 content to attain the crossover NH3/NH2 coverage, i.e. the unpinned Fermi level condition. For such condition the entire range of experimentally accessible pressures belongs showing that vapor growth of semiconductor crystals occurs predominantly for unpinned Fermi level at the surface, i.e. for flat bands. Accordingly, adsorption energy of most species depends on the doping in the bulk that is basis of the possible molecular scenario explaining dependence of the growth and the doping of semiconductor crystals on the doping in the bulk</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-11-19T17:36:14Z</published>
+    <arxiv:comment>20 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>Journal of Crystal Growth - 15 March 2014; 390: 71-9</arxiv:journal_ref>
+    <author>
+      <name>Pawel Kempisty</name>
+    </author>
+    <author>
+      <name>Pawel Strak</name>
+    </author>
+    <author>
+      <name>Konrad Sakowski</name>
+    </author>
+    <author>
+      <name>Stanislaw Krukowski</name>
+    </author>
+    <arxiv:doi>10.1016/j.jcrysgro.2013.12.039</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.jcrysgro.2013.12.039" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1603.02918v2</id>
+    <title>Extent of hydrogen coverage of Si(001) under chemical vapor deposition conditions from ab initio approaches</title>
+    <updated>2016-03-10T08:20:44Z</updated>
+    <link href="https://arxiv.org/abs/1603.02918v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1603.02918v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The extent of hydrogen coverage of the Si(001)c(4x2) surface in the presence of hydrogen gas has been studied with dispersion corrected density functional theory. Electronic energy contributions are well described using a hybrid functional. The temperature dependence of the coverage in thermodynamic equilibrium was studied computing the phonon spectrum in a supercell approach. As an approximation to these demanding computations, an interpolated phonon approach was found to give comparable accuracy. The simpler ab initio thermodynamic approach is not accurate enough for the system studied, even if corrections by the Einstein model for surface vibrations are considered. The on-set of H2 desorption from the fully hydrogenated surface is predicted to occur at temperatures around 750 K. Strong changes in hydrogen coverage are found between 1000 and 1200 K in good agreement with previous reflectance anisotropy spectroscopy experiments. These findings allow a rational choice for the surface state in the computational treatment of chemical reactions under typical metal organic vapor phase epitaxy conditions on Si(001).</summary>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-03-09T15:24:39Z</published>
+    <arxiv:primary_category term="physics.chem-ph"/>
+    <author>
+      <name>Phil Rosenow</name>
+    </author>
+    <author>
+      <name>Ralf Tonner</name>
+    </author>
+    <arxiv:doi>10.1063/1.4952603</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/1.4952603" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0009360v1</id>
+    <title>Electric field induced strong localization of electrons on solid hydrogen surface: possible applications to quantum computing</title>
+    <updated>2000-09-22T17:47:52Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0009360v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0009360v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Two-dimensional electron system on the liquid helium surface is one of the leading candidates for constructing large analog quantum computers (P.M. Platzman and M.I. Dykman, Science 284, 1967 (1999)). Similar electron systems on the surfaces of solid hydrogen or solid neon may have some important advantages with respect to electrons on liquid helium in quantum computing applications, such as larger state separation $ΔE$, absence of propagating capillary waves (or ripplons), smaller vapor pressure, etc. As a result, it may operate at higher temperatures. Surface roughness is the main hurdle to overcome in building a realistic quantum computer using these states. Electric field induced strong localization of surface electrons is shown to be a convenient tool to characterize surface roughness.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2000-09-22T17:47:52Z</published>
+    <arxiv:comment>4 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>International Journal of Modern Physics B, 15, 2075-2106 (2001)</arxiv:journal_ref>
+    <author>
+      <name>Igor I. Smolyaninov</name>
+    </author>
+    <author>
+      <name>Vitaliy V. Zavyalov</name>
+    </author>
+    <arxiv:doi>10.1142/S0217979201004812</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/S0217979201004812" title="doi"/>
+  </entry>
+</feed>

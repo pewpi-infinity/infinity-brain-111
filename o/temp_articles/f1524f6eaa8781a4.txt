@@ -1,0 +1,89 @@
+TERMS: vapor, neutrino, vacuum
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/hlYK8i7XvNFoATymFXxfiF40Xcg</id>
+  <title>arXiv Query: search_query=all:vapor AND all:neutrino AND all:vacuum&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:26:52Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:vapor+AND+(all:neutrino+AND+all:vacuum)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>3</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/nucl-ex/0305022v2</id>
+    <title>Measurement of 222Rn dissolved in water at the Sudbury Neutrino Observatory</title>
+    <updated>2003-12-10T21:58:05Z</updated>
+    <link href="https://arxiv.org/abs/nucl-ex/0305022v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/nucl-ex/0305022v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The technique used at the Sudbury Neutrino Observatory (SNO) to measure the concentration of 222Rn in water is described. Water from the SNO detector is passed through a vacuum degasser (in the light water system) or a membrane contact degasser (in the heavy water system) where dissolved gases, including radon, are liberated. The degasser is connected to a vacuum system which collects the radon on a cold trap and removes most other gases, such as water vapor and nitrogen. After roughly 0.5 tonnes of H2O or 6 tonnes of D2O have been sampled, the accumulated radon is transferred to a Lucas cell. The cell is mounted on a photomultiplier tube which detects the alpha particles from the decay of 222Rn and its daughters. The overall degassing and concentration efficiency is about 38% and the single-alpha counting efficiency is approximately 75%. The sensitivity of the radon assay system for D2O is equivalent to ~3 E(-15) g U/g water. The radon concentration in both the H2O and D2O is sufficiently low that the rate of background events from U-chain elements is a small fraction of the interaction rate of solar neutrinos by the neutral current reaction.</summary>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-05-22T20:38:02Z</published>
+    <arxiv:comment>14 pages, 6 figures; v2 has very minor changes</arxiv:comment>
+    <arxiv:primary_category term="nucl-ex"/>
+    <arxiv:journal_ref>Nucl.Instrum.Meth. A517 (2004) 139-153</arxiv:journal_ref>
+    <author>
+      <name>I. Blevis</name>
+    </author>
+    <arxiv:doi>10.1016/j.nima.2003.10.103</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.nima.2003.10.103" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1911.08897v2</id>
+    <title>Spin coating TPB film on acrylics and measurement of its wavelength shifting efficiency</title>
+    <updated>2020-02-28T11:43:58Z</updated>
+    <link href="https://arxiv.org/abs/1911.08897v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1911.08897v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Scintillation light from liquid noble gas in a neutrino or dark matter experiment lies typically within the vacuum ultraviolet (VUV) region and might be strongly absorbed by surrounding materials such as light guides or photomultiplier. Tetraphenyl butadiene (TPB) is a fluorescent material and acts as a wavelength shifter (WLS) which can turn the UV light to the visible light around a peak wavelength of 425 nm, enabling the light signals to be detected easily for physics study. Compared with a traditional TPB coating method using vapor deposition, we propose an alternative technique with a spin coating procedure in order to facilitate the development of neutrino and dark matter detectors. This article introduces how to fabricate the TPB film on acrylics using the spin coating method, reports measurement of sample film thickness and roughness, shows the reemission spectrum, and quantifies the wavelength shifting efficiency (WLSE).</summary>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-11-19T15:50:44Z</published>
+    <arxiv:comment>8 pages, 8 figures and 4 tables</arxiv:comment>
+    <arxiv:primary_category term="physics.ins-det"/>
+    <arxiv:journal_ref>Nucl.Sci.Tech. 31, 28(2020)</arxiv:journal_ref>
+    <author>
+      <name>Hang Yang</name>
+    </author>
+    <author>
+      <name>Zi-Feng Xu</name>
+    </author>
+    <author>
+      <name>Jian Tang</name>
+    </author>
+    <author>
+      <name>Yi Zhang</name>
+    </author>
+    <arxiv:doi>10.1007/s41365-020-0737-5</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s41365-020-0737-5" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0809.1633v1</id>
+    <title>rf Breakdown with and without External Magnetic Fields</title>
+    <updated>2008-09-09T18:57:28Z</updated>
+    <link href="https://arxiv.org/abs/0809.1633v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0809.1633v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Neutrino Factories and Muon Colliders' cooling lattices require both high gradient rf and strong focusing solenoids. Experiments have shown that there may be serious problems operating rf in the required magnetic fields. The use of high pressure gas to avoid these problems is discussed, including possible loss problems from electron and ion production by the passage of an ionizing beam. It is also noted that high pressure gas cannot be used in later stages of cooling for a muon collider. Experimental observations using vacuum rf cavities in magnetic fields are discussed, current published models of breakdown with and without magnetic fields are summarized, and some of their predictions compared with observations.
+  A new theory of magnetic field dependent breakdown is presented. It is proposed that electrons emitted by field emission on asperities on one side of a cavity are focused by the magnetic field to the other side where they melt the cavity surface in small spots. Metal is then electrostatically drawn from the molten spots, becomes vaporized and ionized by field emission from the remaining damage and cause breakdown. The theory is fitted to existing 805 MHz data and predictions are made for performance at 201 MHz. The model predicts breakdown gradients significantly below those specified for either the International Scoping Study (ISS) Neutrino Factory or a Muon Collider.
+  Possible solutions to these problems are discussed, including designs for `magnetically insulated rf' in which the cavity walls are designed to be parallel to a chosen magnetic field contour line and consequently damage from field emission is suppressed. An experimental program to study these problems and their possible solution is outlined.</summary>
+    <category term="physics.acc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-09-09T18:57:28Z</published>
+    <arxiv:comment>16 pages, 21 figures, 2 tables</arxiv:comment>
+    <arxiv:primary_category term="physics.acc-ph"/>
+    <author>
+      <name>Robert B. Palmer</name>
+    </author>
+    <author>
+      <name>Richard C. Fernow</name>
+    </author>
+    <author>
+      <name>Juan C. Gallardo</name>
+    </author>
+    <author>
+      <name>Diktys Stratakis</name>
+    </author>
+    <author>
+      <name>Derun Li</name>
+    </author>
+  </entry>
+</feed>

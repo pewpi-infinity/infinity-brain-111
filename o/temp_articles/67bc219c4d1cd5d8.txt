@@ -1,0 +1,43 @@
+TERMS: hydrogen, quantum, vapor, graphene
+COLORS: purple, blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/5vUgT7gKuNXfSj/YxxH6+jC4hcw</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:vapor AND all:graphene&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:39:20Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:vapor+AND+all:graphene))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2509.22882v1</id>
+    <title>Robust quantum Hall resistance standard from uniform wafer-scale epitaxial graphene on SiC</title>
+    <updated>2025-09-26T19:58:10Z</updated>
+    <link href="https://arxiv.org/abs/2509.22882v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.22882v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We report high-precision resistance measurements on quantum Hall resistance devices fabricated from uniform epitaxial graphene grown by propane-hydrogen chemical vapor deposition on a two-inch silicon carbide substrate. Through molecular doping, we achieve a low carrier density regime ($n_\mathrm s &lt; $ 1.5 \textperiodcentered 10$^{11}$ cm$^{-2}$) combined with high mobility ($\upmu \geq$ 6000 cm$^2$ V$^{-1}$ s$^{-1}$) at low temperature. Accurate quantization of the Hall resistance is demonstrated at magnetic flux densities as low as 3.5 T, temperatures up to 8 K, and measurement currents up to 325 $\upmu$A, with relative measurement uncertainties of a few parts per billion. A stability diagram mapping dissipation as a function of temperature and current provides insight into optimal doping conditions that maximize the breakdown current. All measurements were carried out in a pulse-tube-based cryomagnetic system, enabling simplified and continuous operation of the quantum Hall resistance standard without liquid helium consumption.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-26T19:58:10Z</published>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>François Couëdo</name>
+    </author>
+    <author>
+      <name>Chiara Mastropasqua</name>
+    </author>
+    <author>
+      <name>Aurélien Theret</name>
+    </author>
+    <author>
+      <name>Dominique Mailly</name>
+    </author>
+    <author>
+      <name>Adrien Michon</name>
+    </author>
+    <author>
+      <name>Mathieu Taupin</name>
+    </author>
+  </entry>
+</feed>

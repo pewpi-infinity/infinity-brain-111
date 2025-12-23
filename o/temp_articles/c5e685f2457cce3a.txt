@@ -1,0 +1,101 @@
+TERMS: entropy, wavefunction
+COLORS: red, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/N4CEXwX7i2e1EUX9LL84Ieeblwc</id>
+  <title>arXiv Query: search_query=all:entropy AND all:wavefunction&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T00:57:54Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+all:wavefunction&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>282</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1608.00145v2</id>
+    <title>Inspecting non-perturbative contributions to the Entanglement Entropy via wavefunctions</title>
+    <updated>2017-12-05T03:52:03Z</updated>
+    <link href="https://arxiv.org/abs/1608.00145v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1608.00145v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we would like to systematically explore the implications of non-perturbative effects on entanglement in a many body system. Instead of pursuing the usual path-integral method in a singular space, we attempt to study the wavefunctions in detail. We begin with a toy model of multiple particles whose interaction potential admits multiple minima. We study the entanglement of the true ground state after taking the tunnelling effects into account and find some simple patterns. Notably, in the case of multiple particle interactions, entanglement entropy generically decreases with increasing number of minima. The knowledge of the subsystem actually increases with the number of minima. The reduced density matrix can also be seen to have close connections with graph spectra. In a more careful study of the two-well tunnelling system, we also extract the exponentially suppressed tail contribution, the analogues of instantons. To understand the effects of multiple minima in a field theory, it inspires us to inspect wavefunctions in a toy model of bosonic field describing quasi-particles of two different condensates related by Bogoliubov transformations. We find that the area law is naturally preserved. This is probably a useful set of perspectives that promise wider applications.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-07-30T16:50:44Z</published>
+    <arxiv:comment>32 pages, 4 figures, current version accepted by Entropy</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Entropy 2017, 19(12), 671</arxiv:journal_ref>
+    <author>
+      <name>Arpan Bhattacharyya</name>
+    </author>
+    <author>
+      <name>Ling-Yan Hung</name>
+    </author>
+    <author>
+      <name>P. H. C. Lau</name>
+    </author>
+    <author>
+      <name>Si-Nong Liu</name>
+    </author>
+    <arxiv:doi>10.3390/e19120671</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/e19120671" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.08284v1</id>
+    <title>Multi wavefunction overlap and multi entropy for topological ground states in (2+1) dimensions</title>
+    <updated>2024-10-10T18:12:03Z</updated>
+    <link href="https://arxiv.org/abs/2410.08284v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.08284v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Multi-wavefunction overlaps -- generalizations of the quantum mechanical inner product for more than two quantum many-body states -- are valuable tools for studying many-body physics. In this paper, we investigate the multi-wavefunction overlap of (2+1)-dimensional gapped ground states, focusing particularly on symmetry-protected topological (SPT) states. We demonstrate how these overlaps can be calculated using the bulk-boundary correspondence and (1+1)-dimensional edge theories, specifically conformal field theory. When applied to SPT phases, we show that the topological invariants, which can be thought of as discrete higher Berry phases, can be extracted from the multi-wavefunction overlap of four ground states with appropriate symmetry actions. Additionally, we find that the multi-wavefunction overlap can be expressed in terms of the realignment of reduced density matrices. Furthermore, we illustrate that the same technique can be used to evaluate the multi-entropy -- a quantum information theoretical quantity associated with multi-partition of many-body quantum states -- for (2+1)-dimensional gapped ground states. Combined with numerics, we show that the difference between multi-entropy for tripartition and second Rényi entropies is bounded from below by $(c_{\it tot}/4)\ln 2$ where $c_{\it tot}$ is the central charge of ungappable degrees of freedom. To calculate multi-entropy numerically for free fermion systems (such as Chern insulators), we develop the correlator method for multi-entropy.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-10T18:12:03Z</published>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <author>
+      <name>Bowei Liu</name>
+    </author>
+    <author>
+      <name>Junjia Zhang</name>
+    </author>
+    <author>
+      <name>Shuhei Ohyama</name>
+    </author>
+    <author>
+      <name>Yuya Kusuki</name>
+    </author>
+    <author>
+      <name>Shinsei Ryu</name>
+    </author>
+    <arxiv:doi>10.1103/tjcf-yryh</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/tjcf-yryh" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2011.09095v3</id>
+    <title>Indicators of wavefunction (de)localization in the avoided crossing in a quadrupole cavity</title>
+    <updated>2021-11-11T08:56:31Z</updated>
+    <link href="https://arxiv.org/abs/2011.09095v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2011.09095v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the relation between wavefunction (de)localization and the avoided crossing in a quadrupole billiard. We employ the inverse participation ratio, the Renyi entropy and the root-mean-square (rms) image contrast as the three types of measures for wavefunction (de)localization. It is found that all these measures behave similarly, exhibiting a minimum at the center of avoided crossing, where wavefunction is maximally delocalized. Our results show that these quantities can be good indicators for wavefunction (de)localization although the rms contrast yields the most sensitive measure among them.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-11-18T05:22:50Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Kyu-Won Park</name>
+    </author>
+    <author>
+      <name>Juman Kim</name>
+    </author>
+    <author>
+      <name>Jisung Seo</name>
+    </author>
+    <author>
+      <name>Songky Moon</name>
+    </author>
+    <author>
+      <name>Kabgyun Jeong</name>
+    </author>
+    <arxiv:doi>10.1088/2399-6528/ac34a3</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/2399-6528/ac34a3" title="doi"/>
+  </entry>
+</feed>

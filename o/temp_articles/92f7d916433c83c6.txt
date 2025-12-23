@@ -1,0 +1,65 @@
+TERMS: crystal, ionization, singularity
+COLORS: orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/DENueoGaxN/4vUa4XfiQpneqo3o</id>
+  <title>arXiv Query: search_query=all:crystal AND all:ionization AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:27:18Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:crystal+AND+(all:ionization+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1704.07364v1</id>
+    <title>Plasmon-Exciton Interactions Probed Using Spatial Coentrapment of Nanoparticles by Topological Singularities</title>
+    <updated>2017-04-21T23:09:51Z</updated>
+    <link href="https://arxiv.org/abs/1704.07364v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1704.07364v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study plasmon-exciton interaction by using topological singularities to spatially confine, selectively deliver, cotrap and optically probe colloidal semiconductor and plasmonic nanoparticles. The interaction is monitored in a single quantum system in the bulk of a liquid crystal medium where nanoparticles are manipulated and nanoconfined far from dielectric interfaces using laser tweezers and topological configurations are spatially colocated with a plasmonic gold nanoburst particle in a topological singularity core, its fluorescence increases because blinking is significantly suppressed and the radiative decay rate increases by nearly an order of magnitude owing to the Purcell effect. We argue that the blinking suppression is the result of the radiative rate change that mitigates Auger recombination and quantum dot ionization, consequently reducing nonradiative recombination. Our work demonstrates that topological singularities are an effective platform for studying and controlling plasmon-exciton interactions.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-04-21T23:09:51Z</published>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>P. J. Ackerman</name>
+    </author>
+    <author>
+      <name>Haridas Mundoor</name>
+    </author>
+    <author>
+      <name>I. I. Smalyukh</name>
+    </author>
+    <author>
+      <name>Jao van de Lagemaat</name>
+    </author>
+    <arxiv:doi>10.1021/acsnano.5b05715</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1021/acsnano.5b05715" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1610.09022v1</id>
+    <title>Long-term data storage in diamond</title>
+    <updated>2016-10-27T22:10:57Z</updated>
+    <link href="https://arxiv.org/abs/1610.09022v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1610.09022v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The negatively-charged nitrogen-vacancy (NV-) center in diamond is the focus of widespread attention for applications ranging from quantum information processing to nanoscale metrology. Although most work so far has focused on the NV- optical and spin properties, control of the charge state promises complementary opportunities. One intriguing possibility is the long-term storage of information, a notion we hereby introduce using NV rich, type-1b diamond. As a proof of principle, we use multi-color optical microscopy to read, write, and reset arbitrary data sets with 2-D binary bit density comparable to present digital-video-disk (DVD) technology. Leveraging on the singular dynamics of NV- ionization, we encode information on different planes of the diamond crystal with no cross talk, hence extending the storage capacity to three dimensions. Further, we correlate the center's charge state and nuclear spin polarization of the nitrogen host, and show that the latter is robust to a cycle of NV- ionization and recharge. In combination with super-resolution microscopy techniques, these observations provide a route towards sub-diffraction NV charge control, a regime where the storage capacity could exceed present technologies.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-10-27T22:10:57Z</published>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Science Advances 2, e1600911 (2016)</arxiv:journal_ref>
+    <author>
+      <name>Siddharth Dhomkar</name>
+    </author>
+    <author>
+      <name>Jacob Henshaw</name>
+    </author>
+    <author>
+      <name>Harishankar Jayakumar</name>
+    </author>
+    <author>
+      <name>Carlos A. Meriles</name>
+    </author>
+    <arxiv:doi>10.1126/sciadv.1600911</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1126/sciadv.1600911" title="doi"/>
+  </entry>
+</feed>

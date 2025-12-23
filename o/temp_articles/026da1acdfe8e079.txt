@@ -1,0 +1,106 @@
+TERMS: frequency, resonance
+COLORS: green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Aa6cYj3ECP+8iih74y9RZ1ED1+c</id>
+  <title>arXiv Query: search_query=all:frequency AND all:resonance&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T00:57:16Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+all:resonance&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>17609</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/0910.5504v1</id>
+    <title>Multipurpose High Frequency Electron Spin Resonance Spectrometer for Condensed Matter Research</title>
+    <updated>2009-10-29T12:15:18Z</updated>
+    <link href="https://arxiv.org/abs/0910.5504v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0910.5504v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We describe a quasi-optical multifrequency ESR spectrometer operating in the 75-225 GHz range and optimized at 210 GHz for general use in condensed matter physics, chemistry and biology. The quasi-optical bridge detects the change of mm wave polarization at the ESR. A controllable reference arm maintains a mm wave bias at the detector. The attained sensitivity of 2x10^10 spin/G/(Hz)1/2, measured on a dilute Mn:MgO sample in a non-resonant probe head at 222.4 GHz and 300 K, is comparable to commercial high sensitive X band spectrometers. The spectrometer has a Fabry-Perot resonator based probe head to measure aqueous solutions, and a probe head to measure magnetic field angular dependence of single crystals. The spectrometer is robust and easy to use and may be operated by undergraduate students. Its performance is demonstrated by examples from various fields of condensed matter physics.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-10-29T12:15:18Z</published>
+    <arxiv:comment>submitted to Journal of Magnetic Resonance</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>Applied Magnetic Resonance 40, 47-63 (2011)</arxiv:journal_ref>
+    <author>
+      <name>Kalman L Nagy</name>
+    </author>
+    <author>
+      <name>Dario Quintavalle</name>
+    </author>
+    <author>
+      <name>Titusz Feher</name>
+    </author>
+    <author>
+      <name>Andras Janossy</name>
+    </author>
+    <arxiv:doi>10.1007/s00723-010-0182-4</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00723-010-0182-4" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1707.04433v1</id>
+    <title>Multiple nonlinear resonances and frequency combs in bottle microresonators</title>
+    <updated>2017-07-14T09:41:37Z</updated>
+    <link href="https://arxiv.org/abs/1707.04433v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1707.04433v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce the generalized Lugiato-Lefever equation describing nonlinear effects in the bottle microresonators. We demonstrate that the nonlinear modes of these resonators can form multiple coexisting and overlapping nonlinear resonances and that their instabilities lead to the generation of the low repetition rate frequency combs.</summary>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.PS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-07-14T09:41:37Z</published>
+    <arxiv:comment>frequency comb, bistability, microresonator ; 6 pages</arxiv:comment>
+    <arxiv:primary_category term="physics.optics"/>
+    <arxiv:journal_ref>Optics Express Vol. 25, Issue 9, pp. 10306-10311 (2017)</arxiv:journal_ref>
+    <author>
+      <name>I. Oreshnikov</name>
+    </author>
+    <author>
+      <name>D. V. Skryabin</name>
+    </author>
+    <arxiv:doi>10.1364/OE.25.010306</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1364/OE.25.010306" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2105.11536v2</id>
+    <title>Tunable High-Q Resonator by General Impedance Converter</title>
+    <updated>2021-06-01T14:09:28Z</updated>
+    <link href="https://arxiv.org/abs/2105.11536v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2105.11536v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For the need of measurements focused in condensed matter physics and especially Bernoulli effect in superconductors we have developed an active resonator with dual operational amplifiers. A tunable high-Q resonator is performed in the schematics of the the General Impedance Converter (GIC). In the framework of frequency dependent open-loop gain of operational amplifiers, a general formula of the frequency dependence of the impedance of GIC is derived. The explicit formulas for the resonance frequency and Q-factor include as immanent parameter the crossover frequency of the operational amplifier. Voltage measurements of GIC with a lock-in amplifier perfectly agree with the derived formulas. A table reveals that electrometer operational amplifiers are the best choice to build the described resonator.</summary>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-05-18T15:46:21Z</published>
+    <arxiv:comment>a new formulae for the Q-factor expressed by resonance frequency, dominant frequency and cross-over frequency, a general guide with a table for selection of appropriate operational amplifiers, 9 new (30 total) references, Fig. 6 in appendix B corrected</arxiv:comment>
+    <arxiv:primary_category term="physics.ins-det"/>
+    <arxiv:journal_ref>Rev. Sci. Instrum. Vol. 92, 025123 (2021)</arxiv:journal_ref>
+    <author>
+      <name>T. Mifune</name>
+    </author>
+    <author>
+      <name>T. M. Mishonov</name>
+    </author>
+    <author>
+      <name>N. S. Serafimov</name>
+    </author>
+    <author>
+      <name>I. M. Dimitrova</name>
+    </author>
+    <author>
+      <name>R. Popeski-Dimovski</name>
+    </author>
+    <author>
+      <name>L. Velkoska</name>
+    </author>
+    <author>
+      <name>E. G. Petkov</name>
+    </author>
+    <author>
+      <name>A. M. Varonov</name>
+    </author>
+    <author>
+      <name>A. Barone</name>
+    </author>
+    <arxiv:doi>10.1063/5.0041136</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/5.0041136" title="doi"/>
+  </entry>
+</feed>

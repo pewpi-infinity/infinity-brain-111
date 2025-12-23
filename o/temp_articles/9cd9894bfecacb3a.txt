@@ -1,0 +1,35 @@
+TERMS: entropy, graphene, vacuum
+COLORS: red, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/3Ejq9pcsVT6Vp7hPKltORNfRaCg</id>
+  <title>arXiv Query: search_query=all:entropy AND all:graphene AND all:vacuum&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:18:46Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+(all:graphene+AND+all:vacuum)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2108.02216v2</id>
+    <title>Momentum-space Gravity from the Quantum Geometry and Entropy of Bloch Electrons</title>
+    <updated>2021-12-30T23:04:54Z</updated>
+    <link href="https://arxiv.org/abs/2108.02216v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2108.02216v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Quantum geometry is a key quantity that distinguishes electrons in a crystal from those in the vacuum. Its study continues to provide insights into quantum materials, uncovering new design principles for their discovery. However, unlike the Berry curvature, an intuitive understanding of the quantum metric is lacking. Here, we show that the quantum metric of Bloch electrons leads to a momentum-space gravity. In particular, by extending the semiclassical formulation of electron dynamics to second order, we find that the resulting velocity is modified by a geodesic term and becomes the momentum-space dual of the Lorentz force in curved space. We calculate this geodesic response for magic-angle twisted bilayer graphene and show that moiré systems with flat bands are ideal candidates to observe this effect. Extending this analogy with gravity further, we find that the momentum-space dual of the Einstein field equations remains sourceless for pure states while for mixed states it acquires a source term that depends on the von Neumann entropy, for small entropies. We compare this stress-energy equation with the weak-field limit of general relativity and conclude that the von Neumann entropy is the momentum-space dual of the gravitational potential. Consequently, the momentum-space geodesic equation for mixed states is modified by a term resembling an entropic force. Our results highlight connections between quantum geometry, momentum-space gravity and quantum information, prompting further exploration of this dual gravity in quantum materials.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-08-04T18:00:03Z</published>
+    <arxiv:comment>21 pages, 4 figures. Added calculation of geodesic response in magic-angle twisted bilayer graphene and its experimental realization</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>Tyler B. Smith</name>
+    </author>
+    <author>
+      <name>Lakshmi Pullasseri</name>
+    </author>
+    <author>
+      <name>Ajit Srivastava</name>
+    </author>
+  </entry>
+</feed>

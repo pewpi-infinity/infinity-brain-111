@@ -1,0 +1,97 @@
+TERMS: frequency, lattice, wavefunction
+COLORS: green, orange, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/q6nnJIKfOfhQVqBA8j6qgC5gsJ4</id>
+  <title>arXiv Query: search_query=all:frequency AND all:lattice AND all:wavefunction&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:09:39Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:lattice+AND+all:wavefunction)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>40</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/0912.1241v1</id>
+    <title>Tunneling control and localization for Bose-Einstein condensates in a frequency modulated optical lattice</title>
+    <updated>2009-12-07T13:54:50Z</updated>
+    <link href="https://arxiv.org/abs/0912.1241v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0912.1241v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The similarity between matter waves in periodic potential and solid-state physics processes has triggered the interest in quantum simulation using Bose-Fermi ultracold gases in optical lattices. The present work evidences the similarity between electrons moving under the application of oscillating electromagnetic fields and matter waves experiencing an optical lattice modulated by a frequency difference, equivalent to a spatially shaken periodic potential. We demonstrate that the tunneling properties of a Bose-Einstein condensate in shaken periodic potentials can be precisely controlled. We take additional crucial steps towards future applications of this method by proving that the strong shaking of the optical lattice preserves the coherence of the matter wavefunction and that the shaking parameters can be changed adiabatically, even in the presence of interactions. We induce reversibly the quantum phase transition to the Mott insulator in a driven periodic potential.</summary>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-12-07T13:54:50Z</published>
+    <arxiv:comment>Laser Physics (in press)</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.quant-gas"/>
+    <author>
+      <name>A. Zenesini</name>
+    </author>
+    <author>
+      <name>H. Lignier</name>
+    </author>
+    <author>
+      <name>C. Sias</name>
+    </author>
+    <author>
+      <name>O. Morsch</name>
+    </author>
+    <author>
+      <name>D. Ciampini</name>
+    </author>
+    <author>
+      <name>E. Arimondo</name>
+    </author>
+    <arxiv:doi>10.1134/S1054660X10090410</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1134/S1054660X10090410" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0712.3065v2</id>
+    <title>Wavefunction considerations for the central spin decoherence problem in a nuclear spin bath</title>
+    <updated>2008-04-11T20:13:23Z</updated>
+    <link href="https://arxiv.org/abs/0712.3065v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0712.3065v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Decoherence of a localized electron spin in a solid state material (the ``central spin'' problem) at low temperature is believed to be dominated by interactions with nuclear spins in the lattice. This decoherence is partially suppressed through the application of a large magnetic field that splits the energy levels of the electron spin and prevents depolarization. However, dephasing decoherence resulting from a dynamical nuclear spin bath cannot be removed in this way. Fluctuations of the nuclear field lead to uncertainty of the electron's precessional frequency in a process known as spectral diffusion. This article considers the effect of the electron's wavefunction shape upon spectral diffusion and provides wavefunction dependent decoherence time formulas for free induction decay as well as spin echoes and concatenated dynamical decoupling schemes for enhancing coherence. We also discuss dephasing of a qubit encoded in singlet-triplet states of a double quantum dot. A central theoretical result of this work is the development of a continuum approximation for the spectral diffusion problem which we have applied to GaAs and InAs materials specifically.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-12-19T00:24:20Z</published>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Phys. Rev. B 77, 165319 (2008)</arxiv:journal_ref>
+    <author>
+      <name>W. M. Witzel</name>
+    </author>
+    <author>
+      <name>S. Das Sarma</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.77.165319</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.77.165319" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0805.0189v1</id>
+    <title>Rabi switch of condensate wavefunctions in a multicomponent Bose gas</title>
+    <updated>2008-05-02T08:39:29Z</updated>
+    <link href="https://arxiv.org/abs/0805.0189v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0805.0189v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Using a time-dependent linear (Rabi) coupling between the components of a weakly interacting multicomponent Bose-Einstein condensate (BEC), we propose a protocol for transferring the wavefunction of one component to the other. This "Rabi switch" can be generated in a binary BEC mixture by an electromagnetic field between the two components, typically two hyperfine states. When the wavefunction to be transfered is - at a given time - a stationary state of the multicomponent Hamiltonian, then, after a time delay (depending on the Rabi frequency), it is possible to have the same wavefunction on the other condensate. The Rabi switch can be used to transfer also moving bright matter-wave solitons, as well as vortices and vortex lattices in two-dimensional condensates. The efficiency of the proposed switch is shown to be 100% when inter-species and intra-species interaction strengths are equal. The deviations from equal interaction strengths are analyzed within a two-mode model and the dependence of the efficiency on the interaction strengths and on the presence of external potentials is examined in both 1D and 2D settings.</summary>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-05-02T08:39:29Z</published>
+    <arxiv:primary_category term="cond-mat.other"/>
+    <arxiv:journal_ref>Phys. Rev. A 78, 023635 (2008)</arxiv:journal_ref>
+    <author>
+      <name>H. E. Nistazakis</name>
+    </author>
+    <author>
+      <name>Z. Rapti</name>
+    </author>
+    <author>
+      <name>D. J. Frantzeskakis</name>
+    </author>
+    <author>
+      <name>P. G. Kevrekidis</name>
+    </author>
+    <author>
+      <name>P. Sodano</name>
+    </author>
+    <author>
+      <name>A. Trombettoni</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.78.023635</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.78.023635" title="doi"/>
+  </entry>
+</feed>

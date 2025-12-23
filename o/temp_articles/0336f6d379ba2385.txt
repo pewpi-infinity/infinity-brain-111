@@ -1,0 +1,65 @@
+TERMS: hydrogen, quantum, resonance, boson
+COLORS: purple, blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/8VyKsTP1wnnwbV3fjBdMIiJUJ3M</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:resonance AND all:boson&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:40:56Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:resonance+AND+all:boson))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>3</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/0803.1973v1</id>
+    <title>Resonances for a Hydrogenic System or a Harmonic Oscillator Strongly Coupled to a Field</title>
+    <updated>2008-03-13T14:05:48Z</updated>
+    <link href="https://arxiv.org/abs/0803.1973v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0803.1973v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We calculate resonances which are formed by a particle in a potential which is either Coulombian or quadratic when the particle is strongly coupled to a massless boson, taking only two energy levels into consideration. From these calculations we derive how the moving away of the particle from its attraction center goes together with the energy lowering of hybrid states that this particle forms with the field. We study the width of these states and we show that stable states may also appear in the coupling.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-03-13T14:05:48Z</published>
+    <arxiv:comment>17 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Claude Billionnet</name>
+    </author>
+    <arxiv:doi>10.1142/S0217751X08041542</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/S0217751X08041542" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.12526v1</id>
+    <title>Gravitational Atoms and Black Hole Binaries</title>
+    <updated>2024-12-17T04:34:59Z</updated>
+    <link href="https://arxiv.org/abs/2412.12526v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.12526v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Several models of physics beyond the Standard Model predict the existence of new ultralight bosons. This thesis investigates a way to discover such particles through observations of gravitational waves from binary black holes. This is possible through black hole superradiance, which spontaneously creates a "boson cloud" around a rapidly spinning black hole. The system is also known as a gravitational atom, due to its similarities with the hydrogen atom. The thesis focuses on a scenario where a gravitational atom is orbited by a binary companion. The goal is to characterize the dynamics of the system and identify the signatures left by the boson cloud on the gravitational waves emitted by the binary. The predictions can be tested with current and future interferometers, such as LISA, LIGO, DECIGO, Einstein Telescope and TianQin. First, I demonstrate that the cloud catalyzes the binary formation by increasing the dynamical capture cross section. I then introduce and study the ionization of the cloud, wherein the perturbation from the binary unbinds the bosons, analogous to the photoelectric effect in atomic physics. After that, I examine the accretion of the cloud on the companion black hole. To achieve realistic and complete results, I proceed to extend the treatment of ionization, as well as of the orbital resonances discussed in earlier works, to orbits with generic inclination and eccentricity. This allows to study the entire history of the system, from formation to merger. The most distinctive observational signatures of the cloud are found to be the orbital energy lost through ionization and the preference for specific inclinations and eccentricities induced by the orbital resonances.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-17T04:34:59Z</published>
+    <arxiv:comment>PhD thesis, University of Amsterdam, 2024, 186 pages</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <author>
+      <name>Giovanni Maria Tomaselli</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2208.14609v1</id>
+    <title>Quasibound states of massive scalar around the Kerr black hole</title>
+    <updated>2022-08-31T03:02:33Z</updated>
+    <link href="https://arxiv.org/abs/2208.14609v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2208.14609v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this work, we obtain quasibound states of a massive scalar around the Kerr black hole.
+  A massive scalar propagating around the Kerr black hole induces the far-region potential with either a trapping well or a tiny well, which produces a peak of resonance or a bound state in the far-region. The former represents superradiant instability, while the latter could accommodate superradiant instability via a positive $ω_I$. If the scalar's energy is really quantized around a tiny well, an ultralight boson could be expressed in terms of a hydrogen-like bound state, leading to a gravitational atom when incorporating superradiant instability. If there are no wells outside the outer horizon, their far-region wave functions represent purely bound state without node. Finally, we discriminate between superradiant instability and stability.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-08-31T03:02:33Z</published>
+    <arxiv:comment>19 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <author>
+      <name>Yun Soo Myung</name>
+    </author>
+  </entry>
+</feed>

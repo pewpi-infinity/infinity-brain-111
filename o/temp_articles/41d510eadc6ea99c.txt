@@ -1,0 +1,106 @@
+TERMS: spin, oxidation, vacuum
+COLORS: yellow, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/6p3r55KksTqf7MlwuhdS+kzkmok</id>
+  <title>arXiv Query: search_query=all:spin AND all:oxidation AND all:vacuum&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:33:06Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:spin+AND+(all:oxidation+AND+all:vacuum)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>23</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0308268v2</id>
+    <title>Effect of interface bonding on spin-dependent tunneling from the oxidized Co surface</title>
+    <updated>2003-12-15T21:15:45Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0308268v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0308268v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We demonstrate that the factorization of the tunneling transmission into the product of two surface transmission functions and a vacuum decay factor allows one to generalize Julliere's formula and explain the meaning of the ``tunneling density of states'' in some limiting cases. Using this factorization we calculate spin-dependent tunneling from clean and oxidized fcc Co surfaces through vacuum into Al using the principal-layer Green's function approach. We demonstrate that a monolayer of oxygen on the Co (111) surface creates a spin-filter effect due to the Co-O bonding which produces an additional tunneling barrier in the minority-spin channel. This changes the minority-spin dominated conductance for the clean Co surface into a majority spin dominated conductance for the oxidized Co surface.</summary>
+    <category term="cond-mat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-08-14T16:38:42Z</published>
+    <arxiv:comment>7 pages, revtex4, 4 embedded eps figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat"/>
+    <arxiv:journal_ref>Phys. Rev. B 69, 174408 (2004).</arxiv:journal_ref>
+    <author>
+      <name>K. D. Belashchenko</name>
+    </author>
+    <author>
+      <name>E. Y. Tsymbal</name>
+    </author>
+    <author>
+      <name>M. van Schilfgaarde</name>
+    </author>
+    <author>
+      <name>D. A. Stewart</name>
+    </author>
+    <author>
+      <name>I. I. Oleynik</name>
+    </author>
+    <author>
+      <name>S. S. Jaswal</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.69.174408</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.69.174408" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2311.00700v1</id>
+    <title>Annealing effects on the magnetic and magnetotransport properties of iron oxide nanoparticles self-assemblies</title>
+    <updated>2023-11-01T17:58:47Z</updated>
+    <link href="https://arxiv.org/abs/2311.00700v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.00700v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In magnetic tunnel junctions based on iron oxide nanoparticles the disorder and the oxidation state of the surface spin as well as the nanoparticles functionalization play a crucial role in the magnetotransport properties. In this work, we report a systematic study of the effects of vacuum annealing on the structural, magnetic and transport properties of self-assembled ~10 nm Fe3O4 nanoparticles. The high temperature treatment (from 573 to 873 K) decomposes the organic coating into amorphous carbon, reducing the electrical resistivity of the assemblies by 4 orders of magnitude. At the same time, the 3Fe2+/(Fe3++Fe2+) ratio is reduced from 1.11 to 0.13 when the annealing temperature of the sample increases from 573 to 873 K, indicating an important surface oxidation. Although the 2 nm physical gap remains unchanged with the thermal treatment, a monotonous decrease of tunnel barrier width was obtained from the electron transport measurements when the annealing temperature increases, indicating an increment in the number of defects and hot-spots in the gap between the nanoparticles. This is reflected in the reduction of the spin dependent tunneling, which reduces the interparticle magnetoresistance. This work shows new insights about influence of the nanoparticle interfacial composition, as well their the spatial arrangement, on the tunnel transport of self-assemblies, and evidence the importance of optimizing the nanostructure fabrication for increasing the tunneling current without degrading the spin polarized current.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-01T17:58:47Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>Nanotechnology 34 (2023) 455702</arxiv:journal_ref>
+    <author>
+      <name>Fernando Fabris</name>
+    </author>
+    <author>
+      <name>Enio Lima</name>
+    </author>
+    <author>
+      <name>Jorge Martín Nuñez</name>
+    </author>
+    <author>
+      <name>Horacio E Troiani</name>
+    </author>
+    <author>
+      <name>Myriam H Aguirre</name>
+    </author>
+    <author>
+      <name>Victor Leborán</name>
+    </author>
+    <author>
+      <name>Francisco Rivadulla</name>
+    </author>
+    <author>
+      <name>Elin L Winkler</name>
+    </author>
+    <arxiv:doi>10.1088/1361-6528/aced0e</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1361-6528/aced0e" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2004.03528v2</id>
+    <title>Structural Transition in Oxidized Ca$_2$N Electrenes: CaO/CaN 2D heterostructures</title>
+    <updated>2020-05-04T18:20:27Z</updated>
+    <link href="https://arxiv.org/abs/2004.03528v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2004.03528v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Based on first-principles calculations we show that the oxidation of ultrathin films of Ca$_2$N electrides, electrenes, drives a hexagonal$\rightarrow$tetragonal structural transition. The ground state configuration of the oxidized monolayer (ML) and bilayer (BL) systems can be viewed as CaO/CaN and CaO/(CaN)$_2$/CaO two dimensional (2D) heterostructures. In both systems, we found nearly free electron (NFE) states lying near the vacuum level, and the spatial projection reveals that they are localized above the oxidized CaO surface. Focusing on the magnetic properties, we find that the nitrogen atoms of the oxidized Ca$_2$N becomes spin-polarized ($\sim$1 $μ_{\rm B}$/N-atom); where (i) the ferromagnetic and the anti-ferromagnetic phases are nearly degenerated in the ML system, CaO/CaN, while (ii) there is an energetic preference for the ferromagnetic phase in CaO/(CaN)$_2$/CaO. We show that such a FM preference can be strengthened upon mechanical compression. Further electronic structure calculations reveal that the FM CaO/Ca$_2$N/CaO presents half-metallicity, where the metallic channels project (predominantly) on the N-$2p_{x,y}$ orbitals. In addition to the total energy results, molecular dynamic and phonon spectra calculations have been done in order to verify its thermal and structural stabilities. Those findings suggest that CaO/Ca$_2$N/CaO is a quite interesting, and structurally stable, 2D FM heterostructure characterized half-metallic bands sandwiched by NFE states lying on the oxidized surfaces.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-04-07T16:37:08Z</published>
+    <arxiv:comment>7 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Pedro H. Souza</name>
+    </author>
+    <author>
+      <name>José E. Padilha</name>
+    </author>
+    <author>
+      <name>Roberto H. Miwa</name>
+    </author>
+  </entry>
+</feed>

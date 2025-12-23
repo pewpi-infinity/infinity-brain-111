@@ -1,0 +1,54 @@
+TERMS: hydrogen, frequency, probability, singularity
+COLORS: purple, green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/PAvb3w3lFysdqfnMDH+SeRIWiwI</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:frequency AND all:probability AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:45:39Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:frequency+AND+(all:probability+AND+all:singularity))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1006.1351v2</id>
+    <title>The GMRT-EoR Experiment: A new upper limit on the neutral hydrogen power spectrum at z~8.6</title>
+    <updated>2010-12-15T18:01:01Z</updated>
+    <link href="https://arxiv.org/abs/1006.1351v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1006.1351v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a new upper limit to the 21cm power spectrum during the Epoch of Reionization (EoR) which constrains reionization models with an unheated IGM. The GMRT-EoR experiment is an ongoing effort to make a statistical detection of the power spectrum of 21cm neutral hydrogen emission at redshift z~9. Data from this redshift constrain models of the EoR, the end of the Dark Ages arising from the formation of the first bright UV sources, probably stars or mini-quasars. We present results from approximately 50 hours of observations at the Giant Metrewave Radio Telescope in India from December 2007. We describe radio frequency interference (RFI) localisation schemes which allow bright sources on the ground to be identified and physically removed in addition to automated flagging. Singular-value decomposition is used to remove remaining broadband RFI by identifying ground sources with large eigenvalues. Foregrounds are modelled using a piecewise linear filter and the power spectrum is measured using cross-correlations of foreground subtracted images.</summary>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-06-07T19:59:55Z</published>
+    <arxiv:comment>11 pages, 11 figures, accepted for publication in MNRAS</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.CO"/>
+    <author>
+      <name>Gregory Paciga</name>
+    </author>
+    <author>
+      <name>Tzu-Ching Chang</name>
+    </author>
+    <author>
+      <name>Yashwant Gupta</name>
+    </author>
+    <author>
+      <name>Rajaram Nityanada</name>
+    </author>
+    <author>
+      <name>Julia Odegova</name>
+    </author>
+    <author>
+      <name>Ue-Li Pen</name>
+    </author>
+    <author>
+      <name>Jeffrey Peterson</name>
+    </author>
+    <author>
+      <name>Jayanta Roy</name>
+    </author>
+    <author>
+      <name>Kris Sigurdson</name>
+    </author>
+    <arxiv:doi>10.1111/j.1365-2966.2011.18208.x</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1111/j.1365-2966.2011.18208.x" title="doi"/>
+  </entry>
+</feed>

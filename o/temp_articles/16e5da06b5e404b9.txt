@@ -1,0 +1,80 @@
+TERMS: entropy, probability, singularity
+COLORS: red, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/QtMQqAnWKDfwU1TB45YvPI6PaGQ</id>
+  <title>arXiv Query: search_query=all:entropy AND all:probability AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:19:42Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+(all:probability+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>166</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1608.00145v2</id>
+    <title>Inspecting non-perturbative contributions to the Entanglement Entropy via wavefunctions</title>
+    <updated>2017-12-05T03:52:03Z</updated>
+    <link href="https://arxiv.org/abs/1608.00145v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1608.00145v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we would like to systematically explore the implications of non-perturbative effects on entanglement in a many body system. Instead of pursuing the usual path-integral method in a singular space, we attempt to study the wavefunctions in detail. We begin with a toy model of multiple particles whose interaction potential admits multiple minima. We study the entanglement of the true ground state after taking the tunnelling effects into account and find some simple patterns. Notably, in the case of multiple particle interactions, entanglement entropy generically decreases with increasing number of minima. The knowledge of the subsystem actually increases with the number of minima. The reduced density matrix can also be seen to have close connections with graph spectra. In a more careful study of the two-well tunnelling system, we also extract the exponentially suppressed tail contribution, the analogues of instantons. To understand the effects of multiple minima in a field theory, it inspires us to inspect wavefunctions in a toy model of bosonic field describing quasi-particles of two different condensates related by Bogoliubov transformations. We find that the area law is naturally preserved. This is probably a useful set of perspectives that promise wider applications.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-07-30T16:50:44Z</published>
+    <arxiv:comment>32 pages, 4 figures, current version accepted by Entropy</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Entropy 2017, 19(12), 671</arxiv:journal_ref>
+    <author>
+      <name>Arpan Bhattacharyya</name>
+    </author>
+    <author>
+      <name>Ling-Yan Hung</name>
+    </author>
+    <author>
+      <name>P. H. C. Lau</name>
+    </author>
+    <author>
+      <name>Si-Nong Liu</name>
+    </author>
+    <arxiv:doi>10.3390/e19120671</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/e19120671" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1903.09547v1</id>
+    <title>Probability distributions with singularities</title>
+    <updated>2019-03-22T15:13:27Z</updated>
+    <link href="https://arxiv.org/abs/1903.09547v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1903.09547v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we review some general properties of probability distributions which exibit a singular behavior. After introducing the matter with several examples based on various models of statistical mechanics, we discuss, with the help of such paradigms, the underlying mathematical mechanism producing the singularity and other topics such as the condensation of fluctuations, the relationships with ordinary phase-transitions, the giant response associated to anomalous fluctuations, and the interplay with Fluctuation Relations.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-03-22T15:13:27Z</published>
+    <arxiv:comment>13 pages, 8 figures, review paper for the Special Issue of Entropy "Fluctuation Relations and Nonequilibrium Thermodynamics in Classical and Quantum Systems"</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <arxiv:journal_ref>Entropy 2019, 21(3), 312</arxiv:journal_ref>
+    <author>
+      <name>Federico Corberi</name>
+    </author>
+    <author>
+      <name>Alessandro Sarracino</name>
+    </author>
+    <arxiv:doi>10.3390/e21030312</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/e21030312" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1701.01248v4</id>
+    <title>Estimates for Invariant Probability Measures of Degenerate SPDEs with Singular and Path-Dependent Drifts</title>
+    <updated>2018-01-25T09:39:32Z</updated>
+    <link href="https://arxiv.org/abs/1701.01248v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1701.01248v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In terms of a nice reference probability measure, integrability conditions on the path-dependent drift are presented for (infinite-dimensional) degenerate PDEs to have regular positive solutions. To this end, the corresponding stochastic (partial) differential equations are proved to possess the weak existence and uniqueness of solutions, as well as the existence, uniqueness and entropy estimates of invariant probability measures. When the reference measure satisfies the log-Sobolev inequality, Sobolev estimates are derived for the density of invariant probability measures. Some results are new even for non-degenerate SDEs with path-independent drifts. The main results are applied to nonlinear functional SPDEs and degenerate functional SDEs/SPDEs.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-01-05T08:51:07Z</published>
+    <arxiv:comment>32 pages</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <arxiv:journal_ref>Probability Theory and Related Fields 2018</arxiv:journal_ref>
+    <author>
+      <name>Feng-Yu Wang</name>
+    </author>
+  </entry>
+</feed>

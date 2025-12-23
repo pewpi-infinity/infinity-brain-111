@@ -1,0 +1,130 @@
+TERMS: spin, muon, singularity
+COLORS: yellow, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/yHwT2+XgflLM0YQQCmx1z3zr/MA</id>
+  <title>arXiv Query: search_query=all:spin AND all:muon AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:32:42Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:spin+AND+(all:muon+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>9</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0404118v1</id>
+    <title>Disorder, inhomogeneity and spin dynamics in f-electron non-Fermi liquid systems</title>
+    <updated>2004-04-06T00:32:20Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0404118v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0404118v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Muon spin rotation and relaxation ($μ$SR) experiments have yielded evidence that structural disorder is an important factor in many f-electron-based non-Fermi-liquid (NFL) systems. Disorder-driven mechanisms for NFL behaviour are suggested by the observed broad and strongly temperature-dependent $μ$SR (and NMR) linewidths in several NFL compounds and alloys. Local disorder-driven theories (Kondo disorder, Griffiths-McCoy singularity) are, however, not capable of describing the time-field scaling seen in muon spin relaxation experiments, which suggest cooperative and critical spin fluctuations rather than a distribution of local fluctuation rates. A strong empirical correlation is established between electronic disorder and slow spin fluctuations in NFL materials</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-04-06T00:32:20Z</published>
+    <arxiv:comment>24 pages, 15 figures, submitted to J. Phys.: Condens. Matter</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <author>
+      <name>D. E. MacLaughlin</name>
+    </author>
+    <author>
+      <name>R. H. Heffner</name>
+    </author>
+    <author>
+      <name>O. O. Bernal</name>
+    </author>
+    <author>
+      <name>K. Ishida</name>
+    </author>
+    <author>
+      <name>J. E. Sonier</name>
+    </author>
+    <author>
+      <name>G. J. Nieuwenhuys</name>
+    </author>
+    <author>
+      <name>M. B. Maple</name>
+    </author>
+    <author>
+      <name>G R Stewart</name>
+    </author>
+    <arxiv:doi>10.1088/0953-8984/16/40/005</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0953-8984/16/40/005" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.16110v1</id>
+    <title>Quantum Griffiths singularity in the stoichiometric heavy-fermion system CeRh$_4$Al$_{15}$</title>
+    <updated>2023-05-25T14:42:30Z</updated>
+    <link href="https://arxiv.org/abs/2305.16110v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.16110v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a detailed investigation of the stoichiometric CeRh$_4$Al$_{15}$ single crystal compound using the temperature dependence of the heat capacity [$C_{\text{P}}$($T$)], electrical resistivity [$ρ$($T$)], magnetic susceptibility [$χ$($T$)], and magnetization [$M$($H$)] measurements for a magnetic field ($H$) applied in the basal plane and along the $c$-axis. The low temperature power-law behavior of $C$/$T$ $\propto$ $χ$ $\propto$ $T^{-1+α}$, the isotherm magnetization, $M \sim H^α$ with the exponent $α$ = 0.45 - 0.55, and the $T$-linear resistivity $Δρ$ $\sim$ $T^ε$ with $ε\sim$ 1 are found to be consistent with the formation of quantum Griffiths singularities in the non-Fermi-liquid (NFL) regime. We further investigated the spin dynamics of a polycrystalline sample of CeRh$_4$Al$_{15}$, using zero-field (ZF) and longitudinal-field (LF) muon spin relaxation ($μ$SR) measurements. ZF-$μ$SR measurements do not reveal any sign of long-range magnetic ordering down to 70~mK. The electronic relaxation rate ($λ$) below 0.5~K increases rapidly and shows a thermal activation-like characteristic [$T$log($λ$)$\sim$ $T$] over the entire measured temperature range between 70~mK to 4~K, indicating the presence of low energy spin fluctuations in CeRh$_4$Al$_{15}$. LF-$μ$SR measurements show a time-field ($t/H^η$) scaling of the $μ$SR asymmetry indicating a quantum critical behavior of this compound. Furthermore, inelastic neutron scattering study on the polycrystalline sample reveals two crystal field excitations near 19 and 33~meV. These features collectively provide strong evidence of NFL behavior in CeRh$_4$Al$_{15}$ due to the formation of Griffiths phase close to a $T$ $\rightarrow$ 0~K quantum critical point.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-25T14:42:30Z</published>
+    <arxiv:comment>12 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Physical Review B 108, 144427 (2023)</arxiv:journal_ref>
+    <author>
+      <name>Rajesh Tripathi</name>
+    </author>
+    <author>
+      <name>D. T. Adroja</name>
+    </author>
+    <author>
+      <name>Y. Muro</name>
+    </author>
+    <author>
+      <name>Shivani Sharma</name>
+    </author>
+    <author>
+      <name>P. K. Biswas</name>
+    </author>
+    <author>
+      <name>T. Namiki</name>
+    </author>
+    <author>
+      <name>T. Kuwai</name>
+    </author>
+    <author>
+      <name>T. Hiroto</name>
+    </author>
+    <author>
+      <name>A. M. Strydom</name>
+    </author>
+    <author>
+      <name>A. Sundaresan</name>
+    </author>
+    <author>
+      <name>S. Langridge</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.108.144427</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.108.144427" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1104.1213v1</id>
+    <title>Magnetic transition, long-range order, and moment fluctuations in the pyrochlore iridate Eu2Ir2O7</title>
+    <updated>2011-04-06T23:24:45Z</updated>
+    <link href="https://arxiv.org/abs/1104.1213v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1104.1213v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Muon spin rotation and relaxation experiments in the pyrochlore iridate Eu2Ir2O7 yield a well-defined muon spin precession frequency below the metal-insulator/antiferromagnetic transition temperature TM = 120 K, indicative of long-range commensurate magnetic order and thus ruling out quantum spin liquid and spin-glass-like ground states. The dynamic muon spin relaxation rate is temperature-independent between 2 K and ~TM and yields an anomalously long Ir^{4+} spin correlation time, suggesting a singular density of low-lying spin excitations. Similar behavior is found in other pyrochlores and geometrically frustrated systems, but also in the unfrustrated iridate BaIrO3. Eu2Ir2O7 may be only weakly frustrated; if so, the singularity might be associated with the small-gap insulating state rather than frustration.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-04-06T23:24:45Z</published>
+    <arxiv:comment>5 pages, 3 figures, to be published in Physical Review B (Rapid Communications)</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <author>
+      <name>Songrui Zhao. J. M. Mackie</name>
+    </author>
+    <author>
+      <name>D. E. MacLaughlin</name>
+    </author>
+    <author>
+      <name>O. O. Bernal</name>
+    </author>
+    <author>
+      <name>J. J. Ishikawa</name>
+    </author>
+    <author>
+      <name>Y. Ohta</name>
+    </author>
+    <author>
+      <name>S. Nakatsuji</name>
+    </author>
+  </entry>
+</feed>
