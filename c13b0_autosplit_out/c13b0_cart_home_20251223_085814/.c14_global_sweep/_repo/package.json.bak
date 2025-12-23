@@ -1,0 +1,130 @@
+# cart047_package_manager.py
+"""
+Cart 047: Package Manager
+Manages Infinity packages (e.g., infinity-boot, octave-os, tortoise):
+- Creates/updates package.json manifests
+- Builds dependency graph and self-producer bundles
+- Reads artifacts and pulls package bits together
+- Logs everything; ready to commit to repo
+
+CLI:
+  python cart047_package_manager.py init --name "infinity-boot" --version "0.1.0"
+  python cart047_package_manager.py adddep --name "infinity-boot" --dep "octave-os@0.1.0"
+  python cart047_package_manager.py bundle --name "infinity-suite" --packages "infinity-boot,octave-os,tortoise"
+  python cart047_package_manager.py export graph
+"""
+
+import os, sys, json, time
+
+ROOT = os.path.dirname(os.path.abspath(__file__))
+LOGS = os.path.join(ROOT, "logs")
+ART  = os.path.join(ROOT, "artifacts")
+DATA = os.path.join(ROOT, "data")
+os.makedirs(LOGS, exist_ok=True); os.makedirs(ART, exist_ok=True); os.makedirs(DATA, exist_ok=True)
+
+AUDIT   = os.path.join(LOGS, "package_manager_audit.jsonl")
+PKGDB   = os.path.join(DATA, "packages.json")
+BUNDLES = os.path.join(DATA, "package_bundles.json")
+
+DEFAULT_PKG = {"packages": {}}
+DEFAULT_BUN = {"bundles": []}
+
+def now(): return time.strftime("%Y-%m-%dT%H:%M:%S", time.gmtime())
+def audit(e): e=dict(e); e["t"]=now(); 
+with open(AUDIT,"a",encoding="utf-8") as f: f.write(json.dumps(e)+"\n")
+
+def load(path, default):
+    if not os.path.exists(path): return default.copy()
+    try:
+        with open(path,"r",encoding="utf-8") as f: return json.load(f)
+    except: return default.copy()
+
+def save(path, obj):
+    with open(path,"w",encoding="utf-8") as f: json.dump(obj,f,indent=2)
+
+def artifact(name,obj):
+    p=os.path.join(ART,f"{name}.json")
+    with open(p,"w",encoding="utf-8") as f: json.dump(obj,f,indent=2)
+    return p
+
+# ---------- Init package ----------
+def init_pkg(name: str, version: str) -> dict:
+    db = load(PKGDB, DEFAULT_PKG)
+    pkg = {"name": name, "version": version, "deps": [], "created": now()}
+    db["packages"][name] = pkg; save(PKGDB, db)
+    path = artifact(f"package_{name}", pkg)
+    audit({"action":"pkg.init","name":name,"version":version})
+    return {"ok": True, "path": path, "pkg": pkg}
+
+# ---------- Add dependency ----------
+def add_dep(name: str, dep: str) -> dict:
+    db = load(PKGDB, DEFAULT_PKG)
+    pkg = db["packages"].get(name)
+    if not pkg: return {"ok": False, "error": "package not found"}
+    if dep not in pkg["deps"]: pkg["deps"].append(dep)
+    save(PKGDB, db)
+    path = artifact(f"package_{name}_deps", pkg)
+    audit({"action":"pkg.adddep","name":name,"dep":dep})
+    return {"ok": True, "path": path, "pkg": pkg}
+
+# ---------- Build bundle ----------
+def bundle(name: str, packages: list) -> dict:
+    db = load(PKGDB, DEFAULT_PKG)
+    bun = load(BUNDLES, DEFAULT_BUN)
+    entries = []
+    for p in packages:
+        pkg = db["packages"].get(p)
+        if pkg:
+            entries.append({"name": pkg["name"], "version": pkg["version"], "deps": pkg["deps"]})
+    out = {"bundle": name, "packages": entries, "created": now()}
+    bun["bundles"].append(out); save(BUNDLES, bun)
+    path = artifact(f"bundle_{name}", out)
+    audit({"action":"bundle.make","name":name,"count":len(entries)})
+    return {"ok": True, "path": path, "bundle": out}
+
+# ---------- Export graph ----------
+def export_graph() -> dict:
+    db = load(PKGDB, DEFAULT_PKG)
+    nodes = []
+    edges = []
+    for name, pkg in db["packages"].items():
+        nodes.append({"id": name, "version": pkg["version"]})
+        for dep in pkg["deps"]:
+            dep_name = dep.split("@")[0]
+            edges.append({"from": name, "to": dep_name})
+    graph = {"nodes": nodes, "edges": edges, "created": now()}
+    path = artifact("packages_graph", graph)
+    audit({"action":"graph.export","nodes":len(nodes),"edges":len(edges)})
+    return {"ok": True, "path": path, "graph": graph}
+
+# ---------- CLI ----------
+def main():
+    a = sys.argv[1:]
+    if not a:
+        print("Usage: init --name N --version V | adddep --name N --dep 'P@V' | bundle --name B --packages 'p1,p2' | export graph")
+        return
+    cmd = a[0]
+    if cmd == "init":
+        name="infinity-boot"; version="0.1.0"
+        for i,x in enumerate(a):
+            if x=="--name" and i+1<len(a): name=a[i+1]
+            if x=="--version" and i+1<len(a): version=a[i+1]
+        print(json.dumps(init_pkg(name, version), indent=2)); return
+    if cmd == "adddep":
+        name="infinity-boot"; dep="octave-os@0.1.0"
+        for i,x in enumerate(a):
+            if x=="--name" and i+1<len(a): name=a[i+1]
+            if x=="--dep" and i+1<len(a): dep=a[i+1]
+        print(json.dumps(add_dep(name, dep), indent=2)); return
+    if cmd == "bundle":
+        name="infinity-suite"; packages=[]
+        for i,x in enumerate(a):
+            if x=="--name" and i+1<len(a): name=a[i+1]
+            if x=="--packages" and i+1<len(a): packages=[p.strip() for p in a[i+1].split(",") if p.strip()]
+        print(json.dumps(bundle(name, packages), indent=2)); return
+    if cmd == "export" and len(a) > 1 and a[1] == "graph":
+        print(json.dumps(export_graph(), indent=2)); return
+    print(json.dumps({"error":"unknown command"}, indent=2))
+
+if __name__ == "__main__":
+    main()

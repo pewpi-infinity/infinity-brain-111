@@ -1,0 +1,21 @@
+cat << 'EOF' > portal.js
+// Infinity OS Portal Integration Layer
+
+import { InfinityReactor } from "./reactor.js";
+import { GamePlug } from "./gameplug.js";
+
+export class PortalModule {
+    constructor() {
+        this.reactor = new InfinityReactor();
+        this.game = new GamePlug();
+    }
+
+    tick() {
+        return this.reactor.pulse();
+    }
+
+    attachGameBuilder() {
+        return this.game;
+    }
+}
+EOF

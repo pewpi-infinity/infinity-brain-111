@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infinity Vectors - OS Boot System</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: #000;
+            color: #fff;
+            overflow: hidden;
+        }
+
+        /* Boot Screen Styles */
+        #boot-screen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            transition: opacity 0.5s ease-out;
+        }
+
+        #boot-screen.hidden {
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        .boot-logo {
+            font-size: 3rem;
+            font-weight: 700;
+            background: linear-gradient(45deg, #00d4ff, #7b2ff7);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 2rem;
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 0.8; transform: scale(1); }
+            50% { opacity: 1; transform: scale(1.05); }
+        }
+
+        .boot-progress {
+            width: 300px;
+            height: 4px;
+            background: #333;
+            border-radius: 2px;
+            overflow: hidden;
+            margin-bottom: 1rem;
+        }
+
+        .boot-progress-bar {
+            height: 100%;
+            background: linear-gradient(90deg, #00d4ff, #7b2ff7);
+            width: 0%;
+            animation: loading 3s ease-in-out forwards;
+        }
+
+        @keyframes loading {
+            0% { width: 0%; }
+            100% { width: 100%; }
+        }
+
+        .boot-status {
+            font-size: 0.9rem;
+            color: #888;
+            margin-top: 1rem;
+        }
+
+        .device-type {
+            font-size: 0.8rem;
+            color: #666;
+            margin-top: 0.5rem;
+        }
+
+        /* Startup Screen Styles */
+        #startup-screen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            display: none;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            z-index: 999;
+            transition: opacity 0.5s ease-out;
+        }
+
+        #startup-screen.active {
+            display: flex;
+        }
+
+        #startup-screen.hidden {
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        .startup-content {
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .startup-title {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            background: linear-gradient(45deg, #00d4ff, #7b2ff7);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .startup-subtitle {
+            font-size: 1.2rem;
+            color: #aaa;
+            margin-bottom: 2rem;
+        }
+
+        .startup-button {
+            padding: 1rem 2rem;
+            font-size: 1rem;
+            font-weight: 600;
+            background: linear-gradient(45deg, #00d4ff, #7b2ff7);
+            border: none;
+            border-radius: 50px;
+            color: #fff;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 4px 15px rgba(123, 47, 247, 0.4);
+        }
+
+        .startup-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(123, 47, 247, 0.6);
+        }
+
+        .startup-button:active {
+            transform: translateY(0);
+        }
+
+        /* App Form Styles */
+        #app-form {
+            display: none;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #16213e 0%, #0f3460 100%);
+            padding: 2rem;
+        }
+
+        #app-form.active {
+            display: block;
+            animation: fadeIn 0.5s ease-in;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        .app-container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 20px;
+            padding: 2rem;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .app-header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .app-title {
+            font-size: 2rem;
+            font-weight: 700;
+            background: linear-gradient(45deg, #00d4ff, #7b2ff7);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 0.5rem;
+        }
+
+        .app-description {
+            color: #aaa;
+            font-size: 0.9rem;
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+
+        .form-label {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: #ccc;
+            font-weight: 500;
+        }
+
+        .form-input {
+            width: 100%;
+            padding: 0.75rem 1rem;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            color: #fff;
+            font-size: 1rem;
+            transition: border-color 0.3s;
+        }
+
+        .form-input:focus {
+            outline: none;
+            border-color: #7b2ff7;
+            box-shadow: 0 0 0 3px rgba(123, 47, 247, 0.1);
+        }
+
+        .form-button {
+            width: 100%;
+            padding: 1rem;
+            font-size: 1rem;
+            font-weight: 600;
+            background: linear-gradient(45deg, #00d4ff, #7b2ff7);
+            border: none;
+            border-radius: 10px;
+            color: #fff;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .form-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 15px rgba(123, 47, 247, 0.4);
+        }
+
+        .form-button:active {
+            transform: translateY(0);
+        }
+
+        .device-info {
+            margin-top: 2rem;
+            padding: 1rem;
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .device-info-title {
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: #00d4ff;
+        }
+
+        .device-info-item {
+            font-size: 0.9rem;
+            color: #888;
+            margin-bottom: 0.25rem;
+        }
+
+        /* Toast Notification Styles */
+        .toast {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: linear-gradient(135deg, #00d4ff, #7b2ff7);
+            color: #fff;
+            padding: 1rem 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(123, 47, 247, 0.6);
+            z-index: 10000;
+            animation: slideIn 0.3s ease-out, slideOut 0.3s ease-in 2.7s;
+            display: none;
+        }
+
+        .toast.show {
+            display: block;
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateX(400px);
+                opacity: 0;
+            }
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideOut {
+            from {
+                transform: translateX(0);
+                opacity: 1;
+            }
+            to {
+                transform: translateX(400px);
+                opacity: 0;
+            }
+        }
+
+        .toast-title {
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+        }
+
+        .toast-message {
+            font-size: 0.9rem;
+            opacity: 0.9;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .boot-logo {
+                font-size: 2rem;
+            }
+
+            .boot-progress {
+                width: 250px;
+            }
+
+            .startup-title {
+                font-size: 2rem;
+            }
+
+            .startup-subtitle {
+                font-size: 1rem;
+            }
+
+            .app-container {
+                padding: 1.5rem;
+            }
+
+            .app-title {
+                font-size: 1.5rem;
+            }
+
+            .toast {
+                top: 10px;
+                right: 10px;
+                left: 10px;
+                max-width: calc(100% - 20px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Boot Screen -->
+    <div id="boot-screen" role="status" aria-live="polite" aria-label="System boot screen">
+        <div class="boot-logo">∞ VECTORS</div>
+        <div class="boot-progress">
+            <div class="boot-progress-bar"></div>
+        </div>
+        <div class="boot-status" aria-live="polite">Initializing system...</div>
+        <div class="device-type" id="device-type"></div>
+    </div>
+
+    <!-- Startup Screen -->
+    <div id="startup-screen" role="region" aria-label="Welcome screen">
+        <div class="startup-content">
+            <h1 class="startup-title">Welcome to Infinity Vectors</h1>
+            <p class="startup-subtitle">Your infinite possibilities start here</p>
+            <button class="startup-button" id="start-button">Start Application</button>
+        </div>
+    </div>
+
+    <!-- App Form -->
+    <div id="app-form">
+        <div class="app-container">
+            <div class="app-header">
+                <h1 class="app-title">Infinity Vectors OS</h1>
+                <p class="app-description">Configure your system settings</p>
+            </div>
+
+            <form id="main-form">
+                <div class="form-group">
+                    <label class="form-label" for="username">Username</label>
+                    <input type="text" id="username" class="form-input" placeholder="Enter your username" required>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label" for="email">Email</label>
+                    <input type="email" id="email" class="form-input" placeholder="Enter your email" required pattern="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}">
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label" for="system-name">System Name</label>
+                    <input type="text" id="system-name" class="form-input" placeholder="Name your system" required>
+                </div>
+
+                <button type="submit" class="form-button">Save Configuration</button>
+            </form>
+
+            <div class="device-info">
+                <div class="device-info-title">System Information</div>
+                <div class="device-info-item" id="info-device"></div>
+                <div class="device-info-item" id="info-screen"></div>
+                <div class="device-info-item" id="info-platform"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast" role="alert" aria-live="assertive">
+        <div class="toast-title" id="toast-title"></div>
+        <div class="toast-message" id="toast-message"></div>
+    </div>
+
+    <script>
+        // Configuration constants
+        const TABLET_BREAKPOINT = 768;
+        const MOBILE_DEVICE_PATTERNS = /mobile|android|iphone|ipad|ipod|blackberry|iemobile|opera mini|webos|windows phone|kindle/;
+        const TABLET_PATTERNS = /ipad|tablet/;
+        const PHONE_PATTERNS = /mobile|android|iphone|ipod|blackberry|iemobile|opera mini|webos|windows phone|kindle/;
+        
+        // Boot sequence timing constants (in milliseconds)
+        const BOOT_TIMING = {
+            FIRST_STATUS_UPDATE: 1000,
+            SECOND_STATUS_UPDATE: 2000,
+            BOOT_COMPLETE: 3500,
+            TRANSITION_DELAY: 500
+        };
+
+        // Device detection
+        function detectDevice() {
+            const width = window.innerWidth;
+            const userAgent = navigator.userAgent.toLowerCase();
+            
+            let deviceType = 'Computer';
+            
+            // Check screen width first for better accuracy
+            if (width <= TABLET_BREAKPOINT) {
+                // Further distinguish between Phone and Tablet using user agent
+                if (PHONE_PATTERNS.test(userAgent)) {
+                    deviceType = 'Phone';
+                } else if (TABLET_PATTERNS.test(userAgent)) {
+                    deviceType = 'Tablet';
+                } else {
+                    deviceType = 'Tablet/Phone';
+                }
+            } else if (MOBILE_DEVICE_PATTERNS.test(userAgent)) {
+                // Desktop-sized window but mobile user agent (unlikely but possible)
+                deviceType = 'Phone';
+            }
+            
+            return {
+                type: deviceType,
+                width: width,
+                height: window.innerHeight,
+                platform: navigator.platform,
+                userAgent: userAgent
+            };
+        }
+
+        // Boot sequence
+        const bootScreen = document.getElementById('boot-screen');
+        const startupScreen = document.getElementById('startup-screen');
+        const appForm = document.getElementById('app-form');
+        const deviceTypeElement = document.getElementById('device-type');
+        const bootStatus = document.querySelector('.boot-status');
+
+        // Display device information
+        const deviceInfo = detectDevice();
+        deviceTypeElement.textContent = `Device: ${deviceInfo.type}`;
+
+        // Boot animation sequence
+        setTimeout(() => {
+            bootStatus.textContent = 'Loading system components...';
+        }, BOOT_TIMING.FIRST_STATUS_UPDATE);
+
+        setTimeout(() => {
+            bootStatus.textContent = 'Preparing startup...';
+        }, BOOT_TIMING.SECOND_STATUS_UPDATE);
+
+        setTimeout(() => {
+            // Hide boot screen
+            bootScreen.classList.add('hidden');
+            
+            // Show startup screen after boot, after transition ends
+            bootScreen.addEventListener('transitionend', function handler(e) {
+                // Only respond to opacity or transform transition (if multiple transitions)
+                // Remove listener after firing
+                bootScreen.removeEventListener('transitionend', handler);
+                bootScreen.style.display = 'none';
+                startupScreen.classList.add('active');
+            });
+        }, BOOT_TIMING.BOOT_COMPLETE);
+
+        // Toast notification helper function
+        function showToast(title, message) {
+            const toast = document.getElementById('toast');
+            const toastTitle = document.getElementById('toast-title');
+            const toastMessage = document.getElementById('toast-message');
+            
+            toastTitle.textContent = title;
+            toastMessage.textContent = message;
+            toast.classList.add('show');
+            
+            // Auto-hide after 3 seconds
+            setTimeout(() => {
+                toast.classList.remove('show');
+            }, 3000);
+        }
+
+        // Startup screen to app transition
+        const startToApp = () => {
+            startupScreen.classList.add('hidden');
+            
+            setTimeout(() => {
+                startupScreen.style.display = 'none';
+                appForm.classList.add('active');
+                
+                // Populate device info in app
+                document.getElementById('info-device').textContent = `Device Type: ${deviceInfo.type}`;
+                document.getElementById('info-screen').textContent = `Screen: ${deviceInfo.width}x${deviceInfo.height}`;
+                document.getElementById('info-platform').textContent = `Platform: ${deviceInfo.platform}`;
+            }, BOOT_TIMING.TRANSITION_DELAY);
+        };
+
+        // Startup screen button click handler
+        document.getElementById('start-button').addEventListener('click', startToApp);
+
+        // Keyboard navigation support for startup screen
+        document.getElementById('start-button').addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') {
+                e.preventDefault();
+                startToApp();
+            }
+        });
+
+        // Form submission handler
+        document.getElementById('main-form').addEventListener('submit', (e) => {
+            e.preventDefault();
+            
+            const formData = {
+                username: document.getElementById('username').value,
+                email: document.getElementById('email').value,
+                systemName: document.getElementById('system-name').value,
+                device: deviceInfo
+            };
+            
+            // Show toast notification instead of alert
+            showToast('Configuration Saved!', `Username: ${formData.username}, System: ${formData.systemName}`);
+        });
+
+        // Handle window resize
+        window.addEventListener('resize', () => {
+            const newDeviceInfo = detectDevice();
+            document.getElementById('info-screen').textContent = `Screen: ${newDeviceInfo.width}x${newDeviceInfo.height}`;
+            document.getElementById('info-device').textContent = `Device Type: ${newDeviceInfo.type}`;
+            // Update global deviceInfo so form submission uses latest info
+            deviceInfo.type = newDeviceInfo.type;
+            deviceInfo.width = newDeviceInfo.width;
+            deviceInfo.height = newDeviceInfo.height;
+            deviceInfo.platform = newDeviceInfo.platform;
+            deviceInfo.userAgent = newDeviceInfo.userAgent;
+        });
+    </script>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>INFINITY · PewPi Secure Portal</title>
+<meta name="color-scheme" content="dark"/>
+<style>
+:root {
+  --bg: radial-gradient(circle at top, #0f172a 0%, #030712 50%, #000 100%);
+  --panel: rgba(15,23,42,.35);
+  --border: rgba(148,163,184,.12);
+  --accent: #38bdf8;
+  --text: #e2e8f0;
+  --muted: #94a3b8;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+*{box-sizing:border-box;}
+body{margin:0;min-height:100vh;background:var(--bg);color:var(--text);}
+.hidden{display:none!important;}
+/* LOGIN */
+#loginScreen{min-height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;padding:35px 12px 45px;gap:18px;}
+.login-card{background:radial-gradient(circle,rgba(4,21,43,.7),rgba(1,3,7,.6));backdrop-filter:blur(14px);border:1px solid rgba(18,181,255,.1);border-top:1px solid rgba(18,181,255,.3);max-width:460px;width:100%;border-radius:20px;padding:22px 19px 26px;box-shadow:0 18px 48px rgba(0,0,0,.28);}
+.brandTitle{font-size:36px;font-weight:800;letter-spacing:.24em;text-align:center;background:linear-gradient(120deg,#23b0ff,#8a7cff 60%,#fff);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:4px;}
+.subtitle-center{text-align:center;color:var(--muted);font-size:14px;margin-bottom:18px;}
+.badge-inline{display:inline-flex;align-items:center;gap:8px;background:rgba(1,110,146,.32);border:1px solid rgba(2,219,255,.28);color:#e2f3ff;border-radius:999px;padding:6px 13px;font-weight:600;font-size:13px;margin:0 auto 12px;}
+.form-group{display:flex;flex-direction:column;gap:5px;margin-bottom:11px;}
+label{font-size:13px;color:var(--muted);font-weight:500;}
+input{background:rgba(0,0,0,.38);border:1px solid rgba(13,148,136,.25);border-radius:12px;padding:10px 12px;font-size:14.5px;color:var(--text);outline:none;}
+input:focus{border-color:rgba(18,181,255,.8);box-shadow:0 0 0 1px rgba(18,181,255,.4);}
+.btn-primary{width:100%;background:linear-gradient(115deg,#47c3ff 0%,#6062ff 70%);border:none;color:#fff;font-weight:700;border-radius:999px;padding:11px 18px;font-size:15px;cursor:pointer;margin-top:10px;box-shadow:0 16px 40px rgba(96,98,255,.35);}
+.tiny-link{margin-top:12px;text-align:center;font-size:13.5px;color:var(--muted);}
+.tiny-link button{background:none;border:none;color:#5fd4ff;font-weight:600;cursor:pointer;}
+/* DASHBOARD */
+#dashboard{min-height:100vh;display:flex;flex-direction:column;}
+.topbar{display:flex;align-items:center;justify-content:space-between;padding:14px;background:rgba(3,6,18,.65);border-bottom:1px solid rgba(16,185,232,.1);backdrop-filter:blur(18px);}
+.logo-main{font-weight:700;letter-spacing:.22em;font-size:22px;background:linear-gradient(112deg,#23b0ff 0%,#b1c7ff 82%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;}
+.user-controls{display:flex;gap:8px;align-items:center;}
+.btn-small{background:rgba(15,118,178,.16);border:1px solid rgba(56,189,248,.3);color:#fff;border-radius:12px;padding:6px 14px 5px;font-size:13px;cursor:pointer;}
+.content-wrap{display:flex;flex-direction:column;gap:16px;padding:12px 14px 65px;}
+.hero-card{background:rgba(1,11,21,.68);border:1px solid rgba(18,181,255,.09);border-radius:20px;padding:18px;box-shadow:0 16px 46px rgba(0,0,0,.2);}
+.hero-title{font-size:22px;font-weight:700;margin-bottom:4px;}
+.hero-stats{display:flex;gap:14px;flex-wrap:wrap;}
+.stat-box{background:rgba(0,0,0,.14);border:1px solid rgba(18,181,255,.07);border-left:2px solid rgba(82,124,254,.9);border-radius:15px;padding:10px 12px;flex:1 1 120px;min-width:124px;}
+.stat-label{font-size:12px;color:var(--muted);margin-bottom:4px;}
+.stat-value{font-size:25px;font-weight:700;}
+.portal-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:15px;}
+.portal-card{background:rgba(2,13,26,.42);border:1px solid rgba(148,163,184,.06);border-left:2px solid rgba(110,231,183,.8);border-radius:18px;padding:16px;}
+.portal-card h3{margin:0;font-size:16px;}
+.portal-card p{margin:4px 0 0;font-size:13px;color:var(--muted);}
+.portal-card:hover{background:rgba(4,30,60,.6);}
+#rogersBubble{position:fixed;bottom:20px;right:20px;width:58px;height:58px;background:linear-gradient(135deg,#38bdf8,#6366f1);border-radius:50%;display:flex;align-items:center;justify-content:center;color:white;font-size:22px;box-shadow:0 0 20px rgba(59,130,246,.4);cursor:pointer;z-index:9999;}
+</style>
+</head>
+<body>
+
+<section id="loginScreen">
+  <div class="login-card" id="loginCard">
+    <div class="brandTitle">INFINITY</div>
+    <div class="subtitle-center">SECURE PORTAL ACCESS</div>
+    <div class="badge-inline">🔐 PewPi AI-to-AI Encryption Active</div>
+    <div class="form-group">
+      <label>Username</label>
+      <input id="loginUser" placeholder="Enter your username">
+    </div>
+    <div class="form-group">
+      <label>Password</label>
+      <input id="loginPass" type="password" placeholder="Enter your password">
+    </div>
+    <button class="btn-primary" onclick="login()">SIGN IN SECURELY</button>
+    <div class="tiny-link">Don't have an account? <button onclick="showCreate()">Create one</button></div>
+    <div id="loginMsg" class="tiny-link" style="color:#fca5a5;"></div>
+  </div>
+</section>
+
+<section id="dashboard" class="hidden">
+  <header class="topbar">
+    <div class="logo-main">PEWPI · INFINITY</div>
+    <div class="user-controls">
+      <button class="btn-small" onclick="logout()">Logout</button>
+    </div>
+  </header>
+  <main class="content-wrap">
+    <div class="hero-card">
+      <div class="hero-title" id="welcomeTitle">Welcome back!</div>
+      <div class="hero-stats">
+        <div class="stat-box"><div class="stat-label">TOKEN BALANCE</div><div class="stat-value" id="tokenCount">0</div></div>
+        <div class="stat-box"><div class="stat-label">ACTIVITIES</div><div class="stat-value" id="actCount">0</div></div>
+        <div class="stat-box"><div class="stat-label">STATUS</div><div class="stat-value" id="sessionStatus">Active</div></div>
+      </div>
+    </div>
+    <div class="portal-grid">
+      <div class="portal-card"><h3>⚡ Signal Generator</h3><p>AI-controlled tone & frequency tools.</p></div>
+      <div class="portal-card"><h3>🎵 Pi Singer</h3><p>Convert Pi digits into harmonics.</p></div>
+      <div class="portal-card"><h3>🧊 3D Imaging</h3><p>Render Infinity objects in real-time 3D.</p></div>
+      <div class="portal-card"><h3>🔭 Hydrogen Portal</h3><p>Quantum visualization & gateway tools.</p></div>
+    </div>
+  </main>
+</section>
+
+<div id="rogersBubble" onclick="toggleRogers()">🧠</div>
+
+<script>
+function showCreate(){alert("Create function disabled for this demo.");}
+function showDashboard(u){document.getElementById('loginScreen').classList.add('hidden');document.getElementById('dashboard').classList.remove('hidden');document.getElementById('welcomeTitle').textContent="Welcome back, "+u+"!";}
+function login(){const u=document.getElementById('loginUser').value.trim();const p=document.getElementById('loginPass').value.trim();if(u==="Kris"&&p==="Kris"){showDashboard(u);}else{document.getElementById('loginMsg').textContent="Invalid login. Try Kris / Kris."}}
+function logout(){location.reload();}
+
+// Rogers AI panel
+function toggleRogers(){
+  let panel=document.getElementById('rogersPanel');
+  if(panel){panel.remove();return;}
+  panel=document.createElement('div');
+  panel.id='rogersPanel';
+  panel.style.cssText='position:fixed;bottom:90px;right:20px;width:340px;background:rgba(1,9,18,.97);border:1px solid rgba(18,181,255,.3);border-radius:16px;padding:12px;color:#e0f2fe;z-index:9999;';
+  panel.innerHTML='<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px;"><strong>Rogers AI</strong><button onclick="toggleRogers()" style="background:none;border:none;color:#38bdf8;font-size:18px;cursor:pointer;">×</button></div><div id="rogersOut" style="max-height:160px;overflow-y:auto;margin-bottom:6px;font-size:13.5px;color:#cbd5e1;"></div><textarea id="rogersIn" placeholder="Ask Infinity..." style="width:100%;border-radius:8px;padding:6px;font-size:13px;color:black;"></textarea><button id="rogersSend" style="margin-top:6px;background:#38bdf8;border:none;color:white;padding:5px 10px;border-radius:8px;">Send</button>';
+  document.body.appendChild(panel);
+  panel.querySelector('#rogersSend').onclick=async()=>{
+    const q=panel.querySelector('#rogersIn').value.trim();
+    if(!q)return;
+    const out=panel.querySelector('#rogersOut');
+    out.insertAdjacentHTML('beforeend',`<div><b>You:</b> ${q}</div>`);
+    panel.querySelector('#rogersIn').value='';
+    out.insertAdjacentHTML('beforeend',`<div style="color:#93c5fd;"><b>Rogers:</b> (no response)</div>`);
+  };
+}
+</script>
+</body>
+</html>
+<!-- C13B0_TOKEN_BLOCK -->
+<style>
+.c13b0{font-family:monospace;background:#0b0f14;color:#e6edf3;padding:16px}
+.c13b0 .value{font-size:2em;color:#ffd700}
+.c13b0 button{padding:12px;font-size:1em;width:100%;margin-top:8px}
+</style>
+
+<div class="c13b0">
+  <h2>🧱🍄⭐ Token</h2>
+  <div class="value">Value: 40</div>
+  <p>🧱 Base • 🍄 Growth • ⭐ Star Power</p>
+
+  <h3>Support / Acquire</h3>
+  <p>This token represents real work, research, and structure.</p>
+
+  <a href="https://www.paypal.com/paypalme/watsonkris61@gmail.com/40" target="_blank">
+    <button>Pay $40 via PayPal</button>
+  </a>
+
+  <p style="font-size:0.8em;">
+    PayPal recipient: watsonkris61@gmail.com<br/>
+    Repo: Infinity-Vectors<br/>
+    Generated: 2025-12-20T15:41:35Z
+  </p>
+</div>

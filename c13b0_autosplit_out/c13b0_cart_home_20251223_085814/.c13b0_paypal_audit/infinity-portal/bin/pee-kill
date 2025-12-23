@@ -1,0 +1,5 @@
+#!/data/data/com.termux/files/usr/bin/bash
+echo "[∞] Killing Portal/Chat..."
+pkill -f "python3 .*portal.py" 2>/dev/null || true
+pkill -f "python3 .*chat.py"   2>/dev/null || true
+echo "[∞] Done."

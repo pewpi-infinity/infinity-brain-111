@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Infinity Portal - Dashboard</title>
+  <style>
+    /* ========== Root Variables ========== */
+    :root {
+      --bg-dark: #0a0e1a;
+      --bg-panel: #141827;
+      --bg-card: #1a1f35;
+      --accent-primary: #00d4ff;
+      --accent-secondary: #7b2cbf;
+      --text-primary: #e9ecef;
+      --text-muted: #8b95a8;
+      --border-glow: rgba(0, 212, 255, 0.3);
+      --shadow-glow: 0 0 20px rgba(0, 212, 255, 0.15);
+      --success-color: #22c55e;
+      --warning-color: #f59e0b;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #0a0e1a 0%, #1a1f35 100%);
+      color: var(--text-primary);
+      min-height: 100vh;
+      padding: 0;
+      position: relative;
+      overflow-x: hidden;
+    }
+
+    /* Animated background effect */
+    body::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: radial-gradient(circle, rgba(0, 212, 255, 0.03) 1px, transparent 1px);
+      background-size: 40px 40px;
+      animation: drift 25s linear infinite;
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    @keyframes drift {
+      0% { transform: translate(0, 0) rotate(0deg); }
+      100% { transform: translate(40px, 40px) rotate(5deg); }
+    }
+
+    /* Header */
+    .header {
+      background: var(--bg-panel);
+      border-bottom: 1px solid var(--border-glow);
+      padding: 20px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .logo-area {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .logo-text {
+      font-size: 28px;
+      font-weight: 900;
+      letter-spacing: 2px;
+      background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .user-info {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .user-name {
+      color: var(--text-primary);
+      font-weight: 600;
+    }
+
+    .logout-btn {
+      background: rgba(239, 68, 68, 0.1);
+      border: 1px solid rgba(239, 68, 68, 0.3);
+      color: #fca5a5;
+      padding: 8px 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: 600;
+      transition: all 0.3s ease;
+    }
+
+    .logout-btn:hover {
+      background: rgba(239, 68, 68, 0.2);
+      transform: translateY(-2px);
+    }
+
+    /* Main Content */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 30px 20px;
+      position: relative;
+      z-index: 1;
+    }
+
+    /* Welcome Section */
+    .welcome-card {
+      background: var(--bg-panel);
+      border-radius: 20px;
+      padding: 40px;
+      margin-bottom: 30px;
+      box-shadow: var(--shadow-glow), 0 10px 40px rgba(0, 0, 0, 0.5);
+      border: 1px solid var(--border-glow);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .welcome-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, transparent, var(--accent-primary), transparent);
+    }
+
+    .welcome-card h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+      background: linear-gradient(135deg, var(--accent-primary), white);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .welcome-subtitle {
+      color: var(--text-muted);
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .stat-card {
+      background: var(--bg-card);
+      padding: 20px;
+      border-radius: 12px;
+      border: 1px solid rgba(0, 212, 255, 0.2);
+    }
+
+    .stat-label {
+      color: var(--text-muted);
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 8px;
+    }
+
+    .stat-value {
+      font-size: 28px;
+      font-weight: 700;
+      color: var(--accent-primary);
+    }
+
+    /* Activity Log */
+    .activity-section {
+      background: var(--bg-panel);
+      border-radius: 20px;
+      padding: 30px;
+      box-shadow: var(--shadow-glow), 0 10px 40px rgba(0, 0, 0, 0.5);
+      border: 1px solid var(--border-glow);
+    }
+
+    .activity-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 25px;
+    }
+
+    .activity-header h2 {
+      font-size: 24px;
+      color: var(--text-primary);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .ai-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(0, 212, 255, 0.1);
+      padding: 4px 10px;
+      border-radius: 12px;
+      font-size: 11px;
+      color: var(--accent-primary);
+      border: 1px solid rgba(0, 212, 255, 0.3);
+      animation: pulse 2s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.6; }
+    }
+
+    .ai-badge::before {
+      content: '🤖';
+    }
+
+    .clear-btn {
+      background: rgba(239, 68, 68, 0.1);
+      border: 1px solid rgba(239, 68, 68, 0.3);
+      color: #fca5a5;
+      padding: 6px 12px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 13px;
+      font-weight: 600;
+    }
+
+    .clear-btn:hover {
+      background: rgba(239, 68, 68, 0.2);
+    }
+
+    .activity-log {
+      max-height: 500px;
+      overflow-y: auto;
+      padding-right: 10px;
+    }
+
+    .activity-log::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    .activity-log::-webkit-scrollbar-track {
+      background: var(--bg-card);
+      border-radius: 4px;
+    }
+
+    .activity-log::-webkit-scrollbar-thumb {
+      background: rgba(0, 212, 255, 0.3);
+      border-radius: 4px;
+    }
+
+    .activity-log::-webkit-scrollbar-thumb:hover {
+      background: rgba(0, 212, 255, 0.5);
+    }
+
+    .activity-item {
+      background: var(--bg-card);
+      border-left: 3px solid var(--accent-primary);
+      padding: 15px 20px;
+      margin-bottom: 15px;
+      border-radius: 8px;
+      animation: slideIn 0.5s ease-out;
+      position: relative;
+      overflow: hidden;
+    }
+
+    @keyframes slideIn {
+      from {
+        opacity: 0;
+        transform: translateX(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    .activity-item::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 3px;
+      height: 100%;
+      background: var(--accent-primary);
+      box-shadow: 0 0 10px var(--accent-primary);
+    }
+
+    .activity-time {
+      font-size: 12px;
+      color: var(--text-muted);
+      margin-bottom: 5px;
+    }
+
+    .activity-action {
+      font-weight: 600;
+      color: var(--text-primary);
+      margin-bottom: 5px;
+      font-size: 15px;
+    }
+
+    .activity-details {
+      color: var(--text-muted);
+      font-size: 14px;
+      line-height: 1.5;
+    }
+
+    .activity-narrator {
+      margin-top: 8px;
+      padding: 10px;
+      background: rgba(0, 212, 255, 0.05);
+      border-radius: 6px;
+      font-style: italic;
+      color: var(--accent-primary);
+      font-size: 13px;
+      border-left: 2px solid var(--accent-primary);
+    }
+
+    .empty-state {
+      text-align: center;
+      padding: 60px 20px;
+      color: var(--text-muted);
+    }
+
+    .empty-state-icon {
+      font-size: 64px;
+      margin-bottom: 20px;
+      opacity: 0.3;
+    }
+
+    /* Quick Actions */
+    .quick-actions {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .action-card {
+      background: var(--bg-panel);
+      border-radius: 15px;
+      padding: 25px;
+      border: 1px solid var(--border-glow);
+      cursor: pointer;
+      transition: all 0.3s ease;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .action-card:hover {
+      transform: translateY(-5px);
+      box-shadow: var(--shadow-glow);
+      border-color: var(--accent-primary);
+    }
+
+    .action-icon {
+      font-size: 32px;
+      margin-bottom: 15px;
+    }
+
+    .action-title {
+      font-weight: 700;
+      font-size: 18px;
+      margin-bottom: 8px;
+      color: var(--text-primary);
+    }
+
+    .action-desc {
+      color: var(--text-muted);
+      font-size: 14px;
+      line-height: 1.4;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .header {
+        padding: 15px 20px;
+        flex-direction: column;
+        gap: 15px;
+      }
+
+      .welcome-card {
+        padding: 25px;
+      }
+
+      .welcome-card h1 {
+        font-size: 28px;
+      }
+
+      .stats-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .activity-section {
+        padding: 20px;
+      }
+
+      .activity-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <div class="header">
+    <div class="logo-area">
+      <div class="logo-text">INFINITY</div>
+      <span class="ai-badge">AI Shadow Agent Active</span>
+    </div>
+    <div class="user-info">
+      <div class="user-name">👤 <span id="username"></span></div>
+      <button class="logout-btn" onclick="handleLogout()">Logout</button>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <div class="container">
+    <!-- Welcome Card -->
+    <div class="welcome-card">
+      <h1>Welcome back, <span id="welcome-username"></span>! 🚀</h1>
+      <p class="welcome-subtitle">Your secure Infinity Portal is protected by PewPi AI-to-AI encryption</p>
+      
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-label">Total Activities</div>
+          <div class="stat-value" id="total-activities">0</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-label">Session Status</div>
+          <div class="stat-value" style="color: var(--success-color);">Active</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-label">Security Level</div>
+          <div class="stat-value">Maximum</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Activity Log -->
+    <div class="activity-section">
+      <div class="activity-header">
+        <h2>
+          Activity Timeline
+          <span class="ai-badge">Live Narration</span>
+        </h2>
+        <button class="clear-btn" onclick="clearActivityLog()">Clear History</button>
+      </div>
+      
+      <div class="activity-log" id="activity-log">
+        <div class="empty-state">
+          <div class="empty-state-icon">📋</div>
+          <p>No activities yet. Your AI shadow agent will narrate your journey here.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Quick Actions -->
+    <div class="quick-actions">
+      <a href="pewpi-about.html" class="action-card">
+        <div class="action-icon">🔐</div>
+        <div class="action-title">PewPi Security</div>
+        <div class="action-desc">Learn about your AI-to-AI encryption protection</div>
+      </a>
+      
+      <a href="infinity-portal-unified.html" class="action-card">
+        <div class="action-icon">🌐</div>
+        <div class="action-title">Infinity Portal</div>
+        <div class="action-desc">Access the main unified portal</div>
+      </a>
+      
+      <div class="action-card" onclick="testActivity()">
+        <div class="action-icon">⚡</div>
+        <div class="action-title">Test Activity</div>
+        <div class="action-desc">Generate a test activity log entry</div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // ========== Session Management ==========
+    
+    function checkAuth() {
+      const currentUser = localStorage.getItem('infinity_current_user');
+      const sessionToken = localStorage.getItem('infinity_session_token');
+      
+      if (!currentUser || !sessionToken) {
+        window.location.href = 'login.html';
+        return null;
+      }
+      
+      return currentUser;
+    }
+
+    function handleLogout() {
+      const username = localStorage.getItem('infinity_current_user');
+      
+      // Log activity
+      logActivity('user_logout', `User logged out: ${username}`);
+      
+      // Clear session
+      localStorage.removeItem('infinity_current_user');
+      localStorage.removeItem('infinity_session_token');
+      
+      // Redirect
+      window.location.href = 'login.html';
+    }
+
+    // ========== Activity Log System ==========
+    
+    function logActivity(action, details) {
+      const logs = JSON.parse(localStorage.getItem('infinity_activity_log') || '[]');
+      const username = localStorage.getItem('infinity_current_user') || 'system';
+      
+      logs.push({
+        timestamp: new Date().toISOString(),
+        action: action,
+        details: details,
+        user: username
+      });
+      
+      localStorage.setItem('infinity_activity_log', JSON.stringify(logs));
+      loadActivityLog();
+    }
+
+    function loadActivityLog() {
+      const logs = JSON.parse(localStorage.getItem('infinity_activity_log') || '[]');
+      const logContainer = document.getElementById('activity-log');
+      
+      if (logs.length === 0) {
+        logContainer.innerHTML = `
+          <div class="empty-state">
+            <div class="empty-state-icon">📋</div>
+            <p>No activities yet. Your AI shadow agent will narrate your journey here.</p>
+          </div>
+        `;
+        document.getElementById('total-activities').textContent = '0';
+        return;
+      }
+
+      // Sort by timestamp (newest first)
+      logs.sort((a, b) => new Date(b.timestamp) - new Date(a.timestamp));
+      
+      // Update stats
+      document.getElementById('total-activities').textContent = logs.length;
+      
+      // Generate activity items with AI narration
+      logContainer.innerHTML = logs.map(log => {
+        const time = new Date(log.timestamp);
+        const formattedTime = time.toLocaleString();
+        const narrator = generateNarration(log.action, log.details, log.user);
+        
+        return `
+          <div class="activity-item">
+            <div class="activity-time">⏱️ ${formattedTime}</div>
+            <div class="activity-action">${getActionEmoji(log.action)} ${getActionTitle(log.action)}</div>
+            <div class="activity-details">${log.details}</div>
+            <div class="activity-narrator">
+              <strong>AI Shadow Agent:</strong> ${narrator}
+            </div>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function getActionEmoji(action) {
+      const emojiMap = {
+        'user_registered': '✨',
+        'user_login': '🔓',
+        'user_logout': '🔒',
+        'login_failed': '⚠️',
+        'settings_changed': '⚙️',
+        'test_action': '🧪',
+        'page_view': '👁️'
+      };
+      return emojiMap[action] || '📌';
+    }
+
+    function getActionTitle(action) {
+      const titleMap = {
+        'user_registered': 'New Account Created',
+        'user_login': 'User Login',
+        'user_logout': 'User Logout',
+        'login_failed': 'Login Failed',
+        'settings_changed': 'Settings Updated',
+        'test_action': 'Test Action',
+        'page_view': 'Page Viewed'
+      };
+      return titleMap[action] || 'Activity';
+    }
+
+    function generateNarration(action, details, user) {
+      const narrations = {
+        'user_registered': [
+          `A new soul joins the Infinity network! ${user} has been securely onboarded with PewPi encryption protecting their credentials.`,
+          `Welcome to the future, ${user}! Your identity is now shielded by our dual-AI encryption layers.`,
+          `Registration complete! ${user}'s password has been encoded by two AI agents working in perfect harmony.`
+        ],
+        'user_login': [
+          `${user} has successfully authenticated! The PewPi decryption sequence verified their identity in microseconds.`,
+          `Welcome back, ${user}! Your encrypted credentials were validated by our AI security system.`,
+          `Login successful! ${user}'s session is now active and protected by quantum-inspired encryption.`
+        ],
+        'user_logout': [
+          `${user} has safely disconnected. All session data has been secured and encrypted.`,
+          `Farewell for now, ${user}! Your session ended gracefully with all traces encrypted.`,
+          `${user} logged out. The AI shadow agent preserves this moment in the secure timeline.`
+        ],
+        'login_failed': [
+          `Security alert! An unsuccessful login attempt was detected and logged for ${user}.`,
+          `The PewPi system rejected invalid credentials - your security remains intact.`,
+          `Failed authentication attempt blocked. The dual-AI verification system is vigilant.`
+        ],
+        'test_action': [
+          `${user} initiated a test action to witness the AI shadow agent in action!`,
+          `Demonstration mode activated! The AI chronicles every moment of your journey.`,
+          `Test successful! This is how your activities are narrated in real-time by AI.`
+        ]
+      };
+      
+      const options = narrations[action] || [
+        `${user} performed an action: ${details}`,
+        `Activity logged for ${user} - the AI shadow agent is always watching (in a good way!).`
+      ];
+      
+      return options[Math.floor(Math.random() * options.length)];
+    }
+
+    function clearActivityLog() {
+      if (confirm('Are you sure you want to clear all activity history?')) {
+        localStorage.setItem('infinity_activity_log', JSON.stringify([]));
+        loadActivityLog();
+      }
+    }
+
+    function testActivity() {
+      logActivity('test_action', 'User tested the activity logging system to see AI narration in action');
+    }
+
+    // ========== Initialize Dashboard ==========
+    
+    function init() {
+      // Check authentication
+      const username = checkAuth();
+      if (!username) return;
+      
+      // Display username
+      document.getElementById('username').textContent = username;
+      document.getElementById('welcome-username').textContent = username;
+      
+      // Log dashboard view
+      logActivity('page_view', `Dashboard accessed by ${username}`);
+      
+      // Load activity log
+      loadActivityLog();
+    }
+
+    // Run initialization
+    init();
+  </script>
+</body>
+</html>

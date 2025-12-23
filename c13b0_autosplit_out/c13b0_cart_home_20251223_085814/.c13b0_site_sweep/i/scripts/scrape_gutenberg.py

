@@ -1,0 +1,30 @@
+#!/usr/bin/env python3
+"""
+Very small Gutenberg fetcher for testing. Downloads a few Project Gutenberg plaintext URLs.
+This is a placeholder — replace with robust scraping/parsing as you need.
+"""
+import os
+import requests
+
+SAMPLE_BOOK_URLS = [
+    # Example text files on Gutenberg (IDs must be verified)
+    # Replace the URLs with the exact plaintext URLs you want.
+    "https://www.gutenberg.org/files/1342/1342-0.txt",  # Pride and Prejudice (example)
+    "https://www.gutenberg.org/files/11/11-0.txt",      # Alice's Adventures in Wonderland (example)
+]
+
+def fetch_sample_texts(out_dir):
+    os.makedirs(out_dir, exist_ok=True)
+    for url in SAMPLE_BOOK_URLS:
+        try:
+            print("Fetching:", url)
+            r = requests.get(url, timeout=30)
+            r.raise_for_status()
+            # generate a safe filename from url
+            name = url.rstrip("/").split("/")[-1]
+            path = os.path.join(out_dir, name)
+            with open(path, "w", encoding="utf-8") as f:
+                f.write(r.text)
+            print("Saved:", path)
+        except Exception as e:
+            print("Failed to fetch", url, ":", e)

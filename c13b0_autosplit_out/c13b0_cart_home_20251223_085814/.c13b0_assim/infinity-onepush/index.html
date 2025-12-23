@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<!-- 🐶 PEWPI SIGN-IN (GLOBAL) -->
+<div id="pewpi-gate">
+  <h1>🐶 pewpi</h1>
+  <input id="pewpi_user" placeholder="Handle">
+  <button onclick="pewpiUnlock()">Enter</button>
+</div>
+<script>
+function pewpiUnlock(){
+  localStorage.setItem("pewpi_user", document.getElementById("pewpi_user").value);
+  document.getElementById("pewpi-gate").style.display="none";
+  document.body.classList.add("pewpi-live");
+}
+if(localStorage.getItem("pewpi_user")){
+  document.addEventListener("DOMContentLoaded",()=>{
+    const g=document.getElementById("pewpi-gate");
+    if(g) g.style.display="none";
+    document.body.classList.add("pewpi-live");
+  });
+}
+</script>
+<style>
+#pewpi-gate{position:fixed;inset:0;background:#0e0e0e;color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:9999}
+#pewpi-gate button{background:#ff69b4;border:0;padding:10px 18px}
+body:not(.pewpi-live)>*:not(#pewpi-gate){filter:blur(6px);pointer-events:none}
+</style>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>∞ infinity-onepush</title>
+  <style>
+    body { font-family: sans-serif; background: #111; color: #eee; text-align: center; }
+    h1 { color: #6cf; }
+    #note { font-size: 2em; margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <h1>Infinity Portal</h1>
+  <p>First module: Pitch Detector</p>
+  <button id="startBtn">Start Listening</button>
+  <div id="note">🎵 Waiting...</div>
+
+  <script>
+    const noteElem = document.getElementById('note');
+    const startBtn = document.getElementById('startBtn');
+
+    const noteStrings = ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"];
+
+    function getNote(freq) {
+      const A4 = 440;
+      const semitone = 69 + 12 * Math.log2(freq / A4);
+      return Math.round(semitone);
+    }
+
+    function noteFromPitch(freq) {
+      const noteNum = getNote(freq);
+      return noteStrings[noteNum % 12];
+    }
+
+    async function start() {
+      const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+      const audioCtx = new AudioContext();
+      const source = audioCtx.createMediaStreamSource(stream);
+      const analyser = audioCtx.createAnalyser();
+      source.connect(analyser);
+
+      const bufferLength = analyser.fftSize = 2048;
+      const data = new Float32Array(bufferLength);
+
+      function update() {
+        analyser.getFloatTimeDomainData(data);
+        let max = 0, idx = 0;
+        for (let i = 0; i < data.length; i++) {
+          if (Math.abs(data[i]) > max) { max = Math.abs(data[i]); idx = i; }
+        }
+        // crude pitch estimate
+        const freq = audioCtx.sampleRate / idx;
+        if (freq > 50 && freq < 2000) {
+          noteElem.textContent = "Note: " + noteFromPitch(freq);
+        }
+        requestAnimationFrame(update);
+      }
+      update();
+    }
+
+    startBtn.onclick = start;
+  </script>
+</body>
+</html>
+<!-- C14_TOKEN_PANEL_START -->
+<div style="font-family:monospace;background:#0b0f14;color:#e6edf3;padding:16px;margin:16px 0">
+  <div style="font-size:2.4em;color:#ffd700;text-align:center">
+    🧱🍄⭐ Token Value: 29
+  </div>
+
+  <p style="text-align:center">
+    🧱 Base &nbsp; 🍄 Growth &nbsp; ⭐ Star Power
+  </p>
+
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="get" target="_blank">
+    <input type="hidden" name="cmd" value="_xclick">
+    <input type="hidden" name="business" value="watsonkris61@gmail.com">
+    <input type="hidden" name="item_name" value="infinity-onepush Token">
+    <input type="hidden" name="amount" value="29">
+    <input type="hidden" name="currency_code" value="USD">
+    <button style="width:100%;padding:14px;font-size:1em">
+      Pay $29 via PayPal
+    </button>
+  </form>
+
+  <p style="font-size:0.75em;text-align:center;margin-top:10px">
+    Repository owner: pewpi-infinity<br/>
+    Contact: marvaseater@gmail.com<br/>
+    Settlement handled externally via PayPal
+  </p>
+</div>
+<!-- C14_TOKEN_PANEL_END -->

@@ -1,0 +1,47 @@
+name: ♻️ Infinity Self-Repair System
+
+on:
+  workflow_run:
+    workflows: ["🌐 Infinity Auto Deploy"]
+    types:
+      - completed
+
+jobs:
+  repair:
+    if: ${{ github.event.workflow_run.conclusion != 'success' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Log failure info
+        run: |
+          echo "🚨 Infinity Deploy failed on ${{ github.repository }} at ${{ github.event.workflow_run.head_branch }}"
+          echo "🧩 Attempting automated repair sequence..."
+
+      - name: Clean cache and temp files
+        run: |
+          rm -rf .cache || true
+          rm -rf node_modules || true
+          git fetch --prune
+          echo "✅ Cache cleared and branches pruned."
+
+      - name: Rebuild environment
+        run: |
+          pip install --upgrade pip
+          pip install flask
+          echo "🔄 Environment rebuilt."
+
+      - name: Trigger redeploy
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            github.rest.actions.createWorkflowDispatch({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              workflow_id: "infinity-deploy.yml",
+              ref: "main"
+            })
+            console.log("🧠 Infinity Repair triggered re-deploy successfully.")
+

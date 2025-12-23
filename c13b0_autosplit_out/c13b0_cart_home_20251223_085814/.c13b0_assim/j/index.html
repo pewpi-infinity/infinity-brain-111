@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<!-- 🐶 PEWPI SIGN-IN (GLOBAL) -->
+<div id="pewpi-gate">
+  <h1>🐶 pewpi</h1>
+  <input id="pewpi_user" placeholder="Handle">
+  <button onclick="pewpiUnlock()">Enter</button>
+</div>
+<script>
+function pewpiUnlock(){
+  localStorage.setItem("pewpi_user", document.getElementById("pewpi_user").value);
+  document.getElementById("pewpi-gate").style.display="none";
+  document.body.classList.add("pewpi-live");
+}
+if(localStorage.getItem("pewpi_user")){
+  document.addEventListener("DOMContentLoaded",()=>{
+    const g=document.getElementById("pewpi-gate");
+    if(g) g.style.display="none";
+    document.body.classList.add("pewpi-live");
+  });
+}
+</script>
+<style>
+#pewpi-gate{position:fixed;inset:0;background:#0e0e0e;color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:9999}
+#pewpi-gate button{background:#ff69b4;border:0;padding:10px 18px}
+body:not(.pewpi-live)>*:not(#pewpi-gate){filter:blur(6px);pointer-events:none}
+</style>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>∞ j</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <style>
+    :root {
+      --bg: #020712;
+      --panel: #050b18;
+      --border: #1b3d6b;
+      --accent: #29d9ff;
+      --text-main: #e9f4ff;
+      --text-soft: #a7c0e0;
+      --wallet: #21ff9c;
+    }
+
+    * { box-sizing: border-box; font-family: system-ui, sans-serif; }
+    body {
+      margin: 0;
+      background: radial-gradient(circle at top, #06142b 0, #020712 48%, #000 100%);
+      color: var(--text-main);
+      display: flex;
+      justify-content: center;
+      min-height: 100vh;
+    }
+
+    .shell { width: 100%; max-width: 960px; padding: 20px 14px 32px; }
+
+    header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 18px; }
+    .brand-line { font-size: 13px; color: var(--accent); letter-spacing: 0.25em; }
+    .header-title { font-size: 24px; font-weight: 800; letter-spacing: 0.06em; text-transform: uppercase; }
+
+    .portal-link { font-size: 13px; color: var(--text-soft); }
+    .portal-link::before { content: "⧉ "; }
+
+    .terminal-card {
+      background: radial-gradient(circle at top left, #0b1630, #050b18 48%, #020811);
+      border-radius: 22px;
+      padding: 18px 14px;
+      border: 1px solid rgba(45,120,210,0.6);
+      box-shadow: 0 0 45px rgba(0,0,0,0.7);
+    }
+
+    .button-row { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; margin-bottom: 16px; }
+    .pill-btn {
+      min-width: 120px; padding: 9px 16px;
+      background: rgba(5,15,30,0.85);
+      border: 1px solid rgba(104,168,255,0.6);
+      border-radius: 999px;
+      color: #dff3ff;
+      cursor: pointer;
+      font-size: 14px;
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+    .pill-btn.active { border-color: var(--accent); box-shadow: 0 0 12px var(--accent); }
+
+    .pill-btn.wallet { border-color: var(--wallet); color: var(--wallet); }
+    .pill-btn.wallet::before { content: "∞ "; }
+
+    .status-row {
+      display: flex; justify-content: space-between;
+      padding: 0 4px; margin-bottom: 10px;
+      font-size: 13px; color: var(--text-soft);
+    }
+    #modeLabel { color: var(--accent); }
+
+    .token-pill {
+      padding: 3px 8px; border-radius: 999px;
+      border: 1px solid #21ff9c;
+      background: rgba(0,255,163,0.12);
+      color: var(--wallet); font-weight: 600;
+    }
+
+    .console {
+      height: 260px;
+      background: rgba(0,0,0,0.5);
+      border: 1px solid rgba(35,70,130,0.7);
+      border-radius: 14px;
+      overflow-y: auto;
+      padding: 10px;
+      margin-bottom: 12px;
+      font-size: 14px;
+    }
+    .console-line { margin-bottom: 5px; }
+    .console-line.system { color: #93b7ff; }
+    .console-line.you { color: #7ef9ff; }
+    .console-line.ai { color: #ffd997; }
+
+    .input-row { display: flex; gap: 8px; align-items: center; }
+    .input-box {
+      flex: 1;
+      background: rgba(0,10,30,0.8);
+      border: 1px solid rgba(40,110,200,0.8);
+      border-radius: 999px;
+      padding: 8px 14px;
+    }
+    .input-box input { background: transparent; border: none; color: var(--text-main); width: 100%; }
+
+    .post-btn {
+      padding: 9px 22px;
+      background: linear-gradient(to bottom, #21ff9c, #15996c);
+      border-radius: 999px;
+      border: none;
+      color: #00130a;
+      font-weight: 800;
+      text-transform: uppercase;
+      cursor: pointer;
+    }
+
+    /* Visitor Widget (small) */
+    #visitorBox {
+      position: fixed;
+      top: 18px; right: 18px;
+      width: 145px; height: 85px;
+      background: rgba(0,20,40,0.82);
+      border: 1px solid #29d9ff;
+      border-radius: 14px;
+      padding: 8px 10px;
+      font-size: 12px;
+      box-shadow: 0 0 16px rgba(41,217,255,0.4);
+      z-index: 999;
+      transition: all 0.2s ease;
+      overflow: hidden;
+      cursor: pointer;
+    }
+
+    #visitorBox.expanded {
+      width: 300px; height: 220px; padding: 12px 14px;
+    }
+
+    #visitorMap {
+      width: 100%;
+      height: 110px;
+      margin-top: 6px;
+      background: rgba(0,60,70,0.15);
+      border-radius: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="shell">
+    <header>
+      <div>
+        <div class="brand-line">INFINITY OCTAVE OS</div>
+        <div class="header-title">Infinity Octave OS — Terminal v1</div>
+      </div>
+      <div class="portal-link"><span>∞ Infinity Portal</span></div>
+    </header>
+
+    <main>
+      <section class="terminal-card">
+        <div class="button-row">
+          <button class="pill-btn active" data-mode-btn="conversate">Conversate</button>
+          <button class="pill-btn" data-mode-btn="secret">Secret Encode</button>
+          <button class="pill-btn" data-mode-btn="retrieve">Retrieve</button>
+          <button class="pill-btn" data-mode-btn="builder">Builder</button>
+          <button class="pill-btn" data-mode-btn="post">Post</button>
+          <button class="pill-btn wallet">Wallet</button>
+        </div>
+
+        <div class="status-row">
+          <span>Mode: <strong id="modeLabel">Conversate</strong></span>
+          <span class="token-pill"><span id="tokenCount">10</span> INF</span>
+        </div>
+
+        <div class="console" id="console"></div>
+
+        <div class="input-row">
+          <div class="input-box">
+            <input id="input" placeholder="Hello Rogers..." autocomplete="off" />
+          </div>
+          <button class="post-btn" id="postBtn">Post</button>
+        </div>
+
+      </section>
+    </main>
+  </div>
+
+  <!-- Core Systems -->
+  <script src="js/octave-core.js"></script>
+  <script src="token-engine.js"></script>
+  <script src="core-writer.js"></script>
+  <script src="module_ip_login.js"></script>
+
+  <!-- Expansion Modules -->
+  <script src="module_music_player.js"></script>
+  <script src="module_video_panel.js"></script>
+  <script src="module_equation_lab.js"></script>
+  <script src="module_microapps_buttons.js"></script>
+  <script src="module_3d_engine.js"></script>
+  <script src="module_pay_advertise.js"></script>
+
+  <script>
+    /* Visitor Counter */
+    (async function(){
+      let count = Number(localStorage.getItem("infinity_page_views") || 0);
+      count++;
+      localStorage.setItem("infinity_page_views", count);
+      document.getElementById("viewCount").textContent = count;
+
+      async function getGeo(){
+        try { let r = await fetch("https://ipapi.co/json/"); return r.json(); }
+        catch { return null; }
+      }
+
+      const geo = await getGeo();
+      if(geo){
+        document.getElementById("visitorLoc").textContent =
+          ${geo.city}, ${geo.region}, ${geo.country_name};
+        drawDot(geo.latitude, geo.longitude);
+      }
+
+      function drawDot(lat, lon){
+        const c = document.getElementById("visitorMap");
+        const ctx = c.getContext("2d");
+        ctx.fillStyle = "#011";
+        ctx.fillRect(0,0,c.width,c.height);
+        let x = (lon + 180) * (c.width / 360);
+        let y = (90 - lat) * (c.height / 180);
+        ctx.beginPath();
+        ctx.arc(x,y,4,0,Math.PI*2);
+        ctx.fillStyle = "#29d9ff";
+        ctx.fill();
+      }
+
+      document.getElementById("visitorBox").addEventListener("click",()=>{
+        visitorBox.classList.toggle("expanded");
+      });
+
+    })();
+  </script>
+<script src="module_media_dock.js"></script>
+</body>
+</html>
+<!-- C14_TOKEN_PANEL_START -->
+<div style="font-family:monospace;background:#0b0f14;color:#e6edf3;padding:16px;margin:16px 0">
+  <div style="font-size:2.4em;color:#ffd700;text-align:center">
+    🧱🍄⭐ Token Value: 34
+  </div>
+
+  <p style="text-align:center">
+    🧱 Base &nbsp; 🍄 Growth &nbsp; ⭐ Star Power
+  </p>
+
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="get" target="_blank">
+    <input type="hidden" name="cmd" value="_xclick">
+    <input type="hidden" name="business" value="watsonkris61@gmail.com">
+    <input type="hidden" name="item_name" value="j Token">
+    <input type="hidden" name="amount" value="34">
+    <input type="hidden" name="currency_code" value="USD">
+    <button style="width:100%;padding:14px;font-size:1em">
+      Pay $34 via PayPal
+    </button>
+  </form>
+
+  <p style="font-size:0.75em;text-align:center;margin-top:10px">
+    Repository owner: pewpi-infinity<br/>
+    Contact: marvaseater@gmail.com<br/>
+    Settlement handled externally via PayPal
+  </p>
+</div>
+<!-- C14_TOKEN_PANEL_END -->

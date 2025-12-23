@@ -1,0 +1,18 @@
+# Infinity Portal AI Backend API Requirements
+# FastAPI backend server on port 8000
+
+# Core FastAPI framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.0
+
+# CORS and middleware
+python-multipart==0.0.6
+
+# Optional: Watson AI integration (uncomment when ready)
+# ibm-watson==7.0.1
+# ibm-cloud-sdk-core==3.18.2
+
+# Optional: Enhanced AI capabilities
+# openai==1.3.5
+# anthropic==0.7.0

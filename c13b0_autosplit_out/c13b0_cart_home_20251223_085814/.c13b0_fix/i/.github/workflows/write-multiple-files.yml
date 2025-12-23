@@ -1,0 +1,115 @@
+name: write-multiple-files
+
+on:
+  workflow_dispatch:
+    inputs:
+      archive_b64:
+        description: 'Base64-encoded archive containing one or more files (required). Single-line, no newlines.'
+        required: true
+      archive_type:
+        description: 'Type of archive: tar.gz (or tgz) or zip'
+        required: true
+        default: 'tar.gz'
+      commit_message:
+        description: 'Commit message to use'
+        required: false
+        default: 'Automated multi-file write via workflow'
+      branch:
+        description: 'Branch to commit to'
+        required: false
+        default: 'auto/commit-integration'
+
+jobs:
+  write-files:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout workflow source (ensure workflow file present)
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: true
+
+      - name: Prepare temp dir
+        run: |
+          set -euo pipefail
+          TMPDIR=$(mktemp -d)
+          echo "$TMPDIR" > /tmp/_wf_tmpdir
+
+      - name: Ensure target branch exists and checkout
+        env:
+          TARGET_BRANCH: ${{ github.event.inputs.branch }}
+        run: |
+          set -euo pipefail
+          BRANCH="${TARGET_BRANCH:-auto/commit-integration}"
+          git fetch origin --prune
+          if git ls-remote --heads origin "$BRANCH" | grep -q "$BRANCH"; then
+            git checkout -B "$BRANCH" "origin/$BRANCH"
+          else
+            git checkout -b "$BRANCH"
+            git push -u origin "$BRANCH"
+          fi
+
+      - name: Decode and extract archive
+        env:
+          ARCHIVE_B64: ${{ github.event.inputs.archive_b64 }}
+          ARCHIVE_TYPE: ${{ github.event.inputs.archive_type }}
+        run: |
+          set -euo pipefail
+          TMPDIR=$(cat /tmp/_wf_tmpdir)
+
+          if [ -z "${ARCHIVE_B64:-}" ]; then
+            echo "archive_b64 input is empty" >&2
+            exit 1
+          fi
+
+          # sanitize: remove whitespace and any non-base64 characters, produce single-line b64
+          echo "$ARCHIVE_B64" | tr -d '\n' | sed 's/[^A-Za-z0-9+\/=]//g' > "$TMPDIR/archive.b64"
+          echo "Cleaned base64 length: $(wc -c < "$TMPDIR/archive.b64")"
+
+          # try to decode, capture stderr for diagnostics
+          if ! base64 --decode "$TMPDIR/archive.b64" > "$TMPDIR/archive" 2> "$TMPDIR/b64.err"; then
+            echo "base64 decode failed; stderr:" >&2
+            sed -n '1,200p' "$TMPDIR/b64.err" >&2 || true
+            exit 1
+          fi
+
+          if [ "$ARCHIVE_TYPE" = "tar.gz" ] || [ "$ARCHIVE_TYPE" = "tgz" ]; then
+            mv "$TMPDIR/archive" "$TMPDIR/archive.tar.gz"
+            # test list first for clearer failure messages
+            if ! tar -tzf "$TMPDIR/archive.tar.gz" > "$TMPDIR/tar.list" 2> "$TMPDIR/tar.err"; then
+              echo "tar list failed; stderr:" >&2
+              sed -n '1,200p' "$TMPDIR/tar.err" >&2 || true
+              exit 1
+            fi
+            tar -xzf "$TMPDIR/archive.tar.gz" -C "$TMPDIR"
+          elif [ "$ARCHIVE_TYPE" = "zip" ]; then
+            mv "$TMPDIR/archive" "$TMPDIR/archive.zip"
+            if ! unzip -q "$TMPDIR/archive.zip" -d "$TMPDIR"; then
+              echo "unzip failed" >&2
+              exit 1
+            fi
+          else
+            echo "Unsupported archive_type: $ARCHIVE_TYPE" >&2
+            exit 1
+          fi
+
+      - name: Copy extracted files into repo (preserve paths)
+        run: |
+          set -euo pipefail
+          TMPDIR=$(cat /tmp/_wf_tmpdir)
+          rsync -av --exclude='.git' "$TMPDIR"/ ./
+          echo "Copied files from archive into repo working tree."
+
+      - name: Show changed files
+        run: |
+          git status --porcelain || true
+          git --no-pager diff --name-only || true
+
+      - name: Commit & push
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "${{ github.event.inputs.commit_message }}" || echo "No changes to commit"
+          git push origin "${{ github.event.inputs.branch }}"

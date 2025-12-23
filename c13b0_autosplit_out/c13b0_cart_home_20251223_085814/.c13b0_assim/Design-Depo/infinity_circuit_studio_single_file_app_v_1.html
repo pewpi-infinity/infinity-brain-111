@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Infinity Circuit Studio — v1.0</title>
+  <style>
+    :root{
+      --bg:#0b1220; --panel:#0f1a2e; --ink:#e8eefc; --muted:#9fb3d6; --accent:#4da3ff; --accent2:#7be0b5; --warn:#ffb84d; --danger:#ff6b6b;
+      --grid:#1b2742; --grid2:#152238; --chip:#101826; --shadow:0 10px 30px rgba(0,0,0,.35);
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%;}
+    body{margin:0;background:linear-gradient(180deg,var(--bg),#070d18);color:var(--ink);font:14px/1.35 system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue",Arial,sans-serif;}
+    .app{display:grid;grid-template-rows:56px 1fr 24px;grid-template-columns:260px 1fr 320px;height:100vh}
+    header{grid-column:1/-1;display:flex;gap:12px;align-items:center;padding:8px 12px;background:linear-gradient(180deg,#0e1930,#0c1628);border-bottom:1px solid #152540;box-shadow:var(--shadow);position:relative;z-index:2}
+    header .title{font-weight:700;letter-spacing:.3px;}
+    header .title small{color:var(--muted);font-weight:500}
+    header .spacer{flex:1}
+    header button, .toolbar button{background:#112243;border:1px solid #1d355e;color:var(--ink);padding:7px 10px;border-radius:10px;cursor:pointer}
+    header button:hover, .toolbar button:hover{border-color:#2c5aa0}
+    header .brand{display:flex;align-items:center;gap:10px}
+    header .brand .badge{background:conic-gradient(from 0deg,#68a0ff,#7be0b5,#68a0ff);-webkit-background-clip:text;background-clip:text;color:transparent;font-weight:900}
+
+    aside.left{grid-row:2;grid-column:1;background:var(--panel);border-right:1px solid #14223f;padding:12px;overflow:auto}
+    aside.right{grid-row:2;grid-column:3;background:var(--panel);border-left:1px solid #14223f;padding:12px;overflow:auto}
+
+    .palette{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+    .palette .item{user-select:none;background:#0e1a2d;border:1px solid #162749;padding:10px;border-radius:12px;display:flex;flex-direction:column;align-items:center;gap:6px;cursor:grab}
+    .palette .item:active{cursor:grabbing}
+    .palette .item b{font-size:12px}
+    .palette .item small{color:var(--muted)}
+
+    .toolbar{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+
+    .canvas-wrap{grid-row:2;grid-column:2;position:relative;background:
+      linear-gradient(90deg,var(--grid) 1px,transparent 1px) 0 0/24px 24px,
+      linear-gradient(0deg,var(--grid) 1px,transparent 1px) 0 0/24px 24px,
+      linear-gradient(90deg,var(--grid2) 1px,transparent 1px) 0 0/120px 120px,
+      linear-gradient(0deg,var(--grid2) 1px,transparent 1px) 0 0/120px 120px,
+      #06101f;
+    }
+    svg{width:100%;height:100%}
+
+    .properties{display:flex;flex-direction:column;gap:12px}
+    .card{background:#0c172b;border:1px solid #15294d;border-radius:14px;padding:12px}
+    .card h3{margin:0 0 8px 0;font-size:13px;letter-spacing:.4px;color:#a9c3ef}
+    .row{display:flex;gap:8px;align-items:center;margin-bottom:8px}
+    .row label{width:120px;color:var(--muted)}
+    .row input,.row select,.row textarea{flex:1;background:#0a1426;color:var(--ink);border:1px solid #1a2d54;border-radius:10px;padding:8px}
+
+    .footer{grid-column:1/-1;display:flex;align-items:center;justify-content:space-between;padding:4px 10px;color:var(--muted);border-top:1px solid #14223f;background:#0b1628}
+
+    .pill{display:inline-flex;align-items:center;gap:6px;background:#0c1e3a;border:1px solid #173360;border-radius:20px;padding:6px 10px;margin-right:6px;font-size:12px}
+
+    .hint{color:#b8c8e6;font-size:12px}
+
+    .modal{position:absolute;inset:0;display:none;align-items:center;justify-content:center;background:rgba(0,0,0,.5);z-index:30}
+    .modal .sheet{width:min(720px,92vw);max-height:84vh;overflow:auto;background:#0b172b;border:1px solid #1b2f54;border-radius:16px;padding:16px;box-shadow:var(--shadow)}
+    .sheet h2{margin:0 0 8px 0}
+    .sheet pre{white-space:pre-wrap;background:#0a1426;border:1px solid #192d54;padding:12px;border-radius:12px}
+
+    .badge-voltage{fill:#243b76}
+    .badge-resistor{fill:#2a6f3b}
+    .badge-current{fill:#6f2a5a}
+    .badge-gnd{fill:#5a5a2a}
+    .badge-junction{fill:#2a5a5a}
+
+    .toast{position:absolute;top:12px;left:50%;transform:translateX(-50%);background:#0c1e38;border:1px solid #1a3566;border-radius:12px;padding:8px 12px;color:#d6e6ff;display:none;z-index:50}
+
+    .legend{display:flex;flex-wrap:wrap;gap:6px}
+
+    a.btn{color:var(--ink);text-decoration:none}
+  </style>
+</head>
+<body>
+  <div class="app">
+    <header>
+      <div class="brand title">Infinity Circuit Studio <small>— DC schematic & solver</small></div>
+      <div class="spacer"></div>
+      <button id="btnNew">New</button>
+      <button id="btnOpen">Open</button>
+      <button id="btnSave">Save</button>
+      <button id="btnExportNetlist">Export Netlist</button>
+      <button id="btnSolve">Run DC Solve</button>
+      <div class="spacer"></div>
+      <span class="pill">Zoom
+        <button id="btnZoomOut" title="Zoom out">−</button>
+        <button id="btnZoomIn" title="Zoom in">+</button>
+        <button id="btnResetView" title="Reset view">100%</button>
+      </span>
+    </header>
+
+    <aside class="left">
+      <h3 style="margin:6px 0 10px 2px;color:#a9c3ef">Component Library</h3>
+      <div class="palette" id="palette">
+        <!-- palette items injected by JS -->
+      </div>
+      <div class="card" style="margin-top:12px">
+        <h3>Tools</h3>
+        <div class="toolbar">
+          <button id="toolSelect">Select</button>
+          <button id="toolHand">Pan</button>
+          <button id="toolWire">Wire</button>
+          <button id="toolRotate">Rotate</button>
+          <button id="toolDelete">Delete</button>
+        </div>
+        <p class="hint">Tip: snap to 24px grid. Click <b>Wire</b>, then two pins (or a pin and a junction). Click the canvas with Wire to drop a <b>Junction</b>.</p>
+      </div>
+      <div class="card">
+        <h3>Legend</h3>
+        <div class="legend">
+          <span class="pill">Resistor</span>
+          <span class="pill">Voltage Source</span>
+          <span class="pill">Current Source</span>
+          <span class="pill">Ground</span>
+          <span class="pill">Junction</span>
+        </div>
+      </div>
+    </aside>
+
+    <div class="canvas-wrap" id="canvasWrap">
+      <svg id="svg" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <marker id="arrow" markerWidth="10" markerHeight="8" refX="8" refY="4" orient="auto" markerUnits="strokeWidth">
+            <path d="M0,0 L10,4 L0,8 Z" fill="#cfe6ff"/>
+          </marker>
+        </defs>
+        <g id="viewport" transform="translate(0,0) scale(1)"></g>
+      </svg>
+      <div class="toast" id="toast"></div>
+    </div>
+
+    <aside class="right">
+      <div class="properties">
+        <div class="card">
+          <h3>Selection</h3>
+          <div id="selectionNone" class="hint">Nothing selected. Click a component to edit its properties.</div>
+          <div id="selectionProps" style="display:none">
+            <div class="row"><label>Type</label><input id="propType" readonly></div>
+            <div class="row" id="rowValue"><label>Value</label><input id="propValue" placeholder="e.g. 10k, 5, 2.2m"></div>
+            <div class="row" id="rowPolarity"><label>Polarity</label>
+              <select id="propPolarity">
+                <option value="ab">+ at Pin A → B</option>
+                <option value="ba">+ at Pin B → A</option>
+              </select>
+            </div>
+            <div class="row"><label>Rotation</label>
+              <select id="propRot">
+                <option>0</option><option>90</option><option>180</option><option>270</option>
+              </select>
+            </div>
+            <div class="row"><label>Label</label><input id="propLabel" placeholder="R1, V1, ..."></div>
+            <div class="row"><label>ID</label><input id="propId" readonly></div>
+            <div class="row"><button id="btnApply">Apply Changes</button></div>
+          </div>
+        </div>
+        <div class="card">
+          <h3>DC Solve Results</h3>
+          <div id="solvePanel" class="hint">Press <b>Run DC Solve</b> to compute node voltages. Requires at least one <b>Ground</b>.
+          </div>
+        </div>
+        <div class="card">
+          <h3>Import / Export</h3>
+          <div class="row"><button id="btnExportJSON">Export JSON</button><button id="btnImportJSON">Import JSON</button></div>
+          <textarea id="ioArea" rows="6" placeholder="JSON or Netlist output appears here..."></textarea>
+        </div>
+      </div>
+    </aside>
+
+    <div class="footer">
+      <div>
+        <span>Powered by Infinity • The Lending Giant</span>
+      </div>
+      <div>
+        <span class="hint">v1.0 — Offline single‑file app. Supports DC resistive circuits with independent V/I sources.</span>
+      </div>
+    </div>
+
+    <!-- Modals -->
+    <div class="modal" id="modalNetlist">
+      <div class="sheet">
+        <h2>Exported Netlist</h2>
+        <pre id="netlistOut"></pre>
+        <div style="display:flex;gap:8px;justify-content:flex-end"><button id="closeNetlist">Close</button></div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+  /***********************
+   * Utility & Math
+   ***********************/
+  const $ = sel => document.querySelector(sel);
+  const $$ = sel => Array.from(document.querySelectorAll(sel));
+
+  function toast(msg, ms=1600){
+    const el = $('#toast'); el.textContent = msg; el.style.display='block';
+    clearTimeout(el._t); el._t = setTimeout(()=> el.style.display='none', ms);
+  }
+
+  function snap(n, step=24){ return Math.round(n/step)*step; }
+
+  // Parse values like "10k", "2.2m", "5" -> number in SI units
+  function parseValue(s){
+    if(s==null) return NaN;
+    const str = String(s).trim(); if(!str) return NaN;
+    const m = str.match(/^([+-]?[0-9]*\.?[0-9]+)([a-zA-Z]*)$/);
+    if(!m) return NaN;
+    const v = parseFloat(m[1]);
+    const u = (m[2]||'').toLowerCase();
+    const mult = { 'g':1e9,'meg':1e6,'m':1e-3,'k':1e3,'':1,'u':1e-6,'µ':1e-6,'n':1e-9,'p':1e-12 };
+    if(u==='' ) return v;
+    if(u==='meg') return v*1e6;
+    if(mult[u]!=null) return v*mult[u];
+    // also allow 'ohm','a','v'
+    if(u==='ohm'||u==='Ω') return v;
+    if(u==='a'||u==='amp'||u==='amps') return v;
+    if(u==='v'||u==='volt'||u==='volts') return v;
+    // fallback try suffix char
+    const last = u.slice(-1);
+    if(mult[last]!=null) return v*mult[last];
+    return v; // unknown suffix: return raw
+  }
+
+  function fmtSI(x, unit=''){
+    if(!isFinite(x)) return '—';
+    const abs = Math.abs(x);
+    let v=x, s='';
+    if(abs>=1e9){v=x/1e9; s='G'}
+    else if(abs>=1e6){v=x/1e6; s='M'}
+    else if(abs>=1e3){v=x/1e3; s='k'}
+    else if(abs>=1){v=x; s=''}
+    else if(abs>=1e-3){v=x*1e3; s='m'}
+    else if(abs>=1e-6){v=x*1e6; s='µ'}
+    else if(abs>=1e-9){v=x*1e9; s='n'}
+    else {v=x*1e12; s='p'}
+    return v.toFixed( (Math.abs(v)<10)?3: (Math.abs(v)<100?2:1) ).replace(/\.0+$/,'') + s + unit;
+  }
+
+  // Simple linear solver (Gaussian elimination with partial pivoting)
+  function solveLinear(A,b){
+    const n=A.length; // clone
+    const M = A.map(r=>r.slice());
+    const x = new Array(n).fill(0);
+    const B = b.slice();
+    for(let k=0;k<n;k++){
+      // pivot
+      let iMax=k, max=Math.abs(M[k][k]);
+      for(let i=k+1;i<n;i++){const v=Math.abs(M[i][k]); if(v>max){max=v;iMax=i}}
+      if(max<1e-14) throw new Error('Matrix is singular or ill‑conditioned');
+      if(iMax!==k){ [M[k],M[iMax]]=[M[iMax],M[k]]; [B[k],B[iMax]]=[B[iMax],B[k]]; }
+      const piv=M[k][k];
+      // eliminate
+      for(let i=k+1;i<n;i++){
+        const f = M[i][k]/piv; if(Math.abs(f)<1e-18) continue;
+        for(let j=k;j<n;j++) M[i][j]-=f*M[k][j];
+        B[i]-=f*B[k];
+      }
+    }
+    // back substitute
+    for(let i=n-1;i>=0;i--){
+      let s=B[i];
+      for(let j=i+1;j<n;j++) s-=M[i][j]*x[j];
+      x[i]=s/M[i][i];
+    }
+    return x;
+  }
+
+  /***********************
+   * Data Model
+   ***********************/
+  const state = {
+    components: [], // {id,type,x,y,rot,label,value,polarity}
+    wires: [],      // {id,aPin,bPin}
+    junctions: [],  // {id,x,y}
+    nextId: 1,
+    tool: 'select',
+    zoom: 1,
+    viewX: 0, viewY: 0,
+    sel: null, // {kind:'comp'|'wire'|'junction', id}
+    hoverPin: null, // {compId,pinIndex} or {junctionId}
+    pendingWireFrom: null,
+  };
+
+  const TYPES = {
+    resistor: {
+      name:'Resistor', pins:[{x:-36,y:0,name:'A'},{x:36,y:0,name:'B'}],
+      draw: (g,c)=>{
+        const {x,y,rot,label,value}=c;
+        const k=1; const pth=`M ${x-36},${y} l 12,0 l 6,-12 l 12,24 l 12,-24 l 12,24 l 12,-24 l 6,12 l 12,0`;
+        g.innerHTML = `<path d="${pth}" stroke="#cfe6ff" stroke-width="2.4" fill="none" transform="rotate(${rot} ${x} ${y})"/>
+          <text x="${x}" y="${y-20}" fill="#9fb3d6" font-size="12" text-anchor="middle">${label||''} ${value||''}</text>`;
+      },
+      editableValue: true, editablePolarity:false,
+    },
+    vsource: {
+      name:'Voltage Source', pins:[{x:-32,y:0,name:'A'},{x:32,y:0,name:'B'}],
+      draw: (g,c)=>{
+        const {x,y,rot,label,value,polarity}=c; const sign = polarity==='ab'?'+ −':'− +';
+        g.innerHTML = `<line x1="${x-48}" y1="${y}" x2="${x+48}" y2="${y}" stroke="#cfe6ff" stroke-width="2.2" transform="rotate(${rot} ${x} ${y})"/>
+          <circle cx="${x}" cy="${y}" r="20" stroke="#cfe6ff" stroke-width="2.2" fill="#102043" transform="rotate(${rot} ${x} ${y})"/>
+          <text x="${x}" y="${y-24}" fill="#9fb3d6" font-size="12" text-anchor="middle">${label||''} ${value||''}</text>
+          <text x="${x}" y="${y+4}" fill="#cfe6ff" font-size="12" text-anchor="middle">${sign}</text>`;
+      },
+      editableValue: true, editablePolarity:true,
+    },
+    isource: {
+      name:'Current Source', pins:[{x:-32,y:0,name:'A'},{x:32,y:0,name:'B'}],
+      draw: (g,c)=>{
+        const {x,y,rot,label,value,polarity}=c; const arrow = polarity==='ab'?`M ${x-8},${y} L ${x+8},${y}`:`M ${x+8},${y} L ${x-8},${y}`;
+        g.innerHTML = `<line x1="${x-48}" y1="${y}" x2="${x+48}" y2="${y}" stroke="#cfe6ff" stroke-width="2.2" transform="rotate(${rot} ${x} ${y})"/>
+          <circle cx="${x}" cy="${y}" r="20" stroke="#cfe6ff" stroke-width="2.2" fill="#102043" transform="rotate(${rot} ${x} ${y})"/>
+          <path d="${arrow}" stroke="#cfe6ff" stroke-width="2.2" marker-end="url(#arrow)" fill="none"/>
+          <text x="${x}" y="${y-24}" fill="#9fb3d6" font-size="12" text-anchor="middle">${label||''} ${value||''}</text>`;
+      },
+      editableValue: true, editablePolarity:true,
+    },
+    gnd: {
+      name:'Ground', pins:[{x:0,y:-8,name:'0'}],
+      draw: (g,c)=>{
+        const {x,y,label}=c;
+        g.innerHTML = `<line x1="${x-12}" y1="${y}" x2="${x+12}" y2="${y}" stroke="#cfe6ff" stroke-width="2.2"/>
+          <line x1="${x-8}" y1="${y+6}" x2="${x+8}" y2="${y+6}" stroke="#cfe6ff" stroke-width="2.2"/>
+          <line x1="${x-4}" y1="${y+12}" x2="${x+4}" y2="${y+12}" stroke="#cfe6ff" stroke-width="2.2"/>
+          <text x="${x}" y="${y-14}" fill="#9fb3d6" font-size="12" text-anchor="middle">${label||''}</text>`;
+      },
+      editableValue: false, editablePolarity:false,
+    },
+  };
+
+  const PALETTE = [
+    {type:'resistor', preview:'badge-resistor', default:{value:'1k'}},
+    {type:'vsource', preview:'badge-voltage', default:{value:'5', polarity:'ab'}},
+    {type:'isource', preview:'badge-current', default:{value:'1m', polarity:'ab'}},
+    {type:'gnd', preview:'badge-gnd', default:{}},
+    {type:'junction', preview:'badge-junction', default:{}},
+  ];
+
+  function addComponent(type, x,y, extra={}){
+    const t = TYPES[type];
+    if(!t && type!=='junction') {toast('Unknown type: '+type); return null}
+    const id = 'C'+(state.nextId++);
+    if(type==='junction'){
+      const j = {id:'J'+(state.nextId++), x:snap(x), y:snap(y)}; state.junctions.push(j); render(); return j;
+    }
+    const c = {id, type, x:snap(x), y:snap(y), rot:0, label: autoLabel(type), value: '', polarity: 'ab', ...extra};
+    state.components.push(c);
+    render();
+    return c;
+  }
+
+  function autoLabel(type){
+    const prefix = {resistor:'R', vsource:'V', isource:'I', gnd:'G'}[type]||'U';
+    let n=1; while(state.components.some(c=>c.label===prefix+n)) n++;
+    return prefix+n;
+  }
+
+  function componentPins(c){
+    const t = TYPES[c.type]; if(!t) return [];
+    const ang = (c.rot||0)*Math.PI/180; const cos=Math.cos(ang), sin=Math.sin(ang);
+    return t.pins.map((p,i)=>{
+      const rx = p.x*cos - p.y*sin; const ry = p.x*sin + p.y*cos;
+      return {compId:c.id, pinIndex:i, name:p.name, x:c.x+rx, y:c.y+ry};
+    });
+  }
+
+  function getAllPins(){
+    const pins = [];
+    for(const c of state.components){ pins.push(...componentPins(c)); }
+    for(const j of state.junctions){ pins.push({junctionId:j.id, x:j.x, y:j.y, name:'•'}); }
+    return pins;
+  }
+
+  function nearestPin(x,y, tol=14){
+    const pins = getAllPins();
+    let best=null, d2=tol*tol;
+    for(const p of pins){ const dx=p.x-x, dy=p.y-y, dd=dx*dx+dy*dy; if(dd<=d2){ d2=dd; best=p; } }
+    return best;
+  }
+
+  function addWire(fromPin, toPin){
+    const id='W'+(state.nextId++);
+    state.wires.push({id, aPin: refForPin(fromPin), bPin: refForPin(toPin)});
+    render();
+  }
+
+  function refForPin(p){
+    if(p.compId!=null) return {kind:'comp', compId:p.compId, pinIndex:p.pinIndex};
+    return {kind:'junction', junctionId:p.junctionId};
+  }
+
+  function resolvePinRef(ref){
+    if(ref.kind==='comp'){
+      const c = state.components.find(x=>x.id===ref.compId); if(!c) return null;
+      return componentPins(c)[ref.pinIndex];
+    } else {
+      const j = state.junctions.find(x=>x.id===ref.junctionId); if(!j) return null; return {junctionId:j.id, x:j.x, y:j.y, name:'•'};
+    }
+  }
+
+  /***********************
+   * Rendering
+   ***********************/
+  const vp = $('#viewport');
+
+  function render(){
+    vp.innerHTML='';
+    // wires behind
+    for(const w of state.wires){
+      const a = resolvePinRef(w.aPin); const b = resolvePinRef(w.bPin); if(!a||!b) continue;
+      const path = orthPath(a.x,a.y,b.x,b.y);
+      const el = svgEl('path',{d:path, stroke:'#89a9df', 'stroke-width':2.2, fill:'none'});
+      el.dataset.kind='wire'; el.dataset.id=w.id;
+      vp.appendChild(el);
+      // dots on wires at endpoints
+      const da = svgEl('circle',{cx:a.x, cy:a.y, r:3.2, fill:'#cfe6ff'});
+      const db = svgEl('circle',{cx:b.x, cy:b.y, r:3.2, fill:'#cfe6ff'});
+      vp.appendChild(da); vp.appendChild(db);
+    }
+    // components
+    for(const c of state.components){
+      const g = svgEl('g',{}); g.dataset.kind='comp'; g.dataset.id=c.id; TYPES[c.type].draw(g,c);
+      vp.appendChild(g);
+      // pin dots (hover targets)
+      for(const p of componentPins(c)){
+        const pt = svgEl('circle',{cx:p.x, cy:p.y, r:6, fill:'rgba(100,160,255,0.12)', stroke:'#1a3a6a'});
+        pt.dataset.kind='pin'; pt.dataset.compId=c.id; pt.dataset.pinIndex=p.pinIndex;
+        vp.appendChild(pt);
+      }
+    }
+    // junctions
+    for(const j of state.junctions){
+      const g = svgEl('g',{}); g.dataset.kind='junction'; g.dataset.id=j.id;
+      g.appendChild(svgEl('circle',{cx:j.x, cy:j.y, r:6, fill:'#cfe6ff'}));
+      vp.appendChild(g);
+    }
+    drawSelection();
+  }
+
+  function drawSelection(){
+    const {sel}=state; if(!sel) return;
+    if(sel.kind==='comp'){
+      const c = state.components.find(x=>x.id===sel.id); if(!c) return;
+      const bbox = compBBox(c);
+      const r = svgEl('rect', {x:bbox.x-8,y:bbox.y-8,width:bbox.w+16,height:bbox.h+16,fill:'none',stroke:'#7be0b5','stroke-dasharray':'6 4','stroke-width':2});
+      vp.appendChild(r);
+    } else if(sel.kind==='wire'){
+      const w = state.wires.find(x=>x.id===sel.id); if(!w) return;
+      const a = resolvePinRef(w.aPin), b = resolvePinRef(w.bPin);
+      const path = orthPath(a.x,a.y,b.x,b.y);
+      vp.appendChild(svgEl('path',{d:path, stroke:'#7be0b5','stroke-width':4, fill:'none', 'stroke-dasharray':'8 6'}));
+    } else if(sel.kind==='junction'){
+      const j = state.junctions.find(x=>x.id===sel.id); if(!j) return;
+      vp.appendChild(svgEl('circle',{cx:j.x, cy:j.y, r:10, fill:'none', stroke:'#7be0b5','stroke-width':2}));
+    }
+  }
+
+  function compBBox(c){
+    // conservative bbox per type
+    if(c.type==='resistor') return {x:c.x-60,y:c.y-24,w:120,h:48};
+    if(c.type==='vsource' || c.type==='isource') return {x:c.x-60,y:c.y-32,w:120,h:64};
+    if(c.type==='gnd') return {x:c.x-16,y:c.y-18,w:32,h:36};
+    return {x:c.x-40,y:c.y-40,w:80,h:80};
+  }
+
+  function orthPath(x1,y1,x2,y2){
+    // simple L-shape: horizontal then vertical (or vice versa if shorter)
+    const dx = Math.abs(x2-x1), dy = Math.abs(y2-y1);
+    if(dx<dy){ return `M ${x1},${y1} L ${x2},${y1} L ${x2},${y2}`; }
+    else { return `M ${x1},${y1} L ${x1},${y2} L ${x2},${y2}`; }
+  }
+
+  function svgEl(tag,attrs){ const e=document.createElementNS('http://www.w3.org/2000/svg',tag); for(const k in attrs) e.setAttribute(k, attrs[k]); return e; }
+
+  /***********************
+   * Interaction
+   ***********************/
+  const svg = $('#svg'); const wrap = $('#canvasWrap');
+  let dragging=null; // {kind,id, dx,dy}
+  let panning=false; let panStart=null;
+
+  // palette build
+  function buildPalette(){
+    const p = $('#palette'); p.innerHTML='';
+    for(const it of PALETTE){
+      const div=document.createElement('div'); div.className='item'; div.draggable=true; div.dataset.type=it.type;
+      div.innerHTML = `<svg width="44" height="44" viewBox="0 0 44 44"><rect x="4" y="4" width="36" height="36" rx="12" class="${it.preview}"/></svg><b>${(TYPES[it.type]?.name)||'Junction'}</b><small>drag to canvas</small>`;
+      div.addEventListener('dragstart', ev=>{ ev.dataTransfer.setData('text/plain', it.type); });
+      p.appendChild(div);
+    }
+  }
+
+  wrap.addEventListener('dragover', ev=>{ ev.preventDefault(); });
+  wrap.addEventListener('drop', ev=>{
+    ev.preventDefault(); const type = ev.dataTransfer.getData('text/plain');
+    const pt = clientToSvg(ev.clientX, ev.clientY);
+    const def = PALETTE.find(x=>x.type===type)?.default || {};
+    addComponent(type, pt.x, pt.y, def);
+  });
+
+  function clientToSvg(cx,cy){
+    const r = svg.getBoundingClientRect();
+    const x = (cx - r.left - state.viewX)/state.zoom;
+    const y = (cy - r.top - state.viewY)/state.zoom;
+    return {x:snap(x), y:snap(y)};
+  }
+
+  svg.addEventListener('mousedown', onDown);
+  svg.addEventListener('mousemove', onMove);
+  svg.addEventListener('mouseup', onUp);
+  svg.addEventListener('mouseleave', onUp);
+  svg.addEventListener('wheel', ev=>{
+    ev.preventDefault(); const dir = Math.sign(ev.deltaY);
+    const k = dir>0 ? 0.9 : 1.1; zoomAt(ev.clientX, ev.clientY, k);
+  }, {passive:false});
+
+  function onDown(ev){
+    const pt = clientToSvg(ev.clientX, ev.clientY);
+    const tgt = hitTest(ev.target);
+    if(state.tool==='hand'){
+      panning=true; panStart={x:ev.clientX,y:ev.clientY, vx:state.viewX, vy:state.viewY}; return;
+    }
+    if(state.tool==='wire'){
+      if(tgt && (tgt.kind==='pin' || tgt.kind==='junction')){
+        const pin = (tgt.kind==='pin')? {compId:tgt.compId, pinIndex:tgt.pinIndex} : {junctionId: tgt.id};
+        if(!state.pendingWireFrom){ state.pendingWireFrom = pin; toast('Wire: select second pin'); }
+        else { addWire(state.pendingWireFrom, pin); state.pendingWireFrom=null; }
+      } else {
+        // drop a junction
+        const j = addComponent('junction', pt.x, pt.y);
+        state.pendingWireFrom = {junctionId: j.id}; toast('Wire: pick a pin/junction to connect');
+      }
+      return;
+    }
+    // selection / drag
+    if(tgt){
+      if(tgt.kind==='comp'){
+        const c = state.components.find(x=>x.id===tgt.id);
+        state.sel={kind:'comp', id:c.id}; dragging={kind:'comp', id:c.id, dx:pt.x-c.x, dy:pt.y-c.y};
+      } else if(tgt.kind==='wire'){
+        state.sel={kind:'wire', id:tgt.id}; dragging=null;
+      } else if(tgt.kind==='junction'){
+        const j = state.junctions.find(x=>x.id===tgt.id);
+        state.sel={kind:'junction', id:j.id}; dragging={kind:'junction', id:j.id, dx:pt.x-j.x, dy:pt.y-j.y};
+      } else {
+        state.sel=null; dragging=null;
+      }
+      updateSelectionPanel(); render();
+    } else {
+      state.sel=null; dragging=null; updateSelectionPanel(); render();
+    }
+  }
+
+  function onMove(ev){
+    if(panning){
+      const dx = ev.clientX - panStart.x; const dy = ev.clientY - panStart.y;
+      state.viewX = panStart.vx + dx; state.viewY = panStart.vy + dy; applyView(); return;
+    }
+    const pt = clientToSvg(ev.clientX, ev.clientY);
+    if(dragging){
+      if(dragging.kind==='comp'){
+        const c = state.components.find(x=>x.id===dragging.id); if(!c) return;
+        c.x = snap(pt.x - dragging.dx); c.y = snap(pt.y - dragging.dy); render();
+      } else if(dragging.kind==='junction'){
+        const j = state.junctions.find(x=>x.id===dragging.id); if(!j) return;
+        j.x = snap(pt.x - dragging.dx); j.y = snap(pt.y - dragging.dy); render();
+      }
+    }
+  }
+
+  function onUp(){ dragging=null; panning=false; }
+
+  function hitTest(el){
+    if(!el) return null;
+    const kind = el.dataset.kind; if(!kind) return null;
+    if(kind==='comp') return {kind, id: el.dataset.id};
+    if(kind==='wire') return {kind, id: el.dataset.id};
+    if(kind==='junction') return {kind, id: el.dataset.id};
+    if(kind==='pin') return {kind, compId: el.dataset.compId, pinIndex: +el.dataset.pinIndex};
+    return null;
+  }
+
+  function zoomAt(cx,cy, k){
+    const before = clientToSvg(cx,cy);
+    state.zoom *= k; state.zoom = Math.max(0.25, Math.min(3, state.zoom));
+    const after = clientToSvg(cx,cy);
+    state.viewX += ( (after.x - before.x) * state.zoom );
+    state.viewY += ( (after.y - before.y) * state.zoom );
+    applyView();
+  }
+  function applyView(){ $('#viewport').setAttribute('transform', `translate(${state.viewX},${state.viewY}) scale(${state.zoom})`); }
+
+  // Toolbar
+  $('#toolSelect').onclick = ()=> state.tool='select';
+  $('#toolHand').onclick = ()=> state.tool='hand';
+  $('#toolWire').onclick = ()=> state.tool='wire';
+  $('#toolRotate').onclick = ()=> { if(state.sel?.kind==='comp'){ const c = state.components.find(x=>x.id===state.sel.id); c.rot=(c.rot+90)%360; render(); }}
+  $('#toolDelete').onclick = ()=> doDelete();
+
+  function doDelete(){
+    const s=state.sel; if(!s) return;
+    if(s.kind==='comp'){
+      // remove wires attached to its pins
+      const pins = componentPins(state.components.find(x=>x.id===s.id));
+      const refs = pins.map(p=>({kind:'comp', compId:p.compId, pinIndex:p.pinIndex}));
+      state.wires = state.wires.filter(w=> !refsEqualAny(w.aPin,refs) && !refsEqualAny(w.bPin,refs) );
+      state.components = state.components.filter(x=>x.id!==s.id);
+    } else if(s.kind==='wire'){
+      state.wires = state.wires.filter(w=>w.id!==s.id);
+    } else if(s.kind==='junction'){
+      state.wires = state.wires.filter(w=> !(isJuncRef(w.aPin,s.id)||isJuncRef(w.bPin,s.id)) );
+      state.junctions = state.junctions.filter(j=>j.id!==s.id);
+    }
+    state.sel=null; updateSelectionPanel(); render();
+  }
+  function isJuncRef(ref,id){ return ref.kind==='junction' && ref.junctionId===id; }
+  function refsEqualAny(ref, list){ return list.some(r=> refsEqual(ref,r)); }
+  function refsEqual(a,b){ return a.kind===b.kind && (a.kind==='comp'? (a.compId===b.compId && a.pinIndex===b.pinIndex) : (a.junctionId===b.junctionId)); }
+
+  // Selection panel
+  function updateSelectionPanel(){
+    const none = $('#selectionNone'); const box = $('#selectionProps');
+    if(!state.sel || state.sel.kind!=='comp'){ none.style.display='block'; box.style.display='none'; return; }
+    none.style.display='none'; box.style.display='block';
+    const c = state.components.find(x=>x.id===state.sel.id);
+    $('#propType').value = TYPES[c.type].name;
+    $('#propValue').value = c.value||''; $('#rowValue').style.display = TYPES[c.type].editableValue? 'flex':'none';
+    $('#propPolarity').value = c.polarity||'ab'; $('#rowPolarity').style.display = TYPES[c.type].editablePolarity? 'flex':'none';
+    $('#propRot').value = String(c.rot||0);
+    $('#propLabel').value = c.label||'';
+    $('#propId').value = c.id;
+  }
+  $('#btnApply').onclick = ()=>{
+    if(!state.sel || state.sel.kind!=='comp') return;
+    const c = state.components.find(x=>x.id===state.sel.id);
+    if(TYPES[c.type].editableValue) c.value = $('#propValue').value.trim();
+    if(TYPES[c.type].editablePolarity) c.polarity = $('#propPolarity').value;
+    c.rot = parseInt($('#propRot').value)||0;
+    c.label = $('#propLabel').value.trim()||c.label;
+    render();
+  };
+
+  // File ops
+  $('#btnNew').onclick = ()=>{ if(confirm('Clear canvas?')){ state.components=[]; state.wires=[]; state.junctions=[]; state.sel=null; state.pendingWireFrom=null; render(); updateSelectionPanel(); $('#solvePanel').innerHTML='Press <b>Run DC Solve</b> to compute node voltages.'; }}
+  $('#btnSave').onclick = ()=>{ const data = exportJSON(); localStorage.setItem('infinity_circuit_project', JSON.stringify(data)); toast('Saved to local device'); };
+  $('#btnOpen').onclick = ()=>{ const s=localStorage.getItem('infinity_circuit_project'); if(!s){ toast('Nothing saved yet'); return;} try{ const data=JSON.parse(s); importJSON(data); toast('Project loaded'); }catch(e){ alert('Failed to load: '+e.message);} };
+  $('#btnExportJSON').onclick = ()=>{ $('#ioArea').value = JSON.stringify(exportJSON(), null, 2); toast('JSON exported below'); };
+  $('#btnImportJSON').onclick = ()=>{ try{ const obj=JSON.parse($('#ioArea').value); importJSON(obj); toast('JSON imported'); }catch(e){ alert('Invalid JSON'); } };
+
+  function exportJSON(){ return {components:state.components, wires:state.wires, junctions:state.junctions}; }
+  function importJSON(obj){ state.components = obj.components||[]; state.wires=obj.wires||[]; state.junctions=obj.junctions||[]; state.sel=null; render(); updateSelectionPanel(); }
+
+  // Netlist export (SPICE-ish)
+  $('#btnExportNetlist').onclick = ()=>{
+    const nl = buildNetlist();
+    $('#netlistOut').textContent = nl.lines.join('\n'); $('#modalNetlist').style.display='flex';
+  };
+  $('#closeNetlist').onclick = ()=> $('#modalNetlist').style.display='none';
+
+  function buildNetlist(){
+    const nets = buildNets();
+    const lines=[];
+    for(const c of state.components){
+      if(c.type==='resistor'){
+        const [na,nb] = compPinNets(c,nets);
+        lines.push(`${c.label||c.id} ${na} ${nb} ${c.value||'1k'}`);
+      } else if(c.type==='vsource'){
+        const [na,nb] = compPinNets(c,nets);
+        const pol = (c.polarity||'ab');
+        // Net order: positive first
+        const pos = pol==='ab'? na: nb; const neg = pol==='ab'? nb: na;
+        lines.push(`${c.label||c.id} ${pos} ${neg} ${c.value||'0'}`);
+      } else if(c.type==='isource'){
+        const [na,nb] = compPinNets(c,nets);
+        const pol = (c.polarity||'ab');
+        const from = pol==='ab'? na: nb; const to = pol==='ab'? nb: na;
+        // SPICE uses Ixxx n+ n- value (current from n+ to n-)
+        lines.push(`${c.label||c.id} ${from} ${to} ${c.value||'0'}`);
+      } else if(c.type==='gnd'){
+        // no element line; contributes net 0
+      }
+    }
+    return {lines, nets};
+  }
+
+  function compPinNets(c,nets){
+    const pins = componentPins(c);
+    const a = pinNetName(pins[0], nets); const b = pinNetName(pins[1], nets);
+    return [a,b];
+  }
+
+  /***********************
+   * Connectivity / Nets
+   ***********************/
+  function buildNets(){
+    // Build union-find over pins & junctions connected by wires.
+    const pins = getAllPins();
+    // assign index for every pin object
+    const idx = new Map(); pins.forEach((p,i)=> idx.set(pinKey(p), i));
+    const parent = pins.map((_,i)=>i);
+    const find = i=> (parent[i]===i? i : (parent[i]=find(parent[i])));
+    const uni = (i,j)=>{ i=find(i); j=find(j); if(i!==j) parent[j]=i; };
+
+    // connect wire endpoints
+    for(const w of state.wires){
+      const a = resolvePinRef(w.aPin); const b = resolvePinRef(w.bPin); if(!a||!b) continue;
+      const ia = idx.get(pinKey(a)); const ib = idx.get(pinKey(b)); if(ia==null||ib==null) continue; uni(ia,ib);
+    }
+
+    // Build net groups
+    const groups = new Map();
+    pins.forEach((p,i)=>{ const r=find(i); if(!groups.has(r)) groups.set(r, []); groups.get(r).push(p); });
+
+    // Determine ground group(s): any containing a GND pin
+    const groundRoots = new Set();
+    for(const c of state.components){ if(c.type==='gnd'){ const gp = componentPins(c)[0]; const id = idx.get(pinKey(gp)); if(id!=null) groundRoots.add(find(id)); } }
+
+    // Assign net names: 0 for ground groups, N1,N2 for others
+    const nets = new Map(); let n=1;
+    for(const [root, list] of groups){
+      const name = groundRoots.has(root)? '0' : ('N'+(n++));
+      for(const p of list) nets.set(pinKey(p), name);
+    }
+    return nets; // Map pinKey -> netName
+  }
+
+  function pinNetName(p,nets){ return nets.get(pinKey(p))||('N?'); }
+  function pinKey(p){ return p.compId!=null? `C:${p.compId}:${p.pinIndex}` : `J:${p.junctionId}`; }
+
+  /***********************
+   * DC Solver (MNA)
+   ***********************/
+  $('#btnSolve').onclick = ()=>{
+    try{ const res = solveDC(); showSolve(res); }catch(e){ alert('Solve failed: '+e.message);} };
+
+  function solveDC(){
+    const nets = buildNets();
+    // collect unique nets (exclude ground '0')
+    const netSet = new Set([...nets.values()]);
+    if(![...netSet].includes('0')) throw new Error('No ground (GND) connected. Place a Ground symbol and wire it.');
+    const nodes = [...netSet].filter(n=>n!=='0').sort(); // unknown node voltages
+
+    // list voltage sources
+    const vsrcs = state.components.filter(c=>c.type==='vsource');
+
+    const N = nodes.length; const M = vsrcs.length;
+    const size = N + M;
+    const A = Array.from({length:size}, ()=> Array(size).fill(0));
+    const z = new Array(size).fill(0);
+
+    function ni(name){ return nodes.indexOf(name); } // -1 if ground
+
+    // stamp resistors
+    for(const c of state.components){ if(c.type!=='resistor') continue;
+      const [na,nb] = compPinNets(c,nets); const a = ni(na), b = ni(nb);
+      const R = parseValue(c.value||'1k'); if(!isFinite(R)||R===0) throw new Error(c.label+': invalid R');
+      const G = 1/R;
+      if(a!==-1){ A[a][a]+=G; }
+      if(b!==-1){ A[b][b]+=G; }
+      if(a!==-1 && b!==-1){ A[a][b]-=G; A[b][a]-=G; }
+    }
+
+    // stamp current sources (from A->B means current leaving node A, entering B)
+    for(const c of state.components){ if(c.type!=='isource') continue;
+      const [na,nb] = compPinNets(c,nets); const a = ni(na), b = ni(nb);
+      const I = parseValue(c.value||'0');
+      const dir = (c.polarity||'ab');
+      const from = dir==='ab'? a: b; const to = dir==='ab'? b: a;
+      if(from!==-1) z[from] -= I; // current leaving node adds negative to injection
+      if(to!==-1) z[to] += I;    // current entering node adds positive
+    }
+
+    // stamp voltage sources (MNA):
+    // For kth source between n+ (pos) and n- (neg):
+    // rows/cols: [G B; C D] [v; i] = [I; E]
+    // B has +1 at (n+,k), -1 at (n-,k)
+    // C is B^T
+    // D is 0
+    // RHS E[k] = Vsrc
+    vsrcs.forEach((c,k)=>{
+      const [na,nb] = compPinNets(c,nets);
+      const dir = (c.polarity||'ab');
+      const nplus = dir==='ab'? ni(na): ni(nb);
+      const nminus= dir==='ab'? ni(nb): ni(na);
+      const row = N + k; // index for current variable
+      const V = parseValue(c.value||'0');
+      if(nplus!==-1){ A[nplus][N+k] += 1; A[N+k][nplus] += 1; }
+      if(nminus!==-1){ A[nminus][N+k] -= 1; A[N+k][nminus] -= 1; }
+      z[row] = V; // voltage constraint
+    });
+
+    // solve
+    const x = solveLinear(A,z);
+
+    // extract node voltages and source currents
+    const nodeV = {}; nodes.forEach((name,i)=> nodeV[name]=x[i]);
+    const srcI = {}; vsrcs.forEach((c,k)=> srcI[c.label||c.id] = x[N+k]);
+
+    // annotate currents in resistors (from pin A to B as labeled on component)
+    const compI = {};
+    for(const c of state.components){ if(c.type!=='resistor') continue;
+      const [na,nb] = compPinNets(c,nets);
+      const va = (na==='0')? 0 : nodeV[na]; const vb = (nb==='0')? 0 : nodeV[nb];
+      const R = parseValue(c.value||'1k'); const Iab = (va - vb)/R;
+      compI[c.label||c.id] = Iab; // A -> B
+    }
+
+    return {nodes, nodeV, vsrcCurrents:srcI, compCurrents:compI, nets};
+  }
+
+  function showSolve(res){
+    // Panel text
+    const lines=[];
+    lines.push('Node voltages (relative to 0):');
+    for(const n of res.nodes){ lines.push(`  ${n}: ${fmtSI(res.nodeV[n],'V')}`); }
+    lines.push('');
+    if(Object.keys(res.vsrcCurrents).length){
+      lines.push('Voltage source currents (defined positive into + terminal):');
+      for(const k in res.vsrcCurrents){ lines.push(`  ${k}: ${fmtSI(res.vsrcCurrents[k],'A')}`); }
+      lines.push('');
+    }
+    if(Object.keys(res.compCurrents).length){
+      lines.push('Resistor currents (A→B):');
+      for(const k in res.compCurrents){ lines.push(`  ${k}: ${fmtSI(res.compCurrents[k],'A')}`); }
+    }
+    $('#solvePanel').innerHTML = `<pre style="white-space:pre-wrap">${lines.join('\n')}</pre>`;
+
+    // Draw badges on nets
+    // First remove prior badges
+    $$('#viewport .nodeBadge').forEach(el=>el.remove());
+
+    // Build a net representative position (average of pins)
+    const pinGroups = new Map();
+    for(const p of getAllPins()){
+      const name = pinNetName(p,res.nets); if(!pinGroups.has(name)) pinGroups.set(name, []); pinGroups.get(name).push(p);
+    }
+    for(const [name, list] of pinGroups){ if(name==='0') continue; // skip ground
+      const x = list.reduce((s,p)=>s+p.x,0)/list.length; const y=list.reduce((s,p)=>s+p.y,0)/list.length;
+      const text = fmtSI(res.nodeV[name],'V');
+      const g = svgEl('g', {class:'nodeBadge'});
+      const pad=6; const w = text.length*7 + 24; const h=22;
+      const r = svgEl('rect',{x:x-w/2,y:y-40,width:w,height:h,rx:10,ry:10,fill:'#0c1e3a',stroke:'#284a88','stroke-width':1.6});
+      const t = svgEl('text',{x:x,y:y-24,'text-anchor':'middle','font-size':12,fill:'#d6e6ff'});
+      t.textContent = text; g.appendChild(r); g.appendChild(t); vp.appendChild(g);
+    }
+    toast('DC solve complete');
+  }
+
+  /***********************
+   * View controls
+   ***********************/
+  $('#btnZoomIn').onclick = ()=> zoomAt(window.innerWidth/2, window.innerHeight/2, 1.15);
+  $('#btnZoomOut').onclick = ()=> zoomAt(window.innerWidth/2, window.innerHeight/2, 0.87);
+  $('#btnResetView').onclick = ()=>{ state.zoom=1; state.viewX=0; state.viewY=0; applyView(); };
+
+  /***********************
+   * Init
+   ***********************/
+  function seedExample(){
+    // Simple: V1 5V -> R1 1k -> GND
+    const v = addComponent('vsource', 240, 240, {value:'5', polarity:'ab'});
+    const r = addComponent('resistor', 420, 240, {value:'1k'});
+    const g = addComponent('gnd', 540, 280, {});
+    // wire: V1.B to R1.A ; R1.B to GND ; Junction at node between
+    const j = addComponent('junction', 540, 240, {});
+    addWire({compId:v.id, pinIndex:1}, {compId:r.id, pinIndex:0});
+    addWire({compId:r.id, pinIndex:1}, {junctionId:j.id});
+    addWire({junctionId:j.id}, {compId:g.id, pinIndex:0});
+  }
+
+  function init(){ buildPalette(); render(); seedExample(); updateSelectionPanel(); applyView(); }
+  init();
+
+  </script>
+</body>
+</html>

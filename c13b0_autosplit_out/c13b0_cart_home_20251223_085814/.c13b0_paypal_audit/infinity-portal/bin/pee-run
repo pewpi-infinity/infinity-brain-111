@@ -1,0 +1,7 @@
+#!/data/data/com.termux/files/usr/bin/bash
+set -e
+LOGDIR="$HOME/InfinityOS/Logs"
+mkdir -p "$LOGDIR"
+nohup python3 "$HOME/InfinityPortal/portal.py" >/dev/null 2>>"$LOGDIR/portal.err" &
+nohup python3 "$HOME/InfinityPortal/chat.py"   >/dev/null 2>>"$LOGDIR/chat.err"   &
+echo "[∞] Started: Portal:8080  Chat:5050"

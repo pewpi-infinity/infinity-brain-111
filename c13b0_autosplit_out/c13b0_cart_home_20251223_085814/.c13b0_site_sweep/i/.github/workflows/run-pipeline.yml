@@ -1,0 +1,86 @@
+name: run-pipeline
+
+on:
+  workflow_dispatch:
+    inputs:
+      archive_b64:
+        description: 'Base64-encoded archive containing files (single-line, no newlines). Optional — pipeline will scrape if none provided.'
+        required: false
+      archive_type:
+        description: 'tar.gz or zip (default tar.gz)'
+        required: false
+        default: 'tar.gz'
+      commit_message:
+        description: 'Commit message (unused by pipeline)'
+        required: false
+        default: 'Run pipeline'
+      branch:
+        description: 'Branch to commit to (unused by pipeline)'
+        required: false
+        default: 'main'
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Prepare temp dir
+        run: |
+          set -euo pipefail
+          TMPDIR=$(mktemp -d)
+          echo "$TMPDIR" > /tmp/_wf_tmpdir
+
+      - name: Decode archive (if provided)
+        if: ${{ github.event.inputs.archive_b64 != '' }}
+        env:
+          ARCHIVE_B64: ${{ github.event.inputs.archive_b64 }}
+          ARCHIVE_TYPE: ${{ github.event.inputs.archive_type }}
+        run: |
+          set -euo pipefail
+          TMPDIR=$(cat /tmp/_wf_tmpdir)
+          echo "$ARCHIVE_B64" | tr -d '\n' | sed 's/[^A-Za-z0-9+\/=]//g' > "$TMPDIR/archive.b64"
+          base64 --decode "$TMPDIR/archive.b64" > "$TMPDIR/archive" 2> "$TMPDIR/b64.err" || ( echo "base64 decode failed"; sed -n '1,200p' "$TMPDIR/b64.err"; exit 1 )
+          if [ "$ARCHIVE_TYPE" = "tar.gz" ] || [ "$ARCHIVE_TYPE" = "tgz" ]; then
+            mv "$TMPDIR/archive" "$TMPDIR/archive.tar.gz"
+            tar -xzf "$TMPDIR/archive.tar.gz" -C "$TMPDIR"
+            echo "Extracted archive to $TMPDIR"
+          else
+            mv "$TMPDIR/archive" "$TMPDIR/archive.zip"
+            unzip -q "$TMPDIR/archive.zip" -d "$TMPDIR"
+          fi
+          echo "::set-output name=extracted::$TMPDIR"
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: Install requirements
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run pipeline
+        run: |
+          # If archive was extracted, use that; otherwise pipeline will scrape Gutenberg
+          if [ -d "/tmp" ] && [ -f /tmp/_wf_tmpdir ]; then
+            TMPDIR=$(cat /tmp/_wf_tmpdir)
+            # check for extracted texts under TMPDIR
+            if [ -d "$TMPDIR" ]; then
+              echo "Using extracted files from $TMPDIR (if present) to run pipeline"
+              python3 scripts/run_pipeline.py --input-dir "$TMPDIR"
+            else
+              echo "No extracted files found; running pipeline without input-dir (will scrape)"
+              python3 scripts/run_pipeline.py
+            fi
+          else
+            python3 scripts/run_pipeline.py
+          fi
+
+      - name: Upload pipeline output (artifact)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pipeline-out
+          path: pipeline_out

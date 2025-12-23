@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Infinity Deployer • PayPal / Infinity OS Style</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <style>
+    :root {
+      --bg: #050915;
+      --bg-panel: rgba(5,9,21,0.6);
+      --blue: #0ea5e9;
+      --border: rgba(255,255,255,0.08);
+      --text: #ecf5ff;
+      --accent: #38bdf8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: radial-gradient(circle at top, #0f172a 0%, #020617 60%, #000 100%);
+      font-family: system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+      color: var(--text);
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    header {
+      height: 54px;
+      border-bottom: 1px solid rgba(255,255,255,0.05);
+      background: linear-gradient(90deg, rgba(2,6,23,0.9), rgba(14,165,233,0.12));
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 1rem;
+      gap: 1rem;
+      backdrop-filter: blur(10px);
+      z-index: 10;
+    }
+    .brand-left {
+      display:flex;align-items:center;gap:.6rem;
+    }
+    .brand-pill {
+      background: #0070ba;
+      border: 1px solid #fff2;
+      padding: .2rem .6rem;
+      border-radius: 999px;
+      font-weight: 600;
+      font-size: .7rem;
+      letter-spacing: .04em;
+    }
+    .infinity-title {
+      font-weight: 700;
+      font-size: .9rem;
+    }
+    .top-actions {
+      display:flex;
+      gap:.5rem;
+    }
+    button {
+      background: rgba(14,165,233,0.12);
+      border: 1px solid rgba(148,163,184,0.2);
+      color: #fff;
+      border-radius: .6rem;
+      padding: .35rem .7rem;
+      font-size: .7rem;
+      cursor: pointer;
+      transition: .2s;
+    }
+    button:hover {
+      background: rgba(14,165,233,0.35);
+    }
+    main {
+      flex: 1;
+      display: grid;
+      grid-template-columns: 240px 1fr 300px;
+      gap: .7rem;
+      padding: .7rem;
+      height: calc(100vh - 54px);
+    }
+    .panel {
+      background: var(--bg-panel);
+      border: 1px solid var(--border);
+      border-radius: 1rem;
+      backdrop-filter: blur(8px);
+      overflow: hidden;
+      display:flex;
+      flex-direction:column;
+      min-height: 0;
+    }
+    .panel-title {
+      padding:.6rem .8rem .2rem;
+      font-size:.7rem;
+      font-weight:600;
+      letter-spacing:.02em;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+    }
+    .left-panel-list {
+      flex:1;
+      overflow-y:auto;
+      padding:.3rem .3rem 1rem;
+    }
+    .node {
+      background: rgba(15,23,42,0.35);
+      border: 1px solid rgba(148,163,184,0.12);
+      border-radius:.65rem;
+      padding:.4rem .55rem;
+      margin-bottom:.35rem;
+      font-size:.67rem;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      gap:.3rem;
+      cursor:pointer;
+    }
+    .node:hover { background: rgba(148,163,184,0.04); }
+    .node small { opacity:.55; }
+    .canvas {
+      flex:1;
+      position:relative;
+      overflow:hidden;
+      border-radius:1rem;
+      background: radial-gradient(circle at center, rgba(14,165,233,0.08), rgba(0,0,0,0) 55%), linear-gradient(135deg, rgba(2,6,23,.3), rgba(15,23,42,0));
+    }
+    .canvas-inner {
+      position:absolute;
+      inset:0;
+      overflow-y:auto;
+      padding:1rem;
+      display:flex;
+      flex-wrap:wrap;
+      gap:.7rem;
+      align-content:flex-start;
+    }
+    .app-card {
+      width: 215px;
+      min-height: 120px;
+      background: rgba(15,23,42,0.55);
+      border: 1px solid rgba(148,163,184,0.12);
+      border-radius: .7rem;
+      padding: .5rem .55rem .6rem;
+      display:flex;
+      flex-direction:column;
+      gap:.35rem;
+      position:relative;
+      transition:.15s;
+    }
+    .app-card:hover { border-color: rgba(56,189,248,.6); }
+    .app-title { font-size:.7rem;font-weight:600; }
+    .app-meta { font-size:.6rem; opacity:.5; }
+    .app-preview {
+      background: rgba(15,23,42,.35);
+      border: 1px solid rgba(148,163,184,.05);
+      border-radius:.5rem;
+      height:60px;
+      overflow:hidden;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-size:.55rem;
+      text-align:center;
+      padding:.3rem;
+    }
+    .right-panel {
+      display:flex;
+      flex-direction:column;
+    }
+    .terminal {
+      flex: 0 0 170px;
+      border-top: 1px solid rgba(148,163,184,0.1);
+      background: rgba(2,6,23,0.35);
+      padding:.4rem;
+      gap:.3rem;
+      display:flex;
+      flex-direction:column;
+    }
+    .terminal input {
+      width:100%;
+      background: rgba(15,23,42,0.6);
+      border: 1px solid rgba(148,163,184,0.1);
+      border-radius:.4rem;
+      padding:.45rem .5rem;
+      color:#fff;
+      font-size:.7rem;
+    }
+    .terminal small { opacity:.5; font-size:.55rem; }
+    .agent-log {
+      flex:1;
+      overflow-y:auto;
+      padding:.4rem .4rem 0;
+      font-size:.6rem;
+      line-height:1.25;
+    }
+    .drop-zone {
+      border: 1px dashed rgba(148,163,184,0.25);
+      border-radius:.6rem;
+      padding:.5rem .6rem;
+      text-align:center;
+      font-size:.6rem;
+      margin:.4rem .4rem .5rem;
+      background: rgba(15,23,42,0.15);
+    }
+    .floating-rogers {
+      position: fixed;
+      bottom: 14px;
+      right: 14px;
+      background: linear-gradient(140deg, #0ea5e9, #38bdf8);
+      border: none;
+      padding:.55rem .7rem;
+      border-radius: .8rem;
+      font-weight: 600;
+      font-size:.65rem;
+      box-shadow: 0 12px 30px rgba(14,165,233,.35);
+      z-index: 99;
+    }
+    footer {
+      position:fixed;
+      bottom:0;
+      left:0;
+      width:100%;
+      text-align:center;
+      font-size:.58rem;
+      padding:.15rem 0 .35rem;
+      color:rgba(236,245,255,.4);
+      letter-spacing:.06em;
+      pointer-events:none;
+    }
+    /* scrollbars */
+    ::-webkit-scrollbar { width:4px; }
+    ::-webkit-scrollbar-thumb { background: rgba(148,163,184,0.2); border-radius:999px; }
+    @media (max-width: 1024px) {
+      main { grid-template-columns: 1fr; }
+      .right-panel { order:-1; flex-direction:row; gap:.5rem; height:210px; }
+      .terminal { flex:1; }
+      .panel { min-height:160px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand-left">
+      <div class="brand-pill">Infinity</div>
+      <div class="infinity-title">Quantum One-Page Deployer</div>
+    </div>
+    <div class="top-actions">
+      <button id="exportBtn">Export / Download page</button>
+      <button id="newBlankBtn">New blank app</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- LEFT: nodes -->
+    <section class="panel">
+      <div class="panel-title">
+        Programs / Ports
+        <button id="addNodeBtn" style="font-size:.55rem;padding:.2rem .5rem;">+ add</button>
+      </div>
+      <div class="left-panel-list" id="nodeList">
+        <!-- populated by JS -->
+      </div>
+    </section>
+
+    <!-- CENTER: canvas -->
+    <section class="panel canvas" id="canvas">
+      <div class="canvas-inner" id="canvasInner">
+        <!-- app cards -->
+      </div>
+    </section>
+
+    <!-- RIGHT: agent + terminal -->
+    <section class="panel right-panel" id="rightPanel">
+      <div class="panel-title">
+        Intake Agent
+        <small style="opacity:.4;">non-speaking</small>
+      </div>
+      <div class="drop-zone" id="dropZone">
+        Drop images / files here<br/>or click to select
+        <input type="file" id="fileInput" multiple style="display:none;">
+      </div>
+      <div class="agent-log" id="agentLog">
+        <!-- logs -->
+      </div>
+      <div class="terminal">
+        <small>Terminal (paste code or: <code>app "My App" make panel</code>)</small>
+        <input id="terminalInput" placeholder="> build marketplace with AI listing..." />
+        <div style="display:flex;gap:.4rem;">
+          <button id="runTerminal" style="flex:1;">Run</button>
+          <button id="clearLog" style="font-size:.6rem;">Clear</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <button class="floating-rogers" title="Rogers AI panel placeholder">
+    Rogers
+  </button>
+  <footer>
+    Powered by Infinity – The Lending Giant
+  </footer>
+
+  <script>
+    // ===== STATE =====
+    const apps = []; // {id, title, type, content, meta}
+    const nodes = []; // quick navigation / click-hold list
+
+    const canvasInner = document.getElementById('canvasInner');
+    const nodeList = document.getElementById('nodeList');
+    const agentLog = document.getElementById('agentLog');
+
+    function uid() {
+      return 'app-' + Math.random().toString(36).slice(2,8);
+    }
+
+    function logAgent(msg) {
+      const div = document.createElement('div');
+      div.textContent = msg;
+      agentLog.prepend(div);
+    }
+
+    function renderNodes() {
+      nodeList.innerHTML = '';
+      nodes.forEach(n => {
+        const el = document.createElement('div');
+        el.className = 'node';
+        el.dataset.id = n.id;
+        el.innerHTML = `
+          <span>${n.title}</span>
+          <small>${n.kind}</small>
+        `;
+        // click -> show sub choices
+        el.addEventListener('click', () => {
+          logAgent('Opened sub-choices for "'+n.title+'"... (stub)');
+          makeSubButtons(n.title);
+        });
+        // hold -> load
+        let pressTimer;
+        el.addEventListener('pointerdown', () => {
+          pressTimer = setTimeout(() => {
+            loadProgram(n.title);
+          }, 500);
+        });
+        el.addEventListener('pointerup', () => clearTimeout(pressTimer));
+        el.addEventListener('pointerleave', () => clearTimeout(pressTimer));
+        nodeList.appendChild(el);
+      });
+    }
+
+    function renderApps() {
+      canvasInner.innerHTML = '';
+      apps.forEach(app => {
+        const card = document.createElement('div');
+        card.className = 'app-card';
+        card.dataset.id = app.id;
+        card.innerHTML = `
+          <div class="app-title">${app.title}</div>
+          <div class="app-meta">${app.type || 'panel'}</div>
+          <div class="app-preview">${app.preview || 'Tap / hold to open program.'}</div>
+        `;
+        // click vs hold
+        let timer;
+        card.addEventListener('pointerdown', () => {
+          timer = setTimeout(() => showApp(app), 450);
+        });
+        card.addEventListener('pointerup', () => {
+          if (timer) {
+            clearTimeout(timer);
+            // short click = show sub
+            makeSubButtons(app.title);
+          }
+        });
+        canvasInner.appendChild(card);
+      });
+    }
+
+    function addAppFromText(text) {
+      // crude detector
+      const isCode = text.includes('<html') || text.includes('function ') || text.includes('import ');
+      const title = isCode ? 'Code Block ' + (apps.length+1) : text.slice(0, 22) + (text.length>22?'…':'');
+      const app = {
+        id: uid(),
+        title,
+        type: isCode ? 'code' : 'content',
+        content: text,
+        preview: isCode ? 'Code captured. Hold to view.' : text.slice(0, 60)
+      };
+      apps.push(app);
+      nodes.push({ id: app.id, title: app.title, kind: app.type });
+      renderApps();
+      renderNodes();
+      logAgent('Ingested text and made program "'+app.title+'".');
+    }
+
+    function addAppFromFile(file, dataUrl) {
+      const app = {
+        id: uid(),
+        title: file.name,
+        type: file.type.startsWith('image/') ? 'image' : 'file',
+        content: dataUrl || '',
+        preview: file.type.startsWith('image/')
+          ? '<img src="'+dataUrl+'" style="max-width:100%;height:48px;object-fit:cover;border-radius:.35rem;" />'
+          : 'File: '+file.name
+      };
+      apps.push(app);
+      nodes.push({ id: app.id, title: app.title, kind: app.type });
+      renderApps();
+      renderNodes();
+      logAgent('File "'+file.name+'" became a program on the page.');
+    }
+
+    function makeSubButtons(label) {
+      // simple visual
+      const sub = document.createElement('div');
+      sub.style.position = 'fixed';
+      sub.style.top = '62px';
+      sub.style.left = '50%';
+      sub.style.transform = 'translateX(-50%)';
+      sub.style.background = 'rgba(2,6,23,.96)';
+      sub.style.border = '1px solid rgba(56,189,248,.25)';
+      sub.style.borderRadius = '.6rem';
+      sub.style.padding = '.4rem .5rem';
+      sub.style.display = 'flex';
+      sub.style.gap = '.35rem';
+      sub.style.zIndex = 9999;
+      ['Open','Edit','Package','Duplicate'].forEach(act => {
+        const b = document.createElement('button');
+        b.textContent = act;
+        b.style.fontSize = '.6rem';
+        b.addEventListener('click', () => {
+          if (act === 'Open') loadProgram(label);
+          if (act === 'Package') packageCurrent();
+          document.body.removeChild(sub);
+        });
+        sub.appendChild(b);
+      });
+      document.body.appendChild(sub);
+      setTimeout(() => {
+        if (document.body.contains(sub)) document.body.removeChild(sub);
+      }, 4900);
+    }
+
+    function showApp(app) {
+      // simple viewer modal
+      const modal = document.createElement('div');
+      modal.style.position='fixed';
+      modal.style.inset='0';
+      modal.style.background='rgba(0,0,0,.65)';
+      modal.style.display='flex';
+      modal.style.alignItems='center';
+      modal.style.justifyContent='center';
+      modal.style.zIndex=9999;
+      const panel = document.createElement('div');
+      panel.style.width='min(900px,92vw)';
+      panel.style.height='min(540px,80vh)';
+      panel.style.background='rgba(2,6,23,.95)';
+      panel.style.border='1px solid rgba(148,163,184,.15)';
+      panel.style.borderRadius='.8rem';
+      panel.style.overflow='hidden';
+      panel.style.display='flex';
+      panel.style.flexDirection='column';
+      panel.innerHTML = '<div style="padding:.5rem .7rem;font-weight:600;font-size:.7rem;display:flex;justify-content:space-between;"><span>'
+        + app.title + '</span><button id="closeModal" style="background:transparent;border:none;color:#fff;font-size:1rem;cursor:pointer;">×</button></div>';
+      const body = document.createElement('div');
+      body.style.flex=1;
+      body.style.overflow='auto';
+      body.style.padding='.5rem .7rem 1rem';
+      if (app.type === 'image') {
+        body.innerHTML = '<img src="'+app.content+'" style="max-width:100%;border-radius:.4rem;" />';
+      } else if (app.type === 'code') {
+        body.innerHTML = '<pre style="font-size:.6rem;white-space:pre-wrap;">'+
+          app.content.replace(/</g,'&lt;')+'</pre>';
+      } else {
+        body.textContent = app.content || 'empty';
+      }
+      panel.appendChild(body);
+      modal.appendChild(panel);
+      modal.addEventListener('click', e => {
+        if (e.target === modal) document.body.removeChild(modal);
+      });
+      modal.querySelector('#closeModal').addEventListener('click', () => document.body.removeChild(modal));
+      document.body.appendChild(modal);
+    }
+
+    function loadProgram(label) {
+      logAgent('Loaded program "'+label+'" into page context.');
+      // this is where you’d actually “zoom” the 3D tunnel to that app
+      // right now we just log.
+    }
+
+    // ===== TERMINAL =====
+    const terminalInput = document.getElementById('terminalInput');
+    document.getElementById('runTerminal').addEventListener('click', runTerminalCommand);
+    terminalInput.addEventListener('keydown', e => {
+      if (e.key === 'Enter') runTerminalCommand();
+    });
+
+    function runTerminalCommand() {
+      const cmd = terminalInput.value.trim();
+      if (!cmd) return;
+      logAgent('> '+cmd);
+      // very simple grammar
+      if (cmd.startsWith('app ')) {
+        const name = cmd.replace(/^app\s+/, '').replace(/make panel/i,'').trim().replace(/["']/g,'');
+        apps.push({
+          id: uid(),
+          title: name || 'Terminal App',
+          type: 'panel',
+          content: 'autogenerated from terminal',
+          preview: 'Terminal created.'
+        });
+        nodes.push({ id: uid(), title: name || 'Terminal App', kind: 'panel' });
+        renderApps();
+        renderNodes();
+        logAgent('Built app "'+name+'".');
+      } else if (cmd === 'package' || cmd === 'pkg') {
+        packageCurrent();
+      } else {
+        // treat as text intake
+        addAppFromText(cmd);
+      }
+      terminalInput.value = '';
+    }
+
+    // ===== FILE DROP =====
+    const dropZone = document.getElementById('dropZone');
+    const fileInput = document.getElementById('fileInput');
+
+    dropZone.addEventListener('click', () => fileInput.click());
+    fileInput.addEventListener('change', e => {
+      const files = Array.from(e.target.files);
+      files.forEach(readFileAndAdd);
+      fileInput.value = '';
+    });
+
+    ;['dragenter','dragover'].forEach(ev => {
+      dropZone.addEventListener(ev, e => {
+        e.preventDefault();
+        dropZone.style.borderColor = 'rgba(56,189,248,.6)';
+      });
+    });
+    ;['dragleave','drop'].forEach(ev => {
+      dropZone.addEventListener(ev, e => {
+        e.preventDefault();
+        dropZone.style.borderColor = 'rgba(148,163,184,.25)';
+      });
+    });
+    dropZone.addEventListener('drop', e => {
+      const files = Array.from(e.dataTransfer.files);
+      files.forEach(readFileAndAdd);
+    });
+
+    function readFileAndAdd(file) {
+      const reader = new FileReader();
+      if (file.type.startsWith('image/')) {
+        reader.onload = () => addAppFromFile(file, reader.result);
+        reader.readAsDataURL(file);
+      } else {
+        reader.onload = () => addAppFromText(reader.result);
+        reader.readAsText(file);
+      }
+    }
+
+    // ===== EXPORT / PACKAGE =====
+    document.getElementById('exportBtn').addEventListener('click', packageCurrent);
+    function packageCurrent() {
+      // build a new HTML file with current apps baked in
+      const payload = {
+        apps,
+        generatedAt: new Date().toISOString(),
+        branding: 'Powered by Infinity – The Lending Giant'
+      };
+      const html = '<!DOCTYPE html><html><head><meta charset="UTF-8"><title>Infinity Package</title></head><body><pre>'
+        + JSON.stringify(payload, null, 2)
+        + '</pre></body></html>';
+      const blob = new Blob([html], {type:'text/html'});
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'infinity_deploy_package.html';
+      a.click();
+      URL.revokeObjectURL(url);
+      logAgent('Packaged current page into a downloadable HTML.');
+    }
+
+    // ===== BUTTONS =====
+    document.getElementById('addNodeBtn').addEventListener('click', () => {
+      const id = uid();
+      const title = 'Program '+(nodes.length+1);
+      nodes.push({ id, title, kind: 'panel' });
+      apps.push({ id, title, type:'panel', content:'blank', preview:'Blank app.' });
+      renderNodes();
+      renderApps();
+      logAgent('Blank program added.');
+    });
+
+    document.getElementById('newBlankBtn').addEventListener('click', () => {
+      const id = uid();
+      const title = 'Blank App '+(apps.length+1);
+      apps.push({ id, title, type:'panel', content:'blank', preview:'Blank app panel.' });
+      nodes.push({ id, title, kind: 'panel' });
+      renderApps();
+      renderNodes();
+      logAgent('New blank app created.');
+    });
+
+    document.getElementById('clearLog').addEventListener('click', () => {
+      agentLog.innerHTML = '';
+    });
+
+    // ===== INIT =====
+    (function init(){
+      // seed with a marketplace app for you
+      const starter = {
+        id: uid(),
+        title: 'PayPal Marketplace (Infinity)',
+        type: 'ui',
+        content: 'starter marketplace panel',
+        preview: 'Infinity-style listing portal.'
+      };
+      apps.push(starter);
+      nodes.push({ id: starter.id, title: starter.title, kind:'ui' });
+      renderApps();
+      renderNodes();
+      logAgent('Infinity Deployer online. Drop, paste, or type to build.');
+    })();
+  </script>
+</body>
+</html>

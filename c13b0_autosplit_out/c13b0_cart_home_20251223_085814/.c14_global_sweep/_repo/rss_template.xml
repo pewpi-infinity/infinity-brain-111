@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>My Custom Feed Title</title>
+    <link>https://example.com</link>
+    <description>A custom RSS feed generated from my script.</description>
+    <language>en-us</language>
+    <pubDate>Sun, 14 Dec 2025 20:00:41 -0600</pubDate>
+    <lastBuildDate>Sun, 14 Dec 2025 20:00:42 -0600</lastBuildDate>
+    <webMaster>you@example.com (Your Name)</webMaster>
+
+    <item>
+      <title>Example Item Title</title>
+      <link>https://example.com/example-item</link>
+      <guid isPermaLink="true">https://example.com/example-item</guid>
+      <pubDate>Sun, 14 Dec 2025 20:00:42 -0600</pubDate>
+      <description><![CDATA[This is a placeholder item. Replace with real content.]]></description>
+    </item>
+  </channel>
+</rss>

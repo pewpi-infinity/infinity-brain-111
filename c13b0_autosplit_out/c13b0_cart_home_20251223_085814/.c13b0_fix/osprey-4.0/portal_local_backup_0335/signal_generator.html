@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no"/>
+<title>Infinity Quantum Signal Generator (React)</title>
+<style>
+html,body{margin:0;height:100%;background:#050510;color:#0ff;font-family:monospace;overflow:hidden}
+#root{width:100%;height:100%}
+</style>
+<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+<script crossorigin src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+<div id="root"></div>
+
+<script type="text/babel">
+const {useRef,useEffect,useState}=React;
+
+function SignalGenerator(){
+  const canvasRef=useRef(null);
+  const [autopilot,setAutopilot]=useState(false);
+  const [audioCtx,setAudioCtx]=useState(null);
+  const barsRef=useRef([]);
+  const tRef=useRef(0);
+  const oscRefs=useRef([]);
+
+  useEffect(()=>{
+    const bars=[];
+    for(let i=0;i<20;i++)bars.push({a:0.5+Math.random()*0.5,phi:Math.random()*6});
+    barsRef.current=bars;
+  },[]);
+
+  useEffect(()=>{
+    const c=canvasRef.current,x=c.getContext("2d");
+    function fit(){c.width=innerWidth;c.height=innerHeight;}
+    fit();window.addEventListener("resize",fit);
+    const baseY=innerHeight*0.7;
+    function draw(){
+      tRef.current+=0.02;
+      x.clearRect(0,0,c.width,c.height);
+      const g=x.createLinearGradient(0,0,0,c.height);
+      g.addColorStop(0,"#02030a");g.addColorStop(1,"#071020");
+      x.fillStyle=g;x.fillRect(0,0,c.width,c.height);
+      barsRef.current.forEach((b,i)=>{
+        if(autopilot)b.a=0.4+0.3*Math.sin(tRef.current+i*0.3);
+        const h=200*b.a+80*Math.sin(tRef.current+b.phi);
+        const y=baseY-h;
+        const col=`hsl(${180+60*b.a},80%,${40+30*b.a}%)`;
+        x.fillStyle=col;x.shadowColor=col;x.shadowBlur=20;
+        const xPos=(i+1)*(c.width/22);
+        x.fillRect(xPos-8,y,16,h);
+        x.beginPath();x.arc(xPos,y-20,6,0,Math.PI*2);
+        x.fillStyle="#0ff";x.fill();
+      });
+      requestAnimationFrame(draw);
+    }
+    draw();
+  },[autopilot]);
+
+  function ensureAudio(){
+    if(!audioCtx){
+      const ctx=new (window.AudioContext||window.webkitAudioContext)();
+      setAudioCtx(ctx);
+      return ctx;
+    }
+    return audioCtx;
+  }
+
+  function startTones(ctx){
+    oscRefs.current.forEach(o=>o.osc.stop());
+    oscRefs.current=[];
+    barsRef.current.forEach((b,i)=>{
+      const osc=ctx.createOscillator();
+      const gain=ctx.createGain();
+      gain.gain.value=0.02*b.a;
+      osc.type="sine";
+      osc.frequency.value=120+600*b.a;
+      osc.connect(gain).connect(ctx.destination);
+      osc.start();
+      oscRefs.current.push({osc,gain,i});
+    });
+  }
+
+  function updateTones(){
+    if(!audioCtx)return;
+    oscRefs.current.forEach(({osc,gain,i})=>{
+      const b=barsRef.current[i];
+      osc.frequency.value=120+600*b.a;
+      gain.gain.value=0.02*b.a;
+    });
+  }
+
+  useEffect(()=>{
+    if(!autopilot)return;
+    const ctx=ensureAudio();
+    startTones(ctx);
+    const id=setInterval(updateTones,120);
+    return()=>{clearInterval(id);oscRefs.current.forEach(o=>o.osc.stop());oscRefs.current=[];}
+  },[autopilot]);
+
+  const dragRef=useRef(-1);
+  useEffect(()=>{
+    const c=canvasRef.current;
+    function idx(e){const mx=e.offsetX;return Math.min(19,Math.max(0,Math.floor((mx/c.width)*22)-1));}
+    c.addEventListener("pointerdown",e=>{
+      dragRef.current=idx(e);
+      const ctx=ensureAudio();startTones(ctx);
+    });
+    c.addEventListener("pointerup",()=>dragRef.current=-1);
+    c.addEventListener("pointermove",e=>{
+      if(dragRef.current>=0){
+        const rel=1-(e.offsetY/innerHeight*1.2);
+        barsRef.current[dragRef.current].a=Math.max(0.1,Math.min(1,rel));
+        updateTones();
+      }
+    });
+  },[audioCtx]);
+
+  return(
+    <div style={{width:"100%",height:"100%",position:"relative"}}>
+      <canvas ref={canvasRef} style={{width:"100%",height:"100%"}}/>
+      <div style={{position:"fixed",top:10,left:0,right:0,textAlign:"center"}}>
+        <button onClick={()=>setAutopilot(p=>!p)}
+          style={{background:"#0ff",color:"#000",fontWeight:"bold",padding:"10px 20px",
+                  border:"none",borderRadius:"8px",boxShadow:"0 0 15px #0ff"}}>
+          {autopilot?"Stop Autopilot":"Start Autopilot"}
+        </button>
+        <a href="index.html" style={{marginLeft:20,color:"#0ff",textDecoration:"none"}}>
+          ⚡ Back to Portal
+        </a>
+      </div>
+      <div style={{position:"fixed",top:60,left:0,right:0,textAlign:"center"}}>
+        <span style={{fontSize:18,color:"#0ff",marginRight:12}}>
+          Now Build Your Own Signal Generator
+        </span>
+        <input placeholder="Design your own…" 
+               style={{padding:6,borderRadius:6,border:"none",width:200}}/>
+        <button style={{background:"#0ff",color:"#000",fontWeight:"bold",padding:"6px 12px",
+                        border:"none",borderRadius:6,marginLeft:6}}>Try Now</button>
+      </div>
+    </div>
+  );
+}
+
+const root=ReactDOM.createRoot(document.getElementById("root"));
+root.render(<SignalGenerator/>);
+</script>
+</body>
+</html>

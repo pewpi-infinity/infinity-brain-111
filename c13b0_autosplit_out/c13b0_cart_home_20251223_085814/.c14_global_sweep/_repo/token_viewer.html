@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Token Viewer - Mongoose.OS</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: 'Monaco', 'Courier New', monospace;
+      background: linear-gradient(135deg, #0a0a1a 0%, #1a1a3a 50%, #0a0a2a 100%);
+      color: #e0e0e0;
+      min-height: 100vh;
+      padding: 20px;
+    }
+    
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+      padding: 30px;
+      background: rgba(0, 0, 0, 0.6);
+      border-radius: 10px;
+      border: 2px solid #00ff9d;
+    }
+    
+    .header h1 {
+      color: #00ff9d;
+      font-size: 2.5rem;
+      text-shadow: 0 0 10px rgba(0, 255, 157, 0.8);
+      margin-bottom: 10px;
+    }
+    
+    .token-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 20px;
+      max-width: 1600px;
+      margin: 0 auto;
+    }
+    
+    .token-card {
+      background: linear-gradient(135deg, #1a1a3a, #2a2a4a);
+      padding: 20px;
+      border-radius: 10px;
+      border-left: 5px solid;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+      transition: all 0.3s;
+      cursor: pointer;
+    }
+    
+    .token-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.7);
+    }
+    
+    .token-card.blue { border-left-color: #4a90e2; }
+    .token-card.purple { border-left-color: #9b59b6; }
+    .token-card.green { border-left-color: #00ff9d; }
+    .token-card.red { border-left-color: #ff6b6b; }
+    .token-card.gold { border-left-color: #f1c40f; }
+    
+    .token-id {
+      font-size: 1.3rem;
+      font-weight: bold;
+      color: #00d4ff;
+      margin-bottom: 10px;
+    }
+    
+    .token-field {
+      display: flex;
+      justify-content: space-between;
+      margin: 8px 0;
+      padding: 5px 0;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    
+    .field-label {
+      color: #888;
+      font-size: 0.9rem;
+    }
+    
+    .field-value {
+      color: #fff;
+      font-weight: bold;
+    }
+    
+    .color-tier {
+      font-size: 1.1rem;
+      margin: 10px 0;
+      padding: 8px;
+      background: rgba(0, 0, 0, 0.3);
+      border-radius: 5px;
+      text-align: center;
+    }
+    
+    .quantum-string {
+      margin-top: 15px;
+      padding: 10px;
+      background: rgba(0, 212, 255, 0.1);
+      border-radius: 5px;
+      font-style: italic;
+      color: #00d4ff;
+      font-size: 0.9rem;
+    }
+    
+    .lore {
+      margin-top: 15px;
+      padding: 10px;
+      background: rgba(0, 0, 0, 0.3);
+      border-radius: 5px;
+      font-size: 0.85rem;
+      line-height: 1.6;
+      color: #ccc;
+    }
+    
+    .controls {
+      text-align: center;
+      margin: 40px 0;
+    }
+    
+    .btn {
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      color: white;
+      padding: 15px 30px;
+      border: none;
+      border-radius: 8px;
+      font-family: inherit;
+      font-size: 1rem;
+      font-weight: bold;
+      cursor: pointer;
+      margin: 0 10px;
+      transition: all 0.3s;
+    }
+    
+    .btn:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px rgba(102, 126, 234, 0.6);
+    }
+    
+    .stats {
+      text-align: center;
+      margin: 30px 0;
+      padding: 20px;
+      background: rgba(0, 0, 0, 0.4);
+      border-radius: 10px;
+      max-width: 800px;
+      margin: 30px auto;
+    }
+    
+    .stat-item {
+      display: inline-block;
+      margin: 0 30px;
+    }
+    
+    .stat-value {
+      font-size: 2rem;
+      color: #00ff9d;
+      font-weight: bold;
+    }
+    
+    .stat-label {
+      font-size: 0.9rem;
+      color: #888;
+      margin-top: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>💎 Token Viewer</h1>
+    <p>Explore the Mongoose.OS Token Repository</p>
+  </div>
+  
+  <div class="stats" id="stats">
+    <div class="stat-item">
+      <div class="stat-value" id="tokenCount">0</div>
+      <div class="stat-label">Total Tokens</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-value" id="avgValue">0</div>
+      <div class="stat-label">Average Value</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-value" id="totalValue">0</div>
+      <div class="stat-label">Total Value</div>
+    </div>
+  </div>
+  
+  <div class="controls">
+    <button class="btn" onclick="loadSampleTokens()">Load Sample Tokens</button>
+    <button class="btn" onclick="filterByColor('all')">Show All</button>
+    <button class="btn" onclick="filterByColor('blue')">🔵 Blue</button>
+    <button class="btn" onclick="filterByColor('purple')">🟣 Purple</button>
+    <button class="btn" onclick="filterByColor('green')">🟢 Green</button>
+    <button class="btn" onclick="filterByColor('red')">🔴 Red</button>
+    <button class="btn" onclick="filterByColor('gold')">🟡 Gold</button>
+    <a href="mongoose_hub.html" class="btn" style="text-decoration: none; display: inline-block;">Back to Hub</a>
+  </div>
+  
+  <div class="token-grid" id="tokenGrid"></div>
+  
+  <script>
+    // Sample token data based on actual file structure
+    const sampleTokens = [
+      {
+        id: "INF-00000001",
+        colorTier: "🔵 WATSON-BLUE",
+        hash: "4B37108D",
+        value: 1262,
+        projected10y: 7572,
+        quantumString: "lattice-bound observer field",
+        route: "1EZKA2F56C74349B7FA6",
+        lore: "Westinghouse flux memory and GE uranium harmonics merge to create a museum-grade archival imprint inside each token.",
+        color: "blue"
+      },
+      {
+        id: "INF-00000042",
+        colorTier: "🟣 QUANTUM-PURPLE",
+        hash: "7D892FE1",
+        value: 3847,
+        projected10y: 23082,
+        quantumString: "superposition collapse mechanism",
+        route: "9XPLA8G23H19284C5DE7",
+        lore: "Quantum tunneling through dimensional barriers creates unique particle signatures within each token structure.",
+        color: "purple"
+      },
+      {
+        id: "INF-00000089",
+        colorTier: "🟢 ENERGY-GREEN",
+        hash: "2A56BC91",
+        value: 2156,
+        projected10y: 12936,
+        quantumString: "photovoltaic resonance cascade",
+        route: "4MNOP2Q78R45627S9KL1",
+        lore: "Solar plasma harmonics and renewable energy signatures encoded into perpetual token architecture.",
+        color: "green"
+      },
+      {
+        id: "INF-00000134",
+        colorTier: "🔴 FIRE-RED",
+        hash: "E9123ABC",
+        value: 5892,
+        projected10y: 35352,
+        quantumString: "thermodynamic entropy reversal",
+        route: "6TUVW5X12Y89753Z3BCD",
+        lore: "Critical priority markers stored in high-temperature resistant quantum matrices for emergency protocols.",
+        color: "red"
+      },
+      {
+        id: "INF-00000201",
+        colorTier: "🟡 GOLD-TIER",
+        hash: "F4567DEF",
+        value: 7234,
+        projected10y: 43404,
+        quantumString: "noble metal crystalline structure",
+        route: "8EFGH9I45J12906K7MNO",
+        lore: "Precious metal quantum signatures ensure long-term value stability and cross-dimensional portability.",
+        color: "gold"
+      },
+      {
+        id: "INF-00000287",
+        colorTier: "🔵 WATSON-BLUE",
+        hash: "A8901BCD",
+        value: 1893,
+        projected10y: 11358,
+        quantumString: "cognitive resonance pattern",
+        route: "2PQRS4T67U34512V8WXY",
+        lore: "IBM Watson neural network patterns crystallized into permanent token memory structures.",
+        color: "blue"
+      },
+      {
+        id: "INF-00000456",
+        colorTier: "🟣 QUANTUM-PURPLE",
+        hash: "C2345EFG",
+        value: 4521,
+        projected10y: 27126,
+        quantumString: "entanglement preservation field",
+        route: "5ZABC6D89E67834F1GHI",
+        lore: "Quantum entanglement states frozen in time, maintaining coherence across infinite timelines.",
+        color: "purple"
+      },
+      {
+        id: "INF-00000678",
+        colorTier: "🟢 ENERGY-GREEN",
+        hash: "D6789HIJ",
+        value: 3142,
+        projected10y: 18852,
+        quantumString: "zero-point energy harvester",
+        route: "9JKLM1N23O90156P4QRS",
+        lore: "Vacuum energy fluctuations captured and converted into stable token value matrices.",
+        color: "green"
+      },
+      {
+        id: "INF-00000901",
+        colorTier: "🔴 FIRE-RED",
+        hash: "E0123KLM",
+        value: 6789,
+        projected10y: 40734,
+        quantumString: "critical mass proximity sensor",
+        route: "7TUVW8X45Y23478Z6ABC",
+        lore: "High-alert fusion reaction signatures embedded for rapid-response research protocols.",
+        color: "red"
+      },
+      {
+        id: "INF-00001234",
+        colorTier: "🟡 GOLD-TIER",
+        hash: "F4567NOP",
+        value: 8901,
+        projected10y: 53406,
+        quantumString: "auric frequency stabilizer",
+        route: "3DEFG5H89I56901J2KLM",
+        lore: "Gold standard quantum markers ensuring maximum value retention across all research domains.",
+        color: "gold"
+      }
+    ];
+    
+    let currentTokens = sampleTokens;
+    
+    function loadSampleTokens() {
+      displayTokens(sampleTokens);
+      updateStats(sampleTokens);
+    }
+    
+    function displayTokens(tokens) {
+      const grid = document.getElementById('tokenGrid');
+      grid.innerHTML = '';
+      
+      tokens.forEach(token => {
+        const card = document.createElement('div');
+        card.className = `token-card ${token.color}`;
+        card.innerHTML = `
+          <div class="token-id">${token.id}</div>
+          <div class="color-tier">${token.colorTier}</div>
+          <div class="token-field">
+            <span class="field-label">Hash:</span>
+            <span class="field-value">${token.hash}</span>
+          </div>
+          <div class="token-field">
+            <span class="field-label">Value:</span>
+            <span class="field-value">${token.value.toLocaleString()}</span>
+          </div>
+          <div class="token-field">
+            <span class="field-label">10y Projected:</span>
+            <span class="field-value">${token.projected10y.toLocaleString()}</span>
+          </div>
+          <div class="token-field">
+            <span class="field-label">Route:</span>
+            <span class="field-value">${token.route}</span>
+          </div>
+          <div class="quantum-string">
+            🔮 ${token.quantumString}
+          </div>
+          <div class="lore">
+            📖 ${token.lore}
+          </div>
+        `;
+        grid.appendChild(card);
+      });
+    }
+    
+    function updateStats(tokens) {
+      const count = tokens.length;
+      
+      // Guard against empty array
+      if (count === 0) {
+        document.getElementById('tokenCount').textContent = '0';
+        document.getElementById('avgValue').textContent = '0';
+        document.getElementById('totalValue').textContent = '0';
+        return;
+      }
+      
+      const totalValue = tokens.reduce((sum, t) => sum + t.value, 0);
+      const avgValue = Math.round(totalValue / count);
+      
+      document.getElementById('tokenCount').textContent = count;
+      document.getElementById('avgValue').textContent = avgValue.toLocaleString();
+      document.getElementById('totalValue').textContent = totalValue.toLocaleString();
+    }
+    
+    function filterByColor(color) {
+      if (color === 'all') {
+        currentTokens = sampleTokens;
+      } else {
+        currentTokens = sampleTokens.filter(t => t.color === color);
+      }
+      displayTokens(currentTokens);
+      updateStats(currentTokens);
+    }
+    
+    // Auto-load on page load
+    window.onload = () => {
+      loadSampleTokens();
+    };
+  </script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+<head>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<title>osprey-4.0</title>
+<style>
+body{background:#0b0f14;color:#e6edf3;font-family:monospace;padding:12px}
+.panel{border:1px solid #30363d;padding:12px;margin:12px 0}
+canvas{width:100%;max-width:360px}
+</style>
+</head>
+<body>
+
+<h1>osprey-4.0</h1>
+
+<div class=panel>
+<h2>Token</h2>
+<pre id=token>loading...</pre>
+</div>
+
+<div class=panel>
+<h2>Quantum Visualizer</h2>
+<canvas id=q width=240 height=160></canvas>
+</div>
+
+<div class=panel>
+<h2>Research Ledger</h2>
+<ul id=ledger></ul>
+</div>
+
+<script>
+fetch("token/latest.txt")
+  .then(r=>r.text())
+  .then(f=>fetch("token/"+f.trim()))
+  .then(r=>r.text())
+  .then(t=>token.textContent=t);
+
+fetch("ledger/index.json")
+ .then(r=>r.json())
+ .then(list=>{
+   list.reverse().forEach(e=>{
+     const li=document.createElement("li");
+     const a=document.createElement("a");
+     a.href=e.file;
+     a.textContent=e.date;
+     li.appendChild(a);
+     ledger.appendChild(li);
+   });
+ });
+</script>
+
+<script src="visualizer.js"></script>
+</body>
+</html>
+<!-- C13B0_TOKEN_BLOCK -->
+<style>
+.c13b0{font-family:monospace;background:#0b0f14;color:#e6edf3;padding:16px}
+.c13b0 .value{font-size:2em;color:#ffd700}
+.c13b0 button{padding:12px;font-size:1em;width:100%;margin-top:8px}
+</style>
+
+<div class="c13b0">
+  <h2>🧱🍄⭐ Token</h2>
+  <div class="value">Value: 36</div>
+  <p>🧱 Base • 🍄 Growth • ⭐ Star Power</p>
+
+  <h3>Support / Acquire</h3>
+  <p>This token represents real work, research, and structure.</p>
+
+  <a href="https://www.paypal.com/paypalme/watsonkris61@gmail.com/36" target="_blank">
+    <button>Pay $36 via PayPal</button>
+  </a>
+
+  <p style="font-size:0.8em;">
+    PayPal recipient: watsonkris61@gmail.com<br/>
+    Repo: osprey-4.0<br/>
+    Generated: 2025-12-20T15:41:44Z
+  </p>
+</div>
+<!-- C14_TOKEN_PANEL_START -->
+<div style="font-family:monospace;background:#0b0f14;color:#e6edf3;padding:16px;margin:16px 0">
+  <div style="font-size:2.4em;color:#ffd700;text-align:center">
+    🧱🍄⭐ Token Value: 65
+  </div>
+
+  <p style="text-align:center">
+    🧱 Base &nbsp; 🍄 Growth &nbsp; ⭐ Star Power
+  </p>
+
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="get" target="_blank">
+    <input type="hidden" name="cmd" value="_xclick">
+    <input type="hidden" name="business" value="watsonkris61@gmail.com">
+    <input type="hidden" name="item_name" value="osprey-4.0 Token">
+    <input type="hidden" name="amount" value="65">
+    <input type="hidden" name="currency_code" value="USD">
+    <button style="width:100%;padding:14px;font-size:1em">
+      Pay $65 via PayPal
+    </button>
+  </form>
+
+  <p style="font-size:0.75em;text-align:center;margin-top:10px">
+    Repository owner: pewpi-infinity<br/>
+    Contact: marvaseater@gmail.com<br/>
+    Settlement handled externally via PayPal
+  </p>
+</div>
+<!-- C14_TOKEN_PANEL_END -->

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Infinity OS Builder App — Start Your Journey</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        body { background:#0c121c; color:#fff; font-family:'Consolas', monospace; margin:0; padding:0; }
+        h1 { margin-top:28px; font-size:2em; text-align:center; color:#00ffaa; }
+        .prompt { text-align: center; margin:20px auto 16px auto; font-size:1.22em; color: #ff00aa;}
+        .search-bar { display:flex; justify-content:center; margin:22px auto;}
+        input[type='text']{
+            background:#1a1a22; border:2px solid #00ffcb; color:#eee; font-size:1.02em; padding:9px 18px;
+            border-radius:8px; width:60vw; max-width:440px; margin-right:8px;
+        }
+        .template-gallery{
+            display:grid; grid-template-columns:repeat(auto-fit,minmax(230px,1fr)); gap:18px; max-width:860px; margin:0 auto;
+            margin-top:20px;
+        }
+        .template-card{
+            background:#131f34; border:2px solid #00ffaa99; border-radius:13px; padding:16px 10px 10px 16px; min-height:160px;
+        }
+        .template-card h3{ color:#00ffaa; font-size:1.18em; margin-top:2px; }
+        .template-card p{color:#adffe7;font-size:1em;}
+        .template-actions {margin-top:12px;}
+        .template-actions button{
+            background:#00ffaa; color:#16312f; border:none;border-radius:5px; font-weight:bold;padding:6px 17px;font-size:.98em;cursor:pointer;
+        }
+        .template-actions button:hover{background:#00aaff; color:#fff;}
+    </style>
+</head>
+<body>
+    <h1>Infinity Builder App</h1>
+    <div class="prompt">Start your Infinity journey! Explore templates or create your own.</div>
+    <div class="search-bar">
+        <input type="text" id="search" placeholder="Search or type your build idea..." oninput="filterTemplates()">
+    </div>
+    <div class="template-gallery" id="gallery">
+        <!-- Example templates -->
+        <div class="template-card" data-keywords="vault finance tokens security">
+            <h3>Coin Vault</h3>
+            <p>Secure digital token vault with integrated authentication and payout logic.</p>
+            <div class="template-actions">
+                <button onclick="alert('Cloning Coin Vault...')">Clone & Build</button>
+            </div>
+        </div>
+        <div class="template-card" data-keywords="marketplace tokens exchange commerce">
+            <h3>Infinity Market</h3>
+            <p>Decentralized marketplace for trading infinity tokens and signals.</p>
+            <div class="template-actions">
+                <button onclick="alert('Cloning Infinity Market...')">Clone & Build</button>
+            </div>
+        </div>
+        <div class="template-card" data-keywords="bio signal generator health">
+            <h3>Signal Generator</h3>
+            <p>BioTuner/Signal Lab for custom signal creation and testing.</p>
+            <div class="template-actions">
+                <button onclick="alert('Cloning Signal Generator...')">Clone & Build</button>
+            </div>
+        </div>
+        <div class="template-card" data-keywords="canvas field lab drawing">
+            <h3>Field Lab (Canvas App)</h3>
+            <p>Interactive field lab for design drawings and spatial planning.</p>
+            <div class="template-actions">
+                <button onclick="alert('Cloning Field Lab...')">Clone & Build</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        function filterTemplates() {
+            let q = document.getElementById('search').value.trim().toLowerCase();
+            let cards = document.querySelectorAll('.template-card');
+            cards.forEach(card => {
+                let key = card.getAttribute('data-keywords') + card.querySelector('h3').textContent + card.querySelector('p').textContent;
+                if(q === '' || key.toLowerCase().includes(q)) {
+                    card.style.display = '';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!doctype html>
+<!-- 🐶 PEWPI SIGN-IN (GLOBAL) -->
+<div id="pewpi-gate">
+  <h1>🐶 pewpi</h1>
+  <input id="pewpi_user" placeholder="Handle">
+  <button onclick="pewpiUnlock()">Enter</button>
+</div>
+<script>
+function pewpiUnlock(){
+  localStorage.setItem("pewpi_user", document.getElementById("pewpi_user").value);
+  document.getElementById("pewpi-gate").style.display="none";
+  document.body.classList.add("pewpi-live");
+}
+if(localStorage.getItem("pewpi_user")){
+  document.addEventListener("DOMContentLoaded",()=>{
+    const g=document.getElementById("pewpi-gate");
+    if(g) g.style.display="none";
+    document.body.classList.add("pewpi-live");
+  });
+}
+</script>
+<style>
+#pewpi-gate{position:fixed;inset:0;background:#0e0e0e;color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:9999}
+#pewpi-gate button{background:#ff69b4;border:0;padding:10px 18px}
+body:not(.pewpi-live)>*:not(#pewpi-gate){filter:blur(6px);pointer-events:none}
+</style>
+<html lang="en">
+<head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>∞ osprey-4.0</title>
+<style>
+body{margin:0;padding:2rem;background:#030712;color:#e2e8f0;font-family:system-ui;}
+a{display:block;margin:.5rem 0;color:#38bdf8;}
+</style>
+</head>
+<body>
+<h1>🏛 Osprey Government Hub (placeholder)</h1>
+<p>These links replace the 404 pages until their real modules exist.</p>
+<a href="../portal/index.html">Back to Portal</a>
+<a href="../gateway/index.html">Return to Gateway</a>
+</body>
+</html>

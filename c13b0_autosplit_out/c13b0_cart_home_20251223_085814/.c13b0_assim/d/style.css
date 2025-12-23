@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: black;
+  font-family: 'Segoe UI', sans-serif;
+  color: #aee6ff;
+}
+
+#starfield {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* Input Panel */
+#inputPanel {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 680px;
+  background: rgba(10,20,40,0.6);
+  backdrop-filter: blur(10px);
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid #1e90ff;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#inputText {
+  width: 100%;
+  height: 90px;
+  background: rgba(10,20,40,0.8);
+  border: 1px solid #1e90ff;
+  border-radius: 10px;
+  color: #b7e8ff;
+  padding: 10px;
+  outline: none;
+}
+
+#inputPanel button {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background: #1e90ff;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+#inputPanel button:hover {
+  background: #43adff;
+}
+
+/* Infinity Orb */
+#orb {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 70px;
+  height: 70px;
+  background: radial-gradient(circle, #88cdff, #0058ff);
+  border-radius: 50%;
+  box-shadow: 0 0 25px #1e90ff, 0 0 50px #0095ff;
+  cursor: pointer;
+  animation: pulse 2.5s infinite;
+  z-index: 15;
+}
+@keyframes pulse {
+  0% { box-shadow: 0 0 20px #008eff; }
+  50% { box-shadow: 0 0 40px #00b3ff; }
+  100% { box-shadow: 0 0 20px #008eff; }
+}
+
+/* SUMMARY PANEL (Orb Transform) */
+#summaryPanel {
+  position: fixed;
+  bottom: -80vh;
+  right: 20px;
+  width: 340px;
+  height: 70vh;
+  background: rgba(0,10,30,0.92);
+  backdrop-filter: blur(12px);
+  border-radius: 18px;
+  border: 2px solid #1e90ff;
+  padding: 20px;
+  color: #b7e8ff;
+  box-shadow: 0 0 25px #0090ff;
+  transition: bottom 0.5s ease-out;
+  overflow-y: auto;
+  z-index: 20;
+}
+#summaryPanel.open {
+  bottom: 110px;
+}
+
+#summaryText {
+  white-space: pre-wrap;
+  font-size: 14px;
+}

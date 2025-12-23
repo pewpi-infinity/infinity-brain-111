@@ -1,0 +1,618 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Octave OS — Single-file Terminal (All-in-1, front-end only)</title>
+
+  <style>
+    :root{
+      --page-bg:#e9f1f5;
+      --terminal-bg:#07262f;    /* darker for contrast */
+      --terminal-text:#bfeeff;
+      --typed-blue:#1e78b8;     /* darker visible blue for typed text */
+      --panel-bg:#fbfdfe;
+      --panel-border:#d6eaf0;
+      --accent-dark:#05262d;
+      --muted:#6b8086;
+      --noun-color:#f2d024;
+      --verb-color:#2fb86a;
+      --adj-color:#4fb8e0;
+      --adv-color:#ff9a3c;
+      --num-color:#c66eff;
+      --other-color:#e14b4b;
+      --token-bg:#eaf9ff;
+      --token-text:#045d74;
+    }
+
+    html,body { height:100%; margin:0; }
+    body{
+      font-family:system-ui,-apple-system,Roboto,"Helvetica Neue",Arial;
+      background:var(--page-bg);
+      color:var(--accent-dark);
+      padding:18px;
+      -webkit-font-smoothing:antialiased;
+    }
+
+    .wrap{max-width:1180px;margin:0 auto}
+    .header{
+      background:var(--terminal-bg);
+      color:var(--terminal-text);
+      padding:18px;
+      border-radius:12px;
+      box-shadow:0 8px 28px rgba(8,48,59,0.08);
+      font-family:monospace;
+    }
+    .header h1{margin:0;color:var(--typed-blue);font-size:18px}
+    .header p{margin:6px 0 0 0;color:#a9dff0;font-size:13px}
+
+    .card{background:var(--panel-bg);border-radius:12px;padding:14px;margin-top:12px;border:1px solid var(--panel-border)}
+    .row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+    label{font-weight:700;display:block;margin-bottom:6px}
+    textarea,input[type="text"]{width:100%;padding:10px;border-radius:8px;border:1px solid #d6e9ef;font-size:15px;box-sizing:border-box}
+    textarea{min-height:140px;resize:vertical;font-family:inherit;color:var(--typed-blue)}
+    button{padding:8px 12px;border-radius:8px;border:1px solid #cfe8f0;background:#fff;cursor:pointer}
+    .panel{background:#fff;border-radius:8px;padding:10px;min-height:160px;border:1px solid #e6eef0;white-space:pre-wrap;overflow:auto;font-family:monospace;color:var(--terminal-text)}
+    .small{font-size:13px;color:var(--muted)}
+    .typed{color:var(--typed-blue)}
+    .token-balance{background:var(--token-bg);padding:6px 10px;border-radius:8px;color:var(--token-text);font-weight:700;border:1px solid #c9eef8}
+
+    /* POS token classes */
+    .token{padding:0 0.06rem;border-radius:2px}
+    .pos-noun{color:var(--noun-color);font-weight:700}
+    .pos-verb{color:var(--verb-color);font-weight:700}
+    .pos-adj{color:var(--adj-color)}
+    .pos-adv{color:var(--adv-color)}
+    .pos-num{color:var(--num-color);font-weight:700}
+    .pos-other{color:var(--other-color)}
+
+    @media (max-width:760px){
+      .cols{display:block}
+    }
+    @media (min-width:761px){
+      .cols{display:grid;grid-template-columns:1fr 420px;gap:12px}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="header">
+      <h1>∞ Octave Terminal — Single-file front-end (All modules inlined)</h1>
+      <p>Single terminal UI: conversation, encryption, token accounting (client-only), export/import and local persistence. No server required. Paste this file as index.html in your repo.</p>
+    </div>
+
+    <div class="card">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap">
+        <div style="flex:1;min-width:320px">
+          <label for="prompt">Terminal input</label>
+          <textarea id="prompt" placeholder="Type message or AI prompt..."></textarea>
+        </div>
+
+        <div style="width:340px">
+          <label>Actions & Wallet</label>
+          <div class="row" style="margin-bottom:8px">
+            <button id="btn-mode-conv">Conversation</button>
+            <button id="btn-mode-enc">Encrypt (secret)</button>
+            <button id="btn-submit">Submit</button>
+            <button id="btn-clear">Clear</button>
+          </div>
+
+          <div style="display:flex;gap:8px;align-items:center">
+            <div class="small">Wallet:</div>
+            <div id="balance" class="token-balance">0 TOK</div>
+            <button id="btn-login">Login</button>
+          </div>
+
+          <div style="margin-top:8px">
+            <label for="pass">Passphrase (for encryption)</label>
+            <div style="display:flex;gap:8px;margin-top:6px">
+              <input id="pass" type="text" placeholder="Enter or generate passphrase" />
+              <button id="btn-gen">Gen</button>
+            </div>
+            <div class="small" style="margin-top:6px">All stored conversations are kept local unless you export them. Tokens use client-only accounting by default with cooldown enforcement.</div>
+          </div>
+
+          <div style="margin-top:12px">
+            <label>Export / Import</label>
+            <div class="row">
+              <button id="btn-export">Export snapshot (download)</button>
+              <button id="btn-import">Import snapshot (paste JSON)</button>
+              <button id="btn-clear-local">Clear Local Data</button>
+            </div>
+            <div class="small" style="margin-top:6px">Export creates a JSON snapshot of logs, wallet and encoded data you can save or paste into another browser.</div>
+          </div>
+
+        </div>
+      </div>
+
+      <div style="margin-top:12px" class="cols">
+        <div>
+          <label>Terminal (conversation & system)</label>
+          <div id="terminal" class="panel" aria-live="polite"></div>
+        </div>
+
+        <div>
+          <label>Encoded / Stored output</label>
+          <div id="encoded" class="panel"></div>
+          <div style="margin-top:8px">
+            <label class="small">Recent actions / status</label>
+            <div id="status" class="small typed" style="margin-top:6px;color:#9fe8ff">Ready — conversation mode by default.</div>
+          </div>
+        </div>
+      </div>
+
+      <div style="margin-top:12px; display:flex;gap:8px;flex-wrap:wrap;align-items:center">
+        <label class="small">POS color toggle</label>
+        <label style="margin-left:6px"><input type="checkbox" id="pos-toggle" checked> Enable POS color (nouns/verbs/adj/adv)</label>
+        <label style="margin-left:16px" class="small">Cooldown enforcement: 30 minutes per awarded conversation</label>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======================
+       Inlined client modules:
+       - commit-client.js (safe client to POST to /commit if user ever runs a commit server)
+       - token client (client-only wallet + cooldown enforcement)
+       - encryption (PBKDF2 -> AES-GCM)
+       - POS tagger + coloring
+       - UI wiring + export/import
+       All in one file so you only need index.html
+       ====================== -->
+
+  <!-- commit-client (inlined from static/js/commit-client.js) -->
+  <script>
+  /**
+   * commit-client.js (inlined)
+   * Small client helper to POST typed text to the server commit endpoint.
+   * Usage:
+   *   CommitClient.send("your text")
+   *     .then(resp => console.log('committed', resp))
+   *     .catch(err => console.error(err));
+   *
+   * IMPORTANT:
+   * - This client will only work if you run a server with /commit.
+   * - No tokens or secrets are stored here.
+   */
+  const CommitClient = (function () {
+    const ENDPOINT = '/commit';
+    const SECRET = window.COMMIT_SECRET || null;
+
+    async function send(text) {
+      if (!text || !text.trim()) throw new Error('text required');
+
+      const payload = { text: text };
+      const headers = { 'Content-Type': 'application/json' };
+      if (SECRET) headers['X-Commit-Secret'] = SECRET;
+
+      const resp = await fetch(ENDPOINT, {
+        method: 'POST',
+        headers,
+        body: JSON.stringify(payload),
+        credentials: 'same-origin'
+      });
+      if (!resp.ok) {
+        const body = await resp.json().catch(() => ({}));
+        throw new Error(body && body.error ? body.error : `HTTP ${resp.status}`);
+      }
+      return resp.json();
+    }
+
+    return { send };
+  })();
+
+  window.CommitClient = CommitClient;
+  </script>
+
+  <!-- token client (client-only, no server required) -->
+  <script>
+  // token-client (client-only mode, inline)
+  // Purpose: client-side wallet stored in localStorage with serverless cooldown enforcement.
+  // Awards 1 token per stored conversation, but only once every 30 minutes per user id (enforced locally).
+  (function(){
+    const WALLET_KEY = 'pewpi_wallet_v2';
+    const LOGS_KEY = 'pewpi_logs_v2';
+    const COOLDOWN_MS = 30 * 60 * 1000;
+
+    function loadWallet(){ try { return JSON.parse(localStorage.getItem(WALLET_KEY) || '{}'); } catch(e){ return {}; } }
+    function saveWallet(w){ localStorage.setItem(WALLET_KEY, JSON.stringify(w)); }
+
+    function loadLogs(){ try { return JSON.parse(localStorage.getItem(LOGS_KEY) || '[]'); } catch(e) { return []; } }
+    function saveLogs(l){ localStorage.setItem(LOGS_KEY, JSON.stringify(l)); }
+
+    function awardIfAllowed(id){
+      const w = loadWallet();
+      if (!w.id) w.id = id;
+      const last = (w.last_awarded || 0);
+      const now = Date.now();
+      const elapsed = now - last;
+      if (elapsed >= COOLDOWN_MS){
+        w.balance = (w.balance || 0) + 1;
+        w.last_awarded = now;
+        saveWallet(w);
+        return { awarded:true, balance:w.balance, cooldown_remaining:0 };
+      } else {
+        return { awarded:false, balance:w.balance || 0, cooldown_remaining: Math.max(0, Math.ceil((COOLDOWN_MS - elapsed)/1000)) };
+      }
+    }
+
+    function initWallet(id){
+      const w = loadWallet();
+      if (id) w.id = id;
+      if (typeof w.balance !== 'number') w.balance = 0;
+      saveWallet(w);
+      return w;
+    }
+
+    function consume(id, amount){
+      const w = loadWallet();
+      if ((w.balance || 0) < amount) return { ok:false, error:'insufficient' };
+      w.balance = (w.balance || 0) - amount;
+      saveWallet(w);
+      return { ok:true, balance:w.balance };
+    }
+
+    function exportSnapshot(){
+      return JSON.stringify({ wallet: loadWallet(), logs: loadLogs(), exported_at: new Date().toISOString() }, null, 2);
+    }
+
+    function importSnapshot(jsonStr){
+      try {
+        const obj = JSON.parse(jsonStr);
+        if (obj.wallet) saveWallet(obj.wallet);
+        if (obj.logs) saveLogs(obj.logs);
+        return { ok:true };
+      } catch(e){
+        return { ok:false, error: e.message };
+      }
+    }
+
+    window.ClientTokens = { initWallet, awardIfAllowed, consume, exportSnapshot, importSnapshot, loadWallet, saveWallet, loadLogs, saveLogs };
+  })();
+  </script>
+
+  <!-- Encryption (PBKDF2 -> AES-GCM) -->
+  <script>
+  // WebCrypto helpers for encryption/decryption used in the page
+  (function(){
+    function toBase64(bytes){
+      let s=''; for (let i=0;i<bytes.length;i++) s+=String.fromCharCode(bytes[i]); return btoa(s);
+    }
+    function fromBase64(b64){
+      const bin=atob(b64); const arr=new Uint8Array(bin.length); for(let i=0;i<bin.length;i++) arr[i]=bin.charCodeAt(i); return arr;
+    }
+
+    async function deriveKey(passphrase, salt, iterations=200000) {
+      const enc = new TextEncoder();
+      const baseKey = await crypto.subtle.importKey('raw', enc.encode(passphrase), {name:'PBKDF2'}, false, ['deriveKey']);
+      const key = await crypto.subtle.deriveKey({name:'PBKDF2', salt, iterations, hash:'SHA-256'}, baseKey, {name:'AES-GCM', length:256}, true, ['encrypt','decrypt']);
+      return key;
+    }
+
+    async function encryptText(plaintext, passphrase, iterations=200000){
+      const enc = new TextEncoder();
+      const salt = crypto.getRandomValues(new Uint8Array(16));
+      const iv = crypto.getRandomValues(new Uint8Array(12));
+      const key = await deriveKey(passphrase, salt, iterations);
+      const ciphertext = await crypto.subtle.encrypt({name:'AES-GCM', iv}, key, enc.encode(plaintext));
+      const ctArr = new Uint8Array(ciphertext);
+      const combined = new Uint8Array(salt.length + iv.length + ctArr.length);
+      combined.set(salt,0); combined.set(iv, salt.length); combined.set(ctArr, salt.length+iv.length);
+      return toBase64(combined);
+    }
+
+    async function decryptText(b64, passphrase, iterations=200000){
+      const combined = fromBase64(b64);
+      if (combined.length < 16+12+16) throw new Error('Encoded data too short or invalid');
+      const salt = combined.slice(0,16); const iv = combined.slice(16,28); const ct = combined.slice(28);
+      const key = await deriveKey(passphrase, salt, iterations);
+      const plain = await crypto.subtle.decrypt({name:'AES-GCM', iv}, key, ct);
+      return new TextDecoder().decode(plain);
+    }
+
+    window.PEWPI_CRYPTO = { encryptText, decryptText };
+  })();
+  </script>
+
+  <!-- POS tagger and colorizer -->
+  <script>
+  // Lightweight POS heuristic tagger and colorizer used to render logged text with token colors
+  (function(){
+    const VERBS = new Set(['be','is','are','was','were','have','has','had','do','does','did','say','says','said','get','got','make','go','went','know','know','take','see','seem','think','look','want','give','use','find','tell','ask','work','try','leave','call','append','write','encrypt','decrypt']);
+    const NOUNS = new Set(['time','person','year','way','day','thing','man','world','life','hand','part','child','eye','woman','place','work','week','case','point','government','company','number','group','message','context','conversation','ai','octave','log','entry','secret','passphrase','token','wallet']);
+    const ADJS = new Set(['good','new','first','last','long','great','little','own','other','old','right','big','high','different','small','large','next','early','young','important','few','public','bad','same','able','encrypted','encoded']);
+    const PRONOUNS = new Set(['i','you','he','she','it','we','they','me','him','her','us','them','this','that','these','those']);
+    const NUM_RE = /^\d+([.,]\d+)?$/;
+
+    function tokenize(text){
+      const re = /(\s+|[A-Za-zÀ-ÖØ-öø-ÿ0-9]+|[^\sA-Za-z0-9]+)/g; return text.match(re) || [];
+    }
+
+    function guess(tok){
+      const t = tok.trim();
+      if (!t) return 'space';
+      if (NUM_RE.test(t)) return 'num';
+      if (/^[^\w]+$/.test(t)) return 'other';
+      const lower = t.toLowerCase();
+      if (PRONOUNS.has(lower)) return 'noun';
+      if (VERBS.has(lower)) return 'verb';
+      if (NOUNS.has(lower)) return 'noun';
+      if (ADJS.has(lower)) return 'adj';
+      if (lower.endsWith('ing')||lower.endsWith('ed')||lower.endsWith('ize')||lower.endsWith('ise')) return 'verb';
+      if (lower.endsWith('ly')) return 'adv';
+      if (lower.endsWith('ion')||lower.endsWith('ment')||lower.endsWith('ness')||lower.endsWith('ity')) return 'noun';
+      if (lower.length <= 3) return 'other';
+      if (/^[A-Z][a-z]/.test(t)) return 'prop';
+      return 'noun';
+    }
+
+    function colorizeText(text){
+      const tokens = tokenize(text);
+      return tokens.map(tok => {
+        if (/^\s+$/.test(tok)) return tok.replace(/ /g, ' ');
+        const pos = guess(tok);
+        switch(pos){
+          case 'noun': return `<span class="token pos-noun">${escapeHtml(tok)}</span>`;
+          case 'verb': return `<span class="token pos-verb">${escapeHtml(tok)}</span>`;
+          case 'adj':  return `<span class="token pos-adj">${escapeHtml(tok)}</span>`;
+          case 'adv':  return `<span class="token pos-adv">${escapeHtml(tok)}</span>`;
+          case 'num':  return `<span class="token pos-num">${escapeHtml(tok)}</span>`;
+          case 'prop': return `<span class="token pos-num">${escapeHtml(tok)}</span>`;
+          default:     return `<span class="token pos-other">${escapeHtml(tok)}</span>`;
+        }
+      }).join('');
+    }
+
+    function escapeHtml(s){ return (s||'').replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch])); }
+
+    window.PEWPI_POS = { colorizeText, escapeHtml };
+  })();
+  </script>
+
+  <!-- UI wiring: terminal flows, logs, export/import, wallet etc -->
+  <script>
+  (function(){
+    // DOM refs
+    const promptEl = document.getElementById('prompt');
+    const submitBtn = document.getElementById('btn-submit');
+    const clearBtn = document.getElementById('btn-clear');
+    const terminalEl = document.getElementById('terminal');
+    const encodedEl = document.getElementById('encoded');
+    const statusEl = document.getElementById('status');
+    const passEl = document.getElementById('pass');
+    const balanceEl = document.getElementById('balance');
+    const genBtn = document.getElementById('btn-gen');
+    const loginBtn = document.getElementById('btn-login');
+    const btnExport = document.getElementById('btn-export');
+    const btnImport = document.getElementById('btn-import');
+    const btnClearLocal = document.getElementById('btn-clear-local');
+    const posToggle = document.getElementById('pos-toggle');
+    const btnModeConv = document.getElementById('btn-mode-conv');
+    const btnModeEnc = document.getElementById('btn-mode-enc');
+
+    // local storage keys (consistent with token client)
+    const WALLET_KEY = 'pewpi_wallet_v2';
+    const LOGS_KEY = 'pewpi_logs_v2';
+    const ENCODED_PANEL_KEY = 'pewpi_encoded_v2';
+
+    // current mode
+    let mode = 'conv'; // conv or enc
+
+    function nowIso(){ return new Date().toISOString(); }
+
+    // wallet helpers (mirror token-client)
+    function loadWallet(){ try{return JSON.parse(localStorage.getItem(WALLET_KEY)||'{}')}catch(e){return{}} }
+    function saveWallet(w){ localStorage.setItem(WALLET_KEY, JSON.stringify(w)) }
+    function initWallet(id){
+      const w = loadWallet();
+      if (id) w.id = id;
+      if (typeof w.balance !== 'number') w.balance = 0;
+      saveWallet(w);
+      renderBalance();
+      return w;
+    }
+    function renderBalance(){ const w = loadWallet(); balanceEl.textContent = `${(w.balance||0)} TOK` }
+
+    // logs
+    function loadLogs(){ try{return JSON.parse(localStorage.getItem(LOGS_KEY)||'[]')}catch(e){return[]} }
+    function saveLogs(l){ localStorage.setItem(LOGS_KEY, JSON.stringify(l)) }
+
+    function appendLog(obj){
+      const logs = loadLogs(); logs.push(obj); saveLogs(logs); renderTerminal(); 
+    }
+
+    function renderTerminal(){
+      const logs = loadLogs();
+      terminalEl.innerHTML = '';
+      // show last 400 entries to keep it responsive
+      const show = logs.slice(-400);
+      for (const e of show){
+        let line = `[${e.timestamp}] (${e.type}) ${e.type==='encoded' ? (e.summary||'(encoded)') : e.text}`;
+        const div = document.createElement('div');
+        if (posToggle.checked){
+          div.innerHTML = window.PEWPI_POS.colorizeText(line);
+        } else {
+          div.textContent = line;
+        }
+        terminalEl.appendChild(div);
+      }
+      terminalEl.scrollTop = terminalEl.scrollHeight;
+    }
+
+    // encoded output persistence (panel)
+    function appendEncodedLine(s){
+      let txt = localStorage.getItem(ENCODED_PANEL_KEY) || '';
+      txt = txt ? (txt + "\n\n" + s) : s;
+      localStorage.setItem(ENCODED_PANEL_KEY, txt);
+      renderEncoded();
+    }
+    function renderEncoded(){ encodedEl.textContent = localStorage.getItem(ENCODED_PANEL_KEY) || ''; encodedEl.scrollTop = encodedEl.scrollHeight; }
+
+    // award token with local cooldown via ClientTokens
+    function awardLocalForConvo(id){
+      const w = loadWallet();
+      const last = w.last_awarded || 0;
+      const now = Date.now();
+      const elapsed = now - last;
+      const COOLDOWN_MS = 30*60*1000;
+      if (elapsed >= COOLDOWN_MS){
+        w.balance = (w.balance || 0) + 1;
+        w.last_awarded = now;
+        saveWallet(w);
+        renderBalance();
+        return {awarded:true, balance:w.balance, cooldown:0};
+      } else {
+        return {awarded:false, balance:w.balance||0, cooldown: Math.ceil((COOLDOWN_MS - elapsed)/1000)};
+      }
+    }
+
+    // small AI fetch (local simulation only — no backend needed)
+    async function fetchAi(prompt){
+      // If a server /ai exists, use it. Otherwise simulation fallback:
+      try {
+        const resp = await fetch('/ai', { method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({prompt}) });
+        if (resp.ok){
+          const j = await resp.json().catch(()=>({}));
+          return j.text || JSON.stringify(j);
+        }
+      } catch(e){}
+      // simulate
+      await new Promise(r=>setTimeout(r,200));
+      const top = prompt.split(/\s+/).slice(0,40).join(' ');
+      return `Octave distilled: ${top}${prompt.split(/\s+/).length>40?' …':''}`;
+    }
+
+    // submit flow
+    async function submitFlow(){
+      const text = (promptEl.value || '').trim();
+      if (!text){ statusEl.textContent = 'Type something to submit'; return; }
+      statusEl.textContent = 'Working...';
+      try {
+        if (mode === 'conv'){
+          appendLog({ id: Date.now() + '-' + Math.random().toString(36).slice(2,8), type:'user', text:text, timestamp: nowIso() });
+          const ai = await fetchAi(text);
+          appendLog({ id: Date.now() + '-' + Math.random().toString(36).slice(2,8), type:'ai', text: ai, timestamp: nowIso() });
+          statusEl.textContent = 'AI response appended';
+
+          // local award & cooldown
+          const w = loadWallet();
+          if (!w.id) { statusEl.textContent = 'No wallet id — press Login to set wallet id to receive tokens.'; return; }
+          const award = awardLocalForConvo(w.id);
+          if (award.awarded) statusEl.textContent = `Stored, awarded 1 TOK. Balance: ${award.balance}`;
+          else statusEl.textContent = `Stored (cooldown). Balance: ${award.balance}. Cooldown sec left: ${award.cooldown}`;
+
+          // append a short encoded summary optionally
+          if (document.getElementById('pos-toggle').checked){
+            // store a short ai digest to encoded panel (non-sensitive)
+            const digest = ai.split(/\s+/).slice(0,40).join(' ');
+            appendEncodedLine(`DIGEST ${new Date().toISOString()} ${digest}`);
+          }
+        } else {
+          // encrypt mode
+          const pass = (passEl.value || '').trim();
+          if (!pass) { statusEl.textContent = 'Passphrase required for encryption mode'; return; }
+          const encoded = await window.PEWPI_CRYPTO.encryptText(text, pass);
+          appendLog({ id: Date.now() + '-' + Math.random().toString(36).slice(2,8), type:'encoded', text: encoded, summary: text.split(/\s+/).slice(0,40).join(' '), timestamp: nowIso() });
+          appendEncodedLine(encoded);
+          statusEl.textContent = 'Encrypted & stored locally.';
+          // award token too
+          const w = loadWallet();
+          if (w.id){
+            const award = awardLocalForConvo(w.id);
+            if (award.awarded) statusEl.textContent += ` Awarded 1 TOK. Balance: ${award.balance}`;
+            else statusEl.textContent += ` (cooldown) Balance: ${award.balance}`;
+          }
+        }
+      } catch(e){
+        statusEl.textContent = 'Error: ' + (e.message || e);
+      }
+      promptEl.value = '';
+      renderTerminal();
+      renderEncoded();
+    }
+
+    // export/import snapshot
+    function exportSnapshot(){
+      const obj = { wallet: loadWallet(), logs: loadLogs(), encoded: (localStorage.getItem(ENCODED_PANEL_KEY) || ''), exported_at: new Date().toISOString() };
+      const blob = new Blob([JSON.stringify(obj, null, 2)], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `pewpi_snapshot_${(new Date()).toISOString().replace(/[:.]/g,'-')}.json`;
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      URL.revokeObjectURL(url);
+      statusEl.textContent = 'Snapshot exported (download started).';
+    }
+
+    function importSnapshot(){
+      const txt = prompt('Paste the JSON snapshot to import (will overwrite local logs & wallet).');
+      if (!txt) { statusEl.textContent = 'Import cancelled.'; return; }
+      try {
+        const obj = JSON.parse(txt);
+        if (obj.wallet) { saveWallet(obj.wallet); }
+        if (obj.logs) { saveLogs(obj.logs); }
+        if (obj.encoded) localStorage.setItem(ENCODED_PANEL_KEY, obj.encoded);
+        renderTerminal(); renderEncoded(); renderBalance();
+        statusEl.textContent = 'Snapshot imported.';
+      } catch(e){
+        statusEl.textContent = 'Import failed: ' + (e.message || e);
+      }
+    }
+
+    // clear local
+    function clearLocal(){
+      if (!confirm('Clear all local logs, encoded panel and wallet? This cannot be undone.')) return;
+      localStorage.removeItem(LOGS_KEY);
+      localStorage.removeItem(WALLET_KEY);
+      localStorage.removeItem(ENCODED_PANEL_KEY);
+      renderTerminal(); renderEncoded(); renderBalance();
+      statusEl.textContent = 'Local data cleared.';
+    }
+
+    // ui wiring
+    submitBtn.addEventListener('click', submitFlow);
+    clearBtn.addEventListener('click', ()=>{ promptEl.value=''; statusEl.textContent='Cleared'; });
+    genBtn.addEventListener('click', ()=>{
+      const arr = crypto.getRandomValues(new Uint8Array(16));
+      let s = btoa(String.fromCharCode.apply(null, Array.from(arr))).replace(/\+/g,'-').replace(/\//g,'_').replace(/=+$/,'').slice(0,24);
+      passEl.value = s; statusEl.textContent = 'Passphrase generated (copy and keep it secret)';
+    });
+    loginBtn.addEventListener('click', ()=>{
+      const id = prompt('Enter wallet id (username) to use locally for token accounting (stored in localStorage):', (loadWallet().id || ''));
+      if (!id) { statusEl.textContent = 'Login cancelled'; return; }
+      initWallet(id); statusEl.textContent = `Logged in as ${id}`; renderBalance();
+    });
+    btnExport.addEventListener('click', exportSnapshot);
+    btnImport.addEventListener('click', importSnapshot);
+    btnClearLocal.addEventListener('click', clearLocal);
+    btnModeConv.addEventListener('click', ()=>{ mode='conv'; statusEl.textContent='Mode: Conversation'; });
+    btnModeEnc.addEventListener('click', ()=>{ mode='enc'; statusEl.textContent='Mode: Encrypt (secret)'; });
+
+    // keyboard submit
+    promptEl.addEventListener('keydown', (ev)=>{ if (ev.key === 'Enter' && !ev.shiftKey){ ev.preventDefault(); submitFlow(); } });
+
+    // initial state
+    (function init(){
+      initWallet(null);
+      renderTerminal();
+      renderEncoded();
+      renderBalance();
+      statusEl.textContent = 'Ready — conversation mode. This page runs fully client-side.';
+    })();
+
+    // expose for debugging
+    window.PEWPI = { submitFlow, initWallet, loadLogs, saveLogs, exportSnapshot, importSnapshot, awardLocalForConvo, renderTerminal, renderEncoded, loadWallet, saveWallet };
+  })();
+  </script>
+</script>
+<!-- INSERT MODULE SCRIPTS BELOW THIS LINE -->
+<script src="static/js/pewpi-bridge.js"></script>
+<script src="static/js/encrypt-shim.js"></script>
+<script src="static/js/embedded-writer.js"></script>
+<script src="static/js/token-client.js"></script>
+<script src="static/js/ui-wiring.js"></script>
+<script src="helper-octave-extension.js"></script>
+<!-- END MODULES -->
+</body>
+</html>

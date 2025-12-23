@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Infinity Voice Recorder</title>
+<style>
+body {
+  margin:0;
+  background:#050510;
+  color:#0ff;
+  font-family:monospace;
+  text-align:center;
+}
+h1{margin-top:20px;color:#00e0ff;text-shadow:0 0 10px #00e0ff;}
+canvas{width:90%;height:200px;margin-top:20px;background:#0a0a20;border-radius:12px;}
+button{
+  background:#0ff;color:#000;
+  border:none;border-radius:10px;
+  margin:10px;padding:10px 20px;
+  font-size:16px;font-weight:bold;
+  box-shadow:0 0 15px #0ff;cursor:pointer;
+}
+button:hover{background:#33ffff;}
+</style>
+</head>
+<body>
+<h1>🎙 Infinity Voice Recorder</h1>
+<canvas id="waveform"></canvas><br>
+<button id="startBtn">Start Recording</button>
+<button id="stopBtn">Stop</button>
+<button id="playBtn">Play</button>
+<button id="cloneBtn">Clone Voice</button>
+<button id="backBtn">← Back</button>
+
+<script>
+const canvas=document.getElementById('waveform');
+const ctx=canvas.getContext('2d');
+let mediaRecorder, audioChunks=[], audioBlob, audioUrl, audio;
+let analyser, dataArray, source, context, stream;
+let animFrame;
+
+function visualize(){
+  if(!analyser)return;
+  requestAnimationFrame(visualize);
+  analyser.getByteFrequencyData(dataArray);
+  ctx.fillStyle='#0a0a20';
+  ctx.fillRect(0,0,canvas.width,canvas.height);
+  const barWidth=(canvas.width/dataArray.length)*2.5;
+  let x=0;
+  for(let i=0;i<dataArray.length;i++){
+    const barHeight=dataArray[i]/2;
+    const r=barHeight+25,g=250,b=255;
+    ctx.fillStyle=`rgb(${r},${g},${b})`;
+    ctx.fillRect(x,canvas.height-barHeight/2,barWidth,barHeight);
+    x+=barWidth+1;
+  }
+}
+
+async function startRecording(){
+  stream=await navigator.mediaDevices.getUserMedia({audio:true});
+  context=new AudioContext();
+  source=context.createMediaStreamSource(stream);
+  analyser=context.createAnalyser();
+  analyser.fftSize=256;
+  dataArray=new Uint8Array(analyser.frequencyBinCount);
+  source.connect(analyser);
+  visualize();
+
+  mediaRecorder=new MediaRecorder(stream);
+  audioChunks=[];
+  mediaRecorder.ondataavailable=e=>audioChunks.push(e.data);
+  mediaRecorder.onstop=()=>{
+    audioBlob=new Blob(audioChunks,{type:'audio/wav'});
+    audioUrl=URL.createObjectURL(audioBlob);
+    audio=new Audio(audioUrl);
+  };
+  mediaRecorder.start();
+}
+
+function stopRecording(){
+  if(mediaRecorder && mediaRecorder.state!=='inactive'){mediaRecorder.stop();}
+  if(stream){stream.getTracks().forEach(t=>t.stop());}
+  cancelAnimationFrame(animFrame);
+}
+
+function playRecording(){
+  if(audio)audio.play();
+}
+
+function cloneVoice(){
+  if(!audioBlob)return alert('Record something first!');
+  const ctx2=new AudioContext();
+  fetch(audioUrl).then(r=>r.arrayBuffer()).then(buf=>ctx2.decodeAudioData(buf)).then(decoded=>{
+    const src=ctx2.createBufferSource();
+    src.buffer=decoded;
+    src.playbackRate.value=1.25; // slight pitch up clone
+    src.connect(ctx2.destination);
+    src.start(0);
+  });
+}
+
+document.getElementById('startBtn').onclick=startRecording;
+document.getElementById('stopBtn').onclick=stopRecording;
+document.getElementById('playBtn').onclick=playRecording;
+document.getElementById('cloneBtn').onclick=cloneVoice;
+document.getElementById('backBtn').onclick=()=>window.location.href='index.html';
+</script>
+</body>
+</html>
