@@ -1,0 +1,240 @@
+/* ============================================================================
+   Octave OS — Terminal Extension / Session Recall / POS Layer Redirect
+   Kris Watson — Infinity OS
+   ----------------------------------------------------------------------------
+   This file:
+   • Recolors all output through a new unified terminal stream
+   • Routes BOTH conversation-mode and secret-message-mode into the SAME terminal
+   • Adds recall-by-passphrase (retrieve ANY stored encrypted message)
+   • Adds user-named passphrases (like “infinity stereo @_#&…”)
+   • Adds a ChatGPT-style history drawer (auto-saves each session)
+   • Does NOT modify or override index.html logic — only extends it
+   ============================================================================ */
+
+/* -------------------------------
+   1) SELECT MAIN TERMINAL PANEL
+--------------------------------- */
+const MAIN_TERM_ID = "ai-output";   // everything flows through here
+const ENC_PANEL_ID = "encoded-output"; // still used, but terminal mirrors it
+
+function term() {
+  return document.getElementById(MAIN_TERM_ID);
+}
+function enc() {
+  return document.getElementById(ENC_PANEL_ID);
+}
+
+/* ------------------------------------------
+   2) APPLY DARK BLUE BACKGROUND TO ALL TEXT
+------------------------------------------- */
+(function applyUnifiedTerminalStyle(){
+  const t = term();
+  if (!t) return;
+
+  t.style.background = "#002233";   // darker blue background
+  t.style.color = "#c8ebff";        // light blue text
+  t.style.padding = "16px";
+  t.style.fontFamily = "monospace";
+  t.style.borderRadius = "10px";
+})();
+
+/* ------------------------------------------------
+   3) POS COLOR PIPE — reroute all rendered logs
+------------------------------------------------- */
+function colorizePOS(html) {
+  // Wrap text and let index.html run its own tagging system
+  // We simply pass colored HTML through unchanged.
+  return html;
+}
+
+function writeToTerminal(line) {
+  const t = term();
+  if (!t) return;
+  t.innerHTML += colorizePOS(line) + "\n";
+  t.scrollTop = t.scrollHeight;
+}
+
+/* --------------------------------------------------------------------
+   4) HOOK INTO INDEX.HTML'S appendPlainLog & encrypted message logic
+--------------------------------------------------------------------- */
+
+(function patchLogging(){
+  const oldAppend = window.appendPlainLog;
+
+  window.appendPlainLog = function(type, text) {
+
+    // Write to the original panel
+    oldAppend(type, text);
+
+    // Mirror to unified terminal
+    writeToTerminal(
+      `[${new Date().toISOString()}] (${type}) ${text}`
+    );
+
+    // Save to history
+    saveHistoryEntry(type, text);
+  };
+})();
+
+/* --------------------------------------------------------------------
+   5) PASS-PHRASE NAMING & RECALL SYSTEM
+--------------------------------------------------------------------- */
+
+const PASS_KEY = "octave_named_passphrases";
+function loadPassMap(){
+  try { return JSON.parse(localStorage.getItem(PASS_KEY) || "{}"); }
+  catch(e){ return {}; }
+}
+function savePassMap(map){
+  localStorage.setItem(PASS_KEY, JSON.stringify(map));
+}
+
+window.namePassphrase = function(passphrase, name){
+  const map = loadPassMap();
+  map[name] = passphrase;
+  savePassMap(map);
+  writeToTerminal(`Stored passphrase under name: ${name}`);
+};
+
+window.recallByName = async function(name){
+  const map = loadPassMap();
+  if (!map[name]) {
+    writeToTerminal(`No passphrase saved under: ${name}`);
+    return;
+  }
+  const pass = map[name];
+
+  // Grab the last encoded entry from encoded-output
+  const logs = window.octave.loadLogs();
+  const last = [...logs].reverse().find(l => l.type === "encoded");
+
+  if (!last) {
+    writeToTerminal("No encoded messages found.");
+    return;
+  }
+
+  try {
+    const decoded = await window.octave.decryptText(last.text, pass, 200000);
+    writeToTerminal(`🔓 Decoded using '${name}':\n${decoded}`);
+  } catch(e){
+    writeToTerminal("❌ Failed to decode with stored passphrase.");
+  }
+};
+
+/* --------------------------------------------------------------------
+   6) CHATGPT-STYLE SESSION HISTORY (hamburger drawer)
+--------------------------------------------------------------------- */
+const HIST_KEY = "octave_session_history";
+
+function loadHistory(){
+  try { return JSON.parse(localStorage.getItem(HIST_KEY) || "[]"); }
+  catch(e){ return []; }
+}
+function saveHistory(arr){
+  localStorage.setItem(HIST_KEY, JSON.stringify(arr));
+}
+
+function saveHistoryEntry(type, text){
+  const hist = loadHistory();
+  hist.push({
+    t: Date.now(),
+    type,
+    text
+  });
+  saveHistory(hist);
+}
+
+// Construct a drawer panel if not already present
+(function makeHistoryDrawer(){
+  if (document.getElementById("octave-drawer")) return;
+
+  const drawer = document.createElement("div");
+  drawer.id = "octave-drawer";
+  drawer.style.position = "fixed";
+  drawer.style.top = "0";
+  drawer.style.right = "-260px";
+  drawer.style.width = "240px";
+  drawer.style.height = "100%";
+  drawer.style.background = "#002233";
+  drawer.style.color = "#c8ebff";
+  drawer.style.padding = "12px";
+  drawer.style.overflowY = "auto";
+  drawer.style.transition = "right 0.3s";
+  drawer.style.zIndex = "999999";
+  drawer.style.fontFamily = "monospace";
+  drawer.style.boxShadow = "0 0 20px rgba(0,0,0,0.5)";
+  drawer.innerHTML = `<b>Conversation History</b><br><br>`;
+  document.body.appendChild(drawer);
+
+  const btn = document.createElement("div");
+  btn.innerHTML = "≡";
+  btn.style.position = "fixed";
+  btn.style.top = "10px";
+  btn.style.right = "10px";
+  btn.style.fontSize = "28px";
+  btn.style.color = "#002233";
+  btn.style.background = "#fff";
+  btn.style.width = "40px";
+  btn.style.height = "40px";
+  btn.style.display = "flex";
+  btn.style.alignItems = "center";
+  btn.style.justifyContent = "center";
+  btn.style.borderRadius = "8px";
+  btn.style.zIndex = "1000000";
+  btn.style.boxShadow = "0 3px 10px rgba(0,0,0,0.2)";
+  btn.style.cursor = "pointer";
+  document.body.appendChild(btn);
+
+  btn.onclick = () => {
+    if (drawer.style.right === "-260px"){
+      drawer.style.right = "0";
+      renderHistoryPanel(drawer);
+    } else drawer.style.right = "-260px";
+  };
+})();
+
+function renderHistoryPanel(el){
+  const hist = loadHistory();
+  el.innerHTML = "<b>Conversation History</b><br><br>";
+  hist.forEach(h => {
+    const ts = new Date(h.t).toISOString();
+    el.innerHTML += `<div>[${ts}] (${h.type}) ${h.text}</div><br>`;
+  });
+}
+
+/* --------------------------------------------------------------------
+   7) SECRET MESSAGE BEHAVIOR
+      (When NOT in conversation mode)
+--------------------------------------------------------------------- */
+
+(function patchSecretMode(){
+  const submitBtn = document.getElementById("submit-btn");
+  const modeToggle = document.getElementById("mode-toggle");
+  const passEl = document.getElementById("passphrase");
+
+  if (!submitBtn) return;
+
+  submitBtn.addEventListener("click", async () => {
+    if (modeToggle.checked) return; // conversation mode, handled already
+
+    const txt = document.getElementById("input-box").value.trim();
+    if (!txt) return;
+
+    const pass = passEl.value;
+    if (!pass){
+      writeToTerminal("No passphrase entered — cannot encode.");
+      return;
+    }
+
+    // Encrypt
+    const encoded = await window.octave.encryptText(txt, pass, 200000);
+
+    writeToTerminal("🔐 Secret message encoded.");
+    writeToTerminal("Copy this passphrase to decode later:");
+    writeToTerminal(pass);
+
+    // Also mirror encoded message to terminal
+    writeToTerminal("Encoded blob:");
+    writeToTerminal(encoded);
+  });
+})();

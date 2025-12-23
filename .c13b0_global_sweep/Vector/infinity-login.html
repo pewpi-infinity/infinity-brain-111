@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Infinity Portal Login</title>
+</head>
+<body>
+  <div id="loginPanel">
+    <form id="loginForm" autocomplete="off">
+      <label>Username: <input type="text" id="username" /></label>
+      <label>Password: <input type="password" id="password" /></label>
+      <label>Email: <input type="email" id="email" /></label>
+      <button type="submit">Sign In</button>
+    </form>
+    <div id="errorMsg"></div>
+  </div>
+  <div id="mainApp" style="display:none">
+    <div id="dashboard"></div>
+    <button id="adminToggle" style="display:none">Admin Mode</button>
+  </div>
+  <script>
+    let isKris=false;
+    document.getElementById("loginForm").addEventListener("submit",function(e){
+      e.preventDefault();
+      let user = document.getElementById("username").value.trim();
+      let pass = document.getElementById("password").value;
+      let email = document.getElementById("email").value.trim();
+      if(user==="Kris" && pass.length>=4 && email==="marvaseater@gmail.com") {
+        isKris=true;
+        document.getElementById("loginPanel").style.display="none";
+        document.getElementById("mainApp").style.display="block";
+        document.getElementById("adminToggle").style.display="block";
+        document.getElementById("dashboard").innerHTML="Welcome Kris (Admin)!";
+      } else if(pass.length>=6 && /\S+@\S+\.\S+/.test(email)) {
+        document.getElementById("loginPanel").style.display="none";
+        document.getElementById("mainApp").style.display="block";
+        document.getElementById("dashboard").innerHTML="Welcome user!";
+      } else {
+        document.getElementById("errorMsg").textContent="Invalid credentials!";
+      }
+    });
+
+    document.getElementById("adminToggle").onclick = function() {
+      // Admin action: send to backend for all sensitive actions
+      fetch("/your-backend/commit_html", {
+        method:"POST",
+        headers:{"Content-Type":"application/json"},
+        body:JSON.stringify({action:"admin",by:"Kris"})
+      }).then(res=>res.json()).then(j=>{
+        alert(j.ok ? "Admin action complete!" : "Failed.");
+      });
+    };
+  </script>
+</body>
+</html>

@@ -1,0 +1,784 @@
+<!doctype html>
+<!-- 🐶 PEWPI SIGN-IN (GLOBAL) -->
+<div id="pewpi-gate">
+  <h1>🐶 pewpi</h1>
+  <input id="pewpi_user" placeholder="Handle">
+  <button onclick="pewpiUnlock()">Enter</button>
+</div>
+<script>
+function pewpiUnlock(){
+  localStorage.setItem("pewpi_user", document.getElementById("pewpi_user").value);
+  document.getElementById("pewpi-gate").style.display="none";
+  document.body.classList.add("pewpi-live");
+}
+if(localStorage.getItem("pewpi_user")){
+  document.addEventListener("DOMContentLoaded",()=>{
+    const g=document.getElementById("pewpi-gate");
+    if(g) g.style.display="none";
+    document.body.classList.add("pewpi-live");
+  });
+}
+</script>
+<style>
+#pewpi-gate{position:fixed;inset:0;background:#0e0e0e;color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:9999}
+#pewpi-gate button{background:#ff69b4;border:0;padding:10px 18px}
+body:not(.pewpi-live)>*:not(#pewpi-gate){filter:blur(6px);pointer-events:none}
+</style>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/>
+  <title>∞ Joe</title>
+  <meta name="color-scheme" content="light dark"/>
+  <style>
+    :root {
+      --blue-1: #003087;
+      --blue-2: #0b5fd7;
+      --bg: #fff;
+      --panel: #f8fafc;
+      --muted: #637083;
+      --radius: 12px;
+      --gradient: linear-gradient(135deg, var(--blue-1), var(--blue-2));
+      font-family: system-ui, "Segoe UI", Roboto, Arial, sans-serif;
+    }
+    
+    html, body { 
+      margin: 0; 
+      padding: 0; 
+      background: var(--bg); 
+      color: #051426; 
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .login-container {
+      width: 100%;
+      max-width: 420px;
+      padding: 20px;
+    }
+    
+    .logo-header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    
+    .logo-text {
+      font-weight: 800;
+      color: var(--blue-1);
+      font-size: 36px;
+      letter-spacing: 2px;
+      margin: 0;
+      background: var(--gradient);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    
+    .logo-subtitle {
+      font-size: 14px;
+      color: var(--muted);
+      margin-top: 8px;
+      letter-spacing: 0.5px;
+    }
+    
+    .login-card {
+      background: var(--panel);
+      border-radius: 16px;
+      padding: 32px;
+      box-shadow: 0 8px 32px rgba(0, 48, 135, 0.12);
+      border: 1px solid rgba(0, 48, 135, 0.08);
+    }
+    
+    .login-card h2 {
+      margin: 0 0 8px 0;
+      color: var(--blue-1);
+      font-size: 24px;
+      font-weight: 700;
+    }
+    
+    .login-card .subtitle {
+      font-size: 14px;
+      color: var(--muted);
+      margin-bottom: 24px;
+    }
+    
+    .form-group {
+      margin-bottom: 20px;
+    }
+    
+    .form-group label {
+      display: block;
+      font-weight: 600;
+      color: var(--blue-1);
+      margin-bottom: 8px;
+      font-size: 14px;
+    }
+    
+    .form-group input {
+      width: 100%;
+      padding: 12px 16px;
+      border: 1.5px solid #e6e9ef;
+      border-radius: 10px;
+      font-size: 16px;
+      transition: all 0.2s;
+      box-sizing: border-box;
+    }
+    
+    .form-group input:focus {
+      outline: none;
+      border-color: var(--blue-2);
+      box-shadow: 0 0 0 3px rgba(11, 95, 215, 0.1);
+    }
+    
+    .btn-primary {
+      width: 100%;
+      padding: 14px;
+      background: var(--gradient);
+      color: #fff;
+      border: none;
+      border-radius: 10px;
+      font-size: 16px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.2s;
+      box-shadow: 0 4px 12px rgba(11, 95, 215, 0.2);
+    }
+    
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(11, 95, 215, 0.3);
+    }
+    
+    .btn-primary:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+      transform: none;
+    }
+    
+    .encryption-badge {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      margin-top: 20px;
+      padding: 12px;
+      background: rgba(34, 197, 94, 0.08);
+      border: 1px solid rgba(34, 197, 94, 0.2);
+      border-radius: 8px;
+      font-size: 13px;
+      color: #15803d;
+    }
+    
+    .encryption-badge::before {
+      content: "🔒";
+      font-size: 16px;
+    }
+    
+    .status-message {
+      margin-top: 16px;
+      padding: 12px;
+      border-radius: 8px;
+      font-size: 14px;
+      text-align: center;
+      display: none;
+    }
+    
+    .status-message.success {
+      background: rgba(34, 197, 94, 0.1);
+      color: #15803d;
+      border: 1px solid rgba(34, 197, 94, 0.2);
+      display: block;
+    }
+    
+    .status-message.error {
+      background: rgba(239, 68, 68, 0.1);
+      color: #991b1b;
+      border: 1px solid rgba(239, 68, 68, 0.2);
+      display: block;
+    }
+    
+    .divider {
+      margin: 24px 0;
+      text-align: center;
+      position: relative;
+    }
+    
+    .divider::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      height: 1px;
+      background: #e6e9ef;
+    }
+    
+    .divider span {
+      position: relative;
+      background: var(--panel);
+      padding: 0 12px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    
+    .toggle-mode {
+      text-align: center;
+      margin-top: 20px;
+    }
+    
+    .toggle-mode button {
+      background: none;
+      border: none;
+      color: var(--blue-2);
+      font-weight: 600;
+      cursor: pointer;
+      text-decoration: underline;
+      font-size: 14px;
+    }
+    
+    .info-box {
+      margin-top: 24px;
+      padding: 16px;
+      background: rgba(11, 95, 215, 0.05);
+      border: 1px solid rgba(11, 95, 215, 0.1);
+      border-radius: 8px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+    
+    .info-box strong {
+      color: var(--blue-1);
+    }
+    
+    @media (max-width: 600px) {
+      .login-container {
+        padding: 16px;
+      }
+      
+      .login-card {
+        padding: 24px;
+      }
+      
+      .logo-text {
+        font-size: 28px;
+      }
+    }
+  </style>
+</head>
+<body>
+<!-- C14_MARIO_TOKEN_PANEL_START -->
+<style>
+.c14wrap{font-family:monospace;background:#0b0f14;color:#e6edf3;padding:14px}
+.c14card{border:1px solid #30363d;border-radius:12px;padding:14px;margin:10px 0}
+.c14value{font-size:2.2em;text-align:center;color:#ffd700;line-height:1.1}
+.c14row{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.c14pill{border:1px solid #30363d;border-radius:999px;padding:6px 10px}
+.c14btn{display:block;width:100%;padding:14px;border-radius:12px;border:1px solid #30363d;background:#111827;color:#e6edf3;font-size:1em}
+.c14note{opacity:.85;font-size:.85em;margin-top:8px}
+</style>
+<div class="c14wrap">
+  <div class="c14card">
+    <div class="c14row">
+      <div class="c14pill">🧱</div>
+      <div class="c14pill">🍄</div>
+      <div class="c14pill">⭐</div>
+    </div>
+    <div class="c14value">Token Value: 42</div>
+    <div class="c14note">Repo: Joe • Updated: 2025-12-20 09:56:59</div>
+  </div>
+
+  <div class="c14card">
+    <div class="c14note">Pay via PayPal (email receiver). Amount is set to token value.</div>
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="get" target="_blank">
+      <input type="hidden" name="cmd" value="_xclick">
+      <input type="hidden" name="business" value="watsonkris61@gmail.com">
+      <input type="hidden" name="item_name" value="__C14_REPO__ Token 🧱🍄⭐">
+      <input type="hidden" name="amount" value="__C14_VALUE__">
+      <input type="hidden" name="currency_code" value="USD">
+      <button class="c14btn" type="submit">Pay $__C14_VALUE__ via PayPal</button>
+    </form>
+  </div>
+
+  <div class="c14card">
+    <div class="c14note">
+      Mario economy: 🧱 base • 🍄 growth • ⭐ acceleration<br>
+      (This panel is additive and does not replace your existing UI.)
+    </div>
+  </div>
+</div>
+<!-- C14_MARIO_TOKEN_PANEL_END -->
+  <div class="login-container">
+    <div class="logo-header">
+      <h1 class="logo-text">INFINITY</h1>
+      <p class="logo-subtitle">AI-to-AI Encrypted Authentication</p>
+    </div>
+    
+    <div class="login-card">
+      <h2 id="cardTitle">Welcome</h2>
+      <p class="subtitle">Secure login with end-to-end encryption</p>
+      
+      <form id="loginForm">
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" required autocomplete="email" placeholder="your@email.com">
+        </div>
+        
+        <div class="form-group">
+          <label for="username">Display Name</label>
+          <input type="text" id="username" name="username" required autocomplete="name" placeholder="Your Name">
+        </div>
+        
+        <div class="form-group">
+          <label for="passphrase">Secure Passphrase</label>
+          <input type="password" id="passphrase" name="passphrase" required autocomplete="current-password" placeholder="Enter your passphrase">
+        </div>
+        
+        <button type="submit" class="btn-primary" id="submitBtn">
+          <span id="btnText">Continue</span>
+        </button>
+        
+        <div class="encryption-badge">
+          End-to-end encrypted with Web Crypto API (AES-GCM)
+        </div>
+        
+        <div class="status-message" id="statusMessage"></div>
+      </form>
+      
+      <div class="toggle-mode">
+        <button type="button" id="toggleMode">New user? Create account</button>
+      </div>
+      
+      <div class="info-box">
+        <strong>Infinity AI-to-AI Security:</strong> Your credentials are encrypted locally using military-grade AES-256-GCM encryption. No data is sent to external servers. All authentication is handled securely within your browser.
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Infinity AI-to-AI Encrypted Login System
+    // Uses Web Crypto API for secure encryption
+    
+    const STORAGE_KEYS = {
+      USER_DATA: 'infinity_user_encrypted',
+      USER_SESSION: 'infinity_session',
+      ENCRYPTION_SALT: 'infinity_salt',
+      AUTH_TOKEN: 'infinity_auth_token'
+    };
+    
+    let isSignupMode = false;
+    
+    // Initialize on page load
+    window.addEventListener('DOMContentLoaded', () => {
+      checkExistingSession();
+      setupEventListeners();
+    });
+    
+    function setupEventListeners() {
+      document.getElementById('loginForm').addEventListener('submit', handleFormSubmit);
+      document.getElementById('toggleMode').addEventListener('click', toggleAuthMode);
+    }
+    
+    function toggleAuthMode() {
+      isSignupMode = !isSignupMode;
+      const cardTitle = document.getElementById('cardTitle');
+      const toggleBtn = document.getElementById('toggleMode');
+      const btnText = document.getElementById('btnText');
+      
+      if (isSignupMode) {
+        cardTitle.textContent = 'Create Account';
+        toggleBtn.textContent = 'Already have an account? Login';
+        btnText.textContent = 'Create Account';
+      } else {
+        cardTitle.textContent = 'Welcome Back';
+        toggleBtn.textContent = 'New user? Create account';
+        btnText.textContent = 'Login';
+      }
+    }
+    
+    async function handleFormSubmit(event) {
+      event.preventDefault();
+      
+      const email = document.getElementById('email').value.trim();
+      const username = document.getElementById('username').value.trim();
+      const passphrase = document.getElementById('passphrase').value;
+      
+      if (!email || !username || !passphrase) {
+        showStatus('Please fill in all fields', 'error');
+        return;
+      }
+      
+      const submitBtn = document.getElementById('submitBtn');
+      submitBtn.disabled = true;
+      document.getElementById('btnText').textContent = 'Processing...';
+      
+      try {
+        if (isSignupMode) {
+          await handleSignup(email, username, passphrase);
+        } else {
+          await handleLogin(email, username, passphrase);
+        }
+      } catch (error) {
+        console.error('Authentication error:', error);
+        showStatus('Authentication failed. Please try again.', 'error');
+        submitBtn.disabled = false;
+        document.getElementById('btnText').textContent = isSignupMode ? 'Create Account' : 'Login';
+      }
+    }
+    
+    async function handleSignup(email, username, passphrase) {
+      // Generate and store salt for key derivation
+      const salt = generateSalt();
+      localStorage.setItem(STORAGE_KEYS.ENCRYPTION_SALT, salt);
+      
+      // Generate encryption key from passphrase and salt
+      const encryptionKey = await deriveKey(passphrase, salt);
+      
+      // Create user data object
+      const userData = {
+        email: email,
+        username: username,
+        createdAt: new Date().toISOString(),
+        userId: generateUserId(),
+        role: 'user',
+        settings: {
+          theme: 'auto',
+          notifications: true
+        }
+      };
+      
+      // Encrypt and store user data
+      const encryptedData = await encryptData(JSON.stringify(userData), encryptionKey);
+      localStorage.setItem(STORAGE_KEYS.USER_DATA, encryptedData);
+      
+      // Create session
+      await createSession(userData);
+      
+      showStatus('Account created successfully! Redirecting...', 'success');
+      setTimeout(() => redirectToApp(), 1500);
+    }
+    
+    async function handleLogin(email, username, passphrase) {
+      // Check if user exists
+      const encryptedData = localStorage.getItem(STORAGE_KEYS.USER_DATA);
+      const salt = localStorage.getItem(STORAGE_KEYS.ENCRYPTION_SALT);
+      
+      if (!encryptedData || !salt) {
+        showStatus('No account found. Please create an account first.', 'error');
+        setTimeout(() => {
+          isSignupMode = true;
+          toggleAuthMode();
+        }, 1500);
+        return;
+      }
+      
+      try {
+        // Derive key from passphrase and stored salt
+        const encryptionKey = await deriveKey(passphrase, salt);
+        
+        // Decrypt user data
+        const decryptedData = await decryptData(encryptedData, encryptionKey);
+        const userData = JSON.parse(decryptedData);
+        
+        // Verify email matches
+        if (userData.email !== email) {
+          showStatus('Invalid credentials', 'error');
+          return;
+        }
+        
+        // Create session
+        await createSession(userData);
+        
+        showStatus('Login successful! Redirecting...', 'success');
+        setTimeout(() => redirectToApp(), 1500);
+      } catch (error) {
+        showStatus('Invalid credentials or passphrase', 'error');
+        throw error;
+      }
+    }
+    
+    async function deriveKey(passphrase, salt) {
+      // Import passphrase as key material
+      const encoder = new TextEncoder();
+      const keyMaterial = await crypto.subtle.importKey(
+        'raw',
+        encoder.encode(passphrase),
+        'PBKDF2',
+        false,
+        ['deriveBits', 'deriveKey']
+      );
+      
+      // Derive AES-GCM key
+      const key = await crypto.subtle.deriveKey(
+        {
+          name: 'PBKDF2',
+          salt: encoder.encode(salt),
+          iterations: 100000,
+          hash: 'SHA-256'
+        },
+        keyMaterial,
+        { name: 'AES-GCM', length: 256 },
+        false,
+        ['encrypt', 'decrypt']
+      );
+      
+      return key;
+    }
+    
+    async function encryptData(data, key) {
+      const encoder = new TextEncoder();
+      const iv = crypto.getRandomValues(new Uint8Array(12));
+      
+      const encryptedContent = await crypto.subtle.encrypt(
+        {
+          name: 'AES-GCM',
+          iv: iv
+        },
+        key,
+        encoder.encode(data)
+      );
+      
+      // Combine IV and encrypted content
+      const encryptedArray = new Uint8Array(iv.length + encryptedContent.byteLength);
+      encryptedArray.set(iv, 0);
+      encryptedArray.set(new Uint8Array(encryptedContent), iv.length);
+      
+      // Convert to base64 for storage
+      return btoa(String.fromCharCode(...encryptedArray));
+    }
+    
+    async function decryptData(encryptedBase64, key) {
+      // Decode from base64
+      const encryptedArray = new Uint8Array(
+        atob(encryptedBase64).split('').map(char => char.charCodeAt(0))
+      );
+      
+      // Extract IV and encrypted content
+      const iv = encryptedArray.slice(0, 12);
+      const encryptedContent = encryptedArray.slice(12);
+      
+      const decryptedContent = await crypto.subtle.decrypt(
+        {
+          name: 'AES-GCM',
+          iv: iv
+        },
+        key,
+        encryptedContent
+      );
+      
+      const decoder = new TextDecoder();
+      return decoder.decode(decryptedContent);
+    }
+    
+    async function createSession(userData) {
+      // Create session data
+      const sessionData = {
+        userId: userData.userId,
+        email: userData.email,
+        username: userData.username,
+        role: userData.role,
+        loginTime: new Date().toISOString(),
+        expiresAt: new Date(Date.now() + 24 * 60 * 60 * 1000).toISOString(), // 24 hours
+        settings: userData.settings
+      };
+      
+      // Store in sessionStorage for current session
+      sessionStorage.setItem(STORAGE_KEYS.USER_SESSION, JSON.stringify(sessionData));
+      
+      // Generate auth token
+      const authToken = await generateAuthToken(userData);
+      sessionStorage.setItem(STORAGE_KEYS.AUTH_TOKEN, authToken);
+      
+      // Also store minimal data in localStorage for persistence
+      localStorage.setItem('infinity_user', JSON.stringify({
+        email: userData.email,
+        username: userData.username,
+        lastLogin: new Date().toISOString()
+      }));
+    }
+    
+    function checkExistingSession() {
+      const session = sessionStorage.getItem(STORAGE_KEYS.USER_SESSION);
+      
+      if (session) {
+        try {
+          const sessionData = JSON.parse(session);
+          const expiresAt = new Date(sessionData.expiresAt);
+          
+          if (expiresAt > new Date()) {
+            // Valid session exists, redirect to app
+            redirectToApp();
+          } else {
+            // Session expired, clear it
+            sessionStorage.clear();
+          }
+        } catch (error) {
+          sessionStorage.clear();
+        }
+      }
+    }
+    
+    async function generateAuthToken(userData) {
+      const tokenData = {
+        userId: userData.userId,
+        email: userData.email,
+        timestamp: Date.now(),
+        random: Math.random().toString(36)
+      };
+      
+      const encoder = new TextEncoder();
+      const data = encoder.encode(JSON.stringify(tokenData));
+      const hashBuffer = await crypto.subtle.digest('SHA-256', data);
+      const hashArray = Array.from(new Uint8Array(hashBuffer));
+      const hashHex = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+      
+      return hashHex;
+    }
+    
+    function generateUserId() {
+      return 'user_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
+    }
+    
+    function generateSalt() {
+      return Array.from(crypto.getRandomValues(new Uint8Array(16)))
+        .map(b => b.toString(16).padStart(2, '0'))
+        .join('');
+    }
+    
+    function showStatus(message, type) {
+      const statusElement = document.getElementById('statusMessage');
+      statusElement.textContent = message;
+      statusElement.className = 'status-message ' + type;
+      
+      if (type === 'error') {
+        setTimeout(() => {
+          statusElement.style.display = 'none';
+        }, 3000);
+      }
+    }
+    
+    function redirectToApp() {
+      // Check if there's a redirect URL in the query params
+      const urlParams = new URLSearchParams(window.location.search);
+      const redirectUrl = urlParams.get('redirect');
+      
+      if (redirectUrl) {
+        window.location.href = decodeURIComponent(redirectUrl);
+      } else {
+        // Redirect to dashboard - use relative path from current location
+        const currentPath = window.location.pathname;
+        const basePath = currentPath.substring(0, currentPath.lastIndexOf('/') + 1);
+        window.location.href = basePath + 'dashboard.html';
+      }
+    }
+    
+    // Expose authentication state globally for other apps
+    window.InfinityAuth = {
+      getSession: function() {
+        const session = sessionStorage.getItem(STORAGE_KEYS.USER_SESSION);
+        return session ? JSON.parse(session) : null;
+      },
+      
+      getAuthToken: function() {
+        return sessionStorage.getItem(STORAGE_KEYS.AUTH_TOKEN);
+      },
+      
+      isAuthenticated: function() {
+        const session = this.getSession();
+        if (!session) return false;
+        
+        const expiresAt = new Date(session.expiresAt);
+        return expiresAt > new Date();
+      },
+      
+      logout: function() {
+        sessionStorage.clear();
+        window.location.href = '/';
+      },
+      
+      getUserInfo: function() {
+        const session = this.getSession();
+        if (!session) return null;
+        
+        return {
+          userId: session.userId,
+          email: session.email,
+          username: session.username,
+          role: session.role,
+          settings: session.settings
+        };
+      }
+    };
+  </script>
+</body>
+</html>
+<!-- C13B0_TOKEN_BLOCK -->
+<style>
+.c13b0{font-family:monospace;background:#0b0f14;color:#e6edf3;padding:16px}
+.c13b0 .value{font-size:2em;color:#ffd700}
+.c13b0 button{padding:12px;font-size:1em;width:100%;margin-top:8px}
+</style>
+
+<div class="c13b0">
+  <h2>🧱🍄⭐ Token</h2>
+  <div class="value">Value: 41</div>
+  <p>🧱 Base • 🍄 Growth • ⭐ Star Power</p>
+
+  <h3>Support / Acquire</h3>
+  <p>This token represents real work, research, and structure.</p>
+
+  <a href="https://www.paypal.com/paypalme/watsonkris61@gmail.com/41" target="_blank">
+    <button>Pay $41 via PayPal</button>
+  </a>
+
+  <p style="font-size:0.8em;">
+    PayPal recipient: watsonkris61@gmail.com<br/>
+    Repo: Joe<br/>
+    Generated: 2025-12-20T15:41:06Z
+  </p>
+</div>
+<!-- C14_MARIO_PANEL_START -->
+<div style="font-family:monospace;background:#0b0f14;color:#e6edf3;padding:14px;margin:14px 0">
+  <div style="font-size:2.2em;color:#ffd700;text-align:center">
+    🧱🍄⭐ Token Value: 56
+  </div>
+  <p style="text-align:center">🧱 Base • 🍄 Growth • ⭐ Star Power</p>
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="get" target="_blank">
+    <input type="hidden" name="cmd" value="_xclick">
+    <input type="hidden" name="business" value="watsonkris61@gmail.com">
+    <input type="hidden" name="item_name" value="Joe Token">
+    <input type="hidden" name="amount" value="56">
+    <input type="hidden" name="currency_code" value="USD">
+    <button style="width:100%;padding:14px">Pay 10100VALUE via PayPal</button>
+  </form>
+</div>
+<!-- C14_MARIO_PANEL_END -->
+<!-- C14_TOKEN_PANEL_START -->
+<div style="font-family:monospace;background:#0b0f14;color:#e6edf3;padding:16px;margin:16px 0">
+  <div style="font-size:2.4em;color:#ffd700;text-align:center">
+    🧱🍄⭐ Token Value: 56
+  </div>
+
+  <p style="text-align:center">
+    🧱 Base &nbsp; 🍄 Growth &nbsp; ⭐ Star Power
+  </p>
+
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="get" target="_blank">
+    <input type="hidden" name="cmd" value="_xclick">
+    <input type="hidden" name="business" value="watsonkris61@gmail.com">
+    <input type="hidden" name="item_name" value="Joe Token">
+    <input type="hidden" name="amount" value="56">
+    <input type="hidden" name="currency_code" value="USD">
+    <button style="width:100%;padding:14px;font-size:1em">
+      Pay $56 via PayPal
+    </button>
+  </form>
+
+  <p style="font-size:0.75em;text-align:center;margin-top:10px">
+    Repository owner: pewpi-infinity<br/>
+    Contact: marvaseater@gmail.com<br/>
+    Settlement handled externally via PayPal
+  </p>
+</div>
+<!-- C14_TOKEN_PANEL_END -->

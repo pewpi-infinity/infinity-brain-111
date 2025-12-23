@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Infinity Bank</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">Infinity Bank / Wallet</div>
+    <a href="../portal.html" style="font-size:.55rem;">← Back</a>
+  </header>
+
+  <main class="layout">
+    <section class="card">
+      <h2>Current Balance</h2>
+      <div id="balance" class="badge">0 INF</div>
+      <p class="muted">This wallet is shared across all Infinity pages on this origin.</p>
+    </section>
+
+    <section class="card">
+      <h2>Wallet History</h2>
+      <div id="walletHistory" class="history">—</div>
+    </section>
+
+    <section class="card">
+      <h2>PewPi Activity</h2>
+      <div id="activity" class="history">—</div>
+    </section>
+
+    <div id="infinity-footer"></div>
+  </main>
+
+  <script type="module">
+    import {
+      getCurrentUser,
+      ensureWallet,
+      getActivity,
+      renderInfinityFooter
+    } from '../core/infinity-core.js';
+
+    const user = getCurrentUser();
+    if (!user) window.location.href = "../login.html";
+
+    const wallet = ensureWallet(user);
+    document.getElementById("balance").textContent = wallet.tokens + " INF";
+
+    const wh = document.getElementById("walletHistory");
+    if (wallet.history && wallet.history.length) {
+      wh.innerHTML = "";
+      wallet.history.forEach(entry => {
+        const p = document.createElement("p");
+        p.textContent = `${entry.ts} — ${entry.action} (+${entry.amount})`;
+        wh.appendChild(p);
+      });
+    }
+
+    const act = document.getElementById("activity");
+    const list = getActivity();
+    if (list && list.length) {
+      act.innerHTML = "";
+      list.forEach(entry => {
+        const p = document.createElement("p");
+        p.textContent = `${entry.ts} — ${entry.user}: ${entry.action}`;
+        act.appendChild(p);
+      });
+    }
+
+    renderInfinityFooter();
+  </script>
+</body>
+</html>

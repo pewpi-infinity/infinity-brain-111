@@ -1,0 +1,71 @@
+name: Gutenberg Scrape & Ingest (manual sample)
+
+on:
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: 'Max number of books to download (small sample)'
+        required: false
+        default: '3'
+      paraphrase:
+        description: 'Enable paraphrase step (requires HF token secret)'
+        required: false
+        default: 'false'
+
+permissions:
+  contents: write
+
+jobs:
+  scrape-and-ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          python3 -m pip install --upgrade pip
+          pip install requests nltk
+
+      - name: Run downloader (small sample)
+        run: |
+          python3 scripts/gutenberg_downloader.py --out_dir data/gutenberg --limit ${{ github.event.inputs.limit }}
+
+      - name: Prepare NLTK
+        run: |
+          python3 - <<'PY'
+import nltk
+nltk.download('wordnet')
+PY
+
+      - name: Ingest into JSONL
+        run: |
+          python3 scripts/gutenberg_ingest.py --raw_dir data/gutenberg/raw --out_dir data/catalogs --chunk
+
+      - name: Optional paraphrase with HF
+        if: ${{ github.event.inputs.paraphrase == 'true' }}
+        env:
+          HUGGINGFACE_API_TOKEN: ${{ secrets.HUGGINGFACE_API_TOKEN }}
+          HUGGINGFACE_MODEL: ${{ secrets.HUGGINGFACE_MODEL }}
+        run: |
+          LATEST=$(ls -1t data/catalogs/gutenberg_catalog_*.jsonl | head -n1)
+          python3 scripts/transform_paraphrase.py --in "$LATEST" --out "${LATEST%.jsonl}_paraphrased.jsonl"
+
+      - name: Commit results (if any)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "actions@github.com"
+          git add data/catalogs || true
+          if git diff --cached --quiet; then
+            echo "No new catalog files to commit"
+          else
+            git commit -m "Add Gutenberg sample catalogs (action run)"
+            git push origin HEAD:main || echo "Push failed (branch protection or auth); workflow created files locally"
+          fi

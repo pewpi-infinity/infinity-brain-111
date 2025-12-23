@@ -1,0 +1,18 @@
+author: pewpi-infinity
+description: Infinity Guardian Firmware Cart
+version: 1.0
+platform: esp32
+
+libs:
+  - origin: https://github.com/mongoose-os-libs/boards
+  - origin: https://github.com/mongoose-os-libs/mjs
+
+sources:
+  - src
+
+config_schema:
+  - ["i2c.enable", true]
+  - ["debug.level", 2]
+
+build_vars:
+  MGOS_ENABLE_MJS: 1

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Signal Generator</title>
+<style>
+body{font-family:system-ui;background:#000;color:#0ff;display:flex;flex-direction:column;align-items:center;justify-content:center;height:100vh;text-align:center}
+input,button{margin:10px;padding:10px;border:none;border-radius:10px;font-size:1em}
+button{background:#09f;color:#fff}
+</style>
+</head>
+<body>
+<h2>🔊 Signal Generator</h2>
+<label>Frequency (Hz): <input id="freq" type="number" value="440"></label>
+<button id="playBtn">Play</button>
+<br><button onclick="window.location.href='../index.html'">⬅ Back to App Builder</button>
+<script>
+const ctx=new(window.AudioContext||window.webkitAudioContext)();
+let osc,playing=false;
+playBtn.onclick=()=>{
+ if(!playing){osc=ctx.createOscillator();osc.frequency.value=freq.value;osc.connect(ctx.destination);osc.start();playBtn.textContent="Stop";playing=true;}
+ else{osc.stop();playing=false;playBtn.textContent="Play";}
+};
+</script>
+</body></html>

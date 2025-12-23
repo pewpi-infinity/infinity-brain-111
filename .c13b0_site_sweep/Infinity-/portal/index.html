@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Portal - Personal Daily Utilities</title>
+    <link rel="stylesheet" href="../styles.css">
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+</head>
+<body>
+    <div id="authSection" class="auth-section">
+        <div class="auth-container">
+            <div class="logo">
+                <h1>Infinity Portal</h1>
+                <p class="tagline">Personal Daily Utilities</p>
+            </div>
+            <div id="g_id_onload"
+                 data-client_id="16937806382-leqbaginj3igrhei58nsab7tb4hsb7435.apps.googleusercontent.com"
+                 data-callback="handleCredentialResponse"
+                 data-auto_prompt="false">
+            </div>
+            <div class="g_id_signin" data-type="standard" data-size="large"></div>
+            <p class="auth-info">Sign in to access Portal apps</p>
+        </div>
+    </div>
+
+    <div id="mainApp" class="main-app" style="display: none;">
+        <header>
+            <div class="header-container">
+                <div class="logo">
+                    <h1>Portal</h1>
+                    <span class="core-label">Personal Utilities</span>
+                </div>
+                <div class="user-info">
+                    <span id="tokenDisplay" style="margin-right: 10px; color: #0070ba; font-weight: bold;"></span>
+                    <img id="userAvatar" class="user-avatar" src="" alt="User">
+                    <button class="btn-logout" onclick="signOut()">Sign Out</button>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section style="padding: 20px;">
+                <h2 style="color: #0070ba; text-align: center; margin-bottom: 30px;">Personal Daily Utilities</h2>
+                
+                <div class="hub-grid">
+                    <div class="hub-card" onclick="window.location.href='calculator.html'">
+                        <div class="hub-icon">🔢</div>
+                        <h3>Calculator</h3>
+                        <p>Standard & Token calculator</p>
+                        <button class="btn-primary">Open</button>
+                    </div>
+
+                    <div class="hub-card" onclick="window.location.href='alarm.html'">
+                        <div class="hub-icon">⏰</div>
+                        <h3>Alarm Clock</h3>
+                        <p>Smart voice-enabled alarms</p>
+                        <button class="btn-primary">Open</button>
+                    </div>
+
+                    <div class="hub-card" onclick="window.location.href='bible.html'">
+                        <div class="hub-icon">📖</div>
+                        <h3>Bible Verses</h3>
+                        <p>Rogers-analyzed divine messages</p>
+                        <button class="btn-primary">Open</button>
+                    </div>
+
+                    <div class="hub-card" onclick="window.location.href='pets.html'">
+                        <div class="hub-icon">🐾</div>
+                        <h3>Pet Care</h3>
+                        <p>Feed schedules & health tracking</p>
+                        <button class="btn-primary">Open</button>
+                    </div>
+
+                    <div class="hub-card" onclick="window.location.href='therapy.html'">
+                        <div class="hub-icon">💪</div>
+                        <h3>Physical Therapy</h3>
+                        <p>Exercise routines & tracking</p>
+                        <button class="btn-primary">Open</button>
+                    </div>
+
+                    <div class="hub-card" onclick="window.location.href='garden.html'">
+                        <div class="hub-icon">🌱</div>
+                        <h3>Garden</h3>
+                        <p>Seed swapping & growing tips</p>
+                        <button class="btn-primary">Open</button>
+                    </div>
+                </div>
+
+                <div style="text-align: center; margin-top: 40px;">
+                    <a href="../index.html"><button class="btn-back">← Back to Main Hub</button></a>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-container">
+                <div class="powered-by"><strong>Powered by Infinity</strong></div>
+                <div class="footer-sections">
+                    <div class="footer-section">
+                        <h4>Contact</h4>
+                        <p>Email: <a href="mailto:infinitystockinvesting@gmail.com">infinitystockinvesting@gmail.com</a></p>
+                        <p>Auth: <a href="mailto:marvaseater@gmail.com">marvaseater@gmail.com</a></p>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Credits & Partnerships</h4>
+                        <p>Chat got script design credits - Space available for advertisements</p>
+                        <p>OpenAI VP Program - Contributing to the future of AI</p>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Legal</h4>
+                        <p><a href="#privacy">Privacy Policy</a></p>
+                        <p><a href="#terms">Terms of Service</a></p>
+                        <p>&copy; 2025 Infinity Platform. All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="../app.js"></script>
+</body>
+</html>

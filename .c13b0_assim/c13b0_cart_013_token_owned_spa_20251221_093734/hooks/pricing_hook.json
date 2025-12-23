@@ -1,0 +1,9 @@
+{
+  "hook": "mongoose_pricing_engine",
+  "input": [
+    "engagement_metrics",
+    "token_age",
+    "trust_score"
+  ],
+  "output": "append_only_valuation_records"
+}

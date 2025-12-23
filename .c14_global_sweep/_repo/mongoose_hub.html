@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mongoose.OS Research Hub</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: 'Monaco', 'Courier New', monospace;
+      background: linear-gradient(135deg, #0a0a1a 0%, #1a1a3a 50%, #0a0a2a 100%);
+      color: #e0e0e0;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+    
+    .header {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 20px;
+      text-align: center;
+      border-bottom: 3px solid #00ff9d;
+      box-shadow: 0 4px 20px rgba(0, 255, 157, 0.3);
+    }
+    
+    .header h1 {
+      font-size: 2.5rem;
+      color: #00ff9d;
+      text-shadow: 0 0 10px rgba(0, 255, 157, 0.8);
+      margin-bottom: 10px;
+    }
+    
+    .header p {
+      color: #00d4ff;
+      font-size: 1.1rem;
+    }
+    
+    .main-container {
+      display: grid;
+      grid-template-columns: 250px 1fr 300px;
+      gap: 20px;
+      padding: 20px;
+      max-width: 1800px;
+      margin: 0 auto;
+    }
+    
+    .sidebar {
+      background: rgba(0, 0, 0, 0.5);
+      padding: 20px;
+      border-radius: 10px;
+      border: 2px solid #00ff9d;
+      max-height: calc(100vh - 180px);
+      overflow-y: auto;
+    }
+    
+    .sidebar h2 {
+      color: #00ff9d;
+      font-size: 1.2rem;
+      margin-bottom: 15px;
+      text-transform: uppercase;
+      border-bottom: 2px solid #00ff9d;
+      padding-bottom: 5px;
+    }
+    
+    .cart-list {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    
+    .cart-btn {
+      background: linear-gradient(135deg, #1a1a3a, #2a2a4a);
+      border: 2px solid #00d4ff;
+      color: #00d4ff;
+      padding: 10px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: all 0.3s;
+      text-align: left;
+      font-family: inherit;
+      font-size: 0.9rem;
+    }
+    
+    .cart-btn:hover {
+      background: linear-gradient(135deg, #2a2a4a, #3a3a5a);
+      border-color: #00ff9d;
+      color: #00ff9d;
+      transform: translateX(5px);
+      box-shadow: 0 0 15px rgba(0, 255, 157, 0.5);
+    }
+    
+    .cart-btn.active {
+      background: linear-gradient(135deg, #00d4ff, #00ff9d);
+      color: #0a0a1a;
+      border-color: #00ff9d;
+      font-weight: bold;
+    }
+    
+    .main-content {
+      background: rgba(0, 0, 0, 0.5);
+      padding: 30px;
+      border-radius: 10px;
+      border: 2px solid #00d4ff;
+      min-height: calc(100vh - 180px);
+    }
+    
+    .content-title {
+      color: #00ff9d;
+      font-size: 2rem;
+      margin-bottom: 20px;
+      text-shadow: 0 0 10px rgba(0, 255, 157, 0.6);
+    }
+    
+    .content-description {
+      color: #e0e0e0;
+      line-height: 1.8;
+      margin-bottom: 30px;
+      font-size: 1.1rem;
+    }
+    
+    .action-buttons {
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+      margin-bottom: 30px;
+    }
+    
+    .action-btn {
+      background: linear-gradient(135deg, #ff6b6b, #ee5a6f);
+      border: none;
+      color: white;
+      padding: 15px 30px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-family: inherit;
+      font-size: 1rem;
+      font-weight: bold;
+      transition: all 0.3s;
+      box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
+    }
+    
+    .action-btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 6px 20px rgba(255, 107, 107, 0.5);
+    }
+    
+    .action-btn.run {
+      background: linear-gradient(135deg, #4ecdc4, #44a08d);
+    }
+    
+    .action-btn.view {
+      background: linear-gradient(135deg, #f7b733, #fc4a1a);
+    }
+    
+    .token-panel {
+      background: rgba(0, 0, 0, 0.5);
+      padding: 20px;
+      border-radius: 10px;
+      border: 2px solid #ff6b6b;
+      max-height: calc(100vh - 180px);
+      overflow-y: auto;
+    }
+    
+    .token-panel h2 {
+      color: #ff6b6b;
+      font-size: 1.2rem;
+      margin-bottom: 15px;
+      text-transform: uppercase;
+      border-bottom: 2px solid #ff6b6b;
+      padding-bottom: 5px;
+    }
+    
+    .token-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    
+    .token-card {
+      background: linear-gradient(135deg, #1a1a3a, #2a2a4a);
+      padding: 15px;
+      border-radius: 8px;
+      border-left: 4px solid;
+      cursor: pointer;
+      transition: all 0.3s;
+    }
+    
+    .token-card:hover {
+      transform: translateX(-5px);
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+    }
+    
+    .token-card.watson-blue { border-left-color: #4a90e2; }
+    .token-card.quantum-purple { border-left-color: #9b59b6; }
+    .token-card.energy-green { border-left-color: #00ff9d; }
+    .token-card.fire-red { border-left-color: #ff6b6b; }
+    .token-card.gold { border-left-color: #f1c40f; }
+    
+    .token-id {
+      font-weight: bold;
+      color: #00d4ff;
+      margin-bottom: 5px;
+    }
+    
+    .token-color {
+      font-size: 0.9rem;
+      margin-bottom: 5px;
+    }
+    
+    .token-value {
+      color: #00ff9d;
+      font-weight: bold;
+    }
+    
+    .output-console {
+      background: rgba(0, 0, 0, 0.8);
+      padding: 20px;
+      border-radius: 8px;
+      margin-top: 20px;
+      max-height: 300px;
+      overflow-y: auto;
+      font-family: 'Monaco', monospace;
+      border: 2px solid #00d4ff;
+    }
+    
+    .console-line {
+      margin-bottom: 8px;
+      padding: 5px;
+      border-left: 3px solid #00d4ff;
+      padding-left: 10px;
+    }
+    
+    .console-line.success { border-left-color: #00ff9d; color: #00ff9d; }
+    .console-line.error { border-left-color: #ff6b6b; color: #ff6b6b; }
+    .console-line.info { border-left-color: #00d4ff; color: #00d4ff; }
+    
+    .color-legend {
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+      margin-top: 20px;
+      padding: 15px;
+      background: rgba(0, 0, 0, 0.3);
+      border-radius: 5px;
+    }
+    
+    .color-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    
+    .color-dot {
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      border: 2px solid white;
+    }
+    
+    .research-links {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 10px;
+      margin-top: 20px;
+    }
+    
+    .research-link {
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      padding: 15px;
+      border-radius: 8px;
+      text-align: center;
+      cursor: pointer;
+      transition: all 0.3s;
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+      display: block;
+    }
+    
+    .research-link:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px rgba(102, 126, 234, 0.6);
+    }
+    
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+    
+    ::-webkit-scrollbar-track {
+      background: rgba(0, 0, 0, 0.3);
+    }
+    
+    ::-webkit-scrollbar-thumb {
+      background: linear-gradient(135deg, #00d4ff, #00ff9d);
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>🔬 Mongoose.OS Research Hub</h1>
+    <p>Operating System for Research Token Generation & Cart Integration</p>
+  </div>
+
+  <div class="main-container">
+    <!-- Left Sidebar: Cart Navigation -->
+    <div class="sidebar">
+      <h2>📦 Research Carts</h2>
+      <div class="cart-list" id="cartList"></div>
+    </div>
+
+    <!-- Main Content Area -->
+    <div class="main-content">
+      <div class="content-title" id="contentTitle">Welcome to Mongoose.OS</div>
+      <div class="content-description" id="contentDescription">
+        <p>Select a research cart from the left sidebar to begin. Each cart represents a unique research module that can generate, process, and link research tokens through color-coded connections.</p>
+        <p style="margin-top: 15px;">This operating system integrates:</p>
+        <ul style="margin-left: 30px; margin-top: 10px; line-height: 2;">
+          <li>🔵 <strong>Research Carts</strong> - Modular research processors</li>
+          <li>🟢 <strong>Token System</strong> - INF tokens with value tracking</li>
+          <li>🟣 <strong>Color Coding</strong> - Visual research connections</li>
+          <li>🔴 <strong>Charts</strong> - Token value visualization</li>
+        </ul>
+      </div>
+
+      <div class="action-buttons" id="actionButtons" style="display:none;">
+        <button class="action-btn run" onclick="runCart()">▶️ Run Cart</button>
+        <button class="action-btn view" onclick="viewOutput()">📊 View Output</button>
+        <button class="action-btn" onclick="generateToken()">🎯 Generate Token</button>
+      </div>
+
+      <div class="research-links">
+        <a href="index.html" class="research-link">📋 Cart Index</a>
+        <a href="rogers-ai-console.html" class="research-link">🤖 Rogers AI</a>
+        <a href="token_viewer.html" class="research-link">💎 Token Viewer</a>
+        <a href="#" class="research-link" onclick="showCharts(); return false;">📈 Charts</a>
+      </div>
+
+      <div class="output-console" id="outputConsole" style="display:none;">
+        <div class="console-line info">Console Output:</div>
+      </div>
+
+      <div class="color-legend">
+        <div class="color-item">
+          <div class="color-dot" style="background: #4a90e2;"></div>
+          <span>Watson Blue - Core Research</span>
+        </div>
+        <div class="color-item">
+          <div class="color-dot" style="background: #9b59b6;"></div>
+          <span>Quantum Purple - Advanced Physics</span>
+        </div>
+        <div class="color-item">
+          <div class="color-dot" style="background: #00ff9d;"></div>
+          <span>Energy Green - Power Systems</span>
+        </div>
+        <div class="color-item">
+          <div class="color-dot" style="background: #ff6b6b;"></div>
+          <span>Fire Red - Critical Priority</span>
+        </div>
+        <div class="color-item">
+          <div class="color-dot" style="background: #f1c40f;"></div>
+          <span>Gold - High Value</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Panel: Token Display -->
+    <div class="token-panel">
+      <h2>💎 Active Tokens</h2>
+      <div class="token-grid" id="tokenGrid"></div>
+    </div>
+  </div>
+
+  <script>
+    // Cart database - categorized research carts
+    const carts = {
+      "Core Research": [
+        "cart101_physics_research.py",
+        "cart102_ai_research.py",
+        "cart103_energy_research.py",
+        "cart104_academic_research.py",
+        "cart105_materials_research.py"
+      ],
+      "Token Management": [
+        "cart007_tokens.py",
+        "cart019_token_generation.py",
+        "cart021_token_tiers.py",
+        "cart022_bank_grade_tokens.py",
+        "cart1054_infinity_token_minter.py"
+      ],
+      "Research Writers": [
+        "cart_research_writer.py",
+        "cart_research_daemon.py",
+        "cart_write_infinity_research.py",
+        "cart5000_mongoose_research_writer_v9.py",
+        "cart5100_quantum_bio_research_engine.py"
+      ],
+      "Mongoose Logic": [
+        "cart401_mongoose_logic_engine.py",
+        "cart_MONGOOSE_MASTER_INDEX.py",
+        "cart_mongoose_color_miner.py",
+        "cart_MONGOOSE_REPO_AUDITOR.py"
+      ],
+      "Infinity System": [
+        "cart_INFINITY_PLUS_RESEARCH.py",
+        "cart_INFINITY_PLUS_INDEX_BUILDER.py",
+        "cart_INFINITY_PLUS_LINK_TREE.py",
+        "cart_INFINITY_REASONING_THREAD_ENGINE.py",
+        "cart_INFINITY_PIPELINE_ORCHESTRATOR.py"
+      ],
+      "Engineering": [
+        "cart002_engineering.py",
+        "cart003_computers.py",
+        "cart010_components.py",
+        "cart027_robotics.py",
+        "cart028_machines.py"
+      ]
+    };
+
+    // Token value projection constant
+    const TOKEN_10Y_MULTIPLIER = 6; // 10-year value is 6x current value
+    
+    // Sample tokens with color tiers
+    const sampleTokens = [
+      { id: "INF-00000001", color: "Watson Blue", tier: "watson-blue", value: 1262 },
+      { id: "INF-00000042", color: "Quantum Purple", tier: "quantum-purple", value: 3847 },
+      { id: "INF-00000089", color: "Energy Green", tier: "energy-green", value: 2156 },
+      { id: "INF-00000134", color: "Fire Red", tier: "fire-red", value: 5892 },
+      { id: "INF-00000201", color: "Gold", tier: "gold", value: 7234 }
+    ];
+
+    let currentCart = null;
+
+    // Initialize cart list
+    function initializeCarts() {
+      const cartListEl = document.getElementById('cartList');
+      
+      for (const [category, cartFiles] of Object.entries(carts)) {
+        const categoryDiv = document.createElement('div');
+        categoryDiv.style.marginBottom = '20px';
+        
+        const categoryTitle = document.createElement('div');
+        categoryTitle.textContent = category;
+        categoryTitle.style.color = '#00ff9d';
+        categoryTitle.style.fontSize = '0.85rem';
+        categoryTitle.style.fontWeight = 'bold';
+        categoryTitle.style.marginBottom = '8px';
+        categoryTitle.style.textTransform = 'uppercase';
+        categoryDiv.appendChild(categoryTitle);
+        
+        cartFiles.forEach(cart => {
+          const btn = document.createElement('button');
+          btn.className = 'cart-btn';
+          btn.textContent = cart;
+          btn.onclick = () => selectCart(cart, category);
+          categoryDiv.appendChild(btn);
+        });
+        
+        cartListEl.appendChild(categoryDiv);
+      }
+    }
+
+    // Initialize token display
+    function initializeTokens() {
+      const tokenGridEl = document.getElementById('tokenGrid');
+      
+      sampleTokens.forEach(token => {
+        const card = document.createElement('div');
+        card.className = `token-card ${token.tier}`;
+        card.innerHTML = `
+          <div class="token-id">${token.id}</div>
+          <div class="token-color">${token.color}</div>
+          <div class="token-value">Value: ${token.value}</div>
+        `;
+        card.onclick = () => viewTokenDetails(token);
+        tokenGridEl.appendChild(card);
+      });
+    }
+
+    // Select a cart
+    function selectCart(cartName, category) {
+      currentCart = { name: cartName, category: category };
+      
+      // Update UI
+      document.querySelectorAll('.cart-btn').forEach(btn => {
+        btn.classList.remove('active');
+        if (btn.textContent === cartName) {
+          btn.classList.add('active');
+        }
+      });
+      
+      // Update content area
+      const title = document.getElementById('contentTitle');
+      const desc = document.getElementById('contentDescription');
+      const buttons = document.getElementById('actionButtons');
+      
+      title.textContent = cartName;
+      desc.innerHTML = `
+        <p><strong>Category:</strong> ${category}</p>
+        <p><strong>Status:</strong> Ready to execute</p>
+        <p style="margin-top: 15px;">This cart is part of the ${category} system. It can read, write, and present research data while generating color-coded tokens that link together through the Mongoose.OS operating system.</p>
+        <p style="margin-top: 10px;"><strong>Capabilities:</strong></p>
+        <ul style="margin-left: 30px; margin-top: 10px; line-height: 1.8;">
+          <li>📖 Read research data and terms</li>
+          <li>✍️ Write processed research output</li>
+          <li>📊 Present results via charts</li>
+          <li>🎯 Generate linked tokens</li>
+          <li>🌈 Color-code connections</li>
+        </ul>
+      `;
+      buttons.style.display = 'flex';
+      
+      logToConsole(`Selected cart: ${cartName}`, 'info');
+    }
+
+    // Run selected cart
+    function runCart() {
+      if (!currentCart) return;
+      
+      logToConsole(`Executing ${currentCart.name}...`, 'info');
+      
+      setTimeout(() => {
+        logToConsole(`✅ Cart executed successfully`, 'success');
+        logToConsole(`Generated 3 new research tokens`, 'success');
+        logToConsole(`Updated color-coded links`, 'info');
+      }, 1500);
+    }
+
+    // View cart output
+    function viewOutput() {
+      if (!currentCart) return;
+      
+      logToConsole(`Loading output for ${currentCart.name}...`, 'info');
+      
+      setTimeout(() => {
+        logToConsole(`📄 Research Output:`, 'info');
+        logToConsole(`- 42 research terms extracted`, 'success');
+        logToConsole(`- 5 tokens generated`, 'success');
+        logToConsole(`- Color tier: Watson Blue`, 'info');
+        logToConsole(`- Links: 12 cross-references established`, 'success');
+      }, 1000);
+    }
+
+    // Generate token
+    function generateToken() {
+      logToConsole(`🎯 Generating new INF token...`, 'info');
+      
+      setTimeout(() => {
+        const tokenNum = Math.floor(Math.random() * 1000000) + 1000000;
+        const value = Math.floor(Math.random() * 9000) + 1000;
+        logToConsole(`✅ Token INF-${tokenNum} created`, 'success');
+        logToConsole(`Value: ${value}`, 'success');
+        logToConsole(`Color tier assigned based on research category`, 'info');
+      }, 1200);
+    }
+
+    // View token details
+    function viewTokenDetails(token) {
+      const title = document.getElementById('contentTitle');
+      const desc = document.getElementById('contentDescription');
+      
+      title.textContent = `Token: ${token.id}`;
+      desc.innerHTML = `
+        <p><strong>Color Tier:</strong> ${token.color}</p>
+        <p><strong>Infinity Value:</strong> ${token.value}</p>
+        <p><strong>Projected 10y Value:</strong> ${token.value * TOKEN_10Y_MULTIPLIER}</p>
+        <p style="margin-top: 15px;">This token is part of the color-coded research network. It links to other tokens through shared research terms and can be used to track value across the Mongoose.OS ecosystem.</p>
+        <p style="margin-top: 10px;"><strong>Connected Research:</strong></p>
+        <ul style="margin-left: 30px; margin-top: 10px; line-height: 1.8;">
+          <li>Hydrogen frequency research</li>
+          <li>Quantum lattice analysis</li>
+          <li>Ionization singularity studies</li>
+        </ul>
+      `;
+      
+      logToConsole(`Viewing token ${token.id}`, 'info');
+    }
+
+    // Show tokens page
+    function showTokens() {
+      const title = document.getElementById('contentTitle');
+      const desc = document.getElementById('contentDescription');
+      
+      title.textContent = '💎 Token Repository';
+      desc.innerHTML = `
+        <p>The Mongoose.OS token system contains thousands of research tokens, each color-coded and linked to specific research domains.</p>
+        <p style="margin-top: 15px;"><strong>Token Statistics:</strong></p>
+        <ul style="margin-left: 30px; margin-top: 10px; line-height: 1.8;">
+          <li>Total Tokens: 8,000+</li>
+          <li>Color Tiers: 5 active tiers</li>
+          <li>Research Links: 50,000+</li>
+          <li>Average Value: 3,847</li>
+        </ul>
+        <p style="margin-top: 15px;">All tokens are stored in the <code>infinity_tokens/</code> directory and can be accessed by any cart for reading, writing, or presentation.</p>
+      `;
+      
+      logToConsole('Loaded token repository view', 'info');
+    }
+
+    // Show charts
+    function showCharts() {
+      const title = document.getElementById('contentTitle');
+      const desc = document.getElementById('contentDescription');
+      
+      title.textContent = '📈 Research Charts';
+      desc.innerHTML = `
+        <p>Track token values, research output, and color-coded connections through interactive charts.</p>
+        <p style="margin-top: 15px;"><strong>Available Charts:</strong></p>
+        <ul style="margin-left: 30px; margin-top: 10px; line-height: 1.8;">
+          <li>Token Value Tracking (charts/value_*.txt)</li>
+          <li>Research Output Metrics</li>
+          <li>Color Distribution Analysis</li>
+          <li>Cart Execution History</li>
+          <li>Link Network Visualization</li>
+        </ul>
+      `;
+      
+      logToConsole('Loaded charts view', 'info');
+    }
+
+    // Log to console
+    function logToConsole(message, type = 'info') {
+      const console = document.getElementById('outputConsole');
+      console.style.display = 'block';
+      
+      const line = document.createElement('div');
+      line.className = `console-line ${type}`;
+      line.textContent = `[${new Date().toLocaleTimeString()}] ${message}`;
+      console.appendChild(line);
+      console.scrollTop = console.scrollHeight;
+    }
+
+    // Initialize on load
+    window.onload = () => {
+      initializeCarts();
+      initializeTokens();
+      logToConsole('Mongoose.OS Research Hub initialized', 'success');
+      logToConsole('Ready to connect carts and research', 'info');
+    };
+  </script>
+</body>
+</html>

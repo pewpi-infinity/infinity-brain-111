@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electrochemical Probe System - Interactive Educational App</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        
+        .content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            padding: 30px;
+        }
+        
+        .section {
+            background: #f8f9fa;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        
+        .section h2 {
+            color: #2a5298;
+            margin-bottom: 20px;
+            font-size: 1.8em;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+        }
+        
+        .full-width {
+            grid-column: 1 / -1;
+        }
+        
+        #canvas-container {
+            position: relative;
+            width: 100%;
+            height: 600px;
+            background: linear-gradient(to bottom, #e3f2fd 0%, #90caf9 50%, #1976d2 100%);
+            border-radius: 10px;
+            overflow: hidden;
+            border: 3px solid #1976d2;
+        }
+        
+        canvas {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+        
+        .controls {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 15px 25px;
+            border-radius: 10px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-weight: bold;
+        }
+        
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+        }
+        
+        button:active {
+            transform: translateY(0);
+        }
+        
+        .info-box {
+            background: white;
+            border-left: 4px solid #667eea;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 5px;
+        }
+        
+        .info-box h3 {
+            color: #2a5298;
+            margin-bottom: 10px;
+        }
+        
+        .probe-legend {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin-top: 15px;
+        }
+        
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .legend-color {
+            width: 30px;
+            height: 30px;
+            border-radius: 5px;
+            border: 2px solid #333;
+        }
+        
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .stat-box {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        .stat-box .value {
+            font-size: 2em;
+            font-weight: bold;
+            color: #667eea;
+            margin: 10px 0;
+        }
+        
+        .stat-box .label {
+            color: #666;
+            font-size: 0.9em;
+        }
+        
+        #reaction-log {
+            background: #1e1e1e;
+            color: #00ff00;
+            font-family: 'Courier New', monospace;
+            padding: 15px;
+            border-radius: 10px;
+            height: 250px;
+            overflow-y: auto;
+            font-size: 0.9em;
+        }
+        
+        .reaction-entry {
+            margin: 5px 0;
+            padding: 5px;
+            border-bottom: 1px solid #333;
+        }
+        
+        .reaction-entry.new {
+            animation: highlight 0.5s ease-out;
+        }
+        
+        @keyframes highlight {
+            from { background: #00ff0033; }
+            to { background: transparent; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>⚡ Electrochemical Probe System</h1>
+            <p>Interactive Educational Demonstration of Chemical Energy Generation</p>
+        </header>
+        
+        <div class="content">
+            <div class="section full-width">
+                <h2>🔬 Live Probe Simulation</h2>
+                <div id="canvas-container">
+                    <canvas id="probeCanvas"></canvas>
+                </div>
+                <div class="controls">
+                    <button onclick="startSimulation()">▶ Start Simulation</button>
+                    <button onclick="pauseSimulation()">⏸ Pause</button>
+                    <button onclick="resetSimulation()">🔄 Reset</button>
+                    <button onclick="toggleProbeMovement()">↕️ Toggle Movement</button>
+                    <button onclick="changeSpeed('faster')">⚡ Speed Up</button>
+                    <button onclick="changeSpeed('slower')">🐌 Slow Down</button>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>📊 System Statistics</h2>
+                <div class="stats">
+                    <div class="stat-box">
+                        <div class="label">Voltage Generated</div>
+                        <div class="value" id="voltage">0.00V</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="label">Current (mA)</div>
+                        <div class="value" id="current">0.0</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="label">Power Output (mW)</div>
+                        <div class="value" id="power">0.0</div>
+                    </div>
+                </div>
+                
+                <h2 style="margin-top: 30px;">🎨 Probe Materials</h2>
+                <div class="probe-legend">
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: #CD7F32;"></div>
+                        <div>Copper (Cu)</div>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: #C0C0C0;"></div>
+                        <div>Lithium (Li)</div>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: #FFD700;"></div>
+                        <div>Gold (Au)</div>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: #696969;"></div>
+                        <div>Zinc (Zn)</div>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: #B87333;"></div>
+                        <div>Iron (Fe)</div>
+                    </div>
+                    <div class="legend-item">
+                        <div class="legend-color" style="background: #2F4F4F;"></div>
+                        <div>Carbon Rod</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section">
+                <h2>📝 Reaction Log</h2>
+                <div id="reaction-log"></div>
+            </div>
+            
+            <div class="section full-width">
+                <h2>🧪 How It Works: The Science</h2>
+                
+                <div class="info-box">
+                    <h3>1. Layered Probe Structure</h3>
+                    <p>Each probe contains multiple metal layers (e.g., lithium inner core, copper outer layer). As the outer layer dissolves in the electrolyte solution, the next layer is exposed, creating continuous chemical reactions without external electricity input.</p>
+                </div>
+                
+                <div class="info-box">
+                    <h3>2. Galvanic Cell Principle</h3>
+                    <p>Different metals have different electrode potentials. When placed in an electrolyte solution, the more reactive metal (anode) oxidizes and releases electrons, while the less reactive metal or carbon rod (cathode) receives electrons. This electron flow IS electricity!</p>
+                    <p><strong>Example Reaction:</strong></p>
+                    <p>Anode (Lithium): Li → Li⁺ + e⁻ (releases electrons)</p>
+                    <p>Cathode (Carbon): Ions collect on carbon surface</p>
+                </div>
+                
+                <div class="info-box">
+                    <h3>3. Microcontroller Intelligence</h3>
+                    <p>The microcontroller (IC) monitors voltage/current and controls stepper motors to raise or lower probes. When a layer is depleted, it moves to expose fresh material or rotates to a new probe. This automation maximizes efficiency and lifespan.</p>
+                </div>
+                
+                <div class="info-box">
+                    <h3>4. Self-Powered System</h3>
+                    <p>The genius: The chemical reactions GENERATE the electricity that powers the microcontroller controlling the system! After initial startup, it becomes self-sustaining as long as reactive materials remain.</p>
+                </div>
+                
+                <div class="info-box">
+                    <h3>5. Metal Selection Strategy</h3>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li><strong>Lithium (Li):</strong> Highest reactivity, generates ~3V per cell</li>
+                        <li><strong>Zinc (Zn):</strong> Moderate reactivity, commonly used in batteries</li>
+                        <li><strong>Copper (Cu):</strong> Good conductor, moderate reactivity</li>
+                        <li><strong>Iron (Fe):</strong> Inexpensive, moderate reactivity</li>
+                        <li><strong>Carbon Rod:</strong> Inert cathode, collects deposited materials</li>
+                    </ul>
+                </div>
+                
+                <div class="info-box">
+                    <h3>6. Electrolyte Solution Options</h3>
+                    <ul style="margin-left: 20px; margin-top: 10px;">
+                        <li><strong>Saltwater (NaCl):</strong> Simple, conductive, safe</li>
+                        <li><strong>Sulfuric Acid (H₂SO₄):</strong> High conductivity (use with caution)</li>
+                        <li><strong>Copper Sulfate (CuSO₄):</strong> For copper deposition</li>
+                        <li><strong>Custom ionic solutions:</strong> Tailored for specific metals</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="section full-width">
+                <h2>🔧 Design Advantages</h2>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 15px;">
+                    <div class="info-box">
+                        <h3>♻️ Material Recovery</h3>
+                        <p>Dissolved metals can be collected on carbon cathode and recycled</p>
+                    </div>
+                    <div class="info-box">
+                        <h3>🔋 No External Power</h3>
+                        <p>System generates its own electricity from chemical reactions</p>
+                    </div>
+                    <div class="info-box">
+                        <h3>🎯 Controlled Discharge</h3>
+                        <p>Microcontroller optimizes layer exposure for maximum efficiency</p>
+                    </div>
+                    <div class="info-box">
+                        <h3>📈 Scalable Design</h3>
+                        <p>Add more probes in parallel for increased power output</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const canvas = document.getElementById('probeCanvas');
+        const ctx = canvas.getContext('2d');
+        let animationId;
+        let isRunning = false;
+        let time = 0;
+        let speed = 1;
+        let probesMoving = true;
+        
+        // Resize canvas to fit container
+        function resizeCanvas() {
+            const container = document.getElementById('canvas-container');
+            canvas.width = container.clientWidth;
+            canvas.height = container.clientHeight;
+        }
+        resizeCanvas();
+        window.addEventListener('resize', resizeCanvas);
+        
+        // Probe configurations with layered materials
+        const probes = [
+            {
+                x: 150, 
+                y: 100, 
+                baseY: 100,
+                layers: [
+                    {material: 'Li', color: '#C0C0C0', thickness: 0.3, remaining: 1.0},
+                    {material: 'Cu', color: '#CD7F32', thickness: 0.7, remaining: 1.0}
+                ],
+                active: true
+            },
+            {
+                x: 300, 
+                y: 120, 
+                baseY: 120,
+                layers: [
+                    {material: 'Zn', color: '#696969', thickness: 0.5, remaining: 1.0},
+                    {material: 'Cu', color: '#CD7F32', thickness: 0.5, remaining: 1.0}
+                ],
+                active: true
+            },
+            {
+                x: 450, 
+                y: 90, 
+                baseY: 90,
+                layers: [
+                    {material: 'Fe', color: '#B87333', thickness: 0.4, remaining: 1.0},
+                    {material: 'Au', color: '#FFD700', thickness: 0.6, remaining: 1.0}
+                ],
+                active: true
+            },
+            {
+                x: 600, 
+                y: 110, 
+                baseY: 110,
+                layers: [
+                    {material: 'Li', color: '#C0C0C0', thickness: 0.6, remaining: 1.0},
+                    {material: 'Zn', color: '#696969', thickness: 0.4, remaining: 1.0}
+                ],
+                active: true
+            }
+        ];
+        
+        // Carbon cathode rod (collector)
+        const cathode = {x: canvas.width - 150, y: 100, deposits: []};
+        
+        // Electrolyte particles
+        const ions = [];
+        for (let i = 0; i < 100; i++) {
+            ions.push({
+                x: Math.random() * canvas.width,
+                y: 200 + Math.random() * 300,
+                vx: (Math.random() - 0.5) * 2,
+                vy: (Math.random() - 0.5) * 2,
+                type: Math.random() > 0.5 ? '+' : '-'
+            });
+        }
+        
+        // Microcontroller representation
+        const microcontroller = {x: canvas.width / 2, y: 30};
+        
+        let voltage = 0;
+        let current = 0;
+        let power = 0;
+        let reactions = [];
+        
+        function addReaction(text) {
+            reactions.unshift(text);
+            if (reactions.length > 50) reactions.pop();
+            
+            const log = document.getElementById('reaction-log');
+            const entry = document.createElement('div');
+            entry.className = 'reaction-entry new';
+            entry.textContent = `[${new Date().toLocaleTimeString()}] ${text}`;
+            log.insertBefore(entry, log.firstChild);
+            
+            // Remove old entries
+            while (log.children.length > 30) {
+                log.removeChild(log.lastChild);
+            }
+        }
+        
+        function drawMicrocontroller() {
+            ctx.fillStyle = '#1e1e1e';
+            ctx.fillRect(microcontroller.x - 60, microcontroller.y - 20, 120, 40);
+            ctx.strokeStyle = '#FFD700';
+            ctx.lineWidth = 2;
+            ctx.strokeRect(microcontroller.x - 60, microcontroller.y - 20, 120, 40);
+            
+            // Pins
+            for (let i = 0; i < 8; i++) {
+                ctx.fillStyle = '#C0C0C0';
+                ctx.fillRect(microcontroller.x - 55 + i * 15, microcontroller.y - 25, 3, 5);
+                ctx.fillRect(microcontroller.x - 55 + i * 15, microcontroller.y + 20, 3, 5);
+            }
+            
+            ctx.fillStyle = 'white';
+            ctx.font = 'bold 12px monospace';
+            ctx.textAlign = 'center';
+            ctx.fillText('μController', microcontroller.x, microcontroller.y + 5);
+            
+            // Connection lines to probes
+            probes.forEach((probe, i) => {
+                ctx.strokeStyle = '#FFD70050';
+                ctx.lineWidth = 1;
+                ctx.setLineDash([5, 5]);
+                ctx.beginPath();
+                ctx.moveTo(microcontroller.x, microcontroller.y + 20);
+                ctx.lineTo(probe.x, probe.y);
+                ctx.stroke();
+                ctx.setLineDash([]);
+            });
+        }
+        
+        function drawProbe(probe, index) {
+            const width = 40;
+            const layerHeight = 150;
+            
+            // Probe holder/connector
+            ctx.fillStyle = '#444';
+            ctx.fillRect(probe.x - width/2 - 5, probe.y - 30, width + 10, 25);
+            
+            // Draw each layer from bottom to top
+            let currentY = probe.y;
+            probe.layers.forEach((layer, layerIndex) => {
+                const height = layerHeight * layer.thickness * layer.remaining;
+                
+                // Layer body
+                ctx.fillStyle = layer.color;
+                ctx.fillRect(probe.x - width/2, currentY, width, height);
+                
+                // Layer outline
+                ctx.strokeStyle = '#000';
+                ctx.lineWidth = 2;
+                ctx.strokeRect(probe.x - width/2, currentY, width, height);
+                
+                // Layer label
+                ctx.fillStyle = 'black';
+                ctx.font = 'bold 14px Arial';
+                ctx.textAlign = 'center';
+                ctx.fillText(layer.material, probe.x, currentY + height/2 + 5);
+                
+                // Dissolution effect (bubbles)
+                if (probe.active && layer.remaining > 0.1) {
+                    for (let i = 0; i < 3; i++) {
+                        const bubbleX = probe.x - width/2 + Math.random() * width;
+                        const bubbleY = currentY + Math.random() * height;
+                        ctx.fillStyle = 'rgba(255, 255, 255, 0.5)';
+                        ctx.beginPath();
+                        ctx.arc(bubbleX, bubbleY, 3, 0, Math.PI * 2);
+                        ctx.fill();
+                    }
+                }
+                
+                currentY += height;
+            });
+            
+            // Probe label
+            ctx.fillStyle = '#333';
+            ctx.font = '12px Arial';
+            ctx.fillText(`Probe ${index + 1}`, probe.x, probe.y - 35);
+        }
+        
+        function drawCathode() {
+            const width = 30;
+            const height = 400;
+            
+            // Carbon rod
+            ctx.fillStyle = '#2F4F4F';
+            ctx.fillRect(cathode.x - width/2, cathode.y, width, height);
+            ctx.strokeStyle = '#000';
+            ctx.lineWidth = 2;
+            ctx.strokeRect(cathode.x - width/2, cathode.y, width, height);
+            
+            // Deposited material
+            cathode.deposits.forEach((deposit, i) => {
+                ctx.fillStyle = deposit.color + '80';
+                const y = cathode.y + height - (i + 1) * 5;
+                ctx.fillRect(cathode.x - width/2, y, width, 4);
+            });
+            
+            // Label
+            ctx.fillStyle = '#333';
+            ctx.font = 'bold 14px Arial';
+            ctx.textAlign = 'center';
+            ctx.fillText('Carbon', cathode.x, cathode.y - 10);
+            ctx.fillText('Cathode', cathode.x, cathode.y + height + 20);
+            
+            // Electron collection indicator
+            ctx.strokeStyle = '#00ff00';
+            ctx.lineWidth = 2;
+            for (let i = 0; i < 3; i++) {
+                ctx.beginPath();
+                ctx.arc(cathode.x, cathode.y + 200 + i * 50, 10 + Math.sin(time * 0.1 + i) * 3, 0, Math.PI * 2);
+                ctx.stroke();
+            }
+        }
+        
+        function drawElectrolyte() {
+            // Solution background
+            ctx.fillStyle = 'rgba(100, 150, 255, 0.2)';
+            ctx.fillRect(0, 180, canvas.width, canvas.height - 180);
+            
+            // Ions
+            ions.forEach(ion => {
+                ctx.fillStyle = ion.type === '+' ? 'rgba(255, 0, 0, 0.6)' : 'rgba(0, 0, 255, 0.6)';
+                ctx.beginPath();
+                ctx.arc(ion.x, ion.y, 3, 0, Math.PI * 2);
+                ctx.fill();
+                
+                ctx.fillStyle = 'white';
+                ctx.font = 'bold 10px Arial';
+                ctx.textAlign = 'center';
+                ctx.fillText(ion.type, ion.x, ion.y + 3);
+                
+                // Update position
+                ion.x += ion.vx * speed;
+                ion.y += ion.vy * speed;
+                
+                // Bounce off walls
+                if (ion.x < 0 || ion.x > canvas.width) ion.vx *= -1;
+                if (ion.y < 200 || ion.y > canvas.height) ion.vy *= -1;
+                
+                // Drift towards cathode for cations
+                if (ion.type === '+') {
+                    ion.vx += (cathode.x - ion.x) * 0.0001;
+                }
+            });
+            
+            // Electron flow visualization
+            probes.forEach(probe => {
+                if (!probe.active) return;
+                
+                const startX = probe.x;
+                const startY = probe.y + 100;
+                const endX = cathode.x;
+                const endY = cathode.y + 200;
+                
+                for (let i = 0; i < 5; i++) {
+                    const progress = ((time * speed * 2) % 100 + i * 20) / 100;
+                    const x = startX + (endX - startX) * progress;
+                    const y = startY + (endY - startY) * progress;
+                    
+                    ctx.fillStyle = `rgba(255, 255, 0, ${1 - progress})`;
+                    ctx.beginPath();
+                    ctx.arc(x, y, 4, 0, Math.PI * 2);
+                    ctx.fill();
+                    
+                    // Electron symbol
+                    ctx.fillStyle = 'black';
+                    ctx.font = 'bold 8px Arial';
+                    ctx.textAlign = 'center';
+                    ctx.fillText('e⁻', x, y + 2);
+                }
+            });
+        }
+        
+        function updateChemistry() {
+            // Simulate material dissolution and voltage generation
+            let totalVoltage = 0;
+            
+            probes.forEach((probe, index) => {
+                if (!probe.active) return;
+                
+                // Find the outermost layer with material remaining
+                for (let i = probe.layers.length - 1; i >= 0; i--) {
+                    const layer = probe.layers[i];
+                    if (layer.remaining > 0) {
+                        // Dissolve the layer slowly
+                        layer.remaining -= 0.0002 * speed;
+                        
+                        if (layer.remaining <= 0) {
+                            layer.remaining = 0;
+                            addReaction(`⚠️ Probe ${index + 1}: ${layer.material} layer depleted!`);
+                            if (i === 0) {
+                                probe.active = false;
+                                addReaction(`❌ Probe ${index + 1}: All layers consumed`);
+                            } else {
+                                addReaction(`🔄 Probe ${index + 1}: Exposing ${probe.layers[i-1].material} layer`);
+                            }
+                        }
+                        
+                        // Calculate voltage based on material
+                        const voltages = {'Li': 3.04, 'Zn': 0.76, 'Cu': 0.34, 'Fe': 0.44, 'Au': 1.5};
+                        totalVoltage += (voltages[layer.material] || 1.0) * layer.remaining;
+                        
+                        // Add deposits to cathode occasionally
+                        if (Math.random() < 0.01 * speed && cathode.deposits.length < 50) {
+                            cathode.deposits.push({color: layer.color, material: layer.material});
+                            if (cathode.deposits.length % 10 === 0) {
+                                addReaction(`✓ Cathode: ${layer.material} deposited (${cathode.deposits.length} deposits)`);
+                            }
+                        }
+                        
+                        break; // Only process outermost active layer
+                    }
+                }
+                
+                // Probe movement simulation
+                if (probesMoving) {
+                    probe.y = probe.baseY + Math.sin(time * 0.02 + index) * 20;
+                }
+            });
+            
+            // Update stats
+            voltage = totalVoltage;
+            current = voltage * 10; // Simulated current in mA
+            power = voltage * current; // Power in mW
+            
+            document.getElementById('voltage').textContent = voltage.toFixed(2) + 'V';
+            document.getElementById('current').textContent = current.toFixed(1);
+            document.getElementById('power').textContent = power.toFixed(1);
+        }
+        
+        function draw() {
+            // Clear canvas
+            ctx.fillStyle = '#e3f2fd';
+            ctx.fillRect(0, 0, canvas.width, 180);
+            
+            // Draw components
+            drawElectrolyte();
+            drawMicrocontroller();
+            probes.forEach((probe, i) => drawProbe(probe, i));
+            drawCathode();
+            
+            // Update chemistry
+            updateChemistry();
+            
+            time++;
+            
+            if (isRunning) {
+                animationId = requestAnimationFrame(draw);
+            }
+        }
+        
+        function startSimulation() {
+            if (!isRunning) {
+                isRunning = true;
+                addReaction('🟢 System started - Chemical reactions initiated');
+                draw();
+            }
+        }
+        
+        function pauseSimulation() {
+            isRunning = false;
+            cancelAnimationFrame(animationId);
+            addReaction('⏸ System paused');
+        }
+        
+        function resetSimulation() {
+            pauseSimulation();
+            time = 0;
+            cathode.deposits = [];
+            reactions = [];
+            document.getElementById('reaction-log').innerHTML = '';
+            
+            // Reset all probe layers
+            probes.forEach(probe => {
+                probe.active = true;
+                probe.y = probe.baseY;
+                probe.layers.forEach(layer => {
+                    layer.remaining = 1.0;
+                });
+            });
+            
+            addReaction('🔄 System reset - All probes restored');
+            draw();
+        }
+        
+        function toggleProbeMovement() {
+            probesMoving = !probesMoving;
+            addReaction(`↕️ Probe movement ${probesMoving ? 'enabled' : 'disabled'}`);
+        }
+        
+        function changeSpeed(direction) {
+            if (direction === 'faster') {
+                speed = Math.min(speed * 1.5, 10);
+                addReaction(`⚡ Speed increased to ${speed.toFixed(1)}x`);
+            } else {
+                speed = Math.max(speed / 1.5, 0.1);
+                addReaction(`🐌 Speed decreased to ${speed.toFixed(1)}x`);
+            }
+        }
+        
+        // Initial draw
+        draw();
+        addReaction('⚙️ System initialized - Ready to start');
+        addReaction('💡 Click "Start Simulation" to begin');
+    </script>
+</body>
+</html>

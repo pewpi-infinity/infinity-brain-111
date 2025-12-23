@@ -1,0 +1,35 @@
+{
+  "worlds": [
+    {
+      "name": "Core",
+      "stages": [
+        {
+          "name": "Input",
+          "bricks": [
+            {"name": "c13b0_cart_005_voice_to_intent"},
+            {"name": "c13b0_cart_004_mongoose_executor_piezo"}
+          ]
+        },
+        {
+          "name": "Accounting",
+          "bricks": [
+            {"name": "c13b0_cart_006_intent_to_token"},
+            {"name": "c13b0_cart_007_permission_gate"}
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mapping",
+      "stages": [
+        {
+          "name": "Index",
+          "bricks": [
+            {"name": "c13b0_cart_009_master_index_aggregator"},
+            {"name": "c13b0_cart_008_ecosystem_overlay"}
+          ]
+        }
+      ]
+    }
+  ]
+}

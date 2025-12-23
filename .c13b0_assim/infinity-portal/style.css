@@ -1,0 +1,19 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.sidebar, .chat, .bot-farm, .job-progress {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}

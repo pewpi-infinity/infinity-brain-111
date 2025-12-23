@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infinity Dashboard - Vision Hub</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+        body { 
+            background: #0a0a0c; 
+            color: #ffffff; 
+            font-family: 'VT323', monospace; 
+            padding: 15px; 
+        }
+        .metric-box { 
+            background: #1a1a20; 
+            padding: 15px; 
+            border-left: 5px solid #00ffaa; 
+            margin-bottom: 10px;
+            border-radius: 8px;
+        }
+        .metric-title { 
+            color: #00ffaa; 
+            font-size: 1.1em; 
+        }
+        .metric-value { 
+            font-size: 1.8em; 
+            font-weight: bold; 
+        }
+        .status-ok { color: #00aaff; }
+        .status-alert { color: #ff00aa; }
+        .action-card {
+            background: #00aaff15;
+            padding: 20px;
+            border: 2px solid #00aaff;
+            margin-top: 25px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .action-card button {
+            background: #ff00aa;
+            color: black;
+            padding: 10px 20px;
+            font-weight: bold;
+            border-radius: 6px;
+            box-shadow: 0 0 10px #ff00aa;
+            transition: all 0.2s;
+        }
+        .action-card button:hover {
+            background: #ff55cc;
+        }
+    </style>
+</head>
+<body>
+    <h1>Infinity Dashboard - Vision Hub 👁️</h1>
+    <p>Strategic Planning & System Health Metrics.</p>
+    <div class="metric-box">
+        <div class="metric-title">Rogers Thesis Confidence (Last 24h)</div>
+        <div class="metric-value status-ok">92.5%</div>
+    </div>
+    <div class="metric-box">
+        <div class="metric-title">Token Velocity (Last Hour)</div>
+        <div class="metric-value">1,452 IT/min</div>
+    </div>
+    <div class="metric-box">
+        <div class="metric-title">System Status (Operation Trident)</div>
+        <div class="metric-value status-ok">Defense Protocols: ACTIVE</div>
+    </div>
+    <div class="metric-box">
+        <div class="metric-title">Unresolved Bot Escapes (Last Game)</div>
+        <div class="metric-value status-alert">3 Escapes</div>
+    </div>
+    <!-- NEW: Builder App Action Card -->
+    <div class="action-card">
+        <h2 class="text-2xl text-white mb-4">Launch Builder Protocol</h2>
+        <p class="text-gray-300 mb-4">Access the construction interface to patch vulnerabilities or deploy new modules.</p>
+        <a href="builder_app.html">
+            <button>OPEN BUILDER APP 🛠️</button>
+        </a>
+    </div>
+    <h3 style="margin-top: 30px;" class="text-xl">Strategic Planning</h3>
+    <p>AI Agent Proposals: Ready for review.</p>
+</body>
+</html>

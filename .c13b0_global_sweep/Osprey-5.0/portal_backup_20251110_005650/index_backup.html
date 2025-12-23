@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no"/>
+<title>Osprey Portal / App Builder</title>
+<style>
+html,body{margin:0;background:#050510;color:#0ff;font-family:monospace;overflow-x:hidden}
+h1{color:#38bdf8;text-align:center;margin-top:20px;}
+.panel{max-width:600px;margin:20px auto;padding:20px;border-radius:16px;
+background:rgba(15,23,42,.4);box-shadow:0 0 20px rgba(56,189,248,.3);}
+button,a.btn{background:#38bdf8;color:#000;font-weight:bold;padding:10px 18px;
+border:none;border-radius:8px;margin:5px;cursor:pointer;text-decoration:none;display:inline-block;}
+button:hover,a.btn:hover{background:#7ff;}
+.glow{box-shadow:0 0 25px #0ff;}
+</style>
+</head>
+<body>
+<h1>🪶 Osprey Portal / App Builder</h1>
+
+<div class="panel">
+  <h2>Create Your Own App Page</h2>
+  <p>Type an idea or select a suggestion to start building a unique application.</p>
+  <input id="idea" placeholder="Describe your idea…" style="width:70%;padding:6px;border-radius:6px;border:none;outline:none;"/>
+  <button id="build">Build</button>
+</div>
+
+<div class="panel">
+  <h3>Need inspiration?</h3>
+  <div id="buttons">
+    <button id="signalBtn" class="glow">Signal Generator</button>
+    <button id="quantumBtn">Quantum Visualizer</button>
+    <button id="voiceBtn">Voice Recorder</button>
+    <button id="musicBtn">Music Synth</button>
+    <button id="coinBtn">Coin Catalog</button>
+    <button id="marketBtn">Marketplace Listing</button>
+    <button id="storyBtn">Story Writer</button>
+    <button id="gemBtn">Gemstone Designer</button>
+    <button id="aiBtn">AI Chat Bot</button>
+    <button id="weatherBtn">Weather Monitor</button>
+  </div>
+</div>
+
+<div class="panel">
+  <h3>New App Created 🎉</h3>
+  <pre id="output">// select a template above to begin</pre>
+</div>
+
+<script>
+/* ========= Main Builder ========= */
+const output=document.getElementById("output");
+document.getElementById("build").onclick=()=>{
+ const idea=document.getElementById("idea").value.trim();
+ output.textContent="// Building new app for: "+idea+
+ "\\nfunction startApp(){ console.log('Launching "+idea+"...'); }";
+};
+
+/* ========= Button Routing ========= */
+function showTemplate(name,code){
+ output.textContent="// "+name+" App Template\\n"+code;
+}
+
+// ✅ Working Signal Generator Button (direct link)
+const sig=document.getElementById("signalBtn");
+if(sig){
+ sig.addEventListener("click",()=>{
+   window.location.assign("signal_demo.html");
+ });
+}
+
+// placeholder templates for the rest
+document.getElementById("quantumBtn").onclick=()=>showTemplate("Quantum Visualizer",
+"function startQuantumVisualizer(){ console.log('Launching Quantum Visualizer app...'); }");
+document.getElementById("voiceBtn").onclick=()=>showTemplate("Voice Recorder",
+"function startVoiceRecorder(){ console.log('Launching Voice Recorder...'); }");
+document.getElementById("musicBtn").onclick=()=>showTemplate("Music Synth",
+"function startMusicSynth(){ console.log('Launching Music Synth...'); }");
+document.getElementById("coinBtn").onclick=()=>showTemplate("Coin Catalog",
+"function startCoinCatalog(){ console.log('Launching Coin Catalog...'); }");
+document.getElementById("marketBtn").onclick=()=>showTemplate("Marketplace Listing",
+"function startMarketplace(){ console.log('Launching Marketplace Listing...'); }");
+document.getElementById("storyBtn").onclick=()=>showTemplate("Story Writer",
+"function startStoryWriter(){ console.log('Launching Story Writer...'); }");
+document.getElementById("gemBtn").onclick=()=>showTemplate("Gemstone Designer",
+"function startGemstoneDesigner(){ console.log('Launching Gemstone Designer...'); }");
+document.getElementById("aiBtn").onclick=()=>showTemplate("AI Chat Bot",
+"function startAIChatBot(){ console.log('Launching AI Chat Bot...'); }");
+document.getElementById("weatherBtn").onclick=()=>showTemplate("Weather Monitor",
+"function startWeatherMonitor(){ console.log('Launching Weather Monitor...'); }");
+</script>
+</body>
+</html>

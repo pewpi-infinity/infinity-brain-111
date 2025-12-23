@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>c13b0_cart_009_master_index_aggregator_20251221_091115 — 🧱🍄🧱</title>
+<style>
+body{background:#0b0b0b;color:#eaeaea;font-family:system-ui;max-width:900px;margin:auto;padding:16px}
+.price{font-size:2rem;color:#7CFF7C}
+.btn{background:#2b7cff;color:#fff;padding:10px 14px;border-radius:8px;border:none}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.tile{border:1px dashed #444;border-radius:6px;padding:8px;text-align:center}
+</style>
+</head>
+<body>
+<h1>🧱👑🧱 c13b0_cart_009_master_index_aggregator_20251221_091115</h1>
+<div class="price" id="price"></div>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+<input type="hidden" name="cmd" value="_xclick">
+<input type="hidden" name="business" value="marvaseater@gmail.com">
+<input type="hidden" name="item_name" value="Token — c13b0_cart_009_master_index_aggregator_20251221_091115">
+<input type="hidden" name="currency_code" value="USD">
+<input type="hidden" name="amount" id="amount">
+<button class="btn">Buy It Now</button>
+</form>
+
+<h2>Mario World</h2>
+<div class="grid">
+<div class="tile">🧱</div><div class="tile">🍄</div><div class="tile">⭐</div><div class="tile">🏁</div>
+<div class="tile">🧱</div><div class="tile">🍄</div><div class="tile">🧱</div><div class="tile">⭐</div>
+</div>
+
+<script>
+let price=5.00;
+const rate=0.002;
+const p=document.getElementById('price');
+const a=document.getElementById('amount');
+setInterval(()=>{price*=1+rate;p.textContent="$"+price.toFixed(2);a.value=price.toFixed(2);},1000);
+</script>
+</body>
+</html>

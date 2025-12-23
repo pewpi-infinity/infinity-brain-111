@@ -1,0 +1,501 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>PewPi — Unified Admin / Rogers / Bots (with built-in debug)</title>
+<style>
+  :root{--bg:#071722;--card:#08242f;--muted:#9bb7c2;--accent:#16b07a;--panel:#041016}
+  body{font-family:system-ui,Segoe UI,Roboto,Arial;margin:0;background:var(--bg);color:#e9fbff}
+  .app{display:flex;height:100vh}
+  .drawer{width:60px;background:var(--card);display:flex;flex-direction:column;align-items:center;padding-top:12px;gap:8px;border-right:1px solid rgba(255,255,255,0.03)}
+  .btn{width:44px;height:44px;border-radius:8px;background:transparent;border:1px solid rgba(255,255,255,0.03);color:var(--muted);display:flex;align-items:center;justify-content:center;cursor:pointer}
+  .btn.active{background:var(--accent);color:#00221a}
+  .main{flex:1;display:flex;flex-direction:column}
+  header{padding:14px 18px;border-bottom:1px solid rgba(255,255,255,0.03);display:flex;align-items:center;gap:12px;background:linear-gradient(180deg,rgba(0,0,0,0.03),transparent)}
+  h1{margin:0;font-size:1.05rem}
+  .muted{color:var(--muted);font-size:0.92rem}
+  .content{padding:16px;display:flex;gap:16px;height:calc(100vh - 64px);box-sizing:border-box}
+  .col{flex:1;min-width:320px;overflow:auto}
+  .card{background:var(--card);padding:12px;border-radius:10px;border:1px solid rgba(255,255,255,0.03);margin-bottom:12px}
+  input,textarea,select,button{font:inherit}
+  input,select,textarea{width:100%;padding:8px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:#03141a;color:#e9fbff}
+  textarea{min-height:120px;resize:vertical;font-family:monospace}
+  .row{display:flex;gap:8px;margin-top:8px}
+  .col-2{display:flex;gap:8px}
+  .small{font-size:0.9rem;color:var(--muted)}
+  .console{background:var(--panel);padding:10px;border-radius:8px;min-height:180px;white-space:pre-wrap;overflow:auto;color:#cfeee6}
+  .action{background:var(--accent);border:none;padding:8px 10px;border-radius:8px;color:#00221a;cursor:pointer}
+  .secondary{background:transparent;border:1px solid rgba(255,255,255,0.03);color:var(--muted);padding:8px;border-radius:8px;cursor:pointer}
+  .danger{background:#ff7b7b;color:#3a0000}
+  label{font-size:0.9rem;color:var(--muted);display:block;margin-top:8px}
+  pre{background:#021418;padding:8px;border-radius:8px;color:#cfeee6;overflow:auto}
+  .bot{padding:8px;border-radius:8px;background:#0a3740;margin-top:8px}
+  footer{padding:8px 12px;border-top:1px solid rgba(255,255,255,0.03);font-size:0.85rem;color:var(--muted)}
+  .tiny{font-size:0.8rem;color:var(--muted)}
+  /* debug panel styles */
+  #pewpi_debug_panel{position:fixed;right:12px;bottom:12px;background:rgba(1,8,12,0.95);color:#fff;border:1px solid rgba(255,255,255,0.06);padding:8px;border-radius:8px;z-index:99999;max-width:360px;font-family:monospace;font-size:12px}
+  #pewpi_debug_panel h4{margin:0 0 6px 0;font-size:12px}
+  #pewpi_debug_out{max-height:180px;overflow:auto;background:#021418;padding:6px;border-radius:6px;color:#cfeee6}
+  .dbg_btn{margin-top:6px;background:#333;border:1px solid rgba(255,255,255,0.04);color:#cfeee6;padding:6px;border-radius:6px;cursor:pointer}
+</style>
+</head>
+<body>
+<div class="app">
+  <div class="drawer" role="navigation" aria-label="Main menu">
+    <button class="btn active" data-view="portal" title="Main Portal" id="nav_portal">P</button>
+    <button class="btn" data-view="admin" title="Admin / Login" id="nav_admin">A</button>
+    <button class="btn" data-view="bots" title="Bot Farm" id="nav_bots">B</button>
+    <button class="btn" data-view="logs" title="Logs & Encrypt" id="nav_logs">L</button>
+    <button class="btn" data-view="terminal" title="Terminal / Commits" id="nav_terminal">T</button>
+  </div>
+
+  <div class="main">
+    <header>
+      <h1>PewPi — Unified Control</h1>
+      <div style="flex:1"></div>
+      <div class="muted tiny" id="session_info">no session</div>
+    </header>
+
+    <div class="content">
+      <div class="col" id="left_col">
+        <div class="card view" id="view_portal">
+          <label><strong>Main Rogers Portal</strong></label>
+          <div class="small">Type your commands or ask Rogers. If a GitHub token is loaded it will be used for private repo operations.</div>
+          <div class="console" id="portal_console">{ Rogers ready — unlock admin to load token }</div>
+          <div class="row" style="margin-top:8px">
+            <input id="portal_query" placeholder='Say "hello" or "fetch github owner repo path"' />
+            <button class="action" id="portal_send">Send</button>
+          </div>
+        </div>
+
+        <div class="card view" id="view_bots" style="display:none">
+          <label><strong>Bot Farm (manual approvals)</strong></label>
+          <div class="small">Create browser bots, run them on demand. Child spawn requests require manual approval.</div>
+          <div class="row">
+            <input id="bot_name" placeholder="bot name (eg. fetcher-1)" />
+            <select id="bot_type">
+              <option value="echo">echo</option>
+              <option value="transform">transform</option>
+              <option value="fetch_github">fetch_github</option>
+            </select>
+            <button class="action" id="create_bot">Create</button>
+          </div>
+          <div id="bots_list" style="margin-top:10px"></div>
+        </div>
+
+        <div class="card view" id="view_logs" style="display:none">
+          <label><strong>Activity & Logs</strong></label>
+          <div class="small">In-memory session log. Encrypt & commit when ready. Save encrypted settings to localStorage to remember across reloads.</div>
+          <pre id="log_view">{ no events }</pre>
+          <label>Encryption passphrase (for local encrypted settings / logs)</label>
+          <input id="log_pass" type="password" placeholder="put passphrase here (will NOT be stored)" />
+          <div class="row">
+            <button class="action" id="encrypt_copy">Encrypt & copy to clipboard</button>
+            <button class="secondary" id="encrypt_commit">Encrypt & commit to repo</button>
+            <button class="secondary" id="save_local">Save encrypted settings locally</button>
+          </div>
+          <label style="margin-top:8px">Last encrypted blob preview</label>
+          <pre id="last_ct">{ none }</pre>
+          <div id="commit_status" class="tiny"></div>
+        </div>
+
+        <div class="card view" id="view_terminal" style="display:none">
+          <label><strong>Admin Terminal & GitHub Commits</strong></label>
+          <div class="small">Use the PAT loaded in Admin to test the token and to commit files. All tokens stay in memory only unless you copy them manually.</div>
+          <label>Commit owner / repo / branch / path</label>
+          <div class="row">
+            <input id="commit_owner" placeholder="owner" />
+            <input id="commit_repo" placeholder="repo" />
+          </div>
+          <div class="row">
+            <input id="commit_branch" placeholder="branch" value="main" />
+            <input id="commit_path" placeholder="path (eg. pewpi_bot_logs.json)" />
+          </div>
+          <label>Commit message</label>
+          <input id="commit_msg" placeholder="Commit message" value="Add encrypted log via UI" />
+          <label>File content (paste or generated ciphertext)</label>
+          <textarea id="commit_content" placeholder="// paste file content or ciphertext JSON"></textarea>
+          <div class="row" style="margin-top:8px">
+            <button class="action" id="check_file">Check exists</button>
+            <button class="action" id="do_commit">Commit</button>
+            <button class="secondary" id="preview_b64">Preview base64</button>
+          </div>
+          <label style="margin-top:8px">Terminal output</label>
+          <pre id="terminal_out" class="console">{ terminal }</pre>
+        </div>
+      </div>
+
+      <div class="col" id="right_col">
+        <div class="card view" id="view_admin" style="display:none">
+          <label><strong>Admin / Login</strong></label>
+          <div class="small">Enter the passphrase in the field below (simple "put it here" design). You can also paste the ciphertext JSON or fetch it from raw URL. Settings can be saved encrypted locally so you don't re-enter.</div>
+          <label>Put it here</label>
+          <div class="row">
+            <input id="admin_pass" type="password" placeholder="Put it here" />
+            <button class="action" id="admin_unlock">Unlock</button>
+          </div>
+          <label style="margin-top:8px">Ciphertext JSON (optional)</label>
+          <textarea id="admin_blob" placeholder='Paste ciphertext JSON here (if not embedded)'></textarea>
+          <div class="row">
+            <input id="admin_rawurl" placeholder="raw.githubusercontent URL (optional)" />
+            <button class="secondary" id="fetch_blob">Fetch</button>
+            <button class="secondary" id="paste_clip">Paste clipboard</button>
+          </div>
+          <label style="margin-top:8px">In-memory PAT (for commits)</label>
+          <div class="row">
+            <input id="admin_pat" type="password" placeholder="Paste PAT here (memory only)" />
+            <button class="secondary" id="load_pat">Load</button>
+            <button class="secondary" id="clear_pat">Clear</button>
+          </div>
+          <div id="admin_status" class="tiny">No session</div>
+          <label style="margin-top:8px">Remember (encrypted, localStorage)</label>
+          <div class="row">
+            <button class="secondary" id="save_settings">Save encrypted settings locally</button>
+            <button class="secondary" id="load_settings">Load encrypted settings</button>
+            <button class="secondary danger" id="clear_settings">Clear saved settings</button>
+          </div>
+          <label style="margin-top:8px">Decrypted plaintext preview</label>
+          <pre id="admin_plain">{ none }</pre>
+          <div class="row">
+            <button class="action" id="load_token_from_plain">Load github_token into session</button>
+            <button class="secondary" id="re_encrypt">Re-encrypt (change passphrase)</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <label><strong>Quick Help</strong></label>
+          <div class="small">Steps: 1) Admin → Paste ciphertext or fetch it. 2) Type passphrase in "Put it here" → Unlock. 3) Click "Load github_token into session". 4) Use Portal to chat or Bots to run tasks. 5) Encrypt & Commit logs in Logs/Terminal using PAT.</div>
+        </div>
+      </div>
+    </div>
+
+    <footer>Built for you — all client-side. Tokens stay in memory unless you copy/paste them. Revoke tokens when done.</footer>
+  </div>
+</div>
+
+<!-- Debug panel (always present, visible to user) -->
+<div id="pewpi_debug_panel" aria-live="polite">
+  <h4>Debug — PewPi</h4>
+  <div id="pewpi_debug_out">{ no errors }</div>
+  <div style="display:flex;gap:6px">
+    <button class="dbg_btn" id="dbg_fix_buttons">Run Fix (enable clicks)</button>
+    <button class="dbg_btn" id="dbg_show_errors">Show Recent Errors</button>
+    <button class="dbg_btn" id="dbg_toggle_overlay">Toggle blocking overlay check</button>
+  </div>
+  <div style="margin-top:6px;font-size:11px;color:#9bb7c2">If buttons are stuck, click "Run Fix". Errors will appear above.</div>
+</div>
+
+<script>
+/*
+  Built-in debug + fixes for when DevTools isn't available.
+  - Captures window.onerror and unhandledrejection
+  - Logs recent errors into the visible debug panel
+  - Provides "Run Fix" to re-enable buttons, remove pointer-blockers and attach fallback handlers
+  - Auto-attaches fallback send handler for Portal if main handler missing
+*/
+
+(function(){
+  const out = document.getElementById('pewpi_debug_out');
+  const ERRLOG = [];
+  function logDebug(msg){
+    const ts = new Date().toISOString().split('T')[1].slice(0,8);
+    ERRLOG.push({ts, msg});
+    // keep last 30
+    if(ERRLOG.length>30) ERRLOG.shift();
+    out.textContent = ERRLOG.map(e=>`[${e.ts}] ${e.msg}`).join('\n');
+  }
+
+  // global error capture
+  window.addEventListener('error', function(e){
+    try{ logDebug(`ERROR: ${e.message} @ ${e.filename}:${e.lineno}`); }catch(_){}
+  });
+  window.addEventListener('unhandledrejection', function(ev){
+    try{ logDebug(`PROMISE REJECT: ${ev.reason && ev.reason.message ? ev.reason.message : JSON.stringify(ev.reason)}`); }catch(_){}
+  });
+
+  // helper: re-enable buttons and attach logging
+  function enableButtonsAndAttachLogging(){
+    document.querySelectorAll('button, input[type="button"], input[type="submit"]').forEach(btn=>{
+      try{
+        btn.disabled = false;
+        btn.style.pointerEvents = 'auto';
+        btn.style.opacity = '1';
+        btn.addEventListener('click', ()=>{ logDebug(`CLICK: ${btn.id||btn.textContent.trim()}`); }, false);
+      }catch(e){ logDebug('enableButtons error: ' + e.message); }
+    });
+    logDebug('Buttons enabled and logging attached.');
+  }
+
+  // helper: detect and disable blocking overlays (temporary)
+  let overlayDisabled = false;
+  function toggleOverlayCheck(){
+    if(!overlayDisabled){
+      // find high z-index fixed/absolute elements and temporarily disable pointer-events
+      const candidates = Array.from(document.querySelectorAll('body *')).filter(el=>{
+        const s = getComputedStyle(el);
+        if(s.display==='none' || s.visibility==='hidden') return false;
+        const pos = s.position;
+        if(!(pos === 'fixed' || pos === 'absolute')) return false;
+        const z = parseInt(s.zIndex||0,10);
+        return z > 50;
+      });
+      if(candidates.length===0) { logDebug('No high-z overlays found.'); overlayDisabled = false; return; }
+      candidates.forEach(el=>{
+        el.dataset._pewpi_oldPointer = el.style.pointerEvents || '';
+        el.dataset._pewpi_oldOutline = el.style.outline || '';
+        el.style.pointerEvents = 'none';
+        el.style.outline = '2px dashed rgba(255,0,0,0.6)';
+      });
+      overlayDisabled = true;
+      logDebug('Disabled pointer-events on possible overlays ('+candidates.length+' elements). Click "Toggle blocking overlay check" to restore.');
+    } else {
+      // restore
+      document.querySelectorAll('[data-_pewpi_oldPointer]').forEach(el=>{
+        el.style.pointerEvents = el.dataset._pewpi_oldPointer || '';
+        el.style.outline = el.dataset._pewpi_oldOutline || '';
+        delete el.dataset._pewpi_oldPointer;
+        delete el.dataset._pewpi_oldOutline;
+      });
+      overlayDisabled = false;
+      logDebug('Restored overlay pointer-events.');
+    }
+  }
+
+  // fallback portal send handler if real handler wasn't attached
+  function attachFallbackPortalSend(){
+    const portalSend = document.getElementById('portal_send');
+    const portalQuery = document.getElementById('portal_query');
+    if(!portalSend || !portalQuery){ logDebug('Portal send/query not found for fallback attach.'); return; }
+    // avoid double-attach
+    if(portalSend.dataset._pewpi_fallback_attached) { logDebug('Portal fallback already attached.'); return; }
+    portalSend.addEventListener('click', async function(){
+      const q = (portalQuery.value || '').trim();
+      if(!q){ logDebug('Portal send clicked with empty query'); return; }
+      logDebug('Fallback portal send handling query: ' + q);
+      // attempt to use rogersRespond if available
+      if(typeof rogersRespond === 'function'){
+        try{
+          const c = document.getElementById('portal_console');
+          if(c) c.textContent += `\nYou: ${q}\nRogers: (thinking...)`;
+          const resp = await rogersRespond(q);
+          if(c){
+            // remove the thinking suffix
+            c.textContent = c.textContent.replace(/\nRogers: \(thinking...\)$/, '');
+            c.textContent += `\nRogers: ${resp}`;
+            c.scrollTop = c.scrollHeight;
+          } else {
+            alert('Rogers: ' + resp);
+          }
+        }catch(e){ logDebug('rogersRespond threw: ' + (e && e.message ? e.message : e)); alert('Rogers error: ' + (e && e.message ? e.message : e)); }
+      } else {
+        // very basic fallback echo
+        const c = document.getElementById('portal_console');
+        if(c) c.textContent += `\nYou: ${q}\nRogers: (no handler available)`;
+        logDebug('rogersRespond not found; fallback echo used.');
+      }
+    });
+    portalSend.dataset._pewpi_fallback_attached = '1';
+    logDebug('Fallback portal send handler attached.');
+  }
+
+  // main "Run Fix" action: enable buttons, toggle overlays off and attach fallback
+  document.getElementById('dbg_fix_buttons').addEventListener('click', ()=>{
+    try{
+      enableButtonsAndAttachLogging();
+      attachFallbackPortalSend();
+      logDebug('Run Fix executed.');
+      alert('Run Fix executed. Try clicking the buttons now. See debug panel for messages.');
+    }catch(e){ logDebug('Run Fix error: ' + e.message); alert('Run Fix error: ' + e.message); }
+  });
+
+  document.getElementById('dbg_show_errors').addEventListener('click', ()=>{
+    alert(ERRLOGToText());
+  });
+
+  function ERRLOGToText(){ return ERRLOG.map(e=>`[${e.ts}] ${e.msg}`).join('\n'); }
+
+  document.getElementById('dbg_toggle_overlay').addEventListener('click', ()=>{ toggleOverlayCheck(); });
+
+  // On load, automatically attempt a gentle fix (don't be intrusive)
+  window.addEventListener('load', ()=>{ setTimeout(()=>{ try{ enableButtonsAndAttachLogging(); attachFallbackPortalSend(); logDebug('Auto-fix on load ran.'); }catch(e){ logDebug('Auto-fix error: ' + e.message); } }, 400); });
+
+  // small helper to show debug messages to console as well
+  window.addEventListener('error', (e)=>{ console.error('PewPi captured error', e.message, e.filename+':'+e.lineno); });
+  window.addEventListener('unhandledrejection', (ev)=>{ console.error('PewPi captured promise rejection', ev.reason); });
+
+  // expose debug helpers for further manual calls if needed
+  window.PewPiDebug = { logDebug, enableButtonsAndAttachLogging, attachFallbackPortalSend, toggleOverlayCheck, ERRLOG };
+})();
+</script>
+
+<!-- Core logic scripts (kept inline here for single-file convenience).
+     If you installed an external pewpi_core.js you can remove the inline portion and include that instead.
+-->
+<script>
+/* Minimal core functions used by the UI (decrypt/encrypt, GitHub ops and simple chat/bots).
+   This code intentionally keeps token in-memory/session and exposes a few helpers on window.PewPi.
+*/
+(function(){
+  const ITER = 250000;
+  function u8FromB64(s){ const bin = atob(s); const u=new Uint8Array(bin.length); for(let i=0;i<bin.length;i++) u[i]=bin.charCodeAt(i); return u; }
+  function u8ToB64(u8){ let s=''; for(let i=0;i<u8.length;i++) s+=String.fromCharCode(u8[i]); return btoa(s); }
+  async function deriveKey(pass, saltU8, usages=['encrypt','decrypt']){ const enc = new TextEncoder(); const base = await crypto.subtle.importKey('raw', enc.encode(pass), 'PBKDF2', false, ['deriveKey']); return crypto.subtle.deriveKey({name:'PBKDF2', salt: saltU8, iterations: ITER, hash:'SHA-256'}, base, {name:'AES-GCM', length:256}, false, usages); }
+  async function decryptBlob(blob, pass){ if(!blob || !blob.ct) throw new Error('Invalid blob'); const salt=u8FromB64(blob.salt), iv=u8FromB64(blob.iv), ct=u8FromB64(blob.ct); const key=await deriveKey(pass, salt, ['decrypt']); const pt=await crypto.subtle.decrypt({name:'AES-GCM', iv}, key, ct.buffer); return JSON.parse(new TextDecoder().decode(pt)); }
+  async function encryptJSON(obj, pass){ const salt=crypto.getRandomValues(new Uint8Array(16)); const iv=crypto.getRandomValues(new Uint8Array(12)); const key=await deriveKey(pass, salt, ['encrypt']); const ct=await crypto.subtle.encrypt({name:'AES-GCM', iv}, key, new TextEncoder().encode(JSON.stringify(obj))); return { v:1, salt:u8ToB64(salt), iv:u8ToB64(iv), ct:u8ToB64(new Uint8Array(ct)), created_at:new Date().toISOString() }; }
+
+  let INMEM_TOKEN = null;
+  function setSessionToken(t){ INMEM_TOKEN = t; try{ sessionStorage.setItem('gh.token', t); }catch(e){}; /* Broadcast to other tabs */ try{ const ch = new BroadcastChannel('pewpi-token'); ch.postMessage({token:t}); ch.close(); }catch(e){}; document.getElementById('admin_status') && (document.getElementById('admin_status').textContent = 'Token loaded in memory (session)'); updateSessionInfo(); }
+  function clearSessionToken(){ INMEM_TOKEN = null; try{ sessionStorage.removeItem('gh.token'); }catch(e){}; document.getElementById('admin_status') && (document.getElementById('admin_status').textContent = 'Token cleared'); updateSessionInfo(); }
+  function getSessionToken(){ return sessionStorage.getItem('gh.token') || INMEM_TOKEN || null; }
+
+  async function getFileInfo(owner,repo,path,branch='main'){
+    const url = `https://api.github.com/repos/${encodeURIComponent(owner)}/${encodeURIComponent(repo)}/contents/${encodeURIComponent(path)}?ref=${encodeURIComponent(branch)}`;
+    const headers = { Accept:'application/vnd.github.v3+json' };
+    const token = getSessionToken(); if(token) headers.Authorization = 'Bearer ' + token;
+    const r = await fetch(url, { headers });
+    if(r.status === 404) return { exists:false };
+    const j = await r.json(); if(!r.ok) throw new Error('GET failed: ' + (j && j.message ? j.message : r.status)); return { exists:true, sha:j.sha, content:j.content };
+  }
+
+  async function commitFile(owner,repo,branch,path,message,contentBase64,sha){
+    const token = getSessionToken(); if(!token) throw new Error('No PAT loaded for commit');
+    const url = `https://api.github.com/repos/${encodeURIComponent(owner)}/${encodeURIComponent(repo)}/contents/${encodeURIComponent(path)}`;
+    const body = { message, content: contentBase64, branch }; if(sha) body.sha = sha;
+    const r = await fetch(url, { method:'PUT', headers:{ Authorization:'Bearer ' + token, Accept:'application/vnd.github.v3+json', 'Content-Type':'application/json' }, body: JSON.stringify(body) });
+    const j = await r.json().catch(()=>null); if(!r.ok) throw new Error('Commit failed: ' + (j && j.message ? j.message : JSON.stringify(j))); return j;
+  }
+
+  async function fetchRepoFile(owner,repo,branch,path){
+    const rawUrl = `https://raw.githubusercontent.com/${encodeURIComponent(owner)}/${encodeURIComponent(repo)}/${encodeURIComponent(branch)}/${path}`;
+    try{ const r = await fetch(rawUrl,{cache:'no-store'}); if(r.ok) return { ok:true, text: await r.text(), source: rawUrl }; }catch(e){}
+    const token = getSessionToken(); if(token){
+      const api = `https://api.github.com/repos/${encodeURIComponent(owner)}/${encodeURIComponent(repo)}/contents/${encodeURIComponent(path)}?ref=${encodeURIComponent(branch)}`;
+      const r = await fetch(api,{ headers:{ Authorization:'Bearer '+token, Accept:'application/vnd.github.v3.raw' }});
+      if(r.ok) return { ok:true, text: await r.text(), source: api }; const body = await r.text().catch(()=>String(r.status)); return { ok:false, err:'GitHub API '+r.status+': '+body };
+    }
+    return { ok:false, err:'Not found (raw failed) and no token available.' };
+  }
+
+  // expose on window.PewPi (lightweight)
+  window.PewPi = { decryptBlob, encryptJSON, setSessionToken, clearSessionToken, getSessionToken, getFileInfo, commitFile, fetchRepoFile };
+})();
+</script>
+
+<!-- Application wiring (event handlers, UI logic). If an earlier error prevented handlers from attaching, debug panel's Run Fix re-attaches. -->
+<script>
+(function(){
+  function $(id){ return document.getElementById(id); }
+  function updateSessionInfo(){ $('session_info').textContent = sessionStorage.getItem('gh.token') ? 'token in session' : 'no token'; }
+  function portalLog(msg){ const c = $('portal_console'); c.textContent += (c.textContent?'\n':'') + msg; c.scrollTop = c.scrollHeight; }
+
+  // navigation buttons
+  document.querySelectorAll('.btn[data-view]').forEach(b=>{
+    b.addEventListener('click', ()=>{
+      document.querySelectorAll('.btn').forEach(x=>x.classList.remove('active'));
+      b.classList.add('active');
+      const view = b.dataset.view;
+      document.querySelectorAll('.view').forEach(v=>v.style.display='none');
+      document.getElementById('view_' + view).style.display = 'block';
+    });
+  });
+
+  // Admin actions
+  $('paste_clip').addEventListener('click', async ()=>{
+    try{ const t = await navigator.clipboard.readText(); $('admin_blob').value = t; $('admin_status').textContent = 'Pasted from clipboard'; }catch(e){ $('admin_status').textContent = 'Clipboard read failed'; }
+  });
+  $('fetch_blob').addEventListener('click', async ()=>{
+    const url = $('admin_rawurl').value.trim(); if(!url) return alert('Enter raw URL'); $('admin_status').textContent='Fetching raw...';
+    try{ const txt = await fetch(url,{cache:'no-store'}).then(r=>{ if(!r.ok) throw new Error(r.status); return r.text(); }); $('admin_blob').value = txt; $('admin_status').textContent='Fetched raw'; }catch(e){ $('admin_status').textContent = 'Fetch failed: ' + e.message; }
+  });
+
+  $('load_pat').addEventListener('click', ()=>{ const t=$('admin_pat').value.trim(); if(!t) return alert('Paste PAT first'); window.PewPi.setSessionToken ? window.PewPi.setSessionToken(t) : (sessionStorage.setItem('gh.token', t), updateSessionInfo()); $('admin_status').textContent = 'PAT loaded (in-memory)'; });
+  $('clear_pat').addEventListener('click', ()=>{ sessionStorage.removeItem('gh.token'); updateSessionInfo(); $('admin_status').textContent='PAT cleared'; });
+
+  $('admin_unlock').addEventListener('click', async ()=>{
+    const pass = $('admin_pass').value;
+    let txt = $('admin_blob').value.trim();
+    $('admin_status').textContent = 'Unlocking...';
+    try{
+      if(!txt){ const saved = localStorage.getItem('pewpi_saved_ct'); if(saved){ txt = saved; $('admin_status').textContent = 'Using saved encrypted settings'; } else throw new Error('No ciphertext found. Paste it into the box or fetch from raw URL.'); }
+      const blob = JSON.parse(txt);
+      const plain = await window.PewPi.decryptBlob(blob, pass);
+      $('admin_plain').textContent = JSON.stringify(plain, null, 2);
+      window._decrypted_plain = plain;
+      $('admin_status').textContent = 'Decrypted OK';
+      if(plain && plain.secrets && plain.secrets.github_token){
+        // set token into sessionStorage and in-memory
+        sessionStorage.setItem('gh.token', plain.secrets.github_token);
+        try{ window.PewPi.setSessionToken && window.PewPi.setSessionToken(plain.secrets.github_token); }catch(e){}
+        $('admin_status').textContent += ' — token auto-loaded';
+        updateSessionInfo();
+        startPortalChat();
+      }
+    }catch(e){ $('admin_status').textContent = 'Unlock failed: ' + (e && e.message ? e.message : e); }
+  });
+
+  $('load_token_from_plain').addEventListener('click', ()=>{ try{ const txt = $('admin_plain').textContent; if(!txt || txt.includes('none')) return alert('Nothing decrypted'); const obj = JSON.parse(txt); if(!obj.secrets || !obj.secrets.github_token) return alert('No github_token present'); sessionStorage.setItem('gh.token', obj.secrets.github_token); updateSessionInfo(); $('admin_status').textContent='Token loaded from plaintext'; }catch(e){ $('admin_status').textContent = 'Load failed: ' + e.message; } });
+
+  $('save_settings').addEventListener('click', async ()=>{
+    const pass = $('log_pass').value || $('admin_pass').value; if(!pass) return alert('Enter passphrase'); const settings = { blob: $('admin_blob').value.trim(), commit_owner: $('commit_owner').value.trim(), commit_repo: $('commit_repo').value.trim() }; const ct = await window.PewPi.encryptJSON ? window.PewPi.encryptJSON(settings, pass) : (await (async function(){ return (await (async()=>{ /* fallback encryption inline */ const enc = new TextEncoder(); const salt = crypto.getRandomValues(new Uint8Array(16)); const iv = crypto.getRandomValues(new Uint8Array(12)); const key = await (async function(){ const baseKey = await crypto.subtle.importKey('raw', enc.encode(pass), 'PBKDF2', false, ['deriveKey']); return crypto.subtle.deriveKey({name:'PBKDF2', salt: salt, iterations: 250000, hash:'SHA-256'}, baseKey, {name:'AES-GCM', length:256}, false, ['encrypt']); })(); const ct = await crypto.subtle.encrypt({name:'AES-GCM', iv}, key, new TextEncoder().encode(JSON.stringify(settings))); return { v:1, salt:(function(u){let s='';for(let i=0;i<u.length;i++) s+=String.fromCharCode(u[i]);return btoa(s);})(salt), iv:(function(u){let s='';for(let i=0;i<u.length;i++) s+=String.fromCharCode(u[i]);return btoa(s);})(iv), ct:(function(u){let s='';for(let i=0;i<u.length;i++) s+=String.fromCharCode(u[i]);return btoa(s);})(new Uint8Array(ct)), created_at:new Date().toISOString() }; })())(); localStorage.setItem('pewpi_saved_ct', JSON.stringify(ct)); $('admin_status').textContent = 'Settings saved encrypted to localStorage.' ; });
+
+  $('load_settings').addEventListener('click', async ()=>{
+    const saved = localStorage.getItem('pewpi_saved_ct'); if(!saved) return alert('No saved settings'); const pass = $('log_pass').value || $('admin_pass').value; if(!pass) return alert('Enter passphrase'); try{ const obj = JSON.parse(saved); const plain = await window.PewPi.decryptBlob(obj, pass); if(plain.blob) $('admin_blob').value = plain.blob; if(plain.commit_owner) $('commit_owner').value = plain.commit_owner; if(plain.commit_repo) $('commit_repo').value = plain.commit_repo; $('admin_status').textContent = 'Settings loaded into admin fields.'; }catch(e){ $('admin_status').textContent = 'Load settings failed: ' + e.message; } });
+
+  $('clear_settings').addEventListener('click', ()=>{ localStorage.removeItem('pewpi_saved_ct'); $('admin_status').textContent='Saved settings cleared.'; });
+
+  $('re_encrypt').addEventListener('click', async ()=>{ try{ const plain = window._decrypted_plain; if(!plain) return alert('Decrypt first'); const newPass = prompt('Enter NEW passphrase (do NOT use the PAT)'); if(!newPass) return alert('Cancelled'); const newCt = await window.PewPi.encryptJSON ? window.PewPi.encryptJSON(plain, newPass) : (await window.PewPi.makeEmbeddedSnippet(plain, newPass)); $('admin_blob').value = JSON.stringify(newCt, null, 2); $('admin_status').textContent = 'Re-encrypted. Replace embedded blob in your file or commit this ciphertext.'; }catch(e){ $('admin_status').textContent = 'Re-encrypt failed: ' + e.message; } });
+
+  // Terminal commit handlers
+  $('check_file').addEventListener('click', async ()=>{ try{ const owner=$('commit_owner').value.trim(), repo=$('commit_repo').value.trim(), path=$('commit_path').value.trim(), branch=$('commit_branch').value.trim()||'main'; if(!owner||!repo||!path) return alert('owner/repo/path required'); $('terminal_out').textContent = 'Checking...'; const info = await window.PewPi.getFileInfo(owner,repo,path,branch); $('terminal_out').textContent = JSON.stringify(info,null,2); }catch(e){ $('terminal_out').textContent = 'Err: ' + e.message; } });
+  $('do_commit').addEventListener('click', async ()=>{ try{ const owner=$('commit_owner').value.trim(), repo=$('commit_repo').value.trim(), path=$('commit_path').value.trim(), branch=$('commit_branch').value.trim()||'main'; const msg=$('commit_msg').value.trim()||'Update via UI'; const content=$('commit_content').value||''; if(!owner||!repo||!path) return alert('owner/repo/path required'); if(!sessionStorage.getItem('gh.token')) return alert('Load PAT in Admin first'); $('terminal_out').textContent='Checking existing...'; let info = await window.PewPi.getFileInfo(owner,repo,path,branch).catch(e=>({exists:false})); const base64 = btoa(content); $('terminal_out').textContent='Committing...'; const res = await window.PewPi.commitFile(owner,repo,branch,path,msg,base64, info.exists ? info.sha : undefined); $('terminal_out').textContent = JSON.stringify(res,null,2); }catch(e){ $('terminal_out').textContent = 'Commit error: ' + e.message; } });
+  $('preview_b64').addEventListener('click', ()=>{ const c = $('commit_content').value || ''; $('terminal_out').textContent = btoa(c).slice(0,600) + (c.length>600?'...':'' ); });
+
+  // Logs: encrypt/copy & commit
+  const SESSION_LOG = [];
+  function appendLog(entry){ SESSION_LOG.push({ts:new Date().toISOString(), entry}); $('log_view').textContent = JSON.stringify(SESSION_LOG, null, 2); }
+  appendLog('Session started');
+
+  $('encrypt_copy').addEventListener('click', async ()=>{ const pass = $('log_pass').value; if(!pass) return alert('Enter passphrase'); const ct = await window.PewPi.encryptJSON ? window.PewPi.encryptJSON({log:SESSION_LOG, meta:{ts:new Date().toISOString()}}, pass) : (await window.PewPi.makeEmbeddedSnippet({log:SESSION_LOG, meta:{ts:new Date().toISOString()}}, pass)); const txt = typeof ct === 'string' ? ct : JSON.stringify(ct, null, 2); try{ await navigator.clipboard.writeText(txt); $('last_ct').textContent = 'Copied to clipboard'; }catch(e){ $('last_ct').textContent = txt; } });
+  $('encrypt_commit').addEventListener('click', async ()=>{ try{ if(!sessionStorage.getItem('gh.token')) return alert('Load PAT in Admin first'); const pass = $('log_pass').value; if(!pass) return alert('Enter passphrase'); const owner=$('commit_owner').value.trim(), repo=$('commit_repo').value.trim(), path=$('commit_path').value.trim()||'pewpi_bot_logs.json', branch=$('commit_branch').value.trim()||'main'; if(!owner||!repo) return alert('owner/repo required in Terminal'); $('commit_status').textContent='Encrypting...'; const ct = await window.PewPi.encryptJSON ? window.PewPi.encryptJSON({log:SESSION_LOG, meta:{ts:new Date().toISOString()}}, pass) : (await window.PewPi.makeEmbeddedSnippet({log:SESSION_LOG, meta:{ts:new Date().toISOString()}}, pass)); const base64 = btoa(JSON.stringify(ct, null, 2)); $('commit_status').textContent='Checking existing...'; let info = await window.PewPi.getFileInfo(owner,repo,path,branch).catch(e=>({exists:false})); $('commit_status').textContent='Committing...'; const res = await window.PewPi.commitFile(owner,repo,branch,path,'Add encrypted session log',base64, info.exists ? info.sha : undefined); $('commit_status').textContent='Commit OK'; appendLog('Committed encrypted log to ' + owner + '/' + repo + '@' + branch + '/' + path); $('last_ct').textContent = JSON.stringify(ct, null, 2); }catch(e){ $('commit_status').textContent = 'Commit failed: ' + e.message; } });
+
+  // Portal chat responder
+  async function fetchGithubFile(owner,repo,path,ref='main'){
+    try{ const r = await fetch(`https://raw.githubusercontent.com/${owner}/${repo}/${ref}/${path}`,{cache:'no-store'}); if(r.ok) return {ok:true, text: await r.text(), source:'raw'}; }catch(e){}
+    if(sessionStorage.getItem('gh.token')){ const r = await fetch(`https://api.github.com/repos/${owner}/${repo}/contents/${path}?ref=${ref}`,{ headers:{ Authorization:'Bearer ' + sessionStorage.getItem('gh.token'), Accept:'application/vnd.github.v3.raw' }}); if(r.ok) return {ok:true, text: await r.text(), source:'api'}; const b = await r.text().catch(()=>String(r.status)); return {ok:false, err:'GitHub API '+r.status+': '+b}; }
+    return {ok:false, err:'Not found (raw failed) and no token available.'};
+  }
+
+  async function rogersRespond(q){
+    q = (q||'').trim();
+    if(!q) return 'Empty';
+    const m = /^fetch\s+github\s+([^\s\/]+)\s+([^\s\/]+)\s+([^\s].*?)(?:\s+([^\s]+))?$/i.exec(q);
+    if(m){ const owner=m[1], repo=m[2], path=m[3], ref=m[4]||'main'; portalLog('Fetching '+owner+'/'+repo+'/'+path+'@'+ref+'...'); const r = await fetchGithubFile(owner,repo,path,ref); if(r.ok) return r.text.length>2000? r.text.slice(0,2000)+'\n\n(Truncated)': r.text; return 'Fetch error: ' + (r.err||'unknown'); }
+    if(/^hello$/i.test(q)) return 'Hello — Rogers (client) here.';
+    return 'Rogers got: ' + q;
+  }
+
+  $('portal_send').addEventListener('click', async ()=>{
+    const q = $('portal_query').value.trim(); if(!q) return; portalLog('You: '+q); $('portal_query').value=''; portalLog('Rogers: (thinking...)'); try{ const resp = await rogersRespond(q); const c = $('portal_console'); const lines = c.textContent.split('\n'); if(lines[lines.length-1].includes('(thinking...)')) lines.pop(); c.textContent = lines.join('\n') + '\n' + 'Rogers: ' + resp; c.scrollTop = c.scrollHeight; }catch(e){ portalLog('Rogers error: '+e.message); }
+  });
+
+  // Bots: lightweight
+  const BOTS = {}; let botId = 0;
+  function createBot(name,type){ const id = ++botId; const bot = { id, name: name||('bot-'+id), type, created:new Date().toISOString(), async run(payload){ appendLog(`Bot ${this.name} executing ${this.type}`); if(this.type==='echo') return payload.text || '(echo)'; if(this.type==='transform'){ const mode=payload.mode||'upper'; return mode==='lower'? (payload.text||'').toLowerCase() : (payload.text||'').toUpperCase(); } if(this.type==='fetch_github'){ const owner=payload.owner||$('commit_owner').value.trim(), repo=payload.repo||$('commit_repo').value.trim(), path=payload.path||''; if(!owner||!repo||!path) throw new Error('owner/repo/path required'); const res = await fetchGithubFile(owner,repo,path,payload.ref||$('commit_branch').value||'main'); if(res.ok) return res.text; throw new Error(res.err||'fetch failed'); } throw new Error('unknown type'); } }; BOTS[id]=bot; renderBots(); appendLog('Created bot '+bot.name); return bot; }
+  function renderBots(){ const list=$('bots_list'); list.innerHTML=''; if(Object.keys(BOTS).length===0) list.textContent='(no bots)'; for(const id in BOTS){ const b=BOTS[id]; const d=document.createElement('div'); d.className='bot'; d.innerHTML = `<div><strong>${b.name}</strong> (${b.type})</div>`; const run=document.createElement('button'); run.textContent='Run'; run.className='secondary'; run.onclick=async ()=>{ try{ const payloadText = prompt('Enter payload JSON for the bot (or empty):','{"text":"hello"}'); const payload = payloadText ? JSON.parse(payloadText) : {}; const res = await b.run(payload); alert('Result:\\n' + (typeof res === 'string' ? res : JSON.stringify(res))); appendLog('Bot '+b.name+' run'); }catch(e){ alert('Bot run error: ' + e.message); } }; const spawn=document.createElement('button'); spawn.textContent='Request child'; spawn.className='secondary'; spawn.onclick=()=>{ const childName=prompt('Child bot name:', b.name+'-child'); const childType=prompt('Child type (echo/transform/fetch_github):','echo'); if(confirm(`Approve spawn of ${childName} type ${childType}?`)){ createBot(childName, childType); appendLog(`Child ${childName} created by ${b.name}`); } else appendLog(`Spawn denied for ${b.name}`); }; const remove=document.createElement('button'); remove.textContent='Remove'; remove.className='secondary'; remove.onclick=()=>{ if(confirm('Remove '+b.name+'?')){ delete BOTS[id]; renderBots(); appendLog('Removed bot '+b.name); } }; d.appendChild(run); d.appendChild(spawn); d.appendChild(remove); list.appendChild(d); } }
+  $('create_bot').addEventListener('click', ()=>{ createBot($('bot_name').value.trim()||null,$('bot_type').value); $('bot_name').value=''; });
+
+  // session log helper
+  function appendLog(entry){ SESSION_LOG.push({ts:new Date().toISOString(), entry}); $('log_view').textContent = JSON.stringify(SESSION_LOG, null, 2); }
+  const SESSION_LOG = [];
+  appendLog('Session started');
+
+  function startPortalChat(){ $('view_portal').style.display='block'; $('portal_console').textContent = 'Rogers ready. Use Portal to chat.'; }
+  updateSessionInfo();
+
+  // expose helpful pieces for debugging
+  window.PewPiUI = { createBot, BOTS: BOTS, SESSION_LOG, appendLog };
+})();
+</script>
+</body>
+</html>

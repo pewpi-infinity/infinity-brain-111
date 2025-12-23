@@ -1,0 +1,13 @@
+# top-level ignores
+node_modules/
+.env
+
+# server env not to be committed
+server/.env
+
+# Python/IDE etc (add to your existing ignores as needed)
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+.DS_Store

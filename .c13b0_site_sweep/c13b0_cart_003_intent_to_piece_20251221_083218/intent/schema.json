@@ -1,0 +1,18 @@
+{
+  "type": "object",
+  "required": ["action", "target"],
+  "properties": {
+    "action": {
+      "type": "string",
+      "description": "What to do (add, modify, render, query)"
+    },
+    "target": {
+      "type": "string",
+      "description": "What is acted on (page, section, chat, feed)"
+    },
+    "params": {
+      "type": "object",
+      "description": "Action-specific parameters"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+<!doctype html>
+<!-- 🐶 PEWPI SIGN-IN (GLOBAL) -->
+<div id="pewpi-gate">
+  <h1>🐶 pewpi</h1>
+  <input id="pewpi_user" placeholder="Handle">
+  <button onclick="pewpiUnlock()">Enter</button>
+</div>
+<script>
+function pewpiUnlock(){
+  localStorage.setItem("pewpi_user", document.getElementById("pewpi_user").value);
+  document.getElementById("pewpi-gate").style.display="none";
+  document.body.classList.add("pewpi-live");
+}
+if(localStorage.getItem("pewpi_user")){
+  document.addEventListener("DOMContentLoaded",()=>{
+    const g=document.getElementById("pewpi-gate");
+    if(g) g.style.display="none";
+    document.body.classList.add("pewpi-live");
+  });
+}
+</script>
+<style>
+#pewpi-gate{position:fixed;inset:0;background:#0e0e0e;color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:9999}
+#pewpi-gate button{background:#ff69b4;border:0;padding:10px 18px}
+body:not(.pewpi-live)>*:not(#pewpi-gate){filter:blur(6px);pointer-events:none}
+</style>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>∞ osprey-4.0</title>
+  <style>
+    html,body{margin:0;padding:0;overflow:hidden;background:#030712;}
+    canvas{display:block;width:100vw;height:100vh;}
+    #title{
+      position:fixed;top:20px;left:20px;
+      color:#38bdf8;font-family:system-ui;
+      font-size:1.2rem;text-shadow:0 0 6px #0ff;
+    }
+  </style>
+</head>
+<body>
+  <div id="title">🪶 Osprey 4.0 Vector Space</div>
+  <canvas id="osprey-space"></canvas>
+  <script src="osprey_vector_engine.js"></script>
+  <script type="module" src="osprey_interactive.js"></script>
+</body>
+</html>
+
+
+<script src="logic/engine.js"></script>
+<script src="rules/engine.js"></script>
+<script src="deck/quantum_engine.js"></script>

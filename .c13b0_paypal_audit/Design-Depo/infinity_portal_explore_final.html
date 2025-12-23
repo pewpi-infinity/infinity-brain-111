@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+<title>Infinity Portal — Explore</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#071025"/>
+<style>
+:root{
+  --bg1: linear-gradient(135deg,#061021 0%, #0b0f1a 35%, #110a1f 100%);
+  --white:#ffffff; --muted:#93a1b0; --accent1:#60a5fa; --accent2:#7c3aed;
+  --radius:16px; --panel:#ffffff;
+  --text: #041026;
+}
+html,body{height:100%; margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial; background:var(--bg1); color:var(--white); -webkit-font-smoothing:antialiased;}
+.app{max-width:980px; margin:0 auto; padding:20px;}
+.header{display:flex; align-items:center; justify-content:space-between; gap:12px; margin-bottom:18px}
+.brand{display:flex; gap:12px; align-items:center}
+.logo{width:56px;height:56px;border-radius:14px;background:radial-gradient(circle at 30% 20%, rgba(124,58,237,.18), rgba(96,165,250,.12)); display:grid; place-items:center; font-weight:900; color:var(--white); font-size:24px; box-shadow:0 6px 30px rgba(4,16,38,.6)}
+.title{font-size:18px; font-weight:800; color:#e6f1ff}
+.subtitle{font-size:12px; color:rgba(230,241,255,.68)}
+
+.center{display:grid; place-items:center; min-height:60vh}
+.explore-card{background:linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.02)); border-radius:18px; padding:26px; width:92%; max-width:760px; border:1px solid rgba(255,255,255,.06); box-shadow:0 20px 60px rgba(2,6,20,.6); text-align:center}
+.explore-btn{display:inline-block; padding:18px 28px; border-radius:14px; font-weight:900; font-size:20px; letter-spacing:1px; color:#041026; background:linear-gradient(90deg,#60a5fa,#7c3aed); box-shadow:0 10px 40px rgba(96,165,250,.12); border:none; cursor:pointer}
+.hint{margin-top:10px; color:var(--muted)}
+
+.node-grid{display:flex; gap:12px; justify-content:center; margin-top:18px; flex-wrap:wrap}
+.node{width:100px;height:100px;border-radius:14px;background:linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.02)); display:grid; place-items:center; font-weight:800; cursor:pointer; border:1px solid rgba(255,255,255,.04)}
+
+.view{position:fixed; inset:0; display:none; place-items:center; padding:20px; z-index:60; backdrop-filter: blur(6px)}
+.view.active{display:grid; animation:zoomIn .28s ease-out both}
+@keyframes zoomIn{from{opacity:0; transform:scale(.96)} to{opacity:1; transform:scale(1)}}
+
+.panel{width:min(980px,96vw); background:var(--panel); color:var(--text); border-radius:16px; padding:18px; box-shadow:0 18px 80px rgba(2,6,20,.6)}
+.panel .top{display:flex; justify-content:space-between; align-items:center; gap:12px; margin-bottom:10px}
+.back{background:transparent; border:1px solid rgba(4,16,38,.06); padding:8px 12px; border-radius:10px; cursor:pointer}
+.panel .title{font-size:18px; font-weight:900; color:#041026}
+
+.white-space{background:#ffffff; border-radius:12px; padding:18px; min-height:300px; color:#041026}
+
+/* termux panel */
+.terminal-toggle{position:fixed; right:18px; bottom:14px; z-index:120; background:#fff; color:#041026; border-radius:12px; padding:10px 12px; font-weight:800; box-shadow:0 10px 30px rgba(2,6,20,.35); cursor:pointer}
+.terminal{position:fixed; left:18px; right:18px; bottom:-100%; z-index:110; background:#fff; border-radius:14px 14px 0 0; padding:12px; box-shadow:0 -8px 60px rgba(2,6,20,.45); transition:bottom .28s cubic-bezier(.2,.9,.3,1); max-height:58vh; overflow:auto}
+.terminal.open{bottom:0}
+.term-row{display:flex; align-items:center; gap:10px}
+.prompt{font-weight:800; font-size:16px; color:#041026; min-width:160px}
+.cmd{flex:1; background:transparent; border:1px dashed rgba(4,16,38,.06); padding:10px 12px; border-radius:8px; font-size:18px; color:#041026}
+.controls{display:flex; gap:8px; margin-left:8px}
+.small-btn{background:transparent; border:1px solid rgba(4,16,38,.06); padding:6px 8px; border-radius:8px; cursor:pointer; font-weight:700}
+
+/* avatar */
+.ai-avatar{position:fixed; right:18px; bottom:82px; z-index:130; width:68px; height:68px; border-radius:50%; display:grid; place-items:center; background:linear-gradient(180deg,#fff,#fff); box-shadow:0 12px 40px rgba(2,6,20,.45); cursor:pointer; transition:transform .18s ease}
+.ai-avatar img{width:100%; height:100%; border-radius:50%; object-fit:cover}
+
+/* small helper */
+.badge{display:inline-block; padding:4px 8px; background:rgba(0,0,0,.04); border-radius:999px; font-weight:800}
+.footer{margin-top:18px; text-align:center; color:rgba(4,16,38,.6)}
+
+@media (max-width:420px){ .panel{padding:12px} .prompt{min-width:120px} .cmd{font-size:16px} .explore-btn{font-size:18px;padding:14px 20px} }
+</style>
+</head>
+<body>
+<div class="app">
+  <div class="header">
+    <div class="brand">
+      <div class="logo">∞</div>
+      <div>
+        <div class="title">Infinity Portal</div>
+        <div class="subtitle">Explore — Pi Singer — Watson Dashboard</div>
+      </div>
+    </div>
+    <div class="right">
+      <button id="installBtn" class="small-btn" style="background:transparent;color:#fff;border:1px solid rgba(255,255,255,.08)">Install</button>
+    </div>
+  </div>
+
+  <div class="center">
+    <div class="explore-card" id="exploreCard">
+      <div style="font-size:22px;font-weight:900">EXPLORE</div>
+      <div class="hint">Tap to dive into your workspace</div>
+      <button class="explore-btn" id="exploreBtn">ENTER PORTAL</button>
+      <div class="node-grid" style="margin-top:18px">
+        <div class="node" data-node="singer">PI Singer</div>
+        <div class="node" data-node="dashboard">Watson Dashboard</div>
+        <div class="node" data-node="uploader">Uploader</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Views -->
+<section class="view" id="view-main" aria-hidden="true">
+  <div class="panel">
+    <div class="top">
+      <button class="back" id="backHome">← Home</button>
+      <div class="title" id="panelTitle">Module</div>
+      <div class="badge" id="panelBadge">prototype</div>
+    </div>
+    <div class="white-space" id="panelContent">
+      <!-- dynamic content appears here -->
+      <div style="font-size:20px;font-weight:800;color:#041026">Loading...</div>
+    </div>
+    <div class="footer">Zoom out to return to Explore</div>
+  </div>
+</section>
+
+<button class="terminal-toggle" id="termToggle">Terminal</button>
+<div class="terminal" id="terminalPanel" aria-hidden="true">
+  <div class="term-row">
+    <div class="prompt">[infinity@portal]:~$</div>
+    <input class="cmd" id="termInput" placeholder="type command (e.g. open singer)" autofocus />
+    <div class="controls">
+      <button class="small-btn" id="fontPlus">+</button>
+      <button class="small-btn" id="fontMinus">−</button>
+      <button class="small-btn" id="termRun">Run</button>
+    </div>
+  </div>
+  <div id="termOutput" style="margin-top:12px;font-size:15px;color:#041026"></div>
+</div>
+
+<!-- Avatar (placeholder graphic) -->
+<button class="ai-avatar" id="aiAvatar" title="Infinity AI">
+  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJYAAACWCAIAAAC1+j/FAAAACXBIWXMAAAsTAAALEwEAmpwYAAABUUlEQVR4nO3aQQ7CMBQE0b9/7yE4Fqk4Bzq0txFA3b4mQv7r6bZ2dmZ2dnZ2d3e6j3p6Gg4iIiIiIhI7wQ1sR4j8t3r6Q0AAAAAAAAAAAAAAABAe6O0f8m7iWgS6k3V1q1n6vV2n6rV2n6rV2n6rV2n6rV2n6rV2n6rV2n6rV2n6rV2n6rV2n6rV2n6rV2n6rV2n6rV2n6rV2n6rV2t6r1c3H/1+Qv7p9gAAAAAAAAAAAAAAwL/9GvYwZx1x2YAAAAASUVORK5CYII=" alt="AI">
+</button>
+
+<script>
+if('serviceWorker' in navigator){
+  navigator.serviceWorker.register('sw.js').catch(()=>{});
+}
+let deferredPrompt;
+const installBtn = document.getElementById('installBtn');
+installBtn.style.display = 'none';
+window.addEventListener('beforeinstallprompt', (e)=>{ e.preventDefault(); deferredPrompt = e; installBtn.style.display = 'inline-block'; });
+installBtn.onclick = async ()=>{ if(deferredPrompt){ deferredPrompt.prompt(); const ch = await deferredPrompt.userChoice; deferredPrompt = null; installBtn.style.display = 'none'; } };
+
+const exploreBtn = document.getElementById('exploreBtn');
+const viewMain = document.getElementById('view-main');
+const panelTitle = document.getElementById('panelTitle');
+const panelContent = document.getElementById('panelContent');
+const backHome = document.getElementById('backHome');
+const nodes = document.querySelectorAll('.node');
+
+function openModule(name){
+  panelTitle.textContent = name === 'singer' ? 'PI Singer' : name === 'dashboard' ? 'Watson Dashboard' : 'Uploader';
+  panelContent.innerHTML = '<div style="font-size:20px;font-weight:800;color:#041026">Preparing blank workspace for '+panelTitle.textContent+'</div>';
+  viewMain.classList.add('active');
+  const avatar = document.getElementById('aiAvatar');
+  avatar.style.transform = 'translateY(-10px) scale(1.05)';
+  setTimeout(()=>{ panelContent.innerHTML = '<div style="font-size:16px">This is the clean white workspace for <strong>'+panelTitle.textContent+'</strong>. Use the Terminal to run commands or the AI to assist.</div>'; },400);
+}
+
+exploreBtn.addEventListener('click', ()=> openModule('singer'));
+nodes.forEach(n=> n.addEventListener('click', ()=> openModule(n.getAttribute('data-node'))));
+backHome.addEventListener('click', ()=>{ viewMain.classList.remove('active'); const avatar = document.getElementById('aiAvatar'); avatar.style.transform = 'translateY(0) scale(1)'; });
+
+const termToggle = document.getElementById('termToggle');
+const termPanel = document.getElementById('terminalPanel');
+const termInput = document.getElementById('termInput');
+const termOutput = document.getElementById('termOutput');
+const fontPlus = document.getElementById('fontPlus');
+const fontMinus = document.getElementById('fontMinus');
+const termRun = document.getElementById('termRun');
+
+termToggle.onclick = ()=>{ termPanel.classList.toggle('open'); if(termPanel.classList.contains('open')) termInput.focus(); };
+fontSize = 18;
+function setFont(sz){ fontSize = Math.max(12, Math.min(28, sz)); termInput.style.fontSize = fontSize+'px'; termOutput.style.fontSize = (fontSize-2)+'px'; }
+fontPlus.onclick = ()=> setFont(fontSize+2);
+fontMinus.onclick = ()=> setFont(fontSize-2);
+
+function appendOutput(txt, color){ const p=document.createElement('div'); p.textContent=txt; if(color) p.style.color=color; termOutput.prepend(p); }
+termRun.onclick = runCmd;
+termInput.addEventListener('keydown', (e)=>{ if(e.key==='Enter') runCmd(); });
+
+function runCmd(){
+  const cmd = termInput.value.trim();
+  if(!cmd) return;
+  appendOutput('> '+cmd);
+  termInput.value='';
+  if(cmd.startsWith('open ')){
+    const what = cmd.split(' ')[1];
+    if(['singer','dashboard','uploader'].includes(what)){
+      appendOutput('Opening '+what+'...', '#0b6690');
+      flashTerminal('#cfeefd'); setTimeout(()=>{ flashTerminal('#d1ffd6'); openModule(what); },700);
+    } else {
+      appendOutput('Unknown module: '+what, 'red');
+      flashTerminal('#ffd6d6');
+    }
+  } else if(cmd==='status'){
+    appendOutput('System: all modules idle. Infinity AI standing by.', '#0b6690');
+    flashTerminal('#fff');
+  } else if(cmd==='help'){
+    appendOutput('Commands: open <singer|dashboard|uploader>, status, help', '#041026');
+  } else {
+    appendOutput('Command received: '+cmd, '#041026');
+  }
+}
+
+let flashTimer=null;
+function flashTerminal(color){
+  termPanel.style.background = color || '#fff';
+  if(flashTimer) clearTimeout(flashTimer);
+  flashTimer = setTimeout(()=>{ termPanel.style.background = '#fff'; }, 1200);
+}
+
+const aiAvatar = document.getElementById('aiAvatar');
+aiAvatar.onclick = ()=>{
+  termPanel.classList.add('open');
+  termInput.focus();
+  appendOutput('Infinity AI: How can I help?', '#7c3aed');
+  flashTerminal('#efe8ff');
+};
+</script>
+</body>
+</html>

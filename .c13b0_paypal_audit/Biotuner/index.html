@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<title>Biotuner</title>
+<style>
+body{background:#0b0f14;color:#e6edf3;font-family:monospace;padding:12px}
+.panel{border:1px solid #30363d;padding:12px;margin:12px 0}
+canvas{width:100%;max-width:360px}
+</style>
+</head>
+<body>
+
+<h1>Biotuner</h1>
+
+<div class=panel>
+<h2>Token</h2>
+<pre id=token>loading...</pre>
+</div>
+
+<div class=panel>
+<h2>Quantum Visualizer</h2>
+<canvas id=q width=240 height=160></canvas>
+</div>
+
+<div class=panel>
+<h2>Research Ledger</h2>
+<ul id=ledger></ul>
+</div>
+
+<script>
+fetch("token/latest.txt")
+  .then(r=>r.text())
+  .then(f=>fetch("token/"+f.trim()))
+  .then(r=>r.text())
+  .then(t=>token.textContent=t);
+
+fetch("ledger/index.json")
+ .then(r=>r.json())
+ .then(list=>{
+   list.reverse().forEach(e=>{
+     const li=document.createElement("li");
+     const a=document.createElement("a");
+     a.href=e.file;
+     a.textContent=e.date;
+     li.appendChild(a);
+     ledger.appendChild(li);
+   });
+ });
+</script>
+
+<script src="visualizer.js"></script>
+</body>
+</html>
+<!-- C14_TOKEN_PANEL_START -->
+<div style="font-family:monospace;background:#0b0f14;color:#e6edf3;padding:16px;margin:16px 0">
+  <div style="font-size:2.4em;color:#ffd700;text-align:center">
+    🧱🍄⭐ Token Value: 21
+  </div>
+
+  <p style="text-align:center">
+    🧱 Base &nbsp; 🍄 Growth &nbsp; ⭐ Star Power
+  </p>
+
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="get" target="_blank">
+    <input type="hidden" name="cmd" value="_xclick">
+    <input type="hidden" name="business" value="watsonkris61@gmail.com">
+    <input type="hidden" name="item_name" value="Biotuner Token">
+    <input type="hidden" name="amount" value="21">
+    <input type="hidden" name="currency_code" value="USD">
+    <button style="width:100%;padding:14px;font-size:1em">
+      Pay $21 via PayPal
+    </button>
+  </form>
+
+  <p style="font-size:0.75em;text-align:center;margin-top:10px">
+    Repository owner: pewpi-infinity<br/>
+    Contact: marvaseater@gmail.com<br/>
+    Settlement handled externally via PayPal
+  </p>
+</div>
+<!-- C14_TOKEN_PANEL_END -->

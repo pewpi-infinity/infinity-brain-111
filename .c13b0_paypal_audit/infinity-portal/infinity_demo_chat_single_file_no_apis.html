@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Infinity Demo Chat</title>
+  <style>
+    :root{
+      --bg:#0a0f1a;           /* deep blue-black */
+      --panel:#0f172a;        /* slate */
+      --accent:#3b82f6;       /* blue */
+      --accent-2:#60a5fa;     /* lighter blue */
+      --text:#e5e7eb;         /* light */
+      --muted:#94a3b8;        /* muted */
+      --good:#22c55e;         /* green */
+      --bad:#ef4444;          /* red */
+      --card:#0b1220;         /* darker */
+      --ring: rgba(59,130,246,.35);
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, "Noto Sans", Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      background: radial-gradient(1200px 600px at 70% -10%, rgba(59,130,246,.15), transparent), var(--bg);
+      color:var(--text);
+    }
+    .wrap{display:flex; flex-direction:column; height:100dvh;}
+
+    /* Header */
+    .header{
+      position:sticky; top:0; z-index:10;
+      display:flex; align-items:center; justify-content:space-between;
+      padding:14px 16px; background:linear-gradient(180deg, rgba(10,15,26,.85), rgba(10,15,26,.6));
+      backdrop-filter: blur(8px);
+      border-bottom:1px solid rgba(148,163,184,.12);
+    }
+    .brand{display:flex; align-items:center; gap:10px}
+    .logo{
+      width:34px; height:34px; border-radius:10px; background:radial-gradient(circle at 30% 30%, var(--accent-2), var(--accent));
+      box-shadow: 0 0 20px rgba(59,130,246,.45), inset 0 0 16px rgba(255,255,255,.15);
+    }
+    .title{font-weight:700; letter-spacing:.2px}
+    .health{font-size:12px; color:var(--muted)}
+
+    /* Canvas card */
+    .canvas-card{
+      margin:12px auto 6px; width:calc(100% - 16px); background:var(--card);
+      border:1px solid rgba(148,163,184,.12); border-radius:16px;
+      box-shadow: 0 6px 24px rgba(0,0,0,.35), inset 0 1px 0 rgba(255,255,255,.04);
+      overflow:hidden;
+    }
+    .canvas-head{display:flex; align-items:center; justify-content:space-between; padding:10px 12px; border-bottom:1px solid rgba(148,163,184,.12)}
+    .canvas-head span{font-size:12px; color:var(--muted)}
+    canvas{display:block; width:100%; height:72px; background:linear-gradient(180deg, rgba(59,130,246,.08), transparent)}
+
+    /* Chat area */
+    .chat{flex:1; overflow:auto; padding:12px 10px 120px}
+    .bubble{max-width:86%; padding:10px 12px; border-radius:14px; margin:8px 0; word-wrap:break-word; white-space:pre-wrap; line-height:1.25}
+    .me{background:rgba(59,130,246,.15); border:1px solid rgba(96,165,250,.35); margin-left:auto}
+    .ai{background:rgba(148,163,184,.08); border:1px solid rgba(148,163,184,.2)}
+
+    /* Input bar */
+    .dock{
+      position:fixed; bottom:0; left:0; right:0; z-index:20;
+      padding:10px; background:linear-gradient(180deg, rgba(10,15,26,.2), rgba(10,15,26,.9) 35%);
+      backdrop-filter: blur(8px); border-top:1px solid rgba(148,163,184,.12);
+    }
+    .row{display:flex; gap:8px; align-items:center}
+    .mode{appearance:none; border-radius:12px; background:var(--panel); color:var(--text); border:1px solid rgba(148,163,184,.18); padding:10px; min-width:120px}
+    .input{flex:1; border-radius:14px; background:var(--panel); color:var(--text); border:1px solid rgba(148,163,184,.18); padding:12px 14px; outline:none}
+    .input:focus{border-color:var(--accent); box-shadow:0 0 0 3px var(--ring)}
+    .btn{border:0; border-radius:14px; padding:12px 16px; background:linear-gradient(180deg, var(--accent), #2563eb); color:white; font-weight:600}
+    .btn:active{transform:translateY(1px)}
+
+    /* token pill */
+    .tokens{display:flex; align-items:center; gap:8px; padding:8px 10px; border-radius:12px; border:1px solid rgba(148,163,184,.18); background:var(--panel)}
+    .pill{display:flex; align-items:center; gap:6px; font-weight:700}
+    .feather{filter: drop-shadow(0 0 8px rgba(96,165,250,.35))}
+
+    /* tiny helpers */
+    .links{display:flex; gap:8px; margin-top:8px}
+    .ghost{background:transparent; border:1px solid rgba(148,163,184,.25); color:var(--text); border-radius:12px; padding:8px 10px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="header">
+      <div class="brand">
+        <div class="logo" aria-hidden="true"></div>
+        <div>
+          <div class="title">Infinity Demo Chat</div>
+          <div class="health" id="health">demo brain · offline · no APIs</div>
+        </div>
+      </div>
+      <div class="tokens" title="Conversation tokens (demo)">
+        <div class="pill"><span class="feather">🪶</span><span id="tok">0</span></div>
+      </div>
+    </div>
+
+    <div class="canvas-card">
+      <div class="canvas-head"><strong>Signal</strong><span id="sigLabel">idle</span></div>
+      <canvas id="scope" height="72"></canvas>
+    </div>
+
+    <div id="chat" class="chat" aria-live="polite"></div>
+
+    <div class="dock">
+      <div class="row" style="margin-bottom:8px">
+        <select id="mode" class="mode" title="Mode">
+          <option value="reply">Reply</option>
+          <option value="summarize">Summarize</option>
+          <option value="searchlink">Search Link</option>
+        </select>
+        <input id="msg" class="input" placeholder="Type and hit Send… (try: search hydrogen portal)" />
+        <button id="send" class="btn">Send</button>
+      </div>
+      <div class="links">
+        <button id="clear" class="ghost">Clear</button>
+        <button id="save" class="ghost">Save</button>
+        <button id="load" class="ghost">Load</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // ===== Lightweight demo brain (no external APIs) =====
+    const chatEl = document.getElementById('chat');
+    const msgEl  = document.getElementById('msg');
+    const modeEl = document.getElementById('mode');
+    const tokEl  = document.getElementById('tok');
+    const sendEl = document.getElementById('send');
+    const sigLabel = document.getElementById('sigLabel');
+
+    let tokens = 0;
+    let history = [];
+
+    function addBubble(role, text){
+      const div = document.createElement('div');
+      div.className = `bubble ${role==='me'?'me':'ai'}`;
+      div.textContent = text;
+      chatEl.appendChild(div);
+      chatEl.scrollTop = chatEl.scrollHeight;
+    }
+
+    function incTokens(n=1){ tokens += n; tokEl.textContent = tokens; }
+
+    function demoBrain(userText){
+      const m = modeEl.value;
+      if(/^search\s+/i.test(userText) || m==='searchlink'){
+        const q = userText.replace(/^search\s+/i,'').trim();
+        const url = 'https://www.google.com/search?q='+ encodeURIComponent(q || userText);
+        return `Opening search in a new tab → ${url}`;
+      }
+      if(m==='summarize'){
+        const s = userText.length>160 ? userText.slice(0,160)+"…" : userText;
+        return `Summary: ${s}`;
+      }
+      // tiny canned smarts for common asks
+      if(/(crash|freeze|termux|term ups)/i.test(userText)){
+        return 'Likely causes: port already in use, low memory, or a tight loop. This demo avoids all that by staying static (no server, no heavy deps).';
+      }
+      return `Got it. (demo mode) I can echo, summarize, or open a search link—no external APIs used.`;
+    }
+
+    function handleSend(){
+      const t = msgEl.value.trim();
+      if(!t) return; msgEl.value='';
+      addBubble('me', t); history.push({role:'user', content:t}); incTokens(); pulse();
+      // Simulate “thinking”
+      sigLabel.textContent = 'thinking…';
+      setTimeout(()=>{
+        let reply = demoBrain(t);
+        addBubble('ai', reply);
+        history.push({role:'ai', content:reply}); incTokens(); sigLabel.textContent='idle';
+        // Open search link in new tab if requested
+        if(/^Opening search/.test(reply)){
+          const url = reply.split('→').pop().trim();
+          try { window.open(url, '_blank'); } catch(e){}
+        }
+      }, 300);
+    }
+
+    sendEl.addEventListener('click', handleSend);
+    msgEl.addEventListener('keydown', e=>{ if(e.key==='Enter'){ handleSend(); }});
+
+    document.getElementById('clear').onclick = ()=>{ chatEl.innerHTML=''; history=[]; tokens=0; tokEl.textContent='0'; };
+    document.getElementById('save').onclick  = ()=>{ localStorage.setItem('infinity_demo_chat', JSON.stringify({history,tokens})); addBubble('ai','Saved locally.'); };
+    document.getElementById('load').onclick  = ()=>{
+      const raw = localStorage.getItem('infinity_demo_chat');
+      if(!raw) return addBubble('ai','Nothing saved yet.');
+      const obj = JSON.parse(raw); history=obj.history||[]; tokens=obj.tokens||0; tokEl.textContent=tokens;
+      chatEl.innerHTML=''; for(const m of history){ addBubble(m.role==='user'?'me':'ai', m.content); }
+    };
+
+    // ===== Minimal scope canvas (pretty but harmless) =====
+    const scope = document.getElementById('scope');
+    const ctx = scope.getContext('2d');
+    let t = 0;
+    function draw(){
+      const w = scope.width = scope.clientWidth; const h = scope.height;
+      ctx.clearRect(0,0,w,h);
+      // grid
+      ctx.globalAlpha=.12; ctx.strokeStyle='#60a5fa'; ctx.beginPath();
+      for(let x=0;x<w;x+=w/12){ ctx.moveTo(x,0); ctx.lineTo(x,h);} ctx.stroke();
+      ctx.globalAlpha=1; ctx.lineWidth=2; ctx.strokeStyle='#3b82f6';
+      const amp = 16 + (tokens%20);
+      ctx.beginPath();
+      for(let x=0;x<w;x++){
+        const y = h/2 + Math.sin((x+t)/18) * amp * Math.sin((x+t)/90);
+        x===0 ? ctx.moveTo(x,y) : ctx.lineTo(x,y);
+      }
+      ctx.stroke();
+      t += 2; requestAnimationFrame(draw);
+    }
+    draw();
+
+    function pulse(){
+      sigLabel.textContent='signal';
+      let n=0; const id = setInterval(()=>{ sigLabel.textContent = n++%2?'signal':' '; if(n>6){ clearInterval(id); sigLabel.textContent='idle';}}, 120);
+    }
+
+    // greet
+    addBubble('ai','Welcome to the Infinity Demo (no APIs, single file). Type "search hydrogen portal" to test the search-link mode.');
+  </script>
+</body>
+</html>

@@ -1,0 +1,1172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Infinity Portal • All-in-One</title>
+  <meta name="description" content="Infinity Portal - Your unified hub for AI, tools, and projects">
+  <meta name="color-scheme" content="light dark">
+  <style>
+    /* ========== Root Variables ========== */
+    :root {
+      --blue-1: #003087;
+      --blue-2: #0b5fd7;
+      --bg: #ffffff;
+      --panel-bg: #f8fafc;
+      --text-primary: #051426;
+      --text-muted: #637083;
+      --border-color: #e6e9ef;
+      --radius: 12px;
+      --shadow-sm: 0 2px 12px rgba(0, 48, 135, 0.06);
+      --shadow-md: 0 10px 30px rgba(11, 95, 215, 0.12);
+      --shadow-lg: 0 20px 60px rgba(3, 24, 62, 0.18);
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #0a0e1a;
+        --panel-bg: #141827;
+        --text-primary: #e9ecef;
+        --text-muted: #8b95a8;
+        --border-color: #1e2838;
+      }
+    }
+
+    /* ========== Base Styles ========== */
+    *, *::before, *::after {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: var(--bg);
+      color: var(--text-primary);
+      min-height: 100vh;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    /* ========== Layout ========== */
+    .app {
+      max-width: 480px;
+      margin: 0 auto;
+      padding: 0 0 60px 0;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 14px 16px;
+      background: var(--bg);
+      border-bottom: 1.5px solid var(--border-color);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .logo-text {
+      font-weight: 700;
+      color: var(--blue-1);
+      font-size: 20px;
+      letter-spacing: 1px;
+    }
+
+    .sub-text {
+      font-size: 13px;
+      color: var(--text-muted);
+      margin-top: 2px;
+    }
+
+    .nav {
+      display: flex;
+      gap: 17px;
+    }
+
+    .nav a {
+      color: var(--blue-2);
+      font-weight: 600;
+      text-decoration: none;
+      font-size: 17px;
+      padding: 7px 0;
+      border-bottom: 2.5px solid transparent;
+      transition: border-color 0.2s;
+    }
+
+    .nav a.active,
+    .nav a:hover {
+      border-bottom-color: var(--blue-2);
+    }
+
+    main {
+      padding: 20px 16px 10px;
+    }
+
+    /* ========== Cards ========== */
+    .card {
+      background: var(--panel-bg);
+      border-radius: 14px;
+      padding: 20px;
+      margin-bottom: 18px;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .card h2 {
+      margin: 0 0 8px 0;
+      color: var(--blue-1);
+      font-size: 22px;
+    }
+
+    /* ========== App Links ========== */
+    .apps {
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+    }
+
+    .app-link {
+      background: var(--bg);
+      border-radius: 10px;
+      box-shadow: var(--shadow-sm);
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .app-link:hover {
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-md);
+    }
+
+    .app-link a {
+      color: var(--blue-2);
+      font-weight: 700;
+      font-size: 17px;
+      text-decoration: none;
+    }
+
+    .app-link a:hover {
+      text-decoration: underline;
+    }
+
+    .desc {
+      font-size: 13px;
+      color: var(--text-muted);
+      margin-top: 4px;
+    }
+
+    .status-badge {
+      color: #22c55e;
+      font-weight: 700;
+      font-size: 12px;
+      margin-top: 6px;
+    }
+
+    /* ========== Panels & Modals ========== */
+    .panel {
+      display: none;
+      position: fixed;
+      left: 0;
+      top: 0;
+      width: 100vw;
+      height: 100vh;
+      z-index: 1000;
+      background: rgba(2, 6, 23, 0.4);
+    }
+
+    .panel.open {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .panel-content {
+      background: var(--bg);
+      border-radius: 14px;
+      max-width: 410px;
+      width: 90%;
+      margin: 20px;
+      padding: 20px;
+      box-shadow: var(--shadow-lg);
+      max-height: 85vh;
+      overflow-y: auto;
+      position: relative;
+    }
+
+    .panel-close {
+      position: absolute;
+      right: 18px;
+      top: 18px;
+      background: none;
+      border: 0;
+      font-size: 24px;
+      color: var(--text-muted);
+      cursor: pointer;
+      padding: 4px;
+      line-height: 1;
+    }
+
+    .panel-close:hover {
+      color: var(--text-primary);
+    }
+
+    /* ========== Sidebar ========== */
+    .sidebar-btn {
+      position: fixed;
+      left: 12px;
+      top: 70px;
+      width: 48px;
+      height: 48px;
+      border-radius: 12px;
+      background: var(--bg);
+      border: 1px solid var(--border-color);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      color: var(--blue-2);
+      z-index: 1001;
+      cursor: pointer;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .sidebar {
+      position: fixed;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: 86vw;
+      max-width: 320px;
+      background: var(--bg);
+      box-shadow: 20px 0 60px rgba(3, 24, 62, 0.2);
+      transform: translateX(-110%);
+      transition: transform 0.28s ease;
+      z-index: 9999;
+      padding: 22px 12px;
+      overflow: auto;
+    }
+
+    .sidebar.open {
+      transform: translateX(0);
+    }
+
+    .sidebar h3 {
+      margin-top: 0;
+      color: var(--blue-1);
+    }
+
+    .sidebar-link {
+      display: block;
+      padding: 12px 8px;
+      font-weight: 600;
+      color: var(--blue-1);
+      text-decoration: none;
+      border-bottom: 1px solid var(--border-color);
+      transition: background 0.2s;
+    }
+
+    .sidebar-link:hover {
+      background: var(--panel-bg);
+    }
+
+    /* ========== Rogers AI Chat ========== */
+    .rogers-dock {
+      position: fixed;
+      right: 16px;
+      bottom: 16px;
+      z-index: 999;
+    }
+
+    .rogers-btn {
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--blue-1), var(--blue-2));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      font-weight: 900;
+      font-size: 28px;
+      box-shadow: var(--shadow-md);
+      cursor: pointer;
+      border: none;
+      transition: transform 0.2s;
+    }
+
+    .rogers-btn:hover {
+      transform: scale(1.05);
+    }
+
+    .rogers-btn img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 50%;
+      display: block;
+    }
+
+    .chat-box {
+      position: fixed;
+      right: 10px;
+      bottom: 80px;
+      width: 95vw;
+      max-width: 340px;
+      border-radius: 12px;
+      background: var(--bg);
+      box-shadow: var(--shadow-lg);
+      display: none;
+      flex-direction: column;
+      z-index: 999;
+      overflow: hidden;
+      border: 1px solid var(--border-color);
+    }
+
+    .chat-box.open {
+      display: flex;
+    }
+
+    .chat-header {
+      padding: 12px 14px;
+      background: linear-gradient(90deg, var(--blue-1), var(--blue-2));
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-weight: bold;
+    }
+
+    .chat-body {
+      padding: 12px;
+      height: 280px;
+      overflow-y: auto;
+      background: var(--panel-bg);
+      font-size: 15px;
+    }
+
+    .chat-input-container {
+      display: flex;
+      padding: 10px;
+      border-top: 1px solid var(--border-color);
+      background: var(--panel-bg);
+    }
+
+    .chat-input-container input {
+      flex: 1;
+      padding: 10px;
+      border-radius: 8px;
+      border: 1px solid var(--border-color);
+      font-size: 16px;
+      background: var(--bg);
+      color: var(--text-primary);
+    }
+
+    .chat-input-container button {
+      background: var(--blue-1);
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      font-weight: 700;
+      padding: 10px 16px;
+      margin-left: 8px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .chat-input-container button:hover {
+      background: var(--blue-2);
+    }
+
+    .bubble {
+      margin: 8px 0;
+      max-width: 85%;
+      padding: 10px 14px;
+      border-radius: 13px;
+      word-break: break-word;
+      line-height: 1.4;
+    }
+
+    .bubble.me {
+      background: rgba(11, 95, 215, 0.1);
+      border: 1px solid rgba(11, 95, 215, 0.2);
+      margin-left: auto;
+    }
+
+    .bubble.ai {
+      background: var(--bg);
+      border: 1px solid var(--border-color);
+    }
+
+    /* ========== Dev Tools ========== */
+    .dev-box {
+      background: var(--panel-bg);
+      border-radius: 10px;
+      padding: 12px;
+      margin-top: 14px;
+    }
+
+    .dev-box input {
+      width: 100%;
+      padding: 10px;
+      border-radius: 8px;
+      border: 1px solid var(--border-color);
+      font-size: 14px;
+      margin-top: 8px;
+      background: var(--bg);
+      color: var(--text-primary);
+    }
+
+    .dev-box button {
+      margin-top: 8px;
+      padding: 8px 16px;
+      background: var(--blue-1);
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: 600;
+    }
+
+    .dev-box button:hover {
+      background: var(--blue-2);
+    }
+
+    /* ========== Live Video Widget ========== */
+    .live-fab {
+      position: fixed;
+      right: 16px;
+      bottom: 90px;
+      z-index: 998;
+    }
+
+    .live-fab button {
+      height: 48px;
+      min-width: 48px;
+      padding: 0 16px;
+      border-radius: 999px;
+      border: none;
+      cursor: pointer;
+      background: linear-gradient(135deg, var(--blue-1), var(--blue-2));
+      color: #fff;
+      font-weight: 800;
+      box-shadow: var(--shadow-md);
+      font-size: 14px;
+    }
+
+    .live-panel {
+      position: fixed;
+      right: 16px;
+      bottom: 150px;
+      width: min(92vw, 420px);
+      background: #0b1220;
+      color: #e9eefc;
+      border: 1px solid #0f274b;
+      border-radius: 16px;
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+      overflow: hidden;
+      display: none;
+      z-index: 998;
+    }
+
+    .live-panel.open {
+      display: block;
+    }
+
+    .live-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 12px;
+      background: #071127;
+    }
+
+    .live-header h4 {
+      margin: 0;
+      font-size: 14px;
+      letter-spacing: 0.4px;
+    }
+
+    .live-tabs {
+      display: flex;
+      gap: 8px;
+    }
+
+    .live-tabs button {
+      background: transparent;
+      color: #a9c2ff;
+      border: 1px solid #0f274b;
+      padding: 6px 10px;
+      border-radius: 10px;
+      cursor: pointer;
+      font-size: 12px;
+    }
+
+    .live-tabs button.active {
+      background: #1a2d4a;
+      color: #fff;
+      border-color: #1b4aa8;
+    }
+
+    .live-body {
+      padding: 10px 12px 14px;
+    }
+
+    .live-video-shell {
+      position: relative;
+      background: #000;
+      border-radius: 12px;
+      overflow: hidden;
+      margin-bottom: 10px;
+    }
+
+    .live-video-shell video {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .live-badge {
+      position: absolute;
+      left: 10px;
+      top: 10px;
+      background: #e11d48;
+      color: #fff;
+      font-size: 10px;
+      padding: 4px 8px;
+      border-radius: 8px;
+      letter-spacing: 0.7px;
+      font-weight: 700;
+    }
+
+    .live-controls {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-top: 10px;
+    }
+
+    .live-controls select,
+    .live-controls button {
+      background: #0b1733;
+      color: #e9eefc;
+      border: 1px solid #112a55;
+      border-radius: 10px;
+      padding: 8px 12px;
+      cursor: pointer;
+      font-size: 13px;
+    }
+
+    .live-input {
+      width: 100%;
+      padding: 10px 12px;
+      border-radius: 10px;
+      border: 1px solid #112a55;
+      background: #0b1733;
+      color: #e9eefc;
+      margin-bottom: 10px;
+    }
+
+    .live-btn {
+      background: #1a4dd9;
+      color: #fff;
+      border: none;
+      border-radius: 10px;
+      padding: 10px 12px;
+      cursor: pointer;
+      font-weight: 700;
+      width: 100%;
+    }
+
+    .live-btn:hover {
+      background: #2563eb;
+    }
+
+    .live-small {
+      font-size: 12px;
+      opacity: 0.8;
+      margin-top: 8px;
+    }
+
+    /* ========== Responsive ========== */
+    @media (max-width: 600px) {
+      .app {
+        max-width: 100vw;
+      }
+
+      .chat-box {
+        left: 4px;
+        right: 4px;
+        width: auto;
+      }
+
+      .panel-content {
+        width: 95vw;
+        max-width: 95vw;
+      }
+
+      .sidebar {
+        width: 95vw;
+        max-width: 95vw;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <!-- Header -->
+    <header>
+      <div>
+        <div class="logo-text">INFINITY</div>
+        <div class="sub-text">Your unified portal</div>
+      </div>
+      <nav class="nav">
+        <a href="#" class="active" id="nav-home">Home</a>
+        <a href="#" id="nav-dev">Dev</a>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-panel">
+      <div class="card">
+        <h2>🚀 Infinity All-in-One Portal</h2>
+        <p class="sub-text" style="margin-bottom: 16px;">
+          All your tools, AI assistants, and projects in one clean, mobile-ready page.
+        </p>
+        <div class="apps">
+          <div class="app-link">
+            <a href="infinity_portal_v3_index.html" target="_blank">Portal Dashboard</a>
+            <div class="desc">Navigate all your infinity tools and features</div>
+            <span class="status-badge">✓ Available</span>
+          </div>
+          <div class="app-link">
+            <a href="#" onclick="openRogersChat(); return false;">Rogers AI Chat</a>
+            <div class="desc">Your personal AI assistant - click the R button below!</div>
+            <span class="status-badge">✓ Active</span>
+          </div>
+          <div class="app-link">
+            <a href="pi_singer.html" target="_blank">Pi Singer</a>
+            <div class="desc">Musical digit-to-sound generator</div>
+            <span class="status-badge">✓ Available</span>
+          </div>
+          <div class="app-link">
+            <a href="infinity_demo_chat_single_file_no_apis.html" target="_blank">Demo Chat</a>
+            <div class="desc">Simple chat interface demo</div>
+            <span class="status-badge">✓ Available</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>📋 Quick Actions</h2>
+        <ul style="margin-left: 18px; line-height: 1.8;">
+          <li>Use the sidebar (☰) to access all settings and tools</li>
+          <li>Click the Rogers AI button (R) for instant chat assistance</li>
+          <li>Enable live video streaming with the "Live" button</li>
+          <li>Core features work offline - video streaming uses CDN libraries</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>ℹ️ About Infinity Portal</h2>
+        <p style="font-size: 14px; line-height: 1.6; color: var(--text-muted);">
+          This is your unified Infinity Portal - a single-page application that brings together
+          all your tools, AI features, and projects. Everything is designed to work seamlessly
+          on desktop and mobile devices.
+        </p>
+        <p style="font-size: 13px; margin-top: 12px; color: var(--text-muted);">
+          Contact: infinitystockinvesting@gmail.com
+        </p>
+      </div>
+    </main>
+  </div>
+
+  <!-- Dev Tools Panel -->
+  <div class="panel" id="dev-panel">
+    <div class="panel-content">
+      <button class="panel-close" onclick="closeDevPanel()">✕</button>
+      <h2>⚙️ Developer Tools</h2>
+      
+      <div class="dev-box">
+        <b>Session Storage</b>
+        <p class="sub-text">Items stored: <span id="session-count">0</span></p>
+        <button onclick="clearSessions()">Clear All Sessions</button>
+      </div>
+
+      <div class="dev-box">
+        <b>API Configuration</b>
+        <input
+          id="api-input"
+          type="url"
+          placeholder="Enter your API endpoint URL"
+        >
+        <button onclick="saveApiEndpoint()">Save Endpoint</button>
+        <p id="api-status" class="sub-text" style="margin-top: 8px;"></p>
+      </div>
+
+      <div class="dev-box">
+        <b>Notes</b>
+        <ul style="font-size: 13px; margin: 8px 0 0 18px; line-height: 1.6;">
+          <li>Local Watson-style AI is built-in (no IBM key needed)</li>
+          <li>All features work offline by default</li>
+          <li>Plug in custom endpoints for live AI or data services</li>
+          <li>All code is in this single file - easy to customize!</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sidebar -->
+  <button class="sidebar-btn" onclick="toggleSidebar()" aria-label="Menu">☰</button>
+  <aside class="sidebar" id="sidebar">
+    <h3>Infinity Menu</h3>
+    <a class="sidebar-link" href="#" onclick="showHome(); toggleSidebar(); return false;">Home</a>
+    <a class="sidebar-link" href="#" onclick="showDevPanel(); toggleSidebar(); return false;">Developer Tools</a>
+    <a class="sidebar-link" href="infinity_portal_v3_index.html" target="_blank">Portal Dashboard</a>
+    <a class="sidebar-link" href="pi_singer.html" target="_blank">Pi Singer</a>
+    <a class="sidebar-link" href="infinity_demo_chat_single_file_no_apis.html" target="_blank">Demo Chat</a>
+    <div style="margin-top: 24px; font-size: 13px; color: var(--text-muted); padding: 8px;">
+      <p>Infinity Portal v1.0</p>
+      <p>All-in-One Edition</p>
+    </div>
+  </aside>
+
+  <!-- Rogers AI Dock -->
+  <div class="rogers-dock">
+    <button class="rogers-btn" id="rogers-btn" title="Rogers AI" aria-label="Open Rogers AI Chat">
+      <img src="einstein-avatar.png" alt="Rogers" onerror="this.style.display='none'; var btn = this.parentElement; if(btn && btn.childNodes.length === 1) btn.textContent='R';">
+    </button>
+  </div>
+
+  <!-- Rogers Chat Box -->
+  <div class="chat-box" id="chat-box">
+    <div class="chat-header">
+      <span>🧠 Rogers AI</span>
+      <button
+        onclick="closeChat()"
+        style="background: transparent; border: none; color: #fff; font-size: 20px; cursor: pointer; padding: 4px 8px;"
+        aria-label="Close chat"
+      >✕</button>
+    </div>
+    <div class="chat-body" id="chat-body"></div>
+    <form class="chat-input-container" onsubmit="event.preventDefault(); sendChat();">
+      <input id="chat-input" autocomplete="off" placeholder="Ask Rogers anything..." aria-label="Chat message">
+      <button type="submit">Send</button>
+    </form>
+  </div>
+
+  <!-- Live Video Widget -->
+  <div class="live-fab">
+    <button id="toggle-live">● Live</button>
+  </div>
+
+  <div class="live-panel" id="live-panel">
+    <div class="live-header">
+      <h4>Rogers Live Stream</h4>
+      <div class="live-tabs">
+        <button id="tab-live" class="active">Live</button>
+        <button id="tab-signup">Sign Up</button>
+      </div>
+    </div>
+    <div class="live-body">
+      <!-- Live Tab -->
+      <div id="panel-live">
+        <div class="live-video-shell">
+          <span class="live-badge">LIVE</span>
+          <video id="live-video" playsinline webkit-playsinline x-webkit-airplay="allow" controls></video>
+        </div>
+        <div class="live-controls">
+          <select id="quality-select" title="Quality">
+            <option value="auto">Auto</option>
+          </select>
+          <button id="pip-btn" title="Picture-in-Picture">PiP</button>
+          <button id="fs-btn" title="Fullscreen">Fullscreen</button>
+          <button id="latency-btn" title="Ultra Low Latency">ULL</button>
+        </div>
+        <p class="live-small">
+          Demo stream showing HLS video. Replace the URL in settings to use your own stream.
+        </p>
+      </div>
+
+      <!-- Signup Tab -->
+      <div id="panel-signup" style="display: none;">
+        <input id="signup-email" class="live-input" type="email" placeholder="Email address">
+        <input id="signup-name" class="live-input" type="text" placeholder="Display name (optional)">
+        <button id="signup-btn" class="live-btn">Create Account</button>
+        <p class="live-small">
+          Quick local signup - no passwords needed for demo. Full authentication coming soon.
+        </p>
+        <p class="live-small">
+          Signed in as: <strong id="signed-as">Guest</strong>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- HLS.js and Dash.js for video streaming 
+       Note: These are loaded from CDN. For fully offline operation, download and host locally,
+       or remove the live streaming feature if not needed. -->
+  <script src="https://cdn.jsdelivr.net/npm/hls.js@1.5.8"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dashjs@4.7.4/dist/dash.all.min.js"></script>
+
+  <script>
+    // ========== Navigation & Panels ==========
+    const navHome = document.getElementById('nav-home');
+    const navDev = document.getElementById('nav-dev');
+    const mainPanel = document.getElementById('main-panel');
+    const devPanel = document.getElementById('dev-panel');
+    const sidebar = document.getElementById('sidebar');
+
+    function showHome() {
+      mainPanel.style.display = 'block';
+      devPanel.classList.remove('open');
+      navHome.classList.add('active');
+      navDev.classList.remove('active');
+    }
+
+    function showDevPanel() {
+      devPanel.classList.add('open');
+      navHome.classList.remove('active');
+      navDev.classList.add('active');
+      updateSessionCount();
+    }
+
+    function closeDevPanel() {
+      devPanel.classList.remove('open');
+      showHome();
+    }
+
+    navHome.onclick = (e) => { e.preventDefault(); showHome(); };
+    navDev.onclick = (e) => { e.preventDefault(); showDevPanel(); };
+
+    // Close panel when clicking outside
+    devPanel.onclick = (e) => {
+      if (e.target === devPanel) closeDevPanel();
+    };
+
+    // ========== Sidebar ==========
+    function toggleSidebar() {
+      sidebar.classList.toggle('open');
+    }
+
+    // ========== Session Management ==========
+    function updateSessionCount() {
+      const count = Object.keys(localStorage).length;
+      document.getElementById('session-count').textContent = count;
+    }
+
+    function clearSessions() {
+      if (confirm('Clear all stored sessions? This cannot be undone.')) {
+        localStorage.clear();
+        updateSessionCount();
+        alert('All sessions cleared!');
+      }
+    }
+
+    function saveApiEndpoint() {
+      const val = document.getElementById('api-input').value.trim();
+      const status = document.getElementById('api-status');
+      
+      if (!val) {
+        status.textContent = 'Please enter a URL first';
+        status.style.color = '#e11d48';
+        return;
+      }
+      
+      try {
+        new URL(val); // Validate URL
+        localStorage.setItem('INFINITY_API', val);
+        status.textContent = '✓ API endpoint saved!';
+        status.style.color = '#22c55e';
+        setTimeout(() => { status.textContent = ''; }, 3000);
+      } catch (e) {
+        status.textContent = 'Invalid URL format';
+        status.style.color = '#e11d48';
+      }
+    }
+
+    // Initialize on load
+    updateSessionCount();
+
+    // ========== Rogers AI Chat ==========
+    const rogersBtn = document.getElementById('rogers-btn');
+    const chatBox = document.getElementById('chat-box');
+    const chatBody = document.getElementById('chat-body');
+    const chatInput = document.getElementById('chat-input');
+
+    function openRogersChat() {
+      chatBox.classList.add('open');
+      setTimeout(() => chatInput.focus(), 150);
+    }
+
+    function closeChat() {
+      chatBox.classList.remove('open');
+    }
+
+    rogersBtn.onclick = openRogersChat;
+
+    function addBubble(role, text) {
+      const div = document.createElement('div');
+      div.className = 'bubble ' + (role === 'me' ? 'me' : 'ai');
+      div.textContent = text;
+      chatBody.appendChild(div);
+      chatBody.scrollTop = chatBody.scrollHeight;
+    }
+
+    function sendChat() {
+      const text = chatInput.value.trim();
+      if (!text) return;
+
+      addBubble('me', text);
+      chatInput.value = '';
+
+      // Simple demo responses
+      setTimeout(() => {
+        let reply = '';
+        const lower = text.toLowerCase();
+        
+        if (/hello|hi|hey/i.test(lower)) {
+          reply = "Hello! I'm Rogers, your Infinity assistant. How can I help you today?";
+        } else if (/help|what can you/i.test(lower)) {
+          reply = "I can help you navigate the Infinity Portal, answer questions about features, and assist with development. What would you like to know?";
+        } else if (/energy|token/i.test(lower)) {
+          reply = "Energy and token features are in active development. Check back soon for updates!";
+        } else if (/voice|audio/i.test(lower)) {
+          reply = "Voice features are planned for the next release. Stay tuned!";
+        } else if (/weather|news/i.test(lower)) {
+          reply = "Live data feeds will be available in upcoming updates. For now, explore the tools in the portal!";
+        } else if (/thank/i.test(lower)) {
+          reply = "You're welcome! Let me know if you need anything else.";
+        } else {
+          reply = "Got it! (This is a demo mode. For live AI responses, connect your API endpoint in Developer Tools.)";
+        }
+        
+        addBubble('ai', reply);
+      }, 400);
+    }
+
+    // Welcome message
+    addBubble('ai', "👋 Hi! I'm Rogers AI. Ask me anything or type 'help' to see what I can do!");
+
+    // ========== Live Video Streaming ==========
+    (function() {
+      // Configuration - Replace these URLs with your own stream URLs
+      const LIVE_CONFIG = {
+        hls: "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8", // Sample HLS stream
+        mp4: "https://storage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4", // Sample MP4
+        dash: "" // Add your DASH stream URL here
+      };
+
+      // UI Elements
+      const toggleLiveBtn = document.getElementById('toggle-live');
+      const livePanel = document.getElementById('live-panel');
+      const tabLive = document.getElementById('tab-live');
+      const tabSignup = document.getElementById('tab-signup');
+      const panelLive = document.getElementById('panel-live');
+      const panelSignup = document.getElementById('panel-signup');
+      const video = document.getElementById('live-video');
+      const qualitySelect = document.getElementById('quality-select');
+      const pipBtn = document.getElementById('pip-btn');
+      const fsBtn = document.getElementById('fs-btn');
+      const latencyBtn = document.getElementById('latency-btn');
+      const signedAs = document.getElementById('signed-as');
+      const signupBtn = document.getElementById('signup-btn');
+      const signupEmail = document.getElementById('signup-email');
+      const signupName = document.getElementById('signup-name');
+
+      // Check for existing user
+      const user = JSON.parse(localStorage.getItem('infinity_user') || 'null');
+      if (user) {
+        signedAs.textContent = user.name || user.email;
+      }
+
+      // Toggle panel
+      toggleLiveBtn.onclick = () => {
+        livePanel.classList.toggle('open');
+      };
+
+      // Tab switching
+      function activateTab(tab) {
+        if (tab === 'live') {
+          tabLive.classList.add('active');
+          tabSignup.classList.remove('active');
+          panelLive.style.display = '';
+          panelSignup.style.display = 'none';
+        } else {
+          tabSignup.classList.add('active');
+          tabLive.classList.remove('active');
+          panelSignup.style.display = '';
+          panelLive.style.display = 'none';
+        }
+      }
+
+      tabLive.onclick = () => activateTab('live');
+      tabSignup.onclick = () => activateTab('signup');
+
+      // Signup
+      signupBtn.onclick = () => {
+        const email = signupEmail.value.trim();
+        const name = signupName.value.trim();
+        
+        if (!email) {
+          alert('Please enter an email address');
+          return;
+        }
+        
+        const userObj = { email, name, timestamp: Date.now() };
+        localStorage.setItem('infinity_user', JSON.stringify(userObj));
+        signedAs.textContent = name || email;
+        alert('Account created locally! Full authentication coming soon.');
+      };
+
+      // Video streaming
+      let hls = null;
+      let dash = null;
+
+      function unloadPlayers() {
+        if (hls) {
+          try { hls.destroy(); } catch(e) {}
+          hls = null;
+        }
+        if (dash) {
+          try { dash.reset(); } catch(e) {}
+          dash = null;
+        }
+        video.removeAttribute('src');
+        video.load();
+      }
+
+      function setupHls(url) {
+        unloadPlayers();
+        
+        if (window.Hls && Hls.isSupported()) {
+          hls = new Hls({
+            enableWorker: true,
+            lowLatencyMode: true,
+            liveSyncDurationCount: 2
+          });
+          hls.loadSource(url);
+          hls.attachMedia(video);
+          hls.on(Hls.Events.MANIFEST_PARSED, function() {
+            buildQualityMenu(hls.levels);
+          });
+        } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+          video.src = url;
+          buildQualityMenu([]);
+        } else if (LIVE_CONFIG.mp4) {
+          setupMp4(LIVE_CONFIG.mp4);
+        }
+      }
+
+      function setupDash(url) {
+        unloadPlayers();
+        if (window.dashjs) {
+          dash = dashjs.MediaPlayer().create();
+          dash.updateSettings({ streaming: { lowLatencyEnabled: true } });
+          dash.initialize(video, url, true);
+          buildQualityMenu([]);
+        }
+      }
+
+      function setupMp4(url) {
+        unloadPlayers();
+        video.src = url;
+        buildQualityMenu([]);
+      }
+
+      function buildQualityMenu(levels) {
+        qualitySelect.innerHTML = '';
+        
+        if (!levels || !levels.length || !hls) {
+          const opt = document.createElement('option');
+          opt.value = 'auto';
+          opt.textContent = 'Auto';
+          qualitySelect.appendChild(opt);
+          qualitySelect.disabled = true;
+          return;
+        }
+        
+        qualitySelect.disabled = false;
+        const auto = document.createElement('option');
+        auto.value = 'auto';
+        auto.textContent = 'Auto';
+        qualitySelect.appendChild(auto);
+        
+        levels.forEach((lvl, i) => {
+          const opt = document.createElement('option');
+          const res = lvl.height ? (lvl.height + 'p') : (Math.round((lvl.bitrate || 0) / 1000) + 'kbps');
+          opt.value = i;
+          opt.textContent = res;
+          qualitySelect.appendChild(opt);
+        });
+        
+        qualitySelect.onchange = () => {
+          if (!hls) return;
+          if (qualitySelect.value === 'auto') {
+            hls.currentLevel = -1;
+          } else {
+            hls.currentLevel = parseInt(qualitySelect.value, 10);
+          }
+        };
+      }
+
+      // Video controls
+      pipBtn.onclick = async () => {
+        try {
+          if (document.pictureInPictureElement) {
+            await document.exitPictureInPicture();
+          } else if (video.requestPictureInPicture) {
+            await video.requestPictureInPicture();
+          }
+        } catch(e) {
+          console.warn('PiP not supported:', e);
+        }
+      };
+
+      fsBtn.onclick = async () => {
+        try {
+          if (!document.fullscreenElement) {
+            await video.parentElement.requestFullscreen();
+          } else {
+            await document.exitFullscreen();
+          }
+        } catch(e) {
+          console.warn('Fullscreen not supported:', e);
+        }
+      };
+
+      latencyBtn.onclick = () => {
+        try {
+          if (video.buffered && video.buffered.length > 0) {
+            video.currentTime = video.buffered.end(0) - 0.25;
+          }
+        } catch(e) {
+          console.warn('Latency adjustment failed:', e);
+        }
+      };
+
+      // Initialize stream
+      if (LIVE_CONFIG.hls) {
+        setupHls(LIVE_CONFIG.hls);
+      } else if (LIVE_CONFIG.dash) {
+        setupDash(LIVE_CONFIG.dash);
+      } else if (LIVE_CONFIG.mp4) {
+        setupMp4(LIVE_CONFIG.mp4);
+      }
+
+      // Media session metadata
+      if ('mediaSession' in navigator) {
+        navigator.mediaSession.metadata = new MediaMetadata({
+          title: 'Rogers Live',
+          artist: 'Infinity Portal',
+          album: 'Live Stream',
+          artwork: []
+        });
+      }
+    })();
+  </script>
+</body>
+</html>

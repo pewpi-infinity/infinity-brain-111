@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<title>c13b0-genesis</title>
+<style>
+body{background:#0b0f14;color:#e6edf3;font-family:monospace;padding:12px}
+.panel{border:1px solid #30363d;padding:12px;margin:12px 0}
+button{padding:8px 12px;font-family:monospace}
+canvas{width:100%;max-width:360px}
+</style>
+</head>
+<body>
+
+<h1>c13b0-genesis</h1>
+
+<div class=panel>
+<h2>Token</h2>
+<pre id=token>loading...</pre>
+</div>
+
+<div class=panel>
+<h2>Quantum Visualizer</h2>
+<canvas id=q width=240 height=160></canvas>
+</div>
+
+<div class=panel>
+<h2>Token Slot Machine</h2>
+<button onclick="spin()">SPIN</button>
+<pre id=slot>---</pre>
+</div>
+
+<div class=panel>
+<h2>Research Ledger</h2>
+<ul id=ledger></ul>
+</div>
+
+<script>
+fetch("token/latest.txt")
+  .then(r=>r.text())
+  .then(f=>fetch("token/"+f.trim()))
+  .then(r=>r.text())
+  .then(t=>token.textContent=t);
+
+fetch("ledger/index.json")
+ .then(r=>r.json())
+ .then(list=>{
+   list.forEach(e=>{
+     const li=document.createElement("li");
+     const a=document.createElement("a");
+     a.href=e.file;
+     a.textContent=e.date;
+     li.appendChild(a);
+     ledger.appendChild(li);
+   });
+ });
+</script>
+
+<script src="visualizer.js"></script>
+</body>
+</html>

@@ -1,0 +1,167 @@
+name: Consolidate & Push (manual)
+
+# Manual trigger: run from Actions -> Consolidate & Push -> Run workflow
+on:
+  workflow_dispatch: {}
+
+# Allow the workflow to push or create PRs
+permissions:
+  contents: write         # allow commits/pushes when permitted
+  pull-requests: write    # allow creating PRs
+  actions: read
+
+jobs:
+  consolidate-and-push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository (use GITHUB_TOKEN by default)
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Consolidate duplicates & prepare commit
+        id: consolidate
+        run: |
+          set -euo pipefail
+          echo "Running quick consolidation..."
+          # Non-destructive consolidation: exact duplicates moved to .github/backup/duplicates
+          mkdir -p .github/backup/duplicates
+          python3 - <<'PY'
+import hashlib, os, shutil
+seen={}
+root='.'
+for dirpath, dirnames, files in os.walk(root):
+    # skip git and backup dir
+    if dirpath.startswith('./.git') or dirpath.startswith('./.github/backup'):
+        continue
+    for f in files:
+        p=os.path.join(dirpath,f)
+        try:
+            with open(p,'rb') as fh:
+                h=hashlib.sha1(fh.read()).hexdigest()
+        except Exception:
+            continue
+        if h in seen:
+            os.makedirs('.github/backup/duplicates', exist_ok=True)
+            dst=os.path.join('.github/backup/duplicates', os.path.basename(p))
+            # if destination exists, append an index
+            base=dst; idx=1
+            while os.path.exists(dst):
+                dst=f"{base}.{idx}"; idx+=1
+            shutil.move(p, dst)
+        else:
+            seen[h]=p
+print("Duplicate consolidation complete")
+PY
+          # Heuristic: copy largest login-like candidate into templates/login_candidate.html (non-destructive)
+          mkdir -p templates
+          best=""
+          bestsize=0
+          while IFS= read -r -d '' file; do
+            # skip files inside .github/backup and .git
+            if [[ "$file" == ./.github/backup/* ]] || [[ "$file" == ./.git/* ]]; then
+              continue
+            fi
+            fsize=$(stat -c%s "$file" 2>/dev/null || stat -f%z "$file" 2>/dev/null || echo 0)
+            if (( fsize > bestsize )); then
+              best="$file"; bestsize=$fsize
+            fi
+          done < <(find . -type f \( -iname "*login*.html" -o -iname "*signin*.html" -o -iname "*auth*.html" \) -print0 || true)
+          if [[ -n "$best" ]]; then
+            cp -f "$best" templates/login_candidate.html || true
+            echo "Selected login candidate: $best" >&2
+          else
+            echo "No login-like candidate found"
+          fi
+
+      - name: Commit changes if any
+        id: commit
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "actions@github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "no_changes=true" >> $GITHUB_OUTPUT
+            echo "No changes to commit"
+          else
+            git commit -m "Consolidate duplicates and add login candidate (Action run)"
+            echo "no_changes=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Attempt push or create PR fallback
+        env:
+          REPO: ${{ github.repository }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          GITHUB_ACTOR: ${{ github.actor }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          # If there were no changes, exit early
+          if [ "${{ steps.commit.outputs.no_changes }}" = "true" ]; then
+            echo "No changes to push; exiting."
+            exit 0
+          fi
+
+          TIMESTAMP=$(date -u +%Y%m%d%H%M%S)
+          BRANCH_MAIN="main"
+          # If a personal-token secret is provided, prefer it for pushing directly.
+          if [ -n "${{ secrets.REPO_PUSH_TOKEN }}" ]; then
+            echo "Using REPO_PUSH_TOKEN secret to push directly to main"
+            REMOTE_URL="https://x-access-token:${{ secrets.REPO_PUSH_TOKEN }}@github.com/${REPO}.git"
+            git remote set-url origin "$REMOTE_URL"
+            git push origin HEAD:${BRANCH_MAIN} || {
+              echo "Direct push with PAT failed; will fallback to PR creation"
+              PUSH_FAILED=1
+            }
+          else
+            echo "No PAT secret provided. Attempting to push using GITHUB_TOKEN (persisted credentials or SSH)."
+            set +e
+            git push origin HEAD:${BRANCH_MAIN}
+            RC=$?
+            set -e
+            if [ $RC -ne 0 ]; then
+              echo "Push to ${BRANCH_MAIN} failed with exit code $RC; will create a PR branch and open PR as fallback"
+              PUSH_FAILED=1
+            else
+              echo "Pushed to ${BRANCH_MAIN} successfully"
+              PUSH_FAILED=0
+            fi
+          fi
+
+          # If push failed, create a branch and open a PR against main
+          if [ "${PUSH_FAILED:-0}" = "1" ]; then
+            PR_BRANCH="consolidate/${TIMESTAMP}"
+            git checkout -b "$PR_BRANCH"
+            # ensure branch pushed (use PAT if provided else rely on persisted credentials)
+            if [ -n "${{ secrets.REPO_PUSH_TOKEN }}" ]; then
+              REMOTE_URL="https://x-access-token:${{ secrets.REPO_PUSH_TOKEN }}@github.com/${REPO}.git"
+              git remote set-url origin "$REMOTE_URL"
+            fi
+            git push -u origin "$PR_BRANCH"
+            # Create PR using REST API and GITHUB_TOKEN
+            PR_TITLE="Consolidate duplicates and bootstrap (Action run ${TIMESTAMP})"
+            PR_BODY="Automated consolidation: moved duplicates to .github/backup, added templates/login_candidate.html if found. Please review and merge."
+            echo "Creating pull request ${PR_BRANCH} -> ${BRANCH_MAIN}"
+            API_JSON=$(jq -n --arg t "$PR_TITLE" --arg b "$PR_BODY" --arg head "$PR_BRANCH" --arg base "$BRANCH_MAIN" '{title:$t, body:$b, head:$head, base:$base}')
+            RESP=$(curl -s -X POST -H "Authorization: token ${GITHUB_TOKEN}" -H "Accept: application/vnd.github+json" "https://api.github.com/repos/${REPO}/pulls" -d "$API_JSON")
+            PR_URL=$(echo "$RESP" | jq -r .html_url // empty)
+            if [ -n "$PR_URL" ] && [ "$PR_URL" != "null" ]; then
+              echo "Pull request created: $PR_URL"
+            else
+              echo "Failed to create PR. Response:"
+              echo "$RESP"
+              exit 1
+            fi
+          fi
+
+      - name: Success notice
+        if: always()
+        run: |
+          echo "Workflow complete. If a PR was created, review it in the GitHub UI."
+          

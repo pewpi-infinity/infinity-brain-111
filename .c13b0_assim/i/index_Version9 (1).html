@@ -1,0 +1,467 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Octave OS — Octave Logger & Pewpi Secret Encoder (POS colors & reliable logging)</title>
+  <style>
+    :root{
+      --page-bg: #e9f1f5;
+      --terminal-bg: #0b3b4a;
+      --terminal-text-blue: #7be6ff; /* original cool cyan used in terminal help */
+      --card-bg: #ffffff;
+      --panel-bg: #f8fbfc;
+      --panel-border: #e6eef0;
+      --accent-dark: #08303b;
+      --muted: #667a80;
+
+      /* POS color mapping (you asked for blue/green/yellow/orange/red primarily) */
+      --color-noun: #f2d024;    /* yellow for nouns */
+      --color-verb: #2fb86a;    /* green for verbs */
+      --color-adj:  #4fb8e0;    /* blue for adjectives */
+      --color-adv:  #ff9a3c;    /* orange for adverbs */
+      --color-other:#e14b4b;    /* red for other / punctuation / fallback */
+      --color-num:  #c66eff;    /* purple-ish for numbers/proper nouns */
+    }
+
+    body{font-family: system-ui, -apple-system, Roboto, "Helvetica Neue", Arial; background:var(--page-bg); color:var(--accent-dark); padding:18px;}
+    .terminal{background:var(--terminal-bg); color:var(--terminal-text-blue); padding:16px; border-radius:10px; max-width:920px; margin:0 auto 16px; font-family: monospace;}
+    .card{background:var(--card-bg); max-width:920px; margin:0 auto; padding:16px; border-radius:10px; box-shadow:0 6px 18px rgba(8,48,59,0.06);}
+    h1{margin:0 0 8px 0; font-size:20px; color:var(--accent-dark)}
+    label{color:var(--accent-dark); font-weight:600; display:block; margin-bottom:6px;}
+    textarea,input[type="text"]{width:100%; font-size:14px; padding:10px; box-sizing:border-box; border:1px solid #d6e2e6; border-radius:6px;}
+    textarea{min-height:120px; resize:vertical;}
+    .controls{margin-top:12px; display:flex; gap:8px; align-items:center; flex-wrap:wrap;}
+    button{padding:8px 12px; border-radius:6px; border:1px solid #bfcfd3; background:#f6f8f9; cursor:pointer;}
+    .row{display:flex; gap:8px; align-items:center;}
+    .col{flex:1;}
+    .boxed{border:1px dashed #d6e2e6; padding:12px; border-radius:6px; background:#fbfdfe; margin-top:12px;}
+    .label-small{font-size:13px; color:var(--muted); margin-top:10px;}
+    #status{display:block; margin-top:12px; min-height:20px; color:#b00020; font-weight:600;}
+    .outputs{display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:14px;}
+    @media (max-width:760px){.outputs{grid-template-columns:1fr}}
+    .panel{background:var(--panel-bg); border-radius:6px; padding:10px; min-height:140px; border:1px solid var(--panel-border); white-space:pre-wrap; overflow:auto; color:var(--accent-dark);}
+    .token{padding:0 0.08rem; border-radius:2px;}
+    .pos-noun{color:var(--color-noun); font-weight:700;}
+    .pos-verb{color:var(--color-verb); font-weight:700;}
+    .pos-adj{color:var(--color-adj);}
+    .pos-adv{color:var(--color-adv);}
+    .pos-num{color:var(--color-num); font-weight:700;}
+    .pos-other{color:var(--color-other);}
+  </style>
+</head>
+<body>
+  <div class="terminal">
+    Octave OS — Octave Logger & Pewpi Secret Encoder
+    <div style="margin-top:8px; color:var(--terminal-text-blue);">Type a message, toggle mode, press Enter (or click Submit). All saved logs are encrypted by default; a small digest is kept for AI ingestion.</div>
+  </div>
+
+  <div class="card">
+    <h1>Input</h1>
+    <label for="input-box">Type message / conversation</label>
+    <textarea id="input-box" placeholder="Write message, AI prompt, or secret..."></textarea>
+
+    <div class="controls">
+      <label style="display:flex;align-items:center;gap:8px"><input id="mode-toggle" type="checkbox"> Conversation mode</label>
+      <label style="display:flex;align-items:center;gap:8px"><input id="auto-encode" type="checkbox"> Auto-encode AI output</label>
+      <button id="submit-btn">Submit</button>
+      <button id="clear-input">Clear</button>
+      <label style="margin-left:8px;"><input id="pos-toggle" type="checkbox" checked> POS color</label>
+      <span class="label-small" style="margin-left:auto">Press Enter (no Shift) to submit, Shift+Enter for newline</span>
+    </div>
+
+    <div class="label-small">Notes: logs are encrypted locally with a passphrase you provide when encrypting. A small human-readable context (digest) is stored unencrypted for Octave ingestion only.</div>
+
+    <div class="outputs">
+      <div>
+        <h2 style="margin:8px 0 6px 0; color:var(--terminal-text-blue)">AI Conversation Output</h2>
+        <div id="ai-output" class="panel" aria-live="polite"></div>
+      </div>
+
+      <div>
+        <h2 style="margin:8px 0 6px 0; color:var(--terminal-text-blue)">Encoded / Stored Log Output</h2>
+        <div id="encoded-output" class="panel" readonly></div>
+      </div>
+    </div>
+
+    <div class="boxed">
+      <h2 style="margin:4px 0">Terminal — passphrase & retrieve</h2>
+      <div class="row" style="margin-bottom:8px;">
+        <div class="col">
+          <label for="passphrase">Passphrase (enter or generate)</label>
+          <input id="passphrase" type="text" placeholder="Enter or generate passphrase here (keep it private)">
+        </div>
+        <div style="width:140px">
+          <label>&nbsp;</label>
+          <button id="gen-pass">Generate</button>
+        </div>
+      </div>
+
+      <div class="row" style="margin-top:8px;">
+        <div class="col"><button id="decrypt-btn">Retrieve last encoded (decrypt)</button></div>
+        <div style="width:180px"><button id="copy-encoded">Copy encoded panel</button></div>
+      </div>
+
+      <div class="label-small" style="margin-top:8px;">Share the encoded blob + passphrase to the recipient. Admin can decrypt using passphrase here.</div>
+    </div>
+  </div>
+
+<script>
+/* =============================================================================
+   Octave index.html - Improved:
+   - POS coloring: nouns=yellow, verbs=green, adj=blue, adv=orange, others=red, nums/pN=purple
+   - Enter handling: Enter (no Shift) submits; Shift+Enter inserts newline
+   - Local storage: every saved "sensitive" entry is encrypted and stored (encoded),
+     while a short distilled digest is kept as 'ai' record (plain text) for ingestion.
+   - Reliable logging: append to localStorage, render to panels, queue for server push.
+   - Simple POS tagger with phrase grouping (contiguous nouns -> noun-phrase)
+   ============================================================================= */
+
+const STORAGE_KEY = 'octave_logs_v2';
+
+function nowIso(){ return new Date().toISOString(); }
+function loadLogs(){ try{ return JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]'); }catch(e){return [];}}
+function saveLogs(logs){ localStorage.setItem(STORAGE_KEY, JSON.stringify(logs)); }
+
+/* --------------------------
+   Crypto: PBKDF2 -> AES-GCM
+   (browser WebCrypto)
+   -------------------------- */
+function uint8FromBase64(b64){
+  const bin = atob(b64); const arr = new Uint8Array(bin.length); for(let i=0;i<bin.length;i++) arr[i]=bin.charCodeAt(i);
+  return arr;
+}
+function base64FromUint8(u8){ let s=''; for(let i=0;i<u8.length;i++) s+=String.fromCharCode(u8[i]); return btoa(s); }
+
+async function deriveKey(passphrase, salt, iterations){
+  const enc = new TextEncoder();
+  const baseKey = await crypto.subtle.importKey('raw', enc.encode(passphrase), {name:'PBKDF2'}, false, ['deriveKey']);
+  return crypto.subtle.deriveKey({name:'PBKDF2', salt, iterations, hash:'SHA-256'}, baseKey, {name:'AES-GCM', length:256}, true, ['encrypt','decrypt']);
+}
+
+async function encryptText(plaintext, passphrase, iterations=200000){
+  const enc = new TextEncoder();
+  const salt = crypto.getRandomValues(new Uint8Array(16));
+  const iv = crypto.getRandomValues(new Uint8Array(12));
+  const key = await deriveKey(passphrase, salt, iterations);
+  const ct = await crypto.subtle.encrypt({name:'AES-GCM', iv}, key, enc.encode(plaintext));
+  const ctarr = new Uint8Array(ct);
+  const combined = new Uint8Array(salt.length + iv.length + ctarr.length);
+  combined.set(salt,0); combined.set(iv, salt.length); combined.set(ctarr, salt.length+iv.length);
+  return base64FromUint8(combined);
+}
+
+async function decryptText(b64, passphrase, iterations=200000){
+  const combined = uint8FromBase64(b64);
+  if (combined.length < 16+12+16) throw new Error('Encoded data too short or invalid');
+  const salt = combined.slice(0,16);
+  const iv = combined.slice(16,28);
+  const ct = combined.slice(28);
+  const key = await deriveKey(passphrase, salt, iterations);
+  const plain = await crypto.subtle.decrypt({name:'AES-GCM', iv}, key, ct);
+  return new TextDecoder().decode(plain);
+}
+
+/* --------------------------
+   POS tagging & coloring
+   - lightweight heuristics + lists
+   - groups contiguous nouns into noun-phrases to color as a unit
+   -------------------------- */
+const VERBS = new Set(['be','is','are','was','were','am','have','has','had','do','does','did','say','says','said','get','got','make','made','go','went','know','knew','take','took','see','saw','come','came','think','thought','look','looked','want','wanted','give','gave','use','used','find','found','tell','told','ask','asked','work','worked','seem','seemed','feel','felt','try','tried','leave','left','call','called','append','append','write','wrote','encrypt','decrypt']);
+const NOUNS = new Set(['time','person','year','way','day','thing','man','world','life','hand','part','child','eye','woman','place','work','week','case','point','government','company','number','group','problem','fact','message','context','conversation','ai','octave','log','entry','secret','passphrase']);
+const ADJS = new Set(['good','new','first','last','long','great','little','own','other','old','right','big','high','different','small','large','next','early','young','important','few','public','bad','same','able','encrypted','encoded']);
+const PRONOUNS = new Set(['i','you','he','she','it','we','they','me','him','her','us','them','this','that','these','those']);
+const NUM_RE = /^\d+([.,]\d+)?$/;
+
+function escapeHtml(s){ return s.replace(/[&<>"']/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[ch])); }
+
+function tokenizeWithSpaces(text){
+  // capture words, punctuation, whitespace
+  const re = /(\s+|[A-Za-zÀ-ÖØ-öø-ÿ0-9]+|[^\sA-Za-z0-9]+)/g;
+  return text.match(re) || [];
+}
+
+function guessPosForToken(tok){
+  const t = tok.trim();
+  if (!t) return 'space';
+  if (NUM_RE.test(t)) return 'num';
+  if (/^[^\w]+$/.test(t)) return 'other';
+  const lower = t.toLowerCase();
+  if (PRONOUNS.has(lower)) return 'noun';
+  if (VERBS.has(lower)) return 'verb';
+  if (NOUNS.has(lower)) return 'noun';
+  if (ADJS.has(lower)) return 'adj';
+  if (lower.endsWith('ing')||lower.endsWith('ed')||lower.endsWith('ize')||lower.endsWith('ise')) return 'verb';
+  if (lower.endsWith('ly')) return 'adv';
+  if (lower.endsWith('ion')||lower.endsWith('ment')||lower.endsWith('ness')||lower.endsWith('ity')) return 'noun';
+  if (lower.length<=3) return 'other';
+  if (/^[A-Z][a-z]/.test(t)) return 'prop';
+  return 'noun';
+}
+
+function posColorizeText(text){
+  const tokens = tokenizeWithSpaces(text);
+  // build pos array
+  const posArr = tokens.map(tok => ({tok, pos: guessPosForToken(tok)}));
+  // group contiguous noun-like tokens into noun-phrases
+  const parts = [];
+  let i=0;
+  while(i<posArr.length){
+    if (posArr[i].pos==='noun' || posArr[i].pos==='prop' || posArr[i].pos==='num'){
+      // collect contiguous nouns/props/nums (allow connecting punctuation inside)
+      let j=i;
+      let buf = '';
+      while(j<posArr.length && (posArr[j].pos==='noun' || posArr[j].pos==='prop' || posArr[j].pos==='num' || /^\s+$/.test(posArr[j].tok) || /^[,.:;]$/.test(posArr[j].tok))){
+        buf += posArr[j].tok;
+        j++;
+      }
+      parts.push({text:buf, pos: posArr[i].pos==='prop' ? 'prop' : (posArr[i].pos==='num' ? 'num' : 'noun')});
+      i=j;
+    } else {
+      parts.push({text:posArr[i].tok, pos:posArr[i].pos});
+      i++;
+    }
+  }
+  // convert to HTML
+  return parts.map(p => {
+    if (/^\s+$/.test(p.text)) return escapeHtml(p.text);
+    switch(p.pos){
+      case 'noun': return `<span class="token pos-noun">${escapeHtml(p.text)}</span>`;
+      case 'verb': return `<span class="token pos-verb">${escapeHtml(p.text)}</span>`;
+      case 'adj':  return `<span class="token pos-adj">${escapeHtml(p.text)}</span>`;
+      case 'adv':  return `<span class="token pos-adv">${escapeHtml(p.text)}</span>`;
+      case 'num':  return `<span class="token pos-num">${escapeHtml(p.text)}</span>`;
+      case 'prop': return `<span class="token pos-num">${escapeHtml(p.text)}</span>`;
+      default:     return `<span class="token pos-other">${escapeHtml(p.text)}</span>`;
+    }
+  }).join('');
+}
+
+/* --------------------------
+   Logging: store encrypted entries + digest for AI
+   Each saved entry:
+     { id, type:'encoded'|'ai'|'system', text: <encoded or plaintext>, summary: <short text for ai ingestion>, timestamp }
+   Only summary & ai entries are stored plaintext; sensitive full text is stored encoded.
+   -------------------------- */
+
+function appendLogObject(obj){
+  const logs = loadLogs();
+  logs.push(obj);
+  saveLogs(logs);
+  renderLogs();
+  // queue for optional push if you use server
+  pushQueue.push(obj);
+}
+
+async function saveEncryptedEntry(plainText, passphrase){
+  const encoded = await encryptText(plainText, passphrase, 200000);
+  const summary = createDigest(plainText);
+  const entry = { id: Date.now()+'-'+Math.random().toString(36).slice(2,8), type:'encoded', text: encoded, summary, timestamp: nowIso() };
+  appendLogObject(entry);
+  // also keep an ai entry (digest) for ingestion
+  appendLogObject({ id: Date.now()+'-'+Math.random().toString(36).slice(2,8), type:'ai', text: summary, timestamp: nowIso() });
+  return entry;
+}
+
+function createDigest(text){
+  // simple summarizer: first 40 words minus filler
+  const words = text.split(/\s+/).filter(Boolean);
+  return words.slice(0,40).join(' ') + (words.length>40?' …':'');
+}
+
+/* --------------------------
+   Rendering & UI wiring
+   -------------------------- */
+
+function renderLogs(){
+  const logs = loadLogs();
+  const aiPanel = document.getElementById('ai-output');
+  const encPanel = document.getElementById('encoded-output');
+  aiPanel.textContent = '';
+  encPanel.textContent = '';
+  for(const e of logs){
+    const line = `[${e.timestamp}] (${e.type}) ${e.type==='encoded' ? (e.summary ? e.summary : '(encoded)') : e.text}\n\n`;
+    if (e.type==='ai' || e.type==='system' || e.type==='user') aiPanel.textContent += line;
+    encPanel.textContent += line;
+  }
+  // apply POS coloring if enabled
+  const posEnabled = document.getElementById('pos-toggle').checked;
+  if(posEnabled){
+    applyPosColoring(document.getElementById('ai-output'));
+    applyPosColoring(document.getElementById('encoded-output'));
+  }
+  document.getElementById('status').textContent = `Saved ${logs.length} entries.`;
+}
+
+// apply coloring to a panel element, using posColorizeText on its plain text
+function applyPosColoring(el){
+  try{
+    const text = el.textContent || '';
+    el.innerHTML = posColorizeText(text);
+  }catch(e){
+    // fallback: leave plain text
+    el.innerText = el.textContent;
+  }
+}
+
+/* --------------------------
+   Push queue and server push helper (optional)
+   -------------------------- */
+let pushQueue = [];
+async function pushToServer(entries, secret){
+  const results = [];
+  for(const e of entries){
+    try{
+      const resp = await fetch('/commit', {
+        method:'POST',
+        headers: {'Content-Type':'application/json', ...(secret?{'X-Commit-Secret':secret}:{})},
+        body: JSON.stringify({ text: `[${e.timestamp}] (${e.type}) ${e.type==='encoded'?e.summary:e.text}` })
+      });
+      const body = await resp.json().catch(()=>({}));
+      if(!resp.ok) throw new Error(body && body.error ? body.error : 'server error');
+      results.push({ id:e.id, ok:true, commit: body.commit });
+    }catch(err){
+      results.push({ id:e.id, ok:false, error: err.message });
+    }
+  }
+  // remove successful ones from pushQueue
+  for(const r of results.filter(r=>r.ok)) pushQueue = pushQueue.filter(q => q.id !== r.id);
+  return results;
+}
+
+/* --------------------------
+   Keyboard: Enter submits (no Shift), Shift+Enter newline
+   Bug fix: ensure Enter actually triggers same submit flow as button
+   -------------------------- */
+document.addEventListener('DOMContentLoaded', () => {
+  // wire up UI
+  const inputBox = document.getElementById('input-box');
+  const submitBtn = document.getElementById('submit-btn');
+  const clearBtn = document.getElementById('clear-input');
+  const modeToggle = document.getElementById('mode-toggle');
+  const autoEncode = document.getElementById('auto-encode');
+  const genPass = document.getElementById('gen-pass');
+  const passEl = document.getElementById('passphrase');
+  const decryptBtn = document.getElementById('decrypt-btn');
+  const copyEncoded = document.getElementById('copy-encoded');
+  const posToggle = document.getElementById('pos-toggle');
+
+  // render existing logs
+  renderLogs();
+
+  // Enter handling
+  inputBox.addEventListener('keydown', (ev) => {
+    if (ev.key === 'Enter' && !ev.shiftKey){
+      ev.preventDefault();
+      submitBtn.click();
+    }
+  });
+
+  // Submit action (unified)
+  submitBtn.addEventListener('click', async () => {
+    const text = (inputBox.value || '').trim();
+    if (!text){
+      document.getElementById('status').textContent = 'Type something to submit';
+      return;
+    }
+    try{
+      if(modeToggle.checked){
+        // conversation mode -> get AI response (server /ai or simulate)
+        document.getElementById('status').textContent = 'Getting AI response...';
+        const aiText = await fetchAiResponse(text);
+        appendPlainLog('user', text);
+        appendPlainLog('ai', aiText);
+        // apply POS coloring
+        applyPosColoring(document.getElementById('ai-output'));
+        document.getElementById('status').textContent = 'AI response appended (stored).';
+        if(autoEncode.checked){
+          const pass = passEl.value || prompt('Enter passphrase to encrypt AI output (will not be saved):') || '';
+          if (!pass){ document.getElementById('status').textContent = 'Auto-encode skipped (no passphrase)'; return; }
+          const entry = await saveEncryptedEntry(aiText, pass);
+          document.getElementById('status').textContent = 'AI response encrypted & stored.';
+          applyPosColoring(document.getElementById('encoded-output'));
+        }
+      } else {
+        // encode mode: encrypt input and store
+        const pass = passEl.value || prompt('Enter passphrase to encrypt this message (will not be saved):') || '';
+        if (!pass){ document.getElementById('status').textContent = 'Encryption aborted (no passphrase)'; return; }
+        await saveEncryptedEntry(text, pass);
+        document.getElementById('status').textContent = 'Message encrypted & stored (encoded).';
+        applyPosColoring(document.getElementById('encoded-output'));
+      }
+      inputBox.value = '';
+    }catch(err){
+      document.getElementById('status').textContent = 'Error: ' + (err.message||err);
+    }
+  });
+
+  clearBtn.addEventListener('click', () => { inputBox.value=''; document.getElementById('status').textContent=''; });
+
+  genPass.addEventListener('click', () => {
+    const p = (Math.random().toString(36).slice(2,10)+Math.random().toString(36).slice(2,6)).slice(0,24);
+    passEl.value = p;
+    alert('Generated passphrase (copy and keep it secret):\n\n' + p);
+  });
+
+  decryptBtn.addEventListener('click', async () => {
+    const pass = passEl.value || prompt('Enter passphrase to retrieve last encoded:') || '';
+    if(!pass){ document.getElementById('status').textContent = 'Decryption aborted (no passphrase)'; return; }
+    const logs = loadLogs();
+    const last = [...logs].reverse().find(l => l.type==='encoded');
+    if(!last){ document.getElementById('status').textContent = 'No encoded entries to retrieve'; return; }
+    try{
+      document.getElementById('status').textContent = 'Decrypting...';
+      const decoded = await decryptText(last.text, pass, 200000);
+      appendPlainLog('system', 'Retrieved encoded entry');
+      appendPlainLog('ai', 'RETRIEVED: ' + decoded);
+      applyPosColoring(document.getElementById('ai-output'));
+      document.getElementById('status').textContent = 'Retrieved and appended to AI output.';
+    }catch(e){
+      document.getElementById('status').textContent = 'Decryption failed: ' + (e.message||e);
+    }
+  });
+
+  copyEncoded.addEventListener('click', async () => {
+    try{
+      await navigator.clipboard.writeText(document.getElementById('encoded-output').textContent || '');
+      document.getElementById('status').textContent = 'Encoded panel copied to clipboard.';
+    }catch(e){ document.getElementById('status').textContent = 'Copy failed: ' + (e.message||e); }
+  });
+
+  posToggle.addEventListener('change', () => {
+    applyPosColoring(document.getElementById('ai-output'));
+    applyPosColoring(document.getElementById('encoded-output'));
+  });
+});
+
+/* --------------------------
+   Helper functions used above
+   -------------------------- */
+function appendPlainLog(type, text){
+  const logs = loadLogs();
+  logs.push({ id: Date.now()+'-'+Math.random().toString(36).slice(2,8), type, text, timestamp: nowIso() });
+  saveLogs(logs);
+  renderLogs();
+  pushQueue.push({ id: logs[logs.length-1].id, type, text, timestamp: nowIso() });
+}
+
+// small AI fetch: calls /ai or falls back to a local distillation
+async function fetchAiResponse(prompt){
+  try{
+    const resp = await fetch('/ai',{method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({ prompt })});
+    if(!resp.ok) throw new Error('no-ai');
+    const j = await resp.json();
+    return j.text || JSON.stringify(j);
+  }catch(e){
+    // fallback distillation
+    const words = prompt.split(/\s+/).filter(Boolean);
+    const top = words.slice(0,40).join(' ');
+    return `Octave distilled context: ${top}${words.length>40?' …':''}`;
+  }
+}
+
+/* expose some functions for debugging in console if needed */
+window.octave = { loadLogs, saveLogs, encryptText, decryptText, pushQueue, pushToServer };
+</script>
+</body>
+</html>

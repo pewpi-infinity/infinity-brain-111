@@ -1,0 +1,18 @@
+author: pewpi-infinity
+description: Guardian Firmware Layer 0.5 — Tone & Pattern Generator
+version: 1.0
+
+platform: esp32
+manifest_version: 2017-09-29
+
+sources:
+  - src
+
+libs:
+  - origin: https://github.com/mongoose-os-libs/core
+
+config_schema:
+  - ["guardian.enabled", "b", true]
+  - ["guardian.tone_pin", "i", 25, {title: "PWM pin for buzzer"}]
+  - ["guardian.pattern_ms", "i", 120, {title: "Base tone duration"}]
+

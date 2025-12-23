@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!-- 🐶 PEWPI SIGN-IN (GLOBAL) -->
+<div id="pewpi-gate">
+  <h1>🐶 pewpi</h1>
+  <input id="pewpi_user" placeholder="Handle">
+  <button onclick="pewpiUnlock()">Enter</button>
+</div>
+<script>
+function pewpiUnlock(){
+  localStorage.setItem("pewpi_user", document.getElementById("pewpi_user").value);
+  document.getElementById("pewpi-gate").style.display="none";
+  document.body.classList.add("pewpi-live");
+}
+if(localStorage.getItem("pewpi_user")){
+  document.addEventListener("DOMContentLoaded",()=>{
+    const g=document.getElementById("pewpi-gate");
+    if(g) g.style.display="none";
+    document.body.classList.add("pewpi-live");
+  });
+}
+</script>
+<style>
+#pewpi-gate{position:fixed;inset:0;background:#0e0e0e;color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:9999}
+#pewpi-gate button{background:#ff69b4;border:0;padding:10px 18px}
+body:not(.pewpi-live)>*:not(#pewpi-gate){filter:blur(6px);pointer-events:none}
+</style>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>∞ GPT-Vector-Design</title>
+  <style>
+    body { background:#000; color:#0f0; font-family:monospace; padding:20px; }
+    textarea { width:100%; height:80px; background:#111; color:#0f0; border:1px solid #0f0; }
+    button { margin-top:10px; background:#0f0; color:#000; padding:8px 12px; border:none; }
+    pre { white-space:pre-wrap; margin-top:15px; }
+  </style>
+</head>
+<body>
+  <h2>🤖 Rogers Local Chat</h2>
+  <textarea id="input" placeholder="Type your question here..."></textarea>
+  <br>
+  <button onclick="send()">Ask Rogers</button>
+  <pre id="output"></pre>
+
+  <script>
+    async function send() {
+      const input = document.getElementById("input").value;
+      const output = document.getElementById("output");
+      output.textContent = "⏳ Thinking...";
+      try {
+        const res = await fetch("http://localhost:8080/analyze", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ prompt: input })
+        });
+        const data = await res.json();
+        output.textContent = data.message || "⚠️ No reply";
+      } catch (err) {
+        output.textContent = "❌ Error: " + err.message;
+      }
+    }
+  </script>
+</body>
+</html>
+

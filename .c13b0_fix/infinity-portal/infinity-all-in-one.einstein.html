@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/>
+  <title>Infinity Launcher · All-in-One Portal</title>
+  <meta name="color-scheme" content="light dark"/>
+  <style>
+    :root {
+      --blue-1: #003087;
+      --blue-2: #0b5fd7;
+      --bg: #fff;
+      --panel: #f8fafc;
+      --muted: #637083;
+      --radius: 12px;
+      font-family: system-ui, "Segoe UI", Roboto, Arial, sans-serif;
+    }
+    html, body { margin:0; padding:0; background:var(--bg); color:#051426; min-height:100vh;}
+    .app { max-width:480px; margin:0 auto; padding:0 0 60px 0; }
+    header { display:flex;align-items:center;justify-content:space-between;padding:14px 10px;background:#fff;border-bottom:1.5px solid #e6e9ef; }
+    .logoText { font-weight:700; color:var(--blue-1); font-size:20px; letter-spacing:1px; }
+    .sub { font-size:13px; color:var(--muted);}
+    .nav { display:flex; gap:17px; }
+    .nav a { color:var(--blue-2); font-weight:600; text-decoration:none; font-size:17px; padding:7px 0;}
+    .nav a.active, .nav a:hover { border-bottom:2.5px solid var(--blue-2);}
+    main { padding:20px 0 10px 0;}
+    .card { background:var(--panel);border-radius:14px;padding:20px;margin-bottom:18px;box-shadow:0 2px 12px #00308716; }
+    .card h2 { margin:0 0 8px 0; color:var(--blue-1);}
+    .apps { display:flex; flex-direction:column; gap:18px; }
+    .app-link { background:#fff; border-radius:10px; box-shadow:0 2px 12px #00308711; padding:16px; display:flex; flex-direction:column; align-items:flex-start;}
+    .app-link a { color:var(--blue-2); font-weight:700; font-size:17px; text-decoration:none; }
+    .desc { font-size:13px; color:var(--muted);margin-top:4px;}
+    .live { color:#22c55e; font-weight:700; font-size:12px;}
+    .panel { display:none; position:fixed; left:0; top:0; width:100vw; height:100vh; z-index:1000; background:rgba(2,6,23,0.33);}
+    .panel .content { background:#fff; border-radius:14px; max-width:410px; margin:60px auto; padding:20px; box-shadow:0 12px 40px #00308726;}
+    .panel .close { position:absolute; right:18px; top:22px; background:none; border:0; font-size:22px; color:var(--muted); cursor:pointer;}
+    .rogersDock { position:fixed; right:16px; bottom:16px; z-index:999; }
+    .rogBtn { width:56px; height:56px; border-radius:50%; background:linear-gradient(135deg, var(--blue-1), var(--blue-2)); display:flex;align-items:center;justify-content:center; color:#fff;font-weight:900; font-size:28px; box-shadow:0 10px 30px #0b5fd71a; cursor:pointer; border:none;}
+    .rogBtn img { width:100%; height:100%; object-fit:cover; border-radius:50%; display:block; }
+    .chatBox { position:fixed; right:10px; bottom:80px; width:95vw; max-width:340px; border-radius:12px; background:#fff; box-shadow:0 20px 50px #03183e29; display:none; flex-direction:column; z-index:999; overflow:hidden; border:1px solid #e6e9ef;}
+    .chatBox.open { display:flex; }
+    .chatHeader { padding:10px 14px; background:linear-gradient(90deg, var(--blue-1), var(--blue-2)); color:#fff; display:flex; justify-content:space-between;align-items:center; font-weight:bold;}
+    .chatBody { padding:12px;height:210px;overflow-y:auto;background:var(--panel);font-size:15px;}
+    .chatInput { display:flex; padding:10px; border-top:1px solid #e6e9ef; background:#f9fbfd;}
+    .chatInput input { flex:1;padding:8px;border-radius:8px;border:1px solid #e6e9ef;font-size:16px;}
+    .chatInput button { background:var(--blue-1); color:#fff; border:none; border-radius:8px; font-weight:700; padding:8px 14px; margin-left:7px; font-size:16px;}
+    .bubble { margin:7px 0; max-width:90%; padding:9px 13px; border-radius:13px; word-break:break-word;}
+    .me { background:rgba(11,95,215,0.08); border:1px solid rgba(11,95,215,0.11);margin-left:auto;}
+    .ai { background:#fff; border:1px solid #e6e9ef;}
+    .sidebarBtn { position:fixed;left:12px;top: 64px;width:48px;height:48px;border-radius:12px;background:#fff;border:1px solid #e6e9ef;display:flex;align-items:center;justify-content:center;font-size:26px;color:var(--blue-2);z-index:1001;cursor:pointer;}
+    .sidebar { position:fixed;left:0;top:0;bottom:0;width:86vw;max-width:320px;background:#fff;box-shadow:20px 0 60px #03183e19;transform:translateX(-110%);transition:transform .28s;z-index:9999;padding:22px 12px 0 12px;overflow:auto;}
+    .sidebar.open { transform:translateX(0);}
+    .sidebar h3 { margin-top:0;}
+    .sbLink { display:block;padding:10px 0;font-weight:700;color:var(--blue-1);text-decoration:none;border-bottom:1px solid #eee;}
+    .devBox { background:#f8fafc;border-radius:10px;padding:12px;margin-top:14px;}
+    @media (max-width:600px) {
+      .app { max-width:100vw; }
+      .chatBox { left:4px; right:4px;width:auto;}
+      .panel .content {width:97vw;max-width:97vw;}
+      .sidebar { width:98vw;max-width:98vw;}
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <header>
+      <span class="logoText">INFINITY</span>
+      <nav class="nav">
+        <a href="#" class="active" onclick="showPanel('main')">Home</a>
+        <a href="#" onclick="showPanel('dev')">Dev Tools</a>
+      </nav>
+    </header>
+    <main id="mainPanel">
+      <div class="card">
+        <h2>Infinity All-in-One Launcher</h2>
+        <div class="sub" style="margin-bottom:13px;">All your tools, AI, and projects—one page, mobile ready.</div>
+        <div class="apps">
+          <div class="app-link">
+            <a href="http://127.0.0.1:8080" target="_blank">Portal UI</a>
+            <div class="desc">Day-to-day dashboard, navigation, tools</div>
+            <span class="live">LIVE on :8080</span>
+          </div>
+          <div class="app-link">
+            <a href="http://127.0.0.1:5050" target="_blank">Rogers AI Chat</a>
+            <div class="desc">Conversational AI, dev chat, steering wheel</div>
+            <span class="live">LIVE on :5050</span>
+          </div>
+          <div class="app-link">
+            <a href="http://127.0.0.1:8000" target="_blank">Socializer (Demo)</a>
+            <div class="desc">Community chat, channels, games (edit URL as needed)</div>
+            <span class="live">:8000 (if running)</span>
+          </div>
+          <div class="app-link">
+            <a href="pi_singer.html" target="_blank">Pi Singer</a>
+            <div class="desc">Digit-to-music generator (your code, local HTML file)</div>
+          </div>
+          <!-- Add more links as you discover new ports/sites -->
+        </div>
+      </div>
+      <div class="card">
+        <h2>Quick Actions & Resources</h2>
+        <ul style="margin-left:18px;">
+          <li>Sidebar: Access all settings, dev tools, saved sessions</li>
+          <li>Floating Rogers AI: Chat anytime <b>R</b></li>
+          <li>Visit each app, then bookmark for fast access</li>
+        </ul>
+      </div>
+    </main>
+    <!-- Dev Tools Panel -->
+    <div class="panel" id="devPanel" onclick="closePanel(event)">
+      <div class="content" onclick="event.stopPropagation()">
+        <button class="close" onclick="hidePanel('dev')">✕</button>
+        <h2>Developer & Steering Wheel</h2>
+        <div class="devBox">
+          <b>Session Storage:</b> <span id="sessCount"></span>
+          <button onclick="clearSessions()" style="margin-left:8px;">Clear Sessions</button>
+        </div>
+        <div class="devBox">
+          <b>API/Endpoint Config:</b><br>
+          <input id="apiInput" style="width:97%;padding:9px;border-radius:7px;border:1.2px solid #e6e9ef;" placeholder="Paste Rogers/Infinity API URL here">
+          <button onclick="saveApi()" style="margin-top:8px;">Save Endpoint</button>
+          <div id="apiSaved" class="sub" style="margin-top:7px;"></div>
+        </div>
+        <div class="devBox">
+          <b>Notes:</b>
+          <ul style="font-size:13px;">
+            <li>Your local Watson-style AI is wired in (no IBM key needed)</li>
+            <li>Plug in endpoints for live AI, voice/video, or data</li>
+            <li>All panel logic is in this file—edit & extend as you wish</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- Sidebar -->
+    <button class="sidebarBtn" onclick="toggleSidebar()">☰</button>
+    <aside class="sidebar" id="sidebar">
+      <h3>Infinity Menu</h3>
+      <a class="sbLink" href="#" onclick="showPanel('main');toggleSidebar()">Home</a>
+      <a class="sbLink" href="#" onclick="showPanel('dev');toggleSidebar()">Dev Tools</a>
+      <a class="sbLink" href="http://127.0.0.1:8080" target="_blank">Portal UI</a>
+      <a class="sbLink" href="http://127.0.0.1:5050" target="_blank">Rogers AI Chat</a>
+      <a class="sbLink" href="http://127.0.0.1:8000" target="_blank">Socializer</a>
+      <a class="sbLink" href="pi_singer.html" target="_blank">Pi Singer</a>
+      <div style="margin-top:18px;font-size:13px;color:#6b7280;">Contact: infinitystockinvesting@gmail.com</div>
+    </aside>
+    <!-- Rogers AI Dock -->
+    <div class="rogersDock">
+      <button class="rogBtn" id="rogBtn" title="Rogers AI"><img src="einstein-avatar.png" alt="Rogers Einstein" onerror="this.remove(); this.closest('button').textContent='R';"></button>
+    </div>
+    <div class="chatBox" id="chatBox">
+      <div class="chatHeader">
+        <span>Rogers AI</span>
+        <button onclick="toggleChat()" style="background:transparent;border:none;color:#fff;font-size:20px;cursor:pointer;">✕</button>
+      </div>
+      <div class="chatBody" id="chatBody"></div>
+      <form class="chatInput" onsubmit="event.preventDefault();sendChat();">
+        <input id="chatIn" autocomplete="off" placeholder="Ask Rogers anything...">
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </div>
+  <script>
+    // --- Panel logic ---
+    function showPanel(name){
+      document.getElementById('mainPanel').style.display = (name==='main')?'block':'none';
+      document.getElementById('devPanel').style.display = (name==='dev')?'flex':'none';
+    }
+    function hidePanel(name){ document.getElementById('devPanel').style.display='none'; }
+    function closePanel(event){ if(event.target.classList.contains('panel')) hidePanel('dev'); }
+
+    // --- Sidebar logic ---
+    function toggleSidebar(){
+      document.getElementById('sidebar').classList.toggle('open');
+    }
+
+    // --- Session/Dev logic ---
+    function clearSessions(){
+      localStorage.clear();
+      document.getElementById('sessCount').innerText = '0';
+    }
+    function saveApi(){
+      const val = document.getElementById('apiInput').value.trim();
+      if(!val){ document.getElementById('apiSaved').innerText = 'Enter a URL first'; return; }
+      localStorage.setItem('INFINITY_API', val);
+      document.getElementById('apiSaved').innerText = 'Saved API endpoint!';
+      setTimeout(()=>document.getElementById('apiSaved').innerText='',1800);
+    }
+    function updateSessCount(){
+      let count = Object.keys(localStorage).length;
+      document.getElementById('sessCount').innerText = count;
+    }
+    updateSessCount();
+
+    // --- Rogers Chat Dock Logic ---
+    const rogBtn = document.getElementById('rogBtn');
+    const chatBox = document.getElementById('chatBox');
+    rogBtn.onclick = () => { chatBox.classList.add('open'); setTimeout(()=>document.getElementById('chatIn').focus(), 120); }
+    function toggleChat() { chatBox.classList.remove('open'); }
+
+    // --- Simple Demo Brain (no backend required) ---
+    const chatBody = document.getElementById('chatBody');
+    const chatIn = document.getElementById('chatIn');
+    function addBubble(role, text) {
+      const div = document.createElement('div');
+      div.className = 'bubble ' + (role === 'me' ? 'me' : 'ai');
+      div.textContent = text;
+      chatBody.appendChild(div);
+      chatBody.scrollTop = chatBody.scrollHeight;
+    }
+    function sendChat() {
+      const t = chatIn.value.trim();
+      if (!t) return;
+      addBubble('me', t);
+      chatIn.value = '';
+      setTimeout(() => {
+        // Demo “Watson” reply (replace with real API if you want)
+        let reply = '';
+        if (/help|how/i.test(t)) reply = "I'm Rogers, your Infinity assistant. How can I help?";
+        else if (/energy|token/i.test(t)) reply = "Energy features are in development. Check your profile soon!";
+        else if (/voice|audio/i.test(t)) reply = "Voice features are coming! Try the mic in your next update.";
+        else if (/weather|news/i.test(t)) reply = "Live data will be in the next Infinity release.";
+        else reply = "Got it! (This is a demo. For live AI, connect the backend API.)";
+        addBubble('ai', reply);
+      }, 400);
+    }
+    // Welcome message
+    addBubble('ai', "Hi! Rogers AI is ready. Ask anything or say 'help'.");
+  </script>
+</body>
+</html>

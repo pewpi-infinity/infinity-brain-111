@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<!-- 🐶 PEWPI SIGN-IN (GLOBAL) -->
+<div id="pewpi-gate">
+  <h1>🐶 pewpi</h1>
+  <input id="pewpi_user" placeholder="Handle">
+  <button onclick="pewpiUnlock()">Enter</button>
+</div>
+<script>
+function pewpiUnlock(){
+  localStorage.setItem("pewpi_user", document.getElementById("pewpi_user").value);
+  document.getElementById("pewpi-gate").style.display="none";
+  document.body.classList.add("pewpi-live");
+}
+if(localStorage.getItem("pewpi_user")){
+  document.addEventListener("DOMContentLoaded",()=>{
+    const g=document.getElementById("pewpi-gate");
+    if(g) g.style.display="none";
+    document.body.classList.add("pewpi-live");
+  });
+}
+</script>
+<style>
+#pewpi-gate{position:fixed;inset:0;background:#0e0e0e;color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:9999}
+#pewpi-gate button{background:#ff69b4;border:0;padding:10px 18px}
+body:not(.pewpi-live)>*:not(#pewpi-gate){filter:blur(6px);pointer-events:none}
+</style>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>∞ Vector</title>
+  <style>
+    body{margin:0;font-family:"Segoe UI",ui-sans-serif,system-ui;background:linear-gradient(135deg,#171531 0%,#3546b0 100%);min-height:100vh;color:#e0f2fe;}
+    .panel{max-width:500px;margin:7vh auto 0;background:rgba(20,26,51,.98);border-radius:23px;box-shadow:0 6px 32px #27294166;padding:2.16em;display:none;}
+    .show{display:block;}
+    h1{font-size:2.2em;margin:0 0 1.2em 0;text-align:center;background:linear-gradient(90deg,#50e2a0,#6786df);-webkit-background-clip:text;-webkit-text-fill-color:transparent;}
+    label{display:block;margin-top:1.16em;font-weight:600;color:#b5daf8;text-align:left;}
+    input[type="text"],input[type="password"],input[type="email"],textarea{width:100%;font-size:1.09em;padding:0.72em;margin-top:0.08em;border-radius:8px;border:1px solid #333;background:#181a29;color:#fff;box-sizing:border-box;}
+    button{margin-top:1.05em;width:96%;padding:0.89em 0;font-size:1.13em;font-weight:bold;background:linear-gradient(90deg,#50e2a0,#6786df);color:#fff;border:none;border-radius:12px;box-shadow:0 1px 7px #50e2a044;cursor:pointer;transition:.12s;}
+    button:active,button:focus{filter:brightness(.98);}
+    .error-msg{color:#ff7892;font-size:1em;margin-bottom:0.5em;}
+    nav{display:flex;justify-content:center;gap:10px;margin-top:18px;}
+    .nav-btn{background:#222b5a;padding:10px 18px;color:#e0f2fe;font-size:1.13em;border:none;border-radius:10px;box-shadow:0 1.5px 8px #2db0b011;cursor:pointer;}
+    .nav-btn.active{background:#50e2a0;color:#121c28;}
+    .card{background:#202a67;color:#fff;border-radius:15px;padding:1em;margin:1em 0;box-shadow:0 2px 9px #305ed688;}
+    .repo-list{margin-top:14px;font-size:1em;}
+    .repo-badge{background:#753aeb;color:#fff;padding:7px 15px;border-radius:10px;margin:0 7px 8px 0;display:inline-block;}
+    .bot-list{margin:1em 0;}
+    .bot-bubble{background:#50e2a0;color:#121c28;border-radius:14px;display:inline-block;margin:0 8px 15px 0;padding:0.9em 1.2em;font-weight:600;box-shadow:0 2px 8px #50e2a044;}
+    .vault-list{margin:1em 0;}
+    .vault-item{background:#7432e2;color:#fff;padding:14px 2vw;border-radius:9px;margin:8px 0;font-size:1.04em;}
+    .admin-actions{margin-top:16px;}
+    .admin-btn{background:#e050b8;padding:11px 2vw;color:#fff;font-weight:700;border:none;border-radius:9px;font-size:1.09em;margin:0 7px 7px 0;cursor:pointer;}
+    .logout{background:#f44f91;color:#fff;padding:9px 19px;border-radius:10px;margin-top:21px;font-size:1em;font-weight:700;}
+  </style>
+</head>
+<body>
+<!-- C14_MARIO_TOKEN_PANEL_START -->
+<style>
+.c14wrap{font-family:monospace;background:#0b0f14;color:#e6edf3;padding:14px}
+.c14card{border:1px solid #30363d;border-radius:12px;padding:14px;margin:10px 0}
+.c14value{font-size:2.2em;text-align:center;color:#ffd700;line-height:1.1}
+.c14row{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.c14pill{border:1px solid #30363d;border-radius:999px;padding:6px 10px}
+.c14btn{display:block;width:100%;padding:14px;border-radius:12px;border:1px solid #30363d;background:#111827;color:#e6edf3;font-size:1em}
+.c14note{opacity:.85;font-size:.85em;margin-top:8px}
+</style>
+<div class="c14wrap">
+  <div class="c14card">
+    <div class="c14row">
+      <div class="c14pill">🧱</div>
+      <div class="c14pill">🍄</div>
+      <div class="c14pill">⭐</div>
+    </div>
+    <div class="c14value">Token Value: 55</div>
+    <div class="c14note">Repo: Vector • Updated: 2025-12-20 09:57:13</div>
+  </div>
+
+  <div class="c14card">
+    <div class="c14note">Pay via PayPal (email receiver). Amount is set to token value.</div>
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="get" target="_blank">
+      <input type="hidden" name="cmd" value="_xclick">
+      <input type="hidden" name="business" value="watsonkris61@gmail.com">
+      <input type="hidden" name="item_name" value="__C14_REPO__ Token 🧱🍄⭐">
+      <input type="hidden" name="amount" value="__C14_VALUE__">
+      <input type="hidden" name="currency_code" value="USD">
+      <button class="c14btn" type="submit">Pay $__C14_VALUE__ via PayPal</button>
+    </form>
+  </div>
+
+  <div class="c14card">
+    <div class="c14note">
+      Mario economy: 🧱 base • 🍄 growth • ⭐ acceleration<br>
+      (This panel is additive and does not replace your existing UI.)
+    </div>
+  </div>
+</div>
+<!-- C14_MARIO_TOKEN_PANEL_END -->
+
+<div class="panel show" id="loginPanel">
+  <h1>Infinity Portal Login</h1>
+  <form id="loginForm" autocomplete="off">
+    <div class="error-msg" id="errorMsg"></div>
+    <label for="username">Username:</label>
+    <input type="text" id="username" autocomplete="off"/>
+    <label for="password">Password:</label>
+    <input type="password" id="password" autocomplete="off"/>
+    <label for="email">Email:</label>
+    <input type="email" id="email" autocomplete="off"/>
+    <button type="submit">Sign In</button>
+  </form>
+</div>
+
+<div class="panel" id="dashboardPanel">
+  <h1>Dashboard</h1>
+  <nav>
+    <button class="nav-btn" onclick="switchPanel('dashboard')">Dashboard</button>
+    <button class="nav-btn" onclick="switchPanel('portal')">Portal</button>
+    <button class="nav-btn" onclick="switchPanel('admin')">Admin</button>
+    <button class="nav-btn" onclick="switchPanel('vault')">Vault</button>
+    <button class="logout" onclick="logOut()">Log Out</button>
+  </nav>
+  <div class="card">
+    <h2>Welcome, <span id="dashUser"></span>!</h2>
+    <p>Session status: <span id="dashStatus">Active</span></p>
+    <div class="repo-list" id="repoList"></div>
+  </div>
+</div>
+
+<div class="panel" id="portalPanel">
+  <h1>Portal & Bot Farm</h1>
+  <nav>
+    <button class="nav-btn" onclick="switchPanel('dashboard')">Dashboard</button>
+    <button class="nav-btn active" onclick="switchPanel('portal')">Portal</button>
+    <button class="nav-btn" onclick="switchPanel('admin')">Admin</button>
+    <button class="nav-btn" onclick="switchPanel('vault')">Vault</button>
+    <button class="logout" onclick="logOut()">Log Out</button>
+  </nav>
+  <div class="card">
+    <h2>Bot Farm</h2>
+    <div class="bot-list" id="botList"></div>
+    <button onclick="spawnBot('Cleaner')">🧹 Cleaner Bot</button>
+    <button onclick="spawnBot('Syncer')">🔄 Syncer Bot</button>
+    <button onclick="spawnBot('ScriptRunner')">⚡ ScriptRunner</button>
+    <button onclick="spawnBot('ErrorBot')">⚠️ ErrorBot</button>
+  </div>
+</div>
+
+<div class="panel" id="adminPanel">
+  <h1>Admin Room</h1>
+  <nav>
+    <button class="nav-btn" onclick="switchPanel('dashboard')">Dashboard</button>
+    <button class="nav-btn" onclick="switchPanel('portal')">Portal</button>
+    <button class="nav-btn active" onclick="switchPanel('admin')">Admin</button>
+    <button class="nav-btn" onclick="switchPanel('vault')">Vault</button>
+    <button class="logout" onclick="logOut()">Log Out</button>
+  </nav>
+  <div class="card">
+    <h2>Admin Actions & Bot Control</h2>
+    <div class="admin-actions">
+      <button class="admin-btn" onclick="resetBots()">Reset All Bots</button>
+      <button class="admin-btn" onclick="clearVault()">Clear Vault</button>
+      <button class="admin-btn" onclick="resetSession()">Reset Session Data</button>
+    </div>
+    <p>Edit bot settings, vault data, or fix stuck sessions.</p>
+  </div>
+</div>
+
+<div class="panel" id="vaultPanel">
+  <h1>Vault / Secret Store</h1>
+  <nav>
+    <button class="nav-btn" onclick="switchPanel('dashboard')">Dashboard</button>
+    <button class="nav-btn" onclick="switchPanel('portal')">Portal</button>
+    <button class="nav-btn" onclick="switchPanel('admin')">Admin</button>
+    <button class="nav-btn active" onclick="switchPanel('vault')">Vault</button>
+    <button class="logout" onclick="logOut()">Log Out</button>
+  </nav>
+  <div class="card">
+    <h2>Secrets (PATs, API Keys, Bot Passwords)</h2>
+    <div>
+      <form id="vaultForm">
+        <label for="vaultKey">Name (ex: github_pat, openai_key, bot_pw):</label>
+        <input type="text" id="vaultKey" autocomplete="off"/>
+        <label for="vaultValue">Value (the secret):</label>
+        <textarea id="vaultValue"></textarea>
+        <button type="submit">Store Secret</button>
+      </form>
+    </div>
+    <div class="vault-list" id="vaultList"></div>
+  </div>
+</div>
+
+<script>
+let currentPanel = 'login', sessionInfo = null, bots=[], botID=1001, vault={};
+const infinityRepos = [
+  {name:"infinity-portal"}, {name:"Vector"}, {name:"Utopia"}, {name:"Vector-API"}, {name:"Infinity-"}, {name:"Infinity-Vectors"}, {name:"Joe"}, {name:"GPT-Vector-Design"}
+];
+
+function switchPanel(panel){
+  currentPanel = panel;
+  document.getElementById("loginPanel").classList.remove('show');
+  document.getElementById("dashboardPanel").classList.remove('show');
+  document.getElementById("portalPanel").classList.remove('show');
+  document.getElementById("adminPanel").classList.remove('show');
+  document.getElementById("vaultPanel").classList.remove('show');
+  if(panel==='login') document.getElementById("loginPanel").classList.add('show');
+  if(panel==='dashboard') document.getElementById("dashboardPanel").classList.add('show');
+  if(panel==='portal') document.getElementById("portalPanel").classList.add('show');
+  if(panel==='admin') document.getElementById("adminPanel").classList.add('show');
+  if(panel==='vault') document.getElementById("vaultPanel").classList.add('show');
+  drawPanel();
+}
+
+function storeSession(){
+  sessionStorage.setItem("infinitySession",JSON.stringify(sessionInfo));
+}
+function loadSession(){
+  let dat = sessionStorage.getItem("infinitySession");
+  if(dat){ sessionInfo = JSON.parse(dat);}
+}
+function clearSession(){
+  sessionInfo = null; sessionStorage.removeItem("infinitySession");
+}
+function resetSession(){
+  clearSession(); vault={}; bots=[]; storeVault(); storeBots(); switchPanel('login');
+}
+function drawPanel(){
+  if(currentPanel==='dashboard'){
+    document.getElementById("dashUser").textContent = sessionInfo ? sessionInfo.username : "";
+    document.getElementById("dashStatus").textContent = sessionInfo ? "Active" : "Unknown";
+    showRepos();
+  }
+  if(currentPanel==='portal'){ renderBots();}
+  if(currentPanel==='vault'){ renderVault();}
+}
+function logOut(){ resetSession(); switchPanel('login'); }
+document.getElementById("loginForm").addEventListener("submit",function(e){
+  e.preventDefault();
+  const username = document.getElementById("username").value.trim(),
+        password = document.getElementById("password").value,
+        email = document.getElementById("email").value.trim(),
+        errorMsg = document.getElementById("errorMsg");
+  errorMsg.textContent = "";
+  if(!username || !password || !email){ errorMsg.textContent="Please fill all fields."; return;}
+  sessionInfo = {username,email,loginTime:Date.now()};
+  storeSession();
+  switchPanel('dashboard');
+});
+function showRepos(){
+  let html = "Repos:&nbsp;"+infinityRepos.map(repo=>`<span class="repo-badge"><a href="https://github.com/pewpi-infinity/${repo.name}" target="_blank" style="color:#fff;text-decoration:none;">${repo.name}</a></span>`).join('');
+  document.getElementById("repoList").innerHTML = html;
+}
+// --- Bot farm logic ---
+function storeBots(){ sessionStorage.setItem("infinityBots",JSON.stringify(bots)); }
+function loadBots(){ let dat=sessionStorage.getItem("infinityBots"); if(dat)bots=JSON.parse(dat); }
+function resetBots(){ bots=[]; storeBots(); renderBots(); }
+function spawnBot(type){
+  botID++;
+  let bot = {id:botID,type,type,status:"Busy",created:Date.now(),log:[]};
+  setTimeout(()=>{ bot.status="Done"; bot.log.push(type+" complete at "+new Date().toLocaleTimeString());storeBots();renderBots();},650+Math.random()*1050);
+  bots.push(bot);storeBots();renderBots();
+}
+function renderBots(){
+  loadBots();
+  let html = "";
+  bots.slice(-12).forEach(bot => {
+    html += `<span class="bot-bubble">${bot.type} Bot<br>ID:${bot.id}<br>Status: <span style="color:${bot.status==='Done'?"#171531":"#ffd43b"}">${bot.status}</span></span>`;
+  });
+  document.getElementById("botList").innerHTML = html;
+}
+// --- Vault logic ---
+function storeVault(){ sessionStorage.setItem("infinityVault",JSON.stringify(vault)); }
+function loadVault(){ let dat=sessionStorage.getItem("infinityVault"); if(dat)vault=JSON.parse(dat); }
+function clearVault(){ vault={}; storeVault();renderVault(); }
+document.getElementById("vaultForm").addEventListener("submit",function(e){
+  e.preventDefault();
+  const k = document.getElementById("vaultKey").value.trim(),
+        v = document.getElementById("vaultValue").value.trim();
+  if(!k||!v){return;}
+  vault[k]=v; storeVault(); renderVault();
+  document.getElementById("vaultKey").value="";
+  document.getElementById("vaultValue").value="";
+});
+function renderVault(){
+  loadVault();
+  let html="";
+  for(const k in vault){
+    html+=`<div class="vault-item"><b>${k}:</b><br>${vault[k].replace(/./g,"•")}</div>`;
+  }
+  document.getElementById("vaultList").innerHTML = html || "<i>No secrets stored.</i>";
+}
+// --- Initial load ---
+(function(){
+  loadSession(); loadBots(); loadVault();
+  if(sessionInfo) switchPanel('dashboard');
+})();
+</script>
+</body>
+</html><!-- C13B0_TOKEN_BLOCK -->
+<style>
+.c13b0{font-family:monospace;background:#0b0f14;color:#e6edf3;padding:16px}
+.c13b0 .value{font-size:2em;color:#ffd700}
+.c13b0 button{padding:12px;font-size:1em;width:100%;margin-top:8px}
+</style>
+
+<div class="c13b0">
+  <h2>🧱🍄⭐ Token</h2>
+  <div class="value">Value: 46</div>
+  <p>🧱 Base • 🍄 Growth • ⭐ Star Power</p>
+
+  <h3>Support / Acquire</h3>
+  <p>This token represents real work, research, and structure.</p>
+
+  <a href="https://www.paypal.com/paypalme/watsonkris61@gmail.com/46" target="_blank">
+    <button>Pay $46 via PayPal</button>
+  </a>
+
+  <p style="font-size:0.8em;">
+    PayPal recipient: watsonkris61@gmail.com<br/>
+    Repo: Vector<br/>
+    Generated: 2025-12-20T15:41:20Z
+  </p>
+</div>
+<!-- C14_TOKEN_PANEL_START -->
+<div style="font-family:monospace;background:#0b0f14;color:#e6edf3;padding:16px;margin:16px 0">
+  <div style="font-size:2.4em;color:#ffd700;text-align:center">
+    🧱🍄⭐ Token Value: 61
+  </div>
+
+  <p style="text-align:center">
+    🧱 Base &nbsp; 🍄 Growth &nbsp; ⭐ Star Power
+  </p>
+
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="get" target="_blank">
+    <input type="hidden" name="cmd" value="_xclick">
+    <input type="hidden" name="business" value="watsonkris61@gmail.com">
+    <input type="hidden" name="item_name" value="Vector Token">
+    <input type="hidden" name="amount" value="61">
+    <input type="hidden" name="currency_code" value="USD">
+    <button style="width:100%;padding:14px;font-size:1em">
+      Pay $61 via PayPal
+    </button>
+  </form>
+
+  <p style="font-size:0.75em;text-align:center;margin-top:10px">
+    Repository owner: pewpi-infinity<br/>
+    Contact: marvaseater@gmail.com<br/>
+    Settlement handled externally via PayPal
+  </p>
+</div>
+<!-- C14_TOKEN_PANEL_END -->
