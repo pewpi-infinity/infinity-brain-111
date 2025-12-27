@@ -1,0 +1,111 @@
+TERMS: quantum, resonance, boson
+COLORS: blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Y5MmjyEQE0MeCVm6XMQIFBuLZFE</id>
+  <title>arXiv Query: search_query=all:quantum AND all:resonance AND all:boson&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:08:40Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:resonance+AND+all:boson)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1316</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2503.11507v3</id>
+    <title>Quantum algorithms for simulating systems coupled to bosonic modes using a hybrid resonator-qubit quantum computer</title>
+    <updated>2025-04-11T11:22:00Z</updated>
+    <link href="https://arxiv.org/abs/2503.11507v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.11507v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Modeling composite systems of spins or electrons coupled to bosonic modes is of significant interest for many fields of applied quantum physics and chemistry. A quantum simulation can allow for the solution of quantum problems beyond classical numerical methods. However, implementing this on existing noisy quantum computers can be challenging due to the mapping between qubits and bosonic degrees of freedom, often requiring a large number of qubits or deep quantum circuits. In this work, we discuss quantum algorithms to solve composite systems by augmenting conventional superconducting qubits with microwave resonators used as computational elements. This enables direct representation of bosonic modes by resonators. We derive efficient algorithms for typical models and propose a device connectivity that allows for feasible scaling of simulations with linear overhead. We also show how the dissipation of resonators can be a useful parameter for modeling continuous bosonic baths. Experimental results demonstrating these methods were obtained on the IQM Resonance cloud platform, based on high-fidelity gates and tunable couplers. These results present the first digital quantum simulation including a computational resonator on a commercial quantum platform.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-14T15:29:41Z</published>
+    <arxiv:comment>26 pages, 18 figures in total: 17 pages main text with 15 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Juha Leppäkangas</name>
+    </author>
+    <author>
+      <name>Pascal Stadler</name>
+    </author>
+    <author>
+      <name>Dmitry Golubev</name>
+    </author>
+    <author>
+      <name>Rolando Reiner</name>
+    </author>
+    <author>
+      <name>Jan-Michael Reiner</name>
+    </author>
+    <author>
+      <name>Sebastian Zanker</name>
+    </author>
+    <author>
+      <name>Nicola Wurz</name>
+    </author>
+    <author>
+      <name>Michael Renger</name>
+    </author>
+    <author>
+      <name>Jeroen Verjauw</name>
+    </author>
+    <author>
+      <name>Daria Gusenkova</name>
+    </author>
+    <author>
+      <name>Stefan Pogorzalek</name>
+    </author>
+    <author>
+      <name>Florian Vigneau</name>
+    </author>
+    <author>
+      <name>Ping Yang</name>
+    </author>
+    <author>
+      <name>William Kindel</name>
+    </author>
+    <author>
+      <name>Hsiang-Sheng Ku</name>
+    </author>
+    <author>
+      <name>Frank Deppe</name>
+    </author>
+    <author>
+      <name>Michael Marthaler</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0804.1459v2</id>
+    <title>Quantum Phase Transition Induced by a Preformed Pair in a Boson-Fermion Model of Fulleride Superconductivity</title>
+    <updated>2008-04-28T14:15:19Z</updated>
+    <link href="https://arxiv.org/abs/0804.1459v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0804.1459v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  There continues to be enormous interest in the BCS to BEC transition as there still is no exact theory. We recently reported a revealing reinterpretation of the condensed phase Boson-Fermion Model (BFM) by comparing it to a cold atom formulation [1]. While the ground and singly excited states appear to remain continuous in all models we have examined, the collective modes contain a singularity due to a Feshbach resonance (tuned by doping) causing a breakdown of the Migdal theorem. As a result of vertex corrections, there is a fundamental change in the nature of the superconductivity due to the formation of preformed pairs as the previously suggested location [1] of a quantum critical point in the fulleride phase diagram is passed. The result is a quantum phase transition (QPT) between BCS and BEC-like (or Feshbach resonance) superconductivity (SC).
+  We discuss features of the resonance and the role of the experimentally observed preformed pair formation in fullerides, essential to the Boson-Fermion Model (BFM), and often speculated since the work of Nozieres and Schmitt-Rink [17]. Here, we present arguments to establish a model of the preformed pair which can be favorably compared to a circular charge density wave (CDW) isolated on a fulleride molecule. The binding is much larger than a Cooper pair. The CDW seems to be stabalized by splitting of the Jahn-Teller active vibrational modes to reduce Coulomb repulsions. Our conclusions are: 1) the doping of two electrons into triply degenerate orbitals results in the experimentally observed singlet state (CDW); and 2) this CDW (preformed pair) has a dual role as doping is varied: suppression of BCS SC and enabling a Feshbach resonance form of SC.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-04-09T11:21:48Z</published>
+    <arxiv:comment>presented at Sanibel Symposium, Feb 2008; corrected error in origin of Boson-Fermion model</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>Richard H. Squire</name>
+    </author>
+    <author>
+      <name>Norman H. March</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.15941v4</id>
+    <title>Multimode Qubit-Conditional Operations via Generalized Cross-Resonance</title>
+    <updated>2025-10-22T20:12:37Z</updated>
+    <link href="https://arxiv.org/abs/2503.15941v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.15941v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a general framework for generating single- and multimode qubit-conditional operations by extending cross-resonant driving to a generalized multimode scheme. This includes single-mode conditional displacements and squeezing induced by one- and two-photon cross-resonant drives in the presence of one- and two-photon qubit-oscillator interactions, respectively. In the multimode setting, we derive multimode qubit-conditional joint displacement, beamsplitter and two-mode squeezing operations. This framework enables the realization of arbitrary multimode qubit-conditional operations, which are of great importance to bosonic quantum error correction, phase estimation and quantum simulations.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-20T08:29:48Z</published>
+    <arxiv:comment>Substantially simplified framework with explicit definition of interaction resonance frequency and added new references. 6 pages, no figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Mohammad Ayyash</name>
+    </author>
+  </entry>
+</feed>

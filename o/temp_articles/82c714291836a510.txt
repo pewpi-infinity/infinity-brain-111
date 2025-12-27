@@ -1,0 +1,50 @@
+TERMS: hydrogen, frequency, ionization, bandgap
+COLORS: purple, green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/hqZUyr7spD5JZXKb74GRFsyvrHI</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:frequency AND all:ionization AND all:bandgap&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:43:54Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:frequency+AND+(all:ionization+AND+all:bandgap))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2102.05982v2</id>
+    <title>High-Mobility p-Channel Wide Bandgap Transistors Based on h-BN/Diamond Heterostructures</title>
+    <updated>2021-11-08T01:57:57Z</updated>
+    <link href="https://arxiv.org/abs/2102.05982v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2102.05982v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Field-effect transistors made of wide-bandgap semiconductors can operate at high voltages, temperatures and frequencies with low energy losses, and have been of increasing importance in power and high-frequency electronics. However, the poor performance of p-channel transistors compared with that of n-channel transistors has constrained the production of energy-efficient complimentary circuits with integrated n- and p-channel transistors. The p-type surface conductivity of hydrogen-terminated diamond offers great potential for solving this problem, but surface transfer doping, which is commonly believed to be essential for generating the conductivity, limits the performance of transistors made of hydrogen-terminated diamond because it requires the presence of ionized surface acceptors, which cause hole scattering. Here, we report on fabrication of a p-channel wide-bandgap heterojunction field-effect transistor consisting of a hydrogen-terminated diamond channel and hexagonal boron nitride ($h$-BN) gate insulator, without relying on surface transfer doping. Despite its reduced density of surface acceptors, the transistor has the lowest sheet resistance ($1.4$ k$Ω$) and largest on-current ($1600$ $μ$m mA mm$^{-1}$) among p-channel wide-bandgap transistors, owing to the highest hole mobility (room-temperature Hall mobility: $680$ cm$^2$V$^{-1}$s$^{-1}$). Importantly, the transistor also shows normally-off behavior, with a high on/off ratio exceeding $10^8$. These characteristics are suited for low-loss switching and can be explained on the basis of standard transport and transistor models. This new approach to making diamond transistors paves the way to future wide-bandgap semiconductor electronics.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-02-11T12:59:09Z</published>
+    <arxiv:comment>56 pages, 18 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>Nature Electronics 5, 37 (2022)</arxiv:journal_ref>
+    <author>
+      <name>Yosuke Sasama</name>
+    </author>
+    <author>
+      <name>Taisuke Kageura</name>
+    </author>
+    <author>
+      <name>Masataka Imura</name>
+    </author>
+    <author>
+      <name>Kenji Watanabe</name>
+    </author>
+    <author>
+      <name>Takashi Taniguchi</name>
+    </author>
+    <author>
+      <name>Takashi Uchihashi</name>
+    </author>
+    <author>
+      <name>Yamaguchi Takahide</name>
+    </author>
+    <arxiv:doi>10.1038/s41928-021-00689-4</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41928-021-00689-4" title="doi"/>
+  </entry>
+</feed>

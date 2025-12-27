@@ -1,0 +1,78 @@
+TERMS: resonance, neutrino, plasma
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/U+mLELLVNeGozl1EZOqATNCj6cY</id>
+  <title>arXiv Query: search_query=all:resonance AND all:neutrino AND all:plasma&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:35:24Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:resonance+AND+(all:neutrino+AND+all:plasma)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>52</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/astro-ph/0007024v2</id>
+    <title>Collective Modes in Neutrino `Beam' Electron-Positron Plasma Interactions</title>
+    <updated>2001-03-06T21:53:05Z</updated>
+    <link href="https://arxiv.org/abs/astro-ph/0007024v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/astro-ph/0007024v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We derive semiclassical neutrino-electron transport equations in the collisionless (Vlasov) limit from the coupled Dirac equations, incorporating the charged and neutral weak current-current as well as electromagnetic interactions. A corresponding linear response theory is derived. In particular, we calculate the response functions for a variety of beam-plasma geometries, which are of interest in a supernova scenario. We apply this to the study of plasmons and to a new class of collective {\it pharon} resonance modes, which are characterized by $ω&lt; q$. We find that the growth rates of the unstable modes correspond to a strongly temperature ($\propto T_ν^2T_e^3$) and linearly momentum dependent e-folding length of about $10^{10}$ km under typical conditions for Type II supernovae. This appears to rule out such long-wavelength collective modes as an efficient means of depositing neutrino energy into the plasma sphere.</summary>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2000-07-03T16:56:49Z</published>
+    <arxiv:comment>27 pages; LaTex. Replaced by published version. - Appendix about neutrino Wigner functions added and main text correspondingly revised. Conclusions unchanged</arxiv:comment>
+    <arxiv:primary_category term="astro-ph"/>
+    <arxiv:journal_ref>Phys.Rev. D63 (2001) 013008</arxiv:journal_ref>
+    <author>
+      <name>H. -Th. Elze</name>
+    </author>
+    <author>
+      <name>T. Kodama</name>
+    </author>
+    <author>
+      <name>R. Opher</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.63.013008</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.63.013008" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/9908206v2</id>
+    <title>Plasma wave instabilities induced by neutrinos</title>
+    <updated>1999-12-29T13:48:17Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/9908206v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/9908206v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Quantum field theory is applied to study the interaction of an electron plasma with an intense neutrino flux. A connection is established between the field theory results and classical kinetic theory. The dispersion relation and damping rate of the plasma longitudinal waves are derived in the presence of neutrinos. It is shown that Supernova neutrinos are never collimated enough to cause non-linear effects associated with a neutrino resonance. They only induce neutrino Landau damping, linearly proportional to the neutrino flux and $G_{\mathrm{F}}^{2}$.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1999-08-02T00:19:49Z</published>
+    <arxiv:comment>18 pages, 3 figures, title and references corrected</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys.Rev. D61 (2000) 013004</arxiv:journal_ref>
+    <author>
+      <name>Luis Bento</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.61.013004</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.61.013004" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/9907345v3</id>
+    <title>Radiative neutrino transition $ν\to νγ$ in strongly magnetized plasma</title>
+    <updated>2000-01-22T14:52:36Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/9907345v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/9907345v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The influence of strongly magnetized electron-positron plasma on the radiative neutrino transition $\nng$ is investigated. The probability and mean losses of the neutrino energy and momentum are calculated taking account of the photon dispersion and large radiative corrections near the resonance. It is shown that the combined effect of plasma and strong magnetic field decreases the probability and mean values of the neutrino energy and momentum loss in comparison with these values obtained in pure magnetic field.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1999-07-13T22:10:47Z</published>
+    <arxiv:comment>12 pages, 3 figure, LaTeX2e, uses epsf.sty, typos fixed, accepted to Physics Letters B</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys.Lett. B467 (1999) 232-237</arxiv:journal_ref>
+    <author>
+      <name>M. V. Chistyakov</name>
+    </author>
+    <author>
+      <name>N. V. Mikheev</name>
+    </author>
+    <arxiv:doi>10.1016/S0370-2693(99)01151-X</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/S0370-2693(99)01151-X" title="doi"/>
+  </entry>
+</feed>

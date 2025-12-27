@@ -1,0 +1,88 @@
+TERMS: crystal, spin, wavefunction
+COLORS: orange, yellow, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Rfq6tFoUoXnfRiUlTrISoEo9Byg</id>
+  <title>arXiv Query: search_query=all:crystal AND all:spin AND all:wavefunction&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:27:33Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:crystal+AND+(all:spin+AND+all:wavefunction)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>73</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2402.05473v2</id>
+    <title>Assessing the atomic moment picture of spin dynamics: the perspective of \textit{ab initio} magnon wavefunction</title>
+    <updated>2024-02-10T02:16:06Z</updated>
+    <link href="https://arxiv.org/abs/2402.05473v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.05473v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Our understanding of collective spin fluctuation in materials relies largely on Heisenberg-type spin Hamiltonians. Implicit in these spin models is the atomic moment picture that in transverse spin dynamics the magnetization around an atom undergoes precessional motion as a rigid moment, which has been challenged by emerging theoretical and experimental advances. To assess the validity of the atomic moment picture in spin dynamics, however, necessitates magnon wavefunctions from \textit{ab initio} methods without \textit{a priori} spin models. To this end, we develop an efficient model-free {\it ab initio} method for computing magnon spectrum and wavefunctions. Niu-Kleinman's adiabatic spin-wave dynamics is reformulated using linear perturbation theory into a generalized eigenvalue problem, which can be solved to produce magnon spectrum and wavefunctions without assuming atomic moments. We have implemented this method in the framework of density functional perturbation theory (DFPT). A dynamical extension of Niu-Kleinman equation of motion is proposed to improve inaccurate predicted magnon energies due to imperfect adiabaticity at higher energies. Based on so-obtained {\it ab initio} magnon wavefunctions, we find the atomic moment picture to be valid in typical ferromagnets and antiferromagnets, but fails in the molecular orbital crystal Na$_2$IrO$_3$. Our results suggest that the usual spin Hamiltonian approach should be taken with a grain of salt, and possible experimental ramification on the issue is discussed.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-08T08:04:14Z</published>
+    <arxiv:comment>16 pages, 11 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Yihao Lin</name>
+    </author>
+    <author>
+      <name>Ji Feng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0608691v2</id>
+    <title>SU(N) quantum spin models: A variational wavefunction study</title>
+    <updated>2007-04-29T14:48:30Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0608691v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0608691v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The study of SU(N) quantum spin models is relevant to a variety of physical systems including ultracold atoms in optical lattices, and also leads to insights into novel quantum phases and phase transitions of SU(2) spin models. We use Gutzwiller projected fermionic variational wavefunctions to explore the phase diagram and correlation functions of SU(N) spin models in the self-conjugate representation, with Heisenberg bilinear and biquadratic interactions. In 1D, the variational phase diagram of the SU(4) spin chain is constructed by examining instabilities of the Gutzwiller projected free fermion ground state to various broken symmetries, and it agrees well with exact results.The spin and dimer correlations of the Gutzwiller projected free fermion state with N flavors of fermions are also in good agreement with exact and 1/N calculations for the critical points of SU(N) spin chains. In 2D, the variational phase diagram on the square lattice is obtained by studying instabilities of the Gutzwiller projected pi-flux state. The variational ground state of the pure Heisenberg model is found to exhibit long range Neel order for N=2,4 and spin Peierls order for N &gt; 4. For N=4 and 6, biquadratic interactions lead to a complex phase diagram which includes an extended valence bond crystal in both cases, as well as a stable pi-flux phase for N=6. The spin correlations of the projected pi-flux state at N=4 are in good agreement with 1/N calculations. We find that this state also shows strongly enhanced dimer correlations, in qualitative accord with the large-N results. We compare our results with a recent QMC study of the SU(4) Heisenberg model.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-08-31T19:05:51Z</published>
+    <arxiv:comment>22 pages, 7 figs, added references to arxiv version</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>J. Phys. Cond. Matt. 19, 125215 (2007) [Special Issue on Correlated Electrons]</arxiv:journal_ref>
+    <author>
+      <name>Arun Paramekanti</name>
+      <arxiv:affiliation>University of Toronto</arxiv:affiliation>
+    </author>
+    <author>
+      <name>J. B. Marston</name>
+      <arxiv:affiliation>Brown University</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1088/0953-8984/19/12/125215</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0953-8984/19/12/125215" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1812.09823v1</id>
+    <title>Uncovering and tailoring hidden Rashba spin-orbit splitting in centrosymmetric crystals</title>
+    <updated>2018-12-24T04:09:21Z</updated>
+    <link href="https://arxiv.org/abs/1812.09823v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1812.09823v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Hidden Rashba and Dresselhaus spin-splittings in centrosymmetric crystals with subunits (sectors) having non-centrosymmetric symmetries (the R-2 and D-2 effects) have been predicted and observed experimentally, but the microscopic mechanism remains unclear. Here we demonstrate that the spin-splitting in R-2 is enforced by specific symmetries (such as the non-symmorphic in the present example) which ensures that the pertinent spin wavefunctions segregate spatially on just one of the two inversion-partner sectors and thus avoid compensation. This finding establishes a common fundamental source for the conventional Rashba (R-1) effect and the R-2 effect, both originating from the local sector symmetries, rather than from the global crystal asymmetry alone for R-1 per se. We further show that the effective Hamiltonian for the R-1 effect is also applicable for the R-2 effect, but applying a symmetry-breaking electric field to an R-2 compound produces different spin-splitting pattern than applying a field to a trivial (non-R-2) centrosymmetric compound.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-12-24T04:09:21Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Linding Yuan</name>
+    </author>
+    <author>
+      <name>Qihang Liu</name>
+    </author>
+    <author>
+      <name>Xiuwen Zhang</name>
+    </author>
+    <author>
+      <name>Jun-Wei Luo</name>
+    </author>
+    <author>
+      <name>Shu-Shen Li</name>
+    </author>
+    <author>
+      <name>Alex Zunger</name>
+    </author>
+    <arxiv:doi>10.1038/s41467-019-08836-4</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41467-019-08836-4" title="doi"/>
+  </entry>
+</feed>

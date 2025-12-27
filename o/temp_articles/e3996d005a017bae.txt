@@ -1,0 +1,56 @@
+TERMS: ionization, boson, neutrino
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Esxd1LGXTvboLKw6rMowdIFcyXg</id>
+  <title>arXiv Query: search_query=all:ionization AND all:boson AND all:neutrino&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:30:06Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:ionization+AND+(all:boson+AND+all:neutrino)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1810.10610v1</id>
+    <title>Muon Colliders, Neutrino Factories, and Results from the MICE Experiment</title>
+    <updated>2018-10-24T20:31:47Z</updated>
+    <link href="https://arxiv.org/abs/1810.10610v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1810.10610v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Muon colliders and neutrino factories are attractive options for future facilities aimed at achieving the highest lepton-antilepton collision energies and precision measurements of parameters of the Higgs boson and the neutrino mixing matrix. The performance and cost of these depend on how well a beam of muons can be cooled. Recent progress in muon cooling design studies and prototype tests nourishes the hope that such facilities can be built starting in the coming decade. The status of the key technologies and their various demonstration experiments is summarized, with emphasis on recent results from the Muon Ionization Cooling Experiment (MICE).</summary>
+    <category term="physics.acc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-10-24T20:31:47Z</published>
+    <arxiv:comment>13 pages, 10 figures. To appear in Proceedings, 25th Conference on Application of Accelerators in Research and Industry (CAARI - 2018)</arxiv:comment>
+    <arxiv:primary_category term="physics.acc-ph"/>
+    <author>
+      <name>Daniel M. Kaplan</name>
+    </author>
+    <arxiv:doi>10.1063/1.5127691</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/1.5127691" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1801.10159v3</id>
+    <title>Solar Neutrinos as a Signal and Background in Direct-Detection Experiments Searching for Sub-GeV Dark Matter With Electron Recoils</title>
+    <updated>2018-09-19T05:46:37Z</updated>
+    <link href="https://arxiv.org/abs/1801.10159v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1801.10159v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Direct-detection experiments sensitive to low-energy electron recoils from sub-GeV dark matter (DM) interactions will also be sensitive to solar neutrinos via coherent neutrino-nucleus scattering (CNS), since the recoiling nucleus can produce a small ionization signal. Solar neutrinos constitute both an interesting signal in their own right and a potential background to a DM search that cannot be controlled or reduced by improved shielding, material purification and handling, or improved detector design. We explore these two possibilities in detail for semiconductor (Si and Ge) and Xe targets, considering several possibilities for the unmeasured ionization efficiency at low energies. For DM-electron-scattering searches, neutrinos start being an important background for exposures larger than ~1-10 kg-years in Si and Ge, and for exposures larger than ~0.1-1 kg-year in Xe. For the absorption of bosonic DM (dark photons and axion-like particles) by electrons, neutrinos are most relevant for masses below ~1 keV and again slightly more important in Xe. Treating the neutrinos as a signal, we find that the CNS of B-8 neutrinos can be observed with ~2 sigma significance with exposures of ~2, 7, and 20 kg-years in Xe, Ge, and Si, respectively, assuming there are no other backgrounds. We give an example for how this would constrain non-standard neutrino interactions. Neutrino components at lower energy can only be detected if the ionization efficiency is sufficiently large. In this case, observing pep neutrinos via CNS requires exposures ~10-100 kg-years in Si or Ge (~1000 kg-years in Xe), and observing CNO neutrinos would require an order of magnitude more exposure. Only Si could potentially detect Be-7 neutrinos. These measurements would allow for a direct measurement of the electron-neutrino survival probability over a wide energy range.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-01-30T19:00:00Z</published>
+    <arxiv:comment>17 pages + refs, 15 figures, 4 tables. v3 minor corrections. Scaling of Fig. 9 corrected. Minor corrections to Fig. 4,7,8 and 15. Conclusions unchanged</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys. Rev. D 97, 095029 (2018)</arxiv:journal_ref>
+    <author>
+      <name>Rouven Essig</name>
+    </author>
+    <author>
+      <name>Mukul Sholapurkar</name>
+    </author>
+    <author>
+      <name>Tien-Tien Yu</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.97.095029</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.97.095029" title="doi"/>
+  </entry>
+</feed>

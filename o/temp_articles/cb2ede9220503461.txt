@@ -1,0 +1,74 @@
+TERMS: quantum, fusion, singularity
+COLORS: blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/iQkNPNo/E0vVpoJeyJSz2ikd5lw</id>
+  <title>arXiv Query: search_query=all:quantum AND all:fusion AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:06:45Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:fusion+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>24</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1812.11933v1</id>
+    <title>Fusion 2-categories and a state-sum invariant for 4-manifolds</title>
+    <updated>2018-12-31T18:16:00Z</updated>
+    <link href="https://arxiv.org/abs/1812.11933v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1812.11933v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce semisimple 2-categories, fusion 2-categories, and spherical fusion 2-categories. For each spherical fusion 2-category, we construct a state-sum invariant of oriented singular piecewise-linear 4-manifolds.</summary>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-12-31T18:16:00Z</published>
+    <arxiv:primary_category term="math.QA"/>
+    <author>
+      <name>Christopher L. Douglas</name>
+    </author>
+    <author>
+      <name>David J. Reutter</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-th/0105321v2</id>
+    <title>Fusion Rules for Affine sl(2|1;C) at Fractional Level k=-1/2</title>
+    <updated>2001-06-05T20:20:25Z</updated>
+    <link href="https://arxiv.org/abs/hep-th/0105321v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-th/0105321v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We calculate fusion rules for the admissible representations of the affine superalgebra sl(2|1;C) at fractional level k=-1/2 in the Ramond sector. By representing 3-point correlation functions involving a singular vector as the action of differential operators on the sl(2|1;C) invariant 3-point function, we obtain conditions on permitted quantum numbers involved. We find that in this case the primary fields close under fusion.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2001-05-31T21:58:39Z</published>
+    <arxiv:comment>LaTeX, 18 pages; references added</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Gavin Johnstone</name>
+      <arxiv:affiliation>University of Durham</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-th/9906139v1</id>
+    <title>A note on decoupling conditions for generic level $\hat{sl}(3)_k$ and fusion rules</title>
+    <updated>1999-06-17T23:53:24Z</updated>
+    <link href="https://arxiv.org/abs/hep-th/9906139v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-th/9906139v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We find the solution of the $\hat{sl}(3)_k$ singular vector decoupling equations on 3-point functions for the particular case when one of the fields is of weight $w_0\cdot kΛ_0$. The result is a function with non-trivial singularities in the flag variables, namely a linear combination of 2F1 hypergeometric functions. This calculation fills in a gap in [1] and confirms the $\hat{sl}(3)_k$ fusion rules determined there both for generic $κ\not \in \IQ$ and fractional levels.
+  We have also analysed the fusion in $\hat{sl}(3)_k$ using algebraic methods generalising those of Feigin and Fuchs and again find agreement with [1]. In the process we clarify some details of previous treatments of the fusion of $\hat{sl}(2)_k$ fractional level admissible representations.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1999-06-17T23:53:24Z</published>
+    <arxiv:comment>28 pages, 1 figure</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Nucl.Phys. B571 (2000) 457-478</arxiv:journal_ref>
+    <author>
+      <name>A. Ch. Ganchev</name>
+    </author>
+    <author>
+      <name>V. B. Petkova</name>
+    </author>
+    <author>
+      <name>G. M. T. Watts</name>
+    </author>
+    <arxiv:doi>10.1016/S0550-3213(99)00745-2</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/S0550-3213(99)00745-2" title="doi"/>
+  </entry>
+</feed>

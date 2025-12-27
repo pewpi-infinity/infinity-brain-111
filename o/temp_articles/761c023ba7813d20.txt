@@ -1,0 +1,30 @@
+TERMS: entropy, electron, tachyon
+COLORS: red, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/8lY8hQDSxsHzmLh7hZAI6Qnfsuc</id>
+  <title>arXiv Query: search_query=all:entropy AND all:electron AND all:tachyon&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:17:06Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+(all:electron+AND+all:tachyon)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1108.3041v1</id>
+    <title>Specific heat and entropy of tachyon Fermi gas</title>
+    <updated>2011-08-15T17:54:29Z</updated>
+    <link href="https://arxiv.org/abs/1108.3041v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1108.3041v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider an ideal Fermi gas of tachyons and derive a low temperature expansion of its thermodynamical functions. The tachyonic specific heat is linear dependent on temperature $C_V=ε_Fk_FT$ and formally coincides with the specific heat of electron gas if the tachyon Fermi energy is defined as $ε_F=\sqrt{k_F-m^2}$.</summary>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-08-15T17:54:29Z</published>
+    <arxiv:comment>10 pages</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.CO"/>
+    <author>
+      <name>Ernst Trojan</name>
+    </author>
+  </entry>
+</feed>

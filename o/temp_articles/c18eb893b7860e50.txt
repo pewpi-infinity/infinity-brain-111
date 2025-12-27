@@ -1,0 +1,34 @@
+TERMS: hydrogen, electron, boson, singularity
+COLORS: purple, green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/MMYLhK1qCOuLrbYnJZxYXONAJFE</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:electron AND all:boson AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:57:09Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:electron+AND+(all:boson+AND+all:singularity))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/physics/0209089v3</id>
+    <title>Criticality of Electron-Nucleus Cusp Condition to Local Effective Potential Energy Theories</title>
+    <updated>2003-02-26T19:43:40Z</updated>
+    <link href="https://arxiv.org/abs/physics/0209089v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/physics/0209089v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Local(multiplicative) effective potential energy theories of electronic structure comprise the transformation of the Schr{ö}dinger equation for interacting fermi systems to model noninteracting fermi or bose systems whereby the equivalent density and energy are obtained. By employing the integrated form of the Kato electron-nucleus cusp condition, we prove that the effective electron -interaction potential energy of these model fermions or bosons is finite at a nucleus. The proof is general and valid for arbitrary system whether it be atomic, molecular, or solid state, and for arbitrary state and symmetry. This then provides justification for all prior work in the literature based on the assumption of finiteness of this potential energy at a nucleus. We further demonstrate the criticality of the electron-nucleus cusp condition to such theories by example of the Hydrogen molecule. We show thereby that both model system effective electron-interaction potential energies, as determined from densities derived from accurate wave functions, will be singular at the nucleus unless the wave function satisfies the electron-nucleus cusp condition.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-09-25T16:03:19Z</published>
+    <arxiv:comment>13 pages, 3 figures, Physical Review A 67, 012501 (2003)</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>Xiao-Yin Pan</name>
+    </author>
+    <author>
+      <name>Viraht Sahni</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.67.012501</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.67.012501" title="doi"/>
+  </entry>
+</feed>

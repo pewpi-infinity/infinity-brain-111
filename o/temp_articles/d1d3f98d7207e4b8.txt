@@ -1,0 +1,93 @@
+TERMS: hydrogen, lattice, electron, crystal
+COLORS: purple, orange, green, orange
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/fSLh6JLBKG1JK45D1QfmuOVJ6eo</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:lattice AND all:electron AND all:crystal&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:46:20Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:lattice+AND+(all:electron+AND+all:crystal))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>51</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2510.22749v1</id>
+    <title>Novel A2CrH6 (A = Ca, Sr, Ba) hydrides explored by first-principles calculations for hydrogen storage applications</title>
+    <updated>2025-10-26T16:51:57Z</updated>
+    <link href="https://arxiv.org/abs/2510.22749v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.22749v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A theoretical study of a number of properties of A2CrH6 (where A = Ba, Sr, and Ca) hydride perovskites with the Cambridge Serial Total Energy Package (CASTEP). These include structural, hydrogen storage, mechanical, phonon, thermodynamic, electronic, and optical properties. The lattice constants of the compounds studied are in the range from 7.220 Å to 8.082 Å, and they exhibit stable cubic crystal structures. Negative formation energies, elastic constants, phonon dispersion and AIMD simulations testify to their thermodynamic, mechanical, dynamic and thermal stability, respectively. For the perovskite hydrides Ba2CrH6, Sr2CrH6 and Ca2CrH6, the corresponding specific hydrogen storage capacities are 1.82 wt.%, 2.69 wt.%, and 4.37 wt.%, respectively. Among these compounds, Sr2CrH6 exhibits the lowest applicable hydrogen desorption temperature, at 463.7 K. The electronic bands show remarkable spin activity, demonstrating that the change of A2+ cation (where A = Ca, Sr, and Ba) immediately influences the spin polarization and electronic behavior of hydride perovskites. On the basis of the elastic moduli studied, the mechanical behavior determines that Ca2CrH6 is the strongest material. The present results highlight the potential of A2CrH6 (A = Ca, Sr, and Ba) perovskite hydrides, in particular Ca2CrH6, for applications in advanced energy systems and hydrogen storage, as well as for electrical and optoelectronic devices.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-26T16:51:57Z</published>
+    <arxiv:comment>40 pages, 12 figures, 7 tables. Submitted to International Journal of Hydrogen Energy</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Zakaria El Fatouaki</name>
+    </author>
+    <author>
+      <name>El Mustapha Hrida</name>
+    </author>
+    <author>
+      <name>Abderahhim Jabar</name>
+    </author>
+    <author>
+      <name>Abdellah Tahiri</name>
+    </author>
+    <author>
+      <name>Mohamed Idiri</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1102.5200v2</id>
+    <title>Hydrogen-doped cubic diamond and the crystal structure of n-diamond</title>
+    <updated>2011-10-27T06:48:30Z</updated>
+    <link href="https://arxiv.org/abs/1102.5200v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1102.5200v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>To understand the crystal structure of n-diamond, a hydrogen-doped (H-doped) diamond model has been investigated using first principles calculations. In particular, hydrogen concentration dependent elastic constants and lattice parameters for the H-doped diamond have been analyzed. Our results indicate that when the hydrogen concentration is less than 19 at.%, the H-doped diamond is mechanically stable. When the hydrogen concentration is about 4 at.%, the optimized lattice parameter, simulated XRD pattern and electronic properties for the H-doped diamond all agree well with the corresponding experimental values of n-diamond. The results imply that the n-diamond is likely to be an H-doped diamond.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-02-25T09:54:48Z</published>
+    <arxiv:comment>This paper has been published by a peer-reviewed Journal</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Bin Wen</name>
+    </author>
+    <author>
+      <name>Roderick Melnik</name>
+    </author>
+    <author>
+      <name>Shan Yao</name>
+    </author>
+    <author>
+      <name>Tingju Li</name>
+    </author>
+    <arxiv:doi>10.1016/j.cplett.2011.10.014</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.cplett.2011.10.014" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2402.13059v1</id>
+    <title>How accurate are simulations and experiments for the lattice energies of molecular crystals?</title>
+    <updated>2024-02-20T14:54:49Z</updated>
+    <link href="https://arxiv.org/abs/2402.13059v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.13059v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Molecular crystals play a central role in a wide range of scientific fields, including pharmaceuticals and organic semiconductor devices. However, they are challenging systems to model accurately with computational approaches because of a delicate interplay of intermolecular interactions such as hydrogen bonding and van der Waals dispersion forces. Here, by exploiting recent algorithmic developments, we report the first set of diffusion Monte Carlo lattice energies for all 23 molecular crystals in the popular and widely used X23 dataset. Comparisons with previous state-of-the-art lattice energy predictions (on a subset of the dataset) and a careful analysis of experimental sublimation enthalpies reveals that high-accuracy computational methods are now at least as reliable as (computationally derived) experiments for the lattice energies of molecular crystals. Overall, this work demonstrates the feasibility of high-level explicitly correlated electronic structure methods for broad benchmarking studies in complex condensed phase systems, and signposts a route towards closer agreement between experiment and simulation.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-20T14:54:49Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 133, 046401 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Flaviano Della Pia</name>
+    </author>
+    <author>
+      <name>Andrea Zen</name>
+    </author>
+    <author>
+      <name>Dario Alfè</name>
+    </author>
+    <author>
+      <name>Angelos Michaelides</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.133.046401</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.133.046401" title="doi"/>
+  </entry>
+</feed>

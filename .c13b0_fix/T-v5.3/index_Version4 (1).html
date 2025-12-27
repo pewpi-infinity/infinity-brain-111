@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Osprey Terminal v5.3</title>
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header id="header">
+    <img src="assets/logo.svg" alt="Osprey" id="logo" />
+    <h1>Osprey Terminal v5.3</h1>
+  </header>
+
+  <main id="terminal">
+    <div id="output" aria-live="polite"></div>
+    <div id="input-area">
+      <input id="input-line" autocomplete="off" placeholder="type a command, or say: 'run python hello.py'"/>
+    </div>
+  </main>
+
+  <div id="status">loading…</div>
+
+  <!-- Pyodide (Python runtime) -->
+  <script src="https://cdn.jsdelivr.net/pyodide/v0.23.4/full/pyodide.js"></script>
+
+  <!-- Core libs (order matters) -->
+  <script src="apps/rogers.js"></script>
+  <script src="apps/intelligence-core.js"></script>
+  <script src="apps/fs-storage.js"></script>
+  <script src="apps/exec-engine.js"></script>
+  <script src="apps/term-commands.js"></script>
+
+  <!-- Optional tools and UI -->
+  <script src="apps/package-manager.js"></script>
+  <script src="apps/editor.js"></script>
+  <script src="apps/debugger.js"></script>
+  <script src="apps/initializer.js"></script>
+  <script src="apps/quantum.js"></script>
+
+  <!-- Shell UI last -->
+  <script src="apps/shell.js"></script>
+</body>
+</html>

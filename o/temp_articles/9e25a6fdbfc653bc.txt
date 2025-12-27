@@ -1,0 +1,81 @@
+TERMS: hydrogen, electron, plasma, probability
+COLORS: purple, green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/7EChR66VpNzqQVrC8mBpRnbfYs8</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:electron AND all:plasma AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:57:20Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:electron+AND+(all:plasma+AND+all:probability))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>25</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2012.04069v1</id>
+    <title>Non-Maxwellian rate coefficients for electron and ion collisions in Rydberg plasmas: implications for excitation and ionization</title>
+    <updated>2020-12-07T21:23:57Z</updated>
+    <link href="https://arxiv.org/abs/2012.04069v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2012.04069v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Scattering phenomena between charged particles and highly excited Rydberg atoms are of critical importance in many processes in plasma physics and astrophysics. While a Maxwell-Boltzmann (MB) energy distribution for the charged particles is often assumed for calculations of collisional rate coefficients, in this contribution we relax this assumption and use two different energy distributions, a bimodal MB distribution and a $κ$-distribution. Both variants share a high-energy tails occurring with higher probability than the corresponding MB distribution. The high energy tail may significantly affect rate coefficients for various processes. We focus the analysis to specific situations by showing the dependence of the rate coefficients on the principal quantum number of hydrogen atoms in n-changing collisions with electrons in the excitation and ionization channels and in a temperature range relevant to the divertor region of a tokamak device. We finally discuss the implications for diagnostics of laboratory plasmas.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.space-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-12-07T21:23:57Z</published>
+    <arxiv:comment>14 pages, 4 figures, Journal of Plasma Physics collection on 'Laboratory and Astrophysical Plasmas: New Perspectives'</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <arxiv:journal_ref>J. Plasma Phys. 86, 845860391 (2020)</arxiv:journal_ref>
+    <author>
+      <name>Daniel Vrinceanu</name>
+    </author>
+    <author>
+      <name>Roberto Onofrio</name>
+    </author>
+    <author>
+      <name>Hossein R. Sadeghpour</name>
+    </author>
+    <arxiv:doi>10.1017/S0022377820000513</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1017/S0022377820000513" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.00731v1</id>
+    <title>Inference of the degree of dissociation of weakly collisional hydrogen plasmas using collisional-radiative models</title>
+    <updated>2025-04-29T07:13:18Z</updated>
+    <link href="https://arxiv.org/abs/2505.00731v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.00731v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A new analysis technique for the inference of degree of dissociation of weakly collisional hydrogen plasmas was developed and tested with an experiment. Neutrals in low temperature plasmas are critical to a wide range of plasma-based technologies, and thus, it is important to investigate their properties. The most important physical parameter for neutrals in hydrogen plasmas is the degree of dissociation, and the technique for its inference was developed in this work. To improve the accuracy of the analysis, the collisional-radiative models for hydrogen atom and molecule were constructed and modified to handle bi-Maxwellian electron energy distribution and radiation trapping effect. An additional analysis of Fulcher-alpha transitions was conducted to obtain gas temperature and ground vibrational temperature from rotational-vibrational distribution of excited molecules. The technique involves multiple steps to generate calculated excited state distributions from experimental data, which are then compared to measured distributions to infer the most probable degree of dissociation. To test and verify the analysis technique, experiments were conducted. Hydrogen plasmas were generated in a large cylindrical chamber named MAXIMUS, by DC discharge with a hot cathode. Various diagnostics including the optical emission and absorption spectroscopy, and the Langmuir probe measurement were performed to obtain spectra and electron parameters. The degrees of dissociation for the generated plasmas were inferred, based on the measured data and the analysis technique. Several problems and implications were discussed and improvement strategies were outlined. Overall, the analysis technique developed in this work is expected to play a valuable role in future diagnostic and analytical studies of hydrogen plasmas.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-29T07:13:18Z</published>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>Bin Ahn</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/physics/9804008v3</id>
+    <title>UV continuum emission and diagnostics of hydrogen-containing non-equilibrium plasmas</title>
+    <updated>1998-11-20T17:23:20Z</updated>
+    <link href="https://arxiv.org/abs/physics/9804008v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/physics/9804008v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  For the first time the emission of the radiative dissociation continuum of the hydrogen molecule ($a^{3}Σ_{g}^{+} \to b^{3}Σ_{u}^{+}$ electronic transition) is proposed to be used as a source of information for the spectroscopic diagnostics of non-equilibrium plasmas. The detailed analysis of excitation-deactivation kinetics, rate constants of various collisional and radiative transitions and fitting procedures made it possible to develop two new methods of diagnostics of: (1) the ground $X^{1}Σ_{g}^{+}$ state vibrational temperature $T_{\text{vib}}$ from the relative intensity distribution, and (2) the rate of electron impact dissociation $(d[\mbox{H$_{2}$}]/dt)_{\text{diss}}$ from the absolute intensity of the continuum. A known method of determination of $T_{\text{vib}}$ from relative intensities of Fulcher-$α$ bands was seriously corrected and simplified due to the revision of $d \to a$ transition probabilities and cross sections of $d \gets X$ electron impact excitation. General considerations are illustrated with examples of experiments in pure hydrogen capillary-arc and H$_{2}$+Ar microwave discharges.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1998-04-07T13:52:37Z</published>
+    <arxiv:comment>REVTeX, 25 pages + 12 figures + 9 tables. Phys. Rev. E, eprint replaced because of resubmission to journal after referee's 2nd report</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <arxiv:journal_ref>Phys. Rev. E, 59 1999 3526-3543</arxiv:journal_ref>
+    <author>
+      <name>M. Käning</name>
+    </author>
+    <author>
+      <name>B. P. Lavrov</name>
+    </author>
+    <author>
+      <name>A. S. Melnikov</name>
+    </author>
+    <author>
+      <name>J. Röpcke</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevE.59.3526</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevE.59.3526" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,88 @@
+TERMS: hydrogen, quantum, frequency, probability
+COLORS: purple, blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/VgtR8rYh9m8/FyWJ7uAENj6kmoc</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:frequency AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:37:56Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:frequency+AND+all:probability))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>17</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1409.2926v1</id>
+    <title>A new time-frequency method to reveal quantum dynamics of atomic hydrogen in intense laser pulses: Synchrosqueezing Transform</title>
+    <updated>2014-09-10T00:21:15Z</updated>
+    <link href="https://arxiv.org/abs/1409.2926v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1409.2926v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This study introduces a new adaptive time-frequency (TF) analysis technique, synchrosqueezing transform (SST), to explore the dynamics of a laser-driven hydrogen atom at an {\it ab initio} level, upon which we have demonstrated its versatility as a new viable venue for further exploring quantum dynamics. For a signal composed of oscillatory components which can be characterized by instantaneous frequency, the SST enables rendering the decomposed signal based on the phase information inherited in the linear TF representation with mathematical support. Compared with the classical type TF methods, the SST clearly depicts several intrinsic quantum dynamical processes such as selection rules, AC Stark effects, and high harmonic generation.</summary>
+    <category term="physics.data-an" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-09-10T00:21:15Z</published>
+    <arxiv:primary_category term="physics.data-an"/>
+    <arxiv:journal_ref>AIP Advances 4, 117138 (2014)</arxiv:journal_ref>
+    <author>
+      <name>Yae-lin Sheu</name>
+    </author>
+    <author>
+      <name>Liang-Yan Hsu</name>
+    </author>
+    <author>
+      <name>Hau-tieng Wu</name>
+    </author>
+    <author>
+      <name>Peng-Cheng Li</name>
+    </author>
+    <author>
+      <name>Shih-I Chu</name>
+    </author>
+    <arxiv:doi>10.1063/1.4903164</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/1.4903164" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.05010v1</id>
+    <title>Quantum Tunneling in the Surface Diffusion of Single Hydrogen Atoms on Cu(001)</title>
+    <updated>2023-06-08T07:58:33Z</updated>
+    <link href="https://arxiv.org/abs/2306.05010v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.05010v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The adsorption and diffusion of hydrogen atoms on Cu(001) are studied using first-principles calculations. By taking into account the contribution of zero-point energy (ZPE), the originally identical barriers are shown to be different for H and D, which are respectively calculated to be ~ 158 meV and ~ 139 meV in height. Using the transfer matrix method (TMM), we are able to calculate the accurate probability of transmission across the barriers. The crucial role of quantum tunneling is clearly demonstrated at low-temperature region. By introducing a temperature-dependent attempting frequency prefactor, the rate constants and diffusion coefficients are calculated. The results are in agreement with the experimental measurements at temperatures from ~ 50 K to 80 K.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-08T07:58:33Z</published>
+    <arxiv:comment>18 pages, 4 figures, 2 tables</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Chinese Physics B (2023)</arxiv:journal_ref>
+    <author>
+      <name>Xiaofan Yu</name>
+    </author>
+    <author>
+      <name>Yangwu Tong</name>
+    </author>
+    <author>
+      <name>Yong Yang</name>
+    </author>
+    <arxiv:doi>10.1088/1674-1056/acd2b4</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1674-1056/acd2b4" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1911.04215v1</id>
+    <title>An nl-model with radiative transfer for hydrogen recombination line masers</title>
+    <updated>2019-11-11T12:45:14Z</updated>
+    <link href="https://arxiv.org/abs/1911.04215v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1911.04215v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Atomic hydrogen masers occur in recombination plasmas in sufficiently dense HII regions. These hydrogen recombination line (HRL) masers have been observed in a handful of objects to date and the analysis of the atomic physics involved has been rudimentary. In this work a new model of HRL masers is presented which uses an nl-model to describe the atomic populations interacting with free-free radiation from the plasma, and an escape probability framework to deal with radiative transfer effects. The importance of including the collisions between angular momentum quantum states and the free-free emission in models of HRL masers is demonstrated. The model is used to describe the general behaviour of radiative transfer of HRLs and to investigate the conditions under which HRL masers form. The model results show good agreement with observations collected over a broad range of frequencies. Theoretical predictions are made regarding the ratio of recombination lines from the same upper quantum level for these objects.</summary>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-11-11T12:45:14Z</published>
+    <arxiv:comment>11 pages, 12 figures</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.GA"/>
+    <author>
+      <name>Andri Prozesky</name>
+    </author>
+    <author>
+      <name>Derck P. Smits</name>
+    </author>
+    <arxiv:doi>10.1093/mnras/stz3174</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1093/mnras/stz3174" title="doi"/>
+  </entry>
+</feed>

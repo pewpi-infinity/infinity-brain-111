@@ -1,0 +1,77 @@
+TERMS: ionization, neutrino, oxidation
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/BNhydVFXOUTNAWuRApBezPWXb+Y</id>
+  <title>arXiv Query: search_query=all:ionization AND all:neutrino AND all:oxidation&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:30:15Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:ionization+AND+(all:neutrino+AND+all:oxidation)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2111.00644v1</id>
+    <title>The Selena Neutrino Experiment</title>
+    <updated>2021-11-01T01:15:53Z</updated>
+    <link href="https://arxiv.org/abs/2111.00644v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2111.00644v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Imaging sensors made from an ionization target layer of amorphous selenium (aSe) coupled to a silicon complementary metal-oxide-semiconductor (CMOS) active pixel array for charge readout are a promising technology for neutrino physics. The high spatial resolution in a solid-state target provides unparalleled rejection of backgrounds from natural radioactivity in the search for neutrinoless $ββ$ decay and for solar neutrino spectroscopy with $^{82}$Se. We present results on the ionization response of aSe measured from the photoabsorption of 122 keV $γ$ rays in a single-pixel device. We report on the progress in the fabrication and testing of the first prototype imaging sensors based on the Topmetal-II$^{\rm -}$ pixelated CMOS charge readout chip. We explore the scientific reach of a large neutrino detector with the proposed technology based on our experimental understanding of the sensor performance.</summary>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-11-01T01:15:53Z</published>
+    <arxiv:comment>Proceedings for the 17th International Conference on Topics in Astroparticle and Underground Physics (TAUP 2021)</arxiv:comment>
+    <arxiv:primary_category term="physics.ins-det"/>
+    <author>
+      <name>Alvaro E. Chavarria</name>
+    </author>
+    <arxiv:doi>10.1088/1742-6596/2156/1/012155</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1742-6596/2156/1/012155" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2203.08779v1</id>
+    <title>Snowmass 2021 White Paper: The Selena Neutrino Experiment</title>
+    <updated>2022-03-16T17:44:03Z</updated>
+    <link href="https://arxiv.org/abs/2203.08779v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2203.08779v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Imaging devices made from an ionization target layer of amorphous selenium (aSe) coupled to a silicon complementary metal-oxide-semiconductor (CMOS) active pixel array for charge readout are a promising technology for neutrino physics. The high spatial resolution in a solid-state target provides unparalleled rejection of backgrounds from natural radioactivity in the search for neutrinoless $ββ$ decay and for electron neutrino ($ν_e$) spectroscopy with $^{82}$Se. In this white paper, we summarize the broad scientific program of a large imaging detector with a 10-ton target of $^{82}$Se. We review the detector technology, and outline the ongoing research program to realize this experiment.</summary>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-03-16T17:44:03Z</published>
+    <arxiv:comment>Contribution to Snowmass 2021</arxiv:comment>
+    <arxiv:primary_category term="physics.ins-det"/>
+    <author>
+      <name>A. E. Chavarria</name>
+    </author>
+    <author>
+      <name>C. Galbiati</name>
+    </author>
+    <author>
+      <name>B. Hernandez-Molinero</name>
+    </author>
+    <author>
+      <name>Al. Ianni</name>
+    </author>
+    <author>
+      <name>X. Li</name>
+    </author>
+    <author>
+      <name>Y. Mei</name>
+    </author>
+    <author>
+      <name>D. Montanino</name>
+    </author>
+    <author>
+      <name>X. Ni</name>
+    </author>
+    <author>
+      <name>C. Peña Garay</name>
+    </author>
+    <author>
+      <name>A. Piers</name>
+    </author>
+    <author>
+      <name>H. Wang</name>
+    </author>
+  </entry>
+</feed>

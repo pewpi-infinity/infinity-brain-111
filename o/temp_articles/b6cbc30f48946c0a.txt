@@ -1,0 +1,69 @@
+TERMS: entropy, electron, singularity
+COLORS: red, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/cBlvWRczcthhrzvPao8Pk8P/nJU</id>
+  <title>arXiv Query: search_query=all:entropy AND all:electron AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:17:14Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+(all:electron+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>39</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1911.00593v3</id>
+    <title>Entropy-stable positivity-preserving DG schemes for Boltzmann-Poisson models of collisional electronic transport along energy bands</title>
+    <updated>2024-05-28T21:06:33Z</updated>
+    <link href="https://arxiv.org/abs/1911.00593v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1911.00593v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This work is related to developing entropy-stable positivity-preserving Discontinuous Galerkin (DG) methods as a computational scheme for Boltzmann-Poisson systems modeling the probability density of collisional electronic transport along semiconductor energy bands. In momentum coordinates representing spherical / energy-angular variables, we pose the respective Vlasov-Boltzmann equation with a linear collision operator and a singular measure, modeling scatterings as functions of the band structure appropriately for hot electron nanoscale transport.
+  We show stability results of semi-discrete DG schemes under an entropy norm for 1D-position (2D-momentum) and 2D-position (3D-momentum), using dissipative properties of the collisional operator given its entropy inequality. The latter depends on an exponential of the Hamiltonian rather than the Maxwellian associated with only kinetic energy. For the 1D problem, knowing the analytic solution to the Poisson equation and convergence to a constant current is crucial to obtaining full stability (weighted entropy norm decreasing over time). For the 2D problem, specular reflection boundary conditions and periodicity are considered in estimating stability under an entropy norm. Regarding the positivity-preservation proofs in the DG scheme for the 1D problem, inspired by \cite{ZhangShu1}, \cite{ZhangShu2}, and \cite{CGP}, \cite{EECHXM-JCP}, we treat collisions as a source and find convex combinations of the transport and collision terms which guarantee positivity of the cell average of our numerical probability density at the next time. The positivity of the numerical solution to the probability density in the domain is guaranteed by applying the limiters in \cite{ZhangShu1} and \cite{ZhangShu2} that preserve the cell average modifying the slope of the piecewise linear solutions to make the function non-negative.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-11-01T21:17:13Z</published>
+    <arxiv:comment>First author acknowledges discussions with Eirik Endeve and Cory Hauck during the time spent visiting them at ORNL (restricted to positivity preservation, appearing on arXiv:1711.03949) on a trip paid by the kinet grant NSF-RNMS DMS-1107465. V3 is a much more extended version where two new proofs have been included to deal with the curvilinear momentum, related to L2-error estimate theorems</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Jose A. Morales Escalante</name>
+    </author>
+    <author>
+      <name>Irene M. Gamba</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2309.17325v5</id>
+    <title>Evanescent Electron Wave Spin</title>
+    <updated>2024-09-02T06:41:36Z</updated>
+    <link href="https://arxiv.org/abs/2309.17325v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2309.17325v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This study demonstrates the existence of an evanescent electron wave outside both finite and infinite quantum wells by solving the Dirac equation and ensuring the continuity of the spinor wavefunction at the boundaries. We show that this evanescent wave shares the spin characteristics of the wave confined within the well, as indicated by analytical expressions for the current density across all regions. Our findings suggest that the electron cannot be confined to a mathematical singularity and that quantum information, or quantum entropy, can leak through any confinement. These results emphasize that the electron wave, fully characterized by Lorentz-invariant charge and current densities, should be considered the true and sole entity of the electron.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-09-29T15:32:37Z</published>
+    <arxiv:comment>6 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Ju Gao</name>
+    </author>
+    <author>
+      <name>Fang Shen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1103.1828v1</id>
+    <title>Gravitational collapse and entropy of Black Holes with magnetic sources</title>
+    <updated>2011-03-09T16:42:22Z</updated>
+    <link href="https://arxiv.org/abs/1103.1828v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1103.1828v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This thesis is divided in two parts, each one addressing problems that can be relevant in the study of compact objects.  The first part deals with the study of a magnetized and self-gravitating gas of degenerated fermions (electrons and neutrons) as sources of a Bianchi-I space-time. We solve numerically the Einstein-Maxwell field equations for a large set of initial conditions of the dynamical variables. The collapsing singularity is isotropic for the neutron gas and can be anisotropic for the electron gas. This result is consistent with the fact that electrons exhibit a stronger coupling with the magnetic field, which is the source of anisotropy in the dynamical variables. In the second part we calculate the entropy of extremal black holes in 4 and 5 dimensions, using the entropy function formalism of Sen and taking into account higher order derivative terms that come from the complete set of Riemann invariants. The resulting entropies show the deviations from the well know Bekenstein-Hawking area law.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-03-09T16:42:22Z</published>
+    <arxiv:comment>The PhD thesis is written in Spanish, 102 pages, 9 figures and JHEP style</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>A. Ulacia Rey</name>
+    </author>
+  </entry>
+</feed>

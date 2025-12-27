@@ -1,0 +1,89 @@
+TERMS: frequency, lattice, boson
+COLORS: green, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/R7ip+HOf2aPLyzB/gu2lZiH0+No</id>
+  <title>arXiv Query: search_query=all:frequency AND all:lattice AND all:boson&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:09:44Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:lattice+AND+all:boson)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>269</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/0907.1332v1</id>
+    <title>Many-body physics in the radio frequency spectrum of lattice bosons</title>
+    <updated>2009-07-08T03:11:59Z</updated>
+    <link href="https://arxiv.org/abs/0907.1332v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0907.1332v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We calculate the radio-frequency spectrum of a trapped cloud of cold bosonic atoms in an optical lattice. Using random phase and local density approximations we produce both trap averaged and spatially resolved spectra, identifying simple features in the spectra that reveal information about both superfluidity and correlations. Our approach is exact in the deep Mott limit and in the deep superfluid when the hopping rates for the two internal spin states are equal. It contains final state interactions, obeys the Ward identities (and the associated conservation laws), and satisfies the $f$-sum rule. Motivated by earlier work by Sun, Lannert, and Vishveshwara [Phys. Rev. A \textbf{79}, 043422 (2009)], we also discuss the features which arise in a spin-dependent optical lattice.</summary>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-07-08T03:11:59Z</published>
+    <arxiv:comment>6 pages, 4 figures, 13 subfigures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.quant-gas"/>
+    <arxiv:journal_ref>Phys. Rev. A 81, 033404 (2010)</arxiv:journal_ref>
+    <author>
+      <name>Kaden R. A. Hazzard</name>
+      <arxiv:affiliation>Cornell</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Erich J. Mueller</name>
+      <arxiv:affiliation>Cornell</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.81.033404</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.81.033404" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0504762v2</id>
+    <title>Non-equilibrium coherence dynamics of a soft boson lattice</title>
+    <updated>2005-04-28T20:24:15Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0504762v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0504762v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We study the non-equilibrium evolution of the phase coherence of a Bose-Einstein condensate (BEC) in a one dimensional optical lattice, as the lattice is suddenly quenched from an insulating to a superfluid state. We observe slowly damped phase coherence oscillations in the regime of large filling factor (~100 bosons per site) at a frequency proportional to the generalized Josephson frequency. The truncated Wigner approximation (TWA) predicts the frequency of the observed oscillations.</summary>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-04-28T19:32:58Z</published>
+    <arxiv:comment>10 pages. 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.other"/>
+    <author>
+      <name>A. K. Tuchman</name>
+    </author>
+    <author>
+      <name>C. Orzel</name>
+    </author>
+    <author>
+      <name>A. Polkovnikov</name>
+    </author>
+    <author>
+      <name>M. A. Kasevich</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.74.051601</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.74.051601" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1805.02770v2</id>
+    <title>Emergent Finite Frequency Criticality of Driven-Dissipative Correlated Lattice Bosons</title>
+    <updated>2019-05-31T15:38:51Z</updated>
+    <link href="https://arxiv.org/abs/1805.02770v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1805.02770v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Critical points and phase transitions are characterized by diverging susceptibilities, reflecting the tendency of the system toward spontaneous symmetry breaking. Equilibrium statistical mechanics bounds these instabilities to occur at zero frequency, giving rise to static order parameters. In this work we introduce a new class of dynamical transitions in a quantum many body system far from thermal equilibrium, characterized by a susceptibility diverging at a finite non-zero frequency, an emerging scale set by interactions and non-equilibrium effects. In the broken-symmetry phase the corresponding macroscopic order parameter becomes non-stationary and oscillates in time without damping, thus breaking continuous time-translational symmetry. Our results, obtained for a paradigmatic model of bosons interacting on lattice in prensence of drive and dissipation, are relevant for the upcoming generation of circuit QED arrays experiments and outline a generic framework to study time-domain instabilities in non-equilibrium quantum systems, including Floquet time crystals and quantum synchronization.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-05-07T22:29:03Z</published>
+    <arxiv:comment>10 pages, 8 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Phys. Rev. B 99, 064511 (2019)</arxiv:journal_ref>
+    <author>
+      <name>Orazio Scarlatella</name>
+    </author>
+    <author>
+      <name>Rosario Fazio</name>
+    </author>
+    <author>
+      <name>Marco Schiró</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.99.064511</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.99.064511" title="doi"/>
+  </entry>
+</feed>

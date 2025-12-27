@@ -1,0 +1,110 @@
+TERMS: hydrogen, frequency, superconductivity, spin
+COLORS: purple, green, green, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/JkSrjWNta/dIiKhA9QflKE2SFE4</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:frequency AND all:superconductivity AND all:spin&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:43:58Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:frequency+AND+(all:superconductivity+AND+all:spin))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>5</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1311.7153v1</id>
+    <title>Strong Meissner screening change in superconducting radio frequency cavities due to mild baking</title>
+    <updated>2013-11-27T21:02:20Z</updated>
+    <link href="https://arxiv.org/abs/1311.7153v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1311.7153v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate "hot" regions with anomalous high field dissipation in bulk niobium superconducting radio frequency cavities for particle accelerators by using low energy muon spin rotation (LE-$μ$SR) on corresponding cavity cutouts. We demonstrate that superconducting properties at the hot region are well described by the non-local Pippard/BCS model for niobium in the clean limit with a London penetration depth $λ_\mathrm{L} = 23 \pm 2$ nm. In contrast, a cutout sample from the 120$^\circ$C baked cavity shows a much larger $λ&gt; 100$ nm and a depth dependent mean free path, likely due to gradient in vacancy concentration. We suggest that these vacancies can efficiently trap hydrogen and hence prevent the formation of hydrides responsible for rf losses in hot regions.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.acc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-11-27T21:02:20Z</published>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>A. Romanenko</name>
+    </author>
+    <author>
+      <name>A. Grassellino</name>
+    </author>
+    <author>
+      <name>F. Barkov</name>
+    </author>
+    <author>
+      <name>A. Suter</name>
+    </author>
+    <author>
+      <name>Z. Salman</name>
+    </author>
+    <author>
+      <name>T. Prokscha</name>
+    </author>
+    <arxiv:doi>10.1063/1.4866013</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/1.4866013" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1908.02606v1</id>
+    <title>Geometric Scaling of Two-Level-System Loss in Superconducting Resonators</title>
+    <updated>2019-08-07T12:59:35Z</updated>
+    <link href="https://arxiv.org/abs/1908.02606v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1908.02606v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We perform an experimental and numerical study of dielectric loss in superconducting microwave resonators at low temperature. Dielectric loss, due to two-level systems, is a limiting factor in several applications, e.g. superconducting qubits, Josephson parametric amplifiers, microwave kinetic-inductance detectors, and superconducting single-photon detectors. Our devices are made of disordered NbN, which, due to magnetic-field penetration, necessitates 3D finite-element simulation of the Maxwell--London equations at microwave frequencies to accurately model the current density and electric field distribution. From the field distribution, we compute the geometric filling factors of the lossy regions in our resonator structures and fit the experimental data to determine the intrinsic loss tangents of its interfaces and dielectrics. We emphasise that the loss caused by a spin-on-glass resist such as hydrogen silsesquioxane (HSQ), used for ultrahigh lithographic resolution relevant to the fabrication of nanowires, and find that, when used, HSQ is the dominant source of loss, with a loss tangent of $δ^i_{HSQ} = 8 \times 10^{-3}$.</summary>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-08-07T12:59:35Z</published>
+    <arxiv:primary_category term="physics.app-ph"/>
+    <author>
+      <name>David Niepce</name>
+    </author>
+    <author>
+      <name>Jonathan Burnett</name>
+    </author>
+    <author>
+      <name>Martí Gutierrez Latorre</name>
+    </author>
+    <author>
+      <name>Jonas Bylander</name>
+    </author>
+    <arxiv:doi>10.1088/1361-6668/ab6179</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1361-6668/ab6179" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.03404v1</id>
+    <title>Sensing and Control of Single Trapped Electrons Above 1 Kelvin</title>
+    <updated>2024-12-04T15:34:58Z</updated>
+    <link href="https://arxiv.org/abs/2412.03404v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.03404v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Electrons trapped on the surface of cryogenic substrates (liquid helium, solid neon or hydrogen) are an emerging platform for quantum information processing made attractive by the inherent purity of the electron environment, the scalability of trapping devices and the predicted long lifetime of electron spin states. Here we demonstrate the spatial control and detection of single electrons above the surface of liquid helium at temperatures above 1 K. A superconducting coplanar waveguide resonator is used to read out the charge state of an electron trap defined by gate electrodes beneath the helium surface. Dispersive frequency shifts are observed as the trap is loaded with electrons, from several tens down to single electrons. These frequency shifts are in good agreement with our theoretical model that treats each electron as a classical oscillator coupled to the cavity field. This sensitive charge readout scheme can aid efforts to develop large-scale quantum processors that require the high cooling powers available in cryostats operating above 1 K.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-04T15:34:58Z</published>
+    <arxiv:comment>12 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>K. E. Castoria</name>
+    </author>
+    <author>
+      <name>N. R. Beysengulov</name>
+    </author>
+    <author>
+      <name>G. Koolstra</name>
+    </author>
+    <author>
+      <name>H. Byeon</name>
+    </author>
+    <author>
+      <name>E. O. Glen</name>
+    </author>
+    <author>
+      <name>M. Sammon</name>
+    </author>
+    <author>
+      <name>S. A. Lyon</name>
+    </author>
+    <author>
+      <name>J. Pollanen</name>
+    </author>
+    <author>
+      <name>D. G. Rees</name>
+    </author>
+  </entry>
+</feed>

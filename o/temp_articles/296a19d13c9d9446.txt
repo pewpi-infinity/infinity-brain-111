@@ -1,0 +1,133 @@
+TERMS: quantum, wavefunction, bandgap
+COLORS: blue, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/7RBq0nhfGOplG6su2JwBvy0YW+M</id>
+  <title>arXiv Query: search_query=all:quantum AND all:wavefunction AND all:bandgap&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:08:23Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:wavefunction+AND+all:bandgap)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>9</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2212.07637v1</id>
+    <title>Probing the Evolution of Electron Spin Wavefunction of NV Center in diamond via Pressure Tuning</title>
+    <updated>2022-12-15T07:12:51Z</updated>
+    <link href="https://arxiv.org/abs/2212.07637v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2212.07637v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Understanding the profile of a qubit's wavefunction is key to its quantum applications. Unlike conducting systems, where a scanning tunneling microscope can be used to probe the electron distribution, there is no direct method for solid-state-defect based qubits in wide-bandgap semiconductors. In this work, we use pressure as a tuning method and a nuclear spin as an atomic scale probe to monitor the hyperfine structure of negatively charged nitrogen vacancy (NV) centers in diamonds under pressure. We present a detailed study on the nearest-neighbor $^{13}C$ hyperfine splitting in the optically detected magnetic resonance (ODMR) spectrum of NV centers at different pressures. By examining the $^{13}C$ hyperfine interaction upon pressurizing, we show that the NV hyperfine parameters have prominent changes, resulting in an increase in the NV electron spin density and rehybridization from $sp^3$ to $sp^2$ bonds. The $ab$ $initio$ calculations of strain dependence of the NV center's hyperfine levels are done independently. The theoretical results qualitatively agree well with experimental data without introducing any fitting parameters. Furthermore, this method can be adopted to probe the evolution of wavefunction in other defect systems. This potential capability could play an important role in developing magnetometry and quantum information processing using the defect centers.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-12-15T07:12:51Z</published>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Phys. Rev. Appl. 18, 064042 (2022)</arxiv:journal_ref>
+    <author>
+      <name>Kin On Ho</name>
+    </author>
+    <author>
+      <name>Man Yin Leung</name>
+    </author>
+    <author>
+      <name>P. Reddy</name>
+    </author>
+    <author>
+      <name>Jianyu Xie</name>
+    </author>
+    <author>
+      <name>King Cho Wong</name>
+    </author>
+    <author>
+      <name>Yaxin Jiang</name>
+    </author>
+    <author>
+      <name>Wei Zhang</name>
+    </author>
+    <author>
+      <name>King Yau Yip</name>
+    </author>
+    <author>
+      <name>Wai Kuen Leung</name>
+    </author>
+    <author>
+      <name>Yiu Yung Pang</name>
+    </author>
+    <author>
+      <name>King Yiu Yu</name>
+    </author>
+    <author>
+      <name>Swee K. Goh</name>
+    </author>
+    <author>
+      <name>M. W. Doherty</name>
+    </author>
+    <author>
+      <name>Sen Yang</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevApplied.18.064042</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevApplied.18.064042" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.10901v1</id>
+    <title>Computing band gaps of periodic materials via sample-based quantum diagonalization</title>
+    <updated>2025-03-13T21:34:02Z</updated>
+    <link href="https://arxiv.org/abs/2503.10901v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.10901v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>State-of-the-art techniques in computational materials science often fail to capture many-body interactions in periodic systems. One particular application is the electronic structure problem, where established approaches such as Density Functional Theory are applied to predict experimental results. In this contribution, we present a sample-based quantum diagonalization (SQD) workflow for simulating the electronic ground state of periodic materials, and for predicting their band gaps. We obtain a fermionic Hamiltonian for crystalline solids by first projecting the electronic density obtained by density functional theory onto a localized basis set and then adding interaction parameters obtained by a self-consistent field theory. We then build an approximation of the system's ground-state wavefunction with the local unitary cluster Jastrow (LUCJ) ansatz. By sampling the quantum circuit and classically diagonalizing the Hamiltonian in the resulting configuration subspace, we predict the band gap energy of representative materials and obtain agreement with experimental results. The predicted bandgaps were obtained from calculations using 38 and 46 qubits, performed on a superconducting quantum processor, with minimal error-mitigation overhead. Our self-consistent approach offers a scalable pathway for utility-scale quantum simulation of materials.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-13T21:34:02Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Alan Duriez</name>
+    </author>
+    <author>
+      <name>Pamela C. Carvalho</name>
+    </author>
+    <author>
+      <name>Marco Antonio Barroca</name>
+    </author>
+    <author>
+      <name>Federico Zipoli</name>
+    </author>
+    <author>
+      <name>Ben Jaderberg</name>
+    </author>
+    <author>
+      <name>Rodrigo Neumann Barros Ferreira</name>
+    </author>
+    <author>
+      <name>Kunal Sharma</name>
+    </author>
+    <author>
+      <name>Antonio Mezzacapo</name>
+    </author>
+    <author>
+      <name>Benjamin Wunsch</name>
+    </author>
+    <author>
+      <name>Mathias Steiner</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1411.5983v1</id>
+    <title>One-dimensional Coulomb problem in Dirac materials</title>
+    <updated>2014-11-21T19:21:41Z</updated>
+    <link href="https://arxiv.org/abs/1411.5983v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1411.5983v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate the one-dimensional Coulomb potential with application to a class of quasirelativistic systems, so-called Dirac-Weyl materials, described by matrix Hamiltonians. We obtain the exact solution of the shifted and truncated Coulomb problems, with the wavefunctions expressed in terms of special functions (namely Whittaker functions), whilst the energy spectrum must be determined via solutions to transcendental equations. Most notably, there are critical bandgaps below which certain low-lying quantum states are missing in a manifestation of atomic collapse.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-11-21T19:21:41Z</published>
+    <arxiv:comment>7 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Phys. Rev. A 90, 052116 (2014)</arxiv:journal_ref>
+    <author>
+      <name>C. A. Downing</name>
+    </author>
+    <author>
+      <name>M. E. Portnoi</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.90.052116</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.90.052116" title="doi"/>
+  </entry>
+</feed>

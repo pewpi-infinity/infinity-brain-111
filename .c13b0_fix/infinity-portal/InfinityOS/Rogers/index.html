@@ -1,0 +1,464 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+<title>Infinity Portal v3 — Einstein Diamond</title>
+<meta name="color-scheme" content="light">
+<style>
+  :root{
+    --blue-1:#003087;
+    --blue-2:#0b5fd7;
+    --bg:#ffffff;
+    --muted:#657080;
+    --radius:12px;
+    --panel:#f8fafc;
+    font-family:system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  }
+  html,body{height:100%;margin:0;background:var(--bg);color:#051426; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale;}
+  .app{max-width:1100px;margin:0 auto;padding:14px;}
+  header{display:flex;align-items:center;justify-content:space-between;padding:12px 6px;background:linear-gradient(0deg,#ffffff,#fbfdff);border-radius:10px;box-shadow:0 6px 18px rgba(3,24,62,0.04);border:1px solid rgba(3,24,62,0.03)}
+  .logoText{font-weight:700;color:var(--blue-1);font-size:18px}
+  .sub{font-size:12px;color:var(--muted)}
+  /* top controls */
+  .controls{display:flex;gap:10px;align-items:center}
+  .iconBtn{width:44px;height:44px;border-radius:10px;display:flex;align-items:center;justify-content:center;background:transparent;border:1px solid rgba(3,24,62,0.06);cursor:pointer}
+  .menuIcon{font-size:22px;color:var(--blue-1)}
+  /* mobile-ready stage */
+  .stage{margin-top:18px;position:relative;height:64vh;max-height:760px;border-radius:14px;overflow:hidden;border:1px solid rgba(3,24,62,0.03);background:linear-gradient(180deg,#f7fbff, #eef6ff)}
+  /* hydrogen cloud canvas behind */
+  #hydroCanvas{position:absolute;inset:0;width:100%;height:100%}
+  /* diamond nav */
+  .diamondWrap{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;pointer-events:none}
+  .diamond{width:86%;max-width:760px;height:86%;max-height:640px;transform-style:preserve-3d;pointer-events:auto;display:grid;place-items:center}
+  .field{width:100%;height:100%;position:relative;display:grid;place-items:center;user-select:none}
+  .baseplate{position:absolute;inset:8% 8%;border-radius:18px;box-shadow:0 20px 60px rgba(11,95,215,0.06);display:grid;place-items:center;transform:translateZ(0)}
+  /* diamond geometry */
+  .diamond-grid{width:86%;height:86%;position:relative;display:grid;place-items:center;transform-origin:center;transition:transform .6s cubic-bezier(.2,.9,.25,1)}
+  .node{position:absolute;width:104px;height:104px;border-radius:18px;background:white;border:1px solid rgba(3,24,62,0.06);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;box-shadow:0 10px 30px rgba(11,95,215,0.06);cursor:pointer;transition:transform .18s,box-shadow .18s}
+  .node:active{transform:translateY(4px)}
+  .node .nTitle{font-weight:700;color:var(--blue-1);font-size:15px}
+  .node .nSub{font-size:12px;color:var(--muted)}
+  /* positions */
+  .homePlate{left:50%;top:82%;transform:translate(-50%,-50%)}
+  .firstBase{left:84%;top:50%;transform:translate(-50%,-50%)}
+  .thirdBase{left:16%;top:50%;transform:translate(-50%,-50%)}
+  .pitcher{left:50%;top:34%;transform:translate(-50%,-50%)}
+  .secondBase{left:50%;top:10%;transform:translate(-50%,-50%)}
+  /* info footer within stage */
+  .stageFooter{position:absolute;left:12px;bottom:12px;right:12px;display:flex;justify-content:space-between;align-items:center;gap:8px}
+  .chip{background:rgba(11,95,215,0.06);padding:8px 12px;border-radius:999px;color:var(--blue-1);font-weight:700}
+  /* sidebar (hidden behind menu) */
+  .sidebar{position:fixed;left:0;top:0;bottom:0;width:82%;max-width:360px;background:white;box-shadow:20px 0 60px rgba(3,24,62,0.12);transform:translateX(-110%);transition:transform .28s;z-index:99999;padding:18px;overflow:auto}
+  .sidebar.open{transform:translateX(0)}
+  .sbHeader{display:flex;justify-content:space-between;align-items:center;gap:6px}
+  .sbItem{padding:12px;border-radius:10px;margin-top:10px;border:1px solid rgba(3,24,62,0.03);cursor:pointer}
+  .small{font-size:13px;color:var(--muted)}
+  /* app panel modal */
+  .panel{position:fixed;left:50%;top:50%;transform:translate(-50%,-50%) scale(.98);background:white;border-radius:12px;padding:12px;width:94%;max-width:980px;max-height:86vh;overflow:auto;box-shadow:0 30px 80px rgba(3,24,62,0.16);z-index:99998;display:none}
+  .panel.open{display:block;animation:pop .18s ease-out}
+  @keyframes pop{from{transform:translate(-50%,-50%) scale(.96)} to{transform:translate(-50%,-50%) scale(1)}}
+  .panelHeader{display:flex;justify-content:space-between;align-items:center}
+  .primary{background:var(--blue-1);color:white;border:0;padding:10px 12px;border-radius:10px;cursor:pointer}
+  /* rogers chat dock */
+  .rogersDock{position:fixed;right:16px;bottom:16px;z-index:99999}
+  .rogBtn{width:64px;height:64px;border-radius:999px;background:linear-gradient(135deg,var(--blue-1),var(--blue-2));display:flex;align-items:center;justify-content:center;color:white;font-weight:800;box-shadow:0 12px 40px rgba(11,95,215,0.18);cursor:pointer}
+  .chatBox{position:fixed;right:16px;bottom:92px;width:360px;border-radius:12px;background:white;box-shadow:0 30px 80px rgba(3,24,62,0.12);display:none;flex-direction:column;z-index:99999;overflow:hidden}
+  .chatBox.open{display:flex}
+  .chatHeader{padding:10px;background:linear-gradient(90deg,var(--blue-1),var(--blue-2));color:white;display:flex;justify-content:space-between;align-items:center}
+  .chatBody{padding:12px;height:300px;overflow:auto;background:#fbfdff}
+  .chatInput{display:flex;padding:10px;border-top:1px solid rgba(3,24,62,0.04)}
+  .chatInput input{flex:1;padding:8px;border-radius:8px;border:1px solid rgba(3,24,62,0.06)}
+  /* settings floating button */
+  .settingsBtn{position:fixed;left:16px;bottom:16px;width:56px;height:56px;border-radius:14px;background:white;border:1px solid rgba(3,24,62,0.06);display:flex;align-items:center;justify-content:center;box-shadow:0 12px 30px rgba(3,24,62,0.06);z-index:99999;cursor:pointer}
+  /* mic autopilot */
+  .mic{width:54px;height:54px;border-radius:999px;background:linear-gradient(135deg,var(--blue-1),var(--blue-2));display:flex;align-items:center;justify-content:center;color:white;cursor:pointer}
+  /* responsive */
+  @media (max-width:600px){
+    .node{width:86px;height:86px}
+    .stage{height:68vh}
+    .chatBox{right:10px;left:10px;width:auto}
+  }
+</style>
+</head>
+<body>
+<div class="app">
+  <header>
+    <div style="display:flex;gap:12px;align-items:center">
+      <button class="iconBtn" id="menuBtn" title="Menu"><span class="menuIcon">☰</span></button>
+      <div>
+        <div class="logoText">INFINITY</div>
+        <div class="sub">Portal • Marketplace • Socializer — powered by Infinity</div>
+      </div>
+    </div>
+    <div class="controls">
+      <div class="small">Signed in as <span id="signedUser" style="font-weight:700">Guest</span></div>
+      <button class="iconBtn" id="signinBtn" title="Sign in">Sign</button>
+    </div>
+  </header>
+
+  <!-- Stage with hydrogen cloud + diamond nav -->
+  <div class="stage" id="stage">
+    <canvas id="hydroCanvas"></canvas>
+    <div class="diamondWrap">
+      <div class="diamond" id="diamond">
+        <div class="field">
+          <div class="baseplate">
+            <div class="diamond-grid" id="grid" style="transform:scale(1)">
+              <!-- Nodes -->
+              <div class="node homePlate" id="node-portal" onclick="openRealm('portal')">
+                <div class="nTitle">PORTAL</div><div class="nSub">Home & Tools</div>
+              </div>
+              <div class="node firstBase" id="node-market" onclick="openRealm('market')">
+                <div class="nTitle">MARKET</div><div class="nSub">Token Commerce</div>
+              </div>
+              <div class="node thirdBase" id="node-social" onclick="openRealm('social')">
+                <div class="nTitle">SOCIAL</div><div class="nSub">Community</div>
+              </div>
+              <div class="node pitcher" id="node-einstein" onclick="openRealm('einstein')">
+                <div class="nTitle">EINSTEIN</div><div class="nSub">Build & Zoom</div>
+              </div>
+              <div class="node secondBase" id="node-archive" onclick="openRealm('archive')">
+                <div class="nTitle">ARCHIVE</div><div class="nSub">History</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="stageFooter">
+      <div class="chip" id="energyChip">Energy: 0</div>
+      <div class="small">Tap a node to zoom in • Slide to pan</div>
+    </div>
+  </div>
+
+  <!-- Sidebar (hidden) -->
+  <aside class="sidebar" id="sidebar">
+    <div class="sbHeader">
+      <div>
+        <div style="font-weight:800">Infinity Menu</div>
+        <div class="small">Developer tools & sessions</div>
+      </div>
+      <div><button class="iconBtn" onclick="toggleSidebar()">✕</button></div>
+    </div>
+
+    <div class="sbItem" onclick="openRealm('portal')">Portal — Home tools</div>
+    <div class="sbItem" onclick="openRealm('market')">Marketplace — Token commerce</div>
+    <div class="sbItem" onclick="openRealm('social')">Socializer — Community</div>
+    <div class="sbItem" onclick="openRealm('einstein')">Einstein Builder — Spatial tools</div>
+
+    <div style="margin-top:12px">
+      <div style="font-weight:700;margin-top:8px">Developer</div>
+      <div class="sbItem" id="devToggle" onclick="toggleDev()">Developer Mode: OFF</div>
+      <div class="sbItem" onclick="viewSessions()">Saved Chat Sessions</div>
+      <div class="sbItem" onclick="clearLocal()">Clear Local Data</div>
+    </div>
+
+    <div style="margin-top:18px">
+      <div style="font-weight:700">Settings</div>
+      <div class="small" style="margin-top:6px">Paste your Rogers endpoint (one time) — no file edits.</div>
+      <div style="margin-top:8px"><input id="rogersInput" placeholder="Paste Rogers API URL here" style="width:100%;padding:10px;border-radius:8px;border:1px solid rgba(3,24,62,0.06)"></div>
+      <div style="margin-top:8px"><button class="primary" onclick="saveRogers()">Save Rogers Endpoint</button></div>
+      <div id="rogersSaved" class="small" style="margin-top:8px;color:var(--muted)"></div>
+    </div>
+
+    <div style="margin-top:16px" class="small">Contact: infinitystockinvesting@gmail.com</div>
+  </aside>
+
+  <!-- App panels -->
+  <div class="panel" id="panelPortal" aria-hidden="true">
+    <div class="panelHeader"><div><strong>Portal — Day to day</strong><div class="small">Calculator, Alarm, Bible, Pets, Garden</div></div><div><button onclick="closePanel('panelPortal')">✕</button></div></div>
+    <div style="margin-top:12px">
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px">
+        <div style="background:var(--panel);padding:12px;border-radius:10px">
+          <div style="font-weight:700">Calculator</div>
+          <input id="calcA" placeholder="2+2" style="width:100%;margin-top:8px;padding:8px;border-radius:8px;border:1px solid rgba(3,24,62,0.06)">
+          <div style="margin-top:8px"><button class="primary" onclick="calcRun()">Compute</button></div>
+          <div id="calcOut" class="small" style="margin-top:8px"></div>
+        </div>
+        <div style="background:var(--panel);padding:12px;border-radius:10px">
+          <div style="font-weight:700">Alarm</div>
+          <input id="alarmA" placeholder="HH:MM" style="width:100%;margin-top:8px;padding:8px;border-radius:8px;border:1px solid rgba(3,24,62,0.06)">
+          <div style="margin-top:8px"><button class="primary" onclick="setAlarmA()">Set</button></div>
+          <div id="alarmOut" class="small" style="margin-top:8px"></div>
+        </div>
+      </div>
+      <div style="margin-top:12px">
+        <div style="background:var(--panel);padding:12px;border-radius:10px">
+          <div style="font-weight:700">Autopilot Mic</div>
+          <div class="small" style="margin-top:6px">Record locally — later hook your analyzer.</div>
+          <div style="margin-top:8px;display:flex;gap:10px;align-items:center">
+            <div class="mic" id="micBtn" onclick="toggleMic()" title="Autopilot"><span id="micIcon">🎤</span></div>
+            <div class="small">Status: <span id="micStatus">idle</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel" id="panelMarket">
+    <div class="panelHeader"><div><strong>Marketplace</strong><div class="small">Token-only listings & trades</div></div><div><button onclick="closePanel('panelMarket')">✕</button></div></div>
+    <div style="margin-top:12px">
+      <div style="background:var(--panel);padding:12px;border-radius:10px">
+        <input id="listTitle" placeholder="Item title" style="width:100%;padding:8px;border-radius:8px;border:1px solid rgba(3,24,62,0.06)">
+        <textarea id="listDesc" placeholder="Description" style="width:100%;margin-top:8px;padding:8px;border-radius:8px;border:1px solid rgba(3,24,62,0.06)"></textarea>
+        <div style="margin-top:8px"><button class="primary" onclick="createListing()">Create Listing</button></div>
+        <div id="listOut" class="small" style="margin-top:8px"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel" id="panelSocial">
+    <div class="panelHeader"><div><strong>Socializer</strong><div class="small">Locals chat, games, DIY</div></div><div><button onclick="closePanel('panelSocial')">✕</button></div></div>
+    <div style="margin-top:12px">
+      <div style="background:var(--panel);padding:12px;border-radius:10px">
+        <input id="zipLocal" placeholder="ZIP or postal code" style="width:100%;padding:8px;border-radius:8px;border:1px solid rgba(3,24,62,0.06)">
+        <div style="margin-top:8px"><button class="primary" onclick="joinLocal()">Join Local Chat</button></div>
+        <div id="localOut" class="small" style="margin-top:8px"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Rogers dock + chat -->
+  <div class="rogersDock">
+    <div class="rogBtn" id="rogBtn" title="Rogers AI" onclick="toggleChat()">R</div>
+  </div>
+  <div class="chatBox" id="chatBox">
+    <div class="chatHeader"><div>Rogers AI</div><div class="small" id="chatCtx">Core: none</div></div>
+    <div class="chatBody" id="chatBody"><div class="small">Rogers ready — set a Rogers endpoint in Settings to enable live replies.</div></div>
+    <div class="chatInput">
+      <input id="chatIn" placeholder="Ask Rogers..." onkeydown="if(event.key==='Enter') sendChat()">
+      <button class="primary" onclick="sendChat()">Send</button>
+    </div>
+  </div>
+
+  <!-- settings & mic UI -->
+  <button class="settingsBtn" title="Settings" onclick="openSettings()">⚙</button>
+
+</div>
+
+<script>
+/* --------------------------
+   INFINITY PORTAL V3 (single file)
+   - No external token edits required
+   - Rogers endpoint stored in local storage via UI
+   - Local mock signin (no Google keys)
+   -------------------------- */
+
+const STORAGE = window.localStorage || {};
+const ROGERS_KEY = 'INFINITY_ROGERS_API';
+const AUTH_KEY = 'INFINITY_AUTH';
+const SESSIONS_KEY = 'INFINITY_CHAT_SESSIONS';
+
+/* UI wiring */
+const menuBtn = document.getElementById('menuBtn');
+const sidebar = document.getElementById('sidebar');
+menuBtn.addEventListener('click',()=>toggleSidebar());
+
+function toggleSidebar(){
+  sidebar.classList.toggle('open');
+}
+function saveRogers(){
+  const val = document.getElementById('rogersInput').value.trim();
+  if(!val){ document.getElementById('rogersSaved').innerText = 'Enter a URL first'; return; }
+  STORAGE.setItem(ROGERS_KEY,val);
+  document.getElementById('rogersSaved').innerText = 'Saved Rogers endpoint';
+  setTimeout(()=>document.getElementById('rogersSaved').innerText='',2200);
+}
+function viewSessions(){ alert('Saved sessions: ' + (STORAGE.getItem(SESSIONS_KEY) || 'none')); }
+function clearLocal(){ if(confirm('Clear local Infinity data?')){ STORAGE.clear(); location.reload(); } }
+
+/* Sign-in (local mock so no key edits) */
+const signinBtn = document.getElementById('signinBtn');
+signinBtn.addEventListener('click',mockSignin);
+function mockSignin(){
+  const email = prompt('Sign in (enter email) — local demo only');
+  if(!email) return;
+  const token = 'local:'+btoa(email+'|'+Date.now());
+  STORAGE.setItem(AUTH_KEY,token);
+  STORAGE.setItem('INFINITY_USER', email);
+  document.getElementById('signedUser').innerText = email.split('@')[0];
+  // welcome voice placeholder (no external voice)
+  console.log('Signed in as', email);
+}
+
+/* Stage hydrogen cloud canvas (lightweight) */
+const canvas = document.getElementById('hydroCanvas');
+const ctx = canvas.getContext('2d');
+let w,h,particles=[];
+function resizeCanvas(){
+  w=canvas.width=canvas.offsetWidth;
+  h=canvas.height=canvas.offsetHeight;
+}
+window.addEventListener('resize',resizeCanvas);
+resizeCanvas();
+function initParticles(){
+  particles=[];
+  for(let i=0;i<80;i++){
+    particles.push({
+      x:Math.random()*w,
+      y:Math.random()*h,
+      r:Math.random()*2+0.4,
+      vx:(Math.random()-0.5)*0.2,
+      vy:(Math.random()-0.5)*0.2,
+      alpha:Math.random()*0.6+0.2
+    });
+  }
+}
+initParticles();
+function draw(){
+  ctx.clearRect(0,0,w,h);
+  // gentle radial gradient
+  const g = ctx.createRadialGradient(w*0.5,h*0.3,80,w*0.5,h*0.3,Math.max(w,h));
+  g.addColorStop(0,'rgba(240,248,255,0.35)');
+  g.addColorStop(1,'rgba(232,242,255,0.08)');
+  ctx.fillStyle=g;
+  ctx.fillRect(0,0,w,h);
+  // particles
+  for(const p of particles){
+    p.x += p.vx; p.y += p.vy;
+    if(p.x<0) p.x=w; if(p.x>w) p.x=0;
+    if(p.y<0) p.y=h; if(p.y>h) p.y=0;
+    ctx.beginPath();
+    ctx.fillStyle = 'rgba(11,95,215,'+p.alpha+')';
+    ctx.arc(p.x,p.y,p.r,0,Math.PI*2);
+    ctx.fill();
+  }
+  requestAnimationFrame(draw);
+}
+draw();
+
+/* Node zoom + energy */
+let energy = Number(STORAGE.getItem('INFINITY_ENERGY')||0);
+document.getElementById('energyChip').innerText = 'Energy: '+energy;
+function openRealm(name){
+  // zoom animation by scaling the grid; show panel
+  const grid = document.getElementById('grid');
+  grid.style.transform = 'scale(1.12)';
+  setTimeout(()=>grid.style.transform='scale(1)',600);
+  // energy collection
+  energy += 1;
+  STORAGE.setItem('INFINITY_ENERGY', energy);
+  document.getElementById('energyChip').innerText = 'Energy: '+energy;
+  // open panels
+  if(name==='portal') openPanel('panelPortal');
+  if(name==='market') openPanel('panelMarket');
+  if(name==='social') openPanel('panelSocial');
+  if(name==='einstein') openPanel('panelPortal'); // Einstein builder currently in portal
+  if(name==='archive') alert('Archive opens — future content');
+  // auto-open Rogers with context
+  openChatWithContext(name);
+}
+
+/* Panels */
+function openPanel(id){ document.getElementById(id).classList.add('open'); }
+function closePanel(id){ document.getElementById(id).classList.remove('open'); }
+
+/* Portal tools */
+function calcRun(){
+  const v = document.getElementById('calcA').value||'';
+  try{
+    const safe = v.replace(/[^0-9+\-*/(). %]/g,'');
+    const out = Function('"use strict";return (' + safe + ')')();
+    document.getElementById('calcOut').innerText = 'Result: '+out;
+  }catch(e){
+    document.getElementById('calcOut').innerText = 'Error';
+  }
+}
+let alarmId=null;
+function setAlarmA(){
+  const t = document.getElementById('alarmA').value;
+  if(!/^\d{1,2}:\d{2}$/.test(t)){ document.getElementById('alarmOut').innerText='Use HH:MM'; return; }
+  const [hh,mm]=t.split(':').map(Number); const now=new Date();
+  const target=new Date(); target.setHours(hh,mm,0,0); if(target<=now) target.setDate(target.getDate()+1);
+  const ms = target-now;
+  if(alarmId) clearTimeout(alarmId);
+  alarmId=setTimeout(()=>alert('Infinity Alarm'),ms);
+  document.getElementById('alarmOut').innerText = 'Alarm set for '+target.toLocaleString();
+}
+
+/* Marketplace */
+function createListing(){
+  const t=document.getElementById('listTitle').value;
+  const d=document.getElementById('listDesc').value;
+  if(!t){ document.getElementById('listOut').innerText='Title needed'; return; }
+  const L = JSON.parse(STORAGE.getItem('INFINITY_LISTS')||'[]'); L.push({title:t,desc:d,when:Date.now()}); STORAGE.setItem('INFINITY_LISTS',JSON.stringify(L));
+  document.getElementById('listOut').innerText='Listed ('+L.length+' total)';
+}
+
+/* Social */
+function joinLocal(){
+  const z=document.getElementById('zipLocal').value;
+  if(!z){ document.getElementById('localOut').innerText='ZIP required'; return; }
+  document.getElementById('localOut').innerText='Joined local chat for '+z;
+}
+
+/* Rogers chat dock */
+function toggleChat(){ document.getElementById('chatBox').classList.toggle('open'); }
+function openChatWithContext(realm){
+  document.getElementById('chatCtx').innerText = 'Context: '+realm;
+}
+function sendChat(){
+  const txt = document.getElementById('chatIn').value.trim();
+  if(!txt) return;
+  const chatBody = document.getElementById('chatBody');
+  const div = document.createElement('div');
+  div.className='small';
+  div.style.marginTop='8px';
+  div.style.background='rgba(11,95,215,0.04)';
+  div.style.padding='8px';
+  div.style.borderRadius='8px';
+  div.textContent = 'You: '+txt;
+  chatBody.appendChild(div);
+  document.getElementById('chatIn').value='';
+  // Rogers endpoint check
+  const endpoint = STORAGE.getItem(ROGERS_KEY);
+  if(!endpoint){
+    const reply = document.createElement('div');
+    reply.className='small';
+    reply.style.marginTop='8px';
+    reply.textContent = 'Rogers: Set endpoint in Settings to enable live AI.';
+    chatBody.appendChild(reply);
+    chatBody.scrollTop=chatBody.scrollHeight;
+    return;
+  }
+  // Mock call (replace with fetch to endpoint)
+  setTimeout(()=>{
+    const reply = document.createElement('div');
+    reply.className='small';
+    reply.style.marginTop='8px';
+    reply.textContent = 'Rogers: Got it! (mock reply — connect your backend)';
+    chatBody.appendChild(reply);
+    chatBody.scrollTop=chatBody.scrollHeight;
+  },400);
+}
+
+/* Mic */
+let micActive=false;
+function toggleMic(){
+  micActive=!micActive;
+  document.getElementById('micStatus').innerText = micActive?'recording':'idle';
+  document.getElementById('micIcon').innerText = micActive?'⏹':'🎤';
+  // TODO: wire MediaRecorder or external mic lib
+}
+
+/* Dev toggle */
+let devMode=false;
+function toggleDev(){
+  devMode=!devMode;
+  document.getElementById('devToggle').innerText = 'Developer Mode: '+(devMode?'ON':'OFF');
+  if(devMode) console.log('Dev mode enabled');
+}
+
+/* Settings panel open */
+function openSettings(){
+  toggleSidebar();
+}
+
+/* Auto-init */
+const user = STORAGE.getItem('INFINITY_USER');
+if(user) document.getElementById('signedUser').innerText = user.split('@')[0];
+</script>
+</body>
+</html>

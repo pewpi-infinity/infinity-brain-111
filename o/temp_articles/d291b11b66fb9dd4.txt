@@ -1,0 +1,84 @@
+TERMS: hydrogen, quantum, spin, wavefunction
+COLORS: purple, blue, yellow, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/jbW47Lqj/GHqXhQgXUs7hrdxNc4</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:spin AND all:wavefunction&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:40:18Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:spin+AND+all:wavefunction))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>18</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2411.19938v1</id>
+    <title>Probing quantum critical phase from neural network wavefunction</title>
+    <updated>2024-11-29T18:56:14Z</updated>
+    <link href="https://arxiv.org/abs/2411.19938v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.19938v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>One-dimensional (1D) systems and models provide a versatile platform for emergent phenomena induced by strong electron correlation. In this work, we extend the newly developed real space neural network quantum Monte Carlo methods to study the quantum phase transition of electronic and magnetic properties. Hydrogen chains of different interatomic distances are explored systematically with both open and periodic boundary conditions, and fully correlated ground state many-body wavefunction is achieved via unsupervised training of neural networks. We demonstrate for the first time that neural networks are capable of capturing the quantum critical behavior of Tomonaga- Luttinger liquid (TLL), which is known to dominate 1D quantum systems. Moreover, we reveal the breakdown of TLL phase and the emergence of a Fermi liquid behavior, evidenced by abrupt changes in the spin structure and the momentum distribution. Such behavior is absent in commonly studied 1D lattice models and is likely due to the involvement of high-energy orbitals of hydrogen atoms. Our work highlights the powerfulness of neural networks for representing complex quantum phases.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-29T18:56:14Z</published>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <author>
+      <name>Haoxiang Chen</name>
+    </author>
+    <author>
+      <name>Weiluo Ren</name>
+    </author>
+    <author>
+      <name>Xiang Li</name>
+    </author>
+    <author>
+      <name>Ji Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1409.7358v1</id>
+    <title>Compact wavefunctions from compressed imaginary time evolution</title>
+    <updated>2014-09-25T18:25:43Z</updated>
+    <link href="https://arxiv.org/abs/1409.7358v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1409.7358v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Simulation of quantum systems promises to deliver physical and chemical predictions for the frontiers of technology. Unfortunately, the exact representation of these systems is plagued by the exponential growth of dimension with the number of particles, or colloquially, the curse of dimensionality. The success of approximation methods has hinged on the relative simplicity of physical systems with respect to the exponentially complex worst case. Exploiting this relative simplicity has required detailed knowledge of the physical system under study. In this work, we introduce a general and efficient black box method for many-body quantum systems that utilizes technology from compressed sensing to find the most compact wavefunction possible without detailed knowledge of the system. It is a Multicomponent Adaptive Greedy Iterative Compression (MAGIC) scheme. No knowledge is assumed in the structure of the problem other than correct particle statistics. This method can be applied to many quantum systems such as spins, qubits, oscillators, or electronic systems. As an application, we use this technique to compute ground state electronic wavefunctions of hydrogen fluoride and recover 98% of the basis set correlation energy or equivalently 99.996% of the total energy with $50$ configurations out of a possible $10^7$. Building from this compactness, we introduce the idea of nuclear union configuration interaction for improving the description of reaction coordinates and use it to study the dissociation of hydrogen fluoride and the helium dimer.</summary>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-09-25T18:25:43Z</published>
+    <arxiv:primary_category term="physics.chem-ph"/>
+    <arxiv:journal_ref>RSC Adv., 2015, 5, 102277</arxiv:journal_ref>
+    <author>
+      <name>Jarrod R. McClean</name>
+    </author>
+    <author>
+      <name>Alán Aspuru-Guzik</name>
+    </author>
+    <arxiv:doi>10.1039/C5RA23047K</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1039/C5RA23047K" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1002.1534v1</id>
+    <title>Comment on "Clock Shift in High Field Magnetic Resonance of Atomic Hydrogen"</title>
+    <updated>2010-02-08T06:07:09Z</updated>
+    <link href="https://arxiv.org/abs/1002.1534v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1002.1534v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this Comment, we reanalyze the experiments on the collision frequency shift of the b-c and a-d hyperfine transitions in three-dimensional atomic hydrogen in the presence of, respectively, a and b-state atoms. Accurate consideration of the symmetry of the spatial and spin part of the diatomic wavefunction yields the difference a_T-a_S=0.30(5) Åbetween the triplet and singlet s-wave scattering lengths of hydrogen atoms. This corrects the factor-of two error of the commented work [Phys. Rev. Lett. 101, 263003 (2008)].</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-02-08T06:07:09Z</published>
+    <arxiv:comment>1 page</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 104, 099301 (2010)</arxiv:journal_ref>
+    <author>
+      <name>A. I. Safonov</name>
+    </author>
+    <author>
+      <name>I. I. Safonova</name>
+    </author>
+    <author>
+      <name>I. S. Yasnikov</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.104.099301</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.104.099301" title="doi"/>
+  </entry>
+</feed>

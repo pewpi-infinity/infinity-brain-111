@@ -1,0 +1,83 @@
+TERMS: frequency, ionization, spin
+COLORS: green, green, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/LLt2vyhXbzaz+BwlXfdHVLtwlQA</id>
+  <title>arXiv Query: search_query=all:frequency AND all:ionization AND all:spin&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:11:19Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:ionization+AND+all:spin)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>71</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1408.6961v1</id>
+    <title>Hole dynamics and spin currents after ionization in strong circularly polarized laser fields</title>
+    <updated>2014-08-29T09:22:41Z</updated>
+    <link href="https://arxiv.org/abs/1408.6961v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1408.6961v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We apply the time-dependent analytical R-matrix theory to develop a movie of hole motion in a Kr atom upon ionization by strong circularly polarized field. We find rich hole dynamics, ranging from rotation to swinging motion. The motion of the hole depends on the final energy and the spin of the photoelectron and can be controlled by the laser frequency and intensity. Crucially, hole rotation is a purely non-adiabatic effect, completely missing in the framework of quasistatic (adiabatic) tunneling theories. We explore the possibility to use hole rotation as a clock for measuring ionization time. Analysing the relationship between the relative phases in different ionization channels we show that in the case of short-range electron-core interaction the hole is always initially aligned along the instantaneous direction of the laser field, signifying zero delays in ionization. Finally, we show that strong-field ionization in circular fields creates spin currents (i.e. different flow of spin-up and spin-down density in space) in the ions. This phenomenon is intimately related to the production of spin-polarized electrons in strong laser fields [Barth I and Smirnova O 2013 Phys. Rev. A 88 013401]. We demonstrate that rich spin dynamics of electrons and holes produced during strong field ionization can occur in typical experimental conditions and does not require relativistic intensities or strong magnetic fields.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-08-29T09:22:41Z</published>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>Ingo Barth</name>
+    </author>
+    <author>
+      <name>Olga Smirnova</name>
+    </author>
+    <arxiv:doi>10.1088/0953-4075/47/20/204020</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0953-4075/47/20/204020" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/physics/9812010v1</id>
+    <title>Ionization dynamics in intense pulsed laser radiation. Effects of frequency chirping</title>
+    <updated>1998-12-07T13:51:06Z</updated>
+    <link href="https://arxiv.org/abs/physics/9812010v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/physics/9812010v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Via a non-perturbative method we study the population dynamics and photoelectron spectra of Cs atoms subject to intense chirped laser pulses, with gaussian beams. We include above threshold ionization spectral peaks. The frequency of the laser is near resonance with the 6s-7p transition. Dominant couplings are included exactly, weaker ones accounted for perturbatively. We calculate the relevant transition matrix elements, including spin-orbit coupling. The pulse is taken to be a hyperbolic secant in time and the chirping a hyperbolic tangent. This choice allows the equations of motions for the probability amplitudes to be solved analytically as a series expansion in the variable u=(tanh(pi t/tau)+1)/2, where tau is a measure of the pulse length. We find that the chirping changes the ionization dynamics and the photoelectron spectra noticeably, especially for longer pulses of the order of 10^4 a.u. The peaks shift and change in height, and interference effects between the 7p levels are enhanced or diminished according to the amount of chirping and its sign. The integrated ionization probability is not strongly affected.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1998-12-07T13:51:06Z</published>
+    <arxiv:comment>Accepted by J. Phys. B; 18 pages, 17 figures. Latex, uses ioplppt.sty, iopl10.sty and psfig.sty</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <arxiv:journal_ref>J. Phys. B, vol.32, (1999) 711-736</arxiv:journal_ref>
+    <author>
+      <name>R. Marani</name>
+      <arxiv:affiliation>IOTA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>E. J. Robinson</name>
+      <arxiv:affiliation>NYU</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1088/0953-4075/32/3/014</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0953-4075/32/3/014" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1706.00257v2</id>
+    <title>Quantum Coherence in Photo-Ionization with Tailored XUV Pulses</title>
+    <updated>2017-10-11T20:00:16Z</updated>
+    <link href="https://arxiv.org/abs/1706.00257v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1706.00257v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Ionization with ultrashort pulses in the extreme ultraviolet (XUV) regime can be used to prepare an ion in a superposition of spin--orbit substates. In this work, we study the coherence properties of such a superposition, created by ionizing xenon atoms using two phase-locked XUV pulses at different frequencies. In general, if the duration of the driving pulse exceeds the quantum beat period, dephasing will occur. If however, the frequency difference of the two pulses matches the spin--orbit splitting, the coherence can be efficiently increased and dephasing does not occur.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-06-01T11:35:15Z</published>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>Stefanos Carlström</name>
+    </author>
+    <author>
+      <name>Johan Mauritsson</name>
+    </author>
+    <author>
+      <name>Kenneth J. Schafer</name>
+    </author>
+    <author>
+      <name>Anne L'Huillier</name>
+    </author>
+    <author>
+      <name>Mathieu Gisselbrecht</name>
+    </author>
+    <arxiv:doi>10.1088/1361-6455/aa96e7</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1361-6455/aa96e7" title="doi"/>
+  </entry>
+</feed>

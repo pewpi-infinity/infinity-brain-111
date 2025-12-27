@@ -1,0 +1,47 @@
+TERMS: hydrogen, quantum, muon, vacuum
+COLORS: purple, blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/rL+vznlJAKVamjM8zejCQcMbWhs</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:muon AND all:vacuum&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:41:19Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:muon+AND+all:vacuum))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1011.5275v1</id>
+    <title>Lamb Shift in Muonic Hydrogen. I. Verification and Update of Theoretical Predictions</title>
+    <updated>2010-11-24T02:45:02Z</updated>
+    <link href="https://arxiv.org/abs/1011.5275v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1011.5275v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In view of the recently observed discrepancy of theory and experiment for muonic hydrogen [R. Pohl et al., Nature vol. 466, p. 213 (2010)], we reexamine the theory on which the quantum electrodynamic (QED) predictions are based. In particular, we update the theory of the 2P-2S Lamb shift, by calculating the self-energy of the bound muon in the full Coulomb+vacuum polarization (Uehling) potential. We also investigate the relativistic two-body corrections to the vacuum polarization shift, and we analyze the influence of the shape of the nuclear charge distribution on the proton radius determination. The uncertainty associated with the third Zemach moment &lt; r^3 &gt;_2 in the determination of the proton radius from the measurement is estimated. An updated theoretical prediction for the 2S-2P transition is given.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-11-24T02:45:02Z</published>
+    <arxiv:comment>18 pages; LaTeX; literature references have been updated at the time of submission to a scientific journal</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Ann.Phys.(N.Y.) 326 (2011) 500-515</arxiv:journal_ref>
+    <author>
+      <name>U. D. Jentschura</name>
+    </author>
+    <arxiv:doi>10.1016/j.aop.2010.11.012</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.aop.2010.11.012" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/physics/9809020v1</id>
+    <title>Muonium</title>
+    <updated>1998-09-15T21:58:38Z</updated>
+    <link href="https://arxiv.org/abs/physics/9809020v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/physics/9809020v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The energy levels of the muonium ($μ^+ e^-$) atom, which consists of two ''point-like'' leptonic particles, can be calculated to very high accuracy in the framework of bound state Quantum Electrodynamics (QED), since there are no complications due to internal nuclear structure and size which is the case for all atoms and ions of natural isotopes including atomic hydrogen. The ground state hyperfine splitting and the 1s-2s energy interval can provide both tests of QED theory and determinations of fundamental constants like the muon mass $m_μ$ and the fine structure constant $α$. The excellent understanding of the electromagnetic binding in the muonium atom allows in particular testing fundamental physical laws like lepton number conservation in searches for muonium to antimuonium conversion and probing the nature of the muon as a heavy leptonic object. New measurements on the ground state hyperfine splitting and the 1s-2s transition are discussed.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1998-09-15T21:58:38Z</published>
+    <arxiv:comment>submitted to proceedings of Workshop in Sadansky on "QED and Physics of the Vacuum", D. Baklanov (ed.) (1998)</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>Klaus P. Jungmann</name>
+      <arxiv:affiliation>Physikalisches Insitut, Universitaet Heidelberg</arxiv:affiliation>
+    </author>
+  </entry>
+</feed>

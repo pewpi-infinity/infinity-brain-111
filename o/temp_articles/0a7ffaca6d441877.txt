@@ -1,0 +1,71 @@
+TERMS: lattice, tachyon, boson
+COLORS: orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/xI+F1FOw5t0D1lPyJiIG9R88ce8</id>
+  <title>arXiv Query: search_query=all:lattice AND all:tachyon AND all:boson&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:15:56Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:tachyon+AND+all:boson)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>16</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2406.07629v2</id>
+    <title>Exact lattice bosonization of finite N matrix quantum mechanics and c = 1</title>
+    <updated>2025-01-13T09:50:07Z</updated>
+    <link href="https://arxiv.org/abs/2406.07629v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.07629v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We describe a new exact lattice bosonization of matrix quantum mechanics (equivalently of non-relativistic fermions) that is valid for arbitrary rank N of the matrix, based on an exact operator bosonization introduced earlier in [1]. The trace identities are automatically incorporated in this formalism. The finite number N of fermions is reflected in the finite number N of bosonic oscillators, or equivalently to the finite number N of lattice points. The fermion Hamiltonian is exactly mappable to a bosonic Hamiltonian. At large N, the latter becomes local and corresponds to the lattice version of a relativistic boson Hamiltonian, with a lattice spacing of order 1/N. The finite lattice spacing leads to a finite entanglement entropy (EE) of the bosonic theory, which reproduces the finite EE of the fermionic theory. Such a description is not available in the standard bosonization in terms of fermion density fluctuations on the Fermi surface, which does not have a built-in short distance cut-off (see, however, [2]). The bosonic lattice is equipped with a geometry determined by the matrix potential or equivalently by the shape of the Fermi surface. Our bosonization also works in the double scaled c=1 model, where the bosonic EE again turns out to be finite, with the short distance cut-off turning as g_s l_s, and reproduces the matrix result. Once again, such a short distance cut-off cannot appear in the conventional dual of c=1 in terms of the 2D string ``tachyon'', where the expected short distance scale is l_s. This indicates our bosonization as a possibly different dual description to the c=1 matrix model appropriate for ``local physics'' like quantum entanglement, by contrast with the conventional duality to the eigenvalue density which works well for asymptotic observables like S-matrices. We briefly discuss possible relation of our bosonization to D0 branes.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-11T18:00:32Z</published>
+    <arxiv:comment>29 pages + appendices, 11 figures (v2) ; added section 6.2 on moments + clarifications are made in several sections (2.1.1, 2.2.4, 3.1, 3.3.1, 5.3, 7) + changed figure 3 to better represent the non-uniform lattice + typos corrected</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Gautam Mandal</name>
+    </author>
+    <author>
+      <name>Ajay Mohan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/0210349v1</id>
+    <title>W-Particle Distribution in ElectroWeak Tachyonic Pre-Heating</title>
+    <updated>2002-10-25T10:08:08Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/0210349v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/0210349v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Results are presented of a numerical study of the distribution of W-bosons generated in a tachyonic electroweak pre-heating transition</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-10-25T10:08:08Z</published>
+    <arxiv:comment>Contribution to Strong and ElectroWeak Matter 2002, 5 pages</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Jonivar Skullerud</name>
+    </author>
+    <author>
+      <name>Jan Smit</name>
+    </author>
+    <author>
+      <name>Anders Tranberg</name>
+    </author>
+    <arxiv:doi>10.1142/9789812704498_0070</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/9789812704498_0070" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-th/0409179v1</id>
+    <title>Level Truncation and Rolling the Tachyon in the Lightcone Basis for Open String Field Theory</title>
+    <updated>2004-09-16T23:43:52Z</updated>
+    <link href="https://arxiv.org/abs/hep-th/0409179v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-th/0409179v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  A recent paper by Gross and Erler (hep-th/0406199) showed that by making a certain well-defined, unitary transformation on the mode basis for the open bosonic string--one that identifies the lightcone component of position with the string midpoint--it is possible to render the action for cubic string field theory local in lightcone time. In this basis, then, cubic string field theory possesses a well-defined initial value formulation and a conserved Hamiltonian. With this new understanding it seems natural to study time dependent solutions representing the the decay of an unstable D-branes. In this paper we study such solutions using level truncation of mode oscillators in the lightcone basis, finding both homogenous solutions by perturbatively expanding the string field in modes $e^{nt}$, and inhomogenous solutions by integrating the equations of motion on a lattice. Truncating the theory to level $(\tilde{2},\tilde{4})$ in $α^+$ oscillators, we find time dependent solutions whose behavior seems to converge to that of earlier solutions constructed in the center of mass basis, where the cubic action contains an infinite number of time derivatives. We further construct time-dependent inhomogeneous solutions including all fields up to level $(\tilde{2},\tilde{4})$. These solutions at the outset display rather erratic behavior due to an unphysical instability introduced by truncating the theory at the linear level. However upon truncating away the field responsible for the instability, we find more reasonable solutions which may possibly represent an approximation to tachyon matter. We conclude with some discussion of future directions.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-09-16T23:43:52Z</published>
+    <arxiv:comment>29 pages, 21 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Theodore G. Erler</name>
+    </author>
+  </entry>
+</feed>

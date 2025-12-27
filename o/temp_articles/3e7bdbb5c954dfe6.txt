@@ -1,0 +1,85 @@
+TERMS: hydrogen, quantum, fusion
+COLORS: purple, blue, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/XJ+64OEMCxFneyGNLFfVxaVR14o</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:fusion&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:01:19Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+all:fusion)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>23</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2003.02680v1</id>
+    <title>Atomic data for calculation of the intensities of Stark components of excited hydrogen atoms in fusion plasmas</title>
+    <updated>2020-03-05T14:51:15Z</updated>
+    <link href="https://arxiv.org/abs/2003.02680v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2003.02680v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Motional Stark effect (MSE) spectroscopy represents a unique diagnostic tool capable of determining the magnitude of the magnetic field and its direction in the core of fusion plasmas. The primary excitation channel for fast hydrogen atoms in injected neutral beams, with energy in the range of 25-1000 keV, is due to collisions with protons and impurity ions (e.g., He$^{2+}$ and heavier impurities). As a result of such excitation, at the particle density of 10$^{13}$-10$^{14}$ cm$^{-3}$, the line intensities of the Stark multiplets do not follow statistical expectations (i.e., the populations of fine-structure levels within the same principal quantum number $n$ are not proportional to their statistical weights). Hence, any realistic modeling of MSE spectra has to include the relevant collisional atomic data. In this paper we provide a general expression for the excitation cross sections in parabolic states within $n$=3 for an arbitrary orientation between the direction of the motion-induced electric field and the proton-atom collisional axis. The calculations make use of the density matrix obtained with the atomic orbital close coupling method and the method can be applied to other collisional systems (e.g., He$^{2+}$, Be$^{4+}$, C$^{6+}$, etc.). The resulting cross sections are given as simple fits that can be directly applied to spectral modeling. For illustration we note that the asymmetry detected in the first classical cathode ray experiments between the red- and blue-shifted spectral components can be quantitatively studied using the proposed approach.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-03-05T14:51:15Z</published>
+    <arxiv:comment>11 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <arxiv:journal_ref>Atoms 8, 8 (2020)</arxiv:journal_ref>
+    <author>
+      <name>Oleksandr Marchuk</name>
+    </author>
+    <author>
+      <name>David R. Schultz</name>
+    </author>
+    <author>
+      <name>Yuri Ralchenko</name>
+    </author>
+    <arxiv:doi>10.3390/atoms8010008</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/atoms8010008" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1108.4826v1</id>
+    <title>The hydrogen equation of state at high densities</title>
+    <updated>2011-08-24T12:45:36Z</updated>
+    <link href="https://arxiv.org/abs/1108.4826v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1108.4826v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We use a two-fluid model combining the quantum Green's function technique for the electrons and a classical HNC description for the ions to calculate the high-density equation of state of hydrogen. This approach allows us to describe fully ionized plasmas of any electron degeneracy and any ionic coupling strength which are important for the modeling of a variety of astrophysical objects and inertial confinement fusion targets. We have also performed density functional molecular dynamics simulations (DFT-MD) and show that the data obtained agree with our approach in the high density limit. Good agreement is also found between DFT-MD and quantum Monte Carlo simulations. The thermodynamic properties of dense hydrogen can thus be obtained for the entire density range using only calculations in the physical picture.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-08-24T12:45:36Z</published>
+    <arxiv:comment>10 pages, 6 figures, 1 table</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>J. Vorberger</name>
+    </author>
+    <author>
+      <name>D. O. Gericke</name>
+    </author>
+    <author>
+      <name>W. -D. Kraeft</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1310.5164v1</id>
+    <title>Comprehensive rate coefficients for electron collision induced transitions in hydrogen</title>
+    <updated>2013-10-18T21:18:00Z</updated>
+    <link href="https://arxiv.org/abs/1310.5164v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1310.5164v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Energy-changing electron-hydrogen atom collisions are crucial to regulating the energy balance in astrophysical and laboratory plasmas and relevant to the formation of stellar atmospheres, recombination in H-II clouds, primordial recombination, three-body recombination and heating in ultracold and fusion plasmas. Computational modeling of electron-hydrogen collision has been attempted through quantum mechanical scattering state-to-state calculations of transitions involving low-lying energy levels in hydrogen (with principal quantum number n &lt; 7) and at large principal quantum numbers using classical trajectory techniques. Analytical expressions are proposed which interpolates the current quantum mechanical and classical trajectory results for electron-hydrogen scattering in the entire range of energy levels, for nearly all temperature range of interest in astrophysical environments. An asymptotic expression for the Born cross-section is interpolated with a modified expression derived previously for electron-hydrogen scattering in the Rydberg regime using classical trajectory Monte Carlo simulations. The derived formula is compared to existing numerical data for transitions involving low principal quantum numbers, and the dependence of the deviations upon temperature is discussed.</summary>
+    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-10-18T21:18:00Z</published>
+    <arxiv:comment>To appear in The Astrophysical Journal</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.IM"/>
+    <arxiv:journal_ref>Astrophysical Journal 780:2 (2014)</arxiv:journal_ref>
+    <author>
+      <name>Daniel Vrinceanu</name>
+    </author>
+    <author>
+      <name>Roberto Onofrio</name>
+    </author>
+    <author>
+      <name>Hossein R. Sadeghpour</name>
+    </author>
+    <arxiv:doi>10.1088/0004-637X/780/1/2</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0004-637X/780/1/2" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,91 @@
+TERMS: electron, wavefunction, probability
+COLORS: green, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/LhiE5QYhwLVsIS/aBVtJjtQYAr0</id>
+  <title>arXiv Query: search_query=all:electron AND all:wavefunction AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:24:00Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:electron+AND+(all:wavefunction+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>110</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2511.05261v1</id>
+    <title>Fuzzy Neural Network Performance and Interpretability of Quantum Wavefunction Probability Predictions</title>
+    <updated>2025-11-07T14:24:49Z</updated>
+    <link href="https://arxiv.org/abs/2511.05261v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.05261v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Predicting quantum wavefunction probability distributions is crucial for computational chemistry and materials science, yet machine learning (ML) models often face a trade-off between accuracy and interpretability. This study compares Artificial Neural Networks (ANNs) and Adaptive Neuro-Fuzzy Inference Systems (ANFIS) in modeling quantum probability distributions for the H$_{2}^+$ ion, leveraging data generated via Physics-Informed Neural Networks (PINNs). While ANN achieved superior accuracy (R$^2$ = 0.99 vs ANFIS's 0.95 with Gaussian membership functions), it required over 50x more parameters (2,305 vs 39-45). ANFIS, however, provided unique interpretability: its Gaussian membership functions encoded spatial electron localization near proton positions ($μ= 1.2 A$), mirroring Born probability densities, while fuzzy rules reflected quantum superposition principles. Rules prioritizing the internuclear direction revealed the system's 1D symmetry, aligning with Linear Combination of Atomic Orbitals theory--a novel data-driven perspective on orbital hybridization. Membership function variances ($σ$) further quantified electron delocalization trends, and peak prediction errors highlighted unresolved quantum cusps. The choice of functions critically impacted performance: Gaussian/Generalized Bell outperformed Sigmoid, with errors improving as training data increased, showing scalability. This study underscores the context-dependent value of ML: ANN for precision and ANFIS for interpretable, parameter-efficient approximations that link inputs to physical behavior. These findings advocate hybrid approaches in quantum simulations, balancing accuracy with explainability to accelerate discovery. Future work should extend ANFIS to multi-electron systems and integrate domain-specific constraints (e.g., kinetic energy terms), bridging data-driven models and fundamental physics.</summary>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.data-an" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-07T14:24:49Z</published>
+    <arxiv:primary_category term="physics.chem-ph"/>
+    <author>
+      <name>Pedro H. M. Zanineli</name>
+    </author>
+    <author>
+      <name>Matheus Zaia Monteiro</name>
+    </author>
+    <author>
+      <name>Vinicius Francisco Wasques</name>
+    </author>
+    <author>
+      <name>Francielle Santo Pedro Simões</name>
+    </author>
+    <author>
+      <name>Gabriel R. Schleder</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.07460v1</id>
+    <title>Analysis of divergent dynamics of exactly factorized electron-nuclear wavefunctions</title>
+    <updated>2025-10-08T19:05:52Z</updated>
+    <link href="https://arxiv.org/abs/2510.07460v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.07460v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Exact Factorization (XF) of molecular wavefunctions can be viewed as an 'electronic wavepacket' framework for quantum dynamics. It is an appealing alternative to the conventional non-adiabatic dynamics, unfolding in the space of coupled electronic eigenstates. However, implementation of the non-linear XF equations for general systems presents a formidable challenge: the XF counterparts to the non-adiabatic coupling involve division by the nuclear probability density, which leads to severe numerical instabilities in the low-density regions of space. In case of the non-adiabatic dynamics the effect of coupling is relatively smooth, but this theoretical framework becomes impractical when numerous electronic states are involved. In this paper the origin of the XF-specific challenge is analyzed analytically. We demonstrate that the problem arises when the factorized wavefunction diverges, even without the explicit coupling of the Born-Huang electronic states used to describe the molecular wavefunction. Using a 'minimal' model of the photodissociation, we derive expressions for the XF dynamics and locate the source of the XF instability. We analyze the dependence of this instability on the nuclear wavefunction bifurcation in the stationary and moving frames of reference, the latter associated with the quantum trajectory ensemble describing the nuclear XF wavepacket in a compact form. We show that the near-singular behavior persists in the moving frame and in the atomic basis representation of the electronic wavefunction. This model and insight into the root of the XF implementation challenge will help to address the issue, leading to further development of the XF methods.</summary>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-08T19:05:52Z</published>
+    <arxiv:comment>21 pages, 7 figures, 2 tables</arxiv:comment>
+    <arxiv:primary_category term="physics.chem-ph"/>
+    <author>
+      <name>Julian Stetzler</name>
+      <arxiv:affiliation>Department of Chemistry &amp; Biochemistry, University of South Carolina, Columbia, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Sophya Garashchuk</name>
+      <arxiv:affiliation>Department of Chemistry &amp; Biochemistry, University of South Carolina, Columbia, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Vitaly A. Rassolov</name>
+      <arxiv:affiliation>Department of Chemistry &amp; Biochemistry, University of South Carolina, Columbia, USA</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2001.10938v2</id>
+    <title>Exit Wavefunction Reconstruction from Single Transmission Electron Micrographs with Deep Learning</title>
+    <updated>2020-01-30T09:26:11Z</updated>
+    <link href="https://arxiv.org/abs/2001.10938v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2001.10938v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Half of wavefunction information is undetected by conventional transmission electron microscopy (CTEM) as only the intensity, and not the phase, of an image is recorded. Following successful applications of deep learning to optical hologram phase recovery, we have developed neural networks to recover phases from CTEM intensities for new datasets containing 98340 exit wavefunctions. Wavefunctions were simulated with clTEM multislice propagation for 12789 materials from the Crystallography Open Database. Our networks can recover 224x224 wavefunctions in ~25 ms for a large range of physical hyperparameters and materials, and we demonstrate that performance improves as the distribution of wavefunctions is restricted. Phase recovery with deep learning overcomes the limitations of traditional methods: it is live, not susceptible to distortions, does not require microscope modification or multiple images, and can be applied to any imaging regime. This paper introduces multiple approaches to CTEM phase recovery with deep learning, and is intended to establish starting points to be improved upon by future research. Source code and links to our new datasets and pre-trained models are available at https://github.com/Jeffrey-Ede/one-shot</summary>
+    <category term="eess.IV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.data-an" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-01-29T16:25:37Z</published>
+    <arxiv:comment>14 pages, 7 figures, 2 tables</arxiv:comment>
+    <arxiv:primary_category term="eess.IV"/>
+    <author>
+      <name>Jeffrey M. Ede</name>
+    </author>
+    <author>
+      <name>Jonathan J. P. Peters</name>
+    </author>
+    <author>
+      <name>Jeremy Sloan</name>
+    </author>
+    <author>
+      <name>Richard Beanland</name>
+    </author>
+  </entry>
+</feed>

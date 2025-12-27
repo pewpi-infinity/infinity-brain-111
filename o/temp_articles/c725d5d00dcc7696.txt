@@ -1,0 +1,80 @@
+TERMS: fusion, spin, probability
+COLORS: green, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/bL/9GdEc5HI39dUXycFs66Ri49U</id>
+  <title>arXiv Query: search_query=all:fusion AND all:spin AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:21:18Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:fusion+AND+(all:spin+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>25</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2505.16816v2</id>
+    <title>Fusion for High-Dimensional Linear Optical Quantum Computing with Improved Success Probability</title>
+    <updated>2025-09-09T16:43:24Z</updated>
+    <link href="https://arxiv.org/abs/2505.16816v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.16816v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Type-II fusion is a probabilistic entangling measurement that is essential to measurement-based linear optical quantum computing and can be used for quantum teleportation more broadly. However, it remains under-explored for high-dimensional qudits. Our main result gives a Type-II fusion protocol with proven success probability approximately $2/d^2$ for qudits of arbitrary dimension $d$. This generalizes a previous method which only applied to even-dimensional qudits. We believe this protocol to be the most efficient known protocol for Type-II fusion, with the $d=5$ case beating the previous record by a factor of approximately $723$. We discuss the construction of the required $(d-2)$-qudit ancillary state using a silicon spin qudit ancilla coupled to a microwave cavity through time-bin multiplexing. We then introduce a general framework of extra-dimensional corrections, a natural technique in linear optics that can be used to non-deterministically correct non-maximally-entangled projections into Bell measurements. We use this method to analyze and improve several different circuits for high-dimensional Type-II fusion and compare their benefits and drawbacks.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-22T15:52:03Z</published>
+    <arxiv:comment>27 pages, 13 figures. v2 includes data as ancillary files</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Gözde Üstün</name>
+    </author>
+    <author>
+      <name>Eleanor G. Rieffel</name>
+    </author>
+    <author>
+      <name>Simon J. Devitt</name>
+    </author>
+    <author>
+      <name>Jason Saied</name>
+    </author>
+    <arxiv:doi>10.1103/l7bg-hc8c</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/l7bg-hc8c" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0907.0582v3</id>
+    <title>Correlation functions of the integrable higher-spin XXX and XXZ spin chains through the fusion method</title>
+    <updated>2009-11-19T08:27:42Z</updated>
+    <link href="https://arxiv.org/abs/0907.0582v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0907.0582v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  For the integrable higher-spin XXX and XXZ spin chains we present multiple-integral representations for the correlation function of an arbitrary product of Hermitian elementary matrices in the massless ground state. We give a formula expressing it by a single term of multiple integrals. In particular, we explicitly derive the emptiness formation probability (EFP). We assume $2s$-strings for the ground-state solution of the Bethe ansatz equations for the spin-$s$ XXZ chain, and solve the integral equations for the spin-$s$ Gaudin matrix.
+  In terms of the XXZ coupling $Δ$ we define $ζ$ by $Δ=\cos ζ$, and put it in a region $0 \le ζ&lt; π/2s$ of the gapless regime: $-1 &lt; Δ\le 1$ ($0 \le ζ&lt; π$), where $Δ=1$ ($ζ=0$) corresponds to the antiferromagnetic point. We calculate the zero-temperature correlation functions by the algebraic Bethe ansatz, introducing the Hermitian elementary matrices in the massless regime, and taking advantage of the fusion construction of the $R$-matrix of the higher-spin representations of the affine quantum group.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-07-03T10:25:15Z</published>
+    <arxiv:comment>50 pages, no figure</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <arxiv:journal_ref>Nucl.Phys.B831:359-407,2010</arxiv:journal_ref>
+    <author>
+      <name>Tetsuo Deguchi</name>
+    </author>
+    <author>
+      <name>Chihiro Matsui</name>
+    </author>
+    <arxiv:doi>10.1016/j.nuclphysb.2009.12.030</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.nuclphysb.2009.12.030" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2404.19355v2</id>
+    <title>Statistical Theory of Neutron-Induced Nuclear Fission and of Heavy-Ion Fusion</title>
+    <updated>2024-11-25T09:40:37Z</updated>
+    <link href="https://arxiv.org/abs/2404.19355v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2404.19355v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>For both reactions we use an approach similar to that of compound-nucleus reaction theory. For neutron-induced fission, we describe the compound system generated by absorption of the neutron and the nuclear system near the scission point as two statistically independent systems governed by random-matrix theory. The systems are connected either by a barrier penetration factor or by a set of transition states above the barrier. Each system is coupled to a different set of channels. An analogous model is used for heavy-ion fusion. Assuming that (seen from the entrance channel) the system on the other side of the barrier is in the regime of strongly overlapping resonances, we obtain for fixed spin and parity closed-form analytical expressions for the total probability for fission and for fusion. Parts of these expressions can be calculated reliably within existing compound-nucleus reaction theory. The remaining parts are the probabilities for passage through or over the barrier. These may be determined theoretically from the liquid-drop model or experimentally from total fission or fusion cross sections.</summary>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-04-30T08:37:25Z</published>
+    <arxiv:primary_category term="nucl-th"/>
+    <arxiv:journal_ref>Phys. Rev. C 110, 054602 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Hans A. Weidenmüller</name>
+    </author>
+  </entry>
+</feed>

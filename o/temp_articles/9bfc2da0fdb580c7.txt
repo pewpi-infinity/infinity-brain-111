@@ -1,0 +1,97 @@
+TERMS: quantum, lattice, spin
+COLORS: blue, orange, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Db+F91YRZqYid4OGy5pDiRWVScI</id>
+  <title>arXiv Query: search_query=all:quantum AND all:lattice AND all:spin&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:05:58Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:lattice+AND+all:spin)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>9583</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2112.04501v3</id>
+    <title>Achieving the quantum field theory limit in far-from-equilibrium quantum link models</title>
+    <updated>2022-12-14T13:20:12Z</updated>
+    <link href="https://arxiv.org/abs/2112.04501v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2112.04501v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Realizations of gauge theories in setups of quantum synthetic matter open up the possibility of probing salient exotic phenomena in condensed matter and high-energy physics, along with potential applications in quantum information and science technologies. In light of the impressive ongoing efforts to achieve such realizations, a fundamental question regarding quantum link model regularizations of lattice gauge theories is how faithfully they capture the quantum field theory limit of gauge theories. Recent work [Zache, Van Damme, Halimeh, Hauke, and Banerjee, at https://journals.aps.org/prd/abstract/10.1103/PhysRevD.106.L091502 has shown through analytic derivations, exact diagonalization, and infinite matrix product state calculations that the low-energy physics of $1+1$D $\mathrm{U}(1)$ quantum link models approaches the quantum field theory limit already at small link spin length $S$. Here, we show that the approach to this limit also lends itself to the far-from-equilibrium quench dynamics of lattice gauge theories, as demonstrated by our numerical simulations of the Loschmidt return rate and the chiral condensate in infinite matrix product states, which work directly in the thermodynamic limit. Similar to our findings in equilibrium that show a distinct behavior between half-integer and integer link spin lengths, we find that criticality emerging in the Loschmidt return rate is fundamentally different between half-integer and integer spin quantum link models in the regime of strong electric-field coupling. Our results further affirm that state-of-the-art finite-size ultracold-atom and NISQ-device implementations of quantum link lattice gauge theories have the real potential to simulate their quantum field theory limit even in the far-from-equilibrium regime.</summary>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-12-08T19:00:00Z</published>
+    <arxiv:comment>Accepted in Quantum</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.quant-gas"/>
+    <arxiv:journal_ref>Quantum 6, 878 (2022)</arxiv:journal_ref>
+    <author>
+      <name>Jad C. Halimeh</name>
+    </author>
+    <author>
+      <name>Maarten Van Damme</name>
+    </author>
+    <author>
+      <name>Torsten V. Zache</name>
+    </author>
+    <author>
+      <name>Debasish Banerjee</name>
+    </author>
+    <author>
+      <name>Philipp Hauke</name>
+    </author>
+    <arxiv:doi>10.22331/q-2022-12-19-878</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.22331/q-2022-12-19-878" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1601.04929v1</id>
+    <title>Simulation of the many-body dynamical quantum Hall effect in an optical lattice</title>
+    <updated>2016-01-19T14:21:15Z</updated>
+    <link href="https://arxiv.org/abs/1601.04929v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1601.04929v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose an experimental scheme to simulate the many-body dynamical quantum Hall effect with ultra-cold bosonic atoms in a one-dimensional optical lattice. We first show that the required model Hamiltonian of a spin-1/2 Heisenberg chain with an effective magnetic field and tunable parameters can be realized in this system. For dynamical response to ramping the external fields, the quantized plateaus emerge in the Berry curvature of the interacting atomic spin chain as a function of the effective spin-exchange interaction. The quantization of this response in the parameter space with the interaction-induced topological transition characterizes the many-body dynamical quantum Hall effect. Furthermore, we demonstrate that this phenomenon can be observed in practical cold-atom experiments with numerical simulations.</summary>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-01-19T14:21:15Z</published>
+    <arxiv:comment>8 pages, 3 figures; accepted in Quantum Information Processing</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.quant-gas"/>
+    <arxiv:journal_ref>Quantum Inf. Process. 15, 1909 (2016)</arxiv:journal_ref>
+    <author>
+      <name>Dan-Wei Zhang</name>
+    </author>
+    <author>
+      <name>Xu-Chen Yang</name>
+    </author>
+    <arxiv:doi>10.1007/s11128-016-1252-9</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s11128-016-1252-9" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1412.3582v4</id>
+    <title>Quantum Gates Between Distant Qubits via Spin-Independent Scattering</title>
+    <updated>2017-11-29T10:45:42Z</updated>
+    <link href="https://arxiv.org/abs/1412.3582v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1412.3582v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show how the spin independent scattering of two initially distant qubits, say, in distinct traps or in remote sites of a lattice, can be used to implement an entangling quantum gate between them. The scattering takes place under 1D confinement for which we consider two different scenarios: a 1D wave-guide and a tight-binding lattice. We consider models with contact-like interaction between two fermionic or two bosonic particles. A qubit is encoded in two distinct spins (or other internal) states of each particle. Our scheme enables the implementation of a gate between two qubits which are initially too far to interact directly, and provides an alternative to photonic mediators for the scaling of quantum computers. Fundamentally, an interesting feature is that "identical particles" (e.g., two atoms of the same species) and the 1D confinement, are both necessary for the action of the gate. Finally, we discuss the feasibility of our scheme, the degree of control required to initialize the wave-packets momenta, and show how the quality of the gate is affected by momentum distributions and initial distance. In a lattice, the control of quasi-momenta is naturally provided by few local edge impurities in the lattice potential.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-12-11T09:33:11Z</published>
+    <arxiv:comment>10 pages, 7 figures. This article supersedes arXiv:1106.2329. Accepted in Quantum</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Quantum 1, 36 (2017)</arxiv:journal_ref>
+    <author>
+      <name>Leonardo Banchi</name>
+    </author>
+    <author>
+      <name>Enrico Compagno</name>
+    </author>
+    <author>
+      <name>Vladimir Korepin</name>
+    </author>
+    <author>
+      <name>Sougato Bose</name>
+    </author>
+    <arxiv:doi>10.22331/q-2017-11-30-36</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.22331/q-2017-11-30-36" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,37 @@
+TERMS: entropy, fusion, vapor
+COLORS: red, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/HbprN2pvDTpALpq8ZAK+Ctd/BHQ</id>
+  <title>arXiv Query: search_query=all:entropy AND all:fusion AND all:vapor&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:16:42Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+(all:fusion+AND+all:vapor)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2004.08912v1</id>
+    <title>A Model for Thermodynamic Properties of Monoatomic Liquids</title>
+    <updated>2020-04-19T17:13:01Z</updated>
+    <link href="https://arxiv.org/abs/2004.08912v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2004.08912v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present an analytical model for calculating the thermodynamic properties of monoatomic liquids using a rough potential energy surface (PES). The PES is transformed into an equivalent simple harmonic oscillator. Without employing any adjustable parameters, the model agrees closely with experimental entropy, heat capacity, and latent heat of fusion and vaporization data for monatomic liquids. In addition, it offers a simple, physical explanation for Richard Melting rule, and provides a material-dependent correction to Trouton Vaporization rule.</summary>
+    <category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-04-19T17:13:01Z</published>
+    <arxiv:primary_category term="cond-mat.soft"/>
+    <author>
+      <name>Drew Lilly</name>
+    </author>
+    <author>
+      <name>Anubhav Jain</name>
+    </author>
+    <author>
+      <name>Ravi Prasher</name>
+    </author>
+    <arxiv:doi>10.1063/5.0041604</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/5.0041604" title="doi"/>
+  </entry>
+</feed>

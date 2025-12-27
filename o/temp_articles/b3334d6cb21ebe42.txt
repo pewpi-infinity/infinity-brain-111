@@ -1,0 +1,63 @@
+TERMS: hydrogen, crystal, superconductivity, bandgap
+COLORS: purple, orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/y5febG1t3bt5awCHzdS0wehAULg</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:crystal AND all:superconductivity AND all:bandgap&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T02:00:00Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:crystal+AND+(all:superconductivity+AND+all:bandgap))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1108.6190v2</id>
+    <title>Absence of Metallization in Solid Molecular Hydrogen</title>
+    <updated>2012-02-06T20:11:44Z</updated>
+    <link href="https://arxiv.org/abs/1108.6190v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1108.6190v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Being the simplest element with just one electron and proton the electronic structure of the Hydrogen atom is known exactly. However, this does not hold for the complex interplay between them in a solid and in particular not at high pressure that is known to alter the crystal as well as the electronic structure. Back in 1935 Wigner and Huntington predicted that at very high pressure solid molecular hydrogen would dissociate and form an atomic solid that is metallic. In spite of intense research efforts the experimental realization, as well as the theoretical determination of the crystal structure has remained elusive. Here we present a computational study showing that the distorted hexagonal P6$_3$/m structure is the most likely candidate for Phase III of solid hydrogen. We find that the pairing structure is very persistent and insulating over the whole pressure range, which suggests that metallization due to dissociation may precede eventual bandgap closure. Due to the fact that this not only resolve one of major disagreement between theory and experiment, but also excludes the conjectured existence of phonon-driven superconductivity in solid molecular hydrogen, our results involve a complete revision of the zero-temperature phase diagram of Phase III.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-08-31T11:05:08Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>JETP Lett. 95, 449 (2012)</arxiv:journal_ref>
+    <author>
+      <name>Sam Azadi</name>
+    </author>
+    <author>
+      <name>Thomas D. Kühne</name>
+    </author>
+    <arxiv:doi>10.1134/S0021364012090020</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1134/S0021364012090020" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2002.11026v2</id>
+    <title>Orientation-dependent electric transport and band filling in hole co-doped epitaxial diamond films</title>
+    <updated>2022-07-04T11:57:21Z</updated>
+    <link href="https://arxiv.org/abs/2002.11026v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2002.11026v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Diamond, a well-known wide-bandgap insulator, becomes a low-temperature superconductor upon substitutional doping of carbon with boron. However, limited boron solubility and significant lattice disorder introduced by boron doping prevent attaining the theoretically-predicted high-temperature superconductivity. Here we present an alternative co-doping approach, based on the combination of ionic gating and boron substitution, in hydrogenated thin films epitaxially grown on (111)- and (110)-oriented single crystals. Gate-dependent electric transport measurements show that the effect of boron doping strongly depends on the crystal orientation. In the (111) surface, it strongly suppresses the charge-carrier mobility and moderately increases the gate-induced doping, while in the (110) surface it strongly increases the gate-induced doping with a moderate reduction in mobility. In both cases the maximum total carrier density remains below $2{\cdot}10^{14}\,$cm$^{-2}$, three times lower than the value theoretically required for high-temperature superconductivity. Density-functional theory calculations show that this strongly orientation-dependent effect is due to the specific energy-dependence of the density of states in the two surfaces. Our results allow to determine the band filling and doping-dependence of the hole scattering lifetime in the two surfaces, showing the occurrence of a frustrated insulator-to-metal transition in the (110) surface and of a re-entrant insulator-to-metal transition in the (111) surface.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-02-25T16:51:28Z</published>
+    <arxiv:comment>14 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Appl. Surf. Sci. 528, 146795 (2020)</arxiv:journal_ref>
+    <author>
+      <name>Erik Piatti</name>
+    </author>
+    <author>
+      <name>Alberto Pasquarelli</name>
+    </author>
+    <author>
+      <name>Renato S. Gonnelli</name>
+    </author>
+    <arxiv:doi>10.1016/j.apsusc.2020.146795</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.apsusc.2020.146795" title="doi"/>
+  </entry>
+</feed>

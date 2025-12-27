@@ -1,0 +1,38 @@
+TERMS: hydrogen, quantum, neutrino, vacuum
+COLORS: purple, blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/667kLDijAqjYwU0UYlsf4aZDG/U</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:neutrino AND all:vacuum&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:41:32Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:neutrino+AND+all:vacuum))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1202.1404v3</id>
+    <title>Quantization in relativistic classical mechanics: the Stueckelberg equation, neutrino oscillation and large-scale structure of the Universe</title>
+    <updated>2012-02-23T11:36:35Z</updated>
+    <link href="https://arxiv.org/abs/1202.1404v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1202.1404v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Based on the Chetaev theorem on stable dynamical trajectories in the presence of dissipative forces, we obtain the generalized condition for stability of relativistic classical Hamiltonian systems (with an invariant evolution parameter) in the form of the Stueckelberg equation. As is known, this equation is the basis of a competing paradigm known as parametrized relativistic quantum mechanics (pRQM). It is shown that the energy of dissipative forces, which generate the Chetaev generalized condition of stability, coincides exactly with Bohmian relativistic quantum potential. We show that the squared amplitude of a wave function in the Stueckelberg equation is equivalent to the probability density function for the number of particle trajectories, relative to which the velocity and the position of the particle are not hidden parameters.
+  The conditions for reasonableness of trajectory interpretation of pRQM are discussed. On basis of analysis of a general formalism for vacuum-flavor mixing of neutrino within the context of the standard and pRQM models we show that the corresponding expressions for the probability of transition from one neutrino flavor to another differ appreciably, but they are experimentally testable: the estimations of absolute value for neutrino mass based on modern experimental data for solar and atmospheric neutrinos show that the pRQM results have a preference. It is noted that the selection criterion of mass solutions relies on proximity between the average size of condensed neutrino clouds, which is described by the Muraki formula (29th ICRC, 2005) and depends on the neutrino mass, and the average size of typical observed void structure (dark matter + hydrogen gas), which plays the role of characteristic dimension of large-scale structure of the Universe.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-02-07T12:44:28Z</published>
+    <arxiv:comment>14 pages, 1 figure. Presented at Heinz von Foerster Congress 2011 (v2: some misprints in references fixed; v3: Inroduction and sections 4 and 5 are revised)</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>J. Phys.: Conf. Ser. Vol.361 (2012) 012033</arxiv:journal_ref>
+    <author>
+      <name>V. D. Rusov</name>
+    </author>
+    <author>
+      <name>D. S. Vlasenko</name>
+    </author>
+    <arxiv:doi>10.1088/1742-6596/361/1/012033</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1742-6596/361/1/012033" title="doi"/>
+  </entry>
+</feed>

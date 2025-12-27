@@ -1,0 +1,74 @@
+TERMS: entropy, neutrino, singularity
+COLORS: red, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/DHsnyAJyjErENksTHj6e2aRsE3E</id>
+  <title>arXiv Query: search_query=all:entropy AND all:neutrino AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:19:28Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+(all:neutrino+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>3</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2510.14127v1</id>
+    <title>Axisymmetric hydrodynamics in numerical relativity: treating coordinate singularity, artificial heating and modeling MHD instabilities</title>
+    <updated>2025-10-15T21:50:59Z</updated>
+    <link href="https://arxiv.org/abs/2510.14127v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.14127v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Two-dimensional axisymmetric simulations of binary neutron star (BNS) merger remnant are a cheap alternative to 3D simulations. To maintain realism for secular timescales, simulations must avoid accumulated errors from drifts in conserved quantities and artificial heating, and they must model turbulent transport in a way that remains plausible throughout the evolution. It is also crucial to avoid numerical artifacts due to the polar coordinate axis singularity. Methods that behave well near the axis often break flux-conservative form of the hydrodynamic equations, resulting in significant drifts in conserved quantities. We present a flux-conservative scheme that maintains smoothness near the axis without sacrificing conservative formulation of the equations or incurring drifts in conserved global quantities. We compare the numerical performance of different treatments of the hydrodynamic equations when evolving a hypermassive neutron star resembling the remnant of a BNS merger. These simulations demonstrate that the new scheme combines the axis smoothness of non-conservative methods with the mass and angular momentum conservation of other conservative methods on $\sim$ $10^2$ ms timescales of viscous and neutrino-driven evolution. Because fluid profiles remain smooth in the remnant interior, it is possible to remove artificial heating by evolving the entropy density. We show how physical heating and cooling terms can be easily calculated from source terms of the conservative evolution variables and demonstrate our implementation. Finally, we discuss and implement improvements to the effective viscosity scheme to better model the effect of magnetohydrodynamic instabilities as the remnant evolves.</summary>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-15T21:50:59Z</published>
+    <arxiv:primary_category term="astro-ph.HE"/>
+    <author>
+      <name>Pavan Chawhan</name>
+    </author>
+    <author>
+      <name>Matthew D. Duez</name>
+    </author>
+    <author>
+      <name>Francois Foucart</name>
+    </author>
+    <author>
+      <name>Patrick Chi-Kit Cheong</name>
+    </author>
+    <author>
+      <name>Nishad Muhammed</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2102.12477v1</id>
+    <title>Early Universe Thermodynamics and Evolution in Nonviscous and Viscous Strong and Electroweak epochs: Possible Analytical Solutions</title>
+    <updated>2021-02-24T12:14:04Z</updated>
+    <link href="https://arxiv.org/abs/2102.12477v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2102.12477v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Based on recent perturbative and non-perturbative lattice calculations with almost quark flavors and the thermal contributions from photons, neutrinos, leptons, electroweak particles, and scalar Higgs bosons, various thermodynamic quantities, at vanishing net-baryon densities, such as pressure, energy density, bulk viscosity, relaxation time, and temperature have been calculated up to the TeV-scale, i.e. covering hadron, QGP and electroweak (EW) phases in the early Universe. This remarkable progress motivated the present study to determine the possible influence of the bulk viscosity in the early Universe and to understand how this would vary from epoch to epoch. We have taken into consideration first- (Eckart) and second-order (Israel-Stewart) theories for the relativistic cosmic fluid and integrated viscous equations of state in Friedmann equations. Nonlinear nonhomogeneous differential equations are obtained as analytical solutions. For Israel-Stewart, the differential equations are very sophisticated to be solved. They are outlined here as road-maps for future studies. For Eckart theory, the only possible solution is the functionality, $H(a(t))$, where $H(t)$ is the Hubble parameter and $a(t)$ is the scale factor, but none of them so far could to be directly expressed in terms of either proper or cosmic time $t$. For Eckart-type viscous background, especially at finite cosmological constant, non-singular $H(t)$ and $a(t)$ are obtained, where $H(t)$ diverges for QCD/EW and asymptotic EoS. For non-viscous background, the dependence of $H(a(t))$ is monotonic. The same conclusion can be drawn for an ideal EoS. We also conclude that the rate of decreasing $H(a(t))$ with increasing $a(t)$ varies from epoch to epoch, at vanishing and finite cosmological constant. These results obviously help in improving our understanding of the nucleosynthesis and the cosmological large-scale structure.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-02-24T12:14:04Z</published>
+    <arxiv:comment>27 pages, 5 figures, accepted for publication in ENTROPY</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <author>
+      <name>Abdel Nasser Tawfik</name>
+    </author>
+    <author>
+      <name>Carsten Greiner</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/gr-qc/0105027v1</id>
+    <title>Cosmological Models With Variable G an Lambda and Bulk viscosity</title>
+    <updated>2001-05-08T09:54:28Z</updated>
+    <link href="https://arxiv.org/abs/gr-qc/0105027v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/gr-qc/0105027v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We have analyzed a nonsingular model with a variable cosmological term following the Carvalho {\it et al}. ansatz. The model was shown to approximate to the model of Freese {\it et al}. in one direction and to the Özer-Taha in the other. We have then included the effect of viscosity in this cosmology, as this effect has not been considered before. The analysis showed that this viscous effect could be important with a present contribution to the cosmic pressure, at most, of order of that of radiation. The model puts a stronger upper bound on the baryonic matter than that required by the standard model. A variable gravitational and cosmological constant were then introduced in a scenario which conserves the energy and momentum in the presence of bulk viscosity. The result of the analysis reveals that various models could be viscous. A noteworthy result is that some nonsingular closed models evolve asymptotically into a singular viscous one. The considered models solve for many of the standard model problems. Though the introduction of bulk viscosity results in the creation of particles, this scenario conserves energy and momentum. As in the standard model the entropy remains constant. We have not explained the generation of bulk viscosity but some workers attributes this to neutrinos. Though the role of viscosity today is minute it could, nevertheless, have had an important contribution at early times. We have shown that these models encompass many of the old and recently proposed models, in particular, Brans-Dicke, Dirac, Freese {\it et al}., Berman, Abdel Rahman and Kalligas {\it et al}. models. Hence we claim that the introduction of bulk viscosity enriches the adopted cosmology.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2001-05-08T09:54:28Z</published>
+    <arxiv:comment>Ph.D. Thesis(University of Khartoum)</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Hadronic Journal Vol. 34, 1 (2011)</arxiv:journal_ref>
+    <author>
+      <name>Arbab I. Arbab</name>
+    </author>
+  </entry>
+</feed>

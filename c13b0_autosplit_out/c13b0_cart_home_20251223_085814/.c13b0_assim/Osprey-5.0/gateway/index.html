@@ -1,0 +1,52 @@
+<!doctype html>
+<!-- 🐶 PEWPI SIGN-IN (GLOBAL) -->
+<div id="pewpi-gate">
+  <h1>🐶 pewpi</h1>
+  <input id="pewpi_user" placeholder="Handle">
+  <button onclick="pewpiUnlock()">Enter</button>
+</div>
+<script>
+function pewpiUnlock(){
+  localStorage.setItem("pewpi_user", document.getElementById("pewpi_user").value);
+  document.getElementById("pewpi-gate").style.display="none";
+  document.body.classList.add("pewpi-live");
+}
+if(localStorage.getItem("pewpi_user")){
+  document.addEventListener("DOMContentLoaded",()=>{
+    const g=document.getElementById("pewpi-gate");
+    if(g) g.style.display="none";
+    document.body.classList.add("pewpi-live");
+  });
+}
+</script>
+<style>
+#pewpi-gate{position:fixed;inset:0;background:#0e0e0e;color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:9999}
+#pewpi-gate button{background:#ff69b4;border:0;padding:10px 18px}
+body:not(.pewpi-live)>*:not(#pewpi-gate){filter:blur(6px);pointer-events:none}
+</style>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>∞ Osprey-5.0</title>
+<style>
+body{margin:0;background:#030712;color:#e2e8f0;font-family:system-ui;text-align:center;}
+h1{color:#38bdf8;margin-top:2rem;}
+button{background:#38bdf8;color:#000;border:none;border-radius:12px;
+  padding:1rem 2rem;margin:1rem;font-weight:600;font-size:1.1rem;}
+section{margin-top:3rem;}
+</style>
+</head>
+<body>
+<h1>🪶 Osprey Gateway</h1>
+<p>Select a world to enter below :</p>
+<section>
+  <button onclick="go('portal/index.html')">App Builder Portal</button>
+  <button onclick="go('graveyard/index.html')">Bot Graveyard Game</button>
+  <button onclick="go('offices/index.html')">Government Hub</button>
+</section>
+<script>
+function go(path){location.href='../'+path;}
+</script>
+</body>
+</html>

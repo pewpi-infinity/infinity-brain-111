@@ -1,0 +1,94 @@
+TERMS: spin, wavefunction, singularity
+COLORS: yellow, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/M+Xn9Sz6tiXSPy/M+RoFlKMwSw4</id>
+  <title>arXiv Query: search_query=all:spin AND all:wavefunction AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:32:09Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:spin+AND+(all:wavefunction+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>26</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2011.14930v2</id>
+    <title>Quantum Singular Value Decomposition of Spin Correlation Matrix in One-Dimensional Heisenberg Model</title>
+    <updated>2021-02-19T13:36:45Z</updated>
+    <link href="https://arxiv.org/abs/2011.14930v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2011.14930v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present singular value decomposition of spin correlation matrix defined from the ground state of one-dimensional antiferromagnetic quantum Heisenberg model. The decomposition creates a data set that coincides with various domain excitations from classical antiferromagnetic state. We determine the scaling relation for the singular values as a function of the domain size. The singular values are closely related to the square of weights of the bases in the ground-state wavefunction. The nature of the singular value decomposition is to precisely estimate the appropriate bases and corresponding weights of the ground-state wavefunction.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-11-30T15:56:16Z</published>
+    <arxiv:comment>10 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Kohei Ohgane</name>
+    </author>
+    <author>
+      <name>Tatsuya Kumamoto</name>
+    </author>
+    <author>
+      <name>Hiroaki Matsueda</name>
+    </author>
+    <arxiv:doi>10.7566/JPSJ.90.054001</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.7566/JPSJ.90.054001" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.09619v1</id>
+    <title>Topological atom optics and beyond with knotted quantum wavefunctions</title>
+    <updated>2023-12-15T09:02:07Z</updated>
+    <link href="https://arxiv.org/abs/2312.09619v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.09619v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Atom optics demonstrates optical phenomena with coherent matter waves, providing a foundational connection between light and matter. Significant advances in optics have followed the realisation of structured light fields hosting complex singularities and topologically non-trivial characteristics. However, analogous studies are still in their infancy in the field of atom optics. Here, we investigate and experimentally create knotted quantum wavefunctions in spinor Bose--Einstein condensates which display non-trivial topologies. In our work we construct coordinated orbital and spin rotations of the atomic wavefunction, engineering a variety of discrete symmetries in the combined spin and orbital degrees of freedom. The structured wavefunctions that we create map to the surface of a torus to form torus knots, Möbius strips, and a twice-linked Solomon's knot. In this paper we demonstrate striking connections between the symmetries and underlying topologies of multicomponent atomic systems and of vector optical fields--a realization of topological atom-optics.</summary>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-15T09:02:07Z</published>
+    <arxiv:comment>10 pages, 7 figures, 5 pages Supplementary information</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.quant-gas"/>
+    <arxiv:journal_ref>Communications Physics 7, 7 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Maitreyi Jayaseelan</name>
+    </author>
+    <author>
+      <name>Joseph D. Murphree</name>
+    </author>
+    <author>
+      <name>Justin T. Schultz</name>
+    </author>
+    <author>
+      <name>Janne Ruostekoski</name>
+    </author>
+    <author>
+      <name>Nicholas P. Bigelow</name>
+    </author>
+    <arxiv:doi>10.1038/s42005-023-01499-0</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s42005-023-01499-0" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2109.03134v1</id>
+    <title>Time Evolution of ML-MCTDH Wavefunctions II: Application of the Projector Splitting Integrator</title>
+    <updated>2021-09-07T14:59:29Z</updated>
+    <link href="https://arxiv.org/abs/2109.03134v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2109.03134v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The multi-layer multiconfiguration time-dependent Hartree (ML-MCTDH) approach suffers from numerical instabilities whenever the wavefunction is weakly entangled. These instabilities arise from singularities in the equations of motion (EOMs) and necessitate the use of a regularization parameter. The Projector Splitting Integrator (PSI) has previously been presented as an approach for evolving ML-MCTDH wavefunctions that is free of singularities. Here we will discuss the implementation of the multi-layer PSI with a particular focus on how the steps required relate to those required to implement standard ML-MCTDH. We demonstrate the efficiency and stability of the PSI for large ML-MCTDH wavefunctions containing up to hundreds of thousands of nodes by considering a series of spin-boson models with up to $10^6$ bath modes, and find that for these problems the PSI requires roughly 3-4 orders of magnitude fewer Hamiltonian evaluations and 2-3 orders of magnitude fewer Hamiltonian applications than standard ML-MCTDH, and 2-3/1-2 orders of magnitude fewer evaluations/applications than approaches that use improved regularization schemes. Finally, we consider a series of significantly more challenging multi-spin-boson models that require much larger numbers of single-particle functions with wavefunctions containing up to $\sim 1.3\times 10^9$ parameters to obtain accurate dynamics.</summary>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-09-07T14:59:29Z</published>
+    <arxiv:comment>Main paper: 17 pages, 7 figures. Supplemental information (for paper I and paper II of the series): 22 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.chem-ph"/>
+    <author>
+      <name>Lachlan P. Lindoy</name>
+    </author>
+    <author>
+      <name>Benedikt Kloss</name>
+    </author>
+    <author>
+      <name>David R. Reichman</name>
+    </author>
+    <arxiv:doi>10.1063/5.0070043</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/5.0070043" title="doi"/>
+  </entry>
+</feed>

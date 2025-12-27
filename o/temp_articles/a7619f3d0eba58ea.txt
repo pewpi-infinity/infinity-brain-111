@@ -1,0 +1,81 @@
+TERMS: hydrogen, quantum, frequency, muon
+COLORS: purple, blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/m8NMU8zG3b4x49g3HTftRMpDZBA</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:frequency AND all:muon&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:37:51Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:frequency+AND+all:muon))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1603.01195v1</id>
+    <title>Precision Muonium Spectroscopy</title>
+    <updated>2016-03-03T17:38:53Z</updated>
+    <link href="https://arxiv.org/abs/1603.01195v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1603.01195v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The muonium atom is the purely leptonic bound state of a positive muon and an electron. It has a lifetime of 2.2 $μ$s. The absence of any known internal structure provides for precision experiments to test fundamental physics theories and to determine accurate values of fundamental constants. In particular groun dstate hyperfine structure transitions can be measured by microwave spectroscopy to deliver the muon magnetic moment. The frequency of the 1s-2s transition in the hydrogen-like atom can be determined with laser spectroscopy to obtain the muon mass. With such measurements fundamental physical interactions, in particular Quantum Electrodynamics, can also be tested at highest precision. The results are important input parameters for experiments on the muon magnetic anomaly. The simplicity of the atom enables further precise experiments, such as a search for muonium-antimuonium conversion for testing charged lepton number conservation and searches for possible antigravity of muons and dark matter.</summary>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-03-03T17:38:53Z</published>
+    <arxiv:comment>accepted for JPSJ</arxiv:comment>
+    <arxiv:primary_category term="hep-ex"/>
+    <author>
+      <name>Klaus P. Jungmann</name>
+    </author>
+    <arxiv:doi>10.7566/JPSJ.85.091004</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.7566/JPSJ.85.091004" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.07533v2</id>
+    <title>Improved Measurements of Muonic Helium Ground-State Hyperfine Structure at a Near-Zero Magnetic Field</title>
+    <updated>2023-12-15T07:19:12Z</updated>
+    <link href="https://arxiv.org/abs/2306.07533v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.07533v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Muonic helium atom hyperfine structure (HFS) measurements are a sensitive tool to test the three-body atomic system and bound-state quantum electrodynamics theory, and determine fundamental constants of the negative muon magnetic moment and mass. The world's most intense pulsed negative muon beam at the Muon Science Facility of the Japan Proton Accelerator Research Complex allows improvement of previous measurements and testing further $CPT$ invariance by comparing the magnetic moments and masses of positive and negative muons (second-generation leptons). We report new ground-state HFS measurements of muonic helium-4 atoms at a near-zero magnetic field, performed for the first time using a small admixture of CH$_{4}$ as an electron donor to form neutral muonic helium atoms efficiently. Our analysis gives $Δν$ = 4464.980(20) MHz (4.5 ppm), which is more precise than both previous measurements at weak and high fields. The muonium ground-state HFS was also measured under the same conditions to investigate the isotopic effect on the frequency shift due to the gas density dependence in He with CH$_{4}$ admixture and compared with previous studies. Muonium and muonic helium can be regarded as light and heavy hydrogen isotopes with an isotopic mass ratio of 36. No isotopic effect was observed within the current experimental precision.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-13T04:16:11Z</published>
+    <arxiv:comment>7 pages, 4 figures, 2 tables</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 131, 253003 (2023)</arxiv:journal_ref>
+    <author>
+      <name>P. Strasser</name>
+    </author>
+    <author>
+      <name>S. Fukumura</name>
+    </author>
+    <author>
+      <name>R. Iwai</name>
+    </author>
+    <author>
+      <name>S. Kanda</name>
+    </author>
+    <author>
+      <name>S. Kawamura</name>
+    </author>
+    <author>
+      <name>M. Kitaguchi</name>
+    </author>
+    <author>
+      <name>S. Nishimura</name>
+    </author>
+    <author>
+      <name>S. Seo</name>
+    </author>
+    <author>
+      <name>H. M. Shimizu</name>
+    </author>
+    <author>
+      <name>K. Shimomura</name>
+    </author>
+    <author>
+      <name>H. Tada</name>
+    </author>
+    <author>
+      <name>H. A. Torii</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.131.253003</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.131.253003" title="doi"/>
+  </entry>
+</feed>

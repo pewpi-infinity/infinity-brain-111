@@ -1,0 +1,95 @@
+TERMS: quantum, lattice, boson
+COLORS: blue, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Ps9cvdPQWopfVzHekjisfQVhZdM</id>
+  <title>arXiv Query: search_query=all:quantum AND all:lattice AND all:boson&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:06:04Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:lattice+AND+all:boson)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>3533</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2212.14030v3</id>
+    <title>General quantum algorithms for Hamiltonian simulation with applications to a non-Abelian lattice gauge theory</title>
+    <updated>2023-12-14T18:40:43Z</updated>
+    <link href="https://arxiv.org/abs/2212.14030v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2212.14030v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>With a focus on universal quantum computing for quantum simulation, and through the example of lattice gauge theories, we introduce rather general quantum algorithms that can efficiently simulate certain classes of interactions consisting of correlated changes in multiple (bosonic and fermionic) quantum numbers with non-trivial functional coefficients. In particular, we analyze diagonalization of Hamiltonian terms using a singular-value decomposition technique, and discuss how the achieved diagonal unitaries in the digitized time-evolution operator can be implemented. The lattice gauge theory studied is the SU(2) gauge theory in 1+1 dimensions coupled to one flavor of staggered fermions, for which a complete quantum-resource analysis within different computational models is presented. The algorithms are shown to be applicable to higher-dimensional theories as well as to other Abelian and non-Abelian gauge theories. The example chosen further demonstrates the importance of adopting efficient theoretical formulations: it is shown that an explicitly gauge-invariant formulation using loop, string, and hadron degrees of freedom simplifies the algorithms and lowers the cost compared with the standard formulations based on angular-momentum as well as the Schwinger-boson degrees of freedom. The loop-string-hadron formulation further retains the non-Abelian gauge symmetry despite the inexactness of the digitized simulation, without the need for costly controlled operations. Such theoretical and algorithmic considerations are likely to be essential in quantumly simulating other complex theories of relevance to nature.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-12-28T18:56:25Z</published>
+    <arxiv:comment>49+16+8 pages, 16 figures. v3: includes minor scattered revisions to improve readability and correct a few typos. Version accepted to Quantum</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>Quantum 7, 1213 (2023)</arxiv:journal_ref>
+    <author>
+      <name>Zohreh Davoudi</name>
+    </author>
+    <author>
+      <name>Alexander F. Shaw</name>
+    </author>
+    <author>
+      <name>Jesse R. Stryker</name>
+    </author>
+    <arxiv:doi>10.22331/q-2023-12-20-1213</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.22331/q-2023-12-20-1213" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0807.4534v2</id>
+    <title>Unconventional quantum phases of lattice bosonic mixtures</title>
+    <updated>2009-02-02T11:54:45Z</updated>
+    <link href="https://arxiv.org/abs/0807.4534v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0807.4534v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We consider strongly interacting boson-boson mixtures on one-dimensional lattices and, by adopting a qualitative mean-field approach, investigate their quantum phases as the interspecies repulsion is increased. In particular, we analyze the low-energy "quantum emulsion" metastable states occurring at large values of the interspecies interaction, which are expected to prevent the system from reaching its true ground state. We argue a significant decrease in the visibility of the time-of-flight images in the case of these spontaneously disordered states.</summary>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-07-28T20:02:01Z</published>
+    <arxiv:comment>10 pages, 2 figures - to appear in the topical issue on "Novel Quantum Phases and Mesoscopic Physics in Quantum Gases" of the European Physical Journal B (2009)</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.other"/>
+    <arxiv:journal_ref>Eur. Phys. J. B 68, 427 (2009)</arxiv:journal_ref>
+    <author>
+      <name>P. Buonsante</name>
+    </author>
+    <author>
+      <name>S. M. Giampaolo</name>
+    </author>
+    <author>
+      <name>F. Illuminati</name>
+    </author>
+    <author>
+      <name>V. Penna</name>
+    </author>
+    <author>
+      <name>A. Vezzani</name>
+    </author>
+    <arxiv:doi>10.1140/epjb/e2009-00056-0</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1140/epjb/e2009-00056-0" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1601.04929v1</id>
+    <title>Simulation of the many-body dynamical quantum Hall effect in an optical lattice</title>
+    <updated>2016-01-19T14:21:15Z</updated>
+    <link href="https://arxiv.org/abs/1601.04929v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1601.04929v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose an experimental scheme to simulate the many-body dynamical quantum Hall effect with ultra-cold bosonic atoms in a one-dimensional optical lattice. We first show that the required model Hamiltonian of a spin-1/2 Heisenberg chain with an effective magnetic field and tunable parameters can be realized in this system. For dynamical response to ramping the external fields, the quantized plateaus emerge in the Berry curvature of the interacting atomic spin chain as a function of the effective spin-exchange interaction. The quantization of this response in the parameter space with the interaction-induced topological transition characterizes the many-body dynamical quantum Hall effect. Furthermore, we demonstrate that this phenomenon can be observed in practical cold-atom experiments with numerical simulations.</summary>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-01-19T14:21:15Z</published>
+    <arxiv:comment>8 pages, 3 figures; accepted in Quantum Information Processing</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.quant-gas"/>
+    <arxiv:journal_ref>Quantum Inf. Process. 15, 1909 (2016)</arxiv:journal_ref>
+    <author>
+      <name>Dan-Wei Zhang</name>
+    </author>
+    <author>
+      <name>Xu-Chen Yang</name>
+    </author>
+    <arxiv:doi>10.1007/s11128-016-1252-9</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s11128-016-1252-9" title="doi"/>
+  </entry>
+</feed>

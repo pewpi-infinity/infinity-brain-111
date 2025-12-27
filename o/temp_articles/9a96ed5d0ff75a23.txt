@@ -1,0 +1,123 @@
+TERMS: spin, wavefunction, oxidation
+COLORS: yellow, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ncVFyHVhMGC9ceQx/S31zLy/GMk</id>
+  <title>arXiv Query: search_query=all:spin AND all:wavefunction AND all:oxidation&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:32:07Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:spin+AND+(all:wavefunction+AND+all:oxidation)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>18</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1810.10196v2</id>
+    <title>Electronic landscape of the P-cluster of nitrogenase as revealed through many-electron quantum wavefunctions</title>
+    <updated>2019-05-14T02:30:15Z</updated>
+    <link href="https://arxiv.org/abs/1810.10196v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1810.10196v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The electronic structure of the nitrogenase metal cofactors is central to nitrogen fixation. However, the P-cluster and iron molybdenum cofactor, each containing eight irons, have resisted detailed characterization of their electronic properties. Through exhaustive many-electron wavefunction simulations enabled by new theoretical methods, we report on the low-energy electronic states of the P-cluster in three oxidation states. The energy scales of orbital and spin excitations overlap, yielding a dense spectrum with features we trace to the underlying atomic states and recouplings. The clusters exist in superpositions of spin configurations with non-classical spin correlations, complicating interpretation of magnetic spectroscopies, while the charges are mostly localized from reorganization of the cluster and its surroundings. Upon oxidation, the opening of the P-cluster significantly increases the density of states, which is intriguing given its proposed role in electron transfer. These results demonstrate that many-electron simulations stand to provide new insights into the electronic structure of the nitrogenase cofactors.</summary>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-10-24T05:53:47Z</published>
+    <arxiv:comment>23 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.chem-ph"/>
+    <author>
+      <name>Zhendong Li</name>
+    </author>
+    <author>
+      <name>Sheng Guo</name>
+    </author>
+    <author>
+      <name>Qiming Sun</name>
+    </author>
+    <author>
+      <name>Garnet Kin-Lic Chan</name>
+    </author>
+    <arxiv:doi>10.1038/s41557-019-0337-3</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41557-019-0337-3" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2107.03359v1</id>
+    <title>Coupling charge and topological reconstructions at polar oxide interfaces</title>
+    <updated>2021-07-07T17:16:39Z</updated>
+    <link href="https://arxiv.org/abs/2107.03359v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2107.03359v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In oxide heterostructures, different materials are integrated into a single artificial crystal, resulting in a breaking of inversion-symmetry across the heterointerfaces. A notable example is the interface between polar and non-polar materials, where valence discontinuities lead to otherwise inaccessible charge and spin states. This approach paved the way to the discovery of numerous unconventional properties absent in the bulk constituents. However, control of the geometric structure of the electronic wavefunctions in correlated oxides remains an open challenge. Here, we create heterostructures consisting of ultrathin SrRuO$_3$, an itinerant ferromagnet hosting momentum-space sources of Berry curvature, and LaAlO$_3$, a polar wide-bandgap insulator. Transmission electron microscopy reveals an atomically sharp LaO/RuO$_2$/SrO interface configuration, leading to excess charge being pinned near the LaAlO$_3$/SrRuO$_3$ interface. We demonstrate through magneto-optical characterization, theoretical calculations and transport measurements that the real-space charge reconstruction modifies the momentum-space Berry curvature in SrRuO$_3$, driving a reorganization of the topological charges in the band structure. Our results illustrate how the topological and magnetic features of oxides can be manipulated by engineering charge discontinuities at oxide interfaces.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-07-07T17:16:39Z</published>
+    <arxiv:comment>5 pages main text (4 figures), 29 pages of supplementary information</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 127, 127202 (2021)</arxiv:journal_ref>
+    <author>
+      <name>T. C. van Thiel</name>
+    </author>
+    <author>
+      <name>W. Brzezicki</name>
+    </author>
+    <author>
+      <name>C. Autieri</name>
+    </author>
+    <author>
+      <name>J. R. Hortensius</name>
+    </author>
+    <author>
+      <name>D. Afanasiev</name>
+    </author>
+    <author>
+      <name>N. Gauquelin</name>
+    </author>
+    <author>
+      <name>D. Jannis</name>
+    </author>
+    <author>
+      <name>N. Janssen</name>
+    </author>
+    <author>
+      <name>D. J. Groenendijk</name>
+    </author>
+    <author>
+      <name>J. Fatermans</name>
+    </author>
+    <author>
+      <name>S. van Aert</name>
+    </author>
+    <author>
+      <name>J. Verbeeck</name>
+    </author>
+    <author>
+      <name>M. Cuoco</name>
+    </author>
+    <author>
+      <name>A. D. Caviglia</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.127.127202</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.127.127202" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.06011v2</id>
+    <title>Correlations of spin splitting and orbital fluctuations due to 1/f charge noise in the Si/SiGe Quantum Dot</title>
+    <updated>2024-08-08T04:37:49Z</updated>
+    <link href="https://arxiv.org/abs/2305.06011v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.06011v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Fluctuations of electric fields can change the position of a gate-defined quantum dot in a semiconductor heterostructure. In the presence of magnetic field gradient, these stochastic shifts of electron's wavefunction lead to fluctuations of electron's spin splitting. The resulting spin dephasing due to charge noise limits the coherence times of spin qubits in isotopically purified Si/SiGe quantum dots. We investigate the spin splitting noise caused by such process caused by microscopic motion of charges at the semiconductor-oxide interface. We compare effects of isotropic and planar displacement of the charges, and estimate their densities and typical displacement magnitudes that can reproduce experimentally observed spin splitting noise spectra. We predict that for defect density of $10^{10}$ cm$^{-2}$, visible correlations between noises in spin splitting and in energy of electron's ground state in the quantum dot, are expected.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-10T09:46:36Z</published>
+    <arxiv:comment>6 pages, 4 figures, added repository: https://doi.org/10.24435/materialscloud:91-mj</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Appl. Phys. Lett. 123, 034003 (2023)</arxiv:journal_ref>
+    <author>
+      <name>Marcin Kępa</name>
+    </author>
+    <author>
+      <name>Łukasz Cywiński</name>
+    </author>
+    <author>
+      <name>Jan A. Krzywda</name>
+    </author>
+    <arxiv:doi>10.1063/5.0156358</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/5.0156358" title="doi"/>
+  </entry>
+</feed>

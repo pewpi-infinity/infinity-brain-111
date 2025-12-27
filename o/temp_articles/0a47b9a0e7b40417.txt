@@ -1,0 +1,75 @@
+TERMS: crystal, singularity
+COLORS: orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Wz7Ld7sxl8BMyzG+OrtXWCVXwSo</id>
+  <title>arXiv Query: search_query=all:crystal AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T00:59:15Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:crystal+AND+all:singularity&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>676</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1710.06995v2</id>
+    <title>Gradient flow approach to an exponential thin film equation: global existence and latent singularity</title>
+    <updated>2018-06-24T18:24:14Z</updated>
+    <link href="https://arxiv.org/abs/1710.06995v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1710.06995v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this work, we study a fourth order exponential equation, $u_t=Δe^{-Δu},$ derived from thin film growth on crystal surface in multiple space dimensions. We use the gradient flow method in metric space to characterize the latent singularity in global strong solution, which is intrinsic due to high degeneration. We define a suitable functional, which reveals where the singularity happens, and then prove the variational inequality solution under very weak assumptions for initial data. Moreover, the existence of global strong solution is established with regular initial data.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-10-19T03:15:43Z</published>
+    <arxiv:comment>latent singularity, curve of maximal slope. arXiv admin note: text overlap with arXiv:1711.07405 by other authors</arxiv:comment>
+    <arxiv:primary_category term="math.AP"/>
+    <arxiv:journal_ref>ESAIM Control Optim. Calc. Var., 25 (2019) 49</arxiv:journal_ref>
+    <author>
+      <name>Yuan Gao</name>
+    </author>
+    <author>
+      <name>Jian-Guo Liu</name>
+    </author>
+    <author>
+      <name>Xin Yang Lu</name>
+    </author>
+    <arxiv:doi>10.1051/cocv/2018037</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1051/cocv/2018037" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.03904v1</id>
+    <title>Singularity formation for full Ericksen-Leslie system of nematic liquid crystal flows in dimension two</title>
+    <updated>2023-05-06T02:48:26Z</updated>
+    <link href="https://arxiv.org/abs/2305.03904v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.03904v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we prove the singularity formation for Poiseuille laminar flow of full Ericksen-Leslie system modeling nematic liquid crystal flows in dimension two. The singularity is due to the geometric effect at the origin.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-06T02:48:26Z</published>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name>Geng Chen</name>
+    </author>
+    <author>
+      <name>Tao Huang</name>
+    </author>
+    <author>
+      <name>Xiang Xu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1001.0962v1</id>
+    <title>Spectral singularities and Bragg scattering in complex crystals</title>
+    <updated>2010-01-06T20:41:43Z</updated>
+    <link href="https://arxiv.org/abs/1001.0962v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1001.0962v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Spectral singularities that spoil the completeness of Bloch-Floquet states may occur in non-Hermitian Hamiltonians with complex periodic potentials. Here an equivalence is established between spectral singularities in complex crystals and secularities that arise in Bragg diffraction patterns. Signatures of spectral singularities in a scattering process with wave packets are elucidated for a PT-symmetric complex crystal.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-01-06T20:41:43Z</published>
+    <arxiv:comment>6 pages, 5 figures, to be published in Phys. Rev. A</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Phys. Rev. A 81, 022102 (2010)</arxiv:journal_ref>
+    <author>
+      <name>S. Longhi</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.81.022102</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.81.022102" title="doi"/>
+  </entry>
+</feed>

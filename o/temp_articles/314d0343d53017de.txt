@@ -1,0 +1,134 @@
+TERMS: hydrogen, frequency, superconductivity, resonance
+COLORS: purple, green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/s1i8+btz7hIunmvOC8gL5Cd1B7k</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:frequency AND all:superconductivity AND all:resonance&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:44:01Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:frequency+AND+(all:superconductivity+AND+all:resonance))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>5</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1908.02606v1</id>
+    <title>Geometric Scaling of Two-Level-System Loss in Superconducting Resonators</title>
+    <updated>2019-08-07T12:59:35Z</updated>
+    <link href="https://arxiv.org/abs/1908.02606v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1908.02606v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We perform an experimental and numerical study of dielectric loss in superconducting microwave resonators at low temperature. Dielectric loss, due to two-level systems, is a limiting factor in several applications, e.g. superconducting qubits, Josephson parametric amplifiers, microwave kinetic-inductance detectors, and superconducting single-photon detectors. Our devices are made of disordered NbN, which, due to magnetic-field penetration, necessitates 3D finite-element simulation of the Maxwell--London equations at microwave frequencies to accurately model the current density and electric field distribution. From the field distribution, we compute the geometric filling factors of the lossy regions in our resonator structures and fit the experimental data to determine the intrinsic loss tangents of its interfaces and dielectrics. We emphasise that the loss caused by a spin-on-glass resist such as hydrogen silsesquioxane (HSQ), used for ultrahigh lithographic resolution relevant to the fabrication of nanowires, and find that, when used, HSQ is the dominant source of loss, with a loss tangent of $δ^i_{HSQ} = 8 \times 10^{-3}$.</summary>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-08-07T12:59:35Z</published>
+    <arxiv:primary_category term="physics.app-ph"/>
+    <author>
+      <name>David Niepce</name>
+    </author>
+    <author>
+      <name>Jonathan Burnett</name>
+    </author>
+    <author>
+      <name>Martí Gutierrez Latorre</name>
+    </author>
+    <author>
+      <name>Jonas Bylander</name>
+    </author>
+    <arxiv:doi>10.1088/1361-6668/ab6179</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1361-6668/ab6179" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.13504v2</id>
+    <title>Annealing reduces Si$_3$N$_4$ microwave-frequency dielectric loss in superconducting resonators</title>
+    <updated>2024-05-16T17:25:12Z</updated>
+    <link href="https://arxiv.org/abs/2312.13504v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.13504v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The dielectric loss of silicon nitride (Si$_3$N$_4$) limits the performance of microwave-frequency devices that rely on this material for sensing, signal processing, and quantum communication. Using superconducting resonant circuits, we measure the cryogenic loss tangent of either as-deposited or high-temperature annealed stoichiometric Si$_3$N$_4$ as a function of drive strength and temperature. The internal loss behavior of the electrical resonators is largely consistent with the standard tunneling model of two-level systems (TLS), including damping caused by resonant energy exchange with TLS and by the relaxation of non-resonant TLS. We further supplement the TLS model with a self-heating effect to explain an increase in the loss observed in as-deposited films at large drive powers. Critically, we demonstrate that annealing remedies this anomalous power-induced loss, reduces the relaxation-type damping by more than two orders of magnitude, and reduces the resonant-type damping by a factor of three. Employing infrared absorption spectroscopy, we find that annealing reduces the concentration of hydrogen in the Si$_3$N$_4$, suggesting that hydrogen impurities cause substantial dissipation.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-21T00:44:46Z</published>
+    <arxiv:comment>11 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Sarang Mittal</name>
+    </author>
+    <author>
+      <name>Kazemi Adachi</name>
+    </author>
+    <author>
+      <name>Nicholas E. Frattini</name>
+    </author>
+    <author>
+      <name>Maxwell D. Urmey</name>
+    </author>
+    <author>
+      <name>Sheng-Xiang Lin</name>
+    </author>
+    <author>
+      <name>Alec L. Emser</name>
+    </author>
+    <author>
+      <name>Cyril Metzger</name>
+    </author>
+    <author>
+      <name>Luca Talamo</name>
+    </author>
+    <author>
+      <name>Sarah Dickson</name>
+    </author>
+    <author>
+      <name>David Carlson</name>
+    </author>
+    <author>
+      <name>Scott B. Papp</name>
+    </author>
+    <author>
+      <name>Cindy A. Regal</name>
+    </author>
+    <author>
+      <name>Konrad W. Lehnert</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevApplied.21.054044</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevApplied.21.054044" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2110.03500v1</id>
+    <title>Hydrogenated Amorphous Silicon Carbide: A Low-loss Deposited Dielectric for Microwave to Submillimeter Wave Superconducting Circuits</title>
+    <updated>2021-10-07T14:36:01Z</updated>
+    <link href="https://arxiv.org/abs/2110.03500v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2110.03500v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Low-loss deposited dielectrics will benefit superconducting devices such as integrated superconducting spectrometers, superconducting qubits and kinetic inductance parametric amplifiers. Compared with planar structures, multi-layer structures such as microstrips are more compact and eliminate radiation loss at high frequencies. Multi-layer structures are most easily fabricated with deposited dielectrics, which typically exhibit higher dielectric loss than crystalline dielectrics. We measured the sub-kelvin and low-power microwave and mm-submm wave dielectric loss of hydrogenated amorphous silicon carbide (a-SiC:H), using a superconducting chip with NbTiN/a-SiC:H/NbTiN microstrip resonators. We deposited the a-SiC:H by plasma-enhanced chemical vapor deposition at a substrate temperature of 400°C. The a-SiC:H has a mm-submm loss tangent ranging from $0.80 \pm 0.01 \times 10^{-4}$ to $1.43 \pm 0.04 \times 10^{-4}$ in the range of 270 to 385 GHz. The microwave loss tangent is $3.2 \pm 0.2 \times 10^{-5}$. These are the lowest low-power sub-kelvin loss tangents that have been reported for microstrip resonators at mm-submm and microwave frequencies. We observe that the loss tangent increases with frequency. The a-SiC:H films are free of blisters and have low stress: $-$20 MPa compressive at 200 nm thickness to 60 MPa tensile at 1000 nm thickness.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-10-07T14:36:01Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>Phys. Rev. Appl. 18 (2022) 064003</arxiv:journal_ref>
+    <author>
+      <name>B. T. Buijtendorp</name>
+    </author>
+    <author>
+      <name>S. Vollebregt</name>
+    </author>
+    <author>
+      <name>K. Karatsu</name>
+    </author>
+    <author>
+      <name>D. J. Thoen</name>
+    </author>
+    <author>
+      <name>V. Murugesan</name>
+    </author>
+    <author>
+      <name>K. Kouwenhoven</name>
+    </author>
+    <author>
+      <name>S. Hähnle</name>
+    </author>
+    <author>
+      <name>J. J. A. Baselmans</name>
+    </author>
+    <author>
+      <name>A. Endo</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevApplied.18.064003</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevApplied.18.064003" title="doi"/>
+  </entry>
+</feed>

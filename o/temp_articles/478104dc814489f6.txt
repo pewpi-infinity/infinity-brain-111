@@ -1,0 +1,116 @@
+TERMS: fusion, probability, singularity
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/bS61xwe5472XW3w4i4TO7gAmQfk</id>
+  <title>arXiv Query: search_query=all:fusion AND all:probability AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:22:36Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:fusion+AND+(all:probability+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>4</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1703.02184v2</id>
+    <title>Indoor Localization Using Visible Light Via Fusion Of Multiple Classifiers</title>
+    <updated>2017-12-20T06:44:32Z</updated>
+    <link href="https://arxiv.org/abs/1703.02184v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1703.02184v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A multiple classifiers fusion localization technique using received signal strengths (RSSs) of visible light is proposed, in which the proposed system transmits different intensity modulated sinusoidal signals by LEDs and the signals received by a Photo Diode (PD) placed at various grid points. First, we obtain some {\emph{approximate}} received signal strengths (RSSs) fingerprints by capturing the peaks of power spectral density (PSD) of the received signals at each given grid point. Unlike the existing RSSs based algorithms, several representative machine learning approaches are adopted to train multiple classifiers based on these RSSs fingerprints. The multiple classifiers localization estimators outperform the classical RSS-based LED localization approaches in accuracy and robustness. To further improve the localization performance, two robust fusion localization algorithms, namely, grid independent least square (GI-LS) and grid dependent least square (GD-LS), are proposed to combine the outputs of these classifiers. We also use a singular value decomposition (SVD) based LS (LS-SVD) method to mitigate the numerical stability problem when the prediction matrix is singular. Experiments conducted on intensity modulated direct detection (IM/DD) systems have demonstrated the effectiveness of the proposed algorithms. The experimental results show that the probability of having mean square positioning error (MSPE) of less than 5cm achieved by GD-LS is improved by 93.03\% and 93.15\%, respectively, as compared to those by the RSS ratio (RSSR) and RSS matching methods with the FFT length of 2000.</summary>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-03-07T02:41:07Z</published>
+    <arxiv:primary_category term="stat.ML"/>
+    <author>
+      <name>Xiansheng Guo</name>
+    </author>
+    <author>
+      <name>Sihua Shao</name>
+    </author>
+    <author>
+      <name>Nirwan Ansari</name>
+    </author>
+    <author>
+      <name>Abdallah Khreishah</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1501.00105v1</id>
+    <title>Face recognition using color local binary pattern from mutually independent color channels</title>
+    <updated>2014-12-31T10:14:25Z</updated>
+    <link href="https://arxiv.org/abs/1501.00105v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1501.00105v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, a high performance face recognition system based on local binary pattern (LBP) using the probability distribution functions (PDF) of pixels in different mutually independent color channels which are robust to frontal homogenous illumination and planer rotation is proposed. The illumination of faces is enhanced by using the state-of-the-art technique which is using discrete wavelet transform (DWT) and singular value decomposition (SVD). After equalization, face images are segmented by use of local Successive Mean Quantization Transform (SMQT) followed by skin color based face detection system. Kullback-Leibler Distance (KLD) between the concatenated PDFs of a given face obtained by LBP and the concatenated PDFs of each face in the database is used as a metric in the recognition process. Various decision fusion techniques have been used in order to improve the recognition rate. The proposed system has been tested on the FERET, HP, and Bosphorus face databases. The proposed system is compared with conventional and thestate-of-the-art techniques. The recognition rates obtained using FVF approach for FERET database is 99.78% compared with 79.60% and 68.80% for conventional gray scale LBP and Principle Component Analysis (PCA) based face recognition techniques respectively.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-12-31T10:14:25Z</published>
+    <arxiv:comment>11 pages in EURASIP Journal on Image and Video Processing, 2013</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Gholamreza Anbarjafari</name>
+    </author>
+    <arxiv:doi>10.1186/1687-5281-2013-6</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1186/1687-5281-2013-6" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.02773v4</id>
+    <title>Disentangling Core and Edge Mechanisms of the Density Limit in DIII-D Negative Triangularity Plasmas</title>
+    <updated>2025-08-29T22:55:57Z</updated>
+    <link href="https://arxiv.org/abs/2504.02773v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.02773v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The density limit is investigated in the DIII-D negative triangularity (NT) plasmas which lack a standard H-mode edge. We find the limit may not be a singular disruptive boundary but a multifaceted density saturation phenomenon governed by distinct core and edge transport mechanisms. Sustained, non-disruptive operation is achieved at densities up to 1.8 times the Greenwald limit ($n_\mathrm{G}$) until the termination of auxiliary heating. Systematic power scans reveal distinct power scalings for the core ($n_e \propto P_\mathrm{SOL}^{0.27\pm0.03}$) and edge ($n_e \propto P_\mathrm{SOL}^{0.42\pm0.04}$) density limits. The edge density saturation is triggered abruptly by the onset of a non-disruptive, high-field side radiative instability that clamps the edge density below $n_\mathrm{G}$. In contrast, the core density continues to rise until it saturates, a state characterized by substantially enhanced core turbulence. Core transport evolves from a diffusive to an intermittent, avalanche-like state, as indicated by heavy-tailed probability density functions (kurtosis $\approx 6$), elevated Hurst exponents, and a $1/f$-type power spectrum. These findings suggest that the density limit in the low-confinement regime is determined by a combination of edge radiative instabilities and core turbulent transport. This distinction provides separate targets for control strategies aimed at extending the operational space of future fusion devices.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-03T17:14:44Z</published>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>R. Hong</name>
+    </author>
+    <author>
+      <name>P. H. Diamond</name>
+    </author>
+    <author>
+      <name>O. Sauter</name>
+    </author>
+    <author>
+      <name>J. Chen</name>
+    </author>
+    <author>
+      <name>F. Khabanov</name>
+    </author>
+    <author>
+      <name>Z. Li</name>
+    </author>
+    <author>
+      <name>D. Liu</name>
+    </author>
+    <author>
+      <name>A. Marinoni</name>
+    </author>
+    <author>
+      <name>G. R. McKee</name>
+    </author>
+    <author>
+      <name>T. L. Rhodes</name>
+    </author>
+    <author>
+      <name>F. Scotti</name>
+    </author>
+    <author>
+      <name>K. E. Thome</name>
+    </author>
+    <author>
+      <name>G. R. Tynan</name>
+    </author>
+    <author>
+      <name>M. A. Van Zeeland</name>
+    </author>
+    <author>
+      <name>Z. Yan</name>
+    </author>
+    <author>
+      <name>L. Zeng</name>
+    </author>
+    <author>
+      <name>the DIII-D NT Team</name>
+    </author>
+  </entry>
+</feed>

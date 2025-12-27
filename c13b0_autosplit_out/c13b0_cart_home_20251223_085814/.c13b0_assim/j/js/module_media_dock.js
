@@ -1,0 +1,170 @@
+/* ============================================
+   INFINITY MEDIA DOCK
+   Video Player • Music Player • File Drawer
+============================================ */
+
+(function(){
+
+  /* ====== BUILD DOCK BAR AT BOTTOM ====== */
+  const dock = document.createElement("div");
+  dock.id = "infinityDock";
+  dock.innerHTML = `
+    <button data-dock="video">🎬</button>
+    <button data-dock="music">🎵</button>
+    <button data-dock="files">📁</button>
+  `;
+  document.body.appendChild(dock);
+
+  /* ====== STYLES ====== */
+  const css = document.createElement("style");
+  css.textContent = `
+    #infinityDock {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      background: rgba(5,15,35,0.92);
+      border-top: 1px solid #29d9ff;
+      display: flex;
+      justify-content: space-around;
+      padding: 10px 0;
+      z-index: 9999;
+    }
+    #infinityDock button {
+      background: none;
+      border: none;
+      font-size: 26px;
+      color: #7ddcff;
+      cursor: pointer;
+    }
+    #infinityDock button:hover { color: #29d9ff; }
+
+    .appWin {
+      position: fixed;
+      top: 20%;
+      left: 20%;
+      width: 300px;
+      height: 200px;
+      background: rgba(0,12,25,0.92);
+      border: 1px solid #29d9ff;
+      border-radius: 14px;
+      padding: 8px;
+      z-index: 99999;
+      display: none;
+    }
+    .appHeader {
+      color: #7ffaff;
+      font-size: 14px;
+      margin-bottom: 6px;
+      cursor: move;
+      user-select: none;
+    }
+    #fileDrawer {
+      position: fixed;
+      right: -260px;
+      top: 0;
+      width: 240px;
+      height: 100%;
+      background: rgba(0,10,25,0.95);
+      border-left: 1px solid #29d9ff;
+      padding: 10px;
+      z-index: 99999;
+      transition: right 0.25s ease;
+    }
+    #fileDrawer.open { right: 0; }
+    #fileList div {
+      color: #bdf2ff;
+      margin-bottom: 6px;
+      cursor: pointer;
+    }
+    #fileList div:hover { color: #29d9ff; }
+  `;
+  document.head.appendChild(css);
+
+  /* ====== WINDOWS ====== */
+  const videoWin = document.createElement("div");
+  videoWin.className = "appWin";
+  videoWin.innerHTML = `
+    <div class="appHeader">🎬 Video Player</div>
+    <video id="vPlayer" width="100%" height="140" controls></video>
+  `;
+  document.body.appendChild(videoWin);
+
+  const musicWin = document.createElement("div");
+  musicWin.className = "appWin";
+  musicWin.innerHTML = `
+    <div class="appHeader">🎵 Music Player</div>
+    <audio id="mPlayer" controls style="width:100%;"></audio>
+  `;
+  document.body.appendChild(musicWin);
+
+  /* ====== FILE DRAWER ====== */
+  const drawer = document.createElement("div");
+  drawer.id = "fileDrawer";
+  drawer.innerHTML = `
+    <h3 style="color:#29d9ff;">Files</h3>
+    <input id="fileUp" type="file" accept="audio/*,video/*" style="margin-bottom:10px;">
+    <div id="fileList"></div>
+  `;
+  document.body.appendChild(drawer);
+
+  /* ====== FILE STORAGE ====== */
+  let mediaFiles = JSON.parse(localStorage.getItem("infinity_files") || "[]");
+
+  function refreshFileList(){
+    const list = document.getElementById("fileList");
+    list.innerHTML = "";
+    mediaFiles.forEach((f,i)=>{
+      const d = document.createElement("div");
+      d.textContent = f.name;
+      d.onclick = ()=> loadFile(f);
+      list.appendChild(d);
+    });
+  }
+  refreshFileList();
+
+  document.getElementById("fileUp").addEventListener("change", (e)=>{
+    const file = e.target.files[0];
+    if(!file) return;
+    const reader = new FileReader();
+    reader.onload = ()=>{
+      mediaFiles.push({ name:file.name, type:file.type, data: reader.result });
+      localStorage.setItem("infinity_files", JSON.stringify(mediaFiles));
+      refreshFileList();
+    };
+    reader.readAsDataURL(file);
+  });
+
+  /* ====== LOAD MEDIA ====== */
+  function loadFile(file){
+    if(file.type.includes("video")){
+      videoWin.style.display = "block";
+      musicWin.style.display = "none";
+      document.getElementById("vPlayer").src = file.data;
+    }
+    if(file.type.includes("audio")){
+      musicWin.style.display = "block";
+      videoWin.style.display = "none";
+      document.getElementById("mPlayer").src = file.data;
+    }
+  }
+
+  /* ====== DOCK CLICK HANDLERS ====== */
+  dock.addEventListener("click", (e)=>{
+    const mode = e.target.getAttribute("data-dock");
+    if(!mode) return;
+
+    if(mode === "video"){ 
+      videoWin.style.display = "block";
+      musicWin.style.display = "none";
+    }
+    if(mode === "music"){
+      musicWin.style.display = "block";
+      videoWin.style.display = "none";
+    }
+    if(mode === "files"){
+      drawer.classList.toggle("open");
+    }
+  });
+
+})();

@@ -1,0 +1,74 @@
+TERMS: quantum, wavefunction, probability
+COLORS: blue, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/z0WeeSOgJP33oG8JjJsiIDdACzY</id>
+  <title>arXiv Query: search_query=all:quantum AND all:wavefunction AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:08:25Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:wavefunction+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>420</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1311.0093v1</id>
+    <title>Quantum states as complex probabilities: The physics behind direct observations of photon wavefunctions in weak measurements</title>
+    <updated>2013-11-01T05:33:35Z</updated>
+    <link href="https://arxiv.org/abs/1311.0093v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1311.0093v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Weak measurements of photon position can be used to obtain direct experimental evidence of the wavefunction of a photon between generation and ultimate detection. Significantly, these measurement results can also be understood as complex valued conditional probabilities of intermediate photon positions. It is therefore possible to interpret the quantum state as a complex valued probability distribution from which measurement probabilities can be derived according to Bayesian rules. The conventional measurement probabilities derived from squares of the wavefunction then describes the effects of measurement back-action, which originate from a non-classical relation between dynamics and statistics that is characteristic of quantum mechanics. It is pointed out that this relation can be used to derive the complete Hilbert space formalism directly from complex probabilities, without the axiomatic introduction of quantum states or operators.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-11-01T05:33:35Z</published>
+    <arxiv:comment>5 pages, contribution to the proceedings of the 10th Rochester Conference on Coherence and Quantum Optics, CQO-X, held June 17-20 2013 at Rochester, NY, USA</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Coherence and Quantum Optics X, edited by N.P. Bigelow, J.H. Eberly, and C.R. Stroud, p. 191-195 (2014)</arxiv:journal_ref>
+    <author>
+      <name>Holger F. Hofmann</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2004.07938v2</id>
+    <title>Rebound Motion of Localized Dirac Wavefunctions</title>
+    <updated>2020-07-08T09:42:51Z</updated>
+    <link href="https://arxiv.org/abs/2004.07938v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2004.07938v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>It is shown that the carrier of a bounded localized free Dirac wavefunction shrinks from infinity and subsequently expands to infinity again. The motion occurs isotropicly at the speed of light. In between there is the phase of rebound, which is limited in time and space in the order of the diameter of the carrier at its minimal extension. This motion proceeds anisotropicly and abruptly as for every direction in space there is a specific time, at which the change from shrinking to expanding happens instantaneously. Asymptotically, regarding the past and the future as well, the probability of position concentrates up to 1 within any spherical shell whose outer radius increases at light speed.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-04-15T12:14:18Z</published>
+    <arxiv:comment>Keywords: Dirac wavefunction, localization, causal time evolution, negative energy. arXiv admin note: substantial text overlap with arXiv:1711.06556</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Domenico P. L. Castrigiano</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1112.3575v1</id>
+    <title>Direct Measurement of the Quantum Wavefunction</title>
+    <updated>2011-12-15T17:22:28Z</updated>
+    <link href="https://arxiv.org/abs/1112.3575v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1112.3575v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Central to quantum theory, the wavefunction is the complex distribution used to completely describe a quantum system. Despite its fundamental role, it is typically introduced as an abstract element of the theory with no explicit definition. Rather, physicists come to a working understanding of the wavefunction through its use to calculate measurement outcome probabilities via the Born Rule. Presently, scientists determine the wavefunction through tomographic methods, which estimate the wavefunction that is most consistent with a diverse collection of measurements. The indirectness of these methods compounds the problem of defining the wavefunction. Here we show that the wavefunction can be measured directly by the sequential measurement of two complementary variables of the system. The crux of our method is that the first measurement is performed in a gentle way (i.e. weak measurement) so as not to invalidate the second. The result is that the real and imaginary components of the wavefunction appear directly on our measurement apparatus. We give an experimental example by directly measuring the transverse spatial wavefunction of a single photon, a task not previously realized by any method. We show that the concept is universal, being applicable both to other degrees of freedom of the photon (e.g. polarization, frequency, etc.) and to other quantum systems (e.g. electron spin-z quantum state, SQUIDs, trapped ions, etc.). Consequently, this method gives the wavefunction a straightforward and general definition in terms of a specific set of experimental operations. We expect it to expand the range of quantum systems scientists are able to characterize and initiate new avenues to understand fundamental quantum theory.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-12-15T17:22:28Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Nature, 474, 188 (2011)</arxiv:journal_ref>
+    <author>
+      <name>Jeff S. Lundeen</name>
+    </author>
+    <author>
+      <name>Brandon Sutherland</name>
+    </author>
+    <author>
+      <name>Aabid Patel</name>
+    </author>
+    <author>
+      <name>Corey Stewart</name>
+    </author>
+    <author>
+      <name>Charles Bamber</name>
+    </author>
+    <arxiv:doi>10.1038/nature10120</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/nature10120" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,89 @@
+TERMS: quantum, spin, singularity
+COLORS: blue, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/9SvohJvQMj9LS1lerxLHlaWIiTk</id>
+  <title>arXiv Query: search_query=all:quantum AND all:spin AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:08:14Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:spin+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1392</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1112.4437v1</id>
+    <title>About spin electromagnetic wave-particle with ring singularity</title>
+    <updated>2011-12-19T19:05:13Z</updated>
+    <link href="https://arxiv.org/abs/1112.4437v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1112.4437v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>An axisymmetric space-localized solution of nonlinear electrodynamics is considered as massive charged particle with spin and magnetic moment. The appropriate solution for nonlinear electrodynamics with ring singularity is investigated. In view of this problem the system of toroidal waves in linear electrodynamics is considered. The problem with boundary conditions on the singular ring of the toroidal coordinate system is investigated. The boundary conditions are taken taking into account the conformity between the toroidal and cylindrical waves on the ring. In this case the singular ring looks like convolute axis of cylindrical system. The appropriate system of wave modes are obtained in an integral form with the help of source function.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-12-19T19:05:13Z</published>
+    <arxiv:comment>The article for proceedings of the XIV Workshop on high energy spin physics (DSPIN-11), Dubna, Russia, September 20-24, 2011. 4 pages</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <arxiv:journal_ref>XIV Advanced Research Workshop on High Energy Spin Physics (DSPIN-11) Proceedings, JINR, Dubna, 2012, pp. 395-398</arxiv:journal_ref>
+    <author>
+      <name>Alexander A. Chernitskii</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1610.08031v2</id>
+    <title>Quantum spin dynamics in Fock space following quenches: Caustics and vortices</title>
+    <updated>2019-11-23T23:52:40Z</updated>
+    <link href="https://arxiv.org/abs/1610.08031v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1610.08031v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Caustics occur widely in dynamics and take on shapes classified by catastrophe theory. At finite wavelengths they produce interference patterns containing networks of vortices (phase singularities). Here we investigate caustics in quantized fields, focusing on the collective dynamics of quantum spins. We show that, following a quench, caustics are generated in the Fock space amplitudes specifying the many-body configuration and which are accessible in experiments with cold atoms, ions or photons. The granularity of quantum fields removes all singularities, including phase singularities, converting point vortices into nonlocal vortices that annihilate in pairs as the quantization scale is increased. Furthermore, the continuous scaling laws of wave catastrophes are replaced by discrete versions. Such `quantum catastrophes' are expected to be universal dynamical features of quantized fields.</summary>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-10-25T19:33:40Z</published>
+    <arxiv:comment>The original title of this paper was "Morphology of a quantum catastrophe". The title was changed to reflect its relevance to collective spin dynamics. There are 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.quant-gas"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 122, 170402 (2019)</arxiv:journal_ref>
+    <author>
+      <name>J. Mumford</name>
+    </author>
+    <author>
+      <name>E. Turner</name>
+    </author>
+    <author>
+      <name>D. W. L. Sprung</name>
+    </author>
+    <author>
+      <name>D. H. J. O'Dell</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.122.170402</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.122.170402" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1012.0653v3</id>
+    <title>Quantum phase transitions in transverse field spin models: from statistical physics to quantum information</title>
+    <updated>2015-06-09T11:23:27Z</updated>
+    <link href="https://arxiv.org/abs/1012.0653v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1012.0653v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We review quantum phase transitions of spin systems in transverse magnetic fields taking the examples of the spin-1/2 Ising and XY models in a transverse field. Beginning with an overview of quantum phase transitions, we introduce a number of model Hamiltonians. We provide exact solutions in one spatial dimension connecting them to conformal field theoretical studies. We also discuss Kitaev models and some other exactly solvable spin systems. Studies of quantum phase transitions in the presence of quenched randomness and with frustrating interactions are presented in detail. We discuss novel phenomena like Griffiths-McCoy singularities. We then turn to more recent topics like information theoretic measures of the quantum phase transitions in these models such as concurrence, entanglement entropy, quantum discord and quantum fidelity. We then focus on non-equilibrium dynamics of a variety of transverse field systems across quantum critical points and lines. After mentioning rapid quenching studies, we dwell on slow dynamics and discuss the Kibble-Zurek scaling for the defect density following a quench across critical points and its modifications for quenching across critical lines, gapless regions and multicritical points. Topics like the role of different quenching schemes, local quenching, quenching of models with random interactions and quenching of a spin chain coupled to a heat bath are touched upon. The connection between non-equilibrium dynamics and quantum information theoretic measures is presented at some length. We indicate the connection between Kibble-Zurek scaling and adiabatic evolution of a state as well as the application of adiabatic dynamics as a tool of a quantum optimization technique known as quantum annealing. The final section is dedicated to a detailed discussion on recent experimental studies of transverse Ising-like systems.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-12-03T07:46:59Z</published>
+    <arxiv:comment>106 pages, 38 figures; an expanded version has been published as a book (330 pages, 72 figures, 874 references) as A. Dutta, G. Aeppli, B. K. Chakrabarti, U. Divakaran, T. F. Rosenbaum and D. Sen, Quantum Phase Transitions in Transverse Field Spin Models: From Statistical Physics to Quantum Information (Cambridge University Press, Cambridge, 2015)</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <author>
+      <name>Amit Dutta</name>
+    </author>
+    <author>
+      <name>Gabriel Aeppli</name>
+    </author>
+    <author>
+      <name>Bikas K. Chakrabarti</name>
+    </author>
+    <author>
+      <name>Uma Divakaran</name>
+    </author>
+    <author>
+      <name>Thomas F. Rosenbaum</name>
+    </author>
+    <author>
+      <name>Diptiman Sen</name>
+    </author>
+  </entry>
+</feed>

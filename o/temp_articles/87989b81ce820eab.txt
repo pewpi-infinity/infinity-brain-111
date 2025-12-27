@@ -1,0 +1,80 @@
+TERMS: entropy, boson, neutrino
+COLORS: red, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/X7hPM6bX7MCOyvjKRPXcCOewbMs</id>
+  <title>arXiv Query: search_query=all:entropy AND all:boson AND all:neutrino&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:19:18Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+(all:boson+AND+all:neutrino)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>17</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1711.00417v1</id>
+    <title>Inferences on the Higgs Boson and Axion Masses through a Maximum Entropy Principle</title>
+    <updated>2017-11-01T16:16:17Z</updated>
+    <link href="https://arxiv.org/abs/1711.00417v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1711.00417v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Maximum Entropy Principle (MEP) is a method that can be used to infer the value of an unknown quantity in a set of probability functions. In this work we review two applications of MEP: one giving a precise inference of the Higgs boson mass value; and the other one allowing to infer the mass of the axion. In particular, for the axion we assume that it has a decay channel into pairs of neutrinos, in addition to the decay into two photons. The Shannon entropy associated to an initial ensemble of axions decaying into photons and neutrinos is then built for maximization.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-11-01T16:16:17Z</published>
+    <arxiv:comment>Contributed to the 13th Patras Workshop on Axions, WIMPs and WISPs, Thessaloniki, May 15 to 19, 2017</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Alexandre Alves</name>
+    </author>
+    <author>
+      <name>Alex G. Dias</name>
+    </author>
+    <author>
+      <name>Roberto da Silva</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1805.08218v3</id>
+    <title>Cosmological constraints with self-interacting sterile neutrinos</title>
+    <updated>2018-10-17T14:23:55Z</updated>
+    <link href="https://arxiv.org/abs/1805.08218v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1805.08218v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this work we revisit the question of whether Cosmology can be made compatible with scenarios with light sterile neutrinos, as invoked to explain the SBL anomalies, in the presence of self-interaction among sterile neutrinos mediated by massive gauge bosons. We examine this proposal by deriving the cosmological predictions of the model in a wide range of the model parameters including the effective interaction strength $G_X$, sterile neutrino mass $m_{\rm st}$ and active-sterile mixings. With those we perform a statistical analysis of the cosmological data from BBN, CMB, and BAO data to infer the posterior probabilities of the sterile self-interaction model parameters. BBN mostly provides information about the effective interaction strength and we find that $\log_{10}(G_X/G_F)\geq 3.6$ can describe the primordial abundances at 95% CL. Our analysis of CMB and BAO data show that when allowing a wide prior for the sterile neutrino mass its posterior is bounded to $m_{\rm st}\leq 0.91~{\rm eV}$ (95% CL) considering CMB data only and $m_{\rm st}\leq 0.37~{\rm eV}$ (95% CL) when adding the BAO information. So the mass bounds are slighly relaxed compared with that of a non-interacting sterile neutrino model but a sterile neutrino mass of 1 eV is still excluded at more than $2σ$ CL. Conversely if fixing the sterile neutrino mass and mixing to the values prefered by short baseline data we find that while that CMB data alone favors the self-interacting scenario, including the BAO information severly degrades the agreement with the model. Altogether we conclude then that adding the self-interaction can alleviate the tension between eV sterile neutrinos and CMB data, but when including also the BAO results the self-interacting sterile neutrino model cannot lead to a satisfactory description of the data.</summary>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-05-21T18:00:02Z</published>
+    <arxiv:comment>26 pages, 10 figures, 3 tables; Corrected assumption of entropy conservation. Added explicit comparison with previous results obtained with entropy conservation assumption. Qualitative results unchanged. Version accepted in JCAP</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.CO"/>
+    <author>
+      <name>Ningqiang Song</name>
+    </author>
+    <author>
+      <name>M. C. Gonzalez-Garcia</name>
+    </author>
+    <author>
+      <name>Jordi Salvado</name>
+    </author>
+    <arxiv:doi>10.1088/1475-7516/2018/10/055</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1475-7516/2018/10/055" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/astro-ph/9708118v4</id>
+    <title>Minimum Entropy Production of Neutrino Radiation in the Steady State</title>
+    <updated>2000-12-08T03:39:15Z</updated>
+    <link href="https://arxiv.org/abs/astro-ph/9708118v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/astro-ph/9708118v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  A thermodynamical minimum principle valid for photon radiation is shown to hold for arbitrary geometries. It is successfully extended to neutrinos, in the zero mass and chemical potential case, following a parallel development of photon and neutrino statistics. This minimum principle stems more from that of Planck than that of classical Onsager- Prigogine irreversible thermodynamics. Its extension from bosons to fermions suggests that it may have a still wider validity.</summary>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1997-08-12T22:31:23Z</published>
+    <arxiv:comment>18 pages, LaTeX, requires REVTeX, no figures, accepted by J. Stat. Phys.; minor clarifications and additions</arxiv:comment>
+    <arxiv:primary_category term="astro-ph"/>
+    <arxiv:journal_ref>J.Statist.Phys. 94 (1999) 253</arxiv:journal_ref>
+    <author>
+      <name>Christopher Essex</name>
+      <arxiv:affiliation>University of Western Ontario</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Dallas C. Kennedy</name>
+      <arxiv:affiliation>University of Florida</arxiv:affiliation>
+    </author>
+  </entry>
+</feed>

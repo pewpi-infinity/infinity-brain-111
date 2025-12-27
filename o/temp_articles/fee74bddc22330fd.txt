@@ -1,0 +1,76 @@
+TERMS: lattice, graphene, vacuum
+COLORS: orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/SIy9HZRVwxxAPfxfnxu0bgIDtg8</id>
+  <title>arXiv Query: search_query=all:lattice AND all:graphene AND all:vacuum&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:15:42Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:graphene+AND+all:vacuum)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>45</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1111.0929v1</id>
+    <title>Strongly Coupled Graphene on the Lattice</title>
+    <updated>2011-11-03T17:42:35Z</updated>
+    <link href="https://arxiv.org/abs/1111.0929v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1111.0929v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The two-dimensional carbon allotrope graphene has recently attracted a lot of attention from researchers in the disciplines of Lattice Field Theory, Lattice QCD and Monte Carlo calculations. This interest has been prompted by several remarkable properties of the conduction electrons in graphene. For instance, the conical band structure of graphene at low energies is strongly reminiscent of relativistic Dirac fermions. Also, due the low Fermi velocity of v_F = c/300, where c is the speed of light in vacuum, the physics of the conduction electrons in graphene is qualitatively similar to Quantum Electrodynamics in a strongly coupled regime. In turn, this opens up the prospect of the experimental realization of gapped, strongly correlated states in the electronic phase diagram of graphene. Here, we review the experimental and theoretical motivations for Lattice Field Theory studies of graphene, and describe the directions that such research is likely to progress in during the next few years. We also give a brief overview of the two main lattice theories of graphene, the hexagonal Hubbard theory and the low-energy Dirac theory. Finally, we describe the prospect of extracting response functions, such as the electric conductivity, using Lattice Field Theory calculations.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-11-03T17:42:35Z</published>
+    <arxiv:comment>7 pages, talk presented at XXIX International Symposium on Lattice Field Theory (Lattice 2011), July 10-16, 2011, Squaw Valley, Lake Tahoe, California, USA</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Timo A. Lähde</name>
+    </author>
+    <author>
+      <name>Joaquín E. Drut</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0807.0834v2</id>
+    <title>Is graphene in vacuum an insulator?</title>
+    <updated>2009-01-15T16:13:43Z</updated>
+    <link href="https://arxiv.org/abs/0807.0834v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0807.0834v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We present evidence, from Lattice Monte Carlo simulations of the phase diagram of graphene as a function of the Coulomb coupling between quasiparticles, that graphene in vacuum is likely to be an insulator. We find a semimetal-insulator transition at $α_g^\text{crit} = 1.11 \pm 0.06$, where $α_g^{} \simeq 2.16$ in vacuum, and $α_g^{} \simeq 0.79$ on a SiO$_2^{}$ substrate. Our analysis uses the logarithmic derivative of the order parameter, supplemented by an equation of state. The insulating phase disappears above a critical number of four-component fermion flavors $4 &lt; N_f^{\text{crit}} &lt; 6$. Our data are consistent with a second-order transition.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-07-05T02:02:38Z</published>
+    <arxiv:comment>4 pages, 3 figures, published version</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 102, 026802 (2009)</arxiv:journal_ref>
+    <author>
+      <name>Joaquín E. Drut</name>
+    </author>
+    <author>
+      <name>Timo A. Lähde</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.102.026802</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.102.026802" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0908.0118v1</id>
+    <title>Lattice Simulations near the Semimetal-Insulator Phase Transition of Graphene</title>
+    <updated>2009-08-02T16:18:22Z</updated>
+    <link href="https://arxiv.org/abs/0908.0118v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0908.0118v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We present results from Monte Carlo simulations of a three dimensional fermionic field theory which can be derived from a model of graphene in which electrons interact via a screened Coulomb potential. For our simulations we employ lattice gauge theory methods used in elementary particle physics. We show that the theory undergoes a second order phase transition and we provide estimates for the critical exponents. The estimated value of the physical critical coupling implies that graphene in vacuum is an insulator. We also present the first results for the quasiparticle dispersion relation.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-08-02T16:18:22Z</published>
+    <arxiv:comment>6 pages, 4 figures; prepared for the proceedings of Diamond 2009, Athens, Greece</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <author>
+      <name>Wesley Armour</name>
+    </author>
+    <author>
+      <name>Simon Hands</name>
+    </author>
+    <author>
+      <name>Costas Strouthos</name>
+    </author>
+  </entry>
+</feed>

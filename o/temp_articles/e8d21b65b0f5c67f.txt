@@ -1,0 +1,77 @@
+TERMS: hydrogen, frequency, ionization
+COLORS: purple, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Herq+6MmlvuPs1ibWC3sfBC5JuE</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:frequency AND all:ionization&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:01:44Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:frequency+AND+all:ionization)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>232</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1412.1821v4</id>
+    <title>ISQ derivation ("derivation in SI units") of a formula for the electrostatic field ionization rate-constant for a hydrogenic atom in its ground electronic state</title>
+    <updated>2015-07-01T10:51:34Z</updated>
+    <link href="https://arxiv.org/abs/1412.1821v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1412.1821v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Technical applications using electrostatic field ionization (ESFI) need a formula for the rate-constant K_e for the free-space ESFI of a hydrogenic atom in its ground electronic state. This formula must indicate the dependence on ionization energy I. Existing formulae were derived using atomic units. However, many scientists work with ESFI as an important technical process, but are not familiar with the Gaussian or atomic units systems. In the 1970s, the present International System of Quantities (ISQ), which includes the equations behind SI units, was designated as the main system for university teaching and the communication of scientific equations. 40 years on, ISQ derivations of ESFI rate-constant formulae are still not easily found, but are now needed. This tutorial paper gives a detailed ISQ derivation of a formula for K_e. The derivation is closely modelled on the Landau and Lifshitz (LL) approach used in their 1958 work (in atomic units) on hydrogen atom ESFI. The ISQ derivation confirms that, for hydrogenic atoms, ionization energy appears in the pre-exponential as I^(5/2), and defines a universal "field ionization constant". It also shows how the ISQ formula relates to the Gurney and Condon "attempt frequency" form for tunnelling rate-constants, and an ISQ formula is given for the motive energy in the related JWKB integral. The ISQ derivation uses a motive-energy transformation analogous to a transformation used by LL. The need for this transformation in ESFI theory raises questions as to the correctness of theoretical treatments of field electron emission from non-planar emitters, which do not make this transformation.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-12-03T23:28:12Z</published>
+    <arxiv:comment>41 typed pages (double-line spacing). In v4, an interpretation error in earlier versions has been corrected, and there has been a change in emphasis. The paper is now presented as an ISQ treatment of the ESFI of a hydrogenic atom, with the treatment closely modelled on the Landau and Lifshitz atomic-units treatment of the ESFI of a hydrogen atom. In consequence, the title has been changed</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Richard G. Forbes</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0901.0570v1</id>
+    <title>Observing Neutral Hydrogen Above Redshift 6: The "Global" Perspective</title>
+    <updated>2009-01-05T22:13:14Z</updated>
+    <link href="https://arxiv.org/abs/0901.0570v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0901.0570v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Above redshift 6, the dominant source of neutral hydrogen in the Universe shifts from localized clumps in and around galaxies and filaments to a pervasive, diffuse component of the intergalactic medium (IGM). This transition tracks the global neutral fraction of hydrogen in the IGM and can be studied, in principle, through the redshifted 21 cm hyperfine transition line. During the last half of the reionization epoch, the mean (global) brightness temperature of the redshifted 21 cm emission is proportional to the neutral fraction, but at earlier times (10 &lt; z &lt; 25), the mean brightness temperature should probe the spin temperature of neutral hydrogen in the IGM. Measuring the (of order 10 mK) mean brightness temperature of the redshifted 21 cm line as a function of frequency (and hence redshift) would chart the early evolution of galaxies through the heating and ionizing of the IGM by their stellar populations. Experiments are already underway to accomplish this task or, at least, provide basic constraints on the evolution of the mean brightness temperature. We provide a brief overview of one of these projects, the Experiment to the Detect the Global EOR Signature (EDGES), and discuss prospects for future results.</summary>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-01-05T22:13:14Z</published>
+    <arxiv:comment>From AIP Conference Proceedings, Volume 1035, 2008, "The Evolution of Galaxies through the Neutral Hydrogen Window". 3 pages</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.GA"/>
+    <author>
+      <name>Judd D. Bowman</name>
+      <arxiv:affiliation>Caltech</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Alan E. E. Rogers</name>
+      <arxiv:affiliation>MIT/Haystack</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jacqueline N. Hewitt</name>
+      <arxiv:affiliation>MIT</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1016/j.asr.2011.10.014</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.asr.2011.10.014" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/nlin/0204033v1</id>
+    <title>Thresholds to Chaos and Ionization for the Hydrogen Atom in Rotating Fields</title>
+    <updated>2002-04-15T20:38:25Z</updated>
+    <link href="https://arxiv.org/abs/nlin/0204033v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/nlin/0204033v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We analyze the classical phase space of the hydrogen atom in crossed magnetic and circularly polarized microwave fields in the high frequency regime, using the Chirikov resonance overlap criterion and the renormalization map. These methods are used to compute thresholds to large scale chaos and to ionization. The effect of the magnetic field is a strong stabilization of a set of invariant tori which bound the trajectories and prevent stochastic ionization. In order to ionize, larger amplitudes of the microwave field are necessary in the presence of a magnetic field.</summary>
+    <category term="nlin.CD" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-04-15T20:38:25Z</published>
+    <arxiv:primary_category term="nlin.CD"/>
+    <arxiv:journal_ref>Phys. Rev. A 65, 053402 (2002)</arxiv:journal_ref>
+    <author>
+      <name>C. Chandre</name>
+    </author>
+    <author>
+      <name>David Farrelly</name>
+    </author>
+    <author>
+      <name>T. Uzer</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.65.053402</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.65.053402" title="doi"/>
+  </entry>
+</feed>

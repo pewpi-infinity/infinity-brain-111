@@ -1,0 +1,28 @@
+TERMS: hydrogen, entropy, crystal, wavefunction
+COLORS: purple, red, orange, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/8C+cfzKZx6y+6B/M8Kx+9ZNweOQ</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:entropy AND all:crystal AND all:wavefunction&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:50:12Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:entropy+AND+(all:crystal+AND+all:wavefunction))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1811.09983v2</id>
+    <title>Quantum crystals are at odds with the laws of thermodynamics</title>
+    <updated>2019-03-28T10:07:42Z</updated>
+    <link href="https://arxiv.org/abs/1811.09983v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1811.09983v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Experimental data and the principles of quantum mechanics suggest that a crystal is a condensate of `wavicles' enclosed in a box, where `wavicle' denotes the indefinite wave-particle status of the microscopic constituents. When it is not perturbed the crystal is in a classical-like state. The wavefunction, the internal energy and the entropy are all of them equal to zero. The thermodynamic temperature is indefinite. Perturbations via energy- and/or momentum-transfer reveal quantum effects. The temperature laws for the heat capacities of some hydrogen-bonded crystals are rationalized with superposition states depending on the quantum temperature which is crystal-dependent. Heat-transfer is a coherent anentropic process. Apart from energy conservation, the other laws of thermodynamics are irrelevant.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-11-25T10:27:39Z</published>
+    <arxiv:comment>6 pages</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>François Fillaux</name>
+    </author>
+  </entry>
+</feed>

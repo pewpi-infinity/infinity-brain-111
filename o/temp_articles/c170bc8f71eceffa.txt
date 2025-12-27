@@ -1,0 +1,98 @@
+TERMS: hydrogen, quantum, electron, neutrino
+COLORS: purple, blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api//Vr3MNZbmCHZ8nUjIkc5K4Cuaww</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:electron AND all:neutrino&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:39:08Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:electron+AND+all:neutrino))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>8</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1403.4292v1</id>
+    <title>Decay Oscillations in Electron Capture and the Neutrino Mass Difference</title>
+    <updated>2014-03-17T22:29:29Z</updated>
+    <link href="https://arxiv.org/abs/1403.4292v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1403.4292v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Quantum mechanical theory disallows the model that has been used to infer the neutrino mass difference from the reported "GSI oscillations" in the rates of decay of hydrogen-like ions by electron capture. It has not been proved that the existence of mass-difference-dependent oscillations conflicts with quantum mechanics but no consistent quantum mechanical model has been shown to predict them.</summary>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-03-17T22:29:29Z</published>
+    <arxiv:comment>4 pages</arxiv:comment>
+    <arxiv:primary_category term="nucl-th"/>
+    <arxiv:journal_ref>Phys. Rev. C 91, 042501 (2015)</arxiv:journal_ref>
+    <author>
+      <name>Murray Peshkin</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevC.91.042501</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevC.91.042501" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1009.3584v1</id>
+    <title>Do experiment and the correspondence principle oblige revision of relativistic quantum theory?</title>
+    <updated>2010-09-18T21:11:11Z</updated>
+    <link href="https://arxiv.org/abs/1009.3584v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1009.3584v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent preliminary data gathered by the Fermilab MINOS Collaboration suggest with 95% confidence that the mass of the muon neutrino differs from that of its antineutrino partner, which contradicts the entrenched relativistic quantum theory notion that a free antiparticle is a negative-energy free particle compelled to travel backwards in time. Also a discrepancy of about five standard deviations in the value of the proton charge radius recently obtained from muonic hydrogen versus that previously obtained from electronic hydrogen casts doubt on the calculation of the dominant relativistic QED contributions to the effects that are actually measured (e.g., the Lamb shift): these QED contributions dominate proton charge radius contributions less in muonic hydrogen than in electronic hydrogen. The negative-energy "free particles" of entrenched relativistic quantum theory are well-known features of the Klein-Gordon and Dirac equations, which are shown to have many other unphysical features as well. The correspondence principle for relativistic particles is incompatible with these two equations, produces no unphysical features and implies only positive energies for free particles, which eliminates the very basis of the entrenched notion of antiparticles, as well as of the CPT theorem. This principle thus requires antiparticles to arise from charge conjugation (or more generally CP) invariance, whose known breaking is naturally expected to produce mass splitting between particle and antiparticle, in consonance with the preliminary MINOS data. It also requires revamping of relativistic QED, which is in accord with the doubt cast on it by the proton charge radius results, and implies that QED is nonlocal, i.e. has no Hamiltonian density.</summary>
+    <category term="physics.gen-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-09-18T21:11:11Z</published>
+    <arxiv:comment>17 pages</arxiv:comment>
+    <arxiv:primary_category term="physics.gen-ph"/>
+    <arxiv:journal_ref>Prespace.J.1:1295-1309,2010</arxiv:journal_ref>
+    <author>
+      <name>Steven Kenneth Kauffmann</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.08313v1</id>
+    <title>Cryogenic source of atomic tritium for precision spectroscopy and neutrino-mass measurements</title>
+    <updated>2025-11-11T14:43:44Z</updated>
+    <link href="https://arxiv.org/abs/2511.08313v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.08313v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a concept for a cryogenic source of atomic tritium at sub-kelvin temperatures and energies suitable for magnetic trapping. The source is based on the dissociation of solid molecular tritium films below 1 K by electrons from a pulsed RF discharge, a technique recently demonstrated for atomic hydrogen, combined with buffer-gas cooling and magnetic confinement. We analyze the key processes limiting the source performance, adsorption, spin exchange and recombination, and show that atomic tritium fluxes exceeding 1e15 per second at kinetic energies of 100 mK can be achieved at the entrance of a magnetic trap. Such a source would enable Doppler-free two-photon 1S-2S spectroscopy in atomic tritium for high-precision measurements of the triton charge radius, providing a crucial benchmark for bound-state QED and improving the comparison between electronic, muonic, and scattering determinations of nuclear sizes in light systems. Beyond spectroscopy, an atomic tritium source avoids molecular final-state broadening in beta-decay and is therefore necessary for next-generation neutrino-mass measurements; combined with detector technologies such as sub-eV resolution quantum sensors or cyclotron radiation emission spectroscopy, it enables order-of-magnitude improvement compared to the current KATRIN sensitivity, reaching sensitivities below the inverted ordering regime. Additionally, the source can be used to generate a beam of low-field-seeking deuterium atoms for loading magnetic traps, an important benchmark before trapping tritium atoms and useful for precision spectroscopy.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-11T14:43:44Z</published>
+    <arxiv:comment>10 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>Aleksei Semakin</name>
+    </author>
+    <author>
+      <name>Janne Ahokas</name>
+    </author>
+    <author>
+      <name>Tom Kiilerich</name>
+    </author>
+    <author>
+      <name>Sergey Vasiliev</name>
+    </author>
+    <author>
+      <name>Francois Nez</name>
+    </author>
+    <author>
+      <name>Pauline Yzombard</name>
+    </author>
+    <author>
+      <name>Valery Nesvizhevsky</name>
+    </author>
+    <author>
+      <name>Eberhard Widmann</name>
+    </author>
+    <author>
+      <name>Paolo Crivelli</name>
+    </author>
+    <author>
+      <name>Caroline Rodenbeck</name>
+    </author>
+    <author>
+      <name>Marco Röllig</name>
+    </author>
+    <author>
+      <name>Magnus Schlösser</name>
+    </author>
+  </entry>
+</feed>

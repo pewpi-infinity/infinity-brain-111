@@ -1,0 +1,33 @@
+TERMS: hydrogen, entropy, ionization, probability
+COLORS: purple, red, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/47E7H8z0mWR+6EBgqfMlbk0Mu4s</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:entropy AND all:ionization AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:50:35Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:entropy+AND+(all:ionization+AND+all:probability))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2106.14492v2</id>
+    <title>Extracting the astrophysics of reionization from the Ly$α$ forest power spectrum: a first forecast</title>
+    <updated>2021-09-13T02:15:29Z</updated>
+    <link href="https://arxiv.org/abs/2106.14492v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2106.14492v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The impact of cosmic reionization on the Ly$α$ forest power spectrum has recently been shown to be significant even at low redshifts ($z \sim 2$). This memory of reionization survives cosmological time scales because high-entropy mean-density gas is heated to $\sim 3\times10^4$ K by reionization, which is inhomogeneous, and subsequent shocks from denser regions. In the near future, the first measurements of the Ly$α$ forest 3D power spectrum will be very likely achieved by upcoming observational efforts such as the Dark Energy Spectroscopic Instrument (DESI). In addition to abundant cosmological information, these observations have the potential to extract the astrophysics of reionization from the Ly$α$ forest. We forecast, for the first time, the accuracy with which the measurements of Ly$α$ forest 3D power spectrum can place constraints on the reionization parameters with DESI. Specifically, we demonstrate that the constraints on the ionization efficiency, $ζ$, and the threshold mass for haloes that host ionizing sources, $m_{\rm turn}$, will have the $1σ$ error at the level of $ζ= 25.0 \pm 11.6$ and $\log_{10} (m_{\rm turn}/{\rm M}_\odot) = 8.7^{+0.36}_{-0.70}$, respectively. The Ly$α$ forest 3D power spectrum will thus provide an independent probe of reionization, probably even earlier in detection with DESI, with a sensitivity only slightly worse than the upcoming 21 cm power spectrum measurement with the Hydrogen Epoch of Reionization Array (HERA), i.e.\ $σ_{\rm DESI} / σ_{\rm HERA} \approx 1.5$ for $ζ$ and $σ_{\rm DESI}/σ_{\rm HERA} \approx 2.0$ for $\log_{10}(m_{\rm turn} / $M$_\odot)$. Nevertheless, the Ly$α$ forest constraint will be improved about three times tighter than the current constraint from reionization observations with high-z galaxy priors.</summary>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-06-28T09:13:00Z</published>
+    <arxiv:comment>Updated to match accepted version for publication. 19 pages, 12 figures</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.CO"/>
+    <author>
+      <name>Paulo Montero-Camacho</name>
+    </author>
+    <author>
+      <name>Yi Mao</name>
+    </author>
+    <arxiv:doi>10.1093/mnras/stab2569</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1093/mnras/stab2569" title="doi"/>
+  </entry>
+</feed>

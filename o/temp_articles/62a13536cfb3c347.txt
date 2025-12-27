@@ -1,0 +1,96 @@
+TERMS: hydrogen, frequency, neutrino, plasma
+COLORS: purple, green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/SJlvHZylGCr2ClHbigfpnm0Nwxw</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:frequency AND all:neutrino AND all:plasma&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:45:18Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:frequency+AND+(all:neutrino+AND+all:plasma))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2103.08623v1</id>
+    <title>A Lunar Farside Low Radio Frequency Array for Dark Ages 21-cm Cosmology</title>
+    <updated>2021-03-15T18:05:17Z</updated>
+    <link href="https://arxiv.org/abs/2103.08623v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.08623v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>An array of low-frequency dipole antennas on the lunar farside surface will probe a unique, unexplored epoch in the early Universe called the Dark Ages. It begins at Recombination when neutral hydrogen atoms formed, first revealed by the cosmic microwave background. This epoch is free of stars and astrophysics, so it is ideal to investigate high energy particle processes including dark matter, early Dark Energy, neutrinos, and cosmic strings. A NASA-funded study investigated the design of the instrument and the deployment strategy from a lander of 128 pairs of antenna dipoles across a 10 kmx10 km area on the lunar surface. The antenna nodes are tethered to the lander for central data processing, power, and data transmission to a relay satellite. The array, named FARSIDE, would provide the capability to image the entire sky in 1400 channels spanning frequencies from 100 kHz to 40 MHz, extending down two orders of magnitude below bands accessible to ground-based radio astronomy. The lunar farside can simultaneously provide isolation from terrestrial radio frequency interference, the Earth's auroral kilometric radiation, and plasma noise from the solar wind. It is thus the only location within the inner solar system from which sky noise limited observations can be carried out at sub-MHz frequencies. Through precision calibration via an orbiting beacon and exquisite foreground characterization, the farside array would measure the Dark Ages global 21-cm signal at redshifts z~35-200. It will also be a pathfinder for a larger 21-cm power spectrum instrument by carefully measuring the foreground with high dynamic range.</summary>
+    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-15T18:05:17Z</published>
+    <arxiv:comment>14 pages, 3 figures, 1 table, response to DOE request for information on lunar farside radio telescope to explore the early universe. arXiv admin note: substantial text overlap with arXiv:1911.08649</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.IM"/>
+    <author>
+      <name>Jack Burns</name>
+    </author>
+    <author>
+      <name>Gregg Hallinan</name>
+    </author>
+    <author>
+      <name>Tzu-Ching Chang</name>
+    </author>
+    <author>
+      <name>Marin Anderson</name>
+    </author>
+    <author>
+      <name>Judd Bowman</name>
+    </author>
+    <author>
+      <name>Richard Bradley</name>
+    </author>
+    <author>
+      <name>Steven Furlanetto</name>
+    </author>
+    <author>
+      <name>Alex Hegedus</name>
+    </author>
+    <author>
+      <name>Justin Kasper</name>
+    </author>
+    <author>
+      <name>Jonathan Kocz</name>
+    </author>
+    <author>
+      <name>Joseph Lazio</name>
+    </author>
+    <author>
+      <name>Jim Lux</name>
+    </author>
+    <author>
+      <name>Robert MacDowall</name>
+    </author>
+    <author>
+      <name>Jordan Mirocha</name>
+    </author>
+    <author>
+      <name>Issa Nesnas</name>
+    </author>
+    <author>
+      <name>Jonathan Pober</name>
+    </author>
+    <author>
+      <name>Ronald Polidan</name>
+    </author>
+    <author>
+      <name>David Rapetti</name>
+    </author>
+    <author>
+      <name>Andres Romero-Wolf</name>
+    </author>
+    <author>
+      <name>Anže Slosar</name>
+    </author>
+    <author>
+      <name>Albert Stebbins</name>
+    </author>
+    <author>
+      <name>Lawrence Teitelbaum</name>
+    </author>
+    <author>
+      <name>Martin White</name>
+    </author>
+  </entry>
+</feed>

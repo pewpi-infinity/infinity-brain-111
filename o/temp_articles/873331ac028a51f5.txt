@@ -1,0 +1,100 @@
+TERMS: crystal, oxidation, probability
+COLORS: orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/uBbvfCiYKcv8fwgopRX+l7BBcGA</id>
+  <title>arXiv Query: search_query=all:crystal AND all:oxidation AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:28:50Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:crystal+AND+(all:oxidation+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>34</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2503.19425v2</id>
+    <title>Oxidation States in Solids from Data-Driven Paradigms</title>
+    <updated>2025-07-29T13:40:17Z</updated>
+    <link href="https://arxiv.org/abs/2503.19425v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.19425v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The oxidation state (OS) is an essential chemical concept that embodies chemical intuition but cannot be computed with well-defined physical laws. We establish a data-driven paradigm, with its implementation as Tsinghua Oxidation States in Solids (TOSS), to explicitly compute the OSs in crystal structures as the emergent properties from large-sized datasets based on Bayesian maximum a posteriori probability (MAP). TOSS employs two looping structures over the large-sized dataset of crystal structures to obtain an emergent library of distance distributions as the foundation for chemically intuitive understanding and then determine the OSs by minimizing a loss function for each structure based on MAP and distance distributions in the whole dataset. The application of TOSS to a dataset of $\mathrm{&gt;}$1,000,000 crystal structures delivers a superior success rate, and using the resulting OSs as the dataset, we further train a data-driven alternative to TOSS based on graph convolutional networks. We expect TOSS and the ML-model-based alternative to find a wide spectrum of applications, and this work also demonstrates an encouraging example for the data-driven paradigms to explicitly compute the chemical intuition for tackling complex problems in chemistry.</summary>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-25T08:05:55Z</published>
+    <arxiv:primary_category term="physics.chem-ph"/>
+    <author>
+      <name>Yue Yin</name>
+    </author>
+    <author>
+      <name>Hai Xiao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.08399v1</id>
+    <title>Exploring material compositions for synthesis using oxidation states</title>
+    <updated>2024-05-14T07:52:46Z</updated>
+    <link href="https://arxiv.org/abs/2405.08399v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.08399v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent advances in machine learning techniques have made it possible to use high-throughput screening to identify novel materials with specific properties. However, the large number of potential candidates produced by these techniques can make it difficult to select the most promising ones. In this study, we develop the oxidation state probability (OSP) method which evaluates ternary compounds based on the probability (the OSP metric) of each element to adopt the required oxidation states for fulfilling charge neutrality. We compare this model with Roost and the Fourier-transformed crystal properties (FTCP)-based synthesizability score. Among the top 1000 systems with the most database entries in Materials Project (MP), more than 500 systems exhibit an attested compound among the top 3 compositions when ranked by the OSP metric. We find that the OSP method shows promising results for certain classes of ternary systems, especially those containing nonmetals, s-block, or transition metals. When applied to the Cu-In-Te ternary system, an interesting system for thermoelectric applications, the OSP method predicted the synthesizability of CuIn$_3$Te$_5$ without prior knowledge, and we have successfully synthesized CuIn$_3$Te$_5$ in experiment. Our method has the potential to accelerate the discovery of novel compounds by providing a guide for experimentalists to easily select the most synthesizable candidates from an arbitrarily large set of possible chemical compositions.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-14T07:52:46Z</published>
+    <arxiv:comment>11 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Maung Thway</name>
+    </author>
+    <author>
+      <name>Andy Paul Chen</name>
+    </author>
+    <author>
+      <name>Haiwen Dai</name>
+    </author>
+    <author>
+      <name>Jose Recatala-Gomez</name>
+    </author>
+    <author>
+      <name>Siyu Isaac Parker Tian</name>
+    </author>
+    <author>
+      <name>Ruiming Zhu</name>
+    </author>
+    <author>
+      <name>Wenhao Zhai</name>
+    </author>
+    <author>
+      <name>Fengxia Wei</name>
+    </author>
+    <author>
+      <name>D. V. Maheshwar Repaka</name>
+    </author>
+    <author>
+      <name>Tonio Buonassisi</name>
+    </author>
+    <author>
+      <name>Pieremanuele Canepa</name>
+    </author>
+    <author>
+      <name>Kedar Hippalgaonkar</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0602433v1</id>
+    <title>Anomalous Flux Pinning in ?-Pyrochlore Oxide Superconductor KOs2O6</title>
+    <updated>2006-02-18T00:30:07Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0602433v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0602433v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The superconducting transition of the ?-pyrochlore oxide KOs2O6 with Tc = 9.60 K is studied by resistivity measurements under various magnetic fields using a high-quality single crystal. The reentrant behavior of superconductivity is observed near Tc in low magnetic fields below 2 T. The recovered resistance probably due to flux flow exhibits an anomalous angle dependence, indicating that flux pinning is enhanced in magnetic fields along certain crystallographic directions such as [110], [001] and [112]. It is suggested that there is an intrinsic pinning mechanism coming from the specific crystal structure of the ?-pyrochlore oxide.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-02-18T00:30:07Z</published>
+    <arxiv:comment>15 pages, 5 figures, J. Phys. Soc. Jpn., in press</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <arxiv:journal_ref>J. Phys. Soc. Jpn. 75 (2006) 043701</arxiv:journal_ref>
+    <author>
+      <name>Zenji Hiroi</name>
+    </author>
+    <author>
+      <name>Shigeki Yonezawa</name>
+    </author>
+    <arxiv:doi>10.1143/JPSJ.75.043701</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1143/JPSJ.75.043701" title="doi"/>
+  </entry>
+</feed>

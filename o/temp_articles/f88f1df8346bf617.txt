@@ -1,0 +1,96 @@
+TERMS: hydrogen, oxidation, singularity
+COLORS: purple, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/gOI3UgqsBbYrJXjWN48Ul13rzrg</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:oxidation AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:05:28Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:oxidation+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>3</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2109.05209v1</id>
+    <title>Surface Van Hove Singularity Enabled Efficient Catalysis: The Cases of CO Oxidation and Hydrogen Evolution Reactions</title>
+    <updated>2021-09-11T07:56:39Z</updated>
+    <link href="https://arxiv.org/abs/2109.05209v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2109.05209v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Surface Van Hove singularity (SVHS), defined as the surface states near the Fermi level (EF) in low-dimensional systems, triggers exciting physical phenomena distinct from bulk. We herein explore theoretically the potential role of SVHS in catalysis taking CO oxidation reaction as prototype over graphene/Ca2N (Gra/Ca2N) heterojunction and Pt2HgSe3 (001) surface. It is demonstrated that both systems with SVHS could serve as an electron bath to promote O2 adsorption and subsequent CO oxidation with low energy barriers of 0.2 ~ 0.6 eV for Gra/Ca2N and Pt2HgSe3 (001) surface. Importantly, the catalytically active sites associated with SVHS are well-defined and uniformly distributed over the whole surface plane, which is superior to the commonly adopted defect or doping strategy, and further the chemical reactivity of SVHS also can be tuned easily via adjusting its position with respect to EF. Our study demonstrates the enabling power of SVHS, and provides novel physical insights into the promising potential role of VHS in designing high-efficiency catalysts.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-09-11T07:56:39Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Liangliang Liu</name>
+    </author>
+    <author>
+      <name>Chunyan Wang</name>
+    </author>
+    <author>
+      <name>Liying Zhang</name>
+    </author>
+    <author>
+      <name>Chengyan Liu</name>
+    </author>
+    <author>
+      <name>Chunyao Niu</name>
+    </author>
+    <author>
+      <name>Zaiping Zeng</name>
+    </author>
+    <author>
+      <name>Dongwei Ma</name>
+    </author>
+    <author>
+      <name>Yu Jia</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.24064v1</id>
+    <title>A low cost singular value decomposition based data assimilation technique for analysis of heterogeneous combustion data</title>
+    <updated>2025-03-31T13:24:03Z</updated>
+    <link href="https://arxiv.org/abs/2503.24064v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.24064v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This article applies low-cost singular value decomposition (lcSVD) for the first time, to the authors knowledge, on combustion reactive flow databases. The lcSVD algorithm is a novel approach to SVD, suitable for calculating high-resolution 2D or 3D proper orthogonal decomposition (POD) modes and temporal coefficients using data from sensors. Consequently, the computational cost associated with this technique is much lower compared to standard SVD. Additionally, for the analysis of full n-dimensional datasets, the method reduces data dimensionality by selecting a strategically reduced number of points from the original dataset through optimal sensor placement or uniform sampling before performing SVD. Moreover, the properties of data assimilation of heterogeneous databases of this method are illustrated using two distinct reactive flow test cases: a numerical database modeling an axisymmetric, time-varying laminar coflow flame with a fuel mixture of 65% methane and 35% nitrogen, using air as the oxidizer, and experimental data generated from a turbulent bluff-body-stabilized hydrogen flame. The computational speed-up and memory gains associated with the lcSVD algorithm compared to SVD can reach values larger than 10, with compression factors greater than 2000. Applying lcSVD for data assimilation to reconstruct the flow dynamics combining data from sensors with simulation measurements, we found errors smaller than 1% in the most relevant species modelling the flow.</summary>
+    <category term="physics.flu-dyn" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-31T13:24:03Z</published>
+    <arxiv:primary_category term="physics.flu-dyn"/>
+    <author>
+      <name>Prajith Pillai</name>
+    </author>
+    <author>
+      <name>Ashton Hetherington</name>
+    </author>
+    <author>
+      <name>Laura Saavedra Sago</name>
+    </author>
+    <author>
+      <name>Soledad Le Clainche</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1605.03262v3</id>
+    <title>pyJac: analytical Jacobian generator for chemical kinetics</title>
+    <updated>2017-02-19T18:07:09Z</updated>
+    <link href="https://arxiv.org/abs/1605.03262v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1605.03262v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Accurate simulations of combustion phenomena require the use of detailed chemical kinetics in order to capture limit phenomena such as ignition and extinction as well as predict pollutant formation. However, the chemical kinetic models for hydrocarbon fuels of practical interest typically have large numbers of species and reactions and exhibit high levels of mathematical stiffness in the governing differential equations, particularly for larger fuel molecules. In order to integrate the stiff equations governing chemical kinetics, generally reactive-flow simulations rely on implicit algorithms that require frequent Jacobian matrix evaluations. Some in situ and a posteriori computational diagnostics methods also require accurate Jacobian matrices, including computational singular perturbation and chemical explosive mode analysis. Typically, finite differences numerically approximate these, but for larger chemical kinetic models this poses significant computational demands since the number of chemical source term evaluations scales with the square of species count. Furthermore, existing analytical Jacobian tools do not optimize evaluations or support emerging SIMD processors such as GPUs. Here we introduce pyJac, a Python-based open-source program that generates analytical Jacobian matrices for use in chemical kinetics modeling and analysis. As a demonstration, we first establish the correctness of the Jacobian matrices for kinetic models of hydrogen, methane, ethylene, and isopentanol oxidation, then demonstrate the performance achievable on CPUs and GPUs using pyJac via matrix evaluation timing comparisons.</summary>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-05-11T02:38:14Z</published>
+    <arxiv:comment>42 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.comp-ph"/>
+    <arxiv:journal_ref>Comput. Phys. Comm. 215 (2017) 188-203</arxiv:journal_ref>
+    <author>
+      <name>Kyle E. Niemeyer</name>
+    </author>
+    <author>
+      <name>Nicholas J. Curtis</name>
+    </author>
+    <author>
+      <name>Chih-Jen Sung</name>
+    </author>
+    <arxiv:doi>10.1016/j.cpc.2017.02.004</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.cpc.2017.02.004" title="doi"/>
+  </entry>
+</feed>

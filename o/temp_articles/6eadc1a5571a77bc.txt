@@ -1,0 +1,97 @@
+TERMS: hydrogen, quantum, spin, neutrino
+COLORS: purple, blue, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/yzseNN1y26/McceMhbKsY13YtPw</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:spin AND all:neutrino&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:40:25Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:spin+AND+all:neutrino))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>3</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2310.07193v1</id>
+    <title>Modern topics in relativistic spin dynamics and magnetism</title>
+    <updated>2023-10-11T04:58:43Z</updated>
+    <link href="https://arxiv.org/abs/2310.07193v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.07193v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Magnetism is a rich subject touching all aspects of physics. My goal with this dissertation is to explore spin and magnetic moments in \emph{relativistic} mechanics from both a quantum and classical perspective. We emphasize the special case of gyromagnetic ratio $g\!=\!2$ and its relationship to the algebraic spin structure of wave equations. In relativistic quantum mechanics, we investigate generalizations of the Dirac equation for arbitrary magnetic moments for fermions. We analyze the homogeneous magnetic field case and the Coulomb problem for hydrogen-like atoms with emphasis on the role of the anomalous magnetic moment (AMM). We explore alternative approaches which combine mass and the magnetic moment. Classically, we propose a relativistic covariant model of the Stern-Gerlach force via the introduction of a magnetic four-potential. This model modifies the covariant torque equations and unites the Ampèrian and Gilbertian models for magnetic moments.
+  We further study (transition) magnetic dipoles in Majorana neutrinos specifically analyzing the relationship between flavor mixing and electromagnetic (EM) fields. We demonstrate EM flavor mixing explicitly in the 2-flavor model and develop a dynamical mass basis with an EM rotation matrix. EM induced neutrino mass splitting is compared to neutrino mass hierarchy.
+  An interesting application of these theoretical developments is to study primordial magnetization in the early universe during the hot dense electron-positron plasma epoch. We propose a model of magnetic thermal matter-antimatter plasmas. We analyze the paramagnetic characteristics of electron-positron plasma when exposed to an external primordial field.
+  Future research outlooks include: Second order equations for anomalous quantum chromodynamic (QCD) moments, neutrino CP violation in strong EM fields, and fifth-dimension spin dynamics in Kaluza-Klein theory.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-11T04:58:43Z</published>
+    <arxiv:comment>PhD thesis; 155 pages, 17 figures. Includes work done in collaboration with Martin Formanek, Cheng Tao Yang, and Johann Rafelski</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Andrew Steinmetz</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.08313v1</id>
+    <title>Cryogenic source of atomic tritium for precision spectroscopy and neutrino-mass measurements</title>
+    <updated>2025-11-11T14:43:44Z</updated>
+    <link href="https://arxiv.org/abs/2511.08313v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.08313v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a concept for a cryogenic source of atomic tritium at sub-kelvin temperatures and energies suitable for magnetic trapping. The source is based on the dissociation of solid molecular tritium films below 1 K by electrons from a pulsed RF discharge, a technique recently demonstrated for atomic hydrogen, combined with buffer-gas cooling and magnetic confinement. We analyze the key processes limiting the source performance, adsorption, spin exchange and recombination, and show that atomic tritium fluxes exceeding 1e15 per second at kinetic energies of 100 mK can be achieved at the entrance of a magnetic trap. Such a source would enable Doppler-free two-photon 1S-2S spectroscopy in atomic tritium for high-precision measurements of the triton charge radius, providing a crucial benchmark for bound-state QED and improving the comparison between electronic, muonic, and scattering determinations of nuclear sizes in light systems. Beyond spectroscopy, an atomic tritium source avoids molecular final-state broadening in beta-decay and is therefore necessary for next-generation neutrino-mass measurements; combined with detector technologies such as sub-eV resolution quantum sensors or cyclotron radiation emission spectroscopy, it enables order-of-magnitude improvement compared to the current KATRIN sensitivity, reaching sensitivities below the inverted ordering regime. Additionally, the source can be used to generate a beam of low-field-seeking deuterium atoms for loading magnetic traps, an important benchmark before trapping tritium atoms and useful for precision spectroscopy.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-11T14:43:44Z</published>
+    <arxiv:comment>10 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>Aleksei Semakin</name>
+    </author>
+    <author>
+      <name>Janne Ahokas</name>
+    </author>
+    <author>
+      <name>Tom Kiilerich</name>
+    </author>
+    <author>
+      <name>Sergey Vasiliev</name>
+    </author>
+    <author>
+      <name>Francois Nez</name>
+    </author>
+    <author>
+      <name>Pauline Yzombard</name>
+    </author>
+    <author>
+      <name>Valery Nesvizhevsky</name>
+    </author>
+    <author>
+      <name>Eberhard Widmann</name>
+    </author>
+    <author>
+      <name>Paolo Crivelli</name>
+    </author>
+    <author>
+      <name>Caroline Rodenbeck</name>
+    </author>
+    <author>
+      <name>Marco Röllig</name>
+    </author>
+    <author>
+      <name>Magnus Schlösser</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2211.00078v1</id>
+    <title>Novel Theory of the Structure of Elementary Particles</title>
+    <updated>2022-10-27T09:29:28Z</updated>
+    <link href="https://arxiv.org/abs/2211.00078v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2211.00078v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A novel theory of the structure of elementary particles is outlined. The proposed relativistic covariant space-time approach supposes that all massive particles are composite particles formed by massless elementary particles with opposite four-dimensional (4D) helicity. The attraction between two basic particles originates from their mutual 4D density, which depends only on their 4D distance. The approach enables a consistent description of the internal structure of massive elementary particles including the origin of their spin, their mass, and the sign of their charge. The 4D rotational Hamiltonian depends on the hyper-symmetric potential obtained by using the mutual density for the source term of the 4D Poisson equation. The rotational eigenfunctions depend on the 4D radius and on three angles, one of which is imaginary. This angle accounts for the rotation of the time-like axis with respect to the three-dimensional subspace representing a Lorentz transformation. We obtain the wave equation of the basic particles by supposing that they are propagating with the speed of light. Such subatomic massless particles are photons, basic-quarks, and neutrinos, which we assume to be massless if they are free. The results of the analytical calculations show that massive particles can only be stable if the potential is a 4D well trapping the constituents. As a result, we do not need the Higgs field for explaining the origin of the mass. In particular, we show that electrons and positrons are such two-component systems each consisting of two photons. The eigenvalue of the 4D rotational energy determines the mass of the composite particle. We prove the relevance of the novel theory by revisiting the hydrogen atom. The resulting energy eigenvalues depend on three quantum numbers having no degenerated energy states. In particular, it provides the Lamb shift.</summary>
+    <category term="physics.gen-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-10-27T09:29:28Z</published>
+    <arxiv:primary_category term="physics.gen-ph"/>
+    <author>
+      <name>Harald Rose</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,94 @@
+TERMS: lattice, crystal, wavefunction
+COLORS: orange, orange, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/mJwMbrGZ7PlIwasKXpnbx6WWjuc</id>
+  <title>arXiv Query: search_query=all:lattice AND all:crystal AND all:wavefunction&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:14:26Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:crystal+AND+all:wavefunction)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>78</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1108.5408v2</id>
+    <title>Bragg Scattering as a Probe of Atomic Wavefunctions and Quantum Phase Transitions in Optical Lattices</title>
+    <updated>2011-11-02T02:47:31Z</updated>
+    <link href="https://arxiv.org/abs/1108.5408v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1108.5408v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We have observed Bragg scattering of photons from quantum degenerate $^{87}$Rb atoms in a three-dimensional optical lattice. Bragg scattered light directly probes the microscopic crystal structure and atomic wavefunction whose position and momentum width is Heisenberg-limited. The spatial coherence of the wavefunction leads to revivals in the Bragg scattered light due to the atomic Talbot effect. The decay of revivals across the superfluid to Mott insulator transition indicates the loss of superfluid coherence.</summary>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-08-27T00:40:23Z</published>
+    <arxiv:comment>5 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.quant-gas"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 107, 175302 (2011)</arxiv:journal_ref>
+    <author>
+      <name>Hirokazu Miyake</name>
+    </author>
+    <author>
+      <name>Georgios A. Siviloglou</name>
+    </author>
+    <author>
+      <name>Graciana Puentes</name>
+    </author>
+    <author>
+      <name>David E. Pritchard</name>
+    </author>
+    <author>
+      <name>Wolfgang Ketterle</name>
+    </author>
+    <author>
+      <name>David M. Weld</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.107.175302</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.107.175302" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1009.4194v2</id>
+    <title>Jastrow-Correlated Wavefunctions for Flat-Band Lattices</title>
+    <updated>2011-06-20T16:52:29Z</updated>
+    <link href="https://arxiv.org/abs/1009.4194v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1009.4194v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The electronic band structure of many compounds, e.g., carbon-based structures, can exhibit essentially no dispersion. Models of electrons in flat-band lattices define non-perturbative strongly correlated problems by default. We construct a set of Jastrow-correlated ansatz wavefunctions to capture the low energy physics of interacting particles in flat bands. We test the ansatz in a simple Coulomb model of spinless electrons in a honeycomb ribbon. We find that the wavefunction accurately captures the ground state in a transition from a crystal to a uniform quantum liquid.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-09-21T20:00:04Z</published>
+    <arxiv:comment>5 pages, 4 figures, update context, references and publication information</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Phys. Rev. B 83, 245109 (2011)</arxiv:journal_ref>
+    <author>
+      <name>Hao Wang</name>
+    </author>
+    <author>
+      <name>V. W. Scarola</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.83.245109</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.83.245109" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2212.06835v1</id>
+    <title>Simulating 2+1D Lattice Quantum Electrodynamics at Finite Density with Neural Flow Wavefunctions</title>
+    <updated>2022-12-14T18:59:07Z</updated>
+    <link href="https://arxiv.org/abs/2212.06835v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2212.06835v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a neural flow wavefunction, Gauge-Fermion FlowNet, and use it to simulate 2+1D lattice compact quantum electrodynamics with finite density dynamical fermions. The gauge field is represented by a neural network which parameterizes a discretized flow-based transformation of the amplitude while the fermionic sign structure is represented by a neural net backflow. This approach directly represents the $U(1)$ degree of freedom without any truncation, obeys Guass's law by construction, samples autoregressively avoiding any equilibration time, and variationally simulates Gauge-Fermion systems with sign problems accurately. In this model, we investigate confinement and string breaking phenomena in different fermion density and hopping regimes. We study the phase transition from the charge crystal phase to the vacuum phase at zero density, and observe the phase seperation and the net charge penetration blocking effect under magnetic interaction at finite density. In addition, we investigate a magnetic phase transition due to the competition effect between the kinetic energy of fermions and the magnetic energy of the gauge field. With our method, we further note potential differences on the order of the phase transitions between a continuous $U(1)$ system and one with finite truncation. Our state-of-the-art neural network approach opens up new possibilities to study different gauge theories coupled to dynamical matter in higher dimensions.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-12-14T18:59:07Z</published>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Zhuo Chen</name>
+    </author>
+    <author>
+      <name>Di Luo</name>
+    </author>
+    <author>
+      <name>Kaiwen Hu</name>
+    </author>
+    <author>
+      <name>Bryan K. Clark</name>
+    </author>
+  </entry>
+</feed>

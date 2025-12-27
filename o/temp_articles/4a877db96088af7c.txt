@@ -1,0 +1,45 @@
+TERMS: hydrogen, entropy, vacuum
+COLORS: purple, red, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/kM4aZlpoV3CYyfmiHeeibqZGJrk</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:entropy AND all:vacuum&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:02:38Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:entropy+AND+all:vacuum)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2408.02132v3</id>
+    <title>Investigating the hyperparameter space of deep neural network models for reaction coordinates</title>
+    <updated>2025-02-20T04:57:03Z</updated>
+    <link href="https://arxiv.org/abs/2408.02132v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2408.02132v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Identifying reaction coordinates (RCs) is a key to understanding the mechanism of reactions in complex systems. Deep neural network (DNN) and machine learning approaches have become a powerful tool to find the RC. On the other hand, the hyperparameters that determine the DNN model structure can be highly flexible and are often selected intuitively and in a non-trivial and tedious manner. Furthermore, how the hyperparameter choice affects the RC quality remains obscure. Here, we explore the hyperparameter space by developing the hyperparameter tuning approach for the DNN model for RC and investigate how the parameter set affects the RC quality. The DNN model is built to predict the committor along the RC from various collective variables by minimizing the cross-entropy function; the hyperparameters are automatically determined using the Bayesian optimization method. The approach is applied to study the isomerization of alanine dipeptide in vacuum and in water, and the features that characterize the RC are extracted using the explainable AI (XAI) tools. The results show that the DNN models with diverse structures can describe the RC with similar accuracy, and furthermore, the features analyzed by XAI are highly similar. This indicates that the hyperparameter space is multimodal. The electrostatic potential from the solvent to the hydrogen H18 plays an important role in the RC in water. The current study shows that the structure of the DNN models can be rather flexible, while the suitably optimized models share the same features; therefore, a common mechanism from the RC can be extracted.</summary>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-08-04T20:03:49Z</published>
+    <arxiv:comment>11 pages, 11 figures, 2 table for main text, 12 pages for supplementary material</arxiv:comment>
+    <arxiv:primary_category term="physics.chem-ph"/>
+    <author>
+      <name>Kyohei Kawashima</name>
+    </author>
+    <author>
+      <name>Takumi Sato</name>
+    </author>
+    <author>
+      <name>Kei-ichi Okazaki</name>
+    </author>
+    <author>
+      <name>Kang Kim</name>
+    </author>
+    <author>
+      <name>Nobuyuki Matubayasi</name>
+    </author>
+    <author>
+      <name>Toshifumi Mori</name>
+    </author>
+    <arxiv:doi>10.1063/5.0252631</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/5.0252631" title="doi"/>
+  </entry>
+</feed>

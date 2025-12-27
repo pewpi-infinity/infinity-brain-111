@@ -1,0 +1,86 @@
+TERMS: frequency, resonance, probability
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/pW5d0UZqW08lWnPfJF58HHG3vF8</id>
+  <title>arXiv Query: search_query=all:frequency AND all:resonance AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:12:29Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:resonance+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>440</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1110.2658v3</id>
+    <title>How terrestrial planets traverse spin-orbit resonances: A camel goes through a needle's eye</title>
+    <updated>2012-04-04T18:33:50Z</updated>
+    <link href="https://arxiv.org/abs/1110.2658v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1110.2658v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The dynamical evolution of terrestrial planets resembling Mercury in the vicinity of spin-orbit resonances is investigated using comprehensive harmonic expansions of the tidal torque taking into account the frequency-dependent quality factors and Love numbers. The torque equations are integrated numerically with a small step in time, includng the oscillating triaxial torque components but neglecting the layered structure of the planet and assuming a zero obliquity. We find that a Mercury-like planet with its current value of orbital eccentricity (0.2056) is always captured in the 3:2 resonance. The probability of capture in the higher 2:1 resonance is approximately 0.23. These results are confirmed by a semi-analytical estimation of capture probabilities as functions of eccentricity for both prograde and retrograde evolution of spin rate. As follows from analysis of equilibrium torques, entrapment in the 3:2 resonance is inevitable at eccentricities between 0.2 and 0.41. Considering the phase space parameters at the times of periastron, the range of spin rates and phase angles, for which an immediate resonance passage is triggered, is very narrow, and yet, a planet like Mercury rarely fails to align itself into this state of unstable equilibrium before it traverses the 2:1 resonance.</summary>
+    <category term="astro-ph.EP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-10-12T13:39:11Z</published>
+    <arxiv:comment>10 figures. Fig. 8 may be corrupted when printed on some printers but shows fine in the PDF file. Submitted in ApJ v. 2: the probabilities of capture of Mercury in 2:1 resonance are re-evaluated; a general formula for capture probability derived. v3: accepted in ApJ under a different title: Conditions of passage and entrapment of terrestrial planets in spin-orbit resonances</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.EP"/>
+    <author>
+      <name>Valeri V. Makarov</name>
+    </author>
+    <arxiv:doi>10.1088/0004-637X/752/1/73</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0004-637X/752/1/73" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1505.07646v1</id>
+    <title>Interplay between Detection Strategies and Stochastic Resonance Properties</title>
+    <updated>2015-05-28T11:17:39Z</updated>
+    <link href="https://arxiv.org/abs/1505.07646v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1505.07646v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We discuss how to exploit stochastic resonance with the methods of statistical theory of decisions. To do so, we evaluate two detection strategies: escape time analysis and strobing. For a standard quartic bistable system with a periodic drive and disturbed by noise, we show that the detection strategies and the physics of the double well are connected, inasmuch as one (the strobing strategy) is based on synchronization, while the other (escape time analysis) is determined by the possibility to accumulate energy in the oscillations. The analysis of the escape times best performs at the frequency of the geometric resonance, while strobing shows a peak of the performances at a special noise level predicted by the stochastic resonance theory. We surmise that the detection properties of the quartic potential are generic for overdamped and underdamped systems, in that the physical nature of resonance decides the competition (in terms of performances) between different detection strategies.</summary>
+    <category term="physics.data-an" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-05-28T11:17:39Z</published>
+    <arxiv:comment>To appear on Commun. Nonlinear Sci. Numer. Simulat. (2015); Keywords: Stochastic resonance, Random processes, Inference methods, Time series analysis</arxiv:comment>
+    <arxiv:primary_category term="physics.data-an"/>
+    <arxiv:journal_ref>Communications in Nonlinear Science and Numerical Simulation Volume 30, January 2016, Pages 15,31</arxiv:journal_ref>
+    <author>
+      <name>Paolo Addesso</name>
+    </author>
+    <author>
+      <name>Vincenzo Pierro</name>
+    </author>
+    <author>
+      <name>Giovanni Filatrella</name>
+    </author>
+    <arxiv:doi>10.1016/j.cnsns.2015.05.026</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.cnsns.2015.05.026" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1506.05683v1</id>
+    <title>Redistribution of light frequency by multiple scattering in a resonant atomic vapor</title>
+    <updated>2015-06-18T14:05:14Z</updated>
+    <link href="https://arxiv.org/abs/1506.05683v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1506.05683v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The propagation of light in a resonant atomic vapor can \textit{a priori} be thought of as a multiple scattering process, in which each scattering event redistributes both the direction and the frequency of the photons. Particularly, the frequency redistribution may result in Lévy flights of photons, directly affecting the transport properties of light in a resonant atomic vapor and turning this propagation into a superdifusion process. Here, we report on a Monte-Carlo simulation developed to study the evolution of the spectrum of the light in a resonant thermal vapor. We observe the gradual change of the spectrum and its convergence towards a regime of Complete Frequency Redistribution as the number of scattering events increases. We also analyse the probability density function of the step length of photons between emissions and reabsorptions in the vapor, which governs the statistics of the light diffusion. We observe two different regime in the light transport: superdiffusive when the vapor is excited near the line center and normal diffusion for excitation far from the line center. The regime of Complete Frequency Redistribution is not reached for excitation far from resonance even after many absorption/reemission cycles due to correlations between emitted and absorbed frequencies.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-06-18T14:05:14Z</published>
+    <arxiv:comment>23 pages, 11 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <arxiv:journal_ref>Published in Phys. Rev. A 91, 053846 (2015)</arxiv:journal_ref>
+    <author>
+      <name>J. C. de A. Carvalho</name>
+    </author>
+    <author>
+      <name>H. L. D. de Souza Cavalcante</name>
+    </author>
+    <author>
+      <name>M. Oriá</name>
+    </author>
+    <author>
+      <name>M. Chevrollier</name>
+    </author>
+    <author>
+      <name>T. Passerat de Silans</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.91.053846</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.91.053846" title="doi"/>
+  </entry>
+</feed>

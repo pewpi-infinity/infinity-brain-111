@@ -1,0 +1,37 @@
+TERMS: wavefunction, tachyon, neutrino
+COLORS: yellow, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/XksW0rw5GoQMPtZ4I/Y1DR1b1MQ</id>
+  <title>arXiv Query: search_query=all:wavefunction AND all:tachyon AND all:neutrino&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:33:30Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:wavefunction+AND+(all:tachyon+AND+all:neutrino)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1310.3539v1</id>
+    <title>Discrete Symmetry in Relativistic Quantum Mechanics</title>
+    <updated>2013-10-14T01:31:48Z</updated>
+    <link href="https://arxiv.org/abs/1310.3539v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1310.3539v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>EPR experiment on $K^0-\bar{K}^0$ system in 1998\cite{1} strongly hints that one should use operators $\hat{E}_c=-i\hbar\frac{\partial}{\partial t}$ and $\hat{\bf p}_c=i\hbar\nabla$ for the wavefunction (WF) of antiparticle. Further analysis on Klein-Gordon (KG) equation reveals that there is a discrete symmetry hiding in relativistic quantum mechanics (RQM) that ${\cal P}{\cal T}={\cal C}$. Here ${\cal P}{\cal T}$ means the (newly defined) combined space-time inversion (with ${\bf x}\to -{\bf x}, t\to-t$), while ${\cal C}$ the transformation of WF $ψ$ between particle and its antiparticle whose definition is just residing in the above symmetry. After combining with Feshbach-Villars (FV) dissociation of KG equation ($ψ=φ+χ$)\cite{2}, this discrete symmetry can be rigorously reformulated by the invariance of coupling equation of $φ$ and $χ$ under either the combined space-time inversion ${\cal P}{\cal T}$ or the mass inversion ($m\to -m$), which makes the KG equation a self-consistent theory. Dirac equation is also discussed accordingly. Various applications of this discrete symmetry are discussed, including the prediction of antigravity between matter and antimatter as well as the reason why we believe neutrinos are likely the tachyons.</summary>
+    <category term="physics.gen-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-10-14T01:31:48Z</published>
+    <arxiv:comment>47 pages, 1 fig. arXiv admin note: substantial text overlap with arXiv:1202.2747</arxiv:comment>
+    <arxiv:primary_category term="physics.gen-ph"/>
+    <arxiv:journal_ref>Journal of Modern Physics, {\bf 4}, 651-675, 2013 (http://www.scirp.org/journal/jmp). Here printing errors have been corrected</arxiv:journal_ref>
+    <author>
+      <name>Guang-jiong Ni</name>
+    </author>
+    <author>
+      <name>Suqing Chen</name>
+    </author>
+    <author>
+      <name>Jianjun Xu</name>
+    </author>
+    <arxiv:doi>10.4236/jmp.2013.45094</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4236/jmp.2013.45094" title="doi"/>
+  </entry>
+</feed>

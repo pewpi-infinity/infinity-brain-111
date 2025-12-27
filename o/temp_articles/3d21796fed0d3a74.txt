@@ -1,0 +1,81 @@
+TERMS: lattice, graphene
+COLORS: orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api//wrJefOM2/akd8Jr+hm87+DfFnk</id>
+  <title>arXiv Query: search_query=all:lattice AND all:graphene&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T00:57:35Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+all:graphene&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2872</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1204.5424v1</id>
+    <title>Hybrid Monte Carlo simulation on the graphene hexagonal lattice</title>
+    <updated>2012-04-24T16:29:36Z</updated>
+    <link href="https://arxiv.org/abs/1204.5424v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1204.5424v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>One of the many remarkable properties of graphene is that in the low energy limit the dynamics of its electrons can be effectively described by the massless Dirac equation. This has prompted investigations of graphene based on the lattice simulation of a system of 2-dimensional fermions on a square staggered lattice. We demonstrate here how to construct the path integral for graphene working directly on the graphene hexagonal lattice. For the nearest neighbor tight binding model interacting with a long range Coulomb interaction between the electrons, this leads to the hybrid Monte Carlo algorithm with no sign problem. The only approximation is the discretization of the Euclidean time. So as we extrapolate to the time continuum limit, the exact tight binding solution maybe found numerically to arbitrary precession on a finite hexagonal lattice. The potential for this approach is tested on a single hexagonal cell.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-04-24T16:29:36Z</published>
+    <arxiv:comment>14 pages, 7 figures, presented at Lattice 2011</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>PoS(Lattice 2011)056</arxiv:journal_ref>
+    <author>
+      <name>Richard Brower</name>
+    </author>
+    <author>
+      <name>Claudio Rebbi</name>
+    </author>
+    <author>
+      <name>David Schaich</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1304.1711v2</id>
+    <title>Velocity renormalization in graphene from lattice Monte Carlo</title>
+    <updated>2014-03-26T16:36:15Z</updated>
+    <link href="https://arxiv.org/abs/1304.1711v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1304.1711v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We compute the Fermi velocity of the Dirac quasiparticles in clean graphene at the charge neutrality point for strong Coulomb coupling alpha_g. We perform a Lattice Monte Carlo calculation within the low-energy Dirac theory, which includes an instantaneous, long-range Coulomb interaction. We find a renormalized Fermi velocity v_FR &gt; v_F, where v_F = c/300. Our results are consistent with a momentum-independent v_FR which increases approximately linearly with alpha_g, although a logarithmic running with momentum cannot be excluded at present. At the predicted critical coupling alpha_gc for the semimetal-insulator transition due to excitonic pair formation, we find v_FR/v_F = 3.3, which we discuss in light of experimental findings for v_FR/v_F at the charge neutrality point in ultra-clean suspended graphene.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-04-05T13:51:52Z</published>
+    <arxiv:comment>7 pages, 2 figures, title changed, to appear in the proceedings of the 31st International Symposium on Lattice Field Theory (LATTICE 2013)</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>PoS (Lattice 2013) 498</arxiv:journal_ref>
+    <author>
+      <name>Joaquín E. Drut</name>
+    </author>
+    <author>
+      <name>Timo A. Lähde</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1109.6549v1</id>
+    <title>Lattice Planar QED in external magnetic field</title>
+    <updated>2011-09-29T15:03:26Z</updated>
+    <link href="https://arxiv.org/abs/1109.6549v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1109.6549v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate planar Quantum ElectroDynamics (QED) with two degenerate staggered fermions in an external magnetic field on the lattice. Our preliminary results indicate that in external magnetic fields there is dynamical generation of mass for two-dimensional massless Dirac fermions in the weak coupling region. We comment on possible implications to the quantum Hall effect in graphene.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-09-29T15:03:26Z</published>
+    <arxiv:comment>7 pages, 1 figure, poster contribution to the XXIX International Symposium on Lattice Field Theory, LATTICE 2011</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>PoS (Lattice 2011) 307</arxiv:journal_ref>
+    <author>
+      <name>Paolo Cea</name>
+    </author>
+    <author>
+      <name>Leonardo Cosmai</name>
+    </author>
+    <author>
+      <name>Pietro Giudice</name>
+    </author>
+    <author>
+      <name>Alessandro Papa</name>
+    </author>
+  </entry>
+</feed>

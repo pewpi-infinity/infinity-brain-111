@@ -1,0 +1,82 @@
+TERMS: superconductivity, boson, bandgap
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/lXmpoz4sQLpcvO76hq9uB4tQYPM</id>
+  <title>arXiv Query: search_query=all:superconductivity AND all:boson AND all:bandgap&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:31:34Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:superconductivity+AND+(all:boson+AND+all:bandgap)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2412.08006v1</id>
+    <title>A mechanical quantum memory for microwave photons</title>
+    <updated>2024-12-11T01:21:09Z</updated>
+    <link href="https://arxiv.org/abs/2412.08006v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.08006v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Long-lived mechanical oscillators are actively pursued as critical resources for quantum storage, sensing, and transduction. However, achieving deterministic quantum control while limiting mechanical dissipation remains a persistent challenge. Here, we demonstrate strong coupling between a transmon superconducting qubit and an ultra-long-lived nanomechanical oscillator ($T_\text{1} \approx 25 \text{ ms}$ at 5 GHz, $Q \approx 0.8 \times 10^9$) by leveraging the low acoustic loss in silicon and phononic bandgap engineering. The qubit-oscillator system achieves large cooperativity ($C_{T_1}\approx 1.5\times10^5$, $C_{T_2}\approx 150$), enabling the generation of non-classical states and the investigation of mechanisms underlying mechanical decoherence. We show that dynamical decoupling$\unicode{x2014}$implemented through the qubit$\unicode{x2014}$can mitigate decoherence, leading to a mechanical coherence time of $T_2\approx 1 \text{ ms}$. These findings extend the exceptional storage capabilities of mechanical oscillators to the quantum regime, putting them forward as compact bosonic elements for future applications in quantum computing and metrology.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-11T01:21:09Z</published>
+    <arxiv:comment>30 pages, 21 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Alkım B. Bozkurt</name>
+    </author>
+    <author>
+      <name>Omid Golami</name>
+    </author>
+    <author>
+      <name>Yue Yu</name>
+    </author>
+    <author>
+      <name>Hao Tian</name>
+    </author>
+    <author>
+      <name>Mohammad Mirhosseini</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2408.11158v3</id>
+    <title>A Transition Edge Sensor Operated in Coincidence with a High Sensitivity Athermal Phonon Sensor for Photon Coupled Rare Event Searches</title>
+    <updated>2025-05-28T19:29:02Z</updated>
+    <link href="https://arxiv.org/abs/2408.11158v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2408.11158v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Experimental searches for axions or dark photons that couple to the standard model photon require photosensors with low noise, broadband sensitivity, and near zero backgrounds. Here, we introduce an experimental architecture, in which a small photon sensor, in our case a Transition Edge Sensor (TES) with a photon energy resolution $σ_γ= 368.4 \pm 0.4$ meV, is colocated on the same substrate as a large high sensitivity athermal phonon sensor (APS) with a phonon energy resolution $σ_\mathrm{phonon} = 701 \pm 2$ meV. We show that single 3.061 eV photons absorbed in the photon-sensing TES deposit $\sim$35\% of their energy in the electronic system of the TES, while $\sim$26\% of the photon energy leaks out of the photon-sensing TES during the downconversion process and becomes absorbed by the APS. Backgrounds, which we associate with the broadly observed ``low energy excess'' (LEE), are observed to be largely coupled to either the TES (``singles'' LEE), or phonon system, (``shared'' LEE). At high energies, these backgrounds can be efficiently discriminated from TES photon absorption events, while at low energies, their misidentification as photon events is well modeled. With significant sensitivity improvements to both the TES and APS, this coincidence technique could be used to suppress backgrounds in bosonic dark matter searches down to energies near the superconducting bandgap of the sensor.</summary>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-08-20T19:28:14Z</published>
+    <arxiv:comment>5 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.ins-det"/>
+    <arxiv:journal_ref>Appl. Phys. Lett. 125, 232601 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Roger K. Romani</name>
+    </author>
+    <author>
+      <name>Yen-Yung Chang</name>
+    </author>
+    <author>
+      <name>Rupak Mahapatra</name>
+    </author>
+    <author>
+      <name>Mark Platt</name>
+    </author>
+    <author>
+      <name>Maggie Reed</name>
+    </author>
+    <author>
+      <name>Ivar Rydstrom</name>
+    </author>
+    <author>
+      <name>Bernard Sadoulet</name>
+    </author>
+    <author>
+      <name>Bruno Serfass</name>
+    </author>
+    <author>
+      <name>Matt Pyle</name>
+    </author>
+    <arxiv:doi>10.1063/5.0234265</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/5.0234265" title="doi"/>
+  </entry>
+</feed>

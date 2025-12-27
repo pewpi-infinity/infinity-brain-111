@@ -1,0 +1,57 @@
+TERMS: hydrogen, fusion, electron, graphene
+COLORS: purple, green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/07Zltyk5Qu4lAGkTq1vrnrtdxW0</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:fusion AND all:electron AND all:graphene&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:52:22Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:fusion+AND+(all:electron+AND+all:graphene))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/0705.3130v1</id>
+    <title>Molecular dynamics simulation of hydrogen isotope injection into graphene</title>
+    <updated>2007-05-22T10:48:41Z</updated>
+    <link href="https://arxiv.org/abs/0705.3130v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0705.3130v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We reveal the hydrogen isotope effect of three chemical reactions, i.e, the reflection, the absorption and the penetration ratios, by classical molecular dynamics simulation with a modified Brenner's reactive empirical bond order (REBO) potential potential. We find that the reflection by pi-electron does not depend on the mass of the incident isotope, but the peak of the reflection by nuclear moves to higher side of incident energy. In addition to the reflection, we also find that the absorption ratio in the positive z side of the graphene becomes larger, as the mass of the incident isotope becomes larger. On the other hand, the absorption ratio in the negative z side of the graphene becomes smaller. Last, it is found that the penetration ratio does not depend on the mass of the incident isotope because the graphene potential is not affected by the mass.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-05-22T10:48:41Z</published>
+    <arxiv:comment>11th International Workshop on Plasma Edge Theory in Fusion Devices, (11th PET, 23-25 May 2007, Takayama, Japan)</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Nakamura Hiroaki</name>
+    </author>
+    <author>
+      <name>Arimichi Takayama</name>
+    </author>
+    <author>
+      <name>Astushi Ito</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0909.4568v1</id>
+    <title>Electron density and transport in top-gated graphene nanoribbon devices: First-principles Green function algorithms for systems containing large number of atoms</title>
+    <updated>2009-09-24T22:28:10Z</updated>
+    <link href="https://arxiv.org/abs/0909.4568v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0909.4568v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The recent fabrication of graphene nanoribbon (GNR) field-effect transistors poses a challenge for first-principles modeling of carbon nanoelectronics due to many thousand atoms present in the device. The state of the art quantum transport algorithms, based on the nonequilibrium Green function formalism combined with the density functional theory (NEGF-DFT), were originally developed to calculate self-consistent electron density in equilibrium and at finite bias voltage (as a prerequisite to obtain conductance or current-voltage characteristics, respectively) for small molecules attached to metallic electrodes where only a few hundred atoms are typically simulated. Here we introduce combination of two numerically efficient algorithms which make it possible to extend the NEGF-DFT framework to device simulations involving large number of atoms. We illustrate fusion of these two algorithms into the NEGF-DFT-type code by computing charge transfer, charge redistribution and conductance in zigzag-GNR/variable-width-armchair-GNR/zigzag-GNR two-terminal device covered with a gate electrode made of graphene layer as well. The total number of carbon and edge-passivating hydrogen atoms within the simulated central region of this device is ~7000. Our self-consistent modeling of the gate voltage effect suggests that rather large gate voltage might be required to shift the band gap of the proposed AGNR interconnect and switch the transport from insulating into the regime of a single open conducting channel.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-09-24T22:28:10Z</published>
+    <arxiv:comment>19 pages, 8 PDF figures, PDFLaTeX</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Phys. Rev. B 81, 155450 (2010).</arxiv:journal_ref>
+    <author>
+      <name>Denis A. Areshkin</name>
+    </author>
+    <author>
+      <name>Branislav K. Nikolic</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.81.155450</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.81.155450" title="doi"/>
+  </entry>
+</feed>

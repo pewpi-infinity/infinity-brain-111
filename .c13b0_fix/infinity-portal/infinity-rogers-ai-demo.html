@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <title>Infinity Portal — Rogers AI Chat Demo</title>
+  <meta name="color-scheme" content="light">
+  <style>
+    :root {
+      --blue-1: #003087;
+      --blue-2: #0b5fd7;
+      --panel: #f8fafc;
+      --muted: #6b7280;
+      --radius: 12px;
+      font-family: system-ui, "Segoe UI", Roboto, Arial, sans-serif;
+    }
+    html, body { height: 100%; margin: 0; background: #fff; color: #051426; }
+    .app { max-width: 480px; margin: 0 auto; padding: 0 0 60px 0; min-height: 100vh; }
+    header { display: flex; align-items: center; justify-content: space-between; padding: 14px 10px; background: #fff; border-bottom: 1px solid #e6e9ef; }
+    .logoText { font-weight: 700; color: var(--blue-1); font-size: 20px; letter-spacing: 1px; }
+    .sub { font-size: 13px; color: var(--muted); }
+    .rogersDock { position: fixed; right: 16px; bottom: 16px; z-index: 999; }
+    .rogBtn { width: 56px; height: 56px; border-radius: 50%; background: linear-gradient(135deg, var(--blue-1), var(--blue-2)); display: flex; align-items: center; justify-content: center; color: #fff; font-weight: 900; font-size: 28px; box-shadow: 0 10px 30px rgba(11,95,215,0.12); cursor: pointer; border: none;}
+    .chatBox { position: fixed; right: 10px; bottom: 80px; width: 95vw; max-width: 340px; border-radius: 12px; background: #fff; box-shadow: 0 20px 50px rgba(3,24,62,0.16); display: none; flex-direction: column; z-index: 999; overflow: hidden; border: 1px solid #e6e9ef;}
+    .chatBox.open { display: flex; }
+    .chatHeader { padding: 10px 14px; background: linear-gradient(90deg, var(--blue-1), var(--blue-2)); color: #fff; display: flex; justify-content: space-between; align-items: center; font-weight: bold; }
+    .chatBody { padding: 12px; height: 210px; overflow-y: auto; background: var(--panel); font-size: 15px;}
+    .chatInput { display: flex; padding: 10px; border-top: 1px solid #e6e9ef; background: #f9fbfd; }
+    .chatInput input { flex: 1; padding: 8px; border-radius: 8px; border: 1px solid #e6e9ef; font-size: 16px; }
+    .chatInput button { background: var(--blue-1); color: #fff; border: none; border-radius: 8px; font-weight: 700; padding: 8px 14px; margin-left: 7px; font-size: 16px; }
+    .bubble { margin: 7px 0; max-width: 90%; padding: 9px 13px; border-radius: 13px; word-break: break-word; }
+    .me { background: rgba(11,95,215,0.08); border: 1px solid rgba(11,95,215,0.11); margin-left: auto; }
+    .ai { background: #fff; border: 1px solid #e6e9ef; }
+    @media (max-width: 600px) {
+      .app { max-width: 100vw; }
+      .chatBox { left: 4px; right: 4px; width: auto; }
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <header>
+      <span class="logoText">INFINITY</span>
+      <span class="sub">Rogers AI Chat Demo</span>
+    </header>
+
+    <main style="padding:20px;">
+      <h2 style="font-size:20px;color:var(--blue-1);margin-bottom:10px;">Welcome to Infinity Portal</h2>
+      <p class="sub" style="margin-bottom:28px;">Rogers AI is always here. Tap the <b>R</b> button to chat.<br>
+      <span style="font-size:12px;">(All local, no backend key needed. Replace logic for live AI.)</span></p>
+      <ul style="color:#333;font-size:15px;">
+        <li>Blue/white Rogers theme, mobile-first</li>
+        <li>Rogers AI floating dock — always ready</li>
+        <li>Modern, bold, clean, and fast</li>
+        <li>Easy to expand for more features</li>
+      </ul>
+    </main>
+
+    <div class="rogersDock">
+      <button class="rogBtn" id="rogBtn" title="Rogers AI">R</button>
+    </div>
+    <div class="chatBox" id="chatBox">
+      <div class="chatHeader">
+        <span>Rogers AI</span>
+        <button onclick="toggleChat()" style="background:transparent;border:none;color:#fff;font-size:20px;cursor:pointer;">✕</button>
+      </div>
+      <div class="chatBody" id="chatBody"></div>
+      <form class="chatInput" onsubmit="event.preventDefault();sendChat();">
+        <input id="chatIn" autocomplete="off" placeholder="Ask Rogers anything...">
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </div>
+  <script>
+    // --- Rogers Chat Dock Logic ---
+    const rogBtn = document.getElementById('rogBtn');
+    const chatBox = document.getElementById('chatBox');
+    rogBtn.onclick = () => { chatBox.classList.add('open'); setTimeout(()=>document.getElementById('chatIn').focus(), 120); };
+    function toggleChat() { chatBox.classList.remove('open'); }
+
+    // --- Simple Demo Brain (no backend required) ---
+    const chatBody = document.getElementById('chatBody');
+    const chatIn = document.getElementById('chatIn');
+    function addBubble(role, text) {
+      const div = document.createElement('div');
+      div.className = 'bubble ' + (role === 'me' ? 'me' : 'ai');
+      div.textContent = text;
+      chatBody.appendChild(div);
+      chatBody.scrollTop = chatBody.scrollHeight;
+    }
+    function sendChat() {
+      const t = chatIn.value.trim();
+      if (!t) return;
+      addBubble('me', t);
+      chatIn.value = '';
+      setTimeout(() => {
+        // Demo “Watson” reply (replace with real API if you want)
+        let reply = '';
+        if (/help|how/i.test(t)) reply = "I'm Rogers, your Infinity assistant. How can I help?";
+        else if (/energy|token/i.test(t)) reply = "Energy features are in development. Check your profile soon!";
+        else if (/voice|audio/i.test(t)) reply = "Voice features are coming! Try the mic in your next update.";
+        else if (/weather|news/i.test(t)) reply = "Live data will be in the next Infinity release.";
+        else reply = "Got it! (This is a demo. For live AI, connect the backend API.)";
+        addBubble('ai', reply);
+      }, 400);
+    }
+    // Welcome message
+    addBubble('ai', "Hi! Rogers AI is ready. Ask anything or say 'help'.");
+  </script>
+</body>
+</html>

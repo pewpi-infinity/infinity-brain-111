@@ -1,0 +1,82 @@
+TERMS: boson, plasma, probability
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/SQ1TI5SktRmMGg5iuiL48Aufpbg</id>
+  <title>arXiv Query: search_query=all:boson AND all:plasma AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:36:50Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:boson+AND+(all:plasma+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>6</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/9909434v1</id>
+    <title>Path Integral Monte Carlo Simulations for Fermion Systems: Pairing in the Electron-Hole Plasma</title>
+    <updated>1999-09-29T18:25:02Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/9909434v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/9909434v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We review the path integral method wherein quantum systems are mapped with Feynman's path integrals onto a classical system of "ring-polymers" and then simulated with the Monte Carlo technique. Bose or Fermi statistics correspond to possible "cross-linking" of polymers. As proposed by Feynman, superfluidity and Bose condensation result from macroscopic exchange of bosons. To map fermions onto a positive probability distribution, one must restrict the paths to lie in regions where the fermion density matrix is positive. We discuss a recent application to the two-component electron-hole plasma. At low temperature excitons and bi-excitons form. We have used nodal surfaces incorporating paired fermions and see evidence of a Bose condensation in the energy, specific heat and superfluid density. In the restricted path integral picture, pairing appears as intertwined electron-hole paths. Bose condensation occurs when these intertwined paths wind around the periodic boundaries.</summary>
+    <category term="cond-mat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1999-09-29T18:25:02Z</published>
+    <arxiv:comment>14 pages, 7 figures Prepared for the 1999 International Conference on Strongly Coupled Coulomb Systems, Saint-Malo, France</arxiv:comment>
+    <arxiv:primary_category term="cond-mat"/>
+    <arxiv:journal_ref>J. Phys. IV France 10 (2000) Pr5-3-Pr5-16</arxiv:journal_ref>
+    <author>
+      <name>J. Shumway</name>
+    </author>
+    <author>
+      <name>D. M. Ceperley</name>
+    </author>
+    <arxiv:doi>10.1051/jp4:2000501</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1051/jp4:2000501" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.16357v1</id>
+    <title>Beyond The Standard Model electrodynamics in the time domain</title>
+    <updated>2024-10-21T18:00:00Z</updated>
+    <link href="https://arxiv.org/abs/2410.16357v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.16357v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Many motivated extensions of the standard model include new light bosons, such as axions and dark photons, which can mix with the ordinary photon. This latter, when in a dilute plasma, can be dressed by an effective plasma mass. If this is equal to the mass of the new degree of freedom, then a resonance takes place and the probability of transition between states is enhanced. This phenomenon of resonance conversion is at the very basis of multiple probes of dark matter, and it is typically studied within the so-called Landau-Zener approximation for level crossings. This latter is known to break down in a variety of scenarios, such as multiple level crossings or when the de Broglie wave length of the new boson is comparable to the scale over which the background plasma varies. We develop a flexible code adopting a 3+1 formalism in flat spacetime to perform non-linear simulations of systems with photons and new ultralight bosons in the presence of plasma. Our code currently allows to evolve one-dimensional systems, which are the ones of interest for this first study, but can be easily extended to treat three-dimensional spaces, and can be adapted to describe a plethora of realistic astrophysical and cosmological situations. Here we use it to study the breakdown of the Landau-Zener approximation in the case of multiple level crossings and when the slowly-varying plasma approximation ceases to be valid. In this first paper we detail our code and use it to study non-turbulent plasma, where small scale fluctuations can be neglected; their treatment will be considered in an upcoming publication.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-21T18:00:00Z</published>
+    <arxiv:comment>16 pages, 13 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Fabrizio Corelli</name>
+    </author>
+    <author>
+      <name>Enrico Cannizzaro</name>
+    </author>
+    <author>
+      <name>Andrea Caputo</name>
+    </author>
+    <author>
+      <name>Paolo Pani</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1704.00942v2</id>
+    <title>Ion-induced secondary electron emission from metal surfaces</title>
+    <updated>2018-08-27T13:01:25Z</updated>
+    <link href="https://arxiv.org/abs/1704.00942v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1704.00942v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Using a helium ion hitting various metal surfaces as a model system, we describe a general quantum-kinetic approach for calculating ion-induced secondary electron emission spectra at impact energies where the emission is driven by the internal potential energy of the ion. It is based on an effective model of the Anderson-Newns-type for the subset of electronic states of the ion-surface system most strongly affected by the collision. Central to our approach is a pseudo-particle representation for the electronic configurations of the projectile which enables us, by combining it with two additional auxiliary bosons, to describe in a single Hamiltonian emission channels involving electronic configurations with different internal potential energies. It is thus possible to treat Auger neutralization of the ion on an equal footing with Auger de-excitation of temporarily formed radicals and/or negative ions. From the Dyson equations for the projectile propagators and an approximate evaluation of the self-energies, rate equations are obtained for the probabilities with which the projectile configurations occur and an electron is emitted in the course of the collision. Encouraging numerical results, especially for the helium-tungsten system, indicate the potential of the approach.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-04-04T10:24:28Z</published>
+    <arxiv:comment>Substantially revised version including now additional charge-transfer channels which make the emission scenario proposed in the first version less likely. It is thus no longer emphasized. Comparision with experiments is now rather favorable. 23 pages, 11 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <arxiv:journal_ref>Plasma Sources Sci. Technol. 27 (2018) 084003</arxiv:journal_ref>
+    <author>
+      <name>M. Pamperin</name>
+    </author>
+    <author>
+      <name>F. X. Bronold</name>
+    </author>
+    <author>
+      <name>H. Fehske</name>
+    </author>
+    <arxiv:doi>10.1088/1361-6595/aad4db</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1361-6595/aad4db" title="doi"/>
+  </entry>
+</feed>

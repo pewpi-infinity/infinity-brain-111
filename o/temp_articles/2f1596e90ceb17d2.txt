@@ -1,0 +1,77 @@
+TERMS: quantum, lattice, probability
+COLORS: blue, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/qlaFbKoHzlbiA4OzH00FKEcQMoQ</id>
+  <title>arXiv Query: search_query=all:quantum AND all:lattice AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:06:09Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:lattice+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1074</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/0908.4546v1</id>
+    <title>Continuous-time quantum walks on semi-regular spidernet graphs via quantum probability theory</title>
+    <updated>2009-08-31T14:39:06Z</updated>
+    <link href="https://arxiv.org/abs/0908.4546v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0908.4546v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We analyze continuous-time quantum and classical random walk on spidernet lattices. In the framework of Stieltjes transform, we obtain density of states, which is an efficiency measure for the performance of classical and quantum mechanical transport processes on graphs, and calculate the spacetime transition probabilities between two vertices of the lattice. Then we analytically show that there are two power law decays $\sim t^{-3}$ and $\sim t^{-1.5}$ at the beginning of the transport for transition probability in the continuous-time quantum and classical random walk respectively. This results illustrate the decay of quantum mechanical transport processes is quicker than that of the classical one. Due to the result, the characteristic time $t_c$, which is the time when the first maximum of the probabilities occur on an infinite graph, for the quantum walk is shorter than that of the classical walk. Therefore, we can interpret that the quantum transport speed on spidernet is faster than that of the classical one. In the end, we investigate the results by numerical analysis for two examples.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-08-31T14:39:06Z</published>
+    <arxiv:comment>21 page; 8 figures. Accepted for publication on Quantum information processing</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Quantum Inf. Process 9 (2010) 75.</arxiv:journal_ref>
+    <author>
+      <name>S. Salimi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2305.07692v3</id>
+    <title>Quantum Simulation of Bound State Scattering</title>
+    <updated>2024-04-17T16:56:37Z</updated>
+    <link href="https://arxiv.org/abs/2305.07692v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.07692v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The last few years have seen rapid development of applications of quantum computation to quantum field theory. The first algorithms for quantum simulation of scattering have been proposed in the context of scalar and fermionic theories, requiring thousands of logical qubits. These algorithms are not suitable to simulate scattering of incoming bound states, as the initial-state preparation relies typically on adiabatically transforming wavepackets of the free theory into wavepackets of the interacting theory. In this paper we present a strategy to excite wavepackets of the interacting theory directly from the vacuum of the interacting theory, allowing the preparation of states of composite particles. This is the first step towards digital quantum simulation of scattering of bound states. The approach is based on the Haag-Ruelle scattering theory, which provides a way to construct creation and annihilation operators of a theory in a full, nonperturbative framework. We provide a quantum algorithm requiring a number of ancillary qubits that is logarithmic in the size of the wavepackets, and with a success probability vanishing at most like a polynomial in the lattice parameters and the energy of the wavepacket. The gate complexity for a single iteration of the circuit is equivalent to that of a time evolution for a fixed time. Furthermore, we propose a complete protocol for scattering simulation using this algorithm. We study its efficiency and find improvements with respect to previous algorithms in the literature.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-12T18:00:01Z</published>
+    <arxiv:comment>Published version. 22 pages, 3 figures. Key words: quantum simulation, lattice field theory, scattering, bound states</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>PRX Quantum 5, 020311 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Matteo Turco</name>
+    </author>
+    <author>
+      <name>Gonçalo M. Quinta</name>
+    </author>
+    <author>
+      <name>João Seixas</name>
+    </author>
+    <author>
+      <name>Yasser Omar</name>
+    </author>
+    <arxiv:doi>10.1103/PRXQuantum.5.020311</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PRXQuantum.5.020311" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1502.06453v1</id>
+    <title>A limit law of the return probability for a quantum walk on a hexagonal lattice</title>
+    <updated>2015-02-23T14:55:36Z</updated>
+    <link href="https://arxiv.org/abs/1502.06453v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1502.06453v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A return probability of random walks is one of the interesting subjects. As it is well known, the return probability strongly depends on the structure of the space where the random waker moves. On the other hand, the return probability of quantum walks, which are quantum models corresponding to random walks, has also been investigated to some extend lately. In this paper, we present a limit of the return probability for a discrete-time 3-state quantum walk on a hexagonal lattice.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-02-23T14:55:36Z</published>
+    <arxiv:comment>9 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>International Journal of Quantum Information, Vol. 13, No. 7, 1550054 (2015)</arxiv:journal_ref>
+    <author>
+      <name>Takuya Machida</name>
+    </author>
+    <arxiv:doi>10.1142/S0219749915500549</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/S0219749915500549" title="doi"/>
+  </entry>
+</feed>

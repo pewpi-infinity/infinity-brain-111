@@ -1,0 +1,84 @@
+TERMS: fusion, electron, probability
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/qgbgddbDI6NZAHb4YQHjW61eriI</id>
+  <title>arXiv Query: search_query=all:fusion AND all:electron AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:19:59Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:fusion+AND+(all:electron+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>49</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2001.05800v2</id>
+    <title>A sparse-grid probabilistic scheme for approximation of the runaway probability of electrons in fusion tokamak simulation</title>
+    <updated>2020-01-18T03:07:11Z</updated>
+    <link href="https://arxiv.org/abs/2001.05800v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2001.05800v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Runaway electrons (RE) generated during magnetic disruptions present a major threat to the safe operation of plasma nuclear fusion reactors. A critical aspect of understanding RE dynamics is to calculate the runaway probability, i.e., the probability that an electron in the phase space will runaway on, or before, a prescribed time. Such probability can be obtained by solving the adjoint equation of the underlying Fokker-Planck equation that controls the electron dynamics. In this effort, we present a sparse-grid probabilistic scheme for computing the runaway probability. The key ingredient of our approach is to represent the solution of the adjoint equation as a conditional expectation, such that discretizing the differential operator reduces to the approximation of a set of integrals. Adaptive sparse grid interpolation is utilized to approximate the map from the phase space to the runaway probability. The main novelties of this effort are the integration of the sparse-grid method into the probabilistic numerical scheme for computing escape probability, as well as the demonstration in computing RE probabilities. Two numerical examples are given to illustrate that the proposed method can achieve $\mathcal{O}(Δt)$ convergence, as well as the adaptive refinement strategy can effectively handle the sharp transition layer between the runaway and non-runaway regions.</summary>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-01-16T13:56:24Z</published>
+    <arxiv:primary_category term="physics.comp-ph"/>
+    <author>
+      <name>Minglei Yang</name>
+    </author>
+    <author>
+      <name>Guannan Zhang</name>
+    </author>
+    <author>
+      <name>Diego del-Castillo-Negrete</name>
+    </author>
+    <author>
+      <name>Miroslav Stoyanov</name>
+    </author>
+    <author>
+      <name>Matthew Beidler</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/physics/0607138v1</id>
+    <title>Catalyzing Fusion with Relativistic Electrons</title>
+    <updated>2006-07-14T12:56:51Z</updated>
+    <link href="https://arxiv.org/abs/physics/0607138v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/physics/0607138v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The idea here is to use large relative velocities of electrons and nuclei in accelerator beams to increase the probability of fusion. The function of the electrons is to both screen the positive charge and to produce an increased parallel pinching current. The increase in reaction probability is estimated using the Darwin magnetic interaction energy approach.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.acc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-07-14T12:56:51Z</published>
+    <arxiv:comment>Unpublished idea briefly presented</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>Hanno Essen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2106.12988v1</id>
+    <title>Enhanced D-D Fusion Rates when the Coulomb Barrier Is Lowered by Electrons</title>
+    <updated>2021-06-22T21:37:02Z</updated>
+    <link href="https://arxiv.org/abs/2106.12988v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2106.12988v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A profusion of unbound, low-energy electrons creates a local electric field that reduces Coulomb potential and increases quantum tunneling probability for pairs of nuclei. Neutral beam-target experiments on deuterium-deuterium fusion reactions, observed with neutron detectors, show percentage increases in fusion products are consistent with electron-screening predictions from Schrodinger wave mechanics. Experiments performed confirm that observed fusion rate enhancement with a negatively biased target is primarily due to changes to the fusion cross section, rather than simply acceleration due to electrostatic forces.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-06-22T21:37:02Z</published>
+    <arxiv:comment>19 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>Alfred Y. Wong</name>
+    </author>
+    <author>
+      <name>Alexander Gunn</name>
+    </author>
+    <author>
+      <name>Allan X. Chen</name>
+    </author>
+    <author>
+      <name>Chun-Ching Shih</name>
+    </author>
+    <author>
+      <name>Mason J. Guffey</name>
+    </author>
+  </entry>
+</feed>

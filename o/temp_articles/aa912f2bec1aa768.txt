@@ -1,0 +1,74 @@
+TERMS: boson, vacuum
+COLORS: green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/r6dkUnNqZQ1edA65K+iay4lifYs</id>
+  <title>arXiv Query: search_query=all:boson AND all:vacuum&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:00:53Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:boson+AND+all:vacuum&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2629</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1703.05382v2</id>
+    <title>Stability of the nonperturbative bosonic string vacuum</title>
+    <updated>2017-05-08T17:36:37Z</updated>
+    <link href="https://arxiv.org/abs/1703.05382v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1703.05382v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Quantization of the bosonic string around the classical, perturbative vacuum is not consistent for spacetime dimensions 2&lt;d&lt;26. Recently we have showed that at large d there is another so-called mean field vacuum. Here we extend this mean field calculation to finite d and show that the corresponding mean field vacuum is stable under quadratic fluctuations for 2&lt;d&lt;26. We point out the analogy with the two-dimensional O(N)-symmetric sigma-model, where the 1/N-vacuum is very close to the real vacuum state even for finite N, in contrast to the perturbative vacuum.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-03-15T20:52:17Z</published>
+    <arxiv:comment>v2: 6pp, section about vacuum instability/stability added, to appear in PLB</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>J. Ambjorn</name>
+      <arxiv:affiliation>NBI &amp; IMAPP</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Y. Makeenko</name>
+      <arxiv:affiliation>NBI &amp; ITEP</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1016/j.physletb.2017.05.021</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physletb.2017.05.021" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1703.04839v2</id>
+    <title>The QCD Axion and Electroweak Vacuum Stability</title>
+    <updated>2017-05-04T17:12:33Z</updated>
+    <link href="https://arxiv.org/abs/1703.04839v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1703.04839v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The complex field $Φ$ containing the QCD axion has a natural portal coupling to the Higgs doublet of the form $λ_{h φ}|Φ|^2 |H|^2$. Here we consider the possibility that $λ_{h φ}$ has a natural magnitude for a dimensionless coupling, $λ_{h φ} \sim 0.1-1$. This is possible if the total mass squared parameter of the Higgs in the vacuum, including quadratic divergent and the $Φ$ vacuum expectation value contributions, is renormalized to reproduce the observed Higgs boson mass. It is then possible for the axion sector to stabilize the electroweak vacuum. We show the requirement of electroweak vacuum stability implies that the axion decay constant satisfies $f_{a} &lt; 1.3 \times 10^{10}$ GeV.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-03-14T23:49:20Z</published>
+    <arxiv:comment>5 pages, 3 figures. Our discussion omits the dominant tree-level shift (discussed in 1203.0237) of the Higgs quartic coupling in the full theory relative to the Higgs quartic coupling of the low-energy effective Standard Model. This shift can easily the electroweak vacuum. Therefore our conclusions (and upper bound on $f_a$) are invalid</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>J. McDonald</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1112.3112v2</id>
+    <title>Impacts of the Higgs mass on vacuum stability, running fermion masses and two-body Higgs decays</title>
+    <updated>2012-05-15T09:23:30Z</updated>
+    <link href="https://arxiv.org/abs/1112.3112v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1112.3112v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The latest results of the ATLAS and CMS experiments indicate 116 GeV \lesssim M_H \lesssim 131 GeV and 115 GeV \lesssim M_H \lesssim 127 GeV, respectively, for the mass of the Higgs boson in the standard model (SM) at the 95% confidence level. In particular, both experiments point to a preferred narrow mass range M_H \simeq (124 ... 126) GeV. We examine the impact of this preliminary result of M_H on the SM vacuum stability by using the two-loop renormalization-group equations (RGEs), and arrive at the cutoff scale Λ_VS \sim 4 \times 10^{12} GeV (for M_H = 125 GeV, M_t = 172.9 GeV and α_s(M_Z) = 0.1184) where the absolute stability of the SM vacuum is lost and some kind of new physics might take effect. We update the values of running lepton and quark masses at some typical energy scales, including the ones characterized by M_H, 1 TeV and Λ_VS, with the help of the two-loop RGEs. The branching ratios of some important two-body Higgs decay modes, such as H \to b\bar{b}, H \to τ^+ τ^-, H\to γγ, H\to W^+ W^- and H \to Z Z, are also recalculated by inputting the values of relevant particle masses at M_H.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-12-14T04:12:15Z</published>
+    <arxiv:comment>RevTex 14 pages, 4 figures; the treatment of vacuum stability improved, references updated</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Zhi-zhong Xing</name>
+    </author>
+    <author>
+      <name>He Zhang</name>
+    </author>
+    <author>
+      <name>Shun Zhou</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.86.013013</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.86.013013" title="doi"/>
+  </entry>
+</feed>

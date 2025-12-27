@@ -1,0 +1,43 @@
+TERMS: hydrogen, crystal, superconductivity, probability
+COLORS: purple, orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/KLgcKjEit27rVj9AB+brRP9t1hA</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:crystal AND all:superconductivity AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T02:00:03Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:crystal+AND+(all:superconductivity+AND+all:probability))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0612069v1</id>
+    <title>Superconductivity and Disorder in High-Tc Materials: Crystalline Copper Oxides and Liquid Metallic Hydrogen</title>
+    <updated>2006-12-04T19:46:13Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0612069v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0612069v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Our goals are to assist a non-practitioner understand likely resolution of the controversy about the boson that couples Cooper pairs in Cu oxides and to consider if high temperature superconductivity (HTS) in solid oxides might be related to predicted HTS in liquid metallic hydrogen (LMH) near 0 K. High temperatures (T~Tc~!D~100 K, where Tc is superconducting critical temperature and !D is the Debye temperature) induce phonon-phonon scattering in ordered materials, which is sensitive to impurities and disorder. Experimental results suggest the boson that couples Cooper pairs in Bi2SrCa2Cu2O8 is incoherent ion vibration caused by disorder, which is observed from ~100 K down to 4 K. Phonons are not well-defined in BSSCO and its coherence length is comparable to the dimension of its unit cell (~1 nm), as for other oxides. Sr2CuO3+d (Tc=95 K) has a crystal structure that enables experimental demonstration that disorder of apical oxygen atoms has a strong affect on Tc. Disorder in sold oxides on an atomic scale and the temperature dependence of phonons at high temperatures (T~!D) probably must be taken into account to understand HTS. There are several reasons to believe that LMH will be a high temperature superconductor and no known reason why LMH cannot be one.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-12-04T19:46:13Z</published>
+    <arxiv:comment>12 pages double-spaced</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>W. J. Nellis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0912.4906v1</id>
+    <title>Properties of MgB2 bulk</title>
+    <updated>2009-12-24T20:07:03Z</updated>
+    <link href="https://arxiv.org/abs/0912.4906v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0912.4906v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The review considers bulk MgB2-based materials in terms of their structure, superconducting and mechanical properties. Superconducting transition temperatures of 34.5-39.4 K, critical current densities of 1.8-1.0 x E6 A/sq.cm in self field and 103 in 8 T field at 20 K, 3-1.5xE5 A/sq. cm in self field at 35 K, HC2 15 T at 22 K and Hirr 13 T at 20 K have been registered for polycrystalline materials. As TEM and SEM study show, dispersed higher borides and rather big amount (5-14 percents) of oxygen (bonded simultaneously with Mg and B) can be present in the structure even if X-ray pattern contains only reflexes of well crystallized MgB2 with traces of MgO. Materials with such a rather high oxygen content demonstrated high superconducting characteristics. At present it is established that nanosized MgB12 grains provide effective pinning in polycrystalline material. Besides, additions can introduce the MgB2 structure inducing disorder in lattice sites (for example, C substitution for B). The disorder increases the normal state resistivity, magnetic penetration depth, and the upper critical field, but reduces the transition temperature and anisotropy. It is highly probable that the additives (Ti, Ta, Zr, SiC) together with synthesis or sintering temperature can affect the distribution of oxygen and hydrogen in the material structure as well as the formation of grains of higher borides, thus influencing superconducting properties. The superconductivity of materials with matrix close to MgB12 in stoichiometry (Tc=37 K) has been defined.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-12-24T20:07:03Z</published>
+    <arxiv:comment>45 pages, 27 figues, 4 tables, review submitted to Superconductor Science and Technology</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>T. A. Prikhna</name>
+    </author>
+  </entry>
+</feed>

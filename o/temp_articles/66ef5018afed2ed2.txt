@@ -1,0 +1,71 @@
+TERMS: electron, muon, vacuum
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/1IJU7Fu1Pm9HwO1mQ27wZX7ckIA</id>
+  <title>arXiv Query: search_query=all:electron AND all:muon AND all:vacuum&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:24:36Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:electron+AND+(all:muon+AND+all:vacuum)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>143</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2507.16891v1</id>
+    <title>Vacuum muon decay and interaction with laser pulses</title>
+    <updated>2025-07-22T18:00:01Z</updated>
+    <link href="https://arxiv.org/abs/2507.16891v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.16891v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Muons decay in vacuum mainly via the leptonic channel to an electron, an electron neutrino and a muon antineutrino. Previous investigations have concluded that muon decay can only be significantly altered in a strong electromagnetic field when the muonic strong-field parameter is of order unity, which is far beyond the reach of lab-based experiments at current and planned facilities. In this letter, an alternative mechanism is presented in which a laser pulse affects the vacuum decay rate of a muon outside the pulse. Quantum interference between the muon decaying with or without interacting with the pulse generates fringes in the electron momentum spectra and can increase the muon lifetime by up to a factor 2. The required parameters to observe this effect are available in experiments today.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-22T18:00:01Z</published>
+    <arxiv:comment>10 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>B. King</name>
+    </author>
+    <author>
+      <name>D. Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2202.10810v2</id>
+    <title>Hadronic Vacuum Polarization and the MUonE proposal</title>
+    <updated>2022-04-19T08:35:47Z</updated>
+    <link href="https://arxiv.org/abs/2202.10810v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2202.10810v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The MUonE proposal at the CERN SPS consists in extracting the value of the hadronic vacuum polarization self-energy function (HVP) from its contribution to the differential cross-section of elastic muon-electron scattering. The HVP contribution to the muon anomalous magnetic moment can then be obtained from a weighted integral of the measured HVP self-energy function. This, however, requires a knowledge of the HVP function in its full integration domain. This paper discusses a procedure to reconstruct the HVP function in the regions not directly accessible to measurement. The method is based on the so-called transfer theorems, due to Flajolet and Odlyzko, which we explain and adapt to HVP.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-02-22T11:06:06Z</published>
+    <arxiv:comment>32 pages, 9 figures. Typos and wording corrected. Version to appear in JHEP</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>David Greynat</name>
+    </author>
+    <author>
+      <name>Eduardo de Rafael</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP05(2022)084</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP05(2022)084" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/9306324v1</id>
+    <title>The Analytical Contribution of Some Eighth-Order Graphs Containing Vacuum Polarization Insertions to the Muon (G-2) in QED</title>
+    <updated>1993-06-28T20:38:00Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/9306324v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/9306324v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The contributions to the $g-2$ of the muon from some eighth-order (four-loop) graphs containing one-loop and two-loop vacuum polarization insertions have been evaluated analytically in QED perturbation theory, expanding the results in the ratio of the electron to muon mass ${(m_e / m_μ)}$. The results agree with the numerical evaluations and the asymptotic analytical results already existing in the literature.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1993-06-28T20:38:00Z</published>
+    <arxiv:comment>plain TEX, 10 pages + 3 figures (figures are available upon request), DFUB 93-06</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys.Lett. B312 (1993) 495-500</arxiv:journal_ref>
+    <author>
+      <name>S. Laporta</name>
+    </author>
+    <arxiv:doi>10.1016/0370-2693(93)90988-T</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/0370-2693(93)90988-T" title="doi"/>
+  </entry>
+</feed>

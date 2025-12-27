@@ -1,0 +1,81 @@
+TERMS: spin, boson
+COLORS: yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/gO+MK7WGFacrg1CCIwgUImtQomM</id>
+  <title>arXiv Query: search_query=all:spin AND all:boson&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T00:59:48Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:spin+AND+all:boson&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>8153</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0310140v1</id>
+    <title>Dynamics of the spin-boson model with a structured environment</title>
+    <updated>2003-10-07T09:29:05Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0310140v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0310140v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We investigate the dynamics of the spin-boson model when the spectral density of the boson bath shows a resonance at a characteristic frequency $Ω$ but behaves Ohmically at small frequencies. The time evolution of an initial state is determined by making use of the mapping onto a system composed of a quantum mechanical two-state system (TSS) which is coupled to a harmonic oscillator (HO) with frequency $Ω$. The HO itself is coupled to an Ohmic environment. The dynamics is calculated by employing the numerically exact quasiadiabatic path-integral propagator technique. We find significant new properties compared to the Ohmic spin-boson model. By reducing the TSS-HO system in the dressed states picture to a three-level system for the special case at resonance, we calculate the dephasing rates for the TSS analytically. Finally, we apply our model to experimentally realized superconducting flux qubits coupled to an underdamped dc-SQUID detector.</summary>
+    <category term="cond-mat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-10-07T09:29:05Z</published>
+    <arxiv:comment>26 pages, 11 figures, Chemical Physics Special Issue on the Spin-Boson Problem, ed. by H. Grabert and A. Nitzan, in press</arxiv:comment>
+    <arxiv:primary_category term="cond-mat"/>
+    <arxiv:journal_ref>Chem. Phys. 296, 333-344 (2004)</arxiv:journal_ref>
+    <author>
+      <name>M. Thorwart</name>
+    </author>
+    <author>
+      <name>E. Paladino</name>
+    </author>
+    <author>
+      <name>M. Grifoni</name>
+    </author>
+    <arxiv:doi>10.1016/j.chemphys.2003.10.007</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.chemphys.2003.10.007" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0412615v1</id>
+    <title>Modulation of dephasing due to a spin-boson environment</title>
+    <updated>2004-12-22T12:24:49Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0412615v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0412615v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We study the reduced dynamics of a spin (qubit) coupled to a spin-boson environment in the case of pure dephasing. We derive formal exact expressions which can be cast in terms of exact integro-differential master equations. We present results for a SB environment with ohmic dissipation at finite temperatures. For the special value of the ohmic damping strength K=1/2 the reduced dynamics is found in analytic form. For K&lt;&lt;1 we discuss the possibility of modulating the effect of the SB environment on the qubit. In particular we study the effect of the crossover to a slow environment dynamics, which may be triggered by changing both the temperature and the system-environment coupling.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-12-22T12:24:49Z</published>
+    <arxiv:comment>16 pages, 2 figures, Chemical Physics special issue on the Spin-Boson problem, edited by H. Grabert and A. Nitzan</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <arxiv:journal_ref>Chem. Phys. 296, 325 - 332 (2004)</arxiv:journal_ref>
+    <author>
+      <name>E. Paladino</name>
+    </author>
+    <author>
+      <name>M. Sassetti</name>
+    </author>
+    <author>
+      <name>G. Falci</name>
+    </author>
+    <arxiv:doi>10.1016/j.chemphys.2003.08.027</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.chemphys.2003.08.027" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/0210190v1</id>
+    <title>Resummation for single-spin asymmetries in W boson production</title>
+    <updated>2002-10-12T20:15:27Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/0210190v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/0210190v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  To measure spin-dependent parton distribution functions in the production of W bosons at the Relativistic Heavy Ion Collider, an accurate model for distributions of charged leptons from the W boson decay is needed. We present single-spin lepton-level cross sections of order $α_S$ for this process, as well as resummed cross sections, which include multiple parton radiation effects. We also present a program RhicBos for the numerical analysis of single-spin and double-spin cross sections in the Drell-Yan process, W and Z boson production.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-10-12T20:15:27Z</published>
+    <arxiv:comment>5 pages, 3 figures; Contribution to the Proceedings of 15th International Spin Physics Symposium (SPIN 2002), Brookhaven National Laboratory, September 9-14, 2002</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>P. M. Nadolsky</name>
+    </author>
+    <author>
+      <name>C. -P. Yuan</name>
+    </author>
+    <arxiv:doi>10.1063/1.1607163</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/1.1607163" title="doi"/>
+  </entry>
+</feed>

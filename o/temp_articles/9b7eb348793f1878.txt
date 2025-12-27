@@ -1,0 +1,35 @@
+TERMS: frequency, fusion, wavefunction
+COLORS: green, green, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/i2dpDkBVoS5l1otOuarHyW72DK0</id>
+  <title>arXiv Query: search_query=all:frequency AND all:fusion AND all:wavefunction&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:10:16Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:fusion+AND+all:wavefunction)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2112.12384v1</id>
+    <title>Resonant tunneling of deuteron-triton fusion in strong high-frequency electromagnetic fields</title>
+    <updated>2021-12-23T06:47:48Z</updated>
+    <link href="https://arxiv.org/abs/2112.12384v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2112.12384v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate deuteron-triton (DT) fusion in the presence of linearly polarized strong electromagnetic fields in high-frequency limit, in which a complex spherical square-well potential is exploited to describe the nuclear potential. Within the framework of the Kramers-Henneberger (KH) transformation, we have calculated the total and angular differential fusion cross sections by investigating the asymptotical phase shifts of the Coulomb wavefunctions. With introducing a dimensionless quantity of $n_d$ representing the ratio of the particle quiver oscillation amplitude to the radius of nuclear potential, we find that, even though the tunneling probability of passing through the Coulomb repulsive potential keeps almost identical to that in the absence of electromagnetic fields, the peak of total fusion sections shows an apparent shift from the well known value of 110 keV to 78 keV for $n_d=0.01$. The angular differential cross sections also show some resonance peaks that shift from zero inclination angle to $π/2$ with increasing the parameter $n_d$. The corresponding astrophysical $S$-factors are found to be enhanced by several times in amplitudes. With the help of Wentzel-Kramers-Brillouin (WKB) approximate wavefunctions, the shape-resonance tunneling mechanism of the above findings are uncovered and some implications are discussed.</summary>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-12-23T06:47:48Z</published>
+    <arxiv:primary_category term="nucl-th"/>
+    <author>
+      <name>Binbing Wu</name>
+    </author>
+    <author>
+      <name>Hao Duan</name>
+    </author>
+    <author>
+      <name>Jie Liu</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevC.105.064615</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevC.105.064615" title="doi"/>
+  </entry>
+</feed>

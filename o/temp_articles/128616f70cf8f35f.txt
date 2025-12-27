@@ -1,0 +1,36 @@
+TERMS: lattice, wavefunction, tachyon
+COLORS: orange, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Bj0kDvAWyeLolmgXMxTwqIC7KxU</id>
+  <title>arXiv Query: search_query=all:lattice AND all:wavefunction AND all:tachyon&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:15:24Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:wavefunction+AND+all:tachyon)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2301.06154v2</id>
+    <title>The Nambu-Goto string in QCD: Dipole interactions, scattering and entanglement</title>
+    <updated>2023-12-05T18:01:55Z</updated>
+    <link href="https://arxiv.org/abs/2301.06154v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2301.06154v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We revisit some aspects of the stringy approach to dipole-dipole interactions, scattering and entanglement in QCD, using the Nambu-Goto (NG) string, without recourse to holography. We first show that the potential between two static dipoles exchanging closed NG strings is attractive at all separations. Underlining the exchange there is an emergent entropy, that is dominated by the tachyon at large separation, and vanishes at short separation, a measure of the confinement-deconfinement transition. The same tachyon is dominant in the scattering amplitude, as a correlator of two Wilson loops for two fixed dipole-like hadrons separated at large rapidity gap, where the contribution of the worldsheet fermions is included. While the tachyon causes the mean string bit density to grow exponentially with the rapidity, the total scattering cross section still satisfies the Froissart bound by quantum shadowing. The stringy scattering exchange also carries an entanglement entropy, that saturates when the bound is reached. For hadrons with varying dipole sizes, the tachyon exchange takes place in hyperbolic space in the conformal limit. The result for the full S-matrix is reminiscent of the one from Mueller$^\prime$s evolved dipole wavefunction, for the total dipole-dipole cross section in perturbative QCD.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-01-15T18:33:35Z</published>
+    <arxiv:comment>version published in PRD</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Yizhuang Liu</name>
+    </author>
+    <author>
+      <name>Maciej A. Nowak</name>
+    </author>
+    <author>
+      <name>Ismail Zahed</name>
+    </author>
+  </entry>
+</feed>

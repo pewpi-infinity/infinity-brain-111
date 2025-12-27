@@ -1,0 +1,92 @@
+TERMS: frequency, entropy, neutrino
+COLORS: green, red, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/y7GrMsDANGOqXvzB58yIk7wd3Bs</id>
+  <title>arXiv Query: search_query=all:frequency AND all:entropy AND all:neutrino&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:10:05Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:entropy+AND+all:neutrino)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>23</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2111.13544v1</id>
+    <title>Viscous absorption of ultra-high-frequency gravitons</title>
+    <updated>2021-11-26T15:25:37Z</updated>
+    <link href="https://arxiv.org/abs/2111.13544v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2111.13544v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The high-frequency gravitons can be absorbed by the first and second viscosities of the post-inflationary plasma as the corresponding wavelengths reenter the Hubble radius prior to big-bang nucleosynthesis. When the total sound speed of the medium is stiffer than radiation the rate of expansion still exceeds the shear rate but the bulk viscosity is not negligible. Depending on the value of the entropy density at the end of inflation the spectral energy density of the relic gravitons gets modified in comparison with the inviscid result when the frequency ranges between the kHz band and the GHz region. In the nHz domain the spectrum inherits a known suppression due to neutrino free-streaming but also a marginal spike potentially caused by a sudden outbreak of the bulk viscosity around the quark-hadron phase transition, as suggested by the hadron spectra produced in the collisions of heavy ions.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-11-26T15:25:37Z</published>
+    <arxiv:comment>10 pages; 2 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Massimo Giovannini</name>
+    </author>
+    <arxiv:doi>10.1016/j.physletb.2022.137071</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physletb.2022.137071" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2307.06892v2</id>
+    <title>Exploring the Macroscopic Properties and Nonradial Oscillations of Proto-Neutron Stars: Effects of Temperature, Entropy, and Lepton Fraction</title>
+    <updated>2024-01-25T13:22:37Z</updated>
+    <link href="https://arxiv.org/abs/2307.06892v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2307.06892v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Neutron stars (NSs) have traditionally been viewed as cold, zero-temperature entities. However, recent progress in computational methods and theoretical modelling has opened up the exploration of finite temperature effects, marking a novel research frontier. This study examines Proto-Neutron Stars (PNSs) using the BigApple parameter set to investigate their macroscopic properties. Two approaches are employed: one with constant temperatures (10-50 MeV) and the other fixing entropy per baryon (S) at predefined levels (S = 1 and S = 2). Notably, S remains constant with increasing baryon density due to electron-positron pair formation at finite temperatures. Analysis of PNS mass-radius profiles, considering neutrino trapping and temperature effects, reveals flattened curves and expanded radii with increasing temperature, resulting in slightly higher masses compared to zero temperature. The influence of lepton fraction ($Y_l$) on maximum PNS mass is explored, indicating that higher $Y_l$ values lead to a softer Equation of State (EoS), reducing maximum mass and increasing the canonical radius ($R_{1.4}$). Further investigation of a constant entropy EoS demonstrates that higher entropy is associated with increased maximum PNS masses and flatter mass-radius curves. Central temperature versus maximum mass relationships suggest a correlation between NS mass and temperature. Lastly, we investigate the behaviour of $f$-mode frequencies in PNS. It reveals that the frequency of these modes decreases with increasing entropy and temperature, reflecting complex thermodynamic interactions within the stars.</summary>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-07-13T16:44:28Z</published>
+    <arxiv:comment>Commets are welcome. This paper is based on master thesis project of Shahebaj Shaikh</arxiv:comment>
+    <arxiv:primary_category term="nucl-th"/>
+    <author>
+      <name>Sayantan Ghosh</name>
+    </author>
+    <author>
+      <name>Shahebaj Shaikh</name>
+    </author>
+    <author>
+      <name>Probit J Kalita</name>
+    </author>
+    <author>
+      <name>Pinku Routaray</name>
+    </author>
+    <author>
+      <name>Bharat Kumar</name>
+    </author>
+    <author>
+      <name>B. K. Agrawal</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1106.2736v1</id>
+    <title>Oscillations of hot, young neutron stars: Gravitational wave frequencies and damping times</title>
+    <updated>2011-06-14T15:00:56Z</updated>
+    <link href="https://arxiv.org/abs/1106.2736v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1106.2736v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study how the frequencies and damping times of oscillations of a newly born, hot proto-neutron star depend on the physical quantities which characterize the star quasi-stationary evolution which follows the bounce. Stellar configurations are modeled using a microscopic equation of state obtained within the Brueckner-Hartree-Fock, nuclear many-body approach, extended to the finite-temperature regime. We discuss the mode frequency behaviour as function of the lepton composition, and of the entropy gradients which prevail in the interior of the star. We find that, in the very early stages, gravitational wave emission efficiently competes with neutrino processes in dissipating the star mechanical energy residual of the gravitational collapse.</summary>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-06-14T15:00:56Z</published>
+    <arxiv:comment>11 pages, 4 tables, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.SR"/>
+    <arxiv:journal_ref>Phys.Rev.D84:044017,2011</arxiv:journal_ref>
+    <author>
+      <name>G. F. Burgio</name>
+    </author>
+    <author>
+      <name>V. Ferrari</name>
+    </author>
+    <author>
+      <name>L. Gualtieri</name>
+    </author>
+    <author>
+      <name>H. J. Schulze</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.84.044017</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.84.044017" title="doi"/>
+  </entry>
+</feed>

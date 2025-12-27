@@ -1,0 +1,99 @@
+TERMS: hydrogen, spin, plasma
+COLORS: purple, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/vm8MJYo2wafESvXBJYEpfD7yfqg</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:spin AND all:plasma&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:04:15Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:spin+AND+all:plasma)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>38</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1506.01510v1</id>
+    <title>VUV diagnostic of electron impact processes in low temperature molecular hydrogen plasma</title>
+    <updated>2015-06-04T08:45:22Z</updated>
+    <link href="https://arxiv.org/abs/1506.01510v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1506.01510v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Novel methods for diagnostics of molecular hydrogen plasma processes, such as ionization, production of high vibrational levels, dissociation of molecules via excitation to singlet and triplet states and production of metastable states, are presented for molecular hydrogen plasmas in corona equilibrium. The methods are based on comparison of rate coefficients of plasma processes and optical emission spectroscopy of lowest singlet and triplet transitions, i.e. Lyman-band ($B^1Σ^+_u \rightarrow X^1Σ^+_g$) and molecular continuum ($a^3Σ^+_g \rightarrow b^3Σ^+_u$), of the hydrogen molecule in VUV wavelength range. Comparison of rate coefficients of spin-allowed and/or spin-forbidden excitations reduces the uncertainty caused by the non-equilibrium distributions of electron energy and molecular vibrational level, which are typically known poorly in plasma sources. The described methods are applied to estimate the rates of various plasma processes in a filament arc discharge.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-06-04T08:45:22Z</published>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>J. Komppula</name>
+    </author>
+    <author>
+      <name>O. Tarvainen</name>
+    </author>
+    <arxiv:doi>10.1088/0963-0252/24/4/045008</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0963-0252/24/4/045008" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0002198v1</id>
+    <title>The plasma-insulator transition of spin-polarized Hydrogen</title>
+    <updated>2000-02-14T12:41:49Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0002198v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0002198v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  A mixed classical-quantum density functional theory is used to calculate pair correlations and the free energy of a spin-polarized Hydrogen plasma. A transition to an atomic insulator phase is estimated to occur around r_s=2.5 at T=10^4K, and a pressure $P\approx0.5Mbar$. Spin polarization is imposed to prevent the formation of H_2 molecules.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2000-02-14T12:41:49Z</published>
+    <arxiv:comment>10 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <arxiv:journal_ref>PRE, vol.60, R9(1999)</arxiv:journal_ref>
+    <author>
+      <name>Hong Xu</name>
+    </author>
+    <author>
+      <name>Jean-Pierre Hansen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1809.10475v1</id>
+    <title>Absence of a giant spin Hall effect in plasma-hydrogenated graphene</title>
+    <updated>2018-09-27T12:06:39Z</updated>
+    <link href="https://arxiv.org/abs/1809.10475v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1809.10475v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The weak spin-orbit interaction in graphene was predicted to be increased, e.g., by hydrogenation. This should result in a sizable spin Hall effect (SHE). We employ two different methods to examine the spin Hall effect in weakly hydrogenated graphene. For hydrogenation we expose graphene to a hydrogen plasma and use Raman spectroscopy to characterize this method. We then investigate the SHE of hydrogenated graphene in the H-bar method and by direct measurements of the inverse SHE. Although a large nonlocal resistance can be observed in the H-bar structure, comparison with the results of the other method indicate that this nonlocal resistance is caused by a non-spin-related origin.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-09-27T12:06:39Z</published>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Phys. Rev. B 99, 085401 (2019)</arxiv:journal_ref>
+    <author>
+      <name>Tobias Völkl</name>
+    </author>
+    <author>
+      <name>Denis Kochan</name>
+    </author>
+    <author>
+      <name>Thomas Ebnet</name>
+    </author>
+    <author>
+      <name>Sebastian Ringer</name>
+    </author>
+    <author>
+      <name>Daniel Schiermeier</name>
+    </author>
+    <author>
+      <name>Philipp Nagler</name>
+    </author>
+    <author>
+      <name>Tobias Korn</name>
+    </author>
+    <author>
+      <name>Christian Schüller</name>
+    </author>
+    <author>
+      <name>Jaroslav Fabian</name>
+    </author>
+    <author>
+      <name>Dieter Weiss</name>
+    </author>
+    <author>
+      <name>Jonathan Eroms</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.99.085401</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.99.085401" title="doi"/>
+  </entry>
+</feed>

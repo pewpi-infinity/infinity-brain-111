@@ -1,0 +1,84 @@
+TERMS: hydrogen, quantum, spin, singularity
+COLORS: purple, blue, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/um+ZFBQ9B0DPgwNaWEJc7TNbT5Y</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:spin AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:40:30Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:spin+AND+all:singularity))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>9</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1410.8344v2</id>
+    <title>Hydrogen atom in de Sitter spaces</title>
+    <updated>2014-12-28T10:09:24Z</updated>
+    <link href="https://arxiv.org/abs/1410.8344v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1410.8344v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The hydrogen atom theory is developed for the de Sitter and anti de Sitter spaces on the basis of the Klein-Gordon-Fock wave equation in static coordinates. In both models, after separation of the variables, the problem is reduced to the general Heun equation, a second order linear differential equation having four regular singular points. A qualitative examination shows that the energy spectrum for the hydrogen atom in the de Sitter space should be quasi-stationary, and the atom should be unstable. We derive an approximate expression for energy levels within the quasi-classical approach and estimate the probability of decay of the atom. A similar analysis shows that in the anti de Sitter model the hydrogen atom should be stable in the quantum-mechanical sense. Using the quasi-classical approach, we derive approximate formulas for energy levels for this case as well. Finally, we present the extension to the case of a spin 1/2 particle for both de Sitter models. This extension leads to complicated differential equations with 8 singular points.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-10-30T12:21:48Z</published>
+    <arxiv:comment>17 pages, Report to International Conference and Workshop "Quanta and %Matter: Through Physics to Future Emerging Technologies. 22-26 September 2014. Yerevan-Tsaghkadzor, Armenia</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>O. V. Veko</name>
+    </author>
+    <author>
+      <name>K. V. Kazmerchuk</name>
+    </author>
+    <author>
+      <name>E. M. Ovsiyuk</name>
+    </author>
+    <author>
+      <name>V. M. Red'kov</name>
+    </author>
+    <author>
+      <name>A. M. Ishkhanyan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.06328v10</id>
+    <title>On computing quantum waves exactly from classical action</title>
+    <updated>2025-08-03T05:33:27Z</updated>
+    <link href="https://arxiv.org/abs/2405.06328v10" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.06328v10" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show that the Schrödinger equation can be solved exactly based only on classical least action. The fundamental postulates of quantum mechanics can in turn be derived directly from this construction. The results extend to the relativistic Klein-Gordon, Pauli, Dirac, and Maxwell equations, and suggest a smooth transition between physics across scales.
+  Most quantum mechanics problems have classical versions which involve multiple least action solutions. These extremal action paths may stem from spatial inequality constraints (as in the double slit experiment), from singularities in the Hamiltonian (as in a Coulomb potential), from a closed configuration manifold (as for a spinning particle), or just from the initial action distribution. We show that the exact Schrödinger wave function $Ψ$ of the original quantum problem can be constructed by combining this classical multi-valued action $Φ$ with the density $ρ$ of the classical position dynamics, where a key point is that $ρ$ can be easily computed from $Φ$ along each extremal action path. The construction is general and does not involve any quasi-classical approximation.
+  Examples illustrate how the quantum wave functions for the double-slit experiment or e.g., the hydrogen atom can be computed exactly from their classical least action counterparts. In a quantum measurement process, randomness originates from the deterministic forward mapping of an initial classical density distribution. In the Einstein-Podolsky-Rosen experiment, while Bell's inequalities are violated, from this perspective there is indeed a hidden variable in the form of a complex spinor.
+  These results also provide a simpler computational alternative to Feynman path integrals, as they use only a discrete set of classical paths and avoid zig-zag paths and time-slicing altogether.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-10T09:01:08Z</published>
+    <arxiv:comment>The following was added (original theory is unchanged): - Maxwell, - relation of EPR hidden variable to Bell's inequality, - generalized measurement principle. Derived the 4 quantum postulates from Hamilton-Jacobi - Non-linear example</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Winfried Lohmiller</name>
+    </author>
+    <author>
+      <name>Jean-Jacques Slotine</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2205.10474v1</id>
+    <title>Infinite bound states and hydrogen atom-like energy spectrum induced by a flat band</title>
+    <updated>2022-05-21T00:50:02Z</updated>
+    <link href="https://arxiv.org/abs/2205.10474v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2205.10474v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this work, we investigate the bound state problem in one dimensional spin-1 Dirac Hamiltonian with a flat band. It is found that, the flat band has significant effects on the bound states. For example, for Dirac delta potential $gδ(x)$, there exists one bound state for both positive and negative potential strength $g$. Furthermore, when the potential is weak, the bound state energy is proportional to the potential strength $g$. For square well potential, the flat band results in the existence of infinite bound states for arbitrarily weak potential. In addition, when the bound state energy is very near the flat band, the energy displays hydrogen atom-like spectrum, i.e., the bound state energies are inversely proportional to the square of natural number $n$ (e.g., $E_n\propto 1/n^2, n=1,2,3,...$). Most of the above nontrivial behaviors can be attributed to the infinitely large density of states of flat band and its ensuing $1/z$ singularity of Green function. The combination of a short-ranged potential and flat band provides a new possibility to get infinite number of bound states and hydrogen atom-like energy spectrum. In addition, our findings would provide some useful insights in the understanding of many-body physics of flat band.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-05-21T00:50:02Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>J. Phys. B: At. Mol. Opt. Phys. 55 065001(2022)</arxiv:journal_ref>
+    <author>
+      <name>Yi-Cai Zhang</name>
+    </author>
+    <author>
+      <name>Guo-Bao Guo</name>
+    </author>
+    <arxiv:doi>10.1088/1361-6455/ac5582</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1361-6455/ac5582" title="doi"/>
+  </entry>
+</feed>

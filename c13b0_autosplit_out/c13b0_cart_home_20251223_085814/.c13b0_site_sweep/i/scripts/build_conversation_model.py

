@@ -1,0 +1,42 @@
+#!/usr/bin/env python3
+"""
+Simple model builder using TF-IDF and nearest neighbor search.
+This is a small, local placeholder to let you query text with a vectorizer.
+Replace with your preferred embedding/model pipeline later.
+"""
+import os
+import glob
+import json
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.neighbors import NearestNeighbors
+import pickle
+
+def load_texts_from_dir(text_dir):
+    texts = []
+    names = []
+    for path in glob.glob(os.path.join(text_dir, "*")):
+        try:
+            with open(path, "r", encoding="utf-8", errors="ignore") as f:
+                texts.append(f.read())
+                names.append(os.path.basename(path))
+        except:
+            continue
+    return names, texts
+
+def build_and_save_model(text_dir, out_dir):
+    names, texts = load_texts_from_dir(text_dir)
+    if not texts:
+        print("No texts found in", text_dir)
+        return
+    print("Building TF-IDF for", len(texts), "documents")
+    vect = TfidfVectorizer(max_features=20000, stop_words="english")
+    X = vect.fit_transform(texts)
+    nbr = NearestNeighbors(n_neighbors=5, metric="cosine").fit(X)
+    os.makedirs(out_dir, exist_ok=True)
+    with open(os.path.join(out_dir, "vectorizer.pkl"), "wb") as f:
+        pickle.dump(vect, f)
+    with open(os.path.join(out_dir, "nn_model.pkl"), "wb") as f:
+        pickle.dump(nbr, f)
+    with open(os.path.join(out_dir, "doc_list.json"), "w", encoding="utf-8") as f:
+        json.dump(names, f)
+    print("Saved vectorizer, nearest-neighbor model and doc index to", out_dir)

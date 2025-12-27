@@ -1,0 +1,78 @@
+TERMS: hydrogen, crystal, ionization, resonance
+COLORS: purple, orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/o0DfzPdFbUiQT/eg52m0VAPb5Sg</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:crystal AND all:ionization AND all:resonance&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:59:42Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:crystal+AND+(all:ionization+AND+all:resonance))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1704.00974v1</id>
+    <title>Scaling laws of Rydberg excitons</title>
+    <updated>2017-04-04T12:20:10Z</updated>
+    <link href="https://arxiv.org/abs/1704.00974v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1704.00974v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Rydberg atoms have attracted considerable interest due to their huge interaction among each other and with external fields. They demonstrate characteristic scaling laws in dependence on the principal quantum number $n$ for features such as the magnetic field for level crossing. While bearing striking similarities to Rydberg atoms, fundamentally new insights may be obtained for Rydberg excitons, as the crystal environment gives easy optical access to many states within an exciton multiplet. Here we study experimentally and theoretically the scaling of several characteristic parameters of Rydberg excitons with $n$. From absorption spectra in magnetic field we find for the first crossing of levels with adjacent principal quantum numbers a $B_r \propto n^{-4}$ dependence of the resonance field strength, $B_r$, due to the dominant paramagnetic term unlike in the atomic case where the diamagnetic contribution is decisive. By contrast, in electric field we find scaling laws just like for Rydberg atoms. The resonance electric field strength scales as $E_r \propto n^{-5}$. We observe anticrossings of the states belonging to multiplets with different principal quantum numbers. The energy splittings at the avoided crossings scale as $n^{-4}$ which we relate to the crystal specific deviation of the exciton Hamiltonian from the hydrogen model. We observe the exciton polarizability in the electric field to scale as $n^7$. In magnetic field the crossover field strength from a hydrogen-like exciton to a magnetoexciton dominated by electron and hole Landau level quantization scales as $n^{-3}$. The ionization voltages demonstrate a $n^{-4}$ scaling as for atoms. The width of the absorption lines remains constant before dissociation for high enough $n$, while for small $n \lesssim 12$ an exponential increase with the field is found. These results are in excellent agreement with theoretical calculations.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-04-04T12:20:10Z</published>
+    <arxiv:comment>16 pages, 13 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>Phys. Rev. B 96, 125142 (2017)</arxiv:journal_ref>
+    <author>
+      <name>J. Heckötter</name>
+    </author>
+    <author>
+      <name>M. Freitag</name>
+    </author>
+    <author>
+      <name>D. Fröhlich</name>
+    </author>
+    <author>
+      <name>M. Aßmann</name>
+    </author>
+    <author>
+      <name>M. Bayer</name>
+    </author>
+    <author>
+      <name>M. A. Semina</name>
+    </author>
+    <author>
+      <name>M. M. Glazov</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.96.125142</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.96.125142" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2302.14668v1</id>
+    <title>Varying Calcium Abundances in Solar Flares seen by Solar Maximum Mission</title>
+    <updated>2023-02-28T15:32:51Z</updated>
+    <link href="https://arxiv.org/abs/2302.14668v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2302.14668v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We report on calcium abundance $A({\rm Ca})$ estimates during the decay phases of 194 solar X-ray flares using archived data from the Bent Crystal Spectrometer (BCS) on Solar Maximum Mission (operational 1980~--~1989). The abundances are derived from the ratio of the total calcium X-ray line emission in BCS channel~1 to that in neighboring continuum, with temperature from a satellite-to-resonance line ratio. Generally the calcium abundance is found to be about three times the photospheric abundance, as previously found, indicating a ``FIP'' (first ionization potential) effect for calcium which has a relatively low FIP value. The precision of the abundance estimates (referred to hydrogen on a logarithmic scale with $A({\rm H}) = 12$), is typically $\sim \pm 0.01$, enabling any time variations of $A({\rm Ca})$ during the flare decay to be examined. For a total of 270 short time segments with $A({\rm Ca})$ determined to better than 2.3\% accuracy, many (106; 39\%) showed variations in $A({\rm Ca})$ at the $3σ$ level. For the majority, 74 (70\%) of these 106 segments $A({\rm Ca})$ decreased with time, and for 32 (30\%) $A({\rm Ca})$ increased with time. For 79 out of 270 (29\%) we observed constant or nearly constant $A({\rm Ca})$, and the remaining 85 (31\%) with irregular time behavior. A common feature was the presence of discontinuities in the time behavior of $A({\rm Ca})$. Relating these results to the ponderomotive force theory of Laming, we attribute the nature of varying $A({\rm Ca})$ to the emergence of loop structures in addition to the initial main loop, each with its characteristic calcium abundance.</summary>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-02-28T15:32:51Z</published>
+    <arxiv:comment>Astrophysical Journal (to be published). 14 pages with 8 figures</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.SR"/>
+    <author>
+      <name>Barbara Sylwester</name>
+    </author>
+    <author>
+      <name>Janusz Sylwester</name>
+    </author>
+    <author>
+      <name>Kenneth J. H. Phillips</name>
+    </author>
+    <author>
+      <name>Anna K. Kepa</name>
+    </author>
+    <arxiv:doi>10.3847/1538-4357/acc016</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3847/1538-4357/acc016" title="doi"/>
+  </entry>
+</feed>

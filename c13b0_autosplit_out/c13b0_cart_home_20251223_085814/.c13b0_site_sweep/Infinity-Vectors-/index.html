@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Infinity OS – Apps</title>
+  <style>
+    body {
+      margin: 0;
+      background: linear-gradient(135deg, #191a2b 0%, #48d6ff 100%);
+      font-family: 'Segoe UI', Arial, sans-serif;
+      color: #e2f9ff;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: stretch;
+    }
+    header {
+      text-align: center;
+      padding: 28px 8px 10px;
+      font-size: 2em;
+      font-weight: bold;
+      letter-spacing: 1px;
+      background: rgba(17,34,56,0.2);
+      box-shadow: 0 1px 8px #25d0ff33;
+    }
+    .apps-wrap {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 16px 0;
+      gap: 0;
+    }
+    .infinity-apps {
+      width: 100vw;
+      max-width: 420px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px 12px;
+      padding: 8px 0 22px 0;
+    }
+    .app-btn {
+      background: linear-gradient(135deg, #41dffe, #385bff);
+      color: #fff;
+      border: none;
+      border-radius: 17px;
+      padding: 24px 0 12px 0;
+      min-width: 108px;
+      max-width: 47vw;
+      font-size: 1.25em;
+      font-weight: 700;
+      box-shadow: 0 4px 24px #27b3ea66;
+      margin: 4px 3px;
+      cursor: pointer;
+      text-align: center;
+      transition: background .2s, transform .18s;
+      outline: none;
+      letter-spacing: .03em;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 5px;
+      user-select: none;
+      text-decoration: none;
+    }
+    .app-btn:active, .app-btn:focus {
+      background: linear-gradient(135deg, #25d0ff, #132d79);
+      transform: scale(0.97);
+    }
+    .app-icon {
+      font-size: 1.7em;
+      margin-bottom: 4px;
+      filter: drop-shadow(0 2px 6px #8cf5bb38);
+    }
+    @media (max-width:600px){
+      header{font-size:1.45em;padding:18px 2px 9px;}
+      .infinity-apps{max-width:99vw;}
+      .app-btn{min-width:108px;max-width:96vw;font-size:1em;padding:18px 0 9px;}
+    }
+    footer {
+      text-align: center;
+      padding: 12px 3px;
+      color: #abcfff;
+      background: rgba(18,39,67,0.13);
+      font-size: 1em;
+      letter-spacing: .05em;
+      margin: auto 0 0 0;
+      box-shadow:0 -3px 10px #abcfff14;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    Infinity OS<br>
+    <span style="font-size: .5em;font-weight:400;opacity:0.65;">Mobile App Launcher</span>
+  </header>
+  <div class="apps-wrap">
+    <h2 style="text-align:center;font-size:1.1em;font-weight:500;letter-spacing:.07em;margin:5px 0 15px 0;">Infinity Apps</h2>
+    <div class="infinity-apps">
+      <a href="coin-vault.html" class="app-btn">
+        <span class="app-icon">🪙</span>Coin Vault
+      </a>
+      <a href="marketplace.html" class="app-btn">
+        <span class="app-icon">🛒</span>Marketplace
+      </a>
+      <a href="bio-tuner.html" class="app-btn">
+        <span class="app-icon">🎵</span>BioTuner
+      </a>
+      <a href="signal-generator.html" class="app-btn">
+        <span class="app-icon">📶</span>Signal Generator
+      </a>
+      <a href="field-lab.html" class="app-btn">
+        <span class="app-icon">🧪</span>Field Lab
+      </a>
+      <a href="auto-listing.html" class="app-btn">
+        <span class="app-icon">🤖</span>Auto Listing
+      </a>
+      <a href="infinity-login.html" class="app-btn">
+        <span class="app-icon">🔐</span>Login
+      </a>
+    </div>
+  </div>
+  <footer>
+    Powered by Infinity · Mobile-first
+  </footer>
+</body>
+</html>

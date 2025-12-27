@@ -1,0 +1,95 @@
+TERMS: hydrogen, graphene, singularity
+COLORS: purple, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/O0hjOVtyt9cBmtYtin+X5u+4lVA</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:graphene AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:04:39Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:graphene+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>7</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1710.01962v1</id>
+    <title>Selective Hydrogen Adsoprtion in Graphene Rotated Bilayers</title>
+    <updated>2017-10-05T11:02:33Z</updated>
+    <link href="https://arxiv.org/abs/1710.01962v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1710.01962v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The absorption energy of atomic hydrogen at rotated graphene bilayers is studied using ab initio methods based on the density functional theory including van der Waals interactions. We find that, due to the surface corrugation induced by the underneath rotated layer and the perturbation of the electronic density of states near the Fermi energy, the atoms with an almost AA stacking are the preferential ones for hydrogen chemisorption. The adsorption energy difference between different atoms can be as large as 80 meV. In addition, we find that, due to the logarithmic van Hove singularities in the electronic density of states at energies close to the Dirac point, the adsorption energy of either electron or hole doped samples is substantially increased. We also find that the adsorption energy increases with the decrease of the rotated angle between the layers. Finally, the large zero point energy of the C-H bond (${\sim 0.3 eV}$) suggests adsorption and desorption of atomic hydrogen and deuterium should behave differently.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-10-05T11:02:33Z</published>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>The Journal of Physical Chemistry B, Article ASAP,July 28, 2017</arxiv:journal_ref>
+    <author>
+      <name>Ivan Brihuega</name>
+    </author>
+    <author>
+      <name>Felix Yndurain</name>
+    </author>
+    <arxiv:doi>10.1021/acs.jpcb.7b05085</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1021/acs.jpcb.7b05085" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1109.3485v1</id>
+    <title>Optical conductivity of disordered graphene beyond the Dirac cone approximation</title>
+    <updated>2011-09-15T20:59:45Z</updated>
+    <link href="https://arxiv.org/abs/1109.3485v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1109.3485v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we systemically study the optical conductivity and density of states of disorded graphene beyond the Dirac cone approximation. The optical conductivity of graphene is computed by using the Kubo formula, within the framework of a full π-band tight-binding model. Different types of non-correlated and correlated disorders are considered, such as random or Gaussian potentials, random or Gaussian nearest-neighbor hopping parameters, randomly distributed vacancies or their clusters, and random adsorbed hydrogen atoms or their clusters. For a large enough concentration of resonant impurities, a new peak in the optical conductivity is found, associated to transitions between the midgap states and the Van Hove singularities of the main π-band. We further discuss the effect of doping on the spectrum, and find that small amounts of resonant impurities are enough to obtain a background contribution to the conductivity in the infra-red part of the spectrum, in agreement with recent experiments.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-09-15T20:59:45Z</published>
+    <arxiv:comment>12 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Phys. Rev. B 84, 195418 (2011)</arxiv:journal_ref>
+    <author>
+      <name>Shengjun Yuan</name>
+    </author>
+    <author>
+      <name>Rafael Roldán</name>
+    </author>
+    <author>
+      <name>Hans De Raedt</name>
+    </author>
+    <author>
+      <name>Mikhail I. Katsnelson</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.84.195418</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.84.195418" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1910.00437v1</id>
+    <title>Measuring the Berry phase of graphene from wavefront dislocations in Friedel oscillations</title>
+    <updated>2019-10-01T14:25:37Z</updated>
+    <link href="https://arxiv.org/abs/1910.00437v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1910.00437v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Electronic band structures dictate the mechanical, optical and electrical properties of crystalline solids. Their experimental determination is therefore of crucial importance for technological applications. While the spectral distribution in energy bands is routinely measured by various techniques, it is more difficult to access the topological properties of band structures such as the Berry phase γ. It is usually thought that measuring the Berry phase requires applying external electromagnetic forces because these allow realizing the adiabatic transport on closed trajectories along which quantum mechanical wave-functions pick up the Berry phase. In graphene, the anomalous quantum Hall effect results from the Berry phase γ = π picked up by massless relativistic electrons along cyclotron orbits and proves the existence of Dirac cones. Contradicting this belief, we demonstrate that the Berry phase of graphene can be measured in absence of any external magnetic field. We observe edge dislocations in the Friedel oscillations formed at hydrogen atoms chemisorbed on graphene. Following Nye and Berry in describing these topological defects as phase singularities of complex fields, we show that the number of additional wave-fronts in the dislocation is a real space measurement of the pseudo spin winding, i.e. graphene's Berry phase. Since the electronic dispersion can also be retrieved from Friedel oscillations, our study establishes the electronic density as a powerful observable to determine both the dispersion relation and topological properties of wavefunctions. This could have profound consequences for the study of the band-structure topology of relativistic and gapped phases in solids.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-10-01T14:25:37Z</published>
+    <arxiv:comment>Supplementary information available at Nature's web site</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>C. Dutreix</name>
+    </author>
+    <author>
+      <name>H. González-Herrero</name>
+    </author>
+    <author>
+      <name>I. Brihuega</name>
+    </author>
+    <author>
+      <name>M. I. Katsnelson</name>
+    </author>
+    <author>
+      <name>C. Chapelier</name>
+    </author>
+    <author>
+      <name>V. T. Renard</name>
+    </author>
+    <arxiv:doi>10.1038/s41586-019-1613-5</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41586-019-1613-5" title="doi"/>
+  </entry>
+</feed>

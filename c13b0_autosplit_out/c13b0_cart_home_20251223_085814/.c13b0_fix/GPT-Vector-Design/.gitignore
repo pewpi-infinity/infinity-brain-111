@@ -1,0 +1,12 @@
+# Ignore secret files and local artifacts
+secrets.JSON
+secrets.json
+
+# Node / Python / build artifacts
+node_modules/
+dist/
+.venv/
+.env
+
+# OS files
+.DS_Store

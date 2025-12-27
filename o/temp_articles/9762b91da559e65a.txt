@@ -1,0 +1,72 @@
+TERMS: hydrogen, wavefunction
+COLORS: purple, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/q9OMBl1PA1USfEPiIDiXSCssumk</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:wavefunction&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T00:56:31Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+all:wavefunction&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>218</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/0907.2959v1</id>
+    <title>New Reflections on Electron's Energy and Wavefunction in the Hydrogen Atom</title>
+    <updated>2009-07-17T00:57:57Z</updated>
+    <link href="https://arxiv.org/abs/0907.2959v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0907.2959v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Schrodinger's equation predicts something very peculiar about the electron in the Hydrogen atom: its total energy must be equal to zero. Unfortunately, an analysis of a zero-energy wavefunction for the electron in the Hydrogen atom has not been attempted in the published literature. This paper provides such an analysis for the first time and uncovers a few interesting facts, including the fact that a "zero-energy wavefunction" is actually a quantized version of the classical wavefunction that has been known for decades.</summary>
+    <category term="physics.gen-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-07-17T00:57:57Z</published>
+    <arxiv:primary_category term="physics.gen-ph"/>
+    <author>
+      <name>Ezzat G. Bakhoum</name>
+    </author>
+    <arxiv:doi>10.4006/1.3507036</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4006/1.3507036" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/physics/0408025v1</id>
+    <title>The novel aspect of hydrogen atom: the fine structure and spin can be derived by single component wavefunction</title>
+    <updated>2004-08-05T14:47:56Z</updated>
+    <link href="https://arxiv.org/abs/physics/0408025v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/physics/0408025v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The fine structure of hydrogen energy was calculated by using the usual momentum-wavefunction relation directly, rather than establishing the well-known Dirac wave equation. As the results, the energy levels are completely the same as that of the Dirac wave equation, while the wavefunction is single component that is quite different from Dirac's four component wavefunction, the most important thing is that the present calculation brings out electronic spin in a new way which has never been reported and indicates that the electronic spin is a kind of orbital motion.</summary>
+    <category term="physics.gen-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-08-05T14:47:56Z</published>
+    <arxiv:comment>LaTex2e,7 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.gen-ph"/>
+    <author>
+      <name>H. Y. Cui</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2107.01094v2</id>
+    <title>Conditional wavefunction theory: a unified treatment of molecular structure and nonadiabatic dynamics</title>
+    <updated>2021-07-21T09:46:45Z</updated>
+    <link href="https://arxiv.org/abs/2107.01094v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2107.01094v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We demonstrate that a conditional wavefunction theory enables a unified and efficient treatment of the equilibrium structure and nonadiabatic dynamics of correlated electron-ion systems. The conditional decomposition of the many-body wavefunction formally recasts the full interacting wavefunction of a closed system as a set of lower dimensional (conditional) coupled `slices'. We formulate a variational wavefunction ansatz based on a set of conditional wavefunction slices, and demonstrate its accuracy by determining the structural and time-dependent response properties of the hydrogen molecule. We then extend this approach to include time-dependent conditional wavefunctions, and address paradigmatic nonequilibrium processes including strong-field molecular ionization, laser driven proton transfer, and Berry phase effects induced by a conical intersection. This work paves the road for the application of conditional wavefunction theory in equilibrium and out of equilibrium ab-initio molecular simulations of finite and extended systems.</summary>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-07-02T14:17:40Z</published>
+    <arxiv:primary_category term="physics.chem-ph"/>
+    <author>
+      <name>Guillermo Albareda</name>
+    </author>
+    <author>
+      <name>Kevin Lively</name>
+    </author>
+    <author>
+      <name>Shunsuke A. Sato</name>
+    </author>
+    <author>
+      <name>Aaron Kelly</name>
+    </author>
+    <author>
+      <name>Angel Rubio</name>
+    </author>
+  </entry>
+</feed>

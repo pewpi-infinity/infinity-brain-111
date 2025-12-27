@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>🧠 Rogers AI — Infinity Portal</title>
+  <link rel="icon" href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><circle cx="32" cy="32" r="30" fill="%230b5ed7"/><text x="32" y="40" text-anchor="middle" font-family="Arial" font-size="34" fill="white">∞</text></svg>' />
+  <style>
+    :root{
+      --brand:#0b5ed7; /* primary accent (editable) */
+      --bg:#f5f7fb;    /* page background     */
+      --card:#ffffff;  /* card background     */
+      --muted:#e9edf3; /* bot bubble          */
+      --user:#cfe8ff;  /* user bubble         */
+      --text:#0b1220;  /* text color          */
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{margin:0;background:var(--bg);color:var(--text);font:16px system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Helvetica,Arial,sans-serif}
+
+    /* Header */
+    header{position:sticky;top:0;z-index:20;background:var(--brand);color:#fff;padding:.9rem 1rem;display:flex;align-items:center;gap:.75rem;box-shadow:0 2px 8px rgba(0,0,0,.15)}
+    .burger{width:36px;height:36px;border-radius:9px;border:none;background:rgba(255,255,255,.18);color:#fff;display:grid;place-items:center;cursor:pointer}
+    .title{font-weight:800;font-size:1.35rem;letter-spacing:.2px}
+    .spacer{flex:1}
+    .auth{display:flex;align-items:center;gap:.5rem}
+    .auth .avatar{width:28px;height:28px;border-radius:50%;background:#fff;color:#333;display:grid;place-items:center;font-weight:700;overflow:hidden}
+    .chip{background:rgba(255,255,255,.18);padding:.35rem .6rem;border-radius:999px;font-size:.85rem}
+
+    /* Drawer */
+    .drawer{position:fixed;inset:0 30% 0 -100%;transition:transform .28s ease;z-index:30}
+    .drawer.open{transform:translateX(100%)}
+    .drawer-panel{position:absolute;inset:0 auto 0 0;width:min(84vw,360px);background:#fff;box-shadow:6px 0 20px rgba(0,0,0,.2);display:flex;flex-direction:column}
+    .drawer-head{padding:1rem;border-bottom:1px solid #e8eef6;display:flex;align-items:center;gap:.5rem}
+    .drawer-head .logo{font-weight:800}
+    .drawer-body{padding:.6rem;overflow:auto}
+    .app-btn{display:flex;align-items:center;gap:.6rem;width:100%;border:none;background:#f4f7fb;border-radius:12px;padding:.9rem;margin:.4rem 0;cursor:pointer;text-align:left}
+    .app-btn:hover{background:#ecf3ff}
+    .app-btn small{opacity:.7}
+    .scrim{position:absolute;inset:0;background:rgba(0,0,0,.28)}
+
+    /* Main */
+    main{max-width:920px;margin:1rem auto;padding:0 1rem}
+
+    /* Chat Card */
+    .card{background:var(--card);border-radius:16px;box-shadow:0 6px 28px rgba(10,22,45,.06);padding:1rem}
+    #chat{max-height:60dvh;overflow:auto;padding-bottom:.5rem}
+    .bubble{max-width:92%;border-radius:14px;padding:.9rem 1rem;margin:.5rem 0;line-height:1.38}
+    .user{background:var(--user);margin-left:auto}
+    .bot{background:var(--muted)}
+    .system{background:#eef3fa}
+    .meta{font-size:.75rem;opacity:.65;margin-top:.25rem}
+
+    /* Composer */
+    .composer{position:sticky;bottom:0;background:var(--card);padding-top:.5rem;display:flex;gap:.5rem;align-items:center}
+    .composer input[type="text"]{flex:1;padding:.8rem 1rem;border-radius:12px;border:1px solid #cdd7ea;outline:none}
+    .btn{padding:.8rem 1rem;border-radius:12px;border:none;background:var(--brand);color:#fff;font-weight:700;cursor:pointer}
+    .icon{width:44px;height:44px;border-radius:12px;border:1px solid #d8e1f2;background:#fff;color:#1d2b4f;display:grid;place-items:center;cursor:pointer}
+    .icon[aria-pressed="true"]{background:#ffe8e8;border-color:#ffb3b3}
+
+    /* Attachments preview */
+    .att-list{display:flex;gap:.5rem;flex-wrap:wrap;margin:.25rem 0}
+    .att{border:1px solid #e6eaf3;border-radius:10px;padding:.25rem .5rem;font-size:.85rem;background:#fafbfe}
+    .att img{width:68px;height:68px;object-fit:cover;border-radius:8px;display:block}
+
+    /* Token bar */
+    .tokenbar{display:flex;gap:.75rem;flex-wrap:wrap;margin-top:.5rem;font-size:.86rem}
+    .pill{background:#fff;border:1px solid #e6eaf3;border-radius:999px;padding:.3rem .65rem}
+
+    /* Stage */
+    #stage{margin-top:1rem;display:none}
+    #stage.active{display:block}
+    #stage .stage-head{display:flex;align-items:center;gap:.6rem}
+    #stage .stage-head .name{font-weight:700}
+    #stage iframe{width:100%;height:520px;border:1px solid #e6eaf3;border-radius:16px;margin-top:.6rem}
+
+    /* Footer */
+    footer{max-width:920px;margin:1rem auto;padding:0 1rem 2rem;color:#4b5a7a}
+    .foot{border-radius:14px;border:1px dashed #d5def4;padding:.75rem 1rem;background:#f7faff;display:flex;justify-content:space-between;align-items:center;gap:1rem}
+
+    @media (min-width:980px){.drawer{inset:0 auto 0 -100%}}
+  </style>
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
+</head>
+<body>
+  <header>
+    <button class="burger" id="burger" aria-label="Open menu">☰</button>
+    <div class="title">🧠 Rogers AI — Infinity Portal</div>
+    <div class="spacer"></div>
+    <div class="auth">
+      <span id="authState" class="chip">Signed out</span>
+      <div id="signin" style="display:none"></div>
+      <div id="userAvatar" class="avatar" title="You">?</div>
+    </div>
+  </header>
+
+  <!-- Drawer -->
+  <div class="drawer" id="drawer">
+    <div class="scrim" id="scrim"></div>
+    <aside class="drawer-panel" role="dialog" aria-label="App drawer">
+      <div class="drawer-head"><div class="logo">☰ Infinity Apps</div></div>
+      <div class="drawer-body" id="appList"></div>
+    </aside>
+  </div>
+
+  <main>
+    <section class="card" id="chatCard">
+      <div class="bubble system">Hey Kris — Rogers is live. Ask me anything!</div>
+      <div id="chat"></div>
+
+      <!-- attachments preview -->
+      <div class="att-list" id="attList" hidden></div>
+
+      <!-- composer -->
+      <form class="composer" id="composer">
+        <button type="button" class="icon" id="micBtn" title="Voice input" aria-pressed="false">🎤</button>
+        <button type="button" class="icon" id="attachBtn" title="Attach image/file">📎</button>
+        <input id="fileInput" type="file" hidden multiple accept="image/*,.pdf,.txt,.zip,.csv" />
+        <input id="prompt" type="text" autocomplete="off" placeholder="Type here…" />
+        <button class="btn" type="submit">Send</button>
+        <input id="colorPick" type="color" title="Theme color" class="icon" style="padding:0;width:44px" />
+      </form>
+
+      <div class="tokenbar" id="tokenbar">
+        <div class="pill">User tokens: <b id="tUser">0</b></div>
+        <div class="pill">Rogers tokens: <b id="tBot">0</b></div>
+        <div class="pill">Total tokens: <b id="tTotal">0</b></div>
+      </div>
+    </section>
+
+    <section id="stage" class="card">
+      <div class="stage-head"><span class="name" id="stageName">App</span><span class="chip" id="stageHint">embedded</span></div>
+      <iframe id="appFrame" title="App stage" loading="lazy"></iframe>
+    </section>
+  </main>
+
+  <footer>
+    <div class="foot">
+      <div>⚡ <b>Powered by INFINITY</b> · Drawer loads your tools without page changes.</div>
+      <div id="supportNote" class="chip">Theme saved</div>
+    </div>
+  </footer>
+
+  <script>
+    /********** Drawer + Manifest **********/
+    const drawer = document.getElementById('drawer');
+    const burger = document.getElementById('burger');
+    const scrim  = document.getElementById('scrim');
+    const appList= document.getElementById('appList');
+    const stage  = document.getElementById('stage');
+    const appFrame = document.getElementById('appFrame');
+    const stageName= document.getElementById('stageName');
+
+    burger.addEventListener('click',()=>drawer.classList.add('open'));
+    scrim.addEventListener('click',()=>drawer.classList.remove('open'));
+
+    function mountApps(items){
+      appList.innerHTML='';
+      items.forEach(item=>{
+        const btn=document.createElement('button');
+        btn.className='app-btn';
+        btn.innerHTML=`<span>📦</span><div><div>${item.title}</div><small>${item.path}</small></div>`;
+        btn.addEventListener('click',()=>{drawer.classList.remove('open');openApp(item)});
+        appList.appendChild(btn);
+      });
+    }
+    function openApp(item){
+      stage.classList.add('active');
+      stageName.textContent=item.title;
+      const url=item.path;
+      if(/\.pdf($|\?)/i.test(url)){
+        const html = URL.createObjectURL(new Blob([`<!doctype html><meta charset=\"utf-8\"><style>html,body{height:100%;margin:0}object{width:100%;height:100%;}</style><object type=\"application/pdf\" data=\"${url}\"></object>`],{type:'text/html'}));
+        appFrame.src=html;
+      }else{appFrame.src=url}
+      document.getElementById('stageHint').textContent=/\.pdf/i.test(url)?'PDF as app':'embedded';
+    }
+    async function loadManifest(){
+      try{const res=await fetch('apps.json',{cache:'no-store'});if(!res.ok)throw 0;const json=await res.json();if(Array.isArray(json)&&json.length){mountApps(json);return}throw 0}catch{mountApps([{title:'Pi Singer',path:'pi-singer/index.html'},{title:'Oscilloscope',path:'oscilloscope/index.html'},{title:'Infinity Portal',path:'index.html'}])}}
+    loadManifest();
+
+    /********** Token Estimation **********/
+    const tUserEl=document.getElementById('tUser');
+    const tBotEl=document.getElementById('tBot');
+    const tTotEl=document.getElementById('tTotal');
+    let tokenUser=0, tokenBot=0;
+    const estimateTokens=t=>{const chars=(t||'').replace(/\s+/g,' ').trim().length;const words=(t||'').trim().split(/\s+/).filter(Boolean).length;return Math.ceil(Math.max(chars/4, words*1.3))};
+    function addTokenCount(kind,text){const n=estimateTokens(text);if(kind==='user'){tokenUser+=n;tUserEl.textContent=tokenUser}else{tokenBot+=n;tBotEl.textContent=tokenBot}tTotEl.textContent=tokenUser+tokenBot;return n}
+
+    /********** Chat UI **********/
+    const chat=document.getElementById('chat');
+    const form=document.getElementById('composer');
+    const promptEl=document.getElementById('prompt');
+    const attList=document.getElementById('attList');
+    const fileInput=document.getElementById('fileInput');
+    const attachBtn=document.getElementById('attachBtn');
+    const micBtn=document.getElementById('micBtn');
+
+    let pendingFiles=[];
+
+    function bubble(text, who='bot', tokens=null){
+      const div=document.createElement('div');
+      div.className='bubble '+(who==='user'?'user':'bot');
+      div.innerHTML=`${escapeHtml(text)}${tokens!==null?`<div class=meta>≈ ${tokens} tokens</div>`:''}`;
+      chat.appendChild(div);chat.scrollTop=chat.scrollHeight;return div;
+    }
+    const escapeHtml=s=> (s||'').replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;');
+
+    // Simple local brain; swap with real endpoint via auth.json (see below)
+    async function rogersReply(q){
+      if(window.CHAT_ENDPOINT){
+        try{
+          const body={messages:[{role:'user',content:q}]};
+          const r=await fetch(window.CHAT_ENDPOINT,{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify(body)});
+          const j=await r.json();
+          return j.reply||JSON.stringify(j);
+        }catch(e){return 'Backend unreachable. Using local brain now.'}
+      }
+      const facts={
+        'hello':'Hello is a salutation or greeting in the English language. It is first attested in writing from 1826.',
+        'yahoo':'Yahoo — an American web services portal; historically a major web directory and mail provider.'
+      };
+      const key=q.trim().toLowerCase();
+      return facts[key]||`You said: “${q}”. I can connect to a live LLM if you set \`chat_endpoint\` in auth.json.`;
+    }
+
+    form.addEventListener('submit',async e=>{
+      e.preventDefault();
+      const q=promptEl.value.trim();
+      if(!q && pendingFiles.length===0) return;
+      const ut=addTokenCount('user', q);
+      bubble(q||'(attachment)','user',ut);
+      if(pendingFiles.length){
+        const names=pendingFiles.map(f=>f.name).join(', ');
+        bubble(`(received ${pendingFiles.length} file(s): ${escapeHtml(names)})`,'user');
+        pendingFiles=[];attList.hidden=true;attList.innerHTML='';
+      }
+      promptEl.value='';
+      const thinking=bubble('Thinking…','bot');
+      await new Promise(r=>setTimeout(r,350));
+      const a=await rogersReply(q);
+      thinking.remove();
+      const bt=addTokenCount('bot',a);
+      bubble(a,'bot',bt);
+    });
+
+    // Attachments preview
+    attachBtn.addEventListener('click',()=>fileInput.click());
+    fileInput.addEventListener('change',()=>{
+      pendingFiles=[...fileInput.files];
+      attList.innerHTML='';
+      if(pendingFiles.length){attList.hidden=false}
+      pendingFiles.forEach(f=>{
+        const el=document.createElement('div');
+        el.className='att';
+        if(f.type.startsWith('image/')){
+          const img=document.createElement('img');img.alt=f.name;el.appendChild(img);
+          const reader=new FileReader();reader.onload=e=>img.src=e.target.result;reader.readAsDataURL(f);
+        }else{el.textContent=f.name}
+        attList.appendChild(el);
+      });
+    });
+
+    // Keep composer visible when keyboard opens on mobile
+    promptEl.addEventListener('focus',()=>{setTimeout(()=>promptEl.scrollIntoView({block:'end',behavior:'smooth'}),120)});
+
+    /********** Voice (Web Speech API where available) **********/
+    let rec=null, recOn=false;
+    function speechSupported(){return ('webkitSpeechRecognition' in window)||(window.SpeechRecognition)}
+    function initSpeech(){
+      try{
+        const SR=window.SpeechRecognition||window.webkitSpeechRecognition; if(!SR) return null;
+        const r=new SR(); r.lang='en-US'; r.interimResults=true; r.maxAlternatives=1; return r;
+      }catch{ return null }
+    }
+    micBtn.addEventListener('click',()=>{
+      if(!speechSupported()){alert('Speech recognition not available in this browser. On Android, some Chrome builds disable it. You can still use the keyboard mic.');return}
+      if(!rec){rec=initSpeech();if(!rec){alert('Speech engine failed to start.');return}
+        rec.onresult=e=>{let s='';for(let i=e.resultIndex;i<e.results.length;i++){s+=e.results[i][0].transcript}promptEl.value=s}
+        rec.onend=()=>{recOn=false;micBtn.setAttribute('aria-pressed','false')}
+      }
+      if(recOn){rec.stop();return}
+      recOn=true;micBtn.setAttribute('aria-pressed','true');rec.start();
+    });
+
+    /********** Theme color **********/
+    const colorPick=document.getElementById('colorPick');
+    const saved=localStorage.getItem('theme.brand');
+    if(saved){document.documentElement.style.setProperty('--brand',saved);colorPick.value=saved}
+    colorPick.addEventListener('input',()=>{document.documentElement.style.setProperty('--brand',colorPick.value);localStorage.setItem('theme.brand',colorPick.value);document.getElementById('supportNote').textContent='Theme saved'})
+
+    /********** Google Sign‑In (optional) **********/
+    const authState=document.getElementById('authState');
+    const signin=document.getElementById('signin');
+    const avatar=document.getElementById('userAvatar');
+    let authCfg=null; // { google_client_id:"…", allowed_emails:[…], chat_endpoint:"https://…" }
+
+    async function loadAuthCfg(){
+      try{const r=await fetch('auth.json',{cache:'no-store'}); if(!r.ok) throw 0; authCfg=await r.json()}catch{authCfg=null}
+      setupAuth()
+    }
+    function setupAuth(){
+      // Expose optional chat endpoint for live LLM
+      if(authCfg?.chat_endpoint){window.CHAT_ENDPOINT=authCfg.chat_endpoint}
+      if(!authCfg||!window.google||!google.accounts||!google.accounts.id){signin.style.display='none';authState.textContent='Auth: not configured';avatar.textContent='–';return}
+      signin.style.display='block';
+      google.accounts.id.initialize({client_id:authCfg.google_client_id,callback:handleCredential});
+      google.accounts.id.renderButton(signin,{theme:'filled_blue',size:'medium',shape:'pill',text:'signin_with'});
+      authState.textContent='Signed out'; avatar.textContent='?'
+    }
+    function parseJwt(token){const base64Url=token.split('.')[1];const base64=base64Url.replace(/-/g,'+').replace(/_/g,'/');const jsonPayload=decodeURIComponent(atob(base64).split('').map(c=>'%' + ('00'+c.charCodeAt(0).toString(16)).slice(-2)).join(''));return JSON.parse(jsonPayload)}
+    function handleCredential(resp){
+      try{const p=parseJwt(resp.credential);const email=(p.email||'').toLowerCase();const name=p.name||email;const pic=p.picture||'';const allowed=!authCfg?.allowed_emails||authCfg.allowed_emails.map(e=>e.toLowerCase()).includes(email);authState.textContent=allowed?`Signed in as ${email} (owner)`: `Signed in as ${email}`;avatar.textContent=name?.[0]?.toUpperCase()||'U';if(pic){avatar.style.backgroundImage=`url(${pic})`;avatar.style.backgroundSize='cover';avatar.textContent=''}}catch{authState.textContent='Sign‑in error'}
+    }
+    loadAuthCfg();
+  </script>
+</body>
+</html>

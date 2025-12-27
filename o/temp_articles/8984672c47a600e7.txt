@@ -1,0 +1,40 @@
+TERMS: hydrogen, frequency, graphene, plasma
+COLORS: purple, green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/fE0xy6b22kuRpFmSwqVyeFBe8YU</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:frequency AND all:graphene AND all:plasma&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:44:40Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:frequency+AND+(all:graphene+AND+all:plasma))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1906.06286v2</id>
+    <title>Dielectric spectroscopy of hydrogenated hexagonal boron nitride ceramics</title>
+    <updated>2019-11-11T11:16:39Z</updated>
+    <link href="https://arxiv.org/abs/1906.06286v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1906.06286v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Hexagonal boron nitride (h-BN) is a critical material for 2D electronic devices for graphene and has attracted a considerable amount of attention owing to its structural similarity and semiconducting property. However, modifying its wide-band gap is a challenge. Hydrogenation is a potential method of altering the electrical properties, although is seldom experimentally measured. Here, the complex permittivity of h-BN after various hydrogen treatments have been investigated. For untreated h-BN, a frequency independent dielectric constant was measured ($\sim4.2 \pm0.2$) and an immeasurably low dielectric loss, demonstrating the ideal dielectric nature of h-BN across the $10^3$ to $10^{10}$ Hz range. However, after atomic H-plasma treatment in a microwave chemical vapour deposition (CVD) reactor, the complex permittivity amplifies dramatically, introducing dielectric dispersion through Debye-type dielectric relaxations ($\varepsilon_{\textrm{s}}\approx20\pm2$, $\varepsilon_{\infty}\approx4.2\pm0.2$) and a percolating long range conductivity ($\sim0.32$ mS/m). Annealing in molecular hydrogen at similar CVD temperatures showed minimal effect. Raman spectroscopy also detected minimal change in all samples, implying the increase is not due to other phases. This leads to the experimental conclusion that hydrogenation, through atomic H-plasma treatment, results in a moderate increase in room temperature electrical conductivity, an associated finite dielectric loss factor. The potential as a tunable wide-band gap semiconductor is highlighted however for insulating dielectric substrate applications, microwave CVD may destroy these desirable properties.</summary>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-06-14T16:48:21Z</published>
+    <arxiv:primary_category term="physics.app-ph"/>
+    <author>
+      <name>Jerome A. Cuenca</name>
+    </author>
+    <author>
+      <name>Soumen Mandal</name>
+    </author>
+    <author>
+      <name>Malcolm Snowball</name>
+    </author>
+    <author>
+      <name>Adrian Porch</name>
+    </author>
+    <author>
+      <name>Oliver A. Williams</name>
+    </author>
+  </entry>
+</feed>

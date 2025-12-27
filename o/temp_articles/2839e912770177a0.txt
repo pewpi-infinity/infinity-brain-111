@@ -1,0 +1,74 @@
+TERMS: quantum, probability, singularity
+COLORS: blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/IIUc4iJCkCVSHaP5bSJyCLyhL8s</id>
+  <title>arXiv Query: search_query=all:quantum AND all:probability AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:09:28Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:probability+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>505</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1306.6142v2</id>
+    <title>Consistent probabilities in loop quantum cosmology</title>
+    <updated>2013-10-01T05:31:23Z</updated>
+    <link href="https://arxiv.org/abs/1306.6142v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1306.6142v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A fundamental issue for any quantum cosmological theory is to specify how probabilities can be assigned to various quantum events or sequences of events such as the occurrence of singularities or bounces. In previous work, we have demonstrated how this issue can be successfully addressed within the consistent histories approach to quantum theory for Wheeler-DeWitt-quantized cosmological models. In this work, we generalize that analysis to the exactly solvable loop quantization of a spatially flat, homogeneous and isotropic cosmology sourced with a massless, minimally coupled scalar field known as sLQC. We provide an explicit, rigorous and complete decoherent histories formulation for this model and compute the probabilities for the occurrence of a quantum bounce vs. a singularity. Using the scalar field as an emergent internal time, we show for generic states that the probability for a singularity to occur in this model is zero, and that of a bounce is unity, complementing earlier studies of the expectation values of the volume and matter density in this theory. We also show from the consistent histories point of view that all states in this model, whether quantum or classical, achieve arbitrarily large volume in the limit of infinite `past' or `future' scalar `time', in the sense that the wave function evaluated at any arbitrary fixed value of the volume vanishes in that limit. Finally, we briefly discuss certain misconceptions concerning the utility of the consistent histories approach in these models.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-06-26T06:50:58Z</published>
+    <arxiv:comment>22 pages, 3 figures. Matches published version</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Class. Quantum Grav. 30 (2013) 205008</arxiv:journal_ref>
+    <author>
+      <name>David A. Craig</name>
+    </author>
+    <author>
+      <name>Parampreet Singh</name>
+    </author>
+    <arxiv:doi>10.1088/0264-9381/30/20/205008</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0264-9381/30/20/205008" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1001.4311v1</id>
+    <title>Consistent Histories in Quantum Cosmology</title>
+    <updated>2010-01-25T20:51:17Z</updated>
+    <link href="https://arxiv.org/abs/1001.4311v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1001.4311v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We illustrate the crucial role played by decoherence (consistency of quantum histories) in extracting consistent quantum probabilities for alternative histories in quantum cosmology. Specifically, within a Wheeler-DeWitt quantization of a flat Friedmann-Robertson-Walker cosmological model sourced with a free massless scalar field, we calculate the probability that the univese is singular in the sense that it assumes zero volume. Classical solutions of this model are a disjoint set of expanding and contracting singular branches. A naive assessment of the behavior of quantum states which are superpositions of expanding and contracting universes may suggest that a "quantum bounce" is possible i.e. that the wave function of the universe may remain peaked on a non-singular classical solution throughout its history. However, a more careful consistent histories analysis shows that for arbitrary states in the physical Hilbert space the probability of this Wheeler-DeWitt quantum universe encountering the big bang/crunch singularity is equal to unity. A quantum Wheeler-DeWitt universe is inevitably singular, and a "quantum bounce" is thus not possible in these models.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-01-25T20:51:17Z</published>
+    <arxiv:comment>To appear in Foundations of Physics special issue on quantum foundations</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Found.Phys.41:371-379,2011</arxiv:journal_ref>
+    <author>
+      <name>David A. Craig</name>
+    </author>
+    <author>
+      <name>Parampreet Singh</name>
+    </author>
+    <arxiv:doi>10.1007/s10701-010-9422-6</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s10701-010-9422-6" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2102.12789v1</id>
+    <title>Quantum tunneling of a singular potential</title>
+    <updated>2021-02-25T11:21:13Z</updated>
+    <link href="https://arxiv.org/abs/2102.12789v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2102.12789v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Singularity of the potential function makes quantum tunneling problem mathematically underdetermined. To circumvent the difficulties it introduced in physics, a potential singularity cutoff is often used, followed by a reverse limit transition, or is a suitable self-adjoint extension of the Hamiltonian along the entire coordinate axis made. However, both of them somehow affect the singular nature of the problem, and so I discuss here how quantum tunneling will behave if the original singular nature of the Schrodinger equation left untuched. To do this, I use the property of the probability density current that the singularities are mutually destroyed in it. It is found that the mildly singular potential has a finite, but unusual tunneling transparency, in particular, a non-zero value at zero energy of incident particle. The tunneling of one dimensional Coulomb potential exhibits infinitely fast and complete oscillation at the zero energy boundary and a suppresion to zero in the high-energy limit. In the more singular region, the tunneling becomes forbidden, theby repeating the well-known result of the regularized counterparts.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-02-25T11:21:13Z</published>
+    <arxiv:comment>The quantum tunneling of a potential is considered with the preservation of the singular character of the corresponding Scrodinger equation. It is found that that the weakly singular and Coulomb potentials are partially penetrable but reveals non-standard behavior, in particular, accelerating complete oscillations with the approach to the zero energy</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>A. Zh. Muradyan</name>
+    </author>
+    <arxiv:doi>10.3103/S1068337221020122</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3103/S1068337221020122" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,30 @@
+TERMS: hydrogen, quantum, frequency, bandgap
+COLORS: purple, blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/rXonEiwEN4LLRzIQu0XoOrdhpyk</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:frequency AND all:bandgap&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:37:55Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:frequency+AND+all:bandgap))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2009.02115v1</id>
+    <title>Phononic and electronic features of diamond nanowires</title>
+    <updated>2020-09-04T11:23:57Z</updated>
+    <link href="https://arxiv.org/abs/2009.02115v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2009.02115v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>By using density functional theory, we have studied vibrational features, Raman activities, and electronic properties of ultrathin hydrogen-passivated diamond nanowires (H-DNWs). Confinement imposes the softening of transverse acoustic modes and the hardening of the low-optical modes. Higher frequencies optical modes are more influenced by the surface termination effect. Surface effect splits transverse (TO) and longitudinal (LO) optical modes with a redshift from the bulk diamond. Electronic inspection shows that the surface terminated hydrogen atoms have the main contribution to the conduction bands of H-DNWs. This causes, contrary to our expectations from the quantum confinement effect, the electronic bandgap of H-DNWs becomes smaller than bulk diamond.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-09-04T11:23:57Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Farah Marsusi</name>
+    </author>
+    <author>
+      <name>Seyed Mostafa Monavari</name>
+    </author>
+  </entry>
+</feed>

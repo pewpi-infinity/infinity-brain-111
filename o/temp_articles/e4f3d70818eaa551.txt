@@ -1,0 +1,82 @@
+TERMS: quantum, frequency, fusion
+COLORS: blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/lwKhGGTjrswvmFHiBckSWrVy5pE</id>
+  <title>arXiv Query: search_query=all:quantum AND all:frequency AND all:fusion&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:05:34Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:frequency+AND+all:fusion)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>36</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2508.12036v1</id>
+    <title>Q-FSRU: Quantum-Augmented Frequency-Spectral Fusion for Medical Visual Question Answering</title>
+    <updated>2025-08-16T13:21:49Z</updated>
+    <link href="https://arxiv.org/abs/2508.12036v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.12036v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Solving tough clinical questions that require both image and text understanding is still a major challenge in healthcare AI. In this work, we propose Q-FSRU, a new model that combines Frequency Spectrum Representation and Fusion (FSRU) with a method called Quantum Retrieval-Augmented Generation (Quantum RAG) for medical Visual Question Answering (VQA). The model takes in features from medical images and related text, then shifts them into the frequency domain using Fast Fourier Transform (FFT). This helps it focus on more meaningful data and filter out noise or less useful information. To improve accuracy and ensure that answers are based on real knowledge, we add a quantum-inspired retrieval system. It fetches useful medical facts from external sources using quantum-based similarity techniques. These details are then merged with the frequency-based features for stronger reasoning. We evaluated our model using the VQA-RAD dataset, which includes real radiology images and questions. The results showed that Q-FSRU outperforms earlier models, especially on complex cases needing image-text reasoning. The mix of frequency and quantum information improves both performance and explainability. Overall, this approach offers a promising way to build smart, clear, and helpful AI tools for doctors.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-16T13:21:49Z</published>
+    <arxiv:comment>8 pages, 4 figures Submitted to AAAI 26</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Rakesh Thakur</name>
+    </author>
+    <author>
+      <name>Yusra Tariq</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2111.14355v4</id>
+    <title>Optimal Sensor Fusion Method for Active Vibration Isolation Systems in Ground-Based Gravitational-Wave Detectors</title>
+    <updated>2022-09-05T21:29:56Z</updated>
+    <link href="https://arxiv.org/abs/2111.14355v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2111.14355v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Sensor fusion is a technique used to combine sensors with different noise characteristics into a super sensor that has superior noise performance. To achieve sensor fusion, complementary filters are used in current gravitational-wave detectors to combine relative displacement sensors and inertial sensors for active seismic isolation. Complementary filters are a set of digital filters, which have transfer functions that are summed to unity. Currently, complementary filters are shaped and tuned manually rather than optimized, which can be suboptimal and hard to reproduce for future detectors. In this paper, an optimization-based method called $\mathcal{H}_\infty$ synthesis is proposed for synthesizing optimal complementary filters according to the sensor noises themselves. The complementary filter design problem is converted into an optimization problem that seeks minimization of an objective function equivalent to the maximum difference between the super sensor noise and the lower bound in logarithmic scale. The method is exemplified by synthesizing complementary filters for sensor fusion of 1) a relative displacement sensor and an inertial sensor, 2) a relative displacement sensor coupled with seismic noise and an inertial sensor, and 3) hypothetical displacement sensor and inertial sensor, which have slightly different noise characteristics compared to the typical ones. In all cases, the method produces complementary filters that suppress the super sensor noise equally close to the lower bound at all frequencies in logarithmic scale. The synthesized filters contain features that better suppress the sensor noises compared to the pre-designed complementary filters. Overall, the proposed method allows the synthesis of optimal complementary filters according to the sensor noises themselves and is a better and versatile method for solving sensor fusion problems.</summary>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-11-29T07:19:18Z</published>
+    <arxiv:comment>[v4] Manuscript acceptable by Classical and Quantum Gravity. [v3] Equation (13) correction. [v2] Capitalized hyphenated words in the title</arxiv:comment>
+    <arxiv:primary_category term="physics.ins-det"/>
+    <arxiv:journal_ref>Class. Quantum Grav. 39 185007 (2022)</arxiv:journal_ref>
+    <author>
+      <name>T. T. L. Tsang</name>
+    </author>
+    <author>
+      <name>T. G. F. Li</name>
+    </author>
+    <author>
+      <name>T. Dehaeze</name>
+    </author>
+    <author>
+      <name>C. Collette</name>
+    </author>
+    <arxiv:doi>10.1088/1361-6382/ac8780</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1361-6382/ac8780" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.23899v2</id>
+    <title>Q-FSRU: Quantum-Augmented Frequency-Spectral For Medical Visual Question Answering</title>
+    <updated>2025-10-02T20:52:51Z</updated>
+    <link href="https://arxiv.org/abs/2509.23899v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.23899v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Solving tough clinical questions that require both image and text understanding is still a major challenge in healthcare AI. In this work, we propose Q-FSRU, a new model that combines Frequency Spectrum Representation and Fusion (FSRU) with a method called Quantum Retrieval-Augmented Generation (Quantum RAG) for medical Visual Question Answering (VQA). The model takes in features from medical images and related text, then shifts them into the frequency domain using Fast Fourier Transform (FFT). This helps it focus on more meaningful data and filter out noise or less useful information. To improve accuracy and ensure that answers are based on real knowledge, we add a quantum inspired retrieval system. It fetches useful medical facts from external sources using quantum-based similarity techniques. These details are then merged with the frequency-based features for stronger reasoning. We evaluated our model using the VQA-RAD dataset, which includes real radiology images and questions. The results showed that Q-FSRU outperforms earlier models, especially on complex cases needing image text reasoning. The mix of frequency and quantum information improves both performance and explainability. Overall, this approach offers a promising way to build smart, clear, and helpful AI tools for doctors.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-28T14:09:00Z</published>
+    <arxiv:comment>12 pages (9 main + 2 references/appendix), 2 figures, conference paper submitted to ICLR 2026</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <author>
+      <name>Rakesh Thakur</name>
+    </author>
+    <author>
+      <name>Yusra Tariq</name>
+    </author>
+    <author>
+      <name>Rakesh Chandra Joshi</name>
+    </author>
+  </entry>
+</feed>

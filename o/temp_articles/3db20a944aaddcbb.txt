@@ -1,0 +1,93 @@
+TERMS: lattice, plasma, probability
+COLORS: orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/gGI5+yu9/V9qbBAy+mbCoD8HJkA</id>
+  <title>arXiv Query: search_query=all:lattice AND all:plasma AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:16:28Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:plasma+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>29</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/0911.1852v2</id>
+    <title>Evaluation of Israel-Stewart parameters in lattice gauge theory</title>
+    <updated>2009-11-12T06:27:46Z</updated>
+    <link href="https://arxiv.org/abs/0911.1852v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0911.1852v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Navier-Stokes equations are known as hydrodynamic equations which take account of effects of dissipations. There are, however, problems in the relativistic Navier-Stokes equations, i.e. the equations violate causality. Israel-Stewart equations, which evade the problems of Navier-Stokes equations by introducing new parameters, such as the relaxation times, have recently been used in describing the space-time evolution of the quark-gluon plasma produced in high energy heavy ion collisions. The viscosities and the relaxation times are related to each other by imposing entropy constraints on the system. According to Boltzmann-Einstein principle, the probability distribution of the fluctuation in the energy-momentum tensor is related to the entropy of the system. Applying this principle to the entropy in Israel-Stewart theory, one can obtain the ratios of the viscosities to the relaxation times. We evaluate the ratios of the viscosities to the relaxation times in SU(3) lattice gauge theory.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-11-10T08:10:31Z</published>
+    <arxiv:comment>8 pages, 2 figures. Contribution to The XXVII International Symposium on Lattice Field Theory, July 26-31, 2009, Peking University, Beijing, China</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>PoS LAT2009:196,2009</arxiv:journal_ref>
+    <author>
+      <name>Yasuhiro Kohno</name>
+    </author>
+    <author>
+      <name>Masayuki Asakawa</name>
+    </author>
+    <author>
+      <name>Masakiyo Kitazawa</name>
+    </author>
+    <author>
+      <name>Chiho Nonaka</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.24211v1</id>
+    <title>A Quantum Walk Inspired Qubit Lattice Algorithm for Simulating Electromagnetic Wave Propagation and Scattering in Conservative and Dissipative Magnetized Plasmas</title>
+    <updated>2025-03-31T15:28:41Z</updated>
+    <link href="https://arxiv.org/abs/2503.24211v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.24211v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Based on the Dirac representation of Maxwell equations we present an explicit, discrete space-time, quantum walk-inspired algorithm suitable for simulating the electromagnetic wave propagation and scattering from inhomogeneities within magnetized plasmas. The quantum walk is implemented on a lattice with an internal space of $n_q=4$--qubits, used to encode the classical field amplitudes. Unitary rotation gates operate within this internal space to generate the non-trivial dynamics of the free plasma-Dirac equation. To incorporate the contributions from the cyclotron and plasma density terms--manifesting as inhomogeneous potential terms--in the plasma-Dirac equation, the walk process is complemented with unitary potential operators. This leads to a unitary qubit lattice sequence that recovers the plasma-Dirac equation under a second-order accurate discretization scheme. The proposed algorithm is explicit and demonstrates, in the worst case, a polynomial quantum advantage compared to the Finite Difference Time Domain (FDTD) classical method in terms of resource requirements and error complexity. In addition, we extend the algorithm to include dissipative effects by introducing a phenomenological collision frequency between plasma species. Then, a post-selective time-marching implementation scheme is delineated, featuring a non-vanishing overall success probability and, subsequently, eliminating the need for amplitude amplification of the output state while preserving the quantum advantage.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-31T15:28:41Z</published>
+    <arxiv:comment>13 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Efstratios Koukoutsis</name>
+    </author>
+    <author>
+      <name>Kyriakos Hizanidis</name>
+    </author>
+    <author>
+      <name>George Vahala</name>
+    </author>
+    <author>
+      <name>Christos Tsironis</name>
+    </author>
+    <author>
+      <name>Abhay K. Ram</name>
+    </author>
+    <author>
+      <name>Min Soe</name>
+    </author>
+    <author>
+      <name>Linda Vahala</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.15759v1</id>
+    <title>Understanding the level of Turbulence by Asymmetric Distributions: a motivation for measurements in Space Plasmas</title>
+    <updated>2023-06-27T19:20:47Z</updated>
+    <link href="https://arxiv.org/abs/2306.15759v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.15759v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this article, on the basis of the Langevin equation applied to velocity fluctuations, we numerically model the Partial Variance of Increments, which is a useful tool to measure time and spatial correlations in space plasmas. We consider a Coupled Map Lattice model to relate the spatial scale of fluctuations, $k$, to some macro parameters of the systems, as the Reynolds number, $R_λ$, the $κ$ parameter of Kappa distributions, and a skewness parameter, $δ$. To do so, we compute the Velocity Probability Density Function (PDF) for each spatial scale and different values of Reynolds number in the simulations. We fit the PDF with a Skew-Kappa distribution, and we obtain a numerical relationship between the level of turbulence of the plasma and the skewness of obtained distributions; namely $\langle δ\rangle \sim R_λ^{-1/2}$. We expect the results exposed in this paper to be useful as a tool to characterize the turbulence in the context of space plasma and other environments.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-27T19:20:47Z</published>
+    <arxiv:comment>18 pages, 3 figures. Accepted for publication in The Astrophysical Journal</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>Iván Gallo-Méndez</name>
+    </author>
+    <author>
+      <name>Pablo S. Moya</name>
+    </author>
+    <arxiv:doi>10.3847/1538-4357/acd6f0</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3847/1538-4357/acd6f0" title="doi"/>
+  </entry>
+</feed>

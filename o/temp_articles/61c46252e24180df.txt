@@ -1,0 +1,102 @@
+TERMS: hydrogen, lattice, electron, ionization
+COLORS: purple, orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/wma76zjx4yNWDY1UOX06oAa2JqI</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:lattice AND all:electron AND all:ionization&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:46:21Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:lattice+AND+(all:electron+AND+all:ionization))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>7</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2401.02109v1</id>
+    <title>Local electronic structure of dilute hydrogen in $β$-MnO$_{2}$</title>
+    <updated>2024-01-04T07:38:54Z</updated>
+    <link href="https://arxiv.org/abs/2401.02109v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.02109v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The electronic and magnetic states of $β$-MnO$_{2}$ in terms of hydrogen impurities have been investigated by muon spin rotation ($μ$SR) technique combined with density-functional theory (DFT) calculations for muon as pseudo-hydrogen. We found that 85% of implanted muons are localized in the oxygen channels of the rutile structure and behave as interstitial protons (Mu$^{+})$ except those (7.6%) forming a charge-neutral state (Mu$^{0})$ at 2.3 K, which indicates that interstitial hydrogen acts as a shallow donor within less than 0.1 meV of ionization energy. The residual 15% of muons are attributed to those related to lattice imperfection as Mn vacancies. Detailed analyses combined with DFT approach suggested that the muon is localized at the center of the oxygen channel due to its large zero-point vibration energy.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-04T07:38:54Z</published>
+    <arxiv:comment>8 pages, 8 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>Phys. Rev. B 103, 155121 (2021)</arxiv:journal_ref>
+    <author>
+      <name>H. Okabe</name>
+    </author>
+    <author>
+      <name>M. Hiraishi</name>
+    </author>
+    <author>
+      <name>A. Koda</name>
+    </author>
+    <author>
+      <name>S. Takeshita</name>
+    </author>
+    <author>
+      <name>K. M. Kojima</name>
+    </author>
+    <author>
+      <name>I. Yamauchi</name>
+    </author>
+    <author>
+      <name>T. Ohsawa</name>
+    </author>
+    <author>
+      <name>N. Ohashi</name>
+    </author>
+    <author>
+      <name>H. Sato</name>
+    </author>
+    <author>
+      <name>R. Kadono</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.103.155121</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.103.155121" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2206.09850v2</id>
+    <title>Metallization of hydrogen by intercalating ammonium ions in metal fcc lattices at low pressure</title>
+    <updated>2022-07-05T17:40:42Z</updated>
+    <link href="https://arxiv.org/abs/2206.09850v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2206.09850v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Metallic hydrogen is capable of showing room temperature superconductivity, but its experimental syntheses are extremely hard. Therefore, it is desirable to reduce the synthesis pressure of metallic hydrogen by adding other chemical elements. However, for most hydrides, the metallization of hydrogen by "chemical precompression" to achieve high-temperature superconductivity still requires relatively high pressure, making experimental synthesis difficult. How to achieve high-temperature superconductivity in the low-pressure range (0-50 GPa) is a key issue for realizing practical applications of superconducting materials. Toward this end, this work proposes a strategy for inserting ammonium ions in the fcc crystal of metals. High-throughput calculations of the periodic table reveal 12 elements which can form kinetically stable and superconducting hydrides at low pressures, where the highest superconducting transition temperatures of AlN2H8, MgN2H8 and GaN2H8 can reach up to 118.40, 105.09 and 104.39 K. Pressure-induced bond length changes and charge transfer reveal the physical mechanism of high-temperature superconductivity, where the H atom continuously gains electrons leading to the transition of H+ ions to atomic H, facilitating metallization of hydrogen under mild pressure. Our results also reveal two strong linear scalar relationships, one is the H-atom charge versus superconducting transition temperature and the other is the first ionization energy versus the highest superconducting transition temperature. Besides, ZnN2H8, CdN2H8, and HgN2H8 were found to be superconductors at ambient pressure, and the presence of interstitial electrons suggests that they are also electrides, whose relatively low work functions (3.03, 2.78, and 3.05 eV) imply that they can be used as catalysts for nitrogen reduction reactions as well.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-06-20T15:28:20Z</published>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>Zhongyu Wan</name>
+    </author>
+    <author>
+      <name>Ruiqin Zhang</name>
+    </author>
+    <arxiv:doi>10.1063/5.0127365</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/5.0127365" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.23464v2</id>
+    <title>Optical lattice quantum simulator of dynamics beyond Born-Oppenheimer</title>
+    <updated>2025-09-24T15:06:23Z</updated>
+    <link href="https://arxiv.org/abs/2503.23464v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.23464v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Here, we propose a platform based on ultra-cold fermionic molecules trapped in optical lattices to simulate nonadiabatic effects, as they appear in certain molecular dynamical problems. The idea consists of a judicious choice of two rotational states as the simulated electronic or nuclear degrees of freedom, in which their dipolar interactions induce the required attractive or repulsive interactions between them. We benchmark our proposal by studying the scattering of an electron or a proton against a hydrogen atom, showing the effect of electronic exchange and inelastic ionization as the mass ratio between the simulated nuclei and electrons -- a tunable experimental parameter in our simulator -- becomes comparable. These benchmarks illustrate how the simulator can qualitatively emulate phenomena like those appearing in molecular dynamical problems even if the simulated interaction occurs in two-dimensions with a dipolar scaling. Beyond the molecular implementation proposed here, our proposal can be readily extrapolated to other atomic platforms, e.g., based on fermionic Rydberg atoms.</summary>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-30T14:46:26Z</published>
+    <arxiv:comment>Accepted version of the manuscript</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.quant-gas"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 135, 133402 (2025)</arxiv:journal_ref>
+    <author>
+      <name>Javier Argüello-Luengo</name>
+    </author>
+    <author>
+      <name>Alejandro González-Tudela</name>
+    </author>
+    <author>
+      <name>J. Ignacio Cirac</name>
+    </author>
+    <arxiv:doi>10.1103/x5cd-fbj8</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/x5cd-fbj8" title="doi"/>
+  </entry>
+</feed>

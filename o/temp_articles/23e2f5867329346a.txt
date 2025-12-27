@@ -1,0 +1,77 @@
+TERMS: frequency, boson, probability
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/KRBXr4yVBD3AG1Y9yczJxIJVvEg</id>
+  <title>arXiv Query: search_query=all:frequency AND all:boson AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:12:50Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:boson+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>59</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2509.00487v1</id>
+    <title>Dynamically generated correlations in a trapped bosonic gas via frequency quenches</title>
+    <updated>2025-08-30T12:58:45Z</updated>
+    <link href="https://arxiv.org/abs/2509.00487v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.00487v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study a system of $N$ noninteracting bosons in a harmonic trap subjected to repeated quantum quenches, where the trap frequency is switched from one value to another after a random time duration drawn from an exponential distribution. Each cycle contains two steps: (i) changing the trap frequency to enable unitary evolution under a Hamiltonian, and (ii) reapplying the original trap at stochastic times to cool the gas back to its initial state. This protocol effectively makes it an open quantum system and drives it into a unique nonequilibrium steady state (NESS). We analytically and numerically characterize the NESS, uncovering a conditionally independent and identically distributed (CIID) structure in the joint probability density function (JPDF) of the positions. The JPDF in the CIID structure is a product of Gaussians with a common random variance, which is then averaged with respect to its distribution, making the JPDF non-factorizable, giving rise to long-range emergent dynamical correlations. The average density profile of the gas shows significant deviations from the initial Gaussian shape. We further compute the order and the gap statistics, revealing universal scaling in both bulk and edge regimes. We also analyze the full counting statistics, exposing rich parameter-dependent structure. Our results demonstrate how stochastic quenches can generate nontrivial correlations in quantum many-body systems.</summary>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-30T12:58:45Z</published>
+    <arxiv:comment>8 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.quant-gas"/>
+    <author>
+      <name>Nikhil Mesquita</name>
+    </author>
+    <author>
+      <name>Manas Kulkarni</name>
+    </author>
+    <author>
+      <name>Satya N. Majumdar</name>
+    </author>
+    <author>
+      <name>Sanjib Sabhapandit</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2409.08973v1</id>
+    <title>Hybrid boson sampling</title>
+    <updated>2024-09-13T16:43:35Z</updated>
+    <link href="https://arxiv.org/abs/2409.08973v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2409.08973v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose boson sampling from a system of coupled photons and Bose-Einstein condensed atoms placed inside a multi-mode cavity as a simulation process testing quantum advantage of quantum systems over classical computers. Consider a two-level atomic transition far-detuned from photon frequency. An atom-photon scattering and interatomic collisions provide interaction creating quasiparticles and exciting atoms, photons into squeezed entangled states orthogonal, respectively, to the atomic condensate and classical field driving the two-level transition. We find a joint probability distribution of atom and photon numbers within a quasi-equilibrium model via a hafnian of an extended covariance matrix. It shows a sampling statistics that is #P-hard for computing even if only photon numbers are sampled. Merging cavity-QED and quantum-gas technologies into hybrid boson sampling setup has the potential to overcome limitations of separate, photon or atom, sampling schemes and reveal quantum advantage.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-09-13T16:43:35Z</published>
+    <arxiv:comment>8 pages</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>V. V. Kocharovsky</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1805.03877v1</id>
+    <title>Dynamics of the one-dimensional Anderson insulator coupled to various bosonic baths</title>
+    <updated>2018-05-10T08:32:36Z</updated>
+    <link href="https://arxiv.org/abs/1805.03877v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1805.03877v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study a particle which propagates in a one dimensional strong random potential and is coupled to a bosonic bath. We independently test various properties of bosons (hopping term, hard-core effects and generic boson-boson interaction) and show that bosonic itineracy is the essential ingredient governing the dynamics of the particle. Coupling of the particle to itinerant phonons or hard core bosons alike leads to delocalization of the particle by virtue of a subdiffusive (or diffusive) spread from the initially localized state. Delocalization remains in effect even when the boson frequency and the bandwidth of itinerant bosons remain an order of magnitude smaller than the magnitude of the random potential. When the particle is coupled to localized bosons, its spread remains logarithmic or even sub-logarithmic. The latter result together with the survival probability shows that the particle remains localized despite being coupled to bosons.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-05-10T08:32:36Z</published>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Phys. Rev. B 97, 174202 (2018)</arxiv:journal_ref>
+    <author>
+      <name>Janez Bonca</name>
+    </author>
+    <author>
+      <name>Stuart A. Trugman</name>
+    </author>
+    <author>
+      <name>Marcin Mierzejewski</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.97.174202</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.97.174202" title="doi"/>
+  </entry>
+</feed>

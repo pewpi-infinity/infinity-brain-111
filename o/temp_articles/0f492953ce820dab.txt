@@ -1,0 +1,38 @@
+TERMS: hydrogen, fusion, wavefunction, probability
+COLORS: purple, green, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/yP10lB3ft786nQUk8qh7WFf7qlA</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:fusion AND all:wavefunction AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:54:00Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:fusion+AND+(all:wavefunction+AND+all:probability))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/nucl-ex/0005003v1</id>
+    <title>The stopping of swift protons in matter and its implication for astrophysical fusion reactions</title>
+    <updated>2000-05-14T23:03:44Z</updated>
+    <link href="https://arxiv.org/abs/nucl-ex/0005003v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/nucl-ex/0005003v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The velocity dependence of the stopping power of swift protons and deuterons in low energy collisions is investigated. At low projectile energies the stopping is mainly due to nuclear stopping and charge exchange of the electron. The second mechanism dominates after Ep &gt;=200 eV. A dynamical treatment of the charge exchange mechanism based on two-center electronic wavefunctions yields very transparent results for the exchange probability. We predict that the stopping cross sections vary approximately as v to the 1.35 power for projectile protons on hydrogen targets in the 1 keV energy region.</summary>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2000-05-14T23:03:44Z</published>
+    <arxiv:comment>4 figures</arxiv:comment>
+    <arxiv:primary_category term="nucl-ex"/>
+    <arxiv:journal_ref>Phys.Rev. C62 (2000) 045802</arxiv:journal_ref>
+    <author>
+      <name>C. A. Bertulani</name>
+    </author>
+    <author>
+      <name>D. T. de Paula</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevC.62.045802</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevC.62.045802" title="doi"/>
+  </entry>
+</feed>

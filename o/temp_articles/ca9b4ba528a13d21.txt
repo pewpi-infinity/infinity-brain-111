@@ -1,0 +1,71 @@
+TERMS: spin, bandgap, singularity
+COLORS: yellow, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/TyGaD94ffBQS7GkSt+SJKSeNjNM</id>
+  <title>arXiv Query: search_query=all:spin AND all:bandgap AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:33:02Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:spin+AND+(all:bandgap+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1303.2027v2</id>
+    <title>Electron Spin Relaxation in Graphene Nanoribbon Quantum Dots</title>
+    <updated>2013-06-14T07:33:11Z</updated>
+    <link href="https://arxiv.org/abs/1303.2027v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1303.2027v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Graphene is promising as a host material for electron spin qubits because of its predicted potential for long coherence times. In armchair graphene nanoribbons (aGNRs) a small bandgap is opened, allowing for electrically gated quantum dots, and furthermore the valley degeneracy is lifted. The spin lifetime T_1 is limited by spin relaxation, where the Zeeman energy is absorbed by lattice vibrations, mediated by spin-orbit and electron-phonon coupling. We have calculated T_1 by treating all couplings analytically and find that T_1 can be in the range of seconds for several reasons: (i) low phonon density of states away from Van Hove singularities; (ii) destructive interference between two relaxation mechanisms; (iii) Van Vleck cancellation at low magnetic fields; (iv) vanishing coupling to out-of-plane modes in lowest order due to the electronic structure of aGNRs. Owing to the vanishing nuclear spin of 12C, T_1 may be a good measure for overall coherence. These results and recent advances in the controlled production of graphene nanoribbons make this system interesting for spintronics applications.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-03-08T15:38:23Z</published>
+    <arxiv:comment>11 pages, 9 figures, v2: published version</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Phys. Rev. B 87, 205432 (2013)</arxiv:journal_ref>
+    <author>
+      <name>Matthias Droth</name>
+    </author>
+    <author>
+      <name>Guido Burkard</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.87.205432</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.87.205432" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1512.00816v2</id>
+    <title>Guiding light via geometric phases</title>
+    <updated>2017-01-31T17:27:18Z</updated>
+    <link href="https://arxiv.org/abs/1512.00816v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1512.00816v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Known methods for transverse confinement and guidance of light can be grouped into a few basic mechanisms, the most common being metallic reflection, total internal reflection and photonic-bandgap (or Bragg) reflection. All of them essentially rely on changes of the refractive index, that is on scalar properties of light. Recently, processes based on "geometric Berry phases", such as manipulation of polarization states or deflection of spinning-light rays, have attracted considerable interest in the contexts of singular optics and structured light. Here, we disclose a new approach to light waveguiding, using geometric Berry phases and exploiting polarization states and their handling. This can be realized in structured three-dimensional anisotropic media, in which the optic axis lies orthogonal to the propagation direction and is modulated along it and across the transverse plane, so that the refractive index remains constant but a phase distortion can be imposed on a beam. In addition to a complete theoretical analysis with numerical simulations, we present a proof-of-principle experimental demonstration of this effect in a discrete element implementation of a geometric phase waveguide. The mechanism we introduce shows that spin-orbit optical interactions can play an important role in integrated optics and paves the way to an entire new class of photonic systems that exploit the vectorial nature of light.</summary>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-12-02T19:28:23Z</published>
+    <arxiv:comment>Publication supported by European Union (EU) within Horizon 2020 - ERC-Advanced Grant PHOSPhOR, grant no. 694683. This is the final peer-reviewed manuscript as accepted for publication (including methods and supplementary information)</arxiv:comment>
+    <arxiv:primary_category term="physics.optics"/>
+    <arxiv:journal_ref>Nature Photonics vol. 10, 571-575 (2016)</arxiv:journal_ref>
+    <author>
+      <name>Sergei Slussarenko</name>
+    </author>
+    <author>
+      <name>Alessandro Alberucci</name>
+    </author>
+    <author>
+      <name>Chandroth P. Jisha</name>
+    </author>
+    <author>
+      <name>Bruno Piccirillo</name>
+    </author>
+    <author>
+      <name>Enrico Santamato</name>
+    </author>
+    <author>
+      <name>Gaetano Assanto</name>
+    </author>
+    <author>
+      <name>Lorenzo Marrucci</name>
+    </author>
+    <arxiv:doi>10.1038/nphoton.2016.138</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/nphoton.2016.138" title="doi"/>
+  </entry>
+</feed>

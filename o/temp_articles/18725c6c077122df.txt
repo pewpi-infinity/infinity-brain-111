@@ -1,0 +1,37 @@
+TERMS: hydrogen, electron, boson, probability
+COLORS: purple, green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Ln0LjjNaj11uB1ECyK/WhRcNRSQ</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:electron AND all:boson AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:57:08Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:electron+AND+(all:boson+AND+all:probability))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2108.10736v2</id>
+    <title>Models of the Muonium to Antimuonium Transition</title>
+    <updated>2021-12-03T15:21:29Z</updated>
+    <link href="https://arxiv.org/abs/2108.10736v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2108.10736v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Muonium is a bound state composed of an antimuon and an electron, and it constitutes a hydrogen-like atom. Because of the absence of the hadronic matter in the bound state, the muonium is a useful probe to explore new physics being free from the hadronic uncertainties. The process of the muonium-to-antimuonium transition is considered to be effective to identify fundamental interactions which relate to the lepton flavor and lepton number violation. New experiments are being planned at J-PARC in Japan and CSNS in China, and it is expected to attract more attention in the near future. In this paper, we will study what kind of model can be verified in the next generation of the muonium-to-antimuonium transition search experiments while escaping the limitations from other experiments. Though the transition probability is strongly suppressed by the lepton flavor conservation in the standard model, it can be much larger by the exchanges of neutral and doubly charged bosons, and by box loop diagrams in new physics beyond the standard model. We study the neutrino models with heavy Majorana neutrinos at TeV scale, a type-II seesaw model, left--right models, and models for radiative neutrino masses such as the Zee-Babu model in particular, in addition to other possible models to induce the sizable transition probability, which can be tested in the forthcoming experiments.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-08-24T13:48:04Z</published>
+    <arxiv:comment>69 pages, 18 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Takeshi Fukuyama</name>
+    </author>
+    <author>
+      <name>Yukihiro Mimura</name>
+    </author>
+    <author>
+      <name>Yuichi Uesaka</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.105.015026</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.105.015026" title="doi"/>
+  </entry>
+</feed>

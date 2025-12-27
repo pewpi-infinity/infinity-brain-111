@@ -1,0 +1,76 @@
+TERMS: lattice, plasma
+COLORS: orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/tcRsLmeuMg1kHbuuADP3FBVL2bw</id>
+  <title>arXiv Query: search_query=all:lattice AND all:plasma&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T00:57:43Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+all:plasma&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1692</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1309.3212v1</id>
+    <title>Momentum broadening of partons on the light cone from the lattice</title>
+    <updated>2013-09-12T16:29:34Z</updated>
+    <link href="https://arxiv.org/abs/1309.3212v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1309.3212v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The jet quenching parameter describes the momentum broadening of a high-energy parton moving through the quark-gluon plasma. Following an approach originally proposed by Caron-Huot, we discuss how one can extract information on the collision kernel associated with the parton momentum broadening, from the analysis of certain gauge-invariant operators in dimensionally reduced effective theories, and present numerical results from a lattice study.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-09-12T16:29:34Z</published>
+    <arxiv:comment>7 pages, 3 pdf figures, talk presented at the 31st International Symposium on Lattice Field Theory "Lattice 2013" (29 July - 3 August 2013, Mainz, Germany)</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>PoS (LATTICE 2013) 173</arxiv:journal_ref>
+    <author>
+      <name>Marco Panero</name>
+    </author>
+    <author>
+      <name>Kari Rummukainen</name>
+    </author>
+    <author>
+      <name>Andreas Schäfer</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1809.00797v2</id>
+    <title>The properties of $D1$-branes from lattice super Yang--Mills theory using gauge/gravity duality</title>
+    <updated>2018-10-23T16:45:13Z</updated>
+    <link href="https://arxiv.org/abs/1809.00797v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1809.00797v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The two-dimensional supersymmetric Yang-Mills (SYM) theory with sixteen supercharges at large $N$ and strong 't~Hooft coupling is conjectured to be dual to certain supergravity solutions in the decoupling limit. We discretize the gauge theory preserving a subset of supersymmetries on the lattice. Based on the choice of a point in the moduli space for the expansion of the gauge links to target the correct continuum theory, one ends up with different lattice geometries. In our previous work, we explored the free energy and the phase structure on a skewed torus corresponding to $A_{2}^{*}$ lattice geometry. Here, we will consider square lattice and calculate the free energy, equation of state and speed of sound in this strongly coupled supersymmetric plasma. Since there is no shear viscosity in two dimensions, we comment on the expectations for the bulk viscosity from the calculations on the dual supergravity side, which unlike the conformal $\mathcal{N}=4$ SYM case does not vanish and is proportional to the trace of energy-momentum tensor.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-09-04T05:06:24Z</published>
+    <arxiv:comment>1+6 pages, proceedings for the 36th International Symposium on Lattice Field Theory (22-28 July 2018). v2 -- Fixed typos and added two references</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>PoS (Lattice 2018) 308</arxiv:journal_ref>
+    <author>
+      <name>Raghav Govind Jha</name>
+    </author>
+    <arxiv:doi>10.22323/1.334.0308</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.22323/1.334.0308" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/physics/0410093v1</id>
+    <title>Theory of solitary waves in complex plasma lattices</title>
+    <updated>2004-10-14T14:55:26Z</updated>
+    <link href="https://arxiv.org/abs/physics/0410093v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/physics/0410093v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  A comprehensive analytical theory for nonlinear excitations related to horizontal (longitudinal, acoustic mode) as well as vertical (transverse, optical mode) motion of charged dust grains in a dust crystal is presented. Different types of localized excitations, similar to those well known in solid state physics, are reviewed and conditions for their occurrence and characteristics in dusty plasma crystals are discussed. By employing a continuum approximation (i.e. assuming a long variation scale, with respect to the inter-particle distance) a dust crystal is shown to support nonlinear kink-shaped supersonic solitary excitations, associated with longitudinal dust grain displacement, as well as modulated envelope localized modes associated with either longitudinal or transverse oscillations. Although a one-dimensional crystal is considered for simplicity, the results in principle apply to a two-dimensional lattice if certain conditions are satisfied. The effect of mode-coupling is also briefly considered. The relation to previous results on atomic chains, and also to experimental results on strongly-coupled dust layers in gas discharge plasmas, is briefly discussed.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-10-14T14:55:26Z</published>
+    <arxiv:comment>12th International Congress on Plasma Physics, 25-29 October 2004, Nice (France)</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>Ioannis Kourakis</name>
+    </author>
+    <author>
+      <name>Padma Kant Shukla</name>
+    </author>
+    <author>
+      <name>Bengt Eliasson</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,128 @@
+TERMS: quantum, frequency, spin
+COLORS: blue, green, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/5NN4OJb4TTZ6lVBI4/PkTJ3LrSg</id>
+  <title>arXiv Query: search_query=all:quantum AND all:frequency AND all:spin&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:05:39Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:frequency+AND+all:spin)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>5055</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2106.15721v3</id>
+    <title>Extraction of autonomous quantum coherences</title>
+    <updated>2022-04-14T16:18:10Z</updated>
+    <link href="https://arxiv.org/abs/2106.15721v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2106.15721v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Quantum coherence is an essential resource to gain advantage over classical physics and technology. Recently, it has been proposed that a low-temperature environment can induce quantum coherence of a spin without an external coherent pump. We address a critical question if such coherence is extractable by a weak coupling to an output system dynamically affecting back the spin-environment coupling. Describing the entire mechanism, we prove that such extraction is generically possible for output spins (also oscillators or fields) and, as well, in a fermionic analogue of such a process. We compare the internal spin coherence and output coherence over temperature and characteristic frequencies. The proposed optimal coherence extraction opens paths for the upcoming experimental tests with atomic and solid-state systems.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-06-29T21:08:19Z</published>
+    <arxiv:comment>45 pages, 17 figures, Accepted in "Quantum" 2022-03-31</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Quantum 6, 689 (2022)</arxiv:journal_ref>
+    <author>
+      <name>Artur Slobodeniuk</name>
+    </author>
+    <author>
+      <name>Tomáš Novotný</name>
+    </author>
+    <author>
+      <name>Radim Filip</name>
+    </author>
+    <arxiv:doi>10.22331/q-2022-04-15-689</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.22331/q-2022-04-15-689" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1806.11100v2</id>
+    <title>Spin Inertia of Resident and Photoexcited Carriers in Singly-Charged Quantum Dots</title>
+    <updated>2018-08-27T15:55:29Z</updated>
+    <link href="https://arxiv.org/abs/1806.11100v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.11100v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The spin dynamics in a broad range of systems can be studied using circularly polarized optical excitation with alternating helicity. The dependence of spin polarization on the frequency of helicity alternation, known as the spin inertia effect, is used here to study the spin dynamics in singly-charged (In,Ga)As/GaAs quantum dots (QDs) providing insight into spin generation and accumulation processes. We demonstrate that the dependence of spin polarization in $n$- and $p$-type QDs on the external magnetic field has a characteristic V- and M-like shape, respectively. This difference is related to different microscopic mechanisms of resident carriers spin orientation. It allows us to determine the parameters of the spin dynamics both for the ground and excited states of singly-charged QDs.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-28T17:51:20Z</published>
+    <arxiv:comment>5 pages, 3 figures. This is a joint submission with "Theory of spin inertia in singly-charged quantum dots" by the same authors</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Phys. Rev. B 98, 121304 (2018)</arxiv:journal_ref>
+    <author>
+      <name>E. A. Zhukov</name>
+    </author>
+    <author>
+      <name>E. Kirstein</name>
+    </author>
+    <author>
+      <name>D. S. Smirnov</name>
+    </author>
+    <author>
+      <name>D. R. Yakovlev</name>
+    </author>
+    <author>
+      <name>M. M. Glazov</name>
+    </author>
+    <author>
+      <name>D. Reuter</name>
+    </author>
+    <author>
+      <name>A. D. Wieck</name>
+    </author>
+    <author>
+      <name>M. Bayer</name>
+    </author>
+    <author>
+      <name>A. Greilich</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.98.121304</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.98.121304" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2205.14476v1</id>
+    <title>Accurate and Efficient Quantum Computations of Molecular Properties Using Daubechies Wavelet Molecular Orbitals: A Benchmark Study against Experimental Data</title>
+    <updated>2022-05-28T16:22:18Z</updated>
+    <link href="https://arxiv.org/abs/2205.14476v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2205.14476v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Although quantum computation (QC) is regarded as a promising numerical method for computational quantum chemistry, current applications of quantum-chemistry calculations on quantum computers are limited to small molecules. This limitation can be ascribed to technical problems in building and manipulating more qubits and the associated complicated operations of quantum gates in a quantum circuit when the size of the molecular system becomes large. As a result, reducing the number of required qubits is necessary to make QC practical. Currently, the minimal STO-3G basis set is commonly used in benchmark studies because it requires the minimum number of spin orbitals. Nonetheless, the accuracy of using STO-3G is generally low and thus cannot provide useful predictions. We propose to adopt Daubechies wavelet functions as an accurate and efficient method for QCs of molecular electronic properties. We demonstrate that a minimal basis set constructed from Daubechies wavelet basis can yield accurate results through a better description of the molecular Hamiltonian, while keeping the number of spin orbitals minimal. With the improved Hamiltonian through Daubechies wavelets, we calculate vibrational frequencies for H$_2$ and LiH using quantum-computing algorithm to show that the results are in excellent agreement with experimental data. As a result, we achieve quantum calculations in which accuracy is comparable with that of the full configuration interaction calculation using the cc-pVDZ basis set, whereas the computational cost is the same as that of a STO-3G calculation. Thus, our work provides a more efficient and accurate representation of the molecular Hamiltonian for efficient QCs of molecular systems, and for the first time demonstrates that predictions in agreement with experimental measurements are possible to be achieved with quantum resources available in near-term quantum computers.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-05-28T16:22:18Z</published>
+    <arxiv:comment>14 pages, 5 figures, Accepted by PRX Quantum</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>PRX Quantum 3, 020360 (2022)</arxiv:journal_ref>
+    <author>
+      <name>Cheng-Lin Hong</name>
+    </author>
+    <author>
+      <name>Ting Tsai</name>
+    </author>
+    <author>
+      <name>Jyh-Pin Chou</name>
+    </author>
+    <author>
+      <name>Peng-Jen Chen</name>
+    </author>
+    <author>
+      <name>Pei-Kai Tsai</name>
+    </author>
+    <author>
+      <name>Yu-Cheng Chen</name>
+    </author>
+    <author>
+      <name>En-Jui Kuo</name>
+    </author>
+    <author>
+      <name>David Srolovitz</name>
+    </author>
+    <author>
+      <name>Alice Hu</name>
+    </author>
+    <author>
+      <name>Yuan-Chung Cheng</name>
+    </author>
+    <author>
+      <name>Hsi-Sheng Goan</name>
+    </author>
+    <arxiv:doi>10.1103/PRXQuantum.3.020360</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PRXQuantum.3.020360" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,95 @@
+TERMS: hydrogen, quantum, vapor
+COLORS: purple, blue, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/5FrdBbdDfKyHi3LNViG6WkIxxpA</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:vapor&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:01:21Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+all:vapor)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>19</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0009360v1</id>
+    <title>Electric field induced strong localization of electrons on solid hydrogen surface: possible applications to quantum computing</title>
+    <updated>2000-09-22T17:47:52Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0009360v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0009360v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Two-dimensional electron system on the liquid helium surface is one of the leading candidates for constructing large analog quantum computers (P.M. Platzman and M.I. Dykman, Science 284, 1967 (1999)). Similar electron systems on the surfaces of solid hydrogen or solid neon may have some important advantages with respect to electrons on liquid helium in quantum computing applications, such as larger state separation $ΔE$, absence of propagating capillary waves (or ripplons), smaller vapor pressure, etc. As a result, it may operate at higher temperatures. Surface roughness is the main hurdle to overcome in building a realistic quantum computer using these states. Electric field induced strong localization of surface electrons is shown to be a convenient tool to characterize surface roughness.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2000-09-22T17:47:52Z</published>
+    <arxiv:comment>4 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>International Journal of Modern Physics B, 15, 2075-2106 (2001)</arxiv:journal_ref>
+    <author>
+      <name>Igor I. Smolyaninov</name>
+    </author>
+    <author>
+      <name>Vitaliy V. Zavyalov</name>
+    </author>
+    <arxiv:doi>10.1142/S0217979201004812</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/S0217979201004812" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1507.01809v1</id>
+    <title>Two phase coexistence for the hydrogen-helium mixture</title>
+    <updated>2015-07-04T01:50:26Z</updated>
+    <link href="https://arxiv.org/abs/1507.01809v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1507.01809v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We use our newly constructed quantum Gibbs ensemble Monte Carlo algorithm to perform computer experiments for the two phase coexistence of a hydrogen-helium mixture. Our results are in quantitative agreement with the experimental results of C. M. Sneed, W. B. Streett, R. E. Sonntag, and G. J. Van Wylen. The difference between our results and the experimental ones is in all cases less than 15% relative to the experiment, reducing to less than 5% in the low helium concentration phase. At the gravitational inversion between the vapor and the liquid phase, at low temperatures and high pressures, the quantum effects become relevant. At extremely low temperature and pressure the first component to show superfluidity is the helium in the vapor phase.</summary>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.EP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-07-04T01:50:26Z</published>
+    <arxiv:comment>7 pages, 4 figures, 4 tables</arxiv:comment>
+    <arxiv:primary_category term="physics.chem-ph"/>
+    <arxiv:journal_ref>Phys. Rev. E 92, 012133 (2015)</arxiv:journal_ref>
+    <author>
+      <name>Riccardo Fantoni</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevE.92.012133</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevE.92.012133" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2311.18624v1</id>
+    <title>Detecting nitrogen-vacancy-hydrogen centers on the nanoscale using nitrogen-vacancy centers in diamond</title>
+    <updated>2023-11-30T15:30:36Z</updated>
+    <link href="https://arxiv.org/abs/2311.18624v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.18624v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In diamond, nitrogen defects like the substitutional nitrogen defect (Ns) or the nitrogen-vacancy-hydrogen complex (NVH) outnumber the nitrogen vacancy (NV) defect by at least one order of magnitude creating a dense spin bath. While neutral Ns has an impact on the coherence of the NV spin state, the atomic structure of NVH reminds of a NV center decorated with a hydrogen atom. As a consequence, the formation of NVH centers could compete with that of NV centers possibly lowering the N-to-NV conversion efficiency in diamond grown with hydrogen-plasma-assisted chemical vapor deposition (CVD). Therefore, monitoring and controlling the spin bath is essential to produce and understand engineered diamond material with high NV concentrations for quantum applications. While the incorporation of Ns in diamond has been investigated on the nano- and mesoscale for years, studies concerning the influence of CVD parameters and the crystal orientation on the NVH formation have been restricted to bulk N-doped diamond providing high-enough spin numbers for electron paramagnetic resonance and optical absorption spectroscopy techniques. Here, we investigate sub-micron-thick (100)-diamond layers with nitrogen contents of (13.8 +- 1.6) ppm and (16.7 +- 3.6) ppm, and exploiting the NV centers in the layers as local nano-sensors, we demonstrate the detection of NVH- centers using double-electron-electron-resonance (DEER). To determine the NVH- densities, we quantitatively fit the hyperfine structure of NVH- and confirm the results with the DEER method usually used for determining Ns0 densities. With our experiments, we access the spin bath composition on the nanoscale and enable a fast feedback-loop in CVD recipe optimization with thin diamond layers instead of resource- and time-intensive bulk crystals.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-30T15:30:36Z</published>
+    <arxiv:comment>7 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Christoph Findler</name>
+      <arxiv:affiliation>Institute for Quantum Optics, Ulm University, Germany</arxiv:affiliation>
+      <arxiv:affiliation>Diatope GmbH, Ummendorf, Germany</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Rémi Blinder</name>
+      <arxiv:affiliation>Institute for Quantum Optics, Ulm University, Germany</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Karolina Schüle</name>
+      <arxiv:affiliation>Institute for Quantum Optics, Ulm University, Germany</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Priyadharshini Balasubramanian</name>
+      <arxiv:affiliation>Institute for Quantum Optics, Ulm University, Germany</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Christian Osterkamp</name>
+      <arxiv:affiliation>Institute for Quantum Optics, Ulm University, Germany</arxiv:affiliation>
+      <arxiv:affiliation>Diatope GmbH, Ummendorf, Germany</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Fedor Jelezko</name>
+      <arxiv:affiliation>Institute for Quantum Optics, Ulm University, Germany</arxiv:affiliation>
+    </author>
+  </entry>
+</feed>

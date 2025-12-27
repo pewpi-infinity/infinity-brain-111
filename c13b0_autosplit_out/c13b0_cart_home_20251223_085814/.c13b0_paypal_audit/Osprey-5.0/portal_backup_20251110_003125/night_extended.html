@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no"/>
+<title>Night of the Living Bots – Graveyard Awakening</title>
+<style>
+html,body{margin:0;height:100%;overflow:hidden;background:#050510;color:#0ff;font-family:monospace}
+#c{display:block;width:100%;height:100%}
+#hud{position:fixed;top:0;left:0;right:0;height:36px;background:rgba(0,0,0,.6);
+color:#0ff;display:flex;align-items:center;justify-content:space-around;
+font-size:14px;z-index:3;user-select:none}
+#pad{position:fixed;bottom:12px;left:12px;width:140px;height:140px}
+.d{position:absolute;width:46px;height:46px;background:rgba(255,255,255,.05);
+border:1px solid rgba(255,255,255,.2);border-radius:50%;text-align:center;
+line-height:46px;font-weight:bold;color:#0ff;font-size:20px}
+#up{top:0;left:47px}#down{bottom:0;left:47px}
+#left{top:47px;left:0}#right{top:47px;right:0}
+#ab{position:fixed;bottom:26px;right:26px;display:flex;gap:20px}
+.b{width:60px;height:60px;border-radius:50%;
+background:rgba(0,255,255,.12);border:2px solid #0ff;
+color:#0ff;font-size:22px;text-align:center;line-height:56px;user-select:none}
+.fade{animation:fade 1.5s forwards}@keyframes fade{from{opacity:0}to{opacity:1}}
+</style>
+</head>
+<body>
+<canvas id="c"></canvas>
+<div id="hud">
+  <div id="lives">Lives: 3</div><div id="score">Score: 0</div><div id="msg">Rise…</div>
+</div>
+<div id="pad">
+  <div id="up" class="d">▲</div><div id="down" class="d">▼</div>
+  <div id="left" class="d">◀</div><div id="right" class="d">▶</div>
+</div>
+<div id="ab"><div id="A" class="b">A</div><div id="B" class="b">B</div></div>
+<script>
+/* ---------------- Core Setup ---------------- */
+const c=document.getElementById("c"),x=c.getContext("2d");
+function fit(){c.width=innerWidth;c.height=innerHeight}addEventListener("resize",fit);fit();
+const GROUND=innerHeight-100;
+const keys={l:0,r:0,u:0,d:0,a:0,b:0};
+["left","right","up","down"].forEach(k=>{
+ const el=document.getElementById(k);
+ el.ontouchstart=e=>{e.preventDefault();keys[k[0]]=1};
+ el.ontouchend=e=>{e.preventDefault();keys[k[0]]=0};
+});
+A.ontouchstart=e=>{e.preventDefault();keys.a=1};
+A.ontouchend=e=>{e.preventDefault();keys.a=0};
+B.ontouchstart=e=>{e.preventDefault();keys.b=1};
+B.ontouchend=e=>{e.preventDefault();keys.b=0};
+
+/* ---------------- Game State ---------------- */
+let player={x:150,y:GROUND-60,w:40,h:60,vx:0,vy:0,spd:3,lives:3,hp:100,score:0,face:1};
+const followers=Array.from({length:5},(_,i)=>({x:player.x-60*i,y:GROUND-60,w:40,h:60}));
+const bots=[player,...followers];
+let enemies=Array.from({length:6},(_,i)=>({x:300+i*120,y:GROUND-60,w:40,h:60,vx:-1.5+Math.random()*3,hp:30}));
+let ended=false;
+
+/* ---------------- Helpers ---------------- */
+function updateHUD(){lives.textContent="Lives: "+player.lives;score.textContent="Score: "+player.score;}
+function move(){
+ player.vx=(keys.r-keys.l)*player.spd;player.vy=(keys.d-keys.u)*player.spd;
+ if(player.vx>0)player.face=1;if(player.vx<0)player.face=-1;
+ player.x+=player.vx;player.y+=player.vy;
+ player.x=Math.max(0,Math.min(c.width-player.w,player.x));
+ player.y=Math.max(GROUND-180,Math.min(GROUND-60,player.y));
+ if(keys.a){attack();keys.a=0;}if(keys.b){boost();keys.b=0;}
+ for(let i=1;i<bots.length;i++){const b=bots[i],lead=bots[i-1];
+   b.x+=(lead.x-50-b.x)*0.12;b.y+=(lead.y-b.y)*0.12;}
+}
+function attack(){enemies.forEach(e=>{
+ if(Math.abs((e.x+20)-(player.x+20))<50&&Math.abs((e.y+30)-(player.y+30))<50){
+ e.hp-=15;if(e.hp<=0){player.score+=10;e.dead=true;}
+ }});updateHUD();}
+function boost(){player.x+=player.face*40;}
+function stepEnemies(){
+ enemies.forEach(e=>{
+  if(e.dead)return;
+  e.x+=(player.x>e.x?1:-1)*1.2;
+  if(Math.abs((e.x+20)-(player.x+20))<30&&Math.abs((e.y+30)-(player.y+30))<40){
+   player.hp-=1.5;if(player.hp<=0){playerDie();}
+  }
+ });
+ enemies=enemies.filter(e=>!e.dead);
+}
+function playerDie(){
+ player.lives--;player.hp=100;player.x=40;player.y=GROUND-80;
+ if(player.lives<0)endGame();updateHUD();
+}
+
+/* ---------------- Draw ---------------- */
+function draw(){
+ x.fillStyle="#050510";x.fillRect(0,0,c.width,c.height);
+ x.fillStyle="#0b0d16";x.fillRect(0,GROUND,c.width,200);
+ for(let i=0;i<6;i++){const gx=150+i*120,gy=GROUND-30;x.fillStyle="#333";
+ x.fillRect(gx,gy,60,30);x.fillStyle="#777";x.fillRect(gx+10,gy-15,40,15);}
+ for(let i=bots.length-1;i>=1;i--)drawBot(bots[i],true);
+ drawBot(player,false);
+ enemies.forEach(e=>{x.fillStyle="#f33";x.fillRect(e.x,e.y,e.w,e.h);
+ x.fillStyle="#000";x.fillRect(e.x+18,e.y+18,4,4);});
+}
+function drawBot(b,ghost){x.fillStyle=ghost?"#055":"#0ff";x.fillRect(b.x,b.y,b.w,b.h);
+ x.fillStyle="#fff";x.fillRect(b.x+(ghost?15:(b.face>0?25:8)),b.y+15,4,4);}
+
+/* ---------------- Loop ---------------- */
+function loop(){
+ if(ended)return;move();stepEnemies();draw();requestAnimationFrame(loop);
+ if(enemies.length===0||player.x>c.width-240)stageClear();
+}
+updateHUD();requestAnimationFrame(loop);
+
+/* ---------------- Endings ---------------- */
+function stageClear(){if(ended)return;ended=true;fadeToInfinity("Stage 1 Cleared!");}
+function endGame(){if(ended)return;ended=true;fadeToInfinity("Game Over — But Your Story Doesn’t End Here");}
+function fadeToInfinity(title){
+ const wrap=document.createElement("div");
+ wrap.style.position="fixed";wrap.style.inset="0";
+ wrap.style.background="rgba(0,0,0,.9)";
+ wrap.style.display="flex";wrap.style.flexDirection="column";
+ wrap.style.alignItems="center";wrap.style.justifyContent="center";
+ wrap.style.color="#0ff";wrap.style.textAlign="center";wrap.style.padding="20px";
+ wrap.innerHTML=
+  '<div class="fade" style="font-size:28px;margin-bottom:16px">'+title+'</div>'+
+  '<div class="fade" style="font-size:18px;margin-bottom:28px">'+
+  'Start your own journey.<br>Build your next stage or app in Infinity OS.'+
+  '</div>'+
+  '<a class="fade" href="http://localhost:8080/" '+
+  'style="color:#000;background:#0ff;padding:14px 28px;border-radius:10px;font-weight:bold;text-decoration:none">'+
+  'Enter Infinity</a>';
+ document.body.appendChild(wrap);
+}
+</script>
+</body>
+</html>

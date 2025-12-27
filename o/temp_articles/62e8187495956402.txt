@@ -1,0 +1,69 @@
+TERMS: entropy, singularity, vacuum
+COLORS: red, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/BoMvB1DtDlb2EGLILbSJpyBvooo</id>
+  <title>arXiv Query: search_query=all:entropy AND all:singularity AND all:vacuum&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:19:44Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+(all:singularity+AND+all:vacuum)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>116</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2010.00205v1</id>
+    <title>The vacuum boundary problem for the spherically symmetric compressible Euler equations with positive density and unbounded entropy</title>
+    <updated>2020-10-01T05:50:13Z</updated>
+    <link href="https://arxiv.org/abs/2010.00205v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2010.00205v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Global stability of the spherically symmetric nonisentropic compressible Euler equations with positive density around global-in-time background affine solutions is shown in the presence of free vacuum boundaries. Vacuum is achieved despite a non-vanishing density by considering a negatively unbounded entropy and we use a novel weighted energy method whereby the exponential of the entropy will act as a changing weight to handle the degeneracy of the vacuum boundary. Spherical symmetry introduces a coordinate singularity near the origin for which we adapt a method developed for the Euler-Poisson system by Guo, Hadžić and Jang to our problem.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-10-01T05:50:13Z</published>
+    <arxiv:primary_category term="math.AP"/>
+    <arxiv:journal_ref>Journal of Mathematical Physics, 62(2), 021504, 2021</arxiv:journal_ref>
+    <author>
+      <name>Calum Rickard</name>
+    </author>
+    <arxiv:doi>10.1063/5.0037656</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/5.0037656" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1910.01638v4</id>
+    <title>Particle and entropy production in the Running Vacuum Universe</title>
+    <updated>2020-02-12T19:01:45Z</updated>
+    <link href="https://arxiv.org/abs/1910.01638v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1910.01638v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study particle production and the corresponding entropy increase in the context of cosmology with dynamical vacuum. We focus on the particular form that has been called "running vacuum model" (RVM), which is known to furnish a successful description of the overall current observations at a competitive level with the concordance $Λ$CDM model. It also provides an elegant global explanation of the cosmic history from a non-singular initial state in the very early universe up to our days and further into the final de Sitter era. The model has no horizon problem and provides an alternative explanation for the early inflation and its graceful exit, as well as a powerful mechanism for generating the large entropy of the current universe. The energy-momentum tensor of matter is generally non-conserved in such context owing to particle creation or annihilation. We analyze general thermodynamical aspects of particle and entropy production in the RVM. We first study the entropy of particles in the comoving volume during the early universe and late universe. Then, in order to obtain a more physical interpretation, we pay attention to the entropy contribution from the cosmological apparent horizon, its interior and its surface. On combining the inner volume entropy with the entropy on the horizon, we elucidate with detailed calculations whether the evolution of the entropy of the RVM universe satisfies the Generalized Second Law of Thermodynamics. We find it is so and we prove that the essential reason for it is the existence of a positive cosmological constant.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-10-03T17:56:55Z</published>
+    <arxiv:comment>Gen. Rel. Grav. 52 (2020) no.2, 17 (https://doi.org/10.1007/s10714-020-2657-4)</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <author>
+      <name>Joan Sola</name>
+    </author>
+    <author>
+      <name>Hao Yu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.06571v1</id>
+    <title>Entropy-bounded solutions to the compressible Navier-Stokes equations: with far field vacuum</title>
+    <updated>2017-10-18T03:12:29Z</updated>
+    <link href="https://arxiv.org/abs/1710.06571v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1710.06571v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The entropy is one of the fundamental states of a fluid and, in the viscous case, the equation that it satisfies is highly singular in the region close to the vacuum. In spite of its importance in the gas dynamics, the mathematical analyses on the behavior of the entropy near the vacuum region, were rarely carried out; in particular, in the presence of vacuum, either at the far field or at some isolated interior points, it was unknown if the entropy remains its boundedness. The results obtained in this paper indicate that the ideal gases retain their uniform boundedness of the entropy, locally or globally in time, if the vacuum occurs at the far field only and the density decays slowly enough at the far field. Precisely, we consider the Cauchy problem to the one-dimensional full compressible Navier-Stokes equations without heat conduction, and establish the local and global existence and uniqueness of entropy-bounded solutions, in the presence of vacuum at the far field only. It is also shown that, different from the case that with compactly supported initial density, the compressible Navier-Stokes equations, with slowly decaying initial density, can propagate the regularities in the inhomogeneous Sobolev spaces.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-10-18T03:12:29Z</published>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name>Jinkai Li</name>
+    </author>
+    <author>
+      <name>Zhouping Xin</name>
+    </author>
+  </entry>
+</feed>

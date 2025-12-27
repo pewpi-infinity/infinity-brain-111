@@ -1,0 +1,70 @@
+TERMS: crystal, graphene, probability
+COLORS: orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/0hcnyDkGqFaz9YjECg5+37rsj48</id>
+  <title>arXiv Query: search_query=all:crystal AND all:graphene AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:28:02Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:crystal+AND+(all:graphene+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>12</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1105.1351v6</id>
+    <title>The k.p method and its application to graphene, carbon nanotubes and graphene nanoribbons: the Dirac equation</title>
+    <updated>2020-08-17T18:53:19Z</updated>
+    <link href="https://arxiv.org/abs/1105.1351v6" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1105.1351v6" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The k.p method is a semi-empirical approach which allows to extrapolate the band structure of materials from the knowledge of a restricted set of parameters evaluated in correspondence of a single point of the reciprocal space. In the first part of this review article we give a general description of this method, both in the case of homogeneous crystals (where we consider a formulation based on the standard perturbation theory, and Kane's approach) and in the case of non-periodic systems (where, following Luttinger and Kohn, we describe the single-band and multi-band envelope function method and its application to heterostructures). The following part of our review is completely devoted to the application of the k.p method to graphene and graphene-related materials. Following Ando's approach, we show how the application of this method to graphene results in a description of its properties in terms of the Dirac equation. Then we find general expressions for the probability density and the probability current density in graphene and we compare this formulation with alternative existing representations. Finally, applying proper boundary conditions, we extend the treatment to carbon nanotubes and graphene nanoribbons, recovering their fundamental electronic properties.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-05-06T18:42:30Z</published>
+    <arxiv:comment>96 pages, 14 figures, updated journal URL. Please cite as: P. Marconcini, M. Macucci, "The k.p method and its application to graphene, carbon nanotubes and graphene nanoribbons: the Dirac equation", Riv. Nuovo Cimento, Vol. 34, Issue N. 8-9, pp. 489-584 (2011), DOI: 10.1393/ncr/i2011-10068-1 . Downloadable also from Springer at https://link.springer.com/article/10.1393/ncr/i2011-10068-1</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Riv. Nuovo Cimento, Vol. 34, Issue N. 8-9, pp. 489-584 (2011)</arxiv:journal_ref>
+    <author>
+      <name>Paolo Marconcini</name>
+    </author>
+    <author>
+      <name>Massimo Macucci</name>
+    </author>
+    <arxiv:doi>10.1393/ncr/i2011-10068-1</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1393/ncr/i2011-10068-1" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1301.4960v1</id>
+    <title>Dirac-Schrodinger transformations in contacted graphene structures</title>
+    <updated>2013-01-21T18:55:45Z</updated>
+    <link href="https://arxiv.org/abs/1301.4960v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1301.4960v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>At an interface between contacts and graphene, the mathematical equation that governs the propagation of electrons transforms from the Schrodinger to the Dirac equation. The condition of current probability conservation at such an interface does not determine uniquely the boundary conditions for the quantum wavefunction. We discuss the possible form of boundary conditions, determine its influence on the transmission coefficient of a contacted graphene structure and suggest that optical experiments on photonic crystals with Dirac points can help identifying, under certain circumstances, the proper boundary condition at graphene- electrode interfaces.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-01-21T18:55:45Z</published>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>Daniela Dragoman</name>
+    </author>
+    <arxiv:doi>10.1063/1.4808904</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/1.4808904" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1201.4451v1</id>
+    <title>The triggering role of carrier mobility in the fractional quantum Hall effect-evidence in graphene</title>
+    <updated>2012-01-21T08:43:48Z</updated>
+    <link href="https://arxiv.org/abs/1201.4451v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1201.4451v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent experiments on suspended graphene layers have indicated the crucial role of carrier mobility in the competition between Laughlin collective state and insulating state, probably of Wigner-crystal-type. Moreover, the fractional quantum Hall effect (FQHE) in graphene has been observed at a low carrier density where the interaction is reduced as a result of particles dilution. This suggests that the interaction may not be as important in the triggering of FQHE as expected based on the standard formulation of the composite fermions model. Here, the topological arguments are presented to explain these novel features of the FQHE in graphene and, the triggering role of carriers mobility in particular.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-01-21T08:43:48Z</published>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>Janusz Jacak</name>
+    </author>
+    <author>
+      <name>Lucjan Jacak</name>
+    </author>
+    <arxiv:doi>10.4236/jmp.2013.412196</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4236/jmp.2013.412196" title="doi"/>
+  </entry>
+</feed>

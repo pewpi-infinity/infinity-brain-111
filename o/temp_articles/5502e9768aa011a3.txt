@@ -1,0 +1,38 @@
+TERMS: hydrogen, frequency, spin, wavefunction
+COLORS: purple, green, yellow, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Tpw2dWR4+6wbym/Z+Ssaey//Iqs</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:frequency AND all:spin AND all:wavefunction&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:44:12Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:frequency+AND+(all:spin+AND+all:wavefunction))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1002.1534v1</id>
+    <title>Comment on "Clock Shift in High Field Magnetic Resonance of Atomic Hydrogen"</title>
+    <updated>2010-02-08T06:07:09Z</updated>
+    <link href="https://arxiv.org/abs/1002.1534v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1002.1534v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this Comment, we reanalyze the experiments on the collision frequency shift of the b-c and a-d hyperfine transitions in three-dimensional atomic hydrogen in the presence of, respectively, a and b-state atoms. Accurate consideration of the symmetry of the spatial and spin part of the diatomic wavefunction yields the difference a_T-a_S=0.30(5) Åbetween the triplet and singlet s-wave scattering lengths of hydrogen atoms. This corrects the factor-of two error of the commented work [Phys. Rev. Lett. 101, 263003 (2008)].</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-02-08T06:07:09Z</published>
+    <arxiv:comment>1 page</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 104, 099301 (2010)</arxiv:journal_ref>
+    <author>
+      <name>A. I. Safonov</name>
+    </author>
+    <author>
+      <name>I. I. Safonova</name>
+    </author>
+    <author>
+      <name>I. S. Yasnikov</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.104.099301</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.104.099301" title="doi"/>
+  </entry>
+</feed>

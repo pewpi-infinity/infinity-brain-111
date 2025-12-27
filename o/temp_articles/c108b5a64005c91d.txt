@@ -1,0 +1,155 @@
+TERMS: hydrogen, muon, probability
+COLORS: purple, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/wnjecLr5tChVXzLfWWlJUb6mu1o</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:muon AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:05:03Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:muon+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>12</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/quant-ph/0304191v1</id>
+    <title>Muon transfer from muonic hydrogen to atomic oxygen</title>
+    <updated>2003-04-29T10:40:04Z</updated>
+    <link href="https://arxiv.org/abs/quant-ph/0304191v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/quant-ph/0304191v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The muon transfer probabilities between muonic hydrogen and an oxygen atom are calculated in a constrained geometry one dimensional model for collision between 10^-6 and 10^3 eV. These estimated rates are discussed in the light of previous model calculations and available experimental data for this process.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-04-29T10:40:04Z</published>
+    <arxiv:comment>Submitted to Phys. Rev. A</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Arnaud Dupays</name>
+    </author>
+    <author>
+      <name>Bruno Lepetit</name>
+    </author>
+    <author>
+      <name>Juan Alberto Beswick</name>
+    </author>
+    <author>
+      <name>Carlo Rizzo</name>
+    </author>
+    <author>
+      <name>Dimitar Bakalov</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.67.062505</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.67.062505" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/physics/0609195v1</id>
+    <title>Ab Initio Liquid Hydrogen Muon Cooling Simulations with ELMS in ICOOL</title>
+    <updated>2006-09-22T15:08:43Z</updated>
+    <link href="https://arxiv.org/abs/physics/0609195v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/physics/0609195v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  This paper presents new theoretical results on the passage of muons through liquid hydrogen which have been confirmed in a recent experiment. These are used to demonstrate that muon bunches may be compressed by ionisation cooling more effectively than suggested by previous calculations.
+  Muon cooling depends on the differential cross section for energy loss and scattering of muons. We have calculated this cross section for liquid H2 from first principles and atomic data, avoiding traditional assumptions. Thence, 2-D probability maps of energy loss and scattering in mm-scale thicknesses are derived by folding, and stored in a database. Large first-order correlations between energy loss and scattering are found for H2, which are absent in other simulations. This code is named ELMS, Energy Loss &amp; Multiple Scattering. Single particle trajectories may then be tracked by Monte Carlo sampling from this database on a scale of 1 mm or less. This processor has been inserted into the cooling code ICOOL. Significant improvements in 6-D muon cooling are predicted compared with previous predictions based on GEANT. This is examined in various geometries. The large correlation effect is found to have only a small effect on cooling. The experimental scattering observed for liquid H2 in the MUSCAT experiment has recently been reported to be in good agreement with the ELMS prediction, but in poor agreement with GEANT simulation.</summary>
+    <category term="physics.acc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-09-22T15:08:43Z</published>
+    <arxiv:comment>6 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.acc-ph"/>
+    <arxiv:journal_ref>J.Phys.G34:679-685,2007</arxiv:journal_ref>
+    <author>
+      <name>W. W. M. Allison</name>
+      <arxiv:affiliation>Physics Dept., Oxford</arxiv:affiliation>
+    </author>
+    <author>
+      <name>J. H. Cobb</name>
+      <arxiv:affiliation>Physics Dept., Oxford</arxiv:affiliation>
+    </author>
+    <author>
+      <name>S. J. Holmes</name>
+      <arxiv:affiliation>Physics Dept., Oxford</arxiv:affiliation>
+    </author>
+    <author>
+      <name>R. C. Fernow</name>
+      <arxiv:affiliation>BNL, Upton, Long Island, New York</arxiv:affiliation>
+    </author>
+    <author>
+      <name>R. B. Palmer</name>
+      <arxiv:affiliation>BNL, Upton, Long Island, New York</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1088/0954-3899/34/4/007</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0954-3899/34/4/007" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/physics/9709029v1</id>
+    <title>Excited State Muon Transfer in Hydrogen/Deuterium Mixtures</title>
+    <updated>1997-09-19T14:20:12Z</updated>
+    <link href="https://arxiv.org/abs/physics/9709029v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/physics/9709029v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We report the first direct observation of excited state muon transfer in hydrogen/deuterium mixtures by direct measurement of q_1s, the probability that a mu-p atom, which is initially formed in an excited state, reaches the 1s ground state. The dependence of q_1s on deuterium concentration c_d was measured for two different densities at cryogenic temperatures using charge coupled devices (CCDs) to detect the muonic X rays. First results based on the analysis of the K_alpha-lines of the two isotopes are presented.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1997-09-19T14:20:12Z</published>
+    <arxiv:comment>4 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <arxiv:journal_ref>Physical Review Letters 76,25 (1996) 4693-4696</arxiv:journal_ref>
+    <author>
+      <name>B. Lauss</name>
+      <arxiv:affiliation>IMEP/OeAW,Neuchatel,TUM,PSI</arxiv:affiliation>
+    </author>
+    <author>
+      <name>P. Ackerbauer</name>
+      <arxiv:affiliation>IMEP/OeAW,Neuchatel,TUM,PSI</arxiv:affiliation>
+    </author>
+    <author>
+      <name>W. H. Breunlich</name>
+      <arxiv:affiliation>IMEP/OeAW,Neuchatel,TUM,PSI</arxiv:affiliation>
+    </author>
+    <author>
+      <name>B. Gartner</name>
+      <arxiv:affiliation>IMEP/OeAW,Neuchatel,TUM,PSI</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. Jeitler</name>
+      <arxiv:affiliation>IMEP/OeAW,Neuchatel,TUM,PSI</arxiv:affiliation>
+    </author>
+    <author>
+      <name>P. Kammel</name>
+      <arxiv:affiliation>IMEP/OeAW,Neuchatel,TUM,PSI</arxiv:affiliation>
+    </author>
+    <author>
+      <name>J. Marton</name>
+      <arxiv:affiliation>IMEP/OeAW,Neuchatel,TUM,PSI</arxiv:affiliation>
+    </author>
+    <author>
+      <name>W. Prymas</name>
+      <arxiv:affiliation>IMEP/OeAW,Neuchatel,TUM,PSI</arxiv:affiliation>
+    </author>
+    <author>
+      <name>J. Zmeskal</name>
+      <arxiv:affiliation>IMEP/OeAW,Neuchatel,TUM,PSI</arxiv:affiliation>
+    </author>
+    <author>
+      <name>D. Chatellard</name>
+      <arxiv:affiliation>IMEP/OeAW,Neuchatel,TUM,PSI</arxiv:affiliation>
+    </author>
+    <author>
+      <name>J. -P. Egger</name>
+      <arxiv:affiliation>IMEP/OeAW,Neuchatel,TUM,PSI</arxiv:affiliation>
+    </author>
+    <author>
+      <name>E. Jeannet</name>
+      <arxiv:affiliation>IMEP/OeAW,Neuchatel,TUM,PSI</arxiv:affiliation>
+    </author>
+    <author>
+      <name>H. Daniel</name>
+      <arxiv:affiliation>IMEP/OeAW,Neuchatel,TUM,PSI</arxiv:affiliation>
+    </author>
+    <author>
+      <name>F. J. Hartmann</name>
+      <arxiv:affiliation>IMEP/OeAW,Neuchatel,TUM,PSI</arxiv:affiliation>
+    </author>
+    <author>
+      <name>A. Kosak</name>
+      <arxiv:affiliation>IMEP/OeAW,Neuchatel,TUM,PSI</arxiv:affiliation>
+    </author>
+    <author>
+      <name>C. Petitjean</name>
+      <arxiv:affiliation>IMEP/OeAW,Neuchatel,TUM,PSI</arxiv:affiliation>
+    </author>
+  </entry>
+</feed>

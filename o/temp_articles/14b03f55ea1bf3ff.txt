@@ -1,0 +1,98 @@
+TERMS: hydrogen, electron, ionization, spin
+COLORS: purple, green, green, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/9kdZL93e4vTnayvp7agT6qdHbmI</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:electron AND all:ionization AND all:spin&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:55:37Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:electron+AND+(all:ionization+AND+all:spin))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>33</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/physics/0411013v2</id>
+    <title>Exact semi-relativistic model for ionization of atomic hydrogen by electron impact</title>
+    <updated>2004-11-02T22:39:50Z</updated>
+    <link href="https://arxiv.org/abs/physics/0411013v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/physics/0411013v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We present a semi-relativistic model for the description of the ionization process of atomic hydrogen by electron impact in the first Born approximation by using the Darwin wave function to describe the bound state of atomic hydrogen and the Sommerfeld-Maue wave function to describe the ejected electron. This model, accurate to first order in $Z/c$ in the relativistic correction, shows that, even at low kinetic energies of the incident electron, spin effects are small but not negligible. These effects become noticeable with increasing incident electron energies. All analytical calculations are exact and our semi-relativistic results are compared with the results obtained in the non relativistic Coulomb Born Approximation both for the coplanar asymmetric and the binary coplanar geometries.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-11-01T16:21:29Z</published>
+    <arxiv:comment>8 pages, 6 figures, Revtex</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <arxiv:journal_ref>Phys. Rev. A 71, 062705 (2005)</arxiv:journal_ref>
+    <author>
+      <name>Y. Attaourti</name>
+    </author>
+    <author>
+      <name>S. Taj</name>
+    </author>
+    <author>
+      <name>B. Manaut</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.71.062705</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.71.062705" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2403.05651v2</id>
+    <title>High-energy polarized electron beams from the ionization of isolated spin polarized hydrogen atoms</title>
+    <updated>2025-04-02T08:56:30Z</updated>
+    <link href="https://arxiv.org/abs/2403.05651v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.05651v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a laser-based method for the preparation of high-energy polarized electrons, from the ionization of isolated spin-polarized hydrogen (SPH) atoms. The SPH atoms are prepared from the photodissociation of HCl, using two consecutive UV pulses of ps duration. By appropriately timing and focusing the pulses, we can spatially separate the highly polarized SPH from other unwanted photoproducts, which then act as the target for the acceleration lasers. We show how elastic collisions define number density $n$ and polarization P regimes ($10^{16}\leq$ $n$ $\leq 10^{18}$ cm$^{-3}$, 0.99 $\geq$ P $\geq$ 0.40) for the pre-polarized targets, and use particle-in-cell simulations to demonstrate the method's feasibility.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.acc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-08T19:45:56Z</published>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>Dimitris Sofikitis</name>
+    </author>
+    <author>
+      <name>Lars Reichwein</name>
+    </author>
+    <author>
+      <name>Marios G. Stamatakis</name>
+    </author>
+    <author>
+      <name>Christos Zois</name>
+    </author>
+    <author>
+      <name>Dimitrios G. Papazoglou Samuel Cohen</name>
+    </author>
+    <author>
+      <name>Markus Büscher</name>
+    </author>
+    <author>
+      <name>Alexander Pukhov</name>
+    </author>
+    <author>
+      <name>T. Peter Rakitzis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/astro-ph/0608067v1</id>
+    <title>Spin Exchange Rates in Electron-Hydrogen Collisions</title>
+    <updated>2006-08-02T20:03:32Z</updated>
+    <link href="https://arxiv.org/abs/astro-ph/0608067v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/astro-ph/0608067v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The spin temperature of neutral hydrogen, which determines the 21 cm optical depth and brightness temperature, is set by the competition between radiative and collisional processes. In the high-redshift intergalactic medium, the dominant collisions are typically those between hydrogen atoms. However, collisions with electrons couple much more efficiently to the spin state of hydrogen than do collisions with other hydrogen atoms and thus become important once the ionized fraction exceeds ~1%. Here we compute the rate at which electron-hydrogen collisions change the hydrogen spin. Previous calculations included only S-wave scattering and ignored resonances near the n=2 threshold. We provide accurate results, including all partial wave terms through the F-wave, for the de-excitation rate at temperatures T_K &lt; 15,000 K; beyond that point, excitation to n&gt;=2 hydrogen levels becomes significant. Accurate electron-hydrogen collision rates at higher temperatures are not necessary, because collisional excitation in this regime inevitably produces Lyman-alpha photons, which in turn dominate spin exchange when T_K &gt; 6200 K even in the absence of radiative sources. Our rates differ from previous calculations by several percent over the temperature range of interest. We also consider some simple astrophysical examples where our spin de-excitation rates are useful.</summary>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-08-02T20:03:32Z</published>
+    <arxiv:comment>submitted to MNRAS, 9 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="astro-ph"/>
+    <arxiv:journal_ref>Mon.Not.Roy.Astron.Soc.374:547-555,2007</arxiv:journal_ref>
+    <author>
+      <name>Steven Furlanetto</name>
+      <arxiv:affiliation>Yale</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Michael Furlanetto</name>
+      <arxiv:affiliation>LANL</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1111/j.1365-2966.2006.11169.x</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1111/j.1365-2966.2006.11169.x" title="doi"/>
+  </entry>
+</feed>

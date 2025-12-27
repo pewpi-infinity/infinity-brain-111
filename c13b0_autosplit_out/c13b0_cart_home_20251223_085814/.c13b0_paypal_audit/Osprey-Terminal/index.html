@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>Osprey Terminal — Infinity OS</title>
+<style>
+  body { background:#000; color:#00eaff; font-family:monospace; margin:0; padding:0; }
+  #terminal { width:100%; height:60vh; background:#000; padding:10px; overflow-y:auto; border-bottom:2px solid #00eaff; }
+  #output { white-space:pre-wrap; }
+  #input-area { padding:8px; background:#000; color:#00eaff; border-top:2px solid #00eaff; }
+  #input-line { width:100%; background:#000; color:#00eaff; border:none; outline:none; font-family:monospace; font-size:16px; }
+  #status { position:fixed; left:0; bottom:0; width:100%; background:#001f26; color:#9ff; padding:6px; font-size:13px; border-top:2px solid #00eaff; box-sizing:border-box; }
+</style>
+</head>
+<body>
+
+<div id="terminal">
+  <div id="output"></div>
+</div>
+
+<div id="input-area">
+  <input id="input-line" autocomplete="off" />
+</div>
+
+<!-- Visible status bar so you can see debug messages without dev tools -->
+<div id="status">loading…</div>
+
+<!-- ROGERS PANEL (unchanged) -->
+<div id="rogers-panel" style="display:none;">
+  <div id="rogers-header">Rogers AI <span id="rogers-mode">Mode: SMART</span></div>
+  <div id="rogers-output"></div>
+  <div id="mode-buttons">
+    <div class="mode-btn" onclick="Rogers.setMode('quiet')">QUIET</div>
+    <div class="mode-btn" onclick="Rogers.setMode('smart')">SMART</div>
+    <div class="mode-btn" onclick="Rogers.setMode('full')">FULL</div>
+  </div>
+</div>
+
+<!-- Script load order (Pyodide included so python command should work) -->
+<script src="https://cdn.jsdelivr.net/pyodide/v0.23.4/full/pyodide.js"></script>
+<script src="rogers.js"></script>
+<script src="apps/intelligence-core.js"></script>
+<script src="apps/exec-engine.js"></script>
+
+<!-- Debug script to print statuses to the page -->
+<script src="apps/exec-debug.js"></script>
+
+<!-- Shell UI -->
+<script src="shell.js"></script>
+
+</body>
+</html>
+<!-- C14_TOKEN_PANEL_START -->
+<div style="font-family:monospace;background:#0b0f14;color:#e6edf3;padding:16px;margin:16px 0">
+  <div style="font-size:2.4em;color:#ffd700;text-align:center">
+    🧱🍄⭐ Token Value: 34
+  </div>
+
+  <p style="text-align:center">
+    🧱 Base &nbsp; 🍄 Growth &nbsp; ⭐ Star Power
+  </p>
+
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="get" target="_blank">
+    <input type="hidden" name="cmd" value="_xclick">
+    <input type="hidden" name="business" value="watsonkris61@gmail.com">
+    <input type="hidden" name="item_name" value="Osprey-Terminal Token">
+    <input type="hidden" name="amount" value="34">
+    <input type="hidden" name="currency_code" value="USD">
+    <button style="width:100%;padding:14px;font-size:1em">
+      Pay $34 via PayPal
+    </button>
+  </form>
+
+  <p style="font-size:0.75em;text-align:center;margin-top:10px">
+    Repository owner: pewpi-infinity<br/>
+    Contact: marvaseater@gmail.com<br/>
+    Settlement handled externally via PayPal
+  </p>
+</div>
+<!-- C14_TOKEN_PANEL_END -->

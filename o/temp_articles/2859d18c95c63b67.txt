@@ -1,0 +1,81 @@
+TERMS: lattice, spin, boson
+COLORS: orange, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/g2X8HuRsMqoo3ECJZTsGH77Zq5c</id>
+  <title>arXiv Query: search_query=all:lattice AND all:spin AND all:boson&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:15:12Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:spin+AND+all:boson)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1401</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0504193v3</id>
+    <title>CP^1+U(1) Lattice Gauge Theory in Three Dimensions: Phase Structure, Spins, Gauge Bosons, and Instantons</title>
+    <updated>2005-06-16T09:19:36Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0504193v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0504193v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this paper we study a 3D lattice spin model of CP$^1$ Schwinger-bosons coupled with dynamical compact U(1) gauge bosons. The model contains two parameters; the gauge coupling and the hopping parameter of CP$^1$ bosons. At large (weak) gauge couplings, the model reduces to the classical O(3) (O(4)) spin model with long-range and/or multi-spin interactions. It is also closely related to the recently proposed "Ginzburg-Landau" theory for quantum phase transitions of $s=1/2$ quantum spin systems on a 2D square lattice at zero temperature. We numerically study the phase structure of the model by calculating specific heat, spin correlations, instanton density, and gauge-boson mass. The model has two phases separated by a critical line of second-order phase transition; O(3) spin-ordered phase and spin-disordered phase. The spin-ordered phase is the Higgs phase of U(1) gauge dynamics, whereas the disordered phase is the confinement phase. We find a crossover in the confinement phase which separates dense and dilute regions of instantons. On the critical line, spin excitations are gapless, but the gauge-boson mass is {\it nonvanishing}. This indicates that a confinement phase is realized on the critical line. To confirm this point, we also study the noncompact version of the model. A possible realization of a deconfinement phase on the criticality is discussed for the CP$^N$+U(1) model with larger $N$.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-04-08T13:16:08Z</published>
+    <arxiv:comment>Discussion of finite size scaling, O(4) spin correlation added</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Phys.Rev. B72 (2005) 075112</arxiv:journal_ref>
+    <author>
+      <name>Shunsuke Takashima</name>
+    </author>
+    <author>
+      <name>Ikuo Ichinose</name>
+    </author>
+    <author>
+      <name>Tetsuo Matsui</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.72.075112</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.72.075112" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2109.02657v2</id>
+    <title>Phases and dynamics of ultracold bosons in a tilted optical lattice</title>
+    <updated>2021-09-13T12:11:07Z</updated>
+    <link href="https://arxiv.org/abs/2109.02657v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2109.02657v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a brief overview of the phases and dynamics of ultracold bosons in an optical lattice in the presence of a tilt. We begin with a brief summary of the possible experimental setup for generating the tilt. This is followed by a discussion of the effective low-energy model for these systems and its equilibrium phases. We also chart the relation of this model to the recently studied system of ultracold Rydberg atoms. Next, we discuss the non-equilibrium dynamics of this model for quench, ramp and periodic protocols with emphasis on the periodic drive which can be understood in terms of an analytic, albeit perturbative, Floquet Hamiltonian derived using Floquet perturbation theory (FPT). Finally, taking cue from the Floquet Hamiltonian of the periodically driven tilted boson chain, we discuss a spin model which exhibits Hilbert space fragmentation and exact dynamical freezing for wide range of initial states.</summary>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-09-06T18:00:02Z</published>
+    <arxiv:comment>v2: added references along with minor changes. 22 pages; to appear in "Springer volume: Entanglement in Spin Chains -- Theory and Quantum Technology Applications"</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.quant-gas"/>
+    <arxiv:journal_ref>Springer Vol "Entanglement in Spin Chains" (2022)</arxiv:journal_ref>
+    <author>
+      <name>K. Sengupta</name>
+    </author>
+    <arxiv:doi>10.1007/978-3-031-03998-0</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/978-3-031-03998-0" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-lat/9412075v1</id>
+    <title>K^0--\bar{K}^0 mixing in full lattice QCD</title>
+    <updated>1994-12-14T19:25:04Z</updated>
+    <link href="https://arxiv.org/abs/hep-lat/9412075v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-lat/9412075v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  There are at least two methods to calculate $ B_K $ with staggered fermions: one is the two spin trace formalism and the other is the one spin trace formalism. We have performed numerical simulations on a $ 16^3 \times 40 $ lattice in full QCD with $ β= 5.7 $ and a dynamical quark mass 0.01 in lattice units. We try various sources to select only the pseudo-Goldstone bosons and compare the various results.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1994-12-14T19:25:04Z</published>
+    <arxiv:comment>Contribution to Lattice 94, 3 pages, Compressed, uuenocded postscript file of the complete paper</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>Nucl.Phys.Proc.Suppl.42:418-420,1995</arxiv:journal_ref>
+    <author>
+      <name>Weonjong Lee</name>
+    </author>
+    <author>
+      <name>Markus Klomfass</name>
+    </author>
+    <arxiv:doi>10.1016/0920-5632(95)00268-E</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/0920-5632(95)00268-E" title="doi"/>
+  </entry>
+</feed>

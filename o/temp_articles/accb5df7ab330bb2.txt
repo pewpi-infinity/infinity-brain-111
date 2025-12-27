@@ -1,0 +1,61 @@
+TERMS: entropy, wavefunction, plasma
+COLORS: red, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/cZNZo68vYVrUjVaVn6aujPNdWag</id>
+  <title>arXiv Query: search_query=all:entropy AND all:wavefunction AND all:plasma&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:18:31Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+(all:wavefunction+AND+all:plasma)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1802.05278v1</id>
+    <title>Matrix Product State description of the Halperin States</title>
+    <updated>2018-02-14T19:00:04Z</updated>
+    <link href="https://arxiv.org/abs/1802.05278v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1802.05278v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Many fractional quantum Hall states can be expressed as a correlator of a given conformal field theory used to describe their edge physics. As a consequence, these states admit an economical representation as an exact Matrix Product States (MPS) that was extensively studied for the systems without any spin or any other internal degrees of freedom. In that case, the correlators are built from a single electronic operator, which is primary with respect to the underlying conformal field theory. We generalize this construction to the archetype of Abelian multicomponent fractional quantum Hall wavefunctions, the Halperin states. These latest can be written as conformal blocks involving multiple electronic operators and we explicitly derive their exact MPS representation. In particular, we deal with the caveat of the full wavefunction symmetry and show that any additional SU(2) symmetry is preserved by the natural MPS truncation scheme provided by the conformal dimension. We use our method to characterize the topological order of the Halperin states by extracting the topological entanglement entropy. We also evaluate their bulk correlation length which are compared to plasma analogy arguments.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-02-14T19:00:04Z</published>
+    <arxiv:comment>23 pages, 16 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Phys. Rev. B 97, 165136 (2018)</arxiv:journal_ref>
+    <author>
+      <name>Valentin Crepel</name>
+    </author>
+    <author>
+      <name>Benoit Estienne</name>
+    </author>
+    <author>
+      <name>B. Andrei Bernevig</name>
+    </author>
+    <author>
+      <name>Philippe Lecheminant</name>
+    </author>
+    <author>
+      <name>Nicolas Regnault</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.97.165136</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.97.165136" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1510.03875v19</id>
+    <title>A one parameter fit for glassy dynamics as a corollary of the equilibrium liquid to solid transition</title>
+    <updated>2016-12-15T09:56:53Z</updated>
+    <link href="https://arxiv.org/abs/1510.03875v19" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1510.03875v19" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We apply microcanonical ensemble considerations to suggest that, whenever it may thermalize, a general disorder-free many-body Hamiltonian of a typical atomic system has solid-like eigenstates at low energies and fluid-type (and gaseous, plasma) eigenstates associated with energy densities exceeding those present in the melting (and, respectively, higher energy) transition(s). In particular, the lowest energy density at which the eigenstates of such a clean many body atomic system undergo a non-analytic change is that of the melting (or freezing) transition. We invoke this observation to analyze the evolution of a liquid upon supercooling (i.e., cooling rapidly enough to avoid solidification below the freezing temperature). Expanding the wavefunction of a supercooled liquid in the complete eigenbasis of the many-body Hamiltonian, only the higher energy liquid-type eigenstates contribute significantly to measurable hydrodynamic relaxations (e.g., those probed by viscosity) while static thermodynamic observables become weighted averages over both solid- and liquid-type eigenstates. Consequently, when extrapolated to low temperatures, hydrodynamic relaxation times of deeply supercooled liquids (i.e., glasses) may seem to diverge at nearly the same temperature at which the extrapolated entropy of the supercooled liquid becomes that of the solid. In this formal quantum framework, the increasingly sluggish (and spatially heterogeneous) dynamics in supercooled liquids as their temperature is lowered stems from the existence of the single non-analytic change of the eigenstates of the clean many-body Hamiltonian at the equilibrium melting transition present in low energy solid-type eigenstates. We derive a single (possibly computable) dimensionless parameter fit to the viscosity and suggest other testable predictions of our approach.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-10-13T20:18:06Z</published>
+    <arxiv:comment>30 pages, 3 figures, 1 table; to appear in Philosophical Magazine</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <author>
+      <name>Zohar Nussinov</name>
+    </author>
+  </entry>
+</feed>

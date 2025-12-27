@@ -1,0 +1,78 @@
+TERMS: hydrogen, frequency, spin, plasma
+COLORS: purple, green, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Fb+WojvRLKVKxi4gYFVf2KTzRIg</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:frequency AND all:spin AND all:plasma&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:44:18Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:frequency+AND+(all:spin+AND+all:plasma))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2004.01592v2</id>
+    <title>Plasma-enhanced atomic layer deposition of nickel nanotubes with low resistivity and coherent magnetization dynamics for 3D spintronics</title>
+    <updated>2020-04-07T09:47:37Z</updated>
+    <link href="https://arxiv.org/abs/2004.01592v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2004.01592v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We report plasma-enhanced atomic layer deposition (ALD) to prepare conformal nickel thin films and nanotubes by using nickelocene as a precursor, water as the oxidant agent and an in-cycle plasma enhanced reduction step with hydrogen. The optimized ALD pulse sequence, combined with a post-processing annealing treatment, allowed us to prepare 30 nm thick metallic Ni layers with a resistivity of 8 $μΩ$cm at room temperature and good conformality both on the planar substrates and nanotemplates. Thereby we fabricated several micrometer-long nickel nanotubes with diameters ranging from 120 to 330 nm. We report on the correlation between ALD growth and functional properties of individual Ni nanotubes characterized in terms of magneto-transport and the confinement of spin wave modes. The findings offer novel perspectives for Ni-based spintronics and magnonic devices operated in the GHz frequency regime with a 3D device architecture.</summary>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-04-03T14:30:59Z</published>
+    <arxiv:comment>32 pages, 12 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.app-ph"/>
+    <author>
+      <name>M. C. Giordano</name>
+    </author>
+    <author>
+      <name>K. Baumgaertl</name>
+    </author>
+    <author>
+      <name>S. R. Escobar Steinvall</name>
+    </author>
+    <author>
+      <name>J. Gay</name>
+    </author>
+    <author>
+      <name>M. Vuichard</name>
+    </author>
+    <author>
+      <name>A. Fontcuberta i Morral</name>
+    </author>
+    <author>
+      <name>D. Grundler</name>
+    </author>
+    <arxiv:doi>10.1021/acsami.0c06879</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1021/acsami.0c06879" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2105.01969v1</id>
+    <title>Ni$_{80}$Fe$_{20}$ Nanotubes with Optimized Spintronic Functionalities Prepared by Atomic Layer Deposition</title>
+    <updated>2021-05-05T10:47:44Z</updated>
+    <link href="https://arxiv.org/abs/2105.01969v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2105.01969v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Permalloy Ni$_{80}$Fe$_{20}$ is one of the key magnetic materials in the field of magnonics. Its potential would be further unveiled if it could be deposited in three dimensional (3D) architectures of sizes down to the nanometer. Atomic Layer Deposition, ALD, is the technique of choice for covering arbitrary shapes with homogeneous thin films. Early successes with ferromagnetic materials include nickel and cobalt. Still, challenges in depositing ferromagnetic alloys reside in the synthesis via decomposing the consituent elements at the same temperature and homogeneously. We report plasma-enhanced ALD to prepare permalloy Ni$_{80}$Fe$_{20}$ thin films and nanotubes using nickelocene and iron(III) tert-butoxide as metal precursors, water as the oxidant agent and an in-cycle plasma enhanced reduction step with hydrogen. We have optimized the ALD cycle in terms of Ni:Fe atomic ratio and functional properties. We obtained a Gilbert damping of 0.013, a resistivity of 28 $μΩ$cm and an anisotropic magnetoresistance effect of 5.6 $\%$ in the planar thin film geometry. We demonstrate that the process also works for covering GaAs nanowires, resulting in permalloy nanotubes with high aspect ratios and diameters of about 150 nm. Individual nanotubes were investigated in terms of crystal phase, composition and spin-dynamic response by microfocused Brillouin Light Scattering. Our results enable NiFe-based 3D spintronics and magnonic devices in curved and complex topology operated in the GHz frequency regime.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-05-05T10:47:44Z</published>
+    <arxiv:comment>19 pages, 14 figures (including supplementary information)</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Maria Carmen Giordano</name>
+    </author>
+    <author>
+      <name>Simon Escobar Steinvall</name>
+    </author>
+    <author>
+      <name>Sho Watanabe</name>
+    </author>
+    <author>
+      <name>Anna Fontcuberta i Morral</name>
+    </author>
+    <author>
+      <name>Dirk Grundler</name>
+    </author>
+    <arxiv:doi>10.1039/d1nr02291a</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1039/d1nr02291a" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,129 @@
+TERMS: hydrogen, quantum, superconductivity
+COLORS: purple, blue, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ZgPdZ5wqWF47+GvxXBvvrO/+lZ4</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:superconductivity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:01:24Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+all:superconductivity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>113</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2112.14193v3</id>
+    <title>A full circuit-based quantum algorithm for excited-states in quantum chemistry</title>
+    <updated>2024-01-03T06:31:58Z</updated>
+    <link href="https://arxiv.org/abs/2112.14193v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2112.14193v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Utilizing quantum computer to investigate quantum chemistry is an important research field nowadays. In addition to the ground-state problems that have been widely studied, the determination of excited-states plays a crucial role in the prediction and modeling of chemical reactions and other physical processes. Here, we propose a non-variational full circuit-based quantum algorithm for obtaining the excited-state spectrum of a quantum chemistry Hamiltonian. Compared with previous classical-quantum hybrid variational algorithms, our method eliminates the classical optimization process, reduces the resource cost caused by the interaction between different systems, and achieves faster convergence rate and stronger robustness against noise without barren plateau. The parameter updating for determining the next energy-level is naturally dependent on the energy measurement outputs of the previous energy-level and can be realized by only modifying the state preparation process of ancillary system, introducing little additional resource overhead. Numerical simulations of the algorithm with hydrogen, LiH, H2O and NH3 molecules are presented. Furthermore, we offer an experimental demonstration of the algorithm on a superconducting quantum computing platform, and the results show a good agreement with theoretical expectations. The algorithm can be widely applied to various Hamiltonian spectrum determination problems on the fault-tolerant quantum computers.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-12-28T15:48:09Z</published>
+    <arxiv:comment>accepted for publication in Quantum</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Quantum 8, 1219 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Jingwei Wen</name>
+    </author>
+    <author>
+      <name>Zhengan Wang</name>
+    </author>
+    <author>
+      <name>Chitong Chen</name>
+    </author>
+    <author>
+      <name>Junxiang Xiao</name>
+    </author>
+    <author>
+      <name>Hang Li</name>
+    </author>
+    <author>
+      <name>Ling Qian</name>
+    </author>
+    <author>
+      <name>Zhiguo Huang</name>
+    </author>
+    <author>
+      <name>Heng Fan</name>
+    </author>
+    <author>
+      <name>Shijie Wei</name>
+    </author>
+    <author>
+      <name>Guilu Long</name>
+    </author>
+    <arxiv:doi>10.22331/q-2024-01-04-1219</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.22331/q-2024-01-04-1219" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1512.02933v1</id>
+    <title>Quantum Hydrogen-Bond Symmetrization and High-Temperature Superconductivity in Hydrogen Sulfide</title>
+    <updated>2015-12-09T16:34:36Z</updated>
+    <link href="https://arxiv.org/abs/1512.02933v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1512.02933v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Hydrogen compounds are peculiar as the quantum nature of the proton can crucially affect their structural and physical properties. A remarkable example are the high-pressure phases of H$_2$O, where quantum proton fluctuations favor the symmetrization of the H bond and lower by 30 GPa the boundary between the asymmetric structure and the symmetric one. Here we show that an analogous quantum symmetrization occurs in the recently discovered sulfur hydride superconductor with the record superconducting critical temperature $T_c=203$ K at 155 GPa. In this system, according to classical theory, superconductivity occurs via formation of a structure of stoichiometry H$_3$S with S atoms arranged on a body-centered-cubic (bcc) lattice. For $P \gtrsim 175$ GPa, the H atoms are predicted to sit midway between two S atoms, in a structure with $Im\bar3m$ symmetry. At lower pressures the H atoms move to an off-center position forming a short H$-$S covalent bond and a longer H$\cdots$S hydrogen bond, in a structure with $R3m$ symmetry. X-ray diffraction experiments confirmed the H$_3$S stoichiometry and the S lattice sites, but were unable to discriminate between the two phases. Our present ab initio density-functional theory (DFT) calculations show that the quantum nuclear motion lowers the symmetrization pressure by 72 GPa. Consequently, we predict that the $Im\bar3m$ phase is stable over the whole pressure range within which a high $T_c$ was measured. The observed pressure-dependence of $T_c$ is closely reproduced in our calculations for the $Im\bar3m$ phase, but not for the $R3m$ phase. Thus, the quantum nature of the proton completely rules the superconducting phase diagram of H$_3$S.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-12-09T16:34:36Z</published>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <arxiv:journal_ref>Nature 532, 81-84 (2016)</arxiv:journal_ref>
+    <author>
+      <name>Ion Errea</name>
+    </author>
+    <author>
+      <name>Matteo Calandra</name>
+    </author>
+    <author>
+      <name>Chris J. Pickard</name>
+    </author>
+    <author>
+      <name>Joseph Nelson</name>
+    </author>
+    <author>
+      <name>Richard J. Needs</name>
+    </author>
+    <author>
+      <name>Yinwei Li</name>
+    </author>
+    <author>
+      <name>Hanyu Liu</name>
+    </author>
+    <author>
+      <name>Yunwei Zhang</name>
+    </author>
+    <author>
+      <name>Yanming Ma</name>
+    </author>
+    <author>
+      <name>Francesco Mauri</name>
+    </author>
+    <arxiv:doi>10.1038/nature17175</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/nature17175" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1607.02348v1</id>
+    <title>The quantum nature of the superconducting hydrogen sulfide at finite temperatures</title>
+    <updated>2016-07-08T12:57:29Z</updated>
+    <link href="https://arxiv.org/abs/1607.02348v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1607.02348v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>H$_3$S is believed to the most possible high-temperature superconducting ($T_{\text{c}}$) phase of hydrogen sulfide at $\sim$200 GPa. It's isotope substitution of hydrogen (H) by deuterium (D), however, shows an anomalous $T_{\text{c}}$ decrease of $\sim$100 K at 140 to 160 GPa, much larger than the Bardeen-Cooper-Schrieffer theory prediction. Using ab initio path-integral molecular dynamics (PIMD), we show that the nuclear quantum effects (NQEs) influence the structures of H$_3$S and D$_3$S differently at finite temperatures and the interval when H$_3$S possesses the symmetric high $T_{\text{c}}$ structure while D$_3$S does not is in agreement with, though their absolute values are lower than experiments. This is consistent with an earlier theoretical study using the stochastic self-consistent harmonic approximation method in descriptions of the nuclei at 0 K.The remaining discrepancy can be substantially improved when the electronic structures are calculated using a hybrid function. Our study presents a simple picture to interpret the isotope dependent of $T_{\text{c}}$ and emphasizes the quantum nature in the high-pressure hydrogen sulfide system.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-07-08T12:57:29Z</published>
+    <arxiv:comment>7 pages</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>Ying Yuan</name>
+    </author>
+    <author>
+      <name>Yexin Feng</name>
+    </author>
+    <author>
+      <name>Lifeng Bian</name>
+    </author>
+    <author>
+      <name>Dong-Bo Zhang</name>
+    </author>
+    <author>
+      <name>Xin-Zheng Li</name>
+    </author>
+  </entry>
+</feed>

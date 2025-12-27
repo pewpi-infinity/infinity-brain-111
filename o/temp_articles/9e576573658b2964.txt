@@ -1,0 +1,57 @@
+TERMS: entropy, vapor, bandgap
+COLORS: red, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Rj1FKxzJYt6bU9KxacHpVq9xae4</id>
+  <title>arXiv Query: search_query=all:entropy AND all:vapor AND all:bandgap&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:17:26Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+(all:vapor+AND+all:bandgap)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2510.11081v1</id>
+    <title>Entropy Engineering-Regulated Electron-Phonon Coupling for Highly Efficient Photoluminescence in Se-doped WS2</title>
+    <updated>2025-10-13T07:21:24Z</updated>
+    <link href="https://arxiv.org/abs/2510.11081v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.11081v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The limited quantum yield of strained monolayer transition metal dichalcogenides grown by vapor-phase methods and during transfer-based stacking poses a fundamental challenge for their optoelectronic applications. Here, we introduce the concept of "entropy engineering" as a transformative strategy to selectively enhance light-matter interactions through controlled electron-phonon coupling. We unveil how tailored entropy introduced via precise selenium doping or interfacial van der Waals proximity can significantly amplify radiative recombination from momentum-dark excitons in WS2 monolayers. Notably, we discover that slight selenium doping drastically enhances the photoluminescence (PL) of WS2 under strain. While both undoped and heavily doped WS2 suffer from strong PL quenching owing to the direct-to-indirect bandgap transition, lightly Se-doped samples exhibit an order-of-magnitude increase in emission intensity. This counterintuitive boost is traced to doping-induced structural disorder, which intensifies electron-phonon interactions and unlocks efficient phonon-assisted emission from otherwise non-radiative indirect excitons. Moreover, we demonstrate that van der Waals coupling to adjacent Se-doped layers can impart interfacial entropy and further augment PL via proximity effects. Our work highlights entropy engineering via controlled doping as a powerful strategy for activating high-efficiency light emission in atomically thin semiconductors.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-13T07:21:24Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Chi Zhang</name>
+    </author>
+    <author>
+      <name>Quan Shen</name>
+    </author>
+    <author>
+      <name>Mengmeng Zhang</name>
+    </author>
+    <author>
+      <name>Zhiming Deng</name>
+    </author>
+    <author>
+      <name>Taishen Wu</name>
+    </author>
+    <author>
+      <name>Xuying Zhong</name>
+    </author>
+    <author>
+      <name>Gang Ouyang</name>
+    </author>
+    <author>
+      <name>Dongsheng Tang</name>
+    </author>
+    <author>
+      <name>Qi Zheng</name>
+    </author>
+    <author>
+      <name>Jiansheng Dong</name>
+    </author>
+    <author>
+      <name>Weichang Zhou</name>
+    </author>
+  </entry>
+</feed>

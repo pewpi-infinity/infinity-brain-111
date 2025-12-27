@@ -1,0 +1,145 @@
+TERMS: ionization, superconductivity, probability
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/YBa3pBxU1JeQZ7QbaQWs4QivKok</id>
+  <title>arXiv Query: search_query=all:ionization AND all:superconductivity AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:29:06Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:ionization+AND+(all:superconductivity+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>4</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2402.15471v2</id>
+    <title>Modeling phonon-mediated quasiparticle poisoning in superconducting qubit arrays</title>
+    <updated>2024-08-02T19:52:46Z</updated>
+    <link href="https://arxiv.org/abs/2402.15471v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.15471v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Correlated errors caused by ionizing radiation impacting superconducting qubit chips are problematic for quantum error correction. Such impacts generate quasiparticle (QP) excitations in the qubit electrodes, which temporarily reduce qubit coherence significantly. The many energetic phonons produced by a particle impact travel efficiently throughout the device substrate and generate quasiparticles with high probability, thus causing errors on a large fraction of the qubits in an array simultaneously. We describe a comprehensive strategy for the numerical simulation of the phonon and quasiparticle dynamics in the aftermath of an impact. We compare the simulations with experimental measurements of phonon-mediated QP poisoning and demonstrate that our modeling captures the spatial and temporal footprint of the QP poisoning for various configurations of phonon downconversion structures. We thus present a path forward for the operation of superconducting quantum processors in the presence of ionizing radiation.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-23T18:02:51Z</published>
+    <arxiv:comment>18 pages, 15 figures, 2 tables</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Physical Review B 110, 024519 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Eric Yelton</name>
+    </author>
+    <author>
+      <name>Clayton P. Larson</name>
+    </author>
+    <author>
+      <name>Vito Iaia</name>
+    </author>
+    <author>
+      <name>Kenneth Dodge</name>
+    </author>
+    <author>
+      <name>Guglielmo La Magna</name>
+    </author>
+    <author>
+      <name>Paul G. Baity</name>
+    </author>
+    <author>
+      <name>Ivan V. Pechenezhskiy</name>
+    </author>
+    <author>
+      <name>Robert McDermott</name>
+    </author>
+    <author>
+      <name>Noah Kurinsky</name>
+    </author>
+    <author>
+      <name>Gianluigi Catelani</name>
+    </author>
+    <author>
+      <name>Britton L. T. Plourde</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.110.024519</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.110.024519" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2309.01872v3</id>
+    <title>Line identification of extreme ultraviolet spectra from aluminum ions in EAST Tokamak plasmas</title>
+    <updated>2024-01-31T14:58:55Z</updated>
+    <link href="https://arxiv.org/abs/2309.01872v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2309.01872v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Extreme ultraviolet (EUV) spectra emitted from aluminum in the 5-340 A wavelength range were observed in Experimental Advanced Superconducting Tokamak (EAST) discharges. Several spectral lines from aluminum ions with different degrees of ionization were successfully observed with sufficient spectral intensities and resolutions using three fast-time-response EUV spectrometers. The line identification uses three independent state-of-art computational codes for the atomic structure calculations, which provide the wavelengths and radiative transition probabilities rate coefficients. These programs are HULLAC (Hebrew University - Lawrence Livermore Atomic Code), AUTOSTRUCTURE, and FAC (Flexible Atomic Code). Using three different codes allows us to resolve some ambiguities in identifying certain spectral lines and assess the validity of the theoretical predictions.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-09-05T00:34:24Z</published>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <arxiv:journal_ref>Phys. Scr. 99 (2024) 025615</arxiv:journal_ref>
+    <author>
+      <name>Fengling Zhang</name>
+    </author>
+    <author>
+      <name>Ling Zhang</name>
+    </author>
+    <author>
+      <name>Wenming Zhang</name>
+    </author>
+    <author>
+      <name>Yunxin Cheng</name>
+    </author>
+    <author>
+      <name>Ailan Hu</name>
+    </author>
+    <author>
+      <name>Xiaobin Ding</name>
+    </author>
+    <author>
+      <name>Shigeru Morita</name>
+    </author>
+    <author>
+      <name>Zhengwei Li</name>
+    </author>
+    <author>
+      <name>Zhen Zhou</name>
+    </author>
+    <author>
+      <name>Yiming Cao</name>
+    </author>
+    <author>
+      <name>Jiuyang Ma</name>
+    </author>
+    <author>
+      <name>Zhehao Xu</name>
+    </author>
+    <author>
+      <name>Lang Xu</name>
+    </author>
+    <author>
+      <name>Chenxi Zhou</name>
+    </author>
+    <author>
+      <name>Yinxian Jie</name>
+    </author>
+    <author>
+      <name>Darío Mitnik</name>
+    </author>
+    <arxiv:doi>10.1088/1402-4896/ad2049</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1402-4896/ad2049" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2012.12423v1</id>
+    <title>Sensor-assisted fault mitigation in quantum computation</title>
+    <updated>2020-12-23T00:17:32Z</updated>
+    <link href="https://arxiv.org/abs/2012.12423v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2012.12423v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a method to assist fault mitigation in quantum computation through the use of sensors co-located near physical qubits. Specifically, we consider using transition edge sensors co-located on silicon substrates hosting superconducting qubits to monitor for energy injection from ionizing radiation, which has been demonstrated to increase decoherence in transmon qubits. We generalize from these two physical device concepts and explore the potential advantages of co-located sensors to assist fault mitigation in quantum computation. In the simplest scheme, co-located sensors beneficially assist rejection of calculations potentially affected by environmental disturbances. Investigating the potential computational advantage further required development of an extension to the standard formulation of quantum error correction. In a specific case of the standard three-qubit, bit-flip quantum error correction code, we show that given a 20% overall error probability per qubit, approximately 90% of repeated calculation attempts are correctable. However, when sensor-detectable errors account for 45% of overall error probability, the use of co-located sensors uniquely associated with independent qubits boosts the fraction of correct final-state calculations to 96%, at the cost of rejecting 7% of repeated calculation attempts.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-12-23T00:17:32Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Phys. Rev. Applied 16, 024025 (2021)</arxiv:journal_ref>
+    <author>
+      <name>John L. Orrell</name>
+    </author>
+    <author>
+      <name>Ben Loer</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevApplied.16.024025</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevApplied.16.024025" title="doi"/>
+  </entry>
+</feed>

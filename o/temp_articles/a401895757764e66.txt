@@ -1,0 +1,96 @@
+TERMS: lattice, muon, singularity
+COLORS: orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/feirTaDoW2J9ZkpVB98pgtTM/kw</id>
+  <title>arXiv Query: search_query=all:lattice AND all:muon AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:16:10Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:muon+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>12</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2007.05584v1</id>
+    <title>Infrared-suppressed QCD coupling and the hadronic contribution to muon g-2</title>
+    <updated>2020-07-10T19:46:43Z</updated>
+    <link href="https://arxiv.org/abs/2007.05584v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2007.05584v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A variant of QCD with the coupling suppressed in the infrared (IR) regime, as suggested by large-volume lattice calculations of the Landau-gauge gluon and ghost dressing functions, is considered. The coupling is further restricted by the condition of approximate coincidence with perturbative QCD in the high momentum regime, and by the $τ$-lepton semihadronic decay rate in the intermediate momentum regime, the rate which is evaluated by a renormalon-motivated resummation method. The obtained coupling turns out to be free of Landau singularities. The $D=4,6$ condensate values of the Adler function are then extracted by application of the Borel sum rules to the OPAL and ALEPH (V+A)-channel data of $τ$-decay, and the corresponding V-channel condensate values are deduced as well. We then show that the correct value of the hadronic vacuum polarization contribution to the muon anomalous magnetic moment, $a_μ^{\rm had(1)}$, is reproduced by regularizing the $D=4,6$ OPE terms in the V-channel Adler function with IR-regularization masses ${\cal M}_{D/2} \lesssim 1 \ {\rm GeV}$, suggesting the internal consistency of the presented QCD framework.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-07-10T19:46:43Z</published>
+    <arxiv:comment>14 pages, 5 Figures, published in J.Phys.G</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Gorazd Cvetic</name>
+    </author>
+    <author>
+      <name>Reinhart Kogerler</name>
+    </author>
+    <arxiv:doi>10.1088/1361-6471/aba421</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1361-6471/aba421" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1805.01471v2</id>
+    <title>Pion-pole contribution to hadronic light-by-light scattering in the anomalous magnetic moment of the muon</title>
+    <updated>2018-09-13T17:09:43Z</updated>
+    <link href="https://arxiv.org/abs/1805.01471v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1805.01471v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The $π^0$ pole constitutes the lowest-lying singularity of the hadronic light-by-light (HLbL) tensor, and thus provides the leading contribution in a dispersive approach to HLbL scattering in the anomalous magnetic moment of the muon $(g-2)_μ$. It is unambiguously defined in terms of the doubly-virtual pion transition form factor, which in principle can be accessed in its entirety by experiment. We demonstrate that, in the absence of a direct measurement, the full space-like doubly-virtual form factor can be reconstructed very accurately based on existing data for $e^+e^-\to 3π$, $e^+e^-\to e^+e^-π^0$, and the $π^0\toγγ$ decay width. We derive a representation that incorporates all the low-lying singularities of the form factor, matches correctly onto the asymptotic behavior expected from perturbative QCD, and is suitable for the evaluation of the $(g-2)_μ$ loop integral. The resulting value, $a_μ^{π^0\text{-pole}}=62.6^{+3.0}_{-2.5}\times 10^{-11}$, for the first time, represents a complete data-driven determination of the pion-pole contribution with fully controlled uncertainty estimates. In particular, we show that already improved singly-virtual measurements alone would allow one to further reduce the uncertainty in $a_μ^{π^0\text{-pole}}$.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-05-03T18:00:01Z</published>
+    <arxiv:comment>7 pages, 4 figures; journal version</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 121, 112002 (2018)</arxiv:journal_ref>
+    <author>
+      <name>Martin Hoferichter</name>
+    </author>
+    <author>
+      <name>Bai-Long Hoid</name>
+    </author>
+    <author>
+      <name>Bastian Kubis</name>
+    </author>
+    <author>
+      <name>Stefan Leupold</name>
+    </author>
+    <author>
+      <name>Sebastian P. Schneider</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.121.112002</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.121.112002" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2411.08098v2</id>
+    <title>Precision evaluation of the $η$- and $η'$-pole contributions to hadronic light-by-light scattering in the anomalous magnetic moment of the muon</title>
+    <updated>2025-04-29T15:45:00Z</updated>
+    <link href="https://arxiv.org/abs/2411.08098v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.08098v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Next to the $π^0$ pole, $η$ and $η'$ intermediate states give rise to the leading singularities of the hadronic light-by-light tensor, resulting in sizable contributions to the anomalous magnetic moment of the muon $a_μ$. The strength of the poles is determined by the respective transition form factors (TFFs) to two (virtual) photons. We present a calculation of these TFFs that implements a number of low- and high-energy constraints, including the $η^{(\prime)}\toγγ$ decay widths, $η^{(\prime)}\toπ^+π^-γ$ spectra, chiral symmetry for the $η^{(\prime)}\to 2(π^+π^-)$ amplitudes, vector-meson couplings, and asymptotic limits. Crucially, we investigate the role of the leading left-hand singularity generated by the exchange of the $a_2$ tensor meson, yielding, for the first time, an estimate of the associated factorization-breaking corrections. Our final results, $a_μ^{η\text{-pole}}=14.7(9)\times 10^{-11}$ and $a_μ^{η'\text{-pole}}=13.5(7)\times 10^{-11}$, conclude a dedicated effort to evaluate the pseudoscalar-pole contributions to hadronic light-by-light scattering using dispersion relations, amounting to a combined $a_μ^{\text{PS-poles}}=91.2^{+2.9}_{-2.4}\times 10^{-11}$.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-12T19:00:00Z</published>
+    <arxiv:comment>8 pages, 3 figures, version published in PRL</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 134, 171902 (2025)</arxiv:journal_ref>
+    <author>
+      <name>Simon Holz</name>
+    </author>
+    <author>
+      <name>Martin Hoferichter</name>
+    </author>
+    <author>
+      <name>Bai-Long Hoid</name>
+    </author>
+    <author>
+      <name>Bastian Kubis</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.134.171902</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.134.171902" title="doi"/>
+  </entry>
+</feed>

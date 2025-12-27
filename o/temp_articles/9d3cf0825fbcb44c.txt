@@ -1,0 +1,78 @@
+TERMS: entropy, fusion, singularity
+COLORS: red, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/rhlDgAiWLJoTi2A8pHteGioJK/8</id>
+  <title>arXiv Query: search_query=all:entropy AND all:fusion AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:16:57Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+(all:fusion+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>4</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1810.01335v6</id>
+    <title>Light Cone Bootstrap in General 2D CFTs and Entanglement from Light Cone Singularity</title>
+    <updated>2019-02-18T11:56:30Z</updated>
+    <link href="https://arxiv.org/abs/1810.01335v6" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1810.01335v6" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The light cone OPE limit provides a significant amount of information regarding the conformal field theory (CFT), like the high-low temperature limit of the partition function. We started with the light cone bootstrap in the {\it general} CFT ${}_2$ with $c&gt;1$. For this purpose, we needed an explicit asymptotic form of the Virasoro conformal blocks in the limit $z \to 1$, which was unknown until now. In this study, we computed it in general by studying the pole structure of the {\it fusion matrix} (or the crossing kernel). Applying this result to the light cone bootstrap, we obtained the universal total twist (or equivalently, the universal binding energy) of two particles at a large angular momentum. In particular, we found that the total twist is saturated by the value $\frac{c-1}{12}$ if the total Liouville momentum exceeds beyond the {\it BTZ threshold}. This might be interpreted as a black hole formation in AdS${}_3$. As another application of our light cone singularity, we studied the dynamics of entanglement after a global quench and found a Renyi phase transition as the replica number was varied. We also investigated the dynamics of the 2nd Renyi entropy after a local quench. We also provide a universal form of the Regge limit of the Virasoro conformal blocks from the analysis of the light cone singularity. This Regge limit is related to the general $n$-th Renyi entropy after a local quench and out of time ordered correlators.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-10-02T15:53:43Z</published>
+    <arxiv:comment>45 pages,13 figures, corrected typos</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Yuya Kusuki</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP01(2019)025</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP01(2019)025" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1905.02191v2</id>
+    <title>Entanglement Entropy, OTOC and Bootstrap in 2D CFTs from Regge and Light Cone Limits of Multi-point Conformal Block</title>
+    <updated>2019-08-12T18:05:27Z</updated>
+    <link href="https://arxiv.org/abs/1905.02191v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1905.02191v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We explore the structures of light cone and Regge limit singularities of $n$-point Virasoro conformal blocks in $c&gt;1$ two-dimensional conformal field theories with no chiral primaries, using fusion matrix approach. These CFTs include not only holographic CFTs dual to classical gravity, but also their full quantum corrections, since this approach allows us to explore full $1/c$ corrections. As the important applications, we study time dependence of Renyi entropy after a local quench and out-of-time ordered correlator (OTOC) at late time.
+  We first show that, the $n$-th ($n&gt;2$) Renyi entropy after a local quench in our CFT grows logarithmically at late time, for any $c$ and any conformal dimensions of excited primary. In particular, we find that this behavior is independent of $c$, contrary to the expectation that the finite $c$ correction fixes the late time Renyi entropy to be constant. We also show that the constant part of the late time Renyi entropy is given by a monodromy matrix.
+  We also investigate OTOCs by using the monodromy matrix. We first rewrite the monodromy matrix in terms of fusion matrix explicitly. By this expression, we find that the OTOC decays exponentially in time, and the decay rates are divided into three patterns, depending on the dimensions of external operators. We note that our result is valid for any $c&gt;1$ and any external operator dimensions. Our monodromy matrix approach can be generalized to the Liouville theory and we show that the Liouville OTOC approaches constant in the late time regime.
+  We emphasize that, there is a number of other applications of the fusion and the monodromy matrix approaches, such as solving the conformal bootstrap equation. Therefore, it is tempting to believe that the fusion and monodromy matrix approaches provide a key to understanding the AdS/CFT correspondence.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-05-06T17:59:42Z</published>
+    <arxiv:comment>Published version</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Yuya Kusuki</name>
+    </author>
+    <author>
+      <name>Masamichi Miyaji</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP08(2019)063</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP08(2019)063" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1001.5287v2</id>
+    <title>A first-order phase transition at the random close packing of hard spheres</title>
+    <updated>2016-03-28T01:07:20Z</updated>
+    <link href="https://arxiv.org/abs/1001.5287v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1001.5287v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Randomly packing spheres of equal size into a container consistently results in a static configuration with a density of ~64%. The ubiquity of random close packing (RCP) rather than the optimal crystalline array at 74% begs the question of the physical law behind this empirically deduced state. Indeed, there is no signature of any macroscopic quantity with a discontinuity associated with the observed packing limit. Here we show that RCP can be interpreted as a manifestation of a thermodynamic singularity, which defines it as the "freezing point" in a first-order phase transition between ordered and disordered packing phases. Despite the athermal nature of granular matter, we show the thermodynamic character of the transition in that it is accompanied by sharp discontinuities in volume and entropy. This occurs at a critical compactivity, which is the intensive variable that plays the role of temperature in granular matter. Our results predict the experimental conditions necessary for the formation of a jammed crystal by calculating an analogue of the "entropy of fusion". This approach is useful since it maps out-of-equilibrium problems in complex systems onto simpler established frameworks in statistical mechanics.</summary>
+    <category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-01-28T22:54:12Z</published>
+    <arxiv:comment>33 pages, 10 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.soft"/>
+    <arxiv:journal_ref>Physica A 389, 5362 (2010)</arxiv:journal_ref>
+    <author>
+      <name>Yuliang Jin</name>
+    </author>
+    <author>
+      <name>Hernan A. Makse</name>
+    </author>
+    <arxiv:doi>10.1016/j.physa.2010.08.010</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physa.2010.08.010" title="doi"/>
+  </entry>
+</feed>

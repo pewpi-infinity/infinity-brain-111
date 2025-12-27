@@ -1,0 +1,78 @@
+TERMS: entropy, vacuum
+COLORS: red, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/7GmRiRwpTwRXr87rPmugRyQXNIY</id>
+  <title>arXiv Query: search_query=all:entropy AND all:vacuum&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T00:58:08Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+all:vacuum&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1242</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1809.03358v2</id>
+    <title>Entropy distribution of localised states</title>
+    <updated>2018-09-18T14:18:03Z</updated>
+    <link href="https://arxiv.org/abs/1809.03358v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1809.03358v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the geometric distribution of the relative entropy of a charged localised state in Quantum Field Theory. With respect to translations, the second derivative of the vacuum relative entropy is zero out of the charge localisation support and positive in mean over the support of any single charge. For a spatial strip, the asymptotic mean entropy density is $πE$, with $E$ the corresponding vacuum charge energy. In a conformal QFT, for a charge in a ball of radius $r$, the relative entropy is non linear, the asymptotic mean radial entropy density is $πE$ and Bekenstein's bound is satisfied. We also study the null deformation case. We construct, operator algebraically, a positive selfadjoint operator that may be interpreted as the deformation generator, we thus get a rigorous form of the Averaged Null Energy Condition that holds in full generality. In the one dimensional conformal $U(1)$-current model, we give a complete and explicit description of the entropy distribution of a localised charged state in all points of the real line; in particular, the second derivative of the relative entropy is strictly positive in all points where the charge density is non zero, thus the Quantum Null Energy Condition holds here for these states and is not saturated in these points.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-09-10T14:38:51Z</published>
+    <arxiv:comment>35 pages; more on entropy in reverse direction; 3 figures added</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Roberto Longo</name>
+    </author>
+    <arxiv:doi>10.1007/s00220-019-03332-8</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00220-019-03332-8" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.01110v3</id>
+    <title>Entropy in Born-Infeld Gravity</title>
+    <updated>2018-01-04T14:15:13Z</updated>
+    <link href="https://arxiv.org/abs/1710.01110v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1710.01110v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>There is a class of higher derivative gravity theories that are in some sense natural extensions of cosmological Einstein's gravity with a unique maximally symmetric classical vacuum and only a massless spin-2 excitation about the vacuum and no other perturbative modes. These theories are of the Born-Infeld determinantal form. We show that the macroscopic dynamical entropy as defined by Wald for bifurcate Killing horizons in these theories are equivalent to the geometric Bekenstein-Hawking entropy (or more properly Gibbons-Hawking entropy for the case of de Sitter spacetime) but given with an effective gravitational constant which encodes all the information about the background spacetime and the underlying theory. We also show that the higher curvature terms increase the entropy. We carry out the computations in generic n-dimensions including the particularly interesting limits of three, four and infinite number of dimensions. We also give a preliminary discussion about the black hole entropy in generic dimensions for the BI theories.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-10-03T12:42:44Z</published>
+    <arxiv:comment>15 pages, an appendix on black hole entropy added, matches the published version</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Phys. Rev. D 96, 124038 (2017)</arxiv:journal_ref>
+    <author>
+      <name>Gokcen Deniz Ozen</name>
+    </author>
+    <author>
+      <name>Sahin Kurekci</name>
+    </author>
+    <author>
+      <name>Bayram Tekin</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.96.124038</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.96.124038" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1011.2794v1</id>
+    <title>Entropy Production during Asymptotically Safe Inflation</title>
+    <updated>2010-11-11T23:24:28Z</updated>
+    <link href="https://arxiv.org/abs/1011.2794v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1011.2794v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Asymptotic Safety scenario predicts that the deep ultraviolet of Quantum Einstein Gravity is governed by a nontrivial renormalization group fixed point. Analyzing its implications for cosmology using renormalization group improved Einstein equations we find that it can give rise to a phase of inflationary expansion in the early Universe. Inflation is a pure quantum effect here and requires no inflaton field. It is driven by the cosmological constant and ends automatically when the renormalization group evolution has reduced the vacuum energy to the level of the matter energy density. The quantum gravity effects also provide a natural mechanism for the generation of entropy. It could easily account for the entire entropy of the present Universe in the massless sector.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-11-11T23:24:28Z</published>
+    <arxiv:comment>17 pages, 4 figures, Invited contribution to the special issue of Entropy on "Entropy in Quantum Gravity"</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Alfio Bonanno</name>
+    </author>
+    <author>
+      <name>Martin Reuter</name>
+    </author>
+    <arxiv:doi>10.3390/e13010274</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/e13010274" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,104 @@
+TERMS: hydrogen, fusion, spin, resonance
+COLORS: purple, green, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/WOF7cut4djYvIQAEq5/3v1cn/a4</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:fusion AND all:spin AND all:resonance&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:53:40Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:fusion+AND+(all:spin+AND+all:resonance))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2311.05976v1</id>
+    <title>A Universal Method to Generate Hyperpolarisation in Beams and Samples</title>
+    <updated>2023-11-10T10:20:50Z</updated>
+    <link href="https://arxiv.org/abs/2311.05976v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.05976v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Sizable hyperpolarisation, i.e. an imbalance of the occupation numbers of nuclear spins in a sample deviating from thermal equilibrium, is needed in various fields of science. For example, hyperpolarised tracers are utilised in magnetic resonance imaging in medicine (MRI) and polarised beams and targets are employed in nuclear physics to study the spin dependence of nuclear forces. Here we show that the quantum interference of transitions induced by radio-wave pumping with longitudinal and radial pulses are able to produce large polarisations at small magnetic fields. This method is easier than established methods, theoretically understood and experimentally proven for beams of metastable hydrogen atoms in the keV energy range. It should also work for a variety of samples at rest. Thus, this technique opens the door for a new generation of polarised tracers, possibly low-field MRI with better spatial resolution or the production of polarised fuel to increase the efficiency of fusion reactors by manipulating the involved cross sections.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.acc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.med-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-10T10:20:50Z</published>
+    <arxiv:comment>22 pages, 9 figures, splitted into two parts: main paper and methods</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>R. Engels</name>
+    </author>
+    <author>
+      <name>T. El-Kordy</name>
+    </author>
+    <author>
+      <name>N. Faatz</name>
+    </author>
+    <author>
+      <name>C. Hanhart</name>
+    </author>
+    <author>
+      <name>N. Hanold</name>
+    </author>
+    <author>
+      <name>C. S. Kannis</name>
+    </author>
+    <author>
+      <name>L. Kunkel</name>
+    </author>
+    <author>
+      <name>S. Pütz</name>
+    </author>
+    <author>
+      <name>H. Sharma</name>
+    </author>
+    <author>
+      <name>T. Sefzick</name>
+    </author>
+    <author>
+      <name>H. Soltner</name>
+    </author>
+    <author>
+      <name>V. Verhoeven</name>
+    </author>
+    <author>
+      <name>M. Westphal</name>
+    </author>
+    <author>
+      <name>J. Wirtz</name>
+    </author>
+    <author>
+      <name>M. Büscher</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1101.2547v2</id>
+    <title>Ab initio calculation of the Hoyle state</title>
+    <updated>2011-04-02T13:19:50Z</updated>
+    <link href="https://arxiv.org/abs/1101.2547v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1101.2547v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Hoyle state plays a crucial role in the hydrogen burning of stars heavier than our sun and in the production of carbon and other elements necessary for life. This excited state of the carbon-12 nucleus was postulated by Hoyle [1] as a necessary ingredient for the fusion of three alpha particles to produce carbon at stellar temperatures. Although the Hoyle state was seen experimentally more than a half century ago [2,3], nuclear theorists have not yet uncovered the nature of this state from first principles. In this letter we report the first ab initio calculation of the low-lying states of carbon-12 using supercomputer lattice simulations and a theoretical framework known as effective field theory. In addition to the ground state and excited spin-2 state, we find a resonance at -85(3) MeV with all of the properties of the Hoyle state and in agreement with the experimentally observed energy. These lattice simulations provide insight into the structure of this unique state and new clues as to the amount of fine-tuning needed in nature for the production of carbon in stars.</summary>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-01-13T12:43:38Z</published>
+    <arxiv:comment>4 pp, 3 eps figs, version accepted for publication in Physical Review Letters</arxiv:comment>
+    <arxiv:primary_category term="nucl-th"/>
+    <arxiv:journal_ref>Phys.Rev.Lett.106:192501,2011</arxiv:journal_ref>
+    <author>
+      <name>Evgeny Epelbaum</name>
+    </author>
+    <author>
+      <name>Hermann Krebs</name>
+    </author>
+    <author>
+      <name>Dean Lee</name>
+    </author>
+    <author>
+      <name>Ulf-G. Meißner</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.106.192501</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.106.192501" title="doi"/>
+  </entry>
+</feed>

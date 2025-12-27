@@ -1,0 +1,91 @@
+TERMS: hydrogen, lattice, electron, superconductivity
+COLORS: purple, orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/P9ovkVtKftJsUmHyya0rcG/lbzY</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:lattice AND all:electron AND all:superconductivity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:46:22Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:lattice+AND+(all:electron+AND+all:superconductivity))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>41</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2407.12922v2</id>
+    <title>Fundamental limits on the electron-phonon coupling and superconducting $T_c$</title>
+    <updated>2025-08-04T11:29:47Z</updated>
+    <link href="https://arxiv.org/abs/2407.12922v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.12922v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Fundamental upper bounds on the electron-phonon interaction strength and superconducting transition temperature $T_c$ in metals are established based on the intrinsic instability of the equilibrium between electrons and the crystal lattice under strong interaction. This instability explains why observed electron-phonon coupling constants are limited to $λ\lesssim 4$. The theory also accounts for the mechanism of metastable superconductivity with enhanced $T_c$, which emerges near the instability threshold. Based on theoretical analysis and comparison with experimental data, room-temperature phonon-mediated superconductivity is found to be feasible exclusively in hydrogen compounds.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-17T18:00:15Z</published>
+    <arxiv:comment>main text updated, new supplemental material added, 27 pages, 6 figures, 5 tables</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <arxiv:journal_ref>Adv. Mater. 2025, 2507013</arxiv:journal_ref>
+    <author>
+      <name>Dmitrii V. Semenok</name>
+    </author>
+    <author>
+      <name>Boris L. Altshuler</name>
+    </author>
+    <author>
+      <name>Emil A. Yuzbashyan</name>
+    </author>
+    <arxiv:doi>10.1002/adma.202507013</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1002/adma.202507013" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1602.06877v1</id>
+    <title>Anharmonic effects in atomic hydrogen: superconductivity and lattice dynamical stability</title>
+    <updated>2016-02-22T18:02:01Z</updated>
+    <link href="https://arxiv.org/abs/1602.06877v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1602.06877v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present first-principles calculations of metallic atomic hydrogen in the 400-600 GPa pressure range in a tetragonal structure with space group $I4_1/amd$, which is predicted to be its first atomic phase. Our calculations show a band structure close to the free-electron-like limit due to the high electronic kinetic energy induced by pressure. Bands are properly described even in the independent electron approximation fully neglecting the electron-electron interaction. Linear-response harmonic calculations show a dynamically stable phonon spectrum with marked Kohn anomalies. Even if the electron-electron interaction has a minor role in the electronic bands, the inclusion of electronic ex- change and correlation in the density response is essential to obtain a dynamically stable structure. Anharmonic effects, which are calculated within the stochastic self-consistent harmonic approxima- tion, harden high-energy optical modes and soften transverse acoustic modes up to a 20% in energy. Despite a large impact of anharmonicity has been predicted in several high-pressure hydrides, here the superconducting critical temperature is barely affected by anharmonicity, as it is lowered from its harmonic 318 K value only to 300 K at 500 GPa. We atribute the small impact of anharmoncity on superconductivity to the absence of softened optical modes and the fairly uniform distribution of the electron-phonon coupling among the vibrational modes.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-02-22T18:02:01Z</published>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <arxiv:journal_ref>Phys. Rev. B 93, 174308 (2016)</arxiv:journal_ref>
+    <author>
+      <name>Miguel Borinaga</name>
+    </author>
+    <author>
+      <name>Ion Errea</name>
+    </author>
+    <author>
+      <name>Matteo Calandra</name>
+    </author>
+    <author>
+      <name>Francesco Mauri</name>
+    </author>
+    <author>
+      <name>Aitor Bergara</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.93.174308</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.93.174308" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2411.09966v1</id>
+    <title>Assessing the possible superconductivity in doped perovskite hydride KMgH$_3$: Effects of lattice anharmonicity and spin fluctuations</title>
+    <updated>2024-11-15T05:47:16Z</updated>
+    <link href="https://arxiv.org/abs/2411.09966v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.09966v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The superconducting properties of uniformly hole-doped perovskite hydride KMgH$_3$ with varying doping concentration and lattice parameter corresponding to different pressures were investigated from first principles. The superconducting transition temperature ($T_{\mathrm{c}}$) was predicted from the density functional theory for superconductors (SCDFT), where the effects of lattice anharmonicity and spin-fluctuation were considered and examined. Although lattice anharmonicity tends to suppress superconductivity around the edge of dynamical stability, where the phase is stabilized due to anharmonic effects, $T_{\mathrm{c}}$ is enhanced. In the hole-doped \ce{KMgH3}, substantial spin-fluctuation (SF) effects were discovered, which counters the phonon-mediated pairing and decreases $T_{\mathrm{c}}$. Such anomalously strong SF is evaluated for similar hydrides, where the hydrogen 1-$s$ bands are isolated at the Fermi level, and its correlation with the electronics density of states was explored.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-15T05:47:16Z</published>
+    <arxiv:comment>13 pages, 15 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>Shaocong Lu</name>
+    </author>
+    <author>
+      <name>Ryosuke Akashi</name>
+    </author>
+    <author>
+      <name>Mitsuaki Kawamura</name>
+    </author>
+    <author>
+      <name>Shinji Tsuneyuki</name>
+    </author>
+  </entry>
+</feed>

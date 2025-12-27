@@ -1,0 +1,49 @@
+TERMS: hydrogen, lattice, muon, oxidation
+COLORS: purple, orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/WA2ksa8RhaHWhUZ3NdeL0X7aIPA</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:lattice AND all:muon AND all:oxidation&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:48:41Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:lattice+AND+(all:muon+AND+all:oxidation))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1708.05158v1</id>
+    <title>Excited configurations of hydrogen in the BaTiO$_{3-x}$H$_x$ perovskite lattice associated with hydrogen exchange and transport</title>
+    <updated>2017-08-17T07:33:05Z</updated>
+    <link href="https://arxiv.org/abs/1708.05158v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1708.05158v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Excited configurations of hydrogen in the oxyhydride BaTiO$_{3-x}$H$_x$ ($x=0.1-0.5$), which are considered to be involved in its hydrogen transport and exchange processes, were investigated by positive muon spin relaxation ($μ^+$SR) spectroscopy using muonium (Mu) as a pseudoisotope of hydrogen. Muons implanted into the BaTiO$_{3-x}$H$_x$ perovskite lattice were mainly found in two qualitatively different metastable states. One was assigned to a highly mobile interstitial protonic state, which is commonly observed in perovskite oxides. The other was found to form an entangled two spin-$\frac{1}{2}$ system with the nuclear spin of an H$^-$ ion at the anion site. The structure of the (H,Mu) complex agrees well with that of a neutralized center containing two H$^-$ ions at a doubly charged oxygen vacancy, which was predicted to form in the SrTiO$_{3-δ}$ perovskite lattice by a computational study [Y. Iwazaki $et$ $al$., APL Materials 2, 012103 (2014)]. Above 100 K, interstitial Mu$^+$ diffusion and retrapping to a deep defect were observed, which could be a rate-limiting step of macroscopic Mu/H transport in the BaTiO$_{3-x}$H$_x$ lattice.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-08-17T07:33:05Z</published>
+    <arxiv:comment>5 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>Phys. Rev. B 95, 020301(R) (2017)</arxiv:journal_ref>
+    <author>
+      <name>T. U. Ito</name>
+    </author>
+    <author>
+      <name>A. Koda</name>
+    </author>
+    <author>
+      <name>K. Shimomura</name>
+    </author>
+    <author>
+      <name>W. Higemoto</name>
+    </author>
+    <author>
+      <name>T. Matsuzaki</name>
+    </author>
+    <author>
+      <name>Y. Kobayashi</name>
+    </author>
+    <author>
+      <name>H. Kageyama</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.95.020301</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.95.020301" title="doi"/>
+  </entry>
+</feed>

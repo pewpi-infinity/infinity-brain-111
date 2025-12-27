@@ -1,0 +1,76 @@
+TERMS: hydrogen, electron, superconductivity, boson
+COLORS: purple, green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/+tcaGuYA85rUyORo2ZzuVmTOFyw</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:electron AND all:superconductivity AND all:boson&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:55:56Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:electron+AND+(all:superconductivity+AND+all:boson))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2508.17487v1</id>
+    <title>Mechanisms of superconductivity and inhomogeneous states in metallic hydrogen and electron systems with attraction</title>
+    <updated>2025-08-24T18:35:44Z</updated>
+    <link href="https://arxiv.org/abs/2508.17487v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.17487v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the Review we discuss anomalous aspects of superconductivity (SC) and normal state, as well as formation of inhomogeneous (droplet-like or cluster-like) states in electron systems with attraction. We consider both the models with the retardation (Eliashberg mechanism of SC for strong electron-phonon interaction in metallic hydrogen) and without retardation (but with local onsite attraction). We concentrate on the mechanism of the BCS-BEC crossover for the Hubbard model with local attraction and diagonal disorder for the two-dimensional films of the dirty metal. We analyze also the model of the inhomogeneous spaceseparated Fermi-Bose mixture for the bismuth oxides BaKBiO, which contains the paired clusters of bosonic states as well as unpaired fermionic clusters. Superconductivity is realized in this system due to local pairs tunneling from one bosonic cluster to the neighboring one via the fermionic barrier. For metallic hydrogen and metallic hydrides, we calculate the critical temperature and discuss important possibility for practical applications how to increase the temperature by decreasing pressure in the framework of the generalized Eliashberg approach. We advocate also interesting analogies with the quantum (vortex) crystal for long-living low-dimensional metastable phases of metallic hydrogen including filamentous phase with proton chains embedded in 3D electron Fermi liquid and planar phase with proton plains. We formulate the concept of two Bose-condensates in SC electron and superfluid (SF) ion subsystems and provide the estimate for the lifetime of the long-living metastable phases at normal pressure. The estimate is connected with the formation and growth of the critical seeds of the new (molecular) phase in the process of quantum under-barrier tunneling.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-24T18:35:44Z</published>
+    <arxiv:comment>14 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>M. Yu. Kagan</name>
+    </author>
+    <author>
+      <name>A. V. Krasavin</name>
+    </author>
+    <author>
+      <name>R. Sh. Ikhsanov</name>
+    </author>
+    <author>
+      <name>E. A. Mazur</name>
+    </author>
+    <author>
+      <name>A. P. Menushenkov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1605.04931v1</id>
+    <title>Revealing the dark side of a bright exciton polariton condensate</title>
+    <updated>2016-05-16T20:13:06Z</updated>
+    <link href="https://arxiv.org/abs/1605.04931v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1605.04931v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Condensation of bosons causes spectacular phenomena such as superfluidity or superconductivity. Understanding the nature of the condensed particles is crucial for active control of such quantum phases. Fascinating possibilities emerge from condensates of light-matter coupled excitations, such as exciton polaritons, photons hybridized with hydrogen-like bound electron-hole pairs. So far, only the photon component has been resolved, while even the mere existence of excitons in the condensed regime has been challenged. Here we trace the matter component of polariton condensates by monitoring intra-excitonic terahertz transitions. We study how a reservoir of optically dark excitons forms and feeds the degenerate state. Unlike atomic gases, the atom-like transition in excitons is dramatically renormalized upon macroscopic ground state population. Our results establish fundamental differences between polariton condensation and photon lasing and open possibilities for coherent control of condensates.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-05-16T20:13:06Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>J. -M. Mènárd</name>
+    </author>
+    <author>
+      <name>C. Poellmann</name>
+    </author>
+    <author>
+      <name>M. Porer</name>
+    </author>
+    <author>
+      <name>U. Leierseder E. Galopin</name>
+    </author>
+    <author>
+      <name>A. Lemaître</name>
+    </author>
+    <author>
+      <name>A. Amo</name>
+    </author>
+    <author>
+      <name>J. Bloch</name>
+    </author>
+    <author>
+      <name>R. Huber</name>
+    </author>
+  </entry>
+</feed>

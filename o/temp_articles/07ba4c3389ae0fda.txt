@@ -1,0 +1,126 @@
+TERMS: hydrogen, quantum, superconductivity, plasma
+COLORS: purple, blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/qt+9TYk7Tb4UxNjMCYBy9uherJA</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:superconductivity AND all:plasma&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:40:13Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:superconductivity+AND+all:plasma))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>4</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1509.05081v2</id>
+    <title>Advanced Fabrication Processes for Superconducting Very Large Scale Integrated Circuits</title>
+    <updated>2016-02-10T22:14:43Z</updated>
+    <link href="https://arxiv.org/abs/1509.05081v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1509.05081v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We review the salient features of two advanced nodes of an 8-Nb-layer fully planarized process developed recently at MIT Lincoln Laboratory for fabricating Single Flux Quantum(SFQ) digital circuits with very large scale integration on 200-mm wafers: the SFQ4ee and SFQ5ee nodes, where 'ee' denotes the process is tuned for energy efficient SFQ circuits. The former has eight superconducting layers with 0.5 μm minimum feature size and a 2 Ω/sq Mo layer for circuit resistors. The latter has nine superconducting layers: eight Nb wiring layers with the minimum feature size of 350 nm and a thin superconducting MoNx layer (Tc ~ 7.5 K) with high kinetic inductance (about 8 pH/sq) for forming compact inductors. A nonsuperconducting (Tc &lt; 2 K) MoNx layer with lower nitrogen content is used for 6 Ω/sq planar resistors for shunting and biasing of Josephson junctions. Another resistive layer is added to form interlayer, sandwich-type resistors of mΩ range for releasing unwanted flux quanta from superconducting loops of logic cells. Both process nodes use Au/Pt/Ti contact metallization for chip packaging. The technology utilizes one layer of Nb/AlOx-Al/Nb JJs with critical current density, Jc of 100 μA/μm^2 and minimum diameter of 700 nm. Circuit patterns are defined by 248-nm photolithography and high density plasma etching. All circuit layers are fully planarized using chemical mechanical planarization (CMP) of SiO2 interlayer dielectric. The following results and topics are presented and discussed: the effect of surface topography under the JJs on the their properties and repeatability, critical current and Jc targeting, effect of hydrogen dissolved in Nb, MoNx properties for the resistor layer and for high kinetic inductance layer, technology of mΩ-range resistors.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-09-16T23:19:42Z</published>
+    <arxiv:comment>10 pages, 12 figures, 1 table, 27 references. The paper was presented on September 8, 2015 at the 12th European Conference on Applied Superconductivity, EUCAS 2015, 6-10 September 2015, Lyon, France, IEEE Transaction on Applied Superconductivity, 2016</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <arxiv:journal_ref>IEEE Trans. Appl. Supercond., vol. 26, No. 3, 1100110, April 2016</arxiv:journal_ref>
+    <author>
+      <name>Sergey K. Tolpygo</name>
+    </author>
+    <author>
+      <name>Vladimir Bolkhovsky</name>
+    </author>
+    <author>
+      <name>T. J. Weir</name>
+    </author>
+    <author>
+      <name>Alex Wynn</name>
+    </author>
+    <author>
+      <name>D. E. Oates</name>
+    </author>
+    <author>
+      <name>L. M. Johnson</name>
+    </author>
+    <author>
+      <name>M. A. Gouker</name>
+    </author>
+    <arxiv:doi>10.1109/TASC.2016.2519388</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/TASC.2016.2519388" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2403.03534v1</id>
+    <title>Characterization of the low electric field and zero-temperature two-level-system loss in hydrogenated amorphous silicon</title>
+    <updated>2024-03-06T08:27:53Z</updated>
+    <link href="https://arxiv.org/abs/2403.03534v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.03534v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Two-level systems (TLS) are an important, if not dominant, source of loss and noise for superconducting resonators such as those used in kinetic inductance detectors and some quantum information science platforms. They are similarly important for loss in photolithographically fabricated superconducting mm-wave/THz transmission lines. For both lumped-element and transmission-line structures, native amorphous surface oxide films are typically the sites of such TLS in non-microstripline geometries, while loss in the (usually amorphous) dielectric film itself usually dominates in microstriplines. We report here on the demonstration of low TLS loss at GHz frequencies in hydrogenated amorphous silicon (a-Si:H) films deposited by plasma-enhanced chemical vapor deposition in superconducting lumped-element resonators using parallel-plate capacitors (PPCs). The values we obtain from two recipes in different deposition machines, 7$\,\times\,10^{-6}$ and 12$\,\times\,10^{-6}$, improve on the best achieved in the literature by a factor of 2--4 for a-Si:H and are comparable to recent measurements of amorphous germanium. Moreover, we have taken care to extract the true zero-temperature, low-field loss tangent of these films, accounting for temperature and field saturation effects that can yield misleading results. Such robustly fabricated and characterized films render the use of PPCs with deposited amorphous films a viable architecture for superconducting resonators, and they also promise extremely low loss and high quality factor for photolithographically fabricated superconducting mm-wave/THz transmission lines used in planar antennas and resonant filters.</summary>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-06T08:27:53Z</published>
+    <arxiv:primary_category term="physics.ins-det"/>
+    <arxiv:journal_ref>Phys.Rev.Mater. 8 (2024) 035602</arxiv:journal_ref>
+    <author>
+      <name>Fabien Defrance</name>
+    </author>
+    <author>
+      <name>Andrew D. Beyer</name>
+    </author>
+    <author>
+      <name>Shibo Shu</name>
+    </author>
+    <author>
+      <name>Jack Sayers</name>
+    </author>
+    <author>
+      <name>Sunil R. Golwala</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevMaterials.8.035602</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevMaterials.8.035602" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1908.08689v1</id>
+    <title>Repairing the Surface of InAs-based Topological Heterostructures</title>
+    <updated>2019-08-23T06:50:51Z</updated>
+    <link href="https://arxiv.org/abs/1908.08689v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1908.08689v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Candidate systems for topologically-protected qubits include two-dimensional electron gases (2DEGs) based on heterostructures exhibiting a strong spin-orbit interaction (SOI) and superconductivity via the proximity effect. For InAs- or InSb-based materials, the need to form shallow quantum wells to create a hard-gapped $p$-wave superconducting state often subjects them to fabrication-induced damage, limiting their mobility. Here we examine scattering mechanisms in processed InAs 2DEG quantum wells and demonstrate a means of increasing their mobility via repairing the semiconductor-dielectric interface. Passivation of charged impurity states with an argon-hydrogen plasma results in a significant increase in the measured mobility and reduction in its variance relative to untreated samples, up to 45300 cm$^2$/(V s) in a 10 nm deep quantum well.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-08-23T06:50:51Z</published>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>S. J. Pauka</name>
+    </author>
+    <author>
+      <name>J. D. S. Witt</name>
+    </author>
+    <author>
+      <name>C. N. Allen</name>
+    </author>
+    <author>
+      <name>B. Harlech-Jones</name>
+    </author>
+    <author>
+      <name>A. Jouan</name>
+    </author>
+    <author>
+      <name>G. C. Gardner</name>
+    </author>
+    <author>
+      <name>S. Gronin</name>
+    </author>
+    <author>
+      <name>T. Wang</name>
+    </author>
+    <author>
+      <name>C. Thomas</name>
+    </author>
+    <author>
+      <name>M. J. Manfra</name>
+    </author>
+    <author>
+      <name>D. J. Reilly</name>
+    </author>
+    <author>
+      <name>M. C. Cassidy</name>
+    </author>
+  </entry>
+</feed>

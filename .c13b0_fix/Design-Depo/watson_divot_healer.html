@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Watson: Divot Healer – Chat Edition</title>
+<style>
+  html, body { margin:0; padding:0; background:#05070a; color:#e8f0ff; font-family:system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif; }
+  #game { display:block; width:100vw; height:100vh; background: radial-gradient(1200px 800px at 50% 50%, #0b0f17, #05070a); touch-action: none; }
+  .hud { position:fixed; left:12px; top:12px; backdrop-filter: blur(4px); background: rgba(10,14,20,0.35); border: 1px solid rgba(255,255,255,0.12); padding:10px 12px; border-radius:12px; }
+  .hud h1 { font-size:16px; margin:0 0 6px 0; letter-spacing:0.3px; }
+  .hud p { margin:4px 0; font-size:13px; opacity:0.9; }
+  .badge { display:inline-block; background:#1b2a45; color:#cde3ff; padding:2px 8px; border-radius:99px; margin-right:6px; font-size:12px; }
+  .corner { position:fixed; right:12px; bottom:12px; width:160px; height:160px; border-radius:12px; border:1px solid rgba(255,255,255,0.12); background: rgba(10,14,20,0.35); overflow:hidden; }
+  #radar { width:100%; height:100%; }
+  .toast { position:fixed; left:50%; transform:translateX(-50%); bottom:24px; padding:10px 14px; background:rgba(20,28,40,0.8); border:1px solid rgba(255,255,255,0.12); border-radius:12px; font-size:13px; }
+  a.btn { position:fixed; right:12px; top:12px; padding:8px 12px; border-radius:10px; background:#123; color:#cde3ff; text-decoration:none; border:1px solid rgba(255,255,255,0.12); font-size:13px; }
+</style>
+</head>
+<body>
+<canvas id="game"></canvas>
+
+<div class="hud" id="hud">
+  <h1>Watson: Divot Healer – Chat Edition</h1>
+  <p><span class="badge">Goal</span>Steer the <b>Watson</b> (white) along the field toward the <b>Divot</b> (blue).</p>
+  <p><span class="badge">Pulse</span>Tap / click to emit a <b>sequinoid</b> pulse. Heal the divot to 100%.</p>
+  <p><span class="badge">Speed</span>Acceleration increases when your heading aligns with the target field.</p>
+  <p><span class="badge">Controls</span>Hold &amp; drag = steer • Release = drift • Spacebar = pulse</p>
+  <p id="stats"></p>
+</div>
+
+<a class="btn" href="#" id="toggle2d">2D Mode</a>
+<div class="corner"><canvas id="radar"></canvas></div>
+<div class="toast" id="toast" style="display:none;"></div>
+
+<script>
+(() => {
+  const canvas = document.getElementById('game');
+  const ctx = canvas.getContext('2d');
+  const radar = document.getElementById('radar');
+  const rctx = radar.getContext('2d');
+  const hudStats = document.getElementById('stats');
+  const toast = document.getElementById('toast');
+  const toggleBtn = document.getElementById('toggle2d');
+  let use2D = true;
+
+  function resize() {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+    radar.width = 160; radar.height = 160;
+  }
+  window.addEventListener('resize', resize);
+  resize();
+
+  // Utility
+  const TAU = Math.PI * 2;
+  function clamp(v, lo, hi){ return Math.max(lo, Math.min(hi, v)); }
+  function lerp(a,b,t){ return a + (b-a)*t; }
+
+  // Field particles (background Watson flow)
+  const back = [];
+  function spawnBack(n){
+    for(let i=0;i<n;i++){
+      back.push({
+        x: Math.random()*canvas.width,
+        y: Math.random()*canvas.height,
+        r: Math.random()*1.4+0.6,
+        a: Math.random()*TAU,
+        s: Math.random()*0.4+0.2,
+        hue: 200 + Math.random()*35
+      });
+    }
+  }
+  spawnBack(300);
+
+  // Player Watson
+  const player = {
+    x: canvas.width*0.2,
+    y: canvas.height*0.5,
+    vx: 0, vy: 0,
+    heading: 0
+  };
+
+  // Divot target
+  const divot = {
+    x: canvas.width*0.75,
+    y: canvas.height*0.5,
+    radius: 34,
+    heal: 0, // 0..1
+    wobble: 0
+  };
+
+  // Input
+  let pointer = { active:false, x:0, y:0 };
+  canvas.addEventListener('pointerdown', (e)=>{
+    pointer.active = true;
+    pointer.x = e.clientX; pointer.y = e.clientY;
+    emitPulse();
+  });
+  window.addEventListener('pointermove', (e)=>{
+    if(pointer.active){ pointer.x = e.clientX; pointer.y = e.clientY; }
+  });
+  window.addEventListener('pointerup', ()=>{ pointer.active = false; });
+  window.addEventListener('keydown', (e)=>{
+    if(e.code === 'Space'){ emitPulse(); e.preventDefault(); }
+    if(e.code === 'KeyM'){ use2D = !use2D; modeToast(); }
+  });
+  toggleBtn.addEventListener('click', (e)=>{
+    e.preventDefault();
+    use2D = !use2D; modeToast();
+  });
+  function modeToast(){
+    toggleBtn.textContent = use2D ? '2D Mode' : '2.5D Mode';
+    showToast(use2D ? '2D steering (flat field)' : '2.5D steering (adds gentle vertical drift)');
+  }
+
+  function showToast(text){
+    toast.textContent = text;
+    toast.style.display = 'block';
+    setTimeout(()=>toast.style.display='none', 1600);
+  }
+
+  // Pulses
+  const pulses = [];
+  function emitPulse(){
+    const dx = divot.x - player.x;
+    const dy = divot.y - player.y;
+    const ang = Math.atan2(dy, dx);
+    pulses.push({ x: player.x, y: player.y, a: ang, t: 0, life: 1.6 });
+  }
+
+  // Game logic params
+  let t = 0;
+  let score = 0;
+  let difficulty = 1;
+
+  function step(dt){
+    t += dt;
+
+    // Background particles
+    for(const p of back){
+      p.a += 0.2*dt;
+      p.x += Math.cos(p.a)*p.s;
+      p.y += Math.sin(p.a*1.2)*p.s;
+      if(p.x < -5) p.x = canvas.width+5;
+      if(p.x > canvas.width+5) p.x = -5;
+      if(p.y < -5) p.y = canvas.height+5;
+      if(p.y > canvas.height+5) p.y = -5;
+    }
+
+    // Steering
+    const dx = (pointer.active ? pointer.x : player.x) - player.x;
+    const dy = (pointer.active ? pointer.y : player.y) - player.y;
+    const desired = Math.atan2(dy, dx);
+
+    // Acceleration increases when alignment with target-to-divot is high
+    const toDivotX = divot.x - player.x;
+    const toDivotY = divot.y - player.y;
+    const toDivotAng = Math.atan2(toDivotY, toDivotX);
+    const align = Math.cos((desired - toDivotAng)); // 1 when aligned, -1 opposite
+    const accel = lerp(20, 240, Math.max(0, Math.min(1, (align+1)/2))); // 20..240
+
+    // Smooth heading
+    let dAng = ((desired - player.heading + Math.PI*3) % (Math.PI*2)) - Math.PI;
+    player.heading += dAng * 0.12;
+
+    // Velocity update
+    const thrust = accel * dt;
+    player.vx += Math.cos(player.heading) * thrust * (pointer.active?1:0.3);
+    player.vy += Math.sin(player.heading) * thrust * (pointer.active?1:0.3);
+
+    // 2.5D gentle vertical drift to suggest depth
+    if(!use2D){
+      player.vy += Math.sin(t*0.6)*12*dt;
+      player.vx += Math.cos(t*0.4)*8*dt;
+    }
+
+    // Drag
+    player.vx *= (1 - 0.45*dt);
+    player.vy *= (1 - 0.45*dt);
+
+    player.x += player.vx*dt;
+    player.y += player.vy*dt;
+
+    // Keep inside bounds
+    player.x = Math.max(0, Math.min(canvas.width, player.x));
+    player.y = Math.max(0, Math.min(canvas.height, player.y));
+
+    // Pulses advance
+    for(const p of pulses){
+      const speed = 360; // px/s
+      p.x += Math.cos(p.a) * speed * dt;
+      p.y += Math.sin(p.a) * speed * dt;
+      p.t += dt;
+      if(p.t > p.life) p.dead = true;
+      // Heal if intersects divot
+      const d = Math.hypot(divot.x - p.x, divot.y - p.y);
+      if(d < divot.radius*1.05){
+        divot.heal = Math.max(0, Math.min(1, divot.heal + 0.12));
+        p.dead = true;
+        divot.wobble = 1.0;
+      }
+    }
+    for(let i=pulses.length-1;i>=0;i--){ if(pulses[i].dead) pulses.splice(i,1); }
+
+    // Passive heal on proximity
+    const dist = Math.hypot(divot.x - player.x, divot.y - player.y);
+    if(dist < divot.radius*2.2){
+      divot.heal = Math.max(0, Math.min(1, divot.heal + 0.25*dt));
+      divot.wobble = Math.max(divot.wobble, 0.35);
+    }
+    divot.wobble *= (1 - 1.8*dt);
+
+    // If healed, spawn a new divot
+    if(divot.heal >= 1){
+      score++;
+      difficulty += 0.2;
+      showToast("Divot healed! +1");
+      player.vx += Math.cos(toDivotAng) * 280;
+      player.vy += Math.sin(toDivotAng) * 280;
+
+      divot.x = Math.random()*canvas.width*0.8 + canvas.width*0.1;
+      divot.y = Math.random()*canvas.height*0.8 + canvas.height*0.1;
+      divot.radius = 30 + Math.random()*16;
+      divot.heal = 0;
+      divot.wobble = 0;
+    }
+
+    hudStats.textContent = `Score ${score} • Heal ${(divot.heal*100).toFixed(0)}%`;
+    draw();
+    drawRadar();
+  }
+
+  function draw(){
+    ctx.clearRect(0,0,canvas.width,canvas.height);
+
+    // Subtle field grid
+    ctx.save();
+    ctx.globalAlpha = 0.12;
+    ctx.strokeStyle = '#1b2a33';
+    const grid = 48;
+    for(let x=0; x<canvas.width; x+=grid){
+      ctx.beginPath(); ctx.moveTo(x,0); ctx.lineTo(x,canvas.height); ctx.stroke();
+    }
+    for(let y=0; y<canvas.height; y+=grid){
+      ctx.beginPath(); ctx.moveTo(0,y); ctx.lineTo(canvas.width,y); ctx.stroke();
+    }
+    ctx.restore();
+
+    // Background Watson points
+    for(const p of back){
+      ctx.beginPath();
+      ctx.fillStyle = `hsla(${p.hue},100%,70%,0.7)`;
+      ctx.arc(p.x,p.y,p.r,0,Math.PI*2);
+      ctx.fill();
+    }
+
+    // Sequinoid pulses
+    for(const p of pulses){
+      const f = 1 - p.t/p.life;
+      const w = 8 + 20*f;
+      ctx.save();
+      ctx.globalCompositeOperation = 'screen';
+      const grad = ctx.createRadialGradient(p.x, p.y, 1, p.x, p.y, w);
+      grad.addColorStop(0, 'rgba(180,220,255,0.95)');
+      grad.addColorStop(0.5, 'rgba(120,160,255,0.55)');
+      grad.addColorStop(1, 'rgba(50,80,200,0)');
+      ctx.fillStyle = grad;
+      ctx.beginPath(); ctx.arc(p.x,p.y,w,0,Math.PI*2); ctx.fill();
+      ctx.restore();
+    }
+
+    // Divot (target)
+    const pulse = (Math.sin(t*4)+1)/2;
+    const wob = divot.wobble*12;
+    ctx.save();
+    ctx.globalCompositeOperation = 'screen';
+    const g = ctx.createRadialGradient(divot.x,divot.y,divot.radius*0.2,divot.x,divot.y,divot.radius + 18 + wob);
+    const healedHue = 180 + divot.heal*160;
+    g.addColorStop(0, `hsla(${healedHue},100%,85%,0.95)`);
+    g.addColorStop(Math.max(0, Math.min(1, 0.35+divot.heal*0.3)), `hsla(${healedHue},100%,65%,0.55)`);
+    g.addColorStop(1, 'rgba(0,0,0,0)');
+    ctx.fillStyle = g;
+    ctx.beginPath(); ctx.arc(divot.x,divot.y,divot.radius + 18 + wob,0,Math.PI*2); ctx.fill();
+
+    // Shell ring
+    ctx.lineWidth = 2.0;
+    ctx.strokeStyle = `hsla(${healedHue},100%,70%,${0.55 + 0.35*pulse})`;
+    ctx.beginPath(); ctx.arc(divot.x,divot.y,divot.radius + wob*0.5,0,Math.PI*2); ctx.stroke();
+
+    // Heal meter arc
+    ctx.beginPath();
+    ctx.lineWidth = 5;
+    ctx.strokeStyle = `hsla(${healedHue},100%,75%,0.9)`;
+    ctx.arc(divot.x,divot.y,divot.radius*0.6, -Math.PI/2, -Math.PI/2 + Math.PI*2*divot.heal);
+    ctx.stroke();
+    ctx.restore();
+
+    // Player Watson trail
+    ctx.save();
+    ctx.globalCompositeOperation = 'screen';
+    const tail = 14;
+    for(let i=0;i<tail;i++){
+      const k = i/tail;
+      const px = player.x - player.vx*0.02*i;
+      const py = player.y - player.vy*0.02*i;
+      ctx.beginPath();
+      ctx.fillStyle = `rgba(255,255,255,${0.08 + 0.04*(1-k)})`;
+      ctx.arc(px, py, 5 + 3*(1-k), 0, Math.PI*2);
+      ctx.fill();
+    }
+    // Player core
+    const gradP = ctx.createRadialGradient(player.x,player.y,1,player.x,player.y,10);
+    gradP.addColorStop(0,'rgba(255,255,255,1)');
+    gradP.addColorStop(1,'rgba(180,220,255,0)');
+    ctx.fillStyle = gradP;
+    ctx.beginPath(); ctx.arc(player.x,player.y,10,0,Math.PI*2); ctx.fill();
+    ctx.restore();
+
+    // Direction line (aim)
+    ctx.save();
+    ctx.globalAlpha = 0.3;
+    ctx.strokeStyle = '#88aaff';
+    ctx.beginPath();
+    ctx.moveTo(player.x, player.y);
+    ctx.lineTo(player.x + Math.cos(player.heading)*60, player.y + Math.sin(player.heading)*60);
+    ctx.stroke();
+    ctx.restore();
+  }
+
+  function drawRadar(){
+    rctx.clearRect(0,0,radar.width,radar.height);
+    const cx = radar.width/2, cy = radar.height/2;
+    rctx.fillStyle = 'rgba(10,14,20,0.6)';
+    rctx.fillRect(0,0,radar.width,radar.height);
+
+    // Rings
+    rctx.strokeStyle = 'rgba(180,210,255,0.25)';
+    for(let i=1;i<=3;i++){
+      rctx.beginPath(); rctx.arc(cx,cy, i*24, 0, Math.PI*2); rctx.stroke();
+    }
+    // Player
+    rctx.fillStyle = '#ffffff';
+    rctx.beginPath(); rctx.arc(cx,cy,4,0,Math.PI*2); rctx.fill();
+
+    // Target relative pos (scaled)
+    const sx = (divot.x - player.x)/10;
+    const sy = (divot.y - player.y)/10;
+    const rx = Math.max(8, Math.min(radar.width-8, cx + sx));
+    const ry = Math.max(8, Math.min(radar.height-8, cy + sy));
+    rctx.fillStyle = '#7cc4ff';
+    rctx.beginPath(); rctx.arc(rx,ry,5,0,Math.PI*2); rctx.fill();
+  }
+
+  // Main loop
+  let last = performance.now();
+  function loop(now){
+    const dt = Math.max(0, Math.min(0.033, (now - last)/1000));
+    last = now;
+    step(dt);
+    requestAnimationFrame(loop);
+  }
+  requestAnimationFrame(loop);
+
+  // Intro toast
+  setTimeout(()=>showToast('Tap to pulse; hold and drag to steer'), 500);
+
+})();
+</script>
+</body>
+</html>

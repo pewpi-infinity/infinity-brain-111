@@ -1,0 +1,71 @@
+TERMS: hydrogen, electron, spin, neutrino
+COLORS: purple, green, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ayPWwnvt9rJoycwM3sTxdqHWbYw</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:electron AND all:spin AND all:neutrino&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:56:10Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:electron+AND+(all:spin+AND+all:neutrino))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>10</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2109.13454v2</id>
+    <title>Scattering of low energy neutrinos and antineutrinos by atomic electrons</title>
+    <updated>2021-12-07T23:48:14Z</updated>
+    <link href="https://arxiv.org/abs/2109.13454v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2109.13454v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Studies of neutrino mixing and oscillations, solar neutrinos as background in dark matter searches involving electron detection, detection of sterile neutrino warm dark matter, and of possible electromagnetic properties of neutrinos, have generated interest in the low energy O(10 keV) scattering of electron neutrinos and antineutrinos by atomic electrons where the binding of the atomic electron cannot be ignored. Of particular interest is the ionization of atoms by neutrinos and antineutrinos. Most existing calculations are based on modifications of the free electron differential cross section, which destroy the relationship between the neutrino helicities and the orbital and spin angular momenta of the atomic electrons. The present calculations maintain the full collision dynamics by formulating the scattering in configuration space using the Bound Interaction Picture, rather than the usual formulation in the Interaction Picture in momentum space as appropriate to scattering by free electrons. Energy spectra of ionization electrons produced by scattering of neutrinos and antineutrinos with energies of 5, 10, 20, and 30 keV by hydrogen, helium and neon have been calculated using Dirac central field eigenfunctions and are presented as ratios to the spectra for scattering by free electrons. Binding effects increase strongly with atomic number, are largest for low neutrino energy and, for each neutrino energy, greatest at the high electron energy end of the spectrum. The most extreme effects of binding are for 5 keV scattering by Ne where the ratios are less than 0.1. The energy spectra are calculated for both a Coulombic final electron state and a free final electron state. The results indicate that the binding effects from the continuum state of the final electron are significant and can be comparable to those arising from the bound initial electron state.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-09-28T03:07:45Z</published>
+    <arxiv:comment>18 pages, 7 tables, 4 figures, minor corrections to text and reference added</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Ian B. Whittingham</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.105.013008</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.105.013008" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1004.4098v2</id>
+    <title>Neutrino magnetic moment effects in electron-capture measurements at GSI</title>
+    <updated>2010-06-02T08:09:20Z</updated>
+    <link href="https://arxiv.org/abs/1004.4098v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1004.4098v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>I conjecture that the time modulated decay rates reported in single ion measurements of two body electron capture decay of hydrogen like heavy ions at GSI may be related to neutrino spin precession in the static magnetic field of the storage ring. These `GSI Oscillations' arise from interference between amplitudes of decay within and without the magnetic field, a scenario that requires a Dirac neutrino magnetic moment six times lower than the Borexino solar neutrino upper limit of 0.54 x 10E(-10) Bohr magneton. I also show in a way not discussed before that the time modulation associated with interference between massive neutrino amplitudes, if such interference could arise, is of a period at least four orders of magnitude shorter than reported and must average to zero given the time resolution of the GSI measurements.</summary>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-04-23T11:07:17Z</published>
+    <arxiv:comment>corrected for typos and references, outdates arXiv:0809.1213, matches journal published version</arxiv:comment>
+    <arxiv:primary_category term="nucl-th"/>
+    <arxiv:journal_ref>Nucl. Phys. A842:102-112, 2010</arxiv:journal_ref>
+    <author>
+      <name>Avraham Gal</name>
+    </author>
+    <arxiv:doi>10.1016/j.nuclphysa.2010.04.007</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.nuclphysa.2010.04.007" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0809.1213v7</id>
+    <title>Neutrino effects in two-body electron-capture measurements at GSI</title>
+    <updated>2010-05-30T15:46:35Z</updated>
+    <link href="https://arxiv.org/abs/0809.1213v7" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0809.1213v7" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Oscillatory behavior of electron capture rates in the two-body decay of hydrogen-like ions into recoil ions plus undetected neutrinos, with a period of approximately 7 s, was reported in storage ring single-ion experiments at the GSI Laboratory, Darmstadt. Ivanov and Kienle [PRL 103, 062502 (2009)] have relegated this period to neutrino masses through neutrino mixing in the final state. New arguments are given here against this interpretation, while suggesting that these `GSI Oscillations' may be related to neutrino spin precession in the static magnetic field of the storage ring. This scenario requires a Dirac neutrino magnetic moment six times smaller than the Borexino solar neutrino upper limit 0.54 x 10E(-10) of the Bohr magneton [PRL 101, 091302 (2008)], and its consequences are explored.</summary>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-09-07T09:59:58Z</published>
+    <arxiv:comment>extended but somewhat different version of the reference listed below; superseded by arXiv:1004.4098</arxiv:comment>
+    <arxiv:primary_category term="nucl-th"/>
+    <arxiv:journal_ref>Nucl. Phys. A842:102-112, 2010</arxiv:journal_ref>
+    <author>
+      <name>Avraham Gal</name>
+    </author>
+    <arxiv:doi>10.1016/j.nuclphysa.2010.04.007</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.nuclphysa.2010.04.007" title="doi"/>
+  </entry>
+</feed>

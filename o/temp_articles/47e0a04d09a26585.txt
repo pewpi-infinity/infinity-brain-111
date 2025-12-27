@@ -1,0 +1,103 @@
+TERMS: spin, boson, bandgap
+COLORS: yellow, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/grBJkLNkT4TnqajD2Q7kjRktSMc</id>
+  <title>arXiv Query: search_query=all:spin AND all:boson AND all:bandgap&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:32:46Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:spin+AND+(all:boson+AND+all:bandgap)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>6</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2009.11052v1</id>
+    <title>Kondo effects in small bandgap carbon nanotube quantum dots</title>
+    <updated>2020-09-23T11:00:39Z</updated>
+    <link href="https://arxiv.org/abs/2009.11052v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2009.11052v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study magnetoconductance of the small bandgap carbon nanotube quantum dots in the presence of spin-orbit coupling in the strong correlations regime. The finite-U mean field slave boson approach is used to study many-body effects. Different degeneracies are restored in magnetic field and Kondo effects of different symmetries arise including SU(3) effects of different types. Full spin-orbital degeneracy might be recovered for zero field and correspondingly SU(4) Kondo effect sets in. We point out on the possibility of the occurrence of electron-hole Kondo effects in slanting magnetic fields, which we predict will occur in the available magnetic fields for orientation of fields close to perpendicular. When the field approaches transverse orientation a crossover from SU(2) or SU(3) symmetry into SU(4) is observed.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-09-23T11:00:39Z</published>
+    <arxiv:comment>11 pages, 11 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>P. Florków</name>
+    </author>
+    <author>
+      <name>D. Krychowski</name>
+    </author>
+    <author>
+      <name>S. Lipiński</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1207.4479v3</id>
+    <title>Topological Flat Bands from Dipolar Spin Systems</title>
+    <updated>2013-11-27T09:40:03Z</updated>
+    <link href="https://arxiv.org/abs/1207.4479v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1207.4479v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose and analyze a physical system that naturally admits two-dimensional topological nearly flat bands. Our approach utilizes an array of three-level dipoles (effective S = 1 spins) driven by inhomogeneous electromagnetic fields. The dipolar interactions produce arbitrary uniform background gauge fields for an effective collection of conserved hardcore bosons, namely, the dressed spin-flips. These gauge fields result in topological band structures, whose bandgap can be larger than the corresponding bandwidth. Exact diagonalization of the full interacting Hamiltonian at half-filling reveals the existence of superfluid, crystalline, and supersolid phases. An experimental realization using either ultra-cold polar molecules or spins in the solid state is considered.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-07-18T20:00:03Z</published>
+    <arxiv:comment>8 pages, 5 figures. V2: Added discussion of optical dressing - final version as published in Phys. Rev. Lett</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 109, 266804 (2012)</arxiv:journal_ref>
+    <author>
+      <name>Norman Y. Yao</name>
+    </author>
+    <author>
+      <name>Chris R. Laumann</name>
+    </author>
+    <author>
+      <name>Alexey V. Gorshkov</name>
+    </author>
+    <author>
+      <name>Steven D. Bennett</name>
+    </author>
+    <author>
+      <name>Eugene Demler</name>
+    </author>
+    <author>
+      <name>Peter Zoller</name>
+    </author>
+    <author>
+      <name>Mikhail D. Lukin</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.109.266804</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.109.266804" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2401.10406v1</id>
+    <title>Stable semivortex gap solitons in a spin-orbit-coupled Fermi gas</title>
+    <updated>2024-01-18T22:31:03Z</updated>
+    <link href="https://arxiv.org/abs/2401.10406v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.10406v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We demonstrate the existence of semivortex (SV) solitons, with vorticities $0$ and $1$ in the two components, in a two-dimensional (2D) fermionic spinor system under the action of the Rashba-type spin-orbit coupling in the combination with the Zeeman splitting (ZS). In the ``heavy-atom" approximation, which was previously elaborated for the bosonic system, the usual kinetic energy is neglected, which gives rise to a linear spectrum with a bandgap. The model includes the effective Pauli self-repulsion with power $7/3$, as produced by the density-functional theory of Fermi superfluids. In the general case, the inter-component contact repulsion is included too. We construct a family of gap solitons of the SV type populating the spectral bandgap. A stability region is identified for the SV solitons, by means of systematic simulations, in the parameter plane of the cross-repulsion strength and chemical potential. The stability region agrees with the prediction of the anti-Vakhitov-Kolokolov criterion, which is a relevant necessary stability condition for systems with self-repulsive nonlinearities. We also test the stability of the SV solitons against a sudden change of the ZS strength, which initiates robust oscillations in the spin state of the soliton due to transfer of particles between the system's components.</summary>
+    <category term="nlin.PS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-18T22:31:03Z</published>
+    <arxiv:comment>Chaos, Solitons &amp; Fractals, in press</arxiv:comment>
+    <arxiv:primary_category term="nlin.PS"/>
+    <author>
+      <name>Pablo Díaz</name>
+    </author>
+    <author>
+      <name>Hugo Molinares</name>
+    </author>
+    <author>
+      <name>Laura M. Pérez</name>
+    </author>
+    <author>
+      <name>David Laroze</name>
+    </author>
+    <author>
+      <name>Jean Bragard</name>
+    </author>
+    <author>
+      <name>Boris A. Malomed</name>
+    </author>
+  </entry>
+</feed>

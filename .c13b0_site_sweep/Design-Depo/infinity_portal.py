@@ -1,0 +1,381 @@
+
+# ==============================================================================
+# Infinity Portal — Single File Server (Flask) for Android/Termux
+# One port, one UI. Rogers Chat + Pi Singer + Oscilloscope + Simple 3D panel.
+# No API keys required. Optional: if OPENAI_API_KEY is present, a stub shows how
+# to wire it (left disabled by default).
+# ------------------------------------------------------------------------------
+# Usage (Termux):
+#   pkg install python -y && pip install flask==3.0.0
+#   python3 infinity_portal.py serve      # start on :8080
+#   python3 infinity_portal.py stop       # stop running instance
+#   python3 infinity_portal.py status     # show status / port check
+# ==============================================================================
+import os, sys, json, socket, signal, time, threading
+from contextlib import closing
+from flask import Flask, request, jsonify, render_template_string, send_from_directory
+
+APP_PORT = int(os.environ.get("INFINITY_PORT", "8080"))
+PID_FILE = "/tmp/infinity_portal.pid"
+
+# ----------------------------- Utilities -------------------------------------
+def port_in_use(port: int) -> bool:
+    with closing(socket.socket(socket.AF_INET, socket.SOCK_STREAM)) as s:
+        s.settimeout(0.2)
+        return s.connect_ex(("127.0.0.1", port)) == 0
+
+def write_pid():
+    with open(PID_FILE, "w") as f:
+        f.write(str(os.getpid()))
+
+def stop_running():
+    if os.path.exists(PID_FILE):
+        try:
+            pid = int(open(PID_FILE).read().strip())
+            os.kill(pid, signal.SIGTERM)
+            time.sleep(0.3)
+        except Exception as e:
+            pass
+        try:
+            os.remove(PID_FILE)
+        except Exception:
+            pass
+
+def status():
+    running = os.path.exists(PID_FILE) and port_in_use(APP_PORT)
+    return {"running": running, "port": APP_PORT, "pid": open(PID_FILE).read().strip() if os.path.exists(PID_FILE) else None}
+
+# ----------------------------- Offline Brain ---------------------------------
+def offline_brain(message: str) -> str:
+    """Very small local rule-based responder; no internet required."""
+    m = (message or "").strip().lower()
+    if not m:
+        return "Say something and I’ll respond. Microphone works too—try the 🎤 button."
+    canned = {
+        "hi": "Hi! Rogers here—local, offline, and ready.",
+        "hello": "Hello! Rogers is live on your device (no keys needed).",
+        "who are you": "I’m Rogers (offline edition). I can chat, play tones, and run tools locally.",
+        "yahoo": "Yahoo — an American web services brand known for search, mail, and news.",
+        "what is infinity": "In this portal, ∞ is your unified UI. One script hosts many tools on one port.",
+        "help": "Use the drawer ☰ to switch tools. Chat supports mic input, uploads, and read‑aloud."
+    }
+    for k, v in canned.items():
+        if k in m:
+            return v
+    # Lightweight definition style
+    if m.startswith("define "):
+        term = m.replace("define","",1).strip()
+        return f"{term.capitalize()}: a concept you asked me to define. (Offline mode—no web)."
+    # Otherwise polite generic
+    return ("I got you. I’m running in offline mode, so I’ll keep it short. "
+            "Use the drawer to open Pi Singer, Oscilloscope, or the 3D panel. "
+            "If you want web/LLM brain later, wire an API key and endpoint in /api/chat.")
+
+# ----------------------------- Flask App -------------------------------------
+app = Flask(__name__)
+
+INDEX_HTML = r"""
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <title>∞ Infinity Portal — Rogers</title>
+  <style>
+    :root{
+      --bg:#0c1420; --bg2:#0f1a2a; --card:#101e30; --edge:#14243a;
+      --text:#eaf1ff; --muted:#a7b6d9; --brand:#1f6fff; --chip:#2563eb;
+      --ok:#22c55e; --warn:#f59e0b; --danger:#ef4444;
+    }
+    *{box-sizing:border-box} body{margin:0;background:linear-gradient(120deg,#06101f,#0e1b30 70%); color:var(--text); font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue",Arial;}
+    header{position:sticky;top:0;z-index:50;background:linear-gradient(180deg,#091425,transparent);backdrop-filter:blur(8px);}
+    .bar{display:flex;align-items:center;gap:.75rem;padding:.9rem 1rem;}
+    .badge{background:#1b2b47;color:#fff;border-radius:999px;padding:.25rem .6rem;font-size:.8rem;box-shadow:0 0 0 1px #274066 inset}
+    .title{font-weight:800;font-size:1.25rem;letter-spacing:.3px}
+    #drawerBtn{width:44px;height:44px;border-radius:12px;border:1px solid #2b436d;background:#0f1d33;display:grid;place-items:center;cursor:pointer}
+    #drawer{position:fixed;top:0;left:-310px;width:300px;height:100dvh;background:#0b1526;border-right:1px solid #1e3357;box-shadow:12px 0 40px rgba(0,0,0,.35);transition:left .28s ease;z-index:60;padding:1rem}
+    #drawer.open{left:0}
+    .menu h3{margin:.25rem 0 .5rem 0;font-size:1rem;color:#8fb3ff}
+    .menu button{width:100%;text-align:left;background:#0d1a2e;border:1px solid #223a63;color:#cfe1ff;border-radius:12px;padding:.7rem .9rem;margin:.35rem 0;cursor:pointer}
+    .wrap{max-width:960px;margin:0 auto;padding:1rem}
+    .cards{display:grid;gap:1rem}
+    .card{background:radial-gradient(1200px 400px at 50% -100%,rgba(37,99,235,.4),transparent 60%),var(--card);border:1px solid var(--edge);border-radius:20px;padding:1rem;box-shadow:0 8px 30px rgba(0,0,0,.35)}
+    .section{display:none} .section.active{display:block}
+    .chip{display:inline-block;background:linear-gradient(180deg,#2a54a3,#184285);padding:.35rem .6rem;border-radius:999px;font-size:.8rem}
+    .btn{background:linear-gradient(180deg,#2a59b4,#1f49a0);border:1px solid #3764bf;color:white;border-radius:14px;padding:.6rem .9rem;cursor:pointer}
+    .row{display:flex;gap:.6rem;align-items:center;flex-wrap:wrap}
+    .stack{display:flex;flex-direction:column;gap:.6rem}
+    input[type="range"]{width:160px}
+    /* Chat styles */
+    .chatbox{height:58vh;min-height:360px;background:#0a1628;border:1px solid #1b2c4b;border-radius:18px;padding:1rem;display:flex;flex-direction:column}
+    .bubble{max-width:78%;padding:.6rem .8rem;border-radius:14px;margin:.35rem 0}
+    .me{align-self:flex-end;background:#1971ff;color:white;border:1px solid #3385ff}
+    .bot{align-self:flex-start;background:#0f213e;border:1px solid #1f3e6f;color:#e7f0ff}
+    .inputrow{margin-top:auto;display:flex;gap:.5rem}
+    .textin{flex:1;padding:.7rem .9rem;border-radius:12px;border:1px solid #294672;background:#0e1c33;color:#e7f0ff}
+    .toolbtn{width:42px;height:42px;display:grid;place-items:center;border-radius:10px;border:1px solid #294672;background:#0d1b31;color:#cfe1ff}
+    canvas{width:100%;height:240px;background:#061326;border:1px solid #1a2c4d;border-radius:12px}
+    .footer{opacity:.8;font-size:.85rem;margin-top:.6rem}
+    .rightFloat{position:fixed;bottom:16px;right:16px;background:#0d1b31;border:1px solid #294672;border-radius:999px;padding:.5rem 1rem}
+  </style>
+</head>
+<body>
+<header>
+  <div class="bar">
+    <div id="drawerBtn" aria-label="Open menu">☰</div>
+    <div class="title">∞ Infinity Portal</div>
+    <div class="badge">Powered by INFINITY</div>
+    <div style="flex:1"></div>
+    <div class="badge" id="authBadge">Auth: not configured</div>
+  </div>
+</header>
+
+<aside id="drawer">
+  <div class="menu">
+    <h3>Tools</h3>
+    <button onclick="openSection('chat')">🧠 Rogers AI Chat</button>
+    <button onclick="openSection('pi')">🎵 Pi Singer</button>
+    <button onclick="openSection('scope')">📈 Oscilloscope</button>
+    <button onclick="openSection('three')">🧊 Simple 3D</button>
+    <h3>Theme</h3>
+    <input type="color" value="#1f6fff" oninput="document.documentElement.style.setProperty('--brand', this.value)"/>
+  </div>
+</aside>
+
+<main class="wrap">
+  <div class="cards">
+
+    <!-- Chat -->
+    <section id="chat" class="card section active">
+      <div class="row" style="justify-content:space-between">
+        <div class="chip">Rogers AI — offline brain</div>
+        <div class="row">
+          <button class="toolbtn" title="Mic" onclick="startMic()">🎤</button>
+          <label class="toolbtn" title="Upload">
+            📎<input type="file" id="fileUp" style="display:none" onchange="handleFile(event)">
+          </label>
+          <button class="toolbtn" title="Read last" onclick="readLast()">🔊</button>
+        </div>
+      </div>
+      <div id="chatbox" class="chatbox">
+        <div class="bubble bot">Hey Kris — Rogers is live. Ask me anything!</div>
+      </div>
+      <div class="inputrow">
+        <input id="message" class="textin" placeholder="Type a message..." onkeydown="if(event.key==='Enter')sendMsg()" />
+        <button class="btn" onclick="sendMsg()">Send</button>
+      </div>
+      <div class="footer">Drawer loads tools without page changes.</div>
+    </section>
+
+    <!-- Pi Singer -->
+    <section id="pi" class="card section">
+      <div class="chip">Pi Singer · Web Audio</div>
+      <div class="row">
+        <label>Digits:</label>
+        <input id="digits" type="number" min="8" max="2000" value="64"/>
+        <label>BPM:</label>
+        <input id="bpm" type="range" min="40" max="220" value="120"/>
+        <span id="bpmv">120</span>
+        <button class="btn" onclick="playPi()">Play</button>
+        <button class="btn" onclick="stopAll()">Stop</button>
+      </div>
+      <canvas id="piScope"></canvas>
+      <div class="footer">Maps π digits to a pentatonic scale; shows live waveform.</div>
+    </section>
+
+    <!-- Oscilloscope / Signal Generator -->
+    <section id="scope" class="card section">
+      <div class="chip">Signal Generator + Scope</div>
+      <div class="row">
+        <label>Mode:</label>
+        <select id="modeSel">
+          <option value="single">Single frequency</option>
+          <option value="two">Two tones</option>
+          <option value="chord">Chord (3)</option>
+        </select>
+        <label>Freq (Hz):</label><input id="f1" type="range" min="50" max="2000" value="440"/><span id="f1v">440</span>
+        <label id="f2lbl" style="display:none">F2:</label><input id="f2" type="range" min="50" max="2000" value="660" style="display:none"/><span id="f2v" style="display:none">660</span>
+        <label id="f3lbl" style="display:none">F3:</label><input id="f3" type="range" min="50" max="2000" value="880" style="display:none"/><span id="f3v" style="display:none">880</span>
+        <label>Amplitude:</label><input id="amp" type="range" min="0" max="1" step="0.01" value="0.3"/><span id="ampv">0.30</span>
+        <label>Beat (Hz):</label><input id="beat" type="range" min="0" max="20" step="0.1" value="2"/><span id="beatv">2.0</span>
+        <button class="btn" onclick="startGen()">Start</button>
+        <button class="btn" onclick="stopAll()">Stop</button>
+      </div>
+      <canvas id="scopeCanvas"></canvas>
+    </section>
+
+    <!-- Simple 3D -->
+    <section id="three" class="card section">
+      <div class="chip">Simple 3D Panel</div>
+      <div style="height:260px;display:grid;place-items:center;background:#0a1628;border:1px solid #1b2c4b;border-radius:12px;perspective:800px">
+        <div id="cube" style="width:120px;height:120px;position:relative;transform-style:preserve-3d;animation:spin 7s linear infinite">
+          <div style="position:absolute;inset:0;background:#1f6fff11;border:1px solid #2f66cc;border-radius:12px;display:grid;place-items:center;transform:translateZ(60px);">∞</div>
+          <div style="position:absolute;inset:0;background:#1f6fff11;border:1px solid #2f66cc;border-radius:12px;display:grid;place-items:center;transform:rotateY(90deg) translateZ(60px);">∞</div>
+          <div style="position:absolute;inset:0;background:#1f6fff11;border:1px solid #2f66cc;border-radius:12px;display:grid;place-items:center;transform:rotateY(-90deg) translateZ(60px);">∞</div>
+          <div style="position:absolute;inset:0;background:#1f6fff11;border:1px solid #2f66cc;border-radius:12px;display:grid;place-items:center;transform:rotateX(90deg) translateZ(60px);">∞</div>
+          <div style="position:absolute;inset:0;background:#1f6fff11;border:1px solid #2f66cc;border-radius:12px;display:grid;place-items:center;transform:rotateX(-90deg) translateZ(60px);">∞</div>
+          <div style="position:absolute;inset:0;background:#1f6fff11;border:1px solid #2f66cc;border-radius:12px;display:grid;place-items:center;transform:rotateY(180deg) translateZ(60px);">∞</div>
+        </div>
+      </div>
+      <style>@keyframes spin{from{transform:rotateX(0) rotateY(0)}to{transform:rotateX(360deg) rotateY(360deg)}}</style>
+      <div class="footer">Lightweight CSS “3D” so it runs offline.</div>
+    </section>
+
+  </div>
+</main>
+
+<div class="rightFloat">Total tokens: <span id="tok">0</span></div>
+
+<script>
+  // Drawer
+  const drawer = document.getElementById('drawer'); const btn = document.getElementById('drawerBtn');
+  btn.onclick = ()=> drawer.classList.toggle('open'); document.body.addEventListener('click', e=>{ if(e.target===drawer) drawer.classList.remove('open'); });
+
+  function openSection(id){
+    document.querySelectorAll('.section').forEach(s=>s.classList.remove('active'));
+    document.getElementById(id).classList.add('active'); drawer.classList.remove('open');
+  }
+
+  // --------- Chat ----------
+  const box = document.getElementById('chatbox');
+  const input = document.getElementById('message');
+  let tokenCount = 0;
+  function addBubble(text, cls){ const b=document.createElement('div'); b.className='bubble '+cls; b.textContent=text; box.appendChild(b); box.scrollTop=box.scrollHeight; return b; }
+  function sendMsg(){
+    const text = input.value.trim(); if(!text) return;
+    addBubble(text,'me'); input.value='';
+    const wait = addBubble("Processing your message: '"+text+"' ... integrating response soon.", 'bot');
+    fetch('/api/chat', {method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({message:text})})
+      .then(r=>r.json()).then(d=>{ wait.textContent = d.reply; tokenCount += (text.length + d.reply.length); document.getElementById('tok').textContent = tokenCount; if(localStorage.getItem('tts')==='1'){ speechSynthesis.speak(new SpeechSynthesisUtterance(d.reply)); } })
+      .catch(_=>{ wait.textContent = "Local server error. Try again."; });
+  }
+  function readLast(){
+    const bubbles=[...document.querySelectorAll('.bubble.bot')]; if(!bubbles.length) return;
+    speechSynthesis.speak(new SpeechSynthesisUtterance(bubbles[bubbles.length-1].textContent));
+  }
+  // Mic
+  function startMic(){
+    try{
+      const SR = window.SpeechRecognition || window.webkitSpeechRecognition; const r = new SR();
+      r.lang='en-US'; r.interimResults=false; r.maxAlternatives=1; r.onresult=(e)=>{ input.value = e.results[0][0].transcript; sendMsg(); }; r.onerror=(e)=>{ addBubble("Mic error: "+e.error,'bot'); }; r.start();
+    }catch(e){ addBubble("Speech recognition not available in this browser.",'bot'); }
+  }
+  // Upload (shows file name back via chat)
+  function handleFile(ev){ const f=ev.target.files[0]; if(!f) return; addBubble("Got file: "+f.name+" ("+f.size+" bytes). I can parse text files locally.",'bot'); }
+
+  // --------- Pi Singer ---------
+  let ac, master, analyser, scopeTimer, nodes=[];
+  const piDigits = "14159265358979323846264338327950288419716939937510"
+                 + "58209749445923078164062862089986280348253421170679";
+  function ensureAudio(){
+    if(!ac){ ac = new (window.AudioContext || window.webkitAudioContext)(); master = ac.createGain(); master.gain.value = 0.2; analyser = ac.createAnalyser(); analyser.fftSize = 2048; master.connect(analyser); analyser.connect(ac.destination); }
+  }
+  const noteTable=[0,2,4,7,9,12,14,16,19,21]; // pentatonic mapping in semitones
+  function midiToFreq(m){ return 440*Math.pow(2,(m-69)/12); }
+  function playPi(){
+    ensureAudio(); stopAll();
+    const n = Math.max(8, Math.min(parseInt(document.getElementById('digits').value||"64"), 2000));
+    const bpm = parseInt(document.getElementById('bpm').value||"120"); document.getElementById('bpmv').textContent=bpm;
+    const step = 60/bpm;
+    for(let i=0;i<n;i++){
+      const d = parseInt(piDigits[i%piDigits.length]); const midi = 60 + noteTable[d%noteTable.length];
+      const t = ac.currentTime + i*step; const o = ac.createOscillator(); const g = ac.createGain();
+      o.frequency.value = midiToFreq(midi); g.gain.setValueAtTime(0, t); g.gain.linearRampToValueAtTime(0.35, t+0.01); g.gain.exponentialRampToValueAtTime(0.001, t+step*0.9);
+      o.connect(g); g.connect(master); o.start(t); o.stop(t+step); nodes.push(o); nodes.push(g);
+    }
+    drawScope(document.getElementById('piScope'));
+  }
+  // --------- Signal Generator + Scope ---------
+  function startGen(){
+    ensureAudio(); stopAll();
+    const mode = document.getElementById('modeSel').value;
+    const amp = parseFloat(document.getElementById('amp').value); document.getElementById('ampv').textContent=amp.toFixed(2);
+    const beat = parseFloat(document.getElementById('beat').value); document.getElementById('beatv').textContent=beat.toFixed(1);
+    const t0 = ac.currentTime;
+    const gains=[];
+    function addOsc(freq){
+      const o = ac.createOscillator(); const g = ac.createGain();
+      o.type='sine'; o.frequency.value = freq;
+      // Beat = slow amplitude modulation
+      const lfo = ac.createOscillator(); const lfoGain = ac.createGain(); lfo.frequency.value = beat; lfoGain.gain.value = amp/2;
+      lfo.connect(lfoGain).connect(g.gain);
+      g.gain.value = amp/2; o.connect(g); g.connect(master);
+      o.start(); lfo.start(); nodes.push(o,g,lfo,lfoGain); gains.push(g);
+    }
+    const f1 = parseInt(document.getElementById('f1').value); document.getElementById('f1v').textContent=f1;
+    addOsc(f1);
+    if(mode!=='single'){
+      const f2 = parseInt(document.getElementById('f2').value); document.getElementById('f2v').textContent=f2;
+      addOsc(f2);
+    }
+    if(mode==='chord'){
+      const f3 = parseInt(document.getElementById('f3').value); document.getElementById('f3v').textContent=f3;
+      addOsc(f3);
+    }
+    drawScope(document.getElementById('scopeCanvas'));
+  }
+  function drawScope(canvas){
+    if(!analyser) return;
+    const ctx = canvas.getContext('2d'); const buf = new Uint8Array(analyser.fftSize);
+    if(scopeTimer) cancelAnimationFrame(scopeTimer);
+    function frame(){
+      analyser.getByteTimeDomainData(buf);
+      ctx.clearRect(0,0,canvas.width,canvas.height);
+      ctx.beginPath(); const h=canvas.height, w=canvas.width;
+      for(let i=0;i<w;i++){ const v = buf[Math.floor(i/buf.length*buf.length)]/128.0 - 1.0; const y = h/2 + v*h*0.4; i?ctx.lineTo(i,y):ctx.moveTo(i,y); }
+      ctx.strokeStyle="#6aa7ff"; ctx.lineWidth=2; ctx.stroke();
+      scopeTimer = requestAnimationFrame(frame);
+    }
+    frame();
+  }
+  function stopAll(){
+    nodes.forEach(n=>{ try{ if(n.stop) n.stop(); if(n.disconnect) n.disconnect(); }catch(e){} }); nodes=[];
+    if(scopeTimer) cancelAnimationFrame(scopeTimer);
+  }
+  // Mode UI dynamics
+  const modeSel=document.getElementById('modeSel'); const f2=document.getElementById('f2'), f2v=document.getElementById('f2v'), f2lbl=document.getElementById('f2lbl');
+  const f3=document.getElementById('f3'), f3v=document.getElementById('f3v'), f3lbl=document.getElementById('f3lbl');
+  function refreshMode(){
+    const m = modeSel.value;
+    [f2,f2v,f2lbl].forEach(el=>el.style.display = (m==='single')?'none':'inline');
+    [f3,f3v,f3lbl].forEach(el=>el.style.display = (m==='chord')?'inline':'none');
+  }
+  modeSel.addEventListener('change', refreshMode); refreshMode();
+  document.getElementById('bpm').addEventListener('input', e=>document.getElementById('bpmv').textContent=e.target.value);
+  ['f1','f2','f3'].forEach(id=>{ const el=document.getElementById(id); if(el) el.addEventListener('input', e=>document.getElementById(id+'v').textContent=e.target.value); });
+</script>
+</body>
+</html>
+"""
+
+@app.post("/api/chat")
+def api_chat():
+    data = request.get_json(silent=True) or {}
+    msg = data.get("message","")
+    # Offline brain
+    reply = offline_brain(msg)
+    return jsonify({"reply": reply})
+
+@app.get("/")
+def index():
+    return render_template_string(INDEX_HTML)
+
+def serve():
+    write_pid()
+    print(f"∞ Infinity Portal live on http://127.0.0.1:{APP_PORT}")
+    app.run(host="0.0.0.0", port=APP_PORT, debug=False)
+
+if __name__ == "__main__":
+    cmd = sys.argv[1] if len(sys.argv)>1 else "serve"
+    if cmd == "serve":
+        if port_in_use(APP_PORT):
+            print(f"Port {APP_PORT} is already in use. If this is a stuck instance, run: python3 {os.path.basename(__file__)} stop")
+            sys.exit(1)
+        serve()
+    elif cmd == "stop":
+        stop_running()
+        print("Stopped Infinity Portal if it was running.")
+    elif cmd == "status":
+        print(json.dumps(status(), indent=2))
+    else:
+        print("Usage: python3 infinity_portal.py [serve|stop|status]")

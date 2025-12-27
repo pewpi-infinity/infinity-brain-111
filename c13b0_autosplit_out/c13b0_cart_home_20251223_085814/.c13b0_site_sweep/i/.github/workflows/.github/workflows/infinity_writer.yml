@@ -1,0 +1,108 @@
+name: Infinity Writer
+
+on:
+  push:
+    paths:
+      - 'queue/*.json'
+
+jobs:
+  process_queue:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v3
+
+    - name: Configure Git
+      run: |
+        git config user.name "OctaveOS"
+        git config user.email "octave@infinity.os"
+
+    - name: Install jq (JSON processor)
+      run: sudo apt-get install -y jq
+
+    - name: Process Queue Files
+      run: |
+        for file in queue/*.json; do
+          echo "Processing $file"
+
+          ACTION_TYPE=$(jq -r '.type' "$file")
+          TARGET=$(jq -r '.target' "$file")
+          CONTENT=$(jq -r '.content' "$file")
+
+          if [ ! -f "$TARGET" ]; then
+            echo "Target file does not exist. Creating $TARGET"
+            mkdir -p "$(dirname "$TARGET")"
+            touch "$TARGET"
+          fi
+
+          if [ "$ACTION_TYPE" = "append" ]; then
+            echo "$CONTENT" >> "$TARGET"
+          fi
+
+          if [ "$ACTION_TYPE" = "overwrite" ]; then
+            echo "$CONTENT" > "$TARGET"
+          fi
+
+          # Mark processed file
+          mv "$file" "$file.done"
+        done
+
+    - name: Commit and Push Changes
+      run: |
+        git add -A
+        git commit -m "Infinity Writer: processed queue"
+        git push origin main
+      env:
+        GITHUB_TOKEN: ${{ secrets.INFINITY_PAT }}
+        
+# ----------------------------------------------
+# INFINITY WRITER — INITIAL PROCESSOR SETUP
+# This block can be appended to ANY workflow file.
+# ----------------------------------------------
+
+name: Infinity Writer — Session Logger
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'input/**'
+
+jobs:
+  write:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repo
+      uses: actions/checkout@v3
+
+    - name: Ensure output folder exists
+      run: |
+        mkdir -p output
+
+    - name: Process new input files
+      run: |
+        for f in input/*.txt; do
+          echo "Processing $f"
+          ts=$(date +"%Y-%m-%d_%H-%M-%S")
+          outfile="output/session_${ts}.txt"
+
+          echo "==== SESSION LOG ====" >> "$outfile"
+          echo "Source File: $f" >> "$outfile"
+          echo "Timestamp: $ts" >> "$outfile"
+          echo "" >> "$outfile"
+          cat "$f" >> "$outfile"
+          echo "" >> "$outfile"
+          echo "==== END LOG ====" >> "$outfile"
+          
+          echo "Saved → $outfile"
+        done
+
+    - name: Commit logs back to repo
+      run: |
+        git config user.name "Infinity Writer"
+        git config user.email "octave@infinity.ai"
+        git add output/*.txt || true
+        git commit -m "Infinity Writer: Added new session logs" || echo "No changes"
+        git push

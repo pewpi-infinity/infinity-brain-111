@@ -1,0 +1,123 @@
+TERMS: frequency, muon, oxidation
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/crKn2V8gMoJAa1UlGMkDj4i2jsA</id>
+  <title>arXiv Query: search_query=all:frequency AND all:muon AND all:oxidation&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:12:43Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:muon+AND+all:oxidation)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>5</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2305.12237v3</id>
+    <title>Magnetostriction-Driven Muon Localization in an Antiferromagnetic Oxide</title>
+    <updated>2024-01-28T09:33:31Z</updated>
+    <link href="https://arxiv.org/abs/2305.12237v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.12237v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Magnetostriction drives a rhombohedral distortion in the cubic rock salt antiferromagnet MnO at the Néel temperature $T_{N}=118$ K. As an unexpected consequence we show that this distortion acts to localize the site of an implanted muon due to the accompanying redistribution of electron density. This lifts the degeneracy between equivalent sites, resulting in a single observed muon precession frequency. Above $T_{N}$, the muon instead becomes delocalized around a network of equivalent sites. Our first-principles simulations based on Hubbard-corrected density-functional theory and molecular dynamics are consistent with our experimental data and help to resolve a long-standing puzzle regarding muon data on MnO, as well as having wider applicability to other magnetic oxides.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-20T17:03:43Z</published>
+    <arxiv:comment>7 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 132, 046701 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Pietro Bonfà</name>
+    </author>
+    <author>
+      <name>Ifeanyi John Onuorah</name>
+    </author>
+    <author>
+      <name>Franz Lang</name>
+    </author>
+    <author>
+      <name>Iurii Timrov</name>
+    </author>
+    <author>
+      <name>Lorenzo Monacelli</name>
+    </author>
+    <author>
+      <name>Chennan Wang</name>
+    </author>
+    <author>
+      <name>Xiao Sun</name>
+    </author>
+    <author>
+      <name>Oleg Petracic</name>
+    </author>
+    <author>
+      <name>Giovanni Pizzi</name>
+    </author>
+    <author>
+      <name>Nicola Marzari</name>
+    </author>
+    <author>
+      <name>Stephen J. Blundell</name>
+    </author>
+    <author>
+      <name>Roberto De Renzi</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.132.046701</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.132.046701" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.09147v1</id>
+    <title>Extended Dynamical Kubo-Toyabe Relaxation for $μ$SR study of Ion Dynamics: An Introduction</title>
+    <updated>2025-05-14T05:05:39Z</updated>
+    <link href="https://arxiv.org/abs/2505.09147v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.09147v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the analysis of the ion diffusion in metal oxides based on muon spin rotation and relaxation ($μ$SR), the dynamical Kubo-Toyabe (dKT) function has been routinely used to deduce the jump frequency of ions. This is based on the two beliefs: (1) the fluctuations of the internal magnetic field ${\bm H}(t)$ are determined solely by the relative motion of the muons to the surrounding ions, and (2) the muons are immobile due to bonding to the oxygen. However, these are not necessarily trivial, and we addressed their credibility by developing an extended dKT function corresponding to the realistic situation that only a part of the ions surrounding muon are involved in a single fluctuation of ${\bm H}(t)$ in the ion diffusion, and investigated its behavior in detail. The results show that the new function exhibits qualitatively different behavior from the dKT function, and that it provides a way to determine whether muons or ions are in motion, as well as a means for quantitative analysis based on the assumption of immobile muons. As a typical example, we examine the earlier $μ^\pm$SR results on Na$_x$CoO$_2$ and demonstrate that the internal field fluctuations observed in $μ^+$SR are dominated by muon self-diffusion, in contrast to previous interpretations.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-14T05:05:39Z</published>
+    <arxiv:comment>7 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Takashi U. Ito</name>
+    </author>
+    <author>
+      <name>Ryosuke Kadono</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0507355v1</id>
+    <title>2D Kagome Ordering in the 3D Frustrated Spinel Li2Mn2O4</title>
+    <updated>2005-07-15T03:49:25Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0507355v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0507355v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  muSR experiments on the geometrically frustrated spinel oxide, Li2Mn2O4, show the development of spin correlations over a range of length scales with decreasing temperature. Increased relaxation below 150 K is consistent with the onset of spin correlations. Below 50 K, spin order on a length scale, which is long range for the muSR probe, appears abruptly in temperature, consistent with prior neutron diffraction results. The oscillations in the zero field asymmetry are analyzed using a three frequency model. By locating the muon site this is shown to be consistent with the unexpected 2D q = root 3 x root 3 structure on the Kagome planes proposed originally from neutron data. Longitudinal field data demonstrate that some spin dynamics persist even at 2 K. Thus, a very complex magnetic ground state, featuring the co-existence of long length scale 2D ordering and significant spin dynamics, is proposed. This is unusual considering the 3D topology of the Mn3+ spins in this material.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-07-15T03:49:25Z</published>
+    <arxiv:comment>9 pages, 9 figures, to be submitted to J. Phys. Cond. Matt</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <author>
+      <name>C. R. Wiebe</name>
+    </author>
+    <author>
+      <name>P. L. Russo</name>
+    </author>
+    <author>
+      <name>A. T. Savici</name>
+    </author>
+    <author>
+      <name>Y. J. Uemura</name>
+    </author>
+    <author>
+      <name>G. J. MacDougall</name>
+    </author>
+    <author>
+      <name>G. M. Luke</name>
+    </author>
+    <author>
+      <name>S. Kuchta</name>
+    </author>
+    <author>
+      <name>J. E. Greedan</name>
+    </author>
+    <arxiv:doi>10.1088/0953-8984/17/41/017</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0953-8984/17/41/017" title="doi"/>
+  </entry>
+</feed>

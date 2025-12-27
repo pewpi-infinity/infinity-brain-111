@@ -1,0 +1,89 @@
+TERMS: frequency, entropy, bandgap
+COLORS: green, red, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/2zg74tHUQL9bILV/4GkeqX+eKkg</id>
+  <title>arXiv Query: search_query=all:frequency AND all:entropy AND all:bandgap&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:10:07Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:entropy+AND+all:bandgap)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>3</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2510.01056v1</id>
+    <title>High-Pressure DFT Study of BeX (X = S, Se, Te): Phonon Spectra, Optical Properties, and Thermodynamic Stability for Advanced Optoelectronic Applications</title>
+    <updated>2025-10-01T15:58:59Z</updated>
+    <link href="https://arxiv.org/abs/2510.01056v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.01056v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a comprehensive first-principles investigation of the structural, electronic, optical, and thermodynamic properties of BeX compounds (X = S, Se, Te) under hydrostatic pressures ranging from 0 to 10 GPa. Calculations were performed using density functional theory (DFT) within the Generalized Gradient Approximation (GGA) using the Perdew-Burke-Ernzerhof (PBE) functional, as implemented in the CASTEP code. Phonon dispersion analyses confirm the dynamical stability of all compounds across the studied pressure range, as indicated by the absence of imaginary frequencies throughout the Brillouin zone. The electronic band structure reveals pressure-induced band modifications, with BeS retaining the widest bandgap. Optical properties, including the dielectric function, absorption coefficient, reflectivity, and energy loss spectra, were computed for photon energies up to 30 eV. The materials exhibit strong optical absorption in the ultraviolet region, suggesting potential for UV optoelectronic applications. Thermodynamic parameters such as Debye temperature, heat capacity, and entropy were evaluated, showing pressure-dependent trends. Notably, increasing pressure leads to reduced atomic vibrations and heat capacity, while the Gibbs free energy exhibits a consistent slope with temperature, reflecting entropy variation. These results highlight the suitability of BeX compounds for pressure-sensitive optoelectronic and thermoelectric devices, as well as thermal barrier applications.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-01T15:58:59Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Muhammad Shahzad</name>
+    </author>
+    <author>
+      <name>Sikander Azam</name>
+    </author>
+    <author>
+      <name>Syed Awais Ahmad</name>
+    </author>
+    <author>
+      <name>Ming Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2110.04262v1</id>
+    <title>Defect Dipole Induced Improved Electrocaloric Effect in Modified NBT-6BT Lead-Free Ceramics</title>
+    <updated>2021-10-08T17:19:11Z</updated>
+    <link href="https://arxiv.org/abs/2110.04262v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2110.04262v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Rietveld refinement of the polycrystalline powders of 1% Fe and Mn-doped (Na0.5Bi0.5)0.94Ba0.06Ti0.98V0.02O3 at the Ti-site confirmed a single rhombohedral (R3c) phase. The bandgap, (Eg) was affected by the anti-phase octahedral tilt angle and the spin-orbit splitting energy of Ti4+2p3/2 and Ti4+2p1/2 states. The decrease in Bi loss and increase in the binding energy of Ba due to Fe/Mn doping has been correlated to the strengthening of Bi-O and Ba-O bonds which was revealed from the XPS studies thereby further related to the average A-O bond length from structural studies. Hence, a reduction of oxygen vacancy (VO) for the doped samples has been justified. A significant improvement of the dielectric constant, relaxation time (τ0), and the decrease in conductivity due to doping was revealed from the frequency-dependent (10Hz-1MHz) dielectric measurement study. The conduction and relaxation process is dominated by the short-range movement of defects. The activation energy (Ea ~1eV) revealed that there is a presence of double-ionized VOs. The ECE study showed a significant enhancement of the changes in entropy, and the adiabatic temperature difference due to doping, with the change in tempearture being highest in the Fe-doped sample. Such improvement of dielectric and ECE properties was confirmed due to the reduction of the mobility of oxygen vacancy because of the formation defect dipoles.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-10-08T17:19:11Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Koyal Suman Samantaray</name>
+    </author>
+    <author>
+      <name>Ruhul Amin</name>
+    </author>
+    <author>
+      <name>E. G Rini</name>
+    </author>
+    <author>
+      <name>Indranil Bhaumik</name>
+    </author>
+    <author>
+      <name>A. Mekki</name>
+    </author>
+    <author>
+      <name>K. Harrabi</name>
+    </author>
+    <author>
+      <name>Somaditya Sen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.22283v1</id>
+    <title>Adapting Noise-Driven PUF and AI for Secure WBG ICS: A Proof-of-Concept Study</title>
+    <updated>2025-10-25T12:57:55Z</updated>
+    <link href="https://arxiv.org/abs/2510.22283v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.22283v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Wide-bandgap (WBG) technologies offer unprecedented improvements in power system efficiency, size, and performance, but also introduce unique sensor corruption and cybersecurity risks in industrial control systems (ICS), particularly due to high-frequency noise and sophisticated cyber-physical threats. This proof-of-concept (PoC) study demonstrates the adaptation of a noise-driven physically unclonable function (PUF) and machine learning (ML)-assisted anomaly detection framework to the demanding environment of WBG-based ICS sensor pathways. By extracting entropy from unavoidable WBG switching noise (up to 100 kHz) as a PUF source, and simultaneously using this noise as a real-time threat indicator, the proposed system unites hardware-level authentication and anomaly detection. Our approach integrates hybrid machine learning (ML) models with adaptive Bayesian filtering, providing robust and low-latency detection capabilities resilient to both natural electromagnetic interference (EMI) and active adversarial manipulation. Through detailed simulations of WBG modules under benign and attack scenarios--including EMI injection, signal tampering, and node impersonation--we achieve 95% detection accuracy and sub-millisecond processing latency. These results demonstrate the feasibility of physics-driven, dual-use noise exploitation as a scalable ICS defense primitive. Our findings lay the groundwork for next-generation security strategies that leverage inherent device characteristics, bridging hardware and artificial intelligence (AI) for enhanced protection of critical ICS infrastructure.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-25T12:57:55Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Devon A. Kelly</name>
+    </author>
+    <author>
+      <name>Christiana Chamon</name>
+    </author>
+  </entry>
+</feed>

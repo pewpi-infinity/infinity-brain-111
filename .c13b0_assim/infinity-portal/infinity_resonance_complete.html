@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infinity Resonance System - Complete Educational Platform</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            color: #e0e0e0;
+            overflow-x: hidden;
+        }
+        
+        .nav-tabs {
+            display: flex;
+            background: rgba(0,0,0,0.5);
+            padding: 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            backdrop-filter: blur(10px);
+        }
+        
+        .nav-tab {
+            flex: 1;
+            padding: 20px;
+            text-align: center;
+            cursor: pointer;
+            border: none;
+            background: transparent;
+            color: #e0e0e0;
+            font-size: 1.1em;
+            transition: all 0.3s;
+            border-bottom: 3px solid transparent;
+        }
+        
+        .nav-tab:hover {
+            background: rgba(255,255,255,0.1);
+        }
+        
+        .nav-tab.active {
+            background: rgba(102, 126, 234, 0.3);
+            border-bottom: 3px solid #667eea;
+        }
+        
+        .tab-content {
+            display: none;
+            animation: fadeIn 0.5s;
+        }
+        
+        .tab-content.active {
+            display: block;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .container {
+            max-width: 1600px;
+            margin: 0 auto;
+            padding: 30px;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+            margin-bottom: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(102, 126, 234, 0.4);
+        }
+        
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .section {
+            background: rgba(255,255,255,0.05);
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 30px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        
+        .section h2 {
+            color: #667eea;
+            margin-bottom: 20px;
+            font-size: 2em;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+        }
+        
+        .section h3 {
+            color: #a3b1ff;
+            margin: 20px 0 10px 0;
+            font-size: 1.4em;
+        }
+        
+        .grid-2 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+        }
+        
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        
+        .info-box {
+            background: rgba(102, 126, 234, 0.1);
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 8px;
+        }
+        
+        .warning-box {
+            background: rgba(255, 193, 7, 0.1);
+            border-left: 4px solid #ffc107;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 8px;
+        }
+        
+        .danger-box {
+            background: rgba(244, 67, 54, 0.1);
+            border-left: 4px solid #f44336;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 8px;
+        }
+        
+        .success-box {
+            background: rgba(76, 175, 80, 0.1);
+            border-left: 4px solid #4caf50;
+            padding: 20px;
+            margin: 15px 0;
+            border-radius: 8px;
+        }
+        
+        canvas {
+            display: block;
+            width: 100%;
+            background: #000;
+            border-radius: 10px;
+            border: 2px solid #667eea;
+        }
+        
+        .canvas-container {
+            position: relative;
+            margin: 20px 0;
+        }
+        
+        button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 10px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: all 0.3s;
+            margin: 5px;
+            font-weight: bold;
+        }
+        
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+        }
+        
+        .control-panel {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        
+        .stat-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        
+        .stat-box {
+            background: rgba(0,0,0,0.3);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            border: 1px solid rgba(102, 126, 234, 0.3);
+        }
+        
+        .stat-box .value {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #667eea;
+            margin: 10px 0;
+        }
+        
+        .stat-box .label {
+            color: #a0a0a0;
+            font-size: 0.9em;
+        }
+        
+        ul {
+            margin-left: 20px;
+            margin-top: 10px;
+            line-height: 1.8;
+        }
+        
+        ul li {
+            margin: 10px 0;
+        }
+        
+        .theory-card {
+            background: rgba(102, 126, 234, 0.05);
+            padding: 25px;
+            border-radius: 12px;
+            margin: 15px 0;
+            border: 1px solid rgba(102, 126, 234, 0.2);
+        }
+        
+        .formula {
+            background: rgba(0,0,0,0.4);
+            padding: 15px;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            color: #00ff00;
+            margin: 15px 0;
+            border-left: 4px solid #00ff00;
+        }
+        
+        .highlight {
+            color: #667eea;
+            font-weight: bold;
+        }
+        
+        @media (max-width: 768px) {
+            .grid-2 {
+                grid-template-columns: 1fr;
+            }
+            
+            header h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="nav-tabs">
+        <button class="nav-tab active" onclick="showTab(0)">🧬 Probe System</button>
+        <button class="nav-tab" onclick="showTab(1)">🎵 Theremin Interface</button>
+        <button class="nav-tab" onclick="showTab(2)">💧 Dimensional Theory</button>
+        <button class="nav-tab" onclick="showTab(3)">⚕️ Vibrational Healing</button>
+        <button class="nav-tab" onclick="showTab(4)">📡 Radionics History</button>
+    </div>
+
+    <div class="container">
+        <!-- TAB 1: Electrochemical Probe System -->
+        <div class="tab-content active">
+            <header>
+                <h1>⚡ Electrochemical Probe System</h1>
+                <p>Self-Powered Energy Generation Through Layered Metal Reactions</p>
+            </header>
+
+            <div class="section">
+                <h2>🔬 Live Probe Simulation</h2>
+                <div class="canvas-container">
+                    <canvas id="probeCanvas" width="1200" height="600"></canvas>
+                </div>
+                <div class="control-panel">
+                    <button onclick="startProbeSimulation()">▶ Start</button>
+                    <button onclick="pauseProbeSimulation()">⏸ Pause</button>
+                    <button onclick="resetProbeSimulation()">🔄 Reset</button>
+                    <button onclick="toggleProbeMovement()">↕️ Toggle Movement</button>
+                </div>
+                <div class="stat-grid">
+                    <div class="stat-box">
+                        <div class="label">Voltage</div>
+                        <div class="value" id="voltage">0.00V</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="label">Current (mA)</div>
+                        <div class="value" id="current">0.0</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="label">Power (mW)</div>
+                        <div class="value" id="power">0.0</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="label">Efficiency</div>
+                        <div class="value" id="efficiency">0%</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid-2">
+                <div class="section">
+                    <h2>📊 Layer Structure</h2>
+                    <p>Each probe contains multiple metal layers that react sequentially:</p>
+                    <div class="info-box">
+                        <h3>Layer 1: Lithium (Inner Core)</h3>
+                        <p><strong>Properties:</strong> Highest reactivity, softest metal</p>
+                        <p><strong>Reaction:</strong> Li → Li⁺ + e⁻</p>
+                        <p><strong>Voltage:</strong> ~3.04V per cell</p>
+                    </div>
+                    <div class="info-box">
+                        <h3>Layer 2: Copper (Outer Shell)</h3>
+                        <p><strong>Properties:</strong> Good conductor, moderate reactivity</p>
+                        <p><strong>Reaction:</strong> Cu → Cu²⁺ + 2e⁻</p>
+                        <p><strong>Voltage:</strong> ~0.34V per cell</p>
+                    </div>
+                    <div class="success-box">
+                        <h3>💡 Key Insight</h3>
+                        <p>As the outer copper layer dissolves, it exposes the lithium core. This creates a <strong>sequential energy release</strong> system where each layer contributes different voltages and discharge characteristics.</p>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2>🔧 How It Works</h2>
+                    <div class="theory-card">
+                        <h3>1. Galvanic Principle</h3>
+                        <p>Different metals in electrolyte create voltage difference. More reactive metal (anode) oxidizes, less reactive (cathode) receives electrons.</p>
+                    </div>
+                    <div class="theory-card">
+                        <h3>2. Microcontroller Intelligence</h3>
+                        <p>IC monitors voltage/current and controls stepper motors to raise/lower probes, optimizing layer exposure and maximizing efficiency.</p>
+                    </div>
+                    <div class="theory-card">
+                        <h3>3. Self-Sustaining Power</h3>
+                        <p>Generated electricity powers the microcontroller after initial startup, creating a self-sustaining system.</p>
+                    </div>
+                    <div class="warning-box">
+                        <h3>⚠️ Safety Note</h3>
+                        <p>This is an educational demonstration. Actual implementation requires proper engineering, safety protocols, and regulatory compliance.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- TAB 2: Theremin Interface -->
+        <div class="tab-content">
+            <header>
+                <h1>🎵 Infinity Theremin Interface</h1>
+                <p>Will-Powered Resonance Controller</p>
+            </header>
+
+            <div class="section">
+                <h2>🎯 The Will-Power Controller Concept</h2>
+                <div class="info-box">
+                    <p>A theremin uses RF oscillators to detect capacitance shifts from hand movements. Combined with AI and safe transducers, it becomes an interface for intent-driven resonance control.</p>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>🔬 Interactive Theremin Simulator</h2>
+                <div class="canvas-container">
+                    <canvas id="thereminCanvas" width="1200" height="400"></canvas>
+                </div>
+                <div class="control-panel">
+                    <button onclick="startTheremin()">▶ Start Theremin</button>
+                    <button onclick="stopTheremin()">⏹ Stop</button>
+                    <button onclick="toggleWaveform()">🌊 Change Waveform</button>
+                </div>
+                <p style="text-align: center; margin-top: 20px;">Move your mouse over the canvas to control pitch (horizontal) and volume (vertical)</p>
+            </div>
+
+            <div class="grid-2">
+                <div class="section">
+                    <h2>📡 System Architecture</h2>
+                    <div class="theory-card">
+                        <h3>Input Layer (Will)</h3>
+                        <ul>
+                            <li>Theremin pitch/volume detection</li>
+                            <li>Hand/eye tracking (camera or Leap Motion)</li>
+                            <li>Optional: breath sensor, HRV monitor</li>
+                        </ul>
+                    </div>
+                    <div class="theory-card">
+                        <h3>Interpreter (AI)</h3>
+                        <ul>
+                            <li>Maps gestures to multi-band recipes</li>
+                            <li>Generates audible, infrasound, ultrasound patterns</li>
+                            <li>Creates safe PEMF envelopes</li>
+                            <li>Controls light/laser output</li>
+                        </ul>
+                    </div>
+                    <div class="theory-card">
+                        <h3>Transducers (Action)</h3>
+                        <ul>
+                            <li><strong>Audio & Infrasound:</strong> Room-safe levels for entrainment</li>
+                            <li><strong>Ultrasound Array:</strong> Low-intensity focused acoustic</li>
+                            <li><strong>PEMF Coil:</strong> Within conservative exposure limits</li>
+                            <li><strong>Light/Laser:</strong> Eye-safe visual resonance</li>
+                        </ul>
+                    </div>
+                    <div class="theory-card">
+                        <h3>Feedback Loop</h3>
+                        <ul>
+                            <li>HRV/EDA/skin temperature monitoring</li>
+                            <li>Local vibrometer/microphone</li>
+                            <li>AI adjusts when body "lets go"</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2>🛡️ Safety & Compliance</h2>
+                    <div class="danger-box">
+                        <h3>🚫 Prohibited Uses</h3>
+                        <ul>
+                            <li>No high-power RF into people</li>
+                            <li>No unauthorized resource extraction</li>
+                            <li>No environmental damage</li>
+                            <li>No medical claims without FDA approval</li>
+                        </ul>
+                    </div>
+                    <div class="success-box">
+                        <h3>✅ Permitted Applications</h3>
+                        <ul>
+                            <li>Educational demonstrations</li>
+                            <li>Artistic performances</li>
+                            <li>Wellness research (with IRB approval)</li>
+                            <li>Geological surveys (with proper permits)</li>
+                        </ul>
+                    </div>
+                    <div class="warning-box">
+                        <h3>⚙️ Required Safety Features</h3>
+                        <ul>
+                            <li>Ultrasound within LIPAA/diagnostic-class limits</li>
+                            <li>PEMF within conservative guidelines</li>
+                            <li>Auto-shutoff interlocks</li>
+                            <li>Continuous power monitoring</li>
+                            <li>Emergency stop button</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>🎨 Applications</h2>
+                <div class="grid-3">
+                    <div class="theory-card">
+                        <h3>🎼 Musical Performance</h3>
+                        <p>Create immersive soundscapes using gesture control and multi-frequency synthesis.</p>
+                    </div>
+                    <div class="theory-card">
+                        <h3>🧘 Meditation Enhancement</h3>
+                        <p>Safe biofeedback and entrainment for relaxation and focus.</p>
+                    </div>
+                    <div class="theory-card">
+                        <h3>🔍 Survey Demonstrations</h3>
+                        <p>Educational demos of resonance-based detection principles.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- TAB 3: Dimensional Water Theory -->
+        <div class="tab-content">
+            <header>
+                <h1>💧 Dimensional Water & Oxygen Theory</h1>
+                <p>A New Model of Elemental Interactions Across Dimensions</p>
+            </header>
+
+            <div class="section">
+                <h2>🌌 Core Hypothesis</h2>
+                <div class="info-box">
+                    <h3>Water as Dimensional Waste</h3>
+                    <p>This theory proposes that water (H₂O) is not just a chemical compound, but the <strong>waste product of interdimensional energy exchanges</strong>. Just as biological metabolism produces water as a byproduct, universes may generate water when they "burn" through dimensional transitions.</p>
+                </div>
+                <div class="formula">
+                    Dimensional Exchange → Energy Transfer → H₂O (waste in our dimension)<br>
+                    Our "exhaust" = Another dimension's "fuel"
+                </div>
+            </div>
+
+            <div class="grid-2">
+                <div class="section">
+                    <h2>🔬 The "Second Element" Concept</h2>
+                    <div class="theory-card">
+                        <h3>Beyond Traditional Oxygen</h3>
+                        <p>In this model, what we call "oxygen" is actually the <strong>role of "unlocker"</strong> or "separator" energy rather than a fixed atomic element.</p>
+                        <ul>
+                            <li>Hydrogen's true partner isn't just O₂</li>
+                            <li>The "2nd element" is the <strong>principle of unlocking</strong></li>
+                            <li>It manifests as oxygen in biology</li>
+                            <li>It appears as vibrational cancellation in resonance systems</li>
+                        </ul>
+                    </div>
+                    <div class="theory-card">
+                        <h3>Universal Unlocking Principle</h3>
+                        <p>The "2nd element" shows up in multiple forms:</p>
+                        <ul>
+                            <li><strong>Biology:</strong> Oxygen breaks down sugars for energy</li>
+                            <li><strong>Chemistry:</strong> Oxidation reactions unlock stored energy</li>
+                            <li><strong>Vibration:</strong> Phase cancellation unlocks stuck patterns</li>
+                            <li><strong>Consciousness:</strong> Insight unlocks mental blocks</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2>🌊 Cosmic Water Cycle</h2>
+                    <div class="canvas-container">
+                        <canvas id="dimensionalCanvas" width="1200" height="400"></canvas>
+                    </div>
+                    <button onclick="startDimensionalViz()">▶ Start Visualization</button>
+                    <div class="info-box" style="margin-top: 20px;">
+                        <h3>The Interdimensional Flow</h3>
+                        <p>Water cycles between dimensions:</p>
+                        <ol>
+                            <li>Our dimension "metabolizes" and produces water as waste</li>
+                            <li>Water drains to other dimensions as nourishment</li>
+                            <li>Other dimensions process water and output energy/matter</li>
+                            <li>That energy returns to us as the "unlocking principle"</li>
+                            <li>The cycle continues infinitely</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>🔗 Connecting to Vibrational Healing</h2>
+                <div class="theory-card">
+                    <h3>Keratin Cysts & Vibrational Cancellation</h3>
+                    <p>When keratin clumps vibrate in sync, they stay stuck. Introducing inverted vibration (phase cancellation) unlocks that coherence.</p>
+                    <div class="formula">
+                        Original Vibration + Inverted Vibration = Cancellation = "Energetic Oxygen"<br>
+                        Result: Blocked material breaks apart, blood flow resumes
+                    </div>
+                </div>
+                <div class="success-box">
+                    <h3>💡 The Parallel</h3>
+                    <p>Just as oxygen unlocks energy in cells by breaking molecular bonds, <strong>vibrational cancellation unlocks stuck tissue</strong> by breaking coherent vibration patterns. Both are manifestations of the same "2nd element" principle operating at different scales.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- TAB 4: Vibrational Healing -->
+        <div class="tab-content">
+            <header>
+                <h1>⚕️ Vibrational Healing Science</h1>
+                <p>Phase Cancellation & Resonance Medicine</p>
+            </header>
+
+            <div class="section">
+                <h2>🎯 Core Principle: Phase Cancellation</h2>
+                <div class="canvas-container">
+                    <canvas id="healingCanvas" width="1200" height="300"></canvas>
+                </div>
+                <div class="control-panel">
+                    <button onclick="startHealing()">▶ Show Cancellation</button>
+                    <button onclick="resetHealing()">🔄 Reset</button>
+                </div>
+            </div>
+
+            <div class="grid-2">
+                <div class="section">
+                    <h2>🧬 How It Works</h2>
+                    <div class="theory-card">
+                        <h3>1. Detect "Bad Vibration"</h3>
+                        <p>AI scanning identifies stuck vibrational patterns in tissue (e.g., keratin cysts, inflammation, chronic pain areas).</p>
+                    </div>
+                    <div class="theory-card">
+                        <h3>2. Generate Mirror Signal</h3>
+                        <p>System creates exact inverse waveform - same frequency and amplitude, but 180° out of phase.</p>
+                        <div class="formula">
+                            If tissue vibrates: sin(ωt)<br>
+                            System generates: -sin(ωt)<br>
+                            Result: sin(ωt) + (-sin(ωt)) = 0
+                        </div>
+                    </div>
+                    <div class="theory-card">
+                        <h3>3. Apply Cancellation</h3>
+                        <p>Using safe ultrasound or PEMF, the inverted signal is directed at the target area.</p>
+                    </div>
+                    <div class="theory-card">
+                        <h3>4. Body Heals Itself</h3>
+                        <p>Once stuck vibration is cancelled, blood flow resumes, immune cells enter, and natural healing proceeds.</p>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2>🎯 Applications</h2>
+                    <div class="success-box">
+                        <h3>Keratin Cysts</h3>
+                        <p><strong>Problem:</strong> Keratin clumps vibrate coherently, staying stuck</p>
+                        <p><strong>Solution:</strong> Phase cancellation breaks coherence</p>
+                        <p><strong>Result:</strong> "Energetic oxygen" effect - material disperses, healing begins</p>
+                    </div>
+                    <div class="success-box">
+                        <h3>Chronic Pain</h3>
+                        <p><strong>Problem:</strong> Pain signals create feedback loops</p>
+                        <p><strong>Solution:</strong> Cancel the vibrational signature of pain</p>
+                        <p><strong>Result:</strong> Nervous system recalibrates, pain reduces</p>
+                    </div>
+                    <div class="success-box">
+                        <h3>Inflammation</h3>
+                        <p><strong>Problem:</strong> Inflammatory cascade maintains itself</p>
+                        <p><strong>Solution:</strong> Disrupt inflammatory frequency</p>
+                        <p><strong>Result:</strong> Cascade breaks, healing accelerates</p>
+                    </div>
+                    <div class="warning-box">
+                        <h3>⚠️ Important Disclaimer</h3>
+                        <p>This is theoretical educational content. Any medical applications would require:</p>
+                        <ul>
+                            <li>Peer-reviewed research</li>
+                            <li>Clinical trials</li>
+                            <li>FDA approval</li>
+                            <li>Licensed medical supervision</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>🔧 Safe Implementation Parameters</h2>
+                <div class="grid-3">
+                    <div class="theory-card">
+                        <h3>Ultrasound</h3>
+                        <ul>
+                            <li>Frequency: 20-100 kHz</li>
+                            <li>Intensity: < 3 W/cm²</li>
+                            <li>Duty cycle: < 50%</li>
+                            <li>Duration: 5-15 min max</li>
+                        </ul>
+                    </div>
+                    <div class="theory-card">
+                        <h3>PEMF</h3>
+                        <ul>
+                            <li>Frequency: 1-100 Hz</li>
+                            <li>Intensity: < 1000 µT</li>
+                            <li>Pulse duration: 100-500 µs</li>
+                            <li>Session: 10-30 min</li>
+                        </ul>
+                    </div>
+                    <div class="theory-card">
+                        <h3>Safety Interlocks</h3>
+                        <ul>
+                            <li>Temperature monitoring</li>
+                            <li>Power limiting</li>
+                            <li>Auto-shutoff timer</li>
+                            <li>Emergency stop</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- TAB 5: Radionics History -->
+        <div class="tab-content">
+            <header>
+                <h1>📡 Radionics: Historical Context</h1>
+                <p>From Ancient Technology to Modern Theory</p>
+            </header>
+
+            <div class="section">
+                <h2>📜 Historical Perspective</h2>
+                <div class="info-box">
+                    <p>Radionics emerged in the early 20th century as a controversial field claiming to use "radiations" from samples for healing and analysis. While scientifically unproven, it represents humanity's enduring interest in <strong>resonance, intention, and distant influence</strong>.</p>
+                </div>
+            </div>
+
+            <div class="grid-2">
+                <div class="section">
+                    <h2>🏛️ Ancient Precedents</h2>
+                    <div class="theory-card">
+                        <h3>Biblical Accounts</h3>
+                        <p><strong>Moses at Mount Sinai:</strong> Received technology/knowledge in isolation</p>
+                        <p><strong>Jericho's Walls:</strong> Sound/resonance causing structural failure</p>
+                        <p><strong>Water from Rock:</strong> Releasing trapped resources through resonance</p>
+                    </div>
+                    <div class="theory-card">
+                        <h3>The Staff/Trumpet Pattern</h3>
+                        <p>Ancient texts describe tools that amplify will/intent:</p>
+                        <ul>
+                            <li><strong>Staff:</strong> Directional focusing device</li>
+                            <li><strong>Trumpet:</strong> Acoustic resonance amplifier</li>
+                            <li><strong>Arc:</strong> Electromagnetic container/generator</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <h2>⚗️ Early Modern Radionics</h2>
+                    <div class="theory-card">
+                        <h3>Dr. Albert Abrams (1863-1924)</h3>
+                        <p>Claimed to detect "electronic reactions" in diseased tissue. While his methods weren't scientifically validated, he pioneered the idea of <strong>vibrational diagnosis</strong>.</p>
+                    </div>
+                    <div class="theory-card">
+                        <h3>Ruth Drown (1891-1965)</h3>
+                        <p>Developed "radio vision" devices. Though deemed fraudulent, she explored concepts similar to modern <strong>biofield imaging</strong>.</p>
+                    </div>
+                    <div class="theory-card">
+                        <h3>Modern Interpretation</h3>
+                        <p>Today we understand radionics as:</p>
+                        <ul>
+                            <li>Early exploration of bioelectromagnetics</li>
+                            <li>Precursor to biofeedback technology</li>
+                            <li>Investigation of mind-matter interaction</li>
+                            <li>Symbol of humanity's search for healing tech</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>🔬 Modern Scientific Parallels</h2>
+                <div class="grid-3">
+                    <div class="theory-card">
+                        <h3>Bioelectromagnetics</h3>
+                        <p>Legitimate study of how electromagnetic fields interact with biological systems.</p>
+                    </div>
+                    <div class="theory-card">
+                        <h3>Biofeedback</h3>
+                        <p>Proven method using electronic monitoring to help control physiological processes.</p>
+                    </div>
+                    <div class="theory-card">
+                        <h3>Acoustic Medicine</h3>
+                        <p>FDA-approved ultrasound and shockwave therapies for healing.</p>
+                    </div>
+                    <div class="theory-card">
+                        <h3>PEMF Therapy</h3>
+                        <p>Pulsed electromagnetic fields for pain and healing, with growing research support.</p>
+                    </div>
+                    <div class="theory-card">
+                        <h3>Photobiomodulation</h3>
+                        <p>Light therapy (red/NIR) with documented cellular effects.</p>
+                    </div>
+                    <div class="theory-card">
+                        <h3>Neurofeedback</h3>
+                        <p>Brain wave training using real-time EEG feedback.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2>🌉 Bridging Past and Future</h2>
+                <div class="success-box">
+                    <h3>What We Can Learn</h3>
+                    <p>While historical radionics lacked scientific rigor, it asked important questions:</p>
+                    <ul>
+                        <li>Can intention influence physical systems?</li>
+                        <li>Are there subtle energy fields we haven't detected?</li>
+                        <li>Can resonance unlock healing mechanisms?</li>
+                        <li>Is there a "frequency" to consciousness?</li>
+                    </ul>
+                </div>
+                <div class="info-box">
+                    <h3>Modern Approach</h3>
+                    <p>Today's "Infinity" systems take inspiration from radionics but build on:</p>
+                    <ul>
+                        <li><strong>Verified physics:</strong> Electromagnetic and acoustic principles</li>
+                        <li><strong>Safety standards:</strong> Conservative power limits and interlocks</li>
+                        <li><strong>Measurable effects:</strong> Real-time biofeedback and sensors</li>
+                        <li><strong>Ethical use:</strong> Educational and research applications only</li>
+                    </ul>
+                </div>
+                <div class="danger-box">
+                    <h3>⚠️ Critical Distinction</h3>
+                    <p><strong>This educational platform does NOT make medical claims.</strong> Any therapeutic applications require proper scientific validation, clinical trials, and regulatory approval. We explore these concepts for <strong>educational, artistic, and research purposes only</strong>.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="infinity_resonance_app.js"></script>
+</body>
+</html>

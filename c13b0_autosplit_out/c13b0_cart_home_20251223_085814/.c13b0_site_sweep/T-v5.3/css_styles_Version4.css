@@ -1,0 +1,16 @@
+:root {
+  --bg: #000;
+  --accent: #00eaff;
+  --panel: #001f26;
+  --text: #9ff;
+}
+* { box-sizing: border-box; }
+html,body { height:100%; margin:0; background:var(--bg); color:var(--accent); font-family:monospace; }
+#header { display:flex; align-items:center; gap:12px; padding:8px; border-bottom:2px solid var(--accent); }
+#logo { width:36px; height:36px; }
+#terminal { padding:10px; height:calc(100vh - 122px); overflow:auto; }
+#output { white-space:pre-wrap; }
+#input-area { position:fixed; bottom:30px; left:0; right:0; padding:6px; background:rgba(0,0,0,0.8); border-top:2px solid var(--accent); }
+#input-line { width:100%; background:transparent; color:var(--accent); border:none; outline:none; font-family:monospace; font-size:16px; padding:8px; }
+#status { position:fixed; left:0; bottom:0; width:100%; background:var(--panel); color:var(--text); padding:6px; font-size:12px; border-top:1px solid var(--accent); }
+button.tool { background:transparent; color:var(--accent); border:1px solid var(--accent); padding:6px 8px; border-radius:6px; }

@@ -1,0 +1,6 @@
+#!/data/data/com.termux/files/usr/bin/bash
+cd ~/infinity_portal || { echo "❌  Infinity Portal folder not found"; exit 1; }
+echo "🚀  Starting Infinity Portal..."
+nohup python3 app.py > server.log 2>&1 &
+sleep 2
+echo "✅  Infinity Portal running on http://127.0.0.1:8080"

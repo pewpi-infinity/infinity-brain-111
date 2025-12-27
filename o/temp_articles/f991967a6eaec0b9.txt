@@ -1,0 +1,43 @@
+TERMS: hydrogen, quantum, lattice, neutrino
+COLORS: purple, blue, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/hn9mx6kG5HgFiebWMfr+bd4CgqY</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:lattice AND all:neutrino&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:38:13Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:lattice+AND+all:neutrino))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1708.08462v3</id>
+    <title>Nucleon Axial Radius and Muonic Hydrogen - A New Analysis and Review</title>
+    <updated>2018-08-15T14:42:37Z</updated>
+    <link href="https://arxiv.org/abs/1708.08462v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1708.08462v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Weak capture in muonic hydrogen ($μ$H) as a probe of the chiral properties and nucleon structure predictions of Quantum Chromodynamics (QCD) is reviewed. A recent determination of the axial-vector charge radius squared, $r_A^2(z\; {\rm exp.}) = 0.46(22)\;{\rm fm}^2$, from a model independent $z$ expansion analysis of neutrino-nucleon scattering data is employed in conjunction with the MuCap measurement of the singlet muonic hydrogen capture rate, $Λ_{\rm singlet}^{\rm MuCap} = 715.6(7.4)\;{\rm s}^{-1}$, to update the induced pseudoscalar nucleon coupling: $\bar{g}_P^{\rm MuCap} = 8.23(83)$ derived from experiment, and $\bar{g}_P^{\rm theory} = 8.25(25)$ predicted by chiral perturbation theory. Accounting for correlated errors this implies $\bar{g}_P^{\rm theory}/\bar{g}_P^{\rm MuCap}= 1.00(8)$, confirming theory at the 8% level. If instead, the predicted expression for $\bar{g}_P^{\rm theory}$ is employed as input, then the capture rate alone determines $r_A^2(μ{\rm H})=0.46(24)\, {\rm fm}^2$, or together with the independent $z$ expansion neutrino scattering results, a weighted average $r_A^2({\rm ave.}) = 0.46(16)\, {\rm fm}^2$. Sources of theoretical uncertainty are critically examined and potential experimental improvements are described that can reduce the capture rate error by about a factor of 3. Muonic hydrogen can thus provide a precise and independent $r_A^2$ value which may be compared with other determinations, such as ongoing lattice gauge theory calculations. The importance of an improved $r_A^2$ determination for phenomenology is illustrated by considering the impact on critical neutrino-nucleus cross sections at neutrino oscillation experiments.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-08-28T18:00:05Z</published>
+    <arxiv:comment>36 pages, 7 figures. v2: improved discussion of radiative corrections with reduced uncertainty; updated values for V_{ud} and g_A; references added; version to appear in Rept. Prog. Phys. v3: included missing sentence in g_A discussion on page 12 to make arxiv and published versions identical</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Rept.Prog.Phys. 81 (2018) no.9, 096301</arxiv:journal_ref>
+    <author>
+      <name>Richard J. Hill</name>
+    </author>
+    <author>
+      <name>Peter Kammel</name>
+    </author>
+    <author>
+      <name>William J. Marciano</name>
+    </author>
+    <author>
+      <name>Alberto Sirlin</name>
+    </author>
+    <arxiv:doi>10.1088/1361-6633/aac190</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1361-6633/aac190" title="doi"/>
+  </entry>
+</feed>

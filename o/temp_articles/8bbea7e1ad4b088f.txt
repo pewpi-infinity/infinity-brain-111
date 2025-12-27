@@ -1,0 +1,91 @@
+TERMS: quantum, boson, vacuum
+COLORS: blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/W2zDU5j1fRHjbsDBGKuTq5ts7E4</id>
+  <title>arXiv Query: search_query=all:quantum AND all:boson AND all:vacuum&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:09:10Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:boson+AND+all:vacuum)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>871</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2307.06128v2</id>
+    <title>Entropic distinguishability of quantum fields in phase space</title>
+    <updated>2024-07-11T16:59:58Z</updated>
+    <link href="https://arxiv.org/abs/2307.06128v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2307.06128v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a general way of quantifying the entropic uncertainty of quantum field configurations in phase space in terms of entropic distinguishability with respect to the vacuum. Our approach is based on the functional Husimi $Q$-distribution and a suitably chosen relative entropy, which we show to be non-trivially bounded from above by the uncertainty principle. The resulting relative entropic uncertainty relation is as general as the concept of coherent states and thus holds for quantum fields of bosonic and fermionic type. Its simple form enables diverse applications, among which we present a complete characterization of the uncertainty surplus of arbitrary states in terms of the total particle number for a scalar field and the fermionic description of the Ising model. Moreover, we provide a quantitative interpretation of the role of the uncertainty principle for quantum phase transitions.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-07-12T12:31:38Z</published>
+    <arxiv:comment>11 + 10 page, v2 substantially extended, published in Quantum</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Quantum 8, 1414 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Sara Ditsch</name>
+    </author>
+    <author>
+      <name>Tobias Haas</name>
+    </author>
+    <arxiv:doi>10.22331/q-2024-07-17-1414</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.22331/q-2024-07-17-1414" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2108.09167v2</id>
+    <title>Continuous majorization in quantum phase space</title>
+    <updated>2023-05-15T17:09:23Z</updated>
+    <link href="https://arxiv.org/abs/2108.09167v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2108.09167v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We explore the role of majorization theory in quantum phase space. To this purpose, we restrict ourselves to quantum states with positive Wigner functions and show that the continuous version of majorization theory provides an elegant and very natural approach to exploring the information-theoretic properties of Wigner functions in phase space. After identifying all Gaussian pure states as equivalent in the precise sense of continuous majorization, which can be understood in light of Hudson's theorem, we conjecture a fundamental majorization relation: any positive Wigner function is majorized by the Wigner function of a Gaussian pure state (especially, the bosonic vacuum state or ground state of the harmonic oscillator). As a consequence, any Schur-concave function of the Wigner function is lower bounded by the value it takes for the vacuum state. This implies in turn that the Wigner entropy is lower bounded by its value for the vacuum state, while the converse is notably not true. Our main result is then to prove this fundamental majorization relation for a relevant subset of Wigner-positive quantum states which are mixtures of the three lowest eigenstates of the harmonic oscillator. Beyond that, the conjecture is also supported by numerical evidence. We conclude by discussing some implications of this conjecture in the context of entropic uncertainty relations in phase space.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-08-20T13:26:04Z</published>
+    <arxiv:comment>19 pages, 9 figures; v2: several improvements and addition of Appendix C (version accepted in Quantum)</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Quantum 7, 1021 (2023)</arxiv:journal_ref>
+    <author>
+      <name>Zacharie Van Herstraeten</name>
+    </author>
+    <author>
+      <name>Michael G. Jabbour</name>
+    </author>
+    <author>
+      <name>Nicolas J. Cerf</name>
+    </author>
+    <arxiv:doi>10.22331/q-2023-05-24-1021</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.22331/q-2023-05-24-1021" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2101.12173v2</id>
+    <title>Entanglement-assisted capacity regions and protocol designs for quantum multiple-access channels</title>
+    <updated>2021-04-03T15:38:37Z</updated>
+    <link href="https://arxiv.org/abs/2101.12173v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2101.12173v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We solve the entanglement-assisted (EA) classical capacity region of quantum multiple-access channels with an arbitrary number of senders. As an example, we consider the bosonic thermal-loss multiple-access channel and solve the one-shot capacity region enabled by an entanglement source composed of sender-receiver pairwise two-mode squeezed vacuum states. The EA capacity region is strictly larger than the capacity region without entanglement-assistance. With two-mode squeezed vacuum states as the source and phase modulation as the encoding, we also design practical receiver protocols to realize the entanglement advantages. Four practical receiver designs, based on optical parametric amplifiers, are given and analyzed. In the parameter region of a large noise background, the receivers can enable a simultaneous rate advantage of 82.0% for each sender. Due to teleportation and superdense coding, our results for EA classical communication can be directly extended to EA quantum communication at half of the rates. Our work provides a unique and practical network communication scenario where entanglement can be beneficial.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-01-28T18:27:50Z</published>
+    <arxiv:comment>8+10 pages, 11 figures, accepted by npj Quantum Inf</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>npj Quantum Inf. 7, 74 (2021)</arxiv:journal_ref>
+    <author>
+      <name>Haowei Shi</name>
+    </author>
+    <author>
+      <name>Min-Hsiu Hsieh</name>
+    </author>
+    <author>
+      <name>Saikat Guha</name>
+    </author>
+    <author>
+      <name>Zheshen Zhang</name>
+    </author>
+    <author>
+      <name>Quntao Zhuang</name>
+    </author>
+    <arxiv:doi>10.1038/s41534-021-00412-3</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41534-021-00412-3" title="doi"/>
+  </entry>
+</feed>

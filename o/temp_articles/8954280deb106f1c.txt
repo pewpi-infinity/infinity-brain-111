@@ -1,0 +1,101 @@
+TERMS: frequency, wavefunction, boson
+COLORS: green, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/yj+uLSQU5hok0khQiBZa78InjM4</id>
+  <title>arXiv Query: search_query=all:frequency AND all:wavefunction AND all:boson&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:12:04Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:wavefunction+AND+all:boson)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>26</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1907.07935v2</id>
+    <title>Engineering two-photon wavefunction and exchange statistics in a semiconductor chip</title>
+    <updated>2020-04-09T10:13:28Z</updated>
+    <link href="https://arxiv.org/abs/1907.07935v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1907.07935v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>High-dimensional entangled states of light provide novel possibilities for quantum information, from fundamental tests of quantum mechanics to enhanced computation and communication protocols. In this context, the frequency degree of freedom combines the assets of robustness to propagation and easy handling with standard telecommunication components. Here we use an integrated semiconductor chip to engineer the wavefunction and exchange statistics of frequency-entangled photon pairs directly at the generation stage, without post-manipulation. Tuning the spatial properties of the pump beam allows to generate frequency-anticorrelated, correlated and separable states, and to control the symmetry of the spectral wavefunction to induce either bosonic or fermionic behaviors. These results, supported by analytical and numerical calculations, open promising perspectives for the quantum simulation of fermionic problems with photons on an integrated platform, as well as for communication and computation protocols exploiting antisymmetric high-dimensional quantum states.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-07-18T09:15:23Z</published>
+    <arxiv:comment>6 pages</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Optica 7, 316 (2020)</arxiv:journal_ref>
+    <author>
+      <name>S. Francesconi</name>
+    </author>
+    <author>
+      <name>F. Baboux</name>
+    </author>
+    <author>
+      <name>A. Raymond</name>
+    </author>
+    <author>
+      <name>N. Fabre</name>
+    </author>
+    <author>
+      <name>G. Boucher</name>
+    </author>
+    <author>
+      <name>A. Lemaître</name>
+    </author>
+    <author>
+      <name>P. Milman</name>
+    </author>
+    <author>
+      <name>M. I. Amanti</name>
+    </author>
+    <author>
+      <name>S. Ducci</name>
+    </author>
+    <arxiv:doi>10.1364/OPTICA.379477</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1364/OPTICA.379477" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0206295v1</id>
+    <title>Frequency behavior of Raman coupling coefficient in glasses</title>
+    <updated>2002-06-16T05:40:43Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0206295v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0206295v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Low-frequency Raman coupling coefficient of 11 different glasses is evaluated. It is found that the coupling coefficient demonstrates a universal linear frequency behavior near the boson peak maximum and a superlinear behavior at very low frequencies. The last observation suggests vanishing of the coupling coefficient when frequency tends to zero. The results are discussed in terms of the vibration wavefunction that combines features of localized and extended modes.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-06-16T05:40:43Z</published>
+    <arxiv:comment>8 pages, 9 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>N. V. Surovtsev</name>
+    </author>
+    <author>
+      <name>A. P. Sokolov</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.66.054205</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.66.054205" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2304.13054v1</id>
+    <title>Boson Star Normal Modes</title>
+    <updated>2023-04-25T18:00:02Z</updated>
+    <link href="https://arxiv.org/abs/2304.13054v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2304.13054v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Boson stars are gravitationally bound objects that arise in ultralight dark matter models and form in the centers of galactic halos or axion miniclusters. We systematically study the excitations of a boson star, taking into account the mixing between positive and negative frequencies introduced by gravity. We show that the spectrum contains zero-energy modes in the monopole and dipole sectors resulting from spontaneous symmetry breaking by the boson star background. We analyze the general properties of the eigenmodes and derive their orthogonality and completeness conditions which have non-standard form due to the positive-negative frequency mixing. The eigenvalue problem is solved numerically for the first few energy levels in different multipole sectors and the results are compared to the solutions of the Schrödinger equation in fixed boson star gravitational potential. The two solutions differ significantly for the lowest modes, but get close for higher levels. We further confirm the normal mode spectrum in 3D wave simulations where we inject perturbations with different multipoles. As an application of the normal mode solutions, we compute the matrix element entering the evaporation rate of a boson star immersed in a hot axion gas. The computation combines the use of exact wavefunctions for the low-lying bound states and of the Schrödinger approximation for the high-energy excitations.</summary>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-04-25T18:00:02Z</published>
+    <arxiv:comment>33 pages, 21 figures</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.CO"/>
+    <author>
+      <name>James Hung-Hsu Chan</name>
+    </author>
+    <author>
+      <name>Sergey Sibiryakov</name>
+    </author>
+    <author>
+      <name>Wei Xue</name>
+    </author>
+  </entry>
+</feed>

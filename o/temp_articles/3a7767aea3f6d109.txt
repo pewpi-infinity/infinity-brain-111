@@ -1,0 +1,91 @@
+TERMS: hydrogen, quantum, frequency, graphene
+COLORS: purple, blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/b7fKrds+lVwoMjneN+bDakjA60Y</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:frequency AND all:graphene&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:37:48Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:frequency+AND+all:graphene))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>4</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1007.1109v4</id>
+    <title>Ab initio simulations of the kinetic properties of the hydrogen monomer on graphene</title>
+    <updated>2010-11-18T02:28:12Z</updated>
+    <link href="https://arxiv.org/abs/1007.1109v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1007.1109v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The understanding of the kinetic properties of hydrogen (isotopes) adatoms on graphene is important in many fields. The kinetic properties of hydrogen-isotope (H, D and T) monomers were simulated using a composite method consisting of density functional theory, density functional perturbation theory and harmonic transition state theory. The kinetic changes of the magnetic property and the aromatic $π$ bond of the hydrogenated graphene during the desorption and diffusion of the hydrogen monomer was discussed. The vibrational zero-point energy corrections in the activation energies were found to be significant, ranging from 0.072 to 0.205 eV. The results obtained from quantum-mechanically modified harmonic transition state theory were compared with the ones obtained from classical-limit harmonic transition state theory over a wide temperature range. The phonon spectra of hydrogenated graphene were used to closely explain the (reversed) isotope effects in the prefactor, activation energy and jump frequency of the hydrogen monomer. The kinetic properties of the hydrogen-isotope monomers were simulated under conditions of annealing for 10 minutes and of heating at a constant rate (1.0 K/s). The isotope effect was observed; that is, a hydrogen monomer of lower mass is desorbed and diffuses more easily (with lower activation energies). The results presented herein are very similar to other reported experimental observations. This study of the kinetic properties of the hydrogen monomer and many other involved implicit mechanisms provides a better understanding of the interaction between hydrogen and graphene.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-07-07T11:53:25Z</published>
+    <arxiv:comment>Accepted by J. Phys. Chem. C</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>J. Phys. Chem. C, 2010, 114 (51), pp 22636-22643</arxiv:journal_ref>
+    <author>
+      <name>L. F. Huang</name>
+    </author>
+    <author>
+      <name>M. Y. Ni</name>
+    </author>
+    <author>
+      <name>X. H. Zheng</name>
+    </author>
+    <author>
+      <name>W. H. Zhou</name>
+    </author>
+    <author>
+      <name>Y. G. Li</name>
+    </author>
+    <author>
+      <name>Z. Zeng</name>
+    </author>
+    <arxiv:doi>10.1021/jp109160c</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1021/jp109160c" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.13769v1</id>
+    <title>Optical Response of Graphene Quantum Dots in the Visible Spectrum: A Combined DFT-QED Approach</title>
+    <updated>2025-10-15T17:17:19Z</updated>
+    <link href="https://arxiv.org/abs/2510.13769v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.13769v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a model based on density functional theory (DFT) and quantum electrodynamics (QED) to study the dynamical characteristics of graphene quantum dots (GQDs). We assume the GQD edges are saturated with hydrogen atoms, effectively making it a polycyclic aromatic hydrocarbon (PAH) such as coronene. By combining the GQD spectrum calculated from a time-dependent DFT (TDDFT) with the dynamical behavior of a QD model derived from QED, we calculate the main optical characteristics of the GQD, such as its transition frequencies, the dipole moment associated to each of those transitions, life-time and the population dynamics of the molecular levels. Owing to the close match between the calculated spectrum and experimental results, our results represent a significant contribution to research on quantum treatments of light-matter interactions in realistic 2D nanomaterials.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-15T17:17:19Z</published>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>J. Olivo</name>
+    </author>
+    <author>
+      <name>J. Blengino Albrieu</name>
+    </author>
+    <author>
+      <name>Mauro Cuevas</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1808.04195v2</id>
+    <title>Giant non-linear susceptibility of hydrogenic donors in silicon and germanium</title>
+    <updated>2019-05-31T16:51:14Z</updated>
+    <link href="https://arxiv.org/abs/1808.04195v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1808.04195v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Implicit summation is a technique for the conversion of sums over intermediate states in multiphoton absorption and the high-order susceptibility in hydrogen into simple integrals. Here, we derive the equivalent technique for hydrogenic impurities in multi-valley semiconductors. While the absorption has useful applications, it is primarily a loss process; conversely, the non-linear susceptibility is a crucial parameter for active photonic devices. For Si:P, we predict the hyperpolarizability ranges from $χ^{(3)}/n_{\text{3D}}=2.9 $ to $580 \times 10^{-38}$ $\text{m}^5/\text{V}^2$ depending on the frequency, even while avoiding resonance. Using samples of a reasonable density, $n_{\text{3D}}$, and thickness, $L$, to produce third-harmonic generation at 9 THz, a frequency that is difficult to produce with existing solid-state sources, we predict that $χ^{(3)}$ should exceed that of bulk InSb and $χ^{(3)}L$ should exceed that of graphene and resonantly enhanced quantum wells.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-08-13T13:25:50Z</published>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>Nguyen H. Le</name>
+    </author>
+    <author>
+      <name>Grigory V. Lanskii</name>
+    </author>
+    <author>
+      <name>G. Aeppli</name>
+    </author>
+    <author>
+      <name>B. N. Murdin</name>
+    </author>
+  </entry>
+</feed>

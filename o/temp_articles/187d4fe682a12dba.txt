@@ -1,0 +1,48 @@
+TERMS: hydrogen, frequency, wavefunction, probability
+COLORS: purple, green, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/uLWzZhXi9Jv4VSVejkQwz+PXN9U</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:frequency AND all:wavefunction AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:44:32Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:frequency+AND+(all:wavefunction+AND+all:probability))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2105.00837v1</id>
+    <title>Effect of surface temperature on quantum dynamics of H$_2$ on Cu(111) using a chemically accurate potential energy surface</title>
+    <updated>2021-04-29T18:39:22Z</updated>
+    <link href="https://arxiv.org/abs/2105.00837v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2105.00837v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The effect of surface atom vibrations for H$_2$ scattering from a Cu(111) surface at different temperatures is being investigated for hydrogen molecules in their rovibrational ground state ($v$=0, $j$=0). We assume weakly correlated interactions between molecular degrees of freedom and surface modes through a Hartree product type wavefunction. While constructing the six dimensional effective Hamiltonian, we employ: (a) a chemically accurate potential energy surface according to the Static Corrugation Model [Wijzenbroek and Somers, J. Chem. Phys. 137, 054703 (2012)]; (b) normal mode frequencies and displacement vectors calculated with different surface atom interaction potentials within a cluster approximation; (c) initial state distributions for the vibrational modes according to Bose-Einstein probability factors. We carry out 6D quantum dynamics with the so-constructed effective Hamiltonian, and analyze sticking and state-to-state scattering probabilities. The surface atom vibrations affect the chemisorption dynamics. The results show physically meaningful trends both for reaction as well as scattering probabilities compared to experimental and other theoretical results.</summary>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-04-29T18:39:22Z</published>
+    <arxiv:comment>38 pages, 10 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.other"/>
+    <arxiv:journal_ref>J. Chem. Phys. 154, 104103 (2021)</arxiv:journal_ref>
+    <author>
+      <name>Joy Dutta</name>
+    </author>
+    <author>
+      <name>Souvik Mandal</name>
+    </author>
+    <author>
+      <name>Satrajit Adhikari</name>
+    </author>
+    <author>
+      <name>Paul Spiering</name>
+    </author>
+    <author>
+      <name>Jörg Meyer</name>
+    </author>
+    <author>
+      <name>Mark F. Somers</name>
+    </author>
+    <arxiv:doi>10.1063/5.0035830</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/5.0035830" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,78 @@
+TERMS: hydrogen, frequency, spin, probability
+COLORS: purple, green, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/y2t4xlr3lE+zgrn9shxGInvrXvo</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:frequency AND all:spin AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:44:21Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:frequency+AND+(all:spin+AND+all:probability))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2212.11683v3</id>
+    <title>Extraction of spin-averaged rovibrational transition frequencies in HD$^+$ for the determination of fundamental constants</title>
+    <updated>2023-05-10T06:56:10Z</updated>
+    <link href="https://arxiv.org/abs/2212.11683v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2212.11683v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a comprehensive analysis of all currently available high-accuracy frequency measurements of rotational and rovibrational transitions in the hydrogen molecular ion HD$^+$. Our analysis utilises the theoretically calculated hyperfine structure to extract the values of three spin-averaged transition frequencies through a global linear least-squares adjustment that takes into account theory-induced correlations between the different transitions. We subsequently use the three spin-averaged transition frequencies as input data in a second adjustment which employs precise theoretical expressions for the transition frequencies, written as a function of the proton, deuteron and electron relative atomic masses, the Rydberg constant, and the proton and deuteron charge radii. Our analysis shows that the HD$^+$ data may significantly improve the value of the electron relative atomic mass and the proton-electron mass ratio, in particular if combined with recent high-precision measurements of particle atomic masses and mass ratios obtained from Penning traps.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.data-an" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-12-22T13:14:28Z</published>
+    <arxiv:comment>19 pages, 2 figures, 9 tables</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>Jean-Philippe Karr</name>
+    </author>
+    <author>
+      <name>Jeroen C. J. Koelemeij</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1406.4888v1</id>
+    <title>Direct high-precision measurement of the magnetic moment of the proton</title>
+    <updated>2014-06-18T20:58:43Z</updated>
+    <link href="https://arxiv.org/abs/1406.4888v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1406.4888v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The spin-magnetic moment of the proton $μ_p$ is a fundamental property of this particle. So far $μ_p$ has only been measured indirectly, analysing the spectrum of an atomic hydrogen maser in a magnetic field. Here, we report the direct high-precision measurement of the magnetic moment of a single proton using the double Penning-trap technique. We drive proton-spin quantum jumps by a magnetic radio-frequency field in a Penning trap with a homogeneous magnetic field. The induced spin-transitions are detected in a second trap with a strong superimposed magnetic inhomogeneity. This enables the measurement of the spin-flip probability as a function of the drive frequency. In each measurement the proton's cyclotron frequency is used to determine the magnetic field of the trap. From the normalized resonance curve, we extract the particle's magnetic moment in units of the nuclear magneton $μ_p=2.792847350(9)μ_N$. This measurement outperforms previous Penning trap measurements in terms of precision by a factor of about 760. It improves the precision of the forty year old indirect measurement, in which significant theoretical bound state corrections were required to obtain $μ_p$, by a factor of 3. By application of this method to the antiproton magnetic moment $μ_{\bar{p}}$ the fractional precision of the recently reported value can be improved by a factor of at least 1000. Combined with the present result, this will provide a stringent test of matter/antimatter symmetry with baryons.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-06-18T20:58:43Z</published>
+    <arxiv:comment>published in Nature</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <arxiv:journal_ref>Nature 509 (2014) 596-599</arxiv:journal_ref>
+    <author>
+      <name>A. Mooser</name>
+    </author>
+    <author>
+      <name>S. Ulmer</name>
+    </author>
+    <author>
+      <name>K. Blaum</name>
+    </author>
+    <author>
+      <name>K. Franke</name>
+    </author>
+    <author>
+      <name>H. Kracke</name>
+    </author>
+    <author>
+      <name>C. Leiteritz</name>
+    </author>
+    <author>
+      <name>W. Quint</name>
+    </author>
+    <author>
+      <name>C. C. Rodegheri</name>
+    </author>
+    <author>
+      <name>C. Smorra</name>
+    </author>
+    <author>
+      <name>J. Walz</name>
+    </author>
+    <arxiv:doi>10.1038/nature13388</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/nature13388" title="doi"/>
+  </entry>
+</feed>

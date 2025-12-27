@@ -1,0 +1,41 @@
+TERMS: hydrogen, frequency, spin, graphene
+COLORS: purple, green, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/PedP2kwRvVUyxyY4WPOLuxH9iT0</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:frequency AND all:spin AND all:graphene&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:44:13Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:frequency+AND+(all:spin+AND+all:graphene))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1009.5488v2</id>
+    <title>Mechanical and Electronic Properties of MoS$_2$ Nanoribbons and Their Defects</title>
+    <updated>2011-05-23T07:53:23Z</updated>
+    <link href="https://arxiv.org/abs/1009.5488v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1009.5488v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present our study on atomic, electronic, magnetic and phonon properties of one dimensional honeycomb structure of molybdenum disulfide (MoS$_2$) using first-principles plane wave method. Calculated phonon frequencies of bare armchair nanoribbon reveal the fourth acoustic branch and indicate the stability. Force constant and in-plane stiffness calculated in the harmonic elastic deformation range signify that the MoS$_2$ nanoribbons are stiff quasi one dimensional structures, but not as strong as graphene and BN nanoribbons. Bare MoS$_2$ armchair nanoribbons are nonmagnetic, direct band gap semiconductors. Bare zigzag MoS$_2$ nanoribbons become half-metallic as a result of the (2x1) reconstruction of edge atoms and are semiconductor for minority spins, but metallic for the majority spins. Their magnetic moments and spin-polarizations at the Fermi level are reduced as a result of the passivation of edge atoms by hydrogen. The functionalization of MoS$_2$ nanoribbons by adatom adsorption and vacancy defect creation are also studied. The nonmagnetic armchair nanoribbons attain net magnetic moment depending on where the foreign atoms are adsorbed and what kind of vacancy defect is created. The magnetization of zigzag nanoribbons due to the edge states is suppressed in the presence of vacancy defects.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-09-28T08:38:37Z</published>
+    <arxiv:comment>11 pages, 5 figures, first submitted at November 23th, 2009</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>J. Phys. Chem. C, 2011, 115 (10), pp 3934--3941</arxiv:journal_ref>
+    <author>
+      <name>C. Ataca</name>
+    </author>
+    <author>
+      <name>H. Şahin</name>
+    </author>
+    <author>
+      <name>E. Aktürk</name>
+    </author>
+    <author>
+      <name>S. Ciraci</name>
+    </author>
+    <arxiv:doi>10.1021/jp1115146</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1021/jp1115146" title="doi"/>
+  </entry>
+</feed>

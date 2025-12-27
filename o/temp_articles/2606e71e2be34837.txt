@@ -1,0 +1,78 @@
+TERMS: hydrogen, quantum, entropy, superconductivity
+COLORS: purple, blue, red, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/V+ZnE2rhb4nD1QH8TAvBwaeeJoo</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:entropy AND all:superconductivity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:38:24Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:entropy+AND+all:superconductivity))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>3</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2503.13734v1</id>
+    <title>Mechanical Performance Database for Low-Temperature Alloys</title>
+    <updated>2025-03-17T21:42:09Z</updated>
+    <link href="https://arxiv.org/abs/2503.13734v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.13734v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Low-temperature alloys are important for a wide spectrum of modern technologies ranging from liquid hydrogen, and superconductivity to quantum technology. These applications push the limit of material performance into extreme coldness, often demanding a combination of strength and toughness to address various challenges. Steel is one of the most widely used materials in cryogenic applications. With the deployment in aerospace liquid hydrogen storage and the transportation industry, aluminum and titanium alloys are also gaining increasing attention. Emerging medium-entropy alloys (MEAs) and high-entropy alloys (HEAs) demonstrate excellent low-temperature mechanical performance with a much-expanded space of material design. A database of low-temperature metallic alloys is collected from the literature and hosted in an open repository. The workflow of data collection includes automated extraction based on machine learning and natural language processing, supplemented by manual inspection and correction, to enhance data extraction efficiency and database quality. The product datasets cover key performance parameters including yield strength, tensile strength, elongation at fracture, Charpy impact energy, as well as detailed information on materials such as their types, chemical compositions, processing and testing conditions. Data statistics are analyzed to elucidate the research and development patterns and clarify the challenges in both scientific exploration and engineering deployment.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-17T21:42:09Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Haoxuan Tang</name>
+    </author>
+    <author>
+      <name>Zhiyuan Chen</name>
+    </author>
+    <author>
+      <name>Xin Yao</name>
+    </author>
+    <author>
+      <name>Zhiping Xu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2411.13743v1</id>
+    <title>The Grüneisen parameter applied to critical phenomena and experimental investigations of correlated phenomena in molecular conductors</title>
+    <updated>2024-11-20T22:57:47Z</updated>
+    <link href="https://arxiv.org/abs/2411.13743v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.13743v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this Ph.D. Thesis, a systematic review is performed on the derivation and generalization of the Grüneisen parameter followed by its unprecedented applications to several distinct scenarios, such as magnetic model systems, zero-field quantum phase transitions, the maximization of caloric effects close to any critical-end point based on entropy arguments, the here-proposed adiabatic magnetization of a paramagnetic salt, as well as for Cosmology in the frame of the universe expansion. Since this Ph.D. Thesis is a symbiosis between theoretical and experimental results, an experimental investigation of correlated phenomena was carried out for molecular conductors of the (TMTTF)$_2$X family, where TMTTF is the base molecule tetramethyltetrathiafulvalene and X a monovalent counter-anion such as PF$_6$, SbF$_6$, or AsF$_6$. Such strongly correlated electron systems are considered suitable ones for the exploration of Mott insulating phase, charge-ordering, spin-Peierls, and superconductivity. In particular, the investigation of a possible multiferroic character in these salts was performed via quasi-static (low-frequency) dielectric constant $\varepsilon'$ measurements as a function of temperature where a maximum in $\varepsilon'$ as a function of temperature was observed at the corresponding charge-ordering temperature for both hydrogenated and 97.5% deuterated (TMTTF)$_2$SbF$_6$ salts. Furthermore, Raman measurements were performed on the 97.5% deuterated (TMTTF)$_2$PF$_6$, showing a possible magneto-optical effect on the $ν_4(a_g)$ vibrational mode of the TMTTF molecule. Yet, fluorescence measurements demonstrated that the fully-hydrogenated (TMTTF)$_2$AsF$_6$ presents an expressive fluorescence background, which is roughly five orders of magnitude lower than that for the 97.5% deuterated variant of (TMTTF)$_2$PF$_6$.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-20T22:57:47Z</published>
+    <arxiv:comment>Ph.D. Thesis, 135 pages, 40 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <author>
+      <name>Lucas Squillante</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1205.4526v1</id>
+    <title>Finite temperature electronic simulations beyond the Born-Oppenheimer approximation</title>
+    <updated>2012-05-21T09:05:08Z</updated>
+    <link href="https://arxiv.org/abs/1205.4526v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1205.4526v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce a general technique to compute finite temperature electronic properties by a novel covariant formulation of the electronic partition function. By using a rigorous variational upper bound to the free energy we are led to the evaluation of a partition function that can be computed stochastically by sampling electronic wave functions and atomic positions (assumed classical). In order to achieve this target we show that it is extremely important to consider the non trivial geometry of the space defined by the wave function ansatz. The method can be extended to any technique capable to provide an energy value over a given wave function ansatz depending on several variational parameters and atomic positions. In particular we can take into account electronic correlation, by using the standard variational quantum Monte Carlo method, that has been so far limited to zero temperature ground state properties. We show that our approximation reduces correctly to the standard Born-Oppenheimer (BO) one at zero temperature and to the correct high temperature limit. At large enough temperatures this method allows to improve the BO, providing lower values of the electronic free energy, because within this method it is possible to take into account the electron entropy. We test this new method on the simple hydrogen molecule, where at low temperature we recover the correct BO low temperature limit. Moreover, we show that the dissociation of the molecule is possible at a temperature much smaller than the BO prediction. Several extension of the proposed technique are also discussed, as for instance the calculation of critical (magnetic, superconducting) temperatures, or transition rates in chemical reactions.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-05-21T09:05:08Z</published>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>J. Chem. Phys. 137, 134112 (2012)</arxiv:journal_ref>
+    <author>
+      <name>Guglielmo Mazzola</name>
+    </author>
+    <author>
+      <name>Andrea Zen</name>
+    </author>
+    <author>
+      <name>Sandro Sorella</name>
+    </author>
+    <arxiv:doi>10.1063/1.4755992</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/1.4755992" title="doi"/>
+  </entry>
+</feed>

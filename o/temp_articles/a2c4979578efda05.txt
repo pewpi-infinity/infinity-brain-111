@@ -1,0 +1,83 @@
+TERMS: frequency, bandgap, singularity
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/wKeLgavENhdYJxHuW7hbouDWTzA</id>
+  <title>arXiv Query: search_query=all:frequency AND all:bandgap AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:13:06Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:bandgap+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>4</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1707.00050v2</id>
+    <title>Controlling Non-reciprocity using enhanced Brillouin Scattering</title>
+    <updated>2017-07-16T17:10:41Z</updated>
+    <link href="https://arxiv.org/abs/1707.00050v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1707.00050v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The properties of space-time modulated media operating in the sub-sonic regime are discussed based on rigorous Bloch-Floquet theory. A geometrical description in the frequency-wavenumber plane is developed to provide insight into the possible interactions and their nature. It is shown that the secular equation has a singularity, which results in a weak/passive second harmonic generation process. Additionally bandgaps arising from the strong/active parametric interaction between an incident wave and its space-time harmonic, result in an inelastic Brillouin like scattering process. Hence when the incident frequency is inside a forward (backward) bandgap, a Stokes' (Anti-Stokes') scattered wave bounces back to the source. Although the forward and backward bandgaps do not generally occur at the same frequency bands, the insertion loss and gap width are equal. Requiring that both gaps do not overlap, enforces a lower bound on the modulation speed. It is shown that although an increase in the modulation index is desirable, as it enhances the non-reciprocal behaviour, it also limits the range of possible modulation speeds. The effective complex refractive index is calculated over a wide frequency range. It is shown that peaks appear in the extinction coefficient, indicating scattering to Stokes' and Anti-Stokes' waves. Finally, a comprehensive numerical analysis based on the Finite Difference Time Domain method is developed to verify and demonstrate the intriguing properties of space-time modulated media.</summary>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-06-30T21:40:00Z</published>
+    <arxiv:comment>15 pages</arxiv:comment>
+    <arxiv:primary_category term="physics.optics"/>
+    <author>
+      <name>Sameh Y. Elnaggar</name>
+    </author>
+    <author>
+      <name>Gregory N. Milford</name>
+    </author>
+    <arxiv:doi>10.1109/TAP.2018.2835305</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/TAP.2018.2835305" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1706.02297v1</id>
+    <title>Crystalline Soda Can Metamaterial exhibiting Graphene-like Dispersion at subwavelength scale</title>
+    <updated>2017-06-07T15:56:32Z</updated>
+    <link href="https://arxiv.org/abs/1706.02297v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1706.02297v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Graphene, a honeycomb lattice of carbon atoms ruled by tight-binding interaction, exhibits extraordinary electronic properties due to the presence of Dirac cones within its band structure. These intriguing singularities have naturally motivated the discovery of their classical analogues. In this work, we present a general and direct procedure to reproduce the peculiar physics of graphene within a very simple acoustic metamaterial: a double lattice of soda cans resonant at two different frequencies. The first triangular sub-lattice generates a bandgap at low frequency, which induces a tight-binding coupling between the resonant defects of the second Honeycomb one, hence allowing us to obtain a graphene-like band structure. We prove the relevance of this approach by showing that both numerical and experimental dispersion relations exhibit the requested Dirac cone. We also demonstrate the straightforward monitoring of the coupling strength within the crystal of resonant defects. This work shows that crystalline metamaterials are very promising candidates to investigate tantalizing solid-state physics phenomena with classical waves.</summary>
+    <category term="physics.class-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-06-07T15:56:32Z</published>
+    <arxiv:primary_category term="physics.class-ph"/>
+    <author>
+      <name>S. Yves</name>
+    </author>
+    <author>
+      <name>F. Lemoult</name>
+    </author>
+    <author>
+      <name>M. Fink</name>
+    </author>
+    <author>
+      <name>G. Lerosey</name>
+    </author>
+    <arxiv:doi>10.1038/s41598-017-15335-3</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41598-017-15335-3" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2209.13068v1</id>
+    <title>On the Su-Schrieffer-Heeger model of electron transport: low-temperature optical conductivity by the Mellin transform</title>
+    <updated>2022-09-26T23:17:39Z</updated>
+    <link href="https://arxiv.org/abs/2209.13068v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2209.13068v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We describe the low-temperature optical conductivity as a function of frequency for a quantum-mechanical system of electrons that hop along a polymer chain. To this end, we invoke the Su-Schrieffer-Heeger \emph{tight-binding} Hamiltonian for non-interacting spinless electrons on a one-dimensional (1D) lattice. Our goal is to show via asymptotics how the interband conductivity of this system behaves as the smallest energy bandgap tends to close. Our analytical approach includes: (i) the Kubo-type formulation for the optical conductivity with a nonzero damping due to microscopic collisions; (ii) reduction of this formulation to a 1D momentum integral over the Brillouin zone; and (iii) evaluation of this integral in terms of elementary functions via the three-dimensional Mellin transform with respect to key physical parameters and subsequent inversion in a region of the respective complex space. Our approach reveals an intimate connection of the behavior of the conductivity to particular singularities of its Mellin transform. The analytical results are found in good agreement with direct numerical computations.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-09-26T23:17:39Z</published>
+    <arxiv:comment>35 pages, 10 figures</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Dionisios Margetis</name>
+    </author>
+    <author>
+      <name>Alexander B. Watson</name>
+    </author>
+    <author>
+      <name>Mitchell Luskin</name>
+    </author>
+  </entry>
+</feed>

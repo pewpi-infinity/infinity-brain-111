@@ -1,0 +1,41 @@
+TERMS: entropy, tachyon, probability
+COLORS: red, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api//NAgJT+rIj9j1pBtjHSciZP3B4w</id>
+  <title>arXiv Query: search_query=all:entropy AND all:tachyon AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:19:04Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+(all:tachyon+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1710.04518v2</id>
+    <title>Configurational Entropy as a tool to select a physical Thick Brane Model</title>
+    <updated>2017-11-18T21:25:58Z</updated>
+    <link href="https://arxiv.org/abs/1710.04518v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1710.04518v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We analise braneworld scenarios via a configurational entropy (CE) formalism. Braneworld scenarios have drawn attention mainly due to the fact that they can explain the hierarchy problem and unify the fundamental forces through a symmetry breaking procedure. Those scenarios localize matter in a $(3+1)$ hypersurface, the brane, which is inserted in a higher dimensional space, the bulk. Novel analytical braneworld models, {in which the warp factor depends} on a free parameter $n$, were recently released in the literature. In this article we will provide a way to constrain this parameter through the relation between information and dynamics of a system described by the CE. We demonstrate that in some cases the CE is an important tool in order to provide the most probable physical system among all the possibilities. In addition, we show that the highest CE is correlated to a tachyonic sector of the configuration, where the solutions for the corresponding model are dynamically unstable.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-10-12T13:48:16Z</published>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>M. Chinaglia</name>
+    </author>
+    <author>
+      <name>W. T. Cruz</name>
+    </author>
+    <author>
+      <name>R. A. C. Correa</name>
+    </author>
+    <author>
+      <name>W. de Paula</name>
+    </author>
+    <author>
+      <name>P. H. R. S. Moraes</name>
+    </author>
+    <arxiv:doi>10.1016/j.physletb.2018.01.070</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physletb.2018.01.070" title="doi"/>
+  </entry>
+</feed>

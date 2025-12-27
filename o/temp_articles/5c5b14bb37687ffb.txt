@@ -1,0 +1,80 @@
+TERMS: frequency, probability, singularity
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/g3it0HYJhEDo9nVH4RecPyIGnuo</id>
+  <title>arXiv Query: search_query=all:frequency AND all:probability AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:13:11Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:probability+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>94</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1902.01062v1</id>
+    <title>Extreme Singular Values of Random Time-Frequency Structured Matrices</title>
+    <updated>2019-02-04T07:46:34Z</updated>
+    <link href="https://arxiv.org/abs/1902.01062v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1902.01062v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we investigate extreme singular values of the analysis matrix of a Gabor frame $(g, Λ)$ with a random window $g$. Columns of such matrices are time and frequency shifts of $g$, and $Λ\subset \mathbb{Z}_M\times\mathbb{Z}_M$ is the set of time-frequency shift indices. Our aim is to obtain bounds on the singular values of such random time-frequency structured matrices for various choices of the frame set $Λ$, and to investigate their dependence on the structure of $Λ$, as well as on its cardinality. We also compare the results obtained for Gabor frame analysis matrices with the respective results for matrices with independent identically distributed entries.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-02-04T07:46:34Z</published>
+    <arxiv:comment>21 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Palina Salanevich</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-th/0401209v2</id>
+    <title>On the Resolution of the Time-Like Singularities in Reissner-Nordstrom and Negative-Mass Schwarzschild</title>
+    <updated>2004-06-28T18:43:52Z</updated>
+    <link href="https://arxiv.org/abs/hep-th/0401209v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-th/0401209v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Certain time-like singularities are shown to be resolved already in classical General Relativity once one passes from particle probes to scalar waves. The time evolution can be defined uniquely and some general conditions for that are formulated. The Reissner-Nordstrom singularity allows for communication through the singularity and can be termed "beam splitter" since the transmission probability of a suitably prepared high energy wave packet is 25%. The high frequency dependence of the cross section is w^{-4/3}. However, smooth geometries arbitrarily close to the singular one require a finite amount of negative energy matter. The negative-mass Schwarzschild has a qualitatively different resolution interpreted to be fully reflecting. These 4d results are similar to the 2d black hole and are generalized to an arbitrary dimension d&gt;4.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-01-27T15:59:44Z</published>
+    <arxiv:comment>47 pages, 5 figures. v2: See end of introduction for an important note added</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>JHEP 0408 (2004) 014</arxiv:journal_ref>
+    <author>
+      <name>Amit Giveon</name>
+    </author>
+    <author>
+      <name>Barak Kol</name>
+    </author>
+    <author>
+      <name>Amos Ori</name>
+    </author>
+    <author>
+      <name>Amit Sever</name>
+    </author>
+    <arxiv:doi>10.1088/1126-6708/2004/08/014</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1126-6708/2004/08/014" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2204.13534v2</id>
+    <title>Singular value distribution of dense random matrices with block Markovian dependence</title>
+    <updated>2023-03-31T13:41:56Z</updated>
+    <link href="https://arxiv.org/abs/2204.13534v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2204.13534v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A block Markov chain is a Markov chain whose state space can be partitioned into a finite number of clusters such that the transition probabilities only depend on the clusters. Block Markov chains thus serve as a model for Markov chains with communities. This paper establishes limiting laws for the singular value distributions of the empirical transition matrix and empirical frequency matrix associated to a sample path of the block Markov chain whenever the length of the sample path is $Θ(n^2)$ with $n$ the size of the state space.
+  The proof approach is split into two parts. First, we introduce a class of symmetric random matrices with dependent entries called approximately uncorrelated random matrices with variance profile. We establish their limiting eigenvalue distributions by means of the moment method. Second, we develop a coupling argument to show that this general-purpose result applies to the singular value distributions associated with the block Markov chain.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-04-28T14:34:06Z</published>
+    <arxiv:comment>55 pages, 10 figures</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <arxiv:journal_ref>Stochastic Processes and their Applications, 2023</arxiv:journal_ref>
+    <author>
+      <name>Jaron Sanders</name>
+    </author>
+    <author>
+      <name>Alexander Van Werde</name>
+    </author>
+    <arxiv:doi>10.1016/j.spa.2023.01.001</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.spa.2023.01.001" title="doi"/>
+  </entry>
+</feed>

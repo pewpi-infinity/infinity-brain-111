@@ -1,0 +1,21 @@
+brain:
+  id: infinity-brain-098
+  role: research-node
+  version: 1.0
+  status: active
+
+links:
+  core: https://github.com/pewpi-infinity/mongoose.os
+  treasury: https://github.com/pewpi-infinity/infinity-treasury
+
+io:
+  input: input/
+  output: output/
+
+sync:
+  pulls_from: core
+  pushes_to: treasury
+
+notes:
+  description: >
+    Distributed Infinity Brain node.

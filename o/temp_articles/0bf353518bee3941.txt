@@ -1,0 +1,93 @@
+TERMS: quantum, spin
+COLORS: blue, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/XFiAEpK2+vitJw7sy/zv2vefAhQ</id>
+  <title>arXiv Query: search_query=all:quantum AND all:spin&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T00:56:52Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+all:spin&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>64929</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2203.13547v2</id>
+    <title>Probing quantum entanglement from magnetic-sublevels populations: beyond spin squeezing inequalities</title>
+    <updated>2022-12-24T13:36:30Z</updated>
+    <link href="https://arxiv.org/abs/2203.13547v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2203.13547v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Spin squeezing inequalities (SSI) represent a major tool to probe quantum entanglement among a collection of few-level atoms, and are based on collective spin measurements and their fluctuations. Yet, for atomic ensembles of spin-$j$ atoms and ultracold spinor gases, many experiments can image the populations in all Zeeman sublevels $s=-j, -j+1, \dots, j$, potentially revealing finer features of quantum entanglement not captured by SSI. Here we present a systematic approach which exploits Zeeman-sublevel population measurements in order to construct novel entanglement criteria, and illustrate our approach on ground states of spin-1 and spin-2 Bose-Einstein condensates. Beyond these specific examples, our approach allows one to infer, in a systematic manner, the optimal permutationally-invariant entanglement witness for any given set of collective measurements in an ensemble of $d$-level quantum systems.</summary>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-03-25T10:09:46Z</published>
+    <arxiv:comment>6 + 9 pages, 2 figures. Final version accepted in Quantum Journal</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.quant-gas"/>
+    <arxiv:journal_ref>Quantum 6, 887 (2022)</arxiv:journal_ref>
+    <author>
+      <name>Guillem Müller-Rigat</name>
+    </author>
+    <author>
+      <name>Maciej Lewenstein</name>
+    </author>
+    <author>
+      <name>Irénée Frérot</name>
+    </author>
+    <arxiv:doi>10.22331/q-2022-12-29-887</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.22331/q-2022-12-29-887" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1505.03748v1</id>
+    <title>Contributions of different parts of spin-spin interactions to quantum correlations in a spin ring model in an external magnetic field</title>
+    <updated>2015-05-14T15:02:59Z</updated>
+    <link href="https://arxiv.org/abs/1505.03748v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1505.03748v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study quantum correlations in a bipartite heteronuclear $(N-1)\times1$ system in an external magnetic field. The system consists of a spin ring with an arbitrary number $N-1$ of spins on the ring and one spin in its center. The spins on the ring are connected by secular dipole-dipole interactions and interact with the central spin through the Heisenberg $zz$-interaction. We show that the quantum discord, describing quantum correlations between the ring and the central spin, can be obtained analytically for this model in the high temperature approximation. The model allows us to find contributions of different parts of the spin-spin interactions to quantum correlations. We also investigate the evolution of quantum and classical correlations at different numbers of spins.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-05-14T15:02:59Z</published>
+    <arxiv:comment>to appear in Quantum Information Processing</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Quantum Information Processing 14, 2929 (2015)</arxiv:journal_ref>
+    <author>
+      <name>S. I. Doronin</name>
+    </author>
+    <author>
+      <name>E. B. Fel'dman</name>
+    </author>
+    <author>
+      <name>E. I. Kuznetsova</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2205.09623v4</id>
+    <title>Energy-efficient quantum non-demolition measurement with a spin-photon interface</title>
+    <updated>2023-08-30T14:43:03Z</updated>
+    <link href="https://arxiv.org/abs/2205.09623v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2205.09623v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Spin-photon interfaces (SPIs) are key devices of quantum technologies, aimed at coherently transferring quantum information between spin qubits and propagating pulses of polarized light. We study the potential of a SPI for quantum non demolition (QND) measurements of a spin state. After being initialized and scattered by the SPI, the state of a light pulse depends on the spin state. It thus plays the role of a pointer state, information being encoded in the light's temporal and polarization degrees of freedom. Building on the fully Hamiltonian resolution of the spin-light dynamics, we show that quantum superpositions of zero and single photon states outperform coherent pulses of light, producing pointer states which are more distinguishable with the same photon budget. The energetic advantage provided by quantum pulses over coherent ones is maintained when information on the spin state is extracted at the classical level by performing projective measurements on the light pulses. The proposed schemes are robust against imperfections in state of the art semi-conducting devices.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-05-19T15:38:18Z</published>
+    <arxiv:comment>Accepted for publication in Quantum</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Quantum 7, 1099 (2023)</arxiv:journal_ref>
+    <author>
+      <name>Maria Maffei</name>
+    </author>
+    <author>
+      <name>Bruno O. Goes</name>
+    </author>
+    <author>
+      <name>Stephen C. Wein</name>
+    </author>
+    <author>
+      <name>Andrew N. Jordan</name>
+    </author>
+    <author>
+      <name>Loïc Lanco</name>
+    </author>
+    <author>
+      <name>Alexia Auffèves</name>
+    </author>
+    <arxiv:doi>10.22331/q-2023-08-31-1099</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.22331/q-2023-08-31-1099" title="doi"/>
+  </entry>
+</feed>

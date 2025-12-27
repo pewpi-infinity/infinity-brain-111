@@ -1,0 +1,90 @@
+TERMS: ionization, spin, vacuum
+COLORS: green, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/1uLQ8gqVPnQWktdD6s1icWNQbVw</id>
+  <title>arXiv Query: search_query=all:ionization AND all:spin AND all:vacuum&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:29:20Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:ionization+AND+(all:spin+AND+all:vacuum)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>5</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1911.09090v2</id>
+    <title>Absolute pressure and gas species identification with an optically levitated rotor</title>
+    <updated>2020-02-26T00:45:21Z</updated>
+    <link href="https://arxiv.org/abs/1911.09090v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1911.09090v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The authors describe a novel variety of spinning-rotor vacuum gauge in which the rotor is a ${\sim}4.7{\text -}μ$m-diameter silica microsphere, optically levitated. A rotating electrostatic field is used to apply torque to the permanent electric dipole moment of the silica microsphere and control its rotational degrees of freedom. When released from a driving field, the microsphere's angular velocity decays exponentially with a damping time inversely proportional to the residual gas pressure, and dependent on gas composition. The gauge is calibrated by measuring the rotor mass with electrostatic co-levitation, and assuming a spherical shape, confirmed separately, and uniform density. The gauge is cross-checked against a capacitance manometer by observing the torsional drag due to a number of different gas species. The techniques presented can be used to perform absolute vacuum measurements localized in space, owing to the small dimensions of the microsphere and the ability to translate the optical trap in three dimensions, as well as measurements in magnetic field environments. In addition, the dynamics of the microsphere, paired with a calibrated vacuum gauge, can be used to measure the effective molecular mass of a gas mixture without the need for ionization and at pressures up to approximately 1 mbar.</summary>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.class-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.flu-dyn" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-11-20T18:57:55Z</published>
+    <arxiv:comment>7 pages, 5 figures. Updated formatting to be consistent with journal version</arxiv:comment>
+    <arxiv:primary_category term="physics.ins-det"/>
+    <arxiv:journal_ref>Journal of Vacuum Science &amp; Technology B 38, 024201 (2020)</arxiv:journal_ref>
+    <author>
+      <name>Charles P. Blakemore</name>
+    </author>
+    <author>
+      <name>Denzal Martin</name>
+    </author>
+    <author>
+      <name>Alexander Fieguth</name>
+    </author>
+    <author>
+      <name>Akio Kawasaki</name>
+    </author>
+    <author>
+      <name>Nadav Priel</name>
+    </author>
+    <author>
+      <name>Alexander D. Rider</name>
+    </author>
+    <author>
+      <name>Giorgio Gratta</name>
+    </author>
+    <arxiv:doi>10.1116/1.5139638</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1116/1.5139638" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2209.13640v2</id>
+    <title>IXPE Detection of Polarized X-rays from Magnetars and Photon Mode Conversion at QED Vacuum Resonance</title>
+    <updated>2023-04-14T01:15:47Z</updated>
+    <link href="https://arxiv.org/abs/2209.13640v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2209.13640v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The recent observations of the anomalous X-ray pulsars 4U 0142+61 and 1RXS J170849.0-400910 by the Imaging X-ray Polarimetry Explorer (IXPE) opened up a new avenue to study magnetars, neutron stars endowed with superstrong magnetic fields ($B\gtrsim 10^{14}$~G). The detected polarized X-rays from 4U 0142+61 exhibit a 90$^\circ$ linear polarization swing from low photon energies ($E\lesssim 4$~keV) to high energies ($E\gtrsim 5.5$~keV). We show that this swing can be explained by photon polarization mode conversion at the vacuum resonance in the magnetar atmosphere; the resonance arises from the combined effects of plasma-induced birefringence and QED-induced vacuum birefringence in strong magnetic fields. This explanation suggests that the atmosphere of 4U 0142 be composed of partially ionized heavy elements, and the surface magnetic field be comparable or less than $10^{14}$~G, consistent with the dipole field inferred from the measured spindown. It also implies that the spin axis of 4U 0142+61 is aligned with its velocity direction. The polarized X-rays from 1RXS J170849.0-400910 do not show such $90^\circ$ swing, consistent with magnetar atmospheric emission with $B\gtrsim 5\times 10^{14}$~G.</summary>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-09-27T19:11:36Z</published>
+    <arxiv:comment>8 pages. Updated to include discussions on both magnetars detected by IXPE. To appear in PNAS in 4/2023</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.HE"/>
+    <author>
+      <name>Dong Lai</name>
+    </author>
+    <arxiv:doi>10.1073/pnas.2216534120</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1073/pnas.2216534120" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1906.03461v2</id>
+    <title>Robust Strategies for Affirming Kramers-Henneberger Atoms</title>
+    <updated>2019-07-07T08:08:59Z</updated>
+    <link href="https://arxiv.org/abs/1906.03461v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1906.03461v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Atoms exposed to high-frequency strong laser fields experience the ionization suppression due to the deformation of Kramers-Henneberger (KH) wave functions, which has not been confirmed yet in experiment. We propose a bichromatic pump-probe strategy to affirm the existence of KH states, which is formed by the pump pulse and ionized by the probe pulse. In the case of the single-photon ionization triggered by a vacuum ultra-violet probe pulse, the double-slit structure of KH atom is mapped to the photoelectron momentum distribution. In the case of the tunneling ionization induced by an infrared probe pulse, streaking in anisotropic Coulomb potential produces a characteristic momentum drift. Apart from bichromatic schemes, the non-Abelian geometric phase provides an alternative route to affirm the existence of KH states. Following specific loops in laser parameter space, a complete spin flipping transition could be achieved. Our proposal has advantages of being robust against focal-intensity average as well as ionization depletion, and is accessible with current laser facilities.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-06-08T14:20:59Z</published>
+    <arxiv:comment>6 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>Pei-Lun He</name>
+    </author>
+    <author>
+      <name>Zhao-Han Zhang</name>
+    </author>
+    <author>
+      <name>Feng He</name>
+    </author>
+  </entry>
+</feed>

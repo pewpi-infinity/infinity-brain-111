@@ -1,0 +1,85 @@
+TERMS: quantum, frequency, lattice
+COLORS: blue, green, orange
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/PEMve+krfUQS/qfxHgMqbuUu9v8</id>
+  <title>arXiv Query: search_query=all:quantum AND all:frequency AND all:lattice&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:05:32Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:frequency+AND+all:lattice)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1709</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2503.02791v2</id>
+    <title>Meson dynamics from locally exciting a particle-conserving $Z_2$ lattice gauge theory</title>
+    <updated>2025-09-29T03:08:21Z</updated>
+    <link href="https://arxiv.org/abs/2503.02791v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.02791v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Quantum simulation of lattice gauge theories is an important avenue to gain insights into both particle physics phenomena and constrained quantum many-body dynamics. There is a growing interest in probing analogs of high energy collision phenomena in lattice gauge theories that can be implemented on current quantum simulators. Motivated by this, we characterize the confined mesons that originate from a local high energy excitation in a particle-conserving 1D $Z_2$ lattice gauge theory. We focus on a simple, experimentally accessible setting that does not require preparation of colliding wavepackets and isolates the effects of gauge field confinement strength and initial state energy on the nature of propagating excitations. We find that the dynamics is characterized by the propagation of a superposition of differently sized mesons. The linear confinement leads to meson size oscillations in time. The average meson size and oscillation frequency are controlled by the strength of the gauge field confinement. At a constant confinement field, the average meson length is controlled by the initial excitation's energy. Higher energies produce longer mesons and their effective mass depends strongly on their size: longer mesons propagate more slowly out of the central excitation. Mesons of different sizes get spatially filtered with time due to different speeds. We show that this phenomenology is a consequence of linear confinement and remains valid in both the strong and weak confinement limit. We present simple explanations of these phenomena supported by exact numerics.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-04T17:09:44Z</published>
+    <arxiv:comment>13 pages, 10 figures, This version accepted in Quantum on 09-18-2025</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Quantum 9, 1872 (2025)</arxiv:journal_ref>
+    <author>
+      <name>Vaibhav Sharma</name>
+    </author>
+    <author>
+      <name>Kaden R. A. Hazzard</name>
+    </author>
+    <arxiv:doi>10.22331/q-2025-10-01-1872</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.22331/q-2025-10-01-1872" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.02672v1</id>
+    <title>Improved real-time dynamics from imaginary frequency lattice simulations</title>
+    <updated>2017-10-07T11:15:37Z</updated>
+    <link href="https://arxiv.org/abs/1710.02672v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1710.02672v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The computation of real-time properties, such as transport coefficients or bound state spectra of strongly interacting quantum fields in thermal equilibrium is a pressing matter. Since the sign problem prevents a direct evaluation of these quantities, lattice data needs to be analytically continued from the Euclidean domain of the simulation to Minkowski time, in general an ill-posed inverse problem. Here we report on a novel approach to improve the determination of real-time information in the form of spectral functions by setting up a simulation prescription in imaginary frequencies. By carefully distinguishing between initial conditions and quantum dynamics one obtains access to correlation functions also outside the conventional Matsubara frequencies. In particular the range between $ω_0$ and $ω_1=2πT$, which is most relevant for the inverse problem may be more highly resolved. In combination with the fact that in imaginary frequencies the kernel of the inverse problem is not an exponential but only a rational function we observe significant improvements in the reconstruction of spectral functions, demonstrated in a simple 0+1 dimensional scalar field theory toy model.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-10-07T11:15:37Z</published>
+    <arxiv:comment>8 pages, 5 figures, Talk given at the XXXVth International Symposium on Lattice Field Theory, June 18-24, 2017, Granada, Spain</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Jan M. Pawlowski</name>
+    </author>
+    <author>
+      <name>Alexander Rothkopf</name>
+    </author>
+    <arxiv:doi>10.1051/epjconf/201817507001</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1051/epjconf/201817507001" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2411.17460v1</id>
+    <title>High-precision Quantum Monte-Carlo study of charge transport in a lattice model of molecular organic semiconductors</title>
+    <updated>2024-11-26T14:25:44Z</updated>
+    <link href="https://arxiv.org/abs/2411.17460v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.17460v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We use first-principle Quantum Monte-Carlo (QMC) simulations and numerical exact diagonalization to analyze the low-frequency charge carrier mobility within a simple tight-binding model of molecular organic semiconductors on a two-dimensional triangular lattice. These compounds feature transient localization, an unusual charge transport mechanism driven by dynamical disorder. The challenges of studying the transient localization of charge carriers in the low-frequency/long-time limit from first principles are discussed. We demonstrate that a combination of high-precision QMC data with prior estimates of frequency-dependent charge carrier mobility based on the static disorder approximation for phonon fields allows for improved estimates of mobility in the low-frequency limit. We also point out that a simple relaxation time approximation for charge mobility in organic semiconductors is not consistent with the QMC data. Physical similarities with charge transport in quark-gluon plasma are highlighted.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-26T14:25:44Z</published>
+    <arxiv:comment>Proceedings of the 41st International Symposium on Lattice Field Theory (Lattice 2024, Liverpool, UK). 10 pages, 4 figures, PoS style</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>PoS(LATTICE2024)067</arxiv:journal_ref>
+    <author>
+      <name>Pavel Buividovich</name>
+    </author>
+    <author>
+      <name>Johann Ostmeyer</name>
+    </author>
+    <author>
+      <name>Alessandro Troisi</name>
+    </author>
+    <arxiv:doi>10.22323/1.466.0067</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.22323/1.466.0067" title="doi"/>
+  </entry>
+</feed>

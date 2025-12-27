@@ -1,0 +1,91 @@
+TERMS: quantum, fusion, superconductivity
+COLORS: blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/zNaCkJhFcoz5G/eeeWuqwY3nM1o</id>
+  <title>arXiv Query: search_query=all:quantum AND all:fusion AND all:superconductivity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:06:33Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:fusion+AND+all:superconductivity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>59</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2407.20783v1</id>
+    <title>Dynamics and Fusion of Majorana Zero Modes in Quantum-dot based Interacting Kitaev Chains</title>
+    <updated>2024-07-30T12:41:19Z</updated>
+    <link href="https://arxiv.org/abs/2407.20783v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.20783v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Motivated by the recent experimental realization of a minimal Kitaev chain in quantum dot systems, we present our theoretical findings on the dynamics and
+  fusion of MZMs at or near the $``$sweet spot" $t_h = Δ$ (where the fermionic hopping $t_h$ and superconducting coupling $Δ$ are equal).
+  We investigated the dynamics and fusion of MZMs using time-dependent real-space local density-of-states methods.
+  The movement of Majoranas and the detection of fusion channels are crucial for topological quantum computations.
+  Additionally, we discuss our recent discovery of exotic $``$multi-site" MZMs in $Y$-shaped Kitaev wires,
+  which is important for the potential braiding of Majoranas in $Y$-junctions formed from arrays of quantum dots.
+  Finally, we present results on "non-trivial" fusion using canonical Kitaev wires at the sweet spot.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-30T12:41:19Z</published>
+    <arxiv:comment>6 pages and 2 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>Bradraj Pandey</name>
+    </author>
+    <author>
+      <name>Elbio Dagotto</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2311.15079v3</id>
+    <title>Non-trivial fusion of Majorana zero modes in interacting quantum-dot arrays</title>
+    <updated>2024-09-06T23:03:28Z</updated>
+    <link href="https://arxiv.org/abs/2311.15079v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.15079v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Motivated by recent experimental reports of Majorana zero modes (MZMs) in quantum-dot systems at the ``sweet spot'', where the electronic hopping $t_h$ is equal to the superconducting coupling $Δ$, we study the time-dependent spectroscopy corresponding to the non-trivial fusion of MZMs. The expression non-trivial refers to the fusion of Majoranas from different original pairs of MZMs, each with well-defined parities. For the first time, we employ an experimentally accessible time-dependent real-space local density-of-states (LDOS) method to investigate the non-trivial MZMs fusion outcomes in canonical chains and in a Y-shape array of interacting electrons. In the case of quantum-dot chains where two pairs of MZMs are initially disconnected, after fusion we find equal-height peaks in the electron and hole components of the LDOS, signaling non-trivial fusion into both the vacuum $I$ and fermion $Ψ$ channels with equal weight. For $π$-junction quantum-dot chains, where the superconducting phase has opposite signs on the left and right portions of the chain, after the non-trivial fusion, we observed the formation of an exotic two-site MZM near the center of the chain, coexisting with another single-site MZM. Furthermore, we also studied the fusion of three MZMs in the Y-shape geometry. In this case, after the fusion we observed the novel formation of another exotic multi-site MZM, with properties depending on the connection and geometry of the central region of the Y-shape quantum-dot array.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-25T17:17:15Z</published>
+    <arxiv:comment>14 pages, 10 Figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>Bradraj Pandey</name>
+    </author>
+    <author>
+      <name>Satoshi Okamoto</name>
+    </author>
+    <author>
+      <name>Elbio Dagotto</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.09800v1</id>
+    <title>Fusion Dynamics of Majorana Zero Modes</title>
+    <updated>2025-03-12T20:09:17Z</updated>
+    <link href="https://arxiv.org/abs/2503.09800v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.09800v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Braiding and fusion of Majorana zero modes are key elements of any future topological Majorana-based quantum computer. Here, we investigate the fusion dynamics of Majorana zero modes in the spinless Kitaev model, as well as in a spinfull model describing magnet-superconductor hybrid structures. We consider various scenarios allowing us to reproduce the fusion rules of the Ising anyon model. Particular emphasis is given to the charge of the fermion obtained after fusing two Majorana zero modes: as long as it remains on the superconductor, charge quantization is absent. When moving the fermion to a non-superconducting region, such as a quantum dot, nearly-quantized charge can be measured. Our findings confirm for both platforms that fusion dynamics of Majorana zero modes can indeed be used for the readout of Majorana qubits.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-12T20:09:17Z</published>
+    <arxiv:comment>19 pages, 12 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>Themba Hodge</name>
+    </author>
+    <author>
+      <name>Tuan Kieu</name>
+    </author>
+    <author>
+      <name>Jasmin Bedow</name>
+    </author>
+    <author>
+      <name>Eric Mascot</name>
+    </author>
+    <author>
+      <name>Dirk K. Morr</name>
+    </author>
+    <author>
+      <name>Stephan Rachel</name>
+    </author>
+  </entry>
+</feed>

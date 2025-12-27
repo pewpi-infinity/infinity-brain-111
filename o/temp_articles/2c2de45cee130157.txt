@@ -1,0 +1,76 @@
+TERMS: quantum, neutrino, bandgap
+COLORS: blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Hiltsbiv/wu1nKe7HgKZ3oTDXPE</id>
+  <title>arXiv Query: search_query=all:quantum AND all:neutrino AND all:bandgap&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:09:11Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:neutrino+AND+all:bandgap)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2203.06037v3</id>
+    <title>Directional Detection of Dark Matter Using Solid-State Quantum Sensing</title>
+    <updated>2023-06-14T20:13:17Z</updated>
+    <link href="https://arxiv.org/abs/2203.06037v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2203.06037v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Next-generation dark matter (DM) detectors searching for weakly interacting massive particles (WIMPs) will be sensitive to coherent scattering from solar neutrinos, demanding an efficient background-signal discrimination tool. Directional detectors improve sensitivity to WIMP DM despite the irreducible neutrino background. Wide-bandgap semiconductors offer a path to directional detection in a high-density target material. A detector of this type operates in a hybrid mode. The WIMP or neutrino-induced nuclear recoil is detected using real-time charge, phonon, or photon collection. The directional signal, however, is imprinted as a durable sub-micron damage track in the lattice structure. This directional signal can be read out by a variety of atomic physics techniques, from point defect quantum sensing to x-ray microscopy. In this white paper, we present the detector principle and review the status of the experimental techniques required for directional readout of nuclear recoil tracks. Specifically, we focus on diamond as a target material; it is both a leading platform for emerging quantum technologies and a promising component of next-generation semiconductor electronics. Based on the development and demonstration of directional readout in diamond over the next decade, a future WIMP detector will leverage or motivate advances in multiple disciplines towards precision dark matter and neutrino physics.</summary>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-03-11T16:08:48Z</published>
+    <arxiv:comment>contribution to Snowmass 2021, 30 pages + references, 14 figures; v3: journal format (20 pages + references, 14 figures), journal reference added</arxiv:comment>
+    <arxiv:primary_category term="physics.ins-det"/>
+    <arxiv:journal_ref>AVS Quantum Sci. 4, 044701 (2022)</arxiv:journal_ref>
+    <author>
+      <name>Reza Ebadi</name>
+    </author>
+    <author>
+      <name>Mason C. Marshall</name>
+    </author>
+    <author>
+      <name>David F. Phillips</name>
+    </author>
+    <author>
+      <name>Johannes Cremer</name>
+    </author>
+    <author>
+      <name>Tao Zhou</name>
+    </author>
+    <author>
+      <name>Michael Titze</name>
+    </author>
+    <author>
+      <name>Pauli Kehayias</name>
+    </author>
+    <author>
+      <name>Maziar Saleh Ziabari</name>
+    </author>
+    <author>
+      <name>Nazar Delegan</name>
+    </author>
+    <author>
+      <name>Surjeet Rajendran</name>
+    </author>
+    <author>
+      <name>Alexander O. Sushkov</name>
+    </author>
+    <author>
+      <name>F. Joseph Heremans</name>
+    </author>
+    <author>
+      <name>Edward S. Bielejec</name>
+    </author>
+    <author>
+      <name>Martin V. Holt</name>
+    </author>
+    <author>
+      <name>Ronald L. Walsworth</name>
+    </author>
+    <arxiv:doi>10.1116/5.0117301</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1116/5.0117301" title="doi"/>
+  </entry>
+</feed>

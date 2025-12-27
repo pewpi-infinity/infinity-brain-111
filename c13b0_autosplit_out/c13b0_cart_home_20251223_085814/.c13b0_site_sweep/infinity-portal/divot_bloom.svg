@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+  <defs>
+    <filter id="glowW" height="300%" width="300%" x="-100%" y="-100%">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glowNeonG">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glowNeonB">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glowNeonR">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <radialGradient id="divotGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffb300" stop-opacity="0.95"/>
+      <stop offset="60%" stop-color="#ff6a00" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#ff6a00" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="#07090F"/>
+<circle cx="1004.4444444444445" cy="542.2222222222222" r="60" fill="url(#divotGrad)" opacity="1.0"/>
+<circle cx="1004.4444444444445" cy="542.2222222222222" r="110" fill="url(#divotGrad)" opacity="0.6"/>
+<circle cx="1004.4444444444445" cy="542.2222222222222" r="170" fill="url(#divotGrad)" opacity="0.35"/>
+<circle cx="1004.4444444444445" cy="542.2222222222222" r="18" fill="#ffe082" stroke="#ff6a00" stroke-width="4"/>
+</svg>

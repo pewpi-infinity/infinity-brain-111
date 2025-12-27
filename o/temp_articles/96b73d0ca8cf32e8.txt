@@ -1,0 +1,67 @@
+TERMS: hydrogen, ionization, probability
+COLORS: purple, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/8DdG8F87JpwKc+Tq9DJ39CBTaBw</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:ionization AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:03:52Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:ionization+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>183</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/plasm-ph/9607001v1</id>
+    <title>Ionization equilibrium of hot hydrogen plasma</title>
+    <updated>1996-07-01T06:49:09Z</updated>
+    <link href="https://arxiv.org/abs/plasm-ph/9607001v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/plasm-ph/9607001v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The hydrogen plasma is studied at temperatures T ~ 10^4 - 10^6 K using the free energy minimization method. A simple analytic free energy model is proposed which is accurate at densities up to 1 g/cc and yields convergent internal partition function of atoms. The occupation probability formalism is modified for solving the ionization equilibrium problem. The ionization degree and equation of state are calculated and compared with the results of other models.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1996-07-01T06:49:09Z</published>
+    <arxiv:comment>11 pages, REVTeX, 5 embedded PostScript figures (necessary sty-files included), tarred, gzipped. Accepted for Physics of Plasmas</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <arxiv:journal_ref>Phys. of Plasmas 3 (1996) 4156</arxiv:journal_ref>
+    <author>
+      <name>A. Y. Potekhin</name>
+      <arxiv:affiliation>Ioffe Phys.-Tech. Institute, http://www.ioffe.rssi.ru</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1063/1.871547</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/1.871547" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.14127v2</id>
+    <title>On Compton ionization of a hydrogen atom by twisted photons</title>
+    <updated>2025-03-03T10:05:53Z</updated>
+    <link href="https://arxiv.org/abs/2412.14127v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.14127v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The differential probability of the process of Compton ionization of a hydrogen atom by a cylindrical electromagnetic wave is calculated taking into account the finite size of the target, which resulted in the appearance of a dependence of this value on the angular momentum of the cylindrical wave. It is shown that the use of a cylindrical wave instead of a plane wave does not lead to new angular distributions of the reaction products.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-18T18:14:55Z</published>
+    <arxiv:comment>13 pages</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>Igor Volobuev</name>
+    </author>
+    <author>
+      <name>Vadim Egorov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.21430v1</id>
+    <title>Quantum electrodynamic description of the neutral hydrogen molecule ionization</title>
+    <updated>2025-11-26T14:21:43Z</updated>
+    <link href="https://arxiv.org/abs/2511.21430v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.21430v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The ionization dynamics of a hydrogen molecule, serving as a fundamental benchmark in quantum chemistry, is investigated within a comprehensive framework combining quantum electrodynamics and the Lindblad master equation. This approach enables a first-principles description of light--matter interactions while accounting for dissipative processes and external particle influx. We systematically explore the system's evolution across three distinct regimes: closed, dissipative open, and influx-driven open quantum systems. Our results reveal a universal tendency towards the formation of the neutral hydrogen molecule ($|\rm{H}_2\rangle$) across all configurations. The dissipation strengths for photons ($γ_Ω$), electrons ($γ_e$), and phonons ($γ_ω$) are identified as critical control parameters, with $γ_Ω$ significantly accelerating system stabilization. Furthermore, the introduction of particle influx ($μ_k$) leads to a complex redistribution of energy, notably populating the atomic state ($|\rm{H},\rm{H}\rangle$). The ionization pathway is exquisitely sensitive to the initial quantum state, dictated by the composition and number of photons, which governs the accessible spin-selective excitation channels. This is conclusively demonstrated in a model with an embedded anode, where the maximum ionization probability is fundamentally constrained to $\frac{3}{4}$ by orbital hybridization. This study provides a unified theoretical foundation for quantum-controlled chemistry, with direct implications for future experiments in cavity QED and quantum information processing.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-26T14:21:43Z</published>
+    <arxiv:comment>11 pages, 5 figures; Supplementary Information: 2 videos</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Hui-hui Miao</name>
+    </author>
+  </entry>
+</feed>

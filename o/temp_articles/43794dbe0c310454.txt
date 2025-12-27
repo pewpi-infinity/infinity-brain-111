@@ -1,0 +1,102 @@
+TERMS: electron, vapor
+COLORS: green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/7EFQlv5GWQd0jx4Zo3CIzo9VNSI</id>
+  <title>arXiv Query: search_query=all:electron AND all:vapor&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T00:58:30Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:electron+AND+all:vapor&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1063</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1908.02184v1</id>
+    <title>Growth temperature dependence of partially Fe filled MWCNT using chemical vapor deposition</title>
+    <updated>2019-08-02T08:40:52Z</updated>
+    <link href="https://arxiv.org/abs/1908.02184v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1908.02184v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This investigation deals with the effect of growth temperature on the growth behavior of Fe filled multiwalled carbon nanotubes (MWCNTs). Carbon nanotube (CNT) synthesis was carried out in a thermal chemical vapor deposition (CVD) reactor in the temperature range 650 to 950 1C using propane as the carbon source, Fe as the catalyst material, and Si as the catalyst support. Atomic force microscopy (AFM) analysis of the catalyst exhibits that at elevated temperature clusters of catalyst coalesce and form macroscopic islands. Field emission scanning electron microscopy (FESEM) results show that with increased growth temperature the average diameter of the nanotubes increases but their density decreases. High-resolution transmission electron microscopy (HRTEM) studies suggest that the nanotubes have multi-walled structure with partial Fe filling for all growth temperatures. The X-ray diffraction (XRD) pattern of the grown materials indicates that they are graphitic in nature. The characterization of nanotubes by Raman spectroscopy reveals that the optimized growth temperature for Fe filled CNTs is 850 1C, in terms of quality. A simple model for the growth of Fe filled carbon nanotubes is proposed.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-08-02T08:40:52Z</published>
+    <arxiv:comment>A1. Nanostructure A1. Growth model A1. Characterization A3. Chemical vapor deposition process B1. Carbon nanotube B1. Iron</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>Journal of Crystal Growth, Volume 311, Issues 23_24, 1 December 2009, Pages 4692_4697</arxiv:journal_ref>
+    <author>
+      <name>Joydip Sengupta</name>
+    </author>
+    <author>
+      <name>Chacko Jacob</name>
+    </author>
+    <arxiv:doi>10.1016/j.jcrysgro.2009.09.029</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.jcrysgro.2009.09.029" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2404.19195v1</id>
+    <title>Evaluation of Thermal Performance of a Wick-free Vapor Chamber in Power Electronics Cooling</title>
+    <updated>2024-04-30T01:48:16Z</updated>
+    <link href="https://arxiv.org/abs/2404.19195v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2404.19195v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Efficient thermal management in high-power electronics cooling can be achieved using phase-change heat transfer devices, such as vapor chambers. Traditional vapor chambers use wicks to transport condensate for efficient thermal exchange and to prevent "dry-out" of the evaporator. However, wicks in vapor chambers present significant design challenges arising out of large pressure drops across the wicking material, which slows down condensate transport rates and increases the chances for dry-out. Thicker wicks add to overall thermal resistance, while deterring the development of thinner devices by limiting the total thickness of the vapor chamber. Wickless vapor chambers eliminate the use of metal wicks entirely, by incorporating complementary wettability-patterned flat plates on both the evaporator and the condenser side. Such surface modifications enhance fluid transport on the evaporator side, while allowing the chambers to be virtually as thin as imaginable, thereby permitting design of thermally efficient thin electronic cooling devices. While wick-free vapor chambers have been studied and efficient design strategies have been suggested, we delve into real-life applications of wick-free vapor chambers in forced air cooling of high-power electronics. An experimental setup is developed wherein two Si-based MOSFETs of TO-247-3 packaging having high conduction resistance, are connected in parallel and switched at 100 kHz, to emulate high frequency power electronics operations. A rectangular copper wick-free vapor chamber spreads heat laterally over a surface 13 times larger than the heating area. This chamber is cooled externally by a fan that circulates air at room temperature. The present experimental setup extends our previous work on wick-free vapor chambers, while demonstrating the effectiveness of low-cost air cooling in vapor-chamber enhanced high-power electronics applications.</summary>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-04-30T01:48:16Z</published>
+    <arxiv:comment>Presented at IEEE ITherm (Intersociety Conference on Thermal and Thermomechanical Phenomena in Electronic Systems) 2023, Orlando FL. Corresponding author: cmm@uic.edu</arxiv:comment>
+    <arxiv:primary_category term="eess.SY"/>
+    <author>
+      <name>Arani Mukhopadhyay</name>
+      <arxiv:affiliation>Mechanical and Industrial Engineering, University of Illinois Chicago, IL, US</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Anish Pal</name>
+      <arxiv:affiliation>Mechanical and Industrial Engineering, University of Illinois Chicago, IL, US</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Congbo Bao</name>
+      <arxiv:affiliation>Electrical and Computer Engineering, University of Illinois Chicago, IL, US</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Mohamad Jafari Gukeh</name>
+      <arxiv:affiliation>Mechanical and Industrial Engineering, University of Illinois Chicago, IL, US</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Sudip K. Mazumder</name>
+      <arxiv:affiliation>Electrical and Computer Engineering, University of Illinois Chicago, IL, US</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Constantine M. Megaridis</name>
+      <arxiv:affiliation>Mechanical and Industrial Engineering, University of Illinois Chicago, IL, US</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1109/ITherm55368.2023.10177653</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/ITherm55368.2023.10177653" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2004.12834v1</id>
+    <title>Effect of growth temperature on the CVD grown Fe filled multi-walled carbon nanotubes using a modified photoresist</title>
+    <updated>2020-04-27T14:31:15Z</updated>
+    <link href="https://arxiv.org/abs/2004.12834v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2004.12834v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Fe filled carbon nanotubes were synthesized by atmospheric pressure chemical vapor deposition using a simple mixture of iron acetylacetonate with a conventional photoresist and the effect of growth temperature from 550 to 950 °C on Fe filled nanotubes has been studied. Scanning electron microscopy results show that, as the growth temperature increases from 550 to 950 °C, the average diameter of the nanotubes increases while their number density decreases. High resolution transmission electron microscopy along with energy dispersive X-ray investigation shows that the nanotubes have a multi-walled structure with partial Fe filling for all growth temperatures. The graphitic nature of the nanotubes was observed via X-ray diffraction pattern. Raman analysis demonstrates that the degree of graphitization of the carbon nanotubes depends upon the growth temperature.</summary>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-04-27T14:31:15Z</published>
+    <arxiv:comment>A. Nanostructures B. Vapor deposition C. Electron microscopy C. Raman spectroscopy C. X-ray diffraction</arxiv:comment>
+    <arxiv:primary_category term="physics.app-ph"/>
+    <arxiv:journal_ref>Materials Research Bulletin, Volume 45, Issue 9, September 2010, Pages 1189-1193</arxiv:journal_ref>
+    <author>
+      <name>Joydip Sengupta</name>
+    </author>
+    <author>
+      <name>Avijit Jana</name>
+    </author>
+    <author>
+      <name>N. D. Pradeep Singh</name>
+    </author>
+    <author>
+      <name>Chacko Jacob</name>
+    </author>
+    <arxiv:doi>10.1016/j.materresbull.2010.05.017</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.materresbull.2010.05.017" title="doi"/>
+  </entry>
+</feed>

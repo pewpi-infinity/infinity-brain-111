@@ -1,0 +1,77 @@
+TERMS: neutrino, plasma, probability
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/PxDqkZLKDWhL1stW7PI1g4GPZmU</id>
+  <title>arXiv Query: search_query=all:neutrino AND all:plasma AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:37:04Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:neutrino+AND+(all:plasma+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>22</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/0605114v1</id>
+    <title>Neutrino propagation in magnetized plasma</title>
+    <updated>2006-05-10T11:51:13Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/0605114v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/0605114v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The process of neutrino propagation through an active medium consisting of magnetic field and plasma is analysed. We consider in detail the contribution of a magnetic field B into the neutrino self-energy operator Sigma (p). The results for this contribution were contradictory in the previous literature. For the conditions of the early universe where the background medium consists of a charge-symmetric plasma, the pure B-field contribution to the neutrino dispersion relation is proportional to (e B)^2 and thus comparable to the contribution of the magnetized plasma. The neutrino self-energy operator Sigma (p) is calculated also for the case of high-energy neutrinos, which corresponds to the crossed field approximation. The probability of the neutrino decay nu to e^- W^+ is calculated from the imaginary part of the Sigma (p) operator. A simple analytical result is obtained for the most interesting region of parameters which was not considered earlier. The external magnetic field contribution into the neutrino magnetic moment is calculated. The result obtained corrects the formulas existed earlier. We show qualitatively that the effect of ``neutrino spin light'' discussed in the literature has no physical region of realization because of the medium influence on photon dispersion.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-05-10T11:51:13Z</published>
+    <arxiv:comment>14 pages, LaTeX, 2 EPS figures, lecture presented at the XL PNPI Winter School on Nuclear and Particle Physics and XII St. Petersburg School on Theoretical Physics, St. Petersburg, Repino, Russia, February 20-26, 2006, to appear in the Proceedings</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>A. V. Kuznetsov</name>
+      <arxiv:affiliation>Yaroslavl State</arxiv:affiliation>
+    </author>
+    <author>
+      <name>N. V. Mikheev</name>
+      <arxiv:affiliation>Yaroslavl State</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/0009045v1</id>
+    <title>Neutrino-electron processes in a dense maqnetized plasma</title>
+    <updated>2000-09-05T07:21:14Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/0009045v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/0009045v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The neutrino-electron processes in a dense strongly degenerate magnetized plasma are analyzed in the framework of the Standard Model. The total probability and the mean values of the neutrino energy and momentum losses are calculated. It is shown that neutrino scattering on the excited electrons with Landau level number conservation dominates under the conditions "mu^2 &gt; eB &gt;&gt; mu T" but does not give a contribution into the neutrino force acting on plasma along the magnetic field.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2000-09-05T07:21:14Z</published>
+    <arxiv:comment>7 pages, LATEX, to appear in Modern Physics Letters A</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Mod.Phys.Lett. A15 (2000) 1551-1556</arxiv:journal_ref>
+    <author>
+      <name>N. V. Mikheev</name>
+      <arxiv:affiliation>Yaroslavl State</arxiv:affiliation>
+    </author>
+    <author>
+      <name>E. N. Narynskaya</name>
+      <arxiv:affiliation>Yaroslavl State</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1142/S0217732300002000</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/S0217732300002000" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/9907345v3</id>
+    <title>Radiative neutrino transition $ν\to νγ$ in strongly magnetized plasma</title>
+    <updated>2000-01-22T14:52:36Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/9907345v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/9907345v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The influence of strongly magnetized electron-positron plasma on the radiative neutrino transition $\nng$ is investigated. The probability and mean losses of the neutrino energy and momentum are calculated taking account of the photon dispersion and large radiative corrections near the resonance. It is shown that the combined effect of plasma and strong magnetic field decreases the probability and mean values of the neutrino energy and momentum loss in comparison with these values obtained in pure magnetic field.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1999-07-13T22:10:47Z</published>
+    <arxiv:comment>12 pages, 3 figure, LaTeX2e, uses epsf.sty, typos fixed, accepted to Physics Letters B</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys.Lett. B467 (1999) 232-237</arxiv:journal_ref>
+    <author>
+      <name>M. V. Chistyakov</name>
+    </author>
+    <author>
+      <name>N. V. Mikheev</name>
+    </author>
+    <arxiv:doi>10.1016/S0370-2693(99)01151-X</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/S0370-2693(99)01151-X" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,81 @@
+TERMS: lattice, entropy, plasma
+COLORS: orange, red, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/7y6DICgV3yDzXAUXlVe9mbzLPq8</id>
+  <title>arXiv Query: search_query=all:lattice AND all:entropy AND all:plasma&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:13:27Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:entropy+AND+all:plasma)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>136</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/9906340v2</id>
+    <title>The entropy of the QCD plasma</title>
+    <updated>1999-08-11T19:43:41Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/9906340v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/9906340v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Self-consistent approximations in terms of fully dressed propagators provide a simple expression for the entropy of an ultrarelativistic plasma, which isolates the contribution of the elementary excitations as a leading contribution. Further approximations, whose validity is checked on a soluble model involving a scalar field, allow us to calculate the entropy of the QCD plasma. We obtain an accurate description of lattice data for purely gluonic QCD, down to temperatures of about twice the transition temperature.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1999-06-11T18:32:26Z</published>
+    <arxiv:comment>12 pages, 3 figures, REVTEX (minor modifications)</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys.Rev.Lett. 83 (1999) 2906-2909</arxiv:journal_ref>
+    <author>
+      <name>J. -P. Blaizot</name>
+    </author>
+    <author>
+      <name>E. Iancu</name>
+    </author>
+    <author>
+      <name>A. Rebhan</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.83.2906</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.83.2906" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0710.3625v1</id>
+    <title>Lattice calculation of the QGP viscosities - Present results and next project -</title>
+    <updated>2007-10-19T03:04:09Z</updated>
+    <link href="https://arxiv.org/abs/0710.3625v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0710.3625v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The shear and bulk viscosities of gluon plasma are calculated by accumulating a large amount of data for the Matsubara Green function ($G_β(t_m)$) on isotropic $24^3 \times 8$ and $16^3 \times 8$ lattices. In the case of Iwasaki's improved action, the calculations of $G_β(t_m)$ are carried out on roughly 6 million configurations, while for the standard action the calculations are done on more than 16 million configurations. The shear viscosities increase roughly with $T^3$, and $η/s$ ratios are close to the KSS lower bound in the region where $1&lt;T/T_c&lt;25$. Using these data the bulk viscosities are also determined in the region where $T/T_c &lt; 2$. They are roughly one order of magnitude smaller than the shear viscosities. Our next target is to determine the transport coefficients more precisely by a maximum-entropy method. For this purpose the most effective method may be to adopt an anisotropic lattice. In this report, we study the possible systematic error due to the deformation of the anisotropic lattice at short distances. Near the critical temperature, it is found that the standard action suffers from a large deformation on the anisotropic lattice at short distances, while the deformation is slight for Iwasaki's improved action. To reduce the fluctuation of the Matsubara Green function, the improvement of the energy momentum tensor operator by using clover-type loops is promising. We are also attempting to apply the multi-level algorithm to reduce fluctuation.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-10-19T03:04:09Z</published>
+    <arxiv:comment>8 pages, 5 figures, The XXV International Symposium on Lattice Field Theory(Regensburg, 2007)</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>PoSLAT2007:221,2007</arxiv:journal_ref>
+    <author>
+      <name>Sunao Sakai Atsushi Nakamura</name>
+    </author>
+    <arxiv:doi>10.1063/1.2729742</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/1.2729742" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0911.1852v2</id>
+    <title>Evaluation of Israel-Stewart parameters in lattice gauge theory</title>
+    <updated>2009-11-12T06:27:46Z</updated>
+    <link href="https://arxiv.org/abs/0911.1852v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0911.1852v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Navier-Stokes equations are known as hydrodynamic equations which take account of effects of dissipations. There are, however, problems in the relativistic Navier-Stokes equations, i.e. the equations violate causality. Israel-Stewart equations, which evade the problems of Navier-Stokes equations by introducing new parameters, such as the relaxation times, have recently been used in describing the space-time evolution of the quark-gluon plasma produced in high energy heavy ion collisions. The viscosities and the relaxation times are related to each other by imposing entropy constraints on the system. According to Boltzmann-Einstein principle, the probability distribution of the fluctuation in the energy-momentum tensor is related to the entropy of the system. Applying this principle to the entropy in Israel-Stewart theory, one can obtain the ratios of the viscosities to the relaxation times. We evaluate the ratios of the viscosities to the relaxation times in SU(3) lattice gauge theory.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-11-10T08:10:31Z</published>
+    <arxiv:comment>8 pages, 2 figures. Contribution to The XXVII International Symposium on Lattice Field Theory, July 26-31, 2009, Peking University, Beijing, China</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>PoS LAT2009:196,2009</arxiv:journal_ref>
+    <author>
+      <name>Yasuhiro Kohno</name>
+    </author>
+    <author>
+      <name>Masayuki Asakawa</name>
+    </author>
+    <author>
+      <name>Masakiyo Kitazawa</name>
+    </author>
+    <author>
+      <name>Chiho Nonaka</name>
+    </author>
+  </entry>
+</feed>

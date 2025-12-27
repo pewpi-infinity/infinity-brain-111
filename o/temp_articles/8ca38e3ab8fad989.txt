@@ -1,0 +1,74 @@
+TERMS: resonance, neutrino, singularity
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/KwDoec9vUeGx5OOQVj7QHMpZ4lA</id>
+  <title>arXiv Query: search_query=all:resonance AND all:neutrino AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:35:28Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:resonance+AND+(all:neutrino+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>4</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2201.04661v2</id>
+    <title>Neutrino effective potential and damping in a fermion and scalar background in the resonance region</title>
+    <updated>2022-05-22T03:30:10Z</updated>
+    <link href="https://arxiv.org/abs/2201.04661v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2201.04661v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the propagation of a neutrino or an antineutrino in a medium composed of fermions $f$ and scalars $φ$ interacting via a Yukawa-type coupling of the form $\bar fνφ$, for neutrino energies at which the processes like $ν+ φ\leftrightarrow f$ or $ν+ \bar f \leftrightarrow \barφ$, and the corresponding ones for the antineutrino, are kinematically accessible. The relevant energy values are around $|m^2_φ- m^2_f|/2m_φ$ or $|m^2_φ- m^2_f|/2m_f$, where $m_φ$ and $m_f$ are the masses of $φ$ and $f$, respectively. We refer to either one of these regions as a resonance energy range. Near these points, the one-loop formula for the neutrino self-energy has a singularity. From a technical point of view, that feature is indicative that the self-energy acquires an imaginary part, which is associated with damping effects and cannot be neglected, while the integral formula for the real part must be evaluated using the principal value of the integral. We carry out the calculations explicitly for some cases that allow us to give analytic results. Writing the dispersion relation in the form $ω= κ+ V_{\text{eff}} - iγ/2$, we give the explicit formula for $V_{\text{eff}}$ and $γ$ for the cases considered. When the neutrino energy is either much larger or much smaller than the resonance energy, $V_{\text{eff}}$ reduces to the effective potential that has been already determined in the literature in the high or low momentum regime, respectively. The virtue of the formula we give for $V_{\text{eff}}$ is that it is valid also in the \emph{resonance energy range}, which is outside the two limits mentioned. As a guide to possible applications we give the relevant formulas for $V_{\text{eff}}$ and $γ$, and consider the solution to the oscillation equations including the damping term, in a simple two-generation case.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-01-12T19:30:03Z</published>
+    <arxiv:comment>20 pages, 3 figures, identical to the published version</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>PRD 105, 095022 (2022)</arxiv:journal_ref>
+    <author>
+      <name>Jose F. Nieves</name>
+    </author>
+    <author>
+      <name>Sarira Sahu</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.105.095022</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.105.095022" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1502.02503v2</id>
+    <title>Why Is The Neutrino Oscillation Formula Expanded In $Δm_{21}^{2}/Δm_{31}^{2}$ Still Accurate Near The Solar Resonance In Matter?</title>
+    <updated>2015-10-02T18:44:57Z</updated>
+    <link href="https://arxiv.org/abs/1502.02503v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1502.02503v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The conventional approximate formula for neutrino oscillation in matter which is obtained from the expansion in terms of the ratio of mass square differences $α=Δm_{21}^{2}/Δm_{31}^{2}\approx0.03$, first proposed by Cervera, et al and Freund, turns out to be an accurate formula for accelerator neutrino experiments. Originally it required the neutrino energy to be well above the solar resonance to validate the expansion but it is found to be still very accurate when the formula is extrapolated to the resonance, which is practically important for the T2K experiment. This paper shows that the accuracy is guaranteed by cancellations of branch cut singularities and also, for the first time, analytically computes the actual error of the formula. The actual error implies that the original requirement can be safely removed in current experiments.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-02-09T14:39:20Z</published>
+    <arxiv:comment>22 pages,7 figures. Some materials are removed for simplicity. Accepted by JHEP</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Xun-Jie Xu</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP10(2015)090</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP10(2015)090" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1606.05960v2</id>
+    <title>Three-generation neutrino oscillations in curved spacetime</title>
+    <updated>2016-09-13T02:49:56Z</updated>
+    <link href="https://arxiv.org/abs/1606.05960v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1606.05960v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Three-generation MSW effect in curved spacetime is studied and a brief discussion on the gravitational correction to the neutrino self-energy is given. The modified mixing parameters and corresponding conversion probabilities of neutrinos after traveling through celestial objects of constant densities are obtained. The method to distinguish between the normal hierarchy and inverted hierarchy is discussed in this framework. Due to the gravitational redshift of energy, in some extreme situations, the resonance energy of neutrinos might be shifted noticeably and the gravitational effect on the self-energy of neutrino becomes significant at the vicinities of spacetime singularities.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-06-20T02:38:06Z</published>
+    <arxiv:comment>25 pages, 5 figures, 2 tables. Some changes are made according to referee's suggestions. The final version is to be published at Nuclear Physics B</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Yu-Hao Zhang</name>
+    </author>
+    <author>
+      <name>Xue-Qian Li</name>
+    </author>
+    <arxiv:doi>10.1016/j.nuclphysb.2016.08.026</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.nuclphysb.2016.08.026" title="doi"/>
+  </entry>
+</feed>

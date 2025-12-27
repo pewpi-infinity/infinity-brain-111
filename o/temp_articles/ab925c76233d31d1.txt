@@ -1,0 +1,81 @@
+TERMS: crystal, boson
+COLORS: orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/S7CRcs5b7ZJv9/ZFQo+u4DYYU8o</id>
+  <title>arXiv Query: search_query=all:crystal AND all:boson&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T00:59:10Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:crystal+AND+all:boson&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>610</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2401.04843v4</id>
+    <title>Simulation of time crystal behavior for a few boson chiral soliton model in a ring</title>
+    <updated>2024-06-17T08:50:34Z</updated>
+    <link href="https://arxiv.org/abs/2401.04843v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.04843v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present numerical simulations for a chiral soliton model with N=2,3 bosons in a ring, this being a few-particle version of our previous mean-field model for a quantum time crystal. Following Syrwid, Kosior, and Sacha (SKS), the notion is that a precise position measurement of one particle can lead to spontaneous formation of a bright soliton that in a time crystal should rotate intact for at least a few revolutions around the ring. In their work SKS find spontaneous formation of a soliton due to the position measurement, but quantum fluctuations cause the soliton to subsequently decay before it has a chance to perform even one revolution of the ring. Based on this they conclude that time crystal dynamics are impossible. In contrast, for our few boson chiral soliton model, and allowing for imprecise (weak) measurements of the particle position, we show that time crystal behavior is possible allowing for several revolutions of the spontaneously formed soliton around the ring. We therefore argue that our chiral soliton model can realize a quantum time crystal when weak position measurements are allowed for.</summary>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-09T22:49:26Z</published>
+    <arxiv:comment>Updated version with added discussions, references and a new Fig. 9</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.quant-gas"/>
+    <author>
+      <name>Patrik Öhberg</name>
+    </author>
+    <author>
+      <name>Ewan M Wright</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1311.6076v4</id>
+    <title>K-theoretic boson-fermion correspondence and melting crystals</title>
+    <updated>2014-09-09T09:54:54Z</updated>
+    <link href="https://arxiv.org/abs/1311.6076v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1311.6076v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study non-Hermitian integrable fermion and boson systems from the perspectives of Grothendieck polynomials. The models considered in this article are the five-vertex model as a fermion system and the non-Hermitian phase model as a boson system. Both of the models are characterized by the different solutions satisfying the same Yang-Baxter relation. From our previous works on the identification between the wavefunctions of the five-vertex model and Grothendieck polynomials, we introduce skew Grothendieck polynomials, and derive the addition theorem among them. Using these relations, we derive the wavefunctions of the non-Hermitian phase model as a determinant form which can also be expressed as the Grothendieck polynomials. Namely, we establish a K-theoretic boson-fermion correspondence at the level of wavefunctions. As a by-product, the partition function of the statistical mechanical model of a 3D melting crystal is exactly calculated by use of the scalar products of the wavefunctions of the phase model. The resultant expression can be regarded as a K-theoretic generalization of the MacMahon function describing the generating function of the plane partitions, which interpolates the generating functions of two-dimensional and three-dimensional Young diagrams.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-11-24T03:51:26Z</published>
+    <arxiv:comment>v4, 31 pages, 14 figures</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <arxiv:journal_ref>J. Phys. A: Math. Theor. 47 (2014) 445202</arxiv:journal_ref>
+    <author>
+      <name>Kohei Motegi</name>
+    </author>
+    <author>
+      <name>Kazumitsu Sakai</name>
+    </author>
+    <arxiv:doi>10.1088/1751-8113/47/44/445202</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1751-8113/47/44/445202" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1301.2562v2</id>
+    <title>Bosonic Fields in Crystal Manyfolds</title>
+    <updated>2013-01-18T18:07:47Z</updated>
+    <link href="https://arxiv.org/abs/1301.2562v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1301.2562v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A chain-like or a 1D crystal-like universe made of intersecting membranes in extra dimensions in a Randall-Sundrum scenario is studied. A background gravitational metric satisfying the right boundary conditions is considered to study the localization of the scalar, gauge and Kalb-Ramond field. It is found that the wave function for the fields are Bloch waves. The mass modes equations are calculated allowing us to show the zero-gap mass behavior and the mass dispersion relation for each field. Finally we generalize all these results and consider $q-$forms in the crystal membrane universe. We show that, depending to the dimension $D$, the form $q$ and the dilation coupling $λ$ the mass spectrum can be the same for the different bosonic field studied.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-01-11T18:01:39Z</published>
+    <arxiv:comment>20 pages</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>G. Alencar</name>
+    </author>
+    <author>
+      <name>R. R. Landim</name>
+    </author>
+    <author>
+      <name>M. O. Tahim</name>
+    </author>
+    <author>
+      <name>R. N. Costa Filho</name>
+    </author>
+    <arxiv:doi>10.1016/j.physletb.2013.09.006</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physletb.2013.09.006" title="doi"/>
+  </entry>
+</feed>

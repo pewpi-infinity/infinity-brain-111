@@ -1,0 +1,98 @@
+TERMS: fusion, electron, spin
+COLORS: green, green, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/wYciH8v5RlfsarOFZTtwyALQMxA</id>
+  <title>arXiv Query: search_query=all:fusion AND all:electron AND all:spin&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:19:49Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:fusion+AND+(all:electron+AND+all:spin)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>58</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1407.6865v2</id>
+    <title>A critique of recent semi-classical spin-half quantum plasma theories</title>
+    <updated>2014-09-01T16:50:07Z</updated>
+    <link href="https://arxiv.org/abs/1407.6865v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1407.6865v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Certain recent semi-classical theories of spin-half quantum plasmas are examined with regard to their internal consistency, physical applicability and relevance to fusion, astrophysical and condensed matter plasmas. It is shown that the derivations and some of the results obtained in these theories are internally inconsistent and contradict well-established principles of quantum and statistical mechanics, especially in their treatment of fermions and spin. Claims of large semi-classical effects of spin magnetic moments that could dominate the plasma dynamics are found to be invalid both for single-particles and collectively. Larmor moments dominate at high temperature while spin moments cancel due to Pauli blocking at low temperatures. Explicit numerical estimates from a variety of plasmas are provided to demonstrate that spin effects are indeed much smaller than many neglected classical effects. The analysis presented suggests that the aforementioned `Spin Quantum Hydrodynamic' theories are not relevant to conventional laboratory or astrophysical plasmas.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.flu-dyn" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-07-25T12:17:11Z</published>
+    <arxiv:comment>11 pages, To appear in Contributions to Plasma Physics. Minor correction on page 3 to electron spin magnetic moment</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <arxiv:journal_ref>Contrib. Plasma Phys. 55, No. 1, 3 - 11 (2015)</arxiv:journal_ref>
+    <author>
+      <name>Govind S. Krishnaswami</name>
+    </author>
+    <author>
+      <name>Rajaram Nityananda</name>
+    </author>
+    <author>
+      <name>Abhijit Sen</name>
+    </author>
+    <author>
+      <name>Anantanarayanan Thyagaraja</name>
+    </author>
+    <arxiv:doi>10.1002/ctpp.201400043</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1002/ctpp.201400043" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.18548v1</id>
+    <title>Ultrafast dynamics of a spin-polarized electron plasma with magnetic ions</title>
+    <updated>2024-10-24T08:49:45Z</updated>
+    <link href="https://arxiv.org/abs/2410.18548v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.18548v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We construct a mean-field model that describes the nonlinear dynamics of a spin-polarized electron gas interacting with fixed, positively-charged ions possessing a magnetic moment that evolves in time. The mobile electrons are modeled by a four-component distribution function in the two-dimensional phase space $(x,v)$, obeying a Vlasov-Poisson set of equations. The ions are modeled by a Landau-Lifshitz equation for their spin density, which contains ion-ion and electron-ion magnetic exchange terms. We perform a linear response study of the coupled Vlasov-Poisson-Landau-Lifshitz (VPLL) equations for the case of a Maxwell-Boltzmann equilibrium, focussing in particular on the spin dispersion relation. Condition of stability or instability for the spin modes are identified, which depend essentially on the electron spin polarization rate $η$ and the electron-ion magnetic coupling constant $K$. We also develop an Eulerian grid-based computational code for the fully nonlinear VPLL equations, based on the geometric Hamiltonian method first developed in [N. Crouseilles et al. Journal of Plasma Physics, 89(2):905890215, 2023]. This technique allows us to achieve great accuracy for the conserved quantities, such as the modulus of the ion spin vector and the total energy. Numerical tests in the linear regime are in accordance with the estimations of the linear response theory. For two-stream equilibria, we study the interplay of instabilities occurring in both the charge and the spin sectors. The set of parameters used in the simulations, with densities close to those of solids ($\approx 10^{29} \rm m^{-3}$) and temperatures of the order of 10 eV, may be relevant to the warm dense matter regime appearing in some inertial fusion experiments.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-24T08:49:45Z</published>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <arxiv:journal_ref>J. Plasma Phys. 91 (2025) E9</arxiv:journal_ref>
+    <author>
+      <name>Benjamin Bakri</name>
+    </author>
+    <author>
+      <name>Nicolas Crouseilles</name>
+    </author>
+    <author>
+      <name>Paul-Antoine Hervieux</name>
+    </author>
+    <author>
+      <name>Xue Hong</name>
+    </author>
+    <author>
+      <name>Giovanni Manfredi</name>
+    </author>
+    <arxiv:doi>10.1017/S0022377824001594</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1017/S0022377824001594" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1712.08118v2</id>
+    <title>Electron spin polarization in realistic trajectories around the magnetic node of two counter-propagating, circularly polarized, ultra-intense lasers</title>
+    <updated>2018-04-13T17:08:04Z</updated>
+    <link href="https://arxiv.org/abs/1712.08118v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1712.08118v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>It has recently been suggested that two counter-propagating, circularly polarized, ultra-intense lasers can induce a strong electron spin polarization at the magnetic node of the electromagnetic field that they setup. We confirm these results by considering a more sophisticated description that integrates over realistic trajectories. The electron dynamics is weakly affected by the variation of power radiated due to the spin polarization. The degree of spin polarization differs by approximately 5\% if considering electrons initially at rest or already in a circular orbit. The instability of trajectories at the magnetic node induces a spin precession associated with the electron migration that establishes an upper temporal limit to the polarization of the electron population of about one laser period.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-12-21T17:54:30Z</published>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <arxiv:journal_ref>Plasma Physics and Controlled Fusion 60 (2018) 064003</arxiv:journal_ref>
+    <author>
+      <name>Dario Del Sorbo</name>
+    </author>
+    <author>
+      <name>Daniel Seipt</name>
+    </author>
+    <author>
+      <name>Alexander G. R. Thomas</name>
+    </author>
+    <author>
+      <name>Christopher P. Ridgres</name>
+    </author>
+    <arxiv:doi>10.1088/1361-6587/aab979</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1361-6587/aab979" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,56 @@
+TERMS: entropy, graphene, bandgap
+COLORS: red, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/J0urDbJcl9wRhFVOeU/rwOeeDVE</id>
+  <title>arXiv Query: search_query=all:entropy AND all:graphene AND all:bandgap&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:18:42Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+(all:graphene+AND+all:bandgap)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2210.00151v1</id>
+    <title>Entropy and Seebeck signals meet on the edges</title>
+    <updated>2022-10-01T00:18:31Z</updated>
+    <link href="https://arxiv.org/abs/2210.00151v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2210.00151v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We explore the electronic entropy per particle $s$ and Seebeck coefficient $\mathcal{S}$ in zigzag graphene ribbons. Pristine and edge-doped ribbons are considered using tight-binding models to inspect the role of edge states in the observed thermal transport properties. As a bandgap opens when the ribbons are doped at one or both edges, due to asymmetric edge potentials, we find that $s$ and $\mathcal{S}$ signals are closely related to each other: both develop sharp dip-peak lineshapes as the chemical potential lies in the gap, while the ratio $s/\mathcal{S}$ exhibits a near constant value equal to the elementary charge $e$ at low temperatures. This constant ratio suggests that $\mathcal{S}$ can be seen as the transport differential entropy per charge, as suggested by some authors. Our calculations also indicate that measurement of $s$ and $\mathcal{S}$ may be useful as a spectroscopic probe of different electronic energy scales involved in such quantities in gapped materials.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-10-01T00:18:31Z</published>
+    <arxiv:comment>6 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>Natalia Cortés</name>
+    </author>
+    <author>
+      <name>Patricio Vargas</name>
+    </author>
+    <author>
+      <name>S. E. Ulloa</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.107.075433</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.107.075433" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2112.09571v1</id>
+    <title>Electronic Properties of Various Graphene Quantum Dot Structures: an Ab Initio Study</title>
+    <updated>2021-12-17T15:25:36Z</updated>
+    <link href="https://arxiv.org/abs/2112.09571v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2112.09571v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Density functional theory (DFT) and thermal DFT (thDFT) calculations were used to evaluate the energy band structure, bandgap, and the total energy of various graphene quantum dots (GQDs). The DFT calculations were performed using local density approximation for the exchange-correlation functional and norm-conserving pseudopotentials. We consider the triangular and hexagonal GQDs with zigzag and armchair edges and 1-3 nm dimensions with many hundred atoms. The simulation results show that all of these GQDs are direct bandgap semiconductors with a flat band structure, and they are suitable for electronics and optoelectronics applications. Analysis of GQDs in which the A and B sublattice symmetries were broken showed degenerate zero-energy shells. Using the thDFT calculations carried out at temperatures up to 1400 K, we evaluated the temperature dependence of the GQDs bandgaps and total energies via entropy-term and electron kinetic energy. The obtained results indicate that the ground-state DFT calculations are valid for determining the electronic properties of GQDs up to room temperature. Moreover, we tune semi-empirical parameters of the tight-binding model by the DFT results in small GQDs to reduce the computational cost of electronic structure calculations for large GQDs, which contained up to thousands of atoms.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-12-17T15:25:36Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Majid Ghandchi</name>
+    </author>
+    <author>
+      <name>Ghafar Darvish</name>
+    </author>
+    <author>
+      <name>Mohammad Kazem Moravvej-Farshi</name>
+    </author>
+  </entry>
+</feed>

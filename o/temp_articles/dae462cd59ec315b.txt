@@ -1,0 +1,74 @@
+TERMS: lattice, entropy, vacuum
+COLORS: orange, red, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/6CUrva14Av42usQk8V2KFwXDAZk</id>
+  <title>arXiv Query: search_query=all:lattice AND all:entropy AND all:vacuum&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:13:31Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:entropy+AND+all:vacuum)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>68</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1312.0791v1</id>
+    <title>Spectral functions of charmonium from 2 flavour anisotropic lattice data</title>
+    <updated>2013-12-03T12:12:54Z</updated>
+    <link href="https://arxiv.org/abs/1312.0791v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1312.0791v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The spectral functions of QCD can give us insight into properties of hadrons, and they are useful in probing the QCD vacuum. I will discuss the correlators and spectral functions of charmonium in high temperature two flavour QCD. The spectral functions have been obtained using the Maximum Entropy Method from anisotropic lattice data using the conserved vector current. This work has been done as part of the FASTSUM collaboration. We find that the spectral functions for zero momentum are stable. At non-zero momentum the spectral functions are less stable but still produce resonance and transport peaks. This work is part of our programme to calculate the heavy quark diffusion constant.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-12-03T12:12:54Z</published>
+    <arxiv:comment>7 pages, 5 figures, 31st International Symposium on Lattice Field Theory LATTICE 2013</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Aoife Kelly</name>
+    </author>
+    <author>
+      <name>Jon-Ivar Skullerud</name>
+    </author>
+    <author>
+      <name>Chris Allton</name>
+    </author>
+    <author>
+      <name>Dhagash Mehta</name>
+    </author>
+    <author>
+      <name>Mehmet B. Oktay</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1311.1012v2</id>
+    <title>Measuring the entropy from shifted boundary conditions</title>
+    <updated>2013-11-14T09:55:26Z</updated>
+    <link href="https://arxiv.org/abs/1311.1012v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1311.1012v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We explore a new computational strategy for determining the equation of state of the SU(3) Yang-Mills theory. By imposing shifted boundary conditions, the entropy density is computed from the vacuum expectation value of the off-diagonal components T_{0k} of the energy-momentum tensor. A step-scaling function is introduced to span a wide range in temperature values. We present preliminary numerical results for the entropy density and its step-scaling function obtained at eight temperature values in the range T_c - 15 T_c. At each temperature, discretization effects are removed by simulating the theory at several lattice spacings and by extrapolating the results to the continuum limit. Finite-size effects are always kept below the statistical errors. The absence of ultraviolet power divergences and the remarkably small discretization effects allow for a precise determination of the step-scaling function in the explored temperature range. These findings establish this strategy as a viable solution for an accurate determination of the equation of state in a wide range of temperature values.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-11-05T11:04:56Z</published>
+    <arxiv:comment>7 pages, 3 figures. Extended temperature range in figure 3. Poster presented at the 31st International Symposium on Lattice Field Theory - Lattice 2013, Mainz, Germany</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Leonardo Giusti</name>
+    </author>
+    <author>
+      <name>Michele Pepe</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-th/9709169v1</id>
+    <title>Vacuum-Bounded States and the Entropy of Black Hole Evaporation</title>
+    <updated>1997-09-23T18:35:04Z</updated>
+    <link href="https://arxiv.org/abs/hep-th/9709169v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-th/9709169v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We call a state ``vacuum bounded'' if every measurement performed outside a specified interior region gives the same result as in the vacuum. We compute the maximum entropy of a vacuum-bounded state with a given energy for a one-dimensional model, with the aid of numerical calculations on a lattice. For large energies we show that a vacuum-bounded system with length $L_in$ and a given energy has entropy no more than $S^rb + (1/6) \ln S^rb$, where $S^rb$ is the entropy in a rigid box with the same size and energy. Assuming that the state resulting from the evaporation of a black hole is similar to a vacuum-bounded state, and that the similarity between vacuum-bounded and rigid box problems extends from 1 to 3 dimensions, we apply these results to the black hole information paradox. Under these assumptions we conclude that large amounts of information cannot be emitted in the final explosion of a black hole.
+  We also consider vacuum-bounded states at very low energies and come to the surprising conclusion that the entropy of such a state can be much higher than that of a rigid box state with the same energy. For a fixed $E$ we let $L_in'$ be the length of a rigid box which gives the same entropy as a vacuum-bounded state of length $L_in$. In the $E\to 0$ limit we conjecture that the ratio $L_in'/L_in$ grows without bound and support this conjecture with numerical computations.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1997-09-23T18:35:04Z</published>
+    <arxiv:comment>MIT thesis. 79 pages. LaTex with MIT thesis style (included). 11 figures with epsf. Most of this material (but not chapter 2) has previously appeared in somewhat different form in hep-th/9710086 and hep-th/9709041</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Ken D. Olum</name>
+    </author>
+  </entry>
+</feed>

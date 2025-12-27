@@ -1,0 +1,87 @@
+TERMS: entropy, spin, singularity
+COLORS: red, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/71lB7lx7Nj81p4zOwEC09yvcGKg</id>
+  <title>arXiv Query: search_query=all:entropy AND all:spin AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:18:24Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+(all:spin+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>122</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1302.1583v2</id>
+    <title>An Entropy Formula for Higher Spin Black Holes via Conical Singularities</title>
+    <updated>2013-03-19T07:23:54Z</updated>
+    <link href="https://arxiv.org/abs/1302.1583v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1302.1583v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the entropy of higher spin black holes in 2+1 dimensions using the conical singularity approach. By introducing a conical singularity along a non contractible cycle and carefully evaluating its contribution to the Chern Simons action, we derive a simple expression for the entropy of a general stationary higher spin black hole. The resulting formula is shown to satisfy the first law of thermodynamics, and yields agreement with previous results based on integrating the first law.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-02-06T21:00:11Z</published>
+    <arxiv:comment>18 pages, typos corrected</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Per Kraus</name>
+    </author>
+    <author>
+      <name>Tomonori Ugajin</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP05(2013)160</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP05(2013)160" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1008.3892v3</id>
+    <title>Essential singularity in the Renyi entanglement entropy of the one-dimensional XYZ spin-1/2 chain</title>
+    <updated>2011-01-22T17:17:29Z</updated>
+    <link href="https://arxiv.org/abs/1008.3892v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1008.3892v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the Renyi entropy of the one-dimensional XYZ spin-1/2 chain in the entirety of its phase diagram. The model has several quantum critical lines corresponding to rotated XXZ chains in their paramagnetic phase, and four tri-critical points where these phases join. Two of these points are described by a conformal field theory and close to them the entropy scales as the logarithm of its mass gap. The other two points are not conformal and the entropy has a peculiar singular behavior in their neighbors, characteristic of an essential singularity. At these non-conformal points the model undergoes a discontinuous transition, with a level crossing in the ground state and a quadratic excitation spectrum. We propose the entropy as an efficient tool to determine the discontinuous or continuous nature of a phase transition also in more complicated models.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-08-23T19:23:29Z</published>
+    <arxiv:comment>5 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <arxiv:journal_ref>Phys.Rev.B83:012402,2011</arxiv:journal_ref>
+    <author>
+      <name>Elisa Ercolessi</name>
+    </author>
+    <author>
+      <name>Stefano Evangelisti</name>
+    </author>
+    <author>
+      <name>Fabio Franchini</name>
+    </author>
+    <author>
+      <name>Francesco Ravanini</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.83.012402</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.83.012402" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2501.17368v4</id>
+    <title>Singularity and universality from von Neumann to Rényi entanglement entropy and disorder operator in Motzkin chains</title>
+    <updated>2025-02-18T13:44:36Z</updated>
+    <link href="https://arxiv.org/abs/2501.17368v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2501.17368v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Rényi entanglement entropy is widely used in studying quantum entanglement properties in strongly correlated systems, whose analytic continuation as the Rényi index $n \to 1$ is often believed to yield the von Neumann entanglement entropy. However, earlier findings indicate that this process exhibits a singularity for the colored Motzkin spin chain problem, leading to different scaling behaviors of $\sim \sqrt{l}$ and $\sim \log{l}$ for the von Neumann and Rényi entropies, respectively. Our analytical and numerical calculations confirm this transition, which can be explained by the exponentially increasing density of states in the entanglement spectrum that we extract numerically. Disorder operators are further employed under various symmetries to study such a system. Both analytical and numerical results demonstrate that the scaling of the disorder operators also follows $\log{l}$ as the leading behavior, matching that of the Rényi entropy. We propose that the coefficient of the term $\log{l}$ is a universal constant shared by both the Rényi entropies and disorder operators. This universal constant could potentially help capture the underlying constraint physics of Motzkin walks.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-01-29T01:33:07Z</published>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <author>
+      <name>Jianyu Wang</name>
+    </author>
+    <author>
+      <name>Zenan Liu</name>
+    </author>
+    <author>
+      <name>Zheng Yan</name>
+    </author>
+    <author>
+      <name>Congjun Wu</name>
+    </author>
+  </entry>
+</feed>

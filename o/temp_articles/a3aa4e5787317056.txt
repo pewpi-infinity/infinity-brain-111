@@ -1,0 +1,79 @@
+TERMS: muon, neutrino, vacuum
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/9alwmnSU11cclONuUaK8/9VZ8Tg</id>
+  <title>arXiv Query: search_query=all:muon AND all:neutrino AND all:vacuum&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:36:28Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:muon+AND+(all:neutrino+AND+all:vacuum)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>111</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2507.16891v1</id>
+    <title>Vacuum muon decay and interaction with laser pulses</title>
+    <updated>2025-07-22T18:00:01Z</updated>
+    <link href="https://arxiv.org/abs/2507.16891v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.16891v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Muons decay in vacuum mainly via the leptonic channel to an electron, an electron neutrino and a muon antineutrino. Previous investigations have concluded that muon decay can only be significantly altered in a strong electromagnetic field when the muonic strong-field parameter is of order unity, which is far beyond the reach of lab-based experiments at current and planned facilities. In this letter, an alternative mechanism is presented in which a laser pulse affects the vacuum decay rate of a muon outside the pulse. Quantum interference between the muon decaying with or without interacting with the pulse generates fringes in the electron momentum spectra and can increase the muon lifetime by up to a factor 2. The required parameters to observe this effect are available in experiments today.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-22T18:00:01Z</published>
+    <arxiv:comment>10 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>B. King</name>
+    </author>
+    <author>
+      <name>D. Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1207.6860v1</id>
+    <title>Measurement of CNGS muon neutrino speed with Borexino</title>
+    <updated>2012-07-30T08:05:17Z</updated>
+    <link href="https://arxiv.org/abs/1207.6860v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1207.6860v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We have measured the speed of muon neutrinos with the Borexino detector using short-bunch CNGS beams. The final result for the difference in time-of-flight between a &lt;E&gt;=17 GeV muon neutrino and a particle moving at the speed of light in vacuum is δt = 0.8 \pm 0.7stat \pm 2.9sys ns, well consistent with zero.</summary>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-07-30T08:05:17Z</published>
+    <arxiv:comment>6 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-ex"/>
+    <author>
+      <name> Borexino Collaboration</name>
+    </author>
+    <arxiv:doi>10.1016/j.physletb.2012.08.052</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physletb.2012.08.052" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/0010308v1</id>
+    <title>The flavor of neutrinos in muon decays at a neutrino factory and the LSND puzzle</title>
+    <updated>2000-10-26T17:39:17Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/0010308v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/0010308v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The accurate prediction of the neutrino beam produced in muon decays and the absence of opposite helicity contamination for a particular neutrino flavor make a future neutrino factory the ideal place to look for the lepton flavor violating (LFV) decays of the kind $μ^+\ra e^+\nuebar\numu$ and lepton number violating (LNV) processes like $μ^-\ra e^-\nue\numu$. Excellent sensitivities can be achieved using a detector capable of muon and/or electron identification with charge discrimination. This would allow to set experimental limits that improve current ones by more than two orders of magnitude and test the hypothesis that the LSND excess is due to such anomalous decays, rather than neutrino flavor oscillations in vacuum.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2000-10-26T17:39:17Z</published>
+    <arxiv:comment>19 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>JHEP 0106:032,2001</arxiv:journal_ref>
+    <author>
+      <name>A. Bueno</name>
+    </author>
+    <author>
+      <name>M. Campanelli</name>
+    </author>
+    <author>
+      <name>M. Laveder</name>
+    </author>
+    <author>
+      <name>J. Rico</name>
+    </author>
+    <author>
+      <name>A. Rubbia</name>
+    </author>
+    <arxiv:doi>10.1088/1126-6708/2001/06/032</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1126-6708/2001/06/032" title="doi"/>
+  </entry>
+</feed>

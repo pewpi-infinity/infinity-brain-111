@@ -1,0 +1,229 @@
+/* ===== Infinity Global Styles ===== */
+:root {
+  --bg: radial-gradient(circle at top, #0f172a 0%, #020617 50%, #000 100%);
+  --panel: rgba(15,23,42,.4);
+  --border: rgba(148,163,184,.12);
+  --accent: #0ea5e9;
+  --text: #e2e8f0;
+  --muted: rgba(226,232,240,.55);
+  --radius: .75rem;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  font-family: inherit;
+}
+
+/* ===== Topbar / Header ===== */
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .55rem .6rem;
+  border-bottom: 1px solid rgba(148,163,184,.03);
+  background: rgba(2,6,23,.45);
+  backdrop-filter: blur(5px);
+}
+
+.brand {
+  font-weight: 600;
+  font-size: .7rem;
+}
+
+/* ===== Auth Screen ===== */
+.center-screen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+.auth-box {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 1rem;
+  padding: .7rem .7rem .9rem;
+  width: min(420px, 100%);
+}
+
+.auth-box h1 {
+  margin: 0 0 .3rem;
+  font-size: 1rem;
+}
+
+.auth-box p {
+  margin: 0 0 .4rem;
+  font-size: .58rem;
+  color: var(--muted);
+}
+
+label {
+  display: block;
+  font-size: .6rem;
+  margin-top: .35rem;
+  margin-bottom: .12rem;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  background: rgba(2,6,23,.4);
+  border: 1px solid rgba(148,163,184,.25);
+  border-radius: .45rem;
+  padding: .3rem .45rem;
+  color: #fff;
+  font-size: .65rem;
+}
+
+textarea {
+  min-height: 80px;
+  resize: vertical;
+}
+
+/* ===== Buttons ===== */
+.btn {
+  background: var(--accent);
+  border: none;
+  border-radius: .45rem;
+  padding: .35rem .72rem;
+  font-size: .6rem;
+  font-weight: 500;
+  margin-top: .5rem;
+  color: #020617;
+  cursor: pointer;
+}
+
+.btn.secondary {
+  background: transparent;
+  border: 1px solid rgba(148,163,184,.35);
+  color: #fff;
+  margin-left: .35rem;
+}
+
+/* ===== Layout / Cards ===== */
+.layout {
+  padding: .6rem .6rem 1rem;
+  display: grid;
+  gap: .6rem;
+}
+
+.card {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: .6rem .65rem .7rem;
+}
+
+.muted {
+  color: var(--muted);
+  font-size: .58rem;
+}
+
+.badge {
+  display: inline-block;
+  background: rgba(14,165,233,.15);
+  border: 1px solid rgba(14,165,233,.5);
+  border-radius: .4rem;
+  padding: .25rem .5rem;
+  font-size: .6rem;
+  margin-top: .4rem;
+}
+
+/* ===== Grids & Tiles ===== */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+  gap: .4rem;
+  margin-top: .4rem;
+}
+
+.tile,
+a.tile {
+  background: rgba(2,6,23,.25);
+  border: 1px solid rgba(148,163,184,.05);
+  border-radius: .5rem;
+  padding: .35rem .45rem;
+  font-size: .58rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ===== History / Lists ===== */
+.history {
+  background: rgba(2,6,23,.25);
+  border: 1px solid rgba(148,163,184,.04);
+  border-radius: .5rem;
+  padding: .35rem;
+  font-size: .53rem;
+  max-height: 140px;
+  overflow: auto;
+  margin-top: .4rem;
+  line-height: 1.25;
+}
+
+/* ===== Chat (Rogers) ===== */
+.chat-shell {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 3rem);
+}
+
+.chat-log {
+  flex: 1;
+  overflow: auto;
+  background: rgba(2,6,23,.25);
+  border: 1px solid rgba(148,163,184,.04);
+  border-radius: .5rem;
+  padding: .4rem;
+}
+
+.chat-msg {
+  margin-bottom: .35rem;
+  font-size: .58rem;
+}
+
+.chat-msg.me {
+  text-align: right;
+}
+
+.chat-input {
+  display: flex;
+  gap: .4rem;
+  margin-top: .4rem;
+}
+
+/* ===== Radio / Player extras (used in radio.html) ===== */
+.progress {
+  height: 4px;
+  background: rgba(148,163,184,.13);
+  border-radius: 9999px;
+  overflow: hidden;
+  margin-top: .45rem;
+}
+
+.progress-inner {
+  height: 100%;
+  width: 0%;
+  background: #0ea5e9;
+}
+
+/* ===== Footer ===== */
+#infinity-footer {
+  padding-bottom: .6rem;
+}
+
+@media (min-width: 820px) {
+  .layout.two-col {
+    grid-template-columns: 1.2fr .8fr;
+  }
+}

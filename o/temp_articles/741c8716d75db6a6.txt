@@ -1,0 +1,78 @@
+TERMS: hydrogen, quantum, lattice, vacuum
+COLORS: purple, blue, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/WKpFUimPB7+j2skxckv8l5qX4eg</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:lattice AND all:vacuum&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:38:18Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:lattice+AND+all:vacuum))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>4</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2002.10114v1</id>
+    <title>Ground State Energy of Hydrogen-Like Ions in Quantum Plasmas</title>
+    <updated>2020-02-24T08:25:29Z</updated>
+    <link href="https://arxiv.org/abs/2002.10114v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2002.10114v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Using the asymptotic iteration method (AIM) we investigate the variation in the 1s energy levels of hydrogen and helium-like static ions in fully degenerate electron gas. The semiclassical Thomas-Fermi (TF), Shukla-Eliasson (SE) and corrected Shukla-Eliasson (cSE) models are compared. It is remarked that these models merge into the vacuum level for hydrogen and helium-like ions in the dilute classical electron gas regime. While in the TF model hydrogen ground state level lifts monotonically towards the continuum limit with increase in the electron concentration, in the SE and cSE models universal bound stabilization valley through the energy minimization occurs at a particular electron concentration range for the hydrogen-like ion which for cSE model closely matches the electron concentrations in typical metals. The later stabilizing mechanism appears to be due to the interaction between plasmon excitations and the Fermi lengthscales in metallic density regime. In the case of helium-like ions, however, no such stability mechanism is found. The application of cSE model with electron exchange and correlation effects reveals that cSE model qualitatively accounts for the number-density and lattice parameters of elemental metals within the framework of free electron assumption. According to the cSE model of static charge screening a simple metal-insulator transition criterion is defined. Current investigation may further elucidate the underlying physical mechanisms in the formation and dielectric properties of metallic compounds.</summary>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-02-24T08:25:29Z</published>
+    <arxiv:primary_category term="cond-mat.quant-gas"/>
+    <author>
+      <name>M. Akbari-Moghanjoughi</name>
+    </author>
+    <author>
+      <name>Alireza Abdikian</name>
+    </author>
+    <author>
+      <name>Arash Phirouznia</name>
+    </author>
+    <arxiv:doi>10.1063/5.0004857</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/5.0004857" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1808.06784v3</id>
+    <title>Zeta-regularized vacuum expectation values</title>
+    <updated>2019-08-15T15:30:22Z</updated>
+    <link href="https://arxiv.org/abs/1808.06784v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1808.06784v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>It has recently been shown that vacuum expectation values and Feynman path integrals can be regularized using Fourier integral operator $ζ$-function, yet the physical meaning of these $ζ$-regularized objects was unknown.
+  Here we show that $ζ$-regularized vacuum expectations appear as continuum limits using a certain discretization scheme. Furthermore, we study the rate of convergence for the discretization scheme using the example of a one-dimensional hydrogen atom in $(-π,π)$ which we evaluate classically, using the Rigetti Quantum Virtual Machine, and on the Rigetti 8Q quantum chip "Agave" device. We also provide the free radiation field as an example for the computation of $ζ$-regularized vacuum expectation values in a gauge theory.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-08-21T06:55:36Z</published>
+    <arxiv:comment>36 pages, 2 figures; accepted version (Journal of Mathematical Physics)</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Tobias Hartung</name>
+    </author>
+    <author>
+      <name>Karl Jansen</name>
+    </author>
+    <arxiv:doi>10.1063/1.5085866</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/1.5085866" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2307.03188v2</id>
+    <title>Simulating Nelsonian Quantum Field Theory</title>
+    <updated>2024-01-13T20:47:33Z</updated>
+    <link href="https://arxiv.org/abs/2307.03188v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2307.03188v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We describe the picture of physical processes suggested by Edward Nelson's stochastic mechanics when generalized to quantum field theory regularized on a lattice, after an introductory review of his theory applied to the hydrogen atom. By performing numerical simulations of the relevant stochastic processes, we observe that Nelson's theory provides a means of generating typical field configurations for any given quantum state. In particular, an intuitive picture is given of the field ``beable'' -- to use a phrase of John Stewart Bell -- corresponding to the Fock vacuum, and an explanation is suggested for how particle-like features can be exhibited by excited states. We then argue that the picture looks qualitatively similar when generalized to interacting scalar field theory. Lastly, we compare the Nelsonian framework to various other proposed ontologies for QFT, and remark upon their relative merits in light of the effective field theory paradigm. Links to animations of the corresponding beables are provided throughout.</summary>
+    <category term="physics.hist-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-07-06T17:58:47Z</published>
+    <arxiv:comment>24 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.hist-ph"/>
+    <author>
+      <name>Andrea Carosso</name>
+    </author>
+    <arxiv:doi>10.1007/s10701-024-00766-6</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s10701-024-00766-6" title="doi"/>
+  </entry>
+</feed>

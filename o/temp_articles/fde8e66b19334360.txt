@@ -1,0 +1,52 @@
+TERMS: entropy, ionization, vacuum
+COLORS: red, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/5Ck/KivH33bCZtIl8C7U9h/W9jQ</id>
+  <title>arXiv Query: search_query=all:entropy AND all:ionization AND all:vacuum&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:17:58Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+(all:ionization+AND+all:vacuum)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2312.02292v16</id>
+    <title>Thermodynamics and decay of de Sitter vacuum</title>
+    <updated>2024-06-21T17:40:23Z</updated>
+    <link href="https://arxiv.org/abs/2312.02292v16" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.02292v16" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We discuss the consequences of unique symmetry of de Sitter spacetime, which is invariant under the modified translations, ${\bf r}\rightarrow {\bf r} -e^{Ht}{\bf a}$, where $H$ is the Hubble parameter. Due to this symmetry, all the comoving observers at any point of the de Sitter space perceive the de Sitter environment as the thermal bath with temperature $T=H/π$, which is twice larger than the Gibbons-Hawking temperature of the cosmological horizon. This leads to the heat exchange between gravity and matter, and to instability of de Sitter state towards the creation of matter, its further heating, and finally to the decay of the de Sitter state. The temperature $T=H/π$ determines different processes in the de Sitter environment, which are not possible in Minkowski vacuum, such as the process of ionization of an atom. This temperature also determines the local entropy of the de Sitter vacuum state, and this allows us to calculate the total entropy inside the cosmological horizon. The result reproduces the Gibbons-Hawking area law, which is related to the cosmological horizon, $S_{\rm hor}=4πKA$, where $K=1/(16πG)$. This supports the holographic properties of the cosmological event horizon. We extend the consideration of the local thermodynamics of the de Sitter state using the $f({\cal R})$ gravity. In this thermodynamics, the Ricci scalar curvature ${\cal R}$ and the effective gravitational coupling $K$ are thermodynamically conjugate variables. The holographic connection between the bulk entropy of the Hubble volume and the surface entropy of the cosmological horizon remains the same. Such connection takes place only in the $3+1$ spacetime, where there is the special symmetry due to which the variables $K$ and ${\cal R}$ have the same dimensionality. We also consider the lessons from the de Sitter symmetry for the thermodynamics of black and white holes.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-04T19:13:35Z</published>
+    <arxiv:comment>33 pages, published in Symmetry. The short version arXiv:2312.02292v8, "de Sitter local thermodynamics in f(R) gravity", was published in JETP Letters DOI: 10.1134/S0021364024600526</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Symmetry 16, 763 (2024)</arxiv:journal_ref>
+    <author>
+      <name>G. E. Volovik</name>
+    </author>
+    <arxiv:doi>10.3390/sym16060763</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/sym16060763" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1706.03391v2</id>
+    <title>Insights into neutrino decoupling gleaned from considerations of the role of electron mass</title>
+    <updated>2017-09-12T22:48:35Z</updated>
+    <link href="https://arxiv.org/abs/1706.03391v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1706.03391v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present calculations showing how electron rest mass influences entropy flow, neutrino decoupling, and Big Bang Nucleosynthesis (BBN) in the early universe. To elucidate this physics and especially the sensitivity of BBN and related epochs to electron mass, we consider a parameter space of rest mass values larger and smaller than the accepted vacuum value. Electromagnetic equilibrium, coupled with the high entropy of the early universe, guarantees that significant numbers of electron-positron pairs are present, and dominate over the number of ionization electrons to temperatures much lower than the vacuum electron rest mass. Scattering between the electrons-positrons and the neutrinos largely controls the flow of entropy from the plasma into the neutrino seas. Moreover, the number density of electron-positron-pair targets can be exponentially sensitive to the effective in-medium electron mass. This entropy flow influences the phasing of scale factor and temperature, the charged current weak-interaction-determined neutron-to-proton ratio, and the spectral distortions in the relic neutrino energy spectra. Our calculations show the sensitivity of the physics of this epoch to three separate effects: finite electron mass, finite-temperature quantum electrodynamic (QED) effects on the plasma equation of state, and Boltzmann neutrino energy transport. The ratio of neutrino to plasma component energy scales manifests in Cosmic Microwave Background (CMB) observables, namely the baryon density and the radiation energy density, along with the primordial helium and deuterium abundances. Our results demonstrate how the treatment of in-medium electron mass (i.e., QED effects) could translate into an important source of uncertainty in extracting neutrino and beyond-standard-model physics limits from future high-precision CMB data.</summary>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-06-11T19:28:29Z</published>
+    <arxiv:comment>32 pages, 8 figures, 1 table. Version accepted by Nuclear Physics B</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.CO"/>
+    <author>
+      <name>E. Grohs</name>
+    </author>
+    <author>
+      <name>George M. Fuller</name>
+    </author>
+    <arxiv:doi>10.1016/j.nuclphysb.2017.07.019</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.nuclphysb.2017.07.019" title="doi"/>
+  </entry>
+</feed>

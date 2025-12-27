@@ -1,0 +1,65 @@
+TERMS: quantum, tachyon, muon
+COLORS: blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/7m/TyhcJWvBZ1wx5MCQw3pugBPc</id>
+  <title>arXiv Query: search_query=all:quantum AND all:tachyon AND all:muon&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:08:48Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:tachyon+AND+all:muon)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1208.5484v2</id>
+    <title>Inverted effective SUSY with combined Z' and gravity mediation, and muon anomalous magnetic moment</title>
+    <updated>2012-09-23T20:08:27Z</updated>
+    <link href="https://arxiv.org/abs/1208.5484v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1208.5484v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Effective supersymmetry(SUSY) where stop is the lightest squark may run into a two-loop tachyonic problem in some Z' mediation models. In addition, a large A term or/and a large stop mass are needed to have about a 126 GeV Higgs boson with three families of quarks and leptons. Thus, we suggest an inverted effective SUSY(IeffSUSY) where stop mass is larger compared to those of the first two families. In this case, it is possible to have a significant correction to the anomalous magnetic moment of muon. A three family IeffSUSY in a Z' mediation scenario is explicitly studied with the Z' quantum number related to B-L. Here, we adopt both the Z' mediation and gravity mediation where the Z' mediation is the dominant one for stop, while the gravity mediation is the dominant one for the muonic leptons and Higgs multiplets. We present a numerical study based on a specific anomaly free model, and show the existence of the parameter region where all the phenomenological conditions are satisfied.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-08-27T20:00:02Z</published>
+    <arxiv:comment>10 pages with 5 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Jihn E. Kim</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.87.015004</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.87.015004" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1109.5172v2</id>
+    <title>OPERA-reassessing data on the energy dependence of the speed of neutrinos</title>
+    <updated>2011-09-27T19:56:34Z</updated>
+    <link href="https://arxiv.org/abs/1109.5172v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1109.5172v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We offer a preliminary exploration of the two sides of the challenge provided by the recent OPERA data on superluminal neutrinos. On one side we stress that some aspects of this result are puzzling even from the perspective of the wild quantum-gravity literature, where arguments in favor of the possibility of superluminal propagation have been presented, but not considering the possibility of such a sizeable effect for neutrinos of such low energies. We feel this must encourage particularly severe scrutiny of the OPERA result. On the other side, we notice that the OPERA result is reasonably consistent with $μ$-neutrino-speed data previously obtained at FERMILAB, reported in papers of 2007 and 1979. And it is intriguing that these FERMILAB79 and FERMILAB07 results, when combined with the new OPERA result, in principle provide a window on $μ$-neutrino speeds at different energies broad enough to compare alternative phenomenological models. We test the discriminating power of such an approach by using as illustrative examples the case of special-relativistic tachyons, the case of "Coleman-Glashow-type" momentum-independent violations of the special-relativistic speed law, and the cases of linear and quadratic energy dependence of the speed of ultrarelativistic muon neutrinos. Even just using $μ$-neutrino data in the range from $\sim$ 3 GeVs to $\sim$ 200 GeVs the special-relativistic tachyon and the quadratic-dependence case are clearly disfavoured. The linear-dependence case gives a marginally consistent picture and the Coleman-Glashow scenario fits robustly the data. We also comment on Supernova 1987a and its relevance for consideration of other neutrino species, also in relation with some scenarios that appeared in the large-extra-dimension literature.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-09-23T19:58:06Z</published>
+    <arxiv:comment>some references added; figs.1 and 2 redrawn for better visibility of the effects of bias1979; some sentences which had been written a bit too "densely" in V1 are now more readable in this V2</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Int. J. Mod. Phys. D 20 (2011) 2623-2640</arxiv:journal_ref>
+    <author>
+      <name>Giovanni Amelino-Camelia</name>
+    </author>
+    <author>
+      <name>Giulia Gubitosi</name>
+    </author>
+    <author>
+      <name>Niccoló Loret</name>
+    </author>
+    <author>
+      <name>Flavio Mercati</name>
+    </author>
+    <author>
+      <name>Giacomo Rosati</name>
+    </author>
+    <author>
+      <name>Paolo Lipari</name>
+    </author>
+    <arxiv:doi>10.1142/S0218271811020780</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/S0218271811020780" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,64 @@
+:root {
+  --bg: radial-gradient(circle at top, #0f172a 0%, #020617 50%, #000 100%);
+  --panel: rgba(2,6,23,.55);
+  --border: rgba(148,163,184,.2);
+  --accent: #0ea5e9;
+  --text: #e2e8f0;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+}
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5rem .75rem;
+  border-bottom: 1px solid rgba(148,163,184,.05);
+}
+.brand { font-weight: 600; font-size: .75rem; }
+#loginBtn {
+  background: var(--accent);
+  border: none;
+  border-radius: .4rem;
+  padding: .25rem .55rem;
+  font-size: .6rem;
+}
+.grid {
+  padding: .7rem .75rem 1.5rem;
+  display: grid;
+  gap: .6rem;
+}
+.card {
+  background: var(--panel);
+  border: 1px solid rgba(148,163,184,.05);
+  border-radius: .7rem;
+  padding: .5rem .55rem .6rem;
+}
+.tiles {
+  display: flex;
+  gap: .4rem;
+  flex-wrap: wrap;
+  margin-top: .4rem;
+}
+.tile {
+  background: rgba(15,23,42,.3);
+  border: 1px solid rgba(148,163,184,.08);
+  border-radius: .5rem;
+  color: #fff;
+  font-size: .6rem;
+  padding: .35rem .55rem;
+}
+pre {
+  background: rgba(2,6,23,.35);
+  border: 1px solid rgba(148,163,184,.05);
+  border-radius: .5rem;
+  padding: .4rem;
+  font-size: .55rem;
+  white-space: pre-wrap;
+  word-break: break-word;
+  min-height: 120px;
+}

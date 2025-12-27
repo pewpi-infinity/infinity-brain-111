@@ -1,0 +1,41 @@
+TERMS: neutrino, plasma, singularity
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/1AlDHARlJZ0QTeyS33BBfAvTcxM</id>
+  <title>arXiv Query: search_query=all:neutrino AND all:plasma AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:37:05Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:neutrino+AND+(all:plasma+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/astro-ph/9904231v2</id>
+    <title>The General Primordial Cosmic Perturbation</title>
+    <updated>2000-03-01T17:43:10Z</updated>
+    <link href="https://arxiv.org/abs/astro-ph/9904231v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/astro-ph/9904231v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We consider the most general primordial cosmological perturbation in a universe filled with photons, baryons, neutrinos, and a hypothetical cold dark matter (CDM) component within the framework of linearized perturbation theory. We give a careful discussion of the different allowed modes, distinguishing modes which are regular at early times, singular at early times, or pure gauge. As well as the familiar growing and decaying adiabatic modes and the baryonic and CDM isocurvature modes we identify two {\it neutrino isocurvature} modes which do not seem to have been discussed before. In the first, the ratio of neutrinos to photons varies spatially but the net density perturbation vanishes. In the second the photon-baryon plasma and the neutrino fluid have a spatially varying relative bulk velocity, balanced so that the net momentum density vanishes. Possible mechanisms which could generate the two neutrino isocurvature modes are discussed. If one allows the most general regular primordial perturbation, all quadratic correlators of observables such as the microwave background anisotropy and matter perturbations are completely determined by a $5\times 5,$ real, symmetric matrix-valued function of co-moving wavenumber. In a companion paper we examine prospects for detecting or constraining the amplitudes of the most general allowed regular perturbations using present and future CMB data.</summary>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1999-04-18T21:26:46Z</published>
+    <arxiv:comment>18 pages, 2 Postscript figures, uses revtex. Revised 2-2000 Minor errors corrected and some references added</arxiv:comment>
+    <arxiv:primary_category term="astro-ph"/>
+    <arxiv:journal_ref>Phys.Rev. D62 (2000) 083508</arxiv:journal_ref>
+    <author>
+      <name>M. Bucher</name>
+      <arxiv:affiliation>DAMTP, U. of Cambridge</arxiv:affiliation>
+    </author>
+    <author>
+      <name>K. Moodley</name>
+      <arxiv:affiliation>DAMTP, U. of Cambridge</arxiv:affiliation>
+    </author>
+    <author>
+      <name>N. Turok</name>
+      <arxiv:affiliation>DAMTP, U. of Cambridge</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.62.083508</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.62.083508" title="doi"/>
+  </entry>
+</feed>

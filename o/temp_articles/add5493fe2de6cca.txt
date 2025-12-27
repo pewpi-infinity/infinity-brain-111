@@ -1,0 +1,78 @@
+TERMS: wavefunction, boson
+COLORS: yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/qBcyaV4PJitu2KYlu7cgKjX/tH8</id>
+  <title>arXiv Query: search_query=all:wavefunction AND all:boson&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T00:59:58Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:wavefunction+AND+all:boson&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>511</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2507.04134v1</id>
+    <title>Revealing Bosonic Exchange Symmetry in Two-Photon Temporal Wavefunction</title>
+    <updated>2025-07-05T19:08:46Z</updated>
+    <link href="https://arxiv.org/abs/2507.04134v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.04134v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The wavefunction of two identical bosons remains invariant under particle exchange - a fundamental quantum symmetry that underlies Bose-Einstein statistics. We report the direct experimental observation of bosonic exchange symmetry in the temporal wavefunction of photon pairs generated via spontaneous four-wave mixing in a three-level cold atomic ensemble. The measured two-photon temporal correlations show excellent agreement with theoretical predictions based on symmetrized bosonic wavefunctions. In addition, we perform time-resolved two-photon interference to reconstruct the complex temporal wavefunction. Both the amplitude and phase profiles exhibit clear symmetry under photon exchange, providing a direct confirmation of bosonic exchange symmetry in the time domain.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-05T19:08:46Z</published>
+    <arxiv:comment>5 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Yefeng Mei</name>
+    </author>
+    <author>
+      <name>Yue Jiang</name>
+    </author>
+    <author>
+      <name>Shengwang Du</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-th/9309032v1</id>
+    <title>Motion of Wavefunction Zeros in Spin-Boson Systems</title>
+    <updated>1993-09-06T15:57:00Z</updated>
+    <link href="https://arxiv.org/abs/hep-th/9309032v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-th/9309032v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In the analytic-Bargmann representation associated with the harmonic oscillator and spin coherent states, the wavefunction as entire complex functions can be factorized in terms of their zeros in a unique way. The Schrödinger equation of motion for the wavefunction is turned to a system of equations for its zeros. The motion of these zeros as a non-linear flow of points is studied and interpreted for linear and non-linear bosonic and spin Hamiltonians. Attention is given to the study of the zeros of the Jaynes-Cummings model and to its finite analoque. Numerical solutions are derived and discussed.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.CD" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1993-09-06T15:57:00Z</published>
+    <arxiv:comment>19 pages plus 3 figures available upon request, plain LATEX, FTUV/93-13</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Demosthenes Ellinas</name>
+    </author>
+    <author>
+      <name>Vassilios Kovanis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1605.02698v2</id>
+    <title>Variational Monte Carlo method for the Baeriswyl wavefunction: application to the one-dimensional bosonic Hubbard model</title>
+    <updated>2016-05-26T05:34:53Z</updated>
+    <link href="https://arxiv.org/abs/1605.02698v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1605.02698v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A variational Monte Carlo method for bosonic lattice models is introduced. The method is based on the Baeriswyl projected wavefunction. The Baeriswyl wavefunction consists of a kinetic energy based projection applied to the wavefunction at infinite interaction, and is related to the shadow wavefunction already used in the study of continuous models of bosons. The wavefunction at infinite interaction, and the projector, are represented in coordinate space, leading to an expression for expectation values which can be evaluated via Monte Carlo sampling. We calculate the phase diagram and other properties of the bosonic Hubbard model. The calculated phase diagram is in excellent agreement with known quantum Monte Carlo results. We also analyze correlation functions.</summary>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-05-05T11:00:23Z</published>
+    <arxiv:comment>minor changes compared to previous version</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.quant-gas"/>
+    <arxiv:journal_ref>Phys. Rev B vol. 93 art.174518 (2016)</arxiv:journal_ref>
+    <author>
+      <name>B. Hetényi</name>
+    </author>
+    <author>
+      <name>B. Tanatar</name>
+    </author>
+    <author>
+      <name>L. M. Martelo</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.93.174518</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.93.174518" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,44 @@
+TERMS: superconductivity, bandgap, probability
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/DUvXI4mHiFi5idx2tOGp5MQJRIE</id>
+  <title>arXiv Query: search_query=all:superconductivity AND all:bandgap AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:31:51Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:superconductivity+AND+(all:bandgap+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2202.01051v2</id>
+    <title>Element selection for functional materials discovery by integrated machine learning of elemental contributions to properties</title>
+    <updated>2023-01-27T13:58:52Z</updated>
+    <link href="https://arxiv.org/abs/2202.01051v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2202.01051v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Fundamental differences between materials originate from the unique nature of their constituent chemical elements. Before specific differences emerge according to the precise ratios of elements in a given crystal structure, a material can be represented by the set of its constituent chemical elements. By working at the level of the periodic table, assessment of materials at the level of their phase fields reduces the combinatorial complexity to accelerate screening, and circumvents the challenges associated with composition-level approaches such as poor extrapolation within phase fields, and the impossibility of exhaustive sampling. This early stage discrimination combined with evaluation of novelty of phase fields aligns with the outstanding experimental challenge of identifying new areas of chemistry to investigate, by prioritising which elements to combine in a reaction. Here, we demonstrate that phase fields can be assessed with respect to the maximum expected value of a target functional property and ranked according to chemical novelty. We develop and present PhaseSelect, an end-to-end machine learning model that combines the representation, classification, regression and ranking of phase fields. First, PhaseSelect constructs elemental characteristics from the co-occurrence of chemical elements in computationally and experimentally reported materials, then it employs attention mechanisms to learn representation for phase fields and assess their functional performance. At the level of the periodic table, PhaseSelect quantifies the probability of observing a functional property, estimates its value within a phase field and also ranks a phase field novelty, which we demonstrate with significant accuracy for three avenues of materials applications for high-temperature superconductivity, high-temperature magnetism, and targeted bandgap energy.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-02-02T14:40:08Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Andrij Vasylenko</name>
+    </author>
+    <author>
+      <name>Dmytro Antypov</name>
+    </author>
+    <author>
+      <name>Vladimir Gusev</name>
+    </author>
+    <author>
+      <name>Michael W. Gaultois</name>
+    </author>
+    <author>
+      <name>Matthew S. Dyer</name>
+    </author>
+    <author>
+      <name>Matthew J. Rosseinsky</name>
+    </author>
+  </entry>
+</feed>

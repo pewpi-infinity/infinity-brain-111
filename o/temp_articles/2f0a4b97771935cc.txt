@@ -1,0 +1,31 @@
+TERMS: lattice, neutrino, singularity
+COLORS: orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/zgBitNaCUxfdLfiw+rEXe18W2O8</id>
+  <title>arXiv Query: search_query=all:lattice AND all:neutrino AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:16:24Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:neutrino+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2102.12477v1</id>
+    <title>Early Universe Thermodynamics and Evolution in Nonviscous and Viscous Strong and Electroweak epochs: Possible Analytical Solutions</title>
+    <updated>2021-02-24T12:14:04Z</updated>
+    <link href="https://arxiv.org/abs/2102.12477v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2102.12477v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Based on recent perturbative and non-perturbative lattice calculations with almost quark flavors and the thermal contributions from photons, neutrinos, leptons, electroweak particles, and scalar Higgs bosons, various thermodynamic quantities, at vanishing net-baryon densities, such as pressure, energy density, bulk viscosity, relaxation time, and temperature have been calculated up to the TeV-scale, i.e. covering hadron, QGP and electroweak (EW) phases in the early Universe. This remarkable progress motivated the present study to determine the possible influence of the bulk viscosity in the early Universe and to understand how this would vary from epoch to epoch. We have taken into consideration first- (Eckart) and second-order (Israel-Stewart) theories for the relativistic cosmic fluid and integrated viscous equations of state in Friedmann equations. Nonlinear nonhomogeneous differential equations are obtained as analytical solutions. For Israel-Stewart, the differential equations are very sophisticated to be solved. They are outlined here as road-maps for future studies. For Eckart theory, the only possible solution is the functionality, $H(a(t))$, where $H(t)$ is the Hubble parameter and $a(t)$ is the scale factor, but none of them so far could to be directly expressed in terms of either proper or cosmic time $t$. For Eckart-type viscous background, especially at finite cosmological constant, non-singular $H(t)$ and $a(t)$ are obtained, where $H(t)$ diverges for QCD/EW and asymptotic EoS. For non-viscous background, the dependence of $H(a(t))$ is monotonic. The same conclusion can be drawn for an ideal EoS. We also conclude that the rate of decreasing $H(a(t))$ with increasing $a(t)$ varies from epoch to epoch, at vanishing and finite cosmological constant. These results obviously help in improving our understanding of the nucleosynthesis and the cosmological large-scale structure.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-02-24T12:14:04Z</published>
+    <arxiv:comment>27 pages, 5 figures, accepted for publication in ENTROPY</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <author>
+      <name>Abdel Nasser Tawfik</name>
+    </author>
+    <author>
+      <name>Carsten Greiner</name>
+    </author>
+  </entry>
+</feed>

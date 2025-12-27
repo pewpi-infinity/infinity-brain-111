@@ -1,0 +1,73 @@
+TERMS: hydrogen, graphene, boson
+COLORS: purple, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/8YXTID1BmA0lpjElSjBF2h7BKQg</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:graphene AND all:boson&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:04:34Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:graphene+AND+all:boson)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>5</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1904.12452v2</id>
+    <title>Theory of Phonon-Assisted Adsorption in Graphene: Many-Body Infrared Dynamics</title>
+    <updated>2020-01-02T20:50:56Z</updated>
+    <link href="https://arxiv.org/abs/1904.12452v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1904.12452v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We devise a theory of adsorption of low-energy atoms on suspended graphene membranes maintained at 10 K based on a model of atom-acoustic phonon interactions. Our primary technique includes a non-perturbative method which treats the dynamics of the multiple phonons in an exact manner within the purview of the Independent Boson Model. We present a study on the effects of the phonons assisting the renormalization as well as decay of the incident atom propagator and discuss results for the many-body adsorption rates for atomic hydrogen on graphene micromembranes. Additionally, we report similarities of this model with other branches of quantum field theories that include long-range interactions like quantum electrodynamics (QED) and perturbative gravity.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-04-29T05:36:51Z</published>
+    <arxiv:comment>13 pages, 9 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Phys. Rev. B 100, 075429 (2019)</arxiv:journal_ref>
+    <author>
+      <name>Sanghita Sengupta</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.100.075429</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.100.075429" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1603.03476v2</id>
+    <title>Infrared Dynamics of Cold Atoms on Hot Graphene Membranes</title>
+    <updated>2016-04-04T20:35:19Z</updated>
+    <link href="https://arxiv.org/abs/1603.03476v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1603.03476v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the infrared dynamics of low-energy atoms interacting with a sample of suspended graphene at finite temperature. The dynamics exhibits severe infrared divergences order by order in perturbation theory as a result of the singular nature of low-energy flexural phonon emission. Our model can be viewed as a two-channel generalization of the independent boson model with asymmetric atom-phonon coupling. This allows us to take advantage of the exact non-perturbative solution of the independent boson model in the stronger channel while treating the weaker one perturbatively. In the low-energy limit, the exact solution can be viewed as a resummation (exponentiation) of the most divergent diagrams in the perturbative expansion. As a result of this procedure, we obtain the atom's Green function which we use to calculate the atom damping rate, a quantity equal to the quantum sticking rate. A characteristic feature of our results is that the Green's function retains a weak, infrared cutoff dependence that reflects the reduced dimensionality of the problem. As a consequence, we predict a measurable dependence of the sticking rate on graphene sample size. We provide detailed predictions for the sticking rate of atomic hydrogen as a function of temperature and sample size. The resummation yields an enhanced sticking rate relative to the conventional Fermi golden rule result (equivalent to the one-loop atom self-energy), as higher-order processes increase damping at finite temperature.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-03-10T22:20:21Z</published>
+    <arxiv:comment>11 pages, 13 figures; improved presentation and figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Phys. Rev. B 93, 235437 (2016)</arxiv:journal_ref>
+    <author>
+      <name>Sanghita Sengupta</name>
+    </author>
+    <author>
+      <name>Valeri N. Kotov</name>
+    </author>
+    <author>
+      <name>Dennis P. Clougherty</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.93.235437</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.93.235437" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1910.00361v2</id>
+    <title>Comment on "Theory of phonon-assisted adsorption in graphene: Many-body infrared dynamics''</title>
+    <updated>2019-11-23T23:02:00Z</updated>
+    <link href="https://arxiv.org/abs/1910.00361v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1910.00361v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Two approximations used by Sengupta [Phys. Rev. B {\bf 100}, 075429 (2019)] in numerically computing the adsorption rate of cold hydrogen atoms on suspended graphene are critically examined. The independent boson model approximation (IBMA) was used to compute the atom self-energy, and the single-pole approximation (SPA) was used to obtain the adsorption rate from the self-energy. It is shown explicitly that there are additional contributions to the self-energy appearing at the same order of the atom-phonon coupling as the IBMA terms that alter the value of the real part of the self-energy at low energies by several orders of magnitude in the regime of interest. This shift in the self-energy consequently renders the use of SPA invalid.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-10-01T13:10:23Z</published>
+    <arxiv:comment>8 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Phys. Rev. B 101, 247401 (2020)</arxiv:journal_ref>
+    <author>
+      <name>Dennis P. Clougherty</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.101.247401</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.101.247401" title="doi"/>
+  </entry>
+</feed>

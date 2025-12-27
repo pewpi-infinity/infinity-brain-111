@@ -1,0 +1,145 @@
+TERMS: ionization, spin, plasma
+COLORS: green, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/LyzuDeXtBUxFGDrmdScJxHlrBXU</id>
+  <title>arXiv Query: search_query=all:ionization AND all:spin AND all:plasma&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:29:16Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:ionization+AND+(all:spin+AND+all:plasma)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>36</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2101.10378v2</id>
+    <title>In Situ Generation of High-Energy Spin-Polarized Electrons in a Beam-Driven Plasma Wakefield Accelerator</title>
+    <updated>2021-12-23T19:20:55Z</updated>
+    <link href="https://arxiv.org/abs/2101.10378v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2101.10378v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In situ generation of a high-energy, high-current, spin-polarized electron beam is an outstanding scientific challenge to the development of plasma-based accelerators for high-energy colliders. In this Letter we show how such a spin-polarized relativistic beam can be produced by ionization injection of electrons of certain atoms with a circularly polarized laser field into a beam-driven plasma wakefield accelerator, providing a much desired one-step solution to this challenge. Using time-dependent Schrödinger equation (TDSE) simulations, we show the propensity rule of spin-dependent ionization of xenon atoms can be reversed in the strong-field multi-photon regime compared with the non-adiabatic tunneling regime, leading to high total spin-polarization. Furthermore, three-dimensional particle-in-cell (PIC) simulations are incorporated with TDSE simulations, providing start-to-end simulations of spin-dependent strong-field ionization of xenon atoms and subsequent trapping, acceleration, and preservation of electron spin-polarization in lithium plasma. We show the generation of a high-current (0.8 kA), ultra-low-normalized-emittance (~37 nm), and high-energy (2.7 GeV) electron beam within just 11 cm distance, with up to ~31% net spin polarization. Higher current, energy, and net spin-polarization beams are possible by optimizing this concept, thus solving a long-standing problem facing the development of plasma accelerators.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.acc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-01-25T19:52:01Z</published>
+    <arxiv:comment>4 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>Zan Nie</name>
+    </author>
+    <author>
+      <name>Fei Li</name>
+    </author>
+    <author>
+      <name>Felipe Morales</name>
+    </author>
+    <author>
+      <name>Serguei Patchkovskii</name>
+    </author>
+    <author>
+      <name>Olga Smirnova</name>
+    </author>
+    <author>
+      <name>Weiming An</name>
+    </author>
+    <author>
+      <name>Noa Nambu</name>
+    </author>
+    <author>
+      <name>Daniel Matteo</name>
+    </author>
+    <author>
+      <name>Kenneth A. Marsh</name>
+    </author>
+    <author>
+      <name>Frank Tsung</name>
+    </author>
+    <author>
+      <name>Warren B. Mori</name>
+    </author>
+    <author>
+      <name>Chan Joshi</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.126.054801;</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.126.054801;" title="doi"/>
+    <arxiv:doi>10.1103/PhysRevLett.127.269901</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.127.269901" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2308.02314v1</id>
+    <title>The equation of state of partially ionized hydrogen and deuterium plasma revisited</title>
+    <updated>2023-08-04T13:24:26Z</updated>
+    <link href="https://arxiv.org/abs/2308.02314v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.02314v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present novel first-principle fermionic path integral Monte Carlo (PIMC) simulation results for a dense partially ionized hydrogen (deuterium) plasma, for temperatures in the range $15,000$K $\leq T \leq 400,000$K and densities $7 \cdot 10^{-7}$g/cm$^{3}\leq ρ_H \leq 0.085$ g/cm$^{3}$ ($1.4 \cdot 10^{-6}$g/cm$^{3}\leq ρ_D \leq 0.17$ g/cm$^{3}$), corresponding to $100\geq r_s\geq 2$, where $r_s=\bar r/a_B$ is the ratio of the mean interparticle distance to the Bohr radius. These simulations are based on the fermionic propagator PIMC (FP-PIMC) approach in the grand canonical ensemble [A. Filinov \textit{et al.}, Contrib. Plasma Phys. \textbf{61}, e202100112 (2021)] and fully account for correlation and quantum degeneracy and spin effects. For the application to hydrogen and deuterium, we develop a combination of the fourth-order factorization and the pair product ansatz for the density matrix. Moreover, we avoid the fixed node approximation that may lead to uncontrolled errors in restricted PIMC (RPIMC). Our results allow us to critically re-evaluate the accuracy of the RPIMC simulations for hydrogen by Hu \textit{et al.} [Phys. Rev. B \textbf{84}, 224109 (2011)] and of various chemical models. The deviations are generally found to be small, but for the lowest temperature, $T=15,640$~K they reach several percent. We present detailed tables with our first principles results for the pressure and energy isotherms.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-08-04T13:24:26Z</published>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <arxiv:journal_ref>Phys. Rev. E 108, 055212 (2023)</arxiv:journal_ref>
+    <author>
+      <name>A. V. Filinov</name>
+    </author>
+    <author>
+      <name>M. Bonitz</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevE.108.055212</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevE.108.055212" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2206.09017v1</id>
+    <title>Highly spin-polarized multi-GeV electron beams generated by single-species plasma photocathodes</title>
+    <updated>2022-06-17T21:25:46Z</updated>
+    <link href="https://arxiv.org/abs/2206.09017v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2206.09017v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>High-gradient and high-efficiency acceleration in plasma-based accelerators has been demonstrated, showing its potential as the building block for a future collider operating at the energy frontier of particle physics. However, generating and accelerating the required spin-polarized beams in such a collider using plasma-based accelerators has been a long-standing challenge. Here we show that the passage of a highly relativistic, high-current electron beam through a single-species (ytterbium) vapor excites a nonlinear plasma wake by primarily ionizing the two outer 6s electrons. Further photoionization of the resultant Yb2+ ions by a circularly polarized laser injects the 4f14 electrons into this wake generating a highly spin-polarized beam. Combining time-dependent Schrodinger equation simulations with particle-in-cell simulations, we show that a sub-femtosecond, high-current (4 kA) electron beam with up to 56% net spin polarization can be generated and accelerated to 15 GeV in just 41 cm. This relatively simple scheme solves the perplexing problem of producing spin-polarized relativistic electrons in plasma-based accelerators.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.acc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-06-17T21:25:46Z</published>
+    <arxiv:comment>3 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>Zan Nie</name>
+    </author>
+    <author>
+      <name>Fei Li</name>
+    </author>
+    <author>
+      <name>Felipe Morales</name>
+    </author>
+    <author>
+      <name>Serguei Patchkovskii</name>
+    </author>
+    <author>
+      <name>Olga Smirnova</name>
+    </author>
+    <author>
+      <name>Weiming An</name>
+    </author>
+    <author>
+      <name>Chaojie Zhang</name>
+    </author>
+    <author>
+      <name>Yipeng Wu</name>
+    </author>
+    <author>
+      <name>Noa Nambu</name>
+    </author>
+    <author>
+      <name>Daniel Matteo</name>
+    </author>
+    <author>
+      <name>Kenneth A. Marsh</name>
+    </author>
+    <author>
+      <name>Frank Tsung</name>
+    </author>
+    <author>
+      <name>Warren B. Mori</name>
+    </author>
+    <author>
+      <name>Chan Joshi</name>
+    </author>
+  </entry>
+</feed>

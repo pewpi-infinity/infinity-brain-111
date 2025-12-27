@@ -1,0 +1,75 @@
+TERMS: hydrogen, fusion, electron, probability
+COLORS: purple, green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/bwLal+iV7fufGRP6gHL0npEWA1s</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:fusion AND all:electron AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:52:31Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:fusion+AND+(all:electron+AND+all:probability))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>5</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/nucl-th/0005011v2</id>
+    <title>Screened Coulomb potentials for astrophysical nuclear fusion reactions</title>
+    <updated>2000-09-04T08:03:19Z</updated>
+    <link href="https://arxiv.org/abs/nucl-th/0005011v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/nucl-th/0005011v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The electron-screening acceleration of laboratory fusion reactions at astrophysical energies is an unsolved problem of great importance to astrophysics. That effect is modeled here by considering the fusion of hydrogen-like atoms whose electron probability density is used in Poisson's equation in order to derive the corresponding screened Coulomb potential energy. That way atomic excitations and deformations of the fusing atoms can be taken into account. Those potentials are then treated semiclassically in order to obtain the screening (accelerating) factor of the reaction. By means of the proposed model the effect of a superstrong magnetic field on laboratory Hydrogen fusion reactions is investigated here for the first time showing that, despite the considerable increase in the cross section of the $% dd$ reaction, the $pp$ reaction is still too slow to justify experimentation. The proposed model is finally applied on the $H^{2}(d,p) H^{3}$ fusion reaction describing satisfactorily the experimental data although some ambiguity remains regarding the molecular nature of the deuteron target. Notably, the present method gives a sufficiently high screening energy for Hydrogen fusion reactions so that the take-away energy of the spectator nucleus can also be taken into account.</summary>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2000-05-05T10:22:30Z</published>
+    <arxiv:comment>11 (RevTex) pages + 3 ps figures. Accepted for publication in Eur.Phys.J. A</arxiv:comment>
+    <arxiv:primary_category term="nucl-th"/>
+    <arxiv:journal_ref>Eur.Phys.J. A9 (2000) 287-292</arxiv:journal_ref>
+    <author>
+      <name>Theodore E. Liolios</name>
+    </author>
+    <arxiv:doi>10.1007/s100500070046</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s100500070046" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1705.10221v2</id>
+    <title>Hot-electron relaxation in dense `two-temperature' hydrogen</title>
+    <updated>2017-06-05T21:32:32Z</updated>
+    <link href="https://arxiv.org/abs/1705.10221v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1705.10221v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent theories of hot-electron relaxation in dense hydrogen or deuterium are examined in the light of recent molecular-dynamics simulations as well as various theoretical developments within the two-temperature model. The theoretical work since 1998 have led to the formulation of the $f$-sum version of the Fermi Golden rule formula as the most convenient method for the calculation of the rate of cooling of hot electrons where energy is transferred to cold ions. The attempt to include relaxation via the ion-acoustic modes of the two coupled subsystems, i.e., electrons and ions has led to a coupled-mode formulation which has now been established by a variety of formal methods. However, various simplified calculational models of the system with coupled-modes, as well as sophisticated molecular dynamics simulations seem to disagree. It is expected that coupled-mode calculations which use the simple Coulomb potential $V_{ei}(r)=-|e|Z/r$ for the electron-ion interaction within RPA will greatly over-estimate the coupled-mode contribution. A weak pseudopotential $U_{ei}(r)$ would probably bring the estimated coupled-mode contribution to agree with that obtained by simulations. It is suggested that the available `reduced models' have been constructed without much attention to the satisfaction of important sum rules, Kramers-Krönig relations etc. We also deal with the question of how strongly coupled ion-ion systems can be addressed by an extension of the second-order linear response theory which is the basis of current formulations of energy relaxation in warm-dense matter systems. These are of interest in a variety of fields including hot-electron semi-conductor devices, inertial-fusion studies of hot compressed hydrogen, as well as in astrophysical applications.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-05-29T14:48:09Z</published>
+    <arxiv:comment>13 pages</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <author>
+      <name>M. W. C. Dharma-wardana</name>
+      <arxiv:affiliation>NRC Canada</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/nucl-ex/0005003v1</id>
+    <title>The stopping of swift protons in matter and its implication for astrophysical fusion reactions</title>
+    <updated>2000-05-14T23:03:44Z</updated>
+    <link href="https://arxiv.org/abs/nucl-ex/0005003v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/nucl-ex/0005003v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The velocity dependence of the stopping power of swift protons and deuterons in low energy collisions is investigated. At low projectile energies the stopping is mainly due to nuclear stopping and charge exchange of the electron. The second mechanism dominates after Ep &gt;=200 eV. A dynamical treatment of the charge exchange mechanism based on two-center electronic wavefunctions yields very transparent results for the exchange probability. We predict that the stopping cross sections vary approximately as v to the 1.35 power for projectile protons on hydrogen targets in the 1 keV energy region.</summary>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2000-05-14T23:03:44Z</published>
+    <arxiv:comment>4 figures</arxiv:comment>
+    <arxiv:primary_category term="nucl-ex"/>
+    <arxiv:journal_ref>Phys.Rev. C62 (2000) 045802</arxiv:journal_ref>
+    <author>
+      <name>C. A. Bertulani</name>
+    </author>
+    <author>
+      <name>D. T. de Paula</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevC.62.045802</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevC.62.045802" title="doi"/>
+  </entry>
+</feed>

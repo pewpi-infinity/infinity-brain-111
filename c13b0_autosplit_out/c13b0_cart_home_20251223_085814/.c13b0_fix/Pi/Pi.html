@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Infinity Pi • Singing Digits</title>
+<style>
+  :root{--bg:#0b0f14;--fg:#e6f0ff;--mut:#92a6c9;--card:#0f1620;--line:#1b2532;--accent:#7fb0ff}
+  html,body{height:100%} body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.45 system-ui,Segoe UI,Roboto,Helvetica,Arial}
+  .wrap{min-height:100%;display:flex;align-items:center;justify-content:center;padding:24px}
+  .card{width:100%;max-width:920px;background:var(--card);border:1px solid var(--line);border-radius:16px;box-shadow:0 10px 28px rgba(0,0,0,.3);padding:16px}
+  .title{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
+  h1{font-size:18px;margin:0} .pill{font-size:12px;padding:3px 8px;border:1px solid var(--line);border-radius:999px;background:#152031;opacity:.9}
+  .controls{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}
+  button,input,select{font:inherit}
+  .btn{padding:10px 14px;border-radius:999px;border:1px solid var(--line);background:#152031;color:var(--fg);cursor:pointer}
+  .btn:hover{background:#1a2940}
+  .row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+  .slider{width:200px}
+  .screen{border:1px solid var(--line);border-radius:12px;background:#0e1520;padding:12px;min-height:140px;max-height:260px;overflow:auto}
+  .digits{font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,monospace; font-size:16px; line-height:1.5;word-wrap:break-word;white-space:pre-wrap}
+  .big{font-size:40px;font-weight:700;color:var(--accent);margin:6px 0 10px}
+  a{color:#8bd3ff;text-decoration:none}
+  .foot{display:flex;justify-content:space-between;align-items:center;margin-top:10px;color:var(--mut);font-size:12px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="card">
+    <div class="title">
+      <h1>∞ Infinity Pi • Singing Digits</h1>
+      <span class="pill">keyless • offline • deploy-ready</span>
+    </div>
+    <div class="controls">
+      <div class="row">
+        <button id="start" class="btn">Start</button>
+        <button id="pause" class="btn" disabled>Pause</button>
+        <button id="reset" class="btn">Reset</button>
+      </div>
+      <div class="row">
+        <label>Tempo <input id="tempo" class="slider" type="range" min="40" max="420" value="180"></label>
+        <span id="bpm" class="pill">180 bpm</span>
+      </div>
+      <div class="row">
+        <!-- MODIFIED: Changed max="100" to max="200" and value="60" to value="100" for louder sound -->
+        <label>Volume <input id="vol" class="slider" type="range" min="0" max="200" value="100"></label>
+        <span id="volv" class="pill">100%</span>
+      </div>
+      <div class="row">
+        <label>Scale
+          <select id="scale" class="btn">
+            <option value="C4">C4 major</option>
+            <option value="A3">A3 minor</option>
+            <option value="C5">C5 major (bright)</option>
+          </select>
+        </label>
+        <label><input id="sing" type="checkbox" checked> Sing digits</label>
+      </div>
+    </div>
+
+    <div class="big" id="big">3</div>
+    <div class="screen">
+      <div class="digits" id="digits">3.</div>
+    </div>
+
+    <div class="foot">
+      <div>Status: <span id="status" class="pill">idle</span></div>
+      <div><a id="dl" href="/download">Download this page (HTML)</a></div>
+    </div>
+  </div>
+</div>
+
+<script>
+function piSpigot(){
+  let q=1n, r=0n, t=1n, k=1n, n=3n, l=3n;
+  return {
+    next(){
+      while (true){
+        if (4n*q + r - t < n * t){
+          const digit = Number(n);
+          const nr = 10n * (r - n * t);
+          n = ((10n * (3n*q + r)) / t) - 10n * n;
+          q = 10n * q;
+          r = nr;
+          return { value: digit, done: false };
+        } else {
+          const nr = (2n*q + r) * l;
+          const nn = (q * (7n * k) + 2n + r * l) / (t * l);
+          q = q * k;
+          t = t * l;
+          l = l + 2n;
+          k = k + 1n;
+          n = nn;
+          r = nr;
+        }
+      }
+    }
+  };
+}
+
+class Singer {
+  constructor(){
+    this.ctx = null; this.master = null;
+    this.enabled = true; this.volume = 1.0; this.setBase("C4");
+  }
+  setBase(code){ const map = { C4:261.63, A3:220.00, C5:523.25 }; this.base = map[code] || 261.63; }
+  ensure(){
+    if (!this.ctx){
+      this.ctx = new (window.AudioContext || window.webkitAudioContext)();
+      // Initialize master gain with current volume (which can now be up to 2.0)
+      this.master = this.ctx.createGain(); this.master.gain.value = this.volume; this.master.connect(this.ctx.destination);
+    }
+  }
+  setVolume(v){ this.volume = v; if (this.master) this.master.gain.value = v; }
+  freqForDigit(d){
+    const semisMajor = [0,2,4,5,7,9,11,12,14,16];
+    const s = semisMajor[d % 10]; return this.base * Math.pow(2, s/12);
+  }
+  playDigit(d, ms=200){
+    if (!this.enabled) return;
+    this.ensure();
+    const t = this.ctx.currentTime;
+    const osc = this.ctx.createOscillator(); const eg = this.ctx.createGain();
+    osc.type = "sine"; osc.frequency.value = this.freqForDigit(d);
+    eg.gain.setValueAtTime(0, t);
+    eg.gain.linearRampToValueAtTime(0.9, t + 0.01);
+    eg.gain.exponentialRampToValueAtTime(0.0001, t + ms/1000);
+    osc.connect(eg).connect(this.master); osc.start(t); osc.stop(t + ms/1000 + 0.02);
+  }
+}
+
+const digitsEl = document.getElementById('digits');
+const bigEl = document.getElementById('big');
+const stEl = document.getElementById('status');
+const startBtn = document.getElementById('start');
+const pauseBtn = document.getElementById('pause');
+const resetBtn = document.getElementById('reset');
+const tempo = document.getElementById('tempo');
+const bpm = document.getElementById('bpm');
+const vol = document.getElementById('vol');
+const volv = document.getElementById('volv');
+const scale = document.getElementById('scale');
+const sing = document.getElementById('sing');
+
+let running=false, paused=false, tick=null, gen=null;
+// The initial volume in the Singer constructor is set to 1.0 to match the new default slider value (100)
+const singer = new Singer();
+
+function setStatus(s){ stEl.textContent = s; }
+function updateTempo(){ bpm.textContent = tempo.value + " bpm"; if (running && tick){ clearInterval(tick); schedule(); } }
+// The division by 100 handles the new range of 0-200, resulting in a gain of 0.0 to 2.0.
+function updateVol(){ const v = Number(vol.value)/100; volv.textContent = Math.round(v*100)+"%"; singer.setVolume(v); }
+function updateScale(){ singer.setBase(scale.value); }
+function updateSing(){ singer.enabled = sing.checked; }
+function schedule(){ const ms = 60000 / Number(tempo.value); tick = setInterval(step, ms); }
+function start(){ if (running) return; if (!gen) gen = piSpigot(); running=true; paused=false; startBtn.disabled=true; pauseBtn.disabled=false; setStatus("playing"); schedule(); }
+function pause(){ if (!running) return; paused=!paused; if (paused){clearInterval(tick); setStatus("paused"); pauseBtn.textContent="Resume";} else {schedule(); setStatus("playing"); pauseBtn.textContent="Pause";} }
+function reset(){ clearInterval(tick); running=false; paused=false; gen=null; digitsEl.textContent="3."; bigEl.textContent="3"; startBtn.disabled=false; pauseBtn.disabled=true; pauseBtn.textContent="Pause"; setStatus("idle"); }
+function step(){ if (!gen) gen = piSpigot(); const nxt = gen.next(); const d = nxt.value; bigEl.textContent = d; digitsEl.textContent += d; singer.playDigit(d, Math.max(120, 60000/Number(tempo.value)*0.9)); const sc = digitsEl.parentElement; sc.scrollTop = sc.scrollHeight; }
+
+startBtn.addEventListener('click', start);
+pauseBtn.addEventListener('click', pause);
+resetBtn.addEventListener('click', reset);
+tempo.addEventListener('input', updateTempo);
+vol.addEventListener('input', updateVol);
+scale.addEventListener('change', updateScale);
+sing.addEventListener('change', updateSing);
+
+updateTempo(); updateVol(); updateScale(); updateSing();
+</script>
+</body>
+</html>
+

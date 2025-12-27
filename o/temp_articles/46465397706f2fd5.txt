@@ -1,0 +1,57 @@
+TERMS: frequency, tachyon, plasma
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/FoHRbumyNDV50/O2R5c/6DL82uc</id>
+  <title>arXiv Query: search_query=all:frequency AND all:tachyon AND all:plasma&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:12:35Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:tachyon+AND+all:plasma)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2103.01547v1</id>
+    <title>Tachyonic and Plasma Instabilities of $η$-Pairing States Coupled to Electromagnetic Fields</title>
+    <updated>2021-03-02T08:06:13Z</updated>
+    <link href="https://arxiv.org/abs/2103.01547v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.01547v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Cooper pairs featuring a nonzero center-of-mass crystal momentum ${\boldsymbol Q}=(π,π, \dots)$ and an off-diagonal long-range order ($η$-pairing states) constitute exact eigenstates of a Hubbard model [C. N. Yang, Phys. Rev. Lett. 63, 2144 (1989)]. Here we show that the $η$-pairing states are rendered dynamically unstable via coupling to dynamical electromagnetic fields. The instability is caused by "tachyonic" electromagnetic fields and unstable plasma modes for attractive and repulsive interactions, respectively. The typical time scale of the growth of the instability is of the order of femtoseconds for electron systems in solids, which places a strict bound on the lifetime of the $η$-pairing states. The decay of the $η$-pairing states leads to enhanced light emission with frequencies shifted from the Hubbard interaction strength for the repulsive case and unattenuated electromagnetic penetration for the attractive case.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-02T08:06:13Z</published>
+    <arxiv:comment>19 pages, 14 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>Naoto Tsuji</name>
+    </author>
+    <author>
+      <name>Masaya Nakagawa</name>
+    </author>
+    <author>
+      <name>Masahito Ueda</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1010.5748v2</id>
+    <title>Correlated stability conjecture revisited</title>
+    <updated>2011-01-26T19:03:59Z</updated>
+    <link href="https://arxiv.org/abs/1010.5748v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1010.5748v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Correlated stability conjecture (CSC) proposed by Gubser and Mitra [1,2] linked the thermodynamic and classical (in)stabilities of black branes. The classical instabilities, whenever occurring, were conjectured to arise as Gregory-Laflamme (GL) instabilities of translationally invariant horizons. In [3] it was shown that the thermodynamic instabilities, specifically the negative specific heat, indeed result in the instabilities in the hydrodynamic spectrum of holographically dual plasma excitations. A counter-example of CSC was presented in the context of black branes with scalar hair undergoing a second-order phase transition [4]. In this paper we discuss a related counter-example of CSC conjecture, where a thermodynamically stable translationally invariant horizon has a genuine tachyonic instability. We study the spectrum of quasinormal excitations of a black brane undergoing a continuous phase transition, and explicitly identify the instability. We compute the critical exponents of the critical momenta and the frequency of the unstable fluctuations and identify the dynamical critical exponent of the model.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-10-27T17:22:13Z</published>
+    <arxiv:comment>12 pages, 4 figures; v2: PLB version</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Phys.Lett.B697:168-172,2011</arxiv:journal_ref>
+    <author>
+      <name>A. Buchel</name>
+    </author>
+    <author>
+      <name>C. Pagnutti</name>
+    </author>
+    <arxiv:doi>10.1016/j.physletb.2011.01.057</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physletb.2011.01.057" title="doi"/>
+  </entry>
+</feed>

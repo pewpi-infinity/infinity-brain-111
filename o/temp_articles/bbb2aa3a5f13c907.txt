@@ -1,0 +1,83 @@
+TERMS: frequency, spin, boson
+COLORS: green, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/9GpctXoiLXcQLWn1KRfPeoIM4xM</id>
+  <title>arXiv Query: search_query=all:frequency AND all:spin AND all:boson&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:11:53Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:spin+AND+all:boson)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>421</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0310140v1</id>
+    <title>Dynamics of the spin-boson model with a structured environment</title>
+    <updated>2003-10-07T09:29:05Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0310140v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0310140v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We investigate the dynamics of the spin-boson model when the spectral density of the boson bath shows a resonance at a characteristic frequency $Ω$ but behaves Ohmically at small frequencies. The time evolution of an initial state is determined by making use of the mapping onto a system composed of a quantum mechanical two-state system (TSS) which is coupled to a harmonic oscillator (HO) with frequency $Ω$. The HO itself is coupled to an Ohmic environment. The dynamics is calculated by employing the numerically exact quasiadiabatic path-integral propagator technique. We find significant new properties compared to the Ohmic spin-boson model. By reducing the TSS-HO system in the dressed states picture to a three-level system for the special case at resonance, we calculate the dephasing rates for the TSS analytically. Finally, we apply our model to experimentally realized superconducting flux qubits coupled to an underdamped dc-SQUID detector.</summary>
+    <category term="cond-mat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-10-07T09:29:05Z</published>
+    <arxiv:comment>26 pages, 11 figures, Chemical Physics Special Issue on the Spin-Boson Problem, ed. by H. Grabert and A. Nitzan, in press</arxiv:comment>
+    <arxiv:primary_category term="cond-mat"/>
+    <arxiv:journal_ref>Chem. Phys. 296, 333-344 (2004)</arxiv:journal_ref>
+    <author>
+      <name>M. Thorwart</name>
+    </author>
+    <author>
+      <name>E. Paladino</name>
+    </author>
+    <author>
+      <name>M. Grifoni</name>
+    </author>
+    <arxiv:doi>10.1016/j.chemphys.2003.10.007</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.chemphys.2003.10.007" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/quant-ph/0312140v1</id>
+    <title>Dynamics of a large spin with weak dissipation</title>
+    <updated>2003-12-16T12:57:47Z</updated>
+    <link href="https://arxiv.org/abs/quant-ph/0312140v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/quant-ph/0312140v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We investigate the generalization of the spin-boson model to arbitrary spin size. The Born-Markov approximation is employed to derive a master equation in the regime of small coupling strengths to the environment. For spin one half, the master equation transforms into a set of Bloch equations, the solution of which is in good agreement with results of the spin-boson model for weak ohmic dissipation. For larger spins, we find a superradiance-like behavior known from the Dicke model. The influence of the nonresonant bosons of the dissipative environment can lead to the formation of a beat pattern in the dynamics of the $z$-component of the spin. The beat frequency is approximately proportional to the cutoff $ω_c$ of the spectral function.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-12-16T12:57:47Z</published>
+    <arxiv:comment>11 pages, 3 figures, to appear in Chemical Physics Special Issue on the Spin-Boson Problem, ed. by H. Grabert and A. Nitzan</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Chemical Physics 296, 295 (2004)</arxiv:journal_ref>
+    <author>
+      <name>T. Vorrath</name>
+    </author>
+    <author>
+      <name>T. Brandes</name>
+    </author>
+    <author>
+      <name>B. Kramer</name>
+    </author>
+    <arxiv:doi>10.1016/j.chemphys.2003.08.030</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.chemphys.2003.08.030" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1806.01395v2</id>
+    <title>Quantum gyro-electric effect: Photon spin-1 quantization in continuum topological bosonic phases</title>
+    <updated>2018-08-07T19:28:42Z</updated>
+    <link href="https://arxiv.org/abs/1806.01395v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.01395v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Topological phases of matter arise in distinct fermionic and bosonic flavors. The fundamental differences between them are encapsulated in their rotational symmetries - the spin. Although spin quantization is routinely encountered in fermionic topological edge states, analogous quantization for bosons has proven elusive. To this end, we develop the complete electromagnetic continuum theory characterizing 2+1D topological bosons, taking into account their intrinsic spin and orbital angular momentum degrees of freedom. We demonstrate that spatiotemporal dispersion (momentum and frequency dependence of linear response) captures the matter-mediated interactions between bosons and is a necessary ingredient for topological phases. We prove that the bulk topology of these 2+1D phases is manifested in transverse spin-1 quantization of the photon. From this insight, we predict two unique bosonic phases - one with even parity $C=\pm 2$ and one with odd $C=\pm 1$. To understand the even parity phase $C=\pm 2$, we introduce an exactly solvable model utilizing non-local optical Hall conductivity and reveal a single gapless photon at the edge. This unidirectional photon is spin-1 helically quantized, immune to backscattering, defects, and exists at the boundary of the $C=\pm 2$ bosonic phase and any interface - even vacuum. The contrasting phenomena of transverse quantization in the bulk, but longitudinal (helical) quantization on the edge is addressed as the quantum gyro-electric effect (QGEE). We also validate our bosonic Maxwell theory by direct comparison with the supersymmetric Dirac theory of fermions. To accelerate the discovery of such bosonic phases, we suggest two new probes of topological matter with broken time-reversal symmetry: momentum-resolved electron energy loss spectroscopy and cold atom near-field measurement of non-local optical Hall conductivity.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-04T21:22:30Z</published>
+    <arxiv:comment>15 pages, 8 figures. This is the third paper in a series of papers on spin and topological bosonic phases of light. The second paper on time-reversal symmetric phases can be found here: arXiv:1708.08192 and the first paper on classical spin-momentum locking can be found here: https://doi.org/10.1364/OPTICA.3.000118 [arXiv:1504.06361]</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Phys. Rev. A 98, 023842 (2018)</arxiv:journal_ref>
+    <author>
+      <name>Todd Van Mechelen</name>
+    </author>
+    <author>
+      <name>Zubin Jacob</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.98.023842</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.98.023842" title="doi"/>
+  </entry>
+</feed>

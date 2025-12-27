@@ -1,0 +1,69 @@
+TERMS: lattice, crystal, probability
+COLORS: orange, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/bsztx+kvKI6+HByvC3Ch/zrPEus</id>
+  <title>arXiv Query: search_query=all:lattice AND all:crystal AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:14:36Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:crystal+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>164</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1201.2341v2</id>
+    <title>On the probable wave nature of Bose crystals</title>
+    <updated>2012-01-13T10:37:54Z</updated>
+    <link href="https://arxiv.org/abs/1201.2341v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1201.2341v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>At the present time, it is considered that Bose crystals are formed at the cooling of a fluid, because the state of crystal is more favorable by energy. It is also believed [1,2] that no ordering factor forming a crystal is present, except for the interatomic interaction.
+  However, the available solutions [1,2,3] for the wave functions (WFs) of the ground and excited states of a crystal are approximate and are obtained for cyclic boundary conditions, which are not realized in the Nature. Here, we present the exact solutions for the WFs of a Bose crystal with rectangular lattice under natural zero boundary conditions.
+  The structure of WFs implies that 1) a crystal is formed by a standing wave in the probability field; 2) a crystal in the ground state contains a condensate of atoms with the wave vector \textbf{k}_l=(π/\bar{R}_x, π/\bar{R}_y, π/\bar{R}_z) (\bar{R}_x, \bar{R}_y, \bar{R}_z are the periods of the lattice) that is equal to a half of the vector of the reciprocal lattice. These solutions indicate that the ordering factor forming a crystal is an intense standing wave similar to a sound one. Thus, the periodicity of a lattice is caused by that of a sound wave, but not only by the energy minimum principle. Apparently, the crystals of other types and with different lattices have the wave nature as well. The condensate opens a possibility to explain the nonclassical inertia moment discovered by Kim and Chan [4,5] in solid He-4, which testifies, probably, to the presence of a superfluid subsystem in the crystal.</summary>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-01-11T16:18:12Z</published>
+    <arxiv:comment>2 pages, submitted in Nature, v2: reference 8 is completed</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.other"/>
+    <author>
+      <name>M. D. Tomchenko</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2303.04401v2</id>
+    <title>Limit of the Wulff crystal when approaching criticality for isoperimetry in 2D percolation</title>
+    <updated>2023-11-22T08:30:32Z</updated>
+    <link href="https://arxiv.org/abs/2303.04401v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2303.04401v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider isoperimetric sets, i.e., sets with minimal vertex boundary for a prescribed volume, of the infinite cluster of supercritical site percolation on the triangular lattice. Let $p$ be the percolation parameter and let $p_c$ be the critical point. By adapting the proof of Biskup, Louidor, Procaccia and Rosenthal [6] for isoperimetry in bond percolation on the square lattice, we show that the isoperimetric sets, when suitably rescaled, converge almost surely to a translation of the normalized Wulff crystal $\widehat{W}_p$. More importantly, we prove that $\widehat{W}_p$ tends to a Euclidean disk as $p\downarrow p_c$. This settles the site version of a conjecture proposed in [6]. A key input to the proof is the convergence of the limit shapes for near-critical Bernoulli first-passage percolation proved by the author recently.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-03-08T06:36:52Z</published>
+    <arxiv:comment>20 pages, 6 figures. To appear in Electronic Journal of Probability</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <arxiv:journal_ref>Electronic Journal of Probability 28, no. 165, 1-20 (2023)</arxiv:journal_ref>
+    <author>
+      <name>Chang-Long Yao</name>
+    </author>
+    <arxiv:doi>10.1214/23-EJP1061</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1214/23-EJP1061" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1510.05102v1</id>
+    <title>Long time asymptotics of non-symmetric random walks on crystal lattices</title>
+    <updated>2015-10-17T08:52:08Z</updated>
+    <link href="https://arxiv.org/abs/1510.05102v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1510.05102v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the present paper, we study long time asymptotics of non-symmetric random walks on crystal lattices from a view point of discrete geometric analysis due to Kotani and Sunada [11, 23]. We observe that the Euclidean metric associated with the standard realization of the crystal lattice, called the Albanese metric, naturally appears in the asymptotics. In the former half of the present paper, we establish two kinds of (functional) central limit theorems for random walks. We first show that the Brownian motion on the Euclidean space with the Albanese metric appears as the scaling limit of the usual central limit theorem for the random walk. Next we introduce a family of random walks which interpolates between the original non-symmetric random walk and the symmetrized one. We then capture the Brownian motion with a constant drift of the asymptotic direction on the Euclidean space with the Albanese metric associated with the symmetrized random walk through another kind of central limit theorem for the family of random walks. In the latter half of the present paper, we give a spectral geometric proof of the asymptotic expansion of the $n$-step transition probability for the non-symmetric random walk. This asymptotic expansion is a refinement of the local central limit theorem obtained by Sunada [22] and is a generalization of the result in [11] for symmetric random walks on crystal lattices to non-symmetric cases.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-10-17T08:52:08Z</published>
+    <arxiv:comment>67pages, 9figures</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Satoshi Ishiwata</name>
+    </author>
+    <author>
+      <name>Hiroshi Kawabi</name>
+    </author>
+    <author>
+      <name>Motoko Kotani</name>
+    </author>
+  </entry>
+</feed>

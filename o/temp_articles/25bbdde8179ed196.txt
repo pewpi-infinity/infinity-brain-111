@@ -1,0 +1,75 @@
+TERMS: electron, wavefunction, boson
+COLORS: green, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/lSlN2F7TEhZ/wZf6Y82UmKoWb48</id>
+  <title>arXiv Query: search_query=all:electron AND all:wavefunction AND all:boson&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:23:55Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:electron+AND+(all:wavefunction+AND+all:boson)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>59</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0608376v1</id>
+    <title>A nu=2/5 Paired Wavefunction</title>
+    <updated>2006-08-17T00:32:58Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0608376v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0608376v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We construct a wavefunction, generalizing the well known Moore-Read Pfaffian, that describes spinless electrons at filling fraction nu=2/5 (or bosons at filling fraction nu=2/3) as the ground state of a very simple three body potential. We find, analogous to the Pfaffian, that when quasiholes are added there is a ground state degeneracy which can be identified as zero-modes of the quasiholes. The zero-modes are identified as having semionic statistics. We write this wavefunction as a correlator of the Virasoro minimal model conformal field theory M(5,3). Since this model is non-unitary, we conclude that this wavefunction is a quantum critical state. Nonetheless, we find that the overlaps of this wavefunction with exact diagonalizations in the lowest and first excited Landau level are very high, suggesting that this wavefunction may have experimental relevance for some transition that may occur in that regime.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-08-17T00:32:58Z</published>
+    <arxiv:comment>13 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>Steven H. Simon</name>
+    </author>
+    <author>
+      <name>E. H. Rezayi</name>
+    </author>
+    <author>
+      <name>N. R. Cooper</name>
+    </author>
+    <author>
+      <name>I. Berdnikov</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.75.075317</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.75.075317" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.11431v1</id>
+    <title>A minimal and universal representation of fermionic wavefunctions (fermions = bosons + one)</title>
+    <updated>2025-10-13T14:03:47Z</updated>
+    <link href="https://arxiv.org/abs/2510.11431v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.11431v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Representing fermionic wavefunctions efficiently is a central problem in quantum physics, chemistry and materials science. In this work, we introduce a universal and exact representation of continuous antisymmetric functions by lifting them to continuous symmetric functions defined on an enlarged space. Building on this lifting, we obtain a \emph{parity-graded representation} of fermionic wavefunctions, expressed in terms of symmetric feature variables that encode particle configuration and antisymmetric feature variables that encode exchange statistics. This representation is both exact and minimal: the number of required features scales as $D\sim N^d$ ($d$ is spatial dimension) or $D\sim N$ depending on the symmetric feature maps employed. Our results provide a rigorous mathematical foundation for efficient representations of fermionic wavefunctions and enable scalable and systematically improvable neural network solvers for many-electron systems.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-13T14:03:47Z</published>
+    <arxiv:comment>6 pages</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <author>
+      <name>Liang Fu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1002.3468v5</id>
+    <title>Unconventional approach to orbital-free density functional theory derived from a model of extended electrons</title>
+    <updated>2010-10-19T13:52:38Z</updated>
+    <link href="https://arxiv.org/abs/1002.3468v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1002.3468v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>An equation proposed by Levy, Perdew and Sahni in 1984 [PRA 30, 2745 (1984)] is an orbital--free formulation of density functional theory. However, this equation describes a bosonic system. Here, we analyze on a very fundamental level, how this equation could be extended to yield a formulation for a general fermionic distribution of charge and spin. This analysis starts at the level of single electrons and with the question, how spin actually comes into a charge distribution in a non-relativistic model. To this end we present a space-time model of extended electrons, which is formulated in terms of geometric algebra. Wave properties of the electron are referred to mass density oscillations. We provide a comprehensive and non-statistical interpretation of wavefunctions, referring them to mass density components and internal field components. It is shown that these wavefunctions comply with the Schrödinger equation, for the free electron as well as for the electron in electrostatic and vector potentials. Spin-properties of the electron are referred to intrinsic field components and it is established that a measurement of spin in an external field yields exactly two possible results. The model agrees with the results of standard theory concerning the hydrogen atom. Finally, we analyze many-electron systems and derive a set of coupled equations suitable to characterize the system without any reference to single electron states. The model is expected to have the greatest impact in condensed matter theory, where it allows to describe an $N$-electron system by a many-electron wavefunction $Ψ$ of four, instead of 3N variables. The many-body aspect of a system is in this case encoded in a bivector potential.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-02-18T15:17:55Z</published>
+    <arxiv:comment>The paper has been extended by a modified Landau-Lifshitz equation, describing the change of spin in external magnetic fields. A figure has been added to demonstrate the process. The article has now been accepted for publication and will appear in Foundations of Physics. 21 pages, 1 figure, 59 references</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Found. Phys. 41, 754-791 (2011)</arxiv:journal_ref>
+    <author>
+      <name>Werner A. Hofer</name>
+    </author>
+    <arxiv:doi>10.1007/s10701-010-9517-0</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s10701-010-9517-0" title="doi"/>
+  </entry>
+</feed>

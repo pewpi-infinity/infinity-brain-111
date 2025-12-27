@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pixie 🌸</title>
+<style>
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: linear-gradient(180deg, #ffe6ef, #ffd1e1);
+    color: #5a2a3a;
+  }
+  .container {
+    max-width: 420px;
+    margin: 0 auto;
+    padding: 24px;
+  }
+  .card {
+    background: #fff7fa;
+    border-radius: 24px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 10px 30px rgba(255, 105, 180, 0.2);
+  }
+  .avatar {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 10px auto 16px;
+    border: 6px solid #ffb6c9;
+  }
+  h1 {
+    text-align: center;
+    font-size: 26px;
+    margin: 8px 0 4px;
+  }
+  p {
+    text-align: center;
+    font-size: 15px;
+    opacity: 0.85;
+  }
+  .pill {
+    background: #ffd9e6;
+    border-radius: 999px;
+    padding: 10px 14px;
+    margin: 8px 0;
+    text-align: center;
+    font-weight: 500;
+  }
+  textarea, input {
+    width: 100%;
+    border-radius: 14px;
+    border: none;
+    padding: 12px;
+    margin-top: 8px;
+    font-size: 14px;
+    background: #ffffff;
+  }
+  .footer {
+    text-align: center;
+    font-size: 12px;
+    opacity: 0.6;
+    margin-top: 16px;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+
+    <div class="card">
+      <img src="wkh1u5.jpg" alt="Pixie" class="avatar">
+      <h1>Pixie 🌸</h1>
+      <p>A gentle, happy place</p>
+    </div>
+
+    <div class="card">
+      <div class="pill">🍀 Try your luck</div>
+      <div class="pill">🌸 Make a wish</div>
+      <div class="pill">⭐ Keep it light</div>
+    </div>
+
+    <div class="card">
+      <strong>Notes & Ideas ✨</strong>
+      <textarea rows="4" placeholder="Write ideas, wishes, or plans..."></textarea>
+    </div>
+
+    <div class="card">
+      <strong>This page can become:</strong>
+      <ul>
+        <li>a journal</li>
+        <li>a family space</li>
+        <li>a memory book</li>
+        <li>or just a happy place 💕</li>
+      </ul>
+    </div>
+
+    <div class="footer">
+      Made with love 🌷
+    </div>
+
+  </div>
+<!-- 🧱👰🧱 Pewpi Emoji Login Embed -->
+<script>
+(function () {
+  // Check admin login flag set by pewpi-emoji-login
+  try {
+    const logged = JSON.parse(localStorage.getItem("pewpi_admin_logged"));
+    if (logged === true) {
+      document.documentElement.classList.add("pewpi-admin");
+      console.log("🧱👰🧱 Pewpi admin unlocked");
+    }
+  } catch (e) {}
+})();
+</script>
+
+<style>
+/* Admin-gated UI */
+.admin-only { display: none; }
+.pewpi-admin .admin-only { display: block; }
+</style>
+
+
+
+<!-- PEWPI_LOGIN_START -->
+<section class="card" id="pewpi-login-card">
+  <strong>🔐 Pewpi Login</strong>
+  <p style="opacity:.7">Admin access</p>
+  <button onclick="pewpiLogin()" style="padding:10px 14px;border-radius:12px;">Login</button>
+</section>
+<script>
+function pewpiLogin(){
+  const r = encodeURIComponent(window.location.origin + window.location.pathname);
+  window.location.href = "https://pewpi-infinity.github.io/pewpi-emoji-login/?redirect=" + r;
+}
+(function(){
+  const p = new URLSearchParams(window.location.search);
+  if(p.has("admin")){
+    localStorage.setItem("pewpi_admin_logged","true");
+    document.documentElement.classList.add("pewpi-admin");
+    history.replaceState({}, "", window.location.pathname);
+    console.log("🧱👰🧱 Pewpi admin unlocked");
+  }
+  if(localStorage.getItem("pewpi_admin_logged")==="true"){
+    document.documentElement.classList.add("pewpi-admin");
+  }
+})();
+</script>
+<!-- PEWPI_LOGIN_END -->
+
+</body>
+</html>
+
+<!-- C13B0_ZERO_START -->
+<style>
+/* Layout stabilization */
+html, body { overflow-x: hidden; }
+.container, .wrap, main { max-width: 820px; margin: 0 auto; }
+
+/* Header tighten */
+.pixie-header { margin: 8px auto 6px; text-align:center; }
+.pixie-brand { font-size: 14px; opacity:.75; letter-spacing:.04em; }
+
+/* Admin gate */
+.admin-only { display:none; }
+.pewpi-admin .admin-only { display:block; }
+
+/* Cards */
+.card { border-radius: 16px; padding: 14px; margin: 12px 0; }
+
+/* Spinner placeholder (non-broken) */
+.spinner-wrap { display:flex; justify-content:center; }
+.spinner { width:140px; height:140px; border-radius:50%; border:6px solid #f3c; 
+  animation: spin 4s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+</style>
+
+<section class="pixie-header">
+  <div class="pixie-brand">Notionique &nbsp;•&nbsp; SparklePixie</div>
+</section>
+
+<section class="card admin-only">
+  <strong>🧱👰🧱 Admin Panel</strong>
+  <div style="margin-top:8px">
+    <button onclick="alert('Admin active')">Admin Active</button>
+    <button onclick="alert('Background upload coming next')">Background</button>
+    <button onclick="alert('Layouts coming next')">Layouts</button>
+  </div>
+</section>
+
+<section class="card">
+  <strong>🎰 Spinner (Preview)</strong>
+  <div class="spinner-wrap">
+    <div class="spinner" title="Real reels coming next"></div>
+  </div>
+  <small>Preview only — real reels wired next.</small>
+</section>
+
+<section class="card">
+  <strong>🧱🎟️🧱 Public Tickets (Audit)</strong>
+  <p>Public, lawful reporting pages. Evidence logs, traffic summaries, timestamps.</p>
+  <ul>
+    <li><a href="tickets.html">Tickets Index</a></li>
+    <li><a href="tokens.html">Tokens Index</a></li>
+  </ul>
+</section>
+
+<script>
+/* Admin flag (local to Pixie) */
+try {
+  if (localStorage.getItem("pewpi_admin_logged")==="true") {
+    document.documentElement.classList.add("pewpi-admin");
+  }
+} catch(e){}
+</script>
+<!-- C13B0_ZERO_END -->
+

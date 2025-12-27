@@ -1,0 +1,83 @@
+TERMS: quantum, lattice, resonance
+COLORS: blue, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/8+YYmtKZB54tiWmmkvCuHM2Gu6o</id>
+  <title>arXiv Query: search_query=all:quantum AND all:lattice AND all:resonance&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:06:01Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:lattice+AND+all:resonance)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2160</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1211.6163v1</id>
+    <title>Review of lattice studies of resonances</title>
+    <updated>2012-11-26T23:49:57Z</updated>
+    <link href="https://arxiv.org/abs/1211.6163v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1211.6163v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>I review recent progress in extracting resonance parameters using lattice field theory, with an emphasis on determining hadron resonances from lattice quantum chromodynamics. Until recently, the ρ-meson channel was the only one considered, while, during the last year, several resonant channels have been investigated for the first time. Recent lattice results for scattering phase shifts in resonant channels are presented.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-11-26T23:49:57Z</published>
+    <arxiv:comment>16 pages, 19 figures, plenary talk given at the 30th International Symposium on Lattice Field Theory, Cairns, Australia</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Daniel Mohler</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1711.08830v1</id>
+    <title>Tetraquark resonances computed with static lattice QCD potentials and scattering theory</title>
+    <updated>2017-11-23T21:18:32Z</updated>
+    <link href="https://arxiv.org/abs/1711.08830v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1711.08830v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study tetraquark resonances with lattice QCD potentials computed for two static quarks and two dynamical quarks, the Born-Oppenheimer approximation and the emergent wave method of scattering theory. As a proof of concept we focus on systems with isospin $I = 0$, but consider different relative angular momenta $l$ of the heavy $b$ quarks. We compute the phase shifts and search for $\mbox{S}$ and $\mbox{T}$ matrix poles in the second Riemann sheet. We predict a new tetraquark resonance for $l = 1$, decaying into two $B$ mesons, with quantum numbers $I(J^P) = 0(1^-)$, mass $m = 10576_{-4}^{+4} \, \textrm{MeV}$ and decay width $Γ= 112_{-103}^{+90} \, \textrm{MeV}$.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-11-23T21:18:32Z</published>
+    <arxiv:comment>7 pages, 6 figures, 1 table, Proceedings of the 35th International Symposium on Lattice Field Theory, Granada, Spain</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Pedro Bicudo</name>
+    </author>
+    <author>
+      <name>Marco Cardoso</name>
+    </author>
+    <author>
+      <name>Antje Peters</name>
+    </author>
+    <author>
+      <name>Martin Pflaumer</name>
+    </author>
+    <author>
+      <name>Marc Wagner</name>
+    </author>
+    <arxiv:doi>10.1051/epjconf/201817505017</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1051/epjconf/201817505017" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1911.01949v1</id>
+    <title>Quantum computation toolbox for decoherence-free qubits using multi-band alkali atoms</title>
+    <updated>2019-11-05T17:20:53Z</updated>
+    <link href="https://arxiv.org/abs/1911.01949v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1911.01949v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce protocols for designing and manipulating qubits with ultracold alkali atoms in 3D optical lattices. These qubits are formed from two-atom spin superposition states that create a decoherence-free subspace immune to stray magnetic fields, dramatically improving coherence times while still enjoying the single-site addressability and Feshbach resonance control of state-of-the-art alkali atom systems. Our protocol requires no continuous driving or spin-dependent potentials, and instead relies upon the population of a higher motional band to realize naturally tunable in-site exchange and cross-site superexchange interactions. As a proof-of-principle example of their utility for entanglement generation for quantum computation, we show the cross-site superexchange interactions can be used to engineer 1D cluster states. Explicit protocols for experimental preparation and manipulation of the qubits are also discussed, as well as methods for measuring more complex quantities such as out-of-time-ordered correlation functions (OTOCs).</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-11-05T17:20:53Z</published>
+    <arxiv:comment>10+7 pages, 6+1 figures. Advanced Quantum Technologies (2020)</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Advanced Quantum Technologies 3, 1900132 (2020)</arxiv:journal_ref>
+    <author>
+      <name>Mikhail Mamaev</name>
+    </author>
+    <author>
+      <name>Joseph H. Thywissen</name>
+    </author>
+    <author>
+      <name>Ana Maria Rey</name>
+    </author>
+    <arxiv:doi>10.1002/qute.201900132</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1002/qute.201900132" title="doi"/>
+  </entry>
+</feed>

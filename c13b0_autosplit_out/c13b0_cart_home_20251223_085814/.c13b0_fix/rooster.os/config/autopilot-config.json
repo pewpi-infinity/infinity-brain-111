@@ -1,0 +1,51 @@
+{
+  "autopilot": {
+    "enabled": true,
+    "description": "Enable auto-pilot mode for automatic processing"
+  },
+  "image_cropper": {
+    "enabled": true,
+    "auto_detect_objects": true,
+    "padding_percent": 5,
+    "min_width": 800,
+    "min_height": 800,
+    "output_format": "jpg",
+    "quality": 95
+  },
+  "title_generator": {
+    "enabled": true,
+    "max_length": 80,
+    "include_year": true,
+    "include_condition": true,
+    "templates": [
+      "{year} {type} {denomination} {condition}",
+      "{type} {denomination} - {year} - {condition}",
+      "Vintage {year} {type} {denomination}"
+    ]
+  },
+  "description_generator": {
+    "enabled": true,
+    "include_history": true,
+    "include_specifications": true,
+    "include_story": true,
+    "max_length": 5000,
+    "sections": [
+      "overview",
+      "specifications",
+      "condition",
+      "history",
+      "value_proposition"
+    ]
+  },
+  "auction_settings": {
+    "starting_price_multiplier": 0.8,
+    "reserve_price_multiplier": 1.2,
+    "duration_days": 7,
+    "auto_relist": false
+  },
+  "ai_settings": {
+    "model": "gpt-4-vision",
+    "temperature": 0.7,
+    "confidence_threshold": 0.8
+  }
+}

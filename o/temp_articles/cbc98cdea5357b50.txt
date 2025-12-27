@@ -1,0 +1,89 @@
+TERMS: hydrogen, quantum, graphene, singularity
+COLORS: purple, blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/piVq6szqs6sQ1ebLHvfjt5gvw64</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:graphene AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:40:52Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:graphene+AND+all:singularity))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>3</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1312.5754v2</id>
+    <title>Quantum Sticking of Atoms on Membranes</title>
+    <updated>2014-12-05T19:06:39Z</updated>
+    <link href="https://arxiv.org/abs/1312.5754v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1312.5754v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A continuum model for low-energy physisorption on a membrane under tension is proposed and studied with variational mean-field theory. A discontinuous change in the energy-dependent sticking coefficient is predicted under certain conditions. This singularity is a result of the bosonic orthogonality catastrophe of the vibrational states of the membrane. The energy-dependent sticking coefficient is predicted to have exponential scaling in 1/E above the singularity. The application of this model to the quantum sticking of cold hydrogen to suspended graphene is discussed. The model predicts that a beam of atomic hydrogen can be completely reflected by suspended graphene at ultralow energies.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-12-19T21:12:28Z</published>
+    <arxiv:comment>15 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Phys. Rev. B 90, 245412 (2014)</arxiv:journal_ref>
+    <author>
+      <name>Dennis P. Clougherty</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.90.245412</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.90.245412" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1910.00437v1</id>
+    <title>Measuring the Berry phase of graphene from wavefront dislocations in Friedel oscillations</title>
+    <updated>2019-10-01T14:25:37Z</updated>
+    <link href="https://arxiv.org/abs/1910.00437v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1910.00437v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Electronic band structures dictate the mechanical, optical and electrical properties of crystalline solids. Their experimental determination is therefore of crucial importance for technological applications. While the spectral distribution in energy bands is routinely measured by various techniques, it is more difficult to access the topological properties of band structures such as the Berry phase γ. It is usually thought that measuring the Berry phase requires applying external electromagnetic forces because these allow realizing the adiabatic transport on closed trajectories along which quantum mechanical wave-functions pick up the Berry phase. In graphene, the anomalous quantum Hall effect results from the Berry phase γ = π picked up by massless relativistic electrons along cyclotron orbits and proves the existence of Dirac cones. Contradicting this belief, we demonstrate that the Berry phase of graphene can be measured in absence of any external magnetic field. We observe edge dislocations in the Friedel oscillations formed at hydrogen atoms chemisorbed on graphene. Following Nye and Berry in describing these topological defects as phase singularities of complex fields, we show that the number of additional wave-fronts in the dislocation is a real space measurement of the pseudo spin winding, i.e. graphene's Berry phase. Since the electronic dispersion can also be retrieved from Friedel oscillations, our study establishes the electronic density as a powerful observable to determine both the dispersion relation and topological properties of wavefunctions. This could have profound consequences for the study of the band-structure topology of relativistic and gapped phases in solids.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-10-01T14:25:37Z</published>
+    <arxiv:comment>Supplementary information available at Nature's web site</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>C. Dutreix</name>
+    </author>
+    <author>
+      <name>H. González-Herrero</name>
+    </author>
+    <author>
+      <name>I. Brihuega</name>
+    </author>
+    <author>
+      <name>M. I. Katsnelson</name>
+    </author>
+    <author>
+      <name>C. Chapelier</name>
+    </author>
+    <author>
+      <name>V. T. Renard</name>
+    </author>
+    <arxiv:doi>10.1038/s41586-019-1613-5</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41586-019-1613-5" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1603.03476v2</id>
+    <title>Infrared Dynamics of Cold Atoms on Hot Graphene Membranes</title>
+    <updated>2016-04-04T20:35:19Z</updated>
+    <link href="https://arxiv.org/abs/1603.03476v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1603.03476v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the infrared dynamics of low-energy atoms interacting with a sample of suspended graphene at finite temperature. The dynamics exhibits severe infrared divergences order by order in perturbation theory as a result of the singular nature of low-energy flexural phonon emission. Our model can be viewed as a two-channel generalization of the independent boson model with asymmetric atom-phonon coupling. This allows us to take advantage of the exact non-perturbative solution of the independent boson model in the stronger channel while treating the weaker one perturbatively. In the low-energy limit, the exact solution can be viewed as a resummation (exponentiation) of the most divergent diagrams in the perturbative expansion. As a result of this procedure, we obtain the atom's Green function which we use to calculate the atom damping rate, a quantity equal to the quantum sticking rate. A characteristic feature of our results is that the Green's function retains a weak, infrared cutoff dependence that reflects the reduced dimensionality of the problem. As a consequence, we predict a measurable dependence of the sticking rate on graphene sample size. We provide detailed predictions for the sticking rate of atomic hydrogen as a function of temperature and sample size. The resummation yields an enhanced sticking rate relative to the conventional Fermi golden rule result (equivalent to the one-loop atom self-energy), as higher-order processes increase damping at finite temperature.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-03-10T22:20:21Z</published>
+    <arxiv:comment>11 pages, 13 figures; improved presentation and figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Phys. Rev. B 93, 235437 (2016)</arxiv:journal_ref>
+    <author>
+      <name>Sanghita Sengupta</name>
+    </author>
+    <author>
+      <name>Valeri N. Kotov</name>
+    </author>
+    <author>
+      <name>Dennis P. Clougherty</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.93.235437</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.93.235437" title="doi"/>
+  </entry>
+</feed>

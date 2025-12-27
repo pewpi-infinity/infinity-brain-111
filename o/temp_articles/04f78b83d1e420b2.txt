@@ -1,0 +1,83 @@
+TERMS: hydrogen, muon, neutrino
+COLORS: purple, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/QAmGYvprzKO4mI9L/zXVvjejxgA</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:muon AND all:neutrino&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:04:59Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:muon+AND+all:neutrino)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>47</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/0803.1892v2</id>
+    <title>Nuclear Muon Capture in Hydrogen and its Interplay with Muon Atomic Physics</title>
+    <updated>2008-04-01T21:03:03Z</updated>
+    <link href="https://arxiv.org/abs/0803.1892v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0803.1892v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The singlet capture rate $Λ_S$ for the semileptonic weak process $μ+p \to n+ν_μ$ has been measured in the MuCap experiment. The novel experimental technique is based on stopping muons in an active target, consisting of a time projection chamber operating with ultra-pure hydrogen. This allows the unambiguous determination of the pseudoscalar form factor $g_P$ of the charged electroweak current of the nucleon. Our first result $g_P(q^2=-0.88 m^2_μ) = 7.3 \pm 1.1 $ is consistent with accurate theoretical predictions and constitutes an important test of QCD symmetries. Additional data are being collected with the aim of a three-fold reduction of the experimental uncertainties. Building on the developed advanced techniques, the new MuSun experiment is being planned to measure the muon capture rate on the deuteron to 1.5% precision. This would provide the by far most accurate experimental information on the axial current interacting with the two-nucleon system and determine the low energy constant $L_{1A}$ relevant for solar neutrino reactions.
+  Muon induced atomic and molecular processes represent challenges as well as opportunities for this science program, and their interplay with the main nuclear and weak-interaction physics aspects will be discussed.</summary>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-03-13T03:55:38Z</published>
+    <arxiv:comment>Invited talk at the International Conference on Muon Catalyzed Fusion and Related Topics (MCF-07), Dubna, 18-21 June, 2007; 4/1/08 Lattice references updated</arxiv:comment>
+    <arxiv:primary_category term="nucl-ex"/>
+    <author>
+      <name>Peter Kammel</name>
+      <arxiv:affiliation>for the MuCap Collaboration</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1307.2857v1</id>
+    <title>Ionization of hydrogen by neutrino magnetic moment, relativistic muon, and WIMP</title>
+    <updated>2013-07-10T17:17:24Z</updated>
+    <link href="https://arxiv.org/abs/1307.2857v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1307.2857v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We studied the ionization of hydrogen by scattering of neutrino magnetic moment, relativistic muon, and weakly-interacting massive particle with a QED-like interaction. Analytic results were obtained and compared with several approximation schemes often used in atomic physics. As current searches for neutrino magnetic moment and dark matter have lowered the detector threshold down to the sub-keV regime, we tried to deduce from this simple case study the influence of atomic structure on the the cross sections and the applicabilities of various approximations. The general features being found will be useful for cases where practical detector atoms are considered.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-07-10T17:17:24Z</published>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Jiunn-Wei Chen</name>
+    </author>
+    <author>
+      <name>C. -P. Liu</name>
+    </author>
+    <author>
+      <name>Chien-Fu Liu</name>
+    </author>
+    <author>
+      <name>Chih-Liang Wu</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.88.033006</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.88.033006" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2110.06944v2</id>
+    <title>Is the high-energy neutrino event IceCube-200530A associated with a hydrogen-rich superluminous supernova?</title>
+    <updated>2022-03-03T14:33:34Z</updated>
+    <link href="https://arxiv.org/abs/2110.06944v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2110.06944v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Zwicky Transient Facility (ZTF) follow-up campaign of alerts released by the IceCube Neutrino Observatory has led to the likely identification of the transient AT2019fdr as the source of the neutrino event IC200530A. AT2019fdr was initially suggested to be a tidal disruption event in a Narrow-Line Seyfert 1 galaxy. However, the combination of its spectral properties, color evolution, and feature-rich light curve suggests that AT2019fdr may be a Type IIn superluminous supernova. In the latter scenario, IC200530A may have been produced via inelastic proton-proton collisions between the relativistic protons accelerated at the forward shock and the cold protons of the circumstellar medium. Here, we investigate this possibility and find that at most $4.6\times 10^{-2}$ muon neutrino and antineutrino events are expected to be detected by the IceCube Neutrino Observatory within $394$ days of discovery in the case of excellent discrimination of the atmospheric background. After correcting for the Eddington bias, which occurs when a single cosmic neutrino event is adopted to infer the neutrino emission at the source, we conclude that IC200530A may originate from the hydrogen-rich superluminous supernova AT2019fdr.</summary>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-10-13T18:00:03Z</published>
+    <arxiv:comment>16 pages, including 10 figures. Improved modeling for neutrino production, conclusions unchanged, matches version accepted for publication in ApJ</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.HE"/>
+    <arxiv:journal_ref>Astrophys. J. 929 (2022) 163</arxiv:journal_ref>
+    <author>
+      <name>Tetyana Pitik</name>
+    </author>
+    <author>
+      <name>Irene Tamborra</name>
+    </author>
+    <author>
+      <name>Charlotte R. Angus</name>
+    </author>
+    <author>
+      <name>Katie Auchettl</name>
+    </author>
+    <arxiv:doi>10.3847/1538-4357/ac5ab1</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3847/1538-4357/ac5ab1" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,70 @@
+TERMS: hydrogen, quantum, wavefunction, graphene
+COLORS: purple, blue, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/qGM/9w33bM0ixw3luAuyHdKsnPY</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:wavefunction AND all:graphene&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:40:32Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:wavefunction+AND+all:graphene))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1305.7247v1</id>
+    <title>Exciton Energy Spectra in Two-Dimensional Graphene Derivatives</title>
+    <updated>2013-05-30T20:26:42Z</updated>
+    <link href="https://arxiv.org/abs/1305.7247v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1305.7247v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The energy spectra and wavefunctions of bound excitons in important two-dimensional (2D) graphene derivatives, i.e., graphyne and graphane, are found to be strongly modified by quantum confinement, making them qualitatively different from the usual Rydberg series. However, their parity and optical selection rules are preserved. Thus a one-parameter modified hydrogenic model is applied to quantitatively explain the ab initio exciton spectra, and allows one to extrapolate the electron-hole binding energy from optical spectroscopies of 2D semiconductors without costly simulations. Meanwhile, our calculated optical absorption spectrum and enhanced spin singlet-triplet splitting project graphyne, an allotrope of graphene, as a candidate for intriguing energy and biomedical applications.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-05-30T20:26:42Z</published>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Phys. Rev. B 88, 075441 (2013)</arxiv:journal_ref>
+    <author>
+      <name>Shouting Huang</name>
+    </author>
+    <author>
+      <name>Yufeng Liang</name>
+    </author>
+    <author>
+      <name>Li Yang</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.88.075441</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.88.075441" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1910.00437v1</id>
+    <title>Measuring the Berry phase of graphene from wavefront dislocations in Friedel oscillations</title>
+    <updated>2019-10-01T14:25:37Z</updated>
+    <link href="https://arxiv.org/abs/1910.00437v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1910.00437v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Electronic band structures dictate the mechanical, optical and electrical properties of crystalline solids. Their experimental determination is therefore of crucial importance for technological applications. While the spectral distribution in energy bands is routinely measured by various techniques, it is more difficult to access the topological properties of band structures such as the Berry phase γ. It is usually thought that measuring the Berry phase requires applying external electromagnetic forces because these allow realizing the adiabatic transport on closed trajectories along which quantum mechanical wave-functions pick up the Berry phase. In graphene, the anomalous quantum Hall effect results from the Berry phase γ = π picked up by massless relativistic electrons along cyclotron orbits and proves the existence of Dirac cones. Contradicting this belief, we demonstrate that the Berry phase of graphene can be measured in absence of any external magnetic field. We observe edge dislocations in the Friedel oscillations formed at hydrogen atoms chemisorbed on graphene. Following Nye and Berry in describing these topological defects as phase singularities of complex fields, we show that the number of additional wave-fronts in the dislocation is a real space measurement of the pseudo spin winding, i.e. graphene's Berry phase. Since the electronic dispersion can also be retrieved from Friedel oscillations, our study establishes the electronic density as a powerful observable to determine both the dispersion relation and topological properties of wavefunctions. This could have profound consequences for the study of the band-structure topology of relativistic and gapped phases in solids.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-10-01T14:25:37Z</published>
+    <arxiv:comment>Supplementary information available at Nature's web site</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>C. Dutreix</name>
+    </author>
+    <author>
+      <name>H. González-Herrero</name>
+    </author>
+    <author>
+      <name>I. Brihuega</name>
+    </author>
+    <author>
+      <name>M. I. Katsnelson</name>
+    </author>
+    <author>
+      <name>C. Chapelier</name>
+    </author>
+    <author>
+      <name>V. T. Renard</name>
+    </author>
+    <arxiv:doi>10.1038/s41586-019-1613-5</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41586-019-1613-5" title="doi"/>
+  </entry>
+</feed>

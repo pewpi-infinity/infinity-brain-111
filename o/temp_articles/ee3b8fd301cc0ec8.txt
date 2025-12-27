@@ -1,0 +1,82 @@
+TERMS: hydrogen, quantum, graphene, resonance
+COLORS: purple, blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/OxoT3XzKvNsPVOe8Iop9fSK8l18</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:graphene AND all:resonance&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:40:43Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:graphene+AND+all:resonance))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>7</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1909.12495v1</id>
+    <title>Valley filters, accumulators, and switches induced in graphene quantum dots by lines of adsorbed hydrogen atoms</title>
+    <updated>2019-09-27T05:08:10Z</updated>
+    <link href="https://arxiv.org/abs/1909.12495v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1909.12495v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present electronic structure and quantum transport calculations that predict conducting channels induced in graphene quantum dots by lines of adsorbed hydrogen atoms to function as highly efficient, experimentally realizable valley filters, accumulators and switches. The underlying physics is a novel property of graphene Dirac point resonances (DPRs) that is revealed here, namely, that an electric current passing through a DPR-mediated conducting channel in a given direction is carried by electrons of em only one of the two graphene valleys. Our predictions apply to lines of hydrogen atoms adsorbed on graphene quantum dots that are either free standing or supported on a hexagonal boron nitride substrate.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-09-27T05:08:10Z</published>
+    <arxiv:comment>5 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Phys. Rev. B 97, 245404 , (2018)</arxiv:journal_ref>
+    <author>
+      <name>Mohammadhadi Azari</name>
+    </author>
+    <author>
+      <name>George Kirczenow</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.97.245404</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.97.245404" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1502.01184v2</id>
+    <title>Magnetism and interaction-induced gap opening in graphene with vacancies or hydrogen adatoms: Quantum Monte Carlo study</title>
+    <updated>2015-05-22T00:20:48Z</updated>
+    <link href="https://arxiv.org/abs/1502.01184v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1502.01184v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study electronic properties of graphene with finite concentration of vacancies or other resonant scatterers by a straightforward lattice Quantum Monte Carlo calculations. Taking into account realistic long-range Coulomb interaction we calculate distribution of spin density associated to midgap states and demonstrate antiferromagnetic ordering. Energy gaps are open due to the interaction effects, both in the bare graphene spectrum and in the vacancy/impurity bands. In the case of 5 % concentration of resonant scatterers the latter gap is estimated as 0.7 eV and 1.1 eV for graphene on boron nitride and freely suspended graphene, respectively.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-02-04T13:14:03Z</published>
+    <arxiv:comment>Text is substantially updated, temperature dependence of order parameter is added. Accepted for publication in PRL</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 114, 246801 (2015)</arxiv:journal_ref>
+    <author>
+      <name>M. V. Ulybyshev</name>
+    </author>
+    <author>
+      <name>M. I. Katsnelson</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.114.246801</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.114.246801" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1007.3930v2</id>
+    <title>Modeling electronic structure and transport properties of graphene with resonant scattering centers</title>
+    <updated>2010-09-17T09:32:21Z</updated>
+    <link href="https://arxiv.org/abs/1007.3930v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1007.3930v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a detailed numerical study of the electronic properties of single-layer graphene with resonant ("hydrogen") impurities and vacancies within a framework of noninteracting tight-binding model on a honeycomb lattice. The algorithms are based on the numerical solution of the time-dependent Schrödinger equation and applied to calculate the density of states, \textit{quasieigenstates}, AC and DC conductivities of large samples containing millions of atoms. Our results give a consistent picture of evolution of electronic structure and transport properties of functionalized graphene in a broad range of concentration of impurities (from graphene to graphane), and show that the formation of impurity band is the main factor determining electrical and optical properties at intermediate impurity concentrations, together with a gap opening when approaching the graphane limit.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-07-22T16:20:06Z</published>
+    <arxiv:comment>17 pages, 17 figures, expanded version to appear in PRB</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Phys. Rev. B 82, 115448 (2010)</arxiv:journal_ref>
+    <author>
+      <name>Shengjun Yuan</name>
+    </author>
+    <author>
+      <name>Hans De Raedt</name>
+    </author>
+    <author>
+      <name>Mikhail I. Katsnelson</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.82.115448</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.82.115448" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,92 @@
+TERMS: lattice, singularity
+COLORS: orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/3W+vihCsJtyddppVsKC4PKDMNOM</id>
+  <title>arXiv Query: search_query=all:lattice AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T00:57:46Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+all:singularity&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2539</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1210.7794v1</id>
+    <title>Glueball spectral densities from the lattice</title>
+    <updated>2012-10-29T19:57:19Z</updated>
+    <link href="https://arxiv.org/abs/1210.7794v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1210.7794v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The propagator of a physical degree of freedom ought to obey a Källén-Lehmann spectral representation, with positive spectral density. The latter quantity is directly related to a cross section based on the optical theorem. The spectral density is a crucial ingredient of a quantum field theory with elementary and bound states, with a direct experimental connection as the masses of the excitations reflect themselves into (continuum) $δ$-singularities. In usual lattice simulational approaches to the QCD spectrum the spectral density itself is not accessed. The (bound state) masses are extracted from the asymptotic exponential decay of the two-point function. Given the importance of the spectral density, each nonperturbative continuum approach to QCD should be able to adequately describe it or to take into proper account. In this work, we wish to present a first trial in extracting an estimate for the scalar glueball spectral density in SU(3) gluodynamics using lattice gauge theory.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-10-29T19:57:19Z</published>
+    <arxiv:comment>Proceedings of the 30th International Symposium on Lattice Field Theory - Lattice 2012; June 24-29, 2012; Cairns, Australia</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>PoS(Lattice 2012)214</arxiv:journal_ref>
+    <author>
+      <name>O. Oliveira</name>
+    </author>
+    <author>
+      <name>D. Dudal</name>
+    </author>
+    <author>
+      <name>P. J. Silva</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-lat/0609044v3</id>
+    <title>Exploring the chiral singularities of two color lattice QCD at strong coupling</title>
+    <updated>2006-10-15T11:40:36Z</updated>
+    <link href="https://arxiv.org/abs/hep-lat/0609044v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-lat/0609044v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We use a modified directed path algorithm to study the finite temperature chiral singularities of two color lattice QCD with staggered fermions at strong coupling. Our lattice calculations are done at a fixed finite temperature in the broken phase with a variety of different quark masses. We find that to the lowest order, the behavior of our observables, namely the condensates and the decay constants are all consistent with the predictions of the low energy effective theory of our model. We further notice that in order to see consistency, the quark masses used in our lattice calculations need to be quite small than typically used.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-09-25T17:08:49Z</published>
+    <arxiv:comment>7 pages, 6 figures, talked presented at lattice 2006</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>PoSLAT2006:138,2006</arxiv:journal_ref>
+    <author>
+      <name>Fu-Jiun Jiang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2111.06241v1</id>
+    <title>Lee-Yang edge singularities in lattice QCD : A systematic study of singularities in the complex $μ_B$ plane using rational approximations</title>
+    <updated>2021-11-11T14:39:25Z</updated>
+    <link href="https://arxiv.org/abs/2111.06241v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2111.06241v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A new approach is presented to explore the singularity structure of lattice QCD at imaginary chemical potential. Our method can be seen as a combination of the Taylor expansion and analytic continuation approaches. Its novelty lies in using rational (Padé) approximants for studying Lee Yang edge singularities. The motivation for using rational approximants will be exhibited. We will provide some confidence in our approach based on numerical experiments performed on well-motivated "toy models". Our focus lies in identifying singularities of the net-baryon number density in the complex $μ_B$ plane. To this end we have found signatures of the Roberge-Weiss critical point(and Chiral singularities -- subject to some caveats). In this contribution we will discuss the setup, simulation parameters and results obtained for 2+1 flavor QCD in the complex $μ_B/T$ plane.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-11-11T14:39:25Z</published>
+    <arxiv:comment>9 pages 6 figures and 2 tables. Talk at 38th international Lattice conference 2021 online Zoom/Gather @ MIT, USA</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Simran Singh</name>
+    </author>
+    <author>
+      <name>Petros Dimopoulos</name>
+    </author>
+    <author>
+      <name>Lorenzo Dini</name>
+    </author>
+    <author>
+      <name>Francesco Di Renzo</name>
+    </author>
+    <author>
+      <name>Jishnu Goswami</name>
+    </author>
+    <author>
+      <name>Guido Nicotra</name>
+    </author>
+    <author>
+      <name>Christian Schmidt</name>
+    </author>
+    <author>
+      <name>Kevin Zambello</name>
+    </author>
+    <author>
+      <name>Felix Ziesche</name>
+    </author>
+  </entry>
+</feed>

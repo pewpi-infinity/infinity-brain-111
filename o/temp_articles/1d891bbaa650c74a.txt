@@ -1,0 +1,48 @@
+TERMS: hydrogen, electron, oxidation, singularity
+COLORS: purple, green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/MkJkb0LNOLqSkC/mWdhs0aiX2NQ</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:electron AND all:oxidation AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:57:28Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:electron+AND+(all:oxidation+AND+all:singularity))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2109.05209v1</id>
+    <title>Surface Van Hove Singularity Enabled Efficient Catalysis: The Cases of CO Oxidation and Hydrogen Evolution Reactions</title>
+    <updated>2021-09-11T07:56:39Z</updated>
+    <link href="https://arxiv.org/abs/2109.05209v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2109.05209v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Surface Van Hove singularity (SVHS), defined as the surface states near the Fermi level (EF) in low-dimensional systems, triggers exciting physical phenomena distinct from bulk. We herein explore theoretically the potential role of SVHS in catalysis taking CO oxidation reaction as prototype over graphene/Ca2N (Gra/Ca2N) heterojunction and Pt2HgSe3 (001) surface. It is demonstrated that both systems with SVHS could serve as an electron bath to promote O2 adsorption and subsequent CO oxidation with low energy barriers of 0.2 ~ 0.6 eV for Gra/Ca2N and Pt2HgSe3 (001) surface. Importantly, the catalytically active sites associated with SVHS are well-defined and uniformly distributed over the whole surface plane, which is superior to the commonly adopted defect or doping strategy, and further the chemical reactivity of SVHS also can be tuned easily via adjusting its position with respect to EF. Our study demonstrates the enabling power of SVHS, and provides novel physical insights into the promising potential role of VHS in designing high-efficiency catalysts.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-09-11T07:56:39Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Liangliang Liu</name>
+    </author>
+    <author>
+      <name>Chunyan Wang</name>
+    </author>
+    <author>
+      <name>Liying Zhang</name>
+    </author>
+    <author>
+      <name>Chengyan Liu</name>
+    </author>
+    <author>
+      <name>Chunyao Niu</name>
+    </author>
+    <author>
+      <name>Zaiping Zeng</name>
+    </author>
+    <author>
+      <name>Dongwei Ma</name>
+    </author>
+    <author>
+      <name>Yu Jia</name>
+    </author>
+  </entry>
+</feed>

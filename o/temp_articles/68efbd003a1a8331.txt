@@ -1,0 +1,31 @@
+TERMS: hydrogen, lattice, superconductivity, plasma
+COLORS: purple, orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/vnjaakZb1iTItaxbIn66QrPJ1Ds</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:lattice AND all:superconductivity AND all:plasma&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:47:36Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:lattice+AND+(all:superconductivity+AND+all:plasma))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1607.00680v2</id>
+    <title>Metallic phase of hydrogen at the pressure 500GPa</title>
+    <updated>2016-07-05T14:08:13Z</updated>
+    <link href="https://arxiv.org/abs/1607.00680v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1607.00680v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The first-principle method of mathematical modeling was used to calculate the structural, electronic, phonon, and other characteristics of the normal metallic phase of hydrogen at a pressure of 500 GPa. It has been shown that metal hydrogen having a lattice symmetry I41 / AMD cell is a stable phase under a high pressure hydrostatic compression. The resulting structure is a locally stable one with respect to the phonon spectrum.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-07-03T20:41:17Z</published>
+    <arxiv:comment>4 pages, 6 figures. Reported at II International Conference on Plasma and Laser Research and Technologies. Moscow, 25-27 January 2016. To be published in Journal of Physics: Conference Series</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>Nikolay Degtyarenko</name>
+    </author>
+    <author>
+      <name>Evgeny Mazur</name>
+    </author>
+  </entry>
+</feed>

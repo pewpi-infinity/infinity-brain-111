@@ -1,0 +1,86 @@
+TERMS: frequency, graphene, singularity
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/0s4KDnIDRRFeaJjwaSkjem1odyI</id>
+  <title>arXiv Query: search_query=all:frequency AND all:graphene AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:12:20Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:graphene+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>42</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1810.10467v1</id>
+    <title>Broadband Tunable THz Absorption with Singular Graphene Metasurfaces</title>
+    <updated>2018-10-24T16:03:30Z</updated>
+    <link href="https://arxiv.org/abs/1810.10467v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1810.10467v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>By exploiting singular spatial modulations of the graphene conductivity, we design a broadband, tunable THz absorber whose efficiency approaches the theoretical upper bound for a wide absorption band with a fractional bandwidth of 185\%. Strong field enhancement is exhibited by the modes of this extended structure, which is able to excite a wealth of high order surface plasmons, enabling deeply subwavelength focussing of incident THz radiation. Previous studies have shown that the conductivity can be modulated at GHz frequencies, which might lead to the development of efficient high speed broadband switching by an atomically thin layer.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-10-24T16:03:30Z</published>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Broadband Tunable THz Absorption with Singular Graphene Metasurfaces Emanuele Galiffi, John B. Pendry, and Paloma A. Huidobro ACS Nano 2018 12 (2), 1006-1013 DOI: 10.1021/acsnano.7b07951</arxiv:journal_ref>
+    <author>
+      <name>Emanuele Galiffi</name>
+    </author>
+    <author>
+      <name>John Pendry</name>
+    </author>
+    <author>
+      <name>Paloma Arroyo Huidobro</name>
+    </author>
+    <arxiv:doi>10.1021/acsnano.7b07951</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1021/acsnano.7b07951" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2208.08366v2</id>
+    <title>Transport signatures of Van Hove singularities in mesoscopic twisted bilayer graphene</title>
+    <updated>2022-12-07T14:53:16Z</updated>
+    <link href="https://arxiv.org/abs/2208.08366v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2208.08366v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Magic-angle twisted bilayer graphene exhibits quasi-flat low-energy bands with Van Hove singularities close to the Fermi level. These singularities play an important role in the exotic phenomena observed in this material, such as superconductivity and magnetism, by amplifying electronic correlation effects. In this work, we study the correspondence of four-terminal conductance and the Fermi surface topology as a function of the twist angle, pressure, and energy in mesoscopic, ballistic samples of small-angle twisted bilayer graphene. We establish a correspondence between features in the wide-junction conductance and the presence of van Hove singularities in the density of states. Moreover, we identify additional transport features, such as a large, pressure-tunable minimal conductance, conductance peaks coinciding with non-singular band crossings, and unusually large conductance oscillations as a function of the system size. Our results suggest that twisted bilayer graphene close the magic angle is a unique system featuring simultaneously large conductance due to the quasi-flat bands, strong quantum nonlinearity due to the Van Hove singularities and high sensitivity to external parameters, which could be utilized in high-frequency device applications and sensitive detectors.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-08-17T15:57:58Z</published>
+    <arxiv:comment>9 pages + one page Appendix, contains link to data repository</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Phys. Rev. Research 4, 043145 (2022)</arxiv:journal_ref>
+    <author>
+      <name>Aleksander Sanjuan Ciepielewski</name>
+    </author>
+    <author>
+      <name>Jakub Tworzydło</name>
+    </author>
+    <author>
+      <name>Timo Hyart</name>
+    </author>
+    <author>
+      <name>Alexander Lau</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevResearch.4.043145</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevResearch.4.043145" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2011.04375v2</id>
+    <title>Low-frequency critical current noise in graphene Josephson junctions in the open-circuit gate voltage limit</title>
+    <updated>2020-11-16T14:40:07Z</updated>
+    <link href="https://arxiv.org/abs/2011.04375v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2011.04375v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate critical current noise in short ballistic graphene Josephson junctions in the open-circuit gate-voltage limit within the McWorther model. We find flicker noise in a wide frequency range and discuss the temperature dependence of the noise amplitude as a function of the doping level. At the charge neutrality point we find a singular temperature dependence $T^{-3}$, strikingly different from the linear dependence expected for short ballistic graphene Josephson junctions under fixed gate voltage.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-11-09T12:21:32Z</published>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Eur. Phys. J. Spec. Top. (2021)</arxiv:journal_ref>
+    <author>
+      <name>Francesco M. D. Pellegrino</name>
+    </author>
+    <author>
+      <name>Giuseppe Falci</name>
+    </author>
+    <author>
+      <name>Elisabetta Paladino</name>
+    </author>
+    <arxiv:doi>10.1140/epjs/s11734-021-00071-7</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1140/epjs/s11734-021-00071-7" title="doi"/>
+  </entry>
+</feed>

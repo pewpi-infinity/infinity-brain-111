@@ -1,0 +1,65 @@
+TERMS: hydrogen, electron, singularity
+COLORS: purple, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/An+HUvwW5Wlx+0kkjZvROMLhmSY</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:electron AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:03:11Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:electron+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>48</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1507.07062v1</id>
+    <title>A second mapping method in generalized discrete singular convolution algorithm: regularizing singularities for one electron system</title>
+    <updated>2015-07-25T03:32:03Z</updated>
+    <link href="https://arxiv.org/abs/1507.07062v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1507.07062v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A second mapping method is introduced in the generalized discrete singular convolution algorithm. The mapping approaches are adopted to regularize singularities for one electron system. The applications of the two mapping methods are generalized from the radial hydrogen problem to the one-dimensional hydrogen problem. Three mapping functions are chosen: the square-root mapping function, the cube-root mapping function, and the logarithm mapping function. However, the present mapping approaches fail in both the two-dimensional and three-dimensional hydrogen problems, because the wavefunctions of s-states at the nuclei are not correct.</summary>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-07-25T03:32:03Z</published>
+    <arxiv:comment>25 pages, 5 figures, 8 tables</arxiv:comment>
+    <arxiv:primary_category term="physics.comp-ph"/>
+    <author>
+      <name>Kaige Hu</name>
+    </author>
+    <author>
+      <name>Ruiqin Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2009.11986v1</id>
+    <title>Spectrum of the Dirac Hamiltonian for Hydrogenic atoms on spacetimes with mild singularities</title>
+    <updated>2020-09-25T00:09:09Z</updated>
+    <link href="https://arxiv.org/abs/2009.11986v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2009.11986v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We model a single-electron ion (hydrogenic atom) as a static, spherically symmetric electrovacuum spacetime in which the nucleus is treated as a timelike line-singularity and the electron is treated as a test particle following Dirac's equation. The spacetime is a solution of Einstein-Maxwell equations with a non-linear vacuum law. An example is Hoffmann's spacetime obtained using the Born-Infeld law. The Dirac Hamiltonian is shown to be essentially self-adjoint, independent of the atomic number. The essential spectrum and absolutely continuous spectrum are the same as in Dirac's Hamiltonian on Minkowski space with a Coulomb potential. Presence of infinitely many eigenvalues is shown and a clustering result is obtained.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-09-25T00:09:09Z</published>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Moulik Kallupalam Balasubramanian</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.01962v1</id>
+    <title>Selective Hydrogen Adsoprtion in Graphene Rotated Bilayers</title>
+    <updated>2017-10-05T11:02:33Z</updated>
+    <link href="https://arxiv.org/abs/1710.01962v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1710.01962v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The absorption energy of atomic hydrogen at rotated graphene bilayers is studied using ab initio methods based on the density functional theory including van der Waals interactions. We find that, due to the surface corrugation induced by the underneath rotated layer and the perturbation of the electronic density of states near the Fermi energy, the atoms with an almost AA stacking are the preferential ones for hydrogen chemisorption. The adsorption energy difference between different atoms can be as large as 80 meV. In addition, we find that, due to the logarithmic van Hove singularities in the electronic density of states at energies close to the Dirac point, the adsorption energy of either electron or hole doped samples is substantially increased. We also find that the adsorption energy increases with the decrease of the rotated angle between the layers. Finally, the large zero point energy of the C-H bond (${\sim 0.3 eV}$) suggests adsorption and desorption of atomic hydrogen and deuterium should behave differently.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-10-05T11:02:33Z</published>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>The Journal of Physical Chemistry B, Article ASAP,July 28, 2017</arxiv:journal_ref>
+    <author>
+      <name>Ivan Brihuega</name>
+    </author>
+    <author>
+      <name>Felix Yndurain</name>
+    </author>
+    <arxiv:doi>10.1021/acs.jpcb.7b05085</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1021/acs.jpcb.7b05085" title="doi"/>
+  </entry>
+</feed>

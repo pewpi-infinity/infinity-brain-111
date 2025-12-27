@@ -1,0 +1,66 @@
+TERMS: entropy, electron, graphene
+COLORS: red, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/8LJ+1jV2Ab3j0pYkblMSzXGMtv0</id>
+  <title>arXiv Query: search_query=all:entropy AND all:electron AND all:graphene&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:17:04Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+(all:electron+AND+all:graphene)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>52</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1311.5392v1</id>
+    <title>Hydrodynamic equations for electrons in graphene obtained from the maximum entropy principle</title>
+    <updated>2013-11-21T13:11:29Z</updated>
+    <link href="https://arxiv.org/abs/1311.5392v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1311.5392v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The maximum entropy principle is applied to the formal derivation of isothermal, Euler-like equations for semiclassical fermions (electrons and holes) in graphene. After proving general mathematical properties of the equations so obtained, their asymptotic form corresponding to significant physical regimes is investigated. In particular, the diffusive regime, the Maxwell-Boltzmann regime (high temperature), the collimation regime and the degenerate gas limit (vanishing temperature) are considered.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-11-21T13:11:29Z</published>
+    <arxiv:comment>32 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Luigi Barletti</name>
+    </author>
+    <arxiv:doi>10.1063/1.4886698</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/1.4886698" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1905.10185v1</id>
+    <title>Some fluid-dynamic models for quantum electron transport in graphene via entropy minimization</title>
+    <updated>2019-05-23T11:54:10Z</updated>
+    <link href="https://arxiv.org/abs/1905.10185v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1905.10185v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We derive some fluid-dynamic models for electron transport near a Dirac point in graphene. We start from a kinetic model constituted by a set of spinorial Wigner equations, we make suitable scalings (hydrodynamic or diffusive) of the model and we build moment equations, which we close through a minimum entropy principle. In order to do this we make some assumptions: the usual semiclassical approximation ($\hbar\ll 1$), and two further hypothesis, namely Low Scaled Fermi Speed (LSFS) and Strongly Mixed State (SMS), which allow us to explicitly compute the closure.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-05-23T11:54:10Z</published>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>Nicola Zamponi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2108.02216v2</id>
+    <title>Momentum-space Gravity from the Quantum Geometry and Entropy of Bloch Electrons</title>
+    <updated>2021-12-30T23:04:54Z</updated>
+    <link href="https://arxiv.org/abs/2108.02216v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2108.02216v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Quantum geometry is a key quantity that distinguishes electrons in a crystal from those in the vacuum. Its study continues to provide insights into quantum materials, uncovering new design principles for their discovery. However, unlike the Berry curvature, an intuitive understanding of the quantum metric is lacking. Here, we show that the quantum metric of Bloch electrons leads to a momentum-space gravity. In particular, by extending the semiclassical formulation of electron dynamics to second order, we find that the resulting velocity is modified by a geodesic term and becomes the momentum-space dual of the Lorentz force in curved space. We calculate this geodesic response for magic-angle twisted bilayer graphene and show that moiré systems with flat bands are ideal candidates to observe this effect. Extending this analogy with gravity further, we find that the momentum-space dual of the Einstein field equations remains sourceless for pure states while for mixed states it acquires a source term that depends on the von Neumann entropy, for small entropies. We compare this stress-energy equation with the weak-field limit of general relativity and conclude that the von Neumann entropy is the momentum-space dual of the gravitational potential. Consequently, the momentum-space geodesic equation for mixed states is modified by a term resembling an entropic force. Our results highlight connections between quantum geometry, momentum-space gravity and quantum information, prompting further exploration of this dual gravity in quantum materials.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-08-04T18:00:03Z</published>
+    <arxiv:comment>21 pages, 4 figures. Added calculation of geodesic response in magic-angle twisted bilayer graphene and its experimental realization</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>Tyler B. Smith</name>
+    </author>
+    <author>
+      <name>Lakshmi Pullasseri</name>
+    </author>
+    <author>
+      <name>Ajit Srivastava</name>
+    </author>
+  </entry>
+</feed>

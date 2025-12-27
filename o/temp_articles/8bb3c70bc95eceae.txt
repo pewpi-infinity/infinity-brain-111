@@ -1,0 +1,76 @@
+TERMS: muon, boson, plasma
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/83eVzM0Tm5zLE+m1J4RyM38MX9E</id>
+  <title>arXiv Query: search_query=all:muon AND all:boson AND all:plasma&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:36:18Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:muon+AND+(all:boson+AND+all:plasma)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>7</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2008.07809v1</id>
+    <title>Electroweak-boson production in p-Pb and Pb-Pb collisions at the LHC with ALICE</title>
+    <updated>2020-08-18T09:10:07Z</updated>
+    <link href="https://arxiv.org/abs/2008.07809v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2008.07809v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Electroweak bosons are sensitive probes of the initial state of heavy-ion collisions, of which a precise knowledge is required in order to disentangle initial state effects from phenomena induced by the presence of the quark--gluon plasma (QGP). The production rate of the Z and W$^\pm$ bosons is especially sensitive to the nuclear modification of the Parton Distribution Functions (PDF), and the muonic decays (Z $\rightarrow μ^+μ^-$ and W$^\pm \rightarrow μ^\pm ν$) offer medium-blind processes carrying this information to the detector where it can be directly collected. In this contribution, new measurements of electroweak bosons in p--Pb collisions at $\sqrt{s_{_{\rm NN}}}$ = 8.16 TeV and Pb--Pb collisions at $\sqrt{s_{_{\rm NN}}}$ = 5.02 TeV measured by the ALICE Collaboration are reported. The data are collected at forward rapidity with the ALICE muon spectrometer and are compared to theoretical predictions with and without including nuclear modifications.</summary>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-08-18T09:10:07Z</published>
+    <arxiv:comment>5 pages, 6 figures, proceedings of parallel talk at the Hard Probes 2020 conference, 1-6 June, Austin, Texas</arxiv:comment>
+    <arxiv:primary_category term="nucl-ex"/>
+    <arxiv:journal_ref>PoS(HardProbes2020)112</arxiv:journal_ref>
+    <author>
+      <name>Guillaume Taillepied</name>
+      <arxiv:affiliation>for the ALICE Collaboration</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2307.03143v3</id>
+    <title>Supernova Limits on Muonic Dark Forces</title>
+    <updated>2023-10-12T20:16:51Z</updated>
+    <link href="https://arxiv.org/abs/2307.03143v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2307.03143v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Proto-neutron stars formed during core-collapse supernovae are hot and dense environments that contain a sizable population of muons. If these interact with new long-lived particles with masses up to roughly 100 MeV, the latter can be produced and escape from the stellar plasma, causing an excessive energy loss constrained by observations of SN 1987A. In this article we calculate the emission of light dark fermions that are coupled to leptons via a new massive vector boson, and determine the resulting constraints on the general parameter space. We apply these limits to the gauged $L_μ-L_τ$ model with dark fermions, and show that the SN 1987A constraints exclude a significant portion of the parameter space targeted by future experiments. We also extend our analysis to generic effective four-fermion operators that couple dark fermions to muons, electrons, or neutrinos. We find that SN 1987A cooling probes a new-physics scale up to $\sim7$ TeV, which is an order of magnitude larger than current bounds from laboratory experiments.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-07-06T17:11:28Z</published>
+    <arxiv:comment>25 pages, 6 Figures, 1 Table, python code for numerical analysis available under the following url: https://github.com/spinjo/SNforMuTau.git Version accepted for publication in PRD</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys.Rev.D 108 (2023) 10, 103020</arxiv:journal_ref>
+    <author>
+      <name>Claudio Andrea Manzari</name>
+    </author>
+    <author>
+      <name>Jorge Martin Camalich</name>
+    </author>
+    <author>
+      <name>Jonas Spinner</name>
+    </author>
+    <author>
+      <name>Robert Ziegler</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.108.103020</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.108.103020" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.00094v2</id>
+    <title>How to rule out $(g-2)_μ$ in $U(1)_{L_μ-L_τ}$ with White Dwarf Cooling</title>
+    <updated>2024-06-20T16:30:46Z</updated>
+    <link href="https://arxiv.org/abs/2405.00094v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.00094v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In recent years, the gauge group $U(1)_{L_μ-L_τ}$ has received a lot of attention since it can, in principle, account for the observed excess in the anomalous muon magnetic moment $(g-2)_μ$, as well as the Hubble tension. Due to unavoidable, loop-induced kinetic mixing with the SM photon and $Z$, the $U(1)_{L_μ-L_τ}$ gauge boson $A'$ can contribute to stellar cooling via decays into neutrinos. In this work, we perform for the first time an \textit{ab initio} computation of the neutrino emissivities of white dwarf stars due to plasmon decay in a model of gauged $U(1)_{L_μ-L_τ}$. A key result is that current observations of the early-stage white dwarf neutrino luminosity at the 30\% level exclude previously allowed regions of the parameter space favoured by a simultaneous explanation of the $(g-2)_μ$ and $H_0$ anomalies. In this work, we present the relevant white dwarf cooling limits over the entire $A'$ mass range. In particular, we have performed a rigorous computation of the luminosities in the resonant regime, where the $A'$ mass is comparable to the white dwarf plasma frequencies.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-04-30T18:00:01Z</published>
+    <arxiv:comment>17 pages, 6 figures, 2 data files; v2: improved discussion of the cooling limit, matches journal version to appear in JHEP</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Patrick Foldenauer</name>
+    </author>
+    <author>
+      <name>Jaime Hoefken Zink</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,79 @@
+TERMS: entropy, oxidation, probability
+COLORS: red, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Ziemt0TygnlSno77wlRyuuEBbPs</id>
+  <title>arXiv Query: search_query=all:entropy AND all:oxidation AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:19:39Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+(all:oxidation+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>7</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1808.01516v1</id>
+    <title>Implementation and Analysis of Stable PUFs Using Gate Oxide Breakdown</title>
+    <updated>2018-08-04T18:23:39Z</updated>
+    <link href="https://arxiv.org/abs/1808.01516v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1808.01516v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We implement and analyze highly stable PUFs using two random gate oxide breakdown mechanisms: plasma induced breakdown and voltage stressed breakdown. These gate oxide breakdown PUFs can be easily implemented in commercial silicon processes, and they are highly stable. We fabricated bit generation units for the stable PUFs on 99 testchips with 65nm CMOS bulk technology. Measurement results show that the plasma induced breakdown can generate complete stable responses. For the voltage stressed breakdown, the responses are with 0.12\% error probability at a worst case corner, which can be effectively accommodated by taking the majority vote from multiple measurements. Both PUFs show significant area reduction compared to SRAM PUF. We compare methods for evaluating the security level of PUFs such as min-entropy, mutual information and guesswork as well as inter- and intra-FHD, and the popular NIST test suite. We show that guesswork can be viewed as a generalization of min-entropy and mutual information. In addition, we analyze our testchip data and show through various statistical distance measures that the bits are independent. Finally, we propose guesswork as a new statistical measure for the level of statistical independence that also has an operational meaning in terms of security.</summary>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-08-04T18:23:39Z</published>
+    <arxiv:primary_category term="cs.CR"/>
+    <author>
+      <name>Wei-Che Wang</name>
+    </author>
+    <author>
+      <name>Yair Yona</name>
+    </author>
+    <author>
+      <name>Yizhang Wu</name>
+    </author>
+    <author>
+      <name>Suhas Diggavi</name>
+    </author>
+    <author>
+      <name>Puneet Gupta</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1812.11398v1</id>
+    <title>A microscopic perspective on heterogeneous catalysis</title>
+    <updated>2018-12-29T16:50:53Z</updated>
+    <link href="https://arxiv.org/abs/1812.11398v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1812.11398v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A general formalism is presented to describe the turnover frequency (TOF) during heterogeneous catalysis beyond a mean field treatment. For every elementary reaction we define its multiplicity as the number of times the reaction can be performed in the current configuration of the catalyst surface, divided by the number of active sites. It is shown that any change in the multiplicity with temperature can be directly understood as a modification in configurational entropy. Based on this, we determine the probability of observing any particular elementary reaction, leading to a procedure for identifying any Rate Controlling Step (RCS) as well as the Rate Determining Step (RDS), if it exists. Furthermore, it is shown that such probabilities provide a thorough description of the overall catalytic activity, enabling a deep understanding of the relative importance of every elementary reaction. Most importantly, we formulate a simple expression to describe accurately the apparent activation energy of the TOF, valid even when adsorbate-adsorbate interactions are included, and compare it to previous, approximate expressions, including the traditional Temkin formula for typical reaction mechanisms (Langmuir-Hinshelwood, Eley-Rideal, etc...). To illustrate the validity of our formalism beyond the mean field domain we present Kinetic Monte Carlo simulations for two widely-studied and industrially-relevant catalytic reactions, namely, the oxidation of CO on RuO$_2$(110) and the selective oxidation of NH$_{3}$ on the same catalyst.</summary>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-12-29T16:50:53Z</published>
+    <arxiv:comment>19 pages, 6 figures. Supporting Information with 15 pages, 5 figures and 3 tables</arxiv:comment>
+    <arxiv:primary_category term="physics.chem-ph"/>
+    <author>
+      <name>Miguel Angel Gosalvez</name>
+    </author>
+    <author>
+      <name>Joseba Alberdi-Rodriguez</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2209.11954v1</id>
+    <title>The Physics of Learning</title>
+    <updated>2022-09-24T08:12:07Z</updated>
+    <link href="https://arxiv.org/abs/2209.11954v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2209.11954v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A learning machine, like all machines, is an open system driven far from thermal equilibrium by access to a low entropy source of free energy. We discuss the connection between machines that learn, with low probability of error, and the optimal use of thermodynamic resources for both classical and quantum machines. Both fixed point and spiking perceptrons are discussed in the context of possible physical implementations. An example of a single photon quantum kernel evaluation illustrates the important role for quantum coherence in data representation. Machine learning algorithms, implemented on conventional complementary metal oxide semiconductor (CMOS) devices, currently consume large amounts of energy. By focusing on the physical constraints of learning machines rather than algorithms, we suggest that a more efficient means of implementing learning may be possible based on quantum switches operating at very low power. Single photon kernel evaluation is an example of the energy efficiency that might be possible.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-09-24T08:12:07Z</published>
+    <arxiv:comment>44 pages, 27 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>G. J. Milburn</name>
+    </author>
+    <author>
+      <name>Sahar Basiri-Esfahani</name>
+    </author>
+    <arxiv:doi>10.1080/00107514.2022.2135672</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1080/00107514.2022.2135672" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,474 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>Infinity Autopilot • Sound Repeater</title>
+<style>
+  :root{--bg:#0a0f14;--fg:#e9fbff;--mut:#92a6c9;--card:#0f1620;--line:#1b2532;--accent:#23b47e;--warn:#ff6b6b}
+  html,body{height:100%;margin:0;background:var(--bg);color:var(--fg);font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont}
+  .wrap{max-width:1000px;margin:0 auto;padding:20px}
+  .header{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px}
+  h1{margin:0;font-size:clamp(1.4rem,3vw,2rem);font-weight:800}
+  .pill{font-size:12px;padding:4px 10px;border:1px solid var(--line);border-radius:999px;background:#152031;opacity:.9}
+  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px;margin-top:16px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;box-shadow:0 10px 28px rgba(0,0,0,.3)}
+  .card h3{margin:0 0 10px;font-size:16px}
+  .mut{color:var(--mut);font-size:14px}
+  button{padding:12px 20px;border-radius:999px;border:none;background:var(--accent);color:white;font-weight:700;cursor:pointer;font-size:14px;transition:all .2s}
+  button:hover{transform:translateY(-2px);box-shadow:0 4px 12px rgba(35,180,126,.3)}
+  button:active{transform:translateY(0)}
+  button:disabled{opacity:.5;cursor:not-allowed;transform:none}
+  button.stop{background:var(--warn)}
+  .controls{display:flex;flex-direction:column;gap:12px}
+  .control-row{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+  label{display:block;color:var(--mut);font-size:13px;margin-bottom:4px}
+  input[type=range]{width:100%;height:6px;border-radius:999px;background:#1b2532;outline:none;-webkit-appearance:none}
+  input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:18px;height:18px;border-radius:50%;background:var(--accent);cursor:pointer}
+  input[type=range]::-moz-range-thumb{width:18px;height:18px;border-radius:50%;background:var(--accent);cursor:pointer;border:none}
+  .value{font-weight:700;color:var(--accent);min-width:60px;text-align:right}
+  canvas{width:100%;height:180px;background:#0b1520;border-radius:12px;border:1px solid var(--line)}
+  .status{display:flex;align-items:center;gap:8px;padding:10px;background:#152031;border-radius:10px;border:1px solid var(--line)}
+  .status-dot{width:12px;height:12px;border-radius:50%;background:var(--mut)}
+  .status-dot.active{background:var(--accent);animation:pulse 1.5s infinite}
+  @keyframes pulse{0%,100%{opacity:1} 50%{opacity:.4}}
+  .info{background:#0e1926;padding:10px;border-radius:8px;border-left:3px solid var(--accent);margin-top:10px}
+  .info-text{font-size:13px;line-height:1.5}
+  .freq-display{font-size:32px;font-weight:800;color:var(--accent);margin:10px 0;font-family:ui-monospace,monospace}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="header">
+    <div>
+      <h1>∞ Infinity Autopilot • Sound Repeater</h1>
+      <p class="mut">Listen, analyze, and automatically repeat sounds using a synthesizer</p>
+    </div>
+    <span class="pill">Keyless • Offline • Auto Mode</span>
+  </div>
+
+  <div class="grid">
+    <!-- Main Control -->
+    <div class="card">
+      <h3>Autopilot Control</h3>
+      <div class="controls">
+        <button id="startBtn" onclick="startAutopilot()">Start Autopilot</button>
+        <button id="stopBtn" class="stop" onclick="stopAutopilot()" disabled>Stop Autopilot</button>
+        <div class="status">
+          <div class="status-dot" id="statusDot"></div>
+          <span id="statusText">Idle - Ready to start</span>
+        </div>
+        <div class="freq-display" id="freqDisplay">0 Hz</div>
+      </div>
+      <div class="info">
+        <p class="info-text">
+          <strong>Autopilot Mode:</strong> Continuously listens to microphone input, 
+          detects the dominant frequency, and automatically reproduces it using a synthesizer.
+          No human intervention required once started.
+        </p>
+      </div>
+    </div>
+
+    <!-- Settings -->
+    <div class="card">
+      <h3>Settings</h3>
+      <div class="controls">
+        <div>
+          <label>Sensitivity (dB threshold)</label>
+          <div class="control-row">
+            <input id="sensitivity" type="range" min="-100" max="-10" value="-60" oninput="updateSensitivity()"/>
+            <span class="value" id="sensitivityVal">-60 dB</span>
+          </div>
+        </div>
+        <div>
+          <label>Synthesizer Volume</label>
+          <div class="control-row">
+            <input id="volume" type="range" min="0" max="100" value="50" oninput="updateVolume()"/>
+            <span class="value" id="volumeVal">50%</span>
+          </div>
+        </div>
+        <div>
+          <label>Response Delay (ms)</label>
+          <div class="control-row">
+            <input id="delay" type="range" min="0" max="500" value="100" oninput="updateDelay()"/>
+            <span class="value" id="delayVal">100 ms</span>
+          </div>
+        </div>
+        <div>
+          <label>Waveform</label>
+          <div class="control-row">
+            <select id="waveform" onchange="updateWaveform()" style="flex:1;padding:8px;border-radius:8px;background:#1b2532;border:1px solid var(--line);color:var(--fg)">
+              <option value="sine">Sine</option>
+              <option value="triangle">Triangle</option>
+              <option value="square">Square</option>
+              <option value="sawtooth">Sawtooth</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Input Visualization -->
+    <div class="card">
+      <h3>Input Signal</h3>
+      <canvas id="inputCanvas"></canvas>
+      <p class="mut" style="margin:8px 0 0">Real-time microphone input waveform</p>
+    </div>
+
+    <!-- Frequency Spectrum -->
+    <div class="card">
+      <h3>Frequency Spectrum</h3>
+      <canvas id="spectrumCanvas"></canvas>
+      <p class="mut" style="margin:8px 0 0">Detected frequency spectrum</p>
+    </div>
+  </div>
+</div>
+
+<script>
+// Audio context and nodes
+let audioCtx = null;
+let analyser = null;
+let microphone = null;
+let microphoneStream = null;
+let oscillator = null;
+let gainNode = null;
+let autopilotRunning = false;
+let animationId = null;
+
+// Audio buffers
+let timeDataArray = null;
+let frequencyDataArray = null;
+
+// Settings
+let settings = {
+  sensitivity: -60,
+  volume: 0.5,
+  delay: 100,
+  waveform: 'sine'
+};
+
+// Canvas contexts
+let inputCtx = null;
+let spectrumCtx = null;
+
+// Initialize canvases
+function initCanvases() {
+  const inputCanvas = document.getElementById('inputCanvas');
+  const spectrumCanvas = document.getElementById('spectrumCanvas');
+  
+  const dpr = window.devicePixelRatio || 1;
+  
+  inputCanvas.width = inputCanvas.clientWidth * dpr;
+  inputCanvas.height = inputCanvas.clientHeight * dpr;
+  inputCtx = inputCanvas.getContext('2d');
+  inputCtx.scale(dpr, dpr);
+  
+  spectrumCanvas.width = spectrumCanvas.clientWidth * dpr;
+  spectrumCanvas.height = spectrumCanvas.clientHeight * dpr;
+  spectrumCtx = spectrumCanvas.getContext('2d');
+  spectrumCtx.scale(dpr, dpr);
+}
+
+// Update UI controls
+function updateSensitivity() {
+  const val = document.getElementById('sensitivity').value;
+  settings.sensitivity = parseFloat(val);
+  document.getElementById('sensitivityVal').textContent = val + ' dB';
+}
+
+function updateVolume() {
+  const val = document.getElementById('volume').value;
+  settings.volume = parseFloat(val) / 100;
+  document.getElementById('volumeVal').textContent = val + '%';
+  if (gainNode) {
+    gainNode.gain.value = settings.volume;
+  }
+}
+
+function updateDelay() {
+  const val = document.getElementById('delay').value;
+  settings.delay = parseInt(val);
+  document.getElementById('delayVal').textContent = val + ' ms';
+}
+
+function updateWaveform() {
+  settings.waveform = document.getElementById('waveform').value;
+  if (oscillator && autopilotRunning) {
+    oscillator.type = settings.waveform;
+  }
+}
+
+// Detect dominant frequency from FFT data
+function detectPitch(frequencyData, sampleRate) {
+  let maxValue = 0;
+  let maxIndex = 0;
+  
+  // Find the bin with the highest amplitude
+  for (let i = 1; i < frequencyData.length / 2; i++) {
+    if (frequencyData[i] > maxValue) {
+      maxValue = frequencyData[i];
+      maxIndex = i;
+    }
+  }
+  
+  // Convert dB
+  if (maxValue <= 0) {
+    return null;
+  }
+  
+  const dB = 20 * Math.log10(maxValue / 255);
+  
+  // Only return frequency if above threshold
+  if (dB < settings.sensitivity) {
+    return null;
+  }
+  
+  // Convert bin index to frequency
+  const nyquist = sampleRate / 2;
+  const frequency = (maxIndex * nyquist) / (frequencyData.length / 2);
+  
+  // Filter out very low and very high frequencies
+  if (frequency < 50 || frequency > 4000) {
+    return null;
+  }
+  
+  return frequency;
+}
+
+// Update synthesizer frequency
+let lastFrequencyUpdate = 0;
+function updateSynthesizer(frequency) {
+  if (!oscillator || !autopilotRunning) return;
+  
+  const now = Date.now();
+  if (now - lastFrequencyUpdate < settings.delay) return;
+  lastFrequencyUpdate = now;
+  
+  if (frequency) {
+    oscillator.frequency.setTargetAtTime(frequency, audioCtx.currentTime, 0.05);
+    document.getElementById('freqDisplay').textContent = Math.round(frequency) + ' Hz';
+  }
+}
+
+// Draw waveform
+function drawWaveform() {
+  if (!analyser || !inputCtx) return;
+  
+  analyser.getByteTimeDomainData(timeDataArray);
+  
+  const canvas = document.getElementById('inputCanvas');
+  const width = canvas.clientWidth;
+  const height = canvas.clientHeight;
+  
+  inputCtx.fillStyle = '#0b1520';
+  inputCtx.fillRect(0, 0, width, height);
+  
+  inputCtx.lineWidth = 2;
+  inputCtx.strokeStyle = '#23b47e';
+  inputCtx.beginPath();
+  
+  const sliceWidth = width / timeDataArray.length;
+  let x = 0;
+  
+  for (let i = 0; i < timeDataArray.length; i++) {
+    const v = timeDataArray[i] / 128.0;
+    const y = (v * height) / 2;
+    
+    if (i === 0) {
+      inputCtx.moveTo(x, y);
+    } else {
+      inputCtx.lineTo(x, y);
+    }
+    
+    x += sliceWidth;
+  }
+  
+  inputCtx.stroke();
+}
+
+// Draw spectrum
+function drawSpectrum() {
+  if (!analyser || !spectrumCtx) return;
+  
+  analyser.getByteFrequencyData(frequencyDataArray);
+  
+  const canvas = document.getElementById('spectrumCanvas');
+  const width = canvas.clientWidth;
+  const height = canvas.clientHeight;
+  
+  spectrumCtx.fillStyle = '#0b1520';
+  spectrumCtx.fillRect(0, 0, width, height);
+  
+  const barWidth = width / frequencyDataArray.length * 2.5;
+  let barHeight;
+  let x = 0;
+  
+  for (let i = 0; i < frequencyDataArray.length; i++) {
+    barHeight = (frequencyDataArray[i] / 255) * height;
+    
+    const hue = (i / frequencyDataArray.length) * 180 + 160;
+    spectrumCtx.fillStyle = `hsl(${hue}, 70%, 60%)`;
+    spectrumCtx.fillRect(x, height - barHeight, barWidth, barHeight);
+    
+    x += barWidth + 1;
+  }
+}
+
+// Animation loop
+function animate() {
+  if (!autopilotRunning) return;
+  
+  drawWaveform();
+  drawSpectrum();
+  
+  // Detect and reproduce pitch
+  analyser.getByteFrequencyData(frequencyDataArray);
+  const frequency = detectPitch(frequencyDataArray, audioCtx.sampleRate);
+  updateSynthesizer(frequency);
+  
+  animationId = requestAnimationFrame(animate);
+}
+
+// Start autopilot
+async function startAutopilot() {
+  if (autopilotRunning) return;
+  
+  try {
+    // Initialize audio context
+    audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    
+    // Get microphone input
+    const stream = await navigator.mediaDevices.getUserMedia({ 
+      audio: {
+        echoCancellation: false,
+        noiseSuppression: false,
+        autoGainControl: false
+      } 
+    });
+    
+    // Store stream for cleanup
+    microphoneStream = stream;
+    
+    // Create analyser for input
+    microphone = audioCtx.createMediaStreamSource(stream);
+    analyser = audioCtx.createAnalyser();
+    analyser.fftSize = 2048;
+    analyser.smoothingTimeConstant = 0.8;
+    
+    microphone.connect(analyser);
+    
+    // Initialize data arrays
+    timeDataArray = new Uint8Array(analyser.frequencyBinCount);
+    frequencyDataArray = new Uint8Array(analyser.frequencyBinCount);
+    
+    // Create synthesizer
+    oscillator = audioCtx.createOscillator();
+    oscillator.type = settings.waveform;
+    oscillator.frequency.value = 440;
+    
+    gainNode = audioCtx.createGain();
+    gainNode.gain.value = settings.volume;
+    
+    oscillator.connect(gainNode);
+    gainNode.connect(audioCtx.destination);
+    
+    oscillator.start();
+    
+    // Update UI
+    autopilotRunning = true;
+    document.getElementById('startBtn').disabled = true;
+    document.getElementById('stopBtn').disabled = false;
+    document.getElementById('statusDot').classList.add('active');
+    document.getElementById('statusText').textContent = 'Autopilot Active - Listening and repeating sounds';
+    
+    // Initialize canvases if needed
+    if (!inputCtx) initCanvases();
+    
+    // Start animation
+    animate();
+    
+  } catch (error) {
+    console.error('Error starting autopilot:', error);
+    alert('Error accessing microphone: ' + error.message);
+    stopAutopilot();
+  }
+}
+
+// Stop autopilot
+function stopAutopilot() {
+  autopilotRunning = false;
+  
+  if (animationId) {
+    cancelAnimationFrame(animationId);
+    animationId = null;
+  }
+  
+  if (oscillator) {
+    try {
+      oscillator.stop();
+    } catch (e) {
+      // Oscillator may already be stopped
+    }
+    oscillator.disconnect();
+    oscillator = null;
+  }
+  
+  if (gainNode) {
+    gainNode.disconnect();
+    gainNode = null;
+  }
+  
+  if (microphone) {
+    microphone.disconnect();
+    microphone = null;
+  }
+  
+  if (microphoneStream) {
+    microphoneStream.getTracks().forEach(track => track.stop());
+    microphoneStream = null;
+  }
+  
+  if (analyser) {
+    analyser.disconnect();
+    analyser = null;
+  }
+  
+  if (audioCtx) {
+    audioCtx.close();
+    audioCtx = null;
+  }
+  
+  // Update UI
+  document.getElementById('startBtn').disabled = false;
+  document.getElementById('stopBtn').disabled = true;
+  document.getElementById('statusDot').classList.remove('active');
+  document.getElementById('statusText').textContent = 'Idle - Ready to start';
+  document.getElementById('freqDisplay').textContent = '0 Hz';
+  
+  // Clear canvases
+  if (inputCtx) {
+    const canvas = document.getElementById('inputCanvas');
+    inputCtx.fillStyle = '#0b1520';
+    inputCtx.fillRect(0, 0, canvas.clientWidth, canvas.clientHeight);
+  }
+  if (spectrumCtx) {
+    const canvas = document.getElementById('spectrumCanvas');
+    spectrumCtx.fillStyle = '#0b1520';
+    spectrumCtx.fillRect(0, 0, canvas.clientWidth, canvas.clientHeight);
+  }
+}
+
+// Initialize
+window.addEventListener('DOMContentLoaded', () => {
+  initCanvases();
+  updateSensitivity();
+  updateVolume();
+  updateDelay();
+});
+
+window.addEventListener('resize', () => {
+  initCanvases();
+});
+</script>
+</body>
+</html>

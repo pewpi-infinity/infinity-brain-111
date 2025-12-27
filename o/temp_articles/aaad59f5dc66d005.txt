@@ -1,0 +1,91 @@
+TERMS: frequency, superconductivity, wavefunction
+COLORS: green, green, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/rUHQ5daUNJmoaW3U43K8nXyf/mM</id>
+  <title>arXiv Query: search_query=all:frequency AND all:superconductivity AND all:wavefunction&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:11:33Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:superconductivity+AND+all:wavefunction)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>23</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1503.05155v1</id>
+    <title>Magnetic-Field-Induced Odd-Frequency Superconductivity in MgB$_2$</title>
+    <updated>2015-03-17T18:36:52Z</updated>
+    <link href="https://arxiv.org/abs/1503.05155v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1503.05155v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In all known superconductors the pairing of fermions is not sensitive to the sign of their time-argument difference, leading to a Cooper pair wavefunction that is even in time/frequency. Four decades ago it was suggested that odd-frequency superconductivity should in principle be realizable. However, observation of odd-frequency superconductivity in bulk materials has remained elusive. Solving the field-dependent anisotropic Eliashberg equations, we present \textit{ab initio} evidence for the emergence of odd-frequency pairing under an applied magnetic field in the archetypal superconductor MgB$_2$. We provide the full momentum, frequency and spin resolved dependence and magnetic field-temperature phase diagrams of the even and odd-frequency superconducting pair amplitudes and predict fingerprints of the odd-frequency state in tunnelling experiments.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-03-17T18:36:52Z</published>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>Alex Aperis</name>
+    </author>
+    <author>
+      <name>Pablo Maldonado</name>
+    </author>
+    <author>
+      <name>Peter M. Oppeneer</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1303.5173v1</id>
+    <title>Emergent Odd-Frequency Superconducting Order Parameter near Boundaries in Unconventional Superconductors</title>
+    <updated>2013-03-21T05:55:58Z</updated>
+    <link href="https://arxiv.org/abs/1303.5173v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1303.5173v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>It was previously suggested that an odd-frequency pair amplitude exists in the vicinity of boundaries in unconventional superconductors. We develop this idea and quest for a novel superconducting order parameter with an odd-frequency dependence. For this purpose, we focus on p-wave superconductors and extend the quasi-classical theory to include the odd-frequency dependence in the order parameter. Both of the frequency and spacial dependences of the order parameter are determined self-consistently. Under a finite electron-phonon interaction, it is found that an odd-frequency order parameter is stabilized near the boundary and coexists with the even-frequency one. By analyzing the induced odd-frequency pair amplitude in terms of the superconducting quasi-particle wavefunction, it is found that the mid-gap bound state generates the emergent odd-frequency order parameter.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-03-21T05:55:58Z</published>
+    <arxiv:comment>15 pages, 10 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <arxiv:journal_ref>J. Phys. Soc. Jpn. 82 (2013) 034708</arxiv:journal_ref>
+    <author>
+      <name>Masashige Matsumoto</name>
+    </author>
+    <author>
+      <name>Mikito Koga</name>
+    </author>
+    <author>
+      <name>Hiroaki Kusunose</name>
+    </author>
+    <arxiv:doi>10.7566/JPSJ.82.034708</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.7566/JPSJ.82.034708" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2501.10503v1</id>
+    <title>Frozonium: Freezing Anharmonicity in Floquet Superconducting Circuits</title>
+    <updated>2025-01-17T19:00:00Z</updated>
+    <link href="https://arxiv.org/abs/2501.10503v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2501.10503v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Floquet engineering is a powerful method that can be used to modify the properties of interacting many-body Hamiltonians via the application of periodic time-dependent drives. Here we consider the physics of an inductively shunted superconducting Josephson junction in the presence of Floquet drives in the fluxonium regime and beyond, which we dub the frozonium artificial atom. We find that in the vicinity of special ratios of the drive amplitude and frequency, the many-body dynamics can be tuned to that of an effectively linear bosonic oscillator, with additional nonlinear corrections that are suppressed in higher powers of the drive frequency. By analyzing the inverse participation ratios between the time-evolved frozonium wavefunctions and the eigenbasis of a linear oscillator, we demonstrate the ability to achieve a novel dynamical control using a combination of numerical exact diagonalization and Floquet-Magnus expansion. We discuss the physics of resonances between quasi-energy states induced by the drive, and ways to mitigate their effects. We also highlight the enhanced protection of frozonium against external sources of noise present in experimental setups. This work lays the foundation for future applications in quantum memory and bosonic quantum control using superconducting circuits.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-01-17T19:00:00Z</published>
+    <arxiv:comment>14 pages, 9 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>Keiran Lewellen</name>
+    </author>
+    <author>
+      <name>Rohit Mukherjee</name>
+    </author>
+    <author>
+      <name>Haoyu Guo</name>
+    </author>
+    <author>
+      <name>Saswata Roy</name>
+    </author>
+    <author>
+      <name>Valla Fatemi</name>
+    </author>
+    <author>
+      <name>Debanjan Chowdhury</name>
+    </author>
+  </entry>
+</feed>

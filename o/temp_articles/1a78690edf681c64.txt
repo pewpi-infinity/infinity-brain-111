@@ -1,0 +1,71 @@
+TERMS: frequency, spin, probability
+COLORS: green, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/UOkS7QospBUfO2Ceqry/deKv9/w</id>
+  <title>arXiv Query: search_query=all:frequency AND all:spin AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:11:58Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:spin+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>307</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/gr-qc/9508068v1</id>
+    <title>Absorption Probability of De Sitter Horizon for Massless Fields with Spin</title>
+    <updated>1995-09-01T03:51:12Z</updated>
+    <link href="https://arxiv.org/abs/gr-qc/9508068v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/gr-qc/9508068v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The evaluation of the absorption coefficients are important for particle emission caused by Hawking radiation. In the case of cosmological particle emission from the event horizon in De Sitter space, it is known that the scalar wave functions are solved in terms of Legendre functions. For fields with higher spin, the solution has been examined with low frequency approximation. We shows that the radial equations of the fields with spin $0,1/2,1$ and $2$ can be solved analytically in terms of the hypergeometric functions. We calculate the absorption probability using asymptotic expansion for high frequency limit. It turns out that the absorption coefficients are universal to all bosonic fields; They depend only on the angular momentum and not spin. In the case of spin $1/2$ fermions, we can also find non-vanishing absorption probability in contrast to the previously known result.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1995-09-01T03:51:12Z</published>
+    <arxiv:comment>7 pages, Latex</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Mod.Phys.Lett. A11 (1996) 431-436</arxiv:journal_ref>
+    <author>
+      <name>H. Suzuki</name>
+    </author>
+    <author>
+      <name>E. Takasugi</name>
+    </author>
+    <arxiv:doi>10.1142/S0217732396000473</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/S0217732396000473" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1511.06503v2</id>
+    <title>Hyperfine interaction mediated electric-dipole spin resonance: the role of frequency modulation</title>
+    <updated>2016-04-14T09:04:08Z</updated>
+    <link href="https://arxiv.org/abs/1511.06503v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1511.06503v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The electron spin in a semiconductor quantum dot can be coherently controlled by an external electric field, an effect called electric-dipole spin resonance (EDSR). Several mechanisms can give rise to the EDSR effect, among which there is a hyperfine mechanism, where the spin-electric coupling is mediated by the electron-nucleus hyperfine interaction. Here, we investigate the influence of frequency modulation (FM) on the spin-flip efficiency. Our results reveal that FM plays an important role in the hyperfine mechanism. Without FM, the electric field almost cannot flip the electron spin; the spin-flip probability is only about 20%. While under FM, the spin-flip probability can be improved to approximately 70%. In particular, we find that the modulation amplitude has a lower bound, which is related to the width of the fluctuated hyperfine field.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-11-20T06:15:02Z</published>
+    <arxiv:comment>8 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Phys. Scr. 91 (2016) 055801</arxiv:journal_ref>
+    <author>
+      <name>Rui Li</name>
+    </author>
+    <arxiv:doi>10.1088/0031-8949/91/5/055801</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0031-8949/91/5/055801" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1110.2658v3</id>
+    <title>How terrestrial planets traverse spin-orbit resonances: A camel goes through a needle's eye</title>
+    <updated>2012-04-04T18:33:50Z</updated>
+    <link href="https://arxiv.org/abs/1110.2658v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1110.2658v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The dynamical evolution of terrestrial planets resembling Mercury in the vicinity of spin-orbit resonances is investigated using comprehensive harmonic expansions of the tidal torque taking into account the frequency-dependent quality factors and Love numbers. The torque equations are integrated numerically with a small step in time, includng the oscillating triaxial torque components but neglecting the layered structure of the planet and assuming a zero obliquity. We find that a Mercury-like planet with its current value of orbital eccentricity (0.2056) is always captured in the 3:2 resonance. The probability of capture in the higher 2:1 resonance is approximately 0.23. These results are confirmed by a semi-analytical estimation of capture probabilities as functions of eccentricity for both prograde and retrograde evolution of spin rate. As follows from analysis of equilibrium torques, entrapment in the 3:2 resonance is inevitable at eccentricities between 0.2 and 0.41. Considering the phase space parameters at the times of periastron, the range of spin rates and phase angles, for which an immediate resonance passage is triggered, is very narrow, and yet, a planet like Mercury rarely fails to align itself into this state of unstable equilibrium before it traverses the 2:1 resonance.</summary>
+    <category term="astro-ph.EP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-10-12T13:39:11Z</published>
+    <arxiv:comment>10 figures. Fig. 8 may be corrupted when printed on some printers but shows fine in the PDF file. Submitted in ApJ v. 2: the probabilities of capture of Mercury in 2:1 resonance are re-evaluated; a general formula for capture probability derived. v3: accepted in ApJ under a different title: Conditions of passage and entrapment of terrestrial planets in spin-orbit resonances</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.EP"/>
+    <author>
+      <name>Valeri V. Makarov</name>
+    </author>
+    <arxiv:doi>10.1088/0004-637X/752/1/73</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0004-637X/752/1/73" title="doi"/>
+  </entry>
+</feed>

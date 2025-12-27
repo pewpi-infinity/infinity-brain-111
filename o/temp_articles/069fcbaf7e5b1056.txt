@@ -1,0 +1,28 @@
+TERMS: hydrogen, fusion, muon, plasma
+COLORS: purple, green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/klE1+0UWB7dOpgkrZNuCrLjc+M0</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:fusion AND all:muon AND all:plasma&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:54:34Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:fusion+AND+(all:muon+AND+all:plasma))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/0804.3886v1</id>
+    <title>Nuclear fusion in muonic molecules and in deuterated metals</title>
+    <updated>2008-04-24T10:31:04Z</updated>
+    <link href="https://arxiv.org/abs/0804.3886v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0804.3886v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Study of the fusion reactions between hydrogen isotopes in muonic molecules is the first example of the accurate accounting of the nucleus charge screening by a muon in the fusion process. At LUNA installation the measurements of astrophysical reaction cross sections were extended down to collision energies of a few keV. The screening by atomic electrons of the target became substantial. The possibility to look over screening from unbound electrons is given by metal-hydrides used as targets in dd reaction measurements. The classical Debye screening in plasma, applied to quasi-free electrons in metal, provides an explanation of unexpectedly large screening potentials found for some metals in the research through the Periodic table of elements.</summary>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-04-24T10:31:04Z</published>
+    <arxiv:comment>9 pages, 7 fugures, talk at the International Conference on Muon Catalyzed Fusion and Related Topics (muCF-07), Dubna, Russia, June 18-21, 2007</arxiv:comment>
+    <arxiv:primary_category term="nucl-th"/>
+    <author>
+      <name>L. N. Bogdanova</name>
+    </author>
+  </entry>
+</feed>

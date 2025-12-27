@@ -1,0 +1,82 @@
+TERMS: quantum, bandgap, vacuum
+COLORS: blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/RMKoDJQl9GGCqr7dqSxd1ou4clY</id>
+  <title>arXiv Query: search_query=all:quantum AND all:bandgap AND all:vacuum&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:09:24Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:bandgap+AND+all:vacuum)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>23</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1906.10597v2</id>
+    <title>Bandgap-Assisted Quantum Control of Topological Edge States in a Cavity</title>
+    <updated>2020-03-02T13:46:04Z</updated>
+    <link href="https://arxiv.org/abs/1906.10597v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1906.10597v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Quantum matter with exotic topological order has potential applications in quantum computation. However, in present experiments, the manipulations on topological states are still challenging. We here propose an architecture for optical control of topological matter. We consider a topological superconducting qubit array with Su-Schrieffer-Heeger (SSH) Hamiltonian which couples to a microwave cavity. Based on parity properties of the topological qubit array, we propose an optical spectroscopy method to observe topological phase transition, i.e., edge-to-bulk transition. This new method can be achieved by designing cavity-qubit couplings. A main purpose of this work is to understand how topological phase transition affects light-matter interaction. We find that topological bandgap plays an essential role on this issue. In topological phase, the resonant vacuum Rabi splitting of degenerate edge states coupling to the cavity field is protected from those of bulk states by the bandgap. In dispersive regime, the cavity induced coupling between edge states is dominant over couplings between edge and bulk states, due to the topological bandgap. As a result, quantum interference between topological edge states occures and enables single-photon transport through boundaries of the topological qubit array. Our work may pave a way for topological quantum state engineering.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-06-25T15:16:10Z</published>
+    <arxiv:comment>7+15 pages, 5+11 figures, will appear in Physical Review Research</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Phys. Rev. Research 2, 012076 (2020)</arxiv:journal_ref>
+    <author>
+      <name>Wei Nie</name>
+    </author>
+    <author>
+      <name>Yu-xi Liu</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevResearch.2.012076</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevResearch.2.012076" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2105.01491v2</id>
+    <title>Aperiodic bandgap structures for enhanced quantum two-photon sources</title>
+    <updated>2021-06-24T16:21:18Z</updated>
+    <link href="https://arxiv.org/abs/2105.01491v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2105.01491v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we propose a novel approach to enhance the efficiency of the two-photon spontaneous emission process that is driven by the multifractal optical mode density of photonic structures based on the aperiodic distributions of Eisenstein and Gaussian primes. In particular, using the accurate Mie-Lorenz multipolar theory in combination with multifractal detrended fluctuation analysis, we compute the local density of states of periodic and aperiodic systems and demonstrate the formation of complete bandgaps with distinctive fractal scaling behavior for scattering arrays of dielectric nanocylinders. Moreover, we systematically study the Purcell enhancement and the most localized optical mode resonances in these novel aperiodic photonic systems and compute their two-photon spontaneous emission rates based on the general Green's tensor approach. Our results demonstrate that the excitation of the highly-resonant critical states of Eisenstein and Gaussian photonic arrays across broadband multifractal spectra gives rise to significantly enhanced emission rates compared to what is possible at the band-edges of periodic structures with comparable size. Besides defining a novel approach for enhanced quantum two-photon sources on the chip, the engineering of aperiodic bandgap structures with multifractal mode density may provide access to novel electromagnetic resonant phenomena in a multiscale-invariant vacuum for quantum nanophotonics applications.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-05-04T13:35:07Z</published>
+    <arxiv:comment>14 pages, 9 Figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Luca Dal Negro</name>
+    </author>
+    <author>
+      <name>Yuyao Chen</name>
+    </author>
+    <author>
+      <name>Sean Gorsky</name>
+    </author>
+    <author>
+      <name>Fabrizio Sgrignuoli</name>
+    </author>
+    <arxiv:doi>10.1364/JOSAB.430551</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1364/JOSAB.430551" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1504.06803v1</id>
+    <title>Cavity quantum electrodynamics with three-dimensional photonic bandgap crystals</title>
+    <updated>2015-04-26T11:32:29Z</updated>
+    <link href="https://arxiv.org/abs/1504.06803v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1504.06803v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This paper gives an overview of recent work on three-dimensional (3D) photonic crystals with a "full and complete" 3D photonic band gap. We review five main aspects: 1) spontaneous emission inhibition, 2) spatial localization of light within a tiny nanoscale volume (aka "a nanobox for light"), 3) the introduction of a gain medium leading to thresholdless lasers, 4) breaking of the weak-coupling approximation of cavity QED, both in the frequency and in the time-domain, 5) decoherence, in particular the shielding of vacuum fluctuations by a 3D photonic bandgap. In addition, we list and evaluate all known photonic crystal structures with a demonstrated 3D band gap.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-04-26T11:32:29Z</published>
+    <arxiv:comment>21 pages, 6 figures, 2 tables, Chapter 8 in "Light Localisation and Lasing: Random and Pseudorandom Photonic Structures", Eds. M. Ghulinyan and L. Pavesi (Cambridge University Press, Cambridge, 2015, ISBN 978-1-107-03877-6)</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>W. L. Vos</name>
+    </author>
+    <author>
+      <name>L. A. Woldering</name>
+    </author>
+  </entry>
+</feed>

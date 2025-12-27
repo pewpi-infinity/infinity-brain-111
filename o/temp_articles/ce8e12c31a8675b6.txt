@@ -1,0 +1,92 @@
+TERMS: quantum, entropy, bandgap
+COLORS: blue, red, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/RPQ0UZSxnrG+Hu/7A3TvNbr4lPQ</id>
+  <title>arXiv Query: search_query=all:quantum AND all:entropy AND all:bandgap&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:06:25Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:entropy+AND+all:bandgap)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>3</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2510.11081v1</id>
+    <title>Entropy Engineering-Regulated Electron-Phonon Coupling for Highly Efficient Photoluminescence in Se-doped WS2</title>
+    <updated>2025-10-13T07:21:24Z</updated>
+    <link href="https://arxiv.org/abs/2510.11081v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.11081v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The limited quantum yield of strained monolayer transition metal dichalcogenides grown by vapor-phase methods and during transfer-based stacking poses a fundamental challenge for their optoelectronic applications. Here, we introduce the concept of "entropy engineering" as a transformative strategy to selectively enhance light-matter interactions through controlled electron-phonon coupling. We unveil how tailored entropy introduced via precise selenium doping or interfacial van der Waals proximity can significantly amplify radiative recombination from momentum-dark excitons in WS2 monolayers. Notably, we discover that slight selenium doping drastically enhances the photoluminescence (PL) of WS2 under strain. While both undoped and heavily doped WS2 suffer from strong PL quenching owing to the direct-to-indirect bandgap transition, lightly Se-doped samples exhibit an order-of-magnitude increase in emission intensity. This counterintuitive boost is traced to doping-induced structural disorder, which intensifies electron-phonon interactions and unlocks efficient phonon-assisted emission from otherwise non-radiative indirect excitons. Moreover, we demonstrate that van der Waals coupling to adjacent Se-doped layers can impart interfacial entropy and further augment PL via proximity effects. Our work highlights entropy engineering via controlled doping as a powerful strategy for activating high-efficiency light emission in atomically thin semiconductors.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-13T07:21:24Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Chi Zhang</name>
+    </author>
+    <author>
+      <name>Quan Shen</name>
+    </author>
+    <author>
+      <name>Mengmeng Zhang</name>
+    </author>
+    <author>
+      <name>Zhiming Deng</name>
+    </author>
+    <author>
+      <name>Taishen Wu</name>
+    </author>
+    <author>
+      <name>Xuying Zhong</name>
+    </author>
+    <author>
+      <name>Gang Ouyang</name>
+    </author>
+    <author>
+      <name>Dongsheng Tang</name>
+    </author>
+    <author>
+      <name>Qi Zheng</name>
+    </author>
+    <author>
+      <name>Jiansheng Dong</name>
+    </author>
+    <author>
+      <name>Weichang Zhou</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2206.02952v2</id>
+    <title>Beyond The Fermi's Golden Rule: Discrete-Time Decoherence Of Quantum Mesoscopic Devices Due To Bandlimited Quantum Noise</title>
+    <updated>2023-09-18T11:41:58Z</updated>
+    <link href="https://arxiv.org/abs/2206.02952v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2206.02952v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We are at the midst of second quantum revolution where the mesoscopic quantum devies are actively employed for technological purposes. Despite this fact, the description of their real-time dynamics beyond the Fermi's golden rule remains a formiddable theoretical problem. This is due to the rapid spread of entanglement within the degrees of freedom of the surrounding environment. This is accompanied with a quantum noise (QN) acting on the mesoscopic device. In this work we propose a possible way out: to exploit the fact that this QN is usually bandlimited. This is because its spectral density is often contained in peaks of localized modes and resonances, and may be constrained by bandgaps. Inspired by the Kotelnikov sampling theorem from the theory of classical bandlimited signals, we put forward and explore the idea that when the QN spectral density has effective bandwidth $B$, the quantum noise becomes a discrete-time process, with an elementary time step $τ\propto B^{-1}$. After each time step $τ$, one new QN degree of freedom (DoF) gets coupled to the device for the first time, and one new QN DoF get irreversibly decoupled. Only a bounded number of QN DoFs are significantly coupled at any time moment. We call these DoFs the \textit{Kotelnikov modes}. As a result, the real-time dissipative quantum motion has a natural structure of a discrete-time matrix product state, with a bounded bond dimension. This yields a microscopically derived collision model. The temporal entanglement entropy appears to be bounded (area-law scaling) in the frame of Kotelnikov modes. The irreversibly decoupled modes can be traced out as soon as they occur during the real-time evolution. This leads to a novel\textit{bandlimited} input-output formalism and to quantum jump Monte Carlo simulation techniques for real-time motion of open quantum systems. We illustrate this idea on a spin-boson model.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-06-07T00:17:21Z</published>
+    <arxiv:comment>16 pages, 8 figures. Second version: fix typos and improve the style</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Evgeny A. Polyakov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2112.09571v1</id>
+    <title>Electronic Properties of Various Graphene Quantum Dot Structures: an Ab Initio Study</title>
+    <updated>2021-12-17T15:25:36Z</updated>
+    <link href="https://arxiv.org/abs/2112.09571v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2112.09571v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Density functional theory (DFT) and thermal DFT (thDFT) calculations were used to evaluate the energy band structure, bandgap, and the total energy of various graphene quantum dots (GQDs). The DFT calculations were performed using local density approximation for the exchange-correlation functional and norm-conserving pseudopotentials. We consider the triangular and hexagonal GQDs with zigzag and armchair edges and 1-3 nm dimensions with many hundred atoms. The simulation results show that all of these GQDs are direct bandgap semiconductors with a flat band structure, and they are suitable for electronics and optoelectronics applications. Analysis of GQDs in which the A and B sublattice symmetries were broken showed degenerate zero-energy shells. Using the thDFT calculations carried out at temperatures up to 1400 K, we evaluated the temperature dependence of the GQDs bandgaps and total energies via entropy-term and electron kinetic energy. The obtained results indicate that the ground-state DFT calculations are valid for determining the electronic properties of GQDs up to room temperature. Moreover, we tune semi-empirical parameters of the tight-binding model by the DFT results in small GQDs to reduce the computational cost of electronic structure calculations for large GQDs, which contained up to thousands of atoms.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-12-17T15:25:36Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Majid Ghandchi</name>
+    </author>
+    <author>
+      <name>Ghafar Darvish</name>
+    </author>
+    <author>
+      <name>Mohammad Kazem Moravvej-Farshi</name>
+    </author>
+  </entry>
+</feed>

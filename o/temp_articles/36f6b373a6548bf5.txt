@@ -1,0 +1,100 @@
+TERMS: crystal, plasma
+COLORS: orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/btLOt/96QU6a3y3CqlHscTQLI7c</id>
+  <title>arXiv Query: search_query=all:crystal AND all:plasma&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T00:59:12Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:crystal+AND+all:plasma&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>789</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1001.0690v1</id>
+    <title>Thermodynamic functions of dense plasmas: analytic approximations for astrophysical applications</title>
+    <updated>2010-01-05T12:19:31Z</updated>
+    <link href="https://arxiv.org/abs/1001.0690v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1001.0690v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We briefly review analytic approximations of thermodynamic functions of fully ionized nonideal electron-ion plasmas, applicable in a wide range of plasma parameters, including the domains of nondegenerate and degenerate, nonrelativistic and relativistic electrons, weakly and strongly coupled Coulomb liquids, classical and quantum Coulomb crystals. We present improvements to previously published approximations. Our code for calculation of thermodynamic functions based on the reviewed approximations is made publicly available.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-01-05T12:19:31Z</published>
+    <arxiv:comment>6 pages, 2 figures, Contributions to Plasma Physics, 2010, vol.50 (in press)</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <arxiv:journal_ref>Contrib. Plasma Phys. 50 (2010) 82</arxiv:journal_ref>
+    <author>
+      <name>A. Y. Potekhin</name>
+      <arxiv:affiliation>Ioffe Physical-Technical Institute, Saint-Petersburg</arxiv:affiliation>
+    </author>
+    <author>
+      <name>G. Chabrier</name>
+      <arxiv:affiliation>ENS-Lyon, CRAL - UMR CNRS</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1002/ctpp.201010017</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1002/ctpp.201010017" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1112.3947v1</id>
+    <title>Visualizing a Dusty Plasma Shock Wave via Interacting Multiple-Model Mode Probabilities</title>
+    <updated>2011-12-16T20:41:48Z</updated>
+    <link href="https://arxiv.org/abs/1112.3947v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1112.3947v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Particles in a dusty plasma crystal disturbed by a shock wave are tracked using a three-mode interacting multiple model approach. Color-coded mode probabilities are used to visualize the shock wave propagation through the crystal.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-12-16T20:41:48Z</published>
+    <arxiv:comment>2 pages, 1 reduced-quality figure (full quality in published version). IEEE Special Issue on Images in Plasma Science (2011)</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <arxiv:journal_ref>IEEE Transactions on Plasma Science, 39:11, 2772-2773 (2011)</arxiv:journal_ref>
+    <author>
+      <name>Neil P. Oxtoby</name>
+    </author>
+    <author>
+      <name>Jason F. Ralph</name>
+    </author>
+    <author>
+      <name>Céline Durniak</name>
+    </author>
+    <author>
+      <name>Dmitry Samsonov</name>
+    </author>
+    <arxiv:doi>10.1109/TPS.2011.2155101</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/TPS.2011.2155101" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.02476v2</id>
+    <title>Transport properties of disordered 2D complex plasma crystal</title>
+    <updated>2018-01-03T13:08:02Z</updated>
+    <link href="https://arxiv.org/abs/1710.02476v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1710.02476v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this work, we investigate numerically the transport properties of a 2D complex plasma crystal using diffusion of coplanar dust lattice waves. In the limit where the Hamiltonian interactions can be decoupled from the non-Hamiltonian effects, we identify two distinct types of wave transport: Anderson-type delocalization and long-distance excitation. We use a recently-developed spectral approach to evaluate the contribution of the Anderson problem and compare it to the results of the simulation. The benefit of our approach to transport problems is twofold. First, we employ a highly tunable macroscopic hexagonal crystal, which exhibits many-body interactions and allows for the investigation of transport properties at the kinetic level. Second, the analysis of the transport problem in 2D is provided using an innovative spectral approach, which avoids the use of scaling and boundary conditions. Thus, the combination of theoretical calculation with simulation results allows for the study of important characteristics of this open system. The major deviation between the predicted and observed wave dynamics is a long-distance lattice excitation, which occurs even when the initial perturbation does not spread from the center to the exterior of the crystal. In the decoupled Hamiltonian regime, this effect can be contributed to the dust lattice interaction with the plasma environment.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-10-06T16:12:03Z</published>
+    <arxiv:comment>11 pages, 5 figures, conference proceedings for Strongly Coupled Coulomb Systems conference, Kiel, Germany, Jul 30 - Aug 4, 2017</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <arxiv:journal_ref>E G Kostadinova, F Guyton, A Cameron, K Busse, C Liaw, L S Matthews, &amp; T W Hyde, "Transport properties of disordered 2D complex plasma crystal", Contrib. to Plasma Phys., 2018, DOI:10.1002/ctpp.201700111</arxiv:journal_ref>
+    <author>
+      <name>E G Kostadinova</name>
+    </author>
+    <author>
+      <name>A Cameron</name>
+    </author>
+    <author>
+      <name>F Guyton</name>
+    </author>
+    <author>
+      <name>K Busse</name>
+    </author>
+    <author>
+      <name>C D Liaw</name>
+    </author>
+    <author>
+      <name>L S Matthews</name>
+    </author>
+    <author>
+      <name>T W Hyde</name>
+    </author>
+    <arxiv:doi>10.1002/ctpp.201700111</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1002/ctpp.201700111" title="doi"/>
+  </entry>
+</feed>

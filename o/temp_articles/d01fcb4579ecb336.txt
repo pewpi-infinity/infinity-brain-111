@@ -1,0 +1,89 @@
+TERMS: lattice, muon, boson
+COLORS: orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/n8furgw/68iF4o/7fZHQFkPt3lM</id>
+  <title>arXiv Query: search_query=all:lattice AND all:muon AND all:boson&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:16:04Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:muon+AND+all:boson)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>24</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2112.09139v2</id>
+    <title>The muon g-2 anomaly confronts new physics in $e^\pm$ and $μ^\pm$ final states scattering</title>
+    <updated>2022-02-21T19:00:01Z</updated>
+    <link href="https://arxiv.org/abs/2112.09139v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2112.09139v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The 4.2$σ$ discrepancy between the standard model prediction for the muon anomalous magnetic moment $a_μ$ and the experimental result is accompanied by other anomalies. A crucial input for the prediction is the hadronic vacuum polarization $a_μ^{\rm HVP}$ inferred from $σ_{\rm had} =σ(e^+e^- \to\,$hadrons) data. However, the two most accurate determinations of $σ_{\rm had}$ from KLOE and BaBar disagree by almost 3$\,σ$. Additionally, the combined data-driven result disagrees with the most precise lattice determination of $a_μ^{\rm HVP}$ by $2.1\,σ$. We show that all these discrepancies could be accounted for by a new boson produced resonantly around the KLOE centre of mass energy and decaying promptly yielding $e^+e^-$ and $μ^+μ^-$ pairs in the final states. This gives rise to three different effects: (i) the additional $e^+e^-$ events will affect the KLOE luminosity determination based on measurements of the Bhabha cross section, and in turn the inferred value of $σ_{\rm had}$; (ii) the additional $μ^+μ^-$ events will affect the determination of $σ_{\rm had}$ via the (luminosity independent) measurement of the ratio of $π^+π^-γ$ versus $μ^+μ^-γ$ events; (iii) loops involving the new boson would contribute directly to the prediction for $a_μ$. We discuss in detail this possibility, and we present a simple model that can reconcile the KLOE and BaBar results for $σ_{\rm had}$, the data-driven and the lattice determinations of $a_μ^{\rm HVP}$, the predicted and measured values of $a_μ$, while complying with all phenomenological constraints.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-12-16T19:00:01Z</published>
+    <arxiv:comment>40 pages, 6 figures. Major changes: added a full study of the NP contributions to di-muon events</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Luc Darmé</name>
+    </author>
+    <author>
+      <name>Giovanni Grilli di Cortona</name>
+    </author>
+    <author>
+      <name>Enrico Nardi</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP06(2022)122</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP06(2022)122" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.09212v2</id>
+    <title>Multi-boson block factorization of fermions</title>
+    <updated>2017-12-20T11:53:18Z</updated>
+    <link href="https://arxiv.org/abs/1710.09212v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1710.09212v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The numerical computations of many quantities of theoretical and phenomenological interest are plagued by statistical errors which increase exponentially with the distance of the sources in the relevant correlators. Notable examples are baryon masses and matrix elements, the hadronic vacuum polarization and the light-by-light scattering contributions to the muon g-2, and the form factors of semileptonic B decays. Reliable and precise determinations of these quantities are very difficult if not impractical with state-of-the-art standard Monte Carlo integration schemes. I will review a recent proposal for factorizing the fermion determinant in lattice QCD that leads to a local action in the gauge field and in the auxiliary boson fields. Once combined with the corresponding factorization of the quark propagator, it paves the way for multi-level Monte Carlo integration in the presence of fermions opening new perspectives in lattice QCD. Exploratory results on the impact on the above mentioned observables will be presented.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-10-25T13:05:45Z</published>
+    <arxiv:comment>18 pages, 10 figures, Proceedings of the plenary talk given a 35th International Symposium on Lattice Field Theory (Lattice2017) - Granada, Spain</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Leonardo Giusti</name>
+    </author>
+    <author>
+      <name>Marco Cè</name>
+    </author>
+    <author>
+      <name>Stefan Schaefer</name>
+    </author>
+    <arxiv:doi>10.1051/epjconf/201817501003</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1051/epjconf/201817501003" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.05511v2</id>
+    <title>The $U(1)_{L_μ-L_τ}$ model meets the new $(g-2)_μ$ data and muon neutrino trident scattering</title>
+    <updated>2025-11-08T07:42:41Z</updated>
+    <link href="https://arxiv.org/abs/2506.05511v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.05511v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Muon $g-2$ collaboration at Fermilab has announced their final result of the anomalous magnetic moment of the muon. By adopting the lattice-QCD evaluation of the leading-order hadronic-vacuum-polarization, this result is now in agreement with the latest theoretical prediction to the $1σ$ level. This new result further constrains the allowed parameter space, but does not rule out all possible new physics contributions the muon $g-2$. We study the implications for one of the relevant models, the gauged $U(1)_{L_μ- L_τ}$. When using this model to resolve the previous $4σ$ tension, results from muon neutrino trident (MNT) scattering experiments would restrict the mass of the new gauge boson ($Z'$) to be less than $300$ MeV. Since the theory and experimental data difference for muon $g-2$ is lowered down to $1σ$, the requirement for $m_{Z'}\lesssim 300\,{\rm MeV}$ is much relaxed. Within the updated allowed range of $Z'$ boson mass, we study the models implications for electron and tauon $g-2$ as well as future muon colliders. We find that muon collider can effectively probe the $U(1)_{L_μ- L_τ}$.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-05T18:51:15Z</published>
+    <arxiv:comment>5 pages, 2 figures, v2 includes additional plot (new panel in figure 1) and more discussion. Matches version in PLB</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys.Lett.B 871 (2025) 139949</arxiv:journal_ref>
+    <author>
+      <name>Ming-Wei Li</name>
+    </author>
+    <author>
+      <name>Xiao-Gang He</name>
+    </author>
+    <author>
+      <name>Andrew Cheek</name>
+    </author>
+    <author>
+      <name>Xinhui Chu</name>
+    </author>
+    <arxiv:doi>10.1016/j.physletb.2025.139949</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physletb.2025.139949" title="doi"/>
+  </entry>
+</feed>

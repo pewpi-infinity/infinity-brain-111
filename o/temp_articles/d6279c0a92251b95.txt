@@ -1,0 +1,81 @@
+TERMS: hydrogen, quantum, electron, plasma
+COLORS: purple, blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/kX0P/IQGdWEFMZ00mbrxDxy3XHQ</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:electron AND all:plasma&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:39:09Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:electron+AND+all:plasma))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>70</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2012.04069v1</id>
+    <title>Non-Maxwellian rate coefficients for electron and ion collisions in Rydberg plasmas: implications for excitation and ionization</title>
+    <updated>2020-12-07T21:23:57Z</updated>
+    <link href="https://arxiv.org/abs/2012.04069v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2012.04069v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Scattering phenomena between charged particles and highly excited Rydberg atoms are of critical importance in many processes in plasma physics and astrophysics. While a Maxwell-Boltzmann (MB) energy distribution for the charged particles is often assumed for calculations of collisional rate coefficients, in this contribution we relax this assumption and use two different energy distributions, a bimodal MB distribution and a $κ$-distribution. Both variants share a high-energy tails occurring with higher probability than the corresponding MB distribution. The high energy tail may significantly affect rate coefficients for various processes. We focus the analysis to specific situations by showing the dependence of the rate coefficients on the principal quantum number of hydrogen atoms in n-changing collisions with electrons in the excitation and ionization channels and in a temperature range relevant to the divertor region of a tokamak device. We finally discuss the implications for diagnostics of laboratory plasmas.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.space-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-12-07T21:23:57Z</published>
+    <arxiv:comment>14 pages, 4 figures, Journal of Plasma Physics collection on 'Laboratory and Astrophysical Plasmas: New Perspectives'</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <arxiv:journal_ref>J. Plasma Phys. 86, 845860391 (2020)</arxiv:journal_ref>
+    <author>
+      <name>Daniel Vrinceanu</name>
+    </author>
+    <author>
+      <name>Roberto Onofrio</name>
+    </author>
+    <author>
+      <name>Hossein R. Sadeghpour</name>
+    </author>
+    <arxiv:doi>10.1017/S0022377820000513</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1017/S0022377820000513" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1904.01309v1</id>
+    <title>Quantum states of confined hydrogen plasma species: Monte Carlo calculations</title>
+    <updated>2019-04-02T09:43:07Z</updated>
+    <link href="https://arxiv.org/abs/1904.01309v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1904.01309v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The diffusion Monte Carlo method with symmetry-based state selection is used to calculate the quantum energy states of H$_2^+$ confined into potential barriers of atomic dimensions (a model for these ions in solids). Special solutions are employed permitting one to obtain satisfactory results with rather simple native code. As a test case, $^2Π_u$ and $^2Π_g$ states of H$_2^+$ ions under spherical confinement are considered. The results are interpreted using the correlation of H$_2^+$ states to atomic orbitals of H atoms lying on the confining surface and perturbation calculations. The method is straightforwardly applied to cavities of any shape and different hydrogen plasma species (at least one-electron ones, including H) for future studies with real crystal symmetries.</summary>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-04-02T09:43:07Z</published>
+    <arxiv:comment>7 pages, 6 figures, 42 bibliographic references</arxiv:comment>
+    <arxiv:primary_category term="physics.chem-ph"/>
+    <arxiv:journal_ref>plasma sources science and technology 24 (6) 065019 (6pp) 2015</arxiv:journal_ref>
+    <author>
+      <name>Gaia Micca Longo</name>
+    </author>
+    <author>
+      <name>Savino Longo</name>
+    </author>
+    <author>
+      <name>Domenico Giordano</name>
+    </author>
+    <arxiv:doi>10.1088/0963-0252/24/6/065019</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0963-0252/24/6/065019" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.00388v3</id>
+    <title>A study of the electronic and ionic structure, for competing states of fully and partially ionized hydrogen, using the neutral pseudo-atom method as well as a classical map for the electron subsystem</title>
+    <updated>2025-11-17T23:23:23Z</updated>
+    <link href="https://arxiv.org/abs/2510.00388v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.00388v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Prof. Bonitz and his collaborators have made seminal contributions to the study of the uniform electron fluid and the electron-proton fluid, viz., hydrogen, in using {\it ab initio} simulations, as reflected in this festschrift. Here we review the theoretical methods available for these systems where traditional small-parameter methods fail. We use the neutral-pseudo atom (NPA) method, and a classical map for quantum electrons to study hydrogen plasmas. We show that {\it both} fully-ionized and partially-ionized hydrogen phases can exist with the same nominal density and temperature, at pressures and temperatures of interest to planetary physics. The mean ionization $\bar{Z}$, pair-distribution functions, free energies, pressures and conductivities are calculated for the competing phases. Here $\bar{Z}$ is also a measure of the miscibility of fully ionized and un-ionized hydrogen. Recent studies using path-integral Monte Carlo methods, and $N$-atom Density Functional Theory (DFT) simulations have provided essential structure data including the electron-electron structure factor $S_{ee}(k)$ that enters into interpretation of X-ray Thomson scattering and other diagnostics. We show that these structure data can be inexpensively evaluated using classical-map schemes for fully ionized plasmas, and more generally, using one-atom (average-atom) DFT methods for partially ionized systems.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-01T01:00:54Z</published>
+    <arxiv:comment>Submitted to special issue: Contributions to Plasma Physics, Bonitz Felicitation volume</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>M. W. C. Dharma-wardana</name>
+    </author>
+  </entry>
+</feed>

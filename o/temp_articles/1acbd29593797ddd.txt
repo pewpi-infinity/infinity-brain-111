@@ -1,0 +1,103 @@
+TERMS: frequency, crystal, wavefunction
+COLORS: green, orange, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/jIRNpwLc46e/DO0UzAMBB4HQUIQ</id>
+  <title>arXiv Query: search_query=all:frequency AND all:crystal AND all:wavefunction&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:11:06Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:crystal+AND+all:wavefunction)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>30</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2005.03741v3</id>
+    <title>Frequency correlation requirements on the biphoton wavefunction in an induced coherence experiment between separate sources</title>
+    <updated>2020-10-21T23:50:26Z</updated>
+    <link href="https://arxiv.org/abs/2005.03741v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2005.03741v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>There is renewed interest in using the coherence between beams generated in separate down-converter sources for new applications in imaging, spectroscopy, microscopy and optical coherence tomography (OCT). These schemes make use of continuous wave (CW) pumping in the low parametric gain regime, which produces frequency correlations, and frequency entanglement, between signal-idler pairs generated in each single source. But can induced coherence still be observed if there is no frequency correlation, so the biphoton wavefunction is factorable? We will show that this is the case, and this might be an advantage for OCT applications. High axial resolution requires a large bandwidth. For CW pumping this requires the use of short nonlinear crystals. This is detrimental since short crystals generate small photon fluxes. We show that the use of ultrashort pump pulses allows improving axial resolution even for long crystal that produce higher photon fluxes.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-05-07T20:40:28Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Phys. Rev. A 102, 053711 (2020)</arxiv:journal_ref>
+    <author>
+      <name>Arturo Rojas-Santana</name>
+    </author>
+    <author>
+      <name>Gerard J. Machado</name>
+    </author>
+    <author>
+      <name>Dorilian Lopez-Mago</name>
+    </author>
+    <author>
+      <name>Juan P. Torres</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.102.053711</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.102.053711" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.00935v2</id>
+    <title>Temperature Measurement via Time Crystal Frequencies in One-Dimensional Quantum Droplets</title>
+    <updated>2025-08-05T18:20:06Z</updated>
+    <link href="https://arxiv.org/abs/2503.00935v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.00935v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a method for temperature measurement by analyzing the frequency of generated time crystals in one-dimensional (1D) quantum droplets. The system consists of a binary Bose-Einstein condensate mixture confined in a driven quasi-periodic optical lattice (QOL) with repulsive cubic effective mean-field and attractive quadratic beyond-mean-field interactions. By solving the 1D extended Gross-Pitaevskii equation, we derive the exact analytical wavefunction and investigate the droplet dynamics under different driving conditions. Specifically, we examine three cases: (i) constant driving frequency with linearly increasing QOL depth, (ii) constant QOL depth with linearly varying driving frequency, and (iii) constant driving frequency with sinusoidally modulated QOL depth. Fast Fourier Transform analysis reveals harmonic density oscillations, confirming time crystal formation. Additionally, we establish a non-trivial correlation between time crystal frequency and system temperature, demonstrating that an increase in time crystal frequency leads to oscillatory variations in the magnitude of the droplet's negative temperature. Finally, numerical stability analysis confirms that the obtained solutions remain robust, ensuring their feasibility for experimental realization.</summary>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.PS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-02T15:17:31Z</published>
+    <arxiv:primary_category term="cond-mat.quant-gas"/>
+    <author>
+      <name>Saurab Das</name>
+    </author>
+    <author>
+      <name>Jagnyaseni Jogania</name>
+    </author>
+    <author>
+      <name>Jayanta Bera</name>
+    </author>
+    <author>
+      <name>Ajay Nath</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1810.01184v3</id>
+    <title>Phase matching in $β$-barium borate crystals for spontaneous parametric down-conversion</title>
+    <updated>2020-05-11T13:52:54Z</updated>
+    <link href="https://arxiv.org/abs/1810.01184v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1810.01184v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Spontaneous parametric down-conversion (SPDC) is the most widely used process for generating entangled photon pairs. In SPDC, a pump photon interacts with a nonlinear optical crystal and splits into two entangled photons called the signal and the idler photons. The SPDC process has been studied extensively in the last few decades for various pump and crystal configurations, and the entangled photon pairs produced by SPDC have been used in numerous experimental studies on quantum entanglement and entanglement-based real-world quantum-information applications. In this tutorial article, we present a thorough study of phase matching in $β$-barium borate (BBO) crystals for spontaneous parametric down-conversion and thereby also investigate the generation of entangled photons in such crystals. First, we present a theoretical derivation of two-photon wavefunction produced by SPDC in the frequency and transverse momentum bases. We then discuss in detail the effects due to various crystal and pump parameters including the length of the crystal, the angle between the optic axis and the pump propagation direction, the pump incidence angle on the crystal surface, the refraction at the crystal surfaces, and the pump propagation direction inside the crystal. These effects are extremely relevant in experimental situations. We then present our numerical and experimental results in order to illustrate how various experimental parameters affect the phase matching and thus the generation of entangled photons. Finally, using the two-photon wavefunction in the transverse wave-vector basis, we show how to derive the two-photon wavefunction in the OAM basis and thereby calculate the two-photon angular Schmidt spectrum. We expect this article to be useful for researchers working in various capacities with entangled photons generated by SPDC in BBO crystals.</summary>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-10-02T11:54:45Z</published>
+    <arxiv:comment>23 pages, 14 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.optics"/>
+    <author>
+      <name>Suman Karan</name>
+    </author>
+    <author>
+      <name>Shaurya Aarav</name>
+    </author>
+    <author>
+      <name>Homanga Bharadhwaj</name>
+    </author>
+    <author>
+      <name>Lavanya Taneja</name>
+    </author>
+    <author>
+      <name>Arinjoy De</name>
+    </author>
+    <author>
+      <name>Girish Kulkarni</name>
+    </author>
+    <author>
+      <name>Nilakantha Meher</name>
+    </author>
+    <author>
+      <name>Anand K Jha</name>
+    </author>
+    <arxiv:doi>10.1088/2040-8986/ab89e4</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/2040-8986/ab89e4" title="doi"/>
+  </entry>
+</feed>

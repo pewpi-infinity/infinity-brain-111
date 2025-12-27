@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Infinity Portal</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">Infinity Portal</div>
+    <div id="userInfo"></div>
+  </header>
+
+  <main class="layout">
+    <!-- wallet -->
+    <section class="card">
+      <h2>Infinity Bank / Wallet</h2>
+      <p class="muted">Tokens earned across all Infinity pages.</p>
+      <div id="walletBalance" class="badge">0 INF</div>
+      <div class="row">
+        <button class="btn" id="earnBuild">+10 Build App</button>
+        <button class="btn" id="earnMarket">+5 Marketplace Action</button>
+        <button class="btn secondary" id="viewHistory">View history</button>
+      </div>
+      <div id="historyBox" class="history"></div>
+    </section>
+
+    <!-- main apps -->
+    <section class="card">
+      <h2>Infinity Apps</h2>
+      <div class="grid">
+        <button class="tile" data-app="marketplace">Marketplace (very important)</button>
+        <button class="tile" data-app="rogers">Rogers Live Chat</button>
+        <button class="tile" data-app="studio">Karaoke / Studio</button>
+        <button class="tile" data-app="news">Daily / Papers</button>
+      </div>
+      <p class="muted" style="margin-top:.4rem;">Tap to log activity and move to that page (later these can be real links).</p>
+    </section>
+
+    <!-- activity -->
+    <section class="card">
+      <h2>PewPi Activity</h2>
+      <div id="activityBox" class="history"></div>
+    </section>
+
+    <div id="infinity-footer"></div>
+  </main>
+
+  <script type="module">
+    import {
+      getCurrentUser,
+      ensureWallet,
+      reward,
+      getActivity,
+      renderInfinityFooter,
+      logActivity
+    } from './core/infinity-core.js';
+
+    const user = getCurrentUser();
+    if (!user) {
+      // not logged in, go to login
+      window.location.href = "./login.html";
+    }
+
+    const wallet = ensureWallet(user);
+
+    document.getElementById('userInfo').textContent =
+      (user.name || "Infinity user") + (user.email ? " · " + user.email : "");
+
+    const walletBalance = document.getElementById('walletBalance');
+    walletBalance.textContent = wallet.tokens + " INF";
+
+    function renderHistory(list) {
+      const box = document.getElementById('historyBox');
+      box.innerHTML = "";
+      if (!list || !list.length) {
+        box.textContent = "No wallet history yet.";
+        return;
+      }
+      list.slice(0, 20).forEach(item => {
+        const p = document.createElement("p");
+        p.textContent = `${item.ts} — ${item.action} (+${item.amount})`;
+        box.appendChild(p);
+      });
+    }
+
+    function renderActivity() {
+      const list = getActivity();
+      const box = document.getElementById('activityBox');
+      box.innerHTML = "";
+      list.slice(0, 30).forEach(item => {
+        const p = document.createElement("p");
+        p.textContent = `${item.ts} — ${item.user}: ${item.action}`;
+        box.appendChild(p);
+      });
+    }
+
+    document.getElementById('earnBuild').onclick = () => {
+      const w = reward(user, "build-app", 10);
+      walletBalance.textContent = w.tokens + " INF";
+      renderHistory(w.history);
+      renderActivity();
+    };
+
+    document.getElementById('earnMarket').onclick = () => {
+      const w = reward(user, "marketplace-action", 5);
+      walletBalance.textContent = w.tokens + " INF";
+      renderHistory(w.history);
+      renderActivity();
+    };
+
+    document.querySelectorAll(".tile").forEach(btn => {
+      btn.onclick = () => {
+        const app = btn.dataset.app;
+        const w = reward(user, "open-app:" + app, 1);
+        walletBalance.textContent = w.tokens + " INF";
+        renderHistory(w.history);
+        renderActivity();
+        alert("Open " + app + " (1 token)");
+      };
+    });
+
+    document.getElementById('viewHistory').onclick = () => {
+      renderHistory(ensureWallet(user).history);
+    };
+
+    renderHistory(wallet.history);
+    renderActivity();
+    renderInfinityFooter();
+  </script>
+</body>
+</html>

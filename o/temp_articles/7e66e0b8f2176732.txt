@@ -1,0 +1,27 @@
+TERMS: fusion, resonance, bandgap
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/y8cLypJJWdFRgKA0mmKJKHQDW3Y</id>
+  <title>arXiv Query: search_query=all:fusion AND all:resonance AND all:bandgap&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:21:50Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:fusion+AND+(all:resonance+AND+all:bandgap)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2412.05310v1</id>
+    <title>Spatially modulated plasma profile for turbulence and instabilities mitigation in fusion plasma</title>
+    <updated>2024-11-27T20:32:54Z</updated>
+    <link href="https://arxiv.org/abs/2412.05310v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.05310v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This work explores a novel approach to mitigating turbulence in fusion plasmas through spatially modulated plasma profiles. By imposing a harmonic modulation on plasma parameters, we introduce conditions that alter the propagation characteristics of turbulent and MHD waves, a primary source of transport and instabilities in fusion devices. This modulation approach resembles bandgap formation in solid-state and photonic crystals, where spatial periodicity suppresses wave propagation within specific frequency bands. The mathematical framework developed here essentially resembles the parametric resonance of the harmonic oscillator. It reveals how a controlled spatial variation of turbulent wave phase velocity can effectively attenuate turbulence and instabilities. Several methods for implementing this modulation in plasma, including RF waves, static magnetic field perturbations, and modulated density profiles, are proposed as potential paths for achieving stable confinement. This concept could provide a versatile and potentially more controllable alternative to existing turbulence suppression techniques, with the goal of improving stability and confinement across a variety of magnetized fusion configurations.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-27T20:32:54Z</published>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>Ilya Shesterikov</name>
+    </author>
+  </entry>
+</feed>

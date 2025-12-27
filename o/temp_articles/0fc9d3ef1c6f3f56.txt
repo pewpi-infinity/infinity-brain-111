@@ -1,0 +1,105 @@
+TERMS: superconductivity, plasma, probability
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/t3dbLy0UZjUzai4JM+NEkQ/UIJM</id>
+  <title>arXiv Query: search_query=all:superconductivity AND all:plasma AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:31:47Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:superconductivity+AND+(all:plasma+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>8</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2406.13003v2</id>
+    <title>Simulating nonlinear optical processes on a superconducting quantum device</title>
+    <updated>2024-08-26T23:26:38Z</updated>
+    <link href="https://arxiv.org/abs/2406.13003v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.13003v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Simulating plasma physics on quantum computers is difficult because most problems of interest are nonlinear, but quantum computers are not naturally suitable for nonlinear operations. In weakly nonlinear regimes, plasma problems can be modeled as wave-wave interactions. In this paper, we develop a quantization approach to convert nonlinear wave-wave interaction problems to Hamiltonian simulation problems. We demonstrate our approach using two qubits on a superconducting device. Unlike a photonic device, a superconducting device does not naturally have the desired interactions in its native Hamiltonian. Nevertheless, Hamiltonian simulations can still be performed by decomposing required unitary operations into native gates. To improve experimental results, we employ a range of error mitigation techniques. Apart from readout error mitigation, we use randomized compilation to transform undiagnosed coherent errors into well-behaved stochastic Pauli channels. Moreover, to compensate for stochastic noise, we rescale exponentially decaying probability amplitudes using rates measured from cycle benchmarking. We carefully consider how different choices of product-formula algorithms affect the overall error and show how a trade-off can be made to best utilize limited quantum resources. This study provides an example of how plasma problems may be solved on near-term quantum computing platforms.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-06-18T18:46:46Z</published>
+    <arxiv:comment>26 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <arxiv:journal_ref>J. Plasma Phys. 90 (2024) 805900602</arxiv:journal_ref>
+    <author>
+      <name>Yuan Shi</name>
+    </author>
+    <author>
+      <name>Bram Evert</name>
+    </author>
+    <author>
+      <name>Amy F. Brown</name>
+    </author>
+    <author>
+      <name>Vinay Tripathi</name>
+    </author>
+    <author>
+      <name>Eyob A. Sete</name>
+    </author>
+    <author>
+      <name>Vasily Geyko</name>
+    </author>
+    <author>
+      <name>Yujin Cho</name>
+    </author>
+    <author>
+      <name>Jonathan L DuBois</name>
+    </author>
+    <author>
+      <name>Daniel Lidar</name>
+    </author>
+    <author>
+      <name>Ilon Joseph</name>
+    </author>
+    <author>
+      <name>Matt Reagor</name>
+    </author>
+    <arxiv:doi>10.1017/S0022377824001326</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1017/S0022377824001326" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2301.11555v1</id>
+    <title>Bayesian neural network for plasma equilibria in the Korea Superconducting Tokamak Advanced Research</title>
+    <updated>2023-01-27T06:42:20Z</updated>
+    <link href="https://arxiv.org/abs/2301.11555v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2301.11555v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Fusion-graded plasmas are one of the physically complex systems, resulting in continuous establishment of plasma theories for unclarified physical phenomena in order to thoroughly control nuclear fusion reactors. Deep learning has drawn vast attention to this field of controlled fusion plasma to link physical phenomena with control-relevant parameters without a deepened understanding about plasma theories. Albeit, quantifying the uncertainty of deep learning models has been constantly requested due to their fundamental shortage of physical understanding. Thus, a concept of a reliable deep learning model to be able to present their probability distributions is raised as well as a method to inculcate physical theories in the model is also concerned.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-01-27T06:42:20Z</published>
+    <arxiv:comment>Doctoral Thesis, KAIST, 214 pages</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>Semin Joung</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2205.04441v1</id>
+    <title>Training and Upgrading Tokamak Power Plants with Remountable Superconducting Magnets</title>
+    <updated>2022-05-09T17:41:36Z</updated>
+    <link href="https://arxiv.org/abs/2205.04441v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2205.04441v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>All high field superconductors producing magnetic fields above 12 T are brittle. Nevertheless, they will probably be the materials of choice in commercial tokamaks because the fusion power density in a tokamak scales as the fourth power of magnetic field. Here we propose using robust, ductile superconductors during the reactor commissioning phase in order to avoid brittle magnet failure while operational safety margins are being established. Here we use the PROCESS systems code to inform development strategy and to provide detailed capital-cost-minimised tokamak power plant designs. We propose building a 'demonstrator' tokamak with an electric power output of 100 MWe, a plasma fusion gain Qplasma = 17, a net gain Qnet = 1.3, a cost of electricity (COE) of \$ 1148 (2021 US) per MWh (at 75 % availability) and high temperature superconducting operational TF magnets producing 5.4 T on-axis and 12.5 T peak-field. It uses Nb-Ti training magnets and will cost about \$ 9.75 Bn (2021 US). An equivalent 500 MWe plant has a COE of \$ 608 per MW suggesting that large tokamaks may eventually dominate the commercial market. We consider a range of designs optimised for capital cost (as the reactors considered are pilot plants) consisting of both 100 MWe and 500 MWe plants with each of two approaches for the magnets: training and upgrading. With training magnets, the plant is cost-optimised for REBCO TF magnets. For a 100 MWe plant, the Nb-Ti training magnets typically produce 70 % peak field on the toroidal field coils compared to REBCO magnets, 65 % peak field on the central solenoid and cost approx. 10 % of the total machine cost. Training magnets could in principle be reused for each of say 10 subsequent (commercial) machines and hence at 1 % bring only marginal additional cost.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-05-09T17:41:36Z</published>
+    <arxiv:comment>71 pages. 14 Tables. 11 Figures</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>S. B. L. Chislett-McDonald</name>
+    </author>
+    <author>
+      <name>E. Surrey</name>
+    </author>
+    <author>
+      <name>J. Naish</name>
+    </author>
+    <author>
+      <name>A. Turner</name>
+    </author>
+    <author>
+      <name>D. P. Hampshire</name>
+    </author>
+  </entry>
+</feed>

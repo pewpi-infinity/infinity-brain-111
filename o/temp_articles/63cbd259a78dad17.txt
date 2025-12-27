@@ -1,0 +1,97 @@
+TERMS: hydrogen, quantum
+COLORS: purple, blue
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/lknqEA70d4qtC8mBcqCKh42e2fY</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T00:56:21Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+all:quantum&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>3585</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2412.06790v2</id>
+    <title>The construction of quantum mechanics from electromagnetism. Part II: the Hydrogen atom</title>
+    <updated>2025-01-28T12:49:47Z</updated>
+    <link href="https://arxiv.org/abs/2412.06790v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.06790v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In Part I we constructed the Quantum Mechanics of a charged unitary entity and prescribed the form in which such a particle interacts with other charged particles and matter in general. In this second part we extend the description to the hydrogen atom testing the correctness and accuracy of the general description. The relation between electron and proton in the atom is described systematically in a construction that is free from analogies or ad-hoc derivations and it supersedes conventional Quantum Mechanics (whose equations linked to measurements can be recovered). We briefly discuss why the concept of isolation built in Schrödinger's time evolution is not acceptable and how it immediately results in the well known measurement paradoxes of quantum mechanics. We also discuss the epistemic grounds of the development as well as those of conventional Quantum Mechanics.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-14T13:08:44Z</published>
+    <arxiv:comment>New version is Part II of arXiv:2412.06789, "The construction of quantum mechanics from electromagnetism. Theory and hydrogen atom"</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Hernán Gustavo Solari</name>
+    </author>
+    <author>
+      <name>Mario Alberto Natiello</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2112.14193v3</id>
+    <title>A full circuit-based quantum algorithm for excited-states in quantum chemistry</title>
+    <updated>2024-01-03T06:31:58Z</updated>
+    <link href="https://arxiv.org/abs/2112.14193v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2112.14193v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Utilizing quantum computer to investigate quantum chemistry is an important research field nowadays. In addition to the ground-state problems that have been widely studied, the determination of excited-states plays a crucial role in the prediction and modeling of chemical reactions and other physical processes. Here, we propose a non-variational full circuit-based quantum algorithm for obtaining the excited-state spectrum of a quantum chemistry Hamiltonian. Compared with previous classical-quantum hybrid variational algorithms, our method eliminates the classical optimization process, reduces the resource cost caused by the interaction between different systems, and achieves faster convergence rate and stronger robustness against noise without barren plateau. The parameter updating for determining the next energy-level is naturally dependent on the energy measurement outputs of the previous energy-level and can be realized by only modifying the state preparation process of ancillary system, introducing little additional resource overhead. Numerical simulations of the algorithm with hydrogen, LiH, H2O and NH3 molecules are presented. Furthermore, we offer an experimental demonstration of the algorithm on a superconducting quantum computing platform, and the results show a good agreement with theoretical expectations. The algorithm can be widely applied to various Hamiltonian spectrum determination problems on the fault-tolerant quantum computers.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-12-28T15:48:09Z</published>
+    <arxiv:comment>accepted for publication in Quantum</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Quantum 8, 1219 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Jingwei Wen</name>
+    </author>
+    <author>
+      <name>Zhengan Wang</name>
+    </author>
+    <author>
+      <name>Chitong Chen</name>
+    </author>
+    <author>
+      <name>Junxiang Xiao</name>
+    </author>
+    <author>
+      <name>Hang Li</name>
+    </author>
+    <author>
+      <name>Ling Qian</name>
+    </author>
+    <author>
+      <name>Zhiguo Huang</name>
+    </author>
+    <author>
+      <name>Heng Fan</name>
+    </author>
+    <author>
+      <name>Shijie Wei</name>
+    </author>
+    <author>
+      <name>Guilu Long</name>
+    </author>
+    <arxiv:doi>10.22331/q-2024-01-04-1219</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.22331/q-2024-01-04-1219" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.10069v2</id>
+    <title>Relativistic Quantum Simulation of Hydrogen Sulfide for Hydrogen Energy via Hybrid Quantum-Classical Algorithms</title>
+    <updated>2025-04-15T16:11:12Z</updated>
+    <link href="https://arxiv.org/abs/2504.10069v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.10069v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a relativistic quantum simulation framework for modeling hydrogen sulfide (H2S) decomposition relevant to hydrogen energy applications. The approach integrates Dirac-Coulomb relativistic quantum chemistry with the variational quantum eigensolver (VQE), implemented on a hybrid quantum-classical architecture. Using quantum algorithms based on Jordan-Wigner encoding and relativistic integrals, we simulate ground-state energies and potential energy surfaces for H2, H2O, and H2S molecules. Results demonstrate that the relativistic VQE correctly reproduces known energy shifts and molecular trends. Optimizer performance, energy variance, and Pauli term complexity are also evaluated. The findings offer insight into scalable quantum simulations of chemically and physically significant systems involving heavy atoms.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-04-14T10:15:02Z</published>
+    <arxiv:comment>13 pages, 10 figures, includes relativistic quantum chemistry, VQE simulations, and hybrid quantum-classical modeling. Submitted to arXiv for early dissemination</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Chi-Chuan Hwang</name>
+    </author>
+    <author>
+      <name>Cheng-Fang Su</name>
+    </author>
+    <author>
+      <name>Jung-Fan Yang</name>
+    </author>
+  </entry>
+</feed>

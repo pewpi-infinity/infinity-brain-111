@@ -1,0 +1,398 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Infinity Launcher — Portal • Marketplace • Socializer</title>
+<style>
+  /* ---------- Theme / Layout ---------- */
+  :root{
+    --blue-1:#003087;   /* PayPal-like primary */
+    --blue-2:#0b5fd7;
+    --accent:#0b76ff;
+    --muted:#6b7280;
+    --bg:#ffffff;
+    --card:#f8fafc;
+    --glass: rgba(11,95,215,0.08);
+    --radius:12px;
+    font-family: Inter, "Segoe UI", Roboto, Arial, sans-serif;
+  }
+  html,body{height:100%;margin:0;background:var(--bg);color:#0b1726;}
+  .wrap{max-width:1200px;margin:28px auto;padding:20px;}
+  header{display:flex;align-items:center;justify-content:space-between;padding:18px;border-radius:12px;background:linear-gradient(0deg,#ffffff, #fbfdff);box-shadow:0 6px 18px rgba(11,95,215,0.06);border:1px solid rgba(3,24,62,0.04)}
+  .brand{display:flex;align-items:center;gap:14px}
+  .logo{
+    width:56px;height:56px;border-radius:10px;background:linear-gradient(135deg,var(--blue-1),var(--blue-2));display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:20px;box-shadow:0 6px 12px rgba(11,95,215,0.12)
+  }
+  h1{font-size:20px;margin:0}
+  .sub{color:var(--muted);font-size:13px}
+  main{margin-top:22px;display:grid;grid-template-columns:1fr 340px;gap:18px}
+  /* Hub cards */
+  .hubset{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+  .card{background:var(--card);border-radius:12px;padding:18px;box-shadow:0 4px 18px rgba(11,95,215,0.04);border:1px solid rgba(3,24,62,0.04)}
+  .bigbtn{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;padding:22px;border-radius:12px;background:white;border:1px solid rgba(3,24,62,0.06);cursor:pointer;transition:all .12s}
+  .bigbtn:hover{transform:translateY(-4px);box-shadow:0 10px 30px rgba(11,95,215,0.08)}
+  .bigbtn .title{font-weight:700;color:var(--blue-1)}
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:12px}
+  .mini{background:linear-gradient(90deg, rgba(11,95,215,0.06), rgba(11,95,215,0.02));padding:10px;border-radius:10px;text-align:center;cursor:pointer}
+  /* Right column */
+  .rhs{position:relative}
+  .panel{background:white;border-radius:12px;padding:14px;margin-bottom:14px;box-shadow:0 6px 18px rgba(3,24,62,0.04);border:1px solid rgba(3,24,62,0.03)}
+  .search{display:flex;gap:8px}
+  .search input{flex:1;padding:10px;border-radius:10px;border:1px solid rgba(3,24,62,0.06)}
+  .search button{background:var(--blue-1);color:white;padding:10px 12px;border-radius:10px;border:0;cursor:pointer}
+  /* modals / app frames */
+  .appFrame{position:fixed;inset:0;display:none;align-items:center;justify-content:center;background:rgba(2,6,23,0.45);z-index:9999}
+  .appCard{width:92%;max-width:980px;background:white;border-radius:12px;padding:18px;box-shadow:0 30px 80px rgba(3,24,62,0.3);max-height:86vh;overflow:auto}
+  .appHeader{display:flex;justify-content:space-between;align-items:center;gap:8px}
+  .closeBtn{background:transparent;border:0;font-size:20px;cursor:pointer;color:var(--muted)}
+  .twoCol{display:grid;grid-template-columns:1fr 380px;gap:14px;margin-top:14px}
+  .appGrid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+  /* small controls */
+  .formRow{display:flex;flex-direction:column;gap:6px;margin-bottom:8px}
+  label{font-size:13px;color:var(--muted)}
+  input,select,textarea{padding:10px;border-radius:8px;border:1px solid rgba(3,24,62,0.06);font-size:14px}
+  button.primary{background:var(--blue-1);color:white;padding:10px 12px;border-radius:8px;border:0;cursor:pointer}
+  .muted{color:var(--muted);font-size:13px}
+  footer{margin-top:18px;padding:12px;border-radius:10px;background:linear-gradient(0deg,#fff,#fbfdff);display:flex;justify-content:space-between;align-items:center;border:1px solid rgba(3,24,62,0.04)}
+  .legal{font-size:12px;color:var(--muted);line-height:1.15}
+  /* Rogers chat widget */
+  .rogersBtn{position:fixed;right:18px;bottom:18px;background:linear-gradient(135deg,var(--blue-1),var(--blue-2));width:64px;height:64px;border-radius:100px;display:flex;align-items:center;justify-content:center;color:white;font-weight:700;cursor:pointer;z-index:99999;box-shadow:0 10px 30px rgba(11,95,215,0.2)}
+  .chatPanel{position:fixed;right:18px;bottom:92px;width:360px;border-radius:12px;background:white;border:1px solid rgba(3,24,62,0.06);box-shadow:0 30px 80px rgba(3,24,62,0.12);display:none;flex-direction:column;z-index:99999;overflow:hidden}
+  .chatHeader{padding:10px 12px;background:linear-gradient(90deg,var(--blue-1),var(--blue-2));color:white;display:flex;justify-content:space-between;align-items:center}
+  .chatBody{padding:12px;height:320px;overflow:auto;background:#fbfdff}
+  .chatInput{display:flex;padding:10px;border-top:1px solid rgba(3,24,62,0.04)}
+  .chatInput input{flex:1;padding:8px;border-radius:8px;border:1px solid rgba(3,24,62,0.06)}
+  .chip{display:inline-block;padding:6px 10px;border-radius:20px;background:var(--glass);color:var(--blue-1);font-weight:600;margin:6px 6px 0 0}
+  .appList{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+  .appItem{padding:8px 10px;border-radius:10px;background:white;border:1px solid rgba(3,24,62,0.06);cursor:pointer}
+  /* responsive */
+  @media(max-width:880px){main{grid-template-columns:1fr} .twoCol{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand">
+      <div class="logo">∞</div>
+      <div>
+        <h1>Infinity Launcher</h1>
+        <div class="sub">Portal · Marketplace · Socializer — powered by Infinity</div>
+      </div>
+    </div>
+    <div class="sub muted">All prototypes are token-ready. Email: infinitystockinvesting@gmail.com</div>
+  </header>
+
+  <main>
+    <!-- Left: hubs -->
+    <div>
+      <section class="hubset">
+        <div class="card">
+          <div class="bigbtn" onclick="openApp('portalHub')">
+            <div style="font-size:28px;color:var(--blue-1)">Portal</div>
+            <div class="title">Day-to-day apps</div>
+            <div class="muted" style="font-size:13px">Calculator, Alarm, Bible, Pets, Therapy, Gardening</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="bigbtn" onclick="openApp('marketHub')">
+            <div style="font-size:28px;color:var(--blue-1)">Marketplace</div>
+            <div class="title">Trade & token commerce</div>
+            <div class="muted" style="font-size:13px">Token-only market, Clothing, Food/Textiles, Glass registry</div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="bigbtn" onclick="openApp('socialHub')">
+            <div style="font-size:28px;color:var(--blue-1)">Socializer</div>
+            <div class="title">Community & creativity</div>
+            <div class="muted" style="font-size:13px">Locals chat, Game generator, DIY, Channel generator</div>
+          </div>
+        </div>
+      </section>
+
+      <section style="margin-top:14px" class="card">
+        <div style="display:flex;justify-content:space-between;align-items:center">
+          <div><strong>Quick actions</strong><div class="muted">Open common tools fast</div></div>
+          <div><button class="primary" onclick="openApp('marketHub')">Open Marketplace</button></div>
+        </div>
+
+        <div class="grid" style="margin-top:12px">
+          <div class="mini" onclick="openApp('calc')">Calculator</div>
+          <div class="mini" onclick="openApp('alarm')">Alarm</div>
+          <div class="mini" onclick="openApp('locals')">Locals Chat</div>
+          <div class="mini" onclick="openApp('videogame')">Game Generator</div>
+        </div>
+
+        <div style="margin-top:12px">
+          <strong>Recent builds</strong>
+          <div class="muted" style="margin-top:6px">Infinity PayPal-style UI, Rogers AI integration prototype, Auto-crop image upload flow.</div>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- Right column: toolbox / search / info -->
+    <aside class="rhs">
+      <div class="panel">
+        <div style="display:flex;justify-content:space-between;align-items:center">
+          <div><strong>Quick search — Locals</strong><div class="muted">Find a chat near a ZIP</div></div>
+        </div>
+        <div style="margin-top:10px" class="search">
+          <input id="zipInput" placeholder="Enter ZIP or postal code" />
+          <button onclick="searchZip()">Search</button>
+        </div>
+        <div id="zipResults" style="margin-top:10px" class="muted">Results will appear here.</div>
+      </div>
+
+      <div class="panel">
+        <div style="display:flex;justify-content:space-between;align-items:center">
+          <div><strong>Wallet / Tokens</strong><div class="muted">Infinity balance / quick actions</div></div>
+          <div><button onclick="alert('Infinity wallet placeholder')">Open Wallet</button></div>
+        </div>
+        <div style="margin-top:10px">
+          <div class="chip">∞ 0.00</div>
+          <div class="muted" style="margin-top:8px">Token trades happen in Marketplace only. No USD here unless linked externally.</div>
+        </div>
+      </div>
+
+      <div class="panel">
+        <div><strong>Dev notes</strong></div>
+        <div class="muted" style="margin-top:8px">This single-file launcher is ready to be wired to your Termux services, GPT endpoints, or Infinity Wallet API. Add backend endpoints in <code>window.INFINITY_CONFIG</code>.</div>
+      </div>
+    </aside>
+  </main>
+
+  <footer>
+    <div class="legal">
+      Powered by Infinity — Infinity Launcher prototype<br/>
+      <small>Chat script design credits & adverts allowed in legal area.</small>
+    </div>
+    <div style="text-align:right" class="muted">
+      Contact: <a href="mailto:infinitystockinvesting@gmail.com">infinitystockinvesting@gmail.com</a><br/>
+      VP / OpenAI contact (plausible): <span class="muted">openai-vp@example.com</span>
+    </div>
+  </footer>
+</div>
+
+<!-- ------------------ App frames (modals) ------------------ -->
+<!-- Full Portal Hub -->
+<div id="portalHub" class="appFrame" onclick="hideIfBackdrop(event,'portalHub')">
+  <div class="appCard" role="dialog" aria-modal="true">
+    <div class="appHeader">
+      <div>
+        <strong>Portal — Day-to-day apps</strong>
+        <div class="muted">Calculator, Alarm, Bible, Physical Therapy, Pets, Gardening</div>
+      </div>
+      <div><button class="closeBtn" onclick="closeApp('portalHub')">✕</button></div>
+    </div>
+
+    <div class="twoCol">
+      <div>
+        <div class="appGrid">
+          <!-- Calculator -->
+          <div class="card">
+            <strong>Calculator</strong>
+            <div class="muted">Standard + Infinity conversions</div>
+            <div style="margin-top:8px">
+              <input id="calcInput" placeholder="2+2" />
+              <div style="margin-top:8px"><button class="primary" onclick="runCalc()">Compute</button></div>
+              <div id="calcOut" class="muted" style="margin-top:8px"></div>
+            </div>
+          </div>
+
+          <!-- Alarm -->
+          <div class="card">
+            <strong>Alarm Clock</strong>
+            <div class="muted">Set a soft alarm with message</div>
+            <div style="margin-top:8px">
+              <div class="formRow"><label>Time (HH:MM)</label><input id="alarmTime" placeholder="07:30" /></div>
+              <div class="formRow"><label>Label</label><input id="alarmLabel" placeholder="Wake + Infinity message" /></div>
+              <div><button onclick="setAlarm()" class="primary">Set Alarm</button></div>
+              <div id="alarmStatus" class="muted" style="margin-top:8px"></div>
+            </div>
+          </div>
+
+          <!-- Bible Verse -->
+          <div class="card">
+            <strong>Bible Verse — Infinity Style</strong>
+            <div class="muted">Search by book/chapter/verse or random daily message</div>
+            <div style="margin-top:8px">
+              <input id="verseQuery" placeholder="Isaiah 1:7 or random" />
+              <div style="margin-top:8px"><button onclick="getVerse()" class="primary">Get Verse</button></div>
+              <div id="verseOut" style="margin-top:8px" class="muted"></div>
+            </div>
+          </div>
+
+          <!-- Physical Therapy -->
+          <div class="card">
+            <strong>Physical Therapy</strong>
+            <div class="muted">Guided exercises & notes (camera features to add later)</div>
+            <div style="margin-top:8px">
+              <textarea id="ptNotes" placeholder="Describe goals..."></textarea>
+              <div style="margin-top:8px"><button onclick="savePT()" class="primary">Save Plan</button></div>
+              <div id="ptStatus" class="muted" style="margin-top:8px"></div>
+            </div>
+          </div>
+
+          <!-- Pets -->
+          <div class="card">
+            <strong>Pet Manager</strong>
+            <div class="muted">Add pet feed schedule & reminders</div>
+            <div style="margin-top:8px">
+              <input id="petName" placeholder="Pet name" />
+              <input id="petSchedule" placeholder="Feed times (e.g. 08:00, 18:00)" style="margin-top:8px" />
+              <div style="margin-top:8px"><button onclick="addPet()" class="primary">Add Pet</button></div>
+              <div id="petList" class="muted" style="margin-top:8px"></div>
+            </div>
+          </div>
+
+          <!-- Gardening -->
+          <div class="card">
+            <strong>Gardening & Seed Swap</strong>
+            <div class="muted">Suggest planting times and manage swaps</div>
+            <div style="margin-top:8px">
+              <input id="plantName" placeholder="Plant / Seed name" />
+              <div style="margin-top:8px"><button onclick="addSeed()" class="primary">Add seed / Swap offer</button></div>
+              <div id="seedList" class="muted" style="margin-top:8px"></div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Right column inside Portal -->
+      <div>
+        <div class="card">
+          <strong>Infinity CAD — Clothing & Leather</strong>
+          <div class="muted">Pattern & design starter (exportable later)</div>
+          <div style="margin-top:8px">
+            <input id="designName" placeholder="Design name" />
+            <div style="margin-top:8px"><button onclick="saveDesign()" class="primary">Save Design</button></div>
+            <div id="designOut" class="muted" style="margin-top:8px"></div>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:12px">
+          <strong>Packaging Glass Standard</strong>
+          <div class="muted">Register new glass packaging design</div>
+          <div style="margin-top:8px">
+            <input id="glassName" placeholder="Glass design name" />
+            <div style="margin-top:8px"><button onclick="registerGlass()" class="primary">Register</button></div>
+            <div id="glassOut" class="muted" style="margin-top:8px"></div>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:12px">
+          <strong>Notes / Developer</strong>
+          <div class="muted">Add your backend endpoint settings below</div>
+          <div style="margin-top:8px">
+            <input id="backend" placeholder="e.g. http://localhost:8080/api" />
+            <div style="margin-top:8px"><button onclick="saveBackend()" class="primary">Save</button></div>
+            <div id="backendOut" class="muted" style="margin-top:8px"></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Marketplace Hub -->
+<div id="marketHub" class="appFrame" onclick="hideIfBackdrop(event,'marketHub')">
+  <div class="appCard">
+    <div class="appHeader">
+      <div>
+        <strong>Marketplace — Infinity Token Commerce</strong>
+        <div class="muted">Token-only listings, clothing, food/textile trades, banned/corrupt ledger</div>
+      </div>
+      <div><button class="closeBtn" onclick="closeApp('marketHub')">✕</button></div>
+    </div>
+
+    <div style="margin-top:12px" class="twoCol">
+      <div>
+        <div class="card">
+          <strong>New Listing (Token-only)</strong>
+          <div class="muted">Upload placeholder (image upload & crop wiring later)</div>
+          <div style="margin-top:10px">
+            <input id="itemTitle" placeholder="Item title" />
+            <textarea id="itemDesc" placeholder="Description" style="margin-top:8px"></textarea>
+            <div style="margin-top:8px"><label>Infinity price (∞)</label><input id="itemPrice" placeholder="100" /></div>
+            <div style="margin-top:8px"><button class="primary" onclick="createListing()">Create Listing</button></div>
+            <div id="listingOut" class="muted" style="margin-top:8px"></div>
+          </div>
+        </div>
+
+        <div class="card" style="margin-top:12px">
+          <strong>Clothing Design Marketplace</strong>
+          <div class="muted">Post designs for token purchase or licensing</div>
+          <div style="margin-top:8px" id="clothingList">No designs yet.</div>
+        </div>
+
+        <div class="card" style="margin-top:12px">
+          <strong>Food / Textile Exchange</strong>
+          <div class="muted">Barter & trade platform (tokenized)</div>
+          <div style="margin-top:8px">
+            <input id="swapItem" placeholder="What you offer" />
+            <input id="wantItem" placeholder="What you want" style="margin-top:8px" />
+            <div style="margin-top:8px"><button class="primary" onclick="offerSwap()">Offer Swap</button></div>
+            <div id="swapOut" class="muted" style="margin-top:8px"></div>
+          </div>
+        </div>
+
+      </div>
+
+      <div>
+        <div class="card">
+          <strong>Banned & Corrupt Ledger</strong>
+          <div class="muted">User-submitted reports; Rogers verifies evidence</div>
+          <textarea id="badReport" placeholder="Describe product/company & evidence link" style="margin-top:8px"></textarea>
+          <div style="margin-top:8px"><button class="primary" onclick="submitBan()">Submit Report</button></div>
+          <div id="banOut" class="muted" style="margin-top:8px"></div>
+        </div>
+
+        <div class="card" style="margin-top:12px">
+          <strong>Glass Packaging Registry</strong>
+          <div class="muted">Standardized packaging entries</div>
+          <div style="margin-top:8px" id="glassRegistry">No entries.</div>
+        </div>
+
+        <div class="card" style="margin-top:12px">
+          <strong>Leather Craft Shop</strong>
+          <div class="muted">Templates & pattern marketplace</div>
+          <div style="margin-top:8px" id="leatherList">No patterns yet.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Socializer Hub -->
+<div id="socialHub" class="appFrame" onclick="hideIfBackdrop(event,'socialHub')">
+  <div class="appCard">
+    <div class="appHeader">
+      <div>
+        <strong>Socializer — Community & Channels</strong>
+        <div class="muted">Locals chat, game generator, DIY, channel auditions</div>
+      </div>
+      <div><button class="closeBtn" onclick="closeApp('socialHub')">✕</button></div>
+    </div>
+
+    <div style="margin-top:12px">
+      <div class="card">
+        <strong>Locals Chat (ZIP / Geo)</strong>
+        <div class="muted">Search joins a chat room near your ZIP</div>
+        <div style="margin-top:8px">
+          <input id="localsZip" placeholder="Enter ZIP or postal code" />
+          <div style="margin-top:8px"><button class="primary" onclick="joinLocal()">Join Local Chat</button></div>
+          <div id="localsOut" class="muted" style="margin-top:8px"></div>
+        </div>
+      </div>
+
+      <div class="card" style="margin-top:12px">
+        <strong>Video Game Generator</strong>
+        <div class="muted">Enter a concept and Infinity sketches a prototype</div>
+        <div style="margin-top:8px">
+          <input id="gameTitle" placeholder="Game idea name" />
+          <textarea id="gameDesc" placeholder="Describe theme, genre, scale..." style="margin-top

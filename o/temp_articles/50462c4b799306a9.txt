@@ -1,0 +1,155 @@
+TERMS: electron, plasma, vacuum
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/FVht/d5Y579TS8FJky0xU9QJfgE</id>
+  <title>arXiv Query: search_query=all:electron AND all:plasma AND all:vacuum&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:24:52Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:electron+AND+(all:plasma+AND+all:vacuum)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>441</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/0911.5092v1</id>
+    <title>Simulation of a collision-less planar electrostatic shock in a proton-electron plasma with a strong initial thermal pressure change</title>
+    <updated>2009-11-26T14:37:41Z</updated>
+    <link href="https://arxiv.org/abs/0911.5092v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0911.5092v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The localized deposition of the energy of a laser pulse, as it ablates a solid target, introduces high thermal pressure gradients in the plasma. The thermal expansion of this laser-heated plasma into the ambient medium (ionized residual gas) triggers the formation of non-linear structures in the collision-less plasma. Here an electron-proton plasma is modelled with a particle-in-cell (PIC) simulation to reproduce aspects of this plasma expansion. A jump is introduced in the thermal pressure of the plasma, across which the otherwise spatially uniform temperature and density change by the factor 100. The electrons from the hot plasma expand into the cool one and the charge imbalance drags a beam of cool electrons into the hot plasma. This double layer reduces the electron temperature gradient. The presence of the low-pressure plasma modifies the proton dynamics compared to the plasma expansion into a vacuum. The jump in the thermal pressure develops into a primary shock. The fast protons, which move from the hot into the cold plasma in form of a beam, give rise to the formation of phase space holes in the electron and proton distributions. The proton phase space holes develop into a secondary shock that thermalizes the beam.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-11-26T14:37:41Z</published>
+    <arxiv:comment>17 pages, 9 Figures, accepted for publication in plasma physics and controlled fusion</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>M E Dieckmann</name>
+    </author>
+    <author>
+      <name>G Sarri</name>
+    </author>
+    <author>
+      <name>L Romagnani</name>
+    </author>
+    <author>
+      <name>I Kourakis</name>
+    </author>
+    <author>
+      <name>M Borghesi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1603.09150v3</id>
+    <title>Plasma response measurements of external magnetic perturbations using electron cyclotron emission and comparisons to 3D ideal MHD equilibrium</title>
+    <updated>2016-08-04T17:45:09Z</updated>
+    <link href="https://arxiv.org/abs/1603.09150v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1603.09150v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The plasma response from an external n = 2 magnetic perturbation field in ASDEX Upgrade has been measured using mainly electron cyclotron emission (ECE) diagnostics and a rigid rotating field. To interpret ECE and ECE-imaging (ECE-I) measurements accurately, forward modeling of the radiation transport has been combined with ray tracing. The measured data is compared to synthetic ECE data generated from a 3D ideal magnetohydrodynamics (MHD) equilibrium calculated by VMEC. The measured amplitudes of the helical displacement around the low field side midplane are in reasonable agreement with the one from the synthetic VMEC diagnostics. Both exceed the prediction from the vacuum field calculations and indicate the presence of a kink response at the edge, which amplifies the perturbation. VMEC and MARS-F have been used to calculate the properties of this kink mode. The poloidal mode structure of the magnetic perturbation of this kink mode at the edge peaks at poloidal mode numbers larger than the resonant components |m| &gt; |nq|, whereas the poloidal mode structure of its displacement is almost resonant |m| ~ |nq|. This is expected from ideal MHD in the proximity of rational surfaces. The displacement measured by ECE-I confirms this resonant response.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-03-30T12:19:50Z</published>
+    <arxiv:comment>34 pages, 19 figures. This is an author-created, un-copyedited version of an article submitted for publication in Plasma Physics and Controlled Fusion. IoP Publishing Ltd is not responsible for any errors or omissions in this version of the manuscript or any version derived from it</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <arxiv:journal_ref>Plasma Phys. Control. Fusion 58 (2016) 114004 (18pp)</arxiv:journal_ref>
+    <author>
+      <name>M. Willensdorfer</name>
+      <arxiv:affiliation>the ASDEX Upgrade Team and the EUROfusion MST1 Team</arxiv:affiliation>
+    </author>
+    <author>
+      <name>S. S. Denk</name>
+      <arxiv:affiliation>the ASDEX Upgrade Team and the EUROfusion MST1 Team</arxiv:affiliation>
+    </author>
+    <author>
+      <name>E. Strumberger</name>
+      <arxiv:affiliation>the ASDEX Upgrade Team and the EUROfusion MST1 Team</arxiv:affiliation>
+    </author>
+    <author>
+      <name>W. Suttrop</name>
+      <arxiv:affiliation>the ASDEX Upgrade Team and the EUROfusion MST1 Team</arxiv:affiliation>
+    </author>
+    <author>
+      <name>B. Vanovac</name>
+      <arxiv:affiliation>the ASDEX Upgrade Team and the EUROfusion MST1 Team</arxiv:affiliation>
+    </author>
+    <author>
+      <name>D. Brida</name>
+      <arxiv:affiliation>the ASDEX Upgrade Team and the EUROfusion MST1 Team</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. Cavedon</name>
+      <arxiv:affiliation>the ASDEX Upgrade Team and the EUROfusion MST1 Team</arxiv:affiliation>
+    </author>
+    <author>
+      <name>I. Classen</name>
+      <arxiv:affiliation>the ASDEX Upgrade Team and the EUROfusion MST1 Team</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. Dunne</name>
+      <arxiv:affiliation>the ASDEX Upgrade Team and the EUROfusion MST1 Team</arxiv:affiliation>
+    </author>
+    <author>
+      <name>S. Fietz</name>
+      <arxiv:affiliation>the ASDEX Upgrade Team and the EUROfusion MST1 Team</arxiv:affiliation>
+    </author>
+    <author>
+      <name>R. Fischer</name>
+      <arxiv:affiliation>the ASDEX Upgrade Team and the EUROfusion MST1 Team</arxiv:affiliation>
+    </author>
+    <author>
+      <name>A. Kirk</name>
+      <arxiv:affiliation>the ASDEX Upgrade Team and the EUROfusion MST1 Team</arxiv:affiliation>
+    </author>
+    <author>
+      <name>F. M. Laggner</name>
+      <arxiv:affiliation>the ASDEX Upgrade Team and the EUROfusion MST1 Team</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Y. Q. Liu</name>
+      <arxiv:affiliation>the ASDEX Upgrade Team and the EUROfusion MST1 Team</arxiv:affiliation>
+    </author>
+    <author>
+      <name>T. Odstrcil</name>
+      <arxiv:affiliation>the ASDEX Upgrade Team and the EUROfusion MST1 Team</arxiv:affiliation>
+    </author>
+    <author>
+      <name>D. A. Ryan</name>
+      <arxiv:affiliation>the ASDEX Upgrade Team and the EUROfusion MST1 Team</arxiv:affiliation>
+    </author>
+    <author>
+      <name>E. Viezzer</name>
+      <arxiv:affiliation>the ASDEX Upgrade Team and the EUROfusion MST1 Team</arxiv:affiliation>
+    </author>
+    <author>
+      <name>H. Zohm</name>
+      <arxiv:affiliation>the ASDEX Upgrade Team and the EUROfusion MST1 Team</arxiv:affiliation>
+    </author>
+    <author>
+      <name>I. C. Luhmann</name>
+      <arxiv:affiliation>the ASDEX Upgrade Team and the EUROfusion MST1 Team</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1088/0741-3335/58/11/114004</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0741-3335/58/11/114004" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1506.07616v1</id>
+    <title>Adding high time resolution to charge-state-specific ion energy measurements for pulsed copper vacuum arc plasmas</title>
+    <updated>2015-06-25T05:13:15Z</updated>
+    <link href="https://arxiv.org/abs/1506.07616v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1506.07616v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Charge-state-resolved ion energy-time-distributions of pulsed Cu arc plasma were obtained by using direct (time dependent) acquisition of the ion detection signal from a commercial ion mass-per-charge and energy-per-charge analyzer. We find a shift of energies of Cu2+, Cu3+ and Cu4+ ions to lower values during the first few hundred microseconds after arc ignition, which is evidence for particle collisions in the plasma. The generation of Cu1+ ions in the later part of the pulse, measured by the increase of Cu1+ signal intensity and an associated slight reduction of the mean charge state point to charge exchange reactions between ions and neutrals. At the very beginning of the pulse, when the plasma expands into vacuum and the plasma potential strongly fluctuates, ions with much higher energy (over 200 eV) were observed. Early in the pulse, the ion energies observed are approximately proportional to the ion charge state, and we conclude that the acceleration mechanism is primarily based on acceleration in an electric field. This field is directed away from the cathode, indicative for a potential hump. Measurements by a floating probe suggest that potential structures travel and ions moving in the traveling field can gain high energies up to a few hundred electron-volt. Later in the pulse, the approximate proportionality is lost, which is either related to increased smearing out of different energies due to collisions with neutrals, and/or a change of the acceleration character from electrostatic to "gas-dynamic", i.e., dominated by pressure gradient.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-06-25T05:13:15Z</published>
+    <arxiv:comment>reviewed and accepted by Plasma Sources Science and Technology, revised version of 28 May 2015</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>Koichi Tanaka</name>
+    </author>
+    <author>
+      <name>Liang Han</name>
+    </author>
+    <author>
+      <name>Xue Zhou</name>
+    </author>
+    <author>
+      <name>André Anders</name>
+    </author>
+  </entry>
+</feed>

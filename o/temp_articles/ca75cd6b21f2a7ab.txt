@@ -1,0 +1,83 @@
+TERMS: entropy, crystal, boson
+COLORS: red, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api//ZxOLxwjiAgqBfoutm/mRg5FPpA</id>
+  <title>arXiv Query: search_query=all:entropy AND all:crystal AND all:boson&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:17:38Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+(all:crystal+AND+all:boson)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>13</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1610.02911v2</id>
+    <title>Structural origins of the boson peak in metals: From high-entropy alloys to metallic glasses</title>
+    <updated>2016-12-15T10:36:56Z</updated>
+    <link href="https://arxiv.org/abs/1610.02911v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1610.02911v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The boson peak appears in all amorphous solids and is an excess of vibrational states at low frequencies compared to the phonon spectrum of the corresponding crystal. Until recently, the consensus was that it originated from "defects" in the glass. The nature of these defects is still under discussion, but the picture of regions with locally disturbed short-range order and/or decreased elastic constants has gained some traction. Recently, a different theory was proposed: The boson peak was attributed to the first van Hove singularity of crystal lattices which is only smeared out by the disorder. This new viewpoint assumes that the van Hove singularity is simply shifted by the decreased density of the amorphous state and is therefore not a glass-specific anomaly. In order to resolve this issue, we use computer models of a four-component alloy, alternatively with chemical disorder (high-entropy alloy), structural disorder, and reduced density. Comparison to a reference glass of the same composition reveals that the boson peak consists of additional vibrational modes which can be induced solely by structural disorder. While chemical disorder introduces fluctuations of the elastic constants, we find that those do not lead to sufficient local softening to induce these modes. A boson peak due to a reduction of density could be excluded for the present metallic system.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-10-10T13:38:50Z</published>
+    <arxiv:comment>9 pages, 8 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>Phys. Rev. B 94, 224203 (2016)</arxiv:journal_ref>
+    <author>
+      <name>Tobias Brink</name>
+    </author>
+    <author>
+      <name>Leonie Koch</name>
+    </author>
+    <author>
+      <name>Karsten Albe</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.94.224203</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.94.224203" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0911.4059v5</id>
+    <title>Correlations between vibrational entropy and dynamics in super-cooled liquids</title>
+    <updated>2010-06-20T13:36:45Z</updated>
+    <link href="https://arxiv.org/abs/0911.4059v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0911.4059v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A relation between vibrational entropy and particles mean square displacement is derived in super-cooled liquids, assuming that the main effect of temperature changes is to rescale the vibrational spectrum. Deviations from this relation, in particular due to the presence of a Boson Peak whose shape and frequency changes with temperature, are estimated. Using observations of the short-time dynamics in liquids of various fragility, it is argued that (i) if the crystal entropy is significantly smaller than the liquid entropy at $T_g$, the extrapolation of the vibrational entropy leads to the correlation $T_K\approx T_0$, where $T_K$ is the Kauzmann temperature and $T_0$ is the temperature extracted from the Vogel-Fulcher fit of the viscosity. (ii) The jump in specific heat associated with vibrational entropy is very small for strong liquids, and increases with fragility. The analysis suggests that these correlations stem from the stiffening of the Boson Peak under cooling, underlying the importance of this phenomenon on the dynamical arrest.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-11-20T15:00:53Z</published>
+    <arxiv:comment>Eqs.2 and 7 corrected, results unchanged</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <arxiv:journal_ref>PRL 104, 095901 (2010)</arxiv:journal_ref>
+    <author>
+      <name>Matthieu Wyart</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.104.095901</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.104.095901" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1403.2770v1</id>
+    <title>The Boson Peak and Disorder in Hard Sphere Colloidal Systems</title>
+    <updated>2014-03-11T22:26:10Z</updated>
+    <link href="https://arxiv.org/abs/1403.2770v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1403.2770v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Boson peak is believed to be the key to the fundamental understanding of the anomalous thermodynamic properties of glasses, notably the anomalous peak in the heat capacity at low temperatures; it is believed to be due to an excess of low frequency vibrational modes and a manifestation of the structural disorder in these systems. We study the thermodynamics and vibrational dynamics of colloidal glasses and (defected) crystals. The experimental determination of the vibrational density of states allows us to directly observe the Boson peak as a strong enhancement of low frequency modes. Using a novel method [Zargar et al., Phys. Rev. Lett. 110, 258301 (2013)] to determine the free energy, we also determine the entropy and the specific heat experimentally. It follows that the emergence of the Boson peak and high values of the specific heat are directly related and are specific to the glass: for a very defected crystal with a disorder that is only slightly smaller than for the glass, both the low-frequency density of states and the specific heat are significantly smaller than in the glass.</summary>
+    <category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-03-11T22:26:10Z</published>
+    <arxiv:comment>Main Text: 5 pages, 4 figures; Supplementary Materials: 2 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.soft"/>
+    <author>
+      <name>Rojman Zargar</name>
+    </author>
+    <author>
+      <name>John Russo</name>
+    </author>
+    <author>
+      <name>Peter Schall</name>
+    </author>
+    <author>
+      <name>Hajime Tanaka</name>
+    </author>
+    <author>
+      <name>Daniel Bonn</name>
+    </author>
+  </entry>
+</feed>

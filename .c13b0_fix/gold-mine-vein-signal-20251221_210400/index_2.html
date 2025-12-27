@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Gold Mine — Vein Signal</title>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<style>
+:root{
+  --bg:#0b0f14; --fg:#e6edf3; --glow:#f5c16c;
+}
+html,body{height:100%;margin:0;background:#000;color:var(--fg);font-family:monospace}
+.wall{
+  position:fixed;inset:0;
+  background:url('https://upload.wikimedia.org/wikipedia/commons/3/3c/Gold_mine_Alaska_1899.jpg') center/cover no-repeat;
+  filter:contrast(1.05) saturate(1.05);
+}
+.overlay{
+  position:fixed;inset:0;
+  background:radial-gradient(ellipse at center, rgba(0,0,0,.2), rgba(0,0,0,.8));
+}
+.ui{
+  position:relative;height:100%;
+  display:grid;grid-template-rows:auto 1fr auto;
+}
+.header,.footer{
+  backdrop-filter: blur(4px);
+  background:rgba(0,0,0,.35);
+  padding:10px 14px;border-bottom:1px solid #333;
+}
+.footer{border-top:1px solid #333;border-bottom:none}
+.grid{
+  display:grid;grid-template-columns:1fr 1fr;gap:14px;padding:14px;
+}
+.card{
+  background:rgba(0,0,0,.45);border:1px solid #333;border-radius:10px;
+  padding:12px;box-shadow:0 0 24px rgba(245,193,108,.12) inset;
+}
+.badge{display:inline-block;padding:2px 8px;border:1px solid #555;border-radius:999px}
+.vein{color:var(--glow)}
+#viz{height:220px;border:1px dashed #444;border-radius:10px}
+.buy{background:#111;border:1px solid #555;color:#fff;padding:10px;border-radius:8px}
+small{opacity:.8}
+</style>
+</head>
+<body>
+<div class="wall"></div><div class="overlay"></div>
+<div class="ui">
+  <div class="header">
+    🧱⛏️🧱 <b>Gold Mine</b> — <span class="vein">Vein Signal</span>
+    <span class="badge">Sandbox</span>
+  </div>
+
+  <div class="grid">
+    <div class="card">
+      <b>🧱🌌🧱 Visualizer</b>
+      <canvas id="viz"></canvas>
+      <small>Lantern glow reacts to gravity.</small>
+    </div>
+    <div class="card">
+      <b>🧱📜🧱 Spark</b>
+      <p>One idea can light a tunnel.</p>
+      <p class="vein">“Depth beats noise.”</p>
+    </div>
+    <div class="card">
+      <b>🧱📺🧱 Sponsorship Slots</b>
+      <ul>
+        <li>🧱⛏️🧱 Ore Vein (premium)</li>
+        <li>🧱🕯️🧱 Lantern (ambient)</li>
+        <li>🧱📜🧱 Plaque (heritage)</li>
+      </ul>
+    </div>
+    <div class="card">
+      <b>🧱💰🧱 Buy Token</b>
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+        <input type="hidden" name="cmd" value="_xclick">
+        <input type="hidden" name="business" value="marvaseater@gmail.com">
+        <input type="hidden" name="item_name" value="Infinity Gold Token — Vein Signal">
+        <input type="hidden" name="currency_code" value="USD">
+        <input type="hidden" name="amount" value="0.00">
+        <button class="buy" type="submit">Enter the Mine</button>
+      </form>
+      <small>Value follows gravity.</small>
+    </div>
+  </div>
+
+  <div class="footer">
+    🧱👑🧱 Crown appears only with real return signals.
+  </div>
+</div>
+
+<script>
+// Minimal visualizer: lantern glow pulse
+const c=document.getElementById('viz'),x=c.getContext('2d');
+function r(){c.width=c.clientWidth;c.height=c.clientHeight}
+window.addEventListener('resize',r);r();
+let t=0;
+function draw(){
+  t+=0.02;
+  x.clearRect(0,0,c.width,c.height);
+  const g=x.createRadialGradient(c.width/2,c.height/2,20,c.width/2,c.height/2,120);
+  g.addColorStop(0,);
+  g.addColorStop(1,'rgba(0,0,0,0)');
+  x.fillStyle=g;x.fillRect(0,0,c.width,c.height);
+  requestAnimationFrame(draw);
+}
+draw();
+</script>
+</body>
+</html>

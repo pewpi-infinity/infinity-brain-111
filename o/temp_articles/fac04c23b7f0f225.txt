@@ -1,0 +1,72 @@
+TERMS: lattice, probability, vacuum
+COLORS: orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ZiI9suu8BBl+5jaMSy046gPhbLE</id>
+  <title>arXiv Query: search_query=all:lattice AND all:probability AND all:vacuum&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:16:39Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:probability+AND+all:vacuum)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>63</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1903.09957v3</id>
+    <title>A note on the vacuum structure to lattice Euclidean quantum gravity</title>
+    <updated>2021-04-01T08:09:59Z</updated>
+    <link href="https://arxiv.org/abs/1903.09957v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1903.09957v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>It is shown that the ground state or vacuum to the lattice Euclidean quantum gravity is significantly different from the ground states to the well-known vacua in QED, QCD, et cetera. In the case of the lattice Euclidean quantum gravity, the long-wavelength scale vacuum structure is similar to that in QED, moreover the quantum fluctuations to gravity are very reduced in comparison with the situation in QED. But the small scale (of the order of the lattice scale) vacuum structure to gravity is significantly different from that to the long-wavelength scales: the fluctuation values of geometrical degrees of freedom (tetrads) are commensurable with theirs most probable values.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-03-24T09:56:23Z</published>
+    <arxiv:comment>13 pages</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>Class. Quantum Grav. 38 (2021) 085022 (18pp)</arxiv:journal_ref>
+    <author>
+      <name>S. N. Vergeles</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1311.4095v1</id>
+    <title>Measuring the ground-state wave functional of SU(2) Yang-Mills theory in 3+1 dimensions: Abelian plane waves</title>
+    <updated>2013-11-16T21:03:34Z</updated>
+    <link href="https://arxiv.org/abs/1311.4095v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1311.4095v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A method of measuring relative probabilities of various gauge-field configurations in the Yang-Mills vacuum was proposed long ago [Phys. Lett. B 223 (1989) 207]. We applied this method to compute the square of the YM vacuum wave functional (VWF) in numerical simulations of SU(2) lattice gauge theory in D=3+1 dimensions for sets of abelian plane waves. The results were compared to predictions based on some VWF proposals in the literature. None of them describes the data satisfactorily at large plane-wave momenta. The phenomenological best fit to data, containing three free parameters, appears to reduce in the continuum limit to the approximate form proposed in [Phys. Rev. D 77 (2008) 065003].</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-11-16T21:03:34Z</published>
+    <arxiv:comment>7 pages, 4 figures (8 EPS files), uses PoS.cls; presented at the 31st International Symposium on Lattice Field Theory (Lattice 2013), 29 July - 3 August 2013, Mainz, Germany</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>PoS LATTICE 2013 (2013) 467</arxiv:journal_ref>
+    <author>
+      <name>Jeff Greensite</name>
+    </author>
+    <author>
+      <name>Stefan Olejnik</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-lat/0010076v1</id>
+    <title>Vortex structure of the vacuum and confinement</title>
+    <updated>2000-10-30T23:48:50Z</updated>
+    <link href="https://arxiv.org/abs/hep-lat/0010076v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-lat/0010076v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We discuss the recently published numerical computations of the vortex free energy. They dramatically demonstrate that the excitation probability for a sufficiently thick vortex approaches unity at large beta, i.e. that thick vortices `condense' in the vacuum. This is known to imply confinement. An analytical approach for exploring this phenomenon is also outlined.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2000-10-30T23:48:50Z</published>
+    <arxiv:comment>LATTICE2000 (Topology and Vacuum), 4 pages, 1 epsf figure, LaTeX</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>Nucl.Phys.Proc.Suppl. 94 (2001) 518-521</arxiv:journal_ref>
+    <author>
+      <name>T. G. Kovács</name>
+      <arxiv:affiliation>DESY-Zeuthen</arxiv:affiliation>
+    </author>
+    <author>
+      <name>E. T. Tomboulis</name>
+      <arxiv:affiliation>UCLA</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1016/S0920-5632(01)00899-4</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/S0920-5632(01)00899-4" title="doi"/>
+  </entry>
+</feed>

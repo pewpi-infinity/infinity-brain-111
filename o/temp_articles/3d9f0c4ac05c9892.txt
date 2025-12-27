@@ -1,0 +1,78 @@
+TERMS: hydrogen, quantum, ionization, spin
+COLORS: purple, blue, green, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/fjbTucO01o632rGKgymr68Yhw+o</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:ionization AND all:spin&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:39:49Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:ionization+AND+all:spin))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>12</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2511.21430v1</id>
+    <title>Quantum electrodynamic description of the neutral hydrogen molecule ionization</title>
+    <updated>2025-11-26T14:21:43Z</updated>
+    <link href="https://arxiv.org/abs/2511.21430v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.21430v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The ionization dynamics of a hydrogen molecule, serving as a fundamental benchmark in quantum chemistry, is investigated within a comprehensive framework combining quantum electrodynamics and the Lindblad master equation. This approach enables a first-principles description of light--matter interactions while accounting for dissipative processes and external particle influx. We systematically explore the system's evolution across three distinct regimes: closed, dissipative open, and influx-driven open quantum systems. Our results reveal a universal tendency towards the formation of the neutral hydrogen molecule ($|\rm{H}_2\rangle$) across all configurations. The dissipation strengths for photons ($γ_Ω$), electrons ($γ_e$), and phonons ($γ_ω$) are identified as critical control parameters, with $γ_Ω$ significantly accelerating system stabilization. Furthermore, the introduction of particle influx ($μ_k$) leads to a complex redistribution of energy, notably populating the atomic state ($|\rm{H},\rm{H}\rangle$). The ionization pathway is exquisitely sensitive to the initial quantum state, dictated by the composition and number of photons, which governs the accessible spin-selective excitation channels. This is conclusively demonstrated in a model with an embedded anode, where the maximum ionization probability is fundamentally constrained to $\frac{3}{4}$ by orbital hybridization. This study provides a unified theoretical foundation for quantum-controlled chemistry, with direct implications for future experiments in cavity QED and quantum information processing.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-26T14:21:43Z</published>
+    <arxiv:comment>11 pages, 5 figures; Supplementary Information: 2 videos</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Hui-hui Miao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0310665v2</id>
+    <title>Temperature-dependent quantum pair potentials and their application to dense partially ionized hydrogen plasmas</title>
+    <updated>2004-03-25T14:38:37Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0310665v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0310665v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Extending our previous work \cite{filinov-etal.jpa03ik} we present a detailed discussion of accuracy and practical applications of finite-temperature pseudopotentials for two-component Coulomb systems. Different pseudopotentials are discussed: i) the diagonal Kelbg potential, ii) the off-diagonal Kelbg potential iii) the {\em improved} diagonal Kelbg potential, iv) an effective potential obtained with the Feynman-Kleinert variational principle v) the ``exact'' quantum pair potential derived from the two-particle density matrix. For the {\em improved} diagonal Kelbg potential a simple temperature dependent fit is derived which accurately reproduces the ``exact'' pair potential in the whole temperature range. The derived pseudopotentials are then used in path integral Monte Carlo (PIMC) and molecular dynamics (MD) simulations to obtain thermodynamical properties of strongly coupled hydrogen. It is demonstrated that classical MD simulations with spin-dependent interaction potentials for the electrons allow for an accurate description of the internal energy of hydrogen in the difficult regime of partial ionization down to the temperatures of about $60 000$ K. Finally, we point out an interesting relation between the quantum potentials and effective potentials used in density functional theory.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-10-28T17:45:35Z</published>
+    <arxiv:comment>18 pages, 11 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <arxiv:journal_ref>Phys. Rev. E 70, 046411 (2004)</arxiv:journal_ref>
+    <author>
+      <name>A. V. Filinov</name>
+    </author>
+    <author>
+      <name>V. O. Golubnychiy</name>
+    </author>
+    <author>
+      <name>M. Bonitz</name>
+    </author>
+    <author>
+      <name>W. Ebeling</name>
+    </author>
+    <author>
+      <name>J. W. Dufty</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevE.70.046411</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevE.70.046411" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2308.02314v1</id>
+    <title>The equation of state of partially ionized hydrogen and deuterium plasma revisited</title>
+    <updated>2023-08-04T13:24:26Z</updated>
+    <link href="https://arxiv.org/abs/2308.02314v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.02314v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present novel first-principle fermionic path integral Monte Carlo (PIMC) simulation results for a dense partially ionized hydrogen (deuterium) plasma, for temperatures in the range $15,000$K $\leq T \leq 400,000$K and densities $7 \cdot 10^{-7}$g/cm$^{3}\leq ρ_H \leq 0.085$ g/cm$^{3}$ ($1.4 \cdot 10^{-6}$g/cm$^{3}\leq ρ_D \leq 0.17$ g/cm$^{3}$), corresponding to $100\geq r_s\geq 2$, where $r_s=\bar r/a_B$ is the ratio of the mean interparticle distance to the Bohr radius. These simulations are based on the fermionic propagator PIMC (FP-PIMC) approach in the grand canonical ensemble [A. Filinov \textit{et al.}, Contrib. Plasma Phys. \textbf{61}, e202100112 (2021)] and fully account for correlation and quantum degeneracy and spin effects. For the application to hydrogen and deuterium, we develop a combination of the fourth-order factorization and the pair product ansatz for the density matrix. Moreover, we avoid the fixed node approximation that may lead to uncontrolled errors in restricted PIMC (RPIMC). Our results allow us to critically re-evaluate the accuracy of the RPIMC simulations for hydrogen by Hu \textit{et al.} [Phys. Rev. B \textbf{84}, 224109 (2011)] and of various chemical models. The deviations are generally found to be small, but for the lowest temperature, $T=15,640$~K they reach several percent. We present detailed tables with our first principles results for the pressure and energy isotherms.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-08-04T13:24:26Z</published>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <arxiv:journal_ref>Phys. Rev. E 108, 055212 (2023)</arxiv:journal_ref>
+    <author>
+      <name>A. V. Filinov</name>
+    </author>
+    <author>
+      <name>M. Bonitz</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevE.108.055212</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevE.108.055212" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Rogers AI Console</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { font-family: Inter, system-ui, Arial; background:#0d1117; color:#c9d1d9; margin:0; padding:18px; display:flex; justify-content:center; }
+    .container { width:100%; max-width:900px; background:#161b22; border-radius:12px; padding:18px; box-shadow:0 10px 30px rgba(0,0,0,.6); }
+    #chat-window { height:46vh; overflow:auto; background:#0d1117; border-radius:8px; padding:12px; border:1px solid #30363d; }
+    .message { margin-bottom:10px; padding:12px; border-radius:10px; max-width:90%; word-wrap:break-word; }
+    .user-message { background:#21262d; margin-left:auto; border:1px solid #30363d; }
+    .rogers-message { background:#0d1117; border:1px solid #30363d; }
+    .status-indicator { padding:6px 12px; border-radius:9999px; font-weight:700; font-size:.875rem; text-align:center; }
+    .status-offline { background:#da3633; color:#fff; }
+    .status-online { background:#3fb950; color:#000; }
+    .diag { margin-top:12px; background:#0b0f14; padding:12px; border-radius:8px; border:1px solid #23303a; color:#c7d1d9; font-family:monospace; font-size:13px; white-space:pre-wrap; max-height:220px; overflow:auto; }
+
+    /* token colors */
+    .tok { padding:2px 6px; border-radius:6px; cursor:pointer; display:inline-block; margin:2px; }
+    .tok-yellow { background:#FDE68A; color:#1f2937; }    /* Application / clickable */
+    .tok-purple { background:#C7B2FF; color:#0b1220; }    /* Published / public */
+    .tok-blue { background:#93C5FD; color:#06203a; }      /* ready for input */
+    .tok-green { background:#86efac; color:#03210a; }    /* completed */
+    .tok-orange { background:#fb923c; color:#2a1a00; }   /* risk */
+    .tok-red { background:#fb7185; color:#2a0408; }      /* error */
+
+    .tok:hover { transform:translateY(-1px); box-shadow:0 2px 6px rgba(0,0,0,0.35); }
+
+    .controls { margin-top:12px; display:flex; gap:8px; align-items:center; }
+    input[type=text] { background:#0d1117; color:#c9d1d9; border-radius:8px; border:1px solid #2b343a; padding:10px; }
+    .btn { background:#2563eb; color:#fff; padding:8px 12px; border-radius:8px; border:0; cursor:pointer; }
+    .btn:hover { background:#1d4ed8; }
+    .small { font-size:12px; color:#9aa6b2; }
+    /* small toast */
+    #toast { position:fixed; bottom:18px; left:50%; transform:translateX(-50%); background:#111827; color:#fff; padding:8px 14px; border-radius:8px; display:none; z-index:9999; }
+  </style>
+</head>
+<body>
+  <div class="container" id="app-root">
+    <div class="flex justify-between items-center border-b pb-3 border-[#30363d]">
+      <h1 class="text-2xl font-bold text-blue-400">Rogers AI Console</h1>
+      <div id="status" class="status-indicator status-offline">OFFLINE (Connecting...)</div>
+    </div>
+
+    <div id="chat-window" aria-live="polite"></div>
+
+    <div class="flex gap-3 mt-3">
+      <input id="user-input" type="text" placeholder="Type your message..." disabled class="flex-grow" />
+      <button id="send-button" class="btn" disabled>Send</button>
+      <button id="check-button" class="btn">Check Status</button>
+    </div>
+
+    <div class="flex gap-3 items-center mt-3 controls">
+      <div class="small">Server URL:</div>
+      <input id="server-url-input" type="text" style="width:420px" />
+      <button id="save-url" class="btn">Save</button>
+      <label class="small" title="Force enable controls for testing"><input id="force-enable" type="checkbox"/> Force enable</label>
+      <label class="small" title="Play bot reply using device TTS (if available)"><input id="tts-toggle" type="checkbox"/> TTS</label>
+    </div>
+
+    <div class="small mt-2">Note: If this page is loaded over HTTPS (GitHub Pages), your API must also be HTTPS to avoid Mixed Content blocking.</div>
+
+    <h3 style="color:#cfe8c3; margin-top:12px">Diagnostics</h3>
+    <div id="diag" class="diag">No diagnostics yet.</div>
+  </div>
+
+  <div id="toast" role="status" aria-live="polite"></div>
+
+  <script>
+  (function(){
+    const serverInput = document.getElementById('server-url-input');
+    const statusEl = document.getElementById('status');
+    const chatWindow = document.getElementById('chat-window');
+    const userInput = document.getElementById('user-input');
+    const sendButton = document.getElementById('send-button');
+    const checkButton = document.getElementById('check-button');
+    const diag = document.getElementById('diag');
+    const ttsToggle = document.getElementById('tts-toggle');
+    const forceToggle = document.getElementById('force-enable');
+    const saveUrlBtn = document.getElementById('save-url');
+    const toast = document.getElementById('toast');
+
+    let server = localStorage.getItem('rogers_server') || 'http://127.0.0.1:5000';
+    serverInput.value = server;
+
+    let isServerOnline = false;
+    let lastKnownState = null;
+    let announcedOnline = false;
+    let userTyping = false;
+
+    // track user typing so we don't steal focus
+    userInput.addEventListener('input', () => { userTyping = userInput.value.length > 0; });
+    userInput.addEventListener('focus', () => { userTyping = true; });
+    userInput.addEventListener('blur', () => { userTyping = false; });
+
+    function log(msg) { diag.textContent = new Date().toISOString() + ' — ' + msg + '\n\n' + diag.textContent; }
+
+    function showToast(msg, timeout=2400) {
+      toast.textContent = msg;
+      toast.style.display = 'block';
+      clearTimeout(showToast._t);
+      showToast._t = setTimeout(()=> toast.style.display='none', timeout);
+    }
+
+    function updateStatusUI(online, message) {
+      const stateChanged = lastKnownState !== online;
+      lastKnownState = online;
+
+      statusEl.textContent = message || (online ? 'ONLINE' : 'OFFLINE');
+      statusEl.className = 'status-indicator ' + (online ? 'status-online' : 'status-offline');
+
+      const forced = forceToggle.checked;
+      const enabled = forced ? true : online;
+
+      userInput.disabled = !enabled;
+      sendButton.disabled = !enabled;
+
+      // focus only when it just changed to enabled and user is not typing
+      if (enabled && stateChanged && !userTyping) {
+        try { userInput.focus(); } catch(e) {}
+      }
+    }
+
+    function escapeText(s) { const d = document.createTextNode(s); const p = document.createElement('div'); p.appendChild(d); return p.innerHTML; }
+
+    function parseAndRenderMessage(role, rawText) {
+      // Deduplicate identical consecutive system messages
+      const last = chatWindow.querySelector('.message:last-child');
+      if (last && role === 'rogers' && last.textContent === rawText) return;
+
+      const msgDiv = document.createElement('div');
+      msgDiv.classList.add('message', role === 'user' ? 'user-message' : 'rogers-message');
+
+      // parse bracket tokens [type:value]
+      const tokenRe = /\[([a-z]+):([^\]]+)\]/gi;
+      let idx = 0;
+      let m;
+      const frag = document.createDocumentFragment();
+      while ((m = tokenRe.exec(rawText)) !== null) {
+        const textBefore = rawText.slice(idx, m.index);
+        if (textBefore) frag.appendChild(document.createTextNode(textBefore));
+        idx = m.index + m[0].length;
+        const typ = m[1].toLowerCase();
+        const val = m[2];
+        const span = document.createElement('span');
+        span.classList.add('tok', `tok-${typ}`);
+        span.textContent = val;
+        span.dataset.tokType = typ;
+        span.dataset.tokValue = val;
+        // attach click behavior per type
+        span.addEventListener('click', onTokenClick);
+        frag.appendChild(span);
+      }
+      // remaining text
+      const remainder = rawText.slice(idx);
+      if (remainder) frag.appendChild(document.createTextNode(remainder));
+
+      msgDiv.appendChild(frag);
+      chatWindow.appendChild(msgDiv);
+      chatWindow.scrollTop = chatWindow.scrollHeight;
+    }
+
+    function onTokenClick(ev) {
+      const el = ev.currentTarget;
+      const typ = el.dataset.tokType;
+      const val = el.dataset.tokValue;
+      if (!typ) return;
+      switch (typ) {
+        case 'yellow':
+          // Open app builder with query param (replace with your builder URL)
+          const builderUrl = (new URL(window.location.href)).origin + '/app-builder?name=' + encodeURIComponent(val);
+          window.open(builderUrl, '_blank');
+          showToast('Opening app builder: ' + val);
+          break;
+        case 'purple':
+          // Mark as published / show info
+          showToast('Published: ' + val);
+          break;
+        case 'blue':
+          // prepare input for follow-up
+          userInput.value = val;
+          userInput.focus();
+          break;
+        case 'green':
+          // mark completed visually and disable the token
+          el.classList.add('tok-green');
+          el.style.opacity = '0.6';
+          showToast('Marked done: ' + val);
+          break;
+        case 'orange':
+          // warn / confirm before proceeding
+          if (confirm('Risky operation "' + val + '". Proceed?')) {
+            showToast('Proceeding with: ' + val);
+          }
+          break;
+        case 'red':
+          alert('Error note: ' + val);
+          break;
+        default:
+          showToast(val);
+      }
+    }
+
+    async function checkStatus() {
+      log('Starting status fetch to ' + server + '/api/status');
+
+      if (location.protocol === 'https:' && server.startsWith('http:')) {
+        const msg = 'MIXED-CONTENT WARNING: page loaded over HTTPS but server is HTTP. Browser will block the request.';
+        log(msg);
+        isServerOnline = false;
+        updateStatusUI(false, 'OFFLINE (Mixed Content)');
+        return;
+      }
+
+      try {
+        const resp = await fetch(server + '/api/status', { method:'GET', cache:'no-store', mode:'cors' });
+        const text = await resp.text();
+        log(`Status fetch HTTP ${resp.status}\nBody: ${text}`);
+        let data = null;
+        try { data = JSON.parse(text); } catch(e) { data = null; }
+
+        if (resp.ok && data && data.status === 'ready') {
+          // Announce only on transition to online
+          if (!isServerOnline) announcedOnline = false;
+          isServerOnline = true;
+          updateStatusUI(true, 'ONLINE');
+          if (!announcedOnline) {
+            parseAndRenderMessage('rogers', 'System: Rogers AI Console is online and ready.');
+            announcedOnline = true;
+          }
+        } else {
+          isServerOnline = false;
+          updateStatusUI(false, 'OFFLINE (Bad Status)');
+        }
+      } catch (err) {
+        log('Status fetch failed: ' + String(err));
+        isServerOnline = false;
+        updateStatusUI(false, 'OFFLINE (Network Error)');
+      }
+    }
+
+    async function sendMessage() {
+      const q = (userInput.value || '').trim();
+      if (!q) return;
+      if (!isServerOnline && !forceToggle.checked) {
+        parseAndRenderMessage('rogers', '[red:Error] Cannot send: server offline.');
+        return;
+      }
+      parseAndRenderMessage('user', q);
+      userInput.value = '';
+
+      const prevStatusText = statusEl.textContent;
+      statusEl.textContent = 'Sending...';
+
+      try {
+        const resp = await fetch(server + '/api/bot/execute', {
+          method:'POST',
+          headers:{'Content-Type':'application/json'},
+          body: JSON.stringify({ query: q }),
+          cache:'no-store',
+          mode:'cors'
+        });
+        const text = await resp.text();
+        log(`POST /api/bot/execute HTTP ${resp.status}\nBody: ${text}`);
+        let parsed = null;
+        try { parsed = JSON.parse(text); } catch(e) { parsed = null; }
+
+        let reply = parsed && parsed.ok && parsed.response ? parsed.response : (parsed && parsed.message ? parsed.message : text || '(no response)');
+
+        // If reply is JSON-like but contains tokens already, just render
+        parseAndRenderMessage('rogers', String(reply));
+        // TTS if enabled
+        if (ttsToggle.checked && 'speechSynthesis' in window) {
+          try { 
+            const utterance = new SpeechSynthesisUtterance(stripTokens(String(reply))); 
+            window.speechSynthesis.cancel(); 
+            window.speechSynthesis.speak(utterance); 
+          } catch(e) { 
+            log('TTS error: ' + e); 
+          }
+        }
+
+      } catch (err) {
+        log('Send error: ' + String(err));
+        parseAndRenderMessage('rogers', '[red:Error] Critical Network Failure: Could not execute bot.');
+      } finally {
+        statusEl.textContent = prevStatusText;
+        await checkStatus();
+      }
+    }
+
+    function stripTokens(s) {
+      return s.replace(/\[([a-z]+):([^\]]+)\]/gi, '$2');
+    }
+
+    // Bindings
+    checkButton.addEventListener('click', checkStatus);
+    sendButton.addEventListener('click', sendMessage);
+    userInput.addEventListener('keydown', (e) => { if (e.key === 'Enter') sendMessage(); });
+    forceToggle.addEventListener('change', () => updateStatusUI(isServerOnline, statusEl.textContent));
+    saveUrlBtn.addEventListener('click', () => {
+      const v = (serverInput.value || '').trim();
+      if (!v) return alert('Enter a server URL (http(s)://...)');
+      server = v;
+      localStorage.setItem('rogers_server', server);
+      log('Server URL saved: ' + server);
+      checkStatus();
+    });
+
+    // Start initial check and poll
+    setTimeout(() => {
+      checkStatus();
+      setInterval(checkStatus, 5000);
+    }, 50);
+
+    updateStatusUI(false, 'Connecting...');
+    window.__rogers_diag = { checkStatus, sendMessage };
+
+  })();
+  </script>
+</body>
+</html>

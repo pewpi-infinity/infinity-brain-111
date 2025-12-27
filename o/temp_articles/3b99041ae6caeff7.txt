@@ -1,0 +1,93 @@
+TERMS: frequency, fusion, superconductivity
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/LPfRm5dA8gyI0fp0WQjxVZHDaqo</id>
+  <title>arXiv Query: search_query=all:frequency AND all:fusion AND all:superconductivity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:10:15Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:fusion+AND+all:superconductivity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>4</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2308.03794v3</id>
+    <title>Quench Risk Increase With Irradiation Damage</title>
+    <updated>2024-06-25T17:34:38Z</updated>
+    <link href="https://arxiv.org/abs/2308.03794v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.03794v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Superconducting material enables fusion reactor magnet concepts to operate with current densities that would melt materials with non-zero resistance. The application of superconducting material is considered essential for net-positive power machines. Catastrophic damage can occur when superconductivity is lost and the current generates heat. This scenario is called a quench. Stabilizer material carries the magnet current (typically copper) during a quench and is the focus of this work. Irradiation-induced defects store energy in the Cu crystalline lattice. The release of stored energy in the magnet materials, combined with the associated magnet material property changes, can cause extreme off-normal events in superconducting magnets that worsen with fluence at an increasing rate. Stored energy can be released causing local heating and increasing the risk of a quench. For example, following irradiation at 4.6K and an estimated fluence of 0.45*10^18 n/cm^2, an energy release of 0.023 J/g was measured from Cu when increased in temperature from 10K to 18K, which would have been enough energy to create the same temperature increase spontaneously. Extrapolations of experimental data are used to estimate when spontaneous heating can occur due to the release of energy stored in irradiation-induced defects. Critical fluence values are estimated between 1.74*10^18 n/cm^2 and 2.85*10^19 n/cm^2 for neutron irradiation of Cu at a temperature of 20K. High-temperature ramp rate in-situ cryogenic calorimetry experiments of magnet materials following irradiation would provide more clarity to designers of fusion magnet systems. Due to the increased quench risk with superconducting magnet dose, magnetic confinement reactor designers should consider the frequency of maintenance temperature cycles to maintain an appropriate level of risk during operation.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.acc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-08-04T20:45:28Z</published>
+    <arxiv:comment>13 pages, 10 figures, 2 tables, 10 equations. Work presented at Symposium on Fusion Engineering 2023 in Oxford on July 13th. The work has significant implications for the design of some private machines. The document as been peer reviewed, and submitted to a Journal, currently waiting for feedback</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>Jacob John</name>
+    </author>
+    <author>
+      <name>Mark Gilbert</name>
+    </author>
+    <author>
+      <name>Chris Hardie</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.06435v1</id>
+    <title>Charged Particle Resonance In Induction Field</title>
+    <updated>2024-07-08T22:37:54Z</updated>
+    <link href="https://arxiv.org/abs/2407.06435v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.06435v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Starting from First Principles, the space charge manipulation of charged particles in an induction field in free space based on an unique Magnetic field strength and its oscillation Frequency relationship is demonstrated numerically and theoretically. The Larmor precession frequency for a time varying magnetic field, instead of conventionally followed static magnetic field is derived for the first time. With the dispersion relation in Ion Resonance depending on its frequency of gyration, an AC driven electromagnet based particle resonance has been proposed circumventing the use of Superconducting Permanent Magnets. Complete resonance achieved under the proposed conditions results in a sustained, fixed-frequency particle trajectory that is independent of its speed or drift. Such oscillation is visualized in a D-Shaped Resonant assembly. The amplitude and the wavelength calculations for the trajectory are demonstrated analytically. Principally noting the objectives of Synchrotron in varying the magnetic field and its frequency to generate high energy particles, the present theory addresses the same. Its applications can be explored in Space Propulsion Systems, Magnetic Confinement Fusion, Magnetic Resonance Imaging (MRI) and sub-harmonic heating and cooling. Using this theory one can aptly generate RF Power using device specific designed resonant antennas coupling it with with Plasma.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.acc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-08T22:37:54Z</published>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <arxiv:journal_ref>Phys. Plasmas 1 June 2024; 31 (6): 062104</arxiv:journal_ref>
+    <author>
+      <name>Devesh S. Bhosale</name>
+    </author>
+    <arxiv:doi>10.1063/5.0206414</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/5.0206414" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1406.2312v1</id>
+    <title>Data Acquisition and Control System for Broad-band Microwave Reflectometry on EAST</title>
+    <updated>2014-06-09T05:08:12Z</updated>
+    <link href="https://arxiv.org/abs/1406.2312v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1406.2312v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Microwave reflectometry is a non-intrusive plasma diagnostic tool which is widely applied in many fusion devices. In 2014, the microwave reflectometry on Experimental Advanced Superconducting Tokamak (EAST) had been upgraded to measure plasma density profile and fluctuation, which covered the frequency range of Q-band (32-56 GHz), V-band (47-76 GHz) and W-band (71-110 GHz). This paper presented a dedicated data acquisition and control system (DAQC) to meet the measurement requirements of high accuracy and temporal resolution. The DAQC consisted of two control modules, which integrated arbitrary waveform generation block (AWG) and trigger processing block (TP), and two data acquisition modules (DAQ) that was implemented base on the PXIe platform from National Instruments (NI). All the performance parameters had satisfied the requirements of reflectometry. The actual performance will be further examined in the experiments of EAST in 2014.</summary>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-06-09T05:08:12Z</published>
+    <arxiv:comment>2 pages, 2 figures, 19th IEEE-NPSS Real-Time conference</arxiv:comment>
+    <arxiv:primary_category term="physics.ins-det"/>
+    <author>
+      <name>Fei Wen</name>
+    </author>
+    <author>
+      <name>Tao Zhang</name>
+    </author>
+    <author>
+      <name>Shoubiao Zhang</name>
+    </author>
+    <author>
+      <name>Defeng Kong</name>
+    </author>
+    <author>
+      <name>Yuming Wang</name>
+    </author>
+    <author>
+      <name>Xiang Han</name>
+    </author>
+    <author>
+      <name>Hao Qu</name>
+    </author>
+    <author>
+      <name>Xiang Gao</name>
+    </author>
+    <arxiv:doi>10.1109/RTC.2014.7097504</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/RTC.2014.7097504" title="doi"/>
+  </entry>
+</feed>

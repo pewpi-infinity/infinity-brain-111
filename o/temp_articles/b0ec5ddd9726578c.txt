@@ -1,0 +1,86 @@
+TERMS: frequency, boson
+COLORS: green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/PBPBYQKFjaYCFBuLY9Qzw9u2HQw</id>
+  <title>arXiv Query: search_query=all:frequency AND all:boson&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T00:57:20Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+all:boson&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1864</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0310140v1</id>
+    <title>Dynamics of the spin-boson model with a structured environment</title>
+    <updated>2003-10-07T09:29:05Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0310140v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0310140v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We investigate the dynamics of the spin-boson model when the spectral density of the boson bath shows a resonance at a characteristic frequency $Ω$ but behaves Ohmically at small frequencies. The time evolution of an initial state is determined by making use of the mapping onto a system composed of a quantum mechanical two-state system (TSS) which is coupled to a harmonic oscillator (HO) with frequency $Ω$. The HO itself is coupled to an Ohmic environment. The dynamics is calculated by employing the numerically exact quasiadiabatic path-integral propagator technique. We find significant new properties compared to the Ohmic spin-boson model. By reducing the TSS-HO system in the dressed states picture to a three-level system for the special case at resonance, we calculate the dephasing rates for the TSS analytically. Finally, we apply our model to experimentally realized superconducting flux qubits coupled to an underdamped dc-SQUID detector.</summary>
+    <category term="cond-mat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-10-07T09:29:05Z</published>
+    <arxiv:comment>26 pages, 11 figures, Chemical Physics Special Issue on the Spin-Boson Problem, ed. by H. Grabert and A. Nitzan, in press</arxiv:comment>
+    <arxiv:primary_category term="cond-mat"/>
+    <arxiv:journal_ref>Chem. Phys. 296, 333-344 (2004)</arxiv:journal_ref>
+    <author>
+      <name>M. Thorwart</name>
+    </author>
+    <author>
+      <name>E. Paladino</name>
+    </author>
+    <author>
+      <name>M. Grifoni</name>
+    </author>
+    <arxiv:doi>10.1016/j.chemphys.2003.10.007</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.chemphys.2003.10.007" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0307594v1</id>
+    <title>Dynamic Hubbard Model: Effect of Finite Boson Frequency</title>
+    <updated>2003-07-23T22:55:07Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0307594v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0307594v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Dynamic Hubbard models describe coupling of a boson degree of freedom to the on-site electronic double occupancy. In the limit of infinite boson frequency this coupling gives rise to a correlated hopping term in the effective Hamiltonian and to superconductivity when the Fermi level is near the top of the band. Here we study the effect of finite boson frequency through a generalized Lang-Firsov transformation and a high frequency expansion. It is found that finite frequency enhances the tendency to superconductivity in this model.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-07-23T22:55:07Z</published>
+    <arxiv:comment>8 pages 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <arxiv:journal_ref>Phys. Rev. B 68, 224507 (2003)</arxiv:journal_ref>
+    <author>
+      <name>F. Marsiglio</name>
+    </author>
+    <author>
+      <name>R. Teshima</name>
+    </author>
+    <author>
+      <name>J. E. Hirsch</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.68.224507</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.68.224507" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0806.0419v2</id>
+    <title>Odd-frequency pairing in a binary mixture of bosonic and fermionic cold atoms</title>
+    <updated>2008-12-11T19:24:33Z</updated>
+    <link href="https://arxiv.org/abs/0806.0419v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0806.0419v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We study fermionic superfluidity in a boson-single-species-fermion cold atom mixture. We argue that apart from the standard p-wave fermion pairing mediated by the phonon field of the boson gas, the system also exhibits s-wave pairing with the anomalous correlator being an odd function of time or frequency. We show that such a superfluid phase can have a much higher transition temperature than the p-wave and may exist for sufficiently strong couplings between fermions and bosons. These conditions for odd-frequency pairing are favorable close to the value of the coupling at which the mixture phase-separates. We evaluate the critical temperatures for this system and discuss the experimental realization of this superfluid in ultracold atomic gases.</summary>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-06-03T01:35:29Z</published>
+    <arxiv:comment>Final version</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.other"/>
+    <arxiv:journal_ref>Phys. Rev. B 78, 184513 (2008)</arxiv:journal_ref>
+    <author>
+      <name>Ryan M. Kalas</name>
+    </author>
+    <author>
+      <name>Alexander V. Balatsky</name>
+    </author>
+    <author>
+      <name>Dmitry Mozyrsky</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.78.184513</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.78.184513" title="doi"/>
+  </entry>
+</feed>

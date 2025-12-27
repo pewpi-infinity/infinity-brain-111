@@ -1,0 +1,37 @@
+TERMS: entropy, vapor, oxidation
+COLORS: red, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/j7pom6AaJBkxGdiFuMjv1mUPLD4</id>
+  <title>arXiv Query: search_query=all:entropy AND all:vapor AND all:oxidation&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:17:27Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+(all:vapor+AND+all:oxidation)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2403.00705v2</id>
+    <title>Temperature-dependent thermodynamic properties of CrNbO4 and CrTaO4 by first-principles calculations</title>
+    <updated>2025-07-02T15:40:58Z</updated>
+    <link href="https://arxiv.org/abs/2403.00705v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.00705v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the present work, the density functional theory (DFT) in the generalized-gradient approximation developed by Perdew, Burke, and Ernzerhof (PBE) +U method, i.e., PBE+U, was employed to predict temperature-dependent thermodynamic properties of the rutile-type oxides CrNbO4 and CrTaO4 as well as the binary oxides Cr2O3, Nb2O5, and Ta2O5 via the quasiharmonic phonon approach (QHA). Calculated thermodynamic properties of the binary oxides were benchmarked with experimental data, showing high accuracy except for the negative thermal expansion (NTE) of Nb2O5, attributed to its polymorphic complexity. By combining the formation energy predicted by DFT with the existing SGTE Substances Database (SSUB5), the CrNbO4 and CrTaO4 are found to be thermodynamic stable up to 1706 K and 1926 K and decompose into Cr2O3 and Nb2O5 or Ta2O5 at those temperatures, respectively. The temperature dependence of linear thermal expansion coefficients for CrNbO4 and CrTaO4 are predicted, and their mean values from 500 K to 2000 K are found to be 6.0*10-6/K and 5.04*10-6/K, respectively, in agreement with experimental observations in the literature. The gas-phase species and their vapor pressure are calculated, indicating that the formation of CrTaO4 and CrNbO4 reduces chromium volatilization, which is critically important to design enhanced Refractory high entropy alloys (RHEAs) with enhanced oxidation resistance.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-01T17:47:56Z</published>
+    <arxiv:comment>41 pages</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Shuang Lin</name>
+    </author>
+    <author>
+      <name>Shun-Li Shang</name>
+    </author>
+    <author>
+      <name>Allison M. Beese</name>
+    </author>
+    <author>
+      <name>Zi-Kui Liu</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,86 @@
+TERMS: quantum, electron, ionization
+COLORS: blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/e8JeFc31rwK6B0kZ2ub+0AE4nHM</id>
+  <title>arXiv Query: search_query=all:quantum AND all:electron AND all:ionization&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:06:49Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:electron+AND+all:ionization)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1060</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1307.7329v2</id>
+    <title>Under-the-barrier electron-ion interaction during tunnel ionization</title>
+    <updated>2013-08-07T12:52:59Z</updated>
+    <link href="https://arxiv.org/abs/1307.7329v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1307.7329v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider tunnel ionization of an atom or molecule in a strong field within an analytical treatment of the R-matrix method, in which an imaginary boundary is set up inside the classically forbidden region that acts as a source of ionized electrons. These electrons are then propagated in the semiclassical approximation, and relying on a numerical solution of the inner region, which is accessible using quantum chemical techniques, we describe the subsequent evolution of the ionized electron and the ionic core.
+  Importantly, we show that correlation interactions between the ionized electrons and those left behind in the core can play a role during ionization, and that interactions can occur while the electron is still inside the classically forbidden region that enable tunnelling from channels normally subject to far greater exponential suppression since they are subject to higher and wider tunnelling barriers.
+  This interaction can be described analytically using saddle-point methods that find the dominant contributions to the temporal, spatial and momentum integrals that make up the expressions for the ionization yield. However, these methods yield results for the angular distributions of the ionized electron that do not necessarily match experiment and which yield physically unsatisfactory solutions.
+  In this report we develop a formalism to evaluate these integrals exactly, which yields more precise calculations of the angular distributions while at the same time providing the language, in terms of exchange of angular momentum, with which to understand their origins and their differences from previous cases, thus giving an insight into the fundamental physics of the correlation interaction process.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-07-28T03:58:43Z</published>
+    <arxiv:comment>Report submitted in partial fulfilment of the requirements of the degree of MRes of Imperial College London, at the Centre for Doctoral Training in Controlled Quantum Dynamics. An enhanced PDF version is supplied with tooltips on links to references, equations and figures (this works only on Adobe readers). Published online by the Centre for Doctoral Training in Controlled Quantum Dynamics (2013) at http://www3.imperial.ac.uk/controlledquantumdynamics/people/students/cohortthree/emiliopisantyalatorre</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Emilio Pisanty</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/quant-ph/0509112v1</id>
+    <title>Non-adiabatic quantum molecular dynamics: Ionization of many electron systems</title>
+    <updated>2005-09-16T09:10:39Z</updated>
+    <link href="https://arxiv.org/abs/quant-ph/0509112v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/quant-ph/0509112v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We propose a novel method to describe realistically ionization processes with absorbing boundary conditions in basis expansion within the formalism of the so-called Non-Adiabatic Quantum Molecular Dynamics. This theory couples self-consistently a classical description of the nuclei with a quantum mechanical treatment of the electrons in atomic many-body systems. In this paper we extend the formalism by introducing absorbing boundary conditions via an imaginary potential. It is shown how this potential can be constructed in time-dependent density functional theory in basis expansion. The approach is first tested on the hydrogen atom and the pre-aligned hydrogen molecular ion H2+ in intense laser fields where reference calculations are available. It is then applied to study the ionization of non-aligned H2+ and H2. Striking differences in the orientation dependence between both molecules are found. Surprisingly, enhanced ionization is predicted for perpendicularly aligned molecules.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-09-16T09:10:39Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Mathias Uhlmann</name>
+    </author>
+    <author>
+      <name>Thomas Kunert</name>
+    </author>
+    <author>
+      <name>Ruediger Schmidt</name>
+    </author>
+    <arxiv:doi>10.1088/0953-4075/39/14/007</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0953-4075/39/14/007" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1704.01455v3</id>
+    <title>Quantum control via a genetic algorithm of the field ionization pathway of a Rydberg electron</title>
+    <updated>2017-07-31T15:51:35Z</updated>
+    <link href="https://arxiv.org/abs/1704.01455v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1704.01455v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Quantum control of the pathway along which a Rydberg electron field ionizes is experimentally and computationally demonstrated. Selective field ionization is typically done with a slowly rising electric field pulse. The $(1/n^*)^4$ scaling of the classical ionization threshold leads to a rough mapping between arrival time of the electron signal and principal quantum number of the Rydberg electron. This is complicated by the many avoided level crossings that the electron must traverse on the way to ionization, which in general leads to broadening of the time-resolved field ionization signal. In order to control the ionization pathway, thus directing the signal to the desired arrival time, a perturbing electric field produced by an arbitrary waveform generator is added to a slowly rising electric field. A genetic algorithm evolves the perturbing field in an effort to achieve the target time-resolved field ionization signal.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-04-05T14:42:32Z</published>
+    <arxiv:comment>Corrected minor typographic errors and changed the title</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <arxiv:journal_ref>Phys. Rev. A 96, 023403 (2017)</arxiv:journal_ref>
+    <author>
+      <name>Vincent C. Gregoric</name>
+    </author>
+    <author>
+      <name>Xinyue Kang</name>
+    </author>
+    <author>
+      <name>Zhimin Cheryl Liu</name>
+    </author>
+    <author>
+      <name>Zoe A. Rowley</name>
+    </author>
+    <author>
+      <name>Thomas J. Carroll</name>
+    </author>
+    <author>
+      <name>Michael W. Noel</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.96.023403</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.96.023403" title="doi"/>
+  </entry>
+</feed>

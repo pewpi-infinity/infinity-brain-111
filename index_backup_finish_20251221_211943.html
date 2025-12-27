@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pixie 🌸</title>
+<style>
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: linear-gradient(180deg, #ffe6ef, #ffd1e1);
+    color: #5a2a3a;
+  }
+  .container {
+    max-width: 420px;
+    margin: 0 auto;
+    padding: 24px;
+  }
+  .card {
+    background: #fff7fa;
+    border-radius: 24px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 10px 30px rgba(255, 105, 180, 0.2);
+  }
+  .avatar {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 10px auto 16px;
+    border: 6px solid #ffb6c9;
+  }
+  h1 {
+    text-align: center;
+    font-size: 26px;
+    margin: 8px 0 4px;
+  }
+  p {
+    text-align: center;
+    font-size: 15px;
+    opacity: 0.85;
+  }
+  .pill {
+    background: #ffd9e6;
+    border-radius: 999px;
+    padding: 10px 14px;
+    margin: 8px 0;
+    text-align: center;
+    font-weight: 500;
+  }
+  textarea, input {
+    width: 100%;
+    border-radius: 14px;
+    border: none;
+    padding: 12px;
+    margin-top: 8px;
+    font-size: 14px;
+    background: #ffffff;
+  }
+  .footer {
+    text-align: center;
+    font-size: 12px;
+    opacity: 0.6;
+    margin-top: 16px;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+
+    <div class="card">
+      <img src="wkh1u5.jpg" alt="Pixie" class="avatar">
+      <h1>Pixie 🌸</h1>
+      <p>A gentle, happy place</p>
+    </div>
+
+    <div class="card">
+      <div class="pill">🍀 Try your luck</div>
+      <div class="pill">🌸 Make a wish</div>
+      <div class="pill">⭐ Keep it light</div>
+    </div>
+
+    <div class="card">
+      <strong>Notes & Ideas ✨</strong>
+      <textarea rows="4" placeholder="Write ideas, wishes, or plans..."></textarea>
+    </div>
+
+    <div class="card">
+      <strong>This page can become:</strong>
+      <ul>
+        <li>a journal</li>
+        <li>a family space</li>
+        <li>a memory book</li>
+        <li>or just a happy place 💕</li>
+      </ul>
+    </div>
+
+    <div class="footer">
+      Made with love 🌷
+    </div>
+
+  </div>
+<!-- 🧱👰🧱 Pewpi Emoji Login Embed -->
+<script>
+(function () {
+  // Check admin login flag set by pewpi-emoji-login
+  try {
+    const logged = JSON.parse(localStorage.getItem("pewpi_admin_logged"));
+    if (logged === true) {
+      document.documentElement.classList.add("pewpi-admin");
+      console.log("🧱👰🧱 Pewpi admin unlocked");
+    }
+  } catch (e) {}
+})();
+</script>
+
+<style>
+/* Admin-gated UI */
+.admin-only { display: none; }
+.pewpi-admin .admin-only { display: block; }
+</style>
+</body>
+</html>

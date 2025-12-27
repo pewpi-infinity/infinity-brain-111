@@ -1,0 +1,84 @@
+TERMS: quantum, ionization, singularity
+COLORS: blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/EBEw042OW84pu8x5rAiKQScWPrA</id>
+  <title>arXiv Query: search_query=all:quantum AND all:ionization AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:07:49Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:ionization+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>14</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2302.03777v1</id>
+    <title>Singularity in electron-core potential as a gateway to accurate multi-electron ionization spectra in strongly driven atoms</title>
+    <updated>2023-02-07T22:20:11Z</updated>
+    <link href="https://arxiv.org/abs/2302.03777v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2302.03777v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We demonstrate a general three-dimensional semiclassical model as a powerful technique for the study of correlated multi-electron escape in atoms driven by infrared laser pulses at intensities where electron-electron correlation prevails. We do so in the context of triple ionization of strongly driven Ne. We show that a drawback of other current quantum mechanical and classical models of triple ionization is that they soften the Coulomb potential of each electron with the core. The model we employ fully accounts for the singularity in the Coulomb potentials of a recolliding electron with the core and a bound electron with the core as well as for the interaction of a recolliding with a bound electron. Our model treats approximately only the interaction between bound electrons through the use of effective potentials. These effective potentials ensure that no artificial autoionization takes place as a result of the full treatment of the electron-core potential. We demonstrate the accuracy of our model by obtaining triple ionization distributions of the sum of the final electron momenta which we find to be in very good agreement with experiments. Also, we explain the main features of these momenta distributions in terms of the prevalent pathways of correlated three-electron escape in Ne. We also show that the different ionization pathways prevailing in three-electron escape in strongly driven Ne versus Ar give rise to different momenta distributions in these two atoms.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-02-07T22:20:11Z</published>
+    <arxiv:comment>6 pages, 4 figures. arXiv admin note: substantial text overlap with arXiv:2210.17394</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>Agapi Emmanouilidou</name>
+    </author>
+    <author>
+      <name>Matthew Benjamin Peters</name>
+    </author>
+    <author>
+      <name>Georgios Petros Katsoulis</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.107.L041101</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.107.L041101" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1304.2686v1</id>
+    <title>Interpretation of the time delay in the ionization of Coulomb and two-center systems</title>
+    <updated>2013-04-09T18:16:37Z</updated>
+    <link href="https://arxiv.org/abs/1304.2686v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1304.2686v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the time delay of electron detachment from a Coulomb center and two-center systems in the process of ionization. It is shown that the attosecond streaking, most usual method of time delay measure, can be formally described by placing a virtual detector of the arrival time delay at a certain distance from the center of the system. This approach allows derivation of a simple formula for Coulomb-laser coupling that perfectly agrees with the results of numerical solution of the time-dependent Schrodinger equation. The dependence of the time delay upon the energy, the angular momentum projection, and the azimuthal quantum number is studied for the ionization of molecular hydrogen ion. Finally, we propose a physical interpretation of singularities, arising when the formal expression for the time delay is applied to the ionization of molecular hydrogen.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-04-09T18:16:37Z</published>
+    <arxiv:comment>30 pages, 9 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>Vladislav V. Serov</name>
+    </author>
+    <author>
+      <name>Vladimir L. Derbov</name>
+    </author>
+    <author>
+      <name>Tatyana A. Sergeeva</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.87.063414</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.87.063414" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1503.00343v1</id>
+    <title>Generalized eikonal approximation for strong-field ionization</title>
+    <updated>2015-03-01T19:53:21Z</updated>
+    <link href="https://arxiv.org/abs/1503.00343v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1503.00343v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We develop the eikonal perturbation theory to describe the strong-field ionization by finite laser pulses. This approach in the first order with respect to the binding potential (the so-called generalized eikonal approximation) avoids a singularity at the potential center. Thus, in contrast to the ordinary eikonal approximation, it allows to treat rescattering phenomena in terms of quantum trajectories. We demonstrate how the first Born approximation and its domain of validity follow from eikonal perturbation theory. Using this approach, we study the coherent diffraction patterns in photoelectron energy spectra and their modifications induced by the interaction of photoelectrons with the atomic potential. Along with these first results, we discuss the prospects of using the generalized eikonal approximation to study strong-field ionization from multi-centered atomic systems and to study other strong-field phenomena.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-03-01T19:53:21Z</published>
+    <arxiv:comment>31 pages, 8 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <arxiv:journal_ref>Phys. Rev. A 91, 053417 (2015)</arxiv:journal_ref>
+    <author>
+      <name>F. Cajiao Vélez</name>
+    </author>
+    <author>
+      <name>K. Krajewska</name>
+    </author>
+    <author>
+      <name>J. Z. Kamiński</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.91.053417</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.91.053417" title="doi"/>
+  </entry>
+</feed>

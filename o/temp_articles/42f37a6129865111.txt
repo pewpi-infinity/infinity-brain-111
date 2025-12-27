@@ -1,0 +1,78 @@
+TERMS: entropy, wavefunction, graphene
+COLORS: red, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Nf2lxqqsBSSs8KlHlcC2Z1+eqPI</id>
+  <title>arXiv Query: search_query=all:entropy AND all:wavefunction AND all:graphene&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:18:26Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+(all:wavefunction+AND+all:graphene)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>3</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2408.16761v2</id>
+    <title>Nonlocal Moments in the Chern Bands of Twisted Bilayer Graphene</title>
+    <updated>2025-01-24T22:13:25Z</updated>
+    <link href="https://arxiv.org/abs/2408.16761v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2408.16761v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Twisted bilayer graphene (TBG) has elements in common with two paradigmatic examples of strongly correlated physics: quantum Hall physics and Hubbard physics. On one hand, TBG hosts flat topological Landau-level-like bands which exhibits quantum anomalous Hall effects. On the other hand, these bands have concentrated charge density and show signs of extensive entropy resembling local moments. The combination of these features leads to a question: can decoupled moments emerge in an isolated topological band, despite the lack of exponentially localized Wannier states? In this work, we answer the question affirmatively by proposing a minimal model for these bands in TBG that combines topology and charge concentration at the AA sites, leading to analytic wavefunctions that closely approximate those of the BM model with realistic parameters. Importantly, charge concentration also leads to Berry curvature concentration at $Γ$, generating a small parameter $s$ that yields analytic tractability. We show that, rather surprisingly, the model hosts nearly decoupled flavor moments without any extra degrees of freedom. These moments are non-local due to topology-enforced power-law tails, yet have parametrically small overlap. We further develop a diagrammatic expansion in which the self energy can be computed exactly to leading order in $s^2$ in the fluctuating moment regime. At charge neutrality, we find a "Mott semimetal", with large flavor entropy and a Mott gap everywhere in the BZ except for the vicinity of the $Γ$ point. Away from neutrality, the Mott semimetal gaps out in a spectrally imbalanced manner, with one Mott band having zero $Z_k$ at the $Γ$ point. The model accurately reproduces results from finite temperature thermodynamic measurements, leads to new experimental predictions, and resolves the problem of the emergence of Hubbard physics in isolated topological bands.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-08-29T17:56:59Z</published>
+    <arxiv:comment>23 pages</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <author>
+      <name>Patrick J. Ledwith</name>
+    </author>
+    <author>
+      <name>Junkai Dong</name>
+    </author>
+    <author>
+      <name>Ashvin Vishwanath</name>
+    </author>
+    <author>
+      <name>Eslam Khalaf</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.17871v1</id>
+    <title>Two-strand ladder network variants: localization, multifractality, and quantum dynamics under an Aubry-André-Harper kind of quasiperiodicity</title>
+    <updated>2024-07-25T08:43:48Z</updated>
+    <link href="https://arxiv.org/abs/2407.17871v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.17871v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we demonstrate, using a couple of variants of a two-strand ladder network that, a quasiperiodic Aubry-André-Harper (AAH) modulation applied to the vertical strands, mimicking a deterministic distortion in the network, can give rise to certain exotic features in the electronic spectrum of such systems. While, for the simplest ladder network all the eigenstates become localized as the modulation strength crosses a threshold, for the second variant, modelling an ultrathin graphene nano-ribbon, the central part of the energy spectrum remains populated by extended wavefunctions. The multifractal character in the energy spectrum is observed for both these networks close to the critical values of the modulation. We substantiate our findings also by studying the quantum dynamics of a wave packet on such decorated lattices. Interestingly, while the mean square displacement (MSD) changes in the usual manner in a pure two-strand ladder network as the modulation strength varies, for the ultrathin graphene nanoribbon the temporal behaviour of the MSD remains unaltered only up to a strong modulation strength. This, we argue, is due to the extendedness of the wavefunction at the central part of the energy spectrum. Other measurements like the return probability, temporal autocorrelation function, the time dependence of the inverse participation ratio, and the information entropy are calculated for both networks with different modulation strengths and corroborate our analytical findings.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-25T08:43:48Z</published>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Physica B: Condensed Matter (2024): 416705</arxiv:journal_ref>
+    <author>
+      <name>Sougata Biswas</name>
+    </author>
+    <arxiv:doi>10.1016/j.physb.2024.416705</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physb.2024.416705" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1602.02723v3</id>
+    <title>Entanglement properties of Floquet Chern insulators</title>
+    <updated>2016-11-17T19:18:17Z</updated>
+    <link href="https://arxiv.org/abs/1602.02723v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1602.02723v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Results are presented for the entanglement entropy and spectrum of half-filled graphene following the switch on of a circularly polarized laser. The laser parameters are chosen to correspond to several different Floquet Chern insulator phases. The entanglement properties of the unitarily evolved wavefunctions are compared with the state where one of the Floquet bands is completely occupied. The true states show a volume law for the entanglement, whereas the Floquet states show an area law. Qualitative differences are found in the entanglement properties of the off-resonant and on-resonant laser. Edge states are found in the entanglement spectrum corresponding to certain physical edge states expected in a Chern insulator. However, some edge states that would be expected from the Floquet band structure are missing from the entanglement spectrum. An analytic theory is developed for the long time structure of the entanglement spectrum. It is argued that only edge states corresponding to off-resonant processes appear in the entanglement spectrum.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-02-08T20:12:57Z</published>
+    <arxiv:comment>published version</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Phys. Rev. B 94, 205422 (2016)</arxiv:journal_ref>
+    <author>
+      <name>Daniel J. Yates</name>
+    </author>
+    <author>
+      <name>Yonah Lemonik</name>
+    </author>
+    <author>
+      <name>Aditi Mitra</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.94.205422</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.94.205422" title="doi"/>
+  </entry>
+</feed>

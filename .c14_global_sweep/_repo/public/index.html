@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infinity Research - Science News Feed</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>🔬 Infinity Research Hub</h1>
+            <p class="tagline">Pure Science. No Politics. Just Discovery.</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#feed" class="active">Research Feed</a></li>
+                <li><a href="#editor">Paper Editor</a></li>
+                <li><a href="#tokens">My Tokens</a></li>
+                <li><a href="#database">Database</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <!-- Research Feed Section -->
+        <section id="feed" class="section active">
+            <h2>Latest Research Papers</h2>
+            <div id="research-feed" class="research-grid">
+                <!-- Research papers will be dynamically loaded here -->
+            </div>
+        </section>
+
+        <!-- Paper Editor Section -->
+        <section id="editor" class="section">
+            <h2>Research Paper Terminal</h2>
+            <p class="editor-description">Build your own research paper and earn tokens for your contributions.</p>
+            
+            <div class="editor-container">
+                <div class="editor-header">
+                    <input type="text" id="paper-title" placeholder="Research Paper Title" class="input-field">
+                    <input type="text" id="paper-author" placeholder="Author Name" class="input-field">
+                    <input type="text" id="paper-keywords" placeholder="Keywords (comma-separated)" class="input-field">
+                </div>
+                
+                <div class="editor-main">
+                    <div class="editor-section">
+                        <label>Abstract:</label>
+                        <textarea id="paper-abstract" placeholder="Enter your research abstract..." rows="4"></textarea>
+                    </div>
+                    
+                    <div class="editor-section">
+                        <label>Research Content:</label>
+                        <textarea id="paper-content" placeholder="Enter your research content..." rows="15"></textarea>
+                    </div>
+                    
+                    <div class="editor-section">
+                        <label>References:</label>
+                        <textarea id="paper-references" placeholder="Enter references..." rows="4"></textarea>
+                    </div>
+                </div>
+                
+                <div class="editor-footer">
+                    <button id="tokenize-btn" class="btn btn-primary">Tokenize & Submit Research</button>
+                    <button id="save-draft-btn" class="btn btn-secondary">Save Draft</button>
+                    <div id="editor-status" class="status-message"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tokens Section -->
+        <section id="tokens" class="section">
+            <h2>Your Research Tokens</h2>
+            <div class="tokens-info">
+                <div class="token-card">
+                    <h3>Token Balance</h3>
+                    <p class="token-balance" id="token-balance">0 RT</p>
+                    <small>Research Tokens (RT)</small>
+                </div>
+                <div class="token-card">
+                    <h3>Papers Published</h3>
+                    <p class="token-balance" id="papers-count">0</p>
+                </div>
+                <div class="token-card">
+                    <h3>Total Reads</h3>
+                    <p class="token-balance" id="total-reads">0</p>
+                </div>
+            </div>
+            
+            <h3>Your Published Research</h3>
+            <div id="user-papers" class="research-grid">
+                <!-- User's papers will be displayed here -->
+            </div>
+        </section>
+
+        <!-- Database Section -->
+        <section id="database" class="section">
+            <h2>Infinity Research Database</h2>
+            <p class="database-description">Explore the complete repository of tokenized research papers.</p>
+            
+            <div class="search-bar">
+                <input type="text" id="search-input" placeholder="Search research papers..." class="input-field">
+                <button id="search-btn" class="btn btn-primary">Search</button>
+            </div>
+            
+            <div class="database-stats">
+                <div class="stat-item">
+                    <span class="stat-label">Total Papers:</span>
+                    <span class="stat-value" id="total-papers">0</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Total Tokens:</span>
+                    <span class="stat-value" id="total-tokens">0</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-label">Active Researchers:</span>
+                    <span class="stat-value" id="active-researchers">0</span>
+                </div>
+            </div>
+            
+            <div id="database-results" class="research-grid">
+                <!-- Search results will be displayed here -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Infinity Research Hub - Advancing Science Through Tokenized Knowledge</p>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+    <title>Mongoose.OS - Login & Token Wallet</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🚴 Mongoose.OS</h1>
+            <p class="tagline">Trick bike Freestyle BMX scripting</p>
+        </header>
+
+        <!-- Colored Word Links Section -->
+        <div class="navigation-links">
+            <h2>Co-Pilot Project Links</h2>
+            <div class="word-links">
+                <a href="#projects" class="word-link color-1" data-project="freestyle">Freestyle</a>
+                <a href="#projects" class="word-link color-2" data-project="bmx">BMX</a>
+                <a href="#projects" class="word-link color-3" data-project="tricks">Tricks</a>
+                <a href="#projects" class="word-link color-4" data-project="mongoose">Mongoose</a>
+                <a href="#projects" class="word-link color-5" data-project="scripting">Scripting</a>
+                <a href="#projects" class="word-link color-6" data-project="copilot">CoPilot</a>
+                <a href="#projects" class="word-link color-7" data-project="integration">Integration</a>
+                <a href="#projects" class="word-link color-8" data-project="projects">Projects</a>
+            </div>
+        </div>
+
+        <!-- Login Section -->
+        <div id="loginSection" class="section">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Login</button>
+            </form>
+            <div id="loginMessage" class="message"></div>
+        </div>
+
+        <!-- Token Wallet Section -->
+        <div id="walletSection" class="section" style="display: none;">
+            <h2>Token Wallet</h2>
+            <div class="wallet-info">
+                <p>Welcome, <span id="currentUser"></span>!</p>
+                <p>Total Tokens: <span id="tokenBalance" class="balance">0</span></p>
+            </div>
+
+            <div class="add-token-form">
+                <h3>Add Tokens</h3>
+                <form id="addTokenForm">
+                    <div class="form-group">
+                        <label for="tokenType">Token Type:</label>
+                        <select id="tokenType" name="tokenType" required>
+                            <option value="trick">Trick Token</option>
+                            <option value="freestyle">Freestyle Token</option>
+                            <option value="bmx">BMX Token</option>
+                            <option value="reward">Reward Token</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="amount">Amount:</label>
+                        <input type="number" id="amount" name="amount" min="1" value="1" required>
+                    </div>
+                    <button type="submit" class="btn btn-secondary">Add Tokens</button>
+                </form>
+            </div>
+
+            <div class="wallet-tokens">
+                <h3>Your Tokens</h3>
+                <div id="tokenList"></div>
+            </div>
+
+            <button id="logoutBtn" class="btn btn-danger">Logout</button>
+        </div>
+
+        <!-- Server Commits Log -->
+        <div class="section">
+            <h2>Server-Side Commit Log</h2>
+            <div id="commitLog" class="commit-log"></div>
+            <button id="refreshCommits" class="btn btn-info">Refresh Commits</button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

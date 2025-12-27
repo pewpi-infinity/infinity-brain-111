@@ -1,0 +1,92 @@
+TERMS: fusion, resonance, singularity
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/qzPdb0JVqhN3igievTYSQEyvbOo</id>
+  <title>arXiv Query: search_query=all:fusion AND all:resonance AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:21:53Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:fusion+AND+(all:resonance+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>6</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2303.02107v3</id>
+    <title>Structure of pressure-gradient-driven current singularity in ideal magnetohydrodynamic equilibrium</title>
+    <updated>2024-02-09T19:52:59Z</updated>
+    <link href="https://arxiv.org/abs/2303.02107v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2303.02107v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Singular currents typically appear on rational surfaces in non-axisymmetric ideal magnetohydrodynamic equilibria with a continuum of nested flux surfaces and a continuous rotational transform. These currents have two components: a surface current (Dirac $δ$-function in flux surface labeling) that prevents the formation of magnetic islands and an algebraically divergent Pfirsch--Schlüter current density when a pressure gradient is present across the rational surface. At flux surfaces adjacent to the rational surface, the traditional treatment gives the Pfirsch--Schlüter current density scaling as $J\sim1/Δι$, where $Δι$ is the difference of the rotational transform relative to the rational surface. If the distance $s$ between flux surfaces is proportional to $Δι$, the scaling relation $J\sim1/Δι\sim1/s$ will lead to a paradox that the Pfirsch--Schlüter current is not integrable. In this work, we investigate this issue by considering the pressure-gradient-driven singular current in the Hahm\textendash Kulsrud\textendash Taylor problem, which is a prototype for singular currents arising from resonant magnetic perturbations. We show that not only the Pfirsch--Schlüter current density but also the diamagnetic current density are divergent as $\sim1/Δι$. However, due to the formation of a Dirac $δ$-function current sheet at the rational surface, the neighboring flux surfaces are strongly packed with $s\sim(Δι)^{2}$. Consequently, the singular current density $J\sim1/\sqrt{s}$, making the total current finite, thus resolving the paradox.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.flu-dyn" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-03-03T17:50:02Z</published>
+    <arxiv:comment>Minor corrections of typos</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <arxiv:journal_ref>Plasma Phys. Control. Fusion 65 034008, 2023</arxiv:journal_ref>
+    <author>
+      <name>Yi-Min Huang</name>
+    </author>
+    <author>
+      <name>Yao Zhou</name>
+    </author>
+    <author>
+      <name>Joaquim Loizu</name>
+    </author>
+    <author>
+      <name>Stuart Hudson</name>
+    </author>
+    <author>
+      <name>Amitava Bhattacharjee</name>
+    </author>
+    <arxiv:doi>10.1088/1361-6587/acb382</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1361-6587/acb382" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0903.0521v1</id>
+    <title>Two-pion decays of mesons and confinement singularities</title>
+    <updated>2009-03-03T12:51:21Z</updated>
+    <link href="https://arxiv.org/abs/0903.0521v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0903.0521v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We consider the two-pion decay of the $ρ$-meson, the $^3S_1q\bar q$-state of the constituent quarks -- the decay being determined by the transition $q\bar q\to ππ$ contains information about confinement interactions. One can specify in this decay two types of transitions: ({\bf i}) the bremsstrahlung radiation of a pion $q\to q+π$ (or $\bar q\to\bar q+π$) with the subsequent fusion $q\bar q\to π$, and ({\bf ii}) the direct transition $q\bar q\to ππ$. We demonstrate how in the amplitudes of the corresponding transitions the quark singularities have to disappear, {\it i.e.} what is the way the quark confinement at relatively short distances can be realized. We calculate and estimate the contributions of processes with bremsstrahlung radiation of the pion and of the direct transition $q\bar q\to ππ$. The estimates demonstrate that the processes involving the direct transition $q\bar q\to ππ$ are necessary, but they cannot be determined unambiguously by the decay $ρ(775)\to ππ$. We conclude that for the determination of the $q\bar q\to ππ$ transition more complete data on the resonance decays into the $ππ$ channels are required than those available at the moment.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-03-03T12:51:21Z</published>
+    <arxiv:comment>18 pages, 12 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>A. V. Anisovich</name>
+    </author>
+    <author>
+      <name>V. V. Anisovich</name>
+    </author>
+    <author>
+      <name>M. A. Matveev</name>
+    </author>
+    <author>
+      <name>V. A. Nikonov</name>
+    </author>
+    <author>
+      <name>J. Nyiri</name>
+    </author>
+    <author>
+      <name>A. V. Sarantsev</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-lat/9508031v2</id>
+    <title>The Hierarchical $φ^4$ - Trajectory by Perturbation Theory in a Running Coupling and its Logarithm</title>
+    <updated>1995-09-01T07:06:16Z</updated>
+    <link href="https://arxiv.org/abs/hep-lat/9508031v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-lat/9508031v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We compute the hierarchical $φ^4$-trajectory in terms of perturbation theory in a running coupling. In the three dimensional case we resolve a singularity due to resonance of power counting factors in terms of logarithms of the running coupling. Numerical data is presented and the limits of validity explored. We also compute moving eigenvalues and eigenvectors on the trajectory as well as their fusion rules.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1995-08-31T11:54:31Z</published>
+    <arxiv:comment>24 pages, 9 pictures included, uuencoded compressed postscript file</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>J. Rolf</name>
+    </author>
+    <author>
+      <name>C. Wieczerkowski</name>
+    </author>
+  </entry>
+</feed>

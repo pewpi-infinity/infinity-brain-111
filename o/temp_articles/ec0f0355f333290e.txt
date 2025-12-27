@@ -1,0 +1,147 @@
+TERMS: lattice, wavefunction, graphene
+COLORS: orange, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/hQYpgQ159M7yzIPDr9LICJoEM6U</id>
+  <title>arXiv Query: search_query=all:lattice AND all:wavefunction AND all:graphene&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:15:22Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:wavefunction+AND+all:graphene)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>50</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2507.03675v1</id>
+    <title>Wavefunction textures in twisted bilayer graphene from first principles</title>
+    <updated>2025-07-04T15:51:34Z</updated>
+    <link href="https://arxiv.org/abs/2507.03675v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.03675v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Motivated by recent experiments probing the wavefunctions of magic-angle twisted bilayer graphene (tBLG), we perform large-scale first-principles calculations of tBLG with full atomic relaxation across a wide range of twist angles down to $0.99^\circ$. Focusing on the magic angle, we compute wavefunctions of the low energy bands, resolving atomic-scale details and moiré-scale patterns that form triangular, honeycomb, and Kagome lattices. By tuning the interlayer interactions, we illustrate the formation of the flat bands from isolated monolayers and the emergence of the band inversion and fragile topology at a sufficiently large interaction strength. We identify strong indicators of a new topological phase transition with increasing interlayer interaction strength, achievable with external pressure or a decrease in the twist angle. When this transition occurs, the upper and lower flat bands exchange their wavefunction character, which may explain why superconductivity appears with electron doping below the magic angle. Our study demonstrates the feasibility of using first-principles wavefunctions to help interpret experimental signatures of topological and correlated phases in tBLG.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-04T15:51:34Z</published>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>Albert Zhu</name>
+    </author>
+    <author>
+      <name>Daniel Bennett</name>
+    </author>
+    <author>
+      <name>Daniel T. Larson</name>
+    </author>
+    <author>
+      <name>Mohammed M. Al Ezzi</name>
+    </author>
+    <author>
+      <name>Efstratios Manousakis</name>
+    </author>
+    <author>
+      <name>Efthimios Kaxiras</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2303.00024v1</id>
+    <title>Quantum textures of the many-body wavefunctions in magic-angle graphene</title>
+    <updated>2023-02-28T19:01:32Z</updated>
+    <link href="https://arxiv.org/abs/2303.00024v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2303.00024v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Interactions among electrons create novel many-body quantum phases of matter with wavefunctions that often reflect electronic correlation effects, broken symmetries, and novel collective excitations. A wide range of quantum phases has been discovered in MATBG, including correlated insulating, unconventional superconducting, and magnetic topological phases. The lack of microscopic information, including precise knowledge of possible broken symmetries, has thus far hampered our understanding of MATBG's correlated phases. Here we use high-resolution scanning tunneling microscopy to directly probe the wavefunctions of the correlated phases in MATBG. The squares of the wavefunctions of gapped phases, including those of the correlated insulators, pseudogap, and superconducting phases, show distinct patterns of broken symmetry with a $\sqrt{3}$ x $\sqrt{3}$ super-periodicity on the graphene atomic lattice that has a complex spatial dependence on the moiré superlattice scale. We introduce a symmetry-based analysis to describe our measurements of the wavefunctions of MATBG's correlated phases with a set of complex-valued local order parameters. For the correlated insulators in MATBG, at fillings of $ν$ = $\pm$ 2 electrons per moiré unit cell relative to charge neutrality, we compare the observed quantum textures to those expected for proposed theoretical ground states. In typical MATBG devices, the textures of correlated insulators' wavefunctions closely match those of the theoretically proposed IKS order, while in ultra-low-strain samples our data has local symmetries like those of a T-IVC phase. We also study the wavefunction of MATBG's superconducting state, revealing strong signatures of intervalley coherence that can only be distinguished from those of the insulator with our phase-sensitive measurements.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-02-28T19:01:32Z</published>
+    <arxiv:comment>5 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Nature 620, 525-532 (2023)</arxiv:journal_ref>
+    <author>
+      <name>Kevin P. Nuckolls</name>
+    </author>
+    <author>
+      <name>Ryan L. Lee</name>
+    </author>
+    <author>
+      <name>Myungchul Oh</name>
+    </author>
+    <author>
+      <name>Dillon Wong</name>
+    </author>
+    <author>
+      <name>Tomohiro Soejima</name>
+    </author>
+    <author>
+      <name>Jung Pyo Hong</name>
+    </author>
+    <author>
+      <name>Dumitru Călugăru</name>
+    </author>
+    <author>
+      <name>Jonah Herzog-Arbeitman</name>
+    </author>
+    <author>
+      <name>B. Andrei Bernevig</name>
+    </author>
+    <author>
+      <name>Kenji Watanabe</name>
+    </author>
+    <author>
+      <name>Takashi Taniguchi</name>
+    </author>
+    <author>
+      <name>Nicolas Regnault</name>
+    </author>
+    <author>
+      <name>Michael P. Zaletel</name>
+    </author>
+    <author>
+      <name>Ali Yazdani</name>
+    </author>
+    <arxiv:doi>10.1038/s41586-023-06226-x</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41586-023-06226-x" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1504.05761v1</id>
+    <title>Edge states in polariton honeycomb lattices</title>
+    <updated>2015-04-22T12:38:28Z</updated>
+    <link href="https://arxiv.org/abs/1504.05761v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1504.05761v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The experimental study of edge states in atomically-thin layered materials remains a challenge due to the difficult control of the geometry of the sample terminations, the stability of dangling bonds and the need to measure local properties. In the case of graphene, localised edge modes have been predicted in zig-zag and bearded edges, characterised by flat dispersions connecting the Dirac points. Polaritons in semiconductor microcavities have recently emerged as an extraordinary photonic platform to emulate 1D and 2D Hamiltonians, allowing the direct visualization of the wavefunctions in both real- and momentum-space as well as of the energy dispersion of eigenstates via photoluminescence experiments. Here we report on the observation of edge states in a honeycomb lattice of coupled micropillars. The lowest two bands of this structure arise from the coupling of the lowest energy modes of the micropillars, and emulate the π and π* bands of graphene. We show the momentum space dispersion of the edge states associated to the zig-zag and bearded edges, holding unidimensional quasi-flat bands. Additionally, we evaluate polarisation effects characteristic of polaritons on the properties of these states.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-04-22T12:38:28Z</published>
+    <arxiv:comment>12 pages, 5 figures, submitted to focus issue of 2D Materials on "Artificial Graphene"</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>M. Milicevic</name>
+    </author>
+    <author>
+      <name>T. Ozawa</name>
+    </author>
+    <author>
+      <name>P. Andreakou</name>
+    </author>
+    <author>
+      <name>I. Carusotto</name>
+    </author>
+    <author>
+      <name>T. Jacqmin</name>
+    </author>
+    <author>
+      <name>E. Galopin</name>
+    </author>
+    <author>
+      <name>A. Lemaître</name>
+    </author>
+    <author>
+      <name>L. Le Gratiet</name>
+    </author>
+    <author>
+      <name>I. Sagnes</name>
+    </author>
+    <author>
+      <name>J. Bloch</name>
+    </author>
+    <author>
+      <name>A. Amo</name>
+    </author>
+  </entry>
+</feed>

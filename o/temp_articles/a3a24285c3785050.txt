@@ -1,0 +1,100 @@
+TERMS: crystal, muon, plasma
+COLORS: orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/09fzK1medF4D70Asw+lN7gwDeTw</id>
+  <title>arXiv Query: search_query=all:crystal AND all:muon AND all:plasma&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:28:24Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:crystal+AND+(all:muon+AND+all:plasma)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>4</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2303.04385v3</id>
+    <title>Geant4 simulation model of electromagnetic processes in oriented crystals for accelerator physics</title>
+    <updated>2023-06-02T12:23:40Z</updated>
+    <link href="https://arxiv.org/abs/2303.04385v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2303.04385v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Electromagnetic processes of charged particles interaction with oriented crystals provide a wide variety of innovative applications such as beam steering, crystal-based extraction/collimation of leptons and hadrons in an accelerator, a fixed-target experiment on magnetic and electric dipole moment measurement, X-ray and gamma radiation source for radiotherapy and nuclear physics and a positron source for lepton and muon colliders, a compact crystalline calorimeter as well as plasma acceleration in the crystal media. One of the main challenges is to develop an up-to-date, universal and fast simulation tool to simulate these applications.
+  We present a new simulation model of electromagnetic processes in oriented crystals implemented into Geant4, which is a toolkit for the simulation of the passage of particles through matter. We validate the model with the experimental data as well as discuss the advantages and perspectives of this model for the applications of oriented crystals mentioned above.</summary>
+    <category term="physics.acc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-03-08T05:15:11Z</published>
+    <arxiv:comment>18 pages, 9 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.acc-ph"/>
+    <author>
+      <name>Alexei Sytov</name>
+    </author>
+    <author>
+      <name>Laura Bandiera</name>
+    </author>
+    <author>
+      <name>Kihyeon Cho</name>
+    </author>
+    <author>
+      <name>Soonwook Hwang</name>
+    </author>
+    <author>
+      <name>Giuseppe Antonio Pablo Cirrone</name>
+    </author>
+    <author>
+      <name>Luciano Pandola</name>
+    </author>
+    <author>
+      <name>Susanna Guatelli</name>
+    </author>
+    <author>
+      <name>Anatoly Rosenfeld</name>
+    </author>
+    <author>
+      <name>Viktar Haurylavets</name>
+    </author>
+    <author>
+      <name>Victor Tikhomirov</name>
+    </author>
+    <author>
+      <name>Vladimir Ivanchenko</name>
+    </author>
+    <arxiv:doi>10.1007/s40042-023-00834-6</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s40042-023-00834-6" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1511.01934v1</id>
+    <title>Crystal Ball: On the Future High Energy Colliders</title>
+    <updated>2015-11-05T22:23:11Z</updated>
+    <link href="https://arxiv.org/abs/1511.01934v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1511.01934v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>High energy particle colliders have been in the forefront of particle physics for more than three decades. At present the near term US, European and international strategies of the particle physics community are centered on full exploitation of the physics potential of the Large Hadron Collider (LHC) through its high-luminosity upgrade (HL-LHC). A number of next generation collider facilities have been proposed and are currently under consideration for the medium- and far-future of the accelerator-based high energy physics. In this paper we offer a uniform approach to evaluation of various accelerators based on the feasibility of their energy reach, performance reach and cost range. We briefly review such post-LHC options as linear e+e- colliders in Japan (ILC) or at CERN (CLIC), muon collider, and circular lepton or hadron colliders in China (CepC/SppC) and Europe (FCC). We conclude with a look into ultimate energy reach accelerators based on plasmas and crystals, and some perspectives for the far future of accelerator-based particle physics.</summary>
+    <category term="physics.acc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-11-05T22:23:11Z</published>
+    <arxiv:comment>8 pp. The European Physical Society Conference on High Energy Physics, 22-29 July 2015, Vienna, Austria</arxiv:comment>
+    <arxiv:primary_category term="physics.acc-ph"/>
+    <author>
+      <name>Vladimir Shiltsev</name>
+      <arxiv:affiliation>Fermilab</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1806.03331v1</id>
+    <title>Ultracold Muonium Negative Ion Production</title>
+    <updated>2018-06-08T19:31:03Z</updated>
+    <link href="https://arxiv.org/abs/1806.03331v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.03331v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A new, efficient method to produce ultracold negative muon ions is proposed. The muonium atom is made up of an antimuon and an electron and is given the chemical symbol Mu. A second electron with binding energy or electron affinity of 0.75 eV makes the Mu- ion, which is in many ways almost identical to the H- ion that is used for charge-exchange injection into most proton particle accelerators. Muonium negative ions were observed in 1987 by interactions of muons with a foil. Using the foil charge-exchange approach, the efficiency of transformation of muons to negative muonium ions has been very low ~10-4. However, by using a hot tungsten or palladium single crystal foil or aerogel treated by cesium deposition, the production efficiency can be improved up to 50%. The process described here has surface muons focused onto a tungsten or palladium single crystal foil or aerogel (that can be heated up to 2000 Celsius) and partially covered by a cesium layer to provide a minimal work function. The negative muon ions can be extracted by a DC electric field and further accelerated by a linac and stripped in a thin foil. Charge exchange with a. dense flow of positive or negative ions is proposed for conversion of slow muonium atoms into positive and negative muonium ions</summary>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-08T19:31:03Z</published>
+    <arxiv:primary_category term="physics.ins-det"/>
+    <author>
+      <name>V. Dudnikov</name>
+    </author>
+    <author>
+      <name>A. Dudnikov</name>
+    </author>
+    <arxiv:doi>10.1063/1.5083774</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/1.5083774" title="doi"/>
+  </entry>
+</feed>

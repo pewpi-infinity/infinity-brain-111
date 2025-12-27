@@ -1,0 +1,35 @@
+TERMS: fusion, crystal, singularity
+COLORS: green, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/upoBVzghJV7hWBHW2TmoaS01Pxs</id>
+  <title>arXiv Query: search_query=all:fusion AND all:crystal AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:20:33Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:fusion+AND+(all:crystal+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1001.5287v2</id>
+    <title>A first-order phase transition at the random close packing of hard spheres</title>
+    <updated>2016-03-28T01:07:20Z</updated>
+    <link href="https://arxiv.org/abs/1001.5287v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1001.5287v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Randomly packing spheres of equal size into a container consistently results in a static configuration with a density of ~64%. The ubiquity of random close packing (RCP) rather than the optimal crystalline array at 74% begs the question of the physical law behind this empirically deduced state. Indeed, there is no signature of any macroscopic quantity with a discontinuity associated with the observed packing limit. Here we show that RCP can be interpreted as a manifestation of a thermodynamic singularity, which defines it as the "freezing point" in a first-order phase transition between ordered and disordered packing phases. Despite the athermal nature of granular matter, we show the thermodynamic character of the transition in that it is accompanied by sharp discontinuities in volume and entropy. This occurs at a critical compactivity, which is the intensive variable that plays the role of temperature in granular matter. Our results predict the experimental conditions necessary for the formation of a jammed crystal by calculating an analogue of the "entropy of fusion". This approach is useful since it maps out-of-equilibrium problems in complex systems onto simpler established frameworks in statistical mechanics.</summary>
+    <category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-01-28T22:54:12Z</published>
+    <arxiv:comment>33 pages, 10 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.soft"/>
+    <arxiv:journal_ref>Physica A 389, 5362 (2010)</arxiv:journal_ref>
+    <author>
+      <name>Yuliang Jin</name>
+    </author>
+    <author>
+      <name>Hernan A. Makse</name>
+    </author>
+    <arxiv:doi>10.1016/j.physa.2010.08.010</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physa.2010.08.010" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,76 @@
+TERMS: hydrogen, electron, ionization, probability
+COLORS: purple, green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/0kSXBgIePwNmKlDtundp6CEedU0</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:electron AND all:ionization AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:55:48Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:electron+AND+(all:ionization+AND+all:probability))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>42</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2511.21430v1</id>
+    <title>Quantum electrodynamic description of the neutral hydrogen molecule ionization</title>
+    <updated>2025-11-26T14:21:43Z</updated>
+    <link href="https://arxiv.org/abs/2511.21430v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.21430v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The ionization dynamics of a hydrogen molecule, serving as a fundamental benchmark in quantum chemistry, is investigated within a comprehensive framework combining quantum electrodynamics and the Lindblad master equation. This approach enables a first-principles description of light--matter interactions while accounting for dissipative processes and external particle influx. We systematically explore the system's evolution across three distinct regimes: closed, dissipative open, and influx-driven open quantum systems. Our results reveal a universal tendency towards the formation of the neutral hydrogen molecule ($|\rm{H}_2\rangle$) across all configurations. The dissipation strengths for photons ($γ_Ω$), electrons ($γ_e$), and phonons ($γ_ω$) are identified as critical control parameters, with $γ_Ω$ significantly accelerating system stabilization. Furthermore, the introduction of particle influx ($μ_k$) leads to a complex redistribution of energy, notably populating the atomic state ($|\rm{H},\rm{H}\rangle$). The ionization pathway is exquisitely sensitive to the initial quantum state, dictated by the composition and number of photons, which governs the accessible spin-selective excitation channels. This is conclusively demonstrated in a model with an embedded anode, where the maximum ionization probability is fundamentally constrained to $\frac{3}{4}$ by orbital hybridization. This study provides a unified theoretical foundation for quantum-controlled chemistry, with direct implications for future experiments in cavity QED and quantum information processing.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-26T14:21:43Z</published>
+    <arxiv:comment>11 pages, 5 figures; Supplementary Information: 2 videos</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Hui-hui Miao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1701.07349v1</id>
+    <title>Relativistic ionization dynamics for a hydrogen atom exposed to super-intense XUV laser pulses</title>
+    <updated>2017-01-25T15:19:33Z</updated>
+    <link href="https://arxiv.org/abs/1701.07349v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1701.07349v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a theoretical study of the ionization dynamics of a hydrogen atom exposed to attosecond laser pulses in the extreme ultra violet region at very high intensities. The pulses are such that the electron is expected to reach relativistic velocities, thus necessitating a fully relativistic treatment. We solve the time dependent Dirac equation and compare its predictions with those of the corresponding non-relativistic Schr{ö}dinger equation. We find that as the electron is expected to reach about 20% of the speed of light, relativistic corrections introduces a finite yet small decrease in the probability of ionizing the atom.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-01-25T15:19:33Z</published>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <arxiv:journal_ref>Phys. Rev. A 95, 043403 (2017)</arxiv:journal_ref>
+    <author>
+      <name>Tor Kjellsson</name>
+    </author>
+    <author>
+      <name>Sølve Selstø</name>
+    </author>
+    <author>
+      <name>Eva Lindroth</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.95.043403</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.95.043403" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0712.0695v1</id>
+    <title>Ionization of the hydrogen atom by intense ultrashort laser pulses</title>
+    <updated>2007-12-05T11:31:37Z</updated>
+    <link href="https://arxiv.org/abs/0712.0695v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0712.0695v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The ionization of atomic hydrogen in intense laser fields is studied theoretically. The calculations were performed applying both quantummechanical and classical approaches. Treating the problem quantummechanically, the time dependent Schrödinger equation (TDSE) of our system was first transformed into a pseudo-momentum space and solved in this space iteratively. While neglecting the Coulomb potential during the solution of the TDSE we got the results in the Volkov approximation, in the first order solution we taken into account the Coulomb potential as perturbation. The classical calculations were performed within the framework of the classical trajectory Monte-Carlo (CTMC) method.
+  The double differential ionization probabilities are calculated for different laser pulses and a reasonable agreement was found between the theories. Major differences can be observed in the angular distribution of electrons at low electron energies between classical and the quantummechanical approaches. At high electron energies the differences disappear, which indicates that the generation of low energy electrons is of quantum type, and it is strongly influenced by the Coulomb potential, while the production of high energy electrons is of classical type and it is less influenced by the Coulomb interaction. Our results are also compared with the Coulomb-Volkov (CV) model calculations.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-12-05T11:31:37Z</published>
+    <arxiv:comment>submited to PRA</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>S. Borbély</name>
+    </author>
+    <author>
+      <name>K. Tőkési</name>
+    </author>
+    <author>
+      <name>L. Nagy</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.77.033412</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.77.033412" title="doi"/>
+  </entry>
+</feed>

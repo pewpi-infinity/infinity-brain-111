@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Infinity - AI-to-AI Encrypted Login</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .login-container {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            padding: 40px;
+            max-width: 450px;
+            width: 100%;
+            animation: slideIn 0.5s ease-out;
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .logo {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .logo h1 {
+            font-size: 48px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .logo p {
+            color: #666;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .encryption-badge {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 12px;
+            display: inline-block;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            color: #333;
+            font-weight: 600;
+            margin-bottom: 8px;
+            font-size: 14px;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 14px;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            background: white;
+        }
+
+        .form-group input:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+
+        .login-btn {
+            width: 100%;
+            padding: 16px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-top: 10px;
+        }
+
+        .login-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3);
+        }
+
+        .login-btn:active {
+            transform: translateY(0);
+        }
+
+        .login-btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .status-message {
+            margin-top: 15px;
+            padding: 12px;
+            border-radius: 8px;
+            font-size: 14px;
+            text-align: center;
+            display: none;
+        }
+
+        .status-message.success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+            display: block;
+        }
+
+        .status-message.error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+            display: block;
+        }
+
+        .encryption-info {
+            margin-top: 25px;
+            padding: 15px;
+            background: rgba(102, 126, 234, 0.1);
+            border-radius: 10px;
+            font-size: 13px;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .encryption-info strong {
+            color: #667eea;
+        }
+
+        .app-container {
+            display: none;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            padding: 40px;
+            max-width: 800px;
+            width: 100%;
+            animation: slideIn 0.5s ease-out;
+        }
+
+        .app-header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .app-header h2 {
+            color: #333;
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        .user-info {
+            background: rgba(102, 126, 234, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .user-info p {
+            color: #555;
+            margin-bottom: 8px;
+        }
+
+        .user-info strong {
+            color: #667eea;
+        }
+
+        .logout-btn {
+            padding: 12px 24px;
+            background: #dc3545;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .logout-btn:hover {
+            background: #c82333;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(220, 53, 69, 0.3);
+        }
+
+        @media (max-width: 480px) {
+            .login-container, .app-container {
+                padding: 30px 20px;
+            }
+
+            .logo h1 {
+                font-size: 36px;
+            }
+        }
+    </style>
+</head>
+<body>
+<!-- C14_MARIO_TOKEN_PANEL_START -->
+<style>
+.c14wrap{font-family:monospace;background:#0b0f14;color:#e6edf3;padding:14px}
+.c14card{border:1px solid #30363d;border-radius:12px;padding:14px;margin:10px 0}
+.c14value{font-size:2.2em;text-align:center;color:#ffd700;line-height:1.1}
+.c14row{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.c14pill{border:1px solid #30363d;border-radius:999px;padding:6px 10px}
+.c14btn{display:block;width:100%;padding:14px;border-radius:12px;border:1px solid #30363d;background:#111827;color:#e6edf3;font-size:1em}
+.c14note{opacity:.85;font-size:.85em;margin-top:8px}
+</style>
+<div class="c14wrap">
+  <div class="c14card">
+    <div class="c14row">
+      <div class="c14pill">🧱</div>
+      <div class="c14pill">🍄</div>
+      <div class="c14pill">⭐</div>
+    </div>
+    <div class="c14value">Token Value: 45</div>
+    <div class="c14note">Repo: Utopia • Updated: 2025-12-20 09:57:04</div>
+  </div>
+
+  <div class="c14card">
+    <div class="c14note">Pay via PayPal (email receiver). Amount is set to token value.</div>
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="get" target="_blank">
+      <input type="hidden" name="cmd" value="_xclick">
+      <input type="hidden" name="business" value="watsonkris61@gmail.com">
+      <input type="hidden" name="item_name" value="__C14_REPO__ Token 🧱🍄⭐">
+      <input type="hidden" name="amount" value="__C14_VALUE__">
+      <input type="hidden" name="currency_code" value="USD">
+      <button class="c14btn" type="submit">Pay $__C14_VALUE__ via PayPal</button>
+    </form>
+  </div>
+
+  <div class="c14card">
+    <div class="c14note">
+      Mario economy: 🧱 base • 🍄 growth • ⭐ acceleration<br>
+      (This panel is additive and does not replace your existing UI.)
+    </div>
+  </div>
+</div>
+<!-- C14_MARIO_TOKEN_PANEL_END -->
+    <!-- Login Section -->
+    <div id="loginSection" class="login-container">
+        <div class="logo">
+            <h1>∞ Infinity</h1>
+            <p>Rogers Core System</p>
+        </div>
+        
+        <div style="text-align: center;">
+            <span class="encryption-badge">🔐 AI-to-AI Encrypted</span>
+        </div>
+
+        <form id="loginForm">
+            <div class="form-group">
+                <label for="username">Username or Email</label>
+                <input type="text" id="username" name="username" required autocomplete="username">
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required autocomplete="current-password">
+            </div>
+
+            <button type="submit" class="login-btn" id="loginBtn">
+                Sign In Securely
+            </button>
+        </form>
+
+        <div id="statusMessage" class="status-message"></div>
+
+        <div class="encryption-info">
+            <strong>🛡️ Secure AI-to-AI Authentication</strong><br>
+            Your credentials are encrypted using Web Crypto API encryption. All data is stored securely in your local browser storage and synchronized across Infinity applications.
+        </div>
+    </div>
+
+    <!-- Main App Section (Hidden until authenticated) -->
+    <div id="appSection" class="app-container">
+        <div class="app-header">
+            <h2>Welcome to Infinity</h2>
+        </div>
+
+        <div class="user-info" id="userInfo">
+            <!-- User information will be populated here -->
+        </div>
+
+        <div style="text-align: center;">
+            <button class="logout-btn" onclick="logout()">Sign Out</button>
+        </div>
+    </div>
+
+    <script>
+        // AI-to-AI Encryption utility functions using Web Crypto API
+        const InfinityAuth = {
+            // Generate encryption key from password
+            generateKey: async function(password, salt) {
+                const encoder = new TextEncoder();
+                const keyMaterial = await crypto.subtle.importKey(
+                    'raw',
+                    encoder.encode(password),
+                    'PBKDF2',
+                    false,
+                    ['deriveBits', 'deriveKey']
+                );
+                return await crypto.subtle.deriveKey(
+                    {
+                        name: 'PBKDF2',
+                        salt: salt,
+                        iterations: 100000,
+                        hash: 'SHA-256'
+                    },
+                    keyMaterial,
+                    { name: 'AES-GCM', length: 256 },
+                    false,
+                    ['encrypt', 'decrypt']
+                );
+            },
+
+            // Encrypt data using AES-GCM
+            encrypt: async function(data) {
+                const jsonStr = JSON.stringify(data);
+                const encoder = new TextEncoder();
+                const dataBuffer = encoder.encode(jsonStr);
+                
+                // Generate random salt and IV
+                const salt = crypto.getRandomValues(new Uint8Array(16));
+                const iv = crypto.getRandomValues(new Uint8Array(12));
+                
+                // Use a fixed key for demo (in production, derive from user password)
+                const key = await this.generateKey('infinity-encryption-key', salt);
+                
+                // Encrypt the data
+                const encryptedBuffer = await crypto.subtle.encrypt(
+                    { name: 'AES-GCM', iv: iv },
+                    key,
+                    dataBuffer
+                );
+                
+                // Combine salt, iv, and encrypted data
+                const combined = new Uint8Array(salt.length + iv.length + encryptedBuffer.byteLength);
+                combined.set(salt, 0);
+                combined.set(iv, salt.length);
+                combined.set(new Uint8Array(encryptedBuffer), salt.length + iv.length);
+                
+                // Convert to base64 for storage
+                return btoa(String.fromCharCode.apply(null, combined));
+            },
+
+            // Decrypt data using AES-GCM
+            decrypt: async function(encryptedData) {
+                try {
+                    // Convert from base64
+                    const combined = new Uint8Array(
+                        atob(encryptedData).split('').map(c => c.charCodeAt(0))
+                    );
+                    
+                    // Extract salt, iv, and encrypted data
+                    const salt = combined.slice(0, 16);
+                    const iv = combined.slice(16, 28);
+                    const encrypted = combined.slice(28);
+                    
+                    // Derive key
+                    const key = await this.generateKey('infinity-encryption-key', salt);
+                    
+                    // Decrypt
+                    const decryptedBuffer = await crypto.subtle.decrypt(
+                        { name: 'AES-GCM', iv: iv },
+                        key,
+                        encrypted
+                    );
+                    
+                    const decoder = new TextDecoder();
+                    const jsonStr = decoder.decode(decryptedBuffer);
+                    return JSON.parse(jsonStr);
+                } catch (e) {
+                    console.error('Decryption failed:', e);
+                    return null;
+                }
+            },
+
+            // Generate cryptographically secure hash for password
+            hash: async function(str) {
+                const encoder = new TextEncoder();
+                const data = encoder.encode(str);
+                const hashBuffer = await crypto.subtle.digest('SHA-256', data);
+                const hashArray = Array.from(new Uint8Array(hashBuffer));
+                return hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+            },
+
+            // Store encrypted user data
+            storeUserData: async function(userData) {
+                const encrypted = await this.encrypt(userData);
+                localStorage.setItem('infinity_user', encrypted);
+                sessionStorage.setItem('infinity_session', encrypted);
+                // Also store unencrypted session marker for quick checks
+                sessionStorage.setItem('infinity_authenticated', 'true');
+            },
+
+            // Retrieve and decrypt user data
+            getUserData: async function() {
+                const encrypted = localStorage.getItem('infinity_user') || sessionStorage.getItem('infinity_session');
+                if (!encrypted) return null;
+                return await this.decrypt(encrypted);
+            },
+
+            // Clear user data on logout
+            clearUserData: function() {
+                localStorage.removeItem('infinity_user');
+                sessionStorage.removeItem('infinity_session');
+                sessionStorage.removeItem('infinity_authenticated');
+            },
+
+            // Check if user is authenticated
+            isAuthenticated: function() {
+                return sessionStorage.getItem('infinity_authenticated') === 'true';
+            }
+        };
+
+        // Login form handler
+        document.getElementById('loginForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            const username = document.getElementById('username').value.trim();
+            const password = document.getElementById('password').value;
+            const loginBtn = document.getElementById('loginBtn');
+            const statusMessage = document.getElementById('statusMessage');
+
+            // Disable button during processing
+            loginBtn.disabled = true;
+            loginBtn.textContent = 'Authenticating...';
+
+            // Simulate authentication delay
+            await new Promise(resolve => setTimeout(resolve, 1000));
+
+            // Password validation
+            if (!username || username.length < 3) {
+                statusMessage.className = 'status-message error';
+                statusMessage.textContent = '✗ Username must be at least 3 characters.';
+                statusMessage.style.display = 'block';
+                loginBtn.disabled = false;
+                loginBtn.textContent = 'Sign In Securely';
+                return;
+            }
+
+            if (password.length < 8) {
+                statusMessage.className = 'status-message error';
+                statusMessage.textContent = '✗ Password must be at least 8 characters.';
+                statusMessage.style.display = 'block';
+                loginBtn.disabled = false;
+                loginBtn.textContent = 'Sign In Securely';
+                return;
+            }
+
+            // Simple validation (in production, this would be server-side)
+            if (username && password) {
+                // Validate email format if it looks like an email
+                let userEmail = username;
+                if (!username.includes('@')) {
+                    // Username provided without email - create one
+                    userEmail = `${username}@infinity.local`;
+                } else {
+                    // Validate email format
+                    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                    if (!emailRegex.test(username)) {
+                        statusMessage.className = 'status-message error';
+                        statusMessage.textContent = '✗ Invalid email format.';
+                        statusMessage.style.display = 'block';
+                        loginBtn.disabled = false;
+                        loginBtn.textContent = 'Sign In Securely';
+                        return;
+                    }
+                    userEmail = username;
+                }
+
+                // Create user data object
+                const userData = {
+                    username: username,
+                    email: userEmail,
+                    passwordHash: await InfinityAuth.hash(password),
+                    loginTime: new Date().toISOString(),
+                    sessionId: crypto.randomUUID(),
+                    realm: 'Rogers Core System'
+                };
+
+                // Store encrypted user data
+                await InfinityAuth.storeUserData(userData);
+
+                // Show success message
+                statusMessage.className = 'status-message success';
+                statusMessage.textContent = '✓ Authentication successful! Redirecting...';
+                statusMessage.style.display = 'block';
+
+                // Redirect to main app
+                setTimeout(() => {
+                    showApp();
+                }, 1000);
+            }
+        });
+
+        // Show main app
+        async function showApp() {
+            const userData = await InfinityAuth.getUserData();
+            if (!userData) {
+                showLogin();
+                return;
+            }
+
+            document.getElementById('loginSection').style.display = 'none';
+            document.getElementById('appSection').style.display = 'block';
+
+            // Populate user information
+            const userInfoDiv = document.getElementById('userInfo');
+            userInfoDiv.innerHTML = `
+                <p><strong>Username:</strong> ${userData.username}</p>
+                <p><strong>Email:</strong> ${userData.email}</p>
+                <p><strong>Session ID:</strong> ${userData.sessionId}</p>
+                <p><strong>Login Time:</strong> ${new Date(userData.loginTime).toLocaleString()}</p>
+                <p><strong>Realm:</strong> ${userData.realm}</p>
+                <p style="margin-top: 15px; color: #28a745; font-weight: 600;">
+                    🔒 Your session is encrypted and secured with AI-to-AI encryption
+                </p>
+            `;
+        }
+
+        // Show login screen
+        function showLogin() {
+            document.getElementById('loginSection').style.display = 'block';
+            document.getElementById('appSection').style.display = 'none';
+        }
+
+        // Logout function
+        function logout() {
+            InfinityAuth.clearUserData();
+            showLogin();
+            
+            // Reset form
+            document.getElementById('loginForm').reset();
+            document.getElementById('statusMessage').style.display = 'none';
+            document.getElementById('loginBtn').disabled = false;
+            document.getElementById('loginBtn').textContent = 'Sign In Securely';
+        }
+
+        // Check authentication status on page load
+        window.addEventListener('DOMContentLoaded', async function() {
+            if (InfinityAuth.isAuthenticated()) {
+                const userData = await InfinityAuth.getUserData();
+                if (userData) {
+                    showApp();
+                } else {
+                    showLogin();
+                }
+            } else {
+                showLogin();
+            }
+        });
+
+        // Make InfinityAuth globally available for other apps
+        window.InfinityAuth = InfinityAuth;
+
+        // Expose user data retrieval function for other SPAs
+        window.getInfinityUser = async function() {
+            return await InfinityAuth.getUserData();
+        };
+
+        // Check if user is logged in (synchronous check for quick validation)
+        window.isInfinityAuthenticated = function() {
+            return InfinityAuth.isAuthenticated();
+        };
+    </script>
+</body>
+</html>
+<!-- C13B0_TOKEN_BLOCK -->
+<style>
+.c13b0{font-family:monospace;background:#0b0f14;color:#e6edf3;padding:16px}
+.c13b0 .value{font-size:2em;color:#ffd700}
+.c13b0 button{padding:12px;font-size:1em;width:100%;margin-top:8px}
+</style>
+
+<div class="c13b0">
+  <h2>🧱🍄⭐ Token</h2>
+  <div class="value">Value: 45</div>
+  <p>🧱 Base • 🍄 Growth • ⭐ Star Power</p>
+
+  <h3>Support / Acquire</h3>
+  <p>This token represents real work, research, and structure.</p>
+
+  <a href="https://www.paypal.com/paypalme/watsonkris61@gmail.com/45" target="_blank">
+    <button>Pay $45 via PayPal</button>
+  </a>
+
+  <p style="font-size:0.8em;">
+    PayPal recipient: watsonkris61@gmail.com<br/>
+    Repo: Utopia<br/>
+    Generated: 2025-12-20T15:41:10Z
+  </p>
+</div>
+<!-- C14_TOKEN_PANEL_START -->
+<div style="font-family:monospace;background:#0b0f14;color:#e6edf3;padding:16px;margin:16px 0">
+  <div style="font-size:2.4em;color:#ffd700;text-align:center">
+    🧱🍄⭐ Token Value: 46
+  </div>
+
+  <p style="text-align:center">
+    🧱 Base &nbsp; 🍄 Growth &nbsp; ⭐ Star Power
+  </p>
+
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="get" target="_blank">
+    <input type="hidden" name="cmd" value="_xclick">
+    <input type="hidden" name="business" value="watsonkris61@gmail.com">
+    <input type="hidden" name="item_name" value="Utopia Token">
+    <input type="hidden" name="amount" value="46">
+    <input type="hidden" name="currency_code" value="USD">
+    <button style="width:100%;padding:14px;font-size:1em">
+      Pay $46 via PayPal
+    </button>
+  </form>
+
+  <p style="font-size:0.75em;text-align:center;margin-top:10px">
+    Repository owner: pewpi-infinity<br/>
+    Contact: marvaseater@gmail.com<br/>
+    Settlement handled externally via PayPal
+  </p>
+</div>
+<!-- C14_TOKEN_PANEL_END -->

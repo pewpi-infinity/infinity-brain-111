@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+<title>Infinity Launcher — Portal • Marketplace • Socializer</title>
+<style>
+  /* Mobile-first: Clamp widths, touch sizing */
+  :root{--blue-1:#003087;--blue-2:#0b5fd7;--accent:#0b76ff;--muted:#6b7280;--bg:#ffffff;--card:#f8fafc;--glass:rgba(11,95,215,0.08);--radius:12px;font-family:Inter,"Segoe UI",Roboto,Arial,sans-serif;}
+  html,body{height:100%;margin:0;background:var(--bg);color:#0b1726;overflow-x:hidden;}
+  .wrap{max-width:100%;margin:0 auto;padding:10px;box-sizing:border-box;}
+  header{display:flex;align-items:center;justify-content:space-between;padding:12px;border-radius:var(--radius);background:linear-gradient(0deg,#fff,#fbfdff);box-shadow:0 4px 12px rgba(11,95,215,0.06);border:1px solid rgba(3,24,62,0.04);font-size:16px;}
+  .brand{display:flex;align-items:center;gap:10px;}
+  .logo{width:48px;height:48px;border-radius:8px;background:linear-gradient(135deg,var(--blue-1),var(--blue-2));display:flex;align-items:center;justify-content:center;color:white;font-weight:700;font-size:18px;box-shadow:0 4px 8px rgba(11,95,215,0.12);}
+  h1{font-size:18px;margin:0;}
+  .sub{color:var(--muted);font-size:12px;}
+  main{margin-top:16px;display:flex;flex-direction:column;gap:12px;}
+  .hubset{display:grid;grid-template-columns:1fr;gap:12px;} /* Mobile stack */
+  .card{background:var(--card);border-radius:var(--radius);padding:14px;box-shadow:0 3px 12px rgba(11,95,215,0.04);border:1px solid rgba(3,24,62,0.04);}
+  .bigbtn{display:flex;flex-direction:column;align-items:center;gap:8px;padding:16px;border-radius:var(--radius);background:white;border:1px solid rgba(3,24,62,0.06);cursor:pointer;transition:all .12s;min-height:120px;justify-content:center;text-align:center;}
+  .bigbtn:hover{transform:translateY(-3px);box-shadow:0 8px 24px rgba(11,95,215,0.08);}
+  .bigbtn .title{font-weight:700;color:var(--blue-1);font-size:16px;}
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:10px;}
+  .mini{background:linear-gradient(90deg,rgba(11,95,215,0.06),rgba(11,95,215,0.02));padding:8px;border-radius:8px;text-align:center;cursor:pointer;font-size:14px;}
+  /* Sidebar menu */
+  #sidebar{position:fixed;top:0;left:-80%;width:80%;height:100%;background:white;box-shadow:0 0 20px rgba(0,0,0,0.2);transition:left 0.3s;z-index:1000;padding:20px;overflow:auto;}
+  #sidebar.open{left:0;}
+  .menu-btn{position:fixed;top:10px;left:10px;background:var(--blue-1);color:white;padding:8px 12px;border-radius:8px;cursor:pointer;z-index:1001;}
+  .sidebar-item{margin-bottom:10px;cursor:pointer;color:var(--blue-1);font-weight:600;}
+  #chatSessions{margin-top:20px;}
+  #devMode{margin-top:10px;color:red;}
+  /* Rogers chat (equal design) */
+  .rogersBtn{position:fixed;right:16px;bottom:16px;background:linear-gradient(135deg,var(--blue-1),var(--blue-2));width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:white;font-weight:700;cursor:pointer;z-index:999;box-shadow:0 8px 24px rgba(11,95,215,0.2);font-size:24px;}
+  .chatPanel{position:fixed;right:16px;bottom:88px;width:90%;max-width:320px;border-radius:var(--radius);background:white;border:1px solid rgba(3,24,62,0.06);box-shadow:0 24px 64px rgba(3,24,62,0.12);display:none;flex-direction:column;z-index:999;overflow:hidden;}
+  .chatHeader{padding:8px 10px;background:linear-gradient(90deg,var(--blue-1),var(--blue-2));color:white;display:flex;justify-content:space-between;align-items:center;font-size:14px;}
+  .chatBody{padding:10px;height:280px;overflow:auto;background:#fbfdff;font-size:14px;}
+  .chatInput{display:flex;padding:8px;border-top:1px solid rgba(3,24,62,0.04);}
+  .chatInput input{flex:1;padding:6px;border-radius:6px;border:1px solid rgba(3,24,62,0.06);font-size:14px;}
+  /* App frames with zoom transitions */
+  .appFrame{position:fixed;inset:0;display:none;align-items:center;justify-content:center;background:rgba(2,6,23,0.45);z-index:9999;transition:opacity 0.3s;}
+  .appCard{width:95%;max-width:900px;background:white;border-radius:var(--radius);padding:14px;box-shadow:0 24px 64px rgba(3,24,62,0.3);max-height:82vh;overflow:auto;transition:transform 0.5s;}
+  .appHeader{display:flex;justify-content:space-between;align-items:center;gap:6px;font-size:16px;}
+  .closeBtn{background:transparent;border:0;font-size:18px;cursor:pointer;color:var(--muted);}
+  .twoCol{display:grid;grid-template-columns:1fr;gap:12px;margin-top:12px;} /* Mobile stack */
+  /* Vector zoom anim (Einstein portal) */
+  @keyframes vectorZoom{0%{opacity:0;transform:scale(0.5) translateX(-50%);}100%{opacity:1;transform:scale(1) translateX(0);}}
+  .appCard{animation:vectorZoom 0.5s ease;}
+  /* Mario token anim */
+  @keyframes marioJump{0%{transform:translateY(0);}50%{transform:translateY(-20px);}100%{transform:translateY(0);}}
+  .tokenNum{animation:marioJump 1s infinite;}
+  /* Forms/buttons touch-friendly */
+  .formRow{display:flex;flex-direction:column;gap:4px;margin-bottom:6px;}
+  label{font-size:12px;color:var(--muted);}
+  input,select,textarea{padding:8px;border-radius:6px;border:1px solid rgba(3,24,62,0.06);font-size:14px;min-height:40px;} /* Touch size */
+  button.primary{background:var(--blue-1);color:white;padding:8px 10px;border-radius:6px;border:0;cursor:pointer;min-width:100px;}
+  .muted{color:var(--muted);font-size:12px;}
+  footer{margin-top:16px;padding:10px;border-radius:8px;background:linear-gradient(0deg,#fff,#fbfdff);display:flex;flex-direction:column;align-items:center;border:1px solid rgba(3,24,62,0.04);font-size:12px;text-align:center;}
+  .legal{color:var(--muted);line-height:1.15;}
+  @media(min-width:768px){.hubset{grid-template-columns:repeat(3,1fr);}.twoCol{grid-template-columns:1fr 320px;}}
+</style>
+<script src="https://accounts.google.com/gsi/client" async defer></script>
+</head>
+<body>
+<div class="menu-btn" onclick="toggleSidebar()">☰</div>
+<div id="sidebar">
+  <div class="sidebar-item" onclick="openApp('portalHub')">Portal</div>
+  <div class="sidebar-item" onclick="openApp('marketHub')">Marketplace</div>
+  <div class="sidebar-item" onclick="openApp('socialHub')">Socializer</div>
+  <div class="sidebar-item" onclick="openApp('imageHost')">Image Hosting</div>
+  <div class="sidebar-item" onclick="openApp('videoHost')">Video Hosting</div>
+  <div class="sidebar-item" onclick="openApp('messenger')">Messenger</div>
+  <div class="sidebar-item" onclick="openApp('spaces')">Spaces (Zagonel/Mazes)</div>
+  <div class="sidebar-item" onclick="openApp('radioClub')">Radio Clubhouse</div>
+  <div class="sidebar-item" onclick="openApp('socialMedia')">Social Media Site</div>
+  <div class="sidebar-item" onclick="openApp('tvRadio')">TV/Radio App</div>
+  <div class="sidebar-item" onclick="openApp('scanner')">Bearcat Scanner</div>
+  <div class="sidebar-item" onclick="openApp('maps')">Custom Maps</div>
+  <div class="sidebar-item" onclick="openApp('brainWave')">Brain Wave Tech</div>
+  <div class="sidebar-item" onclick="openApp('coinAuth')">Coin Auth</div>
+  <div class="sidebar-item" onclick="openApp('jewelry')">Jewelry Design</div>
+  <div class="sidebar-item" onclick="openApp('earthProp')">Rare Earth Propagator</div>
+  <div class="sidebar-item" onclick="openApp('treeAnalyzer')">Tree Analyzer</div>
+  <div class="sidebar-item" onclick="openApp('warRoom')">NWO War Room</div>
+  <div class="sidebar-item" onclick="openApp('govButton')">Gov 501 Button</div>
+  <div class="sidebar-item" onclick="openApp('dreamCatcher')">Dream Catcher</div>
+  <div id="chatSessions"><strong>Stored Sessions</strong><ul id="sessionList"></ul></div>
+  <div id="devMode" class="sidebar-item" onclick="toggleDev()">Dev Mode (Logs)</div>
+  <div id="devLogs" style="display:none;color:red;">Backend logs here...</div>
+</div>
+
+<div class="wrap">
+  <header>
+    <div class="brand">
+      <div class="logo">I</div>
+      <div>
+        <h1>Infinity Launcher</h1>
+        <div class="sub">Portal · Marketplace · Socializer — Powered by Infinity</div>
+      </div>
+    </div>
+    <div id="authStatus" class="sub muted">Sign in for full access</div>
+  </header>
+
+  <main>
+    <!-- Google Sign-In Button -->
+    <div id="g_id_onload" data-client_id="16937806382-leqbaginj3igrhei58nsab7tb4hsb7435.apps.googleusercontent.com" data-callback="handleCredentialResponse"></div>
+    <button class="primary" onclick="googleSignIn()">Sign in with Google</button>
+
+    <!-- Hubs with AI interfaces -->
+    <section class="hubset">
+      <div class="card">
+        <div class="bigbtn" onclick="openAppWithAnim('portalHub')">
+          <div style="font-size:24px;color:var(--blue-1)">Portal</div>
+          <div class="title">Day-to-day apps</div>
+          <div class="muted">Calc, Alarm, Bible, Pets, Therapy, Garden</div>
+        </div>
+      </div>
+      <!-- Similar for others, truncated for brevity -->
+    </section>
+  </main>
+
+  <footer>
+    <div class="legal">Powered by Infinity — All prototypes token-ready.<br/><small>Chat design credits. Email: infinitystockinvesting@gmail.com</small></div>
+  </footer>
+</div>
+
+<!-- App Frames (example for PortalHub, others similar) -->
+<div id="portalHub" class="appFrame">
+  <div class="appCard">
+    <!-- Content as before, with Rogers chat integration -->
+    <div class="rogersBtn" onclick="toggleRogers()">R</div>
+    <div class="chatPanel" id="rogersChat">
+      <div class="chatHeader">Rogers AI <button class="closeBtn" onclick="toggleRogers()">✕</button></div>
+      <div class="chatBody">Hey Kris, steering your build? Idea: Add hydrogen cloud link here.</div>
+      <div class="chatInput"><input id="chatIn" placeholder="Ask Rogers..." onkeypress="if(event.keyCode==13)sendChat()"/></div>
+    </div>
+    <!-- ... app content ... -->
+  </div>
+</div>
+
+<script>
+  // Google Auth
+  function googleSignIn(){gapi.auth2.init({client_id:'16937806382-leqbaginj3igrhei58nsab7tb4hsb7435.apps.googleusercontent.com'}).then(()=>gapi.auth2.getAuthInstance().signIn());}
+  function handleCredentialResponse(response){localStorage.setItem('authToken',response.credential);document.getElementById('authStatus').textContent='Logged in as '+response.email; /* Gate apps */ }
+  // Sidebar
+  function toggleSidebar(){document.getElementById('sidebar').classList.toggle('open');}
+  // App open with vector zoom
+  function openAppWithAnim(id){const frame=document.getElementById(id);frame.style.display='flex';frame.style.opacity=1; /* Mario anim on tokens */ document.querySelectorAll('.tokenNum').forEach(el=>el.style.animation='marioJump 1s infinite');}
+  function closeApp(id){document.getElementById(id).style.display='none';}
+  function hideIfBackdrop(e,id){if(e.target.id===id)closeApp(id);}
+  // Rogers chat toggle
+  function toggleRogers(){document.getElementById('rogersChat').style.display=document.getElementById('rogersChat').style.display==='flex'?'none':'flex';}
+  function sendChat(){const inp=document.getElementById('chatIn').value; /* AI logic here, e.g. fetch backend */ alert('Rogers: Building '+inp); addSession(inp);}
+  // Chat sessions storage
+  function addSession(msg){const li=document.createElement('li');li.textContent=msg;document.getElementById('sessionList').appendChild(li);localStorage.setItem('sessions',JSON.stringify([...JSON.parse(localStorage.getItem('sessions')||'[]'),msg]));}
+  // Dev mode
+  function toggleDev(){document.getElementById('devLogs').style.display=document.getElementById('devLogs').style.display==='block'?'none':'block';}
+  // Load sessions
+  const sessions=JSON.parse(localStorage.getItem('sessions')||'[]');sessions.forEach(addSession);
+</script>
+</body>
+</html>

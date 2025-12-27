@@ -1,0 +1,83 @@
+TERMS: frequency, lattice, bandgap
+COLORS: green, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api//uIVrEPgYH5/JdfCpgNZy3pWYAg</id>
+  <title>arXiv Query: search_query=all:frequency AND all:lattice AND all:bandgap&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:09:47Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:lattice+AND+all:bandgap)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>95</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2308.00616v3</id>
+    <title>The role of frequency and impedance contrasts in bandgap closing and formation patterns of axially-vibrating phononic crystals</title>
+    <updated>2023-10-12T20:39:15Z</updated>
+    <link href="https://arxiv.org/abs/2308.00616v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.00616v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Bandgaps, or frequency ranges of forbidden wave propagation, are a hallmark of Phononic Crystals (PnCs). Unlike their lattice counterparts, PnCs taking the form of continuous structures exhibit an infinite number of bandgaps of varying location, bandwidth, and distribution along the frequency spectrum. While these bandgaps are commonly predicted from benchmark tools such as the Bloch-wave theory, the conditions that dictate the patterns associated with bandgap symmetry, attenuation, or even closing in multi-bandgap PnCs remain an enigma. In this work, we establish these patterns in one-dimensional rods undergoing longitudinal motion via a canonical transfer-matrix-based approach. In doing so, we connect the conditions governing bandgap formation and closing to their physical origins in the context of the Bragg condition (for infinite media) and natural resonances (for finite counterparts). The developed framework uniquely characterizes individual bandgaps within a larger dispersion spectrum regardless of their parity (i.e., odd vs even bandgaps) or location (low vs high-frequency), by exploiting dimensionless constants of the PnC unit cell which quantify the different contrasts between its constitutive layers. These developments are detailed for a bi-layered PnC and then generalized for a PnC of any number of layers by increasing the model complexity. We envision this mathematical development to be a future standard for the realization of hierarchically-structured PnCs with prescribed and finely tailored bandgap profiles.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-07-13T21:33:41Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Hasan B. Al Ba'ba'a</name>
+    </author>
+    <author>
+      <name>Mostafa Nouh</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2011.00167v2</id>
+    <title>Prestrain-induced bandgap tuning in 3D-printed tensegrity-inspired lattice structures</title>
+    <updated>2021-03-10T12:51:19Z</updated>
+    <link href="https://arxiv.org/abs/2011.00167v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2011.00167v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this letter, we provide experimental evidence of bandgap tunability with global prestrain in additively-manufactured tensegrity-inspired lattice structures. These lattices are extremely lightweight and designed to exhibit a nonlinear compressive response that mimics that of a tensegrity structure. We fabricate them out of a stiff polymer but, owing to their peculiar design, they are compliant and remain elastic up to high levels of precompression. In turn, unlike tunable metamaterials made of soft polymers, the response of our lattices is not dominated by damping. We perform experiments on a one-dimensional lattice subject to longitudinal wave excitation and varying levels of static longitudinal precompression, and observe continuous tuning of both the wave speed and the location and width of the lowest-frequency bandgap.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-10-31T02:09:44Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>Extreme Mechanics Letters 44, 101236 (2021)</arxiv:journal_ref>
+    <author>
+      <name>Kirsti Pajunen</name>
+    </author>
+    <author>
+      <name>Paolo Celli</name>
+    </author>
+    <author>
+      <name>Chiara Daraio</name>
+    </author>
+    <arxiv:doi>10.1016/j.eml.2021.101236</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.eml.2021.101236" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1612.03130v1</id>
+    <title>A General Theory for Bandgap Estimation in Locally Resonant Metastructures</title>
+    <updated>2016-12-09T18:57:56Z</updated>
+    <link href="https://arxiv.org/abs/1612.03130v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1612.03130v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Locally resonant metamaterials are characterized by bandgaps at wavelengths that are much larger than the lattice size, enabling low-frequency vibration attenuation. Typically, bandgap analyses and predictions rely on the assumption of traveling waves in an infinite medium, and do not take advantage of modal representations typically used for the analysis of the dynamic behavior of finite structures. Recently, we developed a method for understanding the locally resonant bandgap in uniform finite metamaterial beams using modal analysis. Here we extend that framework to general locally resonant metastructures with specified boundary conditions using a general operator formulation. Using this approach, along with the assumption of an infinite number of resonators tuned to the same frequency, the frequency range of the locally resonant bandgap is easily derived in closed form. Furthermore, the bandgap expression is shown to be the same regardless of the type of vibration problem under consideration, depending only on the added mass ratio and target frequency. It is shown that the number of resonators required for the bandgap to appear increases with the target frequency range, i.e. respective modal neighborhood. Furthermore, it is observed that there is an optimal, finite number of resonators which gives a bandgap that is wider than the infinite-absorber bandgap, and that the optimal number of resonators increases with target frequency and added mass ratio. As the number of resonators becomes sufficiently large, the bandgap converges to the derived infinite-absorber bandgap. The derived bandgap edge frequencies are shown to agree with results from dispersion analysis using the plane wave expansion method. Numerical and experimental investigations are performed regarding the effects of mass ratio, non-uniform spacing of resonators, and parameter variations among the resonators.</summary>
+    <category term="physics.class-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-12-09T18:57:56Z</published>
+    <arxiv:primary_category term="physics.class-ph"/>
+    <author>
+      <name>C. Sugino</name>
+    </author>
+    <author>
+      <name>Y. Xia</name>
+    </author>
+    <author>
+      <name>S. Leadenham</name>
+    </author>
+    <author>
+      <name>M. Ruzzene</name>
+    </author>
+    <author>
+      <name>A. Erturk</name>
+    </author>
+    <arxiv:doi>10.1016/j.jsv.2017.06.004</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.jsv.2017.06.004" title="doi"/>
+  </entry>
+</feed>

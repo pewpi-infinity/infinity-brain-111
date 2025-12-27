@@ -1,0 +1,12 @@
+[
+  {
+    "id": "energy_surge",
+    "when": { "office": "Energy & Infrastructure", "metric": "openTickets", "operator": ">", "value": 10 },
+    "then": { "action": "notify", "target": "Vice President – Rogers AI", "message": "Energy department has over 10 open tickets" }
+  },
+  {
+    "id": "education_growth",
+    "when": { "office": "Education & Research", "metric": "projects", "operator": "length>", "value": 5 },
+    "then": { "action": "praise", "target": "Education & Research", "message": "Great progress in education projects!" }
+  }
+]

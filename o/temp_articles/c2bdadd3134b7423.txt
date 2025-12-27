@@ -1,0 +1,103 @@
+TERMS: hydrogen, crystal, spin, resonance
+COLORS: purple, orange, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/KoN4/DZDAR0hKp4o/gNN+o8/Beg</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:crystal AND all:spin AND all:resonance&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T02:00:18Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:crystal+AND+(all:spin+AND+all:resonance))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>9</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1608.00836v1</id>
+    <title>RESPECT: Neutron Resonance Spin-Echo Spectrometer for Extreme Studies</title>
+    <updated>2016-08-02T14:26:36Z</updated>
+    <link href="https://arxiv.org/abs/1608.00836v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1608.00836v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose the design of a Resonance SPin-echo spECtrometer for exTreme studies, RESPECT, that is ideally suited for the exploration of non-dispersive processes such as diffusion, crystallization, slow dynamics, tunneling processes, crystal electric field excitations, and spin fluctuations. It is a variant of the conventional neutron spin-echo technique (NSE) by i) replacing the long precession coils by pairs of longitudinal neutron spin-echo coils combined with RF-spin flippers and ii) by stabilizing the neutron polarization with small longitudinal guide fields that can in addition be used as field subtraction coils thus allowing to adjust the field integrals over a range of 8 orders of magnitude. Therefore, the dynamic range of RESPECT can in principle be varied over 8 orders of magnitude in time, if neutrons with the required energy are made available. Similarly as for existing NSE-spectrometers, spin echo times of up to approximately 1 microsecond can be reached if the divergence and the correction elements are properly adjusted. Thanks to the optional use of neutron guides and the fact that the currents for the correction coils are much smaller than in standard NSE, intensity gains of at least one order of magnitude are expected , making the concept of RESPECT also competitive for operation at medium flux neutron sources. RESPECT can also be operated in a MIEZE configuration allowing the investigation of relaxation processes in depolarizing environments as they occur when magnetic fields are applied at the sample position, i.e. for the investigation of the dynamics of flux lines in superconductors, magnetic fluctuations in ferromagnetic materials, and samples containing hydrogen.</summary>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-08-02T14:26:36Z</published>
+    <arxiv:comment>14 pages, 22 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.ins-det"/>
+    <author>
+      <name>Robert Georgii</name>
+    </author>
+    <author>
+      <name>Jonas Kindervater</name>
+    </author>
+    <author>
+      <name>Christian Pfleiderer</name>
+    </author>
+    <author>
+      <name>Peter Böni</name>
+    </author>
+    <arxiv:doi>10.1016/j.nima.2016.08.004</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.nima.2016.08.004" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1507.07714v2</id>
+    <title>Topological features of hydrogenated graphene</title>
+    <updated>2015-07-30T15:59:24Z</updated>
+    <link href="https://arxiv.org/abs/1507.07714v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1507.07714v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Hydrogen adatoms are one of the most the promising proposals for the functionalization of graphene. Hydrogen induces narrow resonances near the Dirac energy, which lead to the formation of magnetic moments. Furthermore, they also create local lattice distortions which enhance the spin-orbit coupling. The combination of magnetism and spin-orbit coupling allows for a rich variety of phases, some of which have non trivial topological features. We analyze the interplay between magnetism and spin-orbit coupling in ordered arrays of hydrogen on graphene monolayers, and classify the different phases that may arise. We extend our model to consider arrays of adsorbates in graphene-like crystals with stronger intrinsic spin-orbit couplings.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-07-28T10:31:30Z</published>
+    <arxiv:comment>6 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Physica B: Condensed Matter 496 (2016): 1-8</arxiv:journal_ref>
+    <author>
+      <name>Luis A. González-Árraga</name>
+    </author>
+    <author>
+      <name>J. L. Lado</name>
+    </author>
+    <author>
+      <name>F. Guinea</name>
+    </author>
+    <arxiv:doi>10.1016/j.physb.2016.05.006</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physb.2016.05.006" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2311.18624v1</id>
+    <title>Detecting nitrogen-vacancy-hydrogen centers on the nanoscale using nitrogen-vacancy centers in diamond</title>
+    <updated>2023-11-30T15:30:36Z</updated>
+    <link href="https://arxiv.org/abs/2311.18624v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.18624v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In diamond, nitrogen defects like the substitutional nitrogen defect (Ns) or the nitrogen-vacancy-hydrogen complex (NVH) outnumber the nitrogen vacancy (NV) defect by at least one order of magnitude creating a dense spin bath. While neutral Ns has an impact on the coherence of the NV spin state, the atomic structure of NVH reminds of a NV center decorated with a hydrogen atom. As a consequence, the formation of NVH centers could compete with that of NV centers possibly lowering the N-to-NV conversion efficiency in diamond grown with hydrogen-plasma-assisted chemical vapor deposition (CVD). Therefore, monitoring and controlling the spin bath is essential to produce and understand engineered diamond material with high NV concentrations for quantum applications. While the incorporation of Ns in diamond has been investigated on the nano- and mesoscale for years, studies concerning the influence of CVD parameters and the crystal orientation on the NVH formation have been restricted to bulk N-doped diamond providing high-enough spin numbers for electron paramagnetic resonance and optical absorption spectroscopy techniques. Here, we investigate sub-micron-thick (100)-diamond layers with nitrogen contents of (13.8 +- 1.6) ppm and (16.7 +- 3.6) ppm, and exploiting the NV centers in the layers as local nano-sensors, we demonstrate the detection of NVH- centers using double-electron-electron-resonance (DEER). To determine the NVH- densities, we quantitatively fit the hyperfine structure of NVH- and confirm the results with the DEER method usually used for determining Ns0 densities. With our experiments, we access the spin bath composition on the nanoscale and enable a fast feedback-loop in CVD recipe optimization with thin diamond layers instead of resource- and time-intensive bulk crystals.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-30T15:30:36Z</published>
+    <arxiv:comment>7 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Christoph Findler</name>
+      <arxiv:affiliation>Institute for Quantum Optics, Ulm University, Germany</arxiv:affiliation>
+      <arxiv:affiliation>Diatope GmbH, Ummendorf, Germany</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Rémi Blinder</name>
+      <arxiv:affiliation>Institute for Quantum Optics, Ulm University, Germany</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Karolina Schüle</name>
+      <arxiv:affiliation>Institute for Quantum Optics, Ulm University, Germany</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Priyadharshini Balasubramanian</name>
+      <arxiv:affiliation>Institute for Quantum Optics, Ulm University, Germany</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Christian Osterkamp</name>
+      <arxiv:affiliation>Institute for Quantum Optics, Ulm University, Germany</arxiv:affiliation>
+      <arxiv:affiliation>Diatope GmbH, Ummendorf, Germany</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Fedor Jelezko</name>
+      <arxiv:affiliation>Institute for Quantum Optics, Ulm University, Germany</arxiv:affiliation>
+    </author>
+  </entry>
+</feed>

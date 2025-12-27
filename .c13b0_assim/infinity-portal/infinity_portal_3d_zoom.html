@@ -1,0 +1,693 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+<title>Infinity Portal — 3D Zoom Navigation</title>
+<meta name="color-scheme" content="light">
+<style>
+  :root{
+    --blue-1:#003087;
+    --blue-2:#0b5fd7;
+    --purple:#7c3aed;
+    --green:#10b981;
+    --bg:#ffffff;
+    --muted:#657080;
+    --radius:12px;
+    --panel:#f8fafc;
+    font-family:system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  }
+  html,body{height:100%;margin:0;background:var(--bg);color:#051426; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; overflow:hidden;}
+  .app{max-width:100vw;height:100vh;margin:0;padding:0;position:relative;}
+  
+  /* Header */
+  header{position:absolute;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:12px 20px;background:linear-gradient(180deg,rgba(255,255,255,0.95),rgba(255,255,255,0.8));backdrop-filter:blur(10px);border-bottom:1px solid rgba(3,24,62,0.08)}
+  .logoText{font-weight:700;color:var(--blue-1);font-size:18px}
+  .sub{font-size:11px;color:var(--muted)}
+  .controls{display:flex;gap:10px;align-items:center}
+  .iconBtn{width:40px;height:40px;border-radius:10px;display:flex;align-items:center;justify-content:center;background:transparent;border:1px solid rgba(3,24,62,0.1);cursor:pointer;transition:all .2s}
+  .iconBtn:hover{background:rgba(11,95,215,0.05);border-color:var(--blue-2)}
+  
+  /* 3D Stage */
+  .stage{position:absolute;inset:60px 0 0 0;perspective:1200px;background:linear-gradient(180deg,#f0f9ff, #e0f2fe)}
+  #space{position:absolute;inset:0;transform-style:preserve-3d;transition:transform 0.8s cubic-bezier(0.2,0.9,0.3,1)}
+  
+  /* Hydrogen cloud canvas */
+  #hydroCanvas{position:absolute;inset:0;width:100%;height:100%;pointer-events:none}
+  
+  /* Baseball diamond grid */
+  .diamond-container{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;transform-style:preserve-3d}
+  .diamond{width:80%;max-width:700px;height:80%;max-height:600px;position:relative;transform-style:preserve-3d}
+  
+  /* Baseball positions as portals */
+  .portal{position:absolute;width:120px;height:120px;border-radius:20px;background:linear-gradient(135deg,rgba(255,255,255,0.95),rgba(255,255,255,0.85));border:2px solid rgba(11,95,215,0.2);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;box-shadow:0 10px 40px rgba(11,95,215,0.15);cursor:pointer;transition:all .3s;transform-style:preserve-3d}
+  .portal:hover{transform:translateZ(20px) scale(1.05);box-shadow:0 15px 50px rgba(11,95,215,0.25);border-color:var(--blue-2)}
+  .portal.active{background:linear-gradient(135deg,rgba(96,165,250,0.2),rgba(124,58,237,0.2));border-color:var(--purple);box-shadow:0 20px 60px rgba(124,58,237,0.3)}
+  .portal .icon{font-size:32px;line-height:1}
+  .portal .title{font-weight:700;color:var(--blue-1);font-size:14px}
+  .portal .depth{font-size:11px;color:var(--muted)}
+  
+  /* Diamond positions - batter's perspective */
+  .home-plate{left:50%;top:75%;transform:translate(-50%,-50%)}
+  .first-base{left:80%;top:50%;transform:translate(-50%,-50%)}
+  .second-base{left:50%;top:15%;transform:translate(-50%,-50%)}
+  .third-base{left:20%;top:50%;transform:translate(-50%,-50%)}
+  .pitcher{left:50%;top:45%;transform:translate(-50%,-50%)}
+  
+  /* Additional vector positions */
+  .outfield-left{left:25%;top:20%;transform:translate(-50%,-50%)}
+  .outfield-center{left:50%;top:8%;transform:translate(-50%,-50%)}
+  .outfield-right{left:75%;top:20%;transform:translate(-50%,-50%)}
+  
+  /* Zoom controls */
+  .zoom-controls{position:absolute;right:20px;top:50%;transform:translateY(-50%);z-index:90;display:flex;flex-direction:column;gap:12px}
+  .zoom-btn{width:56px;height:56px;border-radius:14px;background:rgba(255,255,255,0.95);border:1px solid rgba(3,24,62,0.1);display:flex;align-items:center;justify-content:center;font-size:24px;cursor:pointer;box-shadow:0 8px 24px rgba(3,24,62,0.1);transition:all .2s;backdrop-filter:blur(10px)}
+  .zoom-btn:hover{background:rgba(11,95,215,0.1);border-color:var(--blue-2);transform:scale(1.05)}
+  .zoom-btn:active{transform:scale(0.95)}
+  
+  /* Direction pad */
+  .direction-pad{position:absolute;bottom:20px;left:50%;transform:translateX(-50%);z-index:90;display:grid;grid-template-columns:repeat(3,60px);grid-template-rows:repeat(3,60px);gap:8px}
+  .dir-btn{border-radius:12px;background:rgba(255,255,255,0.95);border:1px solid rgba(3,24,62,0.1);display:flex;align-items:center;justify-content:center;font-size:20px;cursor:pointer;box-shadow:0 6px 20px rgba(3,24,62,0.1);transition:all .2s;backdrop-filter:blur(10px)}
+  .dir-btn:hover{background:rgba(11,95,215,0.1);border-color:var(--blue-2)}
+  .dir-btn:active{transform:scale(0.9)}
+  .dir-up{grid-column:2;grid-row:1}
+  .dir-down{grid-column:2;grid-row:3}
+  .dir-left{grid-column:1;grid-row:2}
+  .dir-right{grid-column:3;grid-row:2}
+  .dir-center{grid-column:2;grid-row:2;background:linear-gradient(135deg,var(--blue-1),var(--blue-2));color:white;font-weight:700;font-size:14px}
+  
+  /* HUD */
+  .hud{position:absolute;top:80px;left:20px;z-index:90;background:rgba(255,255,255,0.95);backdrop-filter:blur(10px);padding:16px;border-radius:14px;border:1px solid rgba(3,24,62,0.1);box-shadow:0 8px 24px rgba(3,24,62,0.1);min-width:200px}
+  .hud-row{display:flex;justify-content:space-between;align-items:center;gap:20px;margin-bottom:8px}
+  .hud-row:last-child{margin-bottom:0}
+  .hud-label{font-size:13px;color:var(--muted);font-weight:600}
+  .hud-value{font-size:16px;font-weight:700;color:var(--blue-1)}
+  .energy-bar{width:100%;height:8px;background:rgba(11,95,215,0.1);border-radius:999px;overflow:hidden;margin-top:4px}
+  .energy-fill{height:100%;background:linear-gradient(90deg,var(--blue-2),var(--purple));border-radius:999px;transition:width .3s}
+  
+  /* Portal discovery overlay */
+  .portal-overlay{position:fixed;inset:0;background:rgba(0,0,0,0.8);backdrop-filter:blur(20px);z-index:200;display:none;align-items:center;justify-content:center}
+  .portal-overlay.active{display:flex;animation:fadeIn 0.5s}
+  @keyframes fadeIn{from{opacity:0} to{opacity:1}}
+  .portal-content{background:white;border-radius:20px;padding:40px;max-width:500px;text-align:center;box-shadow:0 30px 80px rgba(0,0,0,0.3)}
+  .portal-title{font-size:32px;font-weight:900;color:var(--blue-1);margin-bottom:12px}
+  .portal-desc{font-size:16px;color:var(--muted);margin-bottom:24px}
+  .portal-btn{background:linear-gradient(90deg,var(--blue-1),var(--blue-2));color:white;border:0;padding:14px 32px;border-radius:12px;font-weight:700;font-size:16px;cursor:pointer;transition:all .2s}
+  .portal-btn:hover{transform:scale(1.05);box-shadow:0 10px 30px rgba(11,95,215,0.3)}
+  
+  /* Depth indicator */
+  .depth-indicator{position:absolute;top:80px;right:20px;z-index:90;background:rgba(255,255,255,0.95);backdrop-filter:blur(10px);padding:12px;border-radius:14px;border:1px solid rgba(3,24,62,0.1);box-shadow:0 8px 24px rgba(3,24,62,0.1);min-width:150px}
+  .depth-meter{width:100%;height:120px;background:rgba(11,95,215,0.05);border-radius:8px;position:relative;overflow:hidden;margin-top:8px}
+  .depth-level{position:absolute;bottom:0;left:0;right:0;background:linear-gradient(0deg,var(--green),var(--blue-2));transition:height .5s}
+  .depth-label{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-weight:700;color:var(--blue-1);font-size:14px}
+  
+  /* Responsive */
+  @media (max-width:600px){
+    .portal{width:90px;height:90px}
+    .portal .icon{font-size:24px}
+    .portal .title{font-size:12px}
+    .zoom-btn{width:48px;height:48px;font-size:20px}
+    .direction-pad{grid-template-columns:repeat(3,50px);grid-template-rows:repeat(3,50px)}
+    .hud{left:10px;top:70px;padding:12px;min-width:160px}
+    .depth-indicator{right:10px;top:70px;min-width:120px}
+  }
+</style>
+</head>
+<body>
+<div class="app">
+  <header>
+    <div style="display:flex;gap:12px;align-items:center">
+      <div>
+        <div class="logoText">∞ INFINITY PORTAL</div>
+        <div class="sub">3D Zoom Navigation • Einstein's Perspective</div>
+      </div>
+    </div>
+    <div class="controls">
+      <div style="font-size:12px;color:var(--muted)">Energy: <span id="energyCount" style="font-weight:700;color:var(--blue-1)">0</span></div>
+      <button class="iconBtn" id="helpBtn" title="Help">?</button>
+    </div>
+  </header>
+
+  <!-- HUD -->
+  <div class="hud">
+    <div class="hud-row">
+      <span class="hud-label">Position</span>
+      <span class="hud-value" id="positionDisplay">Center</span>
+    </div>
+    <div class="hud-row">
+      <span class="hud-label">Energy</span>
+      <span class="hud-value" id="energyDisplay">0</span>
+    </div>
+    <div style="margin-top:8px">
+      <div class="energy-bar">
+        <div class="energy-fill" id="energyBar" style="width:0%"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Depth Indicator -->
+  <div class="depth-indicator">
+    <div style="font-size:12px;color:var(--muted);font-weight:600">Zoom Depth</div>
+    <div class="depth-meter">
+      <div class="depth-level" id="depthLevel" style="height:0%"></div>
+      <div class="depth-label" id="depthLabel">0%</div>
+    </div>
+  </div>
+
+  <!-- 3D Stage -->
+  <div class="stage">
+    <canvas id="hydroCanvas"></canvas>
+    <div id="space">
+      <div class="diamond-container">
+        <div class="diamond">
+          <!-- Baseball diamond positions as portals -->
+          <div class="portal home-plate" data-direction="home" data-portal="portal">
+            <div class="icon">🏠</div>
+            <div class="title">HOME</div>
+            <div class="depth">Portal Hub</div>
+          </div>
+          
+          <div class="portal first-base" data-direction="right" data-portal="market">
+            <div class="icon">🌟</div>
+            <div class="title">FIRST</div>
+            <div class="depth">Market →</div>
+          </div>
+          
+          <div class="portal second-base" data-direction="forward" data-portal="infinity">
+            <div class="icon">♾️</div>
+            <div class="title">SECOND</div>
+            <div class="depth">Infinity ↑</div>
+          </div>
+          
+          <div class="portal third-base" data-direction="left" data-portal="social">
+            <div class="icon">👥</div>
+            <div class="title">THIRD</div>
+            <div class="depth">Social ←</div>
+          </div>
+          
+          <div class="portal pitcher" data-direction="center" data-portal="einstein">
+            <div class="icon">🧠</div>
+            <div class="title">PITCHER</div>
+            <div class="depth">Einstein</div>
+          </div>
+          
+          <!-- Outfield positions for extra vectors -->
+          <div class="portal outfield-left" data-direction="forward-left" data-portal="archive">
+            <div class="icon">📚</div>
+            <div class="title">LEFT FIELD</div>
+            <div class="depth">Archive</div>
+          </div>
+          
+          <div class="portal outfield-center" data-direction="deep-forward" data-portal="hydrogen">
+            <div class="icon">⚛️</div>
+            <div class="title">CENTER</div>
+            <div class="depth">H-Cloud</div>
+          </div>
+          
+          <div class="portal outfield-right" data-direction="forward-right" data-portal="quantum">
+            <div class="icon">🔮</div>
+            <div class="title">RIGHT FIELD</div>
+            <div class="depth">Quantum</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Zoom Controls -->
+  <div class="zoom-controls">
+    <div class="zoom-btn" id="zoomIn" title="Zoom In">+</div>
+    <div class="zoom-btn" id="zoomReset" title="Reset">⊙</div>
+    <div class="zoom-btn" id="zoomOut" title="Zoom Out">−</div>
+  </div>
+
+  <!-- Direction Pad -->
+  <div class="direction-pad">
+    <div class="dir-btn dir-up" id="dirUp">↑</div>
+    <div class="dir-btn dir-left" id="dirLeft">←</div>
+    <div class="dir-btn dir-center" id="dirCenter">⊙</div>
+    <div class="dir-btn dir-right" id="dirRight">→</div>
+    <div class="dir-btn dir-down" id="dirDown">↓</div>
+  </div>
+
+  <!-- Portal Discovery Overlay -->
+  <div class="portal-overlay" id="portalOverlay">
+    <div class="portal-content">
+      <div class="portal-title" id="portalTitle">Portal Discovered!</div>
+      <div class="portal-desc" id="portalDesc">You've zoomed deep enough to unlock a new realm...</div>
+      <button class="portal-btn" id="enterPortal">Enter New World</button>
+      <button class="portal-btn" id="closePortal" style="background:transparent;color:var(--blue-1);border:1px solid rgba(3,24,62,0.2);margin-left:12px">Return</button>
+    </div>
+  </div>
+</div>
+
+<script>
+// ===========================
+// Infinity Portal 3D Zoom System
+// Baseball Diamond Navigation
+// ===========================
+
+const STORAGE = window.localStorage || {
+  data: {},
+  getItem(key) { return this.data[key] || null; },
+  setItem(key, value) { this.data[key] = value; },
+  removeItem(key) { delete this.data[key]; },
+  clear() { this.data = {}; }
+};
+
+// State
+let energy = Number(STORAGE.getItem('INFINITY_ENERGY') || 0);
+let zoomLevel = 1;
+let translateX = 0;
+let translateY = 0;
+let translateZ = 0;
+let currentDirection = 'center';
+let depthPercentage = 0;
+
+// Constants
+const ZOOM_STEP = 0.2;
+const ZOOM_MIN = 0.3;
+const ZOOM_MAX = 3.0;
+const TRANSLATE_STEP = 50;
+const PORTAL_THRESHOLD = 2.5; // Zoom level to trigger portal discovery
+
+// Portal definitions
+const PORTALS = {
+  portal: { name: 'Portal Hub', icon: '🏠', desc: 'Your central command center' },
+  market: { name: 'Marketplace', icon: '🌟', desc: 'Trade and discover new items' },
+  infinity: { name: 'Infinity Realm', icon: '♾️', desc: 'Explore the infinite possibilities' },
+  social: { name: 'Social Space', icon: '👥', desc: 'Connect with the community' },
+  einstein: { name: 'Einstein Lab', icon: '🧠', desc: 'Build and experiment' },
+  archive: { name: 'Knowledge Archive', icon: '📚', desc: 'Historical records and wisdom' },
+  hydrogen: { name: 'Hydrogen Cloud', icon: '⚛️', desc: 'Energy collection zone' },
+  quantum: { name: 'Quantum Field', icon: '🔮', desc: 'Advanced physics playground' }
+};
+
+// Elements
+const space = document.getElementById('space');
+const energyCount = document.getElementById('energyCount');
+const energyDisplay = document.getElementById('energyDisplay');
+const energyBar = document.getElementById('energyBar');
+const positionDisplay = document.getElementById('positionDisplay');
+const depthLevel = document.getElementById('depthLevel');
+const depthLabel = document.getElementById('depthLabel');
+const portalOverlay = document.getElementById('portalOverlay');
+const portalTitle = document.getElementById('portalTitle');
+const portalDesc = document.getElementById('portalDesc');
+const enterPortal = document.getElementById('enterPortal');
+const closePortal = document.getElementById('closePortal');
+
+// Initialize
+updateEnergyDisplay();
+updateDepthDisplay();
+
+// ===========================
+// Hydrogen Cloud Animation
+// ===========================
+const canvas = document.getElementById('hydroCanvas');
+const ctx = canvas.getContext('2d');
+
+if (!ctx) {
+  console.warn('Canvas 2D context not available');
+}
+
+let w, h, particles = [];
+
+function resizeCanvas() {
+  w = canvas.width = canvas.offsetWidth;
+  h = canvas.height = canvas.offsetHeight;
+  initParticles();
+}
+
+window.addEventListener('resize', resizeCanvas);
+resizeCanvas();
+
+function initParticles() {
+  particles = [];
+  const count = Math.floor((w * h) / 10000);
+  for (let i = 0; i < count; i++) {
+    particles.push({
+      x: Math.random() * w,
+      y: Math.random() * h,
+      r: Math.random() * 2 + 0.5,
+      vx: (Math.random() - 0.5) * 0.3,
+      vy: (Math.random() - 0.5) * 0.3,
+      alpha: Math.random() * 0.5 + 0.3,
+      hue: Math.random() * 60 + 200 // Blue-cyan range
+    });
+  }
+}
+
+function drawHydrogenCloud() {
+  if (!ctx) return;
+  
+  ctx.clearRect(0, 0, w, h);
+  
+  // Gradient background
+  const gradient = ctx.createRadialGradient(w * 0.5, h * 0.3, 100, w * 0.5, h * 0.5, Math.max(w, h));
+  gradient.addColorStop(0, 'rgba(240, 248, 255, 0.4)');
+  gradient.addColorStop(1, 'rgba(224, 242, 254, 0.1)');
+  ctx.fillStyle = gradient;
+  ctx.fillRect(0, 0, w, h);
+  
+  // Particles
+  for (const p of particles) {
+    p.x += p.vx;
+    p.y += p.vy;
+    
+    // Wrap around
+    if (p.x < 0) p.x = w;
+    if (p.x > w) p.x = 0;
+    if (p.y < 0) p.y = h;
+    if (p.y > h) p.y = 0;
+    
+    // Draw particle with glow
+    ctx.beginPath();
+    ctx.fillStyle = `hsla(${p.hue}, 70%, 60%, ${p.alpha})`;
+    ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+    ctx.fill();
+    
+    // Glow effect
+    const glowGradient = ctx.createRadialGradient(p.x, p.y, 0, p.x, p.y, p.r * 3);
+    glowGradient.addColorStop(0, `hsla(${p.hue}, 70%, 60%, ${p.alpha * 0.3})`);
+    glowGradient.addColorStop(1, 'transparent');
+    ctx.fillStyle = glowGradient;
+    ctx.beginPath();
+    ctx.arc(p.x, p.y, p.r * 3, 0, Math.PI * 2);
+    ctx.fill();
+  }
+  
+  requestAnimationFrame(drawHydrogenCloud);
+}
+
+drawHydrogenCloud();
+
+// ===========================
+// Zoom & Navigation
+// ===========================
+function updateTransform() {
+  const scale = zoomLevel;
+  space.style.transform = `
+    translate3d(${translateX}px, ${translateY}px, ${translateZ}px)
+    scale3d(${scale}, ${scale}, ${scale})
+    rotateX(${translateY * 0.05}deg)
+    rotateY(${translateX * 0.05}deg)
+  `;
+  
+  // Update depth percentage
+  depthPercentage = Math.min(100, ((zoomLevel - 1) / (PORTAL_THRESHOLD - 1)) * 100);
+  updateDepthDisplay();
+  
+  // Check for portal threshold
+  if (zoomLevel >= PORTAL_THRESHOLD) {
+    triggerPortalDiscovery();
+  }
+}
+
+function zoom(direction) {
+  if (direction === 'in') {
+    zoomLevel = Math.min(ZOOM_MAX, zoomLevel + ZOOM_STEP);
+    collectEnergy(1);
+  } else if (direction === 'out') {
+    zoomLevel = Math.max(ZOOM_MIN, zoomLevel - ZOOM_STEP);
+  } else {
+    zoomLevel = 1;
+    translateX = 0;
+    translateY = 0;
+    translateZ = 0;
+  }
+  updateTransform();
+}
+
+function pan(direction) {
+  switch (direction) {
+    case 'up':
+      translateY += TRANSLATE_STEP;
+      currentDirection = 'forward';
+      break;
+    case 'down':
+      translateY -= TRANSLATE_STEP;
+      currentDirection = 'backward';
+      break;
+    case 'left':
+      translateX += TRANSLATE_STEP;
+      currentDirection = 'left';
+      break;
+    case 'right':
+      translateX -= TRANSLATE_STEP;
+      currentDirection = 'right';
+      break;
+    case 'center':
+      translateX = 0;
+      translateY = 0;
+      currentDirection = 'center';
+      break;
+  }
+  positionDisplay.textContent = currentDirection.charAt(0).toUpperCase() + currentDirection.slice(1);
+  collectEnergy(0.5);
+  updateTransform();
+}
+
+// ===========================
+// Energy System
+// ===========================
+function collectEnergy(amount) {
+  energy += amount;
+  STORAGE.setItem('INFINITY_ENERGY', energy);
+  updateEnergyDisplay();
+}
+
+function updateEnergyDisplay() {
+  const rounded = Math.floor(energy);
+  energyCount.textContent = rounded;
+  energyDisplay.textContent = rounded;
+  const percentage = Math.min(100, (energy / 100) * 100);
+  energyBar.style.width = percentage + '%';
+}
+
+function updateDepthDisplay() {
+  depthLevel.style.height = depthPercentage + '%';
+  depthLabel.textContent = Math.floor(depthPercentage) + '%';
+}
+
+// ===========================
+// Portal Discovery
+// ===========================
+let lastPortalTriggered = null;
+
+function triggerPortalDiscovery() {
+  if (lastPortalTriggered === currentDirection) return;
+  
+  lastPortalTriggered = currentDirection;
+  
+  // Find nearest portal based on current position
+  const portals = document.querySelectorAll('.portal');
+  let nearestPortal = null;
+  let minDistance = Infinity;
+  
+  portals.forEach(portal => {
+    const rect = portal.getBoundingClientRect();
+    const centerX = rect.left + rect.width / 2;
+    const centerY = rect.top + rect.height / 2;
+    const screenCenterX = window.innerWidth / 2;
+    const screenCenterY = window.innerHeight / 2;
+    const distance = Math.sqrt(
+      Math.pow(centerX - screenCenterX, 2) + 
+      Math.pow(centerY - screenCenterY, 2)
+    );
+    
+    if (distance < minDistance) {
+      minDistance = distance;
+      nearestPortal = portal;
+    }
+  });
+  
+  if (nearestPortal) {
+    const portalId = nearestPortal.dataset.portal;
+    const portalInfo = PORTALS[portalId];
+    
+    if (portalInfo) {
+      showPortalOverlay(portalInfo, portalId);
+      collectEnergy(10); // Bonus energy for discovering portal
+    }
+  }
+}
+
+function showPortalOverlay(portalInfo, portalId) {
+  portalTitle.textContent = `${portalInfo.icon} ${portalInfo.name}`;
+  portalDesc.textContent = portalInfo.desc;
+  portalOverlay.classList.add('active');
+  
+  enterPortal.onclick = () => {
+    portalOverlay.classList.remove('active');
+    lastPortalTriggered = null;
+    collectEnergy(25); // Major energy bonus for entering
+    alert(`Welcome to ${portalInfo.name}! This would open the full ${portalId} interface.`);
+  };
+  
+  closePortal.onclick = () => {
+    portalOverlay.classList.remove('active');
+    lastPortalTriggered = null;
+  };
+}
+
+// ===========================
+// Portal Interactions
+// ===========================
+document.querySelectorAll('.portal').forEach(portal => {
+  portal.addEventListener('click', () => {
+    const portalId = portal.dataset.portal;
+    const portalInfo = PORTALS[portalId];
+    
+    if (portalInfo) {
+      portal.classList.add('active');
+      setTimeout(() => portal.classList.remove('active'), 300);
+      
+      collectEnergy(5);
+      
+      // Zoom toward the portal
+      const direction = portal.dataset.direction;
+      currentDirection = direction;
+      positionDisplay.textContent = direction.charAt(0).toUpperCase() + direction.slice(1);
+      
+      // Animate zoom
+      zoom('in');
+      
+      // Show portal after delay if zoomed enough
+      if (zoomLevel >= PORTAL_THRESHOLD - 0.5) {
+        setTimeout(() => showPortalOverlay(portalInfo, portalId), 800);
+      }
+    }
+  });
+});
+
+// ===========================
+// Controls
+// ===========================
+document.getElementById('zoomIn').addEventListener('click', () => zoom('in'));
+document.getElementById('zoomOut').addEventListener('click', () => zoom('out'));
+document.getElementById('zoomReset').addEventListener('click', () => {
+  zoom('reset');
+  lastPortalTriggered = null;
+});
+
+document.getElementById('dirUp').addEventListener('click', () => pan('up'));
+document.getElementById('dirDown').addEventListener('click', () => pan('down'));
+document.getElementById('dirLeft').addEventListener('click', () => pan('left'));
+document.getElementById('dirRight').addEventListener('click', () => pan('right'));
+document.getElementById('dirCenter').addEventListener('click', () => pan('center'));
+
+document.getElementById('helpBtn').addEventListener('click', () => {
+  alert(`🧠 Infinity Portal - 3D Zoom Navigation
+
+Baseball Diamond Navigation:
+• Click portals to zoom toward them
+• Use +/- buttons to zoom in/out
+• Use arrow pad to pan around space
+• Zoom deep enough (>250%) to discover portals
+• Collect energy by exploring
+
+Energy System:
+• Gain energy by zooming and exploring
+• Portal discoveries give bonus energy
+• Entering new worlds gives major bonuses
+
+From Einstein's perspective at the plate, 
+every direction leads to new realms!`);
+});
+
+// Keyboard controls
+document.addEventListener('keydown', (e) => {
+  switch(e.key) {
+    case '+':
+    case '=':
+      zoom('in');
+      break;
+    case '-':
+    case '_':
+      zoom('out');
+      break;
+    case '0':
+      zoom('reset');
+      break;
+    case 'ArrowUp':
+    case 'w':
+      pan('up');
+      e.preventDefault();
+      break;
+    case 'ArrowDown':
+    case 's':
+      pan('down');
+      e.preventDefault();
+      break;
+    case 'ArrowLeft':
+    case 'a':
+      pan('left');
+      e.preventDefault();
+      break;
+    case 'ArrowRight':
+    case 'd':
+      pan('right');
+      e.preventDefault();
+      break;
+    case ' ':
+      pan('center');
+      e.preventDefault();
+      break;
+  }
+});
+
+// Touch/gesture support for mobile
+let touchStartX = 0;
+let touchStartY = 0;
+let touchStartDistance = 0;
+
+space.addEventListener('touchstart', (e) => {
+  if (e.touches.length === 1) {
+    touchStartX = e.touches[0].clientX;
+    touchStartY = e.touches[0].clientY;
+  } else if (e.touches.length === 2) {
+    touchStartDistance = Math.sqrt(
+      Math.pow(e.touches[0].clientX - e.touches[1].clientX, 2) +
+      Math.pow(e.touches[0].clientY - e.touches[1].clientY, 2)
+    );
+  }
+});
+
+space.addEventListener('touchmove', (e) => {
+  if (e.touches.length === 1) {
+    const deltaX = e.touches[0].clientX - touchStartX;
+    const deltaY = e.touches[0].clientY - touchStartY;
+    
+    if (Math.abs(deltaX) > Math.abs(deltaY) && Math.abs(deltaX) > 30) {
+      pan(deltaX > 0 ? 'left' : 'right');
+      touchStartX = e.touches[0].clientX;
+    } else if (Math.abs(deltaY) > 30) {
+      pan(deltaY > 0 ? 'down' : 'up');
+      touchStartY = e.touches[0].clientY;
+    }
+  } else if (e.touches.length === 2) {
+    const distance = Math.sqrt(
+      Math.pow(e.touches[0].clientX - e.touches[1].clientX, 2) +
+      Math.pow(e.touches[0].clientY - e.touches[1].clientY, 2)
+    );
+    
+    if (Math.abs(distance - touchStartDistance) > 20) {
+      zoom(distance > touchStartDistance ? 'in' : 'out');
+      touchStartDistance = distance;
+    }
+  }
+  e.preventDefault();
+}, { passive: false });
+
+// Mouse wheel zoom
+space.addEventListener('wheel', (e) => {
+  e.preventDefault();
+  zoom(e.deltaY < 0 ? 'in' : 'out');
+}, { passive: false });
+
+console.log('🧠 Infinity Portal 3D Zoom System initialized');
+console.log('Energy:', energy);
+</script>
+</body>
+</html>

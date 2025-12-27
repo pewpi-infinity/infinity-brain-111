@@ -1,0 +1,31 @@
+TERMS: hydrogen, electron, superconductivity, neutrino
+COLORS: purple, green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Nn0LwjmNmzLeYGzxTDsPTKfnTfI</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:electron AND all:superconductivity AND all:neutrino&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:55:57Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:electron+AND+(all:superconductivity+AND+all:neutrino))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1109.6861v1</id>
+    <title>High Power, High Energy Cyclotrons for Decay-At-Rest Neutrino Sources: The DAEdALUS Project</title>
+    <updated>2011-09-30T15:48:18Z</updated>
+    <link href="https://arxiv.org/abs/1109.6861v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1109.6861v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Neutrino physics is a forefront topic of today's research. Large detectors installed underground study neutrino properties using neutrino beams from muons decaying in flight. DAEdALUS looks at neutrinos from stopped muons, "decay at rest" (DAR) neutrinos. The DAR neutrino spectrum has effectively no electron antineutrinos (essentially all pi- are absorbed), so a detector with free protons is sensitive to appearance of nu-e-bar oscillating from nu-mu-bar via inverse-beta-decay (IBD). Oscillations are studied using sources relatively near the detector, but which explore the same physics as the high-energy neutrino beams from Long Baseline experiments. As the DAR spectrum is fixed, the baseline is varied: plans call for 3 accelerator-based neutrino sources at 1.5, 8 and 20 km with staggered beam-on times. Compact, cost-effective superconducting ring cyclotrons accelerating molecular hydrogen ions (H2+) to 800 MeV/n with stripping extraction are being designed by L. Calabretta and his group. This revolutionary design could find application in many ADS-related fields.</summary>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.acc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-09-30T15:48:18Z</published>
+    <arxiv:comment>Proceedings of the DPF-2011 Conference, Providence, RI, August 8-13, 2011</arxiv:comment>
+    <arxiv:primary_category term="hep-ex"/>
+    <author>
+      <name>Jose R. Alonso</name>
+      <arxiv:affiliation>for the DAEdALUS Collaboration</arxiv:affiliation>
+    </author>
+  </entry>
+</feed>

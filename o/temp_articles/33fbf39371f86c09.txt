@@ -1,0 +1,44 @@
+TERMS: hydrogen, quantum, lattice, boson
+COLORS: purple, blue, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/SsLIOxoHNBL5dV02GS9+8LqWc2M</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:lattice AND all:boson&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:38:12Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:lattice+AND+all:boson))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2002.09373v1</id>
+    <title>Quantum Simulation of 2D Quantum Chemistry in Optical Lattices</title>
+    <updated>2020-02-21T16:00:36Z</updated>
+    <link href="https://arxiv.org/abs/2002.09373v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2002.09373v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Benchmarking numerical methods in quantum chemistry is one of the key opportunities that quantum simulators can offer. Here, we propose an analog simulator for discrete 2D quantum chemistry models based on cold atoms in optical lattices. We first analyze how to simulate simple models, like the discrete versions of H and H$_2^+$, using a single fermionic atom. We then show that a single bosonic atom can mediate an effective Coulomb repulsion between two fermions, leading to the analog of molecular Hydrogen in two dimensions. We extend this approach to larger systems by introducing as many mediating atoms as fermions, and derive the effective repulsion law. In all cases, we analyze how the continuous limit is approached for increasing optical lattice sizes.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-02-21T16:00:36Z</published>
+    <arxiv:comment>12 pages, 7 figures. Supplementary material</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Phys. Rev. Research 2, 042013 (2020)</arxiv:journal_ref>
+    <author>
+      <name>Javier Argüello-Luengo</name>
+    </author>
+    <author>
+      <name>Alejandro González-Tudela</name>
+    </author>
+    <author>
+      <name>Tao Shi</name>
+    </author>
+    <author>
+      <name>Peter Zoller</name>
+    </author>
+    <author>
+      <name>J. Ignacio Cirac</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevResearch.2.042013</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevResearch.2.042013" title="doi"/>
+  </entry>
+</feed>

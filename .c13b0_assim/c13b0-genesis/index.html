@@ -1,0 +1,86 @@
+<!doctype html>
+<!-- 🐶 PEWPI SIGN-IN (GLOBAL) -->
+<div id="pewpi-gate">
+  <h1>🐶 pewpi</h1>
+  <input id="pewpi_user" placeholder="Handle">
+  <button onclick="pewpiUnlock()">Enter</button>
+</div>
+<script>
+function pewpiUnlock(){
+  localStorage.setItem("pewpi_user", document.getElementById("pewpi_user").value);
+  document.getElementById("pewpi-gate").style.display="none";
+  document.body.classList.add("pewpi-live");
+}
+if(localStorage.getItem("pewpi_user")){
+  document.addEventListener("DOMContentLoaded",()=>{
+    const g=document.getElementById("pewpi-gate");
+    if(g) g.style.display="none";
+    document.body.classList.add("pewpi-live");
+  });
+}
+</script>
+<style>
+#pewpi-gate{position:fixed;inset:0;background:#0e0e0e;color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:9999}
+#pewpi-gate button{background:#ff69b4;border:0;padding:10px 18px}
+body:not(.pewpi-live)>*:not(#pewpi-gate){filter:blur(6px);pointer-events:none}
+</style>
+<html>
+<head>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<title>∞ c13b0-genesis</title>
+<style>
+body{background:#0b0f14;color:#e6edf3;font-family:monospace;padding:12px}
+.panel{border:1px solid #30363d;padding:12px;margin:12px 0}
+button{padding:8px 12px;font-family:monospace}
+canvas{width:100%;max-width:360px}
+</style>
+</head>
+<body>
+
+<h1>c13b0-genesis</h1>
+
+<div class=panel>
+<h2>Token</h2>
+<pre id=token>loading...</pre>
+</div>
+
+<div class=panel>
+<h2>Quantum Visualizer</h2>
+<canvas id=q width=240 height=160></canvas>
+</div>
+
+<div class=panel>
+<h2>Token Slot Machine</h2>
+<button onclick="spin()">SPIN</button>
+<pre id=slot>---</pre>
+</div>
+
+<div class=panel>
+<h2>Research Ledger</h2>
+<ul id=ledger></ul>
+</div>
+
+<script>
+fetch("token/latest.txt")
+  .then(r=>r.text())
+  .then(f=>fetch("token/"+f.trim()))
+  .then(r=>r.text())
+  .then(t=>token.textContent=t);
+
+fetch("ledger/index.json")
+ .then(r=>r.json())
+ .then(list=>{
+   list.forEach(e=>{
+     const li=document.createElement("li");
+     const a=document.createElement("a");
+     a.href=e.file;
+     a.textContent=e.date;
+     li.appendChild(a);
+     ledger.appendChild(li);
+   });
+ });
+</script>
+
+<script src="visualizer.js"></script>
+</body>
+</html>

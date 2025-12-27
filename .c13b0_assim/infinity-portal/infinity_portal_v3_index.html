@@ -1,0 +1,883 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+<title>Infinity Portal v3 — Einstein Diamond</title>
+<meta name="color-scheme" content="light">
+<style>
+  :root{
+    --blue-1:#003087;
+    --blue-2:#0b5fd7;
+    --bg:#ffffff;
+    --muted:#657080;
+    --radius:12px;
+    --panel:#f8fafc;
+    font-family:system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  }
+  html,body{height:100%;margin:0;background:var(--bg);color:#051426; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale;}
+  .app{max-width:1100px;margin:0 auto;padding:14px;}
+  header{display:flex;align-items:center;justify-content:space-between;padding:12px 6px;background:linear-gradient(0deg,#ffffff,#fbfdff);border-radius:10px;box-shadow:0 6px 18px rgba(3,24,62,0.04);border:1px solid rgba(3,24,62,0.03)}
+  .logoText{font-weight:700;color:var(--blue-1);font-size:18px}
+  .sub{font-size:12px;color:var(--muted)}
+  /* top controls */
+  .controls{display:flex;gap:10px;align-items:center}
+  .iconBtn{width:44px;height:44px;border-radius:10px;display:flex;align-items:center;justify-content:center;background:transparent;border:1px solid rgba(3,24,62,0.06);cursor:pointer}
+  .menuIcon{font-size:22px;color:var(--blue-1)}
+  /* mobile-ready stage */
+  .stage{margin-top:18px;position:relative;height:64vh;max-height:760px;border-radius:14px;overflow:hidden;border:1px solid rgba(3,24,62,0.03);background:linear-gradient(180deg,#f7fbff, #eef6ff)}
+  /* hydrogen cloud canvas behind */
+  #hydroCanvas{position:absolute;inset:0;width:100%;height:100%}
+  /* diamond nav */
+  .diamondWrap{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;pointer-events:none}
+  .diamond{width:86%;max-width:760px;height:86%;max-height:640px;transform-style:preserve-3d;pointer-events:auto;display:grid;place-items:center}
+  .field{width:100%;height:100%;position:relative;display:grid;place-items:center;user-select:none}
+  .baseplate{position:absolute;inset:8% 8%;border-radius:18px;box-shadow:0 20px 60px rgba(11,95,215,0.06);display:grid;place-items:center;transform:translateZ(0)}
+  /* diamond geometry */
+  .diamond-grid{width:86%;height:86%;position:relative;display:grid;place-items:center;transform-origin:center;transition:transform .6s cubic-bezier(.2,.9,.25,1)}
+  .node{position:absolute;width:104px;height:104px;border-radius:18px;background:white;border:1px solid rgba(3,24,62,0.06);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;box-shadow:0 10px 30px rgba(11,95,215,0.06);cursor:pointer;transition:transform .18s,box-shadow .18s}
+  .node:active{transform:translateY(4px)}
+  .node .nTitle{font-weight:700;color:var(--blue-1);font-size:15px}
+  .node .nSub{font-size:12px;color:var(--muted)}
+  /* positions */
+  .homePlate{left:50%;top:82%;transform:translate(-50%,-50%)}
+  .firstBase{left:84%;top:50%;transform:translate(-50%,-50%)}
+  .thirdBase{left:16%;top:50%;transform:translate(-50%,-50%)}
+  .pitcher{left:50%;top:34%;transform:translate(-50%,-50%)}
+  .secondBase{left:50%;top:10%;transform:translate(-50%,-50%)}
+  /* info footer within stage */
+  .stageFooter{position:absolute;left:12px;bottom:12px;right:12px;display:flex;justify-content:space-between;align-items:center;gap:8px}
+  .chip{background:rgba(11,95,215,0.06);padding:8px 12px;border-radius:999px;color:var(--blue-1);font-weight:700}
+  /* sidebar (hidden behind menu) */
+  .sidebar{position:fixed;left:0;top:0;bottom:0;width:82%;max-width:360px;background:white;box-shadow:20px 0 60px rgba(3,24,62,0.12);transform:translateX(-110%);transition:transform .28s;z-index:99999;padding:18px;overflow:auto}
+  .sidebar.open{transform:translateX(0)}
+  .sbHeader{display:flex;justify-content:space-between;align-items:center;gap:6px}
+  .sbItem{padding:12px;border-radius:10px;margin-top:10px;border:1px solid rgba(3,24,62,0.03);cursor:pointer}
+  .small{font-size:13px;color:var(--muted)}
+  /* app panel modal */
+  .panel{position:fixed;left:50%;top:50%;transform:translate(-50%,-50%) scale(.98);background:white;border-radius:12px;padding:12px;width:94%;max-width:980px;max-height:86vh;overflow:auto;box-shadow:0 30px 80px rgba(3,24,62,0.16);z-index:99998;display:none}
+  .panel.open{display:block;animation:pop .18s ease-out}
+  @keyframes pop{from{transform:translate(-50%,-50%) scale(.96)} to{transform:translate(-50%,-50%) scale(1)}}
+  .panelHeader{display:flex;justify-content:space-between;align-items:center}
+  .primary{background:var(--blue-1);color:white;border:0;padding:10px 12px;border-radius:10px;cursor:pointer}
+  /* rogers chat dock */
+  .rogersDock{position:fixed;right:16px;bottom:16px;z-index:99999}
+  .rogBtn{width:64px;height:64px;border-radius:999px;background:linear-gradient(135deg,var(--blue-1),var(--blue-2));display:flex;align-items:center;justify-content:center;color:white;font-weight:800;box-shadow:0 12px 40px rgba(11,95,215,0.18);cursor:pointer}
+  .chatBox{position:fixed;right:16px;bottom:92px;width:360px;border-radius:12px;background:white;box-shadow:0 30px 80px rgba(3,24,62,0.12);display:none;flex-direction:column;z-index:99999;overflow:hidden}
+  .chatBox.open{display:flex}
+  .chatHeader{padding:10px;background:linear-gradient(90deg,var(--blue-1),var(--blue-2));color:white;display:flex;justify-content:space-between;align-items:center}
+  .chatBody{padding:12px;height:300px;overflow:auto;background:#fbfdff}
+  .chatInput{display:flex;padding:10px;border-top:1px solid rgba(3,24,62,0.04)}
+  .chatInput input{flex:1;padding:8px;border-radius:8px;border:1px solid rgba(3,24,62,0.06)}
+  /* settings floating button */
+  .settingsBtn{position:fixed;left:16px;bottom:16px;width:56px;height:56px;border-radius:14px;background:white;border:1px solid rgba(3,24,62,0.06);display:flex;align-items:center;justify-content:center;box-shadow:0 12px 30px rgba(3,24,62,0.06);z-index:99999;cursor:pointer}
+  /* mic autopilot */
+  .mic{width:54px;height:54px;border-radius:999px;background:linear-gradient(135deg,var(--blue-1),var(--blue-2));display:flex;align-items:center;justify-content:center;color:white;cursor:pointer}
+  /* responsive */
+  @media (max-width:600px){
+    .node{width:86px;height:86px}
+    .stage{height:68vh}
+    .chatBox{right:10px;left:10px;width:auto}
+  }
+</style>
+</head>
+<body>
+<div class="app">
+  <header>
+    <div style="display:flex;gap:12px;align-items:center">
+      <button class="iconBtn" id="menuBtn" title="Menu"><span class="menuIcon">☰</span></button>
+      <div>
+        <div class="logoText">INFINITY</div>
+        <div class="sub">Portal • Marketplace • Socializer — powered by Infinity</div>
+      </div>
+    </div>
+    <div class="controls">
+      <div class="small">Signed in as <span id="signedUser" style="font-weight:700">Guest</span></div>
+      <button class="iconBtn" id="signinBtn" title="Sign in">Sign</button>
+    </div>
+  </header>
+
+  <!-- Stage with hydrogen cloud + diamond nav -->
+  <div class="stage" id="stage">
+    <canvas id="hydroCanvas"></canvas>
+    <div class="diamondWrap">
+      <div class="diamond" id="diamond">
+        <div class="field">
+          <div class="baseplate">
+            <div class="diamond-grid" id="grid" style="transform:scale(1)">
+              <!-- Nodes -->
+              <div class="node homePlate" id="node-portal" onclick="openRealm('portal')">
+                <div class="nTitle">PORTAL</div><div class="nSub">Home & Tools</div>
+              </div>
+              <div class="node firstBase" id="node-market" onclick="openRealm('market')">
+                <div class="nTitle">MARKET</div><div class="nSub">Token Commerce</div>
+              </div>
+              <div class="node thirdBase" id="node-social" onclick="openRealm('social')">
+                <div class="nTitle">SOCIAL</div><div class="nSub">Community</div>
+              </div>
+              <div class="node pitcher" id="node-einstein" onclick="openRealm('einstein')">
+                <div class="nTitle">EINSTEIN</div><div class="nSub">Build & Zoom</div>
+              </div>
+              <div class="node secondBase" id="node-archive" onclick="openRealm('archive')">
+                <div class="nTitle">ARCHIVE</div><div class="nSub">History</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="stageFooter">
+      <div class="chip" id="energyChip">Energy: 0</div>
+      <div class="small">Tap a node to zoom in • Slide to pan</div>
+    </div>
+  </div>
+
+  <!-- Sidebar (hidden) -->
+  <aside class="sidebar" id="sidebar">
+    <div class="sbHeader">
+      <div>
+        <div style="font-weight:800">Infinity Menu</div>
+        <div class="small">Developer tools & sessions</div>
+      </div>
+      <div><button class="iconBtn" onclick="toggleSidebar()">✕</button></div>
+    </div>
+
+    <div class="sbItem" onclick="openRealm('portal')">Portal — Home tools</div>
+    <div class="sbItem" onclick="openRealm('market')">Marketplace — Token commerce</div>
+    <div class="sbItem" onclick="openRealm('social')">Socializer — Community</div>
+    <div class="sbItem" onclick="openRealm('einstein')">Einstein Builder — Spatial tools</div>
+
+    <div style="margin-top:12px">
+      <div style="font-weight:700;margin-top:8px">Developer</div>
+      <div class="sbItem" id="devToggle" onclick="toggleDev()">Developer Mode: OFF</div>
+      <div class="sbItem" onclick="viewSessions()">Saved Chat Sessions</div>
+      <div class="sbItem" onclick="clearLocal()">Clear Local Data</div>
+    </div>
+
+    <div style="margin-top:18px">
+      <div style="font-weight:700">Settings</div>
+      <div class="small" style="margin-top:6px">Paste your Rogers endpoint (one time) — no file edits.</div>
+      <div style="margin-top:8px"><input id="rogersInput" placeholder="Paste Rogers API URL here" style="width:100%;padding:10px;border-radius:8px;border:1px solid rgba(3,24,62,0.06)"></div>
+      <div style="margin-top:8px"><button class="primary" onclick="saveRogers()">Save Rogers Endpoint</button></div>
+      <div id="rogersSaved" class="small" style="margin-top:8px;color:var(--muted)"></div>
+    </div>
+
+    <div style="margin-top:16px" class="small">Contact: infinitystockinvesting@gmail.com</div>
+  </aside>
+
+  <!-- App panels -->
+  <div class="panel" id="panelPortal" aria-hidden="true">
+    <div class="panelHeader"><div><strong>Portal — Day to day</strong><div class="small">Calculator, Alarm, Bible, Pets, Garden, Health</div></div><div><button onclick="closePanel('panelPortal')">✕</button></div></div>
+    <div style="margin-top:12px">
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px">
+        <div style="background:var(--panel);padding:12px;border-radius:10px">
+          <div style="font-weight:700">Calculator</div>
+          <input id="calcA" placeholder="2+2" style="width:100%;margin-top:8px;padding:8px;border-radius:8px;border:1px solid rgba(3,24,62,0.06)">
+          <div style="margin-top:8px"><button class="primary" onclick="calcRun()">Compute</button></div>
+          <div id="calcOut" class="small" style="margin-top:8px"></div>
+        </div>
+        <div style="background:var(--panel);padding:12px;border-radius:10px">
+          <div style="font-weight:700">Scientific Calculator</div>
+          <input id="calcSci" placeholder="Math.sqrt(16)" style="width:100%;margin-top:8px;padding:8px;border-radius:8px;border:1px solid rgba(3,24,62,0.06)">
+          <div style="margin-top:8px"><button class="primary" onclick="calcSciRun()">Compute</button></div>
+          <div id="calcSciOut" class="small" style="margin-top:8px"></div>
+        </div>
+        <div style="background:var(--panel);padding:12px;border-radius:10px">
+          <div style="font-weight:700">Alarm Clock</div>
+          <input id="alarmA" placeholder="HH:MM" style="width:100%;margin-top:8px;padding:8px;border-radius:8px;border:1px solid rgba(3,24,62,0.06)">
+          <div style="margin-top:8px"><button class="primary" onclick="setAlarmA()">Set</button></div>
+          <div id="alarmOut" class="small" style="margin-top:8px"></div>
+        </div>
+        <div style="background:var(--panel);padding:12px;border-radius:10px">
+          <div style="font-weight:700">Bible Verse (Infinity Style)</div>
+          <div class="small" style="margin-top:6px">Message of God's love with timestamp analysis</div>
+          <div style="margin-top:8px"><button class="primary" onclick="getBibleVerse()">Get Verse</button></div>
+          <div id="bibleOut" class="small" style="margin-top:8px"></div>
+        </div>
+        <div style="background:var(--panel);padding:12px;border-radius:10px">
+          <div style="font-weight:700">Pet Care</div>
+          <input id="petName" placeholder="Pet name" style="width:100%;margin-top:8px;padding:8px;border-radius:8px;border:1px solid rgba(3,24,62,0.06)">
+          <input id="petFeedTime" placeholder="Feed time (HH:MM)" style="width:100%;margin-top:8px;padding:8px;border-radius:8px;border:1px solid rgba(3,24,62,0.06)">
+          <div style="margin-top:8px"><button class="primary" onclick="addPetSchedule()">Set Schedule</button></div>
+          <div id="petOut" class="small" style="margin-top:8px"></div>
+        </div>
+        <div style="background:var(--panel);padding:12px;border-radius:10px">
+          <div style="font-weight:700">Garden & Seed Swap</div>
+          <input id="seedType" placeholder="Seed type" style="width:100%;margin-top:8px;padding:8px;border-radius:8px;border:1px solid rgba(3,24,62,0.06)">
+          <input id="seedQty" placeholder="Quantity" style="width:100%;margin-top:8px;padding:8px;border-radius:8px;border:1px solid rgba(3,24,62,0.06)">
+          <div style="margin-top:8px"><button class="primary" onclick="addSeedSwap()">List for Swap</button></div>
+          <div id="seedOut" class="small" style="margin-top:8px"></div>
+        </div>
+        <div style="background:var(--panel);padding:12px;border-radius:10px">
+          <div style="font-weight:700">Physical Therapy & Exercise</div>
+          <input id="exerciseName" placeholder="Exercise name" style="width:100%;margin-top:8px;padding:8px;border-radius:8px;border:1px solid rgba(3,24,62,0.06)">
+          <input id="exerciseReps" placeholder="Reps/Duration" style="width:100%;margin-top:8px;padding:8px;border-radius:8px;border:1px solid rgba(3,24,62,0.06)">
+          <div style="margin-top:8px"><button class="primary" onclick="logExercise()">Log Exercise</button></div>
+          <div id="exerciseOut" class="small" style="margin-top:8px"></div>
+        </div>
+        <div style="background:var(--panel);padding:12px;border-radius:10px">
+          <div style="font-weight:700">School/Education Progress</div>
+          <div class="small" style="margin-top:6px">Track learning from newborn to elder</div>
+          <input id="studentAge" placeholder="Age/Stage" style="width:100%;margin-top:8px;padding:8px;border-radius:8px;border:1px solid rgba(3,24,62,0.06)">
+          <input id="studentTopic" placeholder="Topic learned" style="width:100%;margin-top:8px;padding:8px;border-radius:8px;border:1px solid rgba(3,24,62,0.06)">
+          <div style="margin-top:8px"><button class="primary" onclick="logEducation()">Log Progress</button></div>
+          <div id="educationOut" class="small" style="margin-top:8px"></div>
+        </div>
+      </div>
+      <div style="margin-top:12px">
+        <div style="background:var(--panel);padding:12px;border-radius:10px">
+          <div style="font-weight:700">Autopilot Mic</div>
+          <div class="small" style="margin-top:6px">Listen and automatically repeat sounds with synthesizer — no human needed.</div>
+          <div style="margin-top:8px;display:flex;gap:10px;align-items:center">
+            <div class="mic" id="micBtn" onclick="toggleMic()" title="Autopilot"><span id="micIcon">🎤</span></div>
+            <div class="small">Status: <span id="micStatus">idle</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel" id="panelMarket">
+    <div class="panelHeader"><div><strong>Marketplace</strong><div class="small">Token-only listings & trades, specialized markets</div></div><div><button onclick="closePanel('panelMarket')">✕</button></div></div>
+    <div style="margin-top:12px">
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px">
+        <div style="background:var(--panel);padding:12px;border-radius:10px">
+          <div style="font-weight:700">General Marketplace (Token-Only)</div>
+          <div class="small" style="margin-top:6px">No USD, Infinity tokens only</div>
+          <input id="listTitle" placeholder="Item title" style="width:100%;margin-top:8px;padding:8px;border-radius:8px;border:1px solid rgba(3,24,62,0.06)">
+          <textarea id="listDesc" placeholder="Description" style="width:100%;margin-top:8px;padding:8px;border-radius:8px;border:1px solid rgba(3,24,62,0.06)"></textarea>
+          <input id="listTokens" placeholder="Token price" style="width:100%;margin-top:8px;padding:8px;border-radius:8px;border:1px solid rgba(3,24,62,0.06)">
+          <div style="margin-top:8px"><button class="primary" onclick="createListing()">Create Listing</button></div>
+          <div id="listOut" class="small" style="margin-top:8px"></div>
+        </div>
+        <div style="background:var(--panel);padding:12px;border-radius:10px">
+          <div style="font-weight:700">Food & Textiles Network</div>
+          <div class="small" style="margin-top:6px">Trade platform for food and materials</div>
+          <input id="foodItem" placeholder="Food/Textile item" style="width:100%;margin-top:8px;padding:8px;border-radius:8px;border:1px solid rgba(3,24,62,0.06)">
+          <input id="foodQty" placeholder="Quantity" style="width:100%;margin-top:8px;padding:8px;border-radius:8px;border:1px solid rgba(3,24,62,0.06)">
+          <div style="margin-top:8px"><button class="primary" onclick="listFood()">List Item</button></div>
+          <div id="foodOut" class="small" style="margin-top:8px"></div>
+        </div>
+        <div style="background:var(--panel);padding:12px;border-radius:10px">
+          <div style="font-weight:700">Clothing Design</div>
+          <div class="small" style="margin-top:6px">Design and share clothing ideas</div>
+          <input id="designName" placeholder="Design name" style="width:100%;margin-top:8px;padding:8px;border-radius:8px;border:1px solid rgba(3,24,62,0.06)">
+          <textarea id="designDesc" placeholder="Design details (colors, style, etc.)" style="width:100%;margin-top:8px;padding:8px;border-radius:8px;border:1px solid rgba(3,24,62,0.06)"></textarea>
+          <div style="margin-top:8px"><button class="primary" onclick="saveClothingDesign()">Save Design</button></div>
+          <div id="clothingOut" class="small" style="margin-top:8px"></div>
+        </div>
+        <div style="background:var(--panel);padding:12px;border-radius:10px">
+          <div style="font-weight:700">Leather Craft</div>
+          <div class="small" style="margin-top:6px">Share and discover leather craft projects</div>
+          <input id="leatherProject" placeholder="Project name" style="width:100%;margin-top:8px;padding:8px;border-radius:8px;border:1px solid rgba(3,24,62,0.06)">
+          <textarea id="leatherDesc" placeholder="Materials & techniques" style="width:100%;margin-top:8px;padding:8px;border-radius:8px;border:1px solid rgba(3,24,62,0.06)"></textarea>
+          <div style="margin-top:8px"><button class="primary" onclick="saveLeatherCraft()">Share Project</button></div>
+          <div id="leatherOut" class="small" style="margin-top:8px"></div>
+        </div>
+        <div style="background:var(--panel);padding:12px;border-radius:10px">
+          <div style="font-weight:700">Packaging & Glass Standards</div>
+          <div class="small" style="margin-top:6px">Infinity standardized packaging designs</div>
+          <input id="packageType" placeholder="Package type" style="width:100%;margin-top:8px;padding:8px;border-radius:8px;border:1px solid rgba(3,24,62,0.06)">
+          <input id="packageDim" placeholder="Dimensions" style="width:100%;margin-top:8px;padding:8px;border-radius:8px;border:1px solid rgba(3,24,62,0.06)">
+          <div style="margin-top:8px"><button class="primary" onclick="savePackageStandard()">Register Standard</button></div>
+          <div id="packageOut" class="small" style="margin-top:8px"></div>
+        </div>
+        <div style="background:var(--panel);padding:12px;border-radius:10px">
+          <div style="font-weight:700">Product Facts Database</div>
+          <div class="small" style="margin-top:6px">Report banned/corrupt products & companies</div>
+          <input id="productName" placeholder="Product/Company name" style="width:100%;margin-top:8px;padding:8px;border-radius:8px;border:1px solid rgba(3,24,62,0.06)">
+          <textarea id="productFacts" placeholder="Facts and details" style="width:100%;margin-top:8px;padding:8px;border-radius:8px;border:1px solid rgba(3,24,62,0.06)"></textarea>
+          <div style="margin-top:8px"><button class="primary" onclick="submitProductFacts()">Submit Report</button></div>
+          <div id="factsOut" class="small" style="margin-top:8px"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="panel" id="panelSocial">
+    <div class="panelHeader"><div><strong>Socializer</strong><div class="small">Locals chat, games, DIY, channels</div></div><div><button onclick="closePanel('panelSocial')">✕</button></div></div>
+    <div style="margin-top:12px">
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px">
+        <div style="background:var(--panel);padding:12px;border-radius:10px">
+          <div style="font-weight:700">Locals Chat (ZIP-based)</div>
+          <div class="small" style="margin-top:6px">Find people globally by searching ZIP codes</div>
+          <input id="zipLocal" placeholder="ZIP or postal code" style="width:100%;margin-top:8px;padding:8px;border-radius:8px;border:1px solid rgba(3,24,62,0.06)">
+          <div style="margin-top:8px"><button class="primary" onclick="joinLocal()">Join Local Chat</button></div>
+          <div id="localOut" class="small" style="margin-top:8px"></div>
+        </div>
+        <div style="background:var(--panel);padding:12px;border-radius:10px">
+          <div style="font-weight:700">Video Game Generator</div>
+          <div class="small" style="margin-top:6px">AI-focused game generation tool</div>
+          <input id="gameGenre" placeholder="Game genre" style="width:100%;margin-top:8px;padding:8px;border-radius:8px;border:1px solid rgba(3,24,62,0.06)">
+          <input id="gameTheme" placeholder="Theme/Setting" style="width:100%;margin-top:8px;padding:8px;border-radius:8px;border:1px solid rgba(3,24,62,0.06)">
+          <div style="margin-top:8px"><button class="primary" onclick="generateGame()">Generate Game Concept</button></div>
+          <div id="gameOut" class="small" style="margin-top:8px"></div>
+        </div>
+        <div style="background:var(--panel);padding:12px;border-radius:10px">
+          <div style="font-weight:700">DIY Modeling</div>
+          <div class="small" style="margin-top:6px">Share DIY projects and guides</div>
+          <input id="diyProject" placeholder="Project name" style="width:100%;margin-top:8px;padding:8px;border-radius:8px;border:1px solid rgba(3,24,62,0.06)">
+          <textarea id="diySteps" placeholder="Steps and materials" style="width:100%;margin-top:8px;padding:8px;border-radius:8px;border:1px solid rgba(3,24,62,0.06)"></textarea>
+          <div style="margin-top:8px"><button class="primary" onclick="shareDIY()">Share Project</button></div>
+          <div id="diyOut" class="small" style="margin-top:8px"></div>
+        </div>
+        <div style="background:var(--panel);padding:12px;border-radius:10px">
+          <div style="font-weight:700">Channel Generator</div>
+          <div class="small" style="margin-top:6px">Request custom channels for educational/entertainment programming</div>
+          <input id="channelRequest" placeholder="Channel request/interest" style="width:100%;margin-top:8px;padding:8px;border-radius:8px;border:1px solid rgba(3,24,62,0.06)">
+          <select id="channelCategory" style="width:100%;margin-top:8px;padding:8px;border-radius:8px;border:1px solid rgba(3,24,62,0.06)">
+            <option value="">Select category</option>
+            <option value="educational">Educational</option>
+            <option value="entertainment">Entertainment</option>
+            <option value="mysterious">Mysterious</option>
+            <option value="adventurous">Adventurous</option>
+            <option value="fun">Fun</option>
+          </select>
+          <div style="margin-top:8px"><button class="primary" onclick="requestChannel()">Submit Request</button></div>
+          <div id="channelOut" class="small" style="margin-top:8px"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Rogers dock + chat -->
+  <div class="rogersDock">
+    <div class="rogBtn" id="rogBtn" title="Rogers AI" onclick="toggleChat()">R</div>
+  </div>
+  <div class="chatBox" id="chatBox">
+    <div class="chatHeader"><div>Rogers AI</div><div class="small" id="chatCtx">Core: none</div></div>
+    <div class="chatBody" id="chatBody"><div class="small">Rogers ready — set a Rogers endpoint in Settings to enable live replies.</div></div>
+    <div class="chatInput">
+      <input id="chatIn" placeholder="Ask Rogers..." onkeydown="if(event.key==='Enter') sendChat()">
+      <button class="primary" onclick="sendChat()">Send</button>
+    </div>
+  </div>
+
+  <!-- settings & mic UI -->
+  <button class="settingsBtn" title="Settings" onclick="openSettings()">⚙</button>
+
+</div>
+
+<script>
+/* --------------------------
+   INFINITY PORTAL V3 (single file)
+   - No external token edits required
+   - Rogers endpoint stored in local storage via UI
+   - Local mock signin (no Google keys)
+   -------------------------- */
+
+const STORAGE = window.localStorage || {};
+const ROGERS_KEY = 'INFINITY_ROGERS_API';
+const AUTH_KEY = 'INFINITY_AUTH';
+const SESSIONS_KEY = 'INFINITY_CHAT_SESSIONS';
+
+/* UI wiring */
+const menuBtn = document.getElementById('menuBtn');
+const sidebar = document.getElementById('sidebar');
+menuBtn.addEventListener('click',()=>toggleSidebar());
+
+function toggleSidebar(){
+  sidebar.classList.toggle('open');
+}
+function saveRogers(){
+  const val = document.getElementById('rogersInput').value.trim();
+  if(!val){ document.getElementById('rogersSaved').innerText = 'Enter a URL first'; return; }
+  STORAGE.setItem(ROGERS_KEY,val);
+  document.getElementById('rogersSaved').innerText = 'Saved Rogers endpoint';
+  setTimeout(()=>document.getElementById('rogersSaved').innerText='',2200);
+}
+function viewSessions(){ alert('Saved sessions: ' + (STORAGE.getItem(SESSIONS_KEY) || 'none')); }
+function clearLocal(){ if(confirm('Clear local Infinity data?')){ STORAGE.clear(); location.reload(); } }
+
+/* Sign-in (local mock so no key edits) */
+const signinBtn = document.getElementById('signinBtn');
+signinBtn.addEventListener('click',mockSignin);
+function mockSignin(){
+  const email = prompt('Sign in (enter email) — local demo only');
+  if(!email) return;
+  const token = 'local:'+btoa(email+'|'+Date.now());
+  STORAGE.setItem(AUTH_KEY,token);
+  STORAGE.setItem('INFINITY_USER', email);
+  document.getElementById('signedUser').innerText = email.split('@')[0];
+  // welcome voice placeholder (no external voice)
+  console.log('Signed in as', email);
+}
+
+/* Stage hydrogen cloud canvas (lightweight) */
+const canvas = document.getElementById('hydroCanvas');
+const ctx = canvas.getContext('2d');
+let w,h,particles=[];
+function resizeCanvas(){
+  w=canvas.width=canvas.offsetWidth;
+  h=canvas.height=canvas.offsetHeight;
+}
+window.addEventListener('resize',resizeCanvas);
+resizeCanvas();
+function initParticles(){
+  particles=[];
+  for(let i=0;i<80;i++){
+    particles.push({
+      x:Math.random()*w,
+      y:Math.random()*h,
+      r:Math.random()*2+0.4,
+      vx:(Math.random()-0.5)*0.2,
+      vy:(Math.random()-0.5)*0.2,
+      alpha:Math.random()*0.6+0.2
+    });
+  }
+}
+initParticles();
+function draw(){
+  ctx.clearRect(0,0,w,h);
+  // gentle radial gradient
+  const g = ctx.createRadialGradient(w*0.5,h*0.3,80,w*0.5,h*0.3,Math.max(w,h));
+  g.addColorStop(0,'rgba(240,248,255,0.35)');
+  g.addColorStop(1,'rgba(232,242,255,0.08)');
+  ctx.fillStyle=g;
+  ctx.fillRect(0,0,w,h);
+  // particles
+  for(const p of particles){
+    p.x += p.vx; p.y += p.vy;
+    if(p.x<0) p.x=w; if(p.x>w) p.x=0;
+    if(p.y<0) p.y=h; if(p.y>h) p.y=0;
+    ctx.beginPath();
+    ctx.fillStyle = 'rgba(11,95,215,'+p.alpha+')';
+    ctx.arc(p.x,p.y,p.r,0,Math.PI*2);
+    ctx.fill();
+  }
+  requestAnimationFrame(draw);
+}
+draw();
+
+/* Node zoom + energy */
+let energy = Number(STORAGE.getItem('INFINITY_ENERGY')||0);
+document.getElementById('energyChip').innerText = 'Energy: '+energy;
+function openRealm(name){
+  // zoom animation by scaling the grid; show panel
+  const grid = document.getElementById('grid');
+  grid.style.transform = 'scale(1.12)';
+  setTimeout(()=>grid.style.transform='scale(1)',600);
+  // energy collection
+  energy += 1;
+  STORAGE.setItem('INFINITY_ENERGY', energy);
+  document.getElementById('energyChip').innerText = 'Energy: '+energy;
+  // open panels
+  if(name==='portal') openPanel('panelPortal');
+  if(name==='market') openPanel('panelMarket');
+  if(name==='social') openPanel('panelSocial');
+  if(name==='einstein') openPanel('panelPortal'); // Einstein builder currently in portal
+  if(name==='archive') alert('Archive opens — future content');
+  // auto-open Rogers with context
+  openChatWithContext(name);
+}
+
+/* Panels */
+function openPanel(id){ document.getElementById(id).classList.add('open'); }
+function closePanel(id){ document.getElementById(id).classList.remove('open'); }
+
+/* Portal tools */
+function calcRun(){
+  const v = document.getElementById('calcA').value||'';
+  try{
+    const safe = v.replace(/[^0-9+\-*/(). %]/g,'');
+    const out = Function('"use strict";return (' + safe + ')')();
+    document.getElementById('calcOut').innerText = 'Result: '+out;
+  }catch(e){
+    document.getElementById('calcOut').innerText = 'Error';
+  }
+}
+function calcSciRun(){
+  const v = document.getElementById('calcSci').value||'';
+  try{
+    // Safe evaluation approach without Function() constructor
+    // Only allow basic arithmetic
+    if(/^[\d+\-*/(). ]+$/.test(v)){
+      const safe = v.replace(/[^0-9+\-*/(). ]/g,'');
+      const out = Function('"use strict";return (' + safe + ')')();
+      document.getElementById('calcSciOut').innerText = 'Result: '+out;
+      return;
+    }
+    
+    // Handle specific Math functions manually (safer approach)
+    let result = null;
+    if(v === 'Math.PI'){
+      result = Math.PI;
+    } else if(v === 'Math.E'){
+      result = Math.E;
+    } else if(/^Math\.sqrt\([\d.]+\)$/.test(v)){
+      const num = parseFloat(v.match(/\d+\.?\d*/)[0]);
+      result = Math.sqrt(num);
+    } else if(/^Math\.sin\([\d.]+\)$/.test(v)){
+      const num = parseFloat(v.match(/\d+\.?\d*/)[0]);
+      result = Math.sin(num);
+    } else if(/^Math\.cos\([\d.]+\)$/.test(v)){
+      const num = parseFloat(v.match(/\d+\.?\d*/)[0]);
+      result = Math.cos(num);
+    } else if(/^Math\.tan\([\d.]+\)$/.test(v)){
+      const num = parseFloat(v.match(/\d+\.?\d*/)[0]);
+      result = Math.tan(num);
+    } else if(/^Math\.log\([\d.]+\)$/.test(v)){
+      const num = parseFloat(v.match(/\d+\.?\d*/)[0]);
+      result = Math.log(num);
+    } else if(/^Math\.abs\([\d.]+\)$/.test(v)){
+      const num = parseFloat(v.match(/\d+\.?\d*/)[0]);
+      result = Math.abs(num);
+    } else if(/^Math\.pow\(([\d.]+), ?([\d.]+)\)$/.test(v)){
+      const matches = v.match(/Math\.pow\(([\d.]+), ?([\d.]+)\)/);
+      result = Math.pow(parseFloat(matches[1]), parseFloat(matches[2]));
+    } else {
+      document.getElementById('calcSciOut').innerText = 'Use basic arithmetic (2+2) or Math.function(number)';
+      return;
+    }
+    
+    document.getElementById('calcSciOut').innerText = 'Result: '+result;
+  }catch(e){
+    document.getElementById('calcSciOut').innerText = 'Error: Invalid expression';
+  }
+}
+let alarmId=null;
+function setAlarmA(){
+  const t = document.getElementById('alarmA').value;
+  if(!/^\d{1,2}:\d{2}$/.test(t)){ document.getElementById('alarmOut').innerText='Use HH:MM'; return; }
+  const [hh,mm]=t.split(':').map(Number); const now=new Date();
+  const target=new Date(); target.setHours(hh,mm,0,0); if(target<=now) target.setDate(target.getDate()+1);
+  const ms = target-now;
+  if(alarmId) clearTimeout(alarmId);
+  alarmId=setTimeout(()=>alert('⏰ Infinity Alarm!'),ms);
+  document.getElementById('alarmOut').innerText = 'Alarm set for '+target.toLocaleString();
+}
+function getBibleVerse(){
+  // Generate timestamp-based verse using Infinity style
+  const now = new Date();
+  const timeCode = now.getTime();
+  const verses = [
+    {ref: 'John 3:16', text: 'For God so loved the world that he gave his one and only Son, that whoever believes in him shall not perish but have eternal life.'},
+    {ref: 'Psalm 23:1', text: 'The Lord is my shepherd, I lack nothing.'},
+    {ref: 'Proverbs 3:5-6', text: 'Trust in the Lord with all your heart and lean not on your own understanding; in all your ways submit to him, and he will make your paths straight.'},
+    {ref: 'Romans 8:28', text: 'And we know that in all things God works for the good of those who love him, who have been called according to his purpose.'},
+    {ref: 'Philippians 4:13', text: 'I can do all this through him who gives me strength.'},
+    {ref: 'Jeremiah 29:11', text: 'For I know the plans I have for you, declares the Lord, plans to prosper you and not to harm you, plans to give you hope and a future.'},
+    {ref: 'Psalm 46:1', text: 'God is our refuge and strength, an ever-present help in trouble.'},
+    {ref: '1 Corinthians 13:4-5', text: 'Love is patient, love is kind. It does not envy, it does not boast, it is not proud. It does not dishonor others, it is not self-seeking, it is not easily angered, it keeps no record of wrongs.'}
+  ];
+  const idx = Math.floor((timeCode % verses.length));
+  const verse = verses[idx];
+  document.getElementById('bibleOut').innerHTML = '<strong>'+verse.ref+'</strong><br>'+verse.text+'<br><small>Time: '+now.toLocaleString()+'</small>';
+}
+function addPetSchedule(){
+  const name = document.getElementById('petName').value.trim();
+  const time = document.getElementById('petFeedTime').value.trim();
+  if(!name || !time){ document.getElementById('petOut').innerText='Enter pet name and feed time'; return; }
+  const pets = JSON.parse(STORAGE.getItem('INFINITY_PETS')||'[]');
+  pets.push({name, feedTime: time, when: Date.now()});
+  STORAGE.setItem('INFINITY_PETS', JSON.stringify(pets));
+  document.getElementById('petOut').innerText = 'Schedule set for '+name+' at '+time;
+}
+function addSeedSwap(){
+  const type = document.getElementById('seedType').value.trim();
+  const qty = document.getElementById('seedQty').value.trim();
+  if(!type || !qty){ document.getElementById('seedOut').innerText='Enter seed type and quantity'; return; }
+  const seeds = JSON.parse(STORAGE.getItem('INFINITY_SEEDS')||'[]');
+  seeds.push({type, qty, when: Date.now()});
+  STORAGE.setItem('INFINITY_SEEDS', JSON.stringify(seeds));
+  document.getElementById('seedOut').innerText = 'Listed '+qty+' of '+type+' for swap';
+}
+function logExercise(){
+  const name = document.getElementById('exerciseName').value.trim();
+  const reps = document.getElementById('exerciseReps').value.trim();
+  if(!name || !reps){ document.getElementById('exerciseOut').innerText='Enter exercise and reps'; return; }
+  const exercises = JSON.parse(STORAGE.getItem('INFINITY_EXERCISES')||'[]');
+  exercises.push({name, reps, when: Date.now()});
+  STORAGE.setItem('INFINITY_EXERCISES', JSON.stringify(exercises));
+  document.getElementById('exerciseOut').innerText = 'Logged '+name+' - '+reps;
+}
+function logEducation(){
+  const age = document.getElementById('studentAge').value.trim();
+  const topic = document.getElementById('studentTopic').value.trim();
+  if(!age || !topic){ document.getElementById('educationOut').innerText='Enter age/stage and topic'; return; }
+  const education = JSON.parse(STORAGE.getItem('INFINITY_EDUCATION')||'[]');
+  education.push({age, topic, when: Date.now()});
+  STORAGE.setItem('INFINITY_EDUCATION', JSON.stringify(education));
+  document.getElementById('educationOut').innerText = 'Progress logged for age '+age;
+}
+
+/* Marketplace */
+function createListing(){
+  const t=document.getElementById('listTitle').value;
+  const d=document.getElementById('listDesc').value;
+  const tokens=document.getElementById('listTokens').value || '0';
+  if(!t){ document.getElementById('listOut').innerText='Title needed'; return; }
+  const L = JSON.parse(STORAGE.getItem('INFINITY_LISTS')||'[]'); 
+  L.push({title:t,desc:d,tokens:tokens,when:Date.now()}); 
+  STORAGE.setItem('INFINITY_LISTS',JSON.stringify(L));
+  document.getElementById('listOut').innerText='Listing stored - '+tokens+' tokens';
+}
+function listFood(){
+  const item = document.getElementById('foodItem').value.trim();
+  const qty = document.getElementById('foodQty').value.trim();
+  if(!item || !qty){ document.getElementById('foodOut').innerText='Enter item and quantity'; return; }
+  const foods = JSON.parse(STORAGE.getItem('INFINITY_FOOD')||'[]');
+  foods.push({item, qty, when: Date.now()});
+  STORAGE.setItem('INFINITY_FOOD', JSON.stringify(foods));
+  document.getElementById('foodOut').innerText = 'Listed '+qty+' of '+item;
+}
+function saveClothingDesign(){
+  const name = document.getElementById('designName').value.trim();
+  const desc = document.getElementById('designDesc').value.trim();
+  if(!name){ document.getElementById('clothingOut').innerText='Enter design name'; return; }
+  const designs = JSON.parse(STORAGE.getItem('INFINITY_CLOTHING')||'[]');
+  designs.push({name, desc, when: Date.now()});
+  STORAGE.setItem('INFINITY_CLOTHING', JSON.stringify(designs));
+  document.getElementById('clothingOut').innerText = 'Design "'+name+'" saved';
+}
+function saveLeatherCraft(){
+  const project = document.getElementById('leatherProject').value.trim();
+  const desc = document.getElementById('leatherDesc').value.trim();
+  if(!project){ document.getElementById('leatherOut').innerText='Enter project name'; return; }
+  const crafts = JSON.parse(STORAGE.getItem('INFINITY_LEATHER')||'[]');
+  crafts.push({project, desc, when: Date.now()});
+  STORAGE.setItem('INFINITY_LEATHER', JSON.stringify(crafts));
+  document.getElementById('leatherOut').innerText = 'Project "'+project+'" shared';
+}
+function savePackageStandard(){
+  const type = document.getElementById('packageType').value.trim();
+  const dim = document.getElementById('packageDim').value.trim();
+  if(!type || !dim){ document.getElementById('packageOut').innerText='Enter type and dimensions'; return; }
+  const packages = JSON.parse(STORAGE.getItem('INFINITY_PACKAGES')||'[]');
+  packages.push({type, dimensions: dim, when: Date.now()});
+  STORAGE.setItem('INFINITY_PACKAGES', JSON.stringify(packages));
+  document.getElementById('packageOut').innerText = 'Standard registered for '+type;
+}
+function submitProductFacts(){
+  const name = document.getElementById('productName').value.trim();
+  const facts = document.getElementById('productFacts').value.trim();
+  if(!name || !facts){ document.getElementById('factsOut').innerText='Enter product name and facts'; return; }
+  const reports = JSON.parse(STORAGE.getItem('INFINITY_PRODUCT_FACTS')||'[]');
+  reports.push({name, facts, when: Date.now()});
+  STORAGE.setItem('INFINITY_PRODUCT_FACTS', JSON.stringify(reports));
+  document.getElementById('factsOut').innerText = 'Report submitted for '+name;
+}
+
+/* Social */
+function joinLocal(){
+  const z=document.getElementById('zipLocal').value.trim(); 
+  if(!z){ document.getElementById('localOut').innerText='Enter ZIP'; return; }
+  document.getElementById('localOut').innerText = 'Joined local chat '+z+' (demo mode - searching globally)';
+  openChatWithContext('local:'+z);
+}
+function generateGame(){
+  const genre = document.getElementById('gameGenre').value.trim();
+  const theme = document.getElementById('gameTheme').value.trim();
+  if(!genre || !theme){ document.getElementById('gameOut').innerText='Enter genre and theme'; return; }
+  const games = JSON.parse(STORAGE.getItem('INFINITY_GAMES')||'[]');
+  const genreCapitalized = genre.charAt(0).toUpperCase() + genre.slice(1);
+  const concept = {
+    genre, 
+    theme, 
+    title: genreCapitalized + ' of ' + theme,
+    when: Date.now()
+  };
+  games.push(concept);
+  STORAGE.setItem('INFINITY_GAMES', JSON.stringify(games));
+  document.getElementById('gameOut').innerHTML = '<strong>Generated:</strong> "'+concept.title+'"<br><small>Concept saved locally</small>';
+}
+function shareDIY(){
+  const project = document.getElementById('diyProject').value.trim();
+  const steps = document.getElementById('diySteps').value.trim();
+  if(!project || !steps){ document.getElementById('diyOut').innerText='Enter project name and steps'; return; }
+  const projects = JSON.parse(STORAGE.getItem('INFINITY_DIY')||'[]');
+  projects.push({project, steps, when: Date.now()});
+  STORAGE.setItem('INFINITY_DIY', JSON.stringify(projects));
+  document.getElementById('diyOut').innerText = 'Project "'+project+'" shared';
+}
+function requestChannel(){
+  const request = document.getElementById('channelRequest').value.trim();
+  const category = document.getElementById('channelCategory').value;
+  if(!request || !category){ document.getElementById('channelOut').innerText='Enter request and select category'; return; }
+  const channels = JSON.parse(STORAGE.getItem('INFINITY_CHANNELS')||'[]');
+  channels.push({request, category, when: Date.now(), status: 'pending'});
+  STORAGE.setItem('INFINITY_CHANNELS', JSON.stringify(channels));
+  document.getElementById('channelOut').innerText = 'Channel request submitted - Infinity will analyze and place you in a group';
+}
+
+/* Rogers Chat */
+const chatBox = document.getElementById('chatBox');
+const chatBody = document.getElementById('chatBody');
+const chatCtx = document.getElementById('chatCtx');
+function toggleChat(){ chatBox.classList.toggle('open'); }
+function sendChat(){
+  const inEl = document.getElementById('chatIn');
+  const txt = inEl.value.trim(); if(!txt) return;
+  appendChat('You',txt);
+  inEl.value='';
+  // call Rogers core if endpoint is set
+  const endpoint = STORAGE.getItem(ROGERS_KEY);
+  const auth = STORAGE.getItem(AUTH_KEY) || 'guest';
+  const ctx = chatCtx.innerText || 'Core: none';
+  if(!endpoint){ // mock reply
+    setTimeout(()=>appendChat('Rogers','(demo) Rogers running locally. Set endpoint in Settings to enable live replies.'),400);
+    saveSessionMessage('guest',txt,'(demo reply)');
+    return;
+  }
+  // call endpoint with token if available
+  fetch(endpoint, {
+    method:'POST',
+    headers:{'Content-Type':'application/json'},
+    body: JSON.stringify({ message: txt, context: ctx, auth })
+  }).then(r=>r.json()).then(res=>{
+    const text = (res && (res.reply || res.text || JSON.stringify(res))) || 'No reply';
+    appendChat('Rogers', text);
+    saveSessionMessage(auth, txt, text);
+  }).catch(err=>{
+    appendChat('Rogers','(error) '+err.message);
+  });
+}
+function appendChat(who,txt){
+  const d = document.createElement('div'); d.style.margin='8px 0'; d.innerHTML = '<strong>'+who+':</strong> '+escapeHtml(txt);
+  chatBody.appendChild(d); chatBody.scrollTop = chatBody.scrollHeight;
+}
+function openChatWithContext(name){
+  chatCtx.innerText = 'Core: '+name;
+  if(!chatBox.classList.contains('open')) chatBox.classList.add('open');
+  appendChat('Rogers','Context switched to '+name);
+}
+
+/* save chat sessions (local) */
+function saveSessionMessage(user, q, a){
+  const s = JSON.parse(STORAGE.getItem(SESSIONS_KEY)||'[]');
+  s.push({user,q,a,when:Date.now()});
+  STORAGE.setItem(SESSIONS_KEY, JSON.stringify(s));
+}
+
+/* dev toggle */
+let DEV=false;
+function toggleDev(){
+  DEV = !DEV;
+  document.getElementById('devToggle').innerText = 'Developer Mode: ' + (DEV ? 'ON' : 'OFF');
+}
+
+/* mic autopilot (listen and repeat with synthesizer) */
+let recStream=null;
+let audioCtx=null;
+let analyser=null;
+let oscillator=null;
+let gainNode=null;
+let autopilotActive=false;
+let freqDataArray=null;
+let animFrame=null;
+
+async function toggleMic(){
+  if(autopilotActive){ stopAutopilot(); return; }
+  try{
+    // Initialize audio context
+    audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    
+    // Get microphone input
+    recStream = await navigator.mediaDevices.getUserMedia({ 
+      audio: { echoCancellation: false, noiseSuppression: false, autoGainControl: false } 
+    });
+    
+    // Create analyser for pitch detection
+    const microphone = audioCtx.createMediaStreamSource(recStream);
+    analyser = audioCtx.createAnalyser();
+    analyser.fftSize = 2048;
+    analyser.smoothingTimeConstant = 0.8;
+    microphone.connect(analyser);
+    
+    freqDataArray = new Uint8Array(analyser.frequencyBinCount);
+    
+    // Create synthesizer to repeat detected sounds
+    oscillator = audioCtx.createOscillator();
+    oscillator.type = 'sine';
+    oscillator.frequency.value = 440;
+    
+    gainNode = audioCtx.createGain();
+    gainNode.gain.value = 0.3;
+    
+    oscillator.connect(gainNode);
+    gainNode.connect(audioCtx.destination);
+    oscillator.start();
+    
+    autopilotActive = true;
+    document.getElementById('micStatus').innerText='autopilot active';
+    document.getElementById('micIcon').innerText='🔴';
+    
+    // Start autopilot loop
+    autopilotLoop();
+    
+  }catch(e){
+    alert('Mic access denied or not available');
+    stopAutopilot();
+  }
+}
+
+function autopilotLoop(){
+  if(!autopilotActive) return;
+  
+  // Detect dominant frequency
+  analyser.getByteFrequencyData(freqDataArray);
+  let maxVal = 0, maxIdx = 0;
+  for(let i = 1; i < freqDataArray.length / 2; i++){
+    if(freqDataArray[i] > maxVal){ maxVal = freqDataArray[i]; maxIdx = i; }
+  }
+  
+  // Check if signal is strong enough
+  if(maxVal > 0){
+    const dB = 20 * Math.log10(maxVal / 255);
+    if(dB > -60){
+    // Convert bin to frequency
+    const freq = (maxIdx * audioCtx.sampleRate / 2) / (freqDataArray.length / 2);
+    
+      // Only use frequencies in human voice/music range
+      if(freq >= 50 && freq <= 4000){
+        oscillator.frequency.setTargetAtTime(freq, audioCtx.currentTime, 0.05);
+      }
+    }
+  }
+  
+  animFrame = requestAnimationFrame(autopilotLoop);
+}
+
+function stopAutopilot(){
+  autopilotActive = false;
+  
+  if(animFrame){ cancelAnimationFrame(animFrame); animFrame = null; }
+  
+  if(oscillator){ 
+    try{ oscillator.stop(); }catch(e){} 
+    oscillator.disconnect(); 
+    oscillator = null; 
+  }
+  if(gainNode){ gainNode.disconnect(); gainNode = null; }
+  if(analyser){ analyser.disconnect(); analyser = null; }
+  
+  if(recStream){
+    recStream.getTracks().forEach(track => track.stop());
+    recStream = null;
+  }
+  
+  if(audioCtx){ audioCtx.close(); audioCtx = null; }
+  
+  document.getElementById('micStatus').innerText='idle';
+  document.getElementById('micIcon').innerText='🎤';
+}
+
+/* helpers */
+function escapeHtml(s){ return (s||'').toString().replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+
+/* init UI state */
+(function init(){
+  const user = STORAGE.getItem('INFINITY_USER') || 'Guest';
+  document.getElementById('signedUser').innerText = user==='Guest' ? 'Guest' : user.split('@')[0];
+  const ep = STORAGE.getItem(ROGERS_KEY) || '';
+  if(ep) document.getElementById('rogersSaved').innerText = 'Rogers endpoint set';
+  // interactions: close sidebar by clicking outside
+  document.addEventListener('click', (e)=>{
+    if(!sidebar.contains(e.target) && !menuBtn.contains(e.target) && sidebar.classList.contains('open')) sidebar.classList.remove('open');
+  });
+})();
+</script>
+</body>
+</html>

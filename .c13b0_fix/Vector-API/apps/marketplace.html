@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Infinity Marketplace</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">Infinity Marketplace</div>
+    <a href="../portal.html" style="font-size:.55rem;">← Back to Portal</a>
+  </header>
+
+  <main class="layout">
+    <section class="card">
+      <h2>List an Item</h2>
+      <p class="muted">This is the Infinity version – no eBay required. Listing gives tokens.</p>
+      <label>Title</label>
+      <input id="title" placeholder="Ancient coin, emerald, frog bowl...">
+      <label>Description</label>
+      <input id="desc" placeholder="Real description, real photos, no fakery.">
+      <label>Price (USD)</label>
+      <input id="price" type="number" placeholder="25.00">
+      <button class="btn" id="listBtn">List & earn</button>
+      <p class="muted" style="margin-top:.4rem;">Each listing: +5 INF</p>
+    </section>
+
+    <section class="card">
+      <h2>Active Listings</h2>
+      <div id="listingsBox" class="history">No items yet.</div>
+    </section>
+
+    <div id="infinity-footer"></div>
+  </main>
+
+  <script type="module">
+    import {
+      getCurrentUser,
+      ensureWallet,
+      reward,
+      renderInfinityFooter,
+      logActivity
+    } from '../core/infinity-core.js';
+
+    const user = getCurrentUser();
+    if (!user) {
+      window.location.href = "../login.html";
+    }
+    ensureWallet(user);
+
+    const LISTINGS_KEY = "infinity:market:listings";
+
+    function getListings() {
+      const raw = localStorage.getItem(LISTINGS_KEY);
+      return raw ? JSON.parse(raw) : [];
+    }
+    function setListings(list) {
+      localStorage.setItem(LISTINGS_KEY, JSON.stringify(list));
+    }
+
+    function renderListings() {
+      const box = document.getElementById("listingsBox");
+      const list = getListings();
+      box.innerHTML = "";
+      if (!list.length) {
+        box.textContent = "No items yet.";
+        return;
+      }
+      list.forEach(item => {
+        const p = document.createElement("p");
+        p.innerHTML = `<b>${item.title}</b> — $${item.price} <br><span style="opacity:.6;">${item.desc}</span><br><span style="opacity:.4;">by ${item.user}</span>`;
+        box.appendChild(p);
+      });
+    }
+
+    document.getElementById("listBtn").onclick = () => {
+      const title = document.getElementById("title").value.trim();
+      const desc = document.getElementById("desc").value.trim();
+      const price = document.getElementById("price").value.trim();
+      if (!title) {
+        alert("Add a title.");
+        return;
+      }
+      const list = getListings();
+      list.unshift({
+        title,
+        desc,
+        price: price || "0.00",
+        user: user.name || "Infinity user",
+        ts: new Date().toISOString()
+      });
+      setListings(list);
+      const w = reward(user, "marketplace-list", 5);
+      renderListings();
+      logActivity(user, "marketplace-list");
+      alert("Listed and rewarded. Balance: " + w.tokens + " INF");
+    };
+
+    renderListings();
+    renderInfinityFooter();
+  </script>
+</body>
+</html>

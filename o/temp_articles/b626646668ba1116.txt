@@ -1,0 +1,86 @@
+TERMS: quantum, lattice, wavefunction
+COLORS: blue, orange, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/y261JDFM09f/LlAehwdFwnKOPVg</id>
+  <title>arXiv Query: search_query=all:quantum AND all:lattice AND all:wavefunction&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:05:59Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:lattice+AND+all:wavefunction)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>553</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2401.14004v3</id>
+    <title>Lattice-induced wavefunction effects on trapped superfluids</title>
+    <updated>2024-08-02T07:23:55Z</updated>
+    <link href="https://arxiv.org/abs/2401.14004v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.14004v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Wavefunction effects in uncorrelated systems are characterized by the Berry curvature and quantum metric. Beyond those, we propose gauge-independent tensors describing Bloch wavefunction effects on local interaction between correlated particles. We derive an effective hydrodynamic theory for ultracold bosons in optical lattices. Ground states and collective modes of superfluids in isotropic harmonic traps are solved for highly symmetric lattices. In a dynamic process, the wavefunction effects are featured by the eigenfrequency, amplitude, and phase shift of an excited breathing mode and can be observed in experiments. We also give a tight-binding model of a bipartite square lattice with nontrivial wavefunction effects, where results are estimated with typical experimental parameters. Our discovery advances the connections between the modern band theory and quantum many-body physics.</summary>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-25T08:04:47Z</published>
+    <arxiv:comment>16 pages</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.quant-gas"/>
+    <arxiv:journal_ref>Phys. Rev. A 110, 033310 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Yeyang Zhang</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.110.033310</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.110.033310" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2004.12205v2</id>
+    <title>Continuum limit of lattice quasielectron wavefunctions</title>
+    <updated>2021-02-02T19:41:03Z</updated>
+    <link href="https://arxiv.org/abs/2004.12205v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2004.12205v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Trial states describing anyonic quasiholes in the Laughlin state were found early on, and it is therefore natural to expect that one should also be able to create anyonic quasielectrons. Nevertheless, the existing trial wavefunctions for quasielectrons show behaviors that are not compatible with the expected topological properties or their construction involves ad hoc elements. It was shown, however, that for lattice fractional quantum Hall systems, it is possible to find a relatively simple quasielectron wavefunction that has all the expected properties [New J. Phys. 20, 033029 (2018)]. This naturally poses the question: what happens to this wavefunction in the continuum limit? Here we demonstrate that, although one obtains a finite continuum wavefunction when the quasielectron is on top of a lattice site, such a limit of the lattice quasielectron does not exist in general. In particular, if the quasielectron is put anywhere else than on a lattice site, the lattice wavefunction diverges when the continuum limit is approached. The divergence can be removed by projecting the state on the lowest Landau level, but we find that the projected state does also not have the properties expected for anyonic quasielectrons. We hence conclude that the lattice quasielectron wavefunction does not solve the difficulty of finding trial states for anyonic quasielectrons in the continuum.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-04-25T18:19:30Z</published>
+    <arxiv:comment>20 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>J. Stat. Mech. (2021) 083101</arxiv:journal_ref>
+    <author>
+      <name>Aniket Patra</name>
+    </author>
+    <author>
+      <name>Birgit Hillebrecht</name>
+    </author>
+    <author>
+      <name>Anne E. B. Nielsen</name>
+    </author>
+    <arxiv:doi>10.1088/1742-5468/ac0f63</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1742-5468/ac0f63" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2101.00111v3</id>
+    <title>Simulating Effective QED on Quantum Computers</title>
+    <updated>2022-01-07T04:00:34Z</updated>
+    <link href="https://arxiv.org/abs/2101.00111v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2101.00111v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In recent years simulations of chemistry and condensed materials has emerged as one of the preeminent applications of quantum computing, offering an exponential speedup for the solution of the electronic structure for certain strongly correlated electronic systems. To date, most treatments have ignored the question of whether relativistic effects, which are described most generally by quantum electrodynamics (QED), can also be simulated on a quantum computer in polynomial time. Here we show that effective QED, which is equivalent to QED to second order in perturbation theory, can be simulated in polynomial time under reasonable assumptions while properly treating all four components of the wavefunction of the fermionic field. In particular, we provide a detailed analysis of such simulations in position and momentum basis using Trotter-Suzuki formulas. We find that the number of $T$-gates needed to perform such simulations on a $3D$ lattice of $n_s$ sites scales at worst as $O(n_s^3/ε)^{1+o(1)}$ in the thermodynamic limit for position basis simulations and $O(n_s^{4+2/3}/ε)^{1+o(1)}$ in momentum basis. We also find that qubitization scales slightly better with a worst case scaling of $\widetilde{O}(n_s^{2+2/3}/ε)$ for lattice eQED and complications in the prepare circuit leads to a slightly worse scaling in momentum basis of $\widetilde{O}(n_s^{5+2/3}/ε)$. We further provide concrete gate counts for simulating a relativistic version of the uniform electron gas that show challenging problems can be simulated using fewer than $10^{13}$ non-Clifford operations and also provide a detailed discussion of how to prepare multi-reference configuration interaction states in effective QED which can provide a reasonable initial guess for the ground state. Finally, we estimate the planewave cutoffs needed to accurately simulate heavy elements such as gold.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-12-31T23:55:06Z</published>
+    <arxiv:comment>44 pages, 11 figures; Adds more citations and additional clarification throughout the manuscript, format changes for Quantum journal, typos fixed and equations reformatted</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Quantum 6, 622 (2022)</arxiv:journal_ref>
+    <author>
+      <name>Torin F. Stetina</name>
+    </author>
+    <author>
+      <name>Anthony Ciavarella</name>
+    </author>
+    <author>
+      <name>Xiaosong Li</name>
+    </author>
+    <author>
+      <name>Nathan Wiebe</name>
+    </author>
+    <arxiv:doi>10.22331/q-2022-01-18-622</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.22331/q-2022-01-18-622" title="doi"/>
+  </entry>
+</feed>

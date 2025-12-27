@@ -1,0 +1,58 @@
+TERMS: vapor, resonance, neutrino
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/pZRLglXIdxIt8y3GXJGkOXt8b0w</id>
+  <title>arXiv Query: search_query=all:vapor AND all:resonance AND all:neutrino&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:26:20Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:vapor+AND+(all:resonance+AND+all:neutrino)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/nucl-ex/0106013v1</id>
+    <title>Search for Nuclear Reactions in Water Molecules</title>
+    <updated>2001-06-14T15:48:04Z</updated>
+    <link href="https://arxiv.org/abs/nucl-ex/0106013v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/nucl-ex/0106013v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  A possibility for molecular-nuclear transitions to occur was recently predicted for some few-atomic systems. Among others, the molecule of ordinary water was shown to be a candidate for this effect due to a presence of (1-, 4.522 MeV) resonance in 18Ne nucleus. A search for traces of nuclear reactions was carried out for condenced and vaporous phases of water, with the use of low-background annihilation spectrometry. The measurements were performed under conventional conditions and under conditions of the Baksan Neutrino Observatory.</summary>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2001-06-14T15:48:04Z</published>
+    <arxiv:comment>4 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="nucl-ex"/>
+    <arxiv:journal_ref>Phys.Lett. B 522 (2001) 222-226</arxiv:journal_ref>
+    <author>
+      <name>V. B. Belyaev</name>
+    </author>
+    <author>
+      <name>A. K. Motovilov</name>
+    </author>
+    <author>
+      <name>M. B. Miller</name>
+    </author>
+    <author>
+      <name>A. V. Sermyagin</name>
+    </author>
+    <author>
+      <name>I. V. Kuznetzov</name>
+    </author>
+    <author>
+      <name>Yu. G. Sobolev</name>
+    </author>
+    <author>
+      <name>A. A. Smolnikov</name>
+    </author>
+    <author>
+      <name>A. A. Klimenko</name>
+    </author>
+    <author>
+      <name>S. B. Osetrov</name>
+    </author>
+    <author>
+      <name>S. I. Vasiliev</name>
+    </author>
+    <arxiv:doi>10.1016/S0370-2693(01)01260-6</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/S0370-2693(01)01260-6" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,71 @@
+TERMS: fusion, wavefunction, plasma
+COLORS: green, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ecZ14/7GGH6CJeFTq5SfFaGsSac</id>
+  <title>arXiv Query: search_query=all:fusion AND all:wavefunction AND all:plasma&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:21:30Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:fusion+AND+(all:wavefunction+AND+all:plasma)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>6</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1303.6299v2</id>
+    <title>Analytic Wavefunctions for Collective Modes in Fractional Quantum Hall Fluids</title>
+    <updated>2013-04-12T20:10:50Z</updated>
+    <link href="https://arxiv.org/abs/1303.6299v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1303.6299v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show model wavefunctions for neutral collective modes in fractional quantum Hall (FQH) states have simple analytic forms obtained from judicially reducing the powers of selected pairs in the ground state Jastrow factor. This scheme of "pair excitations" works for the magneto-roton modes of single-component Abelian and non-Abeliean FQH states, as well as neutral fermion mode for the Moore-Read (MR) state. The analytic wavefunctions enable computations in the thermodynamic limit previous inaccessible to numerics, and the long wavelength limit of the neutral energy gap of the magneto-roton modes can be interpreted as fusion of charges in two-dimensional plasma picture, extending the plasma analogy to neutral excitations. A lattice diagrammatic method of representing these many-body wavefunctions and FQH elementary excitations is also presented.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-03-25T20:04:48Z</published>
+    <arxiv:comment>4+ pages, 4 figs, revised the abstract and introduction, slight polishing of the main text, reference added</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <author>
+      <name>Bo Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1306.6614v1</id>
+    <title>Analytic Wavefunctions for Neutral Bulk Excitations in Fractional Quantum Hall Fluids</title>
+    <updated>2013-06-27T19:25:39Z</updated>
+    <link href="https://arxiv.org/abs/1306.6614v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1306.6614v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show the model wavefunctions for the neutral collective modes in fractional quantum Hall (FQH) states have simple analytic forms obtained from judicially reducing the powers of selected pairs in the ground state Jastrow factor. This scheme of "pair excitations" works for the magneto-roton modes of single-component Abelian and non-Abeliean FQH states, as well as the neutral fermion mode for the Moore-Read (MR) state. The analytic wavefunctions allow us to compute the "quadrupole gap" of the magneto-roton mode in the thermodynamic limit, which was previously inaccessible to the numerics. The quadrupole gap is related to the fusion of the charges in the two-dimensional plasma picture, extending the plasma analogy to neutral excitations. A lattice diagrammatic method of representing these many-body wavefunctions and FQH elementary excitations is also presented.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-06-27T19:25:39Z</published>
+    <arxiv:comment>an expanded version of arXiv:1303.6299, published in PRB</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Phys. Rev. B 87, 245132 (2013)</arxiv:journal_ref>
+    <author>
+      <name>Bo Yang</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.87.245132</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.87.245132" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1703.10529v1</id>
+    <title>Partial and Total Dielectronic Recombination Rate Coefficients for W$^{55+}$ to W$^{38+}$</title>
+    <updated>2017-03-30T15:29:43Z</updated>
+    <link href="https://arxiv.org/abs/1703.10529v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1703.10529v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Dielectronic recombination (DR) is the dominant mode of recombination in magnetically confined fusion plasmas for intermediate to low-charged ions of W. Complete, final-state resolved partial isonuclear W DR rate coefficient data is required for detailed collisional-radiative modelling for such plasmas in preparation for the upcoming fusion experiment ITER. To realize this requirement, we continue {\it The Tungsten Project} by presenting our calculations for tungsten ions W$^{55+}$ to W$^{38+}$. As per our prior calculations for W$^{73+}$ to W$^{56+}$, we use the collision package {\sc autostructure} to calculate partial and total DR rate coefficients for all relevant core-excitations in intermediate coupling (IC) and configuration average (CA) using $κ$-averaged relativistic wavefunctions. Radiative recombination (RR) rate coefficients are also calculated for the purpose of evaluating ionization fractions. Comparison of our DR rate coefficients for W$^{46+}$ with other authors yields agreement to within 7-19\% at peak abundance verifying the reliability of our method. Comparison of partial DR rate coefficients calculated in IC and CA yield differences of a factor $\sim{2}$ at peak abundance temperature, highlighting the importance of relativistic configuration mixing. Large differences are observed between ionization fractions calculated using our recombination rate coefficient data and that of Pütterich~\etal [Plasma Phys. and Control. Fusion 50 085016, (2008)]. These differences are attributed to deficiencies in the average-atom method used by the former to calculate their data.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-03-30T15:29:43Z</published>
+    <arxiv:comment>Accepted for publication in Journal of Physics B. Manuscript contains 21 pages, 30 figures, and 7 tables</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>S. P. Preval</name>
+    </author>
+    <author>
+      <name>N. R. Badnell</name>
+    </author>
+    <author>
+      <name>M. G. O'Mullane</name>
+    </author>
+    <arxiv:doi>10.1088/1361-6455/aa6a3c</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1361-6455/aa6a3c" title="doi"/>
+  </entry>
+</feed>

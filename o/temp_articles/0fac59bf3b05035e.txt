@@ -1,0 +1,73 @@
+TERMS: lattice, entropy
+COLORS: orange, red
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/vcM7s5t66uyjO5GPi+/dBtwdCb0</id>
+  <title>arXiv Query: search_query=all:lattice AND all:entropy&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T00:57:27Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+all:entropy&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>3491</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/hep-lat/0309143v1</id>
+    <title>Application of Maximum Entropy Method to Lattice Field Theory with a Topological Term</title>
+    <updated>2003-09-22T06:54:31Z</updated>
+    <link href="https://arxiv.org/abs/hep-lat/0309143v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-lat/0309143v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In Monte Carlo simulation, lattice field theory with a $θ$ term suffers from the sign problem.
+ This problem can be circumvented by Fourier-transforming the topological charge distribution $P(Q)$. Although this strategy works well for small lattice volume, effect of errors of
+ $P(Q)$ becomes serious with increasing volume and prevents one from studying the phase structure. This is called flattening. As an alternative approach, we apply the maximum entropy method (MEM) to the Gaussian $P(Q)$. It is found that the flattening could be much improved by use of the MEM.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-09-22T06:54:31Z</published>
+    <arxiv:comment>talk at Lattice 2003 (topology), 3 pages with 3 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>M. Imachi</name>
+    </author>
+    <author>
+      <name>Y. Shinno</name>
+    </author>
+    <author>
+      <name>H. Yoneyama</name>
+    </author>
+    <arxiv:doi>10.1016/S0920-5632(03)02680-X</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/S0920-5632(03)02680-X" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1705.10474v2</id>
+    <title>Entanglement Entropy in Pure $Z_2$ Gauge Lattices</title>
+    <updated>2017-08-20T05:31:33Z</updated>
+    <link href="https://arxiv.org/abs/1705.10474v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1705.10474v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show that the Hilbert space of physical states on a pure $Z_2$ gauge lattice in $1 + 1$ and $2 + 1$ dimensions is geometrically separable if the fundamental physical degrees of freedom are taken to be the plaquettes. This results in a physical entanglement entropy that is not affected by gauge fixing. We introduce a lattice model that is physically equivalent to the original and whose entanglement entropy, calculated using link degrees of freedom, is the same as the entanglement entropy calculated using physical states. We also show that, for non-physical gauge link states, entanglement entropy quantifies constraints between gauge choices in plaquettes adjacent to the boundary.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-05-30T06:57:41Z</published>
+    <arxiv:comment>Added some clarification statements, a section on topological entanglement entropy, a link to some of the simulation code mentioned in Section 4, and a couple of references. Also some rewording of the introduction and the conclusion</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Mihael Hategan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-lat/0510026v1</id>
+    <title>Remarks on the Maximum Entropy Method applied to finite temperature lattice QCD</title>
+    <updated>2005-10-05T01:10:05Z</updated>
+    <link href="https://arxiv.org/abs/hep-lat/0510026v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-lat/0510026v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We make remarks on the Maximum Entropy Method (MEM) for studies of the spectral function of hadronic correlators in finite temperature lattice QCD. We discuss the virtues and subtlety of MEM in the cases that one does not have enough number of data points such as at finite temperature. Taking these points into account, we suggest several tests which one should examine to keep the reliability for the results, and also apply them using mock and lattice QCD data.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-10-05T01:10:05Z</published>
+    <arxiv:comment>6 pages, 3 figures, poster presented at Lattice 2005 (Nonzero temperature and density)</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>PoS LAT2005 (2005) 154</arxiv:journal_ref>
+    <author>
+      <name>Takashi Umeda</name>
+    </author>
+    <author>
+      <name>Hideo Matsufuru</name>
+    </author>
+  </entry>
+</feed>

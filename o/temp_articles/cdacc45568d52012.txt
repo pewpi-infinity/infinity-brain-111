@@ -1,0 +1,80 @@
+TERMS: lattice, fusion, superconductivity
+COLORS: orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/6RS+ZQl7HvyCiY81V3sOq1Iz3rA</id>
+  <title>arXiv Query: search_query=all:lattice AND all:fusion AND all:superconductivity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:13:36Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:fusion+AND+all:superconductivity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>8</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1306.1528v1</id>
+    <title>Superconductivity with intrinsic topological order induced by pure Coulomb interaction and time-reversal symmetry breaking</title>
+    <updated>2013-06-06T19:59:34Z</updated>
+    <link href="https://arxiv.org/abs/1306.1528v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1306.1528v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recently, in certain flat band lattice systems at commensurate fillings, fractional quantum Hall states have been found -- which have anyonic excitations. We study such systems away from commensuration, i.e. the ground state of an anyon gas in such a system. The presence of the underlying lattice allows access to an entirely new regime where the anyon kinetic energy can be larger than their interaction energy. Within the flux-attachment approach, using mean-field then adding fluctuations, we find several possible superfluid states. Two have intrinsic topological order, i.e. fractionalized quasiparticles with a fusion structure of (Z_2)^4 and (Z_8)^2 respectively, and a third has no fractionalized excitations similar to a BCS-type state. This represents a mechanism for superconductivity driven purely by strong repulsion and complex hopping of electrons.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-06-06T19:59:34Z</published>
+    <arxiv:comment>8 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Phys. Rev. B 88, 195117 (2013)</arxiv:journal_ref>
+    <author>
+      <name>Evelyn Tang</name>
+    </author>
+    <author>
+      <name>Xiao-Gang Wen</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.88.195117</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.88.195117" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2103.01244v2</id>
+    <title>Disorder-induced currents as signatures of chiral superconductivity</title>
+    <updated>2021-09-04T19:39:42Z</updated>
+    <link href="https://arxiv.org/abs/2103.01244v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.01244v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Chiral superconductors are expected to carry a spontaneous, chiral and perpetual current along the sample edge. However, despite the availability of several candidate materials, such a current has not been observed in experiments. In this article, we suggest an alternative probe in the form of impurity-induced chiral currents. We first demonstrate that a single non-magnetic impurity induces an encircling chiral current. Its direction depends on the chirality of the order parameter and the sign of the impurity potential. Building on this observation, we consider the case of multiple impurities, e.g., realized as adatoms deposited on the surface of a candidate chiral superconductor. We contrast the response that is obtained in two cases: (a) when the impurities are all identical in sign and (b) when the impurities have mixed positive and negative signs. The former leads to coherent currents within the sample, arising from the fusion of individual current loops. The latter produces loops of random chirality that lead to incoherent local currents. These two scenarios can be distinguished by measuring the induced magnetic field using recent probes such as diamond NV centres. We argue that impurity-induced currents may be easier to observe than edge currents, as they can be tuned by varying impurity strength and concentration. We demonstrate these results using a toy model for $p_x \pm i p_y$ superconductivity on a square lattice. We develop an improved scheme for Bogoliubov deGennes (BdG) simulations where both the order parameter as well as the magnetic field are determined self-consistently.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-01T19:01:05Z</published>
+    <arxiv:comment>8 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <arxiv:journal_ref>Phys. Rev. B 104, 094505 (2021)</arxiv:journal_ref>
+    <author>
+      <name>Madhuparna Karmakar</name>
+    </author>
+    <author>
+      <name>R. Ganesh</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.104.094505</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.104.094505" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.02893v2</id>
+    <title>Doping lattice non-abelian quantum Hall states</title>
+    <updated>2025-05-13T00:57:36Z</updated>
+    <link href="https://arxiv.org/abs/2505.02893v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.02893v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study quantum phases of a fluid of mobile charged non-abelian anyons, which arise upon doping the lattice Moore-Read quantum Hall state at lattice filling $ν= 1/2$ and its generalizations to the Read-Rezayi ($\mathrm{RR}_k$) sequence at $ν= k/(k+2)$. In contrast to their abelian counterparts, non-abelian anyons present unique challenges due to their non-invertible fusion rules and non-abelian braiding structures. We address these challenges using a Chern-Simons-Ginzburg-Landau (CSGL) framework that incorporates the crucial effect of energy splitting between different anyon fusion channels at nonzero dopant density. For the Moore-Read state, we show that doping the charge $e/4$ non-abelion naturally leads to a fully gapped charge-$2$ superconductor without any coexisting topological order. The chiral central charge of the superconductor depends on details of the interactions determining the splitting of anyon fusion channels. For general $\mathrm{RR}_k$ states, our analysis of states obtained by doping the basic non-abelion $a_0$ with charge $e/(k+2)$ reveals a striking even/odd pattern in the Read-Rezayi index $k$. We develop a general physical picture for anyon-driven superconductivity based on charge-flux unbinding, and show how it relates to the CSGL description of doped abelian quantum Hall states. Finally, as a bonus, we use the CSGL formalism to describe transitions between the $\mathrm{RR}_k$ state and a trivial period-$(k+2)$ CDW insulator at fixed filling, driven by the gap closure of the fundamental non-abelian anyon $a_0$. Notably, for $k=2$, this predicts a period-4 CDW neighboring the Moore-Read state at half-filling, offering a potential explanation of recent numerical observations in models of twisted MoTe$_2$.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-05T18:00:00Z</published>
+    <arxiv:comment>32 pages, 2 figures, 14 pages of appendices. v2: added refs + fixed typos</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <author>
+      <name>Zhengyan Darius Shi</name>
+    </author>
+    <author>
+      <name>Carolyn Zhang</name>
+    </author>
+    <author>
+      <name>T. Senthil</name>
+    </author>
+  </entry>
+</feed>

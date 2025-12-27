@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<!-- 🐶 PEWPI SIGN-IN (GLOBAL) -->
+<div id="pewpi-gate">
+  <h1>🐶 pewpi</h1>
+  <input id="pewpi_user" placeholder="Handle">
+  <button onclick="pewpiUnlock()">Enter</button>
+</div>
+<script>
+function pewpiUnlock(){
+  localStorage.setItem("pewpi_user", document.getElementById("pewpi_user").value);
+  document.getElementById("pewpi-gate").style.display="none";
+  document.body.classList.add("pewpi-live");
+}
+if(localStorage.getItem("pewpi_user")){
+  document.addEventListener("DOMContentLoaded",()=>{
+    const g=document.getElementById("pewpi-gate");
+    if(g) g.style.display="none";
+    document.body.classList.add("pewpi-live");
+  });
+}
+</script>
+<style>
+#pewpi-gate{position:fixed;inset:0;background:#0e0e0e;color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:9999}
+#pewpi-gate button{background:#ff69b4;border:0;padding:10px 18px}
+body:not(.pewpi-live)>*:not(#pewpi-gate){filter:blur(6px);pointer-events:none}
+</style>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>∞ h</title>
+
+<style>
+    body {
+        margin: 0;
+        overflow: hidden;
+        background: #000;
+        font-family: Arial, sans-serif;
+        color: #0ff;
+    }
+
+    #overlay {
+        position: fixed;
+        top: 0; left: 0;
+        width: 100%;
+        padding: 10px 20px;
+        background: rgba(0,0,0,0.25);
+        backdrop-filter: blur(6px);
+        color: #0ff;
+        font-size: 20px;
+        letter-spacing: 1px;
+        z-index: 10;
+        box-shadow: 0 0 20px #0ff;
+    }
+</style>
+</head>
+
+<body>
+    <div id="overlay">VECTOR VISION — Neural Synapse Map</div>
+    <canvas id="cv"></canvas>
+
+<script>
+// ======================
+// VectorVision Engine v1
+// ======================
+const canvas = document.getElementById("cv");
+const ctx = canvas.getContext("2d");
+resizeCanvas();
+
+// ------- Node Specs ------
+const NODE_COUNT = 140;
+const NODES = [];
+const COLORS = ["#0ff","#0f8","#08f","#9f0","#f0f"];
+
+// ------- Node Object -----
+class Node {
+    constructor() {
+        this.reset();
+    }
+    reset() {
+        this.x = Math.random() * canvas.width;
+        this.y = Math.random() * canvas.height;
+        this.z = Math.random() * 1.4 + 0.3; // depth
+        this.vx = (Math.random() - 0.5) * 0.6;
+        this.vy = (Math.random() - 0.5) * 0.6;
+        this.color = COLORS[Math.floor(Math.random() * COLORS.length)];
+        this.charge = 0;
+    }
+    update() {
+        this.x += this.vx;
+        this.y += this.vy;
+        if(this.x<0||this.x>canvas.width||this.y<0||this.y>canvas.height){
+            this.reset();
+        }
+        // random firing pulse
+        if(Math.random() < 0.015){ this.charge = 1; }
+        if(this.charge > 0){ this.charge -= 0.04; }
+    }
+    draw() {
+        const size = 2.5 * this.z;
+        ctx.beginPath();
+        ctx.arc(this.x, this.y, size + this.charge*6, 0, Math.PI*2);
+        ctx.fillStyle = this.color;
+        ctx.shadowBlur = 20 * this.z;
+        ctx.shadowColor = this.color;
+        ctx.fill();
+    }
+}
+
+// ------- initialize nodes -----
+for(let i=0; i<NODE_COUNT; i++) NODES.push(new Node());
+
+// ------- draw loop -----
+function animate(){
+    ctx.clearRect(0,0,canvas.width,canvas.height);
+
+    // draw lines (connections)
+    for(let a=0; a<NODE_COUNT; a++){
+        for(let b=a+1; b<NODE_COUNT; b++){
+            const dx = NODES[a].x - NODES[b].x;
+            const dy = NODES[a].y - NODES[b].y;
+            const dist = Math.sqrt(dx*dx+dy*dy);
+
+            if(dist < 120){
+                const strength = 1 - (dist / 120);
+                ctx.strokeStyle = `rgba(0,255,255,${strength*0.35})`;
+                ctx.lineWidth = strength * 2;
+                ctx.beginPath();
+                ctx.moveTo(NODES[a].x, NODES[a].y);
+                ctx.lineTo(NODES[b].x, NODES[b].y);
+                ctx.stroke();
+            }
+        }
+    }
+
+    // update + draw nodes
+    for(const n of NODES){
+        n.update();
+        n.draw();
+    }
+
+    requestAnimationFrame(animate);
+}
+animate();
+
+// ------- Auto-resize -----
+window.addEventListener("resize", resizeCanvas);
+function resizeCanvas(){
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+}
+
+// -------------------------
+// Placeholder intelligence:
+// listens (future module)
+// -------------------------
+window.VectorVision = {
+    listen(inputText){
+        // Later: route this into your PewPi brain
+        console.log("VectorVision heard:", inputText);
+        return "ok";
+    }
+};
+</script>
+
+</body>
+</html>
+<!-- C14_TOKEN_PANEL_START -->
+<div style="font-family:monospace;background:#0b0f14;color:#e6edf3;padding:16px;margin:16px 0">
+  <div style="font-size:2.4em;color:#ffd700;text-align:center">
+    🧱🍄⭐ Token Value: 22
+  </div>
+
+  <p style="text-align:center">
+    🧱 Base &nbsp; 🍄 Growth &nbsp; ⭐ Star Power
+  </p>
+
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="get" target="_blank">
+    <input type="hidden" name="cmd" value="_xclick">
+    <input type="hidden" name="business" value="watsonkris61@gmail.com">
+    <input type="hidden" name="item_name" value="h Token">
+    <input type="hidden" name="amount" value="22">
+    <input type="hidden" name="currency_code" value="USD">
+    <button style="width:100%;padding:14px;font-size:1em">
+      Pay $22 via PayPal
+    </button>
+  </form>
+
+  <p style="font-size:0.75em;text-align:center;margin-top:10px">
+    Repository owner: pewpi-infinity<br/>
+    Contact: marvaseater@gmail.com<br/>
+    Settlement handled externally via PayPal
+  </p>
+</div>
+<!-- C14_TOKEN_PANEL_END -->

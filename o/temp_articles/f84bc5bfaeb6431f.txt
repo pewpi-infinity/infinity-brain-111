@@ -1,0 +1,90 @@
+TERMS: quantum, superconductivity, wavefunction
+COLORS: blue, green, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/sxXwyy3j3g06P53QwauhOBADlwc</id>
+  <title>arXiv Query: search_query=all:quantum AND all:superconductivity AND all:wavefunction&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:07:52Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:superconductivity+AND+all:wavefunction)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>239</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1709.08726v1</id>
+    <title>Standard Temperature and Pressure Superconductivity</title>
+    <updated>2017-09-25T21:15:39Z</updated>
+    <link href="https://arxiv.org/abs/1709.08726v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1709.08726v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Superconductivity at standard temperature and pressure is far from the extreme conditions where new fundamental laws of physics are expected to arise. Yet it is widely believed that the Landau-Ginzburg-Wilson-Fisher paradigm of broken symmetry and renormalization does not give a satisfactory account of the phenomenon. Almost a decade ago, we used the Bardeen-Cooper-Shrieffer wavefunction to show that superconductors have topological order. Here we report progress using topological order to look for standard temperature and pressure superconductivity.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-09-25T21:15:39Z</published>
+    <arxiv:comment>2 pages, 1 figure, 2nd International Workshop Towards Room Temperature Superconductivity held 2017 at Institute for Quantum Studies, Chapman University</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Quantum Stud.: Math. Found. (2018) 5:137-140</arxiv:journal_ref>
+    <author>
+      <name>Noah Bray-Ali</name>
+    </author>
+    <arxiv:doi>10.1007/s40509-017-0139-5</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s40509-017-0139-5" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2206.14531v3</id>
+    <title>Testing spontaneous wavefunction collapse with quantum electromechanics</title>
+    <updated>2022-08-09T10:28:16Z</updated>
+    <link href="https://arxiv.org/abs/2206.14531v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2206.14531v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Theories of spontaneous wavefunction collapse offer an explanation of the possible breakdown of quantum mechanics for macroscopic systems. However, the challenge of resolving predicted collapse signatures above background noise has precluded conclusive tests. Here, we propose to overcome this challenge using a superconducting qubit to precisely readout the collapse-induced heating of a mechanical resonator. We show that the ability to strongly couple the qubit to the resonator can enable both fast measurements and initialization of the qubit close to its ground state. Combined this greatly suppresses the influence of quasiparticle heating of the qubit, which we predict to be the dominant noise source. We find that bulk acoustic wave resonances can amplify the collapse induced heating due to their ultra-low dissipation. Together, this could enable a conclusive test of collapse models.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-06-29T10:56:00Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Quantum Science and Technology 8 (4), 045003 (2023)</arxiv:journal_ref>
+    <author>
+      <name>Germain Tobar</name>
+    </author>
+    <author>
+      <name>Stefan Forstner</name>
+    </author>
+    <author>
+      <name>Arkady Fedorov</name>
+    </author>
+    <author>
+      <name>Warwick P. Bowen</name>
+    </author>
+    <arxiv:doi>10.1088/2058-9565/ace2e5</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/2058-9565/ace2e5" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2501.04264v2</id>
+    <title>Quantum Machine Learning of Molecular Energies with Hybrid Quantum-Neural Wavefunction</title>
+    <updated>2025-09-09T10:05:47Z</updated>
+    <link href="https://arxiv.org/abs/2501.04264v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2501.04264v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Quantum computational chemistry holds great promise for simulating molecular systems more efficiently than classical methods by leveraging quantum bits to represent molecular wavefunctions. However, current implementations face significant limitations in accuracy due to hardware noise and algorithmic constraints. To overcome these challenges, we introduce a hybrid framework that learns molecular wavefunction using a combination of an efficient quantum circuit and a deep neural network. This approach enhances computational efficiency and accuracy, surpassing traditional quantum computational chemistry methods. Numerical benchmarking on molecular systems shows that our hybrid quantum-neural wavefunction approach achieves near-chemical accuracy, comparable to advanced quantum and classical techniques. Experimental validation on a superconducting quantum computer, using the isomerization reaction of cyclobutadiene, further demonstrates its practical applicability, with high accuracy in energy estimation and significant resilience to noise.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-01-08T04:18:51Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Weitang Li</name>
+    </author>
+    <author>
+      <name>Shi-Xin Zhang</name>
+    </author>
+    <author>
+      <name>Zirui Sheng</name>
+    </author>
+    <author>
+      <name>Cunxi Gong</name>
+    </author>
+    <author>
+      <name>Jianpeng Chen</name>
+    </author>
+    <author>
+      <name>Zhigang Shuai</name>
+    </author>
+    <arxiv:doi>10.1039/D5DD00222B</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1039/D5DD00222B" title="doi"/>
+  </entry>
+</feed>

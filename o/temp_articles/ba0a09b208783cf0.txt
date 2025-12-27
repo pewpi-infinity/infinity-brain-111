@@ -1,0 +1,92 @@
+TERMS: lattice, resonance, boson
+COLORS: orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/5Utfu3FvP0hlo6WVR84gmJoVgBE</id>
+  <title>arXiv Query: search_query=all:lattice AND all:resonance AND all:boson&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:15:46Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:resonance+AND+all:boson)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>305</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2012.09761v2</id>
+    <title>Scattering of Goldstone Bosons and resonance production in a Composite Higgs model on the lattice</title>
+    <updated>2021-03-15T17:40:59Z</updated>
+    <link href="https://arxiv.org/abs/2012.09761v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2012.09761v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We calculate the coupling between a vector resonance and two Goldstone bosons in $SU(2)$ gauge theory with $N_f=2$ Dirac fermions in the fundamental representation. The considered theory can be used to construct a minimal Composite Higgs models. The coupling is related to the width of the vector resonance and we determine it by simulating the scattering of two Goldstone bosons where the resonance is produced. The resulting coupling is $g_{\rm{VPP}}=7.8\pm 0.6$, not far from $g_{ρππ}\simeq 6$ in QCD. This is the first lattice calculation of the resonance properties for a minimal UV completion. This coupling controls the production cross section of the lightest expected resonance at the LHC and enters into other tests of the Standard Model, from Vector Boson Fusion to electroweak precision tests. Our prediction is crucial to constrain the model using lattice input and for understanding the behavior of the vector meson production cross section as a function of the underlying gauge theory. We also extract the coupling $g_{\rm{VPP}}^{\rm{KSRF}} =9.4 \pm 0.6$ assuming the vector-dominance and find that this phenomenological estimate slightly overestimates the value of the coupling.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-12-17T17:18:43Z</published>
+    <arxiv:comment>16 pages, 8 figures - v2: minor changes, version accepted for publication</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Vincent Drach</name>
+    </author>
+    <author>
+      <name>Tadeusz Janowski</name>
+    </author>
+    <author>
+      <name>Claudio Pica</name>
+    </author>
+    <author>
+      <name>Sasa Prelovsek</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP04(2021)117</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP04(2021)117" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1111.4789v2</id>
+    <title>The Higgs boson resonance width from a chiral Higgs-Yukawa model on the lattice</title>
+    <updated>2012-03-20T08:59:43Z</updated>
+    <link href="https://arxiv.org/abs/1111.4789v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1111.4789v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Higgs boson is a central part of the electroweak theory and is crucial to generate masses for quarks, leptons and the weak gauge bosons. We use a 4-dimensional Euclidean lattice formulation of the Higgs-Yukawa sector of the electroweak model to compute physical quantities in the path integral approach which is evaluated by means of Monte Carlo simulations thus allowing for fully non perturbative calculations. The chiral symmetry of the model is incorporated by using the Neuberger overlap Dirac operator. The here considered Higgs-Yukawa model does not involve the weak gauge bosons and furthermore, only a degenerate doublet of top- and bottom quarks are incorporated. The goal of this work is to study the resonance properties of the Higgs boson and its sensitivity to the strength of the quartic self coupling.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-11-21T08:53:58Z</published>
+    <arxiv:comment>Included figures of cross-sections, corrected one data entry in table 3, version accepted in PLB</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Philipp Gerhold</name>
+    </author>
+    <author>
+      <name>Karl Jansen</name>
+    </author>
+    <author>
+      <name>Jim Kallarackal</name>
+    </author>
+    <arxiv:doi>10.1016/j.physletb.2012.03.049</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physletb.2012.03.049" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1111.2792v1</id>
+    <title>Higgs boson resonance parameters and the finite temperature phase transition in a chirally invariant Higgs-Yukawa model</title>
+    <updated>2011-11-11T16:27:51Z</updated>
+    <link href="https://arxiv.org/abs/1111.2792v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1111.2792v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study a chirally invariant Higgs-Yukawa model regulated on a space-time lattice. We calculate Higgs boson resonance parameters and mass bounds for various values of the mass of the degenerate fermion doublet. Also, first results on the phase transition temperature are presented. In general, this model may be relevant for BSM scenarios with a heavy fourth generation of quarks.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-11-11T16:27:51Z</published>
+    <arxiv:comment>7 pages, 5 figures. Poster presented at The XXIX International Symposium on Lattice Field Theory - Lattice 2011, Lake Tahoe, California, USA</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>John Bulava</name>
+    </author>
+    <author>
+      <name>Philip Gerhold</name>
+    </author>
+    <author>
+      <name>Karl Jansen</name>
+    </author>
+    <author>
+      <name>Jim Kallarackal</name>
+    </author>
+    <author>
+      <name>Attila Nagy</name>
+    </author>
+  </entry>
+</feed>

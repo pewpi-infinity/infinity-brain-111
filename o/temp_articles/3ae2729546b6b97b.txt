@@ -1,0 +1,77 @@
+TERMS: lattice, tachyon, vacuum
+COLORS: orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/4OG3+vYKxqWijz/1V5kI0lkxnYA</id>
+  <title>arXiv Query: search_query=all:lattice AND all:tachyon AND all:vacuum&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:16:03Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:tachyon+AND+all:vacuum)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>22</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1001.4215v1</id>
+    <title>Tachyonic crystals and the laminar instability of the perturbative vacuum in asymptotically free gauge theories</title>
+    <updated>2010-01-24T01:25:19Z</updated>
+    <link href="https://arxiv.org/abs/1001.4215v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1001.4215v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Lattice Monte Carlo studies in SU(3) gauge theory have shown that the topological charge distribution in the vacuum is dominated by thin coherent membranes of codimension one arranged in a layered, alternating-sign sandwich. A similar lamination of topological charge occurs in the 2D $CP^{N-1}$ model. In holographic QCD, the observed topological charge sheets are naturally interpreted as $D6$ branes wrapped around an $S_4$.. With this interpretation, the laminated array of topological charge membranes observed on the lattice can be identified as a "tachyonic crystal", a regular, alternating-sign array of $D6$ and $\bar{D6}$ branes that arises as the final state of the decay of a non-BPS $D7$ brane via the tachyonic mode of the attached string. In the gauge theory, the homogeneous, space-filling $D7$ brane represents the perturbative gauge vacuum, which is unstable toward lamination associated with a marginal tachyonic boundary perturbation $\propto \cos(X/\sqrt{2α'})$. For the $CP^{N-1}$ model, the cutoff field theory can be cast as the low energy limit of an open string theory in background gauge and tachyon fields $A_μ(x)$ and $λ(x)$. This allows a detailed comparison with large $N$ field theory results and provides strong support for the tachyonic crystal interpretation of the gauge theory vacuum.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-01-24T01:25:19Z</published>
+    <arxiv:comment>21 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Phys.Rev.D81:125006,2010</arxiv:journal_ref>
+    <author>
+      <name>H. B. Thacker</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.81.125006</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.81.125006" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/0211243v2</id>
+    <title>Chern-Simons number asymmetry from CP violation at electroweak tachyonic preheating</title>
+    <updated>2003-02-12T10:29:28Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/0211243v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/0211243v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We consider the creation of non-zero Chern-Simons number in a model of the early Universe, where the Higgs field experiences a fast quench at the end of inflation and subsequently rolls down its potential barrier. Neglecting the expansion, we perform numerical lattice simulations in the Abelian Higgs model in 1+1 dimensions with an added phenomenological C and P violating term during this stage of so-called tachyonic preheating. The results suggest that even the sign of the Chern-Simons and thus baryon number is dependent on the ratio of the Higgs to W mass. We also discuss the appropriate choice of vacuum initial conditions for classical simulations.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-11-15T11:15:17Z</published>
+    <arxiv:comment>24 pages, 17 figures, added references, published version</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>JHEP 0212 (2002) 020</arxiv:journal_ref>
+    <author>
+      <name>Jan Smit</name>
+    </author>
+    <author>
+      <name>Anders Tranberg</name>
+    </author>
+    <arxiv:doi>10.1088/1126-6708/2002/12/020</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1126-6708/2002/12/020" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.17388v2</id>
+    <title>Qumode Tensor Networks for False Vacuum Decay in Quantum Field Theory</title>
+    <updated>2025-11-26T12:05:15Z</updated>
+    <link href="https://arxiv.org/abs/2506.17388v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.17388v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>False vacuum decay in scalar quantum field theory (QFT) is a cornerstone of early Universe cosmology and high energy physics, yet its real-time dynamics is essentially inaccessible to classical computation due to its non-perturbative, highly entangled dynamics. We introduce a general Hamiltonian framework for simulating full interacting QFTs, using a spatial lattice of continuos-variable ``qumodes'' -- bosonic local oscillators whose high-dimensional local Hilbert space faithfully captures interacting field dynamics. This construction is rooted in continuous-variable quantum computing (CVQC), and provides a unified platform spanning efficient classical tensor-network methods and emerging photonic quantum hardware. The first key advance of this work is a robust and scaleable method for preparing the QFT in its correct initial vacuum state. We develop an imaginary-time preparation algorithm tailored to qumode lattices, that efficiently projects onto the vacuum even in strongly coupled regimes. This provides a controllable starting point for studying nonperturbative dynamics such as tunnelling and real-time decay. Building on this, we use a time-evolving block decimation algorithm to capture the real-time dynamics of the scalar field. Our second key advance is the identification and excitation of the negative fluctuation mode of the bounce configuration on the qumode lattice. A small displacement along this mode produces the expected tachyonic growth, driving fully coherent bubble nucleation without requiring classically supercritical seeds. This demonstrates that the qumode lattice captures non-perturbative quantum dynamics that lie beyond the classical treatments. Our results establish the qumode network as a scalable framework for non-equilibrium scalar QFT phenomena and pave the way for higher-dimensional studies and continuous-variable quantum computing implementations.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-20T18:00:02Z</published>
+    <arxiv:comment>26 pages, 18 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Steven Abel</name>
+    </author>
+    <author>
+      <name>Michael Spannowsky</name>
+    </author>
+    <author>
+      <name>Simon Williams</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,100 @@
+TERMS: lattice, entropy, vapor
+COLORS: orange, red, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/6cRiTkLfiTCT8XqtPCAS+rfWM+4</id>
+  <title>arXiv Query: search_query=all:lattice AND all:entropy AND all:vapor&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:13:15Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:entropy+AND+all:vapor)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>4</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1205.6263v1</id>
+    <title>Adsorption of solutes at liquid-vapor interfaces: Insights from lattice gas models</title>
+    <updated>2012-05-29T04:44:29Z</updated>
+    <link href="https://arxiv.org/abs/1205.6263v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1205.6263v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The adsorption behavior of ions at liquid-vapor interfaces exhibits several unexpected yet generic features. In particular, energy and entropy are both minimum when the solute resides near the surface, for a variety of ions in a range of polar solvents, contrary to predictions of classical theories. Motivated by this generality, and by the simple physical ingredients implicated by computational studies, we have examined interfacial solvation in highly schematic models, which resolve only coarse fluctuations in solvent density and cohesive energy. Here we show that even such lattice gas models recapitulate surprising thermodynamic trends observed in detailed simulations and experiments. Attention is focused on the case of two dimensions, for which approximate energy and entropy profiles can be calculated analytically. Simulations and theoretical analysis of the lattice gas highlight the role of capillary wave-like fluctuations in mediating adsorption. They further point to ranges of temperature and solute-solvent interaction strength where surface propensity is expected to be strongest.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-05-29T04:44:29Z</published>
+    <arxiv:comment>Accepted for publication in Faraday Discuss</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <author>
+      <name>Suriyanarayanan Vaikuntanathan</name>
+    </author>
+    <author>
+      <name>Patrick R. Shaffer</name>
+    </author>
+    <author>
+      <name>Phillip L. Geissler</name>
+    </author>
+    <arxiv:doi>10.1039/C2FD20106B</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1039/C2FD20106B" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2203.16917v1</id>
+    <title>Condensation and crystal nucleation in a lattice gas with a realistic phase diagram</title>
+    <updated>2022-03-31T09:37:05Z</updated>
+    <link href="https://arxiv.org/abs/2203.16917v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2203.16917v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We reconsider model II of [J. Chem. Phys. 1968, 49, 1778--1783], a two-dimensional lattice-gas system featuring a crystalline phase and two distinct fluid phases (liquid and vapor). In this system, a particle prevents other particles from occupying sites up to third neighbors on the square lattice, while attracting (with decreasing strength) particles sitting at fourth- or fifth-neighbor sites. To make the model more realistic, we assume a finite repulsion at third-neighbor distance, with the result that a second crystalline phase appears at higher pressures. However, the similarity with real-world substances is only partial: on closer inspection the alleged liquid-vapor transition turns out to be a continuous (albeit sharp) crossover, even near the putative triple point. Closer to the standard picture is instead the freezing transition, as we show by computing the free-energy barrier to crystal nucleation from the "liquid".</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-03-31T09:37:05Z</published>
+    <arxiv:comment>26 pages, 10 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <arxiv:journal_ref>Entropy 24, 419 (2022)</arxiv:journal_ref>
+    <author>
+      <name>Santi Prestipino</name>
+    </author>
+    <author>
+      <name>Gabriele Costa</name>
+    </author>
+    <arxiv:doi>10.3390/e24030419</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/e24030419" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1808.07834v1</id>
+    <title>Colossal barocaloric effects in plastic crystals</title>
+    <updated>2018-08-23T16:44:01Z</updated>
+    <link href="https://arxiv.org/abs/1808.07834v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1808.07834v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Solid-state refrigeration technology based on caloric effects are promising to replace the currently used vapor compression cycles. However, their application is restricted due to limited performances of caloric materials. Here, we have identified colossal barocaloric effects (CBCEs) in a class of disordered solids called plastic crystals. The obtained entropy changes are about 380 J kg-1 K-1 in the representative neopentylglycol around room temperature. Inelastic neutron scattering reveals that the CBCEs in plastic crystals are attributed to the combination of the vast molecular orientational disorder, giant compressibility, and high anharmonic lattice dynamics. Our study establishes the microscopic scenario for CBCEs in plastic crystals and paves a new route to the next-generation solid-state refrigeration technology.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-08-23T16:44:01Z</published>
+    <arxiv:comment>four figures and supplementary materials</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Bing Li</name>
+    </author>
+    <author>
+      <name>Yukinobu Kawakita</name>
+    </author>
+    <author>
+      <name>Hui Wang</name>
+    </author>
+    <author>
+      <name>Tatsuya Kikuchi</name>
+    </author>
+    <author>
+      <name>Dehong Yu</name>
+    </author>
+    <author>
+      <name>Shinichiro Yano</name>
+    </author>
+    <author>
+      <name>Weijun Ren</name>
+    </author>
+    <author>
+      <name>Kenji Nakajima</name>
+    </author>
+    <author>
+      <name>Zhidong Zhang</name>
+    </author>
+    <arxiv:doi>10.1038/s41586-019-1042-5</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41586-019-1042-5" title="doi"/>
+  </entry>
+</feed>

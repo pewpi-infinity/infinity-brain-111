@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>Quantum Visualizer – Brain Synapsis</title>
+<style>
+html,body{margin:0;height:100%;background:#02030a;overflow:hidden;font-family:monospace;color:#0ff}
+canvas{width:100%;height:100%}
+#controls{position:fixed;top:10px;left:0;right:0;text-align:center}
+button{background:#0ff;color:#000;font-weight:bold;padding:8px 16px;border:none;border-radius:8px;
+        box-shadow:0 0 15px #0ff;margin:0 6px}
+a{color:#0ff;text-decoration:none;margin-left:10px}
+</style>
+</head>
+<body>
+<canvas id="c"></canvas>
+<div id="controls">
+  <button id="auto">Start Synapsis</button>
+  <a href="index.html">⚡ Back to Portal</a>
+</div>
+
+<script>
+const c=document.getElementById('c'),x=c.getContext('2d');
+function fit(){c.width=innerWidth;c.height=innerHeight;}
+fit();addEventListener('resize',fit);
+
+let nodes=[],links=[],running=false,t=0;
+const N=60;
+for(let i=0;i<N;i++){
+  nodes.push({
+    x:Math.random()*c.width,
+    y:Math.random()*c.height,
+    vx:0,vy:0,
+    charge:Math.random()>0.5?1:-1,
+    glow:0
+  });
+}
+for(let i=0;i<N;i++){
+  for(let j=i+1;j<N;j++){
+    if(Math.random()<0.05)links.push([i,j,Math.random()]);
+  }
+}
+
+function draw(){
+  if(!running)return;
+  t+=0.02;
+  x.fillStyle='rgba(2,3,10,0.3)';
+  x.fillRect(0,0,c.width,c.height);
+
+  // update motion
+  for(const n of nodes){
+    n.vx+=0.5*(Math.random()-0.5);
+    n.vy+=0.5*(Math.random()-0.5);
+    n.x+=n.vx*0.1;
+    n.y+=n.vy*0.1;
+    if(n.x<0||n.x>c.width)n.vx*=-1;
+    if(n.y<0||n.y>c.height)n.vy*=-1;
+    n.glow=Math.max(0,n.glow-0.01);
+  }
+
+  // occasional firing
+  if(Math.random()<0.05){
+    const n=nodes[Math.floor(Math.random()*N)];
+    n.glow=1;
+    for(const L of links){
+      if(L[0]===nodes.indexOf(n)||L[1]===nodes.indexOf(n)){
+        const m=nodes[L[0]===nodes.indexOf(n)?L[1]:L[0]];
+        m.glow=1;
+      }
+    }
+  }
+
+  // draw links
+  for(const [a,b,w] of links){
+    const n1=nodes[a],n2=nodes[b];
+    const grad=x.createLinearGradient(n1.x,n1.y,n2.x,n2.y);
+    grad.addColorStop(0,`rgba(0,255,255,${n1.glow})`);
+    grad.addColorStop(1,`rgba(255,0,255,${n2.glow})`);
+    x.strokeStyle=grad;
+    x.lineWidth=1+w*2;
+    x.beginPath();x.moveTo(n1.x,n1.y);x.lineTo(n2.x,n2.y);x.stroke();
+  }
+
+  // draw nodes
+  for(const n of nodes){
+    const col=`hsl(${180+120*n.glow},100%,${30+40*n.glow}%)`;
+    x.fillStyle=col;
+    x.shadowColor=col;x.shadowBlur=10+40*n.glow;
+    x.beginPath();x.arc(n.x,n.y,3+2*n.glow,0,Math.PI*2);
+    x.fill();
+  }
+
+  requestAnimationFrame(draw);
+}
+
+document.getElementById('auto').onclick=()=>{
+  running=!running;
+  document.getElementById('auto').textContent=running?"Stop Synapsis":"Start Synapsis";
+  if(running)draw();
+};
+</script>
+</body>
+</html>

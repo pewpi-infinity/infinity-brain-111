@@ -1,0 +1,106 @@
+TERMS: frequency, spin, muon
+COLORS: green, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Q/t0D5p+hiHq7GY1YsuYjt04bKE</id>
+  <title>arXiv Query: search_query=all:frequency AND all:spin AND all:muon&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:11:49Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:spin+AND+all:muon)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>142</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ex/0110044v1</id>
+    <title>Testing CPT and Lorentz Invariance with the Anomalous Spin Precession of the Muon</title>
+    <updated>2001-10-19T20:56:11Z</updated>
+    <link href="https://arxiv.org/abs/hep-ex/0110044v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ex/0110044v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  This article discusses tests of CPT and Lorentz invariance with data from the muon g-2 experiment at Brookhaven National Laboratory. According to an extension of the Standard Model by Kostelecky et al., CPT/Lorentz violating terms in the Lagrangian induce a shift of the anomaly frequency omega_a of muons in a magnetic field. This shift is predicted to be different for positive and negative muons and to oscillate with the Earth's sidereal frequency. We discuss the sensitivity of the g-2 experiment to different parameters of this Standard Model extension and propose an analysis method to search for sidereal variations of omega_a.</summary>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2001-10-19T20:56:11Z</published>
+    <arxiv:comment>6 pages; contribution to the proceedings of CPT '01 (Second Meeting on CPT and Lorentz Symmetry; August 15-18, 2001; Indiana University, Bloomington)</arxiv:comment>
+    <arxiv:primary_category term="hep-ex"/>
+    <author>
+      <name>M. Deile</name>
+    </author>
+    <author>
+      <name>Muon g-2 Collaboration</name>
+    </author>
+    <arxiv:doi>10.1142/9789812778123_0037</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/9789812778123_0037" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0709.4670v3</id>
+    <title>Search for Lorentz and CPT Violation Effects in Muon Spin Precession</title>
+    <updated>2008-01-17T22:20:43Z</updated>
+    <link href="https://arxiv.org/abs/0709.4670v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0709.4670v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The spin precession frequency of muons stored in the $(g-2)$ storage ring has been analyzed for evidence of Lorentz and CPT violation. Two Lorentz and CPT violation signatures were searched for: a nonzero $Δω_{a}$ (=$ω_{a}^{μ^{+}}-ω_{a}^{μ^{-}}$); and a sidereal variation of $ω_{a}^{μ^{\pm}}$. No significant effect is found, and the following limits on the standard-model extension parameters are obtained: $b_{Z} =-(1.0 \pm 1.1)\times 10^{-23}$ GeV; $(m_μd_{Z0}+H_{XY}) = (1.8 \pm 6.0 \times 10^{-23})$ GeV; and the 95% confidence level limits $\check{b}_{\perp}^{μ^{+}}&lt; 1.4 \times 10^{-24}$ GeV and $\check{b}_{\perp}^{μ^{-}} &lt; 2.6 \times 10^{-24}$ GeV.</summary>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-09-28T19:15:20Z</published>
+    <arxiv:comment>5 pages, 3 figures, submitted to Physical Review Letters, Modified to answer the referees suggestions</arxiv:comment>
+    <arxiv:primary_category term="hep-ex"/>
+    <arxiv:journal_ref>Phys.Rev.Lett.100:091602, 2008</arxiv:journal_ref>
+    <author>
+      <name>Muon g-2 Collaboration</name>
+    </author>
+    <author>
+      <name> :</name>
+    </author>
+    <author>
+      <name>G. W. Bennett</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.100.091602</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.100.091602" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0210060v1</id>
+    <title>Local Magnetic Susceptibility of the Positive Muon in the Quasi 1D S=1/2 Antiferromagnet KCuF$_3$</title>
+    <updated>2002-10-02T17:40:56Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0210060v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0210060v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We report muon spin rotation measurements of the local magnetic susceptibility around a positive muon in the paramagnetic state of the quasi one-dimensional spin 1/2 antiferromagnet KCuF$_3$. Signals from two distinct sites are resolved which have a temperature dependent frequency shift which is different than the magnetic susceptibility. This difference is attributed to a muon induced perturbation of the spin 1/2 chain.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-10-02T17:40:56Z</published>
+    <arxiv:comment>13 pages, 4 figures, The 2002 International Conference on Muon Spin Rotation, Relaxation and Resonance, Virginia. USA</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <author>
+      <name>J. Chakhalian</name>
+    </author>
+    <author>
+      <name>R. F. Kiefl</name>
+    </author>
+    <author>
+      <name>R. Miller</name>
+    </author>
+    <author>
+      <name>S. R. Dunsiger</name>
+    </author>
+    <author>
+      <name>G. Morris</name>
+    </author>
+    <author>
+      <name>S. Kreitzman</name>
+    </author>
+    <author>
+      <name>S. Kreitzman</name>
+    </author>
+    <author>
+      <name>J. Sonier</name>
+    </author>
+    <author>
+      <name>S. Eggert</name>
+    </author>
+    <author>
+      <name>I. Affleck</name>
+    </author>
+    <author>
+      <name>I. Yamada</name>
+    </author>
+    <arxiv:doi>10.1016/S0921-4526(02)01655-1</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/S0921-4526(02)01655-1" title="doi"/>
+  </entry>
+</feed>

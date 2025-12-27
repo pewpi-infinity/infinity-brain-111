@@ -1,0 +1,85 @@
+TERMS: lattice, entropy, fusion
+COLORS: orange, red, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/whoJlJM4wq0Ys/oD8WXxjI004rY</id>
+  <title>arXiv Query: search_query=all:lattice AND all:entropy AND all:fusion&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:13:13Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:entropy+AND+all:fusion)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>16</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1607.08881v2</id>
+    <title>Fusion basis for lattice gauge theory and loop quantum gravity</title>
+    <updated>2017-05-17T14:58:02Z</updated>
+    <link href="https://arxiv.org/abs/1607.08881v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1607.08881v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce a new basis for the gauge-invariant Hilbert space of lattice gauge theory and loop quantum gravity in $(2+1)$ dimensions, the fusion basis. In doing so, we shift the focus from the original lattice (or spin-network) structure directly to that of the magnetic (curvature) and electric (torsion) excitations themselves. These excitations are classified by the irreducible representations of the Drinfel'd double of the gauge group, and can be readily "fused" together by studying the tensor product of such representations. We will also describe in detail the ribbon operators that create and measure these excitations and make the quasi-local structure of the observable algebra explicit. Since the fusion basis allows for both magnetic and electric excitations from the onset, it turns out to be a precious tool for studying the large scale structure and coarse-graining flow of lattice gauge theories and loop quantum gravity. This is in neat contrast with the widely used spin-network basis, in which it is much more complicated to account for electric excitations, i.e. for Gauß~constraint violations, emerging at larger scales. Moreover, since the fusion basis comes equipped with a hierarchical structure, it readily provides the language to design states with sophisticated multi-scale structures. Another way to employ this hierarchical structure is to encode a notion of subsystems for lattice gauge theories and $(2+1)$ gravity coupled to point particles. In a follow-up work, we will exploit this notion to provide a new definition of entanglement entropy for these theories.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-07-29T18:19:13Z</published>
+    <arxiv:comment>72 pages</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Clement Delcamp</name>
+    </author>
+    <author>
+      <name>Bianca Dittrich</name>
+    </author>
+    <author>
+      <name>Aldo Riello</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP02(2017)061</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP02(2017)061" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1609.04806v2</id>
+    <title>On entanglement entropy in non-Abelian lattice gauge theory and 3D quantum gravity</title>
+    <updated>2017-05-17T15:12:40Z</updated>
+    <link href="https://arxiv.org/abs/1609.04806v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1609.04806v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Entanglement entropy is a valuable tool for characterizing the correlation structure of quantum field theories. When applied to gauge theories, subtleties arise which prevent the factorization of the Hilbert space underlying the notion of entanglement entropy. Borrowing techniques from extended topological field theories, we introduce a new definition of entanglement entropy for both Abelian and non-Abelian gauge theories. Being based on the notion of excitations, it provides a completely relational way of defining regions. Therefore, it naturally applies to background independent theories, e.g. gravity, by circumventing the difficulty of specifying the position of the entangling surface. We relate our construction to earlier proposals and argue that it brings these closer to each other. In particular, it yields the non-Abelian analogue of the "magnetic centre choice", as obtained through an extended-Hilbert-space method, but applied to the recently introduced fusion basis for 3D lattice gauge theories. We point out that the different definitions of entanglement theory can be related to a choice of (squeezed) vacuum state.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-09-15T19:59:06Z</published>
+    <arxiv:comment>25 pages + Appendices</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Clement Delcamp</name>
+    </author>
+    <author>
+      <name>Bianca Dittrich</name>
+    </author>
+    <author>
+      <name>Aldo Riello</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP11(2016)102</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP11(2016)102" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0712.0076v3</id>
+    <title>Fusion of conformal interfaces</title>
+    <updated>2008-03-04T15:23:15Z</updated>
+    <link href="https://arxiv.org/abs/0712.0076v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0712.0076v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We study the fusion of conformal interfaces in the c=1 conformal field theory. We uncover an elegant structure reminiscent of that of black holes in supersymmetric theories. The role of the BPS black holes is played by topological interfaces, which (a) minimize the entropy function, (b) fix through an attractor mechanism one or both of the bulk radii, and (c) are (marginally) stable under splitting. One significant difference is that the conserved charges are logarithms of natural numbers, rather than vectors in a charge lattice, as for BPS states. Besides potential applications to condensed-matter physics and number theory, these results point to the existence of large solution-generating algebras in string theory.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-12-01T11:53:18Z</published>
+    <arxiv:comment>28 pages, 4 figures. Minor clarifications in v2. Sign Mistakes corrected and reference added in v3</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>JHEP0802:085,2008</arxiv:journal_ref>
+    <author>
+      <name>C. Bachas</name>
+    </author>
+    <author>
+      <name>I. Brunner</name>
+    </author>
+    <arxiv:doi>10.1088/1126-6708/2008/02/085</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1126-6708/2008/02/085" title="doi"/>
+  </entry>
+</feed>

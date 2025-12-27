@@ -1,0 +1,62 @@
+TERMS: hydrogen, lattice, boson
+COLORS: purple, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/l99QUFiENEMEBQDEtdokqi1LF0E</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:lattice AND all:boson&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:02:14Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:lattice+AND+all:boson)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2002.09373v1</id>
+    <title>Quantum Simulation of 2D Quantum Chemistry in Optical Lattices</title>
+    <updated>2020-02-21T16:00:36Z</updated>
+    <link href="https://arxiv.org/abs/2002.09373v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2002.09373v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Benchmarking numerical methods in quantum chemistry is one of the key opportunities that quantum simulators can offer. Here, we propose an analog simulator for discrete 2D quantum chemistry models based on cold atoms in optical lattices. We first analyze how to simulate simple models, like the discrete versions of H and H$_2^+$, using a single fermionic atom. We then show that a single bosonic atom can mediate an effective Coulomb repulsion between two fermions, leading to the analog of molecular Hydrogen in two dimensions. We extend this approach to larger systems by introducing as many mediating atoms as fermions, and derive the effective repulsion law. In all cases, we analyze how the continuous limit is approached for increasing optical lattice sizes.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-02-21T16:00:36Z</published>
+    <arxiv:comment>12 pages, 7 figures. Supplementary material</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Phys. Rev. Research 2, 042013 (2020)</arxiv:journal_ref>
+    <author>
+      <name>Javier Argüello-Luengo</name>
+    </author>
+    <author>
+      <name>Alejandro González-Tudela</name>
+    </author>
+    <author>
+      <name>Tao Shi</name>
+    </author>
+    <author>
+      <name>Peter Zoller</name>
+    </author>
+    <author>
+      <name>J. Ignacio Cirac</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevResearch.2.042013</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevResearch.2.042013" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2106.13611v1</id>
+    <title>One-particle spectral densities and phase diagrams of one-dimensional proton conductors</title>
+    <updated>2021-06-25T13:04:48Z</updated>
+    <link href="https://arxiv.org/abs/2106.13611v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2106.13611v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The equilibrium states of one-dimensional proton conductors in the systems with hydrogen bonds are investigated. Our extended hard-core boson lattice model includes short-range interactions between hydrogen ions, their transfer along the hydrogen bonds with two-minima local anharmonic potential, as well as their inter-bond hopping, and the modulating field is taken into account. The exact diagonalization method for finite one-dimensional system with periodic boundary conditions is used. The existence of various phases of the system at $T = 0$, depending on the values of short-range interactions between particles and the modulating field strength, is established by analyzing the character of the obtained frequency dependence of one-particle spectral density; the phase diagrams are built.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-06-25T13:04:48Z</published>
+    <arxiv:comment>10 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <arxiv:journal_ref>Condens. Matter Phys., 2021, vol. 24, No. 2, 23704</arxiv:journal_ref>
+    <author>
+      <name>R. Ya. Stetsiv</name>
+    </author>
+    <arxiv:doi>10.5488/CMP.24.23704</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.5488/CMP.24.23704" title="doi"/>
+  </entry>
+</feed>

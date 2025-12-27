@@ -1,0 +1,116 @@
+TERMS: hydrogen, frequency, fusion
+COLORS: purple, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/+zYjcVm0xvmJu43XqoUdW9fZLtg</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:frequency AND all:fusion&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:01:40Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:frequency+AND+all:fusion)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>14</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2304.05006v1</id>
+    <title>Modeling inductive radio frequency coupling in powerful negative hydrogen ion sources: optimizing the RF coupling</title>
+    <updated>2023-04-11T06:24:49Z</updated>
+    <link href="https://arxiv.org/abs/2304.05006v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2304.05006v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the fusion experiment ITER powerful neutral beam injection (NBI) systems will be used. The NBI's core component is a negative hydrogen ion source, which is based on a modular concept. Eight cylindrical drivers, each having a volume of several liters, are attached to one common expansion and extraction region. Within the drivers an inductively coupled plasma is sustained by an external cylindrical coil at filling pressures not larger than 0.3 Pa. Radio frequency (RF) generators operating at a driving frequency of 1 MHz feed the coils via a matching network with powers of up to 100 kW per driver. These high powers entail high voltages, which make the ion source prone to electrical breakdowns and arcing, wherefore its reliability is reduced. Moreover, at the ITER prototype RF ion source not more than 60% of the power is absorbed by the plasma, whereas the rest is lost for heating the RF coil and conducting structures of the driver. To optimize the power coupling in the prototype source, a previously validated self-consistent fluid-electromagnetic model is applied. The optimization studies reveal a complex interplay between network losses (mainly caused by the skin effect and eddy currents), and nonlinear plasma phenomena, such as the RF Lorentz force. The model demonstrates promising optimization concepts for the RF coupling in future NBI ion sources. In particular, by increasing the axial driver length and the driving frequency it is possible to enhance the fraction of absorbed power to values around 90%.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-04-11T06:24:49Z</published>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>Dominikus Zielke</name>
+    </author>
+    <author>
+      <name>Stefan Briefi</name>
+    </author>
+    <author>
+      <name>Ursel Fantz</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.13445v2</id>
+    <title>PIC simulations of laser-induced proton acceleration by resonant nanoantennas for fusion</title>
+    <updated>2024-04-22T00:31:01Z</updated>
+    <link href="https://arxiv.org/abs/2306.13445v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.13445v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Rapid recent development in laser technology and methods learned from relativistic heavy ion physics led to new possibilities for fusion. Using a Hydrogen rich UDMA-TEGDMA polymer fusion target, laser irradiation ionizes the target. If we implant nanoantennas into the target resonating to the laser light frequency massive number of electrons of the ionized plasma resonate within the nanoantenna forming a so called nanoplasmonic wave. Our kinetic model simulation with a Hydrogen target indicates that the field of these resonating electrons attracts and accelerates the surrounding protons of the plasma to multi-MeV energy. These protons are then energetic enough to achieve nuclear transmutation and fusion reactions. Without resonating nanoantenna there is no such collective proton acceleration, no energetic protons, and nuclear reactions at 30 mJ laser pulse energy.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-23T11:21:43Z</published>
+    <arxiv:comment>arXiv admin note: text overlap with arXiv:2212.03638</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>István Papp</name>
+    </author>
+    <author>
+      <name>Larissa Bravina</name>
+    </author>
+    <author>
+      <name>Mária Csete</name>
+    </author>
+    <author>
+      <name>Archana Kumari</name>
+    </author>
+    <author>
+      <name>Igor N. Mishustin</name>
+    </author>
+    <author>
+      <name>Anton Motornenko</name>
+    </author>
+    <author>
+      <name>Péter Rácz</name>
+    </author>
+    <author>
+      <name>Leonid M. Satarov</name>
+    </author>
+    <author>
+      <name>Horst Stöcker</name>
+    </author>
+    <author>
+      <name>András Szenes</name>
+    </author>
+    <author>
+      <name>Dávid Vass</name>
+    </author>
+    <author>
+      <name>Tamás S. Biró</name>
+    </author>
+    <author>
+      <name>László P. Csernai</name>
+    </author>
+    <author>
+      <name>Norbert Kroó</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/physics/0201030v1</id>
+    <title>"Wild Cables" in Fusion Plasmas and their Diagnostics with Spectral Line Stark Broadening</title>
+    <updated>2002-01-14T18:07:02Z</updated>
+    <link href="https://arxiv.org/abs/physics/0201030v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/physics/0201030v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We discuss the opportunities of diagnosing the parameters of hypothetical "wild cables" in fusion plasmas via analyzing the Stark broadening of hydrogen spectral lines. The "wild cables" concept have suggested the observed long-lived skeletal structures in tokamaks and Z-pinches to be caused by a microdust-assembled skeleton. We present the results of calculating the widths of vacuum channels produced by the pressure of on-skeleton high-frequency (HF) electromagnetic waves of the TEM type, which thus might protect the skeletons from ambient high-temperature plasma. The values of amplitude of such wave appear to be compatible with the measurements of those in-plasma HF electric fields in tokamak T-10 and a gaseous Z-pinch which give observable Stark broadening of hydrogen spectral lines.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-01-14T18:07:02Z</published>
+    <arxiv:comment>13 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>A. V. Demura</name>
+      <arxiv:affiliation>INF RRC "Kurchatov Institute", Moscow, Russia</arxiv:affiliation>
+    </author>
+    <author>
+      <name>V. I. Kogan</name>
+      <arxiv:affiliation>INF RRC "Kurchatov Institute", Moscow, Russia</arxiv:affiliation>
+    </author>
+    <author>
+      <name>A. B. Kukushkin</name>
+      <arxiv:affiliation>INF RRC "Kurchatov Institute", Moscow, Russia</arxiv:affiliation>
+    </author>
+    <author>
+      <name>V. A. Rantsev-Kartinov</name>
+      <arxiv:affiliation>INF RRC "Kurchatov Institute", Moscow, Russia</arxiv:affiliation>
+    </author>
+  </entry>
+</feed>

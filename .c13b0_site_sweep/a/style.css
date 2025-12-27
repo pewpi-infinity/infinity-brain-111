@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: radial-gradient(circle at center, #0a0a16, #000);
+  color: #7cc5ff;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+#header {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  text-align: center;
+  z-index: 10;
+}
+
+h1 {
+  margin: 0;
+  font-size: 26px;
+  letter-spacing: 2px;
+  color: #8edfff;
+  text-shadow: 0 0 14px #2dafff;
+}
+
+.sub {
+  margin-top: 6px;
+  opacity: 0.6;
+  font-size: 14px;
+}
+
+#quantumCanvas {
+  display: block;
+}
+
+#footer {
+  position: absolute;
+  bottom: 18px;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+  opacity: 0.6;
+}
+a {
+  color: #8edfff;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}

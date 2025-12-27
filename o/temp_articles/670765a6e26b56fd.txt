@@ -1,0 +1,58 @@
+TERMS: hydrogen, crystal, plasma, vacuum
+COLORS: purple, orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/QD5Ox+I2aXIvWY5EaBLvVC0nMnU</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:crystal AND all:plasma AND all:vacuum&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T02:01:54Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:crystal+AND+(all:plasma+AND+all:vacuum))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1108.6078v1</id>
+    <title>Depletion of nitrogen-vacancy color centers in diamond via hydrogen passivation</title>
+    <updated>2011-08-30T20:41:47Z</updated>
+    <link href="https://arxiv.org/abs/1108.6078v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1108.6078v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show a marked reduction in the emission from nitrogen-vacancy (NV) color centers in single crystal diamond due to exposure of the diamond to hydrogen plasmas ranging from 700°C to 1000°C. Significant fluorescence reduction was observed beneath the exposed surface to at least 80mm depth after ~10 minutes, and did not recover after post-annealing in vacuum for seven hours at 1100°C. We attribute the fluorescence reduction to the formation of NVH centers by the plasma induced diffusion of hydrogen. These results have important implications for the formation of nitrogen-vacancy centers for quantum applications, and inform our understanding of the conversion of nitrogen-vacancy to NVH, whilst also providing the first experimental evidence of long range hydrogen diffusion through intrinsic high-purity diamond material.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-08-30T20:41:47Z</published>
+    <arxiv:comment>6 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>A. Stacey</name>
+    </author>
+    <author>
+      <name>T. J. Karle</name>
+    </author>
+    <author>
+      <name>L. P. McGuinness</name>
+    </author>
+    <author>
+      <name>B. C. Gibson</name>
+    </author>
+    <author>
+      <name>K. Ganesan</name>
+    </author>
+    <author>
+      <name>S. Tomljenovic-Hanic</name>
+    </author>
+    <author>
+      <name>A. D. Greentree</name>
+    </author>
+    <author>
+      <name>S. Prawer</name>
+    </author>
+    <author>
+      <name>R. G. Beausoleil</name>
+    </author>
+    <author>
+      <name>A. Hoffman</name>
+    </author>
+    <arxiv:doi>10.1063/1.3684612</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/1.3684612" title="doi"/>
+  </entry>
+</feed>

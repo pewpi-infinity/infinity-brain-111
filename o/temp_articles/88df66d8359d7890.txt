@@ -1,0 +1,33 @@
+TERMS: entropy, vapor, singularity
+COLORS: red, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/M1qmrrollZ/k5pzX1uCpoiaU1B8</id>
+  <title>arXiv Query: search_query=all:entropy AND all:vapor AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:17:29Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+(all:vapor+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2110.05331v1</id>
+    <title>Weak-strong uniqueness for Maxwell-Stefan systems</title>
+    <updated>2021-10-11T14:52:06Z</updated>
+    <link href="https://arxiv.org/abs/2110.05331v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2110.05331v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The weak-strong uniqueness for Maxwell--Stefan systems and some generalized systems is proved. The corresponding parabolic cross-diffusion equations are considered in a bounded domain with no-flux boundary conditions. The key points of the proofs are various inequalities for the relative entropy associated to the systems and the analysis of the spectrum of a quadratic form capturing the frictional dissipation. The latter task is complicated by the singular nature of the diffusion matrix. This difficulty is addressed by proving its positive definiteness on a subspace and using the Bott--Duffin matrix inverse. The generalized Maxwell--Stefan systems are shown to cover several known cross-diffusion systems for the description of tumor growth and physical vapor deposition processes.</summary>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-10-11T14:52:06Z</published>
+    <arxiv:primary_category term="math.AP"/>
+    <author>
+      <name>Xiaokai Huo</name>
+    </author>
+    <author>
+      <name>Ansgar Jüngel</name>
+    </author>
+    <author>
+      <name>Athanasios E. Tzavaras</name>
+    </author>
+  </entry>
+</feed>

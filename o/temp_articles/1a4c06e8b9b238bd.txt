@@ -1,0 +1,90 @@
+TERMS: spin, plasma, probability
+COLORS: yellow, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/gQJnXu08ltTVyYfwJ5Wcd2Sz1dI</id>
+  <title>arXiv Query: search_query=all:spin AND all:plasma AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:32:58Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:spin+AND+(all:plasma+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>57</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1304.5780v1</id>
+    <title>On a consistent macroscopic description for a spin quantum plasma with interparticle interactions</title>
+    <updated>2013-04-21T19:11:02Z</updated>
+    <link href="https://arxiv.org/abs/1304.5780v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1304.5780v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Quantum mechanical averaging of the particle concentration operator is an effective starting point for derivation of the many-particle quantum hydrodynamic equations. In many-particle quantum systems, we have to separate the ordered motion of the local center of mass (velocity field), the thermal, and the quantum motion. The quantum mechanical average process, invoked here, is completely determined, and is different from the usual averaging processes that introduces undefined probabilities for quantum states. It is shown that the Madelung decomposition for the $N$-particle spinor wave function allows the correct introduction of the velocity field, and gives explicit expressions for the quantum contributions to both the momentum, and the spin flux. The formalism also contains plasma effects produced by the Coulomb and spin-spin interparticle interactions. It is shown that both interactions appear in plasma dynamics as effective electric and magnetic fields. As result we find a fully coherent description for spin quantum plasma in the self-consistent field approximation for interparticle interactions. A simple consequence - the change brought about by interparticle correlations on the propagation of electrostatic waves in a spin quantum plasma - is discussed.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-04-21T19:11:02Z</published>
+    <arxiv:comment>7 pages</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>Pavel A. Andreev</name>
+    </author>
+    <author>
+      <name>Felipe A. Asenjo</name>
+    </author>
+    <author>
+      <name>Swadesh M. Mahajan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2102.05882v1</id>
+    <title>Spin and polarization effects on the nonlinear Breit-Wheeler pair production in laser-plasma interaction</title>
+    <updated>2021-02-11T08:05:08Z</updated>
+    <link href="https://arxiv.org/abs/2102.05882v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2102.05882v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The spin effect of electrons/positrons ($e^-$/$e^+$) and polarization effect of $γ$ photons are investigated in the interaction of two counter-propagating linearly polarized 10-PW-class laser pulses with a thin foil target. The processes of nonlinear Compton scattering and nonlinear Breit-Wheeler pair production based on spin- and polarization-resolved probabilities are implemented into the particle-in-cell (PIC) algorithm by Monte Carlo methods. It is found from PIC simulations that the average degree of linear polarization of emitted $γ$ photons can exceed $50\%$. This polarization effect leads to reduced positron yield by about $10\%$. At some medium positron energies, the reduction can reach $20\%$. Furthermore, we also observe that the local spin polarization of $e^-$/$e^+$ leads to a slight decrease of the positron yield about $2\%$ and some anomalous phenomena about the positron spectrum and photon polarization at the high-energy range, due to spin-dependent photon emissions. Our results indicate that spin and polarization effects should be considered in calculating the pair production and laser-plasma interaction with the laser power of 10-PW class.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-02-11T08:05:08Z</published>
+    <arxiv:comment>14 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <arxiv:journal_ref>New J. Phys. 23, 075005 (2021)</arxiv:journal_ref>
+    <author>
+      <name>Huai-Hang Song</name>
+    </author>
+    <author>
+      <name>Wei-Min Wang</name>
+    </author>
+    <author>
+      <name>Yan-Fei Li</name>
+    </author>
+    <author>
+      <name>Bing-Jun Li</name>
+    </author>
+    <author>
+      <name>Yu-Tong Li</name>
+    </author>
+    <author>
+      <name>Zheng-Ming Sheng</name>
+    </author>
+    <author>
+      <name>Li-Ming Chen</name>
+    </author>
+    <author>
+      <name>Jie Zhang</name>
+    </author>
+    <arxiv:doi>10.1088/1367-2630/ac0dec</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1367-2630/ac0dec" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1711.07200v1</id>
+    <title>The electromagnetic instabilities propagation in weak relativistic quantum plasmas</title>
+    <updated>2017-11-20T08:41:50Z</updated>
+    <link href="https://arxiv.org/abs/1711.07200v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1711.07200v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The electromagnetic instabilities excited by the temperature anisotropy have been always one of the interesting issues in real high-density physical systems, where the relativistic and quantum effects due to spin can be important. This paper discusses the case where plasma is not strongly coupled but is still in regimes where a classic plasma description is not fully adequate. The length scale of the plasma can be larger than the de-Broglie length so that the quantum effects relevance to the spin can be significant. In addition, the only relativistic effects are due to the electrons spin, for example the spin-orbit coupling effect (the weak (semi) relativistic effects). Obtained results imply that these effects can not be important in the ICF subjects while these can lead to significant results in the astrophysical subjects because of the strong magnetic fields. It is found that the weakly relativistic effects can cover the magnetic dipole force and the spin precession effects so that the growth rate of the instability can increase compared to the non relativistic spin polarized cases. Indeed, it is expected that the probability of electron capture in the background magnetic fields and the particle energy dissipation will be reduced so that there will be a high portion of free energy in the system.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-11-20T08:41:50Z</published>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>M. Mahdavi</name>
+    </author>
+    <author>
+      <name>H. Khanzadeh</name>
+    </author>
+  </entry>
+</feed>

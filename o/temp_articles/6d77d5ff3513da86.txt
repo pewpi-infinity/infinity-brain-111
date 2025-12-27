@@ -1,0 +1,67 @@
+TERMS: lattice, ionization, plasma
+COLORS: orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/XRdrq5OY3CPDHpixKGCdBPFcNSA</id>
+  <title>arXiv Query: search_query=all:lattice AND all:ionization AND all:plasma&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:14:47Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:ionization+AND+all:plasma)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>14</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1806.04203v1</id>
+    <title>Progress on Beam-Plasma Effect Simulations in Muon Ionization Cooling Lattices</title>
+    <updated>2018-06-11T19:20:05Z</updated>
+    <link href="https://arxiv.org/abs/1806.04203v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.04203v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>New computational tools are essential for accurate modeling and simulation of the next generation of muon-based accelerators. One of the crucial physics processes specific to muon accelerators that has not yet been simulated in detail is beam-induced plasma effect in liquid, solid, and gaseous absorbers. We report here on the progress of developing the required simulation tools and applying them to study the properties of plasma and its effects on the beam in muon ionization cooling channels.</summary>
+    <category term="physics.acc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-11T19:20:05Z</published>
+    <arxiv:comment>Poster presented at the 9th International Particle Accelerator Conference (IPAC 2018) Conference</arxiv:comment>
+    <arxiv:primary_category term="physics.acc-ph"/>
+    <author>
+      <name>James Ellison</name>
+    </author>
+    <author>
+      <name>Pavel Snopok</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/0406100v1</id>
+    <title>Ionization of Binary Bound States in a Strongly Coupled Quark-Gluon Plasma</title>
+    <updated>2004-06-08T20:24:48Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/0406100v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/0406100v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Although at temperatures $T\gg Λ_{QCD}$ the quark-gluon plasma (QGP) is a gas of weakly interacting quasiparticles (modulo long-range magnetism), it is strongly interacting (sQGP) in the temperature range $(1-3) T_c$. One aspect of these interactions is the existence of many binary bound states of quasiparticles. Only $\bar q q$ ones have been so far directly seen on the lattice, for charmed and light quarks, but other attractive channels in $ qg, gg$ are likely to have them as well. It was argued in our previous paper that such bound states account for a significant part of the bulk properties such as density and pressure. Using the same model, we evaluate the energy loss $dE/dx$ due to the ionization of these states. We found that it is substantial, but only in the narrow interval of temperatures $T=(1.4-1.7)T_c$. In contrast to that, we show that radiative and elastic losses are not likely to be modified much by binding, as the total density of color charges is close to what it is for weakly coupled quasiparticles. These distinctions would be important for understanding the energy dependence of jet quenching.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-06-08T20:24:48Z</published>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Edward V. Shuryak</name>
+    </author>
+    <author>
+      <name>Ismail Zahed</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/physics/0507096v1</id>
+    <title>Numerical Study of Structural Phase Transitions in a Vertically Confined Plasma Crystal</title>
+    <updated>2005-07-12T20:27:00Z</updated>
+    <link href="https://arxiv.org/abs/physics/0507096v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/physics/0507096v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Dusty plasmas consists of an ionized gas containing small (usually negatively charged) particles. Dusty plasmas are of interest in both astrophysics and space physics as well as in research in plasma processing and nanofabrication. In this work, the formation of plasma crystals confined in an external one-dimensional parabolic potential well is simulated for a normal experimental environment employing a computer code called BOX_TREE. Such crystals are layered systems, with each layer a two dimensional lattice composed of grain particles. The number of layers is dependent upon the external potential parameter. For constant layer number, the intralayer structure transits from a square lattice to a hexagonal (triangular) lattice as the confining potential decreases. For hexagonal lattices, both hcp and fcc characteristics were found but hcp structures dominate. The relative thickness of the system was also examined. The results were compared with previous experimental and theoretical results and found to agree.</summary>
+    <category term="physics.atm-clus" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-07-12T20:27:00Z</published>
+    <arxiv:primary_category term="physics.atm-clus"/>
+    <author>
+      <name>K. Qiao</name>
+    </author>
+    <author>
+      <name>T. W. Hyde</name>
+    </author>
+    <arxiv:doi>10.1016/j.asr.2005.05.019</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.asr.2005.05.019" title="doi"/>
+  </entry>
+</feed>

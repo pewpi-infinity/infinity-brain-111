@@ -1,0 +1,116 @@
+TERMS: quantum, crystal, boson
+COLORS: blue, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/aAl/DLlvI91wtD0zB+zWezkaZ8o</id>
+  <title>arXiv Query: search_query=all:quantum AND all:crystal AND all:boson&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:07:28Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:crystal+AND+all:boson)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>373</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2106.11300v1</id>
+    <title>Crystallization of Bosonic Quantum Hall States</title>
+    <updated>2021-06-21T17:56:11Z</updated>
+    <link href="https://arxiv.org/abs/2106.11300v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2106.11300v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The dominance of interactions over kinetic energy lies at the heart of strongly correlated quantum matter, from fractional quantum Hall liquids, to atoms in optical lattices and twisted bilayer graphene. Crystalline phases often compete with correlated quantum liquids, and transitions between them occur when the energy cost of forming a density wave approaches zero. A prime example occurs for electrons in high magnetic fields, where the instability of quantum Hall liquids towards a Wigner crystal is heralded by a roton-like softening of density modulations at the magnetic length. Remarkably, interacting bosons in a gauge field are also expected to form analogous liquid and crystalline states. However, combining interactions with strong synthetic magnetic fields has been a challenge for experiments on bosonic quantum gases. Here, we study the purely interaction-driven dynamics of a Landau gauge Bose-Einstein condensate in and near the lowest Landau level (LLL). We observe a spontaneous crystallization driven by condensation of magneto-rotons, excitations visible as density modulations at the magnetic length. Increasing the cloud density smoothly connects this behaviour to a quantum version of the Kelvin-Helmholtz hydrodynamic instability, driven by the sheared internal flow profile of the rapidly rotating condensate. At long times the condensate self-organizes into a persistent array of droplets, separated by vortex streets, which are stabilized by a balance of interactions and effective magnetic forces.</summary>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.PS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.flu-dyn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-06-21T17:56:11Z</published>
+    <arxiv:primary_category term="cond-mat.quant-gas"/>
+    <arxiv:journal_ref>Nature 601, 58-62 (2022)</arxiv:journal_ref>
+    <author>
+      <name>Biswaroop Mukherjee</name>
+    </author>
+    <author>
+      <name>Airlia Shaffer</name>
+    </author>
+    <author>
+      <name>Parth B. Patel</name>
+    </author>
+    <author>
+      <name>Zhenjie Yan</name>
+    </author>
+    <author>
+      <name>Cedric C. Wilson</name>
+    </author>
+    <author>
+      <name>Valentin Crépel</name>
+    </author>
+    <author>
+      <name>Richard J. Fletcher</name>
+    </author>
+    <author>
+      <name>Martin Zwierlein</name>
+    </author>
+    <arxiv:doi>10.1038/s41586-021-04170-2</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41586-021-04170-2" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2108.01747v2</id>
+    <title>Non-Hermitian quantum gases: a platform for imaginary time crystals</title>
+    <updated>2022-05-16T09:03:51Z</updated>
+    <link href="https://arxiv.org/abs/2108.01747v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2108.01747v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>One of the most important applications of quantum mechanics is the thermodynamic description of quantum gases. Despite the fundamental importance of this topic, a comprehensive description of the thermodynamic properties of non-Hermitian quantum gases is still lacking. Here, we investigate the properties of bosonic and fermionic non-Hermitian systems at finite temperatures. We show that non-Hermitian systems exihibit oscillations both in temperature and imaginary time. As such, they can be a possible platform to realize an imaginary time crystal (iTC) phase. The Hatano-Nelson model is identified as a simple lattice model to reveal this effect. In addition, we show that the conditions for the iTC to be manifest are the same as the conditions for the presence of disorder points, where the correlation functions show oscillating behavior. This analysis makes clear that our realization of iTC is effectively a way to filter one specific Matsubara mode. In this realization, the Matsubara frequency, that enters as a mathematical tool to compute correlation functions for finite temperatures, can be measured experimentally.</summary>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-08-03T21:01:08Z</published>
+    <arxiv:comment>Reformulation of manuscript, some typos corrected, results are the same. 22+16 pages on single column</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.quant-gas"/>
+    <arxiv:journal_ref>Quantum Frontiers 1, 2 (2022)</arxiv:journal_ref>
+    <author>
+      <name>R. Arouca</name>
+    </author>
+    <author>
+      <name>E. C. Marino</name>
+    </author>
+    <author>
+      <name>C. Morais Smith</name>
+    </author>
+    <arxiv:doi>10.1007/s44214-022-00002-0</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s44214-022-00002-0" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1809.04493v1</id>
+    <title>Fractional quantum Hall phases of bosons with tunable interactions: From the Laughlin liquid to a fractional Wigner crystal</title>
+    <updated>2018-09-12T14:48:36Z</updated>
+    <link href="https://arxiv.org/abs/1809.04493v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1809.04493v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Highly tunable platforms for realizing topological phases of matter are emerging from atomic and photonic systems, and offer the prospect of designing interactions between particles. The shape of the potential, besides playing an important role in the competition between different fractional quantum Hall phases, can also trigger the transition to symmetry-broken phases, or even to phases where topological and symmetry-breaking order coexist. Here, we explore the phase diagram of an interacting bosonic model in the lowest Landau level at half-filling as two-body interactions are tuned. Apart from the well-known Laughlin liquid, Wigner crystal phase, stripe, and bubble phases, we also find evidence of a phase that exhibits crystalline order at fractional filling per crystal site. The Laughlin liquid transits into this phase when pairs of bosons strongly repel each other at relative angular momentum $4\hbar$. We show that such interactions can be achieved by dressing ground-state cold atoms with multiple different-parity Rydberg states.</summary>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-09-12T14:48:36Z</published>
+    <arxiv:comment>5 pages, 5 figures, plus Supplemental Material</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.quant-gas"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 121, 253403 (2018)</arxiv:journal_ref>
+    <author>
+      <name>Tobias Graß</name>
+    </author>
+    <author>
+      <name>Przemyslaw Bienias</name>
+    </author>
+    <author>
+      <name>Michael J. Gullans</name>
+    </author>
+    <author>
+      <name>Rex Lundgren</name>
+    </author>
+    <author>
+      <name>Joseph Maciejko</name>
+    </author>
+    <author>
+      <name>Alexey V. Gorshkov</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.121.253403</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.121.253403" title="doi"/>
+  </entry>
+</feed>

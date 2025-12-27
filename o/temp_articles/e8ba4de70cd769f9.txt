@@ -1,0 +1,37 @@
+TERMS: resonance, tachyon, neutrino
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/8p7LCLhAp5XSK87fLVrN8TnVrTQ</id>
+  <title>arXiv Query: search_query=all:resonance AND all:tachyon AND all:neutrino&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:35:04Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:resonance+AND+(all:tachyon+AND+all:neutrino)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/0603244v2</id>
+    <title>Reheating in supersymmetric high scale inflation</title>
+    <updated>2007-09-18T17:26:35Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/0603244v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/0603244v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Motivated by Refs \cite{am1,am2}, we analyze how the inflaton decay reheats the Universe within supersymmetry. In a non-supersymmetric case the inflaton usually decays via preheating unless its couplings to other fields are very small. Naively one would expect that supersymmetry enhances bosonic preheating as it introduces new scalars such as squarks and sleptons. On the contrary, we point out that preheating is unlikely within supersymmetry. The reason is that flat directions in the scalar potential, classified by gauge invariant combinations of slepton and squark fields, are generically displaced towards a large vacuum expectation value (VEV) in the early Universe. They induce supersymmetry preserving masses to the inflaton decay products through the Standard Model Yukawa couplings, which kinematically blocks preheating for VEVs $&gt; 10^{13}$ GeV. The decay will become allowed only after the flat directions start oscillating, and once the flat direction VEV is sufficiently redshifted. For models with weak scale supersymmetry, this generically happens at a Hubble expansion rate: $H \simeq (10^{-3}-10^{-1}) {\rm TeV}$, at which time the inflaton decays in the perturbative regime. This is to our knowledge first analysis where the inflaton decay to the Standard Model particles is treated properly within supersymmetry. There are number of important consequences: no overproduction of dangerous supersymmetric relics (particularly gravitinos), no resonant excitation of superheavy dark matter, and no non-thermal leptogenesis through non-perturbative creation of the right-handed (s)neutrinos. Finally supersymmetric flat directions can even spoil hybrid inflation all together by not allowing the auxiliary field become tachyonic.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-03-29T18:18:48Z</published>
+    <arxiv:comment>13 revtex pages, 2 tables. Title changed, few clarifications added, final version accepted for publication in Phys. Rev. D</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys.Rev.D76:103526,2007</arxiv:journal_ref>
+    <author>
+      <name>Rouzbeh Allahverdi</name>
+    </author>
+    <author>
+      <name>Anupam Mazumdar</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.76.103526</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.76.103526" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,87 @@
+TERMS: hydrogen, electron, wavefunction, singularity
+COLORS: purple, green, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/DrbEhEhWVkJRAmiHke1OZ8Jbgmw</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:electron AND all:wavefunction AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:56:27Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:electron+AND+(all:wavefunction+AND+all:singularity))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>3</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1507.07062v1</id>
+    <title>A second mapping method in generalized discrete singular convolution algorithm: regularizing singularities for one electron system</title>
+    <updated>2015-07-25T03:32:03Z</updated>
+    <link href="https://arxiv.org/abs/1507.07062v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1507.07062v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A second mapping method is introduced in the generalized discrete singular convolution algorithm. The mapping approaches are adopted to regularize singularities for one electron system. The applications of the two mapping methods are generalized from the radial hydrogen problem to the one-dimensional hydrogen problem. Three mapping functions are chosen: the square-root mapping function, the cube-root mapping function, and the logarithm mapping function. However, the present mapping approaches fail in both the two-dimensional and three-dimensional hydrogen problems, because the wavefunctions of s-states at the nuclei are not correct.</summary>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-07-25T03:32:03Z</published>
+    <arxiv:comment>25 pages, 5 figures, 8 tables</arxiv:comment>
+    <arxiv:primary_category term="physics.comp-ph"/>
+    <author>
+      <name>Kaige Hu</name>
+    </author>
+    <author>
+      <name>Ruiqin Zhang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1412.5015v3</id>
+    <title>Theory and computation of electromagnetic transition matrix elements in the continuous spectrum of atoms</title>
+    <updated>2017-01-23T12:29:30Z</updated>
+    <link href="https://arxiv.org/abs/1412.5015v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1412.5015v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The present study examines the mathematical properties of the free-free ( f-f) matrix elements of the full electric field operator, of the multipolar Hamiltonian. Special methods are developed and applied for their computation, for the general case where the scattering wavefunctions are calculated numerically in the potential of the term-dependent (N-1) electron core, and are energy-normalized. It is found that, on the energy axis, the f-f matrix elements of the full operator have singularities of first order in the case of equal photoelectron energies. The numerical applications are for f-f transitions in Hydrogen and Neon, obeying electric dipole and quadrupole selection rules. In the limit of zero photon wave-number, the full operator reduces to the length form of the electric dipole approximation (EDA). It is found that the results for the EDA agree with those of the full operator, with the exception of a photon wave-number region about the singularity.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-12-16T14:27:29Z</published>
+    <arxiv:comment>39 pages, 11 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>Yannis Komninos</name>
+    </author>
+    <author>
+      <name>Theodoros Mercouris</name>
+    </author>
+    <author>
+      <name>Cleanthes A. Nicolaides</name>
+    </author>
+    <arxiv:doi>10.1140/epjd/e2016-60706-8</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1140/epjd/e2016-60706-8" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1910.00437v1</id>
+    <title>Measuring the Berry phase of graphene from wavefront dislocations in Friedel oscillations</title>
+    <updated>2019-10-01T14:25:37Z</updated>
+    <link href="https://arxiv.org/abs/1910.00437v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1910.00437v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Electronic band structures dictate the mechanical, optical and electrical properties of crystalline solids. Their experimental determination is therefore of crucial importance for technological applications. While the spectral distribution in energy bands is routinely measured by various techniques, it is more difficult to access the topological properties of band structures such as the Berry phase γ. It is usually thought that measuring the Berry phase requires applying external electromagnetic forces because these allow realizing the adiabatic transport on closed trajectories along which quantum mechanical wave-functions pick up the Berry phase. In graphene, the anomalous quantum Hall effect results from the Berry phase γ = π picked up by massless relativistic electrons along cyclotron orbits and proves the existence of Dirac cones. Contradicting this belief, we demonstrate that the Berry phase of graphene can be measured in absence of any external magnetic field. We observe edge dislocations in the Friedel oscillations formed at hydrogen atoms chemisorbed on graphene. Following Nye and Berry in describing these topological defects as phase singularities of complex fields, we show that the number of additional wave-fronts in the dislocation is a real space measurement of the pseudo spin winding, i.e. graphene's Berry phase. Since the electronic dispersion can also be retrieved from Friedel oscillations, our study establishes the electronic density as a powerful observable to determine both the dispersion relation and topological properties of wavefunctions. This could have profound consequences for the study of the band-structure topology of relativistic and gapped phases in solids.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-10-01T14:25:37Z</published>
+    <arxiv:comment>Supplementary information available at Nature's web site</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>C. Dutreix</name>
+    </author>
+    <author>
+      <name>H. González-Herrero</name>
+    </author>
+    <author>
+      <name>I. Brihuega</name>
+    </author>
+    <author>
+      <name>M. I. Katsnelson</name>
+    </author>
+    <author>
+      <name>C. Chapelier</name>
+    </author>
+    <author>
+      <name>V. T. Renard</name>
+    </author>
+    <arxiv:doi>10.1038/s41586-019-1613-5</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41586-019-1613-5" title="doi"/>
+  </entry>
+</feed>

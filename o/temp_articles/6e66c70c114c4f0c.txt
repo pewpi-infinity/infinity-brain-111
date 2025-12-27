@@ -1,0 +1,73 @@
+TERMS: hydrogen, quantum, graphene, plasma
+COLORS: purple, blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/uZWJFP8NvRxrn7hxAYs1eOnbPkw</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:graphene AND all:plasma&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:40:48Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:graphene+AND+all:plasma))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1511.07241v1</id>
+    <title>Cleaning graphene : a first quantum/classical molecular dynamics approach</title>
+    <updated>2015-11-23T14:38:04Z</updated>
+    <link href="https://arxiv.org/abs/1511.07241v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1511.07241v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Graphene outstanding properties created a huge interest in the condensed matter community and unprecedented fundings at the international scale in the hope of application developments. Recently, there have been several reports of incomplete removal of the polymer resists used to transfer as-grown graphene from one substrate to another, resulting in altered graphene transport properties. Finding a large-scale solution to clean graphene from adsorbed residues is highly desirable and one promising possibility would be to use hydrogen plasmas. In this spirit, we couple here quantum and classical molecular dynamics simulations to explore the kinetic energy ranges required by atomic hydrogen to selectively etch a simple residue, a CH3 group, without irreversibly damaging the graphene. For incident energies in the 2-15 eV range, the CH3 radical can be etched by forming a volatile CH4 compound which leaves the surface, either in the CH4 form or breaking into CH3+H fragments, without further defect formation. At this energy, adsorption of H atoms on graphene is possible and further annealing will be required to recover pristine graphene.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-11-23T14:38:04Z</published>
+    <arxiv:comment>9 figures, 27 pages</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>L. Delfour</name>
+    </author>
+    <author>
+      <name>A. Davydova</name>
+    </author>
+    <author>
+      <name>E. Despiau-Pujo</name>
+    </author>
+    <author>
+      <name>G. Cunge</name>
+    </author>
+    <author>
+      <name>D. B. Graves</name>
+    </author>
+    <author>
+      <name>L. Magaud</name>
+    </author>
+    <arxiv:doi>10.1063/1.4945034</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/1.4945034" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0611015v2</id>
+    <title>Lifshitz-type formulas for graphene and single-wall carbon nanotubes: van der Waals and Casimir interations</title>
+    <updated>2006-11-06T15:26:42Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0611015v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0611015v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Lifshitz-type formulas are obtained for the van der Waals and Casimir interaction between graphene and a material plate, graphene and an atom or a molecule, and between a single-wall carbon nanotube and a plate. The reflection properties of electromagnetic oscillations on graphene are governed by the specific boundary conditions imposed on the infinitely thin positively charged plasma sheet, carrying a continuous fluid with some mass and charge density. The obtained formulas are applied to graphene interacting with Au and Si plates, to hydrogen atoms and molecules interacting with graphene, and to single-wall carbon nanotubes interacting with Au and Si plates. The generalizations to more complicated carbon nanostructures are discussed.</summary>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-11-01T13:34:07Z</published>
+    <arxiv:comment>11 pages, 5 figures, 2 tables; to appear in Phys. Rev. B; misprints in Eqs.(33) and (34) are corrected</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.other"/>
+    <arxiv:journal_ref>Phys. Rev. B, vol. 74, N20, p.205431-(1-9) (2006).</arxiv:journal_ref>
+    <author>
+      <name>M. Bordag</name>
+    </author>
+    <author>
+      <name>B. Geyer</name>
+    </author>
+    <author>
+      <name>G. L. Klimchitskaya</name>
+    </author>
+    <author>
+      <name>V. M. Mostepanenko</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.74.205431</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.74.205431" title="doi"/>
+  </entry>
+</feed>

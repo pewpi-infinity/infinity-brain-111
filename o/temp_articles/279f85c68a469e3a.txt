@@ -1,0 +1,76 @@
+TERMS: hydrogen, frequency, vapor
+COLORS: purple, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/mvqKenPpgw+3STY0RXSn/tVXBGg</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:frequency AND all:vapor&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:01:42Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:frequency+AND+all:vapor)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>20</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1601.06840v1</id>
+    <title>Radio-frequency-modulated Rydberg states in a vapor cell</title>
+    <updated>2016-01-25T22:42:34Z</updated>
+    <link href="https://arxiv.org/abs/1601.06840v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1601.06840v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We measure strong radio-frequency (RF) electric fields using rubidium Rydberg atoms prepared in a room-temperature vapor cell as field sensors. Electromagnetically induced transparency is employed as an optical readout. We RF-modulate the 60$S_{1/2}$ and 58$D_{5/2}$ Rydberg states with 50~MHz and 100~MHz fields, respectively. For weak to moderate RF fields, the Rydberg levels become Stark-shifted, and sidebands appear at even multiples of the driving frequency. In high fields, the adjacent hydrogenic manifold begins to intersect the shifted levels, providing rich spectroscopic structure suitable for precision field measurements. A quantitative description of strong-field level modulation and mixing of $S$ and $D$ states with hydrogenic states is provided by Floquet theory. Additionally, we estimate the shielding of DC electric fields in the interior of the glass vapor cell.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-01-25T22:42:34Z</published>
+    <arxiv:comment>6 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <arxiv:journal_ref>New J. Phys. 18 (2016) 053017</arxiv:journal_ref>
+    <author>
+      <name>Stephanie A. Miller</name>
+    </author>
+    <author>
+      <name>David A. Anderson</name>
+    </author>
+    <author>
+      <name>Georg Raithel</name>
+    </author>
+    <arxiv:doi>10.1088/1367-2630/18/5/053017</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1367-2630/18/5/053017" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1501.03369v1</id>
+    <title>Nature of the Frequency Shift of Hydrogen Valence Vibrations</title>
+    <updated>2015-01-14T15:22:16Z</updated>
+    <link href="https://arxiv.org/abs/1501.03369v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1501.03369v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The physical nature of a frequency shift of hydrogen valence vibrations in a water molecule due to its interaction with neighbor molecules has been studied. Electrostatic forces connected with the multipole moments of molecules are supposed to give a dominating contribution to the intermolecular interaction. The frequency shift was calculated in the case where two neighbor molecules form a dimer. The obtained result is in qualitative agreement with the frequency shifts observed for water vapor, hexagonal ice, and liquid water, as well as for aqueous solutions of alcohols. This fact testifies to the electrostatic nature of H-bonds used to describe both the specific features of the intermolecular interaction in water and the macroscopic properties of the latter.</summary>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-01-14T15:22:16Z</published>
+    <arxiv:comment>8 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.chem-ph"/>
+    <arxiv:journal_ref>Ukrainian Journal of Physics 2014, Vol. 59, No. 12, p.1183-1190</arxiv:journal_ref>
+    <author>
+      <name>I. V. Zhyganiuk</name>
+    </author>
+    <author>
+      <name>M. P. Malomuzh</name>
+    </author>
+    <arxiv:doi>10.15407/ujpe59.12.1183</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.15407/ujpe59.12.1183" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2007.04144v4</id>
+    <title>Evidence of hydrogen diffusion in n-type GaN</title>
+    <updated>2020-08-03T07:37:59Z</updated>
+    <link href="https://arxiv.org/abs/2007.04144v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2007.04144v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The control over impurities like hydrogen and oxygen is of key importance in nitride-based semiconducting due to their unrivaled applicability in optoelectronics and high power/high frequency electronics. Therefore, it is desirable to continue the research on its diffusion and segregation in semiconductor materials. In this work, we report on a first observation on hydrogen outdiffusion from bulk crystalline gallium nitride. The extent of the hydrogen diffusion is established by secondary ion mass spectrometry. Analysis of characteristic hydrogen profile in GaN grown using ammonothermal method, led to the determination of the hydrogen diffusion coefficient at the temperature of 1045C - a standard growth temperature for HVPE (halide vapor phase epitaxy) method.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-07-08T14:18:10Z</published>
+    <arxiv:comment>8 pages, 2 figures, regular paper</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Rafal Jakiela</name>
+    </author>
+    <author>
+      <name>Adam Barcz</name>
+    </author>
+  </entry>
+</feed>

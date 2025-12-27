@@ -1,0 +1,34 @@
+TERMS: hydrogen, frequency, entropy, resonance
+COLORS: purple, green, red, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/rt4o825Bsqtfy/uK7MseJfTQS0I</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:frequency AND all:entropy AND all:resonance&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:42:15Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:frequency+AND+(all:entropy+AND+all:resonance))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/astro-ph/0604483v4</id>
+    <title>Heating and cooling of the intergalactic medium by resonance photons</title>
+    <updated>2007-01-27T01:41:31Z</updated>
+    <link href="https://arxiv.org/abs/astro-ph/0604483v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/astro-ph/0604483v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  During the epoch of reionization a large number of photons were produced with frequencies below the hydrogen Lyman limit. After redshifting into the closest resonance, these photons underwent multiple scatterings with atoms. We examine the effect of these scatterings on the temperature of the neutral intergalactic medium (IGM). Continuum photons, emitted between the Ly_alpha and Ly_gamma frequencies, heat the gas after being redshifted into the H Ly_alpha or D Ly_beta resonance. By contrast, photons emitted between the Ly_gamma and Ly-limit frequencies, produce effective cooling of the gas. Prior to reionization, the equilibrium temperature of ~100 K for hydrogen and helium atoms is set by these two competing processes. At the same time, Ly_beta resonance photons thermally decouple deuterium from other species, raising its temperature as high as 10^4 K. Our results have important consequences for the cosmic 21-cm background and the entropy floor of the early IGM which can affect star formation and reionization.</summary>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-04-22T18:37:17Z</published>
+    <arxiv:comment>4 pages, 4 figures, ApJ, in press</arxiv:comment>
+    <arxiv:primary_category term="astro-ph"/>
+    <arxiv:journal_ref>Astrophys.J.655:843-846,2007</arxiv:journal_ref>
+    <author>
+      <name>Leonid Chuzhoy</name>
+    </author>
+    <author>
+      <name>Paul R. Shapiro</name>
+    </author>
+    <arxiv:doi>10.1086/510146</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1086/510146" title="doi"/>
+  </entry>
+</feed>

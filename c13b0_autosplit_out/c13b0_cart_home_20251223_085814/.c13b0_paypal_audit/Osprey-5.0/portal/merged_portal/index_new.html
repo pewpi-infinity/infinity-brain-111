@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+<title>Osprey Portal / App Builder</title>
+<style>
+body{font-family:system-ui;background:#050a10;color:#0ff;margin:0;padding:0;text-align:center}
+h1{color:#4cf;margin:30px 0}
+.container{max-width:700px;margin:auto;padding:20px;background:#0a0f1a;border-radius:20px;box-shadow:0 0 30px #00f4ff20}
+input,button{font-size:1em;border:none;border-radius:10px;padding:10px 15px;margin:8px}
+input{width:60%}
+button{background:#09f;color:#fff;cursor:pointer;transition:.2s}
+button:hover{background:#0070f3}
+.section{margin-top:30px}
+.app-buttons button{display:inline-block;margin:10px 8px}
+</style>
+</head>
+<body>
+<h1>🦅 Osprey Portal / App Builder</h1>
+<div class="container">
+<h2>Create Your Own App Page</h2>
+<p>Type an idea or select a suggestion to start building.</p>
+<input id="idea" placeholder="Describe your idea..." />
+<button onclick="alert('AI Builder coming soon')">Build</button>
+
+<div class="section">
+<h3>Need inspiration?</h3>
+<div class="app-buttons">
+  <button onclick="openApp('signal.html')">Signal Generator</button>
+  <button onclick="openApp('voice.html')">Voice Recorder</button>
+  <button onclick="openApp('quantum.html')">Quantum Visualizer</button>
+  <button onclick="openApp('story.html')">Story Writer</button>
+</div>
+</div>
+
+<div class="section">
+<h3>New App Created 🎉</h3>
+// select a template above to begin
+</div>
+</div>
+
+<script>
+function openApp(page){window.location.href='apps/'+page;}
+</script>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const routes = {
+    signalBtn: 'signal_generator.html',
+    quantumBtn: 'quantum_visualizer.html',
+    voiceBtn: 'voice_recorder.html',
+  };
+
+  Object.keys(routes).forEach(id => {
+    const el = document.getElementById(id);
+    if (el) el.onclick = () => window.location.href = routes[id];
+  });
+});
+</script>
+</body>
+</html>
+<!-- 🔗 Infinity Add-On: Connect Voice Recorder Button -->
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const voiceBtn = document.getElementById("voiceBtn");
+  if (voiceBtn) {
+    voiceBtn.onclick = () => {
+      console.log("🎙️ Launching Voice Recorder...");
+      window.location.href = "voice_recorder.html";
+    };
+  }
+});
+</script>

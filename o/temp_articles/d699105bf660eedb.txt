@@ -1,0 +1,92 @@
+TERMS: crystal, boson, bandgap
+COLORS: orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/xCZdDQV4/ZbC1DOcIo4Q2le3GXM</id>
+  <title>arXiv Query: search_query=all:crystal AND all:boson AND all:bandgap&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:28:32Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:crystal+AND+(all:boson+AND+all:bandgap)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1504.04399v2</id>
+    <title>Experimental Observation of Large Chern numbers in Photonic Crystals</title>
+    <updated>2015-12-02T03:38:40Z</updated>
+    <link href="https://arxiv.org/abs/1504.04399v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1504.04399v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Despite great interest in the quantum anomalous Hall phase and its analogs, all experimental studies in electronic and bosonic systems have been limited to a Chern number of one. Here, we perform microwave transmission measurements in the bulk and at the edge of ferrimagnetic photonic crystals. Bandgaps with large Chern numbers of 2, 3, and 4 are present in the experimental results which show excellent agreement with theory. We measure the mode profiles and Fourier transform them to produce dispersion relations of the edge modes, whose number and direction match our Chern number calculations.</summary>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-04-16T22:06:24Z</published>
+    <arxiv:comment>This experimental work was accepted to PRL on Oct. 13, 2015. Our theoretical work from PRL http://dx.doi.org/10.1103/PhysRevLett.113.113904</arxiv:comment>
+    <arxiv:primary_category term="physics.optics"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 115, 253901 (2015)</arxiv:journal_ref>
+    <author>
+      <name>Scott A. Skirlo</name>
+    </author>
+    <author>
+      <name>Ling Lu</name>
+    </author>
+    <author>
+      <name>Qinghui Yan</name>
+    </author>
+    <author>
+      <name>Yuichi Igarashi</name>
+    </author>
+    <author>
+      <name>John Joannopoulos</name>
+    </author>
+    <author>
+      <name>Marin Soljacic</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.115.253901</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.115.253901" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1804.03595v2</id>
+    <title>Realization of a three-dimensional photonic topological insulator</title>
+    <updated>2019-01-10T06:04:06Z</updated>
+    <link href="https://arxiv.org/abs/1804.03595v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1804.03595v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Confining photons in a finite volume is in high demand in modern photonic devices. This motivated decades ago the invention of photonic crystals, featured with a photonic bandgap forbidding light propagation in all directions. Recently, inspired by the discoveries of topological insulators (TIs), the confinement of photons with topological protection has been demonstrated in two-dimensional (2D) photonic structures known as photonic TIs, with promising applications in topological lasers and robust optical delay lines. However, a fully three-dimensional (3D) topological photonic bandgap has never before been achieved. Here, we experimentally demonstrate a 3D photonic TI with an extremely wide (&gt; 25% bandwidth) 3D topological bandgap. The sample consists of split-ring resonators (SRRs) with strong magneto-electric coupling and behaves as a 'weak TI', or a stack of 2D quantum spin Hall insulators. Using direct field measurements, we map out both the gapped bulk bandstructure and the Dirac-like dispersion of the photonic surface states, and demonstrate robust photonic propagation along a non-planar surface. Our work extends the family of 3D TIs from fermions to bosons and paves the way for applications in topological photonic cavities, circuits, and lasers in 3D geometries.</summary>
+    <category term="physics.class-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-04-10T15:43:38Z</published>
+    <arxiv:primary_category term="physics.class-ph"/>
+    <author>
+      <name>Yihao Yang</name>
+    </author>
+    <author>
+      <name>Zhen Gao</name>
+    </author>
+    <author>
+      <name>Haoran Xue</name>
+    </author>
+    <author>
+      <name>Li Zhang</name>
+    </author>
+    <author>
+      <name>Mengjia He</name>
+    </author>
+    <author>
+      <name>Zhaoju Yang</name>
+    </author>
+    <author>
+      <name>Ranjan Singh</name>
+    </author>
+    <author>
+      <name>Yidong Chong</name>
+    </author>
+    <author>
+      <name>Baile Zhang</name>
+    </author>
+    <author>
+      <name>Hongsheng Chen</name>
+    </author>
+    <arxiv:doi>10.1038/s41586-018-0829-0</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41586-018-0829-0" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,96 @@
+TERMS: muon, singularity
+COLORS: green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Si5bVGBH2UGXJ0+klTGAdWZm1wg</id>
+  <title>arXiv Query: search_query=all:muon AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:00:46Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:muon+AND+all:singularity&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>54</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1506.01465v1</id>
+    <title>Precision Muon Physics</title>
+    <updated>2015-06-04T04:41:23Z</updated>
+    <link href="https://arxiv.org/abs/1506.01465v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1506.01465v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The muon is playing a unique role in sub-atomic physics. Studies of muon decay both determine the overall strength and establish the chiral structure of weak interactions, as well as setting extraordinary limits on charged-lepton-flavor-violating processes. Measurements of the muon's anomalous magnetic moment offer singular sensitivity to the completeness of the standard model and the predictions of many speculative theories. Spectroscopy of muonium and muonic atoms gives unmatched determinations of fundamental quantities including the magnetic moment ratio $μ_μ/ μ_p$, lepton mass ratio $m_μ / m_e$, and proton charge radius $r_p$. Also, muon capture experiments are exploring elusive features of weak interactions involving nucleons and nuclei.
+  We will review the experimental landscape of contemporary high-precision and high-sensitivity experiments with muons. One focus is the novel methods and ingenious techniques that achieve such precision and sensitivity in recent, present, and planned experiments. Another focus is the uncommonly broad and topical range of questions in atomic, nuclear and particle physics that such experiments explore.</summary>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-06-04T04:41:23Z</published>
+    <arxiv:comment>Invited review, Progress in Particle and Nuclear Physics (100 pages, in press)</arxiv:comment>
+    <arxiv:primary_category term="hep-ex"/>
+    <author>
+      <name>T. P. Gorringe</name>
+    </author>
+    <author>
+      <name>D. W. Hertzog</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.14562v2</id>
+    <title>LiMuon: Light and Fast Muon Optimizer for Large Models</title>
+    <updated>2025-09-19T07:40:32Z</updated>
+    <link href="https://arxiv.org/abs/2509.14562v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.14562v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large models recently are widely applied in artificial intelligence, so efficient training of large models has received widespread attention. More recently, a useful Muon optimizer is specifically designed for matrix-structured parameters of large models. Although some works have begun to studying Muon optimizer, the existing Muon and its variants still suffer from high sample complexity or high memory for large models. To fill this gap, we propose a light and fast Muon (LiMuon) optimizer for training large models, which builds on the momentum-based variance reduced technique and randomized Singular Value Decomposition (SVD). Our LiMuon optimizer has a lower memory than the current Muon and its variants. Moreover, we prove that our LiMuon has a lower sample complexity of $O(ε^{-3})$ for finding an $ε$-stationary solution of non-convex stochastic optimization under the smooth condition. Recently, the existing convergence analysis of Muon optimizer mainly relies on the strict Lipschitz smooth assumption, while some artificial intelligence tasks such as training large language models (LLMs) do not satisfy this condition. We also proved that our LiMuon optimizer has a sample complexity of $O(ε^{-3})$ under the generalized smooth condition. Numerical experimental results on training DistilGPT2 and ViT models verify efficiency of our LiMuon optimizer.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-18T02:49:27Z</published>
+    <arxiv:comment>28 pages</arxiv:comment>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Feihu Huang</name>
+    </author>
+    <author>
+      <name>Yuning Luo</name>
+    </author>
+    <author>
+      <name>Songcan Chen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.26030v2</id>
+    <title>Muon Outperforms Adam in Tail-End Associative Memory Learning</title>
+    <updated>2025-10-05T09:26:34Z</updated>
+    <link href="https://arxiv.org/abs/2509.26030v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.26030v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Muon optimizer is consistently faster than Adam in training Large Language Models (LLMs), yet the mechanism underlying its success remains unclear. This paper demystifies this mechanism through the lens of associative memory. By ablating the transformer components optimized by Muon, we reveal that the associative memory parameters of LLMs, namely the Value and Output (VO) attention weights and Feed-Forward Networks (FFNs), are the primary contributors to Muon's superiority. Motivated by this associative memory view, we then explain Muon's superiority on real-world corpora, which are intrinsically heavy-tailed: a few classes (tail classes) appear far less frequently than others. The superiority is explained through two key properties: (i) its update rule consistently yields a more isotropic singular spectrum than Adam; and as a result, (ii) on heavy-tailed data, it optimizes tail classes more effectively than Adam. Beyond empirical evidence, we theoretically confirm these findings by analyzing a one-layer associative memory model under class-imbalanced data. We prove that Muon consistently achieves balanced learning across classes regardless of feature embeddings, whereas Adam can induce large disparities in learning errors depending on embedding properties. In summary, our empirical observations and theoretical analyses reveal Muon's core advantage: its update rule aligns with the outer-product structure of linear associative memories, enabling more balanced and effective learning of tail classes in heavy-tailed distributions than Adam.</summary>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-30T10:04:08Z</published>
+    <arxiv:primary_category term="cs.LG"/>
+    <author>
+      <name>Shuche Wang</name>
+    </author>
+    <author>
+      <name>Fengzhuo Zhang</name>
+    </author>
+    <author>
+      <name>Jiaxiang Li</name>
+    </author>
+    <author>
+      <name>Cunxiao Du</name>
+    </author>
+    <author>
+      <name>Chao Du</name>
+    </author>
+    <author>
+      <name>Tianyu Pang</name>
+    </author>
+    <author>
+      <name>Zhuoran Yang</name>
+    </author>
+    <author>
+      <name>Mingyi Hong</name>
+    </author>
+    <author>
+      <name>Vincent Y. F. Tan</name>
+    </author>
+  </entry>
+</feed>

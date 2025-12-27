@@ -1,0 +1,74 @@
+TERMS: spin, boson, singularity
+COLORS: yellow, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/gRXFM+NOq6C6YgP5paYqV2ps+4Y</id>
+  <title>arXiv Query: search_query=all:spin AND all:boson AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:32:48Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:spin+AND+(all:boson+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>159</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2210.15267v1</id>
+    <title>Renormalization of spin$\unicode{x2013}$boson interactions mediated by singular form factors</title>
+    <updated>2022-10-27T08:49:12Z</updated>
+    <link href="https://arxiv.org/abs/2210.15267v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2210.15267v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study and discuss the extension of the rotating-wave spin$\unicode{x2013}$boson model, together with more general models describing a system$\unicode{x2013}$field coupling with a similar rotating-wave structure, to interactions mediated by possibly singular (non-normalizable) form factors satisfying a weaker growth constraint. To this purpose, a construction of annihilation and creation operators as continuous maps on a scale of Fock spaces, together with a rigorous renormalization procedure, is employed.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-10-27T08:49:12Z</published>
+    <arxiv:comment>19 pages</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <arxiv:journal_ref>Quantum Mathematics II. INdAM 2022. Springer INdAM Series, vol 58, pp 103-122. Springer, Singapore</arxiv:journal_ref>
+    <author>
+      <name>Davide Lonigro</name>
+    </author>
+    <arxiv:doi>10.1007/978-981-99-5884-9_3</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/978-981-99-5884-9_3" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1806.09879v3</id>
+    <title>Photonic Dirac monopoles and skyrmions: spin-1 quantization</title>
+    <updated>2018-12-02T23:56:21Z</updated>
+    <link href="https://arxiv.org/abs/1806.09879v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.09879v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce the concept of a photonic Dirac monopole, appropriate for photonic crystals, metamaterials and 2D materials, by utilizing the Dirac-Maxwell correspondence. We start by exploring vacuum where the reciprocal momentum space of both Maxwell's equations and the massless Dirac equation (Weyl equation) possess a magnetic monopole. The critical distinction is the nature of magnetic monopole charges, which are integer valued for photons but half-integer for electrons. This inherent difference is directly tied to the spin and ultimately connects to the bosonic or fermionic behavior. We also show the presence of photonic Dirac strings, which are line singularities in the underlying Berry gauge potential. While the results in vacuum are intuitively expected, our central result is the application of this topological Dirac-Maxwell correspondence to 2D photonic (bosonic) materials, as opposed to conventional electronic (fermionic) materials. Intriguingly, within dispersive matter, the presence of photonic Dirac monopoles is captured by nonlocal quantum Hall conductivity - i.e. a spatiotemporally dispersive gyroelectric constant. For both 2D photonic and electronic media, the nontrivial topological phases emerge in the context of massive particles with broken time-reversal symmetry. However, the bulk dynamics of these bosonic and fermionic Chern insulators are characterized by spin-1 and spin-1/2 skyrmions in momentum space, which have fundamentally different interpretations. This is exemplified by their contrasting spin-1 and spin-1/2 helically quantized edge states. Our work sheds light on the recently proposed quantum gyroelectric phase of matter and the essential role of photon spin quantization in topological bosonic phases.</summary>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-26T09:52:35Z</published>
+    <arxiv:comment>25 pages, 4 figures. This is the fourth paper in a series of papers on spin and topological bosonic phases of light. The others can be found here: https://doi.org/10.1103/PhysRevA.98.023842, arXiv:1708.08192, and https://doi.org/10.1364/OPTICA.3.000118</arxiv:comment>
+    <arxiv:primary_category term="physics.optics"/>
+    <arxiv:journal_ref>Opt. Mater. Express 9, 95-111 (2019)</arxiv:journal_ref>
+    <author>
+      <name>Todd Van Mechelen</name>
+    </author>
+    <author>
+      <name>Zubin Jacob</name>
+    </author>
+    <arxiv:doi>10.1364/OME.9.000095</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1364/OME.9.000095" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2111.06121v2</id>
+    <title>Generalized spin-boson models with non-normalizable form factors</title>
+    <updated>2022-05-06T14:22:57Z</updated>
+    <link href="https://arxiv.org/abs/2111.06121v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2111.06121v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Generalized spin-boson (GSB) models describe the interaction between a quantum mechanical system and a structured boson environment, mediated by a family of coupling functions known as form factors. We propose an extension of the class of GSB models which can accommodate non-normalizable form factors, provided that they satisfy a weaker growth constraint, thus accounting for a rigorous description of a wider range of physical scenarios; we also show that such "singular" GSB models can be rigorously approximated by GSB models with normalizable form factors. Furthermore, we discuss in greater detail the structure of the spin-boson model with a rotating wave approximation (RWA): for this model, the result is improved via a nonperturbative approach which enables us to further extend the class of admissible form factors, as well as to compute its resolvent and characterize its self-adjointness domain.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-11-11T09:47:04Z</published>
+    <arxiv:comment>40 pages; new section added</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <arxiv:journal_ref>Journal of Mathematical Physics 63, 072105 (2022)</arxiv:journal_ref>
+    <author>
+      <name>Davide Lonigro</name>
+    </author>
+    <arxiv:doi>10.1063/5.0085576</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/5.0085576" title="doi"/>
+  </entry>
+</feed>

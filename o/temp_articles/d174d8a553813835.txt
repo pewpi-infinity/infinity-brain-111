@@ -1,0 +1,65 @@
+TERMS: hydrogen, quantum, electron, ionization
+COLORS: purple, blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/jBdjmfrh8Ss5J/GnQbCUn7plSy8</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:electron AND all:ionization&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:38:59Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:electron+AND+all:ionization))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>117</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2511.21430v1</id>
+    <title>Quantum electrodynamic description of the neutral hydrogen molecule ionization</title>
+    <updated>2025-11-26T14:21:43Z</updated>
+    <link href="https://arxiv.org/abs/2511.21430v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.21430v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The ionization dynamics of a hydrogen molecule, serving as a fundamental benchmark in quantum chemistry, is investigated within a comprehensive framework combining quantum electrodynamics and the Lindblad master equation. This approach enables a first-principles description of light--matter interactions while accounting for dissipative processes and external particle influx. We systematically explore the system's evolution across three distinct regimes: closed, dissipative open, and influx-driven open quantum systems. Our results reveal a universal tendency towards the formation of the neutral hydrogen molecule ($|\rm{H}_2\rangle$) across all configurations. The dissipation strengths for photons ($γ_Ω$), electrons ($γ_e$), and phonons ($γ_ω$) are identified as critical control parameters, with $γ_Ω$ significantly accelerating system stabilization. Furthermore, the introduction of particle influx ($μ_k$) leads to a complex redistribution of energy, notably populating the atomic state ($|\rm{H},\rm{H}\rangle$). The ionization pathway is exquisitely sensitive to the initial quantum state, dictated by the composition and number of photons, which governs the accessible spin-selective excitation channels. This is conclusively demonstrated in a model with an embedded anode, where the maximum ionization probability is fundamentally constrained to $\frac{3}{4}$ by orbital hybridization. This study provides a unified theoretical foundation for quantum-controlled chemistry, with direct implications for future experiments in cavity QED and quantum information processing.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-26T14:21:43Z</published>
+    <arxiv:comment>11 pages, 5 figures; Supplementary Information: 2 videos</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Hui-hui Miao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1412.1821v4</id>
+    <title>ISQ derivation ("derivation in SI units") of a formula for the electrostatic field ionization rate-constant for a hydrogenic atom in its ground electronic state</title>
+    <updated>2015-07-01T10:51:34Z</updated>
+    <link href="https://arxiv.org/abs/1412.1821v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1412.1821v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Technical applications using electrostatic field ionization (ESFI) need a formula for the rate-constant K_e for the free-space ESFI of a hydrogenic atom in its ground electronic state. This formula must indicate the dependence on ionization energy I. Existing formulae were derived using atomic units. However, many scientists work with ESFI as an important technical process, but are not familiar with the Gaussian or atomic units systems. In the 1970s, the present International System of Quantities (ISQ), which includes the equations behind SI units, was designated as the main system for university teaching and the communication of scientific equations. 40 years on, ISQ derivations of ESFI rate-constant formulae are still not easily found, but are now needed. This tutorial paper gives a detailed ISQ derivation of a formula for K_e. The derivation is closely modelled on the Landau and Lifshitz (LL) approach used in their 1958 work (in atomic units) on hydrogen atom ESFI. The ISQ derivation confirms that, for hydrogenic atoms, ionization energy appears in the pre-exponential as I^(5/2), and defines a universal "field ionization constant". It also shows how the ISQ formula relates to the Gurney and Condon "attempt frequency" form for tunnelling rate-constants, and an ISQ formula is given for the motive energy in the related JWKB integral. The ISQ derivation uses a motive-energy transformation analogous to a transformation used by LL. The need for this transformation in ESFI theory raises questions as to the correctness of theoretical treatments of field electron emission from non-planar emitters, which do not make this transformation.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-12-03T23:28:12Z</published>
+    <arxiv:comment>41 typed pages (double-line spacing). In v4, an interpretation error in earlier versions has been corrected, and there has been a change in emphasis. The paper is now presented as an ISQ treatment of the ESFI of a hydrogenic atom, with the treatment closely modelled on the Landau and Lifshitz atomic-units treatment of the ESFI of a hydrogen atom. In consequence, the title has been changed</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Richard G. Forbes</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/quant-ph/0509112v1</id>
+    <title>Non-adiabatic quantum molecular dynamics: Ionization of many electron systems</title>
+    <updated>2005-09-16T09:10:39Z</updated>
+    <link href="https://arxiv.org/abs/quant-ph/0509112v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/quant-ph/0509112v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We propose a novel method to describe realistically ionization processes with absorbing boundary conditions in basis expansion within the formalism of the so-called Non-Adiabatic Quantum Molecular Dynamics. This theory couples self-consistently a classical description of the nuclei with a quantum mechanical treatment of the electrons in atomic many-body systems. In this paper we extend the formalism by introducing absorbing boundary conditions via an imaginary potential. It is shown how this potential can be constructed in time-dependent density functional theory in basis expansion. The approach is first tested on the hydrogen atom and the pre-aligned hydrogen molecular ion H2+ in intense laser fields where reference calculations are available. It is then applied to study the ionization of non-aligned H2+ and H2. Striking differences in the orientation dependence between both molecules are found. Surprisingly, enhanced ionization is predicted for perpendicularly aligned molecules.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-09-16T09:10:39Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Mathias Uhlmann</name>
+    </author>
+    <author>
+      <name>Thomas Kunert</name>
+    </author>
+    <author>
+      <name>Ruediger Schmidt</name>
+    </author>
+    <arxiv:doi>10.1088/0953-4075/39/14/007</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0953-4075/39/14/007" title="doi"/>
+  </entry>
+</feed>

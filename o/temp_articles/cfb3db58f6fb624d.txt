@@ -1,0 +1,49 @@
+TERMS: vapor, muon, probability
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/d5Nzk1XtFeaJYRaftCkrpp22jJQ</id>
+  <title>arXiv Query: search_query=all:vapor AND all:muon AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:26:38Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:vapor+AND+(all:muon+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1612.03905v1</id>
+    <title>DIAPHANE: Muon tomography applied to volcanoes, civil engineering, archaelogy</title>
+    <updated>2016-12-12T19:52:15Z</updated>
+    <link href="https://arxiv.org/abs/1612.03905v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1612.03905v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Muography techniques applied to geological structures greatly improved in the past ten years. Recent applications demonstrate the interest of the method not only to perform structural imaging but also to monitor the dynamics of inner movements like magma ascent inside volcanoes or density variations in hydrothermal systems. Muography time-resolution has been studied thanks to dedicated experiments, e.g. in a water tower tank. This paper presents the activities of the DIAPHANE collaboration between particle- and geo-physicists and the most recent results obtained in the field of volcanology, with a focus on the main target, the Soufrière of Guadeloupe active volcano. Special emphasis is given on the monitoring of the dome's inner volumes opacity variations, that could be inferred to the hydrothermal system dynamics (vaporization of inner liquid water in coincidence with the appearance of new fumaroles at the summit). I also breifly present results obtained in the fields of civil engineering (study of urban underground tunnels) and archaelogy (greek tumulus scanning).</summary>
+    <category term="physics.geo-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.data-an" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-12-12T19:52:15Z</published>
+    <arxiv:comment>Invited talk, 14$^{\text{th}}$ Topical Seminar on Innovative Particle and Radiation Detectors (IPRD16), 3 - 6 October 2016, Siena, Italy</arxiv:comment>
+    <arxiv:primary_category term="physics.geo-ph"/>
+    <author>
+      <name>Jacques Marteau</name>
+    </author>
+    <author>
+      <name>Jean de Bremond d'Ars</name>
+    </author>
+    <author>
+      <name>Dominique Gibert</name>
+    </author>
+    <author>
+      <name>Kevin Jourde</name>
+    </author>
+    <author>
+      <name>Jean-Christophe Ianigro</name>
+    </author>
+    <author>
+      <name>Bruno Carlus</name>
+    </author>
+    <arxiv:doi>10.1088/1748-0221/12/02/C02008</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1748-0221/12/02/C02008" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,62 @@
+TERMS: vapor, resonance, muon
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/tM4TIyQFzxubd5ZHa5CwqBpaW50</id>
+  <title>arXiv Query: search_query=all:vapor AND all:resonance AND all:muon&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:26:18Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:vapor+AND+(all:resonance+AND+all:muon)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2501.13178v1</id>
+    <title>Coexistence of Kondo Coherence and Localized Magnetic Moments in the Normal State of Molten Salt-Flux Grown UTe2</title>
+    <updated>2025-01-22T19:13:16Z</updated>
+    <link href="https://arxiv.org/abs/2501.13178v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2501.13178v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The development of Kondo lattice coherence in UTe2 leads to the formation of a heavy Fermi liquid state from which superconductivity emerges at lower temperature. In Kondo lattice systems, the nuclear magnetic resonance (NMR) and muon Knight shift have proven to be particularly sensitive to the properties of the developing heavy-electron fluid. Here we report muon Knight shift measurements on high-quality UTe2 single crystals grown by a molten salt-flux method. Together with previous data from a single crystal grown by a chemical-vapor transport method, our results show the contribution of the heavy-electron liquid to the muon Knight shift increases below a crossover temperature T* ~ 30 K in accord with a universal scaling function of T/T* for heavy-fermion materials. An observed departure from this universal scaling below a temperature T ~ 12 K at certain muon stopping sites signifies a reversal of the Kondo hybridization and a relocalization of U 5f moments with an antiferromagnetic coupling. The preservation of universal scaling at a different muon site demonstrates a coexistence of itinerant and localized 5f electron states preceding the superconducting phase transition.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-01-22T19:13:16Z</published>
+    <arxiv:comment>8 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <arxiv:journal_ref>Phys. Rev. B 111, 014513 (2025)</arxiv:journal_ref>
+    <author>
+      <name>N. Azari</name>
+    </author>
+    <author>
+      <name>M. Yakovlev</name>
+    </author>
+    <author>
+      <name>S. R. Dunsiger</name>
+    </author>
+    <author>
+      <name>O. P. Uzoh</name>
+    </author>
+    <author>
+      <name>E. Mun</name>
+    </author>
+    <author>
+      <name>B. M. Huddart</name>
+    </author>
+    <author>
+      <name>S. J. Blundell</name>
+    </author>
+    <author>
+      <name>M. M. Bordelon</name>
+    </author>
+    <author>
+      <name>S. M. Thomas</name>
+    </author>
+    <author>
+      <name>J. D. Thompson</name>
+    </author>
+    <author>
+      <name>P. F. S. Rosa</name>
+    </author>
+    <author>
+      <name>J. E. Sonier</name>
+    </author>
+  </entry>
+</feed>

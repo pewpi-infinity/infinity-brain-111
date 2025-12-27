@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Infinity Radio · Museum Mode</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" href="../styles.css">
+  <style>
+    .radio-shell {
+      display: grid;
+      gap: .6rem;
+    }
+    @media (min-width: 820px) {
+      .radio-shell {
+        grid-template-columns: 1.1fr .9fr;
+      }
+    }
+    .dial {
+      display: flex;
+      gap: .45rem;
+      flex-wrap: wrap;
+      margin-top: .35rem;
+    }
+    .dial-btn {
+      background: rgba(15,23,42,.3);
+      border: 1px solid rgba(148,163,184,.08);
+      border-radius: .55rem;
+      padding: .32rem .6rem .35rem;
+      font-size: .58rem;
+      cursor: pointer;
+    }
+    .dial-btn.active {
+      background: rgba(14,165,233,.14);
+      border-color: rgba(14,165,233,.6);
+    }
+    .player-box {
+      background: rgba(2,6,23,.35);
+      border: 1px solid rgba(148,163,184,.05);
+      border-radius: .6rem;
+      padding: .45rem .5rem .5rem;
+      margin-top: .5rem;
+    }
+    .progress {
+      height: 4px;
+      background: rgba(148,163,184,.13);
+      border-radius: 9999px;
+      overflow: hidden;
+      margin-top: .45rem;
+    }
+    .progress-inner {
+      height: 100%;
+      width: 0%;
+      background: #0ea5e9;
+    }
+    .edu-card {
+      background: rgba(15,23,42,.25);
+      border: 1px solid rgba(148,163,184,.05);
+      border-radius: .7rem;
+      padding: .5rem .6rem .6rem;
+      font-size: .55rem;
+      line-height: 1.35;
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">Infinity Radio</div>
+    <a href="../portal.html" style="font-size:.55rem;">← Back</a>
+  </header>
+
+  <main class="layout radio-shell">
+    <!-- left: radio -->
+    <section class="card">
+      <h2>Museum / Instrumental Stream</h2>
+      <p class="muted">Pick a channel. Infinity will log your listening and reward you. No hosts, no chatter.</p>
+
+      <div id="channelDial" class="dial"></div>
+
+      <div class="player-box">
+        <div style="display:flex;justify-content:space-between;align-items:center;">
+          <div>
+            <div style="font-size:.6rem;opacity:.6;">Now playing</div>
+            <div id="trackTitle" style="font-size:.7rem;font-weight:600;">—</div>
+            <div id="trackChannel" style="font-size:.55rem;opacity:.5;">—</div>
+          </div>
+          <button class="btn" id="playBtn">Play</button>
+        </div>
+
+        <div class="progress">
+          <div id="progressInner" class="progress-inner"></div>
+        </div>
+
+        <audio id="audio" preload="none"></audio>
+      </div>
+    </section>
+
+    <!-- right: writeups -->
+    <section class="edu-card">
+      <h3 style="font-size:.65rem;margin-top:0;">Infinity Listening Notes</h3>
+      <p>
+        This channel set is for people who code, build marketplaces, or vector through the portal and don't want
+        voices talking at them. Mostly instrumentals, museum/ethnic, light guitar, and a small hard channel.
+      </p>
+      <p>
+        Tap different channels to rotate between archives. Later we can make this panel auto-switch based on which
+        vector node you're on.
+      </p>
+      <p style="opacity:.5;">
+        Logged by PewPi v1.0 · rewarded to your Infinity wallet.
+      </p>
+    </section>
+  </main>
+
+  <div id="infinity-footer"></div>
+
+  <script type="module">
+    import {
+      getCurrentUser,
+      reward,
+      logActivity,
+      renderInfinityFooter
+    } from '../core/infinity-core.js';
+
+    const user = getCurrentUser();
+    if (!user) {
+      window.location.href = "../login.html";
+    }
+
+    // channels: swap these with real archive mp3s
+    const channels = [
+      {
+        id: 'instrumental',
+        name: 'Instrumental / Museum',
+        tracks: [
+          'https://archive.org/download/testmp3testfile/mpthreetest.mp3',
+          'https://archive.org/download/SampleAudio_201901/sample.mp3'
+        ]
+      },
+      {
+        id: 'easy',
+        name: 'Easy listening',
+        tracks: [
+          'https://archive.org/download/Sweeper2/Sweeper2_64kb.mp3'
+        ]
+      },
+      {
+        id: 'guitarfolk',
+        name: 'Guitar / Folk',
+        tracks: [
+          'https://archive.org/download/guitar_sample/guitar.mp3'
+        ]
+      },
+      {
+        id: 'metal',
+        name: 'Hard rock / metal',
+        tracks: [
+          'https://archive.org/download/MetalSample/MetalSample_64kb.mp3'
+        ]
+      }
+    ];
+
+    const channelDial = document.getElementById('channelDial');
+    const audioEl = document.getElementById('audio');
+    const playBtn = document.getElementById('playBtn');
+    const trackTitle = document.getElementById('trackTitle');
+    const trackChannel = document.getElementById('trackChannel');
+    const progressInner = document.getElementById('progressInner');
+
+    let currentChannel = channels[0];
+    let currentIndex = 0;
+
+    // render dial
+    channels.forEach(ch => {
+      const btn = document.createElement('button');
+      btn.className = 'dial-btn' + (ch.id === currentChannel.id ? ' active' : '');
+      btn.textContent = ch.name;
+      btn.onclick = () => {
+        currentChannel = ch;
+        currentIndex = 0;
+        setActiveDial(ch.id);
+        loadCurrentTrack(true);
+      };
+      channelDial.appendChild(btn);
+    });
+
+    function setActiveDial(id) {
+      channelDial.querySelectorAll('.dial-btn').forEach(b => {
+        if (b.textContent === channels.find(c => c.id === id).name) {
+          b.classList.add('active');
+        } else {
+          b.classList.remove('active');
+        }
+      });
+    }
+
+    function loadCurrentTrack(playAfter = false) {
+      const src = currentChannel.tracks[currentIndex];
+      audioEl.src = src;
+      trackTitle.textContent = "Track " + (currentIndex + 1);
+      trackChannel.textContent = currentChannel.name;
+      if (playAfter) {
+        audioEl.play().then(() => {
+          logAndReward();
+          playBtn.textContent = "Pause";
+        }).catch(() => {
+          // needs user tap
+        });
+      }
+    }
+
+    function logAndReward() {
+      logActivity(user, "radio-play:" + currentChannel.id);
+      reward(user, "radio-play:" + currentChannel.id, 1);
+    }
+
+    playBtn.onclick = () => {
+      if (audioEl.paused) {
+        audioEl.play().then(() => {
+          logAndReward();
+          playBtn.textContent = "Pause";
+        });
+      } else {
+        audioEl.pause();
+        playBtn.textContent = "Play";
+      }
+    };
+
+    audioEl.addEventListener('ended', () => {
+      // go to next track in same channel
+      currentIndex = (currentIndex + 1) % currentChannel.tracks.length;
+      loadCurrentTrack(true);
+    });
+
+    audioEl.addEventListener('timeupdate', () => {
+      if (!audioEl.duration) return;
+      const pct = (audioEl.currentTime / audioEl.duration) * 100;
+      progressInner.style.width = pct + "%";
+    });
+
+    // init
+    loadCurrentTrack(false);
+    renderInfinityFooter();
+  </script>
+</body>
+</html>

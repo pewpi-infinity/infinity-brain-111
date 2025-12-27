@@ -1,0 +1,103 @@
+TERMS: hydrogen, lattice, entropy, spin
+COLORS: purple, orange, red, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/QBqi1STVOKvp6JvEIoXX2m/aUfE</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:lattice AND all:entropy AND all:spin&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:45:47Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:lattice+AND+(all:entropy+AND+all:spin))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>5</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0603146v1</id>
+    <title>Zero Point Entropy in Stuffed Spin Ice</title>
+    <updated>2006-03-07T00:42:10Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0603146v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0603146v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The third law of thermodynamics dictates that the entropy of a system in thermal equilibrium goes to zero as its temperature approaches absolute zero. In ice, however, a "zero point" or residual entropy can be measured - attributable to a high degeneracy in the energetically preferred positions of the hydrogen ions associated with the so-called "ice rules".1,2 Remarkably, the spins in certain magnetic materials with the pyrochlore structure of corner-sharing tetrahedra, called "spin ice", have an equivalent degeneracy of energetically preferred states and also have been shown to display a zero point entropy.3,4,5,6,7 Here we report that we have chemically altered Ho2Ti2O7 spin ice by stuffing extra Ho magnetic moments into normally non-magnetic Ti sites surrounding the Ho tetrahedra. The resulting series, Ho2(Ti2-xHox)O7-x/2, provides a unique opportunity to study the effects of increased connectivity between spins on a frustrated lattice. Surprisingly, the measured zero point entropy per spin appears unchanged by these excess spins, and the dynamic freezing of the spins is suppressed to lower temperatures. The results challenge our understanding of the spin ice state, and suggest a new avenue for using chemistry to study both ice-like frustration and the properties of the broad family of geometrically frustrated magnets based on the pyrochlore structure.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-03-07T00:42:10Z</published>
+    <arxiv:comment>17 pages, 4 figures, to be published in Nature Physics in revised form</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Nature Physics 2, 249-253 (2006)</arxiv:journal_ref>
+    <author>
+      <name>G. C. Lau</name>
+    </author>
+    <author>
+      <name>R. S. Freitas</name>
+    </author>
+    <author>
+      <name>B. G. Ueland</name>
+    </author>
+    <author>
+      <name>B. D. Muegge</name>
+    </author>
+    <author>
+      <name>E. L. Duncan</name>
+    </author>
+    <author>
+      <name>P. Schiffer</name>
+    </author>
+    <author>
+      <name>R. J. Cava</name>
+    </author>
+    <arxiv:doi>10.1038/nphys270</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/nphys270" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2211.14679v1</id>
+    <title>Exact Results for the Residual Entropy of Ice Hexagonal Monolayer</title>
+    <updated>2022-11-26T23:04:10Z</updated>
+    <link href="https://arxiv.org/abs/2211.14679v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2211.14679v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Since the problem of the residual entropy of square ice was exactly solved, exact solutions for two-dimensional realistic ice models have been of interest. In this paper, we study the exact residual entropy of ice hexagonal monolayer in two cases. In the case that the external electric field along the z-axis exists, we map the hydrogen configurations into the spin configurations of the Ising model on the Kagomé lattice. By taking the low temperature limit of the Ising model, we derive the exact residual entropy, which agrees with the result determined previously from the dimer model on the honeycomb lattice. In another case that the ice hexagonal monolayer is under the periodic boundary conditions in the cubic ice lattice, we employ the six-vertex model on the square lattice to represent the hydrogen configurations obeying the ice rules. The exact residual entropy in this case is obtained from the solution of the equivalent six-vertex model. Our work provides more examples of the exactly soluble two-dimensional models.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-11-26T23:04:10Z</published>
+    <arxiv:comment>26 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <arxiv:journal_ref>Phys. Rev. E 107, 054121 (2023)</arxiv:journal_ref>
+    <author>
+      <name>De-Zhang Li</name>
+    </author>
+    <author>
+      <name>Wei-Jie Huang</name>
+    </author>
+    <author>
+      <name>Yao Yao</name>
+    </author>
+    <author>
+      <name>Xiao-Bao Yang</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevE.107.054121</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevE.107.054121" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1407.7975v2</id>
+    <title>Electronic structure, metamagnetism and thermopower of LaSiFe$_{12}$ and interstitially doped LaSiFe$_{12}$</title>
+    <updated>2017-12-13T18:42:02Z</updated>
+    <link href="https://arxiv.org/abs/1407.7975v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1407.7975v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a systematic investigation of the effect of H, B, C, and N interstitials on the electronic, lattice and magnetic properties of La(Fe,Si)$_{13}$ using density functional theory. The parent LaSiFe$_{12}$ alloy has a shallow, double-well free energy function that is the basis of itinerant metamagnetism. On increasing the dopant concentration, the resulting lattice expansion causes an initial increase in magnetisation for all interstitials that is only maintained at higher levels of doping in the case of hydrogen. Strong s-p band hybridisation occurs at high B,C and N concentrations. We thus find that the electronic effects of hydrogen doping are much less pronounced than those of other interstitials, and result in the double-well structure of the free energy function being least sensitive to the amount of hydrogen. This microscopic picture accounts for the vanishing first order nature of the transition by B,C, and N dopants as observed experimentally. We use our calculated electronic density of states for LaSiFe$_{12}$ and the hydrogenated alloy to infer changes in magneto-elastic coupling and in phonon entropy on heating through $T_C$ by calculating the fermionic entropy due to the itinerant electrons. Lastly, we predict the electron thermopower in a spin-mixing, high temperature limit and compare our findings to recent literature data.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-07-30T09:08:39Z</published>
+    <arxiv:comment>18 pages, 6 figures, this version to appear in Journal of Physics D: Applied Physics (Special Issue on Caloric materials)</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Z. Gercsi</name>
+    </author>
+    <author>
+      <name>N. Fuller</name>
+    </author>
+    <author>
+      <name>K. G. Sandeman</name>
+    </author>
+    <author>
+      <name>A. Fujita</name>
+    </author>
+    <arxiv:doi>10.1088/1361-6463/aa9ed0</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1361-6463/aa9ed0" title="doi"/>
+  </entry>
+</feed>

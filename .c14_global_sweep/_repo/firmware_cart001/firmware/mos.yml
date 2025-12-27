@@ -1,0 +1,18 @@
+author: pewpi-infinity
+description: Guardian Firmware Layer 0
+version: 1.0
+
+platform: esp32
+
+manifest_version: 2017-09-29
+
+sources:
+  - src
+
+libs:
+  - origin: https://github.com/mongoose-os-libs/core
+
+config_schema:
+  - ["guardian.enabled", "b", true, {title: "Guardian Enabled"}]
+  - ["guardian.heartbeat_ms", "i", 60000, {title: "Heartbeat Interval (ms)"}]
+

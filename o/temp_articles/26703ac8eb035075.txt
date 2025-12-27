@@ -1,0 +1,112 @@
+TERMS: quantum, fusion, probability
+COLORS: blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/3S8z2G2Dv8UxPSYjuVvHwipuPr0</id>
+  <title>arXiv Query: search_query=all:quantum AND all:fusion AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:06:45Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:fusion+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>100</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2505.16816v2</id>
+    <title>Fusion for High-Dimensional Linear Optical Quantum Computing with Improved Success Probability</title>
+    <updated>2025-09-09T16:43:24Z</updated>
+    <link href="https://arxiv.org/abs/2505.16816v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.16816v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Type-II fusion is a probabilistic entangling measurement that is essential to measurement-based linear optical quantum computing and can be used for quantum teleportation more broadly. However, it remains under-explored for high-dimensional qudits. Our main result gives a Type-II fusion protocol with proven success probability approximately $2/d^2$ for qudits of arbitrary dimension $d$. This generalizes a previous method which only applied to even-dimensional qudits. We believe this protocol to be the most efficient known protocol for Type-II fusion, with the $d=5$ case beating the previous record by a factor of approximately $723$. We discuss the construction of the required $(d-2)$-qudit ancillary state using a silicon spin qudit ancilla coupled to a microwave cavity through time-bin multiplexing. We then introduce a general framework of extra-dimensional corrections, a natural technique in linear optics that can be used to non-deterministically correct non-maximally-entangled projections into Bell measurements. We use this method to analyze and improve several different circuits for high-dimensional Type-II fusion and compare their benefits and drawbacks.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-22T15:52:03Z</published>
+    <arxiv:comment>27 pages, 13 figures. v2 includes data as ancillary files</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Gözde Üstün</name>
+    </author>
+    <author>
+      <name>Eleanor G. Rieffel</name>
+    </author>
+    <author>
+      <name>Simon J. Devitt</name>
+    </author>
+    <author>
+      <name>Jason Saied</name>
+    </author>
+    <arxiv:doi>10.1103/l7bg-hc8c</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/l7bg-hc8c" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1810.05975v1</id>
+    <title>Fusion Cross Section of $\rm T(d,n)^{4}He$ and $\rm ^{3}He(d,p)^{4}He$ Reactions by Four Parameters Formula</title>
+    <updated>2018-10-14T05:19:35Z</updated>
+    <link href="https://arxiv.org/abs/1810.05975v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1810.05975v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Fusion cross sections of light nuclei are calculated by a complex potential and taking into account of conservation of angular momentum and parity. The nuclear potential is assumed to be as simple as a spherical complex square well with a rigid core. Then, the nuclear phase shift is extracted from continuity condition of inverse of the logarithmic derivative of the wave functions as a complex quantity. The quantum tunneling probability and cross section are obtained via real and complex components of nuclear phase shift. The obtained results for the two most important light nuclei reactions, $\rm T(d,n)^{4}He$, $\rm ^{3}He(d,p)^{4}He$ are compared with other theoretical formulas and experimental data. Despite that the theory is simplified as much as possible and the complexities and details of nuclear interactions has been ignored, excellent agreements with experimental data are achieved.</summary>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-10-14T05:19:35Z</published>
+    <arxiv:comment>Journal of Fusion Energy (2016)</arxiv:comment>
+    <arxiv:primary_category term="nucl-th"/>
+    <author>
+      <name>T. Koohrokhi</name>
+    </author>
+    <author>
+      <name>A. M. Izadpanah</name>
+    </author>
+    <author>
+      <name>S. K. Hosseini</name>
+    </author>
+    <arxiv:doi>10.1007/s10894-016-0105-y</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s10894-016-0105-y" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2101.09310v1</id>
+    <title>Fusion-based quantum computation</title>
+    <updated>2021-01-22T20:00:22Z</updated>
+    <link href="https://arxiv.org/abs/2101.09310v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2101.09310v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce fusion-based quantum computing (FBQC) - a model of universal quantum computation in which entangling measurements, called fusions, are performed on the qubits of small constant-sized entangled resource states. We introduce a stabilizer formalism for analyzing fault tolerance and computation in these schemes. This framework naturally captures the error structure that arises in certain physical systems for quantum computing, such as photonics. FBQC can offer significant architectural simplifications, enabling hardware made up of many identical modules, requiring an extremely low depth of operations on each physical qubit and reducing classical processing requirements. We present two pedagogical examples of fault-tolerant schemes constructed in this framework and numerically evaluate their threshold under a hardware agnostic fusion error model including both erasure and Pauli error. We also study an error model of linear optical quantum computing with probabilistic fusion and photon loss. In FBQC the non-determinism of fusion is directly dealt with by the quantum error correction protocol, along with other errors. We find that tailoring the fault-tolerance framework to the physical system allows the scheme to have a higher threshold than schemes reported in literature. We present a ballistic scheme which can tolerate a 10.4% probability of suffering photon loss in each fusion.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-01-22T20:00:22Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Sara Bartolucci</name>
+    </author>
+    <author>
+      <name>Patrick Birchall</name>
+    </author>
+    <author>
+      <name>Hector Bombin</name>
+    </author>
+    <author>
+      <name>Hugo Cable</name>
+    </author>
+    <author>
+      <name>Chris Dawson</name>
+    </author>
+    <author>
+      <name>Mercedes Gimeno-Segovia</name>
+    </author>
+    <author>
+      <name>Eric Johnston</name>
+    </author>
+    <author>
+      <name>Konrad Kieling</name>
+    </author>
+    <author>
+      <name>Naomi Nickerson</name>
+    </author>
+    <author>
+      <name>Mihir Pant</name>
+    </author>
+    <author>
+      <name>Fernando Pastawski</name>
+    </author>
+    <author>
+      <name>Terry Rudolph</name>
+    </author>
+    <author>
+      <name>Chris Sparrow</name>
+    </author>
+  </entry>
+</feed>

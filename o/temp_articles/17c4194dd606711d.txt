@@ -1,0 +1,43 @@
+TERMS: hydrogen, entropy, crystal, spin
+COLORS: purple, red, orange, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/43yShr1E1rQ6lk9ytCv4hi6jEK8</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:entropy AND all:crystal AND all:spin&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:50:11Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:entropy+AND+(all:crystal+AND+all:spin))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2011.09798v1</id>
+    <title>Giant anisotropy of the magnetocaloric effect in the orthovanadate TbVO4 single crystals</title>
+    <updated>2020-11-19T12:45:04Z</updated>
+    <link href="https://arxiv.org/abs/2011.09798v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2011.09798v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>It is known that the Zircon-type orthovanadates RVO4 show promise in many different applications as catalysts and optical materials. In this work, we demonstrate that the TbVO4 compound can be also used as magnetic refrigerant in efficient and ecofriendly cryocoolers due to its strong magnetocaloric effect at low temperature regime. The application of a relatively low magnetic field of 2 T along the easy magnetization axis (a) gives rise to a maximum entropy change of about 20 J/kg K at 4 K. More interestingly, under sufficiently high magnetic fields, the isothermal entropy change -ΔST remains approximately constant over a wide temperature range which is highly appreciated from a practical point of view. In the magnetic field change of 7 T, -ΔST that reaches roughly 22 J/kg K remains practically unchanged between 0 and 34 K leading to an outstanding refrigerant capacity of about 823 J/kg. On the other hand, the lowering of crystallographic symmetry from the tetragonal to the orthorhombic structure occurring close to 33 K as confirmed by Raman scattering data results in a strong magnetic anisotropy. Accordingly, strong thermal effects can be also obtained simply by spinning the TbVO4 single crystals between their hard and easy orientations in constant magnetic fields instead the standard magnetization-demagnetization process. Such rotating magnetocaloric effects would open the way for the implementation of TbVO4 in a new generation of compact and simplified magnetic refrigerators that can be dedicated to the liquefaction of hydrogen and helium.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-11-19T12:45:04Z</published>
+    <arxiv:comment>A revised version of this paper is accepted for publication in Physical Review Materials, 2020</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Mohamed Balli</name>
+    </author>
+    <author>
+      <name>Sabeur Mansouri</name>
+    </author>
+    <author>
+      <name>Dimitre Z. Dimitrov</name>
+    </author>
+    <author>
+      <name>Patrick Fournier</name>
+    </author>
+    <author>
+      <name>Serge Jandl</name>
+    </author>
+    <author>
+      <name>Jenh-Yih Juang</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,34 @@
+TERMS: hydrogen, lattice, entropy, graphene
+COLORS: purple, orange, red, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/drSWMl7hqD9BllfX8IoEvRmnXE8</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:lattice AND all:entropy AND all:graphene&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:45:49Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:lattice+AND+(all:entropy+AND+all:graphene))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1509.07215v2</id>
+    <title>Water under the Cover: Structures and Thermodynamics of Water Encapsulated by Graphene</title>
+    <updated>2016-07-18T05:18:08Z</updated>
+    <link href="https://arxiv.org/abs/1509.07215v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1509.07215v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Understanding the phase behaviors of nanoconfined water has driven notable research interests recently. In this work, we examine the structures and thermodynamics of water encapsulated under a graphene cover. We find layered water structures up to ~1000 molecules, which is stabilized by the spatial confinement and pressure induced by the adhesion between graphene cover and substrate. For monolayer encapsulations, we identify both crystalline lattices and defects. Free energy analysis shows that these low- entropy orders are compensated by high formation energies. There exists an order- disorder transition for this condensed phase at ~480-490 K, with a sharp reduction in the number of hydrogen bonds and increase in the entropy. These findings offer fundamental understandings of the encapsulated water, and provide guidance for practical applications with its presence, for example, in the design of nanoelectronic devices.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-09-24T02:47:58Z</published>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <author>
+      <name>Shuping Jiao</name>
+    </author>
+    <author>
+      <name>Chuanhua Duan</name>
+    </author>
+    <author>
+      <name>Zhiping Xu</name>
+    </author>
+  </entry>
+</feed>

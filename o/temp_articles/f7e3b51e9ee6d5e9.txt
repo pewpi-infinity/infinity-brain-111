@@ -1,0 +1,97 @@
+TERMS: fusion, vapor
+COLORS: green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/AnLblBBGYNr4WyQwwjxUtIV2X6o</id>
+  <title>arXiv Query: search_query=all:fusion AND all:vapor&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T00:58:10Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:fusion+AND+all:vapor&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>31</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1808.02908v1</id>
+    <title>Design and measurement methods for a lithium vapor box similarity experiment</title>
+    <updated>2018-08-08T18:26:20Z</updated>
+    <link href="https://arxiv.org/abs/1808.02908v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1808.02908v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The lithium vapor box divertor is a concept for handling the extreme divertor heat fluxes in magnetic fusion devices. In a baffled slot divertor, plasma interacts with a dense cloud of Li vapor which radiates and cools the plasma, leading to recombination and detachment. Before testing on a tokamak the concept should be validated: we plan to study detachment and heat redistribution by a Li vapor cloud in laboratory experiments. Mass changes and temperatures are measured to validate a Direct Simulation Monte Carlo model of neutral Li. The initial experiment involves a 5 cm diameter steel box containing 10 g of Li held at 650 degrees C as vapor flows out a wide nozzle into a similarly-sized box at a lower temperature. Diagnosis is made challenging by the required material compatibility with lithium vapor. Vapor pressure a steep function of temperature, so to validate mass flow models to within 10%, absolute temperature to within 4.5 K is required. The apparatus is designed to be used with an analytical balance to determine mass transport. Details of the apparatus and methods of temperature and mass flow measurements are presented.</summary>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-08-08T18:26:20Z</published>
+    <arxiv:comment>5 pages. Contributed paper published as part of the Proceedings of the 22nd Topical Conference on High-Temperature Plasma Diagnostics, San Diego, California, April, 2018</arxiv:comment>
+    <arxiv:primary_category term="physics.ins-det"/>
+    <author>
+      <name>Jacob A Schwartz</name>
+    </author>
+    <author>
+      <name>Eric D Emdee</name>
+    </author>
+    <author>
+      <name>M A Jaworski</name>
+    </author>
+    <author>
+      <name>R J Goldston</name>
+    </author>
+    <arxiv:doi>10.1063/1.5039406</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/1.5039406" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0707.3009v1</id>
+    <title>Is CHF triggered by the vapor recoil effect?</title>
+    <updated>2007-07-20T07:14:30Z</updated>
+    <link href="https://arxiv.org/abs/0707.3009v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0707.3009v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  This paper deals with the triggering mechanism of the boiling crisis, a transition from nucleate to film boiling. We observe the boiling crisis in pool saturated boiling experimentally at nearly critical pressure to take advantage of the slowness of the bubble growth and of the smallness of the Critical Heat Flux (CHF) that defines the transition point. Such experiments require the reduced gravity conditions. Close to the CHF, the slow growth of the individual dry spots and their subsequent fusion on the transparent heater are observed through the latter. As discussed in the paper, these observations are consistent with numerical results obtained with the vapor recoil model of the boiling crisis.</summary>
+    <category term="physics.flu-dyn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.class-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-07-20T07:14:30Z</published>
+    <arxiv:primary_category term="physics.flu-dyn"/>
+    <arxiv:journal_ref>Proc. 6th Int. Conf. on Boiling Heat Transfer, May 7-12, 2006 (CD-ROM) (2006) 1</arxiv:journal_ref>
+    <author>
+      <name>Vadim S. Nikolayev</name>
+      <arxiv:affiliation>SBT, PMMH</arxiv:affiliation>
+    </author>
+    <author>
+      <name>D. Beysens</name>
+      <arxiv:affiliation>SBT, PMMH</arxiv:affiliation>
+    </author>
+    <author>
+      <name>D. Chatain</name>
+      <arxiv:affiliation>SBT</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2501.18781v2</id>
+    <title>A consistent diffuse-interface finite element approach to rapid melt--vapor dynamics with application to metal additive manufacturing</title>
+    <updated>2025-03-21T13:56:29Z</updated>
+    <link href="https://arxiv.org/abs/2501.18781v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2501.18781v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Metal additive manufacturing via laser-based powder bed fusion (PBF-LB/M) faces performance-critical challenges due to complex melt pool and vapor dynamics, often oversimplified by computational models that neglect crucial aspects, such as vapor jet formation. To address this limitation, we propose a consistent computational multi-physics mesoscale model to study melt pool dynamics, laser-induced evaporation, and vapor flow. In addition to the evaporation-induced pressure jump, we also resolve the evaporation-induced volume expansion and the resulting velocity jump at the liquid--vapor interface. We use an anisothermal incompressible Navier--Stokes solver extended by a conservative diffuse level-set framework and integrate it into a matrix-free adaptive finite element framework. To ensure accurate physical solutions despite extreme density, pressure and velocity gradients across the diffuse liquid--vapor interface, we employ consistent interface source term formulations developed in our previous work. These formulations consider projection operations to extend solution variables from the sharp liquid--vapor interface into the computational domain. Benchmark examples, including film boiling, confirm the accuracy and versatility of the model. As a key result, we demonstrate the model's ability to capture the strong coupling between melt and vapor flow dynamics in PBF-LB/M based on simulations of stationary laser illumination on a metal plate. Additionally, we show the derivation of the well-known Anisimov model and extend it to a new hybrid model. This hybrid model, together with consistent interface source term formulations, especially for the level-set transport velocity, enables PBF-LB/M simulations that combine accurate physical results with the robustness of an incompressible, diffuse-interface computational modeling framework.</summary>
+    <category term="cs.CE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-01-30T22:11:27Z</published>
+    <arxiv:comment>44 pages, 19 figures</arxiv:comment>
+    <arxiv:primary_category term="cs.CE"/>
+    <author>
+      <name>Magdalena Schreter-Fleischhacker</name>
+    </author>
+    <author>
+      <name>Nils Much</name>
+    </author>
+    <author>
+      <name>Peter Munch</name>
+    </author>
+    <author>
+      <name>Martin Kronbichler</name>
+    </author>
+    <author>
+      <name>Wolfgang A. Wall</name>
+    </author>
+    <author>
+      <name>Christoph Meier</name>
+    </author>
+    <arxiv:doi>10.1016/j.cma.2025.117985</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.cma.2025.117985" title="doi"/>
+  </entry>
+</feed>

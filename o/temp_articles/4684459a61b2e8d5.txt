@@ -1,0 +1,106 @@
+TERMS: crystal, graphene, bandgap
+COLORS: orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/hQAb5tkHecV7aXqN03Vyu1pYLdQ</id>
+  <title>arXiv Query: search_query=all:crystal AND all:graphene AND all:bandgap&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:28:00Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:crystal+AND+(all:graphene+AND+all:bandgap)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>53</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2206.11774v3</id>
+    <title>Mechanically-tunable bandgap closing in 2D graphene phononic crystals</title>
+    <updated>2023-02-24T08:25:16Z</updated>
+    <link href="https://arxiv.org/abs/2206.11774v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2206.11774v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a tunable phononic crystal which undergoes a phase transition from mechanically insulating to mechanically transmissive (metallic). Specifically, in our simulations for a phononic lattice under biaxial tension ($σ_{xx} =σ_{yy}$ = 0.01 N$/$m), we find a bandgap for out-of-plane phonons in the range of 48.8 - 56.4 MHz, which we can close by increasing the degree of tension uniaxiality ($σ_{xx} / σ_{yy}$) to 1.7. To manipulate the tension distribution, we design a realistic device of finite size, where $σ_{xx} / σ_{yy}$ is tuned by applying a gate voltage to a phononic crystal made from suspended graphene. We show that the phase transition can be probed via acoustic transmission measurements and that the phononic bandgap persists even after the inclusion surface contaminants and random tension variations present in realistic devices. The proposed system acts as a transistor for phonons with an on/off ratio of $10^5$ (100 dB suppression) and is thus a valuable extension for phonon logic applications. In addition, this mechanical analogue to a metal-insulator transition (mMIT) allows tunable coupling between mechanical entities (e.g. mechanical qubits).</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-06-23T15:24:12Z</published>
+    <arxiv:comment>SI at the end of the document</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>Jan N. Kirchhof</name>
+    </author>
+    <author>
+      <name>Kirill I. Bolotin</name>
+    </author>
+    <arxiv:doi>10.1038/s41699-023-00374-4</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41699-023-00374-4" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1406.5571v1</id>
+    <title>Observation of an intrinsic bandgap and Landau level renormalization in graphene/boron-nitride heterostructures</title>
+    <updated>2014-06-21T02:44:22Z</updated>
+    <link href="https://arxiv.org/abs/1406.5571v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1406.5571v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Van der Waals heterostructures formed by assembling different two-dimensional atomic crystals into stacks can lead to many new phenomena and device functionalities. In particular, graphene/boron-nitride heterostructures have emerged as a very promising system for band engineering of graphene. However, the intrinsic value and origin of the bandgap in such heterostructures remain unresolved. Here we report the observation of an intrinsic bandgap in epitaxial graphene/boron-nitride heterostructures with zero crystallographic alignment angle. Magneto-optical spectroscopy provides a direct probe of the Landau level transitions in this system and reveals a bandgap of ~ 38 meV (440 K). Moreover, the Landau level transitions are characterized by effective Fermi velocities with a critical dependence on specific transitions and magnetic field. These findings highlight the important role of many body interactions in determining the fundamental properties of graphene heterostructures.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-06-21T02:44:22Z</published>
+    <arxiv:comment>To appear in Nature Communications</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Nature Communications 5, 4461 (2014)</arxiv:journal_ref>
+    <author>
+      <name>Zhi-Guo Chen</name>
+    </author>
+    <author>
+      <name>Zhiwen Shi</name>
+    </author>
+    <author>
+      <name>Wei Yang</name>
+    </author>
+    <author>
+      <name>Xiaobo Lu</name>
+    </author>
+    <author>
+      <name>You Lai</name>
+    </author>
+    <author>
+      <name>Hugen Yan</name>
+    </author>
+    <author>
+      <name>Feng Wang</name>
+    </author>
+    <author>
+      <name>Guangyu Zhang</name>
+    </author>
+    <author>
+      <name>Zhiqiang Li</name>
+    </author>
+    <arxiv:doi>10.1038/ncomms5461</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/ncomms5461" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1806.11469v1</id>
+    <title>Proximity-induced topological transition and strain-induced charge transfer in graphene/MoS2 bilayer heterostructures</title>
+    <updated>2018-06-29T15:19:20Z</updated>
+    <link href="https://arxiv.org/abs/1806.11469v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.11469v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Graphene/MoS2 heterostructures are formed by combining the nanosheets of graphene and monolayer MoS2. The electronic features of both constituent monolayers are rather well-preserved in the resultant heterostructure due to the weak van der Waals interaction between the layers. However, the proximity of MoS2 induces strong spin orbit coupling effect of strength ~1 meV in graphene, which is nearly three orders of magnitude larger than the intrinsic spin orbit coupling of pristine graphene. This opens a bandgap in graphene and further causes anticrossings of the spin-nondegenerate bands near the Dirac point. Lattice incommensurate graphene/MoS2 heterostructure exhibits interesting moire' patterns which have been observed in experiments. The electronic bandstructure of heterostructure is very sensitive to biaxial strain and interlayer twist. Although the Dirac cone of graphene remains intact and no charge-transfer between graphene and MoS2 layers occurs at ambient conditions, a strain-induced charge-transfer can be realized in graphene/MoS2 heterostructure. Application of a gate voltage reveals the occurrence of a topological phase transition in graphene/MoS2 heterostructure. In this chapter, we discuss the crystal structure, interlayer effects, electronic structure, spin states, and effects due to strain and substrate proximity on the electronic properties of graphene/MoS2 heterostructure. We further present an overview of the distinct topological quantum phases of graphene/MoS2 heterostructure and review the recent advancements in this field.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-29T15:19:20Z</published>
+    <arxiv:comment>31 pages, 12 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>book chapter in, Handbook of Graphene Set (2019)</arxiv:journal_ref>
+    <author>
+      <name>Sobhit Singh</name>
+    </author>
+    <author>
+      <name>Abdulrhman M. Alsharari</name>
+    </author>
+    <author>
+      <name>Sergio E. Ulloa</name>
+    </author>
+    <author>
+      <name>Aldo H. Romero</name>
+    </author>
+    <arxiv:doi>10.1002/9781119468455.ch39</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1002/9781119468455.ch39" title="doi"/>
+  </entry>
+</feed>

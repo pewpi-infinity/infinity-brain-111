@@ -1,0 +1,86 @@
+TERMS: hydrogen, quantum, spin, graphene
+COLORS: purple, blue, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Q3jpXrxDChriaugWkdeE6kTGgQw</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:spin AND all:graphene&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:40:19Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:spin+AND+all:graphene))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>32</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1905.03965v3</id>
+    <title>Hydrogenated-Graphene encapsulated Graphene: A versatile material for device applications</title>
+    <updated>2019-10-04T10:10:03Z</updated>
+    <link href="https://arxiv.org/abs/1905.03965v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1905.03965v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Graphene and its heterostructures exhibit interesting electronic properties and are explored for quantum spin Hall effect(QSHE) and magnetism based device applications. In present work, we propose a heterostructure of graphene encapsulated by hydrogenated graphene which could be a promising candidate for a variety of device applications. We have carried out DFT calculations on this system to check its feasibility to be a versatile material. We found that electronic states of multilayer pristine graphene, especially Dirac cone, an important feature to host QSHE, can be preserved by sandwiching it by fully hydrogenated graphene. Interference of electronic states of hydrogenated graphene was insignificant with those of graphene. States of graphene were also found to be stable upon application of electric field up to 2.5V/nm. For device applications, multilayer graphene or its heterostructures are required to be deposited on a substrate, which interacts with system opening up a gap at Dirac cone making it less suitable for QSHE applications and hydrogenated graphene can prevent it. Magnetization in these hydrogenated graphene sandwiched graphene may be induced by creating vacancies or distortions in hydrogenated graphene, which was found to have minimal effect on graphenes electronic states, thus providing an additional degree of manipulation. We also performed a set of calculations to explore its applicability for detecting some molecules. Our results on trilayer graphene encapsulated by hydrogenated graphene indicate that all these observations can be generalized to systems with a larger number of graphene layers, indicating that multilayer graphene sandwiched between two hydrogenated graphene is a versatile material that can be used in QSHE, sensor devices, etc.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-05-10T06:41:03Z</published>
+    <arxiv:comment>29 pages, 9 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Mohammed Ghadiyali</name>
+    </author>
+    <author>
+      <name>Sajeev Chacko</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2312.04195v1</id>
+    <title>Possible gapless helical edge states in hydrogenated graphene</title>
+    <updated>2023-12-07T10:27:03Z</updated>
+    <link href="https://arxiv.org/abs/2312.04195v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2312.04195v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Electronic band structures in hydrogenated graphene are theoretically investigated by means of first-principle calculations and an effective tight-binding model. It is shown that regularly designed hydrogenation to graphene gives rise to a large band gap about 1 eV. Remarkably, by changing the spatial pattern of the hydrogenation, topologically distinct states can be realized, where the topological nontriviality is detected by $C_2$ parity indices in bulk and confirmed by the existence of gapless edge/interface states as protected by the mirror and sublattice symmetries. The analysis of the wave functions reveals that the helical edge states in hydrogenated graphene with the appropriate design carry pseudospin currents that are reminiscent of the quantum spin Hall effect. Our work shows the potential of hydrogenated graphene in pseudospin-based device applications.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-12-07T10:27:03Z</published>
+    <arxiv:comment>9 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Sci. Rep. 14, 17829 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Yong-Cheng Jiang</name>
+    </author>
+    <author>
+      <name>Toshikaze Kariyado</name>
+    </author>
+    <author>
+      <name>Xiao Hu</name>
+    </author>
+    <arxiv:doi>10.1038/s41598-024-68558-6</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41598-024-68558-6" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1506.00040v1</id>
+    <title>Theory of spin-orbit induced spin relaxation in functionalized graphene</title>
+    <updated>2015-05-29T22:02:17Z</updated>
+    <link href="https://arxiv.org/abs/1506.00040v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1506.00040v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We perform a comparative study of the spin relaxation by spin-orbit coupling induced from adatoms (hydrogen and fluorine) in graphene. Two methods are applied, giving consistent results: a full quantum transport simulation of a graphene nanoribbon, and a T-matrix calculation using Green's functions for a single adatom in graphene. For hydrogenated graphene the dominant spin-orbit term for spin relaxation is PIA, the hitherto neglected interaction due to pseudospin inversion asymmetry. In contrast, in fluorinated graphene PIA and Rashba couplings destructively interfere, reducing the total spin relaxation rate. In this case we also predict a strong deviation from the expected 2:1 spin relaxation anisotropy for out- and in-plane spin orientations. Our findings should be useful to benchmark spin relaxation and weak localization experiments of functionalized graphene.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-05-29T22:02:17Z</published>
+    <arxiv:comment>5 pages, 3 figures, Suppl. Material on request</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Phys. Rev. B 92, 081403 (2015)</arxiv:journal_ref>
+    <author>
+      <name>Jan Bundesmann</name>
+    </author>
+    <author>
+      <name>Denis Kochan</name>
+    </author>
+    <author>
+      <name>Fedor Tkatschenko</name>
+    </author>
+    <author>
+      <name>Jaroslav Fabian</name>
+    </author>
+    <author>
+      <name>Klaus Richter</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.92.081403</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.92.081403" title="doi"/>
+  </entry>
+</feed>

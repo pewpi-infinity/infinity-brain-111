@@ -1,0 +1,90 @@
+TERMS: entropy, crystal, singularity
+COLORS: red, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/v7jMOX1INp8IqIBfX/XvhFn0UXo</id>
+  <title>arXiv Query: search_query=all:entropy AND all:crystal AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:17:43Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+(all:crystal+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>15</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1401.6402v1</id>
+    <title>Critical points and symmetries of a free energy function for biaxial nematic liquid crystals</title>
+    <updated>2014-01-24T17:05:39Z</updated>
+    <link href="https://arxiv.org/abs/1401.6402v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1401.6402v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We describe a general model for the free energy function for a homogeneous medium of mutually interacting molecules, based on the formalism for a biaxial nematic liquid crystal set out by Katriel {\em et al.} (1986) in an influential paper in {\em Liquid Crystals} {\bf 1} and subsequently called the KKLS formalism. The free energy is expressed as the sum of an entropy term and an interaction (Hamiltonian) term. Using the language of group representation theory we identify the order parameters as averaged components of a linear transformation, and characterise the full symmetry group of the entropy term in the liquid crystal context as a wreath product $SO(3)\wr Z_2$. The symmetry-breaking role of the Hamiltonian, pointed out by Katriel {\em et al.}, is here made explicit in terms of centre manifold reduction at bifurcation from isotropy. We use tools and methods of equivariant singularity theory to reduce the bifurcation study to that of a $D_3\,$-invariant function on ${\bf R}^2$, ubiquitous in liquid crystal theory, and to describe the 'universal' bifurcation geometry in terms of the superposition of a familiar swallowtail controlling uniaxial equilibria and another less familiar surface controlling biaxial equilibria. In principle this provides a template for {\em all} nematic liquid crystal phase transitions close to isotropy, although further work is needed to identify the absolute minima that are the critical points representing stable phases.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-01-24T17:05:39Z</published>
+    <arxiv:comment>74 pages, 17 figures : submitted to Nonlinearity</arxiv:comment>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>David Chillingworth</name>
+    </author>
+    <arxiv:doi>10.1088/0951-7715/28/5/1483</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0951-7715/28/5/1483" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.05243v4</id>
+    <title>Nonstabilizerness of a Boundary Time Crystal</title>
+    <updated>2025-09-25T09:21:11Z</updated>
+    <link href="https://arxiv.org/abs/2503.05243v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.05243v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Boundary time crystals exhibit measurement-induced phase transitions in their steady-state entanglement, with critical behavior that depends on the particular unraveling of the Lindblad dynamics. In this work, we investigate another key measure of quantum complexity -- nonstabilizerness (or ``magic'') -- and show that it follows a markedly different pattern. Importantly, in contrast to entanglement, for large system sizes, nonstabilizerness remains invariant under different unraveling schemes -- a property we attribute to the inherent permutational symmetry of the model. Although the steady-state stabilizer entropy does not display a genuine phase transition, it exhibits a singular derivative (a cusp) at the mean-field critical point. Furthermore, we demonstrate that finite-size simulations of the average Lindblad evolution fail to capture the asymptotic behavior of nonstabilizerness in the time-crystal phase, while quantum trajectory unravelings correctly reveal its extensive scaling with system size. These findings offer insights into how different quantum resources manifest in open systems.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-07T08:54:53Z</published>
+    <arxiv:comment>15 pages, 9 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Phys. Rev. A 111, 062417 (2025)</arxiv:journal_ref>
+    <author>
+      <name>Gianluca Passarelli</name>
+    </author>
+    <author>
+      <name>Angelo Russomanno</name>
+    </author>
+    <author>
+      <name>Procolo Lucignano</name>
+    </author>
+    <arxiv:doi>10.1103/d7tm-9hkp</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/d7tm-9hkp" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1803.02083v2</id>
+    <title>Detection of topological phase transitions through entropy measurements: the case of germanene</title>
+    <updated>2018-05-28T15:00:37Z</updated>
+    <link href="https://arxiv.org/abs/1803.02083v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1803.02083v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a characterization tool for studies of the band structure of new materials promising for the observation of topological phase transitions. We show that a specific resonant feature in the entropy per electron dependence on the chemical potential may be considered as a fingerprint of the transition between topological and trivial insulator phases. The entropy per electron in a honeycomb two-dimensional crystal of germanene subjected to the external electric field is obtained from the first principle calculation of the density of electronic states and the Maxwell relation. We demonstrate that, in agreement to the recent prediction of the analytical model, strong spikes in the entropy per particle dependence on the chemical potential appear at low temperatures. They are observed at the values of the applied bias both below and above the critical value that corresponds to the transition between the topological insulator and trivial insulator phases, while the giant resonant feature in the vicinity of zero chemical potential is strongly suppressed at the topological transition point, in the low temperature limit. In a wide energy range, the van Hove singularities in the electronic density of states manifest themselves as zeros in the entropy per particle dependence on the chemical potential.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-03-06T09:59:43Z</published>
+    <arxiv:comment>8 pages, 5 figures; final version published in PRB</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Phys. Rev. B 97, 205442 (2018)</arxiv:journal_ref>
+    <author>
+      <name>D. Grassano</name>
+    </author>
+    <author>
+      <name>O. Pulci</name>
+    </author>
+    <author>
+      <name>V. O. Shubnyi</name>
+    </author>
+    <author>
+      <name>S. G. Sharapov</name>
+    </author>
+    <author>
+      <name>V. P. Gusynin</name>
+    </author>
+    <author>
+      <name>A. V. Kavokin</name>
+    </author>
+    <author>
+      <name>A. A. Varlamov</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.97.205442</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.97.205442" title="doi"/>
+  </entry>
+</feed>

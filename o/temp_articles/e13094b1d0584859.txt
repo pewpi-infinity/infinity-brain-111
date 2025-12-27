@@ -1,0 +1,64 @@
+TERMS: hydrogen, electron, resonance, singularity
+COLORS: purple, green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Wm7XdI2TAYhRFHT0/MeW7ymZGjU</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:electron AND all:resonance AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:56:47Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:electron+AND+(all:resonance+AND+all:singularity))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2106.14394v4</id>
+    <title>Resonant multigap superconductivity at room temperature near a Lifshitz topological transition in sulfur hydrides</title>
+    <updated>2021-11-09T19:11:10Z</updated>
+    <link href="https://arxiv.org/abs/2106.14394v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2106.14394v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The maximum critical temperature for superconductivity in pressurized hydrides appears at the top of superconducting domes in Tc versus pressure curves at a particular pressure, which is not predicted by standard superconductivity theories. The a high-order anisotropic van Hove singularity near the Fermi level observed in band structure calculations of pressurized sulfur hydride, typical of a supermetal, has been associated with the array of metallic hydrogen wires modules forming a nanoscale heterostructure at atomic limit called superstripes phase. Here we propose that pressurized sulfur hydrides behave as a heterostructure made of a nanoscale superlattice of interacting quantum wires with a multicomponent electronic structure. We present first-principles quantum calculation of a universal superconducting dome where Tc amplification in multi-gap superconductivity is driven by the Fano-Feshbach resonance due to configuration interaction between open and closed pairing channels, i.e., between multiple gaps in the BCS regime, resonating with a single gap in the BCS-BEC crossover regime. In the proposed three dimensional (3D) phase diagram the critical temperature shows a superconducting dome where Tc is a function of two variables (i) the Lifshitz parameter ($η$) measuring the separation of the chemical potential from the Lifshitz transition normalized by the inter-wires coupling and (ii) the effective electron phonon coupling (g) in the appearing new Fermi surface including phonon softening. The results will be of help for material design of room temperature superconductors at ambient pressure.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-06-28T04:55:48Z</published>
+    <arxiv:comment>13 pages, 11 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <arxiv:journal_ref>Journal of Applied Physics, 130, 173904 (2021)</arxiv:journal_ref>
+    <author>
+      <name>Maria Vittoria Mazziotti</name>
+    </author>
+    <author>
+      <name>Roberto Raimondi</name>
+    </author>
+    <author>
+      <name>Antonio Valletta</name>
+    </author>
+    <author>
+      <name>Gaetano Campi</name>
+    </author>
+    <author>
+      <name>Antonio Bianconi</name>
+    </author>
+    <arxiv:doi>10.1063/5.0070875</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/5.0070875" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1509.07451v2</id>
+    <title>Breakdown of the Migdal approximation at Lifshitz transitions with giant zero-point motion in H3S superconductor</title>
+    <updated>2016-04-12T20:54:47Z</updated>
+    <link href="https://arxiv.org/abs/1509.07451v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1509.07451v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While 203 K high temperature superconductivity in H3S has been interpreted by BCS theory in the dirty limit here we focus on the effects of hydrogen zero-point-motion and the multiband electronic structure relevant for multigap superconductivity near Lifshitz transitions. We describe how the topology of the Fermi surfaces evolves with pressure giving different Lifshitz-transitions. A neck-disrupting Lifshitz-transition (type 2) occurs where the van Hove singularity, vHs, crosses the chemical potential at 210 GPa and new small 2D Fermi surface portions appear with slow Fermi velocity where the Migdal-approximation becomes questionable. We show that the neglected hydrogen zero-point motion ZPM, plays a key role at Lifshitz transitions. It induces an energy shift of about 600 meV of the vHs. The other Lifshitz-transition (of type 1) for the appearing of a new Fermi surface occurs at 130 GPa where new Fermi surfaces appear at the Gamma point of the Brillouin zone here the Migdal-approximation breaks down and the zero-point-motion induces large fluctuations. The maximum Tc=203K occurs at 160 GPa where Ef/w0=1 in the small Fermi surface pocket at Gamma point. A Feshbach-like resonance between a possible BEC-BCS condensate at Gamma and the BCS condensate in different k-space spots is proposed.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-09-24T17:53:06Z</published>
+    <arxiv:comment>11 pages, 11 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <arxiv:journal_ref>Sci. Rep. 6, 24816, (2016)</arxiv:journal_ref>
+    <author>
+      <name>Thomas Jarlborg</name>
+    </author>
+    <author>
+      <name>Antonio Bianconi</name>
+    </author>
+    <arxiv:doi>10.1038/srep24816</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/srep24816" title="doi"/>
+  </entry>
+</feed>

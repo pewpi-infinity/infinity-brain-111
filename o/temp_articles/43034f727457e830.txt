@@ -1,0 +1,98 @@
+TERMS: hydrogen, electron, wavefunction, plasma
+COLORS: purple, green, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/qcTT7P/mmC9BVE+Uof3hAabzQf0</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:electron AND all:wavefunction AND all:plasma&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:56:23Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:electron+AND+(all:wavefunction+AND+all:plasma))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>7</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2408.03693v2</id>
+    <title>A molecular dynamics framework coupled with smoothed particle hydrodynamics for quantum plasma simulations</title>
+    <updated>2025-01-14T16:21:09Z</updated>
+    <link href="https://arxiv.org/abs/2408.03693v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2408.03693v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a novel scheme for modelling quantum plasmas in the warm dense matter (WDM) regime via a hybrid smoothed particle hydrodynamic - molecular dynamic treatment, here referred to as 'Bohm SPH'. This treatment is founded upon Bohm's interpretation of quantum mechanics for partially degenerate fluids, does not apply the Born-Oppenheimer approximation, and is computationally tractable, capable of modelling dynamics over ionic timescales at electronic time resolution. Bohm SPH is also capable of modelling non-Gaussian electron wavefunctions. We present an overview of our methodology, validation tests of the single particle case including the hydrogen 1s wavefunction, and comparisons to simulations of a warm dense hydrogen system performed with wave packet molecular dynamics.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-08-07T11:14:00Z</published>
+    <arxiv:comment>21 pages, 17 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>Thomas Campbell</name>
+    </author>
+    <author>
+      <name>Pontus Svensson</name>
+    </author>
+    <author>
+      <name>Brett Larder</name>
+    </author>
+    <author>
+      <name>Daniel Plummer</name>
+    </author>
+    <author>
+      <name>Sam M. Vinko</name>
+    </author>
+    <author>
+      <name>Gianluca Gregori</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1805.05992v4</id>
+    <title>Relativistic photoionization of H isoelectronic series including plasma shielding effects</title>
+    <updated>2018-09-27T15:22:56Z</updated>
+    <link href="https://arxiv.org/abs/1805.05992v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1805.05992v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>With plasma shielding effects of the Debye-Hückel model, we investigate the relativistic photoionization processes of H, Nb$^{40+}$ and Pb$^{81+}$ plasmas in the H-isoelectronic series. The shielded nuclear potential of Yukawa-type experienced by the electron is parameterized by Debye-length $D$. To account for relativistic effects non- perturbatively, we solve the Dirac equation for the bound as well as continuum wavefunctions. Contributions from multipole fields are calculated for high incident photon energies, while the angular distribution and spin polarization parameters of photoelectrons are provided in the electric-dipole approximation. Our results of photoionization cross sections for the H plasma agree with other available theoretical calculations. The interplay between the relativistic and plasma shielding effects on the photoionization parameters is also studied. \keywords{Photoionization, Multipole effect, Debye plasma, Hydrogen atom, Hydrogen-like ions</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-05-15T18:41:31Z</published>
+    <arxiv:comment>11 pages, 11 figures; V2: corrections for author information; V3: major revision; V4: published version</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <arxiv:journal_ref>Indian Journal of Physics, 93(2), 267-277, 2019</arxiv:journal_ref>
+    <author>
+      <name>Xugen Zheng</name>
+    </author>
+    <author>
+      <name>Hsin-Chang Chi</name>
+    </author>
+    <author>
+      <name>Shin-Ted Lin</name>
+    </author>
+    <author>
+      <name>Gang Jiang</name>
+    </author>
+    <author>
+      <name>Chenkai Qiao</name>
+    </author>
+    <author>
+      <name>Keh-Ning Huang</name>
+    </author>
+    <arxiv:doi>10.1007/s12648-018-1283-4</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s12648-018-1283-4" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1901.08494v2</id>
+    <title>Modeling penetrating collisions in the standard line broadening impact theory for hydrogen</title>
+    <updated>2019-05-21T09:29:37Z</updated>
+    <link href="https://arxiv.org/abs/1901.08494v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1901.08494v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Spectral lines emitted by plasmas provide information about the thermodynamic conditions, the degree of randomness or the interactions prevailing in the medium. Collisions by plasma electrons penetrating the extent of bound-electron wavefunctions is important at high density, where short-range interactions become dominant. Such collisions are usually not taken into account properly in the standard lineshape theory, assuming long-range dipole approximation. The formalism of penetrating collisions for hydrogen relies on the introduction of a family of integrals calculated using a recursion relation. In this work, we show that such integrals can be expressed analytically, as a finite sum involving binomial coefficients and modified Bessel functions of the third kind. The explicit expression enabled us to obtain a simple approximate analytical form for the collision operator, making numerical implementation and physical interpretation easier. We also propose simple analytical forms of coefficients and integrals important for the modeling of penetrating collisions.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-01-24T16:47:07Z</published>
+    <arxiv:comment>submitted to "High Energy Density Physics"</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>Jean-Christophe Pain</name>
+    </author>
+    <author>
+      <name>Franck Gilleron</name>
+    </author>
+    <arxiv:doi>10.1016/j.hedp.2019.01.004</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.hedp.2019.01.004" title="doi"/>
+  </entry>
+</feed>

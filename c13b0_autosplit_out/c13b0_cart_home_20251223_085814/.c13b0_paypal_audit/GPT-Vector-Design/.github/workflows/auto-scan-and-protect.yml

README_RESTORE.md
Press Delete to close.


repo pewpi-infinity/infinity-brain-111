@@ -1,0 +1,70 @@
+name: auto-scan-and-protect
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+      - 'restore/**'
+  schedule:
+    - cron: '0 */6 * * *' # every 6 hours
+  workflow_dispatch:
+
+jobs:
+  scan-and-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository (full)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Skip if run by GitHub Actions to avoid loops
+        run: |
+          if [[ "${{ github.actor }}" == "github-actions[bot]" ]] || [[ "${{ github.actor }}" == "github-actions" ]]; then
+            echo "Skipping run: actor=${{ github.actor }}"
+            exit 0
+          fi
+
+      - name: Detect forbidden files (secrets)
+        run: |
+          if [ -f secrets.JSON ] || [ -f secrets.json ]; then
+            echo "::error ::Found secrets file (secrets.JSON). Remove from repo and add to GitHub Secrets."
+            ls -l secrets.*
+            exit 1
+          fi
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Run repo scanner
+        run: python3 scripts/repo-scan.py --root .
+
+      - name: Install Node dependencies and build (PRs only)
+        if: github.event_name == 'pull_request'
+        run: |
+          if [ -f package.json ]; then
+            npm ci
+            if npm run build --silent; then
+              echo "Build succeeded"
+            else
+              echo "::error ::Build failed"
+              exit 1
+            fi
+          else
+            echo "No package.json found - skipping node build"
+          fi
+
+      - name: Smoke check for expected built artifact (optional)
+        if: github.event_name == 'pull_request'
+        run: |
+          if [ -f "dist/index.html" ]; then
+            echo "dist/index.html present"
+          else
+            echo "Warning: dist/index.html not found. Adjust CHECK_PATH if your build produces a different artifact."

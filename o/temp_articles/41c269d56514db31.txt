@@ -1,0 +1,41 @@
+TERMS: hydrogen, quantum, ionization, graphene
+COLORS: purple, blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/egaKRuZypykRxOfiXk59r4xhFQY</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:ionization AND all:graphene&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:39:51Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:ionization+AND+all:graphene))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1601.04205v2</id>
+    <title>Electronic and Optical Properties of the Narrowest Armchair Graphene Nanoribbons Studied by Density Functional Methods</title>
+    <updated>2016-04-28T09:08:42Z</updated>
+    <link href="https://arxiv.org/abs/1601.04205v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1601.04205v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the present study, a series of planar poly(p-phenylene) (PPP) oligomers with n phenyl rings (n = 1 - 20), designated as n-PP, are taken as finite-size models of the narrowest armchair graphene nanoribbons with hydrogen passivation. The singlet-triplet energy gap, vertical ionization potential, vertical electron affinity, fundamental gap, optical gap, and exciton binding energy of n-PP are calculated using Kohn-Sham density functional theory and time-dependent density functional theory with various exchange-correlation density functionals. The ground state of n-PP is shown to be singlet for all the chain lengths studied. In contrast to the lowest singlet state (i.e., the ground state), the lowest triplet state and the ground states of the cation and anion of n-PP are found to exhibit some multi-reference character. Overall, the electronic and optical properties of n-PP obtained from the omegaB97 and omegaB97X functionals are in excellent agreement with the available experimental data.</summary>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-01-16T20:17:18Z</published>
+    <arxiv:comment>24 pages, 8 figures, 1 table, supplementary material not included</arxiv:comment>
+    <arxiv:primary_category term="physics.chem-ph"/>
+    <arxiv:journal_ref>Aust. J. Chem. 69, 960 (2016)</arxiv:journal_ref>
+    <author>
+      <name>Chia-Nan Yeh</name>
+    </author>
+    <author>
+      <name>Pei-Yin Lee</name>
+    </author>
+    <author>
+      <name>Jeng-Da Chai</name>
+    </author>
+    <arxiv:doi>10.1071/CH16187</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1071/CH16187" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,48 @@
+TERMS: frequency, tachyon, singularity
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/wB8ZgC3g8/Q2yvGWp0NKh2ctY/w</id>
+  <title>arXiv Query: search_query=all:frequency AND all:tachyon AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:12:38Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:tachyon+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/0911.3544v1</id>
+    <title>Quasinormal modes of massive charged flavor branes</title>
+    <updated>2009-11-17T22:04:08Z</updated>
+    <link href="https://arxiv.org/abs/0911.3544v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0911.3544v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We present an analysis and classification of vector and scalar fluctuations in a D3/D7 brane setup at finite termperature and baryon density. The system is dual to an N=2 supersymmetric Yang-Mills theory with SU(N_c) gauge group and N_f hypermultiplets in the fundamental representation in the quenched approximation. We improve significantly over previous results on the quasinormal mode spectrum of D7 branes and stress their novel physical interpretation. Amongst our findings is a new purely imaginary scalar mode that becomes tachyonic at sufficiently low temperature and baryon density. We establish the existence of a critical density above which the scalar mode stays in the stable regime for all temperatures. In the vector sector we study the crossover from the hydrodynamic to the quasiparticle regime and find that it moves to shorter wavelengths for lower temperatures. At zero baryon density the quasinormal modes move toward distinct discrete attractor frequencies that depend on the momentum as we increase the temperature. At finite baryon density, however, the trajectories show a turning behavior such that for low temperature the quasinormal mode spectrum approaches the spectrum of the supersymmetric zero temperature normal modes. We interpret this as resolution of the singular quasinormal mode spectrum that appears at the limiting D7 brane embedding at vanishing baryon density.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-11-17T22:04:08Z</published>
+    <arxiv:comment>56 pages, 40 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>JHEP 1003:117,2010</arxiv:journal_ref>
+    <author>
+      <name>Johanna Erdmenger</name>
+    </author>
+    <author>
+      <name>Constantin Greubel</name>
+    </author>
+    <author>
+      <name>Matthias Kaminski</name>
+    </author>
+    <author>
+      <name>Patrick Kerner</name>
+    </author>
+    <author>
+      <name>Karl Landsteiner</name>
+    </author>
+    <author>
+      <name>Francisco Pena-Benitez</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP03(2010)117</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP03(2010)117" title="doi"/>
+  </entry>
+</feed>

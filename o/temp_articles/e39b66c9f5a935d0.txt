@@ -1,0 +1,64 @@
+TERMS: frequency, lattice, probability
+COLORS: green, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/4CsB+4i3U/8+kziuBgLMrP5RXr0</id>
+  <title>arXiv Query: search_query=all:frequency AND all:lattice AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:09:48Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:lattice+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>123</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1501.04237v1</id>
+    <title>Quantized linear systems on integer lattices: a frequency-based approach</title>
+    <updated>2015-01-17T22:31:52Z</updated>
+    <link href="https://arxiv.org/abs/1501.04237v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1501.04237v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The roundoff errors in computer simulations of continuous dynamical systems, caused by finiteness of machine arithmetic, can lead to qualitative discrepancies between phase portraits of the resulting spatially discretized systems and the original systems. These effects can be modelled on a multidimensional integer lattice by using a dynamical system obtained by composing the transition operator of the original system with a quantizer. Such models manifest pseudorandomness which can be studied using a rigorous probability theoretic approach. To this end, the lattice $\mathbb{Z}^n$ is endowed with a class of frequency measurable subsets and a spatial frequency functional as a finitely additive probability measure on them. Using a multivariate version of Weyl's equidistribution criterion, we introduce an algebra of frequency measurable quasiperiodic subsets of the lattice. This approach is applied to quantized linear systems with the transition operator $R \circ L$, where $L$ is a nonsingular matrix of the original linear system in $\mathbb{R}^n$, and the map $R$ commutes with the additive group of translations of the lattice. For almost every $L$, the events associated with the deviation of trajectories of the quantized and original systems are frequency measurable quasiperiodic subsets of the lattice whose frequencies involve geometric probabilities on finite-dimensional tori. Using the skew products of measure preserving toral automorphisms, we prove mutual independence and uniform distribution of the quantization errors and investigate statistical properties of invertibility loss for the quantized linear system, extending V.V.Voevodin's results. When $L$ is similar to an orthogonal matrix, we establish a functional central limit theorem for the deviations of trajectories of the quantized and original systems. These results are demonstrated for rounded-off planar rotations.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-01-17T22:31:52Z</published>
+    <arxiv:comment>60 pages, 4 figures. This is a slightly edited version of two research reports: I.Vladimirov, Quantized linear systems on integer lattices: frequency-based approach, Parts I, II, CADSEM Reports 96-032, 96-033, October 1996, Deakin University, Geelong, Victoria, Australia, issued while the author was with the Institute for Information Transmission Problems, the Russian Academy of Sciences, Moscow</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>Igor G. Vladimirov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/physics/0506167v1</id>
+    <title>Anderson localization of solitons in optical lattices with random frequency modulation</title>
+    <updated>2005-06-21T17:18:37Z</updated>
+    <link href="https://arxiv.org/abs/physics/0506167v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/physics/0506167v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We report on phenomenon of Anderson-type localization of walking solitons in optical lattices with random frequency modulation, manifested as dramatic enhancement of soliton trapping probability on lattice inhomogeneities with growth of the frequency fluctuation level. The localization process is strongly sensitive to the lattice depth since in shallow lattices walking solitons experience random refraction and/or multiple scattering in contrast to relatively deep lattices, where solitons are typically immobilized in the vicinity of local minimums on modulation frequency.</summary>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-06-21T17:18:37Z</published>
+    <arxiv:comment>13 pages, 4 figures, to appear in Physical Review E</arxiv:comment>
+    <arxiv:primary_category term="physics.optics"/>
+    <arxiv:journal_ref>Physical Review E 72, 026606 (2005)</arxiv:journal_ref>
+    <author>
+      <name>Yaroslav V. Kartashov Victor A. Vysloukh</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevE.72.026606</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevE.72.026606" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1805.12380v2</id>
+    <title>On the convergence of percolation probability functions to cumulative distribution functions on square lattices with (1,0)-neighborhood</title>
+    <updated>2018-08-10T12:04:22Z</updated>
+    <link href="https://arxiv.org/abs/1805.12380v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1805.12380v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider a percolation model on square lattices with sites weighted by beta-distributed random variables $S\sim \mathrm{Beta}(a,b)$ with a positive real parameters $a&gt;0$ and $b&gt;0$. Using the Monte Carlo method, we estimate the percolation probability $P_\infty$ as a relative frequency $P^*_\infty$ averaged over the target subset of sites on a square lattice. As a result of the comparative analysis, we formulate two empirical hypotheses: the first on the correspondence of percolation thresholds $p_c$ to $p_0$-quantiles (where $p_0=0.592746\ldots$) of random variables $S_i$ weighing sites of the square lattice with $(1,0)$-neighborhood, and the second on the convergence of statistical estimates of percolation probability functions $P^*_\infty(p)$ to cumulative distribution functions $F_{S_i}(p)$ of these variables $S_i$ for the supercritical values of the occupation probability $p\geq p_c$.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-05-31T08:51:30Z</published>
+    <arxiv:comment>12 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <author>
+      <name>Pavel V. Moskalev</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://github.com/pewpi-infinity/infinity-brain-111.git
+	fetch = +refs/heads/main:refs/remotes/origin/main
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
+<!-- 🐶 PEWPI SIGN-IN (GLOBAL) -->
+<div id="pewpi-gate">
+  <h1>🐶 pewpi</h1>
+  <input id="pewpi_user" placeholder="Handle">
+  <button onclick="pewpiUnlock()">Enter</button>
+</div>
+<script>
+function pewpiUnlock(){
+  localStorage.setItem("pewpi_user", document.getElementById("pewpi_user").value);
+  document.getElementById("pewpi-gate").style.display="none";
+  document.body.classList.add("pewpi-live");
+}
+if(localStorage.getItem("pewpi_user")){
+  document.addEventListener("DOMContentLoaded",()=>{
+    const g=document.getElementById("pewpi-gate");
+    if(g) g.style.display="none";
+    document.body.classList.add("pewpi-live");
+  });
+}
+</script>
+<style>
+#pewpi-gate{position:fixed;inset:0;background:#0e0e0e;color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:9999}
+#pewpi-gate button{background:#ff69b4;border:0;padding:10px 18px}
+body:not(.pewpi-live)>*:not(#pewpi-gate){filter:blur(6px);pointer-events:none}
+</style>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>∞ Osprey-5.1</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body style="background:#000;color:#00ffff;font-family:monospace;text-align:center;margin-top:20%;">
+  <h1>✅ Infinity Portal Connected</h1>
+  <p>Initializing Infinity Brain...</p>
+
+  <!-- Inline Brain (no external file, no module syntax) -->
+  <script>
+  (function () {
+    console.log("🧠 Infinity Brain Online");
+
+    const Brain = {
+      memory: [],
+      learn(input) {
+        this.memory.push(input);
+        console.log("💾 Learned:", input);
+      },
+      think(question) {
+        console.log("🤔 Processing:", question);
+        const thought = this.memory.length
+          ? "Based on my memory, I predict: " + this.memory[this.memory.length - 1]
+          : "No data yet — awaiting input.";
+        return thought;
+      },
+      respond(output) {
+        console.log("💬 Response:", output);
+        return output;
+      },
+      boot() {
+        console.log("Booting Infinity Brain...");
+        this.learn("Initial memory seed loaded.");
+        const thought = this.think("startup");
+        this.respond(thought);
+      }
+    };
+
+    // expose for UI wiring
+    window.InfinityBrain = Brain;
+
+    // boot + on-page confirmation
+    document.addEventListener("DOMContentLoaded", function () {
+      document.body.insertAdjacentHTML("beforeend", "<h2>🧠 Infinity Brain Online</h2>");
+      if (typeof window.InfinityBrain.boot === "function") window.InfinityBrain.boot();
+    });
+  })();
+  </script>
+<script src="osprey_system.js?v=1762825989" defer></script>
+<script src="brain.js?v=1762825989" defer></script>
+</body>
+</html>
+<!-- C14_TOKEN_PANEL_START -->
+<div style="font-family:monospace;background:#0b0f14;color:#e6edf3;padding:16px;margin:16px 0">
+  <div style="font-size:2.4em;color:#ffd700;text-align:center">
+    🧱🍄⭐ Token Value: 20
+  </div>
+
+  <p style="text-align:center">
+    🧱 Base &nbsp; 🍄 Growth &nbsp; ⭐ Star Power
+  </p>
+
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="get" target="_blank">
+    <input type="hidden" name="cmd" value="_xclick">
+    <input type="hidden" name="business" value="watsonkris61@gmail.com">
+    <input type="hidden" name="item_name" value="Osprey-5.1 Token">
+    <input type="hidden" name="amount" value="20">
+    <input type="hidden" name="currency_code" value="USD">
+    <button style="width:100%;padding:14px;font-size:1em">
+      Pay $20 via PayPal
+    </button>
+  </form>
+
+  <p style="font-size:0.75em;text-align:center;margin-top:10px">
+    Repository owner: pewpi-infinity<br/>
+    Contact: marvaseater@gmail.com<br/>
+    Settlement handled externally via PayPal
+  </p>
+</div>
+<!-- C14_TOKEN_PANEL_END -->

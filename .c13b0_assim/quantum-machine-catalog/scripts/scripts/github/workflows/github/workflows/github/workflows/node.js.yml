@@ -1,0 +1,41 @@
+name: Node.js CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [18.x, 20.x, 22.x]
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Install dependencies (use lockfile if present)
+        run: |
+          echo "Checking for lockfiles..."
+          if [ -f package-lock.json ]; then
+            echo "Found package-lock.json -> running npm ci"
+            npm ci
+          elif [ -f yarn.lock ]; then
+            echo "Found yarn.lock -> running yarn install"
+            yarn install --frozen-lockfile || yarn install
+          else
+            echo "No lockfile found -> running npm install"
+            npm install
+          fi
+
+      - name: Build (if present)
+        run: npm run build --if-present
+
+      - name: Test (if present)
+        run: npm test --if-present

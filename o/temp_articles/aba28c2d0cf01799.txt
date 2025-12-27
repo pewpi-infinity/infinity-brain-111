@@ -1,0 +1,83 @@
+TERMS: ionization, plasma, bandgap
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/sMUlaU84rbPwSTRomwUx4zJha8M</id>
+  <title>arXiv Query: search_query=all:ionization AND all:plasma AND all:bandgap&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:30:19Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:ionization+AND+(all:plasma+AND+all:bandgap)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2511.20625v1</id>
+    <title>Carrier transport and electrical bandgaps in epitaxial CrN layers</title>
+    <updated>2025-11-25T18:47:44Z</updated>
+    <link href="https://arxiv.org/abs/2511.20625v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.20625v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The transport properties and electrical bandgap of nominally undoped ~75-nm-thick CrN layers simultaneously grown on AlN(0001) and AlN(11\bar{2}2) templates using plasma-assisted molecular beam epitaxy are investigated. The layers grown on AlN(0001) and AlN(11\bar{2}2) exhibit (111) and (113) surface orientations, respectively. All layers exhibit antiferromagnetism with a Néel temperature of ~280 K, observed by temperature-dependent magnetic and electrical measurements. Hall-effect measurements demonstrate n-type semiconducting behavior across a wide temperature range from 4 to 920 K. At low temperatures (4 - 260 K), the data show parallel conduction channels from a metallic impurity band and the conduction band. The carrier mobility exhibits a temperature dependence consistent with a nondegenerate semiconductor, governed by ionized-impurity scattering below 400 K and phonon scattering above 400 K. An analysis of the temperature-dependent carrier density between 300 and 920 K yields two activation energies associated with intrinsic conduction: 0.15 eV (with an uncertainty of -0.02/+0.10 eV), which we attribute to the fundamental bandgap, and 0.50 eV (with an uncertainty of -0.05/+0.15 eV) representing a higher energy transition.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-25T18:47:44Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Duc V. Dinh</name>
+    </author>
+    <author>
+      <name>Jens Herfort</name>
+    </author>
+    <author>
+      <name>Andreas Fiedler</name>
+    </author>
+    <author>
+      <name>Oliver Brandt</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1905.05126v1</id>
+    <title>Origin of strong-field induced low-order harmonic generation in amorphous solids</title>
+    <updated>2019-05-13T16:28:51Z</updated>
+    <link href="https://arxiv.org/abs/1905.05126v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1905.05126v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Kerr-type nonlinearities form the basis for our physical understanding of nonlinear optical phenomena in condensed matter, such as self-focusing, solitary waves, and wave mixing. In strong fields, they are complemented by higher-order nonlinearities that enable high harmonic generation, which is currently understood as the interplay of light-driven intraband charge dynamics and interband recombination. Remarkably, the nonlinear response emerging from the associated sub-cycle injection dynamics of electrons into the conduction band has been almost completely overlooked in solids and only partially considered in the gas phase. Here we reveal this strong-field-induced nonlinearity in amorphous wide-bandgap dielectrics by means of time-resolved, low-order wave mixing experiments and show that close to the material damage threshold the so far unexplored injection current provides the leading contribution. The sensitivity of the harmonic emission to the sub-cycle ionization dynamics offers an original approach to characterize the evolution of laser-induced plasma formation in optical microprocessing.</summary>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-05-13T16:28:51Z</published>
+    <arxiv:comment>14 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.optics"/>
+    <author>
+      <name>P. Jürgens</name>
+    </author>
+    <author>
+      <name>B. Liewehr</name>
+    </author>
+    <author>
+      <name>B. Kruse</name>
+    </author>
+    <author>
+      <name>C. Peltz</name>
+    </author>
+    <author>
+      <name>D. Engel</name>
+    </author>
+    <author>
+      <name>A. Husakou</name>
+    </author>
+    <author>
+      <name>T. Witting</name>
+    </author>
+    <author>
+      <name>M. Ivanov</name>
+    </author>
+    <author>
+      <name>M. J. J. Vrakking</name>
+    </author>
+    <author>
+      <name>T. Fennel</name>
+    </author>
+    <author>
+      <name>A. Mermillod-Blondin</name>
+    </author>
+    <arxiv:doi>10.1038/s41567-020-0943-4</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41567-020-0943-4" title="doi"/>
+  </entry>
+</feed>

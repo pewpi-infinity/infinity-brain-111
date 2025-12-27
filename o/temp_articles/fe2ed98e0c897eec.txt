@@ -1,0 +1,93 @@
+TERMS: hydrogen, frequency, electron, plasma
+COLORS: purple, green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/8Xi1O94ZFyiwW84ANx6sTxi3jm4</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:frequency AND all:electron AND all:plasma&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:43:07Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:frequency+AND+(all:electron+AND+all:plasma))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>63</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/physics/0410112v2</id>
+    <title>Plasma heating due to X-B mode conversion in a cylindrical ECR plasma system</title>
+    <updated>2004-11-06T09:26:56Z</updated>
+    <link href="https://arxiv.org/abs/physics/0410112v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/physics/0410112v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Extra Ordinary (X) mode conversion to Bernstein wave near Upper Hybrid Resonance (UHR) layer plays an important role in plasma heating through cyclotron resonance. Wave generation at UHR and parametric decay at high power has been observed during Electron Cyclotron Resonance (ECR) heating experiments in toroidal magnetic fusion devices. A small linear system with ECR and UHR layer within the system has been used to conduct experiments on X-B conversion and parametric decay process as a function of system parameters. Direct probing {\em in situ} is conducted and plasma heating is evidenced by soft x-ray emission measurement. Experiments are performed with hydrogen plasma produced with 160-800 W microwave power at 2.45 GHz of operating frequency at $10^{-3}$ mbar pressure. The axial magnetic field required for ECR is such that the resonant surface (B = 875 G) is situated at the geometrical axis of the plasma system. Experimental results will be presented in the paper.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-10-16T12:52:24Z</published>
+    <arxiv:comment>12th International Congress on Plasma Physics, 25-29 October 2004, Nice (France)</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>Vipin K. Yadav</name>
+    </author>
+    <author>
+      <name>D. Bora</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.15802v1</id>
+    <title>Electromagnetic particle-in-cell modeling of an electron cyclotron resonance plasma discharge in hydrogen</title>
+    <updated>2024-12-20T11:22:57Z</updated>
+    <link href="https://arxiv.org/abs/2412.15802v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.15802v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A low pressure discharge sustained in molecular hydrogen with help of the electron cyclotron resonance heating at a frequency of 2.45 GHz is simulated using a fully electromagnetic implicit charge- and energy-conserving particle-in-cell/Monte Carlo code. The simulations show a number of kinetic effects, and the results are in good agreement with various experimentally measured data such as electron density, electron temperature and degree of dissociation. The electron energy distribution shows a tri-Maxwellian form due to a number of different electron heating mechanisms, agreeing with the experimental data in the measured electron energy interval. The simulation results are also verified against a drift-diffusion model and proximity is observed between the computational results for the plasma density at the location of experimental measurement. However, the fluid approximation fails to accurately predict radical density and electron temperature because of the assumption of a single electron temperature. Special attention is paid to the characteristics of hydrogen radicals, whose production is strongly underestimated by the fluid model, whereas it is well predicted by the model considered here. The energy distribution of such radicals demonstrates the presence of a relatively large number of energetic hydrogen atoms produced by the dissociation of molecular hydrogen. The new insights are of significance for practical applications of hydrogen plasmas.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-20T11:22:57Z</published>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>D. Eremin</name>
+    </author>
+    <author>
+      <name>Yu. Sharova</name>
+    </author>
+    <author>
+      <name>L. Heijmans</name>
+    </author>
+    <author>
+      <name>A. M. Yakunin</name>
+    </author>
+    <author>
+      <name>M. van de Kerkhof</name>
+    </author>
+    <author>
+      <name>R. -P. Brinkmann</name>
+    </author>
+    <author>
+      <name>E. Kemaneci</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.05080v1</id>
+    <title>Hydrogen electron cyclotron resonance ion sources plasma characterization based on simple optical emission spectroscopy</title>
+    <updated>2025-01-31T10:58:49Z</updated>
+    <link href="https://arxiv.org/abs/2502.05080v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.05080v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Hydrogen electron cyclotron resonance ion sources plasma measurements based on simple optical emission spectroscopy on a new compact low current ion source designed and built by the authors is presented. By observing the plasma luminescence both directly and through a low-cost transmission diffraction grating, basic characterization of the Hydrogen plasma obtainable in the ion source is carried out. Through simple processing of CCD captures of these images, optimal values for the ion source relevant operation parameters, including RF power and frequency, and Hydrogen mass flow are easily obtained. Despite the simplicity of the method and its limited accuracy as compared to the use of a full standard optical spectrometric set-up, it is shown that the presented approach can cope with basic plasma diagnostic tasks as far as the successful operation of the ion source is concerned.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.acc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-01-31T10:58:49Z</published>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>Jorge Feuchtwanger</name>
+    </author>
+    <author>
+      <name>Víctor Etxebarria</name>
+    </author>
+    <author>
+      <name>Joaquín Portilla</name>
+    </author>
+    <author>
+      <name>Josu Jugo</name>
+    </author>
+    <author>
+      <name>Inari Badillo</name>
+    </author>
+    <author>
+      <name>Iñigo Arredondo</name>
+    </author>
+  </entry>
+</feed>

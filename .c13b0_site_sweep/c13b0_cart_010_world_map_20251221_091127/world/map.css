@@ -1,0 +1,30 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: #0e1117;
+  color: #e6edf3;
+  padding: 24px;
+}
+
+.world {
+  border: 2px solid #30363d;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 20px;
+}
+
+.stage {
+  margin-top: 12px;
+  padding: 12px;
+  border: 1px dashed #30363d;
+  border-radius: 10px;
+}
+
+.brick {
+  display: inline-block;
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  padding: 8px 10px;
+  margin: 6px;
+  font-size: 13px;
+}

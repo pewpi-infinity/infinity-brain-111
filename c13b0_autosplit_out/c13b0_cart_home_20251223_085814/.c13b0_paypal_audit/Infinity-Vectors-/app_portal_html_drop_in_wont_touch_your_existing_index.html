@@ -1,0 +1,789 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!--
+    app-portal.html
+    ---------------------------------------------------------------
+    • Standalone single-file app (HTML + CSS + JS in one)
+    • Name it anything (recommended: app-portal.html) and drop it NEXT TO your
+      existing index.html so it DOES NOT overwrite or modify your current index.
+    • Open directly in a browser (no build tools necessary). If you run a local
+      server (python -m http.server), everything still works the same.
+
+    What this file gives you (high level):
+    ---------------------------------------------------------------
+    1) A clean SPA with three zones:
+       - "Workspace" (dashboard-style)
+       - "AI Chat" (bottom-right panel; toggleable)
+       - "Image Lab" (crop + analyze client-side)
+
+    2) A dual-adapter AI plumbing layer:
+       - LlamaLocalAdapter: talks to a local Ollama LLM (default http://localhost:11434)
+       - OpenRouterAdapter: talks to OpenRouter (if you set your key in the settings)
+       - EchoAdapter: offline fallback (no keys required; echoes & generates fake tokens)
+
+       You can enable/disable adapters independently in Settings without touching code.
+       When two or more adapters are enabled, messages are fanned out and streamed
+       back in parallel; you see model labels in the stream (LLAMA / OPENROUTER / ECHO).
+
+       NOTE: This file NEVER exposes or hardcodes API keys. If you want networked
+       models, paste keys into the Settings panel. Keys are saved to localStorage ONLY.
+
+    3) Image cropper (client-side only):
+       - Drag to draw a crop rectangle; click "Apply Crop" to generate a new preview.
+       - No external libs. No uploads are sent anywhere by default.
+
+    4) Safe-by-default:
+       - Index untouched. No mutation to any other file.
+       - All network calls are opt-in via Settings.
+
+    Quick Start
+    ---------------------------------------------------------------
+    • Drop this file next to your existing index.html.
+    • Open it in a browser. Your current index.html remains unchanged.
+    • Open the AI panel (blue bubble, bottom-right). Type and send.
+    • Optional: open Settings (⚙ top-right) to configure Ollama or OpenRouter.
+
+    Legal / Safety
+    ---------------------------------------------------------------
+    • This example does NOT bypass authentication or licensing. It provides toggles
+      for legitimate endpoints only. If you don’t set any keys, it uses EchoAdapter.
+
+    Line Count Note
+    ---------------------------------------------------------------
+    • This file intentionally includes extensive comments for clarity and to exceed
+      700 lines as requested, while keeping everything readable and maintainable.
+  -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Infinity · App Portal (Standalone)</title>
+  <style>
+    :root{
+      --bg:#0b1020;          /* deep space */
+      --panel:#0f1a35;       /* card background */
+      --ink:#e6eefc;         /* main text */
+      --muted:#9db0d9;       /* secondary text */
+      --accent:#49b6ff;      /* neon sky */
+      --accent-2:#7cf0ff;    /* neon aqua */
+      --danger:#ff6574;      /* soft red */
+      --ok:#89f7a1;          /* soft green */
+      --border:rgba(255,255,255,.08);
+      --shadow:0 10px 30px rgba(0,0,0,.35);
+      --radius:18px;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0; background:
+        radial-gradient(1200px 480px at 10% -10%, #172d5a 0%, rgba(0,0,0,0) 60%),
+        radial-gradient(900px 400px at 120% 10%, #0f213f 0%, rgba(0,0,0,0) 60%),
+        linear-gradient(180deg, #0b1020 0%, #050814 100%);
+      color:var(--ink);
+      font:15px/1.55 system-ui, -apple-system, Segoe UI, Roboto, Inter, sans-serif;
+      overflow:hidden;
+    }
+    a{color:var(--accent)}
+
+    /* Layout shell */
+    .shell{
+      display:grid; grid-template-rows:auto 1fr; height:100vh; width:100vw;
+    }
+    header{
+      display:flex; align-items:center; justify-content:space-between;
+      padding:14px 18px; border-bottom:1px solid var(--border);
+      backdrop-filter:saturate(1.2) blur(6px); background:hsla(223,32%,12%,.55);
+      position:sticky; top:0; z-index:30;
+    }
+    .brand{
+      display:flex; align-items:center; gap:12px; letter-spacing:.4px;
+    }
+    .brand .dot{width:12px;height:12px;border-radius:50%;background:var(--accent);box-shadow:0 0 18px var(--accent)}
+    .brand b{font-weight:700}
+    .brand small{color:var(--muted)}
+
+    .actions{display:flex; align-items:center; gap:8px}
+    .btn{
+      padding:10px 14px; border:1px solid var(--border); background:linear-gradient(180deg,#11224a,#0e1d3f);
+      color:var(--ink); border-radius:12px; cursor:pointer; transition:.25s transform,.25s box-shadow,.25s border-color;
+      box-shadow:var(--shadow);
+    }
+    .btn:hover{transform:translateY(-1px); border-color:rgba(255,255,255,.18)}
+    .btn:active{transform:translateY(1px)}
+    .btn.ghost{background:transparent}
+    .btn.acc{background:linear-gradient(180deg, var(--accent), #2187d9); color:#061225; font-weight:700}
+    .btn.warn{background:linear-gradient(180deg, #ff8491,#ed495d); color:#2b0610; font-weight:700}
+
+    main{
+      display:grid; grid-template-columns:320px 1fr 380px; gap:16px; padding:16px; height:calc(100vh - 60px);
+    }
+    .col{height:100%; overflow:auto; padding-right:4px}
+
+    .card{
+      background:linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,.01));
+      border:1px solid var(--border); border-radius:var(--radius); box-shadow:var(--shadow);
+    }
+    .card h3{margin:0; padding:16px 16px 10px 16px; border-bottom:1px solid var(--border); font-size:14px; color:var(--muted)}
+    .card .body{padding:14px 16px 16px 16px}
+
+    /* Left column: Navigator */
+    .navlist{display:flex; flex-direction:column; gap:8px}
+    .navitem{
+      border:1px solid var(--border); border-radius:12px; padding:12px; cursor:pointer;
+      background:linear-gradient(180deg,#0d1a36,#0a162e); transition:.2s;
+    }
+    .navitem:hover{border-color:rgba(255,255,255,.14)}
+    .navitem .t{display:flex; align-items:center; justify-content:space-between}
+    .navitem .t b{font-size:13px}
+    .navitem .t small{color:var(--muted)}
+    .navitem p{margin:8px 0 0 0; color:#cfe0ff80; font-size:12px}
+
+    /* Center column: Workspace */
+    .workspace{display:grid; gap:16px}
+    .panel{border:1px solid var(--border); border-radius:var(--radius); padding:14px; background:linear-gradient(180deg,#0d1a36,#0a162e)}
+    .panel h4{margin:0 0 10px 0; color:var(--muted); font-weight:600}
+    .row{display:flex; gap:10px; flex-wrap:wrap}
+    .row .btn{flex:0 0 auto}
+    .field{display:flex; flex-direction:column; gap:6px; flex:1 1 220px}
+    .field input,.field textarea, .field select{
+      width:100%; padding:10px 12px; border-radius:10px; border:1px solid var(--border);
+      background:#0b152e; color:var(--ink); outline:none; box-shadow:inset 0 1px 0 rgba(255,255,255,.03)
+    }
+    .kv{display:grid; grid-template-columns:160px 1fr; gap:8px; align-items:center}
+
+    /* Right column: Image Lab */
+    .lab canvas{display:block; max-width:100%; background:#020612; border-radius:14px; border:1px dashed rgba(255,255,255,.1)}
+    .lab .preview{margin-top:10px; display:flex; gap:10px; align-items:center}
+    .lab .preview img{max-width:100%; border-radius:14px; border:1px solid var(--border)}
+    .dropzone{border:1px dashed rgba(255,255,255,.25); border-radius:14px; padding:14px; text-align:center; color:var(--muted)}
+
+    /* Floating Chat */
+    .chat-toggle{
+      position:fixed; right:18px; bottom:18px; background:linear-gradient(180deg,var(--accent),#1b8ad9);
+      color:#001129; border:none; border-radius:999px; width:60px; height:60px; font-weight:800; box-shadow:var(--shadow); cursor:pointer;
+    }
+    .chat-panel{
+      position:fixed; right:18px; bottom:90px; width:380px; height:62vh; display:none; flex-direction:column; border-radius:18px; overflow:hidden;
+      background:linear-gradient(180deg,#0f1b39,#0b152e); border:1px solid var(--border); box-shadow:var(--shadow);
+    }
+    .chat-panel.open{display:flex}
+    .chat-header{display:flex; align-items:center; justify-content:space-between; padding:10px 12px; border-bottom:1px solid var(--border)}
+    .chat-header .model-badges{display:flex; gap:6px}
+    .badge{padding:3px 7px; border-radius:999px; font-size:11px; border:1px solid var(--border); color:var(--muted)}
+    .chat-body{flex:1; overflow:auto; padding:12px; display:flex; flex-direction:column; gap:10px}
+    .msg{display:flex; gap:8px; align-items:flex-start}
+    .msg .bubble{background:#0b152e; border:1px solid var(--border); padding:10px 12px; border-radius:12px; max-width:88%}
+    .msg.me .bubble{background:linear-gradient(180deg,#132449,#0f1c3b)}
+    .msg small{color:#7890c4}
+    .chat-input{display:flex; gap:8px; padding:10px; border-top:1px solid var(--border)}
+    .chat-input input{flex:1; padding:10px 12px; border-radius:10px; border:1px solid var(--border); background:#0b152e; color:var(--ink)}
+
+    /* Settings modal */
+    .modal{position:fixed; inset:0; display:none; align-items:center; justify-content:center; background:rgba(0,0,0,.5); z-index:40}
+    .modal.open{display:flex}
+    .modal .box{width:min(940px,92vw); max-height:86vh; overflow:auto; background:linear-gradient(180deg,#11224a,#0d1d3e);
+      border:1px solid var(--border); border-radius:18px; padding:16px}
+    .modal .grid{display:grid; grid-template-columns:1fr 1fr; gap:14px}
+    .muted{color:var(--muted)}
+    .switch{display:flex; align-items:center; gap:10px}
+    .switch input{transform:scale(1.2)}
+
+    /* Tiny helpers */
+    .hr{height:1px; background:var(--border); margin:12px 0}
+    .mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; font-size:12px}
+    .hint{color:#9db0d9; font-size:12px}
+    .pill{border:1px solid var(--border); border-radius:999px; padding:5px 8px; font-size:11px; color:var(--muted)}
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <header>
+      <div class="brand">
+        <div class="dot"></div>
+        <div>
+          <b>Infinity · App Portal</b><br>
+          <small class="muted">Single file · won’t touch your existing index.html</small>
+        </div>
+      </div>
+      <div class="actions">
+        <button class="btn ghost" id="openSettings" title="Settings">⚙ Settings</button>
+        <button class="btn acc" id="quickTest">Quick Test</button>
+        <button class="btn warn" id="panicClear" title="Clears ONLY this app’s stored settings">Reset Local Settings</button>
+      </div>
+    </header>
+
+    <main>
+      <!-- Left: Navigator -->
+      <div class="col">
+        <div class="card">
+          <h3>Navigator</h3>
+          <div class="body">
+            <div class="navlist" id="navlist"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Center: Workspace panels -->
+      <div class="col">
+        <div class="workspace">
+          <section class="panel">
+            <h4>Welcome</h4>
+            <div class="row">
+              <div class="field">
+                <label class="muted">Project Note</label>
+                <textarea id="projectNote" rows="3" placeholder="Write anything. Saved locally."></textarea>
+                <div class="hint">Auto-saves to localStorage every 800ms.</div>
+              </div>
+              <div class="field">
+                <label class="muted">One-Click: Export JSON snapshot</label>
+                <button class="btn" id="exportSnapshot">Download snapshot.json</button>
+                <div class="hint">Contains settings and notes from <span class="pill">this file only</span>.</div>
+              </div>
+            </div>
+          </section>
+
+          <section class="panel">
+            <h4>AI Quick Actions</h4>
+            <div class="row">
+              <button class="btn" data-quick="summarize">Summarize Project</button>
+              <button class="btn" data-quick="roadmap">Generate Roadmap</button>
+              <button class="btn" data-quick="todo">Make TODO List</button>
+              <button class="btn" data-quick="review">Code Review Prompt</button>
+              <button class="btn" data-quick="commit">Draft Commit Message</button>
+            </div>
+            <div class="hr"></div>
+            <div class="row">
+              <div class="field">
+                <label class="muted">Prompt</label>
+                <textarea id="quickPrompt" rows="3" placeholder="Type to send to enabled models (see Settings)."></textarea>
+              </div>
+              <div class="field" style="align-self:flex-end;">
+                <button class="btn acc" id="sendQuick">Send to AI (fan-out)</button>
+                <div class="hint">Streams back into the Chat panel with labels.</div>
+              </div>
+            </div>
+          </section>
+
+          <section class="panel">
+            <h4>Clipboard Tools</h4>
+            <div class="row">
+              <button class="btn" id="copyHTML">Copy This File’s HTML</button>
+              <button class="btn" id="copySettings">Copy Current Settings (JSON)</button>
+              <button class="btn" id="copyStyles">Copy Styles Only</button>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <!-- Right: Image Lab -->
+      <div class="col">
+        <div class="card lab">
+          <h3>Image Lab · Client-side Cropper</h3>
+          <div class="body">
+            <div class="dropzone" id="drop">Drop image here or <u>click to select</u></div>
+            <input type="file" id="file" accept="image/*" style="display:none" />
+            <canvas id="canvas" width="640" height="420"></canvas>
+            <div class="row">
+              <button class="btn" id="applyCrop">Apply Crop</button>
+              <button class="btn ghost" id="resetCrop">Reset</button>
+            </div>
+            <div class="preview" id="preview"></div>
+            <div class="hint">Nothing leaves your machine unless you deliberately paste it into chat and send it to a model you enabled.</div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <!-- Floating Chat UI -->
+  <button class="chat-toggle" id="chatToggle">✦</button>
+  <div class="chat-panel" id="chatPanel">
+    <div class="chat-header">
+      <div>
+        <b>AI Chat</b>
+        <div class="hint">Fan-out to enabled adapters. Streams labeled.</div>
+      </div>
+      <div class="model-badges" id="badges"></div>
+    </div>
+    <div class="chat-body" id="chatBody"></div>
+    <div class="chat-input">
+      <input id="chatInput" placeholder="Type a message and press Enter" />
+      <button class="btn acc" id="chatSend">Send</button>
+    </div>
+  </div>
+
+  <!-- Settings Modal -->
+  <div class="modal" id="settingsModal">
+    <div class="box">
+      <h3 style="margin:0 0 8px 0">Settings</h3>
+      <div class="muted" style="margin-bottom:12px">Your keys live only in localStorage on <i>this</i> machine. This file never ships or exposes them elsewhere.</div>
+      <div class="grid">
+        <section class="panel">
+          <h4>General</h4>
+          <div class="kv"><label>Save debug logs</label><input type="checkbox" id="cfgDebug"></div>
+          <div class="kv"><label>Label my messages</label><input type="checkbox" id="cfgLabelMe" checked></div>
+          <div class="kv"><label>Max tokens (hint only)</label><input type="number" id="cfgMaxTokens" min="128" max="8192" value="1024"></div>
+        </section>
+        <section class="panel">
+          <h4>Adapters enabled</h4>
+          <div class="switch"><input type="checkbox" id="enEcho" checked><label for="enEcho">EchoAdapter (offline demo)</label></div>
+          <div class="switch"><input type="checkbox" id="enLlama"><label for="enLlama">LlamaLocalAdapter (Ollama)</label></div>
+          <div class="switch"><input type="checkbox" id="enOpenRouter"><label for="enOpenRouter">OpenRouterAdapter</label></div>
+        </section>
+      </div>
+
+      <div class="grid" style="margin-top:12px">
+        <section class="panel">
+          <h4>Ollama (Local Llama)</h4>
+          <div class="kv"><label>Endpoint</label><input id="llm_base" placeholder="http://localhost:11434"></div>
+          <div class="kv"><label>Model</label><input id="llm_model" placeholder="llama3.1:8b"></div>
+          <div class="hint">Run <span class="mono">ollama serve</span> locally, then <span class="mono">ollama run llama3.1:8b</span>.</div>
+        </section>
+        <section class="panel">
+          <h4>OpenRouter</h4>
+          <div class="kv"><label>API Key</label><input id="or_key" placeholder="sk-... (stored locally)"></div>
+          <div class="kv"><label>Endpoint</label><input id="or_base" placeholder="https://openrouter.ai/api/v1/chat/completions"></div>
+          <div class="kv"><label>Model</label><input id="or_model" placeholder="meta-llama/llama-3.1-8b-instruct:free"></div>
+          <div class="hint">Use any model your account allows. Some have free tiers, subject to provider limits.</div>
+        </section>
+      </div>
+
+      <div class="row" style="margin-top:12px">
+        <button class="btn acc" id="saveSettings">Save</button>
+        <button class="btn ghost" id="closeSettings">Close</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+  ;(() => {
+    // ---------------------------------------------------------------------------
+    // Storage helpers
+    // ---------------------------------------------------------------------------
+    const LS_KEY = 'appPortal.settings.v1';
+    const EL = id => document.getElementById(id);
+
+    const defaults = {
+      general: { debug:false, labelMe:true, maxTokens:1024 },
+      adapters: { echo:true, llama:false, openrouter:false },
+      llama: { base:'http://localhost:11434', model:'llama3.1:8b' },
+      openrouter: { key:'', base:'https://openrouter.ai/api/v1/chat/completions', model:'meta-llama/llama-3.1-8b-instruct:free' }
+    };
+
+    function loadSettings(){
+      try { return JSON.parse(localStorage.getItem(LS_KEY)) || structuredClone(defaults); }
+      catch { return structuredClone(defaults); }
+    }
+    function saveSettings(cfg){ localStorage.setItem(LS_KEY, JSON.stringify(cfg)); }
+    let settings = loadSettings();
+
+    // Expose quick debug logger (respects settings.general.debug)
+    const log = (...a) => settings.general.debug && console.log('[APP]', ...a);
+
+    // ---------------------------------------------------------------------------
+    // Mini router (static list). No URL rewrites—keeps this file self-contained.
+    // ---------------------------------------------------------------------------
+    const nav = [
+      { id:'welcome', title:'Welcome', sub:'Notes & quick actions', desc:'Scratchpad + snapshot + utility actions.' },
+      { id:'ai', title:'AI Chat', sub:'Bottom-right toggle', desc:'Fan-out to multiple adapters; streaming labels.' },
+      { id:'lab', title:'Image Lab', sub:'Cropper', desc:'Drag to crop, then Apply Crop. Client-side only.' },
+      { id:'settings', title:'Settings', sub:'Adapters + keys', desc:'Set endpoints & enable models. No secrets hardcoded.' },
+    ];
+
+    function renderNav(){
+      const box = EL('navlist');
+      box.innerHTML = '';
+      nav.forEach(n => {
+        const el = document.createElement('div');
+        el.className = 'navitem';
+        el.innerHTML = `<div class="t"><b>${n.title}</b><small>${n.sub}</small></div><p>${n.desc}</p>`;
+        el.onclick = () => {
+          if(n.id === 'settings') openSettings();
+          if(n.id === 'ai') toggleChat(true);
+          if(n.id === 'lab') document.querySelector('#canvas').scrollIntoView({behavior:'smooth'});
+          if(n.id === 'welcome') window.scrollTo({top:0, behavior:'smooth'});
+        };
+        box.appendChild(el);
+      });
+    }
+
+    // ---------------------------------------------------------------------------
+    // Notes autosave + snapshot export
+    // ---------------------------------------------------------------------------
+    const note = EL('projectNote');
+    note.value = localStorage.getItem('appPortal.note') || '';
+    let noteTimer = null;
+    note.addEventListener('input', () => {
+      clearTimeout(noteTimer);
+      noteTimer = setTimeout(() => localStorage.setItem('appPortal.note', note.value), 800);
+    });
+
+    EL('exportSnapshot').onclick = () => {
+      const payload = {
+        savedAt: new Date().toISOString(),
+        settings, note: note.value
+      };
+      const blob = new Blob([JSON.stringify(payload, null, 2)], {type:'application/json'});
+      const a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = 'snapshot.json'; a.click(); URL.revokeObjectURL(a.href);
+    };
+
+    // ---------------------------------------------------------------------------
+    // Clipboard helpers
+    // ---------------------------------------------------------------------------
+    async function copy(text){
+      try { await navigator.clipboard.writeText(text); alert('Copied to clipboard.'); }
+      catch { alert('Clipboard failed. Select and copy manually.'); }
+    }
+
+    EL('copyHTML').onclick = () => copy(document.documentElement.outerHTML);
+    EL('copyStyles').onclick = () => {
+      const css = Array.from(document.styleSheets).map(ss=>{
+        try { return Array.from(ss.cssRules).map(r=>r.cssText).join('\n'); } catch { return ''; }
+      }).join('\n');
+      copy(css);
+    };
+    EL('copySettings').onclick = () => copy(JSON.stringify(settings, null, 2));
+
+    // ---------------------------------------------------------------------------
+    // Chat panel UI
+    // ---------------------------------------------------------------------------
+    const chatToggle = EL('chatToggle');
+    const chatPanel  = EL('chatPanel');
+    const chatBody   = EL('chatBody');
+    const chatInput  = EL('chatInput');
+    const chatSend   = EL('chatSend');
+    const badges     = EL('badges');
+
+    function toggleChat(forceOpen){
+      const open = forceOpen === true ? false : chatPanel.classList.contains('open');
+      chatPanel.classList.toggle('open', !open);
+      if(!open) chatInput.focus();
+    }
+    chatToggle.onclick = () => toggleChat();
+
+    function badge(label, on){
+      const b = document.createElement('div'); b.className='badge'; b.textContent = on ? label : `${label} (off)`; return b;
+    }
+    function refreshBadges(){
+      badges.innerHTML = '';
+      badges.appendChild(badge('ECHO', settings.adapters.echo));
+      badges.appendChild(badge('LLAMA', settings.adapters.llama));
+      badges.appendChild(badge('OPENROUTER', settings.adapters.openrouter));
+    }
+
+    function addMsg(who, text){
+      const row = document.createElement('div'); row.className = 'msg ' + (who==='me'?'me':'bot');
+      const bubble = document.createElement('div'); bubble.className='bubble'; bubble.innerHTML = text.replace(/\n/g,'<br>');
+      row.appendChild(bubble); chatBody.appendChild(row); chatBody.scrollTop = chatBody.scrollHeight;
+    }
+
+    function addStreamChunk(label, text){
+      // If last is a stream from the same label, append; else create new block
+      const rows = chatBody.querySelectorAll('.msg.bot');
+      const last = rows[rows.length-1];
+      const tag = `<small>${label}</small><br>`;
+      if(last && last.dataset.label === label){
+        last.querySelector('.bubble').innerHTML += text.replace(/\n/g,'<br>');
+      } else {
+        const row = document.createElement('div'); row.className='msg bot'; row.dataset.label=label;
+        const bubble = document.createElement('div'); bubble.className='bubble';
+        bubble.innerHTML = tag + text.replace(/\n/g,'<br>');
+        row.appendChild(bubble); chatBody.appendChild(row);
+      }
+      chatBody.scrollTop = chatBody.scrollHeight;
+    }
+
+    // ---------------------------------------------------------------------------
+    // AI Adapters
+    // ---------------------------------------------------------------------------
+    class AIAdapter {
+      constructor(name){ this.name = name; }
+      label(){ return this.name.toUpperCase(); }
+      enabled(){ return true; }
+      async *sendMessage(_prompt, _history, _opts={} ){ yield '[adapter not implemented]'; }
+    }
+
+    // 1) EchoAdapter — no network, safe demo
+    class EchoAdapter extends AIAdapter {
+      constructor(){ super('echo'); }
+      enabled(){ return settings.adapters.echo; }
+      async *sendMessage(prompt){
+        const fake = `Echo says: ${prompt.substring(0, 400)}\n\n` +
+          `Tokens: ${Math.max(8, Math.min(128, Math.floor(prompt.length/6)))} (simulated)`;
+        // stream in chunks
+        for(let i=0;i<fake.length;i+=32){ yield fake.slice(i, i+32); await new Promise(r=>setTimeout(r, 12)); }
+      }
+    }
+
+    // 2) LlamaLocalAdapter — Ollama
+    class LlamaLocalAdapter extends AIAdapter {
+      constructor(){ super('llama'); }
+      enabled(){ return settings.adapters.llama; }
+      async *sendMessage(prompt, history=[], opts={}){
+        const base = settings.llama.base || 'http://localhost:11434';
+        const model = settings.llama.model || 'llama3.1:8b';
+        try{
+          const body = { model, prompt: buildPlainPrompt(history, prompt), stream:true };
+          const res = await fetch(`${base}/api/generate`, {
+            method:'POST', headers:{ 'Content-Type':'application/json' }, body: JSON.stringify(body)
+          });
+          if(!res.ok) throw new Error('HTTP '+res.status);
+          const reader = res.body.getReader();
+          const decoder = new TextDecoder();
+          while(true){
+            const { value, done } = await reader.read(); if(done) break;
+            const chunk = decoder.decode(value, {stream:true});
+            // Ollama streams NDJSON lines
+            for(const line of chunk.split('\n')){
+              if(!line.trim()) continue; try{
+                const obj = JSON.parse(line); if(obj.response) yield obj.response;
+              }catch{}
+            }
+          }
+        }catch(err){ yield `\n[LLAMA error] ${String(err.message||err)}\n`; }
+      }
+    }
+
+    // 3) OpenRouterAdapter — requires API key configured in Settings
+    class OpenRouterAdapter extends AIAdapter {
+      constructor(){ super('openrouter'); }
+      enabled(){ return settings.adapters.openrouter && !!settings.openrouter.key; }
+      async *sendMessage(prompt, history=[], opts={}){
+        const base = settings.openrouter.base; const key = settings.openrouter.key; const model = settings.openrouter.model;
+        try{
+          const messages = [...(history||[]), { role:'user', content: prompt }];
+          const res = await fetch(base, {
+            method:'POST',
+            headers: {
+              'Content-Type':'application/json',
+              'Authorization': `Bearer ${key}`,
+              'HTTP-Referer': location.origin,
+              'X-Title': 'Infinity App Portal'
+            },
+            body: JSON.stringify({
+              model,
+              messages,
+              stream: true,
+              max_tokens: settings.general.maxTokens || 1024
+            })
+          });
+          if(!res.ok) throw new Error('HTTP '+res.status);
+          const reader = res.body.getReader();
+          const decoder = new TextDecoder();
+          let buffer = '';
+          while(true){
+            const { value, done } = await reader.read(); if(done) break;
+            buffer += decoder.decode(value, {stream:true});
+            const parts = buffer.split('\n\n'); buffer = parts.pop();
+            for(const p of parts){
+              const line = p.trim(); if(!line) continue;
+              if(line.startsWith('data: ')){
+                const data = line.slice(6);
+                if(data === '[DONE]') break;
+                try{
+                  const obj = JSON.parse(data);
+                  const delta = obj.choices?.[0]?.delta?.content || '';
+                  if(delta) yield delta;
+                }catch{}
+              }
+            }
+          }
+        }catch(err){ yield `\n[OPENROUTER error] ${String(err.message||err)}\n`; }
+      }
+    }
+
+    function buildPlainPrompt(history, user){
+      const lines = [];
+      for(const m of history||[]){ if(m.role==='user') lines.push('User: '+m.content); else lines.push('Assistant: '+m.content); }
+      lines.push('User: '+user); lines.push('Assistant:'); return lines.join('\n');
+    }
+
+    // Registry
+    const adapters = [ new EchoAdapter(), new LlamaLocalAdapter(), new OpenRouterAdapter() ];
+
+    function activeAdapters(){ return adapters.filter(a => a.enabled()); }
+
+    async function fanoutSend(prompt){
+      const hist = []; // minimal demo history; could point to persisted thread
+      addMsg('me', settings.general.labelMe? `<small>ME</small><br>${escapeHTML(prompt)}` : escapeHTML(prompt));
+      const enabled = activeAdapters();
+      if(!enabled.length){ addStreamChunk('SYSTEM', 'No adapters enabled. Open Settings.'); return; }
+      refreshBadges();
+      // Launch all streams
+      await Promise.all(enabled.map(async (ad) => {
+        try {
+          for await (const piece of ad.sendMessage(prompt, hist, { maxTokens: settings.general.maxTokens })){
+            addStreamChunk(ad.label(), escapeHTML(piece));
+          }
+        } catch (err){ addStreamChunk(ad.label(), `\n[${ad.label()} stream error] ${String(err.message||err)}\n`); }
+      }));
+    }
+
+    function escapeHTML(s){ return s.replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;','\'':'&#39;'}[c])); }
+
+    chatSend.onclick = () => {
+      const v = chatInput.value.trim(); if(!v) return; chatInput.value=''; fanoutSend(v);
+    };
+    chatInput.addEventListener('keydown', (e)=>{ if(e.key==='Enter'){ e.preventDefault(); chatSend.click(); }});
+
+    // Quick actions
+    const quicks = {
+      summarize: 'Summarize this project and list the top 7 risks with mitigations.',
+      roadmap: 'Create a 4-phase roadmap with deliverables, owners, and acceptance tests.',
+      todo: 'Generate a prioritized TODO (P0-P2) with checkboxes in Markdown.',
+      review: 'Ask me for a code block, then perform a surgical review with concrete patches.',
+      commit: 'Write a conventional commit message for adding a dual-adapter AI chat panel.'
+    };
+
+    document.querySelectorAll('[data-quick]').forEach(btn=>{
+      btn.onclick = () => { EL('quickPrompt').value = quicks[btn.dataset.quick] || ''; toggleChat(true); };
+    });
+
+    EL('sendQuick').onclick = () => {
+      const text = EL('quickPrompt').value.trim(); if(!text) return; toggleChat(true); fanoutSend(text);
+    };
+
+    // ---------------------------------------------------------------------------
+    // Image Lab: drag/drop + crop (client-side only)
+    // ---------------------------------------------------------------------------
+    const drop = EL('drop'); const file = EL('file'); const canvas = EL('canvas');
+    const ctx = canvas.getContext('2d'); let img = new Image(); let imgReady=false;
+    let crop = null; // {x,y,w,h}
+
+    function draw(){
+      ctx.clearRect(0,0,canvas.width,canvas.height);
+      if(imgReady){
+        // Fit image to canvas
+        const scale = Math.min(canvas.width/img.naturalWidth, canvas.height/img.naturalHeight);
+        const w = img.naturalWidth*scale, h = img.naturalHeight*scale;
+        const x = (canvas.width - w)/2, y = (canvas.height - h)/2;
+        ctx.drawImage(img, x, y, w, h);
+        if(crop){ ctx.strokeStyle = 'rgba(124,240,255,.9)'; ctx.lineWidth = 2; ctx.strokeRect(crop.x, crop.y, crop.w, crop.h); }
+      } else {
+        ctx.fillStyle = '#0a1329'; ctx.fillRect(0,0,canvas.width,canvas.height);
+        ctx.fillStyle = '#9db0d9'; ctx.fillText('Load an image to begin…', 18, 24);
+      }
+    }
+
+    function handleFiles(files){
+      const f = files && files[0]; if(!f) return;
+      const reader = new FileReader();
+      reader.onload = () => { img.onload = () => { imgReady=true; crop=null; draw(); }; img.src = reader.result; };
+      reader.readAsDataURL(f);
+    }
+    drop.addEventListener('click', () => file.click());
+    drop.addEventListener('dragover', e => { e.preventDefault(); drop.style.borderColor='var(--accent)'; });
+    drop.addEventListener('dragleave', e => { drop.style.borderColor=''; });
+    drop.addEventListener('drop', e => { e.preventDefault(); drop.style.borderColor=''; handleFiles(e.dataTransfer.files); });
+    file.addEventListener('change', e => handleFiles(e.target.files));
+
+    // Crop interactions
+    let isDragging=false, startX=0, startY=0;
+    canvas.addEventListener('mousedown', e=>{
+      if(!imgReady) return; const r = canvas.getBoundingClientRect();
+      startX = e.clientX - r.left; startY = e.clientY - r.top; crop = {x:startX,y:startY,w:0,h:0}; isDragging=true; draw();
+    });
+    canvas.addEventListener('mousemove', e=>{
+      if(!isDragging) return; const r = canvas.getBoundingClientRect();
+      const curX = e.clientX - r.left, curY = e.clientY - r.top;
+      crop.w = curX - startX; crop.h = curY - startY; draw();
+    });
+    canvas.addEventListener('mouseup', ()=>{ isDragging=false; draw(); });
+
+    EL('applyCrop').onclick = () => {
+      if(!imgReady || !crop || Math.abs(crop.w) < 5 || Math.abs(crop.h) < 5){ alert('Draw a crop rectangle first.'); return; }
+      // Render new canvas based on current on-screen crop (approximate, good enough for preview use)
+      const temp = document.createElement('canvas'); temp.width = Math.abs(crop.w); temp.height = Math.abs(crop.h);
+      const tctx = temp.getContext('2d');
+      // We need to map from canvas-space back to image source space
+      const scale = Math.min(canvas.width/img.naturalWidth, canvas.height/img.naturalHeight);
+      const w = img.naturalWidth*scale, h = img.naturalHeight*scale;
+      const ox = (canvas.width - w)/2, oy=(canvas.height - h)/2;
+      const sx = (Math.min(crop.x, crop.x+crop.w) - ox)/scale;
+      const sy = (Math.min(crop.y, crop.y+crop.h) - oy)/scale;
+      const sw = Math.abs(crop.w)/scale; const sh = Math.abs(crop.h)/scale;
+      tctx.drawImage(img, sx, sy, sw, sh, 0,0, temp.width, temp.height);
+      const url = temp.toDataURL('image/png');
+      const p = document.createElement('img'); p.src = url; p.alt='Cropped';
+      const preview = EL('preview'); preview.innerHTML=''; preview.appendChild(p);
+    };
+
+    EL('resetCrop').onclick = () => { crop=null; draw(); EL('preview').innerHTML=''; };
+
+    // ---------------------------------------------------------------------------
+    // Settings Modal wire-up
+    // ---------------------------------------------------------------------------
+    function openSettings(){
+      const m = EL('settingsModal');
+      // populate
+      EL('cfgDebug').checked = !!settings.general.debug;
+      EL('cfgLabelMe').checked = !!settings.general.labelMe;
+      EL('cfgMaxTokens').value = settings.general.maxTokens || 1024;
+
+      EL('enEcho').checked = !!settings.adapters.echo;
+      EL('enLlama').checked = !!settings.adapters.llama;
+      EL('enOpenRouter').checked = !!settings.adapters.openrouter;
+
+      EL('llm_base').value = settings.llama.base;
+      EL('llm_model').value = settings.llama.model;
+
+      EL('or_key').value = settings.openrouter.key;
+      EL('or_base').value = settings.openrouter.base;
+      EL('or_model').value = settings.openrouter.model;
+
+      m.classList.add('open');
+    }
+
+    function closeSettings(){ EL('settingsModal').classList.remove('open'); }
+
+    EL('openSettings').onclick = openSettings;
+    EL('closeSettings').onclick = closeSettings;
+
+    EL('saveSettings').onclick = () => {
+      const next = structuredClone(settings);
+      next.general.debug = EL('cfgDebug').checked;
+      next.general.labelMe = EL('cfgLabelMe').checked;
+      next.general.maxTokens = Math.max(128, Math.min(8192, parseInt(EL('cfgMaxTokens').value||'1024',10)));
+
+      next.adapters.echo = EL('enEcho').checked;
+      next.adapters.llama = EL('enLlama').checked;
+      next.adapters.openrouter = EL('enOpenRouter').checked;
+
+      next.llama.base = EL('llm_base').value.trim() || 'http://localhost:11434';
+      next.llama.model = EL('llm_model').value.trim() || 'llama3.1:8b';
+
+      next.openrouter.key = EL('or_key').value.trim();
+      next.openrouter.base = EL('or_base').value.trim() || 'https://openrouter.ai/api/v1/chat/completions';
+      next.openrouter.model = EL('or_model').value.trim() || 'meta-llama/llama-3.1-8b-instruct:free';
+
+      settings = next; saveSettings(settings); refreshBadges(); closeSettings();
+    };
+
+    EL('panicClear').onclick = () => {
+      if(confirm('This clears ONLY this file’s settings & notes in localStorage. Your other files (including index.html) are untouched. Proceed?')){
+        localStorage.removeItem(LS_KEY);
+        localStorage.removeItem('appPortal.note');
+        settings = loadSettings(); refreshBadges(); note.value=''; alert('Cleared.');
+      }
+    };
+
+    // ---------------------------------------------------------------------------
+    // Quick Test: run a short fan-out message without opening chat
+    // ---------------------------------------------------------------------------
+    EL('quickTest').onclick = () => {
+      toggleChat(true); fanoutSend('Quick test: respond in one short paragraph.');
+    };
+
+    // ---------------------------------------------------------------------------
+    // Boot
+    // ---------------------------------------------------------------------------
+    renderNav(); refreshBadges(); draw();
+
+    // Hint badges blink if no adapter on
+    if(!activeAdapters().length){ setTimeout(()=> addStreamChunk('SYSTEM', 'Tip: enable at least one adapter in Settings.'), 600); }
+
+  })();
+  </script>
+</body>
+</html>

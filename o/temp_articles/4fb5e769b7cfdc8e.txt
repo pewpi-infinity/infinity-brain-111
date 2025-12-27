@@ -1,0 +1,92 @@
+TERMS: hydrogen, frequency, crystal, vacuum
+COLORS: purple, green, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/EUjps8mW8dWmlz/2suLSbu9l4t4</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:frequency AND all:crystal AND all:vacuum&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:43:43Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:frequency+AND+(all:crystal+AND+all:vacuum))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>4</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1610.02179v1</id>
+    <title>Generation of a VUV-to-visible Raman frequency comb in hydrogen-filled kagomé photonic crystal fiber</title>
+    <updated>2016-10-07T08:34:57Z</updated>
+    <link href="https://arxiv.org/abs/1610.02179v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1610.02179v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We report the generation of a purely vibrational Raman comb, extending from the vacuum ultraviolet (184 nm) to the visible (478 nm), in hydrogen-filled kagomé-style photonic crystal fiber pumped at 266 nm. Stimulated Raman scattering and molecular modulation processes are enhanced by higher Raman gain in the ultraviolet. Owing to the pressure-tunable normal dispersion landscape of the fiber-gas system in the ultraviolet, higher-order anti-Stokes bands are generated preferentially in higher-order fiber modes. The results pave the way towards tunable fiber-based sources of deep- and vacuum ultraviolet light for applications in, e.g., spectroscopy and biomedicine.</summary>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-10-07T08:34:57Z</published>
+    <arxiv:comment>4 pages, 5 figures, 1 table</arxiv:comment>
+    <arxiv:primary_category term="physics.optics"/>
+    <arxiv:journal_ref>Opt. Lett. 41, 2811 (2016)</arxiv:journal_ref>
+    <author>
+      <name>M. K. Mridha</name>
+    </author>
+    <author>
+      <name>D. Novoa</name>
+    </author>
+    <author>
+      <name>S. T. Bauerschmidt</name>
+    </author>
+    <author>
+      <name>A. Abdolvand</name>
+    </author>
+    <author>
+      <name>P. St. J. Russell</name>
+    </author>
+    <arxiv:doi>10.1364/OL.41.002811</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1364/OL.41.002811" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1811.05700v1</id>
+    <title>Thresholdless deep and vacuum ultraviolet Raman frequency conversion in H$_2$-filled photonic crystal fiber</title>
+    <updated>2018-11-14T09:33:05Z</updated>
+    <link href="https://arxiv.org/abs/1811.05700v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1811.05700v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Coherent ultraviolet (UV) light has many uses, for example in the study of molecular species relevant in biology and chemistry. Very few if any laser materials offer UV transparency along with damage-free operation at high photon energies and laser power. Here we report efficient generation of deep and vacuum UV light using hydrogen-filled hollow-core photonic crystal fiber (HC-PCF). Pumping above the stimulated Raman threshold at 532 nm, coherent molecular vibrations are excited in the gas, permitting highly efficient thresholdless wavelength conversion in the UV. The system is uniquely pressure-tunable, allows spatial structuring of the out-coupled radiation, and shows excellent performance in the vacuum UV. It can also in principle operate at the single-photon level, when all other approaches are extremely inefficient.</summary>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-11-14T09:33:05Z</published>
+    <arxiv:comment>18 pages: 7 pages main paper, 11 pages supplementary material; 10 figures in total</arxiv:comment>
+    <arxiv:primary_category term="physics.optics"/>
+    <author>
+      <name>Manoj K. Mridha</name>
+    </author>
+    <author>
+      <name>Pooria Hosseini</name>
+    </author>
+    <author>
+      <name>David Novoa</name>
+    </author>
+    <author>
+      <name>Philip St. J. Russell</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2006.05837v1</id>
+    <title>Narrowband vacuum ultraviolet light via cooperative Raman scattering in dual-pumped gas-filled photonic crystal fiber</title>
+    <updated>2020-06-10T13:58:52Z</updated>
+    <link href="https://arxiv.org/abs/2006.05837v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2006.05837v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Many fields such as bio-spectroscopy and photochemistry often require sources of vacuum ultraviolet (VUV) pulses featuring a narrow linewidth and tunable over a wide frequency range. However, the majority of available VUV light sources do not simultaneously fulfill those two requirements, and few if any are truly compact, cost-effective and easy to use by non-specialists. Here we introduce a novel approach that goes a long way to meeting this challenge. It is based on hydrogen-filled hollow-core photonic crystal fiber pumped simultaneously by two spectrally distant pulses. Stimulated Raman scattering enables the generation of coherence waves of collective molecular motion in the gas, which together with careful dispersion engineering and control over the modal content of the pump light, facilitates cooperation between the two separate Raman combs, resulting in a spectrum that reaches deep into the VUV. Using this system, we demonstrate the generation of a dual Raman comb of narrowband lines extending down to 141 nm using only 100 mW of input power delivered by a commercial solid-state laser. The approach may enable access to tunable VUV light to any laboratory and therefore boost progress in many research areas across multiple disciplines.</summary>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-06-10T13:58:52Z</published>
+    <arxiv:comment>4 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.optics"/>
+    <author>
+      <name>Rinat Tyumenev</name>
+      <arxiv:affiliation>Max Planck Institute for the Science of Light</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Philip St. J. Russell</name>
+      <arxiv:affiliation>Max Planck Institute for the Science of Light</arxiv:affiliation>
+      <arxiv:affiliation>Department of Physics, Friedrich-Alexander-University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>David Novoa</name>
+      <arxiv:affiliation>Max Planck Institute for the Science of Light</arxiv:affiliation>
+    </author>
+  </entry>
+</feed>

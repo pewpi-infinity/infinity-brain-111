@@ -1,0 +1,77 @@
+TERMS: quantum, crystal, neutrino
+COLORS: blue, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/e5uH9Qfi5o8BDGMoTHc4m9fGOtc</id>
+  <title>arXiv Query: search_query=all:quantum AND all:crystal AND all:neutrino&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:07:29Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:crystal+AND+all:neutrino)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>18</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1909.06554v1</id>
+    <title>Divalent lanthanoid ions in crystals for neutrino mass spectroscopy</title>
+    <updated>2019-09-14T08:03:50Z</updated>
+    <link href="https://arxiv.org/abs/1909.06554v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1909.06554v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Electron spin flip in atoms or ions can cause neutrino pair emission, which provides a method to explore still unknown important neutrino properties by measuring spectrum of emitted photon in association, when electroweak rates are amplified by a phase coherence among participating atoms. Two important remaining neutrino issues to be determined are the absolute neutrino mass (or the smallest neutrino mass in the three-flavor scheme) and the nature of neutrino masses, either of Dirac type or of Majorana type. Use of Raman scattered photon was recently proposed as a promising tool for this purpose. In the present work we continue along this line to further identify promising ion targets in crystals, calculate neutrino pair emission rates, and study how to extract neutrino properties from Raman scattered photon angular distribution. Divalent lanthanoid ions in crystals, in particular Sm$^{2+}$, are the most promising, due to (1) its large number density, (2) sharp optical lines, (3) a variety of available ionic levels. Rejection of amplified quantum electrodynamic backgrounds is made possible to controllable levels by choosing a range of Raman trigger direction, when Sm$^{2+}$ sites are at O$_h$ inversion center of host crystals such as SrF$_2$.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-09-14T08:03:50Z</published>
+    <arxiv:comment>21 pages, 10 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>H. Hara</name>
+    </author>
+    <author>
+      <name>N. Sasao</name>
+    </author>
+    <author>
+      <name>M. Yoshimura</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0904.4346v2</id>
+    <title>Mossbauer neutrinos in quantum mechanics and quantum field theory</title>
+    <updated>2009-06-12T12:09:22Z</updated>
+    <link href="https://arxiv.org/abs/0904.4346v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0904.4346v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We demonstrate the correspondence between quantum mechanical and quantum field theoretical descriptions of Mossbauer neutrino oscillations. First, we compute the combined rate $Γ$ of Mossbauer neutrino emission, propagation, and detection in quantum field theory, treating the neutrino as an internal line of a tree level Feynman diagram. We include explicitly the effect of homogeneous line broadening due to fluctuating electromagnetic fields in the source and detector crystals and show that the resulting formula for $Γ$ is identical to the one obtained previously (Akhmedov et al., arXiv:0802.2513) for the case of inhomogeneous line broadening. We then proceed to a quantum mechanical treatment of Mossbauer neutrinos and show that the oscillation, coherence, and resonance terms from the field theoretical result can be reproduced if the neutrino is described as a superposition of Lorentz-shaped wave packet with appropriately chosen energies and widths. On the other hand, the emission rate and the detection cross section, including localization and Lamb-Mossbauer terms, cannot be predicted in quantum mechanics and have to be put in by hand.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-04-28T09:38:05Z</published>
+    <arxiv:comment>LaTeX, 16 pages, 1 figure; v2: typos corrected; matches published version</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>JHEP 0906:049,2009</arxiv:journal_ref>
+    <author>
+      <name>Joachim Kopp</name>
+    </author>
+    <arxiv:doi>10.1088/1126-6708/2009/06/049</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1126-6708/2009/06/049" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/0611359v1</id>
+    <title>Gamma Ray Burst Neutrinos Probing Quantum Gravity</title>
+    <updated>2006-11-28T21:37:01Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/0611359v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/0611359v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Very high energy, short wavelength, neutrinos may interact with the space-time foam predicted by theories of quantum gravity. They would propagate like light through a crystal lattice and be delayed, with the delay depending on the energy. This will appear to the observer as a violation of Lorenz invariance. Back of the envelope calculations imply that observations of neutrinos produced by gamma ray bursts may reach Planck-scale sensitivity. We revisit the problem considering two essential complications: the imprecise timing of the neutrinos associated with their poorly understood production mechanism in the source and the indirect nature of their energy measurement made by high energy neutrino telescopes.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-11-28T21:37:01Z</published>
+    <arxiv:comment>14 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>JCAP 0702:008,2007</arxiv:journal_ref>
+    <author>
+      <name>M. C. Gonzalez-Garcia</name>
+    </author>
+    <author>
+      <name>F. Halzen</name>
+    </author>
+    <arxiv:doi>10.1088/1475-7516/2007/02/008</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1475-7516/2007/02/008" title="doi"/>
+  </entry>
+</feed>

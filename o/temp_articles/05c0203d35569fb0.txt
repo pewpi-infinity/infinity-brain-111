@@ -1,0 +1,60 @@
+TERMS: vapor, spin, neutrino
+COLORS: green, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/bvFBixyiXr8GduRQohXrMB6nWBw</id>
+  <title>arXiv Query: search_query=all:vapor AND all:spin AND all:neutrino&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:25:51Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:vapor+AND+(all:spin+AND+all:neutrino)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1911.08897v2</id>
+    <title>Spin coating TPB film on acrylics and measurement of its wavelength shifting efficiency</title>
+    <updated>2020-02-28T11:43:58Z</updated>
+    <link href="https://arxiv.org/abs/1911.08897v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1911.08897v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Scintillation light from liquid noble gas in a neutrino or dark matter experiment lies typically within the vacuum ultraviolet (VUV) region and might be strongly absorbed by surrounding materials such as light guides or photomultiplier. Tetraphenyl butadiene (TPB) is a fluorescent material and acts as a wavelength shifter (WLS) which can turn the UV light to the visible light around a peak wavelength of 425 nm, enabling the light signals to be detected easily for physics study. Compared with a traditional TPB coating method using vapor deposition, we propose an alternative technique with a spin coating procedure in order to facilitate the development of neutrino and dark matter detectors. This article introduces how to fabricate the TPB film on acrylics using the spin coating method, reports measurement of sample film thickness and roughness, shows the reemission spectrum, and quantifies the wavelength shifting efficiency (WLSE).</summary>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-11-19T15:50:44Z</published>
+    <arxiv:comment>8 pages, 8 figures and 4 tables</arxiv:comment>
+    <arxiv:primary_category term="physics.ins-det"/>
+    <arxiv:journal_ref>Nucl.Sci.Tech. 31, 28(2020)</arxiv:journal_ref>
+    <author>
+      <name>Hang Yang</name>
+    </author>
+    <author>
+      <name>Zi-Feng Xu</name>
+    </author>
+    <author>
+      <name>Jian Tang</name>
+    </author>
+    <author>
+      <name>Yi Zhang</name>
+    </author>
+    <arxiv:doi>10.1007/s41365-020-0737-5</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s41365-020-0737-5" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2509.13426v1</id>
+    <title>Elastic and Spin-Changing Cross Sections of Spin-Polarized Atomic Tritium</title>
+    <updated>2025-09-16T18:02:27Z</updated>
+    <link href="https://arxiv.org/abs/2509.13426v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2509.13426v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The rates of elastic and inelastic scattering processes of spin-polarized atomic tritium are vital inputs for the design and operation of experiments using cold, magnetically trapped tritium atoms. Elastic scattering dominates the total cross section and dictates the thermophysical properties of the vapor, determining the efficiency of magnetic evaporative cooling and the fluid dynamical properties of the trapped atom cloud. Spin-changing cross sections in both exchange and dipolar channels determine the trap lifetime of the various hyperfine states, imposing constraints on the required atomic tritium supply rate to maintain a given trap density. Motivated by the needs of next-generation spectrometers that will study the tritium beta endpoint to infer the mass of the neutrino, we present new calculations of the elastic, spin-exchange and dipolar cross sections for spin polarized atomic tritium. Cross sections and rate constants are reported for magnetic field strengths of 0-10 T and temperatures from 0-100~K in all relevant Zeeman-hyperfine channels for both tritium and hydrogen. Results are bench-marked against past calculations for atomic hydrogen and the limited available results for tritium, and extend far into the regimes where past calculations have not been available.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-09-16T18:02:27Z</published>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>M. G. Elliott</name>
+    </author>
+    <author>
+      <name>B. J. P. Jones</name>
+    </author>
+  </entry>
+</feed>

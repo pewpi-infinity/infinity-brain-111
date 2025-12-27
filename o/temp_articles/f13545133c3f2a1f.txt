@@ -1,0 +1,75 @@
+TERMS: superconductivity, wavefunction, bandgap
+COLORS: green, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/RNWsapv6y5/2EM3slUwJcZWCfq0</id>
+  <title>arXiv Query: search_query=all:superconductivity AND all:wavefunction AND all:bandgap&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:30:52Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:superconductivity+AND+(all:wavefunction+AND+all:bandgap)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2503.07721v2</id>
+    <title>Majorana polarization in disordered heterostructures</title>
+    <updated>2025-05-06T12:22:01Z</updated>
+    <link href="https://arxiv.org/abs/2503.07721v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.07721v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent studies propose Majorana polarization (MP) as a tool for identifying topological Majorana bound states (MBS). We analyze MP in two systems: a one-dimensional (1d) semiconducting nanowire and a quasi-1d system, both with Rashba spin-orbit coupling, proximity-induced superconductivity, and disorder. While MP reflects topological features, it does not always distinguish true MBS from partially separated Andreev bound states (psABS) or quasi-Majorana modes. True MBS are expected to satisfy $\mathcal{P}^*_\mathrm{left} \cdot \mathcal{P}_\mathrm{right} \sim -1$, but two additional criteria - a topological bandgap and edge-localized wavefunctions - are also necessary for their identification and use in topological quantum computation (TQC). We highlight cases where the polarization product condition holds without meeting these extra requirements. Our conclusions remain robust irrespective of the chosen definition of Majorana polarization, whether based on chiral or the particle-hole framework. Robust MBS identification for TQC demands combining MP with energy spectra and wavefunction localization, especially in disordered systems.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-10T18:00:02Z</published>
+    <arxiv:comment>Section on graphene replaced with quasi-1d system</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>Shubhanshu Karoliya</name>
+    </author>
+    <author>
+      <name>Sumanta Tewari</name>
+    </author>
+    <author>
+      <name>Gargee Sharma</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.10901v1</id>
+    <title>Computing band gaps of periodic materials via sample-based quantum diagonalization</title>
+    <updated>2025-03-13T21:34:02Z</updated>
+    <link href="https://arxiv.org/abs/2503.10901v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.10901v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>State-of-the-art techniques in computational materials science often fail to capture many-body interactions in periodic systems. One particular application is the electronic structure problem, where established approaches such as Density Functional Theory are applied to predict experimental results. In this contribution, we present a sample-based quantum diagonalization (SQD) workflow for simulating the electronic ground state of periodic materials, and for predicting their band gaps. We obtain a fermionic Hamiltonian for crystalline solids by first projecting the electronic density obtained by density functional theory onto a localized basis set and then adding interaction parameters obtained by a self-consistent field theory. We then build an approximation of the system's ground-state wavefunction with the local unitary cluster Jastrow (LUCJ) ansatz. By sampling the quantum circuit and classically diagonalizing the Hamiltonian in the resulting configuration subspace, we predict the band gap energy of representative materials and obtain agreement with experimental results. The predicted bandgaps were obtained from calculations using 38 and 46 qubits, performed on a superconducting quantum processor, with minimal error-mitigation overhead. Our self-consistent approach offers a scalable pathway for utility-scale quantum simulation of materials.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-13T21:34:02Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Alan Duriez</name>
+    </author>
+    <author>
+      <name>Pamela C. Carvalho</name>
+    </author>
+    <author>
+      <name>Marco Antonio Barroca</name>
+    </author>
+    <author>
+      <name>Federico Zipoli</name>
+    </author>
+    <author>
+      <name>Ben Jaderberg</name>
+    </author>
+    <author>
+      <name>Rodrigo Neumann Barros Ferreira</name>
+    </author>
+    <author>
+      <name>Kunal Sharma</name>
+    </author>
+    <author>
+      <name>Antonio Mezzacapo</name>
+    </author>
+    <author>
+      <name>Benjamin Wunsch</name>
+    </author>
+    <author>
+      <name>Mathias Steiner</name>
+    </author>
+  </entry>
+</feed>

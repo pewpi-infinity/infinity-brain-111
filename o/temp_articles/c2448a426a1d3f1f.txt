@@ -1,0 +1,73 @@
+TERMS: hydrogen, quantum, entropy, crystal
+COLORS: purple, blue, red, orange
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/hEFjRJHRvu9YIfikp4jv2O4vdbE</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:entropy AND all:crystal&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:38:22Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:entropy+AND+all:crystal))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>4</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1811.09983v2</id>
+    <title>Quantum crystals are at odds with the laws of thermodynamics</title>
+    <updated>2019-03-28T10:07:42Z</updated>
+    <link href="https://arxiv.org/abs/1811.09983v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1811.09983v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Experimental data and the principles of quantum mechanics suggest that a crystal is a condensate of `wavicles' enclosed in a box, where `wavicle' denotes the indefinite wave-particle status of the microscopic constituents. When it is not perturbed the crystal is in a classical-like state. The wavefunction, the internal energy and the entropy are all of them equal to zero. The thermodynamic temperature is indefinite. Perturbations via energy- and/or momentum-transfer reveal quantum effects. The temperature laws for the heat capacities of some hydrogen-bonded crystals are rationalized with superposition states depending on the quantum temperature which is crystal-dependent. Heat-transfer is a coherent anentropic process. Apart from energy conservation, the other laws of thermodynamics are irrelevant.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-11-25T10:27:39Z</published>
+    <arxiv:comment>6 pages</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>François Fillaux</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2404.08125v1</id>
+    <title>Deuteration removes quantum dipolar defects from KDP crystals</title>
+    <updated>2024-04-11T21:05:43Z</updated>
+    <link href="https://arxiv.org/abs/2404.08125v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2404.08125v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The structural, dielectric, and thermodynamic properties of the hydrogen-bonded ferroelectric crystal potassium dihydrogen phosphate ($\mathbf{KH_2PO_4}$), KDP for short, differ significantly from those of DKDP ($\mathbf{KD_2PO_4}$). It is well established that deuteration affects the interplay of hydrogen-bond switches and heavy ion displacements that underlie the emergence of macroscopic polarization, but a detailed microscopic model is missing. Here we show that all-atom path integral molecular dynamics simulations can predict the isotope effects, revealing the microscopic mechanism that differentiates KDP and DKDP. Proton tunneling in the hydrogen bonds generates phosphate configurations that do not contribute to the polarization. These dipolar defects are always present in KDP, but disappear at low temperatures in DKDP, which behaves more classically. Quantum disorder confers residual entropy to ferroelectric KDP, explaining its lower spontaneous polarization and transition entropy relative to DKDP. Tunneling should also contribute to the anomalous heat capacity observed in KDP near absolute zero. The prominent role of quantum fluctuations in KDP is related to the unusual strength of the hydrogen bonds in this system and should be equally important in the other crystals of the KDP family, which exhibit similar isotope effects.</summary>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-04-11T21:05:43Z</published>
+    <arxiv:primary_category term="physics.comp-ph"/>
+    <author>
+      <name>Bingjia Yang</name>
+    </author>
+    <author>
+      <name>Pinchen Xie</name>
+    </author>
+    <author>
+      <name>Roberto Car</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2410.08882v2</id>
+    <title>A unified quantum framework for electrons and ions: The self-consistent harmonic approximation on a neural network curved manifold</title>
+    <updated>2025-10-23T06:18:26Z</updated>
+    <link href="https://arxiv.org/abs/2410.08882v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.08882v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The numerical solution of the many-body problem of interacting electrons and ions is a key challenge in condensed matter physics, chemistry, and materials science. Traditional methods to solve the multi-component quantum Hamiltonian are usually specialized for one kind of particles -- electrons or ions -- and can suffer from a methodological gap when applied to the other ones.
+  This work extends the self-consistent harmonic approximation, a proven successful technique for simulating quantum ions at finite temperatures in anharmonic crystals, to electrons. The approach minimizes the total free energy by optimizing an ansatz density matrix, solving a fermionic self-consistent harmonic Hamiltonian on a curved manifold parametrized through a neural network. This approach preserves an analytical expression for entropy, enabling the direct computation of free energies and phase diagrams of materials. By benchmarking this technique across several prototypical cases -- a double-well potential, the hydrogen atom, and the H$_2$ dissociation -- we demonstrate it can address both the ground- and excited-state properties of electronic systems, capture quantum tunneling and static electronic correlations, thereby providing a unified quantum framework of electrons and atomic nuclei.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-11T14:59:57Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Lorenzo Monacelli</name>
+    </author>
+    <author>
+      <name>Antonio Siciliano</name>
+    </author>
+    <author>
+      <name>Nicola Marzari</name>
+    </author>
+  </entry>
+</feed>

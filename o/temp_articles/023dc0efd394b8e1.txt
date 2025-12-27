@@ -1,0 +1,82 @@
+TERMS: hydrogen, entropy, graphene
+COLORS: purple, red, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/qcjmxBeXwOGYLuLoBL1t3GkA3RE</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:entropy AND all:graphene&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:02:28Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:entropy+AND+all:graphene)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>3</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1509.07215v2</id>
+    <title>Water under the Cover: Structures and Thermodynamics of Water Encapsulated by Graphene</title>
+    <updated>2016-07-18T05:18:08Z</updated>
+    <link href="https://arxiv.org/abs/1509.07215v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1509.07215v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Understanding the phase behaviors of nanoconfined water has driven notable research interests recently. In this work, we examine the structures and thermodynamics of water encapsulated under a graphene cover. We find layered water structures up to ~1000 molecules, which is stabilized by the spatial confinement and pressure induced by the adhesion between graphene cover and substrate. For monolayer encapsulations, we identify both crystalline lattices and defects. Free energy analysis shows that these low- entropy orders are compensated by high formation energies. There exists an order- disorder transition for this condensed phase at ~480-490 K, with a sharp reduction in the number of hydrogen bonds and increase in the entropy. These findings offer fundamental understandings of the encapsulated water, and provide guidance for practical applications with its presence, for example, in the design of nanoelectronic devices.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-09-24T02:47:58Z</published>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <author>
+      <name>Shuping Jiao</name>
+    </author>
+    <author>
+      <name>Chuanhua Duan</name>
+    </author>
+    <author>
+      <name>Zhiping Xu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2109.11175v1</id>
+    <title>Anisotropy of the proton kinetic energy as a tool for capturing structural transition in nanoconfined H$_2$O</title>
+    <updated>2021-09-23T07:05:36Z</updated>
+    <link href="https://arxiv.org/abs/2109.11175v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2109.11175v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The proton dynamics of a 2D water monolayer confined inside a graphene slit pore is studied in Cartesian and molecular frames of reference using molecular dynamics simulations. The vibrational density of states of the proton was calculated versus temperature and was further used to deduce the mean kinetic energy of the hydrogen atoms, Ke(H), in both frames of reference. The directional components of Ke(H) are in good agreement with experimental observations for bulk as well as nanoconfined water. Nonetheless, while in the molecular frame of reference the effect of temperature on the anisotropy ratios of Ke(H) (the ratio between its directional components) are practically invariant between the 2D and 3D cases, those in the Cartesian frame of reference reveal a rather notable reduction across 200K, indicating the occurrence of an order-disorder transition. This result is further supported by the calculated entropy and enthalpy of the confined water molecules. Overall it is shown that Ke(H) anisotropy ratios may serve as a valuable order parameter for detecting structural transformations in hydrogen bonds containing molecular systems.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-09-23T07:05:36Z</published>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>Mohd Moid</name>
+    </author>
+    <author>
+      <name>Yacov Finkelstein</name>
+    </author>
+    <author>
+      <name>Raymond Moreh</name>
+    </author>
+    <author>
+      <name>Prabal K Maiti</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2108.11225v1</id>
+    <title>Nanoconfined fluids: Uniqueness of water compared to other liquids</title>
+    <updated>2021-08-25T13:26:19Z</updated>
+    <link href="https://arxiv.org/abs/2108.11225v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2108.11225v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Nanoconfinement can drastically change the behavior of liquids, puzzling us with counterintuitive properties. Moreover, it is relevant in applications, including decontamination and crystallization control. It still lacks a systematic analysis for fluids with different bulk properties. Here we fill this gap. We compare, by molecular dynamics simulations, three different liquids in a graphene slit pore: (A) A simple fluid, such as argon, described by a Lennard-Jones potential; (B) An anomalous fluid, such as a liquid metal, modeled with an isotropic core-softened potential; (C) Water, the prototypical anomalous liquid, with directional hydrogen bonds. We study how the slit-pore width affects the structure, thermodynamics, and dynamics of the fluids. We check that all the fluids, as expected, show similar oscillating properties by changing the pore size. However, the nature of the free-energy minima for the three fluids is quite different: i) only for the simple liquid all the minima are energy-driven, while their structural order increases with decreasing slit-pore width; ii) only for the isotropic core-softened potential all the minima are entropy-driven, while the energy in the minima increases with decreasing slit-pore width; iii) only the water has a changing nature of the minima: the monolayer minimum is entropy-driven, at variance with the simple liquid, while the bilayer minimum is energy-driven, at variance with the other anomalous liquid. Also, water diffusion has a large increase for sub-nm slit-pores, becoming faster than bulk. Instead, the other two fluids have diffusion oscillations much smaller than water slowing down for decreasing slit-pore width. Our results clarify that nanoconfined water is unique compared to other (simple or anomalous) fluids under similar confinement, and are possibly relevant in nanopores applications, e.g., in water purification from contaminants.</summary>
+    <category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-08-25T13:26:19Z</published>
+    <arxiv:primary_category term="cond-mat.soft"/>
+    <arxiv:journal_ref>ACS Nano 2021, 15, 12, 19864 -- 19876</arxiv:journal_ref>
+    <author>
+      <name>Fabio Leoni</name>
+    </author>
+    <author>
+      <name>Carles Calero</name>
+    </author>
+    <author>
+      <name>Giancarlo Franzese</name>
+    </author>
+    <arxiv:doi>10.1021/acsnano.1c07381</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1021/acsnano.1c07381" title="doi"/>
+  </entry>
+</feed>

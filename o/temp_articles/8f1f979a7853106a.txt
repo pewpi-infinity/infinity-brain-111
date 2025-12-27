@@ -1,0 +1,92 @@
+TERMS: quantum, entropy, fusion
+COLORS: blue, red, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/AZSmS8MsIBOBlHfnhV0TqMLbPw4</id>
+  <title>arXiv Query: search_query=all:quantum AND all:entropy AND all:fusion&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:06:12Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:entropy+AND+all:fusion)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>47</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2507.10656v1</id>
+    <title>Stabilizer Rényi Entropy Encodes Fusion Rules of Topological Defects and Boundaries</title>
+    <updated>2025-07-14T18:00:01Z</updated>
+    <link href="https://arxiv.org/abs/2507.10656v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.10656v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We demonstrate that the stabilizer Rényi entropy (SRE), a computable measure of quantum magic, can serve as an information-theoretic probe for universal properties associated with conformal defects in one-dimensional quantum critical systems. Using boundary conformal field theory, we show that open boundaries manifest as a universal logarithmic correction to the SRE, whereas topological defects yield a universal size-independent term. When multiple defects are present, we find that the universal terms in the SRE faithfully reflect the defect-fusion rules that define noninvertible symmetry algebra. These analytical predictions are corroborated by numerical calculations of the Ising model, where boundaries and topological defects are described by Cardy states and Verlinde lines, respectively.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-14T18:00:01Z</published>
+    <arxiv:comment>18 pages, 4 figures. arXiv admin note: substantial text overlap with arXiv:2503.13599</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Masahiro Hoshino</name>
+    </author>
+    <author>
+      <name>Yuto Ashida</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2005.14498v2</id>
+    <title>Entropy production and entropic attractors in black hole fusion and fission</title>
+    <updated>2020-06-11T15:27:02Z</updated>
+    <link href="https://arxiv.org/abs/2005.14498v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2005.14498v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study how black hole entropy is generated and the role it plays in several highly dynamical processes: the decay of unstable black strings and ultraspinning black holes; the fusion of two rotating black holes; and the subsequent fission of the merged system into two black holes that fly apart (which can occur in dimension $D\geq 6$, with a mild violation of cosmic censorship). Our approach uses the effective theory of black holes at $D\to\infty$, but we expect our main conclusions to hold at finite $D$. Black hole fusion is highly irreversible, while fission, which follows the pattern of the decay of black strings, generates comparatively less entropy. In $2\to 1\to 2$ black hole collisions an intermediate, quasi-thermalized state forms that then fissions. This intermediate state erases much of the memory of the initial states and acts as an attractor funneling the evolution of the collision towards a small subset of outgoing parameters, which is narrower the closer the total angular momentum is to the critical value for fission. Entropy maximization provides a very good guide for predicting the final outgoing states. Along our study, we clarify how entropy production and irreversibility appear in the large $D$ effective theory. We also extend the study of the stability of new black hole phases (black bars and dumbbells). Finally, we discuss entropy production through charge diffusion in collisions of charged black holes.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-05-29T11:05:00Z</published>
+    <arxiv:comment>40 pages, 13 figures. v2: small improvements and minor corrections to the text, figures, and references</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>J. High Energ. Phys. (2020) 2020: 98</arxiv:journal_ref>
+    <author>
+      <name>Tomas Andrade</name>
+    </author>
+    <author>
+      <name>Roberto Emparan</name>
+    </author>
+    <author>
+      <name>Aron Jansen</name>
+    </author>
+    <author>
+      <name>David Licht</name>
+    </author>
+    <author>
+      <name>Raimon Luna</name>
+    </author>
+    <author>
+      <name>Ryotaku Suzuki</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP08(2020)098</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP08(2020)098" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1607.08881v2</id>
+    <title>Fusion basis for lattice gauge theory and loop quantum gravity</title>
+    <updated>2017-05-17T14:58:02Z</updated>
+    <link href="https://arxiv.org/abs/1607.08881v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1607.08881v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce a new basis for the gauge-invariant Hilbert space of lattice gauge theory and loop quantum gravity in $(2+1)$ dimensions, the fusion basis. In doing so, we shift the focus from the original lattice (or spin-network) structure directly to that of the magnetic (curvature) and electric (torsion) excitations themselves. These excitations are classified by the irreducible representations of the Drinfel'd double of the gauge group, and can be readily "fused" together by studying the tensor product of such representations. We will also describe in detail the ribbon operators that create and measure these excitations and make the quasi-local structure of the observable algebra explicit. Since the fusion basis allows for both magnetic and electric excitations from the onset, it turns out to be a precious tool for studying the large scale structure and coarse-graining flow of lattice gauge theories and loop quantum gravity. This is in neat contrast with the widely used spin-network basis, in which it is much more complicated to account for electric excitations, i.e. for Gauß~constraint violations, emerging at larger scales. Moreover, since the fusion basis comes equipped with a hierarchical structure, it readily provides the language to design states with sophisticated multi-scale structures. Another way to employ this hierarchical structure is to encode a notion of subsystems for lattice gauge theories and $(2+1)$ gravity coupled to point particles. In a follow-up work, we will exploit this notion to provide a new definition of entanglement entropy for these theories.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-07-29T18:19:13Z</published>
+    <arxiv:comment>72 pages</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Clement Delcamp</name>
+    </author>
+    <author>
+      <name>Bianca Dittrich</name>
+    </author>
+    <author>
+      <name>Aldo Riello</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP02(2017)061</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP02(2017)061" title="doi"/>
+  </entry>
+</feed>

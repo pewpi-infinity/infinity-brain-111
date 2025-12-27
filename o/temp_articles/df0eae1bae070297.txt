@@ -1,0 +1,74 @@
+TERMS: lattice, electron, crystal
+COLORS: orange, green, orange
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/3ZynniS/c7Mnoq2HDqdNEUhX9iU</id>
+  <title>arXiv Query: search_query=all:lattice AND all:electron AND all:crystal&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:13:51Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:electron+AND+all:crystal)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2854</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1602.07484v2</id>
+    <title>New many-particle system consisting of electron pairs and holes in a two-dimensional crystal</title>
+    <updated>2018-04-02T13:37:29Z</updated>
+    <link href="https://arxiv.org/abs/1602.07484v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1602.07484v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>When atoms are organized into a crystal, the single-electron energy levels of individual atoms form energy bands. However, there also exist electron-pair states in atoms. We found previously that the counterpart of these electron-pair states of individual atoms may survive in a two-dimensional square-lattice crystal. When the amplitude of the crystal potential is larger than a certain value, a metastable electron-pair band arises between the two lowest single-electron energy bands. In this paper, we demonstrate that the many-particle exchange-correlation corrections renormalize the energy bands and may stabilize the electron pairs for certain hole and electron-pair densities in the two-dimensional crystal. Therefore, depending upon the crystal potential and free carrier densities, there may exist a new many-particle system consisting of electron pairs and holes. Furthermore, we calculate the charge-density excitation spectrum in this new many-particle system.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-02-24T12:40:54Z</published>
+    <arxiv:comment>In this manuscript, we dealt with a system with holes in a single-electron band interacting with electron pairs. We found that the way we introduced the hole states was inaccurate. We recommend arXiv:1802.06593 for a system with single electrons and electron pairs</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <author>
+      <name>Guo-Qiang Hai</name>
+    </author>
+    <author>
+      <name>Ladir Cândido</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1901.06293v1</id>
+    <title>Tuning electric charge scattering in YBCO single crystals via irradiation with MeV electrons</title>
+    <updated>2019-01-18T15:10:11Z</updated>
+    <link href="https://arxiv.org/abs/1901.06293v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1901.06293v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Irradiation with electrons is an efficient approach to inducing a large number of defects with a minimal impact on the material itself. Analysis of the energy transfer from an accelerated particle smashing into the crystal lattice shows that only electrons with MeV energies produce point defects in the form of interstitial ions and vacancies that form perfect scattering centers. Here, we investigate the changes in the resistive characteristics of YBCO single crystals from the 1-2-3 system after several steps of low-temperature irradiation with $0.5-2.5$\,MeV electrons and irradiation doses of up to $8.8\times10^{18}$\,cm$^{-2}$. The penetration depth of such electrons is much larger than the crystal thickness. We reveal that defects appearing in consequence of such electron irradiation not only increase the residual resistance, but they affect the phonon spectrum of the system and lower the superconducting transition temperature linearly with increase of the irradiation dose. Furthermore, the irradiation-induced defects are distributed non-uniformly, that manifests itself via a broadening of the superconducting transition. Interestingly, the excess conductivity remains almost unaffected after such electron irradiation.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-01-18T15:10:11Z</published>
+    <arxiv:comment>5 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <arxiv:journal_ref>J. Mater. Sci. Mater. Electron. 30, 241 (2019)</arxiv:journal_ref>
+    <author>
+      <name>R. V. Vovk</name>
+    </author>
+    <author>
+      <name>G. Ya. Khadzhai</name>
+    </author>
+    <author>
+      <name>O. V. Dobrovolskiy</name>
+    </author>
+    <arxiv:doi>10.1007/s10854-018-0286-4</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s10854-018-0286-4" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1602.00718v1</id>
+    <title>Low-frequency electromagnetic field in a Wigner crystal</title>
+    <updated>2016-01-29T12:55:31Z</updated>
+    <link href="https://arxiv.org/abs/1602.00718v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1602.00718v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Long-wave low-frequency oscillations are described in a Wigner crystal by generalization of the reverse continuum model for the case of electronic lattice. The internal self-consistent long-wave electromagnetic field is used to describe the collective motions in the system. The eigenvectors and eigenvalues of the obtained system of equations are derived. The velocities of longitudinal and transversal sound waves are found.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-01-29T12:55:31Z</published>
+    <arxiv:comment>Wigner crystal; self-consistent electromagnetic field; jellium model; long wave electromagnetic field; velocity of sound. 1 figure</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <arxiv:journal_ref>Phys. Plasmas 20, 032105 (2013)</arxiv:journal_ref>
+    <author>
+      <name>Anton Stupka</name>
+    </author>
+    <arxiv:doi>10.1063/1.4794960</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/1.4794960" title="doi"/>
+  </entry>
+</feed>

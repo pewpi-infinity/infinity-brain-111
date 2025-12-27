@@ -1,0 +1,90 @@
+TERMS: frequency, oxidation, probability
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/I+WslvKpxKtVhZBjzhST/oU5/CM</id>
+  <title>arXiv Query: search_query=all:frequency AND all:oxidation AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:13:08Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:oxidation+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>12</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2411.07807v1</id>
+    <title>Relaxation dynamics of poly(ethylene oxide)</title>
+    <updated>2024-11-12T14:01:19Z</updated>
+    <link href="https://arxiv.org/abs/2411.07807v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.07807v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Poly(ethylene oxide) is an important polymer with many applications, e.g., as solid-state electrolyte in batteries. Its relaxation dynamics, characterizing its molecular and submolecular motions, which is relevant for many of these applications, was investigated numerous times, mostly employing dielectric spectroscopy. However, the various dynamic processes revealed by these studies were interpreted in conflicting ways and even their nomenclature in literature is highly inconsistent. Here we present the results of a detailed investigation of this polymer employing dielectric spectroscopy covering a relatively broad frequency and temperature range. We clearly detect four intrinsic relaxation processes. The slowest one most likely represents a so-called normal mode, reflecting global motions of the polymer chains, an interpretation that was not considered in previous works. The second process can be unequivocally identified with the segmental alpha relaxation, which governs glassy freezing and the glass transition. The third, only rarely detected process corresponds to the Johari-Goldstein relaxation of poly(ethylene oxide), widely overlooked in previous studies. The fourth and fastest process is unrelated to the supercooled and glassy state of this polymer and probably due to local, intramolecular motions.</summary>
+    <category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-12T14:01:19Z</published>
+    <arxiv:comment>11 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.soft"/>
+    <arxiv:journal_ref>Macromolecules 58 (2025) 3547</arxiv:journal_ref>
+    <author>
+      <name>Peter Lunkenheimer</name>
+    </author>
+    <author>
+      <name>Alois Loidl</name>
+    </author>
+    <arxiv:doi>10.1021/acs.macromol.5c00265</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1021/acs.macromol.5c00265" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1112.6100v1</id>
+    <title>Behavior of Lithium Oxide at Superionic Transition: First Principles and Molecular Dynamics Studies</title>
+    <updated>2011-12-28T11:21:50Z</updated>
+    <link href="https://arxiv.org/abs/1112.6100v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1112.6100v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We report studies on the vibrational and elastic behavior of lithium oxide, Li2O around its superionic transition temperature. Phonon frequencies calculated using the ab-initio and empirical potential model are in excellent agreement with the reported experimental data. Further, volume dependence of phonon dispersion relation has been calculated, which indicates softening of zone boundary transverse acoustic phonon mode along [110] at volume corresponding to the superionic transition in Li2O. The instability of phonon mode could be a precursor leading to the dynamical disorder of the lithium sub lattice. Empirical potential model calculations have been carried out to deduce the probable direction of lithium diffusion by constructing a super cell consisting of 12000 atoms. The barrier energy for lithium ion diffusion from one lattice site to another at ambient and elevated temperature has been computed. Barrier energy considerations along various symmetry directions indicate that [001] is the most favourable direction for lithium diffusion in the fast ion phase. This result corroborates our observation of dynamical instability in the transverse mode along (110) wave vector. Using molecular dynamics simulations we have studied the temperature variation of elastic constants, which are important to the high-temperature stability of lithium oxide.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-12-28T11:21:50Z</published>
+    <arxiv:comment>13 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>Phys. Rev. B 85, 184304 (2012)</arxiv:journal_ref>
+    <author>
+      <name>M. K. Gupta</name>
+    </author>
+    <author>
+      <name>Prabhatasree Goel</name>
+    </author>
+    <author>
+      <name>R. Mittal</name>
+    </author>
+    <author>
+      <name>N. Choudhury</name>
+    </author>
+    <author>
+      <name>S. L. Chaplot</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1602.01815v2</id>
+    <title>Exploiting plume structure to decode gas source distance using metal-oxide gas sensors</title>
+    <updated>2016-05-18T10:20:09Z</updated>
+    <link href="https://arxiv.org/abs/1602.01815v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1602.01815v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Estimating the distance of a gas source is important in many applications of chemical sensing, like e.g. environmental monitoring, or chemically-guided robot navigation. If an estimation of the gas concentration at the source is available, source proximity can be estimated from the time-averaged gas concentration at the sensing site. However, in turbulent environments, where fast concentration fluctuations dominate, comparably long measurements are required to obtain a reliable estimate. A lesser known feature that can be exploited for distance estimation in a turbulent environment lies in the relationship between source proximity and the temporal variance of the local gas concentration - the farther the source, the more intermittent are gas encounters. However, exploiting this feature requires measurement of changes in gas concentration on a comparably fast time scale, that have up to now only been achieved using photo-ionisation detectors. Here, we demonstrate that by appropriate signal processing, off-the-shelf metal-oxide sensors are capable of extracting rapidly fluctuating features of gas plumes that strongly correlate with source distance. We show that with a straightforward analysis method it is possible to decode events of large, consistent changes in the measured signal, so-called 'bouts'. The frequency of these bouts predicts the distance of a gas source in wind-tunnel experiments with good accuracy. In addition, we found that the variance of bout counts indicates cross-wind offset to the centreline of the gas plume. Our results offer an alternative approach to estimating gas source proximity that is largely independent of gas concentration, using off-the-shelf metal-oxide sensors. The analysis method we employ demands very few computational resources and is suitable for low-power microcontrollers.</summary>
+    <category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.data-an" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.OT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-02-03T13:28:08Z</published>
+    <arxiv:comment>41 pages, 20 figures</arxiv:comment>
+    <arxiv:primary_category term="q-bio.NC"/>
+    <arxiv:journal_ref>Sensors and Actuators B: Chemical 235:636-646 (2016)</arxiv:journal_ref>
+    <author>
+      <name>Michael Schmuker</name>
+    </author>
+    <author>
+      <name>Viktor Bahr</name>
+    </author>
+    <author>
+      <name>Ramón Huerta</name>
+    </author>
+    <arxiv:doi>10.1016/j.snb.2016.05.098</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.snb.2016.05.098" title="doi"/>
+  </entry>
+</feed>

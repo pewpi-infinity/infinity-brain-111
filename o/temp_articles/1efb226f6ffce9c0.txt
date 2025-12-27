@@ -1,0 +1,64 @@
+TERMS: hydrogen, quantum, boson, vacuum
+COLORS: purple, blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/NAu9zY5UrjdDQwqBUFuvA+SbNWg</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:boson AND all:vacuum&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:41:25Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:boson+AND+all:vacuum))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/gr-qc/0002090v1</id>
+    <title>Localization of gravitational energy in ENU model and its consequences</title>
+    <updated>2000-02-25T12:49:23Z</updated>
+    <link href="https://arxiv.org/abs/gr-qc/0002090v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/gr-qc/0002090v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The contribution provides the starting points and background of the model of Expansive Nondecelerative Universe (ENU), manifests the advantage of exploitation of Vaidya metrics for the localization and quantization of gravitational energy, and offers four examples of application of the ENU model, namely energy of cosmic background radiation, energy of Z and W bosons acting in weak interactions, hyperfine splitting observed for hydrogen 1s orbital. Moreover, time evolution of vacuum permitivity and permeability is predicted.%</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2000-02-25T12:49:23Z</published>
+    <arxiv:comment>5 pages, LaTeX</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <author>
+      <name>Jozef Sima</name>
+    </author>
+    <author>
+      <name>Miroslav Sukenik</name>
+    </author>
+    <author>
+      <name>Julius Vanko</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2304.01265v2</id>
+    <title>Black hole superradiant instability for massive spin-2 fields</title>
+    <updated>2023-09-21T08:51:50Z</updated>
+    <link href="https://arxiv.org/abs/2304.01265v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2304.01265v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Due to coherent superradiant amplification, massive bosonic fields can trigger an instability in spinning black holes, tapping their energy and angular momentum and forming macroscopic Bose-Einstein condensates around them. This phenomenon produces gaps in the mass-spin distribution of astrophysical black holes, a continuous gravitational-wave signal emitted by the condensate, and several environmental effects relevant for gravitational-wave astronomy and radio images of black holes. While the spectrum of superradiantly unstable mode is known in great detail for massive scalar (spin-0) and vector (spin-1) perturbations, so far only approximated results were derived for the case of massive tensor (spin-2) fields, due to the nonseparability of the field equations. Here, solving a system of ten elliptic partial differential equations, we close this program and compute the spectrum of the most unstable modes of a massive spin-2 field for generic black-hole spin and boson mass, beyond the hydrogenic approximation and including the unique dipole mode that dominates the instability in the spin-2 case. We find that the instability timescale for this mode is orders of magnitude shorter than for any other superradiant mode, yielding much stronger constraints on massive spin-2 fields. These results pave the way for phenomenological studies aimed at constraining beyond Standard Model scenarios, ultralight dark matter candidates, and extensions to General Relativity using gravitational-wave and electromagnetic observations, and have implications for the phase diagram of vacuum solutions of higher-dimensional gravity.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-04-03T18:00:56Z</published>
+    <arxiv:comment>5+3 pages, 2+1 figures v2: extended appendix with numerical details. Matches PRD version</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Phys. Rev. D 108, L041502 (2023)</arxiv:journal_ref>
+    <author>
+      <name>Oscar J. C. Dias</name>
+    </author>
+    <author>
+      <name>Giuseppe Lingetti</name>
+    </author>
+    <author>
+      <name>Paolo Pani</name>
+    </author>
+    <author>
+      <name>Jorge E. Santos</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.108.L041502</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.108.L041502" title="doi"/>
+  </entry>
+</feed>

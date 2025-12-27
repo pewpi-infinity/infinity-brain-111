@@ -1,0 +1,79 @@
+TERMS: bandgap, probability, vacuum
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/hFCFwE1g/3L2rUOmaYgXvR6sAus</id>
+  <title>arXiv Query: search_query=all:bandgap AND all:probability AND all:vacuum&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:37:33Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:bandgap+AND+(all:probability+AND+all:vacuum)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2412.07576v1</id>
+    <title>Band Offsets at β/γ-$\mathrm{Ga}_{2}\mathrm{O}_{3}$ Interface</title>
+    <updated>2024-12-10T15:10:17Z</updated>
+    <link href="https://arxiv.org/abs/2412.07576v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.07576v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Ultrawide bandgap semiconductor gallium oxide (Ga2O3) and its polymorphs have recently attracted increasing attention across physics, materials science, and electronics communities. In particular, the self-organized formation of the beta/gamma-Ga2O3 double polymorph structures was demonstrated recently [A. Azarov et al., Nat. Commun. 14, 4855 (2023)], paving the way for prospective applications of such structures in electronics. Consequently, determining the conduction band offset in such structures is crucial since it dictates the behavior of conduction electrons at the interface and, consequently, the potential functionality of such interfaces. Thus, in this work, we calculate the band offsets at the beta/gamma-Ga2O3 interface using density functional theory in correlation with the data provided by the experimental atomistic interface analysis. Specifically, to unravel the strain state of the beta/gamma-Ga2O3 interface, nanoscale strain maps were recorded using high-resolution transmission electron microscopy. In its turn, theoretically, lineup potential and vacuum alignment methods were used to analyze the band offsets, with and without strain, at the beta/gamma-Ga2O3 interface. Altogether, the collected results suggest that the band offsets between the beta and gamma phases are likely not exceeding a few hundred meV, remaining highly sensitive to the strain state at the interface. At this end, we conclude that even though the formation of a two-dimensional electron gas (2DEG) at the beta/gamma interface is theoretically possible, the gradual strain relaxation--if it occurs as a function of the distance from the interface--poses a significant challenge, as it may shift the 2DEG localization or even reduce the overall probability of its formation.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-10T15:10:17Z</published>
+    <arxiv:comment>11 pages, 8 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Huan Liu</name>
+    </author>
+    <author>
+      <name>Ilja Makkonen</name>
+    </author>
+    <author>
+      <name>Calliope Bazioti</name>
+    </author>
+    <author>
+      <name>Junlei Zhao</name>
+    </author>
+    <author>
+      <name>Alexander Azarov</name>
+    </author>
+    <author>
+      <name>Andrej Kuznetsov</name>
+    </author>
+    <author>
+      <name>Flyura Djurabekova</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2208.08663v2</id>
+    <title>The GaN yellow-luminescence-related surface state and its interaction with air</title>
+    <updated>2022-08-26T12:50:18Z</updated>
+    <link href="https://arxiv.org/abs/2208.08663v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2208.08663v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Yellow luminescence (YL) is probably the longest and most studied defect-related luminescence band in GaN, yet its electronic structure or chemical identity remain unclear. Most of the theoretical work so far has attributed the feature to bulk defects, whereas spectroscopic studies have suggested a surface origin. Here, we apply deep level spectroscopy using sub-bandgap surface photovoltage that provides the energy distribution of the surface charge density. Comparison of surface charge spectra obtained under identical conditions before and after various surface treatments reveals the dynamics of the surface charge density. Further comparison with spectra of the entire state obtained using photoluminescence shows how the charge density stored in YL-related defects is eliminated upon a mild anneal in vacuum. This suggests that the YL-related defect involves a certain molecule adsorbed on the GaN surface, possibly in a complex with an intrinsic surface defect. The observed interaction with air strongly indicates that the YL-related deep level is a surface state.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-08-18T06:49:56Z</published>
+    <arxiv:comment>Added US DOD Document Control Number (DCN) and distribution statement</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>Surfaces and Interfaces 38 (2023) 102834</arxiv:journal_ref>
+    <author>
+      <name>Yury Turkulets</name>
+    </author>
+    <author>
+      <name>Nitzan Shauloff</name>
+    </author>
+    <author>
+      <name>Or Haim Chaulker</name>
+    </author>
+    <author>
+      <name>Yoram Shapira</name>
+    </author>
+    <author>
+      <name>Raz Jelinek</name>
+    </author>
+    <author>
+      <name>Ilan Shalish</name>
+    </author>
+    <arxiv:doi>10.1016/j.surfin.2023.102834</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.surfin.2023.102834" title="doi"/>
+  </entry>
+</feed>

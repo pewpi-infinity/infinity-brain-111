@@ -1,0 +1,66 @@
+TERMS: hydrogen, frequency, oxidation, vacuum
+COLORS: purple, green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/j+EQUHpQGmzbipv7FbZnpfO7a/Q</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:frequency AND all:oxidation AND all:vacuum&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:45:37Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:frequency+AND+(all:oxidation+AND+all:vacuum))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1210.6875v4</id>
+    <title>Effect of high temperature heat treatments on the quality factor of a large-grain superconducting radio-frequency niobium cavity</title>
+    <updated>2013-03-25T15:28:52Z</updated>
+    <link href="https://arxiv.org/abs/1210.6875v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1210.6875v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Large-grain Nb has become a viable alternative to fine-grain Nb for the fabrication of superconducting radio-frequency cavities. In this contribution we report the results from a heat treatment study of a large-grain 1.5 GHz single-cell cavity made of "medium purity" Nb. The baseline surface preparation prior to heat treatment consisted of standard buffered chemical polishing. The heat treatment in the range 800 - 1400 C was done in a newly designed vacuum induction furnace. Q0 values of the order of 2x1010 at 2.0 K and peak surface magnetic field (Bp) of 90 mT were achieved reproducibly. A Q0-value of (5+-1)1010 at 2.0 K and Bp = 90 mT was obtained after heat treatment at 1400 C. This is the highest value ever reported at this temperature, frequency and field. Samples heat treated with the cavity at 1400 C were analyzed by secondary ion mass spectrometry, secondary electron microscopy, energy dispersive X-ray, point contact tunneling and X-ray diffraction and revealed a complex surface composition which includes titanium oxide, increased carbon and nitrogen content but reduced hydrogen concentration compared to a non heat-treated sample.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.acc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-10-25T15:28:50Z</published>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>P. Dhakal</name>
+    </author>
+    <author>
+      <name>G. Ciovati</name>
+    </author>
+    <author>
+      <name>G. R. Myneni</name>
+    </author>
+    <author>
+      <name>K. E. Gray</name>
+    </author>
+    <author>
+      <name>N. Groll</name>
+    </author>
+    <author>
+      <name>P. Maheshwari</name>
+    </author>
+    <author>
+      <name>D. M. McRae</name>
+    </author>
+    <author>
+      <name>R. Pike</name>
+    </author>
+    <author>
+      <name>T. Proslier</name>
+    </author>
+    <author>
+      <name>F. Stevie</name>
+    </author>
+    <author>
+      <name>R. P. Walsh</name>
+    </author>
+    <author>
+      <name>Q. Yang</name>
+    </author>
+    <author>
+      <name>J. Zasadzinzki</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevSTAB.16.042001</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevSTAB.16.042001" title="doi"/>
+  </entry>
+</feed>

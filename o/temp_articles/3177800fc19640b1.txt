@@ -1,0 +1,46 @@
+TERMS: hydrogen, fusion, muon, neutrino
+COLORS: purple, green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/CyZVGbvCjyKQsuQkwfTkhLVtAgg</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:fusion AND all:muon AND all:neutrino&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:54:33Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:fusion+AND+(all:muon+AND+all:neutrino))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/0803.1892v2</id>
+    <title>Nuclear Muon Capture in Hydrogen and its Interplay with Muon Atomic Physics</title>
+    <updated>2008-04-01T21:03:03Z</updated>
+    <link href="https://arxiv.org/abs/0803.1892v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0803.1892v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The singlet capture rate $Λ_S$ for the semileptonic weak process $μ+p \to n+ν_μ$ has been measured in the MuCap experiment. The novel experimental technique is based on stopping muons in an active target, consisting of a time projection chamber operating with ultra-pure hydrogen. This allows the unambiguous determination of the pseudoscalar form factor $g_P$ of the charged electroweak current of the nucleon. Our first result $g_P(q^2=-0.88 m^2_μ) = 7.3 \pm 1.1 $ is consistent with accurate theoretical predictions and constitutes an important test of QCD symmetries. Additional data are being collected with the aim of a three-fold reduction of the experimental uncertainties. Building on the developed advanced techniques, the new MuSun experiment is being planned to measure the muon capture rate on the deuteron to 1.5% precision. This would provide the by far most accurate experimental information on the axial current interacting with the two-nucleon system and determine the low energy constant $L_{1A}$ relevant for solar neutrino reactions.
+  Muon induced atomic and molecular processes represent challenges as well as opportunities for this science program, and their interplay with the main nuclear and weak-interaction physics aspects will be discussed.</summary>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-03-13T03:55:38Z</published>
+    <arxiv:comment>Invited talk at the International Conference on Muon Catalyzed Fusion and Related Topics (MCF-07), Dubna, 18-21 June, 2007; 4/1/08 Lattice references updated</arxiv:comment>
+    <arxiv:primary_category term="nucl-ex"/>
+    <author>
+      <name>Peter Kammel</name>
+      <arxiv:affiliation>for the MuCap Collaboration</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1012.3859v1</id>
+    <title>Muon capture at PSI</title>
+    <updated>2010-12-17T12:01:48Z</updated>
+    <link href="https://arxiv.org/abs/1012.3859v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1012.3859v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Measuring the rate of muon capture in hydrogen provides one of the most direct ways to study the axial current of the nucleon. The MuCap experiment uses a negative muon beam stopped in a time projection chamber operated with ultra-pure hydrogen gas. Surrounded by a decay electron detector, the lifetime of muons in hydrogen can be measured to determine the singlet capture rate Lambda_s to a final precision of 1%. The capture rate determines the nucleon's pseudoscalar form factor g_p. A first result, g_p = 7.3 +- 1.1, has been published and the final analysis of the full statistics will reduce the error by a factor of up to 3. Muon capture on the deuteron probes the weak axial current in the two-nucleon system. Within the framework of effective field theories the calculation of such two-nucleon processes involving the axial current requires the knowledge of one additional low energy constant which can be extracted from the doublet capture rate Lambda_d. The same constant then allows to model-independently calculate related processes such as solar pp-fusion or neutrino-deuteron scattering. The MuSun experiment will deduce Lambda_d to better than 1.5%. The experiment uses the MuCap detection setup with a new time projection chamber operated with deuterium at 30K and several hardware upgrades. The system is currently fully commissioned and the main physics data taking will start in 2011.</summary>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-12-17T12:01:48Z</published>
+    <arxiv:comment>Invited talk at Physics of fundamental Symmetries &amp; Interactions (PSI2010), October 11-14, 2010, Paul Scherrer Institut, Switzerland. To be published in Physics Procedia</arxiv:comment>
+    <arxiv:primary_category term="nucl-ex"/>
+    <author>
+      <name>Peter Winter</name>
+    </author>
+  </entry>
+</feed>

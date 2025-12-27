@@ -1,0 +1,102 @@
+TERMS: fusion, plasma, probability
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/XAQrhdUG4imsKQ7p9xVWywdShHg</id>
+  <title>arXiv Query: search_query=all:fusion AND all:plasma AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:22:27Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:fusion+AND+(all:plasma+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>104</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1310.2228v1</id>
+    <title>Turbulence analysis of an experimental flux rope plasma</title>
+    <updated>2013-10-08T19:16:01Z</updated>
+    <link href="https://arxiv.org/abs/1310.2228v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1310.2228v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We have previously generated elongated Taylor double-helix flux rope plasmas in the SSX MHD wind tunnel. These plasmas are remarkable in their rapid relaxation (about one Alfvén time) and their description by simple analytical Taylor force-free theory despite their high plasma beta and high internal flow speeds. We report on the turbulent features observed in these plasmas including frequency spectra, autocorrelation function, and probability distribution functions of increments. We discuss here the possibility that the turbulence facilitating access to the final state supports coherent structures and intermittency revealed by non-Gaussian signatures in the statistics. Comparisons to a Hall-MHD simulation of the SSX MHD wind tunnel show similarity in several statistical measures.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-10-08T19:16:01Z</published>
+    <arxiv:comment>20 pages, 9 figures, submitted to Plasma Physics Controlled Fusion for Special Issue on Flux Ropes</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <arxiv:journal_ref>Plasma Phys. Control. Fusion 56, 064003 (2014)</arxiv:journal_ref>
+    <author>
+      <name>D. A. Schaffner</name>
+    </author>
+    <author>
+      <name>V. S. Lukin</name>
+    </author>
+    <author>
+      <name>A. Wan</name>
+    </author>
+    <author>
+      <name>M. R. Brown</name>
+    </author>
+    <arxiv:doi>10.1088/0741-3335/56/6/064003</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0741-3335/56/6/064003" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1808.01056v2</id>
+    <title>Robust Regression for Automatic Fusion Plasma Analysis based on Generative Modeling</title>
+    <updated>2019-06-02T13:26:19Z</updated>
+    <link href="https://arxiv.org/abs/1808.01056v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1808.01056v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The first step to realize automatic experimental data analysis for fusion plasma experiments is fitting noisy data of temperature and density spatial profiles, which are obtained routinely. However, it has been difficult to construct algorithms that fit all the data without over- and under-fitting. In this paper, we show that this difficulty originates from the lack of knowledge of the probability distribution that the measurement data follow. We demonstrate the use of a machine learning technique to estimate the data distribution and to construct an optimal generative model. We show that the fitting algorithm based on the generative modeling outperforms classical heuristic methods in terms of the stability as well as the accuracy.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-08-03T01:01:15Z</published>
+    <arxiv:comment>Accepted by Transactions on Plasma Science</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>Keisuke Fujii</name>
+    </author>
+    <author>
+      <name>Chihiro Suzuki</name>
+    </author>
+    <author>
+      <name>Masahiro Hasuo</name>
+    </author>
+    <arxiv:doi>10.1109/TPS.2019.2921073</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/TPS.2019.2921073" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1907.10307v4</id>
+    <title>Magnetic Levitation and Compression of Compact Tori</title>
+    <updated>2020-03-23T00:08:04Z</updated>
+    <link href="https://arxiv.org/abs/1907.10307v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1907.10307v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The magnetic compression experiment at General Fusion was a repetitive non-destructive test to study plasma physics to Magnetic Target Fusion compression. A compact torus (CT) is formed with a co-axial gun into a containment region with an hour-glass shaped inner flux conserver, and an insulating outer wall. External coil currents keep the CT off the outer wall (radial levitation) and then rapidly compress it inwards. The optimal external coil configuration greatly improved both the levitated CT lifetime and the rate of shots with good flux conservation during compression. As confirmed by spectrometer data, the improved levitation field profile reduced plasma impurity levels by suppressing the interaction between plasma and the insulating outer wall during the formation process. Significant increases in magnetic field, density, and ion temperature were routinely observed at magnetic compression despite the prevalence of an instability, thought be an external kink, at compression. Matching the decay rate of the levitation coil currents to that of the internal CT currents resulted in a reduced level of MHD activity associated with unintentional compression by the levitation field, and a higher probability of long-lived CTs. An axisymmetric finite element MHD code that conserves system energy, particle count, angular momentum, and toroidal flux, was developed to study CT formation into a levitation field and magnetic compression. An overview of the principal experimental observations, and comparisons between simulated and experimental diagnostics are presented.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-07-24T08:54:22Z</published>
+    <arxiv:comment>43 pages, 98 figures. Partially presented in conference posters C. Dunlea et al., Magnetic Compression at General Fusion - Experiment &amp; Simulation with Neutral Fluid, APS DPP Milwaukee 2017, EPS Prague 2018, and ICPP Vancouver 2018</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>Carl Dunlea</name>
+    </author>
+    <author>
+      <name>Stephen Howard</name>
+    </author>
+    <author>
+      <name>Wade Zawalski</name>
+    </author>
+    <author>
+      <name>Kelly Epp</name>
+    </author>
+    <author>
+      <name>Alex Mossman</name>
+    </author>
+    <author>
+      <name>General Fusion Team</name>
+    </author>
+    <author>
+      <name>Chijin Xiao</name>
+    </author>
+    <author>
+      <name>Akira Hirose</name>
+    </author>
+    <arxiv:doi>10.1063/1.5126148</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/1.5126148" title="doi"/>
+  </entry>
+</feed>

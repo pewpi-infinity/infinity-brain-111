@@ -1,0 +1,107 @@
+TERMS: quantum, muon
+COLORS: blue, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/OFYuuVmAHvkoyowZe6BHh2WeCd8</id>
+  <title>arXiv Query: search_query=all:quantum AND all:muon&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T00:56:57Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+all:muon&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>853</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2411.12518v1</id>
+    <title>Quantum state tomography with muons</title>
+    <updated>2024-11-19T14:01:07Z</updated>
+    <link href="https://arxiv.org/abs/2411.12518v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.12518v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Entanglement is a fundamental pillar of quantum mechanics. Probing quantum entanglement and testing Bell inequality with muons can be a significant leap forward, as muon is arguably the only massive elementary particle that can be manipulated and detected over a wide range of energies, e.g., from approximately 0.3 to $10^2$ GeV, corresponding to velocities from 0.94 to nearly the speed of light. In this work, we present a realistic proposal and a comprehensive study of quantum entanglement in a state composed of different-flavor fermions in muon-electron scattering. The polarization density matrix for the muon-electron system is derived using a kinematic approach within the relativistic quantum field theory framework. Entanglement in the resulting muon-electron qubit system and the violation of Bell inequalities can be observed with a high event rate. This paves the way for performing quantum tomography with muons.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.acc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.pop-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-19T14:01:07Z</published>
+    <arxiv:comment>6 pages, 3 figures; Probing and Knocking with Muon (PKMu) Experiment Proposal Series 3 for Quantum</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>J. Phys. G: Nucl. Part. Phys. 52 075002 (2025)</arxiv:journal_ref>
+    <author>
+      <name>Leyun Gao</name>
+    </author>
+    <author>
+      <name>Alim Ruzi</name>
+    </author>
+    <author>
+      <name>Qite Li</name>
+    </author>
+    <author>
+      <name>Chen Zhou</name>
+    </author>
+    <author>
+      <name>Liangwen Chen</name>
+    </author>
+    <author>
+      <name>Xueheng Zhang</name>
+    </author>
+    <author>
+      <name>Zhiyu Sun</name>
+    </author>
+    <author>
+      <name>Qiang Li</name>
+    </author>
+    <arxiv:doi>10.1088/1361-6471/ade733</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1361-6471/ade733" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2012.06602v1</id>
+    <title>Learning from physics experiments, with quantum computers: Applications in muon spectroscopy</title>
+    <updated>2020-12-11T19:11:04Z</updated>
+    <link href="https://arxiv.org/abs/2012.06602v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2012.06602v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Computational physics is an important tool for analysing, verifying, and -- at times -- replacing physical experiments. Nevertheless, simulating quantum systems and analysing quantum data has so far resisted an efficient classical treatment in full generality. While programmable quantum systems have been developed to address this challenge, the resources required for classically intractable problems still lie beyond our reach. In this work, we consider a new target for quantum simulation algorithms; analysing the data arising from physics experiments -- specifically, muon spectroscopy experiments. These experiments can be used to probe the quantum interactions present in condensed matter systems. However, fully analysing their results can require classical computational resources scaling exponentially with the simulated system size, which can limit our understanding of the studied system. We show that this task may be a natural fit for the coming generations of quantum computers. We use classical emulations of our quantum algorithm on systems of up to 29 qubits to analyse real experimental data, and to estimate both the near-term and error corrected resources required for our proposal. We find that our algorithm exhibits good noise resilience, stemming from our desire to extract global parameters from a fitted curve, rather than targeting any individual data point. In some respects, our resource estimates go further than some prior work in quantum simulation, by estimating the resources required to solve a complete task, rather than just to run a given circuit. Taking the overhead of observable measurement and calculating multiple datapoints into account, we find that significant challenges still remain if our algorithm is to become practical for analysing muon spectroscopy data.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-12-11T19:11:04Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>PRX Quantum 2, 020349 (2021)</arxiv:journal_ref>
+    <author>
+      <name>Sam McArdle</name>
+    </author>
+    <arxiv:doi>10.1103/PRXQuantum.2.020349</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PRXQuantum.2.020349" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2408.05429v2</id>
+    <title>Testing Bell inequalities and probing quantum entanglement at a muon collider</title>
+    <updated>2024-09-19T02:49:18Z</updated>
+    <link href="https://arxiv.org/abs/2408.05429v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2408.05429v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A muon collider represents a promising candidate for the next generation of particle physics experiments after the expected end of LHC operations in the early 2040s. Rare or hard-to-detect processes at the LHC, such as the production of multiple gauge bosons, become accessible at a TeV muon collider. We present here the prospects of detecting quantum entanglement and the violation of Bell inequalities in H to ZZ to 4l events at a potential future muon collider. We show that the spin density matrix of the Z boson pairs can be reconstructed using the kinematics of the charged leptons from the Z boson decays. Once the density matrix is determined, it is straightforward to obtain the expectation values of various Bell operators and test the quantum entanglement between the Z boson pair. Through a detailed study based on Monte-Carlo simulation, we show that the generalized CGLMP inequality can be maximally violated, and testing Bell inequalities could be established with high significance.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-08-10T04:22:53Z</published>
+    <arxiv:comment>11 pages, 3 figures, updated version</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Alim Ruzi</name>
+    </author>
+    <author>
+      <name>Youpeng Wu</name>
+    </author>
+    <author>
+      <name>Ran Ding</name>
+    </author>
+    <author>
+      <name>Sitian Qian</name>
+    </author>
+    <author>
+      <name>Andrew Micheal Levin</name>
+    </author>
+    <author>
+      <name>Qiang Li</name>
+    </author>
+  </entry>
+</feed>

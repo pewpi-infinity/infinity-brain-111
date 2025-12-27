@@ -1,0 +1,235 @@
+TERMS: quantum, ionization, superconductivity
+COLORS: blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/8vUTDNOY9hQtNJJC06rYueYfQ2A</id>
+  <title>arXiv Query: search_query=all:quantum AND all:ionization AND all:superconductivity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:07:36Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:ionization+AND+all:superconductivity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>38</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2404.10866v2</id>
+    <title>Spectroscopic measurements and models of energy deposition in the substrate of quantum circuits by natural ionizing radiation</title>
+    <updated>2024-10-11T21:10:14Z</updated>
+    <link href="https://arxiv.org/abs/2404.10866v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2404.10866v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Naturally occurring background radiation is a source of correlated decoherence events in superconducting qubits that will challenge error-correction schemes. To characterize the radiation environment in an unshielded laboratory, we performed broadband, spectroscopic measurements of background events in silicon substrates located inside a millikelvin refrigerator, an environment representative of superconducting qubit systems. We measured the background spectra in silicon substrates of two thicknesses, 0.5 mm and 1.5 mm, and obtained the average event rate and the integrated power deposition. In a 25 mm^2 area and the thinner substrate, these values are 0.023 events per second and 4.9 keV/s, counting events that deposit at least 40 keV. We find the background spectrum to be nearly featureless. Its intensity decreases by a factor of 40,000 between 100 keV and 3 MeV for silicon substrates 0.5 mm thick. We find the cryogenic measurements to be in good agreement with predictions based on measurements of the terrestrial gamma-ray flux, published models of cosmic-ray fluxes, a crude model of the cryostat, and radiation-transport simulations. No free parameters are required to predict the background spectra in the silicon substrates. The good agreement between measurements and predictions allow assessment of the relative contributions of terrestrial and cosmic background sources and their dependence on substrate thickness. Our spectroscopic measurements are performed with superconducting microresonators that transduce deposited energy to a readily detectable electrical signal. We find that gamma-ray emissions from radioisotopes are responsible for the majority of events depositing E&lt;1.5 MeV, while nucleons among the cosmic-ray secondary particles cause most events that deposit more energy. These results suggest several paths to reducing the impact of background radiation on quantum circuits.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-04-16T19:30:45Z</published>
+    <arxiv:comment>This version is the revision accepted for publication in PRX Quantum</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>PRX Quantum, volume 5(4), page 040323 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Joseph W. Fowler</name>
+    </author>
+    <author>
+      <name>Paul Szypryt</name>
+    </author>
+    <author>
+      <name>Raymond Bunker</name>
+    </author>
+    <author>
+      <name>Ellen R. Edwards</name>
+    </author>
+    <author>
+      <name>Ian Fogarty Florang</name>
+    </author>
+    <author>
+      <name>Jiansong Gao</name>
+    </author>
+    <author>
+      <name>Andrea Giachero</name>
+    </author>
+    <author>
+      <name>Shannon F. Hoogerheide</name>
+    </author>
+    <author>
+      <name>Ben Loer</name>
+    </author>
+    <author>
+      <name>H. Pieter Mumm</name>
+    </author>
+    <author>
+      <name>Nathan Nakamura</name>
+    </author>
+    <author>
+      <name>Galen C. O'Neil</name>
+    </author>
+    <author>
+      <name>John L. Orrell</name>
+    </author>
+    <author>
+      <name>Elizabeth M. Scott</name>
+    </author>
+    <author>
+      <name>Jason Stevens</name>
+    </author>
+    <author>
+      <name>Daniel S. Swetz</name>
+    </author>
+    <author>
+      <name>Brent A. VanDevender</name>
+    </author>
+    <author>
+      <name>Michael Vissers</name>
+    </author>
+    <author>
+      <name>Joel N. Ullom</name>
+    </author>
+    <arxiv:doi>10.1103/PRXQuantum.5.040323</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PRXQuantum.5.040323" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2403.01032v1</id>
+    <title>Abatement of Ionizing Radiation for Superconducting Quantum Devices</title>
+    <updated>2024-03-01T23:38:56Z</updated>
+    <link href="https://arxiv.org/abs/2403.01032v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.01032v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Ionizing radiation has been shown to reduce the performance of superconducting quantum circuits. In this report, we evaluate the expected contributions of different sources of ambient radioactivity for typical superconducting qubit experiment platforms. Our assessment of radioactivity inside a typical cryostat highlights the importance of selecting appropriate materials for the experiment components nearest to qubit devices, such as packaging and electrical interconnects. We present a shallow underground facility (30-meter water equivalent) to reduce the flux of cosmic rays and a lead shielded cryostat to abate the naturally occurring radiogenic gamma-ray flux in the laboratory environment. We predict that superconducting qubit devices operated in this facility could experience a reduced rate of correlated multi-qubit errors by a factor of approximately 20 relative to the rate in a typical above-ground, unshielded facility. Finally, we outline overall design improvements that would be required to further reduce the residual ionizing radiation rate, down to the limit of current generation direct detection dark matter experiments.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-01T23:38:56Z</published>
+    <arxiv:comment>36 pages, 9 figures, 9 tables including appendices. To be submitted to the Journal of Instrumentation</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>JINST 19 P09001 (2024)</arxiv:journal_ref>
+    <author>
+      <name>B. Loer</name>
+      <arxiv:affiliation>Pacific Northwest National Laboratory</arxiv:affiliation>
+    </author>
+    <author>
+      <name>P. M. Harrington</name>
+      <arxiv:affiliation>Research Laboratory of Electronics, Massachusetts Institute of Technology</arxiv:affiliation>
+    </author>
+    <author>
+      <name>B. Archambault</name>
+      <arxiv:affiliation>Pacific Northwest National Laboratory</arxiv:affiliation>
+    </author>
+    <author>
+      <name>E. Fuller</name>
+      <arxiv:affiliation>Pacific Northwest National Laboratory</arxiv:affiliation>
+    </author>
+    <author>
+      <name>B. Pierson</name>
+      <arxiv:affiliation>Pacific Northwest National Laboratory</arxiv:affiliation>
+    </author>
+    <author>
+      <name>I. Arnquist</name>
+      <arxiv:affiliation>Pacific Northwest National Laboratory</arxiv:affiliation>
+    </author>
+    <author>
+      <name>K. Harouaka</name>
+      <arxiv:affiliation>Pacific Northwest National Laboratory</arxiv:affiliation>
+    </author>
+    <author>
+      <name>T. D. Schlieder</name>
+      <arxiv:affiliation>Pacific Northwest National Laboratory</arxiv:affiliation>
+    </author>
+    <author>
+      <name>D. K. Kim</name>
+      <arxiv:affiliation>c</arxiv:affiliation>
+    </author>
+    <author>
+      <name>A. J. Melville</name>
+      <arxiv:affiliation>c</arxiv:affiliation>
+    </author>
+    <author>
+      <name>B. M. Niedzielski</name>
+      <arxiv:affiliation>MIT Lincoln Laboratory</arxiv:affiliation>
+    </author>
+    <author>
+      <name>J. K. Yoder</name>
+      <arxiv:affiliation>MIT Lincoln Laboratory</arxiv:affiliation>
+    </author>
+    <author>
+      <name>K. Serniak</name>
+      <arxiv:affiliation>Research Laboratory of Electronics, Massachusetts Institute of Technology</arxiv:affiliation>
+      <arxiv:affiliation>MIT Lincoln Laboratory</arxiv:affiliation>
+    </author>
+    <author>
+      <name>W. D. Oliver</name>
+      <arxiv:affiliation>Research Laboratory of Electronics, Massachusetts Institute of Technology</arxiv:affiliation>
+      <arxiv:affiliation>MIT Lincoln Laboratory</arxiv:affiliation>
+    </author>
+    <author>
+      <name>J. L. Orrell</name>
+      <arxiv:affiliation>Pacific Northwest National Laboratory</arxiv:affiliation>
+    </author>
+    <author>
+      <name>R. Bunker</name>
+      <arxiv:affiliation>Pacific Northwest National Laboratory</arxiv:affiliation>
+    </author>
+    <author>
+      <name>B. A. VanDevender</name>
+      <arxiv:affiliation>Pacific Northwest National Laboratory</arxiv:affiliation>
+    </author>
+    <author>
+      <name>M. Warner</name>
+      <arxiv:affiliation>Pacific Northwest National Laboratory</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1088/1748-0221/19/09/P09001</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1748-0221/19/09/P09001" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2001.09190v2</id>
+    <title>Impact of ionizing radiation on superconducting qubit coherence</title>
+    <updated>2020-08-27T16:54:32Z</updated>
+    <link href="https://arxiv.org/abs/2001.09190v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2001.09190v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The practical viability of any qubit technology stands on long coherence times and high-fidelity operations, with the superconducting qubit modality being a leading example. However, superconducting qubit coherence is impacted by broken Cooper pairs, referred to as quasiparticles, with a density that is empirically observed to be orders of magnitude greater than the value predicted for thermal equilibrium by the Bardeen-Cooper-Schrieffer (BCS) theory of superconductivity. Previous work has shown that infrared photons significantly increase the quasiparticle density, yet even in the best isolated systems, it still remains higher than expected, suggesting that another generation mechanism exists. In this Letter, we provide evidence that ionizing radiation from environmental radioactive materials and cosmic rays contributes to this observed difference, leading to an elevated quasiparticle density that would ultimately limit superconducting qubits of the type measured here to coherence times in the millisecond regime. We further demonstrate that introducing radiation shielding reduces the flux of ionizing radiation and positively correlates with increased coherence time. Albeit a small effect for today's qubits, reducing or otherwise mitigating the impact of ionizing radiation will be critical for realizing fault-tolerant superconducting quantum computers.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-01-24T20:59:46Z</published>
+    <arxiv:comment>16 pages, 12 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Nature 584, 551-556 (2020)</arxiv:journal_ref>
+    <author>
+      <name>Antti Vepsäläinen</name>
+    </author>
+    <author>
+      <name>Amir H. Karamlou</name>
+    </author>
+    <author>
+      <name>John L. Orrell</name>
+    </author>
+    <author>
+      <name>Akshunna S. Dogra</name>
+    </author>
+    <author>
+      <name>Ben Loer</name>
+    </author>
+    <author>
+      <name>Francisca Vasconcelos</name>
+    </author>
+    <author>
+      <name>David K. Kim</name>
+    </author>
+    <author>
+      <name>Alexander J. Melville</name>
+    </author>
+    <author>
+      <name>Bethany M. Niedzielski</name>
+    </author>
+    <author>
+      <name>Jonilyn L. Yoder</name>
+    </author>
+    <author>
+      <name>Simon Gustavsson</name>
+    </author>
+    <author>
+      <name>Joseph A. Formaggio</name>
+    </author>
+    <author>
+      <name>Brent A. VanDevender</name>
+    </author>
+    <author>
+      <name>William D. Oliver</name>
+    </author>
+    <arxiv:doi>10.1038/s41586-020-2619-8</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41586-020-2619-8" title="doi"/>
+  </entry>
+</feed>

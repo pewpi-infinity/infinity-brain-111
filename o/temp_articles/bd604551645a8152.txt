@@ -1,0 +1,128 @@
+TERMS: fusion, electron, resonance
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/nKgv4ClkJCldEZhJ7/2AJBZSb8Y</id>
+  <title>arXiv Query: search_query=all:fusion AND all:electron AND all:resonance&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:19:51Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:fusion+AND+(all:electron+AND+all:resonance)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>119</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1907.02747v1</id>
+    <title>Modelling the electron cyclotron emission below the fundamental resonance in ITER</title>
+    <updated>2019-07-05T09:55:04Z</updated>
+    <link href="https://arxiv.org/abs/1907.02747v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1907.02747v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The electron cyclotron emission (ECE) in fusion devices is non-trivial to model in detail at frequencies well below the fundamental resonance where the plasma is optically thin. However, doing so is important for evaluating the background for microwave diagnostics operating in this frequency range. Here we present a general framework for estimating the ECE levels of fusion plasmas at such frequencies using ensemble-averaging of rays traced through many randomized wall reflections. This enables us to account for the overall vacuum vessel geometry, self-consistently include cross-polarization, and quantify the statistical uncertainty on the resulting ECE spectra. Applying this to ITER conditions, we find simulated ECE levels that increase strongly with frequency and plasma temperature in the considered range of 55-75 GHz. At frequencies smaller than 70 GHz, we predict an X-mode ECE level below 100 eV in the ITER baseline plasma scenario, but with corresponding intensities reaching keV levels in the hotter hybrid plasma scenario. Benchmarking against the SPECE raytracing code reveals good agreement under relevant conditions, and the predicted strength of X-mode to O-mode conversion induced by wall reflections is consistent with estimates from existing fusion devices. We discuss possible implications of our findings for ITER microwave diagnostics such as ECE, reflectometry, and collective Thomson scattering.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-07-05T09:55:04Z</published>
+    <arxiv:comment>17 pages, 11 figures. Accepted for publication in Plasma Phys. Control. Fusion</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>Jesper Rasmussen</name>
+    </author>
+    <author>
+      <name>Morten Stejner</name>
+    </author>
+    <author>
+      <name>Lorenzo Figini</name>
+    </author>
+    <author>
+      <name>Thomas Jensen</name>
+    </author>
+    <author>
+      <name>Esben B. Klinkby</name>
+    </author>
+    <author>
+      <name>Søren B. Korsholm</name>
+    </author>
+    <author>
+      <name>Axel W. Larsen</name>
+    </author>
+    <author>
+      <name>Frank Leipold</name>
+    </author>
+    <author>
+      <name>Daniele Micheletti</name>
+    </author>
+    <author>
+      <name>Stefan K. Nielsen</name>
+    </author>
+    <author>
+      <name>Mirko Salewski</name>
+    </author>
+    <arxiv:doi>10.1088/1361-6587/ab2f4a</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1361-6587/ab2f4a" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0903.3994v2</id>
+    <title>Possible Resonances in the 12C + 12C Fusion Rate and Superburst Ignition</title>
+    <updated>2009-06-26T23:43:32Z</updated>
+    <link href="https://arxiv.org/abs/0903.3994v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0903.3994v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Observationally inferred superburst ignition depths are shallower than models predict. We address this discrepancy by reexamining the superburst trigger mechanism. We first explore the hypothesis of Kuulkers et al. that exothermic electron captures trigger superbursts. We find that all electron capture reactions are thermally stable in accreting neutron star oceans and thus are not a viable trigger mechanism. Fusion reactions other than 12C + 12C are infeasible as well since the possible reactants either deplete at much shallower depths or have prohibitively large Coulomb barriers. Thus we confirm the proposal of Cumming &amp; Bildsten and Strohmayer &amp; Brown that 12C + 12C triggers superbursts. We then examine the 12C + 12C fusion rate. The reaction cross-section is experimentally unknown at astrophysically relevant energies, but resonances exist in the 12C + 12C system throughout the entire measured energy range. Thus it is likely, and in fact has been predicted, that a resonance exists near the Gamow peak energy ~ 1.5 MeV. For such a hypothetical 1.5 MeV resonance, we derive both a fiducial value and upper limit to the resonance strength and find that such a resonance could decrease the theoretically predicted superburst ignition depth by up to a factor of 4; in this case, observationally inferred superburst ignition depths would accord with model predictions for a range of plausible neutron star parameters. Said differently, such a resonance would decrease the temperature required for unstable 12C ignition at a column depth 10^12 g/cm^2 from 6 x 10^8 K to 5 x 10^8 K. Determining the existence of a strong resonance in the Gamow window requires measurements of the 12C + 12C cross-section down to a center-of-mass energy near 1.5 MeV, which is within reach of the proposed DUSEL facility.</summary>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-03-24T01:20:58Z</published>
+    <arxiv:comment>13 pages, 4 figures; minor improvements, results and conclusions unchanged, accepted to ApJ</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.HE"/>
+    <arxiv:journal_ref>Astrophys.J.702:660-671,2009</arxiv:journal_ref>
+    <author>
+      <name>Randall L. Cooper</name>
+      <arxiv:affiliation>KITP</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Andrew W. Steiner</name>
+      <arxiv:affiliation>MSU</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Edward F. Brown</name>
+      <arxiv:affiliation>MSU</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1088/0004-637X/702/1/660</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0004-637X/702/1/660" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.24607v1</id>
+    <title>Resonance density range governs two-plasmon decay saturation and enables hot-electron prediction in inertial confinement fusion</title>
+    <updated>2025-05-30T13:55:12Z</updated>
+    <link href="https://arxiv.org/abs/2505.24607v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.24607v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The saturation level of parametric instabilities critically determines their impact on fusion plasmas. We identify the resonance density range of two-plasmon decay as the critical parameter governing nonlinear saturation of ion density fluctuations and Langmuir waves, which drive hot-electron generation. Using this insight, we develop a predictive scaling model for the hot-electron energy fraction f_{hot} that depends only on the laser intensity I, with plasma conditions encoded via plasma ablation theory. The model can work for various experimental configurations-requiring only two (I, f_{hot}) data points to calibrate coefficients-and successfully reproduces results from prior OMEGA and OMEGA-EP experiments.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-30T13:55:12Z</published>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>C. Yao</name>
+    </author>
+    <author>
+      <name>J. Li</name>
+    </author>
+    <author>
+      <name>L. Hao</name>
+    </author>
+    <author>
+      <name>R. Yan</name>
+    </author>
+    <author>
+      <name>T. Tao</name>
+    </author>
+    <author>
+      <name>G-N. Zheng</name>
+    </author>
+    <author>
+      <name>Q. Jia</name>
+    </author>
+    <author>
+      <name>Y-K. Ding</name>
+    </author>
+    <author>
+      <name>J. Zheng</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,80 @@
+TERMS: frequency, resonance, boson
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ZqKLmOqD68L8tJZP6TNaf27DcyU</id>
+  <title>arXiv Query: search_query=all:frequency AND all:resonance AND all:boson&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:12:24Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:resonance+AND+all:boson)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>265</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0310140v1</id>
+    <title>Dynamics of the spin-boson model with a structured environment</title>
+    <updated>2003-10-07T09:29:05Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0310140v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0310140v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We investigate the dynamics of the spin-boson model when the spectral density of the boson bath shows a resonance at a characteristic frequency $Ω$ but behaves Ohmically at small frequencies. The time evolution of an initial state is determined by making use of the mapping onto a system composed of a quantum mechanical two-state system (TSS) which is coupled to a harmonic oscillator (HO) with frequency $Ω$. The HO itself is coupled to an Ohmic environment. The dynamics is calculated by employing the numerically exact quasiadiabatic path-integral propagator technique. We find significant new properties compared to the Ohmic spin-boson model. By reducing the TSS-HO system in the dressed states picture to a three-level system for the special case at resonance, we calculate the dephasing rates for the TSS analytically. Finally, we apply our model to experimentally realized superconducting flux qubits coupled to an underdamped dc-SQUID detector.</summary>
+    <category term="cond-mat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-10-07T09:29:05Z</published>
+    <arxiv:comment>26 pages, 11 figures, Chemical Physics Special Issue on the Spin-Boson Problem, ed. by H. Grabert and A. Nitzan, in press</arxiv:comment>
+    <arxiv:primary_category term="cond-mat"/>
+    <arxiv:journal_ref>Chem. Phys. 296, 333-344 (2004)</arxiv:journal_ref>
+    <author>
+      <name>M. Thorwart</name>
+    </author>
+    <author>
+      <name>E. Paladino</name>
+    </author>
+    <author>
+      <name>M. Grifoni</name>
+    </author>
+    <arxiv:doi>10.1016/j.chemphys.2003.10.007</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.chemphys.2003.10.007" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.15941v4</id>
+    <title>Multimode Qubit-Conditional Operations via Generalized Cross-Resonance</title>
+    <updated>2025-10-22T20:12:37Z</updated>
+    <link href="https://arxiv.org/abs/2503.15941v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.15941v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a general framework for generating single- and multimode qubit-conditional operations by extending cross-resonant driving to a generalized multimode scheme. This includes single-mode conditional displacements and squeezing induced by one- and two-photon cross-resonant drives in the presence of one- and two-photon qubit-oscillator interactions, respectively. In the multimode setting, we derive multimode qubit-conditional joint displacement, beamsplitter and two-mode squeezing operations. This framework enables the realization of arbitrary multimode qubit-conditional operations, which are of great importance to bosonic quantum error correction, phase estimation and quantum simulations.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-20T08:29:48Z</published>
+    <arxiv:comment>Substantially simplified framework with explicit definition of interaction resonance frequency and added new references. 6 pages, no figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Mohammad Ayyash</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1506.01261v2</id>
+    <title>Resonant quantum dynamics of few ultracold bosons in periodically driven finite lattices</title>
+    <updated>2015-08-27T16:15:44Z</updated>
+    <link href="https://arxiv.org/abs/1506.01261v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1506.01261v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The out-of-equilibrium dynamics of finite ultracold bosonic ensembles in periodically driven one-dimensional optical lattices is investigated. Our study reveals that the driving enforces the bosons in different wells to oscillate in-phase and to exhibit a dipole-like mode. A wide range from weak-to-strong driving frequencies is covered and a resonance-like behaviour of the intra-well dynamics is discussed. In the proximity of the resonance a rich intraband excitation spectrum is observed. The single particle excitation mechanisms are studied in the framework of Floquet theory elucidating the role of the driving frequency. The impact of the interatomic repulsive interactions is examined in detail yielding a strong influence on the tunneling period and the excitation probabilities. Finally, the dependence of the resonance upon a variation of the tunable parameters of the optical lattice is examined. Our analysis is based on the ab-initio Multi-Configuration Time-Dependent Hartree Method for bosons.</summary>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-06-03T14:41:31Z</published>
+    <arxiv:comment>14 pages, 9 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.quant-gas"/>
+    <author>
+      <name>S. I. Mistakidis</name>
+    </author>
+    <author>
+      <name>T. Wulf</name>
+    </author>
+    <author>
+      <name>A. Negretti</name>
+    </author>
+    <author>
+      <name>P. Schmelcher</name>
+    </author>
+    <arxiv:doi>10.1088/0953-4075/48/24/244004</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0953-4075/48/24/244004" title="doi"/>
+  </entry>
+</feed>

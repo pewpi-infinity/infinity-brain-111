@@ -1,0 +1,83 @@
+TERMS: hydrogen, neutrino, probability
+COLORS: purple, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/eE800MO+TnB6Naulfeji5OkZZWA</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:neutrino AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:05:16Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:neutrino+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>13</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1109.5195v1</id>
+    <title>Neutrino Luminosity and Matter-Induced Modification of Collective Neutrino Flavor Oscillations in Supernovae</title>
+    <updated>2011-09-23T20:39:00Z</updated>
+    <link href="https://arxiv.org/abs/1109.5195v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1109.5195v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show that the bump in the electron number density profile at the base of the hydrogen envelope in O-Ne-Mg core-collapse supernovae causes an interesting interplay between neutrino-electron and neutrino-neutrino forward scattering effects in the flavor evolution of low-energy nu_e in the neutronization burst. The bump allows a significant fraction of the low-energy nu_e to survive by rendering their flavor evolution nonadiabatic. Increasing the luminosity of the neutronization burst shifts the bump-affected nu_e to lower energy with reduced survival probability. Similarly, lowering the luminosity shifts the bump-affected neutrinos to higher energies. While these low energy neutrinos lie near the edge of detectability, the population of bump-affected neutrinos has direct influence on the spectral swap formation in the neutrino signal at higher energies.</summary>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-09-23T20:39:00Z</published>
+    <arxiv:primary_category term="astro-ph.HE"/>
+    <author>
+      <name>John F. Cherry</name>
+    </author>
+    <author>
+      <name>Meng-Ru Wu</name>
+    </author>
+    <author>
+      <name>Joe Carlson</name>
+    </author>
+    <author>
+      <name>Huaiyu Duan</name>
+    </author>
+    <author>
+      <name>George M. Fuller</name>
+    </author>
+    <author>
+      <name>Yong-Zhong Qian</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.85.125010</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.85.125010" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1704.06331v1</id>
+    <title>Solar Neutrino Spectroscopy</title>
+    <updated>2017-04-20T20:47:53Z</updated>
+    <link href="https://arxiv.org/abs/1704.06331v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1704.06331v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>More than forty years after the first detection of neutrinos from the Sun, the spectroscopy of solar neutrinos has proven to be an on-going success story. The long-standing puzzle about the observed solar neutrino deficit has been resolved by the discovery of neutrino flavor oscillations. Today's experiments have been able to solidify the standard MSW-LMA oscillation scenario by performing precise measurements over the whole energy range of the solar neutrino spectrum. This article reviews the enabling experimental technologies: On the one hand mutli-kiloton-scale water Cherenkov detectors performing measurements in the high-energy regime of the spectrum, on the other end ultrapure liquid-scintillator detectors that allow for a low-threshold analysis. The current experimental results on the fluxes, spectra and time variation of the different components of the solar neutrino spectrum will be presented, setting them in the context of both neutrino oscillation physics and the hydrogen fusion processes embedded in the Standard Solar Model. Finally, the physics potential of state-of-the-art detectors and a next-generation of experiments based on novel techniques will be assessed in the context of the most interesting open questions in solar neutrino physics: a precise measurement of the vacuum-matter transition curve of electron-neutrino oscillation probability that offers a definitive test of the basic MSW-LMA scenario or the appearance of new physics; and a first detection of neutrinos from the CNO cycle that will provide new information on solar metallicity and stellar physics.</summary>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-04-20T20:47:53Z</published>
+    <arxiv:comment>77 pages, 32 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-ex"/>
+    <author>
+      <name>Michael Wurm</name>
+    </author>
+    <arxiv:doi>10.1016/j.physrep.2017.04.002</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physrep.2017.04.002" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/9910335v1</id>
+    <title>Describing Analytically the Matter-Enhanced Two-Neutrino Transitions in a Medium</title>
+    <updated>1999-10-14T10:03:05Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/9910335v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/9910335v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  A general exact analytic expression for the probability of matter-enhanced two-neutrino transitions in a medium (MSW, RSFP, generated by neutrino FCNC interactions, etc.) is derived. The probability is expressed in terms of three real functions of the parameters of the transitions: the ``jump'' probability and two phases (angles). The results obtained can be utilized, in particular, in the studies of the matter-enhanced transitions/conversions of solar and supernova neutrinos. An interesting similarity between the Schroedinger equation for the radial part of the non-relativistic wave function of the hydrogen atom and the equation governing the MSW transitions of solar neutrinos in the exponentially varying matter density in the Sun is also briefly discussed.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1999-10-14T10:03:05Z</published>
+    <arxiv:comment>14 pages, latex; published in Phys. Lett. B406 (1997) 355</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys.Lett.B406:355,1997</arxiv:journal_ref>
+    <author>
+      <name>S. T. Petcov</name>
+    </author>
+    <arxiv:doi>10.1016/S0370-2693(97)00704-1</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/S0370-2693(97)00704-1" title="doi"/>
+  </entry>
+</feed>

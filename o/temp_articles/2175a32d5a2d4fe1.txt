@@ -1,0 +1,92 @@
+TERMS: vapor, resonance, singularity
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/R7PMvlHm8IhFqbla4fOJtKcQWMo</id>
+  <title>arXiv Query: search_query=all:vapor AND all:resonance AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:26:24Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:vapor+AND+(all:resonance+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2103.06637v2</id>
+    <title>Dissipation-enhanced collapse singularity of a nonlocal fluid of light in a hot atomic vapor</title>
+    <updated>2021-05-19T08:31:16Z</updated>
+    <link href="https://arxiv.org/abs/2103.06637v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.06637v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the out-of-equilibrium dynamics of a two-dimensional paraxial fluid of light using a near-resonant laser propagating through a hot atomic vapor. We observe a double shock-collapse instability: a shock (gradient catastrophe) for the velocity, as well as an annular (ring-shaped) collapse singularity for the density. We find experimental evidence that this instability results from the combined effect of the nonlocal photon-photon interaction and the linear photon losses. The theoretical analysis based on the method of characteristics reveals the main counterintuitive result that dissipation (photon losses) is responsible for an unexpected enhancement of the collapse instability. Detailed analytical modeling makes it possible to evaluate the nonlocality range of the interaction. The nonlocality is controlled by adjusting the atomic vapor temperature and is seen to increase dramatically when the atomic density becomes much larger than one atom per cubic wavelength. Interestingly, such a large range of the nonlocal photon-photon interaction has not been observed in an atomic vapor so far and its microscopic origin is currently unknown.</summary>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.PS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-11T12:27:57Z</published>
+    <arxiv:comment>8 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.quant-gas"/>
+    <arxiv:journal_ref>Phys. Rev. A 104, 013515 (2021)</arxiv:journal_ref>
+    <author>
+      <name>Pierre Azam</name>
+    </author>
+    <author>
+      <name>Adrien Fusaro</name>
+    </author>
+    <author>
+      <name>Quentin Fontaine</name>
+    </author>
+    <author>
+      <name>Josselin Garnier</name>
+    </author>
+    <author>
+      <name>Alberto Bramati</name>
+    </author>
+    <author>
+      <name>Antonio Picozzi</name>
+    </author>
+    <author>
+      <name>Robin Kaiser</name>
+    </author>
+    <author>
+      <name>Quentin Glorieux</name>
+    </author>
+    <author>
+      <name>Tom Bienaimé</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.104.013515</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.104.013515" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1301.1697v2</id>
+    <title>Optical Third-Harmonic Generation in Graphene</title>
+    <updated>2013-01-10T02:10:57Z</updated>
+    <link href="https://arxiv.org/abs/1301.1697v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1301.1697v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We report strong third-harmonic generation (THG) in monolayer graphene grown by chemical vapor deposition (CVD) and transferred to an amorphous silica (glass) substrate; the photon energy is in three-photon resonance with the exciton-shifted van Hove singularity at the M-point of graphene. Our polarization- and azimuthal-rotation-dependent measurements confirm the expected symmetry properties for this nonlinear process. Since the third-harmonic signal exceeds that of bulk glass by more than two orders of magnitude, the signal contrast permits background-free scanning of graphene and provides insight into the structural properties of graphene.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-01-08T21:17:28Z</published>
+    <arxiv:comment>This paper has been withdrawn by the authors. 20 pages, 5 figures; Posting has been removed due to editorial request</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Phys. Rev. X 3, 021014 (2013)</arxiv:journal_ref>
+    <author>
+      <name>Sung-Young Hong</name>
+    </author>
+    <author>
+      <name>Jerry I. Dadap</name>
+    </author>
+    <author>
+      <name>Nicholas Petrone</name>
+    </author>
+    <author>
+      <name>Po-Chun Yeh</name>
+    </author>
+    <author>
+      <name>James Hone</name>
+    </author>
+    <author>
+      <name>Richard M. Osgood</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevX.3.021014</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevX.3.021014" title="doi"/>
+  </entry>
+</feed>

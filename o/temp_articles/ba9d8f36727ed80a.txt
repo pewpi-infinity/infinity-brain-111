@@ -1,0 +1,38 @@
+TERMS: frequency, entropy, tachyon
+COLORS: green, red, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/6vQPU2K9RYkoYUj9PleHBzqbmyo</id>
+  <title>arXiv Query: search_query=all:frequency AND all:entropy AND all:tachyon&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:10:02Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:entropy+AND+all:tachyon)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1711.01326v2</id>
+    <title>Tachyonic quench in a free bosonic field theory</title>
+    <updated>2017-12-27T12:50:42Z</updated>
+    <link href="https://arxiv.org/abs/1711.01326v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1711.01326v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a characterization of a bosonic field theory driven by a free (Gaussian) tachyonic Hamiltonian. This regime is obtained from a theory describing two coupled bosonic fields after a regular quench. Relevant physical quantities such as simple correlators, entanglement entropies, and the mutual information of disconnected subregions are computed. We show that the causal structure resembles a critical (massless) quench. For short times, physical quantities also resemble critical quenches. However, exponential divergences end up dominating the dynamics in a very characteristic way. This is related to the fact that the low-frequency modes do not equilibrate. Some applications and extensions are outlined.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-11-03T20:39:13Z</published>
+    <arxiv:comment>9 pages, 6 figures, 2 appendices. v2: A brief section on possible connections to physical systems is included</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>J. Stat. Mech. (2018) 023102</arxiv:journal_ref>
+    <author>
+      <name>Sebastian Montes</name>
+    </author>
+    <author>
+      <name>Javier Rodríguez-Laguna</name>
+    </author>
+    <author>
+      <name>Germán Sierra</name>
+    </author>
+    <arxiv:doi>10.1088/1742-5468/aaa8e9</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1742-5468/aaa8e9" title="doi"/>
+  </entry>
+</feed>

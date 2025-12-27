@@ -1,0 +1,90 @@
+TERMS: spin, resonance, bandgap
+COLORS: yellow, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/epZ4tmUr1E6OEg6AGGEFeKTOApU</id>
+  <title>arXiv Query: search_query=all:spin AND all:resonance AND all:bandgap&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:32:25Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:spin+AND+(all:resonance+AND+all:bandgap)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>56</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2502.17659v1</id>
+    <title>Hole Spin in Direct Bandgap Germanium-Tin Quantum Dot</title>
+    <updated>2025-02-24T21:13:50Z</updated>
+    <link href="https://arxiv.org/abs/2502.17659v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.17659v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Germanium (Ge) has emerged as a contender for scalable solid-state spin qubits. This interest stems from the numerous attractive properties of hole spin in Ge low-dimensional systems and their compatibility with the standards of silicon processing. Herein, we show that the controlled incorporation of Sn into the Ge lattice enables hole spin quantum dots that retain the same advantages as those made of Ge while also providing bandgap directness. The latter is essential for a more efficient interaction with light, a key feature in the implementation of photon-spin interfaces and quantum memories. We first map the material properties for a range of Ge$_{1-x}$Sn$_x$ planar heterostructures to identify the optimal conditions to simultaneously achieve hole spin confinement and bandgap directness. Although compressive strain is necessary for heavy hole confinement, we estimate that an additional 4.5 at.% of Sn is needed for every 1% increase in the absolute value of compressive strain to preserve the direct bandgap. However, a high compressive strain is found to be detrimental to the Rashba coupling. Moreover, a theoretical framework is derived to evaluate the dipole moment $d$ and the relaxation rate $Γ$ of electric dipole spin resonance quantum dot devices. We compare the perturbative and effective values of $d$ with the values obtained from the full 3D Hamiltonian. We find $d$ to be around 1 and 0.01 e pm for the out-of-plane and in-plane configurations, respectively, and $Γ\propto B^5$, eventually becoming $\propto B^7$ in the out-of-plane configuration.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-24T21:13:50Z</published>
+    <arxiv:comment>14 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>Nicolas Rotaru</name>
+    </author>
+    <author>
+      <name>Patrick Del Vecchio</name>
+    </author>
+    <author>
+      <name>Oussama Moutanabbir</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0606476v1</id>
+    <title>A photonic bandgap resonator to facilitate GHz frequency conductivity experiments in pulsed magnetic fields</title>
+    <updated>2006-06-19T17:47:45Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0606476v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0606476v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We describe instrumentation designed to perform millimeter-wave conductivity measurements in pulsed high magnetic fields at low temperatures. The main component of this system is an entirely non-metallic microwave resonator. The resonator utilizes periodic dielectric arrays (photonic bandgap structures) to confine the radiation, such that the resonant modes have a high Q-factor, and the system possesses sufficient sensitivity to measure small samples within the duration of a magnet pulse. As well as measuring the sample conductivity to probe orbital physics in metallic systems, this technique can detect the sample permittivity and permeability allowing measurement of spin physics in insulating systems. We demonstrate the system performance in pulsed magnetic fields with both electron paramagnetic resonance experiments and conductivity measurements of correlated electron systems.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-06-19T17:47:45Z</published>
+    <arxiv:comment>Submitted to the Review of Scientific instruments</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <author>
+      <name>R. D. McDonald</name>
+    </author>
+    <author>
+      <name>J. Singleton</name>
+    </author>
+    <author>
+      <name>P. A. Goddard</name>
+    </author>
+    <author>
+      <name>N. Harrison</name>
+    </author>
+    <author>
+      <name>C. H. Mielke</name>
+    </author>
+    <arxiv:doi>10.1063/1.2336761</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/1.2336761" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1210.2622v1</id>
+    <title>Valley-spin blockade and spin resonance in carbon nanotubes</title>
+    <updated>2012-10-09T14:54:57Z</updated>
+    <link href="https://arxiv.org/abs/1210.2622v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1210.2622v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Manipulation and readout of spin qubits in quantum dots made in III-V materials successfully rely on Pauli blockade that forbids transitions between spin-triplet and spin-singlet states. Quantum dots in group IV materials have the advantage of avoiding decoherence from the hyperfine interaction by purifying them with only zero-spin nuclei. Complications of group IV materials arise from the valley degeneracies in the electronic bandstructure. These lead to complicated multiplet states even for two-electron quantum dots thereby significantly weakening the selection rules for Pauli blockade. Only recently have spin qubits been realized in silicon devices where the valley degeneracy is lifted by strain and spatial confinement. In carbon nanotubes Pauli blockade can be observed by lifting valley degeneracy through disorder. In clean nanotubes, quantum dots have to be made ultra-small to obtain a large energy difference between the relevant multiplet states. Here we report on low-disorder nanotubes and demonstrate Pauli blockade based on both valley and spin selection rules. We exploit the bandgap of the nanotube to obtain a large level spacing and thereby a robust blockade. Single-electron spin resonance is detected using the blockade.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-10-09T14:54:57Z</published>
+    <arxiv:comment>31 pages including supplementary information</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Nature Nanotechnology 7, 630 - 634 (2012)</arxiv:journal_ref>
+    <author>
+      <name>Fei Pei</name>
+    </author>
+    <author>
+      <name>Edward A. Laird</name>
+    </author>
+    <author>
+      <name>Gary A. Steele</name>
+    </author>
+    <author>
+      <name>Leo P. Kouwenhoven</name>
+    </author>
+    <arxiv:doi>10.1038/nnano.2012.160</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/nnano.2012.160" title="doi"/>
+  </entry>
+</feed>

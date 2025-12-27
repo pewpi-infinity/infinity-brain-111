@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rogers · Infinity AI Chat</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" href="../styles.css">
+  <style>
+    .chat-shell { display:flex; flex-direction:column; height:calc(100vh - 3rem); }
+    .chat-log { flex:1; overflow:auto; background:rgba(2,6,23,.35); border-radius:.5rem; padding:.4rem; }
+    .chat-msg { margin-bottom:.35rem; }
+    .chat-msg.me { text-align:right; }
+    .chat-input { display:flex; gap:.4rem; margin-top:.4rem; }
+    .chat-input input { flex:1; }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">Rogers AI</div>
+    <a href="../portal.html" style="font-size:.55rem;">← Back</a>
+  </header>
+
+  <main class="layout chat-shell">
+    <div id="chatLog" class="chat-log"></div>
+    <div class="chat-input">
+      <input id="chatText" placeholder="Ask Rogers about coins, marketplace, portal...">
+      <button class="btn" id="sendBtn">Send</button>
+    </div>
+    <div id="infinity-footer"></div>
+  </main>
+
+  <script type="module">
+    import { getCurrentUser, renderInfinityFooter, logActivity, reward } from '../core/infinity-core.js';
+
+    const user = getCurrentUser();
+    if (!user) window.location.href = "../login.html";
+
+    const logBox = document.getElementById("chatLog");
+    const input = document.getElementById("chatText");
+    const sendBtn = document.getElementById("sendBtn");
+
+    function addMsg(text, who="rogers") {
+      const div = document.createElement("div");
+      div.className = "chat-msg " + (who === "me" ? "me" : "");
+      div.textContent = text;
+      logBox.appendChild(div);
+      logBox.scrollTop = logBox.scrollHeight;
+    }
+
+    function fakeRogersReply(q) {
+      // short placeholder – you can swap with real API call
+      if (q.toLowerCase().includes("market")) {
+        return "List it in /apps/marketplace.html and you'll earn +5 INF. I'll log it.";
+      }
+      if (q.toLowerCase().includes("token")) {
+        return "Tokens are in your shared Infinity wallet. Open the main portal to see balance.";
+      }
+      return "Rogers here. I logged your question: \"" + q + "\".";
+    }
+
+    sendBtn.onclick = () => {
+      const val = input.value.trim();
+      if (!val) return;
+      addMsg(val, "me");
+      input.value = "";
+      const reply = fakeRogersReply(val);
+      setTimeout(() => {
+        addMsg(reply, "rogers");
+      }, 200);
+      logActivity(user, "rogers-chat");
+      reward(user, "rogers-chat", 1);
+    };
+
+    addMsg("Rogers online. What do you want to build?", "rogers");
+    renderInfinityFooter();
+  </script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+TERMS: hydrogen, fusion, ionization, muon
+COLORS: purple, green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/77rP9xFOMQ43AswNUhKviHk8yGI</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:fusion AND all:ionization AND all:muon&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:53:16Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:fusion+AND+(all:ionization+AND+all:muon))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/physics/0510034v1</id>
+    <title>6D Muon Ionization Cooling with an Inverse Cyclotron</title>
+    <updated>2005-10-05T05:46:48Z</updated>
+    <link href="https://arxiv.org/abs/physics/0510034v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/physics/0510034v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  A large admittance sector cyclotron filled with LiH wedges surrounded by helium or hydrogen gas is explored. Muons are cooled as they spiral adiabatically into a central swarm. As momentum approaches zero, the momentum spread also approaches zero. Long bunch trains coalesce. Energy loss is used to inject the muons into the outer rim of the cyclotron. The density of material in the cyclotron decreases adiabatically with radius. The sector cyclotron magnetic fields are transformed into an azimuthally symmetric magnetic bottle in the center. Helium gas is used to inhibit muonium formation by positive muons. Deuterium gas is used to allow captured negative muons to escape via the muon catalyzed fusion process. The presence of ionized gas in the center may automatically neutralize space charge. When a bunch train has coalesced into a central swarm, it is ejected axially with an electric kicker pulse.</summary>
+    <category term="physics.acc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-10-05T05:46:48Z</published>
+    <arxiv:comment>Five pages. LaTeX, three postscript figure files. To appear in the AIP Conference Proceedings for COOL05: International Workshop on Beam Cooling, Galena, IL, 18-23 Sept. 2005</arxiv:comment>
+    <arxiv:primary_category term="physics.acc-ph"/>
+    <arxiv:journal_ref>AIPConf.Proc.821:432-436,2006</arxiv:journal_ref>
+    <author>
+      <name>D. J. Summers</name>
+      <arxiv:affiliation>Mississippi U</arxiv:affiliation>
+    </author>
+    <author>
+      <name>S. B. Bracker</name>
+      <arxiv:affiliation>Mississippi U</arxiv:affiliation>
+    </author>
+    <author>
+      <name>L. M. Cremaldi</name>
+      <arxiv:affiliation>Mississippi U</arxiv:affiliation>
+    </author>
+    <author>
+      <name>R. Godang</name>
+      <arxiv:affiliation>Mississippi U</arxiv:affiliation>
+    </author>
+    <author>
+      <name>R. B. Palmer</name>
+      <arxiv:affiliation>Brookhaven</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1063/1.2190147</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/1.2190147" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2109.13960v4</id>
+    <title>Nuclear fusion catalyzed by doubly charged scalars: Implications for energy production</title>
+    <updated>2022-09-13T18:00:04Z</updated>
+    <link href="https://arxiv.org/abs/2109.13960v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2109.13960v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A number of popular extensions of the Standard Model of particle physics predict the existence of doubly charged scalar particles $X^{\pm\pm}$. Such particles may be long-lived or even stable. If exist, $X^{--}$ could form atomic bound states with light nuclei and catalyze their fusion by essentially eliminating the Coulomb barrier between them. Such an $X$-catalyzed fusion ($X$CF) process does not require high temperatures or pressure and may have important applications for energy production. A similar process of muon-catalyzed fusion ($μ$CF) has been shown not to be a viable source of energy because of the sticking of negative muons to helium nuclei produced in the fusion of hydrogen isotopes, which stops the catalytic process. We analyze $X$CF in deuterium environments and show that the $X$-particles can only stick to $^6$Li nuclei, which are produced in the third-stage reactions downstream in the catalytic cycle. The corresponding sticking probability is very low, and, before getting bound to $^6$Li, each $X$-particle can catalyze $\sim 3.5\cdot 10^{9}$ fusion cycles, producing $\sim 7\cdot 10^{4}$ TeV of energy. We also discuss the ways of reactivating the $X$-particles from the Coulomb-bound (${\rm ^6Li}X$) states, which would allow re-using them in $X$CF reactions.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-09-28T18:01:30Z</published>
+    <arxiv:comment>RevTeX, 17 pages,3 tables. v3: Note on recent ATLAS results on events with anomalously large ionization energy loss and their interpretation in terms of charge-2 long lived particles by Giudice et al. added; references added; supplemented material turned into appendices. v4: minor typos corrected</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Evgeny Akhmedov</name>
+      <arxiv:affiliation>MPIK Heidelberg</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.106.035013</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.106.035013" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <title>Infinity Portal — Blow Your Socks Off Edition</title>
+  <meta name="theme-color" content="#0b5fd7" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:400,700&display=swap"/>
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
+  <style>
+    :root{--blue-1:#003087;--blue-2:#0b5fd7;--muted:#6b7280;--card:#f8fafc;--radius:14px;font-family:Inter,system-ui,sans-serif;}
+    html,body{background:#fff;color:#08182f;height:100%;margin:0;}
+    .wrap{max-width:520px;margin:0 auto;padding:0 0.8rem;}
+    header{display:flex;align-items:center;justify-content:space-between;padding:20px 0;}
+    .brand h1{font-size:2rem;color:var(--blue-2);margin:0}
+    .sub{color:var(--muted);font-size:12px;}
+    .menuBtn{font-size:2rem;border:none;background:transparent;cursor:pointer;color:var(--blue-2);}
+    main{margin-top:28px;}
+    .hubBtn{display:flex;align-items:center;justify-content:space-between;width:100%;margin:18px 0;padding:26px 24px;background:var(--card);border-radius:14px;box-shadow:0 2px 16px rgba(11,95,215,.045);border:1.5px solid rgba(10,48,143,.095);font-size:1.22rem;font-weight:700;color:var(--blue-1);transition:box-shadow .10s;cursor:pointer;}
+    .hubBtn .desc{font-size:13px;font-weight:400;color:var(--muted);}
+    .hubBtn:active{background:var(--blue-2);color:white;}
+    .chip{display:inline-block;padding:6px 12px;border-radius:14px;background:rgba(11,95,215,0.11);color:var(--blue-1);font-weight:600;}
+    .sidebar{position:fixed;left:0;top:0;bottom:0;width:80vw;max-width:335px;background:var(--card);box-shadow:16px 0 48px rgba(3,24,62,.11);z-index:9998;transform:translateX(-110%);transition:transform .24s;display:flex;flex-direction:column;padding:24px 16px;gap:14px;}
+    .sidebar.open{transform:translateX(0);}
+    .sbItem{margin:6px 0;padding:15px 16px;font-size:1.05em;border-radius:10px;color:var(--blue-1);background:white;border:1px solid rgba(3,24,62,.05);cursor:pointer;}
+    .sbItem:hover{background:var(--blue-2);color:#fff;}
+    .footer{font-size:13px;color:var(--muted);padding:19px 0 0 0;text-align:center;}
+    .footer small{display:block;color:#b4bac7;margin-top:8px;}
+    .chatDock{position:fixed;right:16px;bottom:20px;z-index:99999;}
+    .rogersBtn{width:56px;height:56px;border-radius:50%;background:linear-gradient(135deg,var(--blue-1),var(--blue-2));display:flex;align-items:center;justify-content:center;color:white;font-weight:800;font-size:2.2rem;box-shadow:0 10px 30px rgba(11,95,215,.18);cursor:pointer;}
+    .chatPanel{position:fixed;right:24px;bottom:88px;width:340px;max-width:96vw;border-radius:14px;background:white;border:1.5px solid #dfe6ef;box-shadow:0 36px 80px rgba(3,24,62,.13);display:none;flex-direction:column;z-index:99998;}
+    .chatPanel.open{display:flex;}
+    .chatHeader{background:linear-gradient(90deg,var(--blue-1),var(--blue-2));color:white;padding:11px 16px;border-top-left-radius:14px;border-top-right-radius:14px;display:flex;justify-content:space-between;align-items:center;}
+    .chatBody{padding:15px 10px;height:220px;overflow:auto;}
+    .chatInput{display:flex;padding:10px;border-top:1px solid #f4f4f5;}
+    .chatInput input{flex:1;padding:9px;border-radius:8px;border:1px solid #e3e7ef;margin-right:8px;}
+    .chatInput button{background:var(--blue-1);color:white;padding:9px 12px;border-radius:8px;border:0;cursor:pointer;}
+    .mic{margin-left:6px;width:42px;height:42px;border-radius:50%;background:linear-gradient(135deg,var(--blue-1),var(--blue-2));display:flex;align-items:center;justify-content:center;color:white;cursor:pointer;}
+    @media(max-width:600px){.wrap{padding:0 5px;}.sidebar{width:99vw;}}
+  </style>
+</head>
+<body>
+<div id="sidebar" class="sidebar">
+  <div class="sbItem" onclick="goto('portal')">Portal</div>
+  <div class="sbItem" onclick="goto('marketplace')">Marketplace</div>
+  <div class="sbItem" onclick="goto('socializer')">Socializer</div>
+  <div class="sbItem" onclick="goto('einstein')">Einstein</div>
+  <hr/>
+  <div class="sbItem" onclick="signInGoogle()">Sign in with Google</div>
+  <div class="sbItem" onclick="openDev()">Developer Mode</div>
+  <div class="sbItem" onclick="viewSessions()">Chat Sessions</div>
+  <div class="sbItem" onclick="signOut()">Sign out</div>
+</div>
+<div class="wrap">
+  <header>
+    <button class="menuBtn" onclick="toggleSidebar()">☰</button>
+    <div class="brand">
+      <h1>Infinity Portal</h1>
+      <div class="sub">Marketplace · Socializer · Rogers AI Bot</div>
+    </div>
+  </header>
+  <main>
+    <button class="hubBtn" onclick="goto('portal')">
+      Portal <span class="desc">Calculator, Alarm, Garden, Pets</span>
+    </button>
+    <button class="hubBtn" onclick="goto('marketplace')">
+      Marketplace <span class="desc">Trade, Clothing, Food, Registry</span>
+    </button>
+    <button class="hubBtn" onclick="goto('socializer')">
+      Socializer <span class="desc">Locals Chat, Games, Video Auditions</span>
+    </button>
+    <button class="hubBtn" onclick="goto('einstein')">
+      Einstein <span class="desc">Zoom+3D logic journeys</span>
+    </button>
+    <div class="chip" id="statusBar">Ready for launch</div>
+  </main>
+  <div class="footer">
+    Powered by Infinity — Infinity Portal<br/>
+    <small>All rights reserved. Contact: infinitystockinvesting@gmail.com</small>
+  </div>
+  <div class="chatDock">
+    <div class="rogersBtn" title="Rogers Chat" onclick="toggleChat()">R</div>
+  </div>
+  <div class="chatPanel" id="chatPanel">
+    <div class="chatHeader">
+      Rogers AI — Chat
+      <span style="font-size:small;" id="chatCtx">User: Guest</span>
+    </div>
+    <div class="chatBody" id="chatBody">
+      <div style="color:#5a6992;font-size:14px;padding-bottom:3px">Ask any question — powered by Infinity and Rogers AI</div>
+    </div>
+    <div class="chatInput">
+      <input id="chatIn" placeholder="Ask Rogers..." onkeydown="if(event.key==='Enter') sendChat()">
+      <button onclick="sendChat()">Send</button>
+      <div class="mic" id="micBtn" title="Use Microphone">🎤</div>
+    </div>
+  </div>
+</div>
+<script>
+  // Sidebar/menu
+  const sidebar = document.getElementById('sidebar');
+  function toggleSidebar(){ sidebar.classList.toggle('open'); }
+  function goto(page){
+    sidebar.classList.remove('open');
+    document.getElementById('statusBar').innerText = `Opening ${page}...`;
+    alert(`Would route to /${page}/`);
+  }
+  // Chat panel
+  function toggleChat(){ document.getElementById('chatPanel').classList.toggle('open'); }
+  function sendChat(){
+    const input = document.getElementById('chatIn');
+    const text = input.value.trim();
+    if(!text) return;
+    addMsg('user', text);
+    input.value = '';
+    // TODO: POST to /api/chat or AI bot endpoint
+    setTimeout(()=>addMsg('bot', "This would be a live Rogers AI response for: "+text), 700);
+  }
+  function addMsg(role, txt){
+    const chatBody = document.getElementById('chatBody');
+    const div = document.createElement('div');
+    div.textContent = txt;
+    div.style.background = (role==='user') ? '#e8f0ff' : '#f5f8fc';
+    div.style.margin = '6px 0'; div.style.padding = '10px 12px'; div.style.borderRadius = "14px";
+    div.style.textAlign = (role==='user') ? 'right' : 'left';
+    chatBody.appendChild(div); chatBody.scrollTop = chatBody.scrollHeight;
+  }
+  // Developer/Session placeholder
+  function viewSessions(){ alert('Feature: Show live chat session history cloud-synced to user'); }
+  function openDev(){ alert('Feature: Developer Mode panel opens (config, logs, AI endpoints)'); }
+  // Real Google OAuth2 sign-in
+  function signInGoogle(){
+    google.accounts.id.prompt(); // opens Google sign-in, if not auto
+    // Real user info is set by callback after sign-in
+  }
+  function signOut(){
+    // Signout from Google
+    google.accounts.id.disableAutoSelect();
+    document.getElementById('chatCtx').textContent = 'User: Guest';
+    addMsg('bot',"Signed out!");
+  }
+  // Google One Tap callback wiring (replace below with your backend endpoint)
+  window.handleCredentialResponse = response => {
+    fetch('/api/auth/google', {
+      method: 'POST', headers: {'Content-Type':'application/json'},
+      body: JSON.stringify({credential: response.credential})
+    })
+    .then(r=>r.json()).then(data=>{
+      if(data.user_id){
+        document.getElementById('chatCtx').textContent = 'User: ' + (data.email||data.user_id);
+        document.getElementById('statusBar').innerText = `Signed in: ${data.email||data.user_id}`;
+      }else{
+        alert(data.error||'Login error');
+      }
+    });
+  }
+  // Attach Google Identity callback (Set in Google Cloud OAuth config and in <head>)
+  window.onload = function() {
+    google.accounts.id.initialize({
+      client_id: "YOUR_GOOGLE_CLIENT_ID",
+      callback: handleCredentialResponse
+    });
+    google.accounts.id.renderButton(document.getElementById('userMenu')||document.body, {
+      theme: "outline", size: "large"
+    });
+  }
+  // Fast microphone placeholder (Web Speech API)
+  const micBtn = document.getElementById('micBtn');
+  let rec=null, listening=false;
+  if(micBtn){
+    const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+    if(!SR){ micBtn.disabled=true; micBtn.textContent='No Mic'; }
+    else {
+      rec = new SR(); rec.lang='en-US';
+      rec.onresult = e => { document.getElementById('chatIn').value = e.results[0][0].transcript; sendChat(); };
+      rec.onend = ()=>{ listening=false; micBtn.textContent='🎤'; }
+      micBtn.onclick = ()=>{
+        if(!listening){ listening=true; micBtn.textContent='■'; rec.start(); }
+        else { rec.stop(); }
+      };
+    }
+  }
+</script>
+</body>
+</html>

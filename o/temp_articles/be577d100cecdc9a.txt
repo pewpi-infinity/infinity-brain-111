@@ -1,0 +1,33 @@
+TERMS: wavefunction, bandgap, probability
+COLORS: yellow, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/xQ54HmxGCQeBCdUnkFUTLdmswo8</id>
+  <title>arXiv Query: search_query=all:wavefunction AND all:bandgap AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:34:02Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:wavefunction+AND+(all:bandgap+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1303.6876v1</id>
+    <title>Four band tunneling in bilayer graphene</title>
+    <updated>2013-03-27T16:19:28Z</updated>
+    <link href="https://arxiv.org/abs/1303.6876v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1303.6876v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The conductance, the transmission and the reflection probabilities through rectangular potential barriers and pn-junctions are obtained for bilayer graphene taking into account the four bands of the energy spectrum. We have evaluated the importance of the skew hopping parameters γ3 and γ4 to these properties and show that for energies E&gt;γ1/100 their effect is negligible. For high energies two modes of propagation exist and we investigate scattering between these modes. For perpendicular incidence both propagation modes are decoupled and scattering between them is forbidden. This extends the concept of pseudospin as defined within the two band approximation to a four band model and corresponds to the (anti)symmetry of the wavefunctions under in-plane mirroring. New transmission resonances are found that appear as sharp peaks in the conductance which are absent in the two band approximation. The application of an interlayer bias to the system: 1) breaks the pseudospin structure, 2) opens a bandgap that results in a distinct feature of suppressed transmission in the conductance, and 3) breaks the angular symmetry with respect to normal incidence in the transmission and reflection.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-03-27T16:19:28Z</published>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Phys. Rev. B 87, 205427 (2013)</arxiv:journal_ref>
+    <author>
+      <name>B. Van Duppen</name>
+    </author>
+    <author>
+      <name>F. M. Peeters</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.87.205427</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.87.205427" title="doi"/>
+  </entry>
+</feed>

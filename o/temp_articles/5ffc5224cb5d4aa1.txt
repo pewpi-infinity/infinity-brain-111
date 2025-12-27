@@ -1,0 +1,101 @@
+TERMS: lattice, crystal, oxidation
+COLORS: orange, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/7EcWEM8cCzpsTGAPJi+13n3KkZ4</id>
+  <title>arXiv Query: search_query=all:lattice AND all:crystal AND all:oxidation&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:14:35Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:crystal+AND+all:oxidation)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>370</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2103.06305v1</id>
+    <title>Crystal Growth of a New 8H Perovskite Sr8Os6.3O24 Exhibiting High TC Ferromagnetism</title>
+    <updated>2021-03-10T19:15:13Z</updated>
+    <link href="https://arxiv.org/abs/2103.06305v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2103.06305v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Single crystals of a new twinned hexagonal perovskite compound Sr8Os6.3O24 have been synthesized, and structural and magnetic properties have been determined. The compound crystallizes in a hexagonal cell with lattice parameters a = 9.6988(3) Å and c = 18.1657(5) Å. The structure is an eight-layered hexagonal B-site deficient perovskite with the layer sequence (ccch)2 and represents the first example of a hexagonal structure among 5d oxides adopting a twin option. The sample shows spontaneous ferromagnetic magnetization below 430 K with a small saturation moment of 0.11 μB/Os ion. This is the highest Curie temperature (TC) reported for any bulk perovskite containing only 5d ions at the B site.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-10T19:15:13Z</published>
+    <arxiv:comment>Accepted in Crystal Grwoth and Design (19 pages, 3 figure)</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>Crystal Growth and Design (2021)</arxiv:journal_ref>
+    <author>
+      <name>Gohil S. Thakur</name>
+    </author>
+    <author>
+      <name>Thomas Doert</name>
+    </author>
+    <author>
+      <name>Shrikant Mohitkar</name>
+    </author>
+    <author>
+      <name>Walter Schnelle</name>
+    </author>
+    <author>
+      <name>Claudia Felser</name>
+    </author>
+    <author>
+      <name>Martin Jansen</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1208.6030v1</id>
+    <title>Floating Zone Growth of Large Single Crystals of SrFeO_3-x</title>
+    <updated>2012-08-29T21:39:02Z</updated>
+    <link href="https://arxiv.org/abs/1208.6030v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1208.6030v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Fe^{4+}-containing cubic perovskite phase SrFeO_3-x is of interest both for its high-temperature, oxygen-conducting properties as a solid oxide fuel cell component, and at low temperatures, where it exhibits a plethora of helical magnetic phases and a candidate Skyrmion lattice. However, a sequence of structural phase transitions encountered on cooling to room temperature has limited the size of single crystals. We report the floating-zone growth and oxygen-annealing of multiple-cubic-centimetre-sized single crystals of SrFeO_3-x, suitable for inelastic neutron scattering and other measurement techniques requiring large sample volumes.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-08-29T21:39:02Z</published>
+    <arxiv:comment>7 pages, 6 figures (some large), submitted to Journal of Crystal Growth</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>Journal of Crystal Growth 361, 201-205 (2012)</arxiv:journal_ref>
+    <author>
+      <name>D. C. Peets</name>
+    </author>
+    <author>
+      <name>Jung-hwa Kim</name>
+    </author>
+    <author>
+      <name>M. Reehuis</name>
+    </author>
+    <author>
+      <name>P. Dosanjh</name>
+    </author>
+    <author>
+      <name>B. Keimer</name>
+    </author>
+    <arxiv:doi>10.1016/j.jcrysgro.2012.09.049</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.jcrysgro.2012.09.049" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.07561v1</id>
+    <title>Crystal Structure-Based Multioutput Property Prediction of Lithium Manganese Nickel Oxide using EfficientNet-B0</title>
+    <updated>2024-05-13T08:51:14Z</updated>
+    <link href="https://arxiv.org/abs/2405.07561v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.07561v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Here, we present an EfficientNet-B0-based model to directly predict multiple properties of lithium manganese nickel oxides (LMNO) using their crystal structure images. The model is supposed to predict the energy above the convex hull, bandgap energy, crystal systems, and crystal space groups of LMNOs. In the last layer of the model, a linear function is used to predict the bandgap energy and energy above the convex hull, while a SoftMax function is used to classify the crystal systems and crystal space groups. In the test set, the percentages of coefficient of determination (R2) scores are 97.73% and 96.50% for the bandgap energy and energy above the convex hull predictions, respectively, while the percentages of accuracy are 99.45% and 99.27% for the crystal system and crystal space group classifications, respectively. The class saliency maps explain that the model pays more attention to the shape of the crystal lattices and gradients around the lattice region occupied by the larger ions. This work provides new insight into using an intelligent model to directly relate the crystal structures of LMNO materials with their properties.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-13T08:51:14Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Chee Sien Wong</name>
+    </author>
+    <author>
+      <name>Benediktus Madika</name>
+    </author>
+    <author>
+      <name>Jiwon Yeom</name>
+    </author>
+    <author>
+      <name>Youngwoo Choi</name>
+    </author>
+    <author>
+      <name>Seungbum Hong</name>
+    </author>
+  </entry>
+</feed>

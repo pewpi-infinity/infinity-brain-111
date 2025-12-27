@@ -1,0 +1,74 @@
+TERMS: lattice, fusion, wavefunction
+COLORS: orange, green, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api//IUFNJMIsK9+KdWFSpHeWqIoGLs</id>
+  <title>arXiv Query: search_query=all:lattice AND all:fusion AND all:wavefunction&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:13:38Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:fusion+AND+all:wavefunction)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>8</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1609.05217v2</id>
+    <title>Many-body Lattice Wavefunctions From Conformal Blocks</title>
+    <updated>2016-12-29T18:01:31Z</updated>
+    <link href="https://arxiv.org/abs/1609.05217v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1609.05217v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce a general framework to construct many-body lattice wavefunctions starting from the conformal blocks (CBs) of rational conformal field theories (RCFTs). We discuss the different ways of encoding the physical degrees of freedom of the lattice system using both the internal symmetries of the theory and the fusion channels of the CBs. We illustrate this construction both by revisiting the known Haldane-Shastry model and by providing a novel implementation for the Ising RCFT. In the latter case, we find a connection to the Ising transverse field (ITF) spin chain via the Kramers-Wannier duality and the Temperley-Lieb-Jones algebra. We also find evidence that the ground state of the finite-size critical ITF Hamiltonian corresponds exactly to the wavefunction obtained from CBs of spin fields.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-09-16T20:02:54Z</published>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Phys. Rev. B 95, 085146 (2017)</arxiv:journal_ref>
+    <author>
+      <name>Sebastian Montes</name>
+    </author>
+    <author>
+      <name>Javier Rodríguez-Laguna</name>
+    </author>
+    <author>
+      <name>Hong-Hao Tu</name>
+    </author>
+    <author>
+      <name>Germán Sierra</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.95.085146</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.95.085146" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1303.6299v2</id>
+    <title>Analytic Wavefunctions for Collective Modes in Fractional Quantum Hall Fluids</title>
+    <updated>2013-04-12T20:10:50Z</updated>
+    <link href="https://arxiv.org/abs/1303.6299v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1303.6299v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show model wavefunctions for neutral collective modes in fractional quantum Hall (FQH) states have simple analytic forms obtained from judicially reducing the powers of selected pairs in the ground state Jastrow factor. This scheme of "pair excitations" works for the magneto-roton modes of single-component Abelian and non-Abeliean FQH states, as well as neutral fermion mode for the Moore-Read (MR) state. The analytic wavefunctions enable computations in the thermodynamic limit previous inaccessible to numerics, and the long wavelength limit of the neutral energy gap of the magneto-roton modes can be interpreted as fusion of charges in two-dimensional plasma picture, extending the plasma analogy to neutral excitations. A lattice diagrammatic method of representing these many-body wavefunctions and FQH elementary excitations is also presented.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-03-25T20:04:48Z</published>
+    <arxiv:comment>4+ pages, 4 figs, revised the abstract and introduction, slight polishing of the main text, reference added</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <author>
+      <name>Bo Yang</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1306.6614v1</id>
+    <title>Analytic Wavefunctions for Neutral Bulk Excitations in Fractional Quantum Hall Fluids</title>
+    <updated>2013-06-27T19:25:39Z</updated>
+    <link href="https://arxiv.org/abs/1306.6614v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1306.6614v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We show the model wavefunctions for the neutral collective modes in fractional quantum Hall (FQH) states have simple analytic forms obtained from judicially reducing the powers of selected pairs in the ground state Jastrow factor. This scheme of "pair excitations" works for the magneto-roton modes of single-component Abelian and non-Abeliean FQH states, as well as the neutral fermion mode for the Moore-Read (MR) state. The analytic wavefunctions allow us to compute the "quadrupole gap" of the magneto-roton mode in the thermodynamic limit, which was previously inaccessible to the numerics. The quadrupole gap is related to the fusion of the charges in the two-dimensional plasma picture, extending the plasma analogy to neutral excitations. A lattice diagrammatic method of representing these many-body wavefunctions and FQH elementary excitations is also presented.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-06-27T19:25:39Z</published>
+    <arxiv:comment>an expanded version of arXiv:1303.6299, published in PRB</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Phys. Rev. B 87, 245132 (2013)</arxiv:journal_ref>
+    <author>
+      <name>Bo Yang</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.87.245132</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.87.245132" title="doi"/>
+  </entry>
+</feed>

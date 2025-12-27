@@ -1,0 +1,87 @@
+TERMS: frequency, crystal, bandgap
+COLORS: green, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/WnvtXnB0YD3Zcpf1HgL7zVMTejU</id>
+  <title>arXiv Query: search_query=all:frequency AND all:crystal AND all:bandgap&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:11:13Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:crystal+AND+all:bandgap)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>166</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2310.05662v3</id>
+    <title>On the lowest-frequency bandgap of 1D phononic crystals</title>
+    <updated>2024-02-28T20:37:45Z</updated>
+    <link href="https://arxiv.org/abs/2310.05662v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.05662v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This manuscript puts forward and verifies an analytical approach to design phononic crystals that feature a bandgap at the lowest possible frequencies. This new approach is verified against numerical optimization. It rests on the exact form of the trace of the cumulative transfer matrix. This matrix arises from the product of N elementary transfer matrices, where N represents the number of layers in the unit cell of the crystal. The paper presents first a new proof of the harmonic decomposition of the trace (which, unlike the original derivation, does not resort to group-theoretical concepts), and then goes to demonstrate that the long-wavelength asymptotics of the function that governs the dispersion relation can be described in closed form for any layering, plus that it possesses a simple and explicit form that facilitates its study. Using this asymptotic result for low frequencies, we then propose an analytical curvature-minimization approach to devise layerings that yield an opening of the first frequency bandgap at the lowest possible frequency value. Finally, we also show that minimizing the frequency at which the first gap opens can be at odds with obtaining broadband attenuation, i.e., maximizing the width of the first frequency bandgap.</summary>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-09T12:29:34Z</published>
+    <arxiv:comment>24 pages, 5 figures, 3 tables</arxiv:comment>
+    <arxiv:primary_category term="physics.app-ph"/>
+    <author>
+      <name>Javier González-Carbajal</name>
+    </author>
+    <author>
+      <name>Marius Lemm</name>
+    </author>
+    <author>
+      <name>Joaquin Garcia-Suarez</name>
+    </author>
+    <arxiv:doi>10.1016/j.euromechsol.2024.105466</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.euromechsol.2024.105466" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1704.08374v1</id>
+    <title>Complete photonic bandgaps in supercell photonic crystals</title>
+    <updated>2017-04-26T22:56:47Z</updated>
+    <link href="https://arxiv.org/abs/1704.08374v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1704.08374v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We develop a class of supercell photonic crystals supporting complete photonic bandgaps based on breaking spatial symmetries of the underlying primitive photonic crystal. One member of this class based on a two-dimensional honeycomb structure supports a complete bandgap for an index-contrast ratio as low as $n_{high}/n_{low} = 2.1$, making this the first such 2D photonic crystal to support a complete bandgap in lossless materials at visible frequencies. The complete bandgaps found in such supercell photonic crystals do not necessarily monotonically increase as the index-contrast in the system is increased, disproving a long-held conjecture of complete bandgaps in photonic crystals.</summary>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-04-26T22:56:47Z</published>
+    <arxiv:comment>5 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.optics"/>
+    <arxiv:journal_ref>Phys. Rev. A 96, 051802 (2017)</arxiv:journal_ref>
+    <author>
+      <name>Alexander Cerjan</name>
+    </author>
+    <author>
+      <name>Shanhui Fan</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.96.051802</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.96.051802" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2311.06594v1</id>
+    <title>Band flipping and bandgap closing in a photonic crystal ring and its applications</title>
+    <updated>2023-11-11T15:38:00Z</updated>
+    <link href="https://arxiv.org/abs/2311.06594v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.06594v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The size of the bandgap in a photonic crystal ring is typically intuitively considered to monotonically grow as the modulation amplitude of the grating increases, causing increasingly large frequency splittings between the 'dielectric' and 'air' bands. In contrast, here we report that as the modulation amplitude in a photonic crystal ring increases, the bandgap does not simply increase monotonically. Instead, after the initial increase, the bandgap closes and then reopens again with the dielectric band and the air bands flipped in energy. The air and dielectric band edges are degenerate at the bandgap closing point. We demonstrate this behavior experimentally in silicon nitride photonic crystal microrings, where we show that the bandgap is closed to within the linewidth of the optical cavity mode, whose quality factor remains unperturbed with a value $\approx$ 1$\times$10$^6$ (i.e., linewidth of 2 pm). Moreover, through finite-element simulations, we show that such bandgap closing and band flipping phenomena exist in a variety of photonic crystal rings with varying units cell geometries and cladding layers. At the bandgap closing point, the two standing wave modes with a degenerate frequency are particularly promising for single-frequency lasing applications. Along this line, we propose a compact self-injection locking scheme that integrates many core functionalities in one photonic crystal ring. Additionally, the single-frequency lasing might be applicable to DFB lasers to increase their manufacturing yield.</summary>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-11T15:38:00Z</published>
+    <arxiv:comment>7 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.optics"/>
+    <author>
+      <name>Xiyuan Lu</name>
+    </author>
+    <author>
+      <name>Ashish Chanana</name>
+    </author>
+    <author>
+      <name>Yi Sun</name>
+    </author>
+    <author>
+      <name>Andrew McClung</name>
+    </author>
+    <author>
+      <name>Marcelo Davanco</name>
+    </author>
+    <author>
+      <name>Kartik Srinivasan</name>
+    </author>
+  </entry>
+</feed>

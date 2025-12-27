@@ -1,0 +1,52 @@
+EQ001: Linear program objective -> maximize c^T x subject to Ax <= b, x >= 0
+EQ002: Convexity check -> Hessian H(x) positive semidefinite
+EQ003: Lagrangian -> L(x, λ) = f(x) + λ^T (Ax - b)
+EQ004: KKT conditions -> ∇f(x*) + A^T λ* = 0, Ax* <= b, λ* >= 0, λ*^T (Ax* - b) = 0
+EQ005: Spectral radius -> ρ(A) = max |λ_i(A)|
+EQ006: Stability -> Re(λ_i(A)) < 0 for continuous systems
+EQ007: Controllability -> rank([B, AB, A^2B, ..., A^{n-1}B]) = n
+EQ008: Observability -> rank([C; CA; CA^2; ...; CA^{n-1}]) = n
+EQ009: Queue M/M/1 -> ρ = λ/μ, W = 1/(μ - λ)
+EQ010: Nash equilibrium -> best response mappings intersect
+EQ011: Mechanism incentive compatibility -> truth-telling maximizes utility
+EQ012: Auction revenue equivalence -> symmetric independent private values
+EQ013: Markov chain stationary distribution -> π = πP
+EQ014: Bayesian update -> p(θ|D) ∝ p(D|θ)p(θ)
+EQ015: Power of hypothesis test -> 1 - β
+EQ016: Confidence interval -> μ̂ ± z σ / √n
+EQ017: L1 regularization -> minimize ||y-Xβ||² + λ||β||₁
+EQ018: Ridge regression -> minimize ||y-Xβ||² + λ||β||²
+EQ019: Lasso sparsity -> many β_j = 0
+EQ020: PCA -> eigenvectors of covariance Σ
+EQ021: SVD -> A = UΣVᵀ
+EQ022: Logistic regression -> σ(wᵀx)
+EQ023: Cross entropy -> -Σ y log p
+EQ024: Gradient descent -> θ ← θ - α∇J(θ)
+EQ025: Softmax -> exp(z_i) / Σ exp(z)
+EQ026: KL divergence -> Σ p log(p/q)
+EQ027: Entropy -> -Σ p log p
+EQ028: Mutual information -> I(X;Y) = H(X)+H(Y)-H(X,Y)
+EQ029: Fourier transform -> F(ω)=∫ f(t)e^{-iωt}dt
+EQ030: Convolution -> (f*g)(t)=∫f(τ)g(t-τ)dτ
+EQ031: Laplace transform -> ∫f(t)e^{-st}dt
+EQ032: Heat equation -> ∂u/∂t = α∇²u
+EQ033: Wave equation -> ∂²u/∂t² = c²∇²u
+EQ034: Poisson equation -> ∇²u = -ρ/ε
+EQ035: Maxwell equations (set of 4)
+EQ036: Schrödinger equation -> iħ∂ψ/∂t = Hψ
+EQ037: Eigenvalue problem -> Ax = λx
+EQ038: Determinant expansion -> Σ permutations
+EQ039: Matrix invertibility -> det(A) ≠ 0
+EQ040: Rank-nullity -> dim(V)=rank+nullity
+EQ041: Gaussian distribution -> (1/√2πσ²)e^{-(x-μ)²/2σ²}
+EQ042: t-distribution -> Γ((ν+1)/2)/√(νπ)Γ(ν/2)(1+x²/ν)^{-(ν+1)/2}
+EQ043: Chi-square distribution -> special gamma
+EQ044: Law of large numbers -> sample mean→μ
+EQ045: Central limit theorem -> normalized sums→normal
+EQ046: Markov inequality -> P(X≥a) ≤ E[X]/a
+EQ047: Chebyshev inequality -> P(|X-μ|≥kσ) ≤ 1/k²
+EQ048: Jensen's inequality -> φ(E[X]) ≤ E[φ(X)]
+EQ049: Moment generating function -> M(t)=E[e^{tX}]
+EQ050: Characteristic function -> E[e^{itX}]
+...
+EQ250: Robust optimization -> minimize max loss over uncertainty set U

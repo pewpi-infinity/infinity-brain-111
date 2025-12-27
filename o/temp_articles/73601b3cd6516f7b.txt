@@ -1,0 +1,74 @@
+TERMS: hydrogen, crystal, ionization, probability
+COLORS: purple, orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/R7gdSBOcfm02b9qc9Ffl7kF26Nk</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:crystal AND all:ionization AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:59:49Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:crystal+AND+(all:ionization+AND+all:probability))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2310.01746v1</id>
+    <title>An approach to study interactions of antineutrons with CsI at a $J/ψ$ factory</title>
+    <updated>2023-10-03T02:14:52Z</updated>
+    <link href="https://arxiv.org/abs/2310.01746v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.01746v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Cesium Iodide (CsI) crystals are widely used in high-energy physics for their scintillation properties that enable detection of charged and neutral particles via direct and indirect ionization and form the basis of electromagnetic calorimeters. However, knowledge of antineutron interactions with CsI is limited due to the difficulty of obtaining sources of antineutron of sufficient intensity and energy definition. As antineutron are abundantly produced by many processes it would be particularly useful to improve understanding of the interactions of antineutrons with CsI crystals.
+  We propose to use the decay $J/ψ\to pπ^-\bar{n}$ at the BEPCII $J/ψ$ factory as a source of antineutrons using the BESIII detector with a CsI target added between the beam pipe and the detector. The BESIII Monte Carlo simulation with varying thicknesses of CsI target is used to validate the approach and optimize the target thickness. Selecting $pπ^-$ charged particle tracks from the Monte Carlo we obtain clean antineutron samples with well defined momentum and direction. The selection efficiency, momentum and angular resolutions, as well as the interaction probability between antineutron and the CsI target are estimated.
+  As the CsI thickness is increased more antineutron CsI interactions are obtained,however the quality of the $pπ^-$ selection is degraded. The Monte Carlo study yields an optimum thickness that balances these effects. This approach can be applied to similar experiments with other types of target materials to measure baryons such as liquid hydrogen/deuterium and $Λ/Ξ$ hyperons.</summary>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-03T02:14:52Z</published>
+    <arxiv:primary_category term="hep-ex"/>
+    <author>
+      <name>Si-Cheng Yuan</name>
+    </author>
+    <author>
+      <name>Liang-Liang Wang</name>
+    </author>
+    <author>
+      <name>Wei-Dong Li</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/astro-ph/0108208v2</id>
+    <title>Double-Peaked X-Ray Lines from the Oxygen/Neon-Rich Accretion Disk in 4U1626-67</title>
+    <updated>2001-10-31T21:24:07Z</updated>
+    <link href="https://arxiv.org/abs/astro-ph/0108208v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/astro-ph/0108208v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We report on a 39 ks observation of the 7.7-s low-mass X-ray binary pulsar 4U1626-67 with the High Energy Transmission Grating Spectrometer (HETGS) on the Chandra X-Ray Observatory. This ultracompact system consists of a disk-accreting magnetic neutron star and a very low mass, hydrogen-depleted companion in a 42-min binary. We have resolved the previously reported Ne/O emission line complex near 1 keV into Doppler pairs of broadened (2500 km/s FWHM) lines from highly ionized Ne and O. In most cases, the blue and red line components are of comparable strength, with blueshifts of 1550-2610 km/s and redshifts of 770-1900 km/s. The lines appear to originate in hot (10^6 K), dense material just below the X-ray-heated skin of the outer Keplerian accretion disk, or else possibly in a disk wind driven from the pulsar's magnetopause. The observed photoelectric absorption edges of Ne and O appear nearly an order of magnitude stronger than expected from interstellar material and are likely formed in cool, metal-rich material local to the source. Based on the inferred local abundance ratios, we argue that the mass donor in this binary is probably the 0.02 M_sun chemically fractionated core of a C-O-Ne or O-Ne-Mg white dwarf which has previously crystallized.</summary>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2001-08-12T22:23:23Z</published>
+    <arxiv:comment>9 pages. Accepted for publication in ApJ. Table 2 corrected</arxiv:comment>
+    <arxiv:primary_category term="astro-ph"/>
+    <author>
+      <name>Norbert S. Schulz</name>
+      <arxiv:affiliation>MIT</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Deepto Chakrabarty</name>
+      <arxiv:affiliation>MIT</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Herman L. Marshall</name>
+      <arxiv:affiliation>MIT</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Claude R. Canizares</name>
+      <arxiv:affiliation>MIT</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Julia C. Lee</name>
+      <arxiv:affiliation>MIT</arxiv:affiliation>
+    </author>
+    <author>
+      <name>John Houck</name>
+      <arxiv:affiliation>MIT</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1086/323988</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1086/323988" title="doi"/>
+  </entry>
+</feed>

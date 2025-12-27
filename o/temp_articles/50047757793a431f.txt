@@ -1,0 +1,33 @@
+TERMS: hydrogen, electron, neutrino, singularity
+COLORS: purple, green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/2DxMH7MUAv5RDkb11OiCdRqYZNI</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:electron AND all:neutrino AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:57:16Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:electron+AND+(all:neutrino+AND+all:singularity))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1711.03700v3</id>
+    <title>Probing "long-range" neutrino-mediated forces with atomic and nuclear spectroscopy</title>
+    <updated>2018-05-09T07:27:02Z</updated>
+    <link href="https://arxiv.org/abs/1711.03700v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1711.03700v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The exchange of a pair of low-mass neutrinos between electrons, protons and neutrons produces a "long-range" $1/r^5$ potential, which can be sought for in phenomena originating on the atomic and sub-atomic length scales. We calculate the effects of neutrino-pair exchange on transition and binding energies in atoms and nuclei. In the case of atomic s-wave states, there is a large enhancement of the induced energy shifts due to the lack of a centrifugal barrier and the highly singular nature of the neutrino-mediated potential. We derive limits on neutrino-mediated forces from measurements of the deuteron binding energy and transition energies in positronium, muonium, hydrogen and deuterium, as well as isotope-shift measurements in calcium ions. Our limits improve on existing constraints on neutrino-mediated forces from experiments that search for new macroscopic forces by 18 orders of magnitude. Future spectroscopy experiments have the potential to probe long-range forces mediated by the exchange of pairs of standard-model neutrinos and other weakly-charged particles.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-11-10T05:32:08Z</published>
+    <arxiv:comment>6 pages, 1 figure, version accepted to PRL</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 120, 223202 (2018)</arxiv:journal_ref>
+    <author>
+      <name>Yevgeny V. Stadnik</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.120.223202</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.120.223202" title="doi"/>
+  </entry>
+</feed>

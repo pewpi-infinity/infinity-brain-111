@@ -1,0 +1,37 @@
+TERMS: fusion, tachyon, boson
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/OYF/iISDY7bq3fAw2XELKj2f1d0</id>
+  <title>arXiv Query: search_query=all:fusion AND all:tachyon AND all:boson&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:21:55Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:fusion+AND+(all:tachyon+AND+all:boson)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/0401024v3</id>
+    <title>Threshold corrections to m_b and the b\bar{b} -&gt; H^0_i production in CP-violating SUSY scenarios</title>
+    <updated>2004-07-01T14:42:49Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/0401024v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/0401024v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The inclusion of supersymmetric threshold corrections to the $b$-quark mass has dramatic consequences in scenarios with large CP-mixing effects in the Higgs sector. In particular, when the phase of the combination $M_{\tilde{g}}μ$ is $\sim 180^{\rm o} \pm 30^{\rm o}$, the lightest-sbottom squark becomes tachyonic and, possibly, the $b$-quark Yukawa coupling nonperturbative for values of $\tan β$ ranging from intermediate up to large or very large, depending on the size of $arg(A_tμ)$, $arg(A_bμ)$, and the details of the spectrum. For these scenarios, when allowed, as well as scenarios with different values of $arg(M_{\tilde{g}}μ)$, the cross sections for the production of the three neutral-Higgs bosons through $b$-quark have rather interesting dependences on $arg(A_tμ)$ and $arg(A_bμ)$, and the deviations induced by the $m_b$ corrections are rather large. In general, such production channel cannot be neglected with respect to the production through gluon fusion. For large CP-mixing effects, the lightest neutral-Higgs boson can be mainly CP odd and the $b$-quark fusion becomes its main production mechanism. Searches at the Tevatron and the LHC can easily detect such a Higgs boson, or constrain the CP-violating scenarios that allow it.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-01-06T16:23:46Z</published>
+    <arxiv:comment>1+15 pages, 5 figures, References added. Extended discussion of the b-b-Higgs couplings, to appear in Phys. Lett. B</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Phys.Lett. B595 (2004) 347-358</arxiv:journal_ref>
+    <author>
+      <name>Francesca Borzumati</name>
+    </author>
+    <author>
+      <name>Jae Sik Lee</name>
+    </author>
+    <author>
+      <name>Wan Young Song</name>
+    </author>
+    <arxiv:doi>10.1016/j.physletb.2004.06.040</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physletb.2004.06.040" title="doi"/>
+  </entry>
+</feed>

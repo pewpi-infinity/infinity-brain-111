@@ -1,0 +1,91 @@
+TERMS: quantum, vapor, ionization
+COLORS: blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/6oLb/avDWNedwdpK3vljLpxN2UA</id>
+  <title>arXiv Query: search_query=all:quantum AND all:vapor AND all:ionization&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:07:05Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:vapor+AND+all:ionization)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>16</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1209.6550v1</id>
+    <title>Electrical read out for coherent phenomena involving Rydberg atoms in thermal vapor cells</title>
+    <updated>2012-09-28T15:43:57Z</updated>
+    <link href="https://arxiv.org/abs/1209.6550v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1209.6550v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a very sensitive and scalable method to measure the population of highly excited Rydberg states in a thermal vapor cell of rubidium atoms. We detect the Rydberg ionization current in a 5 mm electrically contacted cell. The measured current is found to be in excellent agreement with a theory for the Rydberg population based on a master equation for the three level problem including an ionization channel and the full Doppler distributions at the corresponding temperatures. The signal-to-noise ratio of the current detection is substantially better than purely optical techniques.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-09-28T15:43:57Z</published>
+    <arxiv:comment>4 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>D. Barredo</name>
+    </author>
+    <author>
+      <name>H. Kübler</name>
+    </author>
+    <author>
+      <name>R. Daschner</name>
+    </author>
+    <author>
+      <name>R. Löw</name>
+    </author>
+    <author>
+      <name>T. Pfau</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.110.123002</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.110.123002" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1601.02535v1</id>
+    <title>Optical measurements of strong microwave fields with Rydberg atoms in a vapor cell</title>
+    <updated>2016-01-11T17:34:40Z</updated>
+    <link href="https://arxiv.org/abs/1601.02535v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1601.02535v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a spectral analysis of Rydberg atoms in strong microwave fields using electromagnetically induced transparency (EIT) as an all-optical readout. The measured spectroscopic response enables optical, atom-based electric field measurements of high-power microwaves. In our experiments, microwaves are irradiated into a room-temperature rubidium vapor cell. The microwaves are tuned near the two-photon 65D-66D Rydberg transition and reach an electric field strength of 230V/m, about 20% of the microwave ionization threshold of these atoms. A Floquet treatment is used to model the Rydberg level energies and their excitation rates. We arrive at an empirical model for the field-strength distribution inside the spectroscopic cell that yields excellent overall agreement between the measured and calculated Rydberg EIT-Floquet spectra. Using spectral features in the Floquet maps we achieve an absolute strong-field measurement precision of 6%.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-01-11T17:34:40Z</published>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <arxiv:journal_ref>Phys. Rev. Applied 5, 034003 (2016)</arxiv:journal_ref>
+    <author>
+      <name>David A. Anderson</name>
+    </author>
+    <author>
+      <name>Stephanie A. Miller</name>
+    </author>
+    <author>
+      <name>Joshua A. Gordon</name>
+    </author>
+    <author>
+      <name>Miranda L. Butler</name>
+    </author>
+    <author>
+      <name>Christopher L. Holloway</name>
+    </author>
+    <author>
+      <name>Georg Raithel</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevApplied.5.034003</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevApplied.5.034003" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2106.05178v1</id>
+    <title>The first droplet in a cloud chamber track</title>
+    <updated>2021-03-15T14:19:17Z</updated>
+    <link href="https://arxiv.org/abs/2106.05178v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2106.05178v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In a cloud chamber, the quantum measurement problem amounts to explaining the first droplet in a charged-particle track; subsequent droplets are explained by Mott's 1929 wave-theoretic argument about collision-induced wavefunction collimation. I formulate a mechanism for how the first droplet in a cloud chamber track arises, making no reference to quantum measurement axioms. I look specifically at tracks of charged particles emitted in the simplest slow decays, because I can reason about rather than guess the form that wave packets take. The first visible droplet occurs when a randomly occurring, barely-subcritical vapor droplet is pushed past criticality by ionization triggered by the faint wavefunction of the emitted charged particle. This is possible because potential energy incurred when an ionized vapor molecule polarizes the other molecules in a droplet can balance the excitation energy needed for the emitted charged particle to create the ion in the first place. This degeneracy is a singular condition for Coulombic scattering, leading to infinite or near-infinite ionization cross sections, and from there to an emergent Born rule in position space, but not an operator projection as in the projection postulate. Analogous mechanisms may explain canonical quantum measurement behavior in detectors such as ionization chambers, proportional counters, photomultiplier tubes or bubble chambers. This work is important because attempts to understand canonical quantum measurement behavior and its limitations have become urgent in view of worldwide investment in quantum computing and in searches for super-rare process (e.g., proton decay).</summary>
+    <category term="physics.gen-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-03-15T14:19:17Z</published>
+    <arxiv:comment>This paper has been accepted by "Foundations of Physics"</arxiv:comment>
+    <arxiv:primary_category term="physics.gen-ph"/>
+    <author>
+      <name>Jonathan F. Schonfeld</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,75 @@
+TERMS: lattice, entropy, electron
+COLORS: orange, red, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/xkWMyli8d7ElqyC6Fe0XPbVUjak</id>
+  <title>arXiv Query: search_query=all:lattice AND all:entropy AND all:electron&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:13:14Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:entropy+AND+all:electron)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>264</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2411.05944v1</id>
+    <title>6 -- X-ray absorption spectroscopy in high-entropy material research</title>
+    <updated>2024-11-08T20:10:10Z</updated>
+    <link href="https://arxiv.org/abs/2411.05944v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.05944v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This chapter introduces the use of X-ray absorption spectroscopy (XAS) in studying the local electronic and atomic structure of high-entropy materials. The element selectivity of XAS makes it particularly suitable to address the challenges posed by the study of multicomponent compounds. By analysing different parts of the X-ray absorption spectra for each element, one can obtain information on its chemical state from the X-ray absorption near-edge structure (XANES) and its local environment, distortions, and lattice dynamics from the extended X-ray absorption fine structure (EXAFS). The theoretical background underlying X-ray absorption spectra and existing data analysis procedures are briefly described, with particular emphasis on advanced atomistic modelling techniques that enable more reliable extraction of structural information. Finally, an overview of the applications of the XAS technique in studying high-entropy materials is presented.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-08T20:10:10Z</published>
+    <arxiv:comment>Chpt 6 of "High-Entropy Alloys: Design, Manufacturing, and Emerging Applications"</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>in High-Entropy Alloys: Design, Manufacturing, and Emerging Applications, G. Yasin, M. Abubaker Khan, M. Afifi, T. Anh Nguyen, Y. Zhang (Eds.), pp. 121-155 (Elsevier, 2024)</arxiv:journal_ref>
+    <author>
+      <name>Alexei Kuzmin</name>
+    </author>
+    <arxiv:doi>10.1016/B978-0-443-22142-2.00006-5</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/B978-0-443-22142-2.00006-5" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2408.10314v1</id>
+    <title>Entanglement entropy in lattice models with quantum metric</title>
+    <updated>2024-08-19T18:00:03Z</updated>
+    <link href="https://arxiv.org/abs/2408.10314v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2408.10314v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We revisit the connection between entanglement entropy and quantum metric in topological lattice systems, and provide an elegant and concise proof of this connection. In gapped two-dimensional lattice models with well-defined tight-binding Hamiltonians, we show that the entanglement entropy is intimately related to the quantum metric of electronic states.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-08-19T18:00:03Z</published>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <author>
+      <name>Alexander Kruchkov</name>
+    </author>
+    <author>
+      <name>Shinsei Ryu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0408084v1</id>
+    <title>Rietveld refinement and electron density distribution in CuxV2O5</title>
+    <updated>2004-08-04T09:17:53Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0408084v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0408084v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Room temperature powder x-ray diffraction measurements have been carried out on polycrystalline samples of CuxV2O5 with x = 0.33, 0.40, 0.50, 0.55 and 0.60, prepared by solid state reaction in evacuated quartz tubes. All the samples were found to be in single-phase monoclinic structure. Rietveld full profile refinement of the x-ray diffraction data yielded the lattice parameters and fractional atom coordinates. Maximum entropy inversion of the diffraction data was done in order to obtain the variation in the spatial electron density distribution as a function of copper composition. These density maps show progressive positional and charge disorders in the V-O network induced by addition of copper. It is shown that the electrons donated by copper atoms are transferred to the specific vanadium atom sites.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-08-04T09:17:53Z</published>
+    <arxiv:comment>9 pages, 6 figures and 2 tables. Discusses changes in electron density distribution in copper vanadates upon increasing copper intercalation</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>R. Nithya</name>
+    </author>
+    <author>
+      <name>Sharat Chandra</name>
+    </author>
+    <author>
+      <name>G. L. N. Reddy</name>
+    </author>
+    <author>
+      <name>H. K. Sahu</name>
+    </author>
+    <author>
+      <name>V. Sankara Sastry</name>
+    </author>
+  </entry>
+</feed>

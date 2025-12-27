@@ -1,0 +1,90 @@
+TERMS: electron, resonance
+COLORS: green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/WbmHU2IYE/DoEb9l+wNhs5lBurE</id>
+  <title>arXiv Query: search_query=all:electron AND all:resonance&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T00:58:36Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:electron+AND+all:resonance&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>14355</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/0910.5504v1</id>
+    <title>Multipurpose High Frequency Electron Spin Resonance Spectrometer for Condensed Matter Research</title>
+    <updated>2009-10-29T12:15:18Z</updated>
+    <link href="https://arxiv.org/abs/0910.5504v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0910.5504v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We describe a quasi-optical multifrequency ESR spectrometer operating in the 75-225 GHz range and optimized at 210 GHz for general use in condensed matter physics, chemistry and biology. The quasi-optical bridge detects the change of mm wave polarization at the ESR. A controllable reference arm maintains a mm wave bias at the detector. The attained sensitivity of 2x10^10 spin/G/(Hz)1/2, measured on a dilute Mn:MgO sample in a non-resonant probe head at 222.4 GHz and 300 K, is comparable to commercial high sensitive X band spectrometers. The spectrometer has a Fabry-Perot resonator based probe head to measure aqueous solutions, and a probe head to measure magnetic field angular dependence of single crystals. The spectrometer is robust and easy to use and may be operated by undergraduate students. Its performance is demonstrated by examples from various fields of condensed matter physics.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-10-29T12:15:18Z</published>
+    <arxiv:comment>submitted to Journal of Magnetic Resonance</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>Applied Magnetic Resonance 40, 47-63 (2011)</arxiv:journal_ref>
+    <author>
+      <name>Kalman L Nagy</name>
+    </author>
+    <author>
+      <name>Dario Quintavalle</name>
+    </author>
+    <author>
+      <name>Titusz Feher</name>
+    </author>
+    <author>
+      <name>Andras Janossy</name>
+    </author>
+    <arxiv:doi>10.1007/s00723-010-0182-4</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00723-010-0182-4" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1510.04779v3</id>
+    <title>Randomized benchmarking of quantum gates implemented by electron spin resonance</title>
+    <updated>2016-04-21T16:26:30Z</updated>
+    <link href="https://arxiv.org/abs/1510.04779v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1510.04779v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Spin systems controlled and probed by magnetic resonance have been valuable for testing the ideas of quantum control and quantum error correction. This paper introduces an X-band pulsed electron spin resonance spectrometer designed for high-fidelity coherent control of electron spins, including a loop-gap resonator for sub-millimeter sized samples with a control bandwidth ~ 40 MHz. Universal control is achieved by a single-sideband upconversion technique with an I-Q modulator and a 1.2 GS/s arbitrary waveform generator. A single qubit randomized benchmarking protocol quantifies the average errors of Clifford gates implemented by simple Gaussian pulses, using a sample of gamma-irradiated quartz. Improvements in unitary gate fidelity are achieved through phase transient correction and hardware optimization. A preparation pulse sequence that selects spin packets in a narrowed distribution of static fields confirms that inhomogeneous dephasing (1/T2*) is the dominant source of gate error. The best average fidelity over the Clifford gates obtained here is 99.2%, which serves as a benchmark to compare with other technologies.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-10-16T05:22:41Z</published>
+    <arxiv:comment>14 pages, 12 figures. Updated version. Accepted for publication in Journal of Magnetic Resonance</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Daniel K. Park</name>
+    </author>
+    <author>
+      <name>Guanru Feng</name>
+    </author>
+    <author>
+      <name>Robabeh Rahimi</name>
+    </author>
+    <author>
+      <name>Jonathan Baugh</name>
+    </author>
+    <author>
+      <name>Raymond Laflamme</name>
+    </author>
+    <arxiv:doi>10.1016/j.jmr.2016.04.010</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.jmr.2016.04.010" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1606.08830v1</id>
+    <title>Single Spin Magnetic Resonance</title>
+    <updated>2016-06-28T19:31:12Z</updated>
+    <link href="https://arxiv.org/abs/1606.08830v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1606.08830v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Different approaches have improved the sensitivity of either electron or nuclear magnetic resonance to the single spin level. For optical detection it has essentially become routine to observe a single electron spin or nuclear spin. Typically, the systems in use are carefully designed to allow for single spin detection and manipulation, and of those systems, diamond spin defects rank very high, being so robust that they can be addressed, read out and coherently controlled even under ambient conditions and in a versatile set of nanostructures. This renders them as a new type of sensor, which has been shown to detect single electron and nuclear spins among other quantities like force, pressure and temperature. Adapting pulse sequences from classic NMR and EPR, and combined with high resolution optical microscopy, proximity to the target sample and nanoscale size, the diamond sensors have the potential to constitute a new class of magnetic resonance detectors with single spin sensitivity. As diamond sensors can be operated under ambient conditions, they offer potential application across a multitude of disciplines. Here we review the different existing techniques for magnetic resonance, with a focus on diamond defect spin sensors, showing their potential as versatile sensors for ultra-sensitive magnetic resonance with nanoscale spatial resolution.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-06-28T19:31:12Z</published>
+    <arxiv:comment>To appear as "Perspectives" in the Journal of Magnetic Resonance</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>Jörg Wrachtrup</name>
+    </author>
+    <author>
+      <name>Amit Finkler</name>
+    </author>
+    <arxiv:doi>10.1016/j.jmr.2016.06.017</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.jmr.2016.06.017" title="doi"/>
+  </entry>
+</feed>

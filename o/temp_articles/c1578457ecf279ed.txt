@@ -1,0 +1,95 @@
+TERMS: resonance, bandgap, probability
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/3WAQLgaZbSm3z8rwv24reoU9WuY</id>
+  <title>arXiv Query: search_query=all:resonance AND all:bandgap AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:35:36Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:resonance+AND+(all:bandgap+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>6</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1804.07666v1</id>
+    <title>Strong Band-Edge Light Emission from InGaAs RTDs: Evidence for the Universal Nature of Resonant- and Zener- Co-Tunneling</title>
+    <updated>2018-04-20T15:20:28Z</updated>
+    <link href="https://arxiv.org/abs/1804.07666v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1804.07666v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We report strong light emission from a room-temperature n-type unipolar-doped In0.53Ga0.47As/AlAs double-barrier resonant-tunneling diode (DBRTD) precisely at the In0.53Ga0.47As band-edge near 1650 nm. The emission characteristics are very similar to what was observed recently in GaN/AlN DBRTDs, both of which suggest that the mechanism for emission is cross-gap electron-hole recombination via resonant- and Zener co-tunneling of electrons, the latter mechanism generating the required holes. Analysis shows that because of the relatively small bandgap, the Zener tunneling probability can be large in this In0.53Ga0.47As/AlAs DBRTD, and is a mechanism that may have been overlooked in the longstanding literature. The universal nature of the co-tunneling is best supported by the factor (EG)2/F in the Kane tunneling probability, which is nearly the same at the peak voltage of the In0.53Ga0.47As and GaN DBRTDs.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-04-20T15:20:28Z</published>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>E. R. Brown</name>
+    </author>
+    <author>
+      <name>W-D. Zhang</name>
+    </author>
+    <author>
+      <name>T. A. Growden</name>
+    </author>
+    <author>
+      <name>P. R. Berger</name>
+    </author>
+    <author>
+      <name>R. Droopad</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0607277v3</id>
+    <title>Quantum Theory of a Resonant Photonic Crystal</title>
+    <updated>2007-06-27T19:27:27Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0607277v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0607277v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We present a quantum model of two-level atoms localized in a 3D lattice, based on the Hopfield theory of exciton polaritons. In addition to a polaritonic gap at the exciton energy, a photonic bandgap opens up at the Brillouin zone boundary. Upon tuning the lattice period or angle of incidence to match the photonic gap with the exciton energy, one obtains a combined polaritonic and photonic gap as a generalization of Rabi splitting. For typical experimental parameters, the size of the combined gap is on the order of 25 cm^{-1}, up to 10^5 times the detuned gap size. The dispersion curve contains a branch supporting slow-light modes with vanishing exciton probability density.</summary>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-07-11T15:02:52Z</published>
+    <arxiv:comment>4 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.other"/>
+    <arxiv:journal_ref>Phys. Rev. B 75, 235124 (2007)</arxiv:journal_ref>
+    <author>
+      <name>Y. D. Chong</name>
+    </author>
+    <author>
+      <name>David E. Pritchard</name>
+    </author>
+    <author>
+      <name>Marin Soljacic</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.75.235124</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.75.235124" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1112.4126v1</id>
+    <title>Bright single photon emission from a quantum dot in a circular Bragg grating microcavity</title>
+    <updated>2011-12-18T07:53:23Z</updated>
+    <link href="https://arxiv.org/abs/1112.4126v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1112.4126v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Bright single photon emission from single quantum dots in suspended circular Bragg grating microcavities is demonstrated. This geometry has been designed to achieve efficient (&gt; 50 %) single photon extraction into a near-Gaussian shaped far-field pattern, modest (~10x) Purcell enhancement of the radiative rate, and a spectral bandwidth of a few nanometers. Measurements of fabricated devices show progress towards these goals, with collection efficiencies as high as ~10% demonstrated with moderate spectral bandwidth and rate enhancement. Photon correlation measurements are performed under above-bandgap excitation (pump wavelength = 780 nm to 820 nm) and confirm the single photon character of the collected emission. While the measured sources are all antibunched and dominantly composed of single photons, the multi-photon probability varies significantly. Devices exhibiting tradeoffs between collection efficiency, Purcell enhancement, and multi-photon probability are explored and the results are interpreted with the help of finite-difference time-domain simulations. Below-bandgap excitation resonant with higher states of the quantum dot and/or cavity (pump wavelength = 860 nm to 900 nm) shows a near-complete suppression of multi-photon events and may circumvent some of the aforementioned tradeoffs.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-12-18T07:53:23Z</published>
+    <arxiv:comment>11 pages, 12 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>IEEE Journal of Selected Topics in Quantum Electronics, Vol. 18, No.6, 1711 (2012)</arxiv:journal_ref>
+    <author>
+      <name>Serkan Ates</name>
+    </author>
+    <author>
+      <name>Luca Sapienza</name>
+    </author>
+    <author>
+      <name>Marcelo Davanco</name>
+    </author>
+    <author>
+      <name>Antonio Badolato</name>
+    </author>
+    <author>
+      <name>Kartik Srinivasan</name>
+    </author>
+    <arxiv:doi>10.1109/JSTQE.2012.2193877</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/JSTQE.2012.2193877" title="doi"/>
+  </entry>
+</feed>

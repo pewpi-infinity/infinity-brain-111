@@ -1,0 +1,75 @@
+TERMS: fusion, superconductivity, spin
+COLORS: green, green, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/nI7sPtuInoGeh7rX5uxpcLdr4aY</id>
+  <title>arXiv Query: search_query=all:fusion AND all:superconductivity AND all:spin&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:20:47Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:fusion+AND+(all:superconductivity+AND+all:spin)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>17</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2409.17813v1</id>
+    <title>Spin-Dependent Signatures of Majorana Vortex Fusion within Planar Josephson Junctions</title>
+    <updated>2024-09-26T13:10:50Z</updated>
+    <link href="https://arxiv.org/abs/2409.17813v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2409.17813v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate the magnetic characteristics and tunnelling signatures of a planar Josephson junction with Rashba spin-orbit coupling during the fusion of two Majorana vortices. By employing the topological phase diagram and conducting tight-binding simulations of the proposed device, we demonstrate that this fusion process induces a parity-dependent magnetic moment aligned with the junction axis. We further propose a method to probe the spin properties of the fusing Majorana zero modes through spin-resolved Andreev conductance measurements at the junction endpoints. To support our findings, we derive a low-energy effective Hamiltonian that provides a detailed microscopic description of the numerically observed phenomena. Our analysis enables the detection of Majorana fusion outcome from accessible spin current measurements, thus paving the way for future experimental verification and potential applications in topological quantum computation.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-09-26T13:10:50Z</published>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>Krishnan Ganesh</name>
+    </author>
+    <author>
+      <name>Derek K. K. Lee</name>
+    </author>
+    <author>
+      <name>Jiannis K. Pachos</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2401.01051v1</id>
+    <title>Braiding and fusion of Majorana fermions in minimal Kitaev spin liquid on a single hexagon with $5$ qubits</title>
+    <updated>2024-01-02T06:21:35Z</updated>
+    <link href="https://arxiv.org/abs/2401.01051v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.01051v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate the minimal Kitaev spin liquid on a single hexagon with three Ising-type exchange interactions proportional to $K_{x}$, $K_{y}$ and $K_{z}$. In the limit $K_{z}=0$, we find 32-fold zero-energy states, leading to 10 free Majorana fermions, and hence, 5 qubits are constructed. These qubits are protected by particle-hole symmetry even for $K_{z}\neq 0$. Braiding of these Majorana fermions is possible by temporally controlling a spin-correlation Hamiltonian. In addition, the fusion is possible by measuring the spin correlation. By switching on the Heisenberg interaction together with magnetic field, only one zero-energy state persists, which can be used as an initialization of qubits. Furthermore, it is shown that $3L+2$ qubits are constructed on the Kitaev spin liquid model on connected $L$ hexagons. All the processes of initialization, operation and readout of qubits are executable in terms of spin operators.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-02T06:21:35Z</published>
+    <arxiv:comment>5 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <author>
+      <name>Motohiko Ezawa</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2205.13348v1</id>
+    <title>Interplay of quantum spin Hall effect and spontaneous time-reversal symmetry breaking in electron-hole bilayers II: Zero-field topological superconductivity</title>
+    <updated>2022-05-26T13:26:46Z</updated>
+    <link href="https://arxiv.org/abs/2205.13348v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2205.13348v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>It has been proposed that band-inverted electron-hole bilayers support a phase transition from an insulating phase with spontaneously broken time-reversal symmetry to a quantum spin Hall insulator phase as a function of increasing electron and hole densities. Here, we show that in the presence of proximity-induced superconductivity it is possible to realize Majorana zero modes in the time-reversal symmetry broken phase in the absence of magnetic field. We develop an effective low-energy theory for the system in the presence of time-reversal symmetry breaking order parameter to obtain analytically the Majorana zero modes and we find a good agreement between the numerical and analytical results in the limit of weakly broken time-reversal symmetry. We show that the Majorana zero modes can be detected in superconductor/time-reversal symmetry broken insulator/superconductor Josephson junctions through the measurement of a $4π$ Josephson current. Finally, we demonstrate that the Majorana fusion-rule detection is feasible by utilizing the gate voltage dependence of the spontaneous time-reversal symmetry breaking order parameter.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-05-26T13:26:46Z</published>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Phys. Rev. B 106, 235421 (2022)</arxiv:journal_ref>
+    <author>
+      <name>Tania Paul</name>
+    </author>
+    <author>
+      <name>V. Fernández Becerra</name>
+    </author>
+    <author>
+      <name>Timo Hyart</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.106.235421</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.106.235421" title="doi"/>
+  </entry>
+</feed>

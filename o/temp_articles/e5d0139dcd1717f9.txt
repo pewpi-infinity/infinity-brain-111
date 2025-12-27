@@ -1,0 +1,85 @@
+TERMS: lattice, wavefunction, boson
+COLORS: orange, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/zaQ7vSWRwns51FiSRVXHakMxBvQ</id>
+  <title>arXiv Query: search_query=all:lattice AND all:wavefunction AND all:boson&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:15:26Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:wavefunction+AND+all:boson)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>99</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2401.14004v3</id>
+    <title>Lattice-induced wavefunction effects on trapped superfluids</title>
+    <updated>2024-08-02T07:23:55Z</updated>
+    <link href="https://arxiv.org/abs/2401.14004v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.14004v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Wavefunction effects in uncorrelated systems are characterized by the Berry curvature and quantum metric. Beyond those, we propose gauge-independent tensors describing Bloch wavefunction effects on local interaction between correlated particles. We derive an effective hydrodynamic theory for ultracold bosons in optical lattices. Ground states and collective modes of superfluids in isotropic harmonic traps are solved for highly symmetric lattices. In a dynamic process, the wavefunction effects are featured by the eigenfrequency, amplitude, and phase shift of an excited breathing mode and can be observed in experiments. We also give a tight-binding model of a bipartite square lattice with nontrivial wavefunction effects, where results are estimated with typical experimental parameters. Our discovery advances the connections between the modern band theory and quantum many-body physics.</summary>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-25T08:04:47Z</published>
+    <arxiv:comment>16 pages</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.quant-gas"/>
+    <arxiv:journal_ref>Phys. Rev. A 110, 033310 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Yeyang Zhang</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.110.033310</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.110.033310" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0801.0791v2</id>
+    <title>Variational wavefunction study of the triangular lattice supersolid</title>
+    <updated>2008-01-09T08:35:22Z</updated>
+    <link href="https://arxiv.org/abs/0801.0791v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0801.0791v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We present a variational wavefunction which explains the behaviour of the supersolid state formed by hard-core bosons on the triangular lattice. The wavefunction is a linear superposition of {\em only and all} configurations minimising the repulsion between the bosons (which it thus implements as a hard constraint). Its properties can be evaluated exactly--in particular, the variational minimisation of the energy yields (i) the surprising and initially controversial spontaneous density deviation from half-filling (ii) a quantitatively accurate estimate of the corresponding density wave (solid) order parameter.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-01-07T05:06:14Z</published>
+    <arxiv:comment>4 pages, 2-column PRL format; v2: minor typos fixed</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 100, 147204 (2008)</arxiv:journal_ref>
+    <author>
+      <name>Arnab Sen</name>
+    </author>
+    <author>
+      <name>Prasenjit Dutt</name>
+    </author>
+    <author>
+      <name>Kedar Damle</name>
+    </author>
+    <author>
+      <name>R. Moessner</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.100.147204</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.100.147204" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1605.02698v2</id>
+    <title>Variational Monte Carlo method for the Baeriswyl wavefunction: application to the one-dimensional bosonic Hubbard model</title>
+    <updated>2016-05-26T05:34:53Z</updated>
+    <link href="https://arxiv.org/abs/1605.02698v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1605.02698v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A variational Monte Carlo method for bosonic lattice models is introduced. The method is based on the Baeriswyl projected wavefunction. The Baeriswyl wavefunction consists of a kinetic energy based projection applied to the wavefunction at infinite interaction, and is related to the shadow wavefunction already used in the study of continuous models of bosons. The wavefunction at infinite interaction, and the projector, are represented in coordinate space, leading to an expression for expectation values which can be evaluated via Monte Carlo sampling. We calculate the phase diagram and other properties of the bosonic Hubbard model. The calculated phase diagram is in excellent agreement with known quantum Monte Carlo results. We also analyze correlation functions.</summary>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-05-05T11:00:23Z</published>
+    <arxiv:comment>minor changes compared to previous version</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.quant-gas"/>
+    <arxiv:journal_ref>Phys. Rev B vol. 93 art.174518 (2016)</arxiv:journal_ref>
+    <author>
+      <name>B. Hetényi</name>
+    </author>
+    <author>
+      <name>B. Tanatar</name>
+    </author>
+    <author>
+      <name>L. M. Martelo</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.93.174518</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.93.174518" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,74 @@
+TERMS: lattice, probability
+COLORS: orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/TY1P6J0Tit/VC0jYUSGWKPRpiy0</id>
+  <title>arXiv Query: search_query=all:lattice AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T00:57:46Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+all:probability&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>6218</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1110.2690v2</id>
+    <title>Random Matrix Models for Dirac Operators at finite Lattice Spacing</title>
+    <updated>2012-02-08T17:22:16Z</updated>
+    <link href="https://arxiv.org/abs/1110.2690v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1110.2690v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study discretization effects of the Wilson and staggered Dirac operator with $N_{\rm c}&gt;2$ using chiral random matrix theory (chRMT). We obtain analytical results for the joint probability density of Wilson-chRMT in terms of a determinantal expression over complex pairs of eigenvalues, and real eigenvalues corresponding to eigenvectors of positive or negative chirality as well as for the eigenvalue densities. The explicit dependence on the lattice spacing can be readily read off from our results which are compared to numerical simulations of Wilson-chRMT. For the staggered Dirac operator we have studied random matrices modeling the transition from non-degenerate eigenvalues at non-zero lattice spacing to degenerate ones in the continuum limit.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-10-12T16:26:12Z</published>
+    <arxiv:comment>7 pages, 6 figures, Proceedings for the XXIX International Symposium on Lattice Field Theory, July 10 -- 16 2011, Squaw Valley, Lake Tahoe, California, PACS: 12.38.Gc, 05.50.+q, 02.10.Yn, 11.15.Ha</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>PoS LATTICE 2011, 312 (2011)</arxiv:journal_ref>
+    <author>
+      <name>Mario Kieburg</name>
+    </author>
+    <author>
+      <name>Jacobus J. M. Verbaarschot</name>
+    </author>
+    <author>
+      <name>Savvas Zafeiropoulos</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0410336v2</id>
+    <title>The critical probability for random Voronoi percolation in the plane is 1/2</title>
+    <updated>2005-09-27T23:26:48Z</updated>
+    <link href="https://arxiv.org/abs/math/0410336v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0410336v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We study percolation in the following random environment: let $Z$ be a Poisson process of constant intensity in the plane, and form the Voronoi tessellation of the plane with respect to $Z$. Colour each Voronoi cell black with probability $p$, independently of the other cells. We show that the critical probability is 1/2. More precisely, if $p&gt;1/2$ then the union of the black cells contains an infinite component with probability 1, while if $p&lt;1/2$ then the distribution of the size of the component of black cells containing a given point decays exponentially. These results are analogous to Kesten's results for bond percolation in the square lattice.
+  The result corresponding to Harris' Theorem for bond percolation in the square lattice is known: Zvavitch noted that one of the many proofs of this result can easily be adapted to the random Voronoi setting. For Kesten's results, none of the existing proofs seems to adapt. The methods used here also give a new and very simple proof of Kesten's Theorem for the square lattice; we hope they will be applicable in other contexts as well.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-10-14T17:29:05Z</published>
+    <arxiv:comment>55 pages, 20 figures; minor changes; to appear in Probability Theory and Related Fields</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <arxiv:journal_ref>Probability Theory and Related Fields 136 (2006), pp 417--468.</arxiv:journal_ref>
+    <author>
+      <name>Bela Bollobas</name>
+    </author>
+    <author>
+      <name>Oliver Riordan</name>
+    </author>
+    <arxiv:doi>10.1007/s00440-005-0490-z</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00440-005-0490-z" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2112.10146v1</id>
+    <title>Particle density probability distribution function and center symmetry breaking in finite density lattice gauge theories</title>
+    <updated>2021-12-19T13:30:10Z</updated>
+    <link href="https://arxiv.org/abs/2112.10146v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2112.10146v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the nature of the phase transition at high temperature and high density in lattice gauge theories by focusing on the probability distribution function, which represents the probability that a certain density will be realized in a heat bath. The probability distribution function is obtained by constructing a canonical partition function by fixing the number of particles from the grand partition function. However, if the Z3 center symmetry, which is important for understanding the finite temperature phase transition of SU(3) lattice gauge theory, is maintained on a finite lattice, the probability distribution function is always zero, except when the number of particles is a multiple of 3. For U(1) gauge theory, this problem is more extreme. The probability distribution becomes zero when the particle number is not zero. In this study, we find a solution to this problem and propose a method of avoiding the sign problem, which is an important problem at finite density, using the center symmetry. This problem is essentially the same as the problem that the expectation value of the Polyakov loop is always zero when calculating with finite volume. In the case of U(1) lattice gauge theory with heavy fermions, numerical simulations are actually performed, and we demonstrate that the probability distribution function at a finite density can be calculated by the method proposed in this study.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-12-19T13:30:10Z</published>
+    <arxiv:comment>9 pages, 7 figures, the 38th International Symposium on Lattice Field Theory, Lattice 2021, 26-30th July, 2021</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Shinji Ejiri</name>
+    </author>
+  </entry>
+</feed>

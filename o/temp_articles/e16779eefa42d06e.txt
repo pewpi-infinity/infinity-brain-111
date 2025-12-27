@@ -1,0 +1,81 @@
+TERMS: frequency, electron, wavefunction
+COLORS: green, green, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/0S38+JADD3pd3OjM4nRCmwwQ2b8</id>
+  <title>arXiv Query: search_query=all:frequency AND all:electron AND all:wavefunction&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:10:33Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:electron+AND+all:wavefunction)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>92</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1305.5225v1</id>
+    <title>Chirp-wave Expansion of the Electron Wavefunctions in Atoms</title>
+    <updated>2013-05-22T18:37:15Z</updated>
+    <link href="https://arxiv.org/abs/1305.5225v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1305.5225v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The description of the electron wavefunctions in atoms is generalized to the fractional Fourier series. This method introduces a continuous and infinite number of chirp basis sets with linear variation of the frequency to expand the wavefunctions, in which plane-waves are a special case. The chirp characteristics of each basis set can be adjusted through a single parameter. Thus, the basis set cutoff can be optimized variationally. The approach is tested with the expansion of the electron wavefunctions in atoms, and it is shown that chirp basis sets substantially improve the convergence in the description of the electron density. We have found that the natural oscillations of the electron core states are efficiently described in chirp-waves.</summary>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-05-22T18:37:15Z</published>
+    <arxiv:primary_category term="physics.comp-ph"/>
+    <author>
+      <name>Edmanuel Torres</name>
+    </author>
+    <author>
+      <name>Rafael Torres</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1112.4286v1</id>
+    <title>Spectral distribution and wavefunction of electrons emitted from a single particle source in the quantum Hall regime</title>
+    <updated>2011-12-19T10:18:11Z</updated>
+    <link href="https://arxiv.org/abs/1112.4286v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1112.4286v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate theoretically a scheme for spectroscopy of electrons emitted by an on-demand single particle source. The total system, with an electron turnstile source and a single level quantum dot spectrometer, is implemented with edge states in a conductor in the quantum Hall regime. Employing a Floquet scattering approach, the source and the spectrometer are analyzed within a single theoretical framework. The non-equilibrium distribution of the emitted electrons is analyzed via the direct current at the dot spectrometer. In the adiabatic and intermediate source frequency regimes, the distribution is found to be strongly peaked around the active resonant level of the turnstile. At high frequencies the distribution is split up into a set of fringes, resulting from the interplay of resonant transport through the turnstile and absorption or emission of individual Floquet quanta. For ideal source operation, with exactly one electron emitted per cycle, an expression for the single electron wavefunction is derived.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-12-19T10:18:11Z</published>
+    <arxiv:comment>12 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Phys. Rev. B 85, 075428 (2012)</arxiv:journal_ref>
+    <author>
+      <name>F. Battista</name>
+    </author>
+    <author>
+      <name>P. Samuelsson</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.85.075428</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.85.075428" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1112.3575v1</id>
+    <title>Direct Measurement of the Quantum Wavefunction</title>
+    <updated>2011-12-15T17:22:28Z</updated>
+    <link href="https://arxiv.org/abs/1112.3575v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1112.3575v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Central to quantum theory, the wavefunction is the complex distribution used to completely describe a quantum system. Despite its fundamental role, it is typically introduced as an abstract element of the theory with no explicit definition. Rather, physicists come to a working understanding of the wavefunction through its use to calculate measurement outcome probabilities via the Born Rule. Presently, scientists determine the wavefunction through tomographic methods, which estimate the wavefunction that is most consistent with a diverse collection of measurements. The indirectness of these methods compounds the problem of defining the wavefunction. Here we show that the wavefunction can be measured directly by the sequential measurement of two complementary variables of the system. The crux of our method is that the first measurement is performed in a gentle way (i.e. weak measurement) so as not to invalidate the second. The result is that the real and imaginary components of the wavefunction appear directly on our measurement apparatus. We give an experimental example by directly measuring the transverse spatial wavefunction of a single photon, a task not previously realized by any method. We show that the concept is universal, being applicable both to other degrees of freedom of the photon (e.g. polarization, frequency, etc.) and to other quantum systems (e.g. electron spin-z quantum state, SQUIDs, trapped ions, etc.). Consequently, this method gives the wavefunction a straightforward and general definition in terms of a specific set of experimental operations. We expect it to expand the range of quantum systems scientists are able to characterize and initiate new avenues to understand fundamental quantum theory.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-12-15T17:22:28Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Nature, 474, 188 (2011)</arxiv:journal_ref>
+    <author>
+      <name>Jeff S. Lundeen</name>
+    </author>
+    <author>
+      <name>Brandon Sutherland</name>
+    </author>
+    <author>
+      <name>Aabid Patel</name>
+    </author>
+    <author>
+      <name>Corey Stewart</name>
+    </author>
+    <author>
+      <name>Charles Bamber</name>
+    </author>
+    <arxiv:doi>10.1038/nature10120</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/nature10120" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,87 @@
+/* Infinity OS — Intelligence Core (v1)
+   Osprey Terminal Self-Writer Foundation
+   Kris Watson Architecture
+*/
+
+const IntelligenceCore = {
+  version: "1.0",
+  logs: [],
+
+  speak(msg) {
+    const rp = document.getElementById("rogers-panel");
+    rp.innerHTML += "<div>" + msg + "</div>";
+    rp.scrollTop = rp.scrollHeight;
+  },
+
+  // Natural-language router
+  interpret(input) {
+    input = input.toLowerCase();
+
+    // Simple routing now — future AI goes here
+    if (input.includes("quantum")) {
+      this.speak("Updating Quantum Visualizer module…");
+      this.updateModule("apps/quantum.js", "quantum");
+    } 
+    else if (input.includes("terminal") || input.includes("ui")) {
+      this.speak("Enhancing terminal UI module…");
+      this.updateModule("shell.js", "terminal");
+    } 
+    else {
+      this.speak("I heard you. Preparing a module update…");
+    }
+  },
+
+  // Safe patch system
+  updateModule(path, profile) {
+    this.speak("Creating patch for: " + path);
+
+    // PATCHES (temporary scaffolding)
+    const patches = {
+      terminal: `// Terminal Enhancement Patch
+// Adds a glow effect to input line
+document.getElementById("input-line").style.boxShadow =
+"0 0 10px #00eaff";`,
+
+      quantum: `// Quantum Visualizer Enhancement Patch
+// Adds slightly brighter nodes
+console.log("Quantum Patch Applied");`
+    };
+
+    const patch = patches[profile];
+
+    if (!patch) {
+      this.speak("No patch profile found.");
+      return;
+    }
+
+    fetch(path)
+      .then(r => r.text())
+      .then(original => {
+        const updated = original + "\n\n// AUTO-PATCH by Intelligence Core\n" + patch;
+        this.writeFile(path, updated);
+      });
+  },
+
+  writeFile(path, content) {
+    this.speak("Writing updated module to: " + path);
+
+    // Sandbox the file write
+    localStorage.setItem("file:" + path, content);
+
+    this.logs.push({
+      file: path,
+      time: new Date().toISOString(),
+      content
+    });
+
+    this.speak("Patch applied. Reloading module…");
+
+    // Reload the module into the live OS
+    const script = document.createElement("script");
+    script.src = path + "?v=" + Date.now();
+    document.body.appendChild(script);
+  }
+};
+
+// Global hook
+window.IntelligenceCore = IntelligenceCore;

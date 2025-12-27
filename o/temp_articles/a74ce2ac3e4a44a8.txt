@@ -1,0 +1,84 @@
+TERMS: frequency, fusion, electron
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/UQicApHlQxzfipThntxj2T+SWwQ</id>
+  <title>arXiv Query: search_query=all:frequency AND all:fusion AND all:electron&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:10:11Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:fusion+AND+all:electron)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>114</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1010.2099v1</id>
+    <title>Self-consistent kinetic simulations of lower hybrid drift instability resulting in electron current driven by fusion products in tokamak plasmas</title>
+    <updated>2010-10-11T13:25:18Z</updated>
+    <link href="https://arxiv.org/abs/1010.2099v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1010.2099v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present particle-in-cell (PIC) simulations of minority energetic protons in deuterium plasmas, which demonstrate a collective instability responsible for emission near the lower hybrid frequency and its harmonics. The simulations capture the lower hybrid drift instability in a regime relevant to tokamak fusion plasmas, and show further that the excited electromagnetic fields collectively and collisionlessly couple free energy from the protons to directed electron motion. This results in an asymmetric tail antiparallel to the magnetic field. We focus on obliquely propagating modes under conditions approximating the outer mid-plane edge in a large tokamak, through which there pass confined centrally born fusion products on banana orbits that have large radial excursions. A fully self-consistent electromagnetic relativistic PIC code representing all vector field quantities and particle velocities in three dimensions as functions of a single spatial dimension is used to model this situation, by evolving the initial antiparallel travelling ring-beam distribution of 3MeV protons in a background 10keV Maxwellian deuterium plasma with realistic ion-electron mass ratio. The simulations thus demonstrate a key building block of alpha channelling scenarios for burning fusion plasmas in tokamaks.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-10-11T13:25:18Z</published>
+    <arxiv:comment>19,pages,5 figures; http://iopscience.iop.org/0741-3335/53/6/065006/</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <arxiv:journal_ref>Plasma Phys. Control. Fusion 53 065006 2011</arxiv:journal_ref>
+    <author>
+      <name>J W S Cook</name>
+    </author>
+    <author>
+      <name>S C Chapman</name>
+    </author>
+    <author>
+      <name>R O Dendy</name>
+    </author>
+    <arxiv:doi>10.1088/0741-3335/53/6/065006</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0741-3335/53/6/065006" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2504.07124v3</id>
+    <title>Upper Limit of Fusion Reactivity in Laser-Driven $p+{^{11}{\rm B}}$ Reaction</title>
+    <updated>2025-11-08T09:23:42Z</updated>
+    <link href="https://arxiv.org/abs/2504.07124v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2504.07124v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We explore the averaged fusion reactivity of the $p+{^{11}{\rm B}}$ reaction in tabletop laser experiments using a plasma expansion model. We investigate the energy distribution of proton beams accelerated by lasers as a function of electron temperature $T_e$ and the dimensionless acceleration time $ω_{pi} t_{\rm acc}$, where $ω_{pi}$ is the ion plasma frequency. By combining these distributions with the fusion cross-section, we identify the optimal conditions that maximize the fusion reactivity, with $\left\langle σv \right\rangle = 8.12 \times 10^{-16}\,{\rm cm^3/s}$ at $k_B T_e = 10.0\,{\rm MeV}$ and $ω_{pi} t_{\rm acc} = 0.503$. These findings suggest that an upper limit exists for the fusion reactivity achievable in laser-driven $p+{^{11}{\rm B}}$ fusion experiments, even under optimized conditions.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-31T06:24:54Z</published>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <arxiv:journal_ref>Nuclear Fusion, Volume 65, Number 10, 2025</arxiv:journal_ref>
+    <author>
+      <name>Eunseok Hwang</name>
+    </author>
+    <author>
+      <name>Myung-Ki Cheoun</name>
+    </author>
+    <author>
+      <name>Dukjae Jang</name>
+    </author>
+    <arxiv:doi>10.1088/1741-4326/ae00dd</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1741-4326/ae00dd" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2004.07726v2</id>
+    <title>Magnetic field generation from composition gradients in inertial confinement fusion fuel</title>
+    <updated>2020-07-15T17:02:12Z</updated>
+    <link href="https://arxiv.org/abs/2004.07726v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2004.07726v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Experimental asymmetries in fusion implosions can lead to magnetic field generation in the hot plasma core. For typical parameters, previous studies found that the magnetisation Hall parameter, given by the product of the electron gyro-frequency and Coulomb collision time, can exceed one. This will affect the hydrodynamics through inhibition and deflection of the electron heat flux. The magnetic field source is the collisionless Biermann term, which arises from the Debye shielding potential in electron pressure gradients. We show that there is an additional source term due to the Z dependence of the Coulomb collision operator. If there are ion composition gradients, such as jets of carbon ablator mix entering the hot-spot, this source term can rapidly exceed the Biermann fields. In addition, the Biermann fields are enhanced due to the increased temperature gradients from carbon radiative cooling. With even stronger self-generated fields, heat loss to the carbon regions will be reduced, potentially reducing the negative effect of carbon mix.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.flu-dyn" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-04-16T16:07:24Z</published>
+    <arxiv:comment>Conference proceedings from the Prospects for High Gain Inertial Fusion Energy meeting at the Royal Society in London, 2-3 March 2020</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>James D. Sadler</name>
+    </author>
+    <author>
+      <name>Hui Li</name>
+    </author>
+    <author>
+      <name>Kirk A. Flippo</name>
+    </author>
+    <arxiv:doi>10.1098/rsta.2020.0045</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1098/rsta.2020.0045" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,101 @@
+TERMS: quantum, fusion, electron
+COLORS: blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/cwae/HX/ytgkhiBpE142qaMvcdw</id>
+  <title>arXiv Query: search_query=all:quantum AND all:fusion AND all:electron&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:06:30Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:fusion+AND+all:electron)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>155</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2308.12352v1</id>
+    <title>Quantum computation of stopping power for inertial fusion target design</title>
+    <updated>2023-08-23T18:01:02Z</updated>
+    <link href="https://arxiv.org/abs/2308.12352v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2308.12352v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Stopping power is the rate at which a material absorbs the kinetic energy of a charged particle passing through it -- one of many properties needed over a wide range of thermodynamic conditions in modeling inertial fusion implosions. First-principles stopping calculations are classically challenging because they involve the dynamics of large electronic systems far from equilibrium, with accuracies that are particularly difficult to constrain and assess in the warm-dense conditions preceding ignition. Here, we describe a protocol for using a fault-tolerant quantum computer to calculate stopping power from a first-quantized representation of the electrons and projectile. Our approach builds upon the electronic structure block encodings of Su et al. [PRX Quantum 2, 040332 2021], adapting and optimizing those algorithms to estimate observables of interest from the non-Born-Oppenheimer dynamics of multiple particle species at finite temperature. Ultimately, we report logical qubit requirements and leading-order Toffoli costs for computing the stopping power of various projectile/target combinations relevant to interpreting and designing inertial fusion experiments. We estimate that scientifically interesting and classically intractable stopping power calculations can be quantum simulated with roughly the same number of logical qubits and about one hundred times more Toffoli gates than is required for state-of-the-art quantum simulations of industrially relevant molecules such as FeMoCo or P450.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-08-23T18:01:02Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Proceedings of the National Academy of Sciences Volume 121, Issue 23, 2024</arxiv:journal_ref>
+    <author>
+      <name>Nicholas C. Rubin</name>
+    </author>
+    <author>
+      <name>Dominic W. Berry</name>
+    </author>
+    <author>
+      <name>Alina Kononov</name>
+    </author>
+    <author>
+      <name>Fionn D. Malone</name>
+    </author>
+    <author>
+      <name>Tanuj Khattar</name>
+    </author>
+    <author>
+      <name>Alec White</name>
+    </author>
+    <author>
+      <name>Joonho Lee</name>
+    </author>
+    <author>
+      <name>Hartmut Neven</name>
+    </author>
+    <author>
+      <name>Ryan Babbush</name>
+    </author>
+    <author>
+      <name>Andrew D. Baczewski</name>
+    </author>
+    <arxiv:doi>10.1073/pnas.2317772121</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1073/pnas.2317772121" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2106.12988v1</id>
+    <title>Enhanced D-D Fusion Rates when the Coulomb Barrier Is Lowered by Electrons</title>
+    <updated>2021-06-22T21:37:02Z</updated>
+    <link href="https://arxiv.org/abs/2106.12988v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2106.12988v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A profusion of unbound, low-energy electrons creates a local electric field that reduces Coulomb potential and increases quantum tunneling probability for pairs of nuclei. Neutral beam-target experiments on deuterium-deuterium fusion reactions, observed with neutron detectors, show percentage increases in fusion products are consistent with electron-screening predictions from Schrodinger wave mechanics. Experiments performed confirm that observed fusion rate enhancement with a negatively biased target is primarily due to changes to the fusion cross section, rather than simply acceleration due to electrostatic forces.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-06-22T21:37:02Z</published>
+    <arxiv:comment>19 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>Alfred Y. Wong</name>
+    </author>
+    <author>
+      <name>Alexander Gunn</name>
+    </author>
+    <author>
+      <name>Allan X. Chen</name>
+    </author>
+    <author>
+      <name>Chun-Ching Shih</name>
+    </author>
+    <author>
+      <name>Mason J. Guffey</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/astro-ph/0611688v1</id>
+    <title>Systematic relativistic quantum effects on screening of fusion rates in white dwarfs</title>
+    <updated>2006-11-21T22:20:19Z</updated>
+    <link href="https://arxiv.org/abs/astro-ph/0611688v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/astro-ph/0611688v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Relativistic electron degeneracy effects are dominant in ultra-dense plasmas (UDP), such as those found in white dwarfs. These effects can be treated systematically by obtaining an expansion of the screening length in inverse powers of $\hbar^{2}$. In general, our theory leads to an ${\cal O}(10)$ effect on the enhancement of fusion rates in white dwarfs. Further, it is shown analytically for these stellar conditions that Bose statistics of nuclei have a negligible effect on the screening length, in consonance with Monte Carlo simulations found in literature.</summary>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-11-21T22:20:19Z</published>
+    <arxiv:comment>Relativistic treatment of quantum effects utilized</arxiv:comment>
+    <arxiv:primary_category term="astro-ph"/>
+    <author>
+      <name>Shirish M. Chitanvis</name>
+    </author>
+  </entry>
+</feed>

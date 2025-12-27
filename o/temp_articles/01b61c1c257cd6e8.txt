@@ -1,0 +1,171 @@
+TERMS: quantum, vapor, bandgap
+COLORS: blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/TCDei12q+6bKaBaDtPtnqI+dl6A</id>
+  <title>arXiv Query: search_query=all:quantum AND all:vapor AND all:bandgap&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:07:15Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:vapor+AND+all:bandgap)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>15</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2001.06647v1</id>
+    <title>Ambipolar Transport in Narrow Bandgap Semiconductor InSb Nanowires</title>
+    <updated>2020-01-18T10:38:03Z</updated>
+    <link href="https://arxiv.org/abs/2001.06647v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2001.06647v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We report on transport measurement study of top-gated field effect transistors made out of InSb nanowires grown by chemical vapor deposition. The transistors exhibit ambipolar transport characteristics revealed by three distinguished gate-voltage regions: In the middle region where the fermi level resides within the bandgap, the electrical resistance shows an exponential dependence on temperature and gate voltage. With either more positive or negative gate voltages, the devices enter the electron and hole transport regimes, revealed by a resistance decreasing linearly with decreasing temperature. From the transport measurement data of a 1-$μ$m-long device made from a nanowire of 50 nm in diameter, we extract a bandgap energy of 190-220 meV. The off-state current of this device is found to be suppressed within the measurement noise at a temperature of T = 4 K. A shorter, 260-nm-long device is found to exhibit a finite off-state current and a hole, on-state, circumference-normalized current of 11 $μ$A/$μ$m at V$_D$ = 50 mV which is the highest for such a device to our knowledge. The ambipolar transport characteristics make the InSb nanowires attractive for CMOS electronics, hybrid electron-hole quantum systems and hole based spin qubits.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-01-18T10:38:03Z</published>
+    <arxiv:comment>13 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>B. Dalelkhan</name>
+    </author>
+    <author>
+      <name>D. Göransson</name>
+    </author>
+    <author>
+      <name>C. Thelander</name>
+    </author>
+    <author>
+      <name>K. Li</name>
+    </author>
+    <author>
+      <name>Y. J. Xing</name>
+    </author>
+    <author>
+      <name>V. F. Maisi</name>
+    </author>
+    <author>
+      <name>H. Q. Xu</name>
+    </author>
+    <arxiv:doi>10.1039/D0NR00775G</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1039/D0NR00775G" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.02767v1</id>
+    <title>Comparison of Short-Range Order in GeSn Grown by Molecular Beam Epitaxy and Chemical Vapor Deposition</title>
+    <updated>2024-07-03T02:52:09Z</updated>
+    <link href="https://arxiv.org/abs/2407.02767v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.02767v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Atomic short-range order (SRO) in direct-bandgap GeSn for infrared photonics has recently attracted attention due to its notable impact on band structures. However, the SRO in GeSn thin films grown by different methods have hardly been compared. This paper compares SRO in GeSn thin films of similar compositions grown by molecular beam epitaxy (MBE) and chemical vapor deposition (CVD) using atom probe tomography. An $\sim$15% stronger preference for Sn-Sn 1$^{st}$ nearest neighbor (1NN) is observed in MBE GeSn than CVD GeSn for both thin film and quantum well samples with Sn composition ranging from 7 to 20%. Interestingly, samples grown by different deposition tools under the same method (either MBE or CVD) showed remarkable consistency in Sn-Sn 1NN SRO, while MBE vs. CVD showed clear differences. Supported by theoretical modeling, we consider that this difference in SRO originates from the impact of surface termination, where MBE surfaces are exposed to ultrahigh vacuum while CVD surfaces are terminated by H to a good extent. This finding not only suggests engineering surface termination or surfactants during the growth as a potential approach to control SRO in GeSn, but also provides insight into the underlying reasons for very different growth temperature between MBE and CVD that directly impact the strain relaxation behavior.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-03T02:52:09Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Shang Liu</name>
+    </author>
+    <author>
+      <name>Yunfan Liang</name>
+    </author>
+    <author>
+      <name>Haochen Zhao</name>
+    </author>
+    <author>
+      <name>Nirosh M. Eldose</name>
+    </author>
+    <author>
+      <name>Jin-Hee Bae</name>
+    </author>
+    <author>
+      <name>Omar Concepcion</name>
+    </author>
+    <author>
+      <name>Xiaochen Jin</name>
+    </author>
+    <author>
+      <name>Shunda Chen</name>
+    </author>
+    <author>
+      <name>Ilias Bikmukhametov</name>
+    </author>
+    <author>
+      <name>Austin Akey</name>
+    </author>
+    <author>
+      <name>Cory T. Cline</name>
+    </author>
+    <author>
+      <name>Alejandra Cuervo Covian</name>
+    </author>
+    <author>
+      <name>Xiaoxin Wang</name>
+    </author>
+    <author>
+      <name>Tianshu Li</name>
+    </author>
+    <author>
+      <name>Yuping Zeng</name>
+    </author>
+    <author>
+      <name>Dan Buca</name>
+    </author>
+    <author>
+      <name>Shui-Qing Yu</name>
+    </author>
+    <author>
+      <name>Gregory J. Salamo</name>
+    </author>
+    <author>
+      <name>Shengbai Zhang</name>
+    </author>
+    <author>
+      <name>Jifeng Liu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2307.09139v1</id>
+    <title>Coexistence of Logarithmic and SdH Quantum Oscillations in Ferromagnetic Cr-doped Tellurium Single Crystals</title>
+    <updated>2023-07-18T10:44:06Z</updated>
+    <link href="https://arxiv.org/abs/2307.09139v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2307.09139v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We report the synthesis of transition-metal-doped ferromagnetic elemental single-crystal semiconductors with quantum oscillations using the physical vapor transport method. The 7.7 atom% Cr-doped Te crystals (Cr_Te) show ferromagnetism, butterfly-like negative magnetoresistance in the low temperature (&lt; 3.8 K) and low field (&lt; 0.15 T) region, and high Hall mobility, e.g., 1320 cm2 V-1 s-1 at 30 K and 350 cm2 V-1 s-1 at 300 K, implying that Cr_Te crystals are ferromagnetic elemental semiconductors. When B // c // I, the maximum negative MR is -27% at T = 20 K and B = 8 T. In the low temperature semiconducting region, Cr_Te crystals show strong discrete scale invariance dominated logarithmic quantum oscillations when the direction of the magnetic field B is parallel to the [100] crystallographic direction and show Landau quantization dominated Shubnikov-de Haas (SdH) oscillations for B // [210] direction, which suggests the broken rotation symmetry of the Fermi pockets in the Cr_Te crystals. The findings of coexistence of multiple quantum oscillations and ferromagnetism in such an elemental quantum material may inspire more study of narrow bandgap semiconductors with ferromagnetism and quantum phenomena.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-07-18T10:44:06Z</published>
+    <arxiv:comment>25 pages, 25 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>Journal of Physics: Condensed Matter 35.24 (2023): 245701</arxiv:journal_ref>
+    <author>
+      <name>Shu-Juan Zhang</name>
+    </author>
+    <author>
+      <name>Lei Chen</name>
+    </author>
+    <author>
+      <name>Shuang-Shuang Li</name>
+    </author>
+    <author>
+      <name>Ying Zhang</name>
+    </author>
+    <author>
+      <name>Jian-Min Yan</name>
+    </author>
+    <author>
+      <name>Fang Tang</name>
+    </author>
+    <author>
+      <name>Yong Fang</name>
+    </author>
+    <author>
+      <name>Lin-Feng Fei</name>
+    </author>
+    <author>
+      <name>Weiyao Zhao</name>
+    </author>
+    <author>
+      <name>Julie Karel</name>
+    </author>
+    <author>
+      <name>Yang Chai</name>
+    </author>
+    <author>
+      <name>Ren-Kui Zheng</name>
+    </author>
+    <arxiv:doi>10.1088/1361-648X/acc5ca</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1361-648X/acc5ca" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,50 @@
+TERMS: hydrogen, quantum, muon, neutrino
+COLORS: purple, blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/jLVTZA0ClrJrAL2pQcjYybhC44c</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:muon AND all:neutrino&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:41:13Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:muon+AND+all:neutrino))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1009.3584v1</id>
+    <title>Do experiment and the correspondence principle oblige revision of relativistic quantum theory?</title>
+    <updated>2010-09-18T21:11:11Z</updated>
+    <link href="https://arxiv.org/abs/1009.3584v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1009.3584v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent preliminary data gathered by the Fermilab MINOS Collaboration suggest with 95% confidence that the mass of the muon neutrino differs from that of its antineutrino partner, which contradicts the entrenched relativistic quantum theory notion that a free antiparticle is a negative-energy free particle compelled to travel backwards in time. Also a discrepancy of about five standard deviations in the value of the proton charge radius recently obtained from muonic hydrogen versus that previously obtained from electronic hydrogen casts doubt on the calculation of the dominant relativistic QED contributions to the effects that are actually measured (e.g., the Lamb shift): these QED contributions dominate proton charge radius contributions less in muonic hydrogen than in electronic hydrogen. The negative-energy "free particles" of entrenched relativistic quantum theory are well-known features of the Klein-Gordon and Dirac equations, which are shown to have many other unphysical features as well. The correspondence principle for relativistic particles is incompatible with these two equations, produces no unphysical features and implies only positive energies for free particles, which eliminates the very basis of the entrenched notion of antiparticles, as well as of the CPT theorem. This principle thus requires antiparticles to arise from charge conjugation (or more generally CP) invariance, whose known breaking is naturally expected to produce mass splitting between particle and antiparticle, in consonance with the preliminary MINOS data. It also requires revamping of relativistic QED, which is in accord with the doubt cast on it by the proton charge radius results, and implies that QED is nonlocal, i.e. has no Hamiltonian density.</summary>
+    <category term="physics.gen-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-09-18T21:11:11Z</published>
+    <arxiv:comment>17 pages</arxiv:comment>
+    <arxiv:primary_category term="physics.gen-ph"/>
+    <arxiv:journal_ref>Prespace.J.1:1295-1309,2010</arxiv:journal_ref>
+    <author>
+      <name>Steven Kenneth Kauffmann</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2309.08417v2</id>
+    <title>Corrected Calculation for the Non-local Solution to the g-2 Anomaly and Novel Results in Non-local QED</title>
+    <updated>2024-04-02T00:58:05Z</updated>
+    <link href="https://arxiv.org/abs/2309.08417v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2309.08417v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We provide the corrected calculation of the muon g-2 in non-local QED previously done in the literature. In specific, we show the proper technique for calculating loops in non-local QED and use it to find the form factors F1(q1) and F2(q2) in non-local QED. We also utilize this technique to calculate some novel results in non-local QED, including calculating the correction to the photon self-energy, the modification to the classical Coulomb potential, the modification to the energy levels of the hydrogen atom, and the contribution to the Lamb shift. We also discuss charge dequantization through non-locality, and show that the experimental bounds on the electric charge on Dirac neutrinos, translate into strong flavor-dependent bounds on the scale on non-locality that range between 10^5 - 10^10 TeV. We also discuss the inconsistencies of unrenormalized non-local Quantum Field Theories (QFTs) and the need for renormalizing them, even when they are free from UV divergences.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-09-15T14:20:33Z</published>
+    <arxiv:comment>29 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Fayez Abu-Ajamieh</name>
+    </author>
+    <author>
+      <name>Nobuchika Okada</name>
+    </author>
+    <author>
+      <name>Sudhir K. Vempati</name>
+    </author>
+  </entry>
+</feed>

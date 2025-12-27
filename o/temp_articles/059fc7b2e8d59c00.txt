@@ -1,0 +1,66 @@
+TERMS: wavefunction, resonance, probability
+COLORS: yellow, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/UV+R/+H9FH7SUY46V7Jh/OiFwVI</id>
+  <title>arXiv Query: search_query=all:wavefunction AND all:resonance AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:33:26Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:wavefunction+AND+(all:resonance+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>30</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1205.3708v1</id>
+    <title>Extending the Concept of Probability Flux</title>
+    <updated>2012-05-16T15:29:05Z</updated>
+    <link href="https://arxiv.org/abs/1205.3708v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1205.3708v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We develop the Husimi map for visualizing quantum wavefunctions using coherent states as a measurement of the local phase space to produce a vector field related to the probability flux. Adapted from the Husimi projection, the Husimi map is complimentary to the usual flux map, since they are identical for small coherent states. By improving our understanding of the flux operator and offering a robust and flexible alternative, we show how the Husimi projection can provide a map to the classical dynamics underlying a quantum wavefunction. We demonstrate its capabilities on bound systems with electromagnetic fields, as well as on open systems on and off resonance.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-05-16T15:29:05Z</published>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>Douglas J. Mason</name>
+    </author>
+    <author>
+      <name>Mario F. Borunda</name>
+    </author>
+    <author>
+      <name>Eric J. Heller</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.20349v1</id>
+    <title>Resonant Structures in $p{}^7\mathrm{Be}$ Scattering and Their Connection to the Astrophysical $S$-Factor</title>
+    <updated>2025-06-25T12:01:44Z</updated>
+    <link href="https://arxiv.org/abs/2506.20349v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.20349v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we employ the Variable Phase Approach (VPA) to obtain the scattering phase shifts \( δ(E, r) \), amplitude function \( A(r) \), and radial wavefunction \( u(r) \) for various channels involved in the astrophysical reaction \( {}^7\mathrm{Be}(p,γ)^8\mathrm{B} \). Using the extracted phase shifts, we compute the total and partial cross sections. It is observed that the peaks in the partial cross section correspond to resonant states in the compound nucleus, which also manifest as enhancements in the astrophysical S-factor. These resonances significantly increase the reaction probability at certain energies, particularly in the low-energy regime relevant to stellar nucleosynthesis. The VPA thus serves as a reliable and efficient method for calculating scattering phase shifts and, in turn, extracting the resonance energies of different partial waves. These resonance energies can provide valuable insight into the energy region where the astrophysical \textit{S}-factor is likely to peak.</summary>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-25T12:01:44Z</published>
+    <arxiv:primary_category term="nucl-th"/>
+    <author>
+      <name>Anil Khachi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1608.04956v1</id>
+    <title>PT-Symmetry Breaking and Catastrophes in Dissipationless Resonant Tunneling Heterostructures</title>
+    <updated>2016-08-17T13:14:58Z</updated>
+    <link href="https://arxiv.org/abs/1608.04956v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1608.04956v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the phenomenon of spontaneous symmetry breaking in dissipationless resonant tunneling heterostructures (RTS). To describe the quantum transport in this system we apply both the nonequilibrium Green function formalism based on a tight-binding model and a numerical solution of the Schroedinger equation within the envelope wavefunction formalism. An auxiliary non-Hermitian Hamiltonian is introduced. Its eigenvalues determine exactly the transparency peak positions. We present a procedure how to construct a family of non-Hermitian Hamiltonians with real eigenvalues. In general these Hamiltonians do not have PT-symmetry. In spatially symmetric RTS the corresponding auxiliary non-Hermitian Hamiltonian becomes PT-symmetric and possesses real eigenvalues, which can coalesce at exceptional points (EP) of Hamiltonian. A coalescence of the auxiliary non-Hermitian Hamiltonian eigenvalues means a coalescence of resonances in RTS, which is accompanied be symmetry breaking of the electron wavefunction probability distribution (at a given direction of the particle flow). We construct a classification of different types of the peak coalescence in terms of the catastrophe theory and investigate the impact of dissipation and asymmetry on these phenomena. Possible applications include sensors and broad-band filters.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-08-17T13:14:58Z</published>
+    <arxiv:comment>13 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>A. A. Gorbatsevich</name>
+    </author>
+    <author>
+      <name>N. M. Shubin</name>
+    </author>
+  </entry>
+</feed>

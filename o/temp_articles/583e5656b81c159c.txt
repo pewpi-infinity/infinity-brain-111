@@ -1,0 +1,134 @@
+TERMS: entropy, graphene, singularity
+COLORS: red, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/RD/faMfjrusP3vt3RkRXzyRLvOQ</id>
+  <title>arXiv Query: search_query=all:entropy AND all:graphene AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:18:45Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+(all:graphene+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>4</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2202.04197v2</id>
+    <title>Differential entropy per particle as a probe of van Hove singularities and flat bands</title>
+    <updated>2022-07-15T09:24:20Z</updated>
+    <link href="https://arxiv.org/abs/2202.04197v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2202.04197v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the present paper we derive the general expressions for the differential entropy per particle near van Hove singularities (vHs) in the density of states. The dependence of entropy per particle on chemical potential and temperature demonstrates different behavior depending on the type of vHs, and distinguishes high-order vHs with different divergence exponents and flat bands. In addition, it allows one to test the ``flatness" of the band in experiment. We compare the analytic predictions with the numerical calculation of the differential entropy for tight-binding models of graphene, Lieb lattice and square-octagon lattice. Our results show that the obtained analytic expressions capture the main features of the differential entropy, thus serving as a good probe for details of the density of states structure.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-02-08T23:29:17Z</published>
+    <arxiv:comment>13 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Phys. Rev. B 106, 045115 (2022)</arxiv:journal_ref>
+    <author>
+      <name>Yelizaveta Kulynych</name>
+    </author>
+    <author>
+      <name>D. O. Oriekhov</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.106.045115</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.106.045115" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2407.13763v2</id>
+    <title>Fluctuating magnetism and Pomeranchuk effect in multilayer graphene</title>
+    <updated>2025-01-15T18:31:22Z</updated>
+    <link href="https://arxiv.org/abs/2407.13763v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2407.13763v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Magnetism typically arises from the effect of exchange interactions on highly localized fermionic wave functions in f- and d-atomic orbitals. In rhombohedral multilayer graphene (RMG), in contrast, magnetism-manifesting as spontaneous polarization into one or more spin and valley flavors[1-7]-originates from itinerant electrons near a Van Hove singularity. Here, we show experimentally that the electronic entropy in this system shows signatures typically associated with disordered local magnetic moments, unexpected for electrons in a fully itinerant metal. Specifically, we find a contribution $Δ$ S $\approx$ 1k$_B$/charge carrier that onsets at the Curie temperature and survives over one order of magnitude in temperature. First order phase transitions show an isospin `Pomeranchuk effect' in which the fluctuating moment phase is entropically favored over the nearby symmetric Fermi liquid[8, 9]. Our results imply that despite the itinerant nature of the electron wave functions, the spin- and valley polarization of individual electrons are decoupled, a phenomenon typically associated with localized moments, as happens, for example, in solid 3He[10]. Transport measurements, surprisingly, show a finite temperature resistance minimum within the fluctuating moment regime, which we attribute to the interplay of fluctuating magnetic moments and electron phonon scattering. Our results highlight the universality of soft isospin modes to two-dimensional flat band systems.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-07-18T17:58:49Z</published>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <author>
+      <name>Ludwig Holleis</name>
+    </author>
+    <author>
+      <name>Tian Xie</name>
+    </author>
+    <author>
+      <name>Siyuan Xu</name>
+    </author>
+    <author>
+      <name>Haoxin Zhou</name>
+    </author>
+    <author>
+      <name>Caitlin L. Patterson</name>
+    </author>
+    <author>
+      <name>Archisman Panigrahi</name>
+    </author>
+    <author>
+      <name>Takashi Taniguchi</name>
+    </author>
+    <author>
+      <name>Kenji Watanabe</name>
+    </author>
+    <author>
+      <name>Leonid S. Levitov</name>
+    </author>
+    <author>
+      <name>Chenhao Jin</name>
+    </author>
+    <author>
+      <name>Erez Berg</name>
+    </author>
+    <author>
+      <name>Andrea F. Young</name>
+    </author>
+    <arxiv:doi>10.1038/s41586-025-08725-5</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41586-025-08725-5" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2004.12356v1</id>
+    <title>Excess entropy and breakdown of semiclassical description of thermoelectricity in twisted bilayer graphene close to half filling</title>
+    <updated>2020-04-26T11:34:03Z</updated>
+    <link href="https://arxiv.org/abs/2004.12356v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2004.12356v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In moiré systems with twisted bilayer graphene (tBLG), the amplification of Coulomb correlation effects at low twist angles ($θ$) is a result of nearly flat low-energy electronic bands and divergent density of states (DOS) at van Hove singularities (vHS). This not only causes superconductivity, Mott insulating states, and quantum anomalous Hall effect close to the critical (or magic) angle $θ= θ_{c} \approx 1.1^\circ$, but also unconventional metallic states that are claimed to exhibit non-Fermi liquid (NFL) excitations. However, unlike superconductivity and the correlation-induced gap in the DOS, unambiguous signatures of NFL effects in the metallic state remain experimentally elusive. Here we report simultaneous measurement of electrical resistivity ($ρ$) and thermoelectric power ($S$) in tBLG at $θ\approx 1.6^\circ$. We observe an emergent violation of the semiclassical Mott relation in the form of excess $S$ close to half-filling. The excess $S$ ($\approx 2$ $μ$V/K at low temperature $T \sim 10$ K) persists up to $\approx 40$ K, and is accompanied by metallic $T$-linear $ρ$ with transport scattering rate ($τ^{-1}$) of near-Planckian magnitude $τ^{-1} \sim k_{B}T/\hbar$. The combination of non-trivial electrical transport and violation of Mott relation provides compelling evidence of NFL physics intrinsic to tBLG, at small twist angle and half-filling.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-04-26T11:34:03Z</published>
+    <arxiv:comment>*These authors contributed equally</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>Bhaskar Ghawri</name>
+    </author>
+    <author>
+      <name>Phanibhusan S. Mahapatra</name>
+    </author>
+    <author>
+      <name>Shinjan Mandal</name>
+    </author>
+    <author>
+      <name>Aditya Jayaraman</name>
+    </author>
+    <author>
+      <name>Manjari Garg</name>
+    </author>
+    <author>
+      <name>Kenji Watanabe</name>
+    </author>
+    <author>
+      <name>Takashi Taniguchi</name>
+    </author>
+    <author>
+      <name>H. R. Krishnamurthy</name>
+    </author>
+    <author>
+      <name>Manish Jain</name>
+    </author>
+    <author>
+      <name>Sumilan Banerjee</name>
+    </author>
+    <author>
+      <name>U. Chandni</name>
+    </author>
+    <author>
+      <name>Arindam Ghosh</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,86 @@
+TERMS: quantum, electron, probability
+COLORS: blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/W0k33AXOGIX4xKH8DCZ8NqMOsYA</id>
+  <title>arXiv Query: search_query=all:quantum AND all:electron AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:07:01Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:electron+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1490</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/0904.2045v1</id>
+    <title>Adaptive Measurements in the Optical Quantum Information Laboratory</title>
+    <updated>2009-04-14T04:26:04Z</updated>
+    <link href="https://arxiv.org/abs/0904.2045v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0904.2045v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Adaptive techniques make practical many quantum measurements that would otherwise be beyond current laboratory capabilities. For example: they allow discrimination of nonorthogonal states with a probability of error equal to the Helstrom bound; they allow measurement of the phase of a quantum oscillator with accuracy approaching (or in some cases attaining) the Heisenberg limit; and they allow estimation of phase in interferometry with a variance scaling at the Heisenberg limit, using only single qubit measurement and control. Each of these examples has close links with quantum information, in particular experimental optical quantum information: the first is a basic quantum communication protocol; the second has potential application in linear optical quantum computing; the third uses an adaptive protocol inspired by the quantum phase estimation algorithm. We discuss each of these examples, and their implementation in the laboratory, but concentrate upon the last, which was published most recently [Higgins {\em et al.}, Nature vol. 450, p. 393, 2007].</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-04-14T04:26:04Z</published>
+    <arxiv:comment>12 pages, invited paper to be published in IEEE Journal of Selected Topics in Quantum Electronics: Quantum Communications and Information Science</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>IEEE J. Sel. Top. Quantum Electron., 15, 1661-1672 (2009)</arxiv:journal_ref>
+    <author>
+      <name>H. M. Wiseman</name>
+    </author>
+    <author>
+      <name>D. W. Berry</name>
+    </author>
+    <author>
+      <name>S. D. Bartlett</name>
+    </author>
+    <author>
+      <name>B. L. Higgins</name>
+    </author>
+    <author>
+      <name>G. J. Pryde</name>
+    </author>
+    <arxiv:doi>10.1109/JSTQE.2009.2020810</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/JSTQE.2009.2020810" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/gr-qc/9507057v2</id>
+    <title>Quantum Measure Theory and its Interpretation</title>
+    <updated>1997-06-02T04:38:46Z</updated>
+    <link href="https://arxiv.org/abs/gr-qc/9507057v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/gr-qc/9507057v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We propose a realistic, spacetime interpretation of quantum theory in which reality constitutes a *single* history obeying a "law of motion" that makes definite, but incomplete, predictions about its behavior. We associate a "quantum measure" |S| to the set S of histories, and point out that |S| fulfills a sum rule generalizing that of classical probability theory. We interpret |S| as a "propensity", making this precise by stating a criterion for |S|=0 to imply "preclusion" (meaning that the true history will not lie in S). The criterion involves triads of correlated events, and in application to electron-electron scattering, for example, it yields definite predictions about the electron trajectories themselves, independently of any measuring devices which might or might not be present. (So we can give an objective account of measurements.) Two unfinished aspects of the interpretation involve *conditonal* preclusion (which apparently requires a notion of coarse-graining for its formulation) and the need to "locate spacetime regions in advance" without the aid of a fixed background metric (which can be achieved in the context of conditional preclusion via a construction which makes sense both in continuum gravity and in the discrete setting of causal set theory).</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1995-07-30T22:00:53Z</published>
+    <arxiv:comment>Changes to original version: correction to the description of the quantum measure in the non relativistic case; some rewording in other places; a few typos corrected. 23 pages, plaintex with 7 eps figures</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>in the book, Quantum Classical Correspondence: Proceedings of the 4th Drexel Symposium on Quantum Nonintegrability, held Philadelphia, September 8-11, 1994, pages 229-251 (International Press, Cambridge Mass. 1997) D.H.~Feng and B-L~Hu, editors.</arxiv:journal_ref>
+    <author>
+      <name>Rafael D. Sorkin</name>
+      <arxiv:affiliation>ICN-UNAM and Syracuse University</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/quant-ph/0210087v3</id>
+    <title>Single-particle quantum tunneling in ionic traps</title>
+    <updated>2003-05-26T16:00:05Z</updated>
+    <link href="https://arxiv.org/abs/quant-ph/0210087v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/quant-ph/0210087v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We describe a proposal to probe the quantum tunneling mechanism of an individual ion trapped in a double-well electromagnetic potential. The time-evolution of the probability of fluorescence measurement of the electronic ground state is employed to characterize the single-particle tunneling mechanism. The proposed scheme can be used to implement quantum information devices.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-10-11T14:27:45Z</published>
+    <arxiv:comment>Final version published in J. Opt. B: Quantum Semiclass. Opt</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>J. Opt. B: Quantum Semiclass. Opt. 5, 237 (2003)</arxiv:journal_ref>
+    <author>
+      <name>R. M. Serra</name>
+    </author>
+    <author>
+      <name>C. J. Villas-Boas</name>
+    </author>
+    <author>
+      <name>M. H. Y. Moussa</name>
+    </author>
+    <arxiv:doi>10.1088/1464-4266/5/3/307</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1464-4266/5/3/307" title="doi"/>
+  </entry>
+</feed>

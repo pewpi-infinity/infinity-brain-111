@@ -1,0 +1,43 @@
+TERMS: hydrogen, quantum, fusion, bandgap
+COLORS: purple, blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/x7+GB5OHmWBeBJhoKNnDxhNLzxs</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:fusion AND all:bandgap&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:38:52Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:fusion+AND+all:bandgap))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1912.04558v1</id>
+    <title>Electronic coupling in colloidal quantum dot molecules; The case of CdSe/CdS core/shell homodimers</title>
+    <updated>2019-12-10T08:07:46Z</updated>
+    <link href="https://arxiv.org/abs/1912.04558v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1912.04558v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Coupled colloidal quantum dot molecules composed of two fused CdSe/CdS core/shell sphere monomers were recently presented. Upon fusion, the potential energy landscape is changing into two quantum dots separated by a pre-tuned potential barrier with energetics dictated by the conduction and valence band offsets of the core/shell semiconductors, and width controlled by the shell thickness and the fusion reaction conditions. In close proximity of the two nanocrystals, orbital hybridization occurs, forming bonding and anti-bonding states in analogy to the hydrogen molecule. In this study, we examine theoretically the electronic and optical signatures of such a quantum dot dimer compared to its monomer core/shell building blocks. We examine the effects of different core sizes, barrier widths, different band offsets and neck sizes at the interface of the fused facets, on the system wave-functions and energetics. Due to the higher effective mass of the hole and the large valence band offset, the hole still essentially resides in either of the cores breaking the symmetry of the potential for the electron as well. We found that the dimer signature is well expressed in a redshift of the bandgap both in absorption and emission, in slower radiative lifetimes and in an absorption cross-section which is significantly enhanced relative to the monomers at energies above the shell absorption onset, while remains essentially at the same level near the band-edge. This study provides essential guidance to pre-design of coupled quantum dot molecules with specific attributes which can be utilized for various new optoelectronic applications.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-12-10T08:07:46Z</published>
+    <arxiv:comment>24 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Journal of Chemical Physics (Vol.151, Issue 22), 2019</arxiv:journal_ref>
+    <author>
+      <name>Yossef E. Panfil</name>
+    </author>
+    <author>
+      <name>Doaa Shamalia</name>
+    </author>
+    <author>
+      <name>Jiabin Cui</name>
+    </author>
+    <author>
+      <name>Somnath Koley</name>
+    </author>
+    <author>
+      <name>Uri Banin</name>
+    </author>
+    <arxiv:doi>10.1063/1.5128086</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/1.5128086" title="doi"/>
+  </entry>
+</feed>

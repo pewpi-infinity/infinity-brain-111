@@ -1,0 +1,99 @@
+TERMS: entropy, resonance, singularity
+COLORS: red, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/TuHwyG0XKirFxYWVhzNlqzAoEWM</id>
+  <title>arXiv Query: search_query=all:entropy AND all:resonance AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:18:55Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+(all:resonance+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>8</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1806.07766v1</id>
+    <title>Resonant behavior and unpredictability in forced chaotic scattering</title>
+    <updated>2018-06-20T14:35:18Z</updated>
+    <link href="https://arxiv.org/abs/1806.07766v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.07766v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Chaotic scattering in open Hamiltonian systems is a topic of fundamental interest in physics, which has been mainly studied in the purely conservative case. However, the effect of weak perturbations in this kind of systems has been an important focus of interest in the last decade. In a previous work, the authors studied the effects of a periodic forcing in the decay law of the survival probability, and they characterized the global properties of escape dynamics. In the present paper, we add two important issues in the effects of periodic forcing: the fractal dimension of the set of singularities in the scattering function, and the unpredictability of the exit basins, which is estimated by using the concept of basin entropy. Both the fractal dimension and the basin entropy exhibit a resonant-like decrease as the forcing frequency increases. We provide a theoretical reasoning, which could justify this decreasing in the fractality near the main resonant frequency, that appears for $ω\approx 1$. We attribute the decrease in the basin entropy to the reduction of the area occupied by the KAM islands and the basin boundaries when the frequency is close to the resonance. Finally, the decay rate of the exponential decay law shows a minimum value of the amplitude, $A_c$, which reflects the complete destruction of the KAM islands in the resonance. We expect that this work could be potentially useful in research fields related to chaotic Hamiltonian pumps, oscillations in chemical reactions and companion galaxies, among others.</summary>
+    <category term="nlin.CD" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-20T14:35:18Z</published>
+    <arxiv:primary_category term="nlin.CD"/>
+    <arxiv:journal_ref>Phys. Rev. E 98, 062206 (2018)</arxiv:journal_ref>
+    <author>
+      <name>Alexandre R. Nieto</name>
+    </author>
+    <author>
+      <name>Jesús M. Seoane</name>
+    </author>
+    <author>
+      <name>J. E. Alvarellos</name>
+    </author>
+    <author>
+      <name>Miguel A. F. Sanjuán</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevE.98.062206</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevE.98.062206" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1803.02083v2</id>
+    <title>Detection of topological phase transitions through entropy measurements: the case of germanene</title>
+    <updated>2018-05-28T15:00:37Z</updated>
+    <link href="https://arxiv.org/abs/1803.02083v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1803.02083v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a characterization tool for studies of the band structure of new materials promising for the observation of topological phase transitions. We show that a specific resonant feature in the entropy per electron dependence on the chemical potential may be considered as a fingerprint of the transition between topological and trivial insulator phases. The entropy per electron in a honeycomb two-dimensional crystal of germanene subjected to the external electric field is obtained from the first principle calculation of the density of electronic states and the Maxwell relation. We demonstrate that, in agreement to the recent prediction of the analytical model, strong spikes in the entropy per particle dependence on the chemical potential appear at low temperatures. They are observed at the values of the applied bias both below and above the critical value that corresponds to the transition between the topological insulator and trivial insulator phases, while the giant resonant feature in the vicinity of zero chemical potential is strongly suppressed at the topological transition point, in the low temperature limit. In a wide energy range, the van Hove singularities in the electronic density of states manifest themselves as zeros in the entropy per particle dependence on the chemical potential.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-03-06T09:59:43Z</published>
+    <arxiv:comment>8 pages, 5 figures; final version published in PRB</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Phys. Rev. B 97, 205442 (2018)</arxiv:journal_ref>
+    <author>
+      <name>D. Grassano</name>
+    </author>
+    <author>
+      <name>O. Pulci</name>
+    </author>
+    <author>
+      <name>V. O. Shubnyi</name>
+    </author>
+    <author>
+      <name>S. G. Sharapov</name>
+    </author>
+    <author>
+      <name>V. P. Gusynin</name>
+    </author>
+    <author>
+      <name>A. V. Kavokin</name>
+    </author>
+    <author>
+      <name>A. A. Varlamov</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.97.205442</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.97.205442" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1706.08443v2</id>
+    <title>One- and two-channel Kondo model with logarithmic Van Hove singularity: a numerical renormalization group solution</title>
+    <updated>2018-01-03T07:12:31Z</updated>
+    <link href="https://arxiv.org/abs/1706.08443v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1706.08443v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Simple scaling consideration and NRG solution of the one- and two-channel Kondo model in the presence of a logarithmic Van Hove singularity at the Fermi level is given. The temperature dependences of local and impurity magnetic susceptibility and impurity entropy are calculated. The low-temperature behavior of the impurity susceptibility and impurity entropy turns out to be non-universal in the Kondo sense and independent of the $s-d$ coupling $J$. The resonant level model solution in the strong coupling regime confirms the NRG results. In the two-channel case the local susceptibility demonstrates a non-Fermi-liquid power-law behavior.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-06-26T15:41:04Z</published>
+    <arxiv:comment>Final version, Physics Letters A</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Physics Letters A382 (2018) 528-533</arxiv:journal_ref>
+    <author>
+      <name>A. K. Zhuravlev</name>
+    </author>
+    <author>
+      <name>A. O. Anokhin</name>
+    </author>
+    <author>
+      <name>V. Yu. Irkhin</name>
+    </author>
+    <arxiv:doi>10.1016/j.physleta.2017.12.043</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physleta.2017.12.043" title="doi"/>
+  </entry>
+</feed>

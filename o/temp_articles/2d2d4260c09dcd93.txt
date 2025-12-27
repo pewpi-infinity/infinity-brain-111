@@ -1,0 +1,61 @@
+TERMS: hydrogen, frequency, fusion, spin
+COLORS: purple, green, green, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/bg1DRd47x7Ua+cq3/yTqj1TyUXk</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:frequency AND all:fusion AND all:spin&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:42:31Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:frequency+AND+(all:fusion+AND+all:spin))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1307.1654v1</id>
+    <title>Multi-periodic pulsations of a stripped red giant star in an eclipsing binary</title>
+    <updated>2013-07-05T16:20:19Z</updated>
+    <link href="https://arxiv.org/abs/1307.1654v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1307.1654v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Low mass white dwarfs are the remnants of disrupted red giant stars in binary millisecond pulsars and other exotic binary star systems. Some low mass white dwarfs cool rapidly, while others stay bright for millions of years due to stable fusion in thick surface hydrogen layers. This dichotomy is not well understood so their potential use as independent clocks to test the spin-down ages of pulsars or as probes of the extreme environments in which low mass white dwarfs form cannot be fully exploited. Here we present precise mass and radius measurements for the precursor to a low mass white dwarf. We find that only models in which this star has a thick hydrogen envelope can match the strong constraints provided by our new observations. Very cool low mass white dwarfs must therefore have lost their thick hydrogen envelopes by irradiation from pulsar companions or by episodes of unstable hydrogen fusion (shell flashes). We also find that this low mass white dwarf precursor is a new type of pulsating star. The observed pulsation frequencies are sensitive to internal processes that determine whether this star will undergo shell flashes.</summary>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-07-05T16:20:19Z</published>
+    <arxiv:comment>15 pages, 3 figures. Published in Nature</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.SR"/>
+    <arxiv:journal_ref>Nature, 498, 463-465 (2013)</arxiv:journal_ref>
+    <author>
+      <name>Pierre F. L. Maxted</name>
+    </author>
+    <author>
+      <name>Aldo M. Serenelli</name>
+    </author>
+    <author>
+      <name>Andrea Miglio</name>
+    </author>
+    <author>
+      <name>Thomas R. Marsh</name>
+    </author>
+    <author>
+      <name>Ulrich Heber</name>
+    </author>
+    <author>
+      <name>Vikram S. Dhillon</name>
+    </author>
+    <author>
+      <name>Stuart Littlefair</name>
+    </author>
+    <author>
+      <name>Chris Copperwheat</name>
+    </author>
+    <author>
+      <name>Barry Smalley</name>
+    </author>
+    <author>
+      <name>Elmé Breedt</name>
+    </author>
+    <author>
+      <name>Veronika Schaffenroth</name>
+    </author>
+    <arxiv:doi>10.1038/nature12192</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/nature12192" title="doi"/>
+  </entry>
+</feed>

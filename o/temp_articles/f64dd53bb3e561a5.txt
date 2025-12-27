@@ -1,0 +1,93 @@
+TERMS: hydrogen, quantum, electron, bandgap
+COLORS: purple, blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/OdM0gT1LndXiwGx2gg40Pb7BKOI</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:electron AND all:bandgap&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:39:09Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:electron+AND+all:bandgap))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>9</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1212.6231v1</id>
+    <title>Effects of Partial Hydrogenation on the Structure and Electronic Properties of BNNTs</title>
+    <updated>2012-12-26T19:31:11Z</updated>
+    <link href="https://arxiv.org/abs/1212.6231v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1212.6231v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The effects of partial hydrogenation on the structure and electronic properties of boron nitride nanotubes are investigated via density functional theory calculations. We find that the structure of the nanotube may considerably deform depending on the exact locations of the hydrogen atoms adsorption. Furthermore, depending on the tube identity, diameter, and adsorbate density it is found that the bandgap can be gradually reduced as a function of the relative position of the hydrogen atoms and in some cases change its character from indirect to direct and vice versa upon hydrogen adsorption. Our findings indicate that partial hydrogenation may prove as a valuable and experimentally achievable route for controlling the electronic properties of boron nitride nanotubes.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-12-26T19:31:11Z</published>
+    <arxiv:comment>17 pages, 11 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>J. Phys. Chem. C 117, 22224-22231 (2013)</arxiv:journal_ref>
+    <author>
+      <name>Lena Kalikhman-Razvozov</name>
+    </author>
+    <author>
+      <name>Roza Yusupov</name>
+    </author>
+    <author>
+      <name>Oded Hod</name>
+    </author>
+    <arxiv:doi>10.1021/jp312751y</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1021/jp312751y" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.13360v1</id>
+    <title>A Haldane-Anderson Hamiltonian Model for Hyperthermal Hydrogen Scattering from a Semiconductor Surface</title>
+    <updated>2025-08-18T21:00:51Z</updated>
+    <link href="https://arxiv.org/abs/2508.13360v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.13360v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Collisions of atoms and molecules with metal surfaces create electronic excitations in the metal, leading to nonadiabatic energy dissipation, inelastic scattering, and sticking. Mixed quantum-classical molecular dynamics simulation methods, such as molecular dynamics with electronic friction, are able to capture nonadiabatic energy loss during dynamics at metal surfaces. Hydrogen atom scattering on semiconductors, on the other hand, exhibits strong adsorbate-surface energy transfer only when the projectile kinetic energy exceeds the bandgap of the substrate. Electronic friction fails to describe this effect. Here, we report a first-principles parameterization of a simple Haldane-Anderson Hamiltonian model of hydrogen atom gas-surface scattering on $c(2\times8)$Ge(111), for which hyperthermal scattering experiments have been reported. We subsequently perform independent electron surface hopping and Ehrenfest dynamics simulations on this model. Whereas mean-field dynamics yield weak nonadiabatic energy loss that is independent of the initial kinetic energy, independent electron surface hopping simulations qualitatively agree with the experimental observation that nonadiabatic energy dissipation only occurs if the initial kinetic energy exceeds the bandgap of the surface. We further show how nonadiabatic energy loss affects sticking, which is yet to be experimentally measured.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-18T21:00:51Z</published>
+    <arxiv:comment>12 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Xuexun Lu</name>
+    </author>
+    <author>
+      <name>Nils Hertl</name>
+    </author>
+    <author>
+      <name>Reinhard J. Maurer</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2102.06639v1</id>
+    <title>Topological surface currents accessed through reversible hydrogenation of the three-dimensional bulk</title>
+    <updated>2021-02-12T17:27:03Z</updated>
+    <link href="https://arxiv.org/abs/2102.06639v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2102.06639v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Hydrogen, the smallest and most abundant element in nature, can be efficiently incorporated within a solid and drastically modify its electronic state - it has been known to induce novel magnetoelectric effects in complex perovskites and modulate insulator-to-metal transition in a correlated Mott oxide. Here we demonstrate that hydrogenation resolves an outstanding challenge in chalcogenide classes of three-dimensional (3D) topological insulators and magnets - the control of intrinsic bulk conduction that denies access to quantum surface transport. With electrons donated by a reversible binding of H+ ions to Te(Se) chalcogens, carrier densities are easily changed by over 10^20 cm^-3, allowing tuning the Fermi level into the bulk bandgap to enter surface/edge current channels. The hydrogen-tuned topological materials are stable at room temperature and tunable disregarding bulk size, opening a breadth of platforms for harnessing emergent topological states.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-02-12T17:27:03Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Haiming Deng</name>
+    </author>
+    <author>
+      <name>Lukas Zhao</name>
+    </author>
+    <author>
+      <name>Kyungwha Park</name>
+    </author>
+    <author>
+      <name>Jiaqiang Yan</name>
+    </author>
+    <author>
+      <name>Kamil Sobczak</name>
+    </author>
+    <author>
+      <name>Lia Krusin-Elbaum</name>
+    </author>
+    <arxiv:doi>10.1038/s41467-022-29957-3</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41467-022-29957-3" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,83 @@
+TERMS: quantum, boson, plasma
+COLORS: blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/cZwgjWNujIurARm5V0P5/Z7qAVg</id>
+  <title>arXiv Query: search_query=all:quantum AND all:boson AND all:plasma&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:09:04Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:boson+AND+all:plasma)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>104</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1804.01607v1</id>
+    <title>Two component boson-fermion plasma at finite temperature</title>
+    <updated>2018-03-12T13:25:27Z</updated>
+    <link href="https://arxiv.org/abs/1804.01607v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1804.01607v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We discuss thermodynamic stability of neutral real (quantum) matter from the point of view of a computer experiment at finite, non-zero, temperature. We perform (restricted) path integral Monte Carlo simulations of the two component plasma where the two species are all bosons, all fermions, and one boson and one fermion. We calculate the structure of the plasma and discuss about the formation of binded couples of oppositely charged particles. The purely bosonic case is thermodynamically unstable. In this case we find an undetermined size dependent contact value of the unlike partial radial distribution function. For the purely fermionic case we find a demixing transition with binding also of like species.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atm-clus" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-03-12T13:25:27Z</published>
+    <arxiv:comment>13 pages and 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <arxiv:journal_ref>International Journal of Modern Physics C Vol. 29, No. 3 (2018) 1850028 (11 pages)</arxiv:journal_ref>
+    <author>
+      <name>Riccardo Fantoni</name>
+    </author>
+    <arxiv:doi>10.1142/S0129183118500286</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/S0129183118500286" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1105.0700v3</id>
+    <title>Storming Majorana's Tower with OAM states of light in a plasma</title>
+    <updated>2011-11-24T21:33:09Z</updated>
+    <link href="https://arxiv.org/abs/1105.0700v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1105.0700v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We extend the relationship between mass and spin angular momentum, described by the bosonic spectrum of positive definite mass particles of the Majorana solution to the Dirac equation, to photons that acquire an effective Proca mass through the Anderson-Higgs mechanism when they propagate in a plasma. In an earlier paper we showed that if the plasma is structured, it can impart orbital angular momentum (OAM) to the photons that reduces the total Proca photon mass. Here we show, through a generalisation of Majorana's solution, that photons with OAM in a plasma cannot assume negative squared mass states. This means that there exist interesting analogies with Quantum Gravity or General Relativity models involving a modified action of the Lorentz group.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-05-03T22:04:42Z</published>
+    <arxiv:comment>4 pages; Corrected, updated version</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>F. Tamburini</name>
+    </author>
+    <author>
+      <name>B. Thidé</name>
+    </author>
+    <arxiv:doi>10.1209/0295-5075/96/64005</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1209/0295-5075/96/64005" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1802.00524v1</id>
+    <title>Simulations of relativistic-quantum plasmas using real-time lattice scalar QED</title>
+    <updated>2018-02-02T00:47:08Z</updated>
+    <link href="https://arxiv.org/abs/1802.00524v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1802.00524v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Real-time lattice quantum electrodynamics (QED) provides a unique tool for simulating plasmas in the strong-field regime, where collective plasma scales are not well-separated from relativistic-quantum scales. As a toy model, we study scalar QED, which describes self-consistent interactions between charged bosons and electromagnetic fields. To solve this model on a computer, we first discretize the scalar-QED action on a lattice, in a way that respects geometric structures of exterior calculus and U(1)-gauge symmetry. The lattice scalar QED can then be solved, in the classical-statistics regime, by advancing an ensemble of statistically equivalent initial conditions in time, using classical field equations obtained by extremizing the discrete action. To demonstrate the capability of our numerical scheme, we apply it to two example problems. The first example is the propagation of linear waves, where we recover analytic wave dispersion relations using numerical spectrum. The second example is an intense laser interacting with a 1D plasma slab, where we demonstrate natural transition from wakefield acceleration to pair production when the wave amplitude exceeds the Schwinger threshold. Our real-time lattice scheme is fully explicit and respects local conservation laws, making it reliable for long-time dynamics. The algorithm is readily parallelized using domain decomposition, and the ensemble may be computed using quantum parallelism in the future.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-02-02T00:47:08Z</published>
+    <arxiv:comment>12 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <arxiv:journal_ref>Phys. Rev. E 97, 053206 (2018)</arxiv:journal_ref>
+    <author>
+      <name>Yuan Shi</name>
+    </author>
+    <author>
+      <name>Jianyuan Xiao</name>
+    </author>
+    <author>
+      <name>Hong Qin</name>
+    </author>
+    <author>
+      <name>Nathaniel J. Fisch</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevE.97.053206</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevE.97.053206" title="doi"/>
+  </entry>
+</feed>

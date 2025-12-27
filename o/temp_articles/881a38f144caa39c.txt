@@ -1,0 +1,88 @@
+TERMS: hydrogen, fusion, vapor, plasma
+COLORS: purple, green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/NUtb3RfDjAwFpLuayWKTFBXDpy8</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:fusion AND all:vapor AND all:plasma&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:52:49Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:fusion+AND+(all:vapor+AND+all:plasma))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1412.3104v1</id>
+    <title>Raman microscopy as a defect microprobe for hydrogen bonding characterization in materials used in fusion applications</title>
+    <updated>2014-12-09T18:35:06Z</updated>
+    <link href="https://arxiv.org/abs/1412.3104v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1412.3104v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present the Raman microscopy ability to detect and characterize the way hydrogen is bonded with elements that will be used for ITER's plasma facing components. For this purpose we first use hydrogenated amorphous carbon samples, formed subsequently to plasma-wall interactions (hydrogen implantation, erosion, deposition...) occurring inside tokamaks, to demonstrate how this technique can be used to retrieve useful information. We pay attention in identifying which spectroscopic parameters are sensitive to the local structure (sp 3 /sp 2) and which gives information on the hydrogen content using isothermal and linear temperature ramp studies on reference samples produced by plasma enhanced chemical vapor deposition. We then focus on the possibility to use this fast, non-destructive and non-contact technique to characterize the influence of hydrogen isotope implantation in few nanometers of graphite and beryllium as C is still used in the JT-60 tokamak and Be is used in JET and will be used as plasma-facing component in the future reactor ITER. We also pay attention on implantation in tungsten oxide which may be formed accidently in the machine.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-12-09T18:35:06Z</published>
+    <arxiv:comment>Physica Status Solidi C, 2014</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Cédric Pardanaud</name>
+      <arxiv:affiliation>PIIM</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Younès Addab</name>
+      <arxiv:affiliation>PIIM</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Céline Martin</name>
+      <arxiv:affiliation>PIIM</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Pascale Roubin</name>
+      <arxiv:affiliation>PIIM</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Bernard Pegourié</name>
+      <arxiv:affiliation>IRFM</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Martin Oberkofler</name>
+      <arxiv:affiliation>PIIM</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Martin Köppen</name>
+      <arxiv:affiliation>PIIM</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Timo Dittmar</name>
+      <arxiv:affiliation>IRFM</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Christian Linsmeier</name>
+      <arxiv:affiliation>PIIM</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1002/pssc.201400141</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1002/pssc.201400141" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/astro-ph/9704130v1</id>
+    <title>Hydrogen Phases on the Surface of a Strongly Magnetized Neutron Star</title>
+    <updated>1997-04-14T20:57:46Z</updated>
+    <link href="https://arxiv.org/abs/astro-ph/9704130v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/astro-ph/9704130v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The outermost layers of some neutron stars are likely to be dominated by hydrogen, as a result of fast gravitational settling of heavier elements. These layers directly mediate thermal radiation from the stars, and determine the characteristics of X-ray/EUV spectra. For a neutron star with surface temperature $T\lo 10^6$ K and magnetic field $B\go 10^{12}$ G, various forms of hydrogen can be present in the envelope, including atom, poly-molecules, and condensed metal. We study the physical properties of different hydrogen phases on the surface of a strongly magnetized neutron star for a wide range of field strength $B$ and surface temperature $T$. Depending on the values of $B$ and $T$, the outer envelope can be either in a nondegenerate gaseous phase or in a degenerate metallic phase. For $T\go 10^5$ K and moderately strong magnetic field, $B\lo 10^{13}$ G, the envelope is nondegenerate and the surface material gradually transforms into a degenerate Coulomb plasma as density increases. For higher field strength, $B&gt;&gt; 10^{13}$ G, there exists a first-order phase transition from the nondegenerate gaseous phase to the condensed metallic phase. The column density of saturated vapor above the metallic hydrogen decreases rapidly as the magnetic field increases or/and temperature decreases. Thus the thermal radiation can directly emerge from the degenerate metallic hydrogen surface. The characteristics of surface X-ray/EUV emission for different phases are discussed. A separate study concerning the possibility of magnetic field induced nuclear fusion of hydrogen on the neutron star surface is also presented.</summary>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1997-04-14T20:57:46Z</published>
+    <arxiv:comment>TeX, 35 pages including 6 postscript figures. To be published in ApJ</arxiv:comment>
+    <arxiv:primary_category term="astro-ph"/>
+    <author>
+      <name>Dong Lai</name>
+      <arxiv:affiliation>Caltech</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Edwin E. Salpeter</name>
+      <arxiv:affiliation>Cornell</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1086/304937</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1086/304937" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,68 @@
+TERMS: ionization, superconductivity, vacuum
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/TXLniM7ZU7NUBxiBWQI3Jo3oMy4</id>
+  <title>arXiv Query: search_query=all:ionization AND all:superconductivity AND all:vacuum&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:29:08Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:ionization+AND+(all:superconductivity+AND+all:vacuum)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1209.6610v1</id>
+    <title>Cryogenic loss monitors with FPGA TDC signal processing</title>
+    <updated>2012-09-28T19:02:03Z</updated>
+    <link href="https://arxiv.org/abs/1209.6610v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1209.6610v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Radiation hard helium gas ionization chambers capable of operating in vacuum at temperatures ranging from 5K to 350K have been designed, fabricated and tested and will be used inside the cryostats at Fermilab's Superconducting Radiofrequency beam test facility. The chamber vessels are made of stainless steel and all materials used including seals are known to be radiation hard and suitable for operation at 5K. The chambers are designed to measure radiation up to 30 kRad/hr with sensitivity of approximately 1.9 pA/(Rad/hr). The signal current is measured with a recycling integrator current-to-frequency converter to achieve a required measurement capability for low current and a wide dynamic range. A novel scheme of using an FPGA-based time-to-digital converter (TDC) to measure time intervals between pulses output from the recycling integrator is employed to ensure a fast beam loss response along with a current measurement resolution better than 10-bit. This paper will describe the results obtained and highlight the processing techniques used.</summary>
+    <category term="physics.acc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-09-28T19:02:03Z</published>
+    <arxiv:comment>7 pp. 2nd International Conference on Technology and Instrumentation in Particle Physics 2011: TIPP 2011. 9-14 Jun 2011. Chicago, Illinois</arxiv:comment>
+    <arxiv:primary_category term="physics.acc-ph"/>
+    <author>
+      <name>A. Warner</name>
+      <arxiv:affiliation>Fermilab</arxiv:affiliation>
+    </author>
+    <author>
+      <name>J. Wu</name>
+      <arxiv:affiliation>Fermilab</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.01981v1</id>
+    <title>Components Qualification for a Possible use in the Mu2e Calorimeter Waveform Digitizers</title>
+    <updated>2017-10-05T12:27:54Z</updated>
+    <link href="https://arxiv.org/abs/1710.01981v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1710.01981v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Mu2e experiment at Fermilab searches for the charged flavor violating conversion of a muon into an electron in the Coulomb field of a nucleus. The detector consists of a straw tube tracker and a CSI crystal electromagnetic calorimeter, both housed in a superconducting solenoid. Both the front-end and the digital electronics, located inside the cryostat, will be operated in vacuum under a 1 T magnetic field, having to sustain the high flux of neutrons and ionizing particles coming from the muons stopping target. These harsh experimental conditions make the design of the calorimeter waveform digitizer quite challenging. All the selected commercial devices must be tested individually and qualified for radiation hardness and operation in high magnetic field. At the moment the expected particles flux and spectra at the digitizers location are not completely simulated and we are using initial rough estimates to select the components for the first prototype. We are gaining experience in the qualification procedures using the selected components but the choice will be frozen only when dose and neutron flux simulations will be completed. The experimental results of the first qualification campaign are presented.</summary>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-10-05T12:27:54Z</published>
+    <arxiv:comment>TWEPP 2016 - Topical Workshop on Electronics for Particle Physics, 26-30 September 2016, Karlsruhe Institute of Technology (KIT)</arxiv:comment>
+    <arxiv:primary_category term="physics.ins-det"/>
+    <arxiv:journal_ref>JINST 12 (2017) no.03, C03088</arxiv:journal_ref>
+    <author>
+      <name>S. Di Falco</name>
+    </author>
+    <author>
+      <name>S. Donati</name>
+    </author>
+    <author>
+      <name>L. Morescalchi</name>
+    </author>
+    <author>
+      <name>E. Pedreschi</name>
+    </author>
+    <author>
+      <name>G. Pezzullo</name>
+    </author>
+    <author>
+      <name>F. Spinella</name>
+    </author>
+    <arxiv:doi>10.1088/1748-0221/12/03/C03088</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1748-0221/12/03/C03088" title="doi"/>
+  </entry>
+</feed>

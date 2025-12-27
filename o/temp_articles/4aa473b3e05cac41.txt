@@ -1,0 +1,130 @@
+TERMS: ionization, graphene, plasma
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/oQsrlbXZAVz2pC7ox9IVBnob6hU</id>
+  <title>arXiv Query: search_query=all:ionization AND all:graphene AND all:plasma&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:29:37Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:ionization+AND+(all:graphene+AND+all:plasma)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2102.10895v1</id>
+    <title>Study of the exfoliation and functionalization of graphene from graphite flakes with plasma discharge in solution</title>
+    <updated>2021-02-22T10:59:27Z</updated>
+    <link href="https://arxiv.org/abs/2102.10895v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2102.10895v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Graphene flakes were produced by nanosecond plasma discharge at atmospheric pressure between an electrode and the surface of distilled water, in which were placed graphite flakes. The discharge ionizes the gas and forms free radicals on the surface of the water, functionalizing the graphite flakes in solution. The plasma also gives enough energy to break the Van der Waals bonds between the graphene layers but not enough to break the covalent C-C bonds within the layers. Transmission electron microscopy confirmed the hexagonal structure of graphene sheets, and showed that they were monocrystalline. No contamination was found in the obtained nanomaterial. An unknown phenomenon has been found in the activated distilled water, making its electrical conductivity decrease with an increasing temperature. An acidification of the water is observed. The gas in which the discharge takes place plays a major role on the process, no exfoliation is observed if plasmogen argon gas is used.</summary>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-02-22T10:59:27Z</published>
+    <arxiv:comment>13 pages, 22 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.app-ph"/>
+    <author>
+      <name>Q. Liebgott</name>
+    </author>
+    <author>
+      <name>C. Da Silva Tousch</name>
+    </author>
+    <author>
+      <name>A. Letoffe</name>
+    </author>
+    <author>
+      <name>D. Ibrahim</name>
+    </author>
+    <author>
+      <name>H. Kabbara</name>
+    </author>
+    <author>
+      <name>C. Noel</name>
+    </author>
+    <author>
+      <name>G. Henrion</name>
+    </author>
+    <author>
+      <name>C. Herold</name>
+    </author>
+    <author>
+      <name>I. Royaud</name>
+    </author>
+    <author>
+      <name>M. Poncot</name>
+    </author>
+    <author>
+      <name>S. Fontana</name>
+    </author>
+    <author>
+      <name>S. Cuynet</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.00183v2</id>
+    <title>Electron Acceleration in Carbon Nanotubes</title>
+    <updated>2025-02-11T13:21:39Z</updated>
+    <link href="https://arxiv.org/abs/2502.00183v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.00183v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Wakefield wavelengths associated with solid-state plasmas greatly limit the accelerating length. An alternative approach employs 2D carbon-based nanomaterials, like graphene or carbon nanotubes (CNTs), configured into structured targets. These nanostructures are designed with voids or low-density regions to effectively reduce the overall plasma density. This reduction enables the use of longer-wavelength lasers and also extends the plasma wavelength and the acceleration length. In this study, we present, to our knowledge, the first numerical demonstration of electron acceleration via self-injection into a wakefield bubble driven by an infrared laser pulse in structured CNT targets, similar to the behavior observed in gaseous plasmas for LWFA in the nonlinear (or bubble) regime. Using the PIConGPU code, bundles of CNTs are modeled in a 3D geometry as 25 nm-thick carbon tubes with an initial density of $10^{22}$ cm$^{-3}$. The carbon plasma is ionized by a three-cycle, 800 nm wavelength laser pulse with a peak intensity of $10^{21}$ W cm$^{-2}$, achieving an effective plasma density of $10^{20}$ cm$^{-3}$. The same laser also drives the wakefield bubble, responsible for the electron self-injection and acceleration. Simulation results indicate that fs-long electron bunches with hundreds of pC charge can be self-injected and accelerated at gradients exceeding 1~TeV$/$m. Both charge and accelerating gradient figures are unprecedented when compared with LWFA in gaseous plasma.</summary>
+    <category term="physics.acc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-01-31T22:00:43Z</published>
+    <arxiv:comment>11 pages, 8 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.acc-ph"/>
+    <author>
+      <name>Cristian Bontoiu</name>
+    </author>
+    <author>
+      <name>Alexandre Bonatto</name>
+    </author>
+    <author>
+      <name>Öznur Apsimon</name>
+    </author>
+    <author>
+      <name>Laura Bandiera</name>
+    </author>
+    <author>
+      <name>Gianluca Cavoto</name>
+    </author>
+    <author>
+      <name>Illya Drebot</name>
+    </author>
+    <author>
+      <name>Giancarlo Gatti</name>
+    </author>
+    <author>
+      <name>Jorge Giner-Navarro</name>
+    </author>
+    <author>
+      <name>Bifeng Lei</name>
+    </author>
+    <author>
+      <name>Pablo Martín-Luna</name>
+    </author>
+    <author>
+      <name>Ilaria Rago</name>
+    </author>
+    <author>
+      <name>Juan Rodríguez Pérez</name>
+    </author>
+    <author>
+      <name>Bruno Silveira Nunes</name>
+    </author>
+    <author>
+      <name>Alexei Sytov</name>
+    </author>
+    <author>
+      <name>Constantinos Valagiannopoulos</name>
+    </author>
+    <author>
+      <name>Carsten P. Welsch</name>
+    </author>
+    <author>
+      <name>Guoxing Xia</name>
+    </author>
+    <author>
+      <name>Jiaqi Zhang</name>
+    </author>
+    <author>
+      <name>Javier Resta-López</name>
+    </author>
+  </entry>
+</feed>

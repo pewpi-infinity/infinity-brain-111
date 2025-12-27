@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Infinity OS Portal</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(145deg, #cfd4d9, #f5f6f7);
+      color: #222;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    h1 {
+      font-size: 2em;
+      margin-bottom: 20px;
+      letter-spacing: 1px;
+      color: #333;
+    }
+
+    .button-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 16px;
+      width: 90%;
+      max-width: 600px;
+    }
+
+    button {
+      background: linear-gradient(145deg, #e6e7e8, #cfd4d9);
+      border: none;
+      border-radius: 14px;
+      padding: 14px 20px;
+      font-size: 1em;
+      font-weight: bold;
+      color: #333;
+      box-shadow: 4px 4px 8px #b8bcc0, -4px -4px 8px #fff;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    button:hover {
+      box-shadow: inset 3px 3px 6px #b8bcc0, inset -3px -3px 6px #fff;
+      color: #0077cc;
+    }
+
+    #downloads {
+      display: none;
+      margin-top: 30px;
+      width: 80%;
+      max-width: 600px;
+      padding: 20px;
+      border-radius: 14px;
+      background: linear-gradient(145deg, #e2e4e6, #f0f1f2);
+      box-shadow: inset 2px 2px 6px #babec1, inset -2px -2px 6px #fff;
+    }
+
+    .download-item {
+      background: #dfe3e6;
+      border-radius: 10px;
+      padding: 10px;
+      margin-top: 10px;
+      text-align: center;
+      box-shadow: 2px 2px 5px #b8bcc0, -2px -2px 5px #fff;
+    }
+  </style>
+</head>
+<body>
+  <h1>Infinity OS Portal</h1>
+
+  <div class="button-grid">
+    <button onclick="handleButton('chat')">🧠 Chat Voice</button>
+    <button onclick="handleButton('voice')">🎙️ Voice On/Off</button>
+    <button onclick="handleButton('files')">📂 Files / Downloads</button>
+    <button onclick="handleButton('settings')">⚙️ Settings</button>
+    <button onclick="handleButton('ai')">🧬 Infinity AI</button>
+  </div>
+
+  <div id="downloads">
+    <h3>📥 Downloads & Files</h3>
+    <div id="fileList"></div>
+  </div>
+
+  <script>
+    function handleButton(action) {
+      if (action === 'chat') {
+        alert('Chat Voice system loading...');
+      } else if (action === 'voice') {
+        alert('Voice module initializing...');
+      } else if (action === 'files') {
+        toggleDownloads();
+      } else if (action === 'settings') {
+        alert('Settings panel coming soon.');
+      } else if (action === 'ai') {
+        alert('Infinity AI core linking...');
+      } else {
+        fallbackDownload(action);
+      }
+    }
+
+    function toggleDownloads() {
+      const downloads = document.getElementById('downloads');
+      downloads.style.display = downloads.style.display === 'block' ? 'none' : 'block';
+    }
+
+    function fallbackDownload(fileName) {
+      const fileList = document.getElementById('fileList');
+      const newItem = document.createElement('div');
+      newItem.classList.add('download-item');
+      newItem.textContent = `Failed to run ${fileName}. Added to downloads.`;
+      fileList.appendChild(newItem);
+      document.getElementById('downloads').style.display = 'block';
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+TERMS: quantum, frequency, plasma
+COLORS: blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/PKsQaI5nxFWa6QhZa1netSdDdL4</id>
+  <title>arXiv Query: search_query=all:quantum AND all:frequency AND all:plasma&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:05:47Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:frequency+AND+all:plasma)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>622</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1010.0073v1</id>
+    <title>Some New Aspects of Degenerate Quantum Plasma</title>
+    <updated>2010-10-01T06:20:32Z</updated>
+    <link href="https://arxiv.org/abs/1010.0073v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1010.0073v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Answers to some salient questions, which arise in quantum plasmas, are given. Starting from the Schrödinger equation for a single particle it is demonstrated how the Wigner-Moyal equation can be derived. It is shown that the Wigner-Moyal type of equation also exists in the classical field theory. As an example, from the Maxwell equations the Wigner-Moyal type of equation is obtained for a dense photon gas, which is classical, concluding that the Wigner-Moyal type of equation can be derived for any system, classical or quantum. A new type of quantum kinetic equations are presented. These novel kinetic equations allow to obtain a set of quantum hydrodynamic equations, which is impossible to derive by the Wigner-Moyal equation. The propagation of small perturbations and instabilities of these perturbations are then discussed, presenting new modes of quantum plasma waves. In the case of low frequency oscillations with ions, a new Bogolyubov type of spectrum is found. Furthermore, the Korteweg-de Vries (KdV) equation is derived and the contribution of the Madelung term in the formation of the KdV solitons is discussed.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-10-01T06:20:32Z</published>
+    <arxiv:comment>Invited Talk ICTP 2010, Advanced Workshop on the Frontiers of Plasma Physics</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <arxiv:journal_ref>AIP Conf.Proc.1306:75-88,2010</arxiv:journal_ref>
+    <author>
+      <name>Nodar L. Tsintsadze</name>
+    </author>
+    <arxiv:doi>10.1063/1.3533195</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/1.3533195" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1212.3039v1</id>
+    <title>Peculiarities of Surface Plasmons in Quantum Plasmas</title>
+    <updated>2012-12-13T02:37:08Z</updated>
+    <link href="https://arxiv.org/abs/1212.3039v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1212.3039v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Surface plasmons (SP) in a semi-bounded quantum plasma with degenerate electrons (e.g., a metal) is considered, and some interesting consequences of electron Pauli blocking for the SP dispersion and temporal attenuation are discussed. In particular, it is demonstrated that a semi-bounded degenerate plasma with a sharp boundary supports two types of SP with distinct frequencies and qualitatively different temporal attenuation, in contrast to a non-degenerate plasma that only supports one type of SP \citep{Guernsey_1969}.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-12-13T02:37:08Z</published>
+    <arxiv:comment>10 pages, 3 figures. Submitted to Journal of Plasma Physics. arXiv admin note: text overlap with arXiv:1111.6723</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>Yuriy O. Tyshetskiy</name>
+    </author>
+    <author>
+      <name>Sergey V. Vladimirov</name>
+    </author>
+    <author>
+      <name>Roman Kompaneets</name>
+    </author>
+    <arxiv:doi>10.1017/S0022377813000135</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1017/S0022377813000135" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0911.4594v1</id>
+    <title>Dispersion properties of electrostatic oscillations in quantum plasmas</title>
+    <updated>2009-11-24T10:33:59Z</updated>
+    <link href="https://arxiv.org/abs/0911.4594v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0911.4594v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We present a derivation of the dispersion relation for electrostatic oscillations (ESOs) in a zero temperature quantum plasma. In the latter, degenerate electrons are governed by the Wigner equation, while non-degenerate ions follow the classical fluid equations. The Poisson equation determines the electrostatic wave potential. We consider parameters ranging from semiconductor plasmas to metallic plasmas and electron densities of compressed matter such as in laser-compression schemes and dense astrophysical objects. Due to the wave diffraction caused by overlapping electron wave function due to the Heisenberg uncertainty principle in dense plasmas, we have possibility of Landau damping of the high-frequency electron plasma oscillations (EPOs) at large enough wavenumbers. The exact dispersion relations for the EPOs are solved numerically and compared to the ones obtained by using approximate formulas for the electron susceptibility in the high- and low-frequency cases.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-11-24T10:33:59Z</published>
+    <arxiv:comment>9 pages, 3 figures. Accepted for publication in Journal of Plasma Physics</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>Bengt Eliasson</name>
+    </author>
+    <author>
+      <name>Padma K. Shukla</name>
+    </author>
+    <arxiv:doi>10.1017/S0022377809990316</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1017/S0022377809990316" title="doi"/>
+  </entry>
+</feed>

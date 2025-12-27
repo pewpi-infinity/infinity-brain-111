@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Infinity - Rogers Core System</title>
+  <!-- your styles -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="themes.css">
+</head>
+<body>
+<!-- C14_MARIO_TOKEN_PANEL_START -->
+<style>
+.c14wrap{font-family:monospace;background:#0b0f14;color:#e6edf3;padding:14px}
+.c14card{border:1px solid #30363d;border-radius:12px;padding:14px;margin:10px 0}
+.c14value{font-size:2.2em;text-align:center;color:#ffd700;line-height:1.1}
+.c14row{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.c14pill{border:1px solid #30363d;border-radius:999px;padding:6px 10px}
+.c14btn{display:block;width:100%;padding:14px;border-radius:12px;border:1px solid #30363d;background:#111827;color:#e6edf3;font-size:1em}
+.c14note{opacity:.85;font-size:.85em;margin-top:8px}
+</style>
+<div class="c14wrap">
+  <div class="c14card">
+    <div class="c14row">
+      <div class="c14pill">🧱</div>
+      <div class="c14pill">🍄</div>
+      <div class="c14pill">⭐</div>
+    </div>
+    <div class="c14value">Token Value: 53</div>
+    <div class="c14note">Repo: Infinity- • Updated: 2025-12-20 09:57:08</div>
+  </div>
+
+  <div class="c14card">
+    <div class="c14note">Pay via PayPal (email receiver). Amount is set to token value.</div>
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="get" target="_blank">
+      <input type="hidden" name="cmd" value="_xclick">
+      <input type="hidden" name="business" value="watsonkris61@gmail.com">
+      <input type="hidden" name="item_name" value="__C14_REPO__ Token 🧱🍄⭐">
+      <input type="hidden" name="amount" value="__C14_VALUE__">
+      <input type="hidden" name="currency_code" value="USD">
+      <button class="c14btn" type="submit">Pay $__C14_VALUE__ via PayPal</button>
+    </form>
+  </div>
+
+  <div class="c14card">
+    <div class="c14note">
+      Mario economy: 🧱 base • 🍄 growth • ⭐ acceleration<br>
+      (This panel is additive and does not replace your existing UI.)
+    </div>
+  </div>
+</div>
+<!-- C14_MARIO_TOKEN_PANEL_END -->
+  <!-- LOCAL (NON-GOOGLE) SIGN-IN -->
+  <div id="authSection" class="auth-section" style="min-height:100vh; display:flex; align-items:center; justify-content:center; background:radial-gradient(circle at top, #0f172a 0%, #020617 55%, #000 100%);">
+    <div class="auth-container" style="background:rgba(3,7,18,.65); border:1px solid rgba(148,163,184,.12); border-radius:18px; padding:20px 18px 18px; width:min(420px, 94vw); color:#e2e8f0; backdrop-filter:blur(6px);">
+      <div class="logo" style="text-align:center; margin-bottom:14px;">
+        <h1 style="margin:0; font-size:1.35rem;">Infinity</h1>
+        <p class="tagline" style="opacity:.6; margin-top:4px;">Rogers Core System</p>
+      </div>
+
+      <p class="auth-info" style="font-size:.68rem; margin-bottom:9px;">
+      </p>
+
+      <label style="display:block; font-size:.6rem; margin-bottom:3px;">Display name</label>
+      <input id="inf-name"
+             placeholder="Kris"
+             style="width:100%; padding:7px 9px; border-radius:8px; border:1px solid rgba(148,163,184,.25); background:rgba(15,23,42,.35); color:#fff; margin-bottom:6px;">
+
+      <label style="display:block; font-size:.6rem; margin-bottom:3px;">Email (optional)</label>
+      <input id="inf-email"
+             type="email"
+             placeholder="you@example.com"
+             style="width:100%; padding:7px 9px; border-radius:8px; border:1px solid rgba(148,163,184,.25); background:rgba(15,23,42,.35); color:#fff; margin-bottom:12px;">
+
+      <button onclick="infinityLogin()"
+              style="width:100%; background:#0ea5e9; border:none; border-radius:8px; padding:8px 0; font-weight:600; cursor:pointer;">
+        Sign in to Infinity
+      </button>
+
+      <button onclick="infinityBypass()"
+              style="width:100%; margin-top:8px; background:transparent; border:1px solid rgba(148,163,184,.35); border-radius:8px; padding:6px 0; font-size:.6rem; color:#e2e8f0; cursor:pointer;">
+        🔓 Bypass (demo / offline)
+      </button>
+
+      <p class="auth-email" style="margin-top:10px; font-size:.55rem; opacity:.5;">
+        Contact: marvaseater@gmail.com
+      </p>
+    </div>
+  </div>
+
+  <!-- MAIN APP (hidden until logged in) -->
+  <div id="mainApp" class="main-app" style="display:none;">
+    <!-- Sidebar -->
+    <aside id="sidebar" class="sidebar">
+      <div class="sidebar-header">
+        <h2>Infinity</h2>
+        <button class="sidebar-toggle" onclick="toggleSidebar()">☰</button>
+      </div>
+
+      <div class="sidebar-content">
+        <div class="sidebar-section">
+          <h3>Navigation</h3>
+          <button class="sidebar-btn" onclick="navigateToHome()">🏠 Home</button>
+          <button class="sidebar-btn" onclick="showHub('portal')">🔧 Portal</button>
+          <button class="sidebar-btn" onclick="showHub('marketplace')">🏪 Marketplace</button>
+          <button class="sidebar-btn" onclick="showHub('socializer')">👥 Socializer</button>
+        </div>
+
+        <div class="sidebar-section">
+          <h3>Infinity Tools</h3>
+          <button class="sidebar-btn" onclick="loadApp('peerlink')">📞 PeerLink P2P</button>
+          <button class="sidebar-btn" onclick="loadApp('deployer')">🚀 Deployer</button>
+          <button class="sidebar-btn" onclick="loadApp('funding')">💰 Funding Pad</button>
+          <button class="sidebar-btn" onclick="loadApp('risk')">🎲 RISK Companion</button>
+          <button class="sidebar-btn" onclick="loadApp('fieldlab')">🔬 Field Lab</button>
+          <button class="sidebar-btn" onclick="showTreasuryMap()">🏛️ Treasury Map</button>
+        </div>
+
+        <div class="sidebar-section">
+          <h3>Chat Sessions</h3>
+          <div id="chatSessions" class="chat-sessions">
+            <button class="session-btn" onclick="loadChatSession('default')">💬 Main Chat</button>
+            <button class="session-btn new-session" onclick="newChatSession()">+ New Chat</button>
+          </div>
+        </div>
+
+        <div class="sidebar-section">
+          <h3>Developer Tools</h3>
+          <label class="toggle-switch">
+            <input type="checkbox" id="devMode" onchange="toggleDevMode()">
+            <span class="slider"></span>
+            <span class="label-text">Rogers Dev Mode</span>
+          </label>
+          <button class="sidebar-btn" onclick="openConsole()">🔍 Console</button>
+          <button class="sidebar-btn" onclick="viewLogs()">📋 View Logs</button>
+          <button class="sidebar-btn" onclick="startTimeMachineAutoCycle()">⏰ Auto Theme Cycle</button>
+        </div>
+
+        <div class="sidebar-section">
+          <h3>Account</h3>
+          <div class="user-profile">
+            <img id="sidebarAvatar" class="sidebar-avatar" src="" alt="User">
+            <div class="user-details">
+              <div id="sidebarName" class="user-name"></div>
+              <div id="sidebarTokens" class="user-tokens">Tokens: 0</div>
+            </div>
+          </div>
+          <button class="sidebar-btn logout-btn" onclick="signOut()">🚪 Sign Out</button>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Hidden hook divs -->
+    <div id="rogers-button" style="display:none;"></div>
+    <div id="intake-agent" style="display:none;"></div>
+    <div id="infinity-deployer" style="display:none;"></div>
+    <div id="nwo-panel" style="display:none;"></div>
+    <div id="p2p-panel" style="display:none;"></div>
+    <div id="funding-pad" style="display:none;"></div>
+    <div id="marketplace-panel" style="display:none;"></div>
+    <div id="watson-core" style="display:none;"></div>
+    <div id="gemini-image-intake" style="display:none;"></div>
+
+    <!-- Vector Transition placeholder -->
+    <div id="vectorTransition" class="vector-transition" style="display:none;">
+      <div class="space-grid"></div>
+      <div class="hydrogen-cloud"></div>
+      <svg id="vectorCanvas" width="100%" height="100%" style="position:absolute; top:0; left:0;"></svg>
+      <div id="vectorGuide" class="vector-guide">🧠</div>
+      <div id="portal" class="portal" style="display:none;"></div>
+    </div>
+
+    <!-- Loading overlay -->
+    <div id="loadingOverlay" class="loading-overlay" style="display:none;">
+      <div class="loading-content">
+        <div class="loading-spinner"></div>
+        <div class="loading-text" id="loadingText">Loading...</div>
+      </div>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div class="main-content">
+      <header>
+        <div class="header-container" style="display:flex; justify-content:space-between; align-items:center; padding:10px 14px;">
+          <div class="logo">
+            <h1 style="margin:0; font-size:1.1rem;">Infinity</h1>
+            <span class="core-label" style="font-size:.6rem; opacity:.6;">Rogers Core</span>
+          </div>
+          <div class="user-info" style="display:flex; gap:.4rem; align-items:center;">
+            <img id="userAvatar" class="user-avatar" src="" alt="User" style="width:34px; height:34px; border-radius:9999px; background:#0f172a;">
+            <button class="btn-logout" onclick="signOut()" style="background:#0f172a; color:#fff; border:none; border-radius:6px; padding:5px 10px; font-size:.62rem;">Sign Out</button>
+          </div>
+        </div>
+      </header>
+
+      <main style="padding:12px;">
+        <!-- MAIN HUB -->
+        <section id="mainHub" class="hub-selector">
+          <h2>Infinity Portal Hub</h2>
+          <p class="hub-subtitle">Choose Your Destination</p>
+          <div class="hub-grid" style="display:grid; gap:14px; grid-template-columns:repeat(auto-fit, minmax(160px, 1fr));">
+            <div class="hub-card zoom-card" onclick="showHub('portal')">
+              <div class="hub-icon">🏠</div>
+              <h3>Portal</h3>
+              <p>Personal Daily Utilities</p>
+              <button class="btn-primary">Enter Portal</button>
+            </div>
+            <div class="hub-card zoom-card" onclick="showHub('marketplace')">
+              <div class="hub-icon">🏪</div>
+              <h3>Marketplace</h3>
+              <p>Trade & Infinity Tokens</p>
+              <button class="btn-primary">Enter Marketplace</button>
+            </div>
+            <div class="hub-card zoom-card" onclick="showHub('socializer')">
+              <div class="hub-icon">👥</div>
+              <h3>Socializer</h3>
+              <p>People & Media</p>
+              <button class="btn-primary">Enter Socializer</button>
+            </div>
+          </div>
+        </section>
+
+        <!-- PORTAL HUB -->
+        <section id="portalHub" class="app-hub" style="display:none;">
+          <h2>Portal - Personal Daily Utilities</h2>
+          <div class="hub-grid" style="display:grid; gap:12px; grid-template-columns:repeat(auto-fit, minmax(140px, 1fr));">
+            <div class="hub-card" onclick="loadApp('calculator')"><div class="hub-icon">🔢</div><h3>Calculator</h3></div>
+            <div class="hub-card" onclick="loadApp('alarm')"><div class="hub-icon">⏰</div><h3>Alarm</h3></div>
+            <div class="hub-card" onclick="loadApp('bible')"><div class="hub-icon">📖</div><h3>Bible</h3></div>
+            <div class="hub-card" onclick="loadApp('pets')"><div class="hub-icon">🐾</div><h3>Pet Care</h3></div>
+            <div class="hub-card" onclick="loadApp('therapy')"><div class="hub-icon">💪</div><h3>Therapy</h3></div>
+            <div class="hub-card" onclick="loadApp('garden')"><div class="hub-icon">🌱</div><h3>Garden</h3></div>
+          </div>
+          <button class="btn-back" onclick="backToMainHub()">← Back to Main Hub</button>
+        </section>
+
+        <!-- MARKETPLACE HUB -->
+        <section id="marketplaceHub" class="app-hub" style="display:none;">
+          <h2>Marketplace - Trade & Infinity Tokens</h2>
+          <div class="hub-grid" style="display:grid; gap:12px; grid-template-columns:repeat(auto-fit, minmax(140px, 1fr));">
+            <div class="hub-card" onclick="loadApp('trade')"><div class="hub-icon">🏪</div><h3>Infinity Trading</h3></div>
+            <div class="hub-card" onclick="loadApp('clothing')"><div class="hub-icon">👔</div><h3>Clothing</h3></div>
+            <div class="hub-card" onclick="loadApp('foodtextile')"><div class="hub-icon">🌾</div><h3>Food & Textiles</h3></div>
+            <div class="hub-card" onclick="loadApp('glass')"><div class="hub-icon">🏺</div><h3>Glass Packaging</h3></div>
+            <div class="hub-card" onclick="loadApp('banned')"><div class="hub-icon">⚠️</div><h3>Truth DB</h3></div>
+            <div class="hub-card" onclick="loadApp('leather')"><div class="hub-icon">🧤</div><h3>Leather</h3></div>
+          </div>
+          <button class="btn-back" onclick="backToMainHub()">← Back to Main Hub</button>
+        </section>
+
+        <!-- SOCIALIZER HUB -->
+        <section id="socializerHub" class="app-hub" style="display:none;">
+          <h2>Socializer - People & Media</h2>
+          <div class="hub-grid" style="display:grid; gap:12px; grid-template-columns:repeat(auto-fit, minmax(140px, 1fr));">
+            <div class="hub-card" onclick="loadApp('locals')"><div class="hub-icon">📍</div><h3>Locals Chat</h3></div>
+            <div class="hub-card" onclick="loadApp('videogame')"><div class="hub-icon">🎮</div><h3>Game Generator</h3></div>
+            <div class="hub-card" onclick="loadApp('diy')"><div class="hub-icon">🔨</div><h3>DIY</h3></div>
+            <div class="hub-card" onclick="loadApp('school')"><div class="hub-icon">🎓</div><h3>Infinity School</h3></div>
+            <div class="hub-card" onclick="loadApp('channel')"><div class="hub-icon">📺</div><h3>Channel Gen</h3></div>
+          </div>
+          <button class="btn-back" onclick="backToMainHub()">← Back to Main Hub</button>
+        </section>
+
+        <!-- DYNAMIC APP AREA -->
+        <section id="appContent" class="app-content" style="display:none;">
+          <div id="appContainer" style="min-height:140px; background:rgba(15,23,42,.12); border:1px solid rgba(148,163,184,.08); border-radius:.6rem; padding:.5rem;"></div>
+          <button class="btn-back" onclick="backToHub()">← Back</button>
+        </section>
+      </main>
+    </div>
+
+    <!-- Time Machine -->
+    <div class="time-machine" style="position:fixed; bottom:10px; left:10px; background:rgba(3,7,18,.7); border:1px solid rgba(148,163,184,.25); border-radius:.8rem; padding:.4rem .5rem;">
+      <h4 style="margin:0 0 .3rem 0; font-size:.55rem;">⏰ TIME MACHINE</h4>
+      <div class="theme-buttons" style="display:flex; gap:.25rem; flex-wrap:wrap; max-width:18rem;">
+        <button class="theme-btn" onclick="switchTheme('dark')">Dark</button>
+        <button class="theme-btn" onclick="switchTheme('ai')">AI</button>
+        <button class="theme-btn" onclick="switchTheme('infinity')">∞</button>
+      </div>
+    </div>
+  </div><!-- end #mainApp -->
+
+  <footer style="text-align:center; font-size:.55rem; opacity:.4; padding:10px 0;">
+    Powered by Infinity
+  </footer>
+
+  <script>
+    // ====== LOCAL AUTH; NO GOOGLE ======
+    (function(){
+      const KEY = "infinityUser";
+      window.infinityAuth = {
+        get() {
+          try {
+            const raw = localStorage.getItem(KEY);
+            return raw ? JSON.parse(raw) : null;
+          } catch(e) { return null; }
+        },
+        set(user) {
+          localStorage.setItem(KEY, JSON.stringify(user));
+        },
+        clear() {
+          localStorage.removeItem(KEY);
+        }
+      };
+    })();
+
+    function showMain(user) {
+      document.getElementById("authSection").style.display = "none";
+      document.getElementById("mainApp").style.display = "block";
+      const name = (user && (user.name || user.email)) ? (user.name || user.email) : "Infinity user";
+      const sidebarName = document.getElementById("sidebarName");
+      if (sidebarName) sidebarName.textContent = name;
+    }
+
+    function infinityLogin() {
+      const name = document.getElementById("inf-name").value.trim();
+      const email = document.getElementById("inf-email").value.trim();
+      if (!name && !email) {
+        alert("Enter a name or email.");
+        return;
+      }
+      const user = { name, email, ts: Date.now(), source: "infinity-local" };
+      window.infinityAuth.set(user);
+      showMain(user);
+    }
+
+    function infinityBypass() {
+      const user = { name: "Infinity Demo", email: "", ts: Date.now(), source: "bypass" };
+      window.infinityAuth.set(user);
+      showMain(user);
+    }
+
+    function signOut() {
+      window.infinityAuth.clear();
+      document.getElementById("mainApp").style.display = "none";
+      document.getElementById("authSection").style.display = "flex";
+    }
+
+    // ====== NAV / HUB LOGIC ======
+    function navigateToHome() {
+      document.getElementById("mainHub").style.display = "block";
+      document.getElementById("portalHub").style.display = "none";
+      document.getElementById("marketplaceHub").style.display = "none";
+      document.getElementById("socializerHub").style.display = "none";
+      document.getElementById("appContent").style.display = "none";
+    }
+
+    function showHub(which) {
+      document.getElementById("mainHub").style.display = "none";
+      document.getElementById("portalHub").style.display = (which === "portal") ? "block" : "none";
+      document.getElementById("marketplaceHub").style.display = (which === "marketplace") ? "block" : "none";
+      document.getElementById("socializerHub").style.display = (which === "socializer") ? "block" : "none";
+      document.getElementById("appContent").style.display = "none";
+    }
+
+    function backToMainHub() {
+      navigateToHome();
+    }
+
+    function backToHub() {
+      // just go back to main hub for now
+      navigateToHome();
+    }
+
+    function loadApp(id) {
+      const box = document.getElementById("appContainer");
+      document.getElementById("appContent").style.display = "block";
+      document.getElementById("portalHub").style.display = "none";
+      document.getElementById("marketplaceHub").style.display = "none";
+      document.getElementById("socializerHub").style.display = "none";
+      box.innerHTML = "<p style='font-size:.6rem;'>Loaded app: <b>" + id + "</b>. Hook your real module here.</p>";
+    }
+
+    function toggleSidebar() {
+      const sb = document.getElementById("sidebar");
+      sb.classList.toggle("open");
+    }
+
+    // theme stub
+    function switchTheme(name) {
+      console.log("switch theme →", name);
+      // you can add class changes here
+    }
+
+    // auto-login if stored
+    document.addEventListener("DOMContentLoaded", () => {
+      const user = window.infinityAuth.get();
+      if (user) {
+        showMain(user);
+      }
+    });
+  </script>
+</body>
+</html>
+<!-- C13B0_TOKEN_BLOCK -->
+<style>
+.c13b0{font-family:monospace;background:#0b0f14;color:#e6edf3;padding:16px}
+.c13b0 .value{font-size:2em;color:#ffd700}
+.c13b0 button{padding:12px;font-size:1em;width:100%;margin-top:8px}
+</style>
+
+<div class="c13b0">
+  <h2>🧱🍄⭐ Token</h2>
+  <div class="value">Value: 45</div>
+  <p>🧱 Base • 🍄 Growth • ⭐ Star Power</p>
+
+  <h3>Support / Acquire</h3>
+  <p>This token represents real work, research, and structure.</p>
+
+  <a href="https://www.paypal.com/paypalme/watsonkris61@gmail.com/45" target="_blank">
+    <button>Pay $45 via PayPal</button>
+  </a>
+
+  <p style="font-size:0.8em;">
+    PayPal recipient: watsonkris61@gmail.com<br/>
+    Repo: Infinity-<br/>
+    Generated: 2025-12-20T15:41:15Z
+  </p>
+</div>

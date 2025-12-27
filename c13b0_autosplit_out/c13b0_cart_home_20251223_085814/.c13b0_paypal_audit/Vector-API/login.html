@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Infinity Login</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body class="center-screen">
+  <div class="auth-box">
+    <h1>Infinity Sign In</h1>
+    <p class="muted">Single wallet · single activity · PewPi at bottom.</p>
+    <label>Display name</label>
+    <input id="name" placeholder="Kris">
+    <label>Email (optional)</label>
+    <input id="email" type="email" placeholder="you@example.com">
+    <button class="btn" id="enterBtn">Enter</button>
+    <button class="btn secondary" id="bypassBtn">Bypass (admin)</button>
+  </div>
+
+  <div id="infinity-footer"></div>
+
+  <script type="module">
+    import { setCurrentUser, ensureWallet, renderInfinityFooter, logActivity } from './core/infinity-core.js';
+
+    const enterBtn = document.getElementById('enterBtn');
+    const bypassBtn = document.getElementById('bypassBtn');
+
+    enterBtn.onclick = () => {
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      if (!name && !email) {
+        alert("Enter a name or email");
+        return;
+      }
+      const user = { name, email, ts: Date.now(), source: "vector-api-login" };
+      setCurrentUser(user);
+      ensureWallet(user);
+      logActivity(user, "login");
+      // go to portal
+      window.location.href = "./portal.html";
+    };
+
+    bypassBtn.onclick = () => {
+      const user = { name: "Infinity Admin", email: "", ts: Date.now(), source: "bypass" };
+      setCurrentUser(user);
+      ensureWallet(user);
+      logActivity(user, "bypass-login");
+      window.location.href = "./portal.html";
+    };
+
+    renderInfinityFooter();
+  </script>
+</body>
+</html>

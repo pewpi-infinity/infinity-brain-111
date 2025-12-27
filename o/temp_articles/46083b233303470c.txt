@@ -1,0 +1,82 @@
+TERMS: hydrogen, fusion, plasma, probability
+COLORS: purple, green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/LG0AZbvLQcuTWwki3K8DnJhqUpY</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:fusion AND all:plasma AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:54:54Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:fusion+AND+(all:plasma+AND+all:probability))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>3</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1705.10221v2</id>
+    <title>Hot-electron relaxation in dense `two-temperature' hydrogen</title>
+    <updated>2017-06-05T21:32:32Z</updated>
+    <link href="https://arxiv.org/abs/1705.10221v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1705.10221v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent theories of hot-electron relaxation in dense hydrogen or deuterium are examined in the light of recent molecular-dynamics simulations as well as various theoretical developments within the two-temperature model. The theoretical work since 1998 have led to the formulation of the $f$-sum version of the Fermi Golden rule formula as the most convenient method for the calculation of the rate of cooling of hot electrons where energy is transferred to cold ions. The attempt to include relaxation via the ion-acoustic modes of the two coupled subsystems, i.e., electrons and ions has led to a coupled-mode formulation which has now been established by a variety of formal methods. However, various simplified calculational models of the system with coupled-modes, as well as sophisticated molecular dynamics simulations seem to disagree. It is expected that coupled-mode calculations which use the simple Coulomb potential $V_{ei}(r)=-|e|Z/r$ for the electron-ion interaction within RPA will greatly over-estimate the coupled-mode contribution. A weak pseudopotential $U_{ei}(r)$ would probably bring the estimated coupled-mode contribution to agree with that obtained by simulations. It is suggested that the available `reduced models' have been constructed without much attention to the satisfaction of important sum rules, Kramers-Krönig relations etc. We also deal with the question of how strongly coupled ion-ion systems can be addressed by an extension of the second-order linear response theory which is the basis of current formulations of energy relaxation in warm-dense matter systems. These are of interest in a variety of fields including hot-electron semi-conductor devices, inertial-fusion studies of hot compressed hydrogen, as well as in astrophysical applications.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-05-29T14:48:09Z</published>
+    <arxiv:comment>13 pages</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <author>
+      <name>M. W. C. Dharma-wardana</name>
+      <arxiv:affiliation>NRC Canada</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1903.08157v5</id>
+    <title>Novel inferences of ionisation &amp; recombination for particle/power balance during detached discharges using deuterium Balmer line spectroscopy</title>
+    <updated>2019-11-27T15:43:17Z</updated>
+    <link href="https://arxiv.org/abs/1903.08157v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1903.08157v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The physics of divertor detachment is determined by divertor power, particle and momentum balance. This work provides a novel analysis technique of the Balmer line series to obtain a full particle/power balance measurement of the divertor. This supplies new information to understand what controls the divertor target ion flux during detachment.
+  Atomic deuterium excitation emission is separated from recombination quantitatively using Balmer series line ratios. This enables analysing those two components individually, providing ionisation/recombination source/sinks and hydrogenic power loss measurements. Probabilistic Monte Carlo techniques were employed to obtain full error propagation - eventually resulting in probability density functions for each output variable. Both local and overall particle and power balance in the divertor are then obtained. These techniques and their assumptions have been verified by comparing the analysed synthetic diagnostic 'measurements' obtained from SOLPS simulation results for the same discharge. Power/particle balance measurements have been obtained during attached and detached conditions on the TCV tokamak.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.data-an" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-03-19T09:58:32Z</published>
+    <arxiv:comment>The analysis results of this paper were formerly in arXiv:1810.04969</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <arxiv:journal_ref>2019 Plasma Phys. Control. Fusion 61 125018</arxiv:journal_ref>
+    <author>
+      <name>K. Verhaegh</name>
+    </author>
+    <author>
+      <name>B. Lipschultz</name>
+    </author>
+    <author>
+      <name>B. P. Duval</name>
+    </author>
+    <author>
+      <name>A. Fil</name>
+    </author>
+    <author>
+      <name>M. Wensing</name>
+    </author>
+    <author>
+      <name>C. Bowman</name>
+    </author>
+    <author>
+      <name>D. S. Gahle</name>
+    </author>
+    <arxiv:doi>10.1088/1361-6587/ab4f1e</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1361-6587/ab4f1e" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1810.06263v1</id>
+    <title>Liquid scintillators neutron response function: a tutorial</title>
+    <updated>2018-10-15T10:40:30Z</updated>
+    <link href="https://arxiv.org/abs/1810.06263v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1810.06263v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This tutorial is devoted to the understanding of the different components that are present in the neutron light output pulse height distribution of liquid scintillators in fusion relevant energy ranges. The basic mechanisms for the generation of the scintillation light are briefly discussed. The different elastic collision processed between the incident neutrons and the hydrogen and carbon atoms are described in terms of probability density functions and the overall response function as their convolution. The results from this analytical approach is then compared with those obtained from simplified and full Monte Carlo simulations. Edge effect, finite energy resolution, light output and transport and competing physical processes between neutron and carbon and hydrogen atoms and their impact on the response functions are discussed. Although the analytical treatment here presented allows only for a qualitative comparison with full Monte Carlo simulations it enables an understanding of the main features present in the response function and therefore provides the ground for the interpretation of more complex response functions such those measured in fusion plasmas. Although the main part of this tutorial is focussed on the response function to mono-energetic 2.45 MeV neutrons a brief discussion is presented in case of broad neutron energy spectra and how these can be used to infer the underlying properties of fusion plasmas via the application of a forward modelling method.</summary>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-10-15T10:40:30Z</published>
+    <arxiv:primary_category term="physics.ins-det"/>
+    <author>
+      <name>M. Cecconello</name>
+    </author>
+  </entry>
+</feed>

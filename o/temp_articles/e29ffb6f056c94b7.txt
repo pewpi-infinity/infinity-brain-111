@@ -1,0 +1,33 @@
+TERMS: hydrogen, frequency, entropy, ionization
+COLORS: purple, green, red, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/3NJgq5njP4yW2yd4JPav37YB/X8</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:frequency AND all:entropy AND all:ionization&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:42:11Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:frequency+AND+(all:entropy+AND+all:ionization))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/0707.0188v2</id>
+    <title>Is there a need and another way to measure the Cosmic Microwave Background temperature more accurately?</title>
+    <updated>2007-12-07T11:30:23Z</updated>
+    <link href="https://arxiv.org/abs/0707.0188v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0707.0188v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The recombination history of the Universe depends exponentially on the temperature, T_0, of the cosmic microwave background. Therefore tiny changes of T_0 are expected to lead to significant changes in the free electron fraction. Here we show that even the current 1sigma-uncertainty in the value of T_0 results in more than half a percent ambiguity in the ionization history, and more than 0.1% uncertainty in the TT and EE power spectra at small angular scales. We discuss how the value of T_0 affects the highly redshifted cosmological hydrogen recombination spectrum and demonstrate that T_0 could, in principle, be measured by looking at the low frequency distortions of the cosmic microwave background spectrum. For this no absolute measurements are necessary, but sensitivities on the level of ~30nK are required to extract the quasi-periodic frequency-dependent signal with typical Delta nu/nu~0.1 coming from cosmological recombination. We also briefly mention the possibility of obtaining additional information on the specific entropy of the Universe, and other cosmological parameters.</summary>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-07-02T10:34:03Z</published>
+    <arxiv:comment>4+epsilon pages, 4 Figures, accepted version</arxiv:comment>
+    <arxiv:primary_category term="astro-ph"/>
+    <author>
+      <name>J. Chluba</name>
+    </author>
+    <author>
+      <name>R. A. Sunyaev</name>
+    </author>
+    <arxiv:doi>10.1051/0004-6361:20078200</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1051/0004-6361:20078200" title="doi"/>
+  </entry>
+</feed>

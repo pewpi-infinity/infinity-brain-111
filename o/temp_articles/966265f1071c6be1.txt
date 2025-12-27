@@ -1,0 +1,73 @@
+TERMS: hydrogen, frequency, electron, singularity
+COLORS: purple, green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/rVrWVvxNZM3Z6qirPaCuTps2zcE</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:frequency AND all:electron AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:43:11Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:frequency+AND+(all:electron+AND+all:singularity))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2411.15683v3</id>
+    <title>First-Principles Study of High-Temperature Superconductivity in X2MH6 Compounds under 20 GPa</title>
+    <updated>2025-03-29T14:08:22Z</updated>
+    <link href="https://arxiv.org/abs/2411.15683v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.15683v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Research on high-temperature superconductors has primarily focused on hydrogen-rich compounds, however, the need for extreme pressures limits their practical applications. The X2MH6-type structure Mg2IrH6 stands out because it exhibits superconductivity at 160 K under ambient pressure. This study investigates methods to increase the superconducting transition temperature of this structure via atomic substitution and low-pressure treatment and assess the mechanical, thermodynamic, and dynamic stability of structures obtained by substituting Mg and Ir atoms in Mg2IrH6 with elements from the same groups using first-principles calculations. The findings identify 11 stable ternary compounds, 10 of which exhibit superconducting transition temperatures, with three compounds, Mg2CoH6, Mg2RhH6, and Mg2IrH6, exceeding 100 K, classifying them as high-temperature superconductors. Their superconducting figure of merit S values are 2.71, 3.35, and 3.83, respectively, suggesting strong practical application potential. The analysis results indicate that mid-frequency hydrogen phonons significantly enhance superconducting properties via electron-phonon coupling. The band structure study highlights the importance of van Hove singularities near the Fermi level. In addition, electron localization function and Fermi surface topology analyses reveal that the Fermi surface shape and density of states are crucial for increasing superconducting transition temperatures.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-24T02:09:35Z</published>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>Jing Luo</name>
+    </author>
+    <author>
+      <name>Qun Wei</name>
+    </author>
+    <author>
+      <name>Xiaofei Jia</name>
+    </author>
+    <author>
+      <name>Meiguang Zhang</name>
+    </author>
+    <author>
+      <name>Xuanmin Zhu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1811.08548v3</id>
+    <title>Origin of High-Temperature Superconductivity in Compressed LaH$_{10}$</title>
+    <updated>2019-01-20T07:28:02Z</updated>
+    <link href="https://arxiv.org/abs/1811.08548v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1811.08548v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Room-temperature superconductivity has been one of the most challenging subjects in modern physics. Recent experiments reported that lanthanum hydride LaH$_{10{\pm}x}$ ($x$$&lt;$1) raises a superconducting transition temperature $T_{\rm c}$ up to ${\sim}$260 (or 215) K at high pressures around 190 (150) GPa. Here, based on first-principles calculations, we reveal the existence of topological Dirac-nodal-line (DNL) states in compressed LaH$_{10}$. Remarkably, the DNLs protected by the combined inversion and time-reversal symmetry and the rotation symmetry create a van Hove singularity (vHs) near the Fermi energy, giving rise to large electronic density of states. Contrasting with other La hydrides containing cationic La and anionic H atoms, LaH$_{10}$ shows a peculiar characteristic of electrical charges with anionic La and both cationic and anionic H species, caused by a strong hybridization of the La $f$ and H $s$ orbitals. We find that a large number of electronic states at the vHs are strongly coupled to the H-derived high-frequency phonon modes that are induced via the unusual, intricate bonding network of LaH$_{10}$, thereby yielding a high $T_{\rm c}$. Our findings not only elucidate the microscopic origin of the observed high-$T_{\rm c}$ BCS-type superconductivity in LaH$_{10}$, but also pave the route for achieving room-temperature topological superconductors in compressed hydrogen-rich compounds.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-11-21T02:13:19Z</published>
+    <arxiv:comment>9 pages, 11 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <arxiv:journal_ref>Phys. Rev. B 99, 140501 (2019)</arxiv:journal_ref>
+    <author>
+      <name>Liangliang Liu</name>
+    </author>
+    <author>
+      <name>Chongze Wang</name>
+    </author>
+    <author>
+      <name>Seho Yi</name>
+    </author>
+    <author>
+      <name>Kun Woo Kim</name>
+    </author>
+    <author>
+      <name>Jaeyong Kim</name>
+    </author>
+    <author>
+      <name>Jun-Hyung Cho</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.99.140501</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.99.140501" title="doi"/>
+  </entry>
+</feed>

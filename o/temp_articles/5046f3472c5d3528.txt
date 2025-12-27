@@ -1,0 +1,43 @@
+TERMS: entropy, resonance, tachyon
+COLORS: red, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/qB9f+Ja2hRhitJoIfzYOJwpK8sY</id>
+  <title>arXiv Query: search_query=all:entropy AND all:resonance AND all:tachyon&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:18:47Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+(all:resonance+AND+all:tachyon)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/0801.3674v4</id>
+    <title>A Study of Structure Formation and Reheating in the D3/D7 Brane Inflation Model</title>
+    <updated>2008-09-11T22:03:53Z</updated>
+    <link href="https://arxiv.org/abs/0801.3674v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0801.3674v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We study the spectrum of cosmological fluctuations in the D3/D7 brane inflationary universe with particular attention to the parametric excitation of entropy modes during the reheating stage. The same tachyonic instability which renders reheating in this model very rapid leads to an exponential growth of entropy fluctuations during the preheating stage which in turn may induce a large contribution to the large-scale curvature fluctuations. We take into account the effects of long wavelength quantum fluctuations in the matter fields. As part of this work, we perform an analytical analysis of the reheating process. We find that the initial stage of preheating proceeds by the tachyonic instability channel. An upper bound on the time it takes for the energy initially stored in the inflaton field to convert into fluctuations is obtained by neglecting the local fluctuations produced during the period of tachyonic decay and analyzing the decay of the residual homogeneous field oscillations, which proceeds by parametric resonance. We show that in spite of the fact that the resonance is of narrow-band type, it is sufficiently efficient to rapidly convert most of the energy of the background fields into matter fluctuations.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-01-23T21:13:53Z</published>
+    <arxiv:comment>Some sections expanded, typos corrected and references added. Final version to appear in Phys. Rev. D</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Phys.Rev.D78:083502,2008</arxiv:journal_ref>
+    <author>
+      <name>Robert H. Brandenberger</name>
+      <arxiv:affiliation>McGill</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Keshav Dasgupta</name>
+      <arxiv:affiliation>McGill</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Anne-Christine Davis</name>
+      <arxiv:affiliation>DAMTP, Cambridge</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.78.083502</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.78.083502" title="doi"/>
+  </entry>
+</feed>

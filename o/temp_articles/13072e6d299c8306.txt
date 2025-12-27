@@ -1,0 +1,85 @@
+TERMS: entropy, spin, resonance
+COLORS: red, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/3SQpakGdcCEyyoZCf16suC2WT50</id>
+  <title>arXiv Query: search_query=all:entropy AND all:spin AND all:resonance&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:18:15Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+(all:spin+AND+all:resonance)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>130</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1501.00952v1</id>
+    <title>Heat Bath Algorithmic Cooling with Spins: Review and Prospects</title>
+    <updated>2015-01-05T19:24:43Z</updated>
+    <link href="https://arxiv.org/abs/1501.00952v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1501.00952v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Application of multiple rounds of Quantum Error Correction (QEC) is an essential milestone towards the construction of scalable quantum information processing devices. However, experimental realizations of it are still in their infancy. The requirements for multiple round QEC are high control fidelity and the ability to extract entropy from ancilla qubits. Nuclear Magnetic Resonance (NMR) based quantum devices have demonstrated high control fidelity with up to 12 qubits. On the other hand, the major challenge in the NMR QEC experiment is to efficiently supply ancilla qubits in highly pure states at the beginning of each round of QEC. Purification of qubits in NMR, or in other ensemble based quantum systems can be accomplished through Heat Bath Algorithmic Cooling (HBAC). It is an efficient method for extracting entropy from qubits that interact with a heat bath, allowing cooling below the bath temperature. For practical HBAC, coupled electron-nuclear spin systems are more promising than conventional NMR quantum processors, since electron spin polarization is about $10^3$ times greater than that of a proton under the same experimental conditions. We provide an overview on both theoretical and experimental aspects of HBAC focusing on spin and magnetic resonance based systems, and discuss the prospects of exploiting electron-nuclear coupled systems for the realization of HBAC and multiple round QEC.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-01-05T19:24:43Z</published>
+    <arxiv:comment>26 pages, 17 figures. To appear in Electron Spin Quantum Computing: Electron Spin-Qubit Based Quantum Computing and Quantum Information Processing, Biological Magnetic Resonance Vol. 31 (2015)</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Daniel K. Park</name>
+    </author>
+    <author>
+      <name>Nayeli A. Rodriguez-Briones</name>
+    </author>
+    <author>
+      <name>Guanru Feng</name>
+    </author>
+    <author>
+      <name>Robabeh R. Darabad</name>
+    </author>
+    <author>
+      <name>Jonathan Baugh</name>
+    </author>
+    <author>
+      <name>Raymond Laflamme</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1510.03711v3</id>
+    <title>Many Body Localization Transition in the strong disorder limit : entanglement entropy from the statistics of rare extensive resonances</title>
+    <updated>2016-03-22T13:18:24Z</updated>
+    <link href="https://arxiv.org/abs/1510.03711v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1510.03711v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The space of one-dimensional disordered interacting quantum models displaying a Many-Body-Localization Transition seems sufficiently rich to produce critical points with level statistics interpolating continuously between the Poisson statistics of the Localized phase and the Wigner-Dyson statistics of the Delocalized Phase. In this paper, we consider the strong disorder limit of the MBL transition, where the critical level statistics is close to the Poisson statistics. We analyse a one-dimensional quantum spin model, in order to determine the statistical properties of the rare extensive resonances that are needed to destabilize the MBL phase. At criticality, we find that the entanglement entropy can grow with an exponent $0&lt;α&lt; 1$ anywhere between the area law $α=0$ and the volume law $α=1$, as a function of the resonances properties, while the entanglement spectrum follows the strong multifractality statistics. In the MBL phase near criticality, we obtain the simple value $ν=1$ for the correlation length exponent. Independently of the strong disorder limit, we explain why for the Many-Body-Localization transition concerning individual eigenstates, the correlation length exponent $ν$ is not constrained by the usual Harris inequality $ν\geq 2/d$, so that there is no theoretical inconsistency with the best numerical measure $ν= 0.8 (3)$ obtained by D. J. Luitz, N. Laflorencie and F. Alet, Phys. Rev. B 91, 081103 (2015).</summary>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-10-13T14:44:27Z</published>
+    <arxiv:comment>v3= 22 pages with NEW SECTION V on the multifractality of the entanglement spectrum</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.dis-nn"/>
+    <arxiv:journal_ref>Entropy 2016, 18, 122</arxiv:journal_ref>
+    <author>
+      <name>Cecile Monthus</name>
+    </author>
+    <arxiv:doi>10.3390/e18040122</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/e18040122" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1510.07682v3</id>
+    <title>Entanglement Entropy and Topological Order in Resonating Valence-Bond Quantum Spin Liquids</title>
+    <updated>2016-04-20T22:26:23Z</updated>
+    <link href="https://arxiv.org/abs/1510.07682v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1510.07682v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>On the triangular and kagome lattices, short-ranged resonating valence bond (RVB) wave functions can be sampled without the sign problem using a recently-developed Pfaffian Monte Carlo scheme. In this paper, we study the Renyi entanglement entropy in these wave functions using a replica-trick method. Using various spatial bipartitions, including the Levin-Wen construction, our finite-size scaled Renyi entropy gives a topological contribution consistent with $γ= \text{ln}(2)$, as expected for a gapped $\mathbb{Z}_{2}$ quantum spin liquid. We prove that the mutual statistics are consistent with the toric code anyon model and rule out any other quasiparticle statistics such as the double semion model.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-10-26T21:12:47Z</published>
+    <arxiv:comment>4 pages, 10 pages supplemental material, references updated, text passage rewritten for clarity</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Phys. Rev. B 95, 100402 (2017)</arxiv:journal_ref>
+    <author>
+      <name>Julia Wildeboer</name>
+    </author>
+    <author>
+      <name>Alexander Seidel</name>
+    </author>
+    <author>
+      <name>Roger G. Melko</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.95.100402</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.95.100402" title="doi"/>
+  </entry>
+</feed>

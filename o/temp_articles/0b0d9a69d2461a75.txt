@@ -1,0 +1,40 @@
+TERMS: graphene, plasma, singularity
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Z6igFOtxhaCObapRuqA3pR5D7qQ</id>
+  <title>arXiv Query: search_query=all:graphene AND all:plasma AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:34:51Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:graphene+AND+(all:plasma+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2004.08209v1</id>
+    <title>Dimension-and lattice-diversified Coulomb excitations in3D,2D,1D-nanotube electron gases,graphene and carbon nanotube</title>
+    <updated>2020-04-13T09:16:03Z</updated>
+    <link href="https://arxiv.org/abs/2004.08209v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2004.08209v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Elementary electronic excitations, which are due to the Coulomb-field scatterings, present the diverse phenomena in 3D, 2D, 1D-nanotube electron gases, graphene and carbon nanotubes. The critical mechanisms cover the dimension-dependent bare Coulomb potentials, energy dispersions, and free/valence carrier density. They are responsible for the main features, the available excitation channels (the electron-hole regions), the joint van Hove singularities, the undamped/damped collective excitations at small/sufficiently high transferred momenta, the momentum dependences of plasmon frequencies (acoustic and optical modes), and their categories (the intraband and inter-pi-band plasmons). There exists certain significant similarities and difference among various systems. The (momentum/ angular momentum, frequency)-excitation phase diagrams are directly reflected in the propagation of plasma waves.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-04-13T09:16:03Z</published>
+    <arxiv:comment>63pages,24figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>Cheng-Hsueh Yang</name>
+    </author>
+    <author>
+      <name>Chiun-Yan Lin</name>
+    </author>
+    <author>
+      <name>Chih-Wei Chiu</name>
+    </author>
+    <author>
+      <name>Chang-Ting Liu</name>
+    </author>
+    <author>
+      <name>Ming-Fa Lin</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,31 @@
+TERMS: hydrogen, entropy, crystal, oxidation
+COLORS: purple, red, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/toLStF1diEJ4Yw9pupi3gKNpah4</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:entropy AND all:crystal AND all:oxidation&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:50:20Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:entropy+AND+(all:crystal+AND+all:oxidation))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1101.0609v1</id>
+    <title>Metallic liquid hydrogen and likely Al2O3 metallic glass</title>
+    <updated>2011-01-03T21:15:00Z</updated>
+    <link href="https://arxiv.org/abs/1101.0609v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1101.0609v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Dynamic compression has been used to synthesize liquid metallic hydrogen at 140 GPa (1.4 million bar) and experimental data and theory predict Al2O3 might be a metallic glass at ~300 GPa. The mechanism of metallization in both cases is probably a Mott-like transition. The strength of sapphire causes shock dissipation to be split differently in the strong solid and soft fluid. Once the 4.5-eV H-H and Al-O bonds are broken at sufficiently high pressures in liquid H2 and in sapphire (single-crystal Al2O3), electrons are delocalized, which leads to formation of energy bands in fluid H and probably in amorphous Al2O3. The high strength of sapphire causes shock dissipation to be absorbed primarily in entropy up to ~400 GPa, which also causes the 300-K isotherm and Hugoniot to be virtually coincident in this pressure range. Above ~400 GPa shock dissipation must go primarily into temperature, which is observed experimentally as a rapid increase in shock pressure above ~400 GPa. The metallization of glassy Al2O3, if verified, is expected to be general in strong oxide insulators. Implications for Super Earths are discussed.</summary>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-01-03T21:15:00Z</published>
+    <arxiv:comment>8 pages, 5 figures, 14th Liquid and Amorphous Metals Conference, Rome 2010</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.dis-nn"/>
+    <author>
+      <name>W. J. Nellis</name>
+    </author>
+    <arxiv:doi>10.1140/epjst/e2011-01423-2</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1140/epjst/e2011-01423-2" title="doi"/>
+  </entry>
+</feed>

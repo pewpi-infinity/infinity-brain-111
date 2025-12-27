@@ -1,0 +1,92 @@
+TERMS: quantum, frequency, vapor
+COLORS: blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api//15Mk9uyYZJJahCDWNIMkJ0wczs</id>
+  <title>arXiv Query: search_query=all:quantum AND all:frequency AND all:vapor&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:05:36Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:frequency+AND+all:vapor)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>255</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1803.02882v1</id>
+    <title>Compact sub-kilohertz low-frequency quantum light source based on four-wave mixing in cesium vapor</title>
+    <updated>2018-03-07T21:28:16Z</updated>
+    <link href="https://arxiv.org/abs/1803.02882v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1803.02882v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Using a nondegenerate four-wave mixing (FWM) process based on a double-Λ scheme in hot cesium vapor, we demonstrate a compact diode-laser-pumped quantum light source for the generation of quantum correlated twin beams with a maximum squeezing of 6.5 dB. The squeezing is observed at a Fourier frequency in the audio band down to 0.7 kHz which, to the best of our knowledge, is the first observation of sub-kilohertz intensity-difference squeezing in an atomic system so far. A phase-matching condition is also investigated in our system, which confirms the spatial-multi-mode characteristics of the FWM process. Our compact low-frequency squeezed light source may find applications in quantum imaging, quantum metrology, and the transfer of optical squeezing onto a matter wave.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-03-07T21:28:16Z</published>
+    <arxiv:comment>5 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Opt. Lett. 43, 1243 (2018)</arxiv:journal_ref>
+    <author>
+      <name>Rong Ma</name>
+    </author>
+    <author>
+      <name>Wei Liu</name>
+    </author>
+    <author>
+      <name>Zhongzhong Qin</name>
+    </author>
+    <author>
+      <name>Xiaolong Su</name>
+    </author>
+    <author>
+      <name>Xiaojun Jia</name>
+    </author>
+    <author>
+      <name>Junxiang Zhang</name>
+    </author>
+    <author>
+      <name>Jiangrui Gao</name>
+    </author>
+    <arxiv:doi>10.1364/OL.43.001243</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1364/OL.43.001243" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2507.04911v1</id>
+    <title>Dual frequency calibration to build a portable vapor cell optical clock with improved stability and without a frequency comb</title>
+    <updated>2025-07-07T11:56:05Z</updated>
+    <link href="https://arxiv.org/abs/2507.04911v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.04911v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This article theoretically proposes a new dual interferometer technique to accurately calibrate two laser frequencies simultaneously using four-wave mixing in an alkali metal vapor cell. The two frequency-calibrated lasers are mixed to create a beat signal at radio frequency to build a portable optical atomic clock (OAC) without an optical frequency comb (OFC). Removal of the OFC improves the portability of OAC, while the dual interferometer setup enhances the one second stability to $1.3\times 10^{-15}$, which is better than the current portable OAC. Thermal noise in the OAC is minimized by choosing the double-lambda atomic scheme with co-propagating laser fields. Using D2 transition of Rb-87, the standard quantum limited frequency sensitivity and stability of the OAC are estimated as $3.2\;\sqrt{\mbox{Hz}}$, and $1.3\times10^{-15}\sqrt{\mbox{Hz}^{-1}}$, respectively. After considering broadening effects due to $357\,$K temperature and collisions, the optimum stability of the OAC is reduced to $3.3\times10^{-15}\sqrt{\mbox{Hz}^{-1}}$ for a laser with $1\,$KHz linewidth and $0.54$ mW power at the input of the vapor cell.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-07T11:56:05Z</published>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>Sreeshna Subhash</name>
+    </author>
+    <author>
+      <name>Greeshma Gopinath</name>
+    </author>
+    <author>
+      <name>Sankar Davuluri</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1712.08719v1</id>
+    <title>Continuous-frequency measurements of high-intensity microwave electric fields with atomic vapor cells</title>
+    <updated>2017-12-23T06:19:11Z</updated>
+    <link href="https://arxiv.org/abs/1712.08719v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1712.08719v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We demonstrate continuous-frequency electric field measurements of high-intensity microwaves via optical spectroscopy in a small atomic vapor cell. The spectroscopic response of a room-temperature rubidium atomic vapor in a glass cell is investigated and employed for absolute measurements of K$_a$-band microwave electric fields from $\sim$200 V/m to $&gt;$1 kV/m over a continuous frequency range of $\pm $1 GHz (15% band coverage). It is established that in strong microwave fields frequency-specific spectral features allow for electric field measurements over a large continuous frequency range.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-12-23T06:19:11Z</published>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <arxiv:journal_ref>Applied Physics Letters, Vol. 111, No. 5 (2017)</arxiv:journal_ref>
+    <author>
+      <name>David A. Anderson</name>
+    </author>
+    <author>
+      <name>Georg Raithel</name>
+    </author>
+    <arxiv:doi>10.1063/1.4996234</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/1.4996234" title="doi"/>
+  </entry>
+</feed>

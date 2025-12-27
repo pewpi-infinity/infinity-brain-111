@@ -1,0 +1,72 @@
+TERMS: fusion, neutrino, vacuum
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/I5DOP2b2yptv4/cVyTK/b8Scl2A</id>
+  <title>arXiv Query: search_query=all:fusion AND all:neutrino AND all:vacuum&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:22:25Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:fusion+AND+(all:neutrino+AND+all:vacuum)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>12</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/astro-ph/9306024v2</id>
+    <title>Vacuum-Polarization Corrections to Solar-Fusion Rates</title>
+    <updated>1993-09-24T19:32:56Z</updated>
+    <link href="https://arxiv.org/abs/astro-ph/9306024v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/astro-ph/9306024v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The vacuum-polarization corrections to rates for nuclear-fusion reactions in the $pp$ chain and in the CNO cycle are calculated. For the reactions of particular importance to the solar-neutrino problem, the $\Hethree$, $\Hefour$, $\Be$, and $\Ni$ reactions, we find the magnitude of the effect to be less than 2\%. The effect of VP on all the other reaction rates is expected to be of a similar order of magnitude. We discuss how these results affect the predicted fluxes of solar neutrinos.</summary>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1993-06-24T18:55:18Z</published>
+    <arxiv:comment>9 pages (phyzzx.tex, 1 figure included)</arxiv:comment>
+    <arxiv:primary_category term="astro-ph"/>
+    <arxiv:journal_ref>Phys.Rev.C49:545,1994</arxiv:journal_ref>
+    <author>
+      <name>Marc Kamionkowski</name>
+    </author>
+    <author>
+      <name>John N. Bahcall</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevC.49.545</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevC.49.545" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1512.08484v2</id>
+    <title>Neutrino Catalyzed Diphoton Excess</title>
+    <updated>2016-04-01T15:57:27Z</updated>
+    <link href="https://arxiv.org/abs/1512.08484v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1512.08484v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we explain the 750 GeV diphoton resonance observed at the run-2 LHC as a scalar singlet $S$, that plays a key rule in generating tiny but nonzero Majorana neutrino masses. The model contains four electroweak singlets: two leptoquarks, a singly charged scalar and a neutral scalar $S$. Majorana neutrino masses might be generated at the two-loop level as $S$ get nonzero vacuum expectation value. $S$ can be produced at the LHC through the gluon fusion and decays into diphoton at the one-loop level with charged scalars running in the loop. The model fits perfectly with a wide width of the resonance. Constraints on the model are investigated, which shows a negligible mixing between the resonance and the standard model Higgs boson.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-12-28T19:10:53Z</published>
+    <arxiv:comment>15 pages, 4 figures, minor revision, more references added</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Wei Chao</name>
+    </author>
+    <arxiv:doi>10.1016/j.nuclphysb.2016.08.012</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.nuclphysb.2016.08.012" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1704.06331v1</id>
+    <title>Solar Neutrino Spectroscopy</title>
+    <updated>2017-04-20T20:47:53Z</updated>
+    <link href="https://arxiv.org/abs/1704.06331v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1704.06331v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>More than forty years after the first detection of neutrinos from the Sun, the spectroscopy of solar neutrinos has proven to be an on-going success story. The long-standing puzzle about the observed solar neutrino deficit has been resolved by the discovery of neutrino flavor oscillations. Today's experiments have been able to solidify the standard MSW-LMA oscillation scenario by performing precise measurements over the whole energy range of the solar neutrino spectrum. This article reviews the enabling experimental technologies: On the one hand mutli-kiloton-scale water Cherenkov detectors performing measurements in the high-energy regime of the spectrum, on the other end ultrapure liquid-scintillator detectors that allow for a low-threshold analysis. The current experimental results on the fluxes, spectra and time variation of the different components of the solar neutrino spectrum will be presented, setting them in the context of both neutrino oscillation physics and the hydrogen fusion processes embedded in the Standard Solar Model. Finally, the physics potential of state-of-the-art detectors and a next-generation of experiments based on novel techniques will be assessed in the context of the most interesting open questions in solar neutrino physics: a precise measurement of the vacuum-matter transition curve of electron-neutrino oscillation probability that offers a definitive test of the basic MSW-LMA scenario or the appearance of new physics; and a first detection of neutrinos from the CNO cycle that will provide new information on solar metallicity and stellar physics.</summary>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-04-20T20:47:53Z</published>
+    <arxiv:comment>77 pages, 32 figures</arxiv:comment>
+    <arxiv:primary_category term="hep-ex"/>
+    <author>
+      <name>Michael Wurm</name>
+    </author>
+    <arxiv:doi>10.1016/j.physrep.2017.04.002</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physrep.2017.04.002" title="doi"/>
+  </entry>
+</feed>

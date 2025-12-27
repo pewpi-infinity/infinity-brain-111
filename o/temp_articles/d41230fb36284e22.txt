@@ -1,0 +1,79 @@
+TERMS: fusion, spin, singularity
+COLORS: green, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/xol2c7dM1l33QXTBTuEeiB0gTZs</id>
+  <title>arXiv Query: search_query=all:fusion AND all:spin AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:21:19Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:fusion+AND+(all:spin+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>5</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1905.09192v1</id>
+    <title>Effective Field Theory Treatment of Monopole Production by Drell-Yan and Photon Fusion for Various Spins</title>
+    <updated>2019-05-22T15:24:27Z</updated>
+    <link href="https://arxiv.org/abs/1905.09192v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1905.09192v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A resolution over the existence of magnetic charges has eluded the high energy physics community for centuries, and their search has gained momentum as recent models predict these may be observable at current colliders. They appear in field theories in two forms: the widely studied but heavily suppressed monopole with structure (soliton) and the not-so-well-covered point-like monopole. The latter was first proposed by Dirac as the source of a singular magnetic field and in effect symmetrises Maxwell's equations. Following this line of research, work by S. Baines et al. analysed these sources as matter fields that carry spins 0, $\frac{1}{2}$, or 1, in an effective field theory that is perturbative for monopoles produced at threshold where the coupling strength $g(β)$ is suppressed. All three cases are currently under investigation by the MoEDAL collaboration at CERN, and the theoretical expressions for kinematic distributions proposed in this work serve as guides to these searches. The cross section distributions in each case are derived from a \emph{U}(1) invariant gauge theory. It is not assumed that, like the electron, the monopole's magnetic moment is generated through spin interactions at minimal coupling, as it may be quite large. Instead, the analytical expressions in the spin $\frac{1}{2}$ and $1$ cases are kept completely general through the inclusion of a phenomenological parameter $κ$, related to the gyromagnetic ratio $g_R=1+κ$. In fact, the inclusion of this parameter gives the effective theory validity in the high energy limit if the magnetic coupling scales with the particle's velocity $β=\frac{v}{c}$.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-05-22T15:24:27Z</published>
+    <arxiv:comment>11 pages, 14 figures, conference proceeding</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>MDPI Proceedings 2019, 13(1), 1</arxiv:journal_ref>
+    <author>
+      <name>Stephanie Baines</name>
+    </author>
+    <arxiv:doi>10.3390/proceedings2019013001</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/proceedings2019013001" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1509.01908v1</id>
+    <title>The Operator Product Expansion between the 16 Lowest Higher Spin Currents in the N=4 Superspace</title>
+    <updated>2015-09-07T05:28:38Z</updated>
+    <link href="https://arxiv.org/abs/1509.01908v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1509.01908v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Some of the operator product expansions (OPEs) between the lowest 16 higher spin currents of spins (1, 3/2, 3/2, 3/2, 3/2, 2, 2, 2, 2, 2, 2, 5/2, 5/2, 5/2, 5/2, 3) in an extension of the large N=4 linear superconformal algebra were constructed in the N=4 superconformal coset SU(5)/SU(3) theory previously. In this paper, by rewriting the above OPEs in the N=4 superspace developed by Schoutens (and other groups), the remaining undetermined OPEs where the corresponding singular terms possess the composite fields with spins s =7/2, 4, 9/2, 5 are completely determined. Furthermore, by introducing the arbitrary coefficients in front of the composite fields in the right hand sides of the above complete 136 OPEs, reexpressing them in the N=2 superspace and using the N=2 OPEs mathematica package by Krivonos and Thielemans, the complete structures of the above OPEs with fixed coefficient functions are obtained with the help of various Jacobi identities. Then one obtains ten N=2 super OPEs between the four N=2 higher spin currents denoted by (1, 3/2, 3/2, 2), (3/2, 2, 2, 5/2), (3/2, 2, 2, 5/2) and (2, 5/2, 5/2, 3) (corresponding 136 OPEs in the component approach) in the N=4 superconformal coset SU(N+2)/SU(N) theory. Finally, one describes them as one single N=4 super OPE between the above sixteen higher spin currents in the N=4 superspace. The fusion rule for this OPE contains the next 16 higher spin currents of spins of (2, 5/2, 5/2, 5/2, 5/2, 3, 3, 3, 3, 3, 3, 7/2, 7/2, 7/2, 7/2, 4) in addition to the quadratic N=4 lowest higher spin multiplet and the large N=4 linear superconformal family of the identity operator. The various structure constants (fixed coefficient functions) appearing in the right hand side of this OPE depend on N and the level k of the bosonic spin-1 affine Kac-Moody current.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-09-07T05:28:38Z</published>
+    <arxiv:comment>412 pages</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Changhyun Ahn</name>
+    </author>
+    <author>
+      <name>Man Hea Kim</name>
+    </author>
+    <arxiv:doi>10.1140/epjc/s10052-016-4234-2</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1140/epjc/s10052-016-4234-2" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2208.01803v5</id>
+    <title>Engineering Yang-Lee anyons via Majorana bound states</title>
+    <updated>2022-11-25T04:35:26Z</updated>
+    <link href="https://arxiv.org/abs/2208.01803v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2208.01803v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose the platform of a Yang-Lee anyon system which is constructed from Majorana bound states in topological superconductors. Yang-Lee anyons, described by the non-unitary conformal field theory with the central charge $c=-22/5$, are non-unitary counterparts of Fibonacci anyons, obeying the same fusion rule, but exhibiting non-unitary non-Abelian braiding statistics. We consider a topological superconductor junction system coupled with dissipative electron baths, which realizes a non-Hermitian interacting Majorana system. Numerically estimating the central charge, we examine the condition that the non-Hermitian Majorana system can simulate the Ising spin model of the Yang-Lee edge singularity, and confirm that, by controlling model parameters in a feasible way, the Yang-Lee edge criticality is realized. On the basis of this scenario, we present the scheme for the fusion, measurement and braiding of Yang-Lee anyons in our proposed setup.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-08-03T01:33:42Z</published>
+    <arxiv:comment>12 pages, 11 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Phys. Rev. B 106, 174517 (2022)</arxiv:journal_ref>
+    <author>
+      <name>Takumi Sanno</name>
+    </author>
+    <author>
+      <name>Masahiko G. Yamada</name>
+    </author>
+    <author>
+      <name>Takeshi Mizushima</name>
+    </author>
+    <author>
+      <name>Satoshi Fujimoto</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.106.174517</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.106.174517" title="doi"/>
+  </entry>
+</feed>

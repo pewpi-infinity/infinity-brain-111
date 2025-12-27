@@ -1,0 +1,109 @@
+TERMS: hydrogen, crystal, resonance, oxidation
+COLORS: purple, orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/wztGHtMdVGLps6OodzA1fOhaOMw</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:crystal AND all:resonance AND all:oxidation&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T02:01:15Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:crystal+AND+(all:resonance+AND+all:oxidation))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>5</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2402.18051v1</id>
+    <title>Impact of etches on thin-film single-crystal niobium resonators</title>
+    <updated>2024-02-28T05:01:39Z</updated>
+    <link href="https://arxiv.org/abs/2402.18051v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.18051v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A single crystal niobium thin film was grown using molecular beam epitaxy on a c-plane sapphire wafer. Several samples were fabricated into dc resistivity test devices and coplanar waveguide resonator chips using the same microfabrication procedures and solvent cleans. The samples were then subject to different acid cleaning treatments using different combinations of piranha, hydrofluoric acid, and buffered oxide etch solutions. The different samples expressed changes in dc resistivity in the normal and superconducting states such that the low temperature resistivities changed by more than 100\%, and the residual resistivity ratio dropped by a factor of 2. The internal quality factor of coplanar waveguide resonators measured near 5~GHz also showed significant variation at single photon powers ranging from 1.4$\times 10^6$ to less than 60$\times 10^3$. These changes correlate with the formation of surface crystallites that appear to be hydrocarbons. All observations are consistent with hydrogen diffusing into the niobium film at levels below the saturation threshold that is needed to observe niobium hydrides.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-28T05:01:39Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>H. Wang</name>
+    </author>
+    <author>
+      <name>T. Banerjee</name>
+    </author>
+    <author>
+      <name>T. G. Farinha</name>
+    </author>
+    <author>
+      <name>A. T. Hanbicki</name>
+    </author>
+    <author>
+      <name>V. Fatemi</name>
+    </author>
+    <author>
+      <name>B. S. Palmer</name>
+    </author>
+    <author>
+      <name>C. J. K. Richardson</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2108.10441v1</id>
+    <title>Interseries dipole transitions from yellow to green excitons in cuprous oxide</title>
+    <updated>2021-08-23T23:19:16Z</updated>
+    <link href="https://arxiv.org/abs/2108.10441v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2108.10441v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study dipole interseries transitions between the yellow and green exciton series in cuprous oxide including the complex valence band structure. To this end, we extend previous studies of the spectrum of complex green exciton resonances [Phys. Rev. B 101, 075208 (2020)] to optical transitions between different exciton states in addition to transitions from the crystal ground state. This allows us to augment the calculations on interseries transitions using a hydrogen-like model [Phys. Rev. B 100, 085201 (2019)] by a more comprehensive treatment of the valence band structure.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-08-23T23:19:16Z</published>
+    <arxiv:comment>12 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Phys. Rev. B 104, 085204 (2021)</arxiv:journal_ref>
+    <author>
+      <name>Patric Rommel</name>
+    </author>
+    <author>
+      <name>Jörg Main</name>
+    </author>
+    <author>
+      <name>Sjard Ole Krüger</name>
+    </author>
+    <author>
+      <name>Stefan Scheel</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.104.085204</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.104.085204" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2106.08302v1</id>
+    <title>Large tunability of strain in WO3 single-crystal microresonators controlled by exposure to H2 gas</title>
+    <updated>2021-06-15T17:23:24Z</updated>
+    <link href="https://arxiv.org/abs/2106.08302v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2106.08302v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Strain engineering is one of the most effective approaches to manipulate the physical state of materials, control their electronic properties, and enable crucial functionalities. Because of their rich phase diagrams arising from competing ground states, quantum materials are an ideal playground for on-demand material control, and can be used to develop emergent technologies, such as adaptive electronics or neuromorphic computing. It was recently suggested that complex oxides could bring unprecedented functionalities to the field of nanomechanics, but the possibility of precisely controlling the stress state of materials is so far lacking. Here we demonstrate the wide and reversible manipulation of the stress state of single-crystal WO3 by strain engineering controlled by catalytic hydrogenation. Progressive incorporation of hydrogen in freestanding ultra-thin structures determines large variations of their mechanical resonance frequencies and induces static deformation. Our results demonstrate hydrogen doping as a new paradigm to reversibly manipulate the mechanical properties of nanodevices based on materials control.</summary>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-06-15T17:23:24Z</published>
+    <arxiv:comment>6 pages, 4 figures, 9 supplementary sections</arxiv:comment>
+    <arxiv:primary_category term="physics.app-ph"/>
+    <arxiv:journal_ref>ACS Appl. Mater. Interfaces 11, 44438 (2019)</arxiv:journal_ref>
+    <author>
+      <name>Nicola Manca</name>
+    </author>
+    <author>
+      <name>Giordano Mattoni</name>
+    </author>
+    <author>
+      <name>Marco Pelassa</name>
+    </author>
+    <author>
+      <name>Warner J. Venstra</name>
+    </author>
+    <author>
+      <name>Herre S. J. van der Zant</name>
+    </author>
+    <author>
+      <name>Andrea D. Caviglia</name>
+    </author>
+    <arxiv:doi>10.1021/acsami.9b14501</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1021/acsami.9b14501" title="doi"/>
+  </entry>
+</feed>

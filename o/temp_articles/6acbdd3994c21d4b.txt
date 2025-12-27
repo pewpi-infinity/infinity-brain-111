@@ -1,0 +1,37 @@
+TERMS: hydrogen, electron, superconductivity, bandgap
+COLORS: purple, green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Hy6YDGVg5/2W3k89zKubx63wDXI</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:electron AND all:superconductivity AND all:bandgap&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:55:59Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:electron+AND+(all:superconductivity+AND+all:bandgap))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1108.6190v2</id>
+    <title>Absence of Metallization in Solid Molecular Hydrogen</title>
+    <updated>2012-02-06T20:11:44Z</updated>
+    <link href="https://arxiv.org/abs/1108.6190v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1108.6190v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Being the simplest element with just one electron and proton the electronic structure of the Hydrogen atom is known exactly. However, this does not hold for the complex interplay between them in a solid and in particular not at high pressure that is known to alter the crystal as well as the electronic structure. Back in 1935 Wigner and Huntington predicted that at very high pressure solid molecular hydrogen would dissociate and form an atomic solid that is metallic. In spite of intense research efforts the experimental realization, as well as the theoretical determination of the crystal structure has remained elusive. Here we present a computational study showing that the distorted hexagonal P6$_3$/m structure is the most likely candidate for Phase III of solid hydrogen. We find that the pairing structure is very persistent and insulating over the whole pressure range, which suggests that metallization due to dissociation may precede eventual bandgap closure. Due to the fact that this not only resolve one of major disagreement between theory and experiment, but also excludes the conjectured existence of phonon-driven superconductivity in solid molecular hydrogen, our results involve a complete revision of the zero-temperature phase diagram of Phase III.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-08-31T11:05:08Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>JETP Lett. 95, 449 (2012)</arxiv:journal_ref>
+    <author>
+      <name>Sam Azadi</name>
+    </author>
+    <author>
+      <name>Thomas D. Kühne</name>
+    </author>
+    <arxiv:doi>10.1134/S0021364012090020</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1134/S0021364012090020" title="doi"/>
+  </entry>
+</feed>

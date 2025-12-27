@@ -1,0 +1,100 @@
+TERMS: hydrogen, bandgap, oxidation
+COLORS: purple, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/2SxN0n3PE6+5VmAnZtUnUMnHl/E</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:bandgap AND all:oxidation&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:05:23Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:bandgap+AND+all:oxidation)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>19</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2111.08588v1</id>
+    <title>Hydrogen incorporation into amorphous indium gallium zinc oxide thin-film transistors</title>
+    <updated>2021-11-16T16:09:48Z</updated>
+    <link href="https://arxiv.org/abs/2111.08588v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2111.08588v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Within the subgap of amorphous oxide semiconductors like amorphous indium gallium zinc oxide (a-IGZO) are donor-like and acceptor-like states that control the operational physics of optically transparent thin-film transistors (TFTs). Hydrogen incorporation into the channel layer of a top-gate a-IGZO TFT exists as an electron donor that causes an observed negative shift in the drain current-gate voltage ($\mathrm{I_{D} - V_{G}}$) transfer curve turn-on voltage. Normally, hydrogen is thought to create shallow electronic states just below the conduction band mobility edge, with the donor ionization state controlled by equilibrium thermodynamics involving the position of the Fermi level with respect to the donor ionization energy. However, hydrogen does not behave as a normal donor as revealed by the subgap density of states (DoS) measured by the photoconduction response of top-gate a-IGZO TFTs to within 0.3 eV of the CBM edge. Specifically, the DoS shows a subgap peak above the valence band mobility edge growing at the same rate that $\mathrm{I_{D} - V_{G}}$ transfer curve measurements suggest that hydrogen was incorporated into the channel layer. Such hydrogen donor behavior in a-IGZO is anomalous and can be understood as follows: Non-bonded hydrogen ionization precedes its incorporation into the a-IGZO network as a bonded species. Ionized hydrogen bonds to a charged oxygen-on-an-oxygen-site anion, resulting in the formation of a defect complex denoted herein as, $\mathrm{{[{O_{O}^{2-}}{H^+}]}^{1-}}$. Formation of an $\mathrm{{[{O_{O}^{2-}}{H^+}]}^{1-}}$ defect complex creates a spectrally-broad ($\sim$0.3 eV FWHM) distribution of electronic states observed in the bandgap centered at 0.4 eV above the valence band mobility edge.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-11-16T16:09:48Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>George W. Mattson</name>
+      <arxiv:affiliation>Department of Physics, Oregon State University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Kyle T. Vogt</name>
+      <arxiv:affiliation>Department of Physics, Oregon State University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>John F. Wager</name>
+      <arxiv:affiliation>School of EECS, Oregon State University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Matt W. Graham</name>
+      <arxiv:affiliation>Department of Physics, Oregon State University</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1063/5.0078805</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/5.0078805" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.19847v1</id>
+    <title>Investigation of a high-entropy oxide photocatalyst for hydrogen generation by first-principles calculations coupled with experiments: Significance of electronegativity</title>
+    <updated>2024-05-30T08:54:14Z</updated>
+    <link href="https://arxiv.org/abs/2405.19847v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.19847v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>High-entropy oxides (HEOs), containing at least five principal cations, have recently emerged as promising photocatalysts for hydrogen production via water splitting. Despite their high potential, the impact of the cation mixtures on photocatalytic activity remains poorly understood. This study investigates the high-entropy photocatalyst TiZrHfNbTaO11 using first-principles calculations combined with experimental methods to elucidate the effects of various elements on electronic structure and water splitting performance. The results indicate that the HEO exhibits a bandgap comparable to TiO2 polymorphs rutile, brookite and anatase. Cations with lower electronegativity, such as hafnium and zirconium, provide the strongest water adsorption energy, serving as active sites for water adsorption. Additionally, the co-presence of highly electronegative cations like niobium and tantalum adjacent to hafnium and zirconium enhances charge transfer to water molecules, improving splitting efficiency. These findings suggest novel strategies for designing high-entropy photocatalysts by synergistic incorporating cations with different electronegativities.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-30T08:54:14Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Jacqueline Hidalgo-Jimenez</name>
+    </author>
+    <author>
+      <name>Taner Akbay</name>
+    </author>
+    <author>
+      <name>Tatsumi Ishihara</name>
+    </author>
+    <author>
+      <name>Kaveh Edalati</name>
+    </author>
+    <arxiv:doi>10.1016/j.scriptamat.2024.116205</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.scriptamat.2024.116205" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2102.06639v1</id>
+    <title>Topological surface currents accessed through reversible hydrogenation of the three-dimensional bulk</title>
+    <updated>2021-02-12T17:27:03Z</updated>
+    <link href="https://arxiv.org/abs/2102.06639v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2102.06639v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Hydrogen, the smallest and most abundant element in nature, can be efficiently incorporated within a solid and drastically modify its electronic state - it has been known to induce novel magnetoelectric effects in complex perovskites and modulate insulator-to-metal transition in a correlated Mott oxide. Here we demonstrate that hydrogenation resolves an outstanding challenge in chalcogenide classes of three-dimensional (3D) topological insulators and magnets - the control of intrinsic bulk conduction that denies access to quantum surface transport. With electrons donated by a reversible binding of H+ ions to Te(Se) chalcogens, carrier densities are easily changed by over 10^20 cm^-3, allowing tuning the Fermi level into the bulk bandgap to enter surface/edge current channels. The hydrogen-tuned topological materials are stable at room temperature and tunable disregarding bulk size, opening a breadth of platforms for harnessing emergent topological states.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-02-12T17:27:03Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Haiming Deng</name>
+    </author>
+    <author>
+      <name>Lukas Zhao</name>
+    </author>
+    <author>
+      <name>Kyungwha Park</name>
+    </author>
+    <author>
+      <name>Jiaqiang Yan</name>
+    </author>
+    <author>
+      <name>Kamil Sobczak</name>
+    </author>
+    <author>
+      <name>Lia Krusin-Elbaum</name>
+    </author>
+    <arxiv:doi>10.1038/s41467-022-29957-3</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41467-022-29957-3" title="doi"/>
+  </entry>
+</feed>

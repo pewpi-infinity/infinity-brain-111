@@ -1,0 +1,94 @@
+TERMS: hydrogen, electron, plasma, oxidation
+COLORS: purple, green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/hkl9mQrlUKJ46lvtvipwVk9nBik</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:electron AND all:plasma AND all:oxidation&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:57:19Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:electron+AND+(all:plasma+AND+all:oxidation))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>6</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2411.09991v1</id>
+    <title>Solvated Electrons and Hydroxyl Radicals at the Plasma-Liquid Interface</title>
+    <updated>2024-11-15T06:53:21Z</updated>
+    <link href="https://arxiv.org/abs/2411.09991v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.09991v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>While hydroxyl radicals ($\cdot$OH) play an important role as potent oxidizing agents in various plasma applications, their high reactivity confines them to a thin layer at the plasma-liquid interface, posing challenges in comprehending the intricate generation and transport processes. Similarly, solvated electrons ($\mathrm{e_{aq}}$), highly reactive reducing agents, are expected to exhibit distribution beneath the liquid surface and interact with $\cdot$OH in the thin layer. In this study, we have determined the penetration depth and concentration of ($\mathrm{e_{aq}}$) at the interface between an atmospheric argon plasma plume and an electrolyte anode via a lock-in amplification absorbance measurement. With bias voltages from 1000 to 2500 V, the penetration depth remains approximately 10 nm, and the peak concentration near the surface reaches 1 mM. Diffusion is the primary mechanism for $\cdot$OH generation in the electrolyte, with most $\cdot$OH reacting with ($\mathrm{e_{aq}}$) at the interface, thus influencing the ($\mathrm{e_{aq}}$) distribution. In contrast, the electrolyte cathode significantly boosts $\cdot$OH generation, leading to rapid recombination into hydrogen peroxide.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-15T06:53:21Z</published>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>Seungjun Lee</name>
+      <arxiv:affiliation>Division of Advanced Nuclear Engineering, Pohang University of Science and Technology</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Hyung-Gu Kang</name>
+      <arxiv:affiliation>Division of Advanced Nuclear Engineering, Pohang University of Science and Technology</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Minkwan Kim</name>
+      <arxiv:affiliation>Astronautics Research Group, Faculty of Engineering and Environment, University of Southampton</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Gunsu Yun</name>
+      <arxiv:affiliation>Division of Advanced Nuclear Engineering, Pohang University of Science and Technology</arxiv:affiliation>
+      <arxiv:affiliation>Department of Physics, Pohang University of Science and Technology</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2401.01434v1</id>
+    <title>Operando Plasma-XPS for Process Monitoring: Hydrogenation of Copper Oxide Confined Under h-BN Case Study</title>
+    <updated>2024-01-02T21:09:26Z</updated>
+    <link href="https://arxiv.org/abs/2401.01434v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.01434v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We demonstrate that ambient pressure x-ray photoelectron spectroscopy (APXPS) can be used for in situ studies of dynamic changes in surface chemistry in a plasma environment. Hexagonal boron nitride (h-BN) was used in this study as a model system since it exhibits a wide array of unique chemical, optical, and electrical properties that make it a prospective material for advanced electronics. To better understand the stability and surface chemistry of h-BN during plasma-assisted processing, we used polycrystalline Cu foils with single-layer h-BN, grown via chemical vapor deposition (CVD), and tracked in real-time the plasma-induced reduction of the underlying Cu oxide using APXPS equipped with 22 kHz 75 W discharge plasma source operating at 13 Pa. Residual gas analysis (RGA) mass-spectra were concurrently collected during plasma-XPS to track reaction products formed during plasma exposure. A clear reduction of CuxO is seen, while an h-BN layer remains intact, suggesting H radical species can attack the exposed and h-BN-covered Cu oxide patches and partially reduce the underlying substrate. In addition to the demonstration and discussion of plasma-XPS capabilities, our results indicate the h-BN encapsulated metallic Cu interface might be repaired without significantly damaging the overlaying h-BN, which is of practical importance for the development of h-BN encapsulated devices and interfaces</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-02T21:09:26Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>J. Trey Diulus</name>
+    </author>
+    <author>
+      <name>Andrew E. Naclerio</name>
+    </author>
+    <author>
+      <name>Anibal Boscoboinik</name>
+    </author>
+    <author>
+      <name>Ashley R. Head</name>
+    </author>
+    <author>
+      <name>Evgheni Strelcov</name>
+    </author>
+    <author>
+      <name>Piran R. Kidambi</name>
+    </author>
+    <author>
+      <name>Andrei Kolmakov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2406.03499v1</id>
+    <title>Estimated electric conductivities of thermal plasma for air-fuel combustion and oxy-fuel combustion with potassium or cesium seeding</title>
+    <updated>2024-05-29T14:28:28Z</updated>
+    <link href="https://arxiv.org/abs/2406.03499v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2406.03499v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A complete model for estimating the electric conductivity of combustion product gases, with added cesium (Cs) or potassium (K) vapor for ionization, is presented. Neutral carrier gases serve as the bulk fluid that carries the seed material, as well as the electrons generated by the partial thermal (equilibrium) ionization of the seed alkali metal. The model accounts for electron-neutral scattering, as well as electron-ion and electron-electron scattering. The model is tested through comparison with published data. The model is aimed at being utilized for the plasma within magnetohydrodynamic (MHD) channels, where direct power extraction from passing electrically conducting plasma gas enables electric power generation. The thermal ionization model is then used to estimate the electric conductivity of seeded combustion gases under complete combustion of three selected fuels, namely: hydrogen (H2), methane (CH4), and carbon (C). For each of these three fuels, two options for the oxidizer were applied, namely: air (21 % molecular oxygen, 79 % molecular nitrogen by mole), and pure oxygen (oxy-combustion). Two types of seeds (with 1 % mole fraction, based on the composition before ionization) were also applied for each of the six combinations of (fuel-oxidizer), leading to a total of 12 different MHD plasma cases. For each of these cases, the electric conductivity was computed for a range of temperatures from 2000 K to 3000 K. The smallest estimated electric conductivity was 0.35 S/m for oxy-hydrogen combustion at 2000 K, with potassium seeding. The largest estimated electric conductivity was 180.30 S/m for oxy-carbon combustion at 3000 K, with cesium seeding. At 2000 K, replacing potassium with cesium causes a gain in the electric conductivity by a multiplicative gain factor of about 3.6 regardless of the fuel and oxidizer. This gain factor declines to between 1.77 and 2.07 at 3000 K.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.flu-dyn" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-29T14:28:28Z</published>
+    <arxiv:comment>28 pages, 16 figures, 14 tables</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <arxiv:journal_ref>Heliyon, volume 10, issues 11, article number e31697, 2024</arxiv:journal_ref>
+    <author>
+      <name>Osama A. Marzouk</name>
+    </author>
+    <arxiv:doi>10.1016/j.heliyon.2024.e31697</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.heliyon.2024.e31697" title="doi"/>
+  </entry>
+</feed>

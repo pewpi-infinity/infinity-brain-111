@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Octave OS — Octave Logger & Pewpi Secret Encoder</title>
+  <style>
+    :root{
+      --page-bg: #e9f1f5;
+      --terminal-bg: #0b3b4a;
+      --terminal-text-blue: #7be6ff;
+      --panel-bg: #f8fbfc;
+      --panel-border: #e6eef0;
+      --accent-dark: #08303b;
+      --muted: #667a80;
+    }
+    body{font-family:system-ui, -apple-system, Roboto, "Helvetica Neue", Arial; background:var(--page-bg); color:var(--accent-dark); padding:18px;}
+    .card{background:#fff; max-width:920px; margin:0 auto; padding:18px; border-radius:10px; box-shadow:0 6px 18px rgba(8,48,59,0.06);}
+    h1{margin:0 0 12px 0}
+    textarea,input[type="text"]{width:100%; padding:10px; box-sizing:border-box; border-radius:6px; border:1px solid #d6e2e6; font-size:14px;}
+    textarea{min-height:120px; resize:vertical;}
+    .controls{display:flex; flex-wrap:wrap; gap:8px; margin-top:10px; align-items:center}
+    button{padding:8px 12px; border-radius:6px; border:1px solid #bfcfd3; background:#f6f8f9; cursor:pointer;}
+    .panel{background:var(--panel-bg); border:1px solid var(--panel-border); border-radius:8px; padding:10px; min-height:140px; white-space:pre-wrap; overflow:auto; color:var(--terminal-text-blue);}
+    .small{font-size:13px; color:var(--muted)}
+    label{font-weight:600}
+    .row{display:flex; gap:8px; align-items:center}
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Octave OS — Logger & Encoder</h1>
+
+    <label for="input">Type message / conversation</label>
+    <textarea id="input" placeholder="Write a message, prompt, or secret..."></textarea>
+
+    <div class="controls">
+      <label class="row"><input id="mode" type="checkbox"> Conversation mode</label>
+      <label class="row"><input id="autoEncode" type="checkbox"> Auto-encode AI output</label>
+      <label class="row"><input id="pushToServer" type="checkbox"> Push summary to server (/commit)</label>
+      <button id="submit">Submit</button>
+      <button id="clear">Clear</button>
+    </div>
+
+    <div style="margin-top:12px;">
+      <label for="passphrase">Passphrase (for encryption)</label>
+      <div style="display:flex; gap:8px; margin-top:6px;">
+        <input id="passphrase" type="text" placeholder="Enter or generate passphrase" />
+        <button id="gen">Generate</button>
+      </div>
+      <div class="small" style="margin-top:6px;">If you plan to push data to /commit, set the COMMIT_SECRET on the server and DO NOT store server secrets in the repo.</div>
+    </div>
+
+    <div style="margin-top:14px;">
+      <h2 style="margin:8px 0 6px 0;">AI Conversation Output</h2>
+      <div id="aiOut" class="panel" aria-live="polite"></div>
+    </div>
+
+    <div style="margin-top:12px;">
+      <h2 style="margin:8px 0 6px 0;">Encoded / Stored Output</h2>
+      <div id="encOut" class="panel" readonly></div>
+    </div>
+
+    <div id="status" class="small" style="margin-top:12px;color:#b00020"></div>
+  </div>
+
+  <!-- existing commit client in /static/js/commit-client.js -->
+  <script src="static/js/commit-client.js"></script>
+
+  <script>
+  // Lightweight WebCrypto helpers (PBKDF2 -> AES-GCM) - same API as earlier examples
+  async function deriveKey(passphrase, salt, iterations=200000) {
+    const enc = new TextEncoder();
+    const baseKey = await crypto.subtle.importKey('raw', enc.encode(passphrase), { name: 'PBKDF2' }, false, ['deriveKey']);
+    const key = await crypto.subtle.deriveKey(
+      { name: 'PBKDF2', salt, iterations, hash: 'SHA-256' },
+      baseKey,
+      { name: 'AES-GCM', length: 256 },
+      true,
+      ['encrypt','decrypt']
+    );
+    return key;
+  }
+
+  function toBase64(bytes) {
+    let s = '';
+    for (let i=0;i<bytes.length;i++) s += String.fromCharCode(bytes[i]);
+    return btoa(s);
+  }
+  function fromBase64(b64) {
+    const bin = atob(b64);
+    const arr = new Uint8Array(bin.length);
+    for (let i=0;i<bin.length;i++) arr[i] = bin.charCodeAt(i);
+    return arr;
+  }
+
+  async function encryptMessage(plaintext, passphrase, iterations=200000) {
+    const enc = new TextEncoder();
+    const salt = crypto.getRandomValues(new Uint8Array(16));
+    const iv = crypto.getRandomValues(new Uint8Array(12));
+    const key = await deriveKey(passphrase, salt, iterations);
+    const ciphertext = await crypto.subtle.encrypt({ name: 'AES-GCM', iv }, key, enc.encode(plaintext));
+    const ctArr = new Uint8Array(ciphertext);
+    const combined = new Uint8Array(salt.length + iv.length + ctArr.length);
+    combined.set(salt,0);
+    combined.set(iv,salt.length);
+    combined.set(ctArr, salt.length + iv.length);
+    return toBase64(combined);
+  }
+
+  async function decryptMessage(b64, passphrase, iterations=200000) {
+    const combined = fromBase64(b64);
+    if (combined.length < 16+12+16) throw new Error('Encoded data too short or invalid');
+    const salt = combined.slice(0,16);
+    const iv = combined.slice(16,28);
+    const ct = combined.slice(28);
+    const key = await deriveKey(passphrase, salt, iterations);
+    const plainBuffer = await crypto.subtle.decrypt({ name:'AES-GCM', iv }, key, ct);
+    return new TextDecoder().decode(plainBuffer);
+  }
+
+  // fallback AI simulation (used when /ai is not available)
+  async function simulateAi(prompt) {
+    await new Promise(r=>setTimeout(r,200));
+    return `Simulated AI output for: ${prompt.slice(0,200)}`;
+  }
+
+  // try to call server /ai; if it fails, fallback to simulation
+  async function fetchAi(prompt) {
+    try {
+      const resp = await fetch('/ai', { method: 'POST', headers: {'Content-Type':'application/json'}, body: JSON.stringify({ prompt }) });
+      if (!resp.ok) throw new Error('no ai');
+      const j = await resp.json();
+      return j.text || JSON.stringify(j);
+    } catch(e) {
+      return await simulateAi(prompt);
+    }
+  }
+
+  // helper: append text to a panel and keep scroll at bottom
+  function appendPanel(el, text) {
+    el.textContent = (el.textContent ? el.textContent + "\n\n" : "") + text;
+    el.scrollTop = el.scrollHeight;
+  }
+
+  // UI wiring
+  document.addEventListener('DOMContentLoaded', () => {
+    const input = document.getElementById('input');
+    const mode = document.getElementById('mode');
+    const autoEncode = document.getElementById('autoEncode');
+    const pushToServer = document.getElementById('pushToServer');
+    const passEl = document.getElementById('passphrase');
+    const genBtn = document.getElementById('gen');
+    const submit = document.getElementById('submit');
+    const clear = document.getElementById('clear');
+    const aiOut = document.getElementById('aiOut');
+    const encOut = document.getElementById('encOut');
+    const status = document.getElementById('status');
+
+    genBtn.addEventListener('click', () => {
+      const arr = crypto.getRandomValues(new Uint8Array(16));
+      passEl.value = toBase64(arr).replace(/\+/g,'-').replace(/\//g,'_').replace(/=+$/,'').slice(0,24);
+      status.textContent = 'Passphrase generated (keep it private).';
+    });
+
+    submit.addEventListener('click', async () => {
+      status.textContent = '';
+      const text = (input.value || '').trim();
+      if (!text) { status.textContent = 'Type a message first'; return; }
+
+      if (mode.checked) {
+        status.textContent = 'Fetching AI response...';
+        const aiText = await fetchAi(text);
+        appendPanel(aiOut, 'USER: ' + text + '\n\nAI: ' + aiText);
+        status.textContent = 'AI response appended.';
+        if (autoEncode.checked) {
+          const pass = passEl.value || '';
+          if (!pass) { status.textContent = 'Auto-encode requires a passphrase'; return; }
+          try {
+            const encoded = await encryptMessage(aiText, pass);
+            appendPanel(encOut, encoded);
+            status.textContent = 'AI response encrypted & stored locally (in page).';
+            if (pushToServer.checked && window.CommitClient) {
+              // push a short summary to commit server
+              try {
+                const summary = aiText.split(/\s+/).slice(0,40).join(' ');
+                await CommitClient.send(`[AI_SUMMARY] ${summary}`);
+                status.textContent = 'AI summary pushed to server via /commit.';
+              } catch(e) {
+                status.textContent = 'Push to server failed: ' + (e.message||e);
+              }
+            }
+          } catch(e) {
+            status.textContent = 'Encryption failed: ' + (e.message || e);
+          }
+        } else if (pushToServer.checked && window.CommitClient) {
+          // push the AI text directly as a log (if you want that)
+          try {
+            await CommitClient.send(`[AI] ${aiText}`);
+            status.textContent = 'AI output pushed to server via /commit.';
+          } catch(e) {
+            status.textContent = 'Push to server failed: ' + (e.message||e);
+          }
+        }
+      } else {
+        // encode mode
+        const pass = passEl.value || '';
+        if (!pass) { status.textContent = 'Enter a passphrase to encrypt'; return; }
+        try {
+          const encoded = await encryptMessage(text, pass);
+          appendPanel(encOut, encoded);
+          status.textContent = 'Message encrypted and appended to Encoded Output.';
+          if (pushToServer.checked && window.CommitClient) {
+            // push only a short summary to the commit server (avoid pushing secrets)
+            const summary = text.split(/\s+/).slice(0,40).join(' ');
+            try {
+              await CommitClient.send(`[ENCODED_SUMMARY] ${summary}`);
+              status.textContent = 'Summary pushed to server via /commit.';
+            } catch(e) {
+              status.textContent = 'Push to server failed: ' + (e.message||e);
+            }
+          }
+        } catch(e) {
+          status.textContent = 'Encryption error: ' + (e.message||e);
+        }
+      }
+      input.value = '';
+    });
+
+    clear.addEventListener('click', () => {
+      input.value = '';
+      status.textContent = '';
+    });
+
+    // keyboard: Enter submits
+    input.addEventListener('keydown', (ev) => {
+      if (ev.key === 'Enter' && !ev.shiftKey) {
+        ev.preventDefault();
+        submit.click();
+      }
+    });
+
+    // show quick diagnostics if CommitClient is not present
+    if (!window.CommitClient) {
+      const note = 'Commit client (static/js/commit-client.js) not loaded. Push-to-server will fail until that file is present and the server /commit endpoint is available.';
+      appendPanel(status, note);
+    }
+  });
+  </script>
+</body>
+</html>

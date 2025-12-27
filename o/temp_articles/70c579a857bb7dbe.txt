@@ -1,0 +1,117 @@
+TERMS: quantum, vapor, plasma
+COLORS: blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/1qgvKdXdjlL5n2y+eQBt+bhwhZk</id>
+  <title>arXiv Query: search_query=all:quantum AND all:vapor AND all:plasma&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:07:14Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:vapor+AND+all:plasma)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>39</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1712.08717v1</id>
+    <title>Quantum-optical spectroscopy for plasma electric field measurements and diagnostics</title>
+    <updated>2017-12-23T05:46:00Z</updated>
+    <link href="https://arxiv.org/abs/1712.08717v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1712.08717v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Measurements of plasma electric fields are essential to the advancement of plasma science and applications. Methods for non-invasive in situ measurements of plasma fields on sub-millimeter length scales with high sensitivity over a large field range remain an outstanding challenge. Here, we introduce and demonstrate a new method for plasma electric field measurement that employs electromagnetically induced transparency as a high-resolution quantum-optical probe for the Stark energy level shifts of plasma-embedded Rydberg atoms, which serve as highly-sensitive field sensors with a large dynamic range. The method is applied in diagnostics of plasmas photo-excited out of a cesium vapor. The plasma electric fields are extracted from spatially-resolved measurements of field-induced shape changes and shifts of Rydberg resonances in rubidium tracer atoms. Measurement capabilities over a range of plasma densities and temperatures are exploited to characterize plasmas in applied magnetic fields and to image electric-field distributions in cyclotron-heated plasmas.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-12-23T05:46:00Z</published>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>David A. Anderson</name>
+    </author>
+    <author>
+      <name>Georg Raithel</name>
+    </author>
+    <author>
+      <name>Matthew Simons</name>
+    </author>
+    <author>
+      <name>Christopher L. Holloway</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2511.12322v1</id>
+    <title>Non-perturbative 2D spatial measurements of electric fields within a plasma sheath</title>
+    <updated>2025-11-15T18:46:55Z</updated>
+    <link href="https://arxiv.org/abs/2511.12322v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2511.12322v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce an all-optical quantum-enhanced diagnostic for electric fields in low-temperature plasmas. Trace amounts of rubidium vapor, added to argon plasma, allow us to produce spectrally narrow electric field-sensitive optical resonances via quantum optical effect of Rydberg electromagnetically induced transparency, and to non-invasively measure electric field in plasma with sensitivity exceeding 1 V/cm. By collecting fluorescence from the illuminated region of interest, we reconstruct a 2D spatial profile of the electric field magnitude with $30~μ$m resolution. As a proof-of-principle demonstration, we measured the changes in electric field within the plasma sheath surrounding a biased Langmuir probe tip. This method holds significant potential for studying sheath structures in low-temperature plasmas.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-11-15T18:46:55Z</published>
+    <arxiv:comment>5 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>Mykhailo Vorobiov</name>
+    </author>
+    <author>
+      <name>Rob Behary</name>
+    </author>
+    <author>
+      <name>Will Torg</name>
+    </author>
+    <author>
+      <name>Nicolas DeStefano</name>
+    </author>
+    <author>
+      <name>Saskia Mordijck</name>
+    </author>
+    <author>
+      <name>Edward Thomas</name>
+    </author>
+    <author>
+      <name>Saikat Chakraborty Thakur</name>
+    </author>
+    <author>
+      <name>Charles T. Fancher</name>
+    </author>
+    <author>
+      <name>Neel Malvania</name>
+    </author>
+    <author>
+      <name>Seth Aubin</name>
+    </author>
+    <author>
+      <name>Eugeniy E. Mikhailov</name>
+    </author>
+    <author>
+      <name>Irina Novikova</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.05656v1</id>
+    <title>Effects of inert background gases and photo-illumination on three-color electromagnetically induced transparency of rubidium vapor</title>
+    <updated>2025-06-06T01:15:26Z</updated>
+    <link href="https://arxiv.org/abs/2506.05656v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.05656v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Three-color Rydberg electromagnetically induced transparency (EIT) of room-temperature Rb vapor in the presence of inert gases (Ar, Ne, and N$_2$) at 50~mTorr and 500~mTorr is investigated. The observed EIT lines shift and develop blue-detuned satellite lines, dependent on inert-gas species and pressure. The separations of the satellite from the main EIT lines are approximately pressure-independent, while their strength increases with inert-gas pressure. The satellite lines are attributed to hyperfine collisions of the intermediate $5D_{3/2}$ state. Further, analyzing the Stark effect of Rydberg levels, it is found that the inert gases suppress static electric fields in the vapor cells, which we induce by photo-illumination of the cell walls with an auxiliary 453-nm laser. In the work, we utilize Rydberg levels with principal quantum numbers $n$ = 25 and 50 and angular momenta $\ell$ = 3 up to 6, excited by the EIT lasers and optional radio-frequency dressing fields. The work is of interest in the spectroscopic study of mixed-species warm vapors, in sensing applications of Rydberg atoms in vapor cells, and in non-invasive electric-field diagnostics of low-pressure discharge plasma.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atm-clus" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-06T01:15:26Z</published>
+    <arxiv:comment>8 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <arxiv:journal_ref>Phys. Rev. Applied 24, 044057 (2025)</arxiv:journal_ref>
+    <author>
+      <name>Alisher Duspayev</name>
+    </author>
+    <author>
+      <name>Bineet Dash</name>
+    </author>
+    <author>
+      <name>Georg Raithel</name>
+    </author>
+    <arxiv:doi>10.1103/fyf8-4wml</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/fyf8-4wml" title="doi"/>
+  </entry>
+</feed>

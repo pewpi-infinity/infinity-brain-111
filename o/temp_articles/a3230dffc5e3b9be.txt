@@ -1,0 +1,77 @@
+TERMS: entropy, fusion, crystal
+COLORS: red, green, orange
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/WP/OxpnGrVc4RV13YG2mwfRyRwM</id>
+  <title>arXiv Query: search_query=all:entropy AND all:fusion AND all:crystal&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:16:43Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+(all:fusion+AND+all:crystal)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>5</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2304.07677v1</id>
+    <title>Crystal Growth Rates from Molecular Liquids: The Kinetics of Entropy Loss</title>
+    <updated>2023-04-16T02:57:44Z</updated>
+    <link href="https://arxiv.org/abs/2304.07677v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2304.07677v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>It has been established empirically that the rate of addition of molecules to the crystal during crystal growth from the melt is proportional to exp(-|ΔS_fus|/R) where ΔS_fus is the entropy of fusion. Here we show that this entropic slowdown arises directly from the separation of the entropy loss and energy loss processes associated with the freezing of the liquid. We present a theoretical treatment of the kinetics based on a model flat energy landscape and derive an explicit expression for the coupling magnitude in terms of the crystal-melt interfacial free energy. The implications of our work for nucleation kinetics are also discussed.</summary>
+    <category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-04-16T02:57:44Z</published>
+    <arxiv:primary_category term="cond-mat.soft"/>
+    <author>
+      <name>Richard K Bowles</name>
+    </author>
+    <author>
+      <name>Peter Harrowell</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2403.13323v1</id>
+    <title>Spontaneous formation of Frenkel defects in high-entropy-alloys-type compound</title>
+    <updated>2024-03-20T06:02:56Z</updated>
+    <link href="https://arxiv.org/abs/2403.13323v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2403.13323v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>High-entropy alloys (HEAs) are attracting attention due to their exceptional properties, such as enhanced mechanical toughness, superconducting robustness, and thermoelectric performance. Numerous HEAs have been developed for diverse applications, ranging from self-healing in fusion reactors to addressing environmental concerns with thermoelectric materials. Understanding atomic diffusion within HEA crystals is crucial for these applications. Here, this study investigates diffusion mechanisms in PbTe-based HEAs, focusing on the role of indium (In). Molecular dynamics simulations reveal that In inclusion prompts spontaneous Frenkel defect formation, notably enhancing diffusion not only of In$^+$ but also other cations. Frenkel defect formation, closely linked to alloy properties, is predominantly influenced by charge rather than cation size. This insight not only enhances comprehension of HEA diffusion mechanisms but also develops HEAs with properties such as self-healing from damage and high ion permeability, advancing the field of material science.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-03-20T06:02:56Z</published>
+    <arxiv:comment>16 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>Journal of Alloys and Compounds, 1005, 176100 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Rikuya Ishikawa</name>
+    </author>
+    <author>
+      <name>Kyohei Takae</name>
+    </author>
+    <author>
+      <name>Yoshikazu Mizuguchi</name>
+    </author>
+    <author>
+      <name>Rei Kurita</name>
+    </author>
+    <arxiv:doi>10.1016/j.jallcom.2024.176100</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.jallcom.2024.176100" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0106411v1</id>
+    <title>The solid-liquid interfacial free energy of close-packed metals: hard spheres and the Turnbull coefficient</title>
+    <updated>2001-06-20T19:26:49Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0106411v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0106411v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Largely due to its role in nucleation and crystal-growth, the free energy of the crystal-melt interfacial free energy is an object of considerable interest across a number of scientific disciplines, especially in the materials-, colloid- and atmospheric sciences. Over fifty years ago, Turnbull observed that the interfacial free energies (scaled by the mean interfacial area per particle) of a variety of metallic elements exhibit a linear correlation with the enthalpy of fusion. This correlation provides an important empirical "rule-of-thumb" for estimating interfacial free energies, but lacks a compelling physical explanation. In this work we show that the interfacial free energies for close-packed metals are linearly correlated with the melting temperature, and are therefore primarily entropic in origin. We also show that the slope of this linear relationship can be determined with quantitative accuracy using a hard-sphere model, and that the correlation with the enthalpy of fusion reported by Turnbull follows as a consequence of the fact that the entropy of fusion for close-packed metals is relatively constant.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2001-06-20T19:26:49Z</published>
+    <arxiv:comment>3 pages, 1 figure, to appear in J. Chem. Phys</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Brian B. Laird</name>
+      <arxiv:affiliation>Department of Chemistry, University of Kansas</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1063/1.1391481</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/1.1391481" title="doi"/>
+  </entry>
+</feed>

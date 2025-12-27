@@ -1,0 +1,38 @@
+TERMS: lattice, vapor, wavefunction
+COLORS: orange, green, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/OTFTFBpMzJGPnDtqEhmEsicDboI</id>
+  <title>arXiv Query: search_query=all:lattice AND all:vapor AND all:wavefunction&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:14:11Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:vapor+AND+all:wavefunction)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1503.04664v3</id>
+    <title>Intertwined orders from symmetry projected wavefunctions of repulsively interacting Fermi gases in optical lattices</title>
+    <updated>2015-10-18T09:16:49Z</updated>
+    <link href="https://arxiv.org/abs/1503.04664v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1503.04664v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Unconventional strongly correlated phases of the repulsive Fermi-Hubbard model, which could be emulated by ultracold vapors loaded in optical lattices, are investigated by means of energy minimizations with quantum number projection before variation and without any assumed order parameter. In a tube-like geometry of optical plaquettes to realize the four-leg ladder Hubbard Hamiltonian, we highlight the intertwining of spin-, charge-, and pair-density waves embedded in a uniform d-wave superfluid background. As the lattice filling increases, this phase emerges from homogenous states exhibiting spiral magnetism and evolves towards a doped antiferromagnet. A concomitant enhancement of long-ranged d-wave pairing correlations is also found. Numerical tests of the approach for two-dimensional clusters are carried out, too.</summary>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-03-16T14:22:02Z</published>
+    <arxiv:comment>26 pages, 15 figures ; replaced with the published manuscript ; substantial changes from previous version</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.quant-gas"/>
+    <arxiv:journal_ref>New J. Phys. 17 (2015) 103023</arxiv:journal_ref>
+    <author>
+      <name>A. Leprévost</name>
+    </author>
+    <author>
+      <name>O. Juillet</name>
+    </author>
+    <author>
+      <name>R. Frésard</name>
+    </author>
+    <arxiv:doi>10.1088/1367-2630/17/10/103023</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1367-2630/17/10/103023" title="doi"/>
+  </entry>
+</feed>

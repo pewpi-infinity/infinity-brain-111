@@ -1,0 +1,36 @@
+TERMS: hydrogen, lattice, superconductivity, graphene
+COLORS: purple, orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/FsKinKZ569ThiLTq6OfEQHw5c+g</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:lattice AND all:superconductivity AND all:graphene&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:47:30Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:lattice+AND+(all:superconductivity+AND+all:graphene))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1102.5163v2</id>
+    <title>Supersymmetric Runge-Lenz-Pauli vector for Dirac vortex in topological insulators and graphene</title>
+    <updated>2011-05-27T15:59:30Z</updated>
+    <link href="https://arxiv.org/abs/1102.5163v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1102.5163v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Dirac mass-vortex at the surface of a topological insulator or in graphene is considered. Within the linear approximation for the vortex amplitude's radial dependence, the spectrum is a series of degenerate bound states, which can be classified by a set of accidental SU(2) and supersymmetry generators (I. F. Herbut and C.-K. Lu, Phys. Rev. B 83 125412 (2011)). Here we discuss further the properties and manifestations of the supersymmetry of the vortex Hamiltonian, and point out some interesting analogies to the Runge-Lenz-Pauli vector in the non-relativistic hydrogen atom. Symmetry breaking effects due to a finite chemical potential, and the Zeeman field are also analyzed. We find that a residual accidental degeneracy remains only in the special case of equal magnitudes of both terms, whereas otherwise it becomes removed entirely.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-02-25T05:50:44Z</published>
+    <arxiv:comment>revised version with added reference and a new paragraph on interpretation of two-velocity Weyl fermions realized in 2D optical lattice; to appear in J Phys A</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>2011 J. Phys. A: Math. Theor. 44 295003</arxiv:journal_ref>
+    <author>
+      <name>Chi-Ken Lu</name>
+    </author>
+    <author>
+      <name>Igor F. Herbut</name>
+    </author>
+    <arxiv:doi>10.1088/1751-8113/44/29/295003</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1751-8113/44/29/295003" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,81 @@
+TERMS: hydrogen, lattice
+COLORS: purple, orange
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ttc9+v9cNHkOBxAS9rCKRVNKF4o</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:lattice&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T00:56:22Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+all:lattice&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>733</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2112.14913v2</id>
+    <title>Lattice QCD calculation of the two-photon exchange contribution to the muonic-hydrogen Lamb shift</title>
+    <updated>2022-04-14T07:23:09Z</updated>
+    <link href="https://arxiv.org/abs/2112.14913v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2112.14913v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We develop a method for lattice QCD calculation of the two-photon exchange (TPE) contribution to the muonic-hydrogen Lamb shift. To demonstrate the feasibility of this method, we also present an exploratory study with a gauge ensemble at $m_π= 142$ MeV. By adopting the infinite-volume reconstruction (IVR) method along with an optimized subtraction scheme, we obtain a preliminary result of the TPE contribution which agrees well with previous calculation using other methods and one magnitude smaller compare to the large $\sim300~μ$eV discrepancy for the proton radius puzzle.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-12-30T03:50:44Z</published>
+    <arxiv:comment>11 pages, 4 figures, Proceedings of the 38th International Symposium on Lattice Field Theory, 26th-30th July 2021, Zoom/Gather@Massachusetts Institute of Technology</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Yang Fu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.20071v1</id>
+    <title>Crystallographic control of hydrogen ingress in bcc-Iron: Insights from ab initio simulations</title>
+    <updated>2025-05-26T14:51:23Z</updated>
+    <link href="https://arxiv.org/abs/2505.20071v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.20071v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Hydrogen uptake into body-centered cubic (bcc) iron as a root cause for subsequent hydrogen embrittlement, is initiated at the surface. In this paper, we quantify how readily H diffuses from the surface into the bulk. We consider a set of low-index, vicinal and general Fe surfaces and treat H-permeation as a two-step process. First, density-functional calculations determine the adsorption energy of an isolated H atom at every crystallographically distinct surface site. Second, for each adsorption site we map the minimum-energy pathway that carries the atom beneath the surface and into the lattice. Across all ten orientations studied, a clear trend emerges: sites that bind hydrogen most weakly (highest adsorption energy) are the starting point of the lowest-barrier diffusion channels into the metal interior. Thus, the least-favorable adsorption pockets act as gateways for efficient subsurface penetration. These insights provide a practical design rule: suppressing or minimizing exposure of such high-energy adsorption motifs - through appropriate surface texturing or orientation control - should make bcc-iron components less susceptible to hydrogen uptake and the associated embrittlement.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-26T14:51:23Z</published>
+    <arxiv:comment>26 pages, 12 figures. To be submitted to "International Journal of Hydrogen Energy"</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Lukas Meier</name>
+    </author>
+    <author>
+      <name>Asif I. Bhatti</name>
+    </author>
+    <author>
+      <name>Leo Kestens</name>
+    </author>
+    <author>
+      <name>Stefaan Cottenier</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1711.05616v1</id>
+    <title>Strain gradient plasticity modeling of hydrogen diffusion to the crack tip</title>
+    <updated>2017-11-12T21:07:22Z</updated>
+    <link href="https://arxiv.org/abs/1711.05616v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1711.05616v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this work hydrogen diffusion towards the fracture process zone is examined accounting for local hardening due to geometrically necessary dislocations (GNDs) by means of strain gradient plasticity (SGP). Finite element computations are performed within the finite deformation theory to characterize the gradient-enhanced stress elevation and subsequent diffusion of hydrogen towards the crack tip. Results reveal that GNDs, absent in conventional plasticity predictions, play a fundamental role on hydrogen transport ahead of a crack. SGP estimations provide a good agreement with experimental measurements of crack tip deformation and high levels of lattice hydrogen concentration are predicted within microns to the crack tip. The important implications of the results in the understanding of hydrogen embrittlement mechanisms are thoroughly discussed.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-11-12T21:07:22Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>International Journal of Hydrogen Energy 41, pp. 10265-10274 (2016)</arxiv:journal_ref>
+    <author>
+      <name>Emilio Martínez-Pañeda</name>
+    </author>
+    <author>
+      <name>Susana del Busto</name>
+    </author>
+    <author>
+      <name>Christian F. Niordson</name>
+    </author>
+    <author>
+      <name>Covadonga Betegón</name>
+    </author>
+    <arxiv:doi>10.1016/j.ijhydene.2016.05.014</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.ijhydene.2016.05.014" title="doi"/>
+  </entry>
+</feed>

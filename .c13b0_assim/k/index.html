@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<!-- 🐶 PEWPI SIGN-IN (GLOBAL) -->
+<div id="pewpi-gate">
+  <h1>🐶 pewpi</h1>
+  <input id="pewpi_user" placeholder="Handle">
+  <button onclick="pewpiUnlock()">Enter</button>
+</div>
+<script>
+function pewpiUnlock(){
+  localStorage.setItem("pewpi_user", document.getElementById("pewpi_user").value);
+  document.getElementById("pewpi-gate").style.display="none";
+  document.body.classList.add("pewpi-live");
+}
+if(localStorage.getItem("pewpi_user")){
+  document.addEventListener("DOMContentLoaded",()=>{
+    const g=document.getElementById("pewpi-gate");
+    if(g) g.style.display="none";
+    document.body.classList.add("pewpi-live");
+  });
+}
+</script>
+<style>
+#pewpi-gate{position:fixed;inset:0;background:#0e0e0e;color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:9999}
+#pewpi-gate button{background:#ff69b4;border:0;padding:10px 18px}
+body:not(.pewpi-live)>*:not(#pewpi-gate){filter:blur(6px);pointer-events:none}
+</style>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>∞ k</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background: #000;
+      font-family: Arial, sans-serif;
+      color: #fff;
+      height: 100%;
+      width: 100%;
+    }
+    #overlay {
+      position: fixed;
+      top: 10px;
+      left: 10px;
+      z-index: 10;
+      background: rgba(0,0,0,0.4);
+      padding: 10px 14px;
+      border-radius: 12px;
+      font-size: 14px;
+      line-height: 1.4;
+      backdrop-filter: blur(4px);
+      -webkit-backdrop-filter: blur(4px);
+      pointer-events: none;
+    }
+    #c {
+      display: block;
+      width: 100vw;
+      height: 100vh;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="overlay">
+    Infinity Vector Laserscape<br>
+    Nodes pulsing read/write • Lasers between vectors • Moving through space
+  </div>
+  <canvas id="c"></canvas>
+
+  <script>
+    // ------------------------------
+    // CANVAS SETUP
+    // ------------------------------
+    const canvas = document.getElementById("c");
+    const ctx = canvas.getContext("2d");
+    let w, h;
+
+    function resize() {
+      w = canvas.width = window.innerWidth;
+      h = canvas.height = window.innerHeight;
+    }
+    window.addEventListener("resize", resize);
+    resize();
+
+    // ------------------------------
+    // NODE CLASS (GROW/SHRINK + DEPTH)
+    // ------------------------------
+    class Node {
+      constructor() {
+        this.reset(true);
+      }
+
+      reset(initial = false) {
+        // logical 3D position around center
+        this.x = (Math.random() * 2 - 1); // -1..1
+        this.y = (Math.random() * 2 - 1); // -1..1
+        this.z = Math.random();           // 0..1 depth (0 = far, 1 = near)
+
+        // pulsing parameters
+        this.baseSize = 1.2 + Math.random() * 2.5;
+        this.pulseSpeed = 0.5 + Math.random() * 1.5;
+        this.pulseOffset = Math.random() * Math.PI * 2;
+
+        // motion forward (towards viewer)
+        this.zSpeed = 0.12 + Math.random() * 0.18;
+
+        // color: cool plasma
+        const hue = 180 + Math.random() * 60; // blue-cyan range
+        const sat = 60 + Math.random() * 30;
+        const light = 50 + Math.random() * 15;
+        this.color = `hsl(${hue},${sat}%,${light}%)`;
+
+        if (!initial) {
+          // keep it subtle when recycled
+          this.z = 0.05;
+        }
+      }
+
+      update(dt) {
+        // move forward
+        this.z += this.zSpeed * dt;
+        if (this.z > 1.5) {
+          this.reset(); // recycle when "past" camera
+        }
+      }
+
+      getScreenPos() {
+        // simple perspective
+        const fov = 0.8; // field of view factor
+        const scale = fov / (0.2 + (1.5 - this.z)); // depth stretch
+
+        const sx = w / 2 + this.x * w * scale;
+        const sy = h / 2 + this.y * h * scale;
+        return { x: sx, y: sy, scale };
+      }
+
+      draw(time) {
+        const { x, y, scale } = this.getScreenPos();
+        const t = time * 0.001; // ms -> seconds
+        const pulse = 0.5 + 0.5 * Math.sin(t * this.pulseSpeed + this.pulseOffset);
+        const radius = this.baseSize * (0.4 + 1.3 * pulse) * scale * 1.5;
+
+        ctx.beginPath();
+        ctx.arc(x, y, radius, 0, Math.PI * 2);
+        ctx.fillStyle = this.color;
+        ctx.shadowBlur = 20 * (0.3 + pulse);
+        ctx.shadowColor = this.color;
+        ctx.fill();
+      }
+    }
+
+    // ------------------------------
+    // LASER CLASS (BEAMS BETWEEN NODES)
+    // ------------------------------
+    class Laser {
+      constructor(a, b) {
+        this.a = a; // Node
+        this.b = b; // Node
+        this.progress = 0; // 0..1 along the line
+        this.life = 0;
+        this.maxLife = 0.5 + Math.random() * 0.5; // seconds
+        this.width = 1 + Math.random() * 2;
+      }
+
+      update(dt) {
+        this.life += dt;
+        this.progress = Math.min(1, this.life / this.maxLife);
+      }
+
+      isDead() {
+        return this.life >= this.maxLife;
+      }
+
+      draw(time) {
+        const ta = this.a.getScreenPos();
+        const tb = this.b.getScreenPos();
+
+        // partial line based on progress
+        const x = ta.x + (tb.x - ta.x) * this.progress;
+        const y = ta.y + (tb.y - ta.y) * this.progress;
+
+        // alpha fade out
+        const fade = 1 - (this.life / this.maxLife);
+        const glowAlpha = 0.3 * fade;
+
+        ctx.save();
+        ctx.lineWidth = this.width;
+        const grad = ctx.createLinearGradient(ta.x, ta.y, x, y);
+        grad.addColorStop(0, `rgba(0,255,255,${0.0})`);
+        grad.addColorStop(0.4, `rgba(100,200,255,${0.7 * fade})`);
+        grad.addColorStop(1, `rgba(255,255,255,${1.0 * fade})`);
+
+        ctx.strokeStyle = grad;
+        ctx.shadowBlur = 12;
+        ctx.shadowColor = `rgba(150,220,255,${glowAlpha})`;
+
+        ctx.beginPath();
+        ctx.moveTo(ta.x, ta.y);
+        ctx.lineTo(x, y);
+        ctx.stroke();
+        ctx.restore();
+      }
+    }
+
+    // ------------------------------
+    // SCENE SETUP
+    // ------------------------------
+    const nodeCount = 120;
+    const nodes = [];
+    for (let i = 0; i < nodeCount; i++) {
+      nodes.push(new Node());
+    }
+
+    let lasers = [];
+    let lastLaserTime = 0;
+    const laserInterval = 90; // ms between new lasers (more = denser fire)
+
+    function spawnLaser(time) {
+      if (nodes.length < 2) return;
+
+      // pick two random nodes; prefer closer ones
+      let a = nodes[(Math.random() * nodes.length) | 0];
+      let bestB = null;
+      let bestD = Infinity;
+
+      for (let i = 0; i < 15; i++) {
+        const b = nodes[(Math.random() * nodes.length) | 0];
+        if (b === a) continue;
+
+        const pa = a.getScreenPos();
+        const pb = b.getScreenPos();
+        const dx = pa.x - pb.x;
+        const dy = pa.y - pb.y;
+        const d = dx * dx + dy * dy;
+        if (d < bestD) {
+          bestD = d;
+          bestB = b;
+        }
+      }
+
+      if (bestB) {
+        lasers.push(new Laser(a, bestB));
+      }
+    }
+
+    // ------------------------------
+    // BACKGROUND ENERGY FIELD
+    // ------------------------------
+    function drawEnergyField(time) {
+      const t = time * 0.0003;
+      const gradient = ctx.createRadialGradient(
+        w / 2, h / 2, 0,
+        w / 2, h / 2, Math.max(w, h)
+      );
+      const base = 0.08 + 0.04 * Math.sin(t * 3.1);
+      gradient.addColorStop(0, `rgba(10,15,40,${base + 0.04})`);
+      gradient.addColorStop(1, `rgba(0,0,0,1)`);
+
+      ctx.fillStyle = gradient;
+      ctx.fillRect(0, 0, w, h);
+    }
+
+    // ------------------------------
+    // MAIN LOOP
+    // ------------------------------
+    let lastTime = performance.now();
+
+    function animate(now) {
+      const dt = Math.min(0.05, (now - lastTime) / 1000); // seconds, clamp for safety
+      lastTime = now;
+
+      // background "space"
+      drawEnergyField(now);
+
+      // update & draw nodes
+      for (const n of nodes) {
+        n.update(dt);
+      }
+
+      // sort by depth so closer ones glow over far ones
+      nodes.sort((a, b) => a.z - b.z);
+      for (const n of nodes) {
+        n.draw(now);
+      }
+
+      // spawn lasers at consistent interval
+      if (now - lastLaserTime > laserInterval) {
+        spawnLaser(now);
+        lastLaserTime = now;
+      }
+
+      // update and draw lasers
+      const aliveLasers = [];
+      for (const l of lasers) {
+        l.update(dt);
+        if (!l.isDead()) {
+          l.draw(now);
+          aliveLasers.push(l);
+        }
+      }
+      lasers = aliveLasers;
+
+      requestAnimationFrame(animate);
+    }
+
+    animate(performance.now());
+  </script>
+</body>
+</html>
+<!-- C14_TOKEN_PANEL_START -->
+<div style="font-family:monospace;background:#0b0f14;color:#e6edf3;padding:16px;margin:16px 0">
+  <div style="font-size:2.4em;color:#ffd700;text-align:center">
+    🧱🍄⭐ Token Value: 22
+  </div>
+
+  <p style="text-align:center">
+    🧱 Base &nbsp; 🍄 Growth &nbsp; ⭐ Star Power
+  </p>
+
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="get" target="_blank">
+    <input type="hidden" name="cmd" value="_xclick">
+    <input type="hidden" name="business" value="watsonkris61@gmail.com">
+    <input type="hidden" name="item_name" value="k Token">
+    <input type="hidden" name="amount" value="22">
+    <input type="hidden" name="currency_code" value="USD">
+    <button style="width:100%;padding:14px;font-size:1em">
+      Pay $22 via PayPal
+    </button>
+  </form>
+
+  <p style="font-size:0.75em;text-align:center;margin-top:10px">
+    Repository owner: pewpi-infinity<br/>
+    Contact: marvaseater@gmail.com<br/>
+    Settlement handled externally via PayPal
+  </p>
+</div>
+<!-- C14_TOKEN_PANEL_END -->

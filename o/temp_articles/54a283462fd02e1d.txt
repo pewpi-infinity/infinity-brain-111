@@ -1,0 +1,78 @@
+TERMS: graphene, boson, singularity
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/dFisoef/JUcNx4HnlAf09pIWywk</id>
+  <title>arXiv Query: search_query=all:graphene AND all:boson AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:34:40Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:graphene+AND+(all:boson+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>6</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1206.4455v1</id>
+    <title>Kondo effect near the Van Hove singularity in biased bilayer graphene</title>
+    <updated>2012-06-20T10:58:42Z</updated>
+    <link href="https://arxiv.org/abs/1206.4455v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1206.4455v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Magnetic impurity adsorbed on one of the carbon planes of a bilayer graphene is studied. The formation of the many-body SU(2) and SU(4) resonances close to the bandgap is analyzed within the mean field Kotliar-Ruckenstein slave boson approach. Impact of enhanced hybridization and magnetic instability of bilayer doped near the Van Hove singularity on the screening of magnetic moment is discussed.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-06-20T10:58:42Z</published>
+    <arxiv:comment>10 pages, 8 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>S. Lipinski</name>
+    </author>
+    <author>
+      <name>D. Krychowski</name>
+    </author>
+    <arxiv:doi>10.3938/jkps.62.1440</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3938/jkps.62.1440" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1603.03476v2</id>
+    <title>Infrared Dynamics of Cold Atoms on Hot Graphene Membranes</title>
+    <updated>2016-04-04T20:35:19Z</updated>
+    <link href="https://arxiv.org/abs/1603.03476v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1603.03476v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the infrared dynamics of low-energy atoms interacting with a sample of suspended graphene at finite temperature. The dynamics exhibits severe infrared divergences order by order in perturbation theory as a result of the singular nature of low-energy flexural phonon emission. Our model can be viewed as a two-channel generalization of the independent boson model with asymmetric atom-phonon coupling. This allows us to take advantage of the exact non-perturbative solution of the independent boson model in the stronger channel while treating the weaker one perturbatively. In the low-energy limit, the exact solution can be viewed as a resummation (exponentiation) of the most divergent diagrams in the perturbative expansion. As a result of this procedure, we obtain the atom's Green function which we use to calculate the atom damping rate, a quantity equal to the quantum sticking rate. A characteristic feature of our results is that the Green's function retains a weak, infrared cutoff dependence that reflects the reduced dimensionality of the problem. As a consequence, we predict a measurable dependence of the sticking rate on graphene sample size. We provide detailed predictions for the sticking rate of atomic hydrogen as a function of temperature and sample size. The resummation yields an enhanced sticking rate relative to the conventional Fermi golden rule result (equivalent to the one-loop atom self-energy), as higher-order processes increase damping at finite temperature.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-03-10T22:20:21Z</published>
+    <arxiv:comment>11 pages, 13 figures; improved presentation and figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Phys. Rev. B 93, 235437 (2016)</arxiv:journal_ref>
+    <author>
+      <name>Sanghita Sengupta</name>
+    </author>
+    <author>
+      <name>Valeri N. Kotov</name>
+    </author>
+    <author>
+      <name>Dennis P. Clougherty</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.93.235437</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.93.235437" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1603.01188v2</id>
+    <title>Multilogarithmic velocity renormalization in graphene</title>
+    <updated>2016-06-20T20:30:56Z</updated>
+    <link href="https://arxiv.org/abs/1603.01188v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1603.01188v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We reexamine the effect of long-range Coulomb interactions on the quasiparticle velocity in graphene. Using a nonperturbative functional renormalization group approach with partial bosonization in the forward scattering channel and momentum transfer cutoff scheme, we calculate the quasiparticle velocity, $v (k)$, and the quasiparticle residue, $Z$, with frequency-dependent polarization. One of our most striking results is that $v ( k ) \propto \ln [ C_k (α) / k ]$ where the momentum- and interaction-dependent cutoff scale $C_k (α) $ vanishes logarithmically for $k \rightarrow 0$. Here $k$ is measured with respect to one of the charge neutrality (Dirac) points and $α=2.2$ is the strength of dimensionless bare interaction. Moreover, we also demonstrate that the so-obtained multilogarithmic singularity is reconcilable with the perturbative expansion of $v (k)$ in powers of the bare interaction.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-03-03T17:19:00Z</published>
+    <arxiv:comment>7 pages, 4 figures. Accepted for publication in Phys. Rev. B</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Phys. Rev. B 93, 235425 (2016)</arxiv:journal_ref>
+    <author>
+      <name>Anand Sharma</name>
+    </author>
+    <author>
+      <name>Peter Kopietz</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.93.235425</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.93.235425" title="doi"/>
+  </entry>
+</feed>

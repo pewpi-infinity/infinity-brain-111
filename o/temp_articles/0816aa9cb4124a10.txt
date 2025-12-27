@@ -1,0 +1,92 @@
+TERMS: fusion, wavefunction
+COLORS: green, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/d1pmKFUWSRsMI2dQ4CZB/BhMMQI</id>
+  <title>arXiv Query: search_query=all:fusion AND all:wavefunction&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T00:58:14Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:fusion+AND+all:wavefunction&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>36</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2203.14992v1</id>
+    <title>Operator fusion from wavefunction overlaps: Universal finite-size corrections and application to Haagerup model</title>
+    <updated>2022-03-28T18:01:54Z</updated>
+    <link href="https://arxiv.org/abs/2203.14992v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2203.14992v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Given a critical quantum spin chain described by a conformal field theory (CFT) at long distances, it is crucial to understand the universal conformal data. One most important ingredient is the operator product expansion (OPE) coefficients, which describe how operators fuse into each other. It has been proposed in [Zou, Vidal, Phys. Rev. B 105, 125125] that the OPE coefficients can be computed from overlaps of low-energy wavefunctions of the spin chain. In this work, we establish that all conformal data including central charge, conformal dimensions, and OPE coefficients are encoded in the wavefunction overlaps, with universal finite-size corrections that depend on the operator content of the cyclic orbifold CFT. Thus this method allows us to numerically compute all the conformal data based solely on the low-energy eigenstates. The predictions are verified in the Ising and XXZ model. As an application, we study the recently proposed Haagerup model built from the Haagerup fusion category. We find that the CFT has central charge $c \approx 2.1$ and the lowest spin-$1$ operator in the twisted sector has scaling dimension $1 &lt; Δ_J \leq 1.4$.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-03-28T18:01:54Z</published>
+    <arxiv:comment>22 pages, 12 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <author>
+      <name>Yuhan Liu</name>
+    </author>
+    <author>
+      <name>Yijian Zou</name>
+    </author>
+    <author>
+      <name>Shinsei Ryu</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.107.155124</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.107.155124" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1609.05217v2</id>
+    <title>Many-body Lattice Wavefunctions From Conformal Blocks</title>
+    <updated>2016-12-29T18:01:31Z</updated>
+    <link href="https://arxiv.org/abs/1609.05217v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1609.05217v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce a general framework to construct many-body lattice wavefunctions starting from the conformal blocks (CBs) of rational conformal field theories (RCFTs). We discuss the different ways of encoding the physical degrees of freedom of the lattice system using both the internal symmetries of the theory and the fusion channels of the CBs. We illustrate this construction both by revisiting the known Haldane-Shastry model and by providing a novel implementation for the Ising RCFT. In the latter case, we find a connection to the Ising transverse field (ITF) spin chain via the Kramers-Wannier duality and the Temperley-Lieb-Jones algebra. We also find evidence that the ground state of the finite-size critical ITF Hamiltonian corresponds exactly to the wavefunction obtained from CBs of spin fields.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-09-16T20:02:54Z</published>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Phys. Rev. B 95, 085146 (2017)</arxiv:journal_ref>
+    <author>
+      <name>Sebastian Montes</name>
+    </author>
+    <author>
+      <name>Javier Rodríguez-Laguna</name>
+    </author>
+    <author>
+      <name>Hong-Hao Tu</name>
+    </author>
+    <author>
+      <name>Germán Sierra</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.95.085146</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.95.085146" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0901.3502v2</id>
+    <title>Numerical Analysis of Quasiholes of the Moore-Read Wavefunction</title>
+    <updated>2009-08-26T01:28:50Z</updated>
+    <link href="https://arxiv.org/abs/0901.3502v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0901.3502v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We demonstrate numerically that non-Abelian quasihole excitations of the $ν= 5/2$ fractional quantum Hall state have some of the key properties necessary to support quantum computation. We find that as the quasihole spacing is increased, the unitary transformation which describes winding two quasiholes around each other converges exponentially to its asymptotic limit and that the two orthogonal wavefunctions describing a system with four quasiholes become exponentially degenerate. We calculate the length scales for these two decays to be $ξ_{U} \approx 2.7 \ell_0$ and $ξ_{E} \approx 2.3 \ell_0$ respectively. Additionally we determine which fusion channel is lower in energy when two quasiholes are brought close together.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-01-22T16:16:44Z</published>
+    <arxiv:comment>4 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 103, 076801 (2009)</arxiv:journal_ref>
+    <author>
+      <name>M. Baraban</name>
+    </author>
+    <author>
+      <name>G. Zikos</name>
+    </author>
+    <author>
+      <name>N. Bonesteel</name>
+    </author>
+    <author>
+      <name>S. H. Simon</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.103.076801</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.103.076801" title="doi"/>
+  </entry>
+</feed>

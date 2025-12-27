@@ -1,0 +1,81 @@
+TERMS: crystal, singularity, vacuum
+COLORS: orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/2Wll1uG2J3KMpesJr0waNs1z50c</id>
+  <title>arXiv Query: search_query=all:crystal AND all:singularity AND all:vacuum&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:28:54Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:crystal+AND+(all:singularity+AND+all:vacuum)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>3</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1011.2001v4</id>
+    <title>Controlling phonon squeezing and correlation via one- and two-phonon interference</title>
+    <updated>2011-10-20T12:37:17Z</updated>
+    <link href="https://arxiv.org/abs/1011.2001v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1011.2001v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>When ultrafast laser pulse strikes the crystal with a van Hove singularity in the phonon density of states, it can create a pair of anti-correlated in wave-vector acoustic phonons. As a result, the atomic fluctuations in either position or momentum become squeezed in such a way that their size might fall below the vacuum level. The ultrafast pulses can also generate a two-phonon bound (biphonon) state in which the constituent phonons are correlated and/or entangled. Here we show that via the interplay between one- and two-phonon interference the bound and squeezed two-phonon state in (110) oriented ZnTe single crystal can be manipulated. We demonstrate experimentally that when two biphonon ensembles are temporally and spatially overlapped, the strength of phonon squeezing and correlation can be controlled. However, due to the complementarity of one- and two-phonon interference a larger correlation comes at the expense of a reduced squeezing.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-11-09T08:23:59Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>Physics Letters A 375,4141 (2011)</arxiv:journal_ref>
+    <author>
+      <name>Oleg V. Misochko</name>
+    </author>
+    <author>
+      <name>Jianbo Hu</name>
+    </author>
+    <author>
+      <name>Kazutaka G. Nakamura</name>
+    </author>
+    <arxiv:doi>10.1016/j.physleta.2011.09.054</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physleta.2011.09.054" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2203.00593v1</id>
+    <title>Emergence of local geometric laws of step flow in homoepitaxial growth</title>
+    <updated>2022-03-01T16:31:45Z</updated>
+    <link href="https://arxiv.org/abs/2203.00593v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2203.00593v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Below the roughening transition, crystal surfaces exhibit nanoscale line defects, steps, that move by exchanging atoms with their environment. In homoepitaxy, we analytically show how the motion of a step train in vacuum under strong desorption can be approximately described by nonlinear laws that depend on local geometric features such as the curvature of each step, as well as suitably defined effective terrace widths. We assume that each step edge, a free boundary, can be represented by a smooth curve in a fixed reference plane for sufficiently long times. Besides surface diffusion and evaporation, the processes under consideration include kinetic step-step interactions in slowly varying geometries, material deposition on the surface from above, attachment and detachment of atoms at steps, step edge diffusion, and step permeability. Our methodology relies on boundary integral equations for the adatom fluxes responsible for step flow. By applying asymptotics, which effectively treat the diffusive term of the free boundary problem as a singular perturbation, we describe an intimate connection of universal character between step kinetics and local geometry.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-03-01T16:31:45Z</published>
+    <arxiv:comment>20 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>Phys. Rev. E 105, 034802 (2022)</arxiv:journal_ref>
+    <author>
+      <name>Ian Johnson</name>
+    </author>
+    <author>
+      <name>Dionisios Margetis</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevE.105.034802</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevE.105.034802" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1806.09879v3</id>
+    <title>Photonic Dirac monopoles and skyrmions: spin-1 quantization</title>
+    <updated>2018-12-02T23:56:21Z</updated>
+    <link href="https://arxiv.org/abs/1806.09879v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.09879v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce the concept of a photonic Dirac monopole, appropriate for photonic crystals, metamaterials and 2D materials, by utilizing the Dirac-Maxwell correspondence. We start by exploring vacuum where the reciprocal momentum space of both Maxwell's equations and the massless Dirac equation (Weyl equation) possess a magnetic monopole. The critical distinction is the nature of magnetic monopole charges, which are integer valued for photons but half-integer for electrons. This inherent difference is directly tied to the spin and ultimately connects to the bosonic or fermionic behavior. We also show the presence of photonic Dirac strings, which are line singularities in the underlying Berry gauge potential. While the results in vacuum are intuitively expected, our central result is the application of this topological Dirac-Maxwell correspondence to 2D photonic (bosonic) materials, as opposed to conventional electronic (fermionic) materials. Intriguingly, within dispersive matter, the presence of photonic Dirac monopoles is captured by nonlocal quantum Hall conductivity - i.e. a spatiotemporally dispersive gyroelectric constant. For both 2D photonic and electronic media, the nontrivial topological phases emerge in the context of massive particles with broken time-reversal symmetry. However, the bulk dynamics of these bosonic and fermionic Chern insulators are characterized by spin-1 and spin-1/2 skyrmions in momentum space, which have fundamentally different interpretations. This is exemplified by their contrasting spin-1 and spin-1/2 helically quantized edge states. Our work sheds light on the recently proposed quantum gyroelectric phase of matter and the essential role of photon spin quantization in topological bosonic phases.</summary>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-26T09:52:35Z</published>
+    <arxiv:comment>25 pages, 4 figures. This is the fourth paper in a series of papers on spin and topological bosonic phases of light. The others can be found here: https://doi.org/10.1103/PhysRevA.98.023842, arXiv:1708.08192, and https://doi.org/10.1364/OPTICA.3.000118</arxiv:comment>
+    <arxiv:primary_category term="physics.optics"/>
+    <arxiv:journal_ref>Opt. Mater. Express 9, 95-111 (2019)</arxiv:journal_ref>
+    <author>
+      <name>Todd Van Mechelen</name>
+    </author>
+    <author>
+      <name>Zubin Jacob</name>
+    </author>
+    <arxiv:doi>10.1364/OME.9.000095</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1364/OME.9.000095" title="doi"/>
+  </entry>
+</feed>

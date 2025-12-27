@@ -1,0 +1,75 @@
+TERMS: spin, probability
+COLORS: yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/zyHKAWatA2Ftu2MG+nItp43g+zc</id>
+  <title>arXiv Query: search_query=all:spin AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T00:59:52Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:spin+AND+all:probability&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>5644</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2305.15443v1</id>
+    <title>Kolmogorov extension theorem for non-probability measures on Cayley trees</title>
+    <updated>2023-05-24T06:37:58Z</updated>
+    <link href="https://arxiv.org/abs/2305.15443v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2305.15443v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we shall discuss the extendability of probability and non-probability measures on Cayley trees to a $σ$-additive measure on Borel fields which has a fundamental role in the theory of Gibbs measures.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.FA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-05-24T06:37:58Z</published>
+    <arxiv:comment>Cayley tree, cylinder sets, Kolmogorov's extension theorem, spin values, non-probability measures</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <author>
+      <name>F. H. Haydarov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0904.3796v2</id>
+    <title>Spin continuity equation and definition of spin current</title>
+    <updated>2009-04-28T05:02:19Z</updated>
+    <link href="https://arxiv.org/abs/0904.3796v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0904.3796v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  For an electron, a spin-1/2 particle, the spin charge $\mathbf{s}$, a real pseudovector with constant length, could determine the spin polarization properties in quantum mechanics. Since spin density $ρ_{\mathbf{s}}$ could be expressed as the product of probability density $ρ$ and the spin charge $\mathbf{s}$, the spin continuity equation could be derived from fundamental principles of quantum mechanics and the definition of spin current arise naturally. Only in some specific conditions the conventional definition of spin current coincides with ours. The equilibrium spin currents would vanish automatically in two-dimensional electron gas with Rashba spin-orbit interaction by using our definition of spin current.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-04-24T06:27:43Z</published>
+    <arxiv:comment>Add discussion of the relationship between our spin current definition and the conventional one</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>Xiang Zhou</name>
+    </author>
+    <author>
+      <name>Zhenyu Zhang</name>
+    </author>
+    <author>
+      <name>Cheng-Zheng Hu</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/0406114v3</id>
+    <title>Spin light of neutrino in gravitational fields</title>
+    <updated>2004-06-29T14:34:21Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/0406114v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/0406114v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We predict a new mechanism for the spin light of neutrino ($SLν$) that can be emitted by a neutrino moving in gravitational fields. This effect is studied on the basis of the quasiclassical equation for the neutrino spin evolution in a gravitational field. It is shown that the gravitational field of a rotating object, in the weak-field limit, can be considered as an axial vector external field which induces the neutrino spin procession. The corresponding probability of the neutrino spin oscillations in the gravitational field has been derived for the first time. The considered in this paper $SLν$ can be produced in the neutrino spin-flip transitions in gravitational fields. It is shown that the total power of this radiation is proportional to the neutrino gamma factor to the fourth power, and the emitted photon energy, for the case of an ultra relativistic neutrino, could span up to gamma-rays. We investigate the $SLν$ caused by both gravitational and electromagnetic fields, also accounting for effects of arbitrary moving and polarized matter, in various astrophysical environments. In particular, we discuss the $SLν$ emitted by a neutrino moving in the vicinity of a rotating neutron star, black hole surrounded by dense matter, as well as by a neutrino propagating in the relativistic jet from a quasar.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-06-09T19:19:42Z</published>
+    <arxiv:comment>14 pages in LaTex with 1 eps figure; derivation of the neutrino spin oscillations probability in gravitational fields and several clarifying notes are added, typos corrected</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <arxiv:journal_ref>Int.J.Mod.Phys.D14:309-322,2005</arxiv:journal_ref>
+    <author>
+      <name>Maxim Dvornikov</name>
+    </author>
+    <author>
+      <name>Alexander Grigoriev</name>
+    </author>
+    <author>
+      <name>Alexander Studenikin</name>
+    </author>
+    <arxiv:doi>10.1142/S0218271805006018</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/S0218271805006018" title="doi"/>
+  </entry>
+</feed>

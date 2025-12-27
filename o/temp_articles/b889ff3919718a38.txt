@@ -1,0 +1,73 @@
+TERMS: entropy, spin, probability
+COLORS: red, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Ma7+xSYUOtEe2M5oFTfgt4nq1JA</id>
+  <title>arXiv Query: search_query=all:entropy AND all:spin AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:18:23Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+(all:spin+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>248</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/quant-ph/0401131v1</id>
+    <title>Probability representation entropy for spin-state tomogram</title>
+    <updated>2004-01-21T16:14:05Z</updated>
+    <link href="https://arxiv.org/abs/quant-ph/0401131v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/quant-ph/0401131v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Probability representation entropy (tomographic entropy) of arbitrary quantum state is introduced. Using the properties of spin tomogram to be standard probability distribution function the tomographic entropy notion is discussed. Relation of the tomographic entropy to Shannon entropy and von Neumann entropy is elucidated.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-01-21T16:14:05Z</published>
+    <arxiv:comment>8 pages, accepted by J. Russ. Laser Res</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>O. V. Man'ko</name>
+    </author>
+    <author>
+      <name>V. I. Man'ko</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0910.3829v3</id>
+    <title>Maximum entropy estimation of transition probabilities of reversible Markov chains</title>
+    <updated>2009-11-25T11:11:24Z</updated>
+    <link href="https://arxiv.org/abs/0910.3829v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0910.3829v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this paper, we develop a general theory for the estimation of the transition probabilities of reversible Markov chains using the maximum entropy principle. A broad range of physical models can be studied within this approach. We use one-dimensional classical spin systems to illustrate the theoretical ideas. The examples studied in this paper are: the Ising model, the Potts model and the Blume-Emery-Griffiths model.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-10-20T16:20:03Z</published>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <arxiv:journal_ref>Entropy 11(4), 867 (2009)</arxiv:journal_ref>
+    <author>
+      <name>Erik Van der Straeten</name>
+    </author>
+    <arxiv:doi>10.3390/e11040867</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/e11040867" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2004.10606v2</id>
+    <title>Scaling of the Formation Probabilities and Universal Boundary Entropies in the Quantum XY Spin Chain</title>
+    <updated>2020-07-21T13:57:12Z</updated>
+    <link href="https://arxiv.org/abs/2004.10606v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2004.10606v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We calculate exactly the probability to find the ground state of the XY chain in a given spin configuration in the transverse $σ^z$-basis. By determining finite-volume corrections to the probabilities for a wide variety of configurations, we obtain the universal Boundary Entropy at the critical point. The latter is a benchmark of the underlying Boundary Conformal Field Theory characterizing each quantum state. To determine the scaling of the probabilities, we prove a theorem that expresses, in a factorized form, the eigenvalues of a sub-matrix of a circulant matrix as functions of the eigenvalues of the original matrix. Finally, the Boundary Entropies are computed by exploiting a generalization of the Euler-MacLaurin formula to non-differentiable functions. It is shown that, in some cases, the spin configuration can flow to a linear superposition of Cardy states. Our methods and tools are rather generic and can be applied to all the periodic quantum chains which map to free-fermionic Hamiltonians.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-04-22T14:45:26Z</published>
+    <arxiv:comment>v2: 17 pages, 5 figures. Minor revisions and clarifications, references added. Accepted for publication in JSTAT</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <arxiv:journal_ref>J. Stat. Mech. (2020) 083111</arxiv:journal_ref>
+    <author>
+      <name>Filiberto Ares</name>
+    </author>
+    <author>
+      <name>M. A. Rajabpour</name>
+    </author>
+    <author>
+      <name>Jacopo Viti</name>
+    </author>
+    <arxiv:doi>10.1088/1742-5468/aba9d4</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1742-5468/aba9d4" title="doi"/>
+  </entry>
+</feed>

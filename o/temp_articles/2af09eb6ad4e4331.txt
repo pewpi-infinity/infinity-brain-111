@@ -1,0 +1,108 @@
+TERMS: quantum, lattice, vapor
+COLORS: blue, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/VG7jwOMkVD2/wLEioZzDOaDyD9M</id>
+  <title>arXiv Query: search_query=all:quantum AND all:lattice AND all:vapor&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:05:55Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:lattice+AND+all:vapor)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>39</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0406013v1</id>
+    <title>Quantum Hall fractions in ultracold atomic vapors</title>
+    <updated>2004-06-01T09:22:31Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0406013v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0406013v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Atomic vapors can be prepared and manipulated at very low densities and temperatures. When they are rotating, they can reach a quantum Hall regime in which there should be manifestations of the fractional quantum Hall effect. We discuss the appearance of the principal sequence of fractions nu =p/(p+- 1) for bosonic atoms. The termination point of this series is the paired Moore-Read Pfaffian state. Exotic states fill the gap between the paired state and the vortex lattice expected at high filling of the lowest Landau level. In fermionic vapors, the p-wave scattering typical of ultralow energy collisions leads to the hard-core model when restricted to the lowest Landau level.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-06-01T09:22:31Z</published>
+    <arxiv:comment>7 pages, 2 figs, brief review submitted to Modern Physics Letters B</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Mod. Phys. Lett. B18, 1003 (2004).</arxiv:journal_ref>
+    <author>
+      <name>N. Regnault</name>
+      <arxiv:affiliation>ENS Paris</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Th. Jolicoeur</name>
+      <arxiv:affiliation>ENS Paris</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1142/S0217984904007530</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/S0217984904007530" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0504026v2</id>
+    <title>Dissipative quantum dynamics of bosonic atoms in a shallow 1D optical lattice</title>
+    <updated>2005-07-21T16:33:20Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0504026v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0504026v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We theoretically study the dipolar motion of bosonic atoms in a very shallow, strongly confined 1D optical lattice using the parameters of the recent experiment [Fertig et al., Phys. Rev. Lett. 94, 220402 (2005)]. We find that, due to momentum uncertainty, a small, but non-negligible, atom population occupies the unstable velocity region of the corresponding classical dynamics, resulting in the observed dissipative atom transport. This population is generated even in a static vapor, due to quantum fluctuations which are enhanced by the lattice and the confinement, and is not notably affected by the motion of atoms or finite temperature.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-04-01T16:58:21Z</published>
+    <arxiv:comment>to appear in PRL</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 95 (2005) 110403</arxiv:journal_ref>
+    <author>
+      <name>J. Ruostekoski</name>
+    </author>
+    <author>
+      <name>L. Isella</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.95.110403</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.95.110403" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2508.05737v1</id>
+    <title>Quantum criticality and nonequilibrium dynamics on a Lieb lattice of Rydberg atoms</title>
+    <updated>2025-08-07T18:00:00Z</updated>
+    <link href="https://arxiv.org/abs/2508.05737v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.05737v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Neutral-atom quantum simulators offer a promising approach to the exploration of strongly interacting many-body systems, with applications spanning condensed matter, statistical mechanics, and high-energy physics. Through a combination of quantum experiments, numerical calculations, and analytical methods, we demonstrate a rich set of phenomena accessible on such quantum simulators by studying an array of Rydberg atoms placed on the Lieb lattice. First, we map out the ground states and phase diagram of the system, identifying a range of density-wave-ordered phases,and find excellent agreement between theory and experiment. Allowing for local control of the detuning field thereafter, we discover a quantum analog of the classical liquid--vapor transition and probe its underlying hysteretic dynamics. Furthermore, we study out-of-equilibrium quantum quenches and observe anomalously slow relaxation dynamics arising from kinetic constraints. These results highlight how geometric control offered by neutral-atom simulators can extend the frontiers of programmable quantum matter, enabling access to complex phases, metastability, and thermalization dynamics in many-body quantum systems.</summary>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-07T18:00:00Z</published>
+    <arxiv:primary_category term="cond-mat.quant-gas"/>
+    <author>
+      <name>Mark R. Hirsbrunner</name>
+    </author>
+    <author>
+      <name>Milan Kornjača</name>
+    </author>
+    <author>
+      <name>Rhine Samajdar</name>
+    </author>
+    <author>
+      <name>Siva Darbha</name>
+    </author>
+    <author>
+      <name>Majd Hamdan</name>
+    </author>
+    <author>
+      <name>Jan Balewski</name>
+    </author>
+    <author>
+      <name>Ermal Rrapaj</name>
+    </author>
+    <author>
+      <name>Sheng-Tao Wang</name>
+    </author>
+    <author>
+      <name>Daan Camps</name>
+    </author>
+    <author>
+      <name>Fangli Liu</name>
+    </author>
+    <author>
+      <name>Pedro L. S. Lopes</name>
+    </author>
+    <author>
+      <name>Katherine Klymko</name>
+    </author>
+  </entry>
+</feed>

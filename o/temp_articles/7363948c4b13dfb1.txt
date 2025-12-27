@@ -1,0 +1,52 @@
+TERMS: lattice, fusion, oxidation
+COLORS: orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/+JyUGUJ21p3HqO6Eum66LK1SwjM</id>
+  <title>arXiv Query: search_query=all:lattice AND all:fusion AND all:oxidation&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:13:46Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:fusion+AND+all:oxidation)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1303.2938v1</id>
+    <title>Démixtion et ségrégation superficielle dans les alliages fer-chrome</title>
+    <updated>2013-03-12T16:16:35Z</updated>
+    <link href="https://arxiv.org/abs/1303.2938v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1303.2938v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Ferritic steels possibly strengthened by oxide dispersion are candidates as structural materials for generation IV and fusion nuclear reactors. Their use is limited by incomplete knowledge of the iron-chromium phase diagram at low temperatures and of the phenomena inducing preferential segregation of one element at grain boundaries or at surfaces. In this context, this work contributes to the multi-scale study of the model iron-chromium alloy and their free surfaces by numerical simulations. This study begins with ab initio calculations of properties related to the mixture of atoms of iron and chromium. We highlight complex dependency of the magnetic moments of the chromium atoms on their local chemical environment. Surface properties are also proving sensitive to magnetism. This is the case of impurity segregation of chromium in iron and of their interactions near the surface. In a second step, we construct a simple energy model for high numerical efficiency. It is based on pair interactions on a rigid lattice to which are given local chemical environment and temperature dependencies. With this model, we reproduce the ab initio results at zero temperature and experimental results at high temperature. We also deduce the solubility limits at all intermediate temperatures with mean field approximations that we compare to Monte Carlo simulations. The last step of our work is to introduce free surfaces in our model. We then study the effect of ab initio calculated bulk and surface properties on surface segregation. Finally, we calculate segregation isotherms. We therefore propose an evolution model of surface composition of iron-chromium alloys as a function of bulk composition.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-03-12T16:16:35Z</published>
+    <arxiv:comment>Ph. D. thesis, 194 pages, in French, defended in Nov. 2010</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Maximilien Levesque</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2208.00052v3</id>
+    <title>Reactive Two-Step Additive Manufacturing of Ultra-high Temperature Carbide Ceramics</title>
+    <updated>2022-12-07T02:38:22Z</updated>
+    <link href="https://arxiv.org/abs/2208.00052v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2208.00052v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Ultra-high-temperature ceramics (UHTCs) are candidate structural materials for applications that require resiliency to extreme temperature (&gt;2000°C), high mechanical loads, or aggressive oxidizing environments. Processing UHTC transition metal carbides as standalone materials using additive manufacturing (AM) methods has not been fully realized due to their extremely slow atomic diffusivities that impede sintering and large volume changes during indirect AM that can induce defect structures. In this work, a two-step, reactive AM approach was studied for the formation of the ultra-high temperature ceramic TiCx. Readily available equipment including a polymer powder bed fusion AM machine and a traditional tube furnace were used to produce UHTC cubes and lattice structures with sub-millimeter resolution. This processing scheme incorporated, (1) selective laser sintering of a Ti precursor mixed with a phenolic binder for green body shaping, and (2) ex-situ, isothermal gas-solid conversion of the green body in CH4 to form TiCx structures. Reactive post-processing in CH4 resulted in up to 98.2 wt% TiC0.90 product yield and a reduction in net-shrinkage during consolidation due to the volume expansion associated with the conversion of Ti to TiC. Results indicated that reaction bonding associated with the Gibbs free energy release associated with TiC formation produced interparticle adhesion at low furnace processing temperatures. The ability to bond highly refractory materials through this type of process resulted in structures that were crack-free and resisted fracture during thermal shock testing. Broadly, the additive manufacturing approach presented could be useful for the production of many UHTC carbides that might otherwise be incompatible with prevailing AM techniques that do not include reaction synthesis.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-07-29T19:40:12Z</published>
+    <arxiv:comment>23 pages,14 figures, one figure with link to external video</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Adam B. Peters</name>
+    </author>
+    <author>
+      <name>Dajie Zhang</name>
+    </author>
+    <author>
+      <name>Dennis C. Nagle</name>
+    </author>
+    <author>
+      <name>James B. Spicer</name>
+    </author>
+  </entry>
+</feed>

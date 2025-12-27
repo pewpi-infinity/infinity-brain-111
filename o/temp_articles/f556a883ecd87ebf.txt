@@ -1,0 +1,36 @@
+TERMS: hydrogen, lattice, electron, probability
+COLORS: purple, orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Unc9xlcLEj+ZE5rxG5Y3yKHWOag</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:lattice AND all:electron AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:46:37Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:lattice+AND+(all:electron+AND+all:probability))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/9704077v1</id>
+    <title>Kondo--lattice-like effects of hydrogen in transition metals</title>
+    <updated>1997-04-09T15:01:01Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/9704077v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/9704077v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We discuss the possibility of a Kondo like effect associated with H in metals resulting from the strong dependence of the H1s orbital radius on the occupation number. We demonstrate that such a strong breathing property of the orbital radius, which translates directly into a strong occupation dependent hopping, results in the formation of local singlet-like bound states involving one electron on H and one on the surrounding metal orbitals. We also show that already at a mean field level an occupation dependent hopping integral leads to a substantial potential energy correction on hydrogen, and that the failure of LDA to incorporate this correction is probably responsible for the incorrect prediction of a metallic ground state for the YH3 switchable mirror compounds.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1997-04-09T15:01:01Z</published>
+    <arxiv:comment>Revtex file, 6 PRB pages with 8 included eps figures, hardcopies of figures (or the entire manuscript) may be obtained by e-mail request to eder@vsf1.phys.rug.nl</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <author>
+      <name>R. Eder</name>
+    </author>
+    <author>
+      <name>H. F. Pen</name>
+    </author>
+    <author>
+      <name>G. A. Sawatzky</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.56.10115</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.56.10115" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,55 @@
+<!doctype html>
+<!-- 🐶 PEWPI SIGN-IN (GLOBAL) -->
+<div id="pewpi-gate">
+  <h1>🐶 pewpi</h1>
+  <input id="pewpi_user" placeholder="Handle">
+  <button onclick="pewpiUnlock()">Enter</button>
+</div>
+<script>
+function pewpiUnlock(){
+  localStorage.setItem("pewpi_user", document.getElementById("pewpi_user").value);
+  document.getElementById("pewpi-gate").style.display="none";
+  document.body.classList.add("pewpi-live");
+}
+if(localStorage.getItem("pewpi_user")){
+  document.addEventListener("DOMContentLoaded",()=>{
+    const g=document.getElementById("pewpi-gate");
+    if(g) g.style.display="none";
+    document.body.classList.add("pewpi-live");
+  });
+}
+</script>
+<style>
+#pewpi-gate{position:fixed;inset:0;background:#0e0e0e;color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:9999}
+#pewpi-gate button{background:#ff69b4;border:0;padding:10px 18px}
+body:not(.pewpi-live)>*:not(#pewpi-gate){filter:blur(6px);pointer-events:none}
+</style>
+<html>
+<head>
+<meta charset="utf-8">
+<title>∞ infinity-sandbox-1765895644</title>
+<style>
+body{font-family:monospace;background:#0b0f14;color:#e6edf3;padding:20px}
+.header{text-align:center}
+.crown{font-size:3rem}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:20px}
+.card{border:1px solid #30363d;padding:12px}
+.value{font-size:1.6rem;color:#7CFF7C}
+</style>
+</head>
+<body>
+<div class="header">
+<div class="crown">👑</div>
+<h1>infinity-sandbox-1765895644</h1>
+<p>Design style: octave-grid</p>
+<div class="value">🧱💰🧱 Value grows with research</div>
+</div>
+
+<div class="grid">
+  <div class="card">🧱📜🧱 Research</div>
+  <div class="card">🧱🧮🧱 Calculations</div>
+  <div class="card">🧱🍄🧱 Growth</div>
+  <div class="card">🧱⭐🧱 Live Token</div>
+</div>
+</body>
+</html>

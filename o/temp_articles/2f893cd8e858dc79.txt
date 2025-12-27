@@ -1,0 +1,100 @@
+TERMS: quantum, entropy
+COLORS: blue, red
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/N0NjS3r6Rdzn28sK89gzZR+Umjk</id>
+  <title>arXiv Query: search_query=all:quantum AND all:entropy&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T00:56:45Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+all:entropy&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>20593</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1101.0030v1</id>
+    <title>Corrections to Bekenstein-Hawking entropy --- Quantum or not-so quantum?</title>
+    <updated>2010-12-30T02:05:33Z</updated>
+    <link href="https://arxiv.org/abs/1101.0030v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1101.0030v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Hawking radiation and Bekenstein--Hawking entropy are the two robust predictions of a yet unknown quantum theory of gravity. Any theory which fails to reproduce these predictions is certainly incorrect. While several approaches lead to Bekenstein--Hawking entropy, they all lead to different sub-leading corrections. In this article, we ask a question that is relevant for any approach: Using simple techniques, can we know whether an approach contains quantum or semi-classical degrees of freedom? Using naive dimensional analysis, we show that the semi-classical black-hole entropy has the same dimensional dependence as the gravity action. Among others, this provides a plausible explanation for the connection between Einstein's equations and thermodynamic equation of state, and that the quantum corrections should have a different scaling behavior.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-12-30T02:05:33Z</published>
+    <arxiv:comment>10 pages; Article for the Special Issue "Entropy in Quantum Gravity" in the Journal Entropy</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Entropy 13(1), 11-16 (2011);</arxiv:journal_ref>
+    <author>
+      <name>S. Shankaranarayanan</name>
+      <arxiv:affiliation>IISER-Trivandrum</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.3390/e13010011</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/e13010011" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1612.05917v1</id>
+    <title>Linear Quantum Entropy and Non-Hermitian Hamiltonians</title>
+    <updated>2016-12-18T14:27:24Z</updated>
+    <link href="https://arxiv.org/abs/1612.05917v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1612.05917v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider the description of open quantum systems with probability sinks (or sources) in terms of general non-Hermitian Hamiltonians.~Within such a framework, we study novel possible definitions of the quantum linear entropy as an indicator of the flow of information during the dynamics. Such linear entropy functionals are necessary in the case of a partially Wigner-transformed non-Hermitian Hamiltonian (which is typically useful within a mixed quantum-classical representation). Both the case of a system represented by a pure non-Hermitian Hamiltonian as well as that of the case of non-Hermitian dynamics in a classical bath are explicitly considered.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-12-18T14:27:24Z</published>
+    <arxiv:comment>Entropy, Special Issue "Entropy in Quantum Systems and Quantum Field Theory (QFT)"</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Entropy 18, 451 (2016)</arxiv:journal_ref>
+    <author>
+      <name>Alessandro Sergi</name>
+    </author>
+    <author>
+      <name>Paolo V. Giaquinta</name>
+    </author>
+    <arxiv:doi>10.3390/e18120451</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/e18120451" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1705.00365v2</id>
+    <title>Measuring Holographic Entanglement Entropy on a Quantum Simulator</title>
+    <updated>2019-04-11T06:10:26Z</updated>
+    <link href="https://arxiv.org/abs/1705.00365v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1705.00365v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Quantum simulation promises to have wide applications in many fields where problems are hard to model with classical computers. Various quantum devices of different platforms have been built to tackle the problems in, say, quantum chemistry, condensed matter physics, and high-energy physics. Here, we report an experiment towards the simulation of quantum gravity by simulating the holographic entanglement entropy. On a six-qubit nuclear magnetic resonance quantum simulator, we demonstrate a key result of Anti-de Sitter/conformal field theory(\adscft) correspondence---the Ryu-Takayanagi formula is demonstrated by measuring the relevant entanglement entropies on the perfect tensor state. The fidelity of our experimentally prepared the six-qubit state is 85.0\% via full state tomography and reaches 93.7\% if the signal-decay due to decoherence is taken into account. Our experiment serves as the basic module of simulating more complex tensor network states that exploring \adscft correspondence. As the initial experimental attempt to study \adscft via quantum information processing, our work opens up new avenues exploring quantum gravity phenomena on quantum simulators.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-04-30T19:22:29Z</published>
+    <arxiv:comment>To appear in NPJ quantum information. All comments are welcome!</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>npj Quantum Information, volume 5, Article number: 30 (2019)</arxiv:journal_ref>
+    <author>
+      <name>Keren Li</name>
+    </author>
+    <author>
+      <name>Muxin Han</name>
+    </author>
+    <author>
+      <name>Dongxue Qu</name>
+    </author>
+    <author>
+      <name>Zichang Huang</name>
+    </author>
+    <author>
+      <name>Guilu Long</name>
+    </author>
+    <author>
+      <name>Yidun Wan</name>
+    </author>
+    <author>
+      <name>Dawei Lu</name>
+    </author>
+    <author>
+      <name>Bei Zeng</name>
+    </author>
+    <author>
+      <name>Raymond Laflamme</name>
+    </author>
+    <arxiv:doi>10.1038/s41534-019-0145-z</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41534-019-0145-z" title="doi"/>
+  </entry>
+</feed>

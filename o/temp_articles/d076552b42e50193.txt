@@ -1,0 +1,45 @@
+TERMS: hydrogen, fusion, electron, superconductivity
+COLORS: purple, green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/30q/HuAlaK7oPXMbFknR+3c9jGk</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:fusion AND all:electron AND all:superconductivity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:52:19Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:fusion+AND+(all:electron+AND+all:superconductivity))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2111.00651v2</id>
+    <title>Intermediate states in Andreev bound state fusion</title>
+    <updated>2021-11-02T20:15:48Z</updated>
+    <link href="https://arxiv.org/abs/2111.00651v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2111.00651v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Hybridization is a very fundamental quantum mechanical phenomenon, with the text book example of binding two hydrogen atoms in a hydrogen molecule. In semiconductor physics, a quantum dot (QD) can be considered as an artificial atom, with two coupled QDs forming a molecular state, and two electrons on a single QD the equivalent of a helium atom. Here we report tunnel spectroscopy experiments illustrating the hybridization of another type of discrete quantum states, namely of superconducting subgap states that form in segments of a semiconducting nanowire in contact with superconducting reservoirs. We show and explain a collection of intermediate states found in the process of merging individual bound states, hybridizing with a central QD and eventually coherently linking the reservoirs. These results may serve as a guide in future Majorana fusion experiments and explain a large variety of recent bound state experiments.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-11-01T01:41:30Z</published>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Communications Physics 6, 190 (2023)</arxiv:journal_ref>
+    <author>
+      <name>C. Jünger</name>
+    </author>
+    <author>
+      <name>S. Lehmann</name>
+    </author>
+    <author>
+      <name>K. A. Dick</name>
+    </author>
+    <author>
+      <name>C. Thelander</name>
+    </author>
+    <author>
+      <name>C. Schönenberger</name>
+    </author>
+    <author>
+      <name>A. Baumgartner</name>
+    </author>
+    <arxiv:doi>10.1038/s42005-023-01273-2</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s42005-023-01273-2" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Infinity Portal - Secure Login</title>
+  <style>
+    /* ========== Root Variables ========== */
+    :root {
+      --bg-dark: #0a0e1a;
+      --bg-panel: #141827;
+      --bg-card: #1a1f35;
+      --accent-primary: #00d4ff;
+      --accent-secondary: #7b2cbf;
+      --text-primary: #e9ecef;
+      --text-muted: #8b95a8;
+      --border-glow: rgba(0, 212, 255, 0.3);
+      --shadow-glow: 0 0 20px rgba(0, 212, 255, 0.15);
+      --shadow-glow-strong: 0 0 40px rgba(0, 212, 255, 0.3);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #0a0e1a 0%, #1a1f35 100%);
+      color: var(--text-primary);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* Animated background effect */
+    body::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: radial-gradient(circle, rgba(0, 212, 255, 0.05) 1px, transparent 1px);
+      background-size: 50px 50px;
+      animation: drift 20s linear infinite;
+      pointer-events: none;
+    }
+
+    @keyframes drift {
+      0% { transform: translate(0, 0); }
+      100% { transform: translate(50px, 50px); }
+    }
+
+    .container {
+      max-width: 450px;
+      width: 100%;
+      position: relative;
+      z-index: 1;
+    }
+
+    .logo-area {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .logo-text {
+      font-size: 48px;
+      font-weight: 900;
+      letter-spacing: 4px;
+      background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-shadow: 0 0 30px rgba(0, 212, 255, 0.5);
+      margin-bottom: 10px;
+    }
+
+    .logo-subtext {
+      color: var(--text-muted);
+      font-size: 14px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    .card {
+      background: var(--bg-panel);
+      border-radius: 20px;
+      padding: 40px;
+      box-shadow: var(--shadow-glow), 0 10px 40px rgba(0, 0, 0, 0.5);
+      border: 1px solid var(--border-glow);
+      position: relative;
+    }
+
+    .card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, var(--accent-primary), transparent);
+      opacity: 0.5;
+    }
+
+    h2 {
+      color: var(--text-primary);
+      margin-bottom: 10px;
+      font-size: 28px;
+      font-weight: 700;
+    }
+
+    .subtitle {
+      color: var(--text-muted);
+      margin-bottom: 30px;
+      font-size: 14px;
+    }
+
+    .pewpi-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(0, 212, 255, 0.1);
+      padding: 6px 12px;
+      border-radius: 20px;
+      font-size: 12px;
+      color: var(--accent-primary);
+      border: 1px solid rgba(0, 212, 255, 0.3);
+      margin-bottom: 20px;
+    }
+
+    .pewpi-badge::before {
+      content: '🔐';
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+      color: var(--text-primary);
+      font-weight: 600;
+      font-size: 14px;
+    }
+
+    input {
+      width: 100%;
+      padding: 14px 16px;
+      background: var(--bg-card);
+      border: 1px solid rgba(0, 212, 255, 0.2);
+      border-radius: 10px;
+      color: var(--text-primary);
+      font-size: 15px;
+      transition: all 0.3s ease;
+    }
+
+    input:focus {
+      outline: none;
+      border-color: var(--accent-primary);
+      box-shadow: 0 0 20px rgba(0, 212, 255, 0.2);
+    }
+
+    input::placeholder {
+      color: var(--text-muted);
+      opacity: 0.6;
+    }
+
+    button {
+      width: 100%;
+      padding: 16px;
+      background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+      border: none;
+      border-radius: 10px;
+      color: white;
+      font-weight: 700;
+      font-size: 16px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      margin-top: 10px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    button:hover {
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-glow-strong);
+    }
+
+    button:active {
+      transform: translateY(0);
+    }
+
+    .toggle-mode {
+      text-align: center;
+      margin-top: 20px;
+      color: var(--text-muted);
+      font-size: 14px;
+    }
+
+    .toggle-mode a {
+      color: var(--accent-primary);
+      text-decoration: none;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    .toggle-mode a:hover {
+      text-decoration: underline;
+    }
+
+    .error-msg {
+      background: rgba(239, 68, 68, 0.1);
+      border: 1px solid rgba(239, 68, 68, 0.3);
+      color: #fca5a5;
+      padding: 12px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      font-size: 14px;
+      display: none;
+    }
+
+    .success-msg {
+      background: rgba(34, 197, 94, 0.1);
+      border: 1px solid rgba(34, 197, 94, 0.3);
+      color: #86efac;
+      padding: 12px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      font-size: 14px;
+      display: none;
+    }
+
+    .info-link {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .info-link a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 13px;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .info-link a:hover {
+      color: var(--accent-primary);
+    }
+
+    /* Loading spinner */
+    .spinner {
+      display: none;
+      border: 3px solid rgba(0, 212, 255, 0.1);
+      border-top-color: var(--accent-primary);
+      border-radius: 50%;
+      width: 20px;
+      height: 20px;
+      animation: spin 0.8s linear infinite;
+      margin: 0 auto;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    /* Responsive */
+    @media (max-width: 480px) {
+      .card {
+        padding: 30px 20px;
+      }
+
+      .logo-text {
+        font-size: 36px;
+      }
+
+      h2 {
+        font-size: 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo-area">
+      <div class="logo-text">INFINITY</div>
+      <div class="logo-subtext">Secure Portal Access</div>
+    </div>
+
+    <div class="card">
+      <div class="pewpi-badge">PewPi AI-to-AI Encryption Active</div>
+      
+      <div id="error-msg" class="error-msg"></div>
+      <div id="success-msg" class="success-msg"></div>
+      
+      <!-- Login Form -->
+      <div id="login-form">
+        <h2>Welcome Back</h2>
+        <p class="subtitle">Sign in to access your secure portal</p>
+        
+        <form id="loginForm" onsubmit="return handleLogin(event)">
+          <div class="form-group">
+            <label for="login-username">Username</label>
+            <input type="text" id="login-username" placeholder="Enter your username" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="login-password">Password</label>
+            <input type="password" id="login-password" placeholder="Enter your password" required>
+          </div>
+          
+          <button type="submit">Sign In Securely</button>
+        </form>
+        
+        <div class="toggle-mode">
+          Don't have an account? <a onclick="showRegister()">Create one</a>
+        </div>
+      </div>
+
+      <!-- Register Form -->
+      <div id="register-form" style="display: none;">
+        <h2>Create Account</h2>
+        <p class="subtitle">Join the Infinity Portal with advanced AI security</p>
+        
+        <form id="registerForm" onsubmit="return handleRegister(event)">
+          <div class="form-group">
+            <label for="reg-username">Username</label>
+            <input type="text" id="reg-username" placeholder="Choose a username" required minlength="3">
+          </div>
+          
+          <div class="form-group">
+            <label for="reg-password">Password</label>
+            <input type="password" id="reg-password" placeholder="Choose a strong password" required minlength="6">
+          </div>
+          
+          <div class="form-group">
+            <label for="reg-password-confirm">Confirm Password</label>
+            <input type="password" id="reg-password-confirm" placeholder="Re-enter your password" required>
+          </div>
+          
+          <button type="submit">Create Account</button>
+        </form>
+        
+        <div class="toggle-mode">
+          Already have an account? <a onclick="showLogin()">Sign in</a>
+        </div>
+      </div>
+
+      <div class="info-link">
+        <a href="pewpi-about.html" target="_blank">
+          🛡️ Learn about PewPi Encryption
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // ========== PewPi Dual AI-to-AI Encryption System ==========
+    
+    /**
+     * AI Agent 1: Transforms input using mathematical encoding
+     * Simulates first AI processing layer
+     */
+    function aiAgent1Encode(text) {
+      let encoded = '';
+      for (let i = 0; i < text.length; i++) {
+        const charCode = text.charCodeAt(i);
+        // Complex mathematical transformation
+        const transformed = ((charCode * 137 + 42) % 65536).toString(16).padStart(4, '0');
+        encoded += transformed;
+      }
+      return encoded;
+    }
+
+    /**
+     * AI Agent 1: Reverse transformation
+     */
+    function aiAgent1Decode(encoded) {
+      let decoded = '';
+      for (let i = 0; i < encoded.length; i += 4) {
+        const hexValue = encoded.substr(i, 4);
+        const num = parseInt(hexValue, 16);
+        // Reverse the transformation
+        for (let c = 0; c < 65536; c++) {
+          if (((c * 137 + 42) % 65536) === num) {
+            decoded += String.fromCharCode(c);
+            break;
+          }
+        }
+      }
+      return decoded;
+    }
+
+    /**
+     * AI Agent 2: Applies quantum-inspired permutation
+     * Simulates second AI processing layer
+     */
+    function aiAgent2Encode(text, salt) {
+      const key = generateKey(salt);
+      let encoded = '';
+      for (let i = 0; i < text.length; i++) {
+        const charCode = text.charCodeAt(i);
+        const keyChar = key.charCodeAt(i % key.length);
+        // XOR with rotating key
+        const xored = charCode ^ keyChar;
+        encoded += xored.toString(16).padStart(2, '0');
+      }
+      return encoded;
+    }
+
+    /**
+     * AI Agent 2: Reverse permutation
+     */
+    function aiAgent2Decode(encoded, salt) {
+      const key = generateKey(salt);
+      let decoded = '';
+      for (let i = 0; i < encoded.length; i += 2) {
+        const hexValue = encoded.substr(i, 2);
+        const num = parseInt(hexValue, 16);
+        const keyChar = key.charCodeAt((i / 2) % key.length);
+        const original = num ^ keyChar;
+        decoded += String.fromCharCode(original);
+      }
+      return decoded;
+    }
+
+    /**
+     * Generate a deterministic key from salt
+     */
+    function generateKey(salt) {
+      let key = '';
+      for (let i = 0; i < 256; i++) {
+        key += String.fromCharCode(((salt.charCodeAt(i % salt.length) * (i + 1)) % 94) + 33);
+      }
+      return key;
+    }
+
+    /**
+     * Full PewPi Double Encoding: AI Agent 1 → AI Agent 2
+     */
+    function pewpiEncrypt(password, username) {
+      // First AI layer
+      const layer1 = aiAgent1Encode(password);
+      // Second AI layer with username as salt
+      const layer2 = aiAgent2Encode(layer1, username + 'PEWPI_SALT');
+      // Add metadata
+      return 'PEWPI_V1:' + layer2;
+    }
+
+    /**
+     * Full PewPi Double Decoding: AI Agent 2 → AI Agent 1
+     */
+    function pewpiDecrypt(encrypted, username) {
+      try {
+        // Remove metadata
+        const layer2 = encrypted.replace('PEWPI_V1:', '');
+        // Reverse second AI layer
+        const layer1 = aiAgent2Decode(layer2, username + 'PEWPI_SALT');
+        // Reverse first AI layer
+        const original = aiAgent1Decode(layer1);
+        return original;
+      } catch (e) {
+        return null;
+      }
+    }
+
+    // ========== Activity Log System ==========
+    
+    function logActivity(action, details) {
+      const logs = JSON.parse(localStorage.getItem('infinity_activity_log') || '[]');
+      logs.push({
+        timestamp: new Date().toISOString(),
+        action: action,
+        details: details,
+        user: localStorage.getItem('infinity_current_user') || 'system'
+      });
+      localStorage.setItem('infinity_activity_log', JSON.stringify(logs));
+    }
+
+    // ========== Form Handlers ==========
+    
+    function handleRegister(event) {
+      event.preventDefault();
+      
+      const username = document.getElementById('reg-username').value.trim();
+      const password = document.getElementById('reg-password').value;
+      const confirmPassword = document.getElementById('reg-password-confirm').value;
+      
+      // Validate
+      if (password !== confirmPassword) {
+        showError('Passwords do not match');
+        return false;
+      }
+      
+      if (password.length < 6) {
+        showError('Password must be at least 6 characters');
+        return false;
+      }
+      
+      // Check if user exists
+      const users = JSON.parse(localStorage.getItem('infinity_users') || '{}');
+      if (users[username]) {
+        showError('Username already exists');
+        return false;
+      }
+      
+      // Encrypt password using PewPi dual encoding
+      const encryptedPassword = pewpiEncrypt(password, username);
+      
+      // Store user
+      users[username] = {
+        password: encryptedPassword,
+        createdAt: new Date().toISOString()
+      };
+      localStorage.setItem('infinity_users', JSON.stringify(users));
+      
+      // Log activity
+      logActivity('user_registered', `New user account created: ${username}`);
+      
+      showSuccess('Account created successfully! Please sign in.');
+      
+      setTimeout(() => {
+        showLogin();
+      }, 1500);
+      
+      return false;
+    }
+
+    function handleLogin(event) {
+      event.preventDefault();
+      
+      const username = document.getElementById('login-username').value.trim();
+      const password = document.getElementById('login-password').value;
+      
+      // Get users
+      const users = JSON.parse(localStorage.getItem('infinity_users') || '{}');
+      
+      if (!users[username]) {
+        showError('Invalid username or password');
+        return false;
+      }
+      
+      // Decrypt stored password and verify
+      const storedEncrypted = users[username].password;
+      const decryptedPassword = pewpiDecrypt(storedEncrypted, username);
+      
+      if (decryptedPassword !== password) {
+        showError('Invalid username or password');
+        logActivity('login_failed', `Failed login attempt for user: ${username}`);
+        return false;
+      }
+      
+      // Successful login
+      localStorage.setItem('infinity_current_user', username);
+      localStorage.setItem('infinity_session_token', 'SESSION_' + Date.now());
+      
+      logActivity('user_login', `User successfully logged in: ${username}`);
+      
+      showSuccess('Login successful! Redirecting...');
+      
+      setTimeout(() => {
+        window.location.href = 'dashboard.html';
+      }, 1000);
+      
+      return false;
+    }
+
+    // ========== UI Helpers ==========
+    
+    function showRegister() {
+      document.getElementById('login-form').style.display = 'none';
+      document.getElementById('register-form').style.display = 'block';
+      hideMessages();
+    }
+
+    function showLogin() {
+      document.getElementById('register-form').style.display = 'none';
+      document.getElementById('login-form').style.display = 'block';
+      hideMessages();
+    }
+
+    function showError(message) {
+      const errorDiv = document.getElementById('error-msg');
+      errorDiv.textContent = message;
+      errorDiv.style.display = 'block';
+      document.getElementById('success-msg').style.display = 'none';
+    }
+
+    function showSuccess(message) {
+      const successDiv = document.getElementById('success-msg');
+      successDiv.textContent = message;
+      successDiv.style.display = 'block';
+      document.getElementById('error-msg').style.display = 'none';
+    }
+
+    function hideMessages() {
+      document.getElementById('error-msg').style.display = 'none';
+      document.getElementById('success-msg').style.display = 'none';
+    }
+
+    // ========== Initialize ==========
+    
+    // Check if already logged in
+    if (localStorage.getItem('infinity_current_user') && localStorage.getItem('infinity_session_token')) {
+      window.location.href = 'dashboard.html';
+    }
+  </script>
+</body>
+</html>

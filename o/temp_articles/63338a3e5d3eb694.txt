@@ -1,0 +1,79 @@
+TERMS: entropy, wavefunction, probability
+COLORS: red, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/J7wosWBW4IVRhYyT8/m+lzX9WyQ</id>
+  <title>arXiv Query: search_query=all:entropy AND all:wavefunction AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:18:34Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+(all:wavefunction+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>25</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1608.00145v2</id>
+    <title>Inspecting non-perturbative contributions to the Entanglement Entropy via wavefunctions</title>
+    <updated>2017-12-05T03:52:03Z</updated>
+    <link href="https://arxiv.org/abs/1608.00145v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1608.00145v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we would like to systematically explore the implications of non-perturbative effects on entanglement in a many body system. Instead of pursuing the usual path-integral method in a singular space, we attempt to study the wavefunctions in detail. We begin with a toy model of multiple particles whose interaction potential admits multiple minima. We study the entanglement of the true ground state after taking the tunnelling effects into account and find some simple patterns. Notably, in the case of multiple particle interactions, entanglement entropy generically decreases with increasing number of minima. The knowledge of the subsystem actually increases with the number of minima. The reduced density matrix can also be seen to have close connections with graph spectra. In a more careful study of the two-well tunnelling system, we also extract the exponentially suppressed tail contribution, the analogues of instantons. To understand the effects of multiple minima in a field theory, it inspires us to inspect wavefunctions in a toy model of bosonic field describing quasi-particles of two different condensates related by Bogoliubov transformations. We find that the area law is naturally preserved. This is probably a useful set of perspectives that promise wider applications.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-07-30T16:50:44Z</published>
+    <arxiv:comment>32 pages, 4 figures, current version accepted by Entropy</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Entropy 2017, 19(12), 671</arxiv:journal_ref>
+    <author>
+      <name>Arpan Bhattacharyya</name>
+    </author>
+    <author>
+      <name>Ling-Yan Hung</name>
+    </author>
+    <author>
+      <name>P. H. C. Lau</name>
+    </author>
+    <author>
+      <name>Si-Nong Liu</name>
+    </author>
+    <arxiv:doi>10.3390/e19120671</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/e19120671" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1606.06802v1</id>
+    <title>Quantum Probability as an Application of Data Compression Principles</title>
+    <updated>2016-06-22T01:59:20Z</updated>
+    <link href="https://arxiv.org/abs/1606.06802v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1606.06802v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Realist, no-collapse interpretations of quantum mechanics, such as Everett's, face the probability problem: how to justify the norm-squared (Born) rule from the wavefunction alone. While any basis-independent measure can only be norm-squared (due to the Gleason-Busch Theorem) this fact conflicts with various popular, non-wavefunction-based phenomenological measures - such as observer, outcome or world counting - that are frequently demanded of Everettians. These alternatives conflict, however, with the wavefunction realism upon which Everett's approach rests, which seems to call for an objective, basis-independent measure based only on wavefunction amplitudes. The ability of quantum probabilities to destructively interfere with each other, however, makes it difficult to see how probabilities can be derived solely from amplitudes in an intuitively appealing way. I argue that the use of algorithmic probability can solve this problem, since the objective, single-case probability measure that wavefunction realism demands is exactly what algorithmic information theory was designed to provide. The result is an intuitive account of complex-valued amplitudes, as coefficients in an optimal lossy data compression, such that changes in algorithmic information content (entropy deltas) are associated with phenomenal transitions.
+</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-06-22T01:59:20Z</published>
+    <arxiv:comment>In Proceedings PC 2016, arXiv:1606.06513</arxiv:comment>
+    <arxiv:primary_category term="cs.IT"/>
+    <arxiv:journal_ref>EPTCS 214, 2016, pp. 29-40</arxiv:journal_ref>
+    <author>
+      <name>Allan F. Randall</name>
+    </author>
+    <arxiv:doi>10.4204/EPTCS.214.6</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4204/EPTCS.214.6" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1210.2210v2</id>
+    <title>Interpretation of Feynman formalism of quantum mechanics in terms of probabilities of paths</title>
+    <updated>2021-06-19T14:57:13Z</updated>
+    <link href="https://arxiv.org/abs/1210.2210v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1210.2210v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Feynman path integrals formalism for non-relativistic quantum mechanics is revisited. A comparison is made with the cases of light progagation (Huygens principle) and Brownian motion. The difficulties for a physical model behind Feynman formalism are pointed out. It is proposed a reformulation where the transition probability from one space-time point to another one is the sum of probabilities of the possible paths. The Born approximation for scattering is derived within the formalism, which suggests an interpretation in terms of particles, without the need of Born assumption that the modulus squared of the wavefunction is a probability density.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-10-08T10:05:21Z</published>
+    <arxiv:comment>16 pages, version with misprints and errors corrected</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Entropy 27, 728 (2025)</arxiv:journal_ref>
+    <author>
+      <name>Emilio Santos</name>
+    </author>
+  </entry>
+</feed>

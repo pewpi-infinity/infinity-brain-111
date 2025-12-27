@@ -1,0 +1,74 @@
+TERMS: hydrogen, electron, probability
+COLORS: purple, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/oKmzC/+VxhrDmDZF9aNamFK3xGA</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:electron AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:03:10Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:electron+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>180</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/0810.1045v2</id>
+    <title>Time-Dependent Corrections to the Ly-alpha Escape Probability During Cosmological Hydrogen Recombination</title>
+    <updated>2009-03-30T22:16:54Z</updated>
+    <link href="https://arxiv.org/abs/0810.1045v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0810.1045v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We consider the effects connected with the detailed radiative transfer during the epoch of cosmological recombination on the ionization history of our Universe. We focus on the escape of photons from the hydrogen Lyman-alpha resonance at redshifts 600&lt;~ z &lt;~ 2000, one of two key mechanisms defining the rate of cosmological recombination. We approach this problem within the standard formulation, and corrections due to two-photon interactions are deferred to another paper. As a main result we show here that within a non-stationary approach to the escape problem, the resulting correction in the free electron fraction, N_e, is about ~1.6-1.8% in the redshift range 800&lt;~z&lt;~1200. Therefore the discussed process results in one of the largest modifications to the ionization history close to the maximum of Thomson-visibility function at z~1100 considered so far. We prove our results both numerically and analytically, deriving the escape probability, and considering both Lyman-alpha line emission and line absorption in a way different from the Sobolev approximation. In particular, we give a detailed derivation of the Sobolev escape probability during hydrogen recombination, and explain the underlying assumptions. We then discuss the escape of photons for the case of coherent scattering in the lab frame, solving this problem analytically in the quasi-stationary approximation and also in the time-dependent case. We show here that during hydrogen recombination the Sobolev approximation for the escape probability is not valid at the level of DP/P~5-10%. This is because during recombination the ionization degree changes significantly over a characteristic time Dz/z~10%, so that at percent level accuracy the photon distribution is not evolving (abridged)</summary>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-10-06T19:59:05Z</published>
+    <arxiv:comment>18 pages, 12 figures, accepted version</arxiv:comment>
+    <arxiv:primary_category term="astro-ph"/>
+    <author>
+      <name>J. Chluba</name>
+    </author>
+    <author>
+      <name>R. A. Sunyaev</name>
+    </author>
+    <arxiv:doi>10.1051/0004-6361/200811100</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1051/0004-6361/200811100" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2008.01660v1</id>
+    <title>Influence of a quasi-molecular mechanism of recombination on the formation of hydrogen in the early universe</title>
+    <updated>2020-08-03T06:42:49Z</updated>
+    <link href="https://arxiv.org/abs/2008.01660v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2008.01660v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the framework of a quasi-molecular approach, the formation of hydrogen atom in the pre-recombination period of evolution of the universe is analysed quantitatively. Calculations in an adiabatic multi-level representation enable estimates of probabilities of radiative transitions. The quasi-molecular mechanism of recombination allows the formation of hydrogen molecular ion, $H_2^+$, in its ground state. The probability of this process is comparable with the probability of the creation of atomic hydrogen. The participation of a second proton in the recombination increases the binding energy of an electron and decreases the rate of recombination of hydrogen.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-08-03T06:42:49Z</published>
+    <arxiv:comment>6 pages, 1 figure</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>Tamaz Kereselidze</name>
+    </author>
+    <author>
+      <name>Irakli Noselidze</name>
+    </author>
+    <author>
+      <name>John F. Ogilvie</name>
+    </author>
+    <arxiv:doi>10.1093/mnras/staa3622</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1093/mnras/staa3622" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1705.10221v2</id>
+    <title>Hot-electron relaxation in dense `two-temperature' hydrogen</title>
+    <updated>2017-06-05T21:32:32Z</updated>
+    <link href="https://arxiv.org/abs/1705.10221v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1705.10221v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent theories of hot-electron relaxation in dense hydrogen or deuterium are examined in the light of recent molecular-dynamics simulations as well as various theoretical developments within the two-temperature model. The theoretical work since 1998 have led to the formulation of the $f$-sum version of the Fermi Golden rule formula as the most convenient method for the calculation of the rate of cooling of hot electrons where energy is transferred to cold ions. The attempt to include relaxation via the ion-acoustic modes of the two coupled subsystems, i.e., electrons and ions has led to a coupled-mode formulation which has now been established by a variety of formal methods. However, various simplified calculational models of the system with coupled-modes, as well as sophisticated molecular dynamics simulations seem to disagree. It is expected that coupled-mode calculations which use the simple Coulomb potential $V_{ei}(r)=-|e|Z/r$ for the electron-ion interaction within RPA will greatly over-estimate the coupled-mode contribution. A weak pseudopotential $U_{ei}(r)$ would probably bring the estimated coupled-mode contribution to agree with that obtained by simulations. It is suggested that the available `reduced models' have been constructed without much attention to the satisfaction of important sum rules, Kramers-Krönig relations etc. We also deal with the question of how strongly coupled ion-ion systems can be addressed by an extension of the second-order linear response theory which is the basis of current formulations of energy relaxation in warm-dense matter systems. These are of interest in a variety of fields including hot-electron semi-conductor devices, inertial-fusion studies of hot compressed hydrogen, as well as in astrophysical applications.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-05-29T14:48:09Z</published>
+    <arxiv:comment>13 pages</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <author>
+      <name>M. W. C. Dharma-wardana</name>
+      <arxiv:affiliation>NRC Canada</arxiv:affiliation>
+    </author>
+  </entry>
+</feed>

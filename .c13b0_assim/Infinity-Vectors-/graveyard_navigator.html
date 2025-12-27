@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Infinity OS — Start Your Journey</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <style>
+    html,body {height:100%;margin:0;padding:0;background:linear-gradient(135deg,#06080b 20%,#133 90%);}
+    body {color:#e2e8f0;font-family:Consolas,monospace;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;}
+    h1 {font-size:1.9em;margin:18px 0 6px 0;text-shadow:0 0 18px #00ff9d99;}
+    canvas {background:rgba(24,32,54,0.92);margin:4px;border-radius:12px;border:2px solid #38bdf8;}
+    #log {font-size:0.99em;background:#16222fbb;border-radius:7px;padding:7px 12px;max-width:450px;width:90vw;max-height:72px;min-height:28px;margin:0 auto 15px 0;overflow-y:auto;box-shadow:0 1px 6px #38bdf855;}
+    #build-btn {margin:40px auto 0 auto; display:none; font-size:1.3em; background:#00ffaa; color:#111; border:none; border-radius:12px; padding:13px 34px; box-shadow:0 0 12px #38bdf8; cursor:pointer; font-weight:bold;}
+    #build-btn:hover {background:#00aaff; color:#fff;}
+    @media (max-width:600px){canvas{width:99vw!important;height:60vh!important;} #build-btn{width:95vw;}}
+  </style>
+</head>
+<body>
+  <h1>🪦 Night of the Living Bots<br><span style="font-size:.7em;font-weight:400">Navigator Edition</span></h1>
+  <canvas id="grave" width="420" height="320"></canvas>
+  <div id="log"></div>
+  <button id="build-btn" onclick="window.location.href='builder_app.html'">Now Build Yours! Start Your Infinity Journey 🚀</button>
+  <script>
+    const canvas = document.getElementById("grave");
+    const ctx = canvas.getContext("2d");
+    let score = 0;
+    let lives = 3;
+    let gameOver = false;
+    let pulses = [];
+    let width, height;
+
+    function resizeCanvas() {
+      width = canvas.width = window.innerWidth;
+      height = canvas.height = window.innerHeight;
+    }
+    window.addEventListener("resize", resizeCanvas); 
+    resizeCanvas();
+
+    class Player {
+      constructor() {
+        this.x = width / 2; this.y = height - 60; this.speed = 2;
+      }
+      draw() {
+        ctx.fillStyle = "#00ff9d";
+        ctx.beginPath(); ctx.arc(this.x, this.y, 10, 0, Math.PI * 2); ctx.fill();
+        ctx.strokeStyle = "#00ff9d";
+        ctx.lineWidth = 2;
+        ctx.beginPath(); ctx.moveTo(this.x, this.y); ctx.lineTo(this.x, this.y - 15); ctx.stroke();
+      }
+    }
+    const player = new Player();
+
+    class ThesisPulse {
+      constructor(x, y) {
+        this.x = x; this.y = y; this.radius = 10; this.maxRadius = width / 3;
+        this.speed = 4; this.life = 1;
+      }
+      update() {
+        this.radius += this.speed;
+        this.life -= (this.speed / this.maxRadius) * 0.8;
+        return this.life <= 0;
+      }
+      draw() {
+        if (this.life <= 0) return;
+        ctx.globalAlpha = this.life * 0.6;
+        ctx.strokeStyle = "#00aaff";
+        ctx.lineWidth = 3;
+        ctx.beginPath();
+        ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
+        ctx.stroke();
+        ctx.globalAlpha = 1;
+      }
+    }
+
+    class GhostBot {
+      constructor(id) {
+        this.id = id;
+        this.x = Math.random() * width;
+        this.y = height + Math.random() * 100;
+        this.vy = -0.5 - Math.random() * 0.5;
+        this.size = 12 + Math.random() * 8;
+        this.calm = false;
+        this.thesisScore = Math.random();
+      }
+      update() {
+        if (this.calm) return;
+        this.y += this.vy;
+        if (this.y < -20) {
+          this.y = height + Math.random() * 100;
+          if (!gameOver) {
+            lives--;
+            log(`[ALERT] Bot-${this.id} ESCAPED! Lives: ${lives}`);
+            if (lives <= 0) {
+              gameOver = true;
+              log("[SYSTEM] All lives lost.");
+              setTimeout(showBuildButton, 1200); 
+            }
+          }
+        }
+      }
+      draw() {
+        ctx.globalAlpha = this.calm ? 0.2 : 0.8;
+        const color = this.calm ? "#446" : (this.thesisScore > 0.7 ? "#ff00aa" : "#38bdf8");
+        ctx.fillStyle = color;
+        ctx.beginPath();
+        ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.globalAlpha = 1;
+      }
+      thesisHit(pulse) {
+        const dx = pulse.x - this.x, dy = pulse.y - this.y;
+        return Math.sqrt(dx * dx + dy * dy) < this.size + pulse.radius &&
+               Math.sqrt(dx * dx + dy * dy) > pulse.radius - pulse.speed;
+      }
+      calmBot(thesisConfidence) {
+        this.calm = true;
+        score++;
+        log(`Bot-${this.id}: "Thesis Accepted: ${thesisConfidence.toFixed(2)}." [Score ${score}]`);
+      }
+    }
+    const bots = [];
+    for (let i = 0; i < 40; i++) bots.push(new GhostBot(i + 1));
+
+    const logDiv = document.getElementById("log");
+    function log(msg) {
+      const l = document.createElement("div");
+      l.textContent = msg;
+      logDiv.appendChild(l);
+      logDiv.scrollTop = logDiv.scrollHeight;
+    }
+    log("[🎮] The bots are restless... fire a Thesis Pulse (Space) to calm them. Dodge escaping bots!");
+
+    window.addEventListener("keydown", e => {
+      if (gameOver) return;
+      if (e.key === "ArrowLeft" && player.x > 15) player.x -= player.speed;
+      if (e.key === "ArrowRight" && player.x < width - 15) player.x += player.speed;
+      if (e.key === "ArrowUp" && player.y > 15) player.y -= player.speed;
+      if (e.key === "ArrowDown" && player.y < height - 15) player.y += player.speed;
+      if (e.key === " ") {
+        pulses.push(new ThesisPulse(player.x, player.y));
+        log("[ROGERS AI] Thesis Pulse initiated.");
+      }
+    });
+
+    canvas.addEventListener("click", e => {
+      log("[ROGERS AI] Thesis must be synthesized (Spacebar) not merely clicked.");
+    });
+
+    function drawHUD() {
+      ctx.fillStyle = "#ffffff";
+      ctx.font = "22px Consolas";
+      ctx.textAlign = "left";
+      ctx.fillText(`Score: ${score}`, 15, 30);
+      ctx.textAlign = "right";
+      ctx.fillText(`Lives: ${lives}`, width - 15, 30);
+      ctx.textAlign = "left";
+    }
+
+    function showBuildButton() {
+      document.getElementById("build-btn").style.display = "block";
+      logDiv.innerHTML += "<h3 style='color:#00ffaa;'>Ready to build? Start your Infinity journey below!</h3>";
+    }
+
+    function loop() {
+      ctx.fillStyle = "rgba(3,7,18,0.4)";
+      ctx.fillRect(0, 0, width, height);
+      if (gameOver) {
+        ctx.fillStyle = "rgba(0,255,170,0.41)";
+        ctx.fillRect(0, height / 2 - 40, width, 80);
+        ctx.fillStyle = "#fff";
+        ctx.font = "40px Consolas";
+        ctx.textAlign = "center";
+        ctx.fillText("GAME OVER", width / 2, height / 2 + 15);
+        return;
+      }
+      bots.forEach(b => { b.update(); b.draw(); });
+      pulses = pulses.filter(p => {
+        const done = p.update();
+        p.draw();
+        if (!done) {
+          bots.forEach(b => {
+            if (!b.calm && b.thesisHit(p)) {
+              b.calmBot(b.thesisScore);
+            }
+          });
+        }
+        return !done;
+      });
+      player.draw();
+      drawHUD();
+      requestAnimationFrame(loop);
+    }
+    loop();
+  </script>
+</body>
+</html>

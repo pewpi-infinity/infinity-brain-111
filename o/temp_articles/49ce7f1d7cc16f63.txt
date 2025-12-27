@@ -1,0 +1,30 @@
+TERMS: crystal, neutrino, probability
+COLORS: orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/B/jjY9kWHzsUjLzrUTgootl8J/k</id>
+  <title>arXiv Query: search_query=all:crystal AND all:neutrino AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:28:39Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:crystal+AND+(all:neutrino+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1005.4183v6</id>
+    <title>Why do neutrinos with different masses interfere and oscillate? Why are states with different masses but same energy coherent? Overcoming barrier between particle &amp; condensed matter physics</title>
+    <updated>2012-07-24T17:02:19Z</updated>
+    <link href="https://arxiv.org/abs/1005.4183v6" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1005.4183v6" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Neutrino oscillations occur only if it is impossible to determine $ν$ mass by using conservation laws on measurements of nucleon-lepton system absorbing $ν$. No oscillations if $ν$ detector is mass spectrometer. Beam is split into components with different masses entering different counters. For each event only one counter will click and determine $ν$ mass. Condensed matter physics needed to describe the $ν$ detector, show it is not a mass spectrometer and identify which properties of the incident $ν$ are unobservable. Relativistic quantum field theory can only describe $ν$ wave function entering detector but not large uncertain momentum transfers to detector nor associated energy-momentum asymmetry. Absorption of incident $ν$'s with different momenta but same energy leaves no trace of initial $ν$ momentum difference in finite-size $ν$ detector with effectively infinite mass at rest in laboratory. Undetectable recoil-free momentum is transferred to the detector with negligible energy transfer. The Debye-Waller factor common in X-ray diffraction by crystals gives probability that absorbing $ν$'s with different momenta produce same nucleon-charged-lepton final state. Oscillations in time described in textbooks as interference between $ν$ states with different energies not observable in realistic experiments. Different energy $ν$'s not coherent because energy can be determined by measurements on initial and final states. Experiments detecting $ν$ produced by $πto μν$ decay observe no electrons even though $ν$ mass eigenstates produce electrons. Electron amplitude canceled by interference between amplitudes from different $ν$ mass eigenstates with same energy and different momenta entering massive detector.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-05-23T09:31:28Z</published>
+    <arxiv:comment>16 pages, no figures, new title and abstract clarification of previous version</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Harry J. Lipkin</name>
+    </author>
+  </entry>
+</feed>

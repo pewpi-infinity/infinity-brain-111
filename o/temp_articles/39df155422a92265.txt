@@ -1,0 +1,94 @@
+TERMS: ionization, oxidation, probability
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/qq1jpUEWHfU31ZJ89YSuRr/BS+U</id>
+  <title>arXiv Query: search_query=all:ionization AND all:oxidation AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:30:27Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:ionization+AND+(all:oxidation+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>3</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1602.08462v1</id>
+    <title>Atmospheric ionization by high-fluence, hard spectrum solar proton events and their probable appearance in the ice core archive</title>
+    <updated>2016-02-26T20:07:51Z</updated>
+    <link href="https://arxiv.org/abs/1602.08462v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1602.08462v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Solar energetic particles ionize the atmosphere, leading to production of nitrogen oxides. It has been suggested that some such events are visible as layers of nitrate in ice cores, yielding archives of energetic, high fluence solar proton events (SPEs). There has been controversy, due to slowness of transport for these species down from the upper stratosphere; past numerical simulations based on an analytic calculation have shown very little ionization below the mid stratosphere. These simulations suffer from deficiencies: they consider only soft SPEs and narrow energy ranges; spectral fits are poorly chosen; with few exceptions secondary particles in air showers are ignored. Using improved simulations that follow development of the proton-induced air shower, we find consistency with recent experiments showing substantial excess ionization down to 5 km. We compute nitrate available from the 23 February 1956 SPE, which had a high fluence, hard spectrum, and well-resolved associated nitrate peak in a Greenland ice core. For the first time, we find this event can account for ice core data with timely (~ 2 months) transport downward between 46 km and the surface, thus indicating an archive of high fluence, hard spectrum SPE covering the last several millennia. We discuss interpretations of this result, as well as the lack of a clearly-defined nitrate spike associated with the soft-spectrum 3-4 August 1972 SPE. We suggest that hard-spectrum SPEs, especially in the 6 months of polar winter, are detectable in ice cores, and that more work needs to be done to investigate this.</summary>
+    <category term="physics.ao-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.EP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.geo-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-02-26T20:07:51Z</published>
+    <arxiv:comment>JGR Atmospheres, in press</arxiv:comment>
+    <arxiv:primary_category term="physics.ao-ph"/>
+    <arxiv:journal_ref>JGR Atmospheres 121 (2016)</arxiv:journal_ref>
+    <author>
+      <name>Adrian L. Melott</name>
+    </author>
+    <author>
+      <name>Brian C. Thomas</name>
+    </author>
+    <author>
+      <name>Claude M. Laird</name>
+    </author>
+    <author>
+      <name>Ben Neuenswander</name>
+    </author>
+    <author>
+      <name>Dimitra Atri</name>
+    </author>
+    <arxiv:doi>10.1002/2015JD024064</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1002/2015JD024064" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2502.09382v2</id>
+    <title>Evidence of the matrix effect on a compositionally graded oxide thin film</title>
+    <updated>2025-03-05T09:33:19Z</updated>
+    <link href="https://arxiv.org/abs/2502.09382v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2502.09382v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A heterostructure of Ba$_{1-x}$Sr$_x$TiO$_3$/La$_{1.1}$Sr$_{0.9}$NiO$_3$ /SrTiO$_3$ has been analysed by magnetic sector secondary ion mass spectrometry (SIMS). The stoichiometry parameter $x$ of the top layer was made varying continuously from 0 to 1 along the width of the sample by combinatorial pulsed laser deposition. Prior to SIMS analysis, the composition gradient of Ba$_{1-x}$Sr$_x$TiO$_3$ was quantitatively characterized by chemical characterizations including wavelength and energy dispersive X-ray spectroscopies. Even if the Ti content is constant into Ba$_{1-x}$Sr$_x$TiO$_3${}, its ionic yield exhibits an increasing trend as Ba is substituted by Sr. Such a phenomenon can be explained by the variation of the neighbouring atoms chemistry which affects the ionization probability of titanium during the sputtering process. In addition to the continuously varying composition, the oxide multilayer sample features sharp interfaces hence the in-depth resolution under our analysing conditions has been investigated too. The modelling of the interface crossing profiles reveals that the instrumental contribution to the profile broadening is as low as 5 nm.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-02-13T14:58:07Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>J. Scola</name>
+    </author>
+    <author>
+      <name>F. Jomard</name>
+    </author>
+    <author>
+      <name>E. Loire</name>
+    </author>
+    <author>
+      <name>J. Wolfman</name>
+    </author>
+    <author>
+      <name>B. Negulescu</name>
+    </author>
+    <author>
+      <name>G. Z. Liu</name>
+    </author>
+    <author>
+      <name>M. -A. Pinault-Thaury</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1204.2393v3</id>
+    <title>Clouds of short-circuited thermionic nanobatteries and promising prospects for development of nanobattery-based aerosol fusion reactors. The preliminary report</title>
+    <updated>2012-04-13T09:49:14Z</updated>
+    <link href="https://arxiv.org/abs/1204.2393v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1204.2393v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The physical mechanisms of periodic separation and relaxation of electric charges within aerosol particles possessing the properties the short-circuited batteries can be extremely diverse. With use of appropriate materials and dispersing methods, the electrochemical, thermoelectric, thermionic, pyroelectric, photoelectric, photo electronic emission, or even radionuclide-based emission micro and nano-batteries can be synthesized and be dispersed in the air as clouds self-assembed of the short-circuited aerosol batteries due to the inter-particle electromagnetic dipole-dipole attraction. Intense thermionic emission from ionized hot spots migrating on the relatively cold surface of charged explosive particles, can convert these particles into short-circuited thermionic batteries, turning an aerosol cloud consisting of such unipolar charged, gradually decomposing explosive particles into ball lightning. The slow exothermic decomposition of the highly sensitive explosive aerosol particles, catalyzed by excess ions on their surface, and also ion-catalyzed reactions of slow water vapor induced oxidation of charged combustible aerosol particles underlie two main classes of natural ball lightning. At the same time, the artificially generated clouds consisting of such unipolar charged aerosol nanobatteries, probably, can have some useful applications, not only military ones. In particular, it seems that high-performance pyroelectric fusion reactors could be created on the basis of such ball-shaped aerosol clouds self-assembled of pyroelectric nanocrystals - short-circuited pyroelectric nanobatteries.</summary>
+    <category term="physics.gen-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-04-11T09:54:44Z</published>
+    <arxiv:comment>9 pages, 11 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.gen-ph"/>
+    <author>
+      <name>Oleg Meshcheryakov</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,69 @@
+TERMS: lattice, boson
+COLORS: orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/VH8LB+3mvUAVFh2bpthzwMKxUFo</id>
+  <title>arXiv Query: search_query=all:lattice AND all:boson&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T00:57:41Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+all:boson&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>5657</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1205.4706v1</id>
+    <title>Exploring Models for New Physics on the Lattice</title>
+    <updated>2012-05-21T19:39:16Z</updated>
+    <link href="https://arxiv.org/abs/1205.4706v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1205.4706v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Strongly-coupled gauge theories are an important ingredient in the construction of many extensions of the standard model, particularly for models of electroweak symmetry breaking in which the Higgs boson is a composite object. There is a large parameter space of such gauge theories with a rich phase structure, particularly in the presence of large numbers of fermionic degrees of freedom. Lattice simulation provides a non-perturbative way to explore this space of strongly-coupled theories, and to search for interesting dynamical features. Here I review recent progress in the simulation of such theories, with an eye towards applications to dynamical electroweak symmetry breaking.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-05-21T19:39:16Z</published>
+    <arxiv:comment>22 pages, 3 figures. Proceedings of the XXIX International Symposium on Lattice Field Theory (Lattice 2011)</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>PoS (Lattice 2011) 009</arxiv:journal_ref>
+    <author>
+      <name>Ethan T. Neil</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1211.6495v1</id>
+    <title>Chiral symmetry breaking in lattice brane QED model</title>
+    <updated>2012-11-28T01:27:40Z</updated>
+    <link href="https://arxiv.org/abs/1211.6495v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1211.6495v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a novel lattice calculation of spontaneous chiral symmetry breaking in QED model with 2+1 dimensional fermion brane. Considering the relativistic action with gauge symmetry we rigorously carry out path integral in Monte-Carlo simulation with Fermi-velocity relevant to effective coupling constant. We numerically show the evidence of spontaneous chiral symmetry breaking in strong coupling region with chiral condensate, low-lying mode distribution and Nambu-Goldstone boson spectrum in bare Fermi-velocty $v=0.1$. This is a feasible study to investigate the phase structure of Graphene.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-11-28T01:27:40Z</published>
+    <arxiv:comment>7 pages, 4 figures, Proceedings of the 30th International Symposium on Lattice Field Theory, June 24--29, 2012, Cairns, Australia</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>PoS(Lattice 2012)062</arxiv:journal_ref>
+    <author>
+      <name>Eigo Shintani</name>
+    </author>
+    <author>
+      <name>Tetsuya Onogi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1804.01605v2</id>
+    <title>Boson-Lattice Construction for Anyon Models</title>
+    <updated>2019-01-14T10:50:56Z</updated>
+    <link href="https://arxiv.org/abs/1804.01605v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1804.01605v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This work is an attempt to unveil the skeleton of anyon models. I present a construction to systematically generate anyon models. The construction uses a set of elementary pieces or fundamental anyon models, which constitute the building blocks to construct other, more complex, anyon models. A principle of assembly is established that dictates how to articulate the building blocks, setting out the global blueprint for the whole structure. Remarkably, the construction generates essentially all tabulated anyon models. Moreover, novel anyon models (non-tabulated, to my knowledge) arise. To embody the construction I develop a very physical, visual and intuitive lexicon. An anyon model corresponds to a system of bosons in a lattice. By varying the number of bosons and the number of lattice sites, towers of more and more complex anyon models are built up. It is a Boson-Lattice construction. A self-similar anatomy is revealed: an anyon model is a graph that is filled with bosons to engender a new graph that is again filled with bosons. And further, bosons curve the graph that the anyon model is: I disclose a geography in the space of anyon models, where one is born from another by deforming the geometry of space. I advance an alluring duality between anyon models and gravity.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-03-21T19:38:54Z</published>
+    <arxiv:comment>This manuscript is best viewed in two-page setting. Readers who would like a rapid approach to the Boson-Lattice theory, are directed to my short manuscript http://www.theorie.physik.uni-muenchen.de/agparedes/publications/bl-construction-corto.pdf, which condenses the essential ideas and results of the Boson-Lattice formalism, including further generalizations of the theory</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Phys. Rev. B 99, 205154 (2019)</arxiv:journal_ref>
+    <author>
+      <name>Belén Paredes</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.99.205154</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.99.205154" title="doi"/>
+  </entry>
+</feed>

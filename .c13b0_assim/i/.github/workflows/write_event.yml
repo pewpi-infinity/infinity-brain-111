@@ -1,0 +1,27 @@
+name: Infinity Writer
+
+on:
+  repository_dispatch:
+    types: [octave_write]
+
+jobs:
+  write:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Append message
+        run: |
+          mkdir -p octave_logs
+          echo "${{ github.event.client_payload.text }}" >> octave_logs/session.log
+          echo "-----" >> octave_logs/session.log
+
+      - name: Commit
+        run: |
+          git config user.name "Infinity Writer"
+          git config user.email "infinity.writer@local"
+          git add octave_logs/session.log
+          git commit -m "Octave write event"
+          git push
+          

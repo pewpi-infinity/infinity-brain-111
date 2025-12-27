@@ -1,0 +1,141 @@
+TERMS: frequency, muon, vacuum
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/cBXLVxyWVQZI+Dfdpx0UKblFgyU</id>
+  <title>arXiv Query: search_query=all:frequency AND all:muon AND all:vacuum&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:12:46Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:muon+AND+all:vacuum)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>15</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2003.06244v2</id>
+    <title>Design and performance of an in-vacuum, magnetic field mapping system for the Muon g-2 experiment</title>
+    <updated>2021-02-10T13:41:59Z</updated>
+    <link href="https://arxiv.org/abs/2003.06244v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2003.06244v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The E989 Muon $g-2$ experiment at Fermilab aims to measure the anomalous magnetic moment, $a^{}_μ$, of the muon with a precision of 140 parts-per-billion. This requires a precise measurement of both the anomalous spin precession frequency, $ω^{}_a$, and the average magnetic field in terms of the shielded proton Larmor frequency, $ω'^{}_p$. The measurement of $ω'^{}_p$ with a total systematic uncertainty of 70 parts-per-billion involves a combination of various NMR probes. There are 378 probes in fixed locations constantly monitoring field drifts. A water-based probe provides the calibration. A crucial element for the multi-step measurement of $ω'^{}_p$ is the regular mapping of the magnetic field over the muon storage region. The former E821 experiment at Brookhaven employed an in-vacuum field mapping system equipped with 17 NMR probes, which was developed by the University of Heidelberg. We have refurbished and upgraded this system with new probes and electronics. The upgrades include a new communication scheme incorporating time-division multiplexing to separate the important NMR reference clock from the data communication. The addition digitization of the NMR signals replaced the hardware-implemented zero-crossing counting of the E821 system. The digitized signals offer new capabilities in the NMR frequency analysis and its related systematic uncertainties. While the mechanical systems that move the field mapper around the ring have been mostly refurbished, the motion control system was completely replaced with a custom-built electronics centered around a commercial Galil motion controller. Both the field mapping NMR system and its motion control were successfully commissioned at Fermilab and have been in reliable operation during the first data taking periods. This article provides details of the upgrades of the field mapper and its performance.</summary>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-03-13T12:50:21Z</published>
+    <arxiv:primary_category term="physics.ins-det"/>
+    <arxiv:journal_ref>JINST 15 P11008 (2020)</arxiv:journal_ref>
+    <author>
+      <name>S. Corrodi</name>
+    </author>
+    <author>
+      <name>P. De Lurgio</name>
+    </author>
+    <author>
+      <name>D. Flay</name>
+    </author>
+    <author>
+      <name>J. Grange</name>
+    </author>
+    <author>
+      <name>R. Hong</name>
+    </author>
+    <author>
+      <name>D. Kawall</name>
+    </author>
+    <author>
+      <name>M. Oberling</name>
+    </author>
+    <author>
+      <name>S. Ramachandran</name>
+    </author>
+    <author>
+      <name>P. Winter</name>
+    </author>
+    <arxiv:doi>10.1088/1748-0221/15/11/P11008</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1748-0221/15/11/P11008" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1909.13742v2</id>
+    <title>Magnetic Field Measurement and Analysis for the Muon g-2 Experiment</title>
+    <updated>2020-01-09T00:36:13Z</updated>
+    <link href="https://arxiv.org/abs/1909.13742v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1909.13742v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Muon g-2 Experiment (E989) at Fermilab measures the muon magnetic anomaly, aiming to resolve the greater than 3$σ$ discrepancy between the previous measurement and the Standard Model calculation with an improved precision of 140 part-per-billion (ppb). In E989, the muon beam is stored in a ring magnet. The spin precession frequency $ω_{a}$ is measured by counting the decay positrons in 24 calorimeters, and the magnetic field is measured by nuclear magnet resonance (NMR) probes. An in-vacuum field scanning system consisting of NMR probes and read-out electronics has been implemented to measure the magnetic field applied to the muon beam. An additional 378 NMR probes, placed at fixed locations outside the vacuum chamber, monitor the field drift in between field scans. A high-accuracy probe was designed for calibrating the probes in the scanner. In this presentation, the magnetic field measurement hardware system and analysis methods will be described in detail. The progress of the Run-1 data analysis and improvements in Run-2 will be presented as well.</summary>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-09-30T16:07:16Z</published>
+    <arxiv:comment>Talk presented at the 2019 Meeting of the Division of Particles and Fields of the American Physical Society (DPF2019), July 29-August 2, 2019, Northeastern University, Boston, C1907293. arXiv admin note: text overlap with arXiv:1810.03729</arxiv:comment>
+    <arxiv:primary_category term="physics.ins-det"/>
+    <author>
+      <name>Ran Hong</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1902.02959v5</id>
+    <title>Reduction of coherent betatron oscillations in a muon g-2 storage ring experiment using RF fields</title>
+    <updated>2020-02-26T05:13:15Z</updated>
+    <link href="https://arxiv.org/abs/1902.02959v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1902.02959v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This work demonstrates that two systematic errors, coherent betatron oscillations (CBO) and muon losses can be reduced through application of radio frequency (RF) electric fields, which ultimately increases the sensitivity of the muon $g-2$ experiments. As the ensemble of polarized muons goes around a weak focusing storage ring, their spin precesses, and when they decay through the weak interaction, $μ^+ \rightarrow e^+ ν_e \bar{ν_μ}$, the decay positrons are detected by electromagnetic calorimeters. In addition to the expected exponential decay in the positron time spectrum, the weak decay asymmetry causes a modulation in the number of positrons in a selected energy range at the difference frequency between the spin and cyclotron frequencies, $ω_\text{a}$. This frequency is directly proportional to the magnetic anomaly $a_μ=(g-2)/2$, where $g$ is the g-factor of the muon, which is slightly greater than 2. The detector acceptance depends on the radial position of the muon decay, so the CBO of the muon bunch following injection into the storage ring modulate the measured muon signal with the frequency $ω_\text{CBO}$. In addition, the muon populations at the edge of the beam hit the walls of the vacuum chamber before decaying, which also affects the signal. Thus, reduction of CBO and unwanted muon loss increases the $a_μ$ measurement sensitivity. Numerical and experimental studies with RF electric fields yield more than a magnitude reduction of the CBO, with muon losses comparable to the conventional method.</summary>
+    <category term="physics.acc-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-02-08T07:17:33Z</published>
+    <arxiv:comment>14 pages, 25 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.acc-ph"/>
+    <arxiv:journal_ref>New J. Phys. 22 063002 (2020)</arxiv:journal_ref>
+    <author>
+      <name>On Kim</name>
+    </author>
+    <author>
+      <name>SeungPyo Chang</name>
+    </author>
+    <author>
+      <name>Jihoon Choi</name>
+    </author>
+    <author>
+      <name>Selcuk Haciomeroglu</name>
+    </author>
+    <author>
+      <name>Young-Im Kim</name>
+    </author>
+    <author>
+      <name>Yuri F. Orlov</name>
+    </author>
+    <author>
+      <name>Yannis K. Semertzidis</name>
+    </author>
+    <author>
+      <name>Meghna Bhattacharya</name>
+    </author>
+    <author>
+      <name>Jason D. Crnkovic</name>
+    </author>
+    <author>
+      <name>Sudeshna Ganguly</name>
+    </author>
+    <author>
+      <name>Manolis Kargiantoulakis</name>
+    </author>
+    <author>
+      <name>Soohyung Lee</name>
+    </author>
+    <author>
+      <name>William M. Morse</name>
+    </author>
+    <author>
+      <name>Hogan Nguyen</name>
+    </author>
+    <author>
+      <name>B. Lee Roberts</name>
+    </author>
+    <author>
+      <name>Vladimir Tishchenko</name>
+    </author>
+    <author>
+      <name>Nam H. Tran</name>
+    </author>
+    <author>
+      <name>Esra Barlas Yucel</name>
+    </author>
+    <arxiv:doi>10.1088/1367-2630/ab83d0</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1367-2630/ab83d0" title="doi"/>
+  </entry>
+</feed>

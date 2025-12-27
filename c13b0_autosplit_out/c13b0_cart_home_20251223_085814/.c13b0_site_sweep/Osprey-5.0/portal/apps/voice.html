@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Voice Recorder</title>
+<style>
+body{font-family:system-ui;background:#000;color:#0ff;display:flex;flex-direction:column;align-items:center;justify-content:center;height:100vh;text-align:center}
+button{background:#09f;border:none;color:#fff;border-radius:10px;padding:12px 24px;margin:10px;font-size:1.1em}
+audio{margin-top:20px;width:90%;max-width:400px}
+</style>
+</head>
+<body>
+<h2>🎙️ Voice Recorder</h2>
+<button id="recordBtn">Start Recording</button>
+<p id="status"></p>
+<audio id="playback" controls></audio>
+<br>
+<button onclick="window.location.href='../index.html'">⬅ Back to App Builder</button>
+
+<script>
+let rec, chunks=[], recording=false;
+const btn=document.getElementById("recordBtn");
+btn.onclick=async()=>{
+ try{
+  if(!recording){
+   const stream=await navigator.mediaDevices.getUserMedia({audio:true});
+   rec=new MediaRecorder(stream);
+   rec.ondataavailable=e=>chunks.push(e.data);
+   rec.onstop=()=>{
+    const blob=new Blob(chunks,{type:"audio/webm"});
+    const url=URL.createObjectURL(blob);
+    playback.src=url; playback.play();
+   };
+   rec.start(); recording=true;
+   btn.textContent="Stop Recording"; status.textContent="Recording...";
+  }else{
+   rec.stop(); recording=false;
+   btn.textContent="Start Recording"; status.textContent="Done!";
+  }
+ }catch(e){status.textContent="Mic access error";}
+};
+</script>
+</body>
+</html>

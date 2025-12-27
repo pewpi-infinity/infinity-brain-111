@@ -1,0 +1,183 @@
+TERMS: lattice, neutrino, probability
+COLORS: orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ckS+3hLSRgXuQ4sKLAoBID+lQeE</id>
+  <title>arXiv Query: search_query=all:lattice AND all:neutrino AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:16:23Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:neutrino+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>6</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1604.04233v3</id>
+    <title>Neutrino oscillations in discrete-time quantum walk framework</title>
+    <updated>2017-02-16T14:34:08Z</updated>
+    <link href="https://arxiv.org/abs/1604.04233v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1604.04233v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Here we present neutrino oscillation in the frame-work of quantum walks. Starting from a one spatial dimensional discrete-time quantum walk we present a scheme of evolutions that will simulate neutrino oscillation. The set of quantum walk parameters which is required to reproduce the oscillation probability profile obtained in both, long range and short range neutrino experiment is explicitly presented. Our scheme to simulate three-generation neutrino oscillation from quantum walk evolution operators can be physically realized in any low energy experimental set-up with access to control a single six-level system, a multiparticle three-qubit or a qubit-qutrit system. We also present the entanglement between spins and position space, during neutrino propagation that will quantify the wave function delocalization around instantaneous average position of the neutrino. This work will contribute towards understanding neutrino oscillation in the framework of the quantum information perspective.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-04-14T17:40:33Z</published>
+    <arxiv:comment>11 pages (2 columns), 5 figures; Published version</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Eur. Phys. J. C 77 (2017) no. 2, 85</arxiv:journal_ref>
+    <author>
+      <name>Arindam Mallick</name>
+    </author>
+    <author>
+      <name>Sanjoy Mandal</name>
+    </author>
+    <author>
+      <name>C. M. Chandrashekar</name>
+    </author>
+    <arxiv:doi>10.1140/epjc/s10052-017-4636-9</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1140/epjc/s10052-017-4636-9" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1901.04014v1</id>
+    <title>Quantum Simulation of Neutrino Oscillation and Dirac Particle Dynamics in Curved Space-time</title>
+    <updated>2019-01-13T16:37:00Z</updated>
+    <link href="https://arxiv.org/abs/1901.04014v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1901.04014v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Quantum simulation is an important way to study the Dirac particles in a general situation. Discrete quantum walk (DQW), is a powerful quantum simulation scheme, and implementable in well controllable table-top set-ups. We first identify that the conventional DQW can't exactly simulate Dirac Cellular Automaton (DCA), a discretized theory of free Dirac Hamiltonian (DH). We found some choice of coin parameters of the split-step (SS) DQW, a generalization of DQW can fully simulate single-particle DCA. Next we question whether the same SS-DQW can simulate dynamics of free Dirac particle with extra degrees of freedom like colors, flavors besides the spin or chirality. One such example is Neutrino oscillation. By moving from the U(2) coined SS-DQW to the U(6) coined SS-DQW we have simulated the exact probability profile of Neutrino flavor transitions. We further probe towards simulating single particle massive DH in presence of background potentials and space-time curvature. By using a SS-DQW with position-time dependent coin parameters, and we realize that it will give us an unbounded effective Hamiltonian, at the continuum limit of position-time. So we have introduced a modified version of SS-DQW which will produce a bounded effective Hamiltonian. This modified SS-DQW with U(2) coin operations produces single-particle massive DH in presence of abelian gauge potentials and space-time curvature. Introducing higher dimensional---U(N) coin operations in the modified SS-DQW we can include non-abelian potentials in the same DH. In order to simulate two-particle DH in presence of curved space-time and external potentials, we have used two particle modified SS-DQW, where the shift operations act separately on each particle, the coin operations which act simultaneously on both particles contain all kinds of interactions.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-01-13T16:37:00Z</published>
+    <arxiv:comment>184 pages, 28 figures, PhD Thesis submitted at The Institute of Mathematical Sciences in the year 2018. This thesis comprises the works presented in arXiv:1509.08851, arXiv:1604.04233 and arXiv:1712.03911</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Arindam Mallick</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0807.2308v1</id>
+    <title>Comment on the paper "Search for oscillation of the electron-capture decay probability of $^{142}$Pm" at arXiv:0807.0649v1</title>
+    <updated>2008-07-15T18:29:20Z</updated>
+    <link href="https://arxiv.org/abs/0807.2308v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0807.2308v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  It is argued that orbital electron-capture decays of neutral $^{142}$Pm atoms implanted into the lattice of a solid (LBNL experiment) do not fulfil the constraints of true two-body beta decays, since momentum as well as energy of the final state are distributed among three objects, namely the electron neutrino, the recoiling daughter atom and the lattice phonons. To our understanding, this could be a reason for the non-observation of a periodic time modulation in the number of electron-capture decays of implanted neutral $^{142}$Pm atoms.</summary>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-07-15T18:29:20Z</published>
+    <arxiv:comment>2 p. comment on arXiv:0807.0649v1</arxiv:comment>
+    <arxiv:primary_category term="nucl-ex"/>
+    <author>
+      <name>Yu. A. Litvinov</name>
+    </author>
+    <author>
+      <name>F. Bosch</name>
+    </author>
+    <author>
+      <name>N. Winckler</name>
+    </author>
+    <author>
+      <name>D. Boutin</name>
+    </author>
+    <author>
+      <name>H. G. Essel</name>
+    </author>
+    <author>
+      <name>T. Faestermann</name>
+    </author>
+    <author>
+      <name>H. Geissel</name>
+    </author>
+    <author>
+      <name>S. Hess</name>
+    </author>
+    <author>
+      <name>P. Kienle</name>
+    </author>
+    <author>
+      <name>R. Knöbel</name>
+    </author>
+    <author>
+      <name>C. Kozhuharov</name>
+    </author>
+    <author>
+      <name>J. Kurcewicz</name>
+    </author>
+    <author>
+      <name>L. Maier</name>
+    </author>
+    <author>
+      <name>K. Beckert</name>
+    </author>
+    <author>
+      <name>C. Brandau</name>
+    </author>
+    <author>
+      <name>L. Chen</name>
+    </author>
+    <author>
+      <name>C. Dimopoulou</name>
+    </author>
+    <author>
+      <name>B. Fabian</name>
+    </author>
+    <author>
+      <name>A. Fragner</name>
+    </author>
+    <author>
+      <name>E. Haettner</name>
+    </author>
+    <author>
+      <name>M. Hausmann</name>
+    </author>
+    <author>
+      <name>S. A. Litvinov</name>
+    </author>
+    <author>
+      <name>M. Mazzocco</name>
+    </author>
+    <author>
+      <name>F. Montes</name>
+    </author>
+    <author>
+      <name>A. Musumarra</name>
+    </author>
+    <author>
+      <name>C. Nociforo</name>
+    </author>
+    <author>
+      <name>F. Nolden</name>
+    </author>
+    <author>
+      <name>W. R. Plass</name>
+    </author>
+    <author>
+      <name>A. Prochazka</name>
+    </author>
+    <author>
+      <name>R. Reda</name>
+    </author>
+    <author>
+      <name>R. Reuschl</name>
+    </author>
+    <author>
+      <name>C. Scheidenberger</name>
+    </author>
+    <author>
+      <name>M. Steck</name>
+    </author>
+    <author>
+      <name>T. Stöhlker</name>
+    </author>
+    <author>
+      <name>S. Torilov</name>
+    </author>
+    <author>
+      <name>M. Trassinelli</name>
+    </author>
+    <author>
+      <name>B. Sun</name>
+    </author>
+    <author>
+      <name>H. Weick</name>
+    </author>
+    <author>
+      <name>M. Winkler</name>
+    </author>
+  </entry>
+</feed>

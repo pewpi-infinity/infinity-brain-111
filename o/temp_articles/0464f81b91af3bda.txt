@@ -1,0 +1,67 @@
+TERMS: entropy, muon, probability
+COLORS: red, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/phuUEjHKVMo6s7YLUVOGAPouhFk</id>
+  <title>arXiv Query: search_query=all:entropy AND all:muon AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:19:15Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+(all:muon+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1602.04075v1</id>
+    <title>From 3D static order to 2D dynamic correlations in the tetragonal double perovskite Sr2CuWO6</title>
+    <updated>2016-02-12T15:08:11Z</updated>
+    <link href="https://arxiv.org/abs/1602.04075v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1602.04075v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>\SCWO is a tetragonal ($I4/m$) double perovskite with diamagnetic W$^{6+}$ (5d$^0$) and (Jahn-Teller-active) Cu$^{2+}$ (3$d^9$) in a rocksalt-ordered arrangement on the B sites, modelling an anisotropic fcc-lattice antiferromagnet with $S=1/2$. We have studied the magnetic structure, dynamics and thermodynamic properties of this material above and below the \Neel{}-ordering transition at $T_{\textrm{N}} = 24$~K. Muon spin relaxation spectroscopy, neutron diffraction and neutron spectroscopy experiments show that the transition at $T_{\textrm{N}}$ on heating is from static 3D type-2 antiferromagnetism to 2D dynamic correlations that remain detectable up to 100~K. Above $T_{\textrm{N}}$ the muon relaxation is described by a compressed exponential decay, revealing a strong correlation between the spin fluctuation rate and the 2D correlation length. The low-temperature muon data and the entropy release around $T_{\textrm{N}}$ as obtained from the heat capacity data point to small magnetic domains, probably of the order of 60~Å. We note that the material behaves more like a quasi-2D square lattice antiferromagnet than could be expected considering its structure only. A possible explanation might lie in the unusual strong spin-orbit-coupled magnetism of the W 5$d$ levels, as the dominant exchange interaction is via the Cu-O-W-O-Cu pathway.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-02-12T15:08:11Z</published>
+    <arxiv:comment>Just over 9 pages, 12 figures. Submitted</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <author>
+      <name>Oliver J. Burrows</name>
+    </author>
+    <author>
+      <name>Gøran J. Nilsen</name>
+    </author>
+    <author>
+      <name>Emmanuelle Suard</name>
+    </author>
+    <author>
+      <name>Mark Telling</name>
+    </author>
+    <author>
+      <name>J. Ross Stewart</name>
+    </author>
+    <author>
+      <name>Mark A. de Vries</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1901.06492v1</id>
+    <title>Type-I superconductivity in noncentrosymmetric superconductor AuBe</title>
+    <updated>2019-01-19T09:49:59Z</updated>
+    <link href="https://arxiv.org/abs/1901.06492v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1901.06492v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The noncentrosymmetric superconductor AuBe have been investigated using the magnetization, resistivity, specific heat, and muon-spin relaxation/rotation measurements. AuBe crystallizes in the cubic FeSi-type B20 structure with superconducting transition temperature observed at $T_{c}$ = 3.2 $\pm$ 0.1 K. The low-temperature specific heat data, $C_{el}$(T), indicate a weakly-coupled fully gapped BCS superconductivity with an isotropic energy gap 2$Δ(0)/k_{B}T_{c}$ = 3.76, which is close to the BCS value of 3.52. Interestingly, type-I superconductivity is inferred from the $μ$SR measurements, which is in contrast with the earlier reports of type-II superconductivity in AuBe. The Ginzburg-Landau parameter is $κ_{GL}$ = 0.4 $&lt;$ 1/$\sqrt{2}$. The transverse-field $μ$SR data transformed in the maximum entropy spectra depicting the internal magnetic field probability distribution, P(H), also confirms the absence of the mixed state in AuBe. The thermodynamic critical field, $H_{c}$, calculated to be around 259 Oe. The zero-field $μ$SR results indicate that time-reversal symmetry is preserved and supports a spin-singlet pairing in the superconducting ground state.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-01-19T09:49:59Z</published>
+    <arxiv:comment>9 pages, 9 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <arxiv:journal_ref>Phys. Rev. B 99, 134509 (2019)</arxiv:journal_ref>
+    <author>
+      <name>D. Singh</name>
+    </author>
+    <author>
+      <name>A. D. Hillier</name>
+    </author>
+    <author>
+      <name>R. P. Singh</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.99.134509</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.99.134509" title="doi"/>
+  </entry>
+</feed>

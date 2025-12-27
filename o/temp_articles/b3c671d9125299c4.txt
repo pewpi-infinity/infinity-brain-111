@@ -1,0 +1,86 @@
+TERMS: lattice, crystal, boson
+COLORS: orange, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/n1FjIJsbFNAaMvBfLtlGZkkrTOU</id>
+  <title>arXiv Query: search_query=all:lattice AND all:crystal AND all:boson&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:14:30Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:lattice+AND+(all:crystal+AND+all:boson)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>191</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2005.09103v2</id>
+    <title>Quantum crystals, Kagome lattice and plane partitions fermion-boson duality</title>
+    <updated>2021-01-27T08:30:04Z</updated>
+    <link href="https://arxiv.org/abs/2005.09103v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2005.09103v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this work, we study quantum crystal melting in three space dimensions. Using an equivalent description in terms of dimers in a hexagonal lattice, we recast the crystal melting Hamiltonian as an occupancy problem in a Kagome lattice. The Hilbert space is spanned by states labeled by plane partitions and writing them as a product of interlaced integer partitions, we define a fermion-boson duality for plane partitions. Finally, based upon the latter result we conjecture that the growth operators for the quantum Hamiltonian can be represented in terms of the affine Yangian ${\cal Y}[\widehat{\mathfrak{gl}}(1)]$.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-05-18T21:33:23Z</published>
+    <arxiv:comment>13 pages, 13 figures; v2: published version</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Phys. Rev. D 103, 026020 (2021)</arxiv:journal_ref>
+    <author>
+      <name>Thiago Araujo</name>
+    </author>
+    <author>
+      <name>Domenico Orlando</name>
+    </author>
+    <author>
+      <name>Susanne Reffert</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.103.026020</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.103.026020" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1708.07409v4</id>
+    <title>Order parameter and detection for crystallized dipolar bosons in lattices</title>
+    <updated>2018-06-15T07:53:29Z</updated>
+    <link href="https://arxiv.org/abs/1708.07409v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1708.07409v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We explore the ground-state properties of bosons with dipole-dipole interactions in a one-dimensional optical lattice. Remarkably, a crystallization process happens for strong dipolar interactions. Herein, we provide a detailed characterization and a way to measure the resulting crystal phase. Using the eigenvalues of the reduced one-body density matrix we define an order parameter that yields a phase diagram in agreement with an analysis of the density and two-body density. We demonstrate that the phase diagram can be detected experimentally using the variance of single-shot measurements.</summary>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-08-24T13:42:29Z</published>
+    <arxiv:comment>6 pages, 3 figures. Supplementary Information included. Software available at http://ultracold.org/</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.quant-gas"/>
+    <arxiv:journal_ref>Phys. Rev. A 98, 053624 (2018)</arxiv:journal_ref>
+    <author>
+      <name>Budhaditya Chatterjee</name>
+    </author>
+    <author>
+      <name>Axel U. J. Lode</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.98.053624</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.98.053624" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1607.07381v2</id>
+    <title>Staircase of crystal phases of hard-core bosons on the Kagome lattice</title>
+    <updated>2016-10-14T08:57:49Z</updated>
+    <link href="https://arxiv.org/abs/1607.07381v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1607.07381v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the quantum phase diagram of a system of hard-core bosons on the Kagome lattice with nearest-neighbor repulsive interactions, for arbitrary densities, by means of the hierarchical mean field theory and exact diagonalization techniques. This system is isomorphic to the spin S=1/2 XXZ model in presence of an external magnetic field, a paradigmatic example of frustrated quantum magnetism. In the non-frustrated regime, we find two crystal phases at densities 1/3 and 2/3 that melt into a superfluid phase when increasing the hopping amplitude, in semi-quantitative agreement with quantum Monte Carlo computations. In the frustrated regime and away from half-filling, we find a series of plateaux with densities commensurate with powers of 1/3. The broader density plateaux (at densities 1/3 and 2/3) are remnants of the classical degeneracy in the Ising limit. For densities near half-filling, this staircase of crystal phases melts into a superfluid, which displays finite chiral currents when computed with clusters having an odd number of sites. Both the staircase of crystal phases and the superfluid phase prevail in the non-interacting limit, suggesting that the lowest dispersionless single-particle band may be at the root of this phenomenon.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-07-25T17:47:59Z</published>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Phys. Rev. B 94, 165124 (2016)</arxiv:journal_ref>
+    <author>
+      <name>Daniel Huerga</name>
+    </author>
+    <author>
+      <name>Sylvain Capponi</name>
+    </author>
+    <author>
+      <name>Jorge Dukelsky</name>
+    </author>
+    <author>
+      <name>Gerardo Ortiz</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.94.165124</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.94.165124" title="doi"/>
+  </entry>
+</feed>

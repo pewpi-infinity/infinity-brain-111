@@ -1,0 +1,65 @@
+TERMS: vapor, spin, singularity
+COLORS: green, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/2YFHJE8XRM1YbHZtBj7EDJi+2dI</id>
+  <title>arXiv Query: search_query=all:vapor AND all:spin AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:25:56Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:vapor+AND+(all:spin+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1406.5415v2</id>
+    <title>Vaporization of Kitaev spin liquids</title>
+    <updated>2014-10-11T09:20:42Z</updated>
+    <link href="https://arxiv.org/abs/1406.5415v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1406.5415v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Quantum spin liquid is an exotic quantum state of matter in magnets. This state is a spin analogue of the liquid helium which does not solidify down to the lowest temperature due to strong quantum fluctuations. In conventional fluids, liquid and gas possess the same symmetry and adiabatically connect to each other by bypassing the critical end point. We find that the situation is qualitatively different in quantum spin liquids realizing in a three-dimensional Kitaev model; both gapless and gapped quantum spin liquid phases at low temperatures are always distinguished from the high-temperature paramagnet (spin gas) by a phase transition. The results challenge common belief that the absence of thermodynamic singularity down to the lowest temperature is a symptom of a quantum spin liquid.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-06-20T15:05:07Z</published>
+    <arxiv:comment>11 pages, 9 figures, accepted for publication in Phys. Rev. Lett</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <author>
+      <name>Joji Nasu</name>
+    </author>
+    <author>
+      <name>Masafumi Udagawa</name>
+    </author>
+    <author>
+      <name>Yukitoshi Motome</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.113.197205</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.113.197205" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1911.00935v1</id>
+    <title>Coexistence of Van Hove Singularities and Pseudomagnetic Fields in Modulated Graphene Bilayer</title>
+    <updated>2019-11-03T17:33:51Z</updated>
+    <link href="https://arxiv.org/abs/1911.00935v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1911.00935v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The stacking and bending of graphene are trivial but extremely powerful agents of control over graphene's manifold physics. By changing the twist angle, one can drive the system over a plethora of exotic states via strong electron correlation, thanks to the moiré superlattice potentials, while the periodic or triaxial strains induce discretization of the band structure into Landau levels without the need for an external magnetic field. We fabricated a hybrid system comprising both the stacking and bending tuning knobs. We have grown the graphene monolayers by chemical vapor deposition, using $^{12}$C and $^{13}$C precursors, which enabled us to individually address the layers through Raman spectroscopy mapping. We achieved the long-range spatial modulation by sculpturing the top layer ($^{13}$C) over uniform magnetic nanoparticles (NPs) deposited on the bottom layer ($^{12}$C). An atomic force microscopy study revealed that the top layer tends to relax into pyramidal corrugations with C$_3$ axial symmetry at the position of the NPs, which have been widely reported as a source of large pseudomagnetic fields (PMFs) in graphene monolayers. The modulated graphene bilayer (MGBL) also contains a few micrometer large domains, with the twist angle ~ 10$^{\circ}$, which were identified via extreme enhancement of the Raman intensity of the G-mode due to formation of Van Hove singularities (VHSs). We thereby conclude that the twist induced VHSs coexist with the PMFs generated in the strained pyramidal objects without mutual disturbance. The graphene bilayer modulated with magnetic NPs is a non-trivial hybrid system that accommodates features of twist induced VHSs and PMFs in environs of giant classical spins.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-11-03T17:33:51Z</published>
+    <arxiv:comment>6 figures, 13 pages</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>Jana Vejpravova</name>
+    </author>
+    <author>
+      <name>Barbara Pacakova</name>
+    </author>
+    <author>
+      <name>Mildred S. Dresselhaus</name>
+    </author>
+    <author>
+      <name>Jing Kong</name>
+    </author>
+    <author>
+      <name>Martin Kalbac</name>
+    </author>
+    <arxiv:doi>10.1088/1361-6528/ab6687</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1361-6528/ab6687" title="doi"/>
+  </entry>
+</feed>

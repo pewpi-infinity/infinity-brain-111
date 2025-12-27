@@ -1,0 +1,57 @@
+TERMS: fusion, graphene, plasma
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/0IPMQcjlaoTJGAaXQ0YSVzIPfR4</id>
+  <title>arXiv Query: search_query=all:fusion AND all:graphene AND all:plasma&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:21:40Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:fusion+AND+(all:graphene+AND+all:plasma)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/0705.3130v1</id>
+    <title>Molecular dynamics simulation of hydrogen isotope injection into graphene</title>
+    <updated>2007-05-22T10:48:41Z</updated>
+    <link href="https://arxiv.org/abs/0705.3130v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0705.3130v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We reveal the hydrogen isotope effect of three chemical reactions, i.e, the reflection, the absorption and the penetration ratios, by classical molecular dynamics simulation with a modified Brenner's reactive empirical bond order (REBO) potential potential. We find that the reflection by pi-electron does not depend on the mass of the incident isotope, but the peak of the reflection by nuclear moves to higher side of incident energy. In addition to the reflection, we also find that the absorption ratio in the positive z side of the graphene becomes larger, as the mass of the incident isotope becomes larger. On the other hand, the absorption ratio in the negative z side of the graphene becomes smaller. Last, it is found that the penetration ratio does not depend on the mass of the incident isotope because the graphene potential is not affected by the mass.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-05-22T10:48:41Z</published>
+    <arxiv:comment>11th International Workshop on Plasma Edge Theory in Fusion Devices, (11th PET, 23-25 May 2007, Takayama, Japan)</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Nakamura Hiroaki</name>
+    </author>
+    <author>
+      <name>Arimichi Takayama</name>
+    </author>
+    <author>
+      <name>Astushi Ito</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1201.4014v2</id>
+    <title>Permeation of Low-Z Atoms through Carbon Sheets: Density Functional Theory Study on Energy Barriers and Deformation Effects</title>
+    <updated>2012-09-29T13:10:11Z</updated>
+    <link href="https://arxiv.org/abs/1201.4014v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1201.4014v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Energetic and geometric aspects of the permeation of low-Z atoms through graphene sheets are investigated. Energy barriers and deformations are calculated via density functional theory for the permeation of H, He, Li and Be atoms at several surface sites and at a hollow site for atoms B, C, O and Ne atoms. Graphene is modeled by large planar polycyclic aromatic hydrocarbons and the convergence of both energy barriers and deformation curves with increasing size of these hydrocarbons is investigated. Effective energy curves are summarized for the atoms under consideration in three different interaction regimes realized different geometrical constraints. In addition to the bare graphene model, the interaction between low-Z atoms and 100% hydrogenated coronene as a model for graphane is also investigated. The adiabatic barriers range from about 5 eV (1 eV = 1.602 x 10-19 J) for H to about 20 eV for Ne. Facilitation of the permeation by temporary chemical bonding is observed for O and C and for B and Be when interacting with hydrogenated coronene. The results are in good agreement with existing experimental and theoretical work and reflect the essential physics of the dynamics of H bombardment of graphite (0001) surfaces. Implications for modeling chemical sputtering of graphite in a mixed-material scenario as it will be the case in the next step fusion experiment ITER and potential building are discussed.</summary>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-01-19T10:39:12Z</published>
+    <arxiv:comment>21 pages, 14 figures, 3 tables</arxiv:comment>
+    <arxiv:primary_category term="physics.chem-ph"/>
+    <author>
+      <name>Stefan E. Huber</name>
+    </author>
+    <author>
+      <name>Andreas Mauracher</name>
+    </author>
+    <author>
+      <name>Michael Probst</name>
+    </author>
+  </entry>
+</feed>

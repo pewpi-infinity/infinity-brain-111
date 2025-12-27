@@ -1,0 +1,90 @@
+TERMS: hydrogen, quantum, ionization, wavefunction
+COLORS: purple, blue, green, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/adiCbxfN3kI7kf7JG8Sa3bmGJUc</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:ionization AND all:wavefunction&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:39:51Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:ionization+AND+all:wavefunction))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>8</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2107.01094v2</id>
+    <title>Conditional wavefunction theory: a unified treatment of molecular structure and nonadiabatic dynamics</title>
+    <updated>2021-07-21T09:46:45Z</updated>
+    <link href="https://arxiv.org/abs/2107.01094v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2107.01094v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We demonstrate that a conditional wavefunction theory enables a unified and efficient treatment of the equilibrium structure and nonadiabatic dynamics of correlated electron-ion systems. The conditional decomposition of the many-body wavefunction formally recasts the full interacting wavefunction of a closed system as a set of lower dimensional (conditional) coupled `slices'. We formulate a variational wavefunction ansatz based on a set of conditional wavefunction slices, and demonstrate its accuracy by determining the structural and time-dependent response properties of the hydrogen molecule. We then extend this approach to include time-dependent conditional wavefunctions, and address paradigmatic nonequilibrium processes including strong-field molecular ionization, laser driven proton transfer, and Berry phase effects induced by a conical intersection. This work paves the road for the application of conditional wavefunction theory in equilibrium and out of equilibrium ab-initio molecular simulations of finite and extended systems.</summary>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-07-02T14:17:40Z</published>
+    <arxiv:primary_category term="physics.chem-ph"/>
+    <author>
+      <name>Guillermo Albareda</name>
+    </author>
+    <author>
+      <name>Kevin Lively</name>
+    </author>
+    <author>
+      <name>Shunsuke A. Sato</name>
+    </author>
+    <author>
+      <name>Aaron Kelly</name>
+    </author>
+    <author>
+      <name>Angel Rubio</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.27446v1</id>
+    <title>Modeling partially-ionized dense plasma using wavepacket molecular dynamics</title>
+    <updated>2025-10-31T12:54:32Z</updated>
+    <link href="https://arxiv.org/abs/2510.27446v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.27446v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We develop a wave packet molecular dynamics framework for modeling the structural properties of partially-ionized dense plasmas, based on a chemical model that explicitly includes bound state wavefunctions. Using hydrogen as a representative system, we compute self-consistent charge state distributions through free energy minimization, following the approach of Plummer et al. [Phys. Rev. E 111, 015204 (2025)]. This enables a direct comparison of static equilibrium properties with path integral Monte Carlo data, facilitating an evaluation of the model's underlying approximations and its ability to capture the complex interplay between ionization and structure in dense plasma environments.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-31T12:54:32Z</published>
+    <arxiv:comment>16 pages, 8 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>Daniel Plummer</name>
+    </author>
+    <author>
+      <name>Pontus Svensson</name>
+    </author>
+    <author>
+      <name>Wiktor Jasniak</name>
+    </author>
+    <author>
+      <name>Patrick Hollebon</name>
+    </author>
+    <author>
+      <name>Sam M. Vinko</name>
+    </author>
+    <author>
+      <name>Gianluca Gregori</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1206.2905v2</id>
+    <title>Elucidating Fermi's Golden Rule via bound-to-bound transitions in a confined hydrogen atom</title>
+    <updated>2012-09-17T15:41:29Z</updated>
+    <link href="https://arxiv.org/abs/1206.2905v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1206.2905v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We demonstrate an effective method for calculating bound-to-continuum cross-sections by examining transitions to bound states above the ionization energy that result from placing the system of interest within an infinite spherical well. Using photoionization of the hydrogen atom as an example, we demonstrate convergence between this approach for a large volume of confinement and an exact analytical alternate approach that uses energy-normalized continuum wavefunctions, which helps to elucidate the implementation of Fermi's Golden Rule. As the radius of confinement varies, the resulting changes in physical behavior of the system are presented and discussed. The photoionization cross-sections from a variety of atomic states with principal quantum number $n$ are seen to obey particular scaling laws.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-06-13T19:39:13Z</published>
+    <arxiv:comment>6 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>Lisa Madeleine Ugray</name>
+    </author>
+    <author>
+      <name>Ralph C. Shiell</name>
+    </author>
+  </entry>
+</feed>

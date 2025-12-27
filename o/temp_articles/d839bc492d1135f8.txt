@@ -1,0 +1,88 @@
+TERMS: ionization, resonance, probability
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/IE+qeCerxpNT5AM/+vW10YznsV0</id>
+  <title>arXiv Query: search_query=all:ionization AND all:resonance AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:29:48Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:ionization+AND+(all:resonance+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>78</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1003.5957v1</id>
+    <title>Reconstruction of ionization probabilities from spatially averaged data in N-dimensions</title>
+    <updated>2010-03-31T01:57:01Z</updated>
+    <link href="https://arxiv.org/abs/1003.5957v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1003.5957v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present an analytical inversion technique which can be used to recover ionization probabilities from spatially averaged data in an N-dimensional detection scheme. The solution is given as a power series in intensity. For this reason, we call this technique a multiphoton expansion (MPE). The MPE formalism was verified with an exactly solvable inversion problem in 2D, and probabilities in the postsaturation region, where the intensity-selective scanning approach breaks down, were recovered. In 3D, ionization probabilities of Xe were successfully recovered with MPE from simulated (using the ADK tunneling theory) ion yields. Finally, we tested our approach with intensity-resolved benzene ion yields showing a resonant multiphoton ionization process. By applying MPE to this data (which was artificially averaged) the resonant structure was recovered-suggesting that the resonance in benzene may have been observable in spatially averaged data taken elsewhere.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-03-31T01:57:01Z</published>
+    <arxiv:comment>19 pages and 3 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>J. Strohaber</name>
+    </author>
+    <author>
+      <name>A. A. Kolomenskii</name>
+    </author>
+    <author>
+      <name>H. A. Schuessler</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.82.013403</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.82.013403" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/physics/0509204v1</id>
+    <title>Reconstruction of Atomic Ionization Probabilities in Intense Laser Fields</title>
+    <updated>2005-09-23T18:01:16Z</updated>
+    <link href="https://arxiv.org/abs/physics/0509204v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/physics/0509204v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Application of a parallel-projection inversion technique to z-scan spectra of multiply charged xenon and krypton ions, obtained by non-resonant field ionization of neutral targets, has for the first time permitted the direct observation of intensity-dependent ionization probabilities. These ionization efficiency curves have highlighted the presence of structure in the tunnelling regime, previously unobserved under full-volume techniques.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-09-23T18:01:16Z</published>
+    <arxiv:comment>8 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <arxiv:journal_ref>J. Phys. B: At. Mol. Opt. Phys. vol.38 p.3083 (2005)</arxiv:journal_ref>
+    <author>
+      <name>T. R. J. Goodworth</name>
+    </author>
+    <author>
+      <name>W. A. Bryan</name>
+    </author>
+    <author>
+      <name>I. D. Williams</name>
+    </author>
+    <author>
+      <name>W. R. Newell</name>
+    </author>
+    <arxiv:doi>10.1088/0953-4075/38/17/001</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0953-4075/38/17/001" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1306.1550v2</id>
+    <title>Multiphoton-double-ionization probability linearly depends on laser intensity: Experimental studies of barium</title>
+    <updated>2013-08-11T02:48:12Z</updated>
+    <link href="https://arxiv.org/abs/1306.1550v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1306.1550v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Despite inherently complex multiphoton dynamics, our observations show that Ba double ionization with an infrared laser (8800-8920 cm^{-1}) resembles a single-photon process; namely, its probability is proportional to the laser intensity. In this regime, single-electron ionization is due to a four-photon resonant transition through the highly perturbed state 6p^2 1D_2, whereas double ionization is realized by the two-electron mechanism. Furthermore, we argue that these conclusions are valid for other alkaline-earth-metal atoms and other parameters of laser radiation.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atm-clus" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-06-06T20:47:18Z</published>
+    <arxiv:comment>7 pages and 7 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <arxiv:journal_ref>Phys. Rev. A 88, 023407 (2013)</arxiv:journal_ref>
+    <author>
+      <name>I. I. Bondar</name>
+    </author>
+    <author>
+      <name>V. V. Suran</name>
+    </author>
+    <author>
+      <name>D. I. Bondar</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.88.023407</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.88.023407" title="doi"/>
+  </entry>
+</feed>

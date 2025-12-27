@@ -1,0 +1,76 @@
+TERMS: plasma, bandgap, vacuum
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/dzGxsbMnbPOmR6R7OZopWGEHvKo</id>
+  <title>arXiv Query: search_query=all:plasma AND all:bandgap AND all:vacuum&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:37:22Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:plasma+AND+(all:bandgap+AND+all:vacuum)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2105.08751v1</id>
+    <title>One-reactor vacuum and plasma synthesis of transparent conducting oxide nanotubes and nanotrees: from single wire conductivity to ultra-broadband perfect absorbers in the NIR</title>
+    <updated>2021-05-18T18:08:59Z</updated>
+    <link href="https://arxiv.org/abs/2105.08751v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2105.08751v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The eventual exploitation of one-dimensional nanomaterials yet needs the development of scalable, high yield, homogeneous, and environmentally friendly methods able to meet the requirements for the fabrication of under design functional nanomaterials. In this article, we demonstrate a vacuum and plasma one-reactor approach for the synthesis of the fundamental common element in solar energy and optoelectronics, i.e. the transparent conducting electrode but in the form of nanotubes and nanotrees architectures. Although the process is generic and can be used for a variety of TCOs and wide-bandgap semiconductors, we focus herein on Indium Doped Tin Oxide (ITO) as the most extended in the previous applications. This protocol combines widely applied deposition techniques such as thermal evaporation for the formation of organic nanowires serving as 1D and 3D soft templates, deposition of polycrystalline layers by magnetron sputtering, and removal of the template by simply annealing under mild vacuum conditions. The process variables are tuned to control the stoichiometry, morphology, and alignment of the ITO nanotubes and nanotrees. Four-probe characterization reveals the improved lateral connectivity of the ITO nanotrees and applied on individual nanotubes shows resistivities as low as 3.5 +/- 0.9 x 10-4 Ω.cm, a value comparable to single-crystalline counterparts. The assessment of diffuse reflectance and transmittance in the UV-VIS range confirms the viability of the supported ITO nanotubes as a random optical media working as strong scattering layers. Further ability to form ITO nanotrees opens the path for practical applications as ultra-broadband absorbers in the NIR. The demonstrated low resistivity and optical properties of these ITO nanostructures open the way for their use in LEDs, IR shield, energy harvesting, nanosensors, and photoelectrochemical applications</summary>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-05-18T18:08:59Z</published>
+    <arxiv:comment>21 pages, 1 schematic, 6 figures, supporting information</arxiv:comment>
+    <arxiv:primary_category term="physics.app-ph"/>
+    <author>
+      <name>Javier Castillo-Seoane</name>
+    </author>
+    <author>
+      <name>Jorge Gil-Rostra</name>
+    </author>
+    <author>
+      <name>Victor Lopez-Flores</name>
+    </author>
+    <author>
+      <name>Gabriel Lozano</name>
+    </author>
+    <author>
+      <name>F. Javier Ferrer</name>
+    </author>
+    <author>
+      <name>Juan P. Espinos</name>
+    </author>
+    <author>
+      <name>Kostya Ostrikov</name>
+    </author>
+    <author>
+      <name>Francisco Yubero</name>
+    </author>
+    <author>
+      <name>Agustin R. Gonzalez-Elipe</name>
+    </author>
+    <author>
+      <name>Angel Barranco</name>
+    </author>
+    <author>
+      <name>Juan R. Sanchez-Valencia</name>
+    </author>
+    <author>
+      <name>Ana Borras</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2311.17550v1</id>
+    <title>Optical Solitons in Hollow-Core Fibres</title>
+    <updated>2023-11-29T11:34:33Z</updated>
+    <link href="https://arxiv.org/abs/2311.17550v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.17550v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>I review the historical observation and subsequent research on optical soliton dynamics in gas-filled hollow-core optical fibres. I include both large-core hollow capillary fibres, and hollow-core photonic-crystal or microstructured fibres with smaller cores, in particular photonic bandgap and antiresonant guiding fibres. I discuss how the optical guidance properties of these different fibre structures influence the soliton dynamics that can be obtained. The dynamics I consider include: soliton propagation at peak power levels ranging from the megawatt to terawatt level, and pulse energies from sub-microjoule to millijoule range; pulse self-compression, leading to sub-cycle and sub-femtosecond pulse duration; soliton self-frequency shifting due to both the Raman effect, and the influence of photoionisation and plasma formation; and resonant dispersive wave emission, leading to the generation of tuneable few-femtosecond pulses across the vacuum and deep ultraviolet, visible, and near-infrared spectral regions.</summary>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-29T11:34:33Z</published>
+    <arxiv:primary_category term="physics.optics"/>
+    <author>
+      <name>John C. Travers</name>
+    </author>
+  </entry>
+</feed>

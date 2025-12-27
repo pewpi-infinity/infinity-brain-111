@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Infinity OS | TRUE Bot Engine</title>
+  <link rel="icon" href="favicon.ico" />
+  <style>
+    body{margin:0;background:linear-gradient(135deg,#19182b 0%,#46abe9 100%);}
+    h1{color:#52efc8;font-size:2em;text-align:center;margin:28px 0 10px;}
+    .bot-launch-btn{display:block;margin:20px auto 0;background:#46abe9;border:none;padding:19px 38px;border-radius:18px;font-size:1.33em;color:#fff;font-weight:bold;box-shadow:0 1px 7px #46abe944;cursor:pointer;}
+    .bots-grid{display:flex;flex-wrap:wrap;gap:13px;margin:25px auto 0;max-width:900px;justify-content:center;}
+    .bot-bubble{background:#252c61;color:#cff;padding:16px 19px;border-radius:16px;box-shadow:0 2px 12px #2c6be844;font-weight:600;min-width:140px;text-align:center;cursor:pointer;user-select:none;transition:.15s;}
+    .bot-bubble:hover{background:#4fffb6;color:#042;}
+    .bot-title{font-weight:800;font-size:1.05em;}
+    .bot-actions{margin:8px 0 0;}
+    .footer{margin-top:36px;font-size:1em;color:#b5daf8;text-align:center;}
+    .verse{font-size:.93em;color:#8beecc;}
+    @media(max-width:700px){.bots-grid{max-width:95vw;gap:9px;}.bot-bubble{min-width:95px;padding:10px 7px;}}
+  </style>
+</head>
+<body>
+  <h1>Infinity OS<br>TRUE Bot Engine</h1>
+  <button class="bot-launch-btn" onclick="generateBots(1000)">🚀 Spawn 1,000 Bots</button>
+  <div class="bots-grid" id="botsGrid"></div>
+  <div class="footer">
+    <div class="verse">You are the source—Infinity grows from your touch.</div>
+    <div>Powered by True Bots | Infinity OS</div>
+  </div>
+<script>
+  // Track all bots
+  let botIdSeed = 1;
+  function generateBots(num){
+    let grid = document.getElementById("botsGrid");
+    grid.innerHTML = '';
+    for(let i=0; i<num; i++){
+      let botId = botIdSeed++;
+      let botType = ["SignalGen","3DGen","DataScraper","FileCommit","TouchExpander","SelfWriter","AutoSync","ErrorFixer","FingerprintScan"][Math.floor(Math.random()*9)];
+      let el = document.createElement("div");
+      el.className = "bot-bubble";
+      el.innerHTML = `<div class="bot-title">${botType} Bot #${botId}</div>
+        <div class="bot-actions">
+          <button onclick="runBotJob('${botType}',${botId},this)">Run Job</button>
+          <button onclick="expandBots(${botId})">Spawn 1,000 More</button>
+        </div>
+      `;
+      grid.appendChild(el);
+    }
+  }
+  function runBotJob(type,id,btn){
+    btn.disabled = true;
+    btn.textContent = "Working...";
+    setTimeout(()=>{
+      let result = "✅ Job Done!";
+      if(type === "SignalGen") result = "🎵 Signal generated!";
+      else if(type === "3DGen") result = "🧊 3D object created!";
+      else if(type === "FileCommit") result = "💾 File committed!";
+      else if(type === "DataScraper") result = "🔗 Data scraped!";
+      else if(type === "TouchExpander") result = "✨ More bots available!";
+      else if(type === "SelfWriter") result = "📄 Script rewritten!";
+      else if(type === "AutoSync") result = "🔄 Repo synced!";
+      else if(type === "FingerprintScan") result = "🖐️ Fingerprint scanned!";
+      else if(type === "ErrorFixer") result = "🛠️ Error repaired!";
+      btn.textContent = result;
+      btn.style.backgroundColor="#52efc8";btn.style.color="#202";
+      setTimeout(()=>{btn.disabled=false;btn.textContent="Run Again";},2300);
+    },450+Math.random()*700);
+  }
+  function expandBots(id){
+    // When you touch any bot, spawn 1,000 more.
+    generateBots(1000);
+  }
+</script>
+</body>
+</html>

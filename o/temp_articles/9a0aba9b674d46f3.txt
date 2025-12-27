@@ -1,0 +1,87 @@
+TERMS: frequency, wavefunction, bandgap
+COLORS: green, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/4CMbGNZn3Ft5wNwt6k0AX6Nq9iU</id>
+  <title>arXiv Query: search_query=all:frequency AND all:wavefunction AND all:bandgap&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:12:07Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:wavefunction+AND+all:bandgap)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>4</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2510.26028v2</id>
+    <title>Effective-Hamiltonian reconstruction through Bloch-wave interferometry in bulk GaAs driven by strong THz fields</title>
+    <updated>2025-11-24T22:52:11Z</updated>
+    <link href="https://arxiv.org/abs/2510.26028v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.26028v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Effective Hamiltonians (EHs) are powerful tools for understanding the emergent phenomena in condensed matter. Reconstructing an EH directly from experimental data is challenging due to the intricate relationship between EH parameters and observables. Complementary to ARPES, which probes surface electronic properties, bulk-sensitive techniques based on HHG and HSG have shown strong potential for EH reconstruction (EHR). We reconstruct an effective three-band electron-hole (e-h) Hamiltonian in bulk GaAs based on HSG induced by quasi-cw NIR and THz lasers. We perform polarimetry of high-order sidebands while varying the wavelength and polarization of the NIR laser and the strength of the THz field, to systematically explore the information encoded in the sidebands. Based on previous understanding of HSG in GaAs in terms of Bloch-wave interferometry (BWI), an analytic model is derived to quantitatively connect the EH parameters with the measured sideband electric fields under strong, low-frequency THz fields. Assuming that the exciton reduced mass and the parameter that defines the hole Bloch wavefunctions in GaAs are known from existing experiments, we show that the GaAs bandgap, two dephasing constants associated with two e-h species, and an EH parameter that determines the e-h reduced masses, can be simultaneously and unambiguously determined through BWI. We demonstrate that full EHR can be achieved by combining HSG measurements with absorbance spectroscopy. We find that the extracted bandgap of GaAs is about 13\,meV higher than the value inferred from previous absorbance measurements. Quantum-kinetic analysis suggests that the e-h energy in HSG may be renormalized through Fröhlich interaction that is modified by a strong THz field. We show that the energy threshold for optical-phonon emission can be suppressed by applying a strong THz field, leading to nearly constant dephasing rates.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-29T23:52:57Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Qile Wu</name>
+    </author>
+    <author>
+      <name>Seamus D. O Hara</name>
+    </author>
+    <author>
+      <name>Joseph B. Costello</name>
+    </author>
+    <author>
+      <name>Loren N. Pfeiffer</name>
+    </author>
+    <author>
+      <name>Ken W. West</name>
+    </author>
+    <author>
+      <name>Mark S. Sherwin</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0202308v1</id>
+    <title>All-electron GW calculation based on the LAPW method: application to wurtzite ZnO</title>
+    <updated>2002-02-19T02:19:40Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0202308v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0202308v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We present a new, all-electron implementation of the GW approximation and apply it to wurtzite ZnO. Eigenfunctions computed in the local-density approximation (LDA) by the full-potential linearized augmented-plane-wave (LAPW) or the linearized muffin-tin-orbital (LMTO) method supply the input for generating the Green function G and the screened Coulomb interaction W. A mixed basis is used for the expansion of W, consisting of plane waves in the interstitial region and augmented-wavefunction products in the augmentation-sphere regions. The frequency-dependence of the dielectric function is computed within the random-phase approximation (RPA), without a plasmon-pole approximation. The Zn 3d orbitals are treated as valence states within the LDA; both core and valence states are included in the self-energy calculation. The calculated bandgap is smaller than experiment by about 1eV, in contrast to previously reported GW results. Self-energy corrections are orbital-dependent, and push down the deep O 2s and Zn 3d levels by about 1eV relative to the LDA. The d level shifts closer to experiment but the size of shift is underestimated, suggesting that the RPA overscreens localized states.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-02-19T02:19:40Z</published>
+    <arxiv:comment>10 pages, 3 figures, submitted to Phys. Rev. B</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Manabu Usuda</name>
+    </author>
+    <author>
+      <name>Noriaki Hamada</name>
+    </author>
+    <author>
+      <name>Takao Kotani</name>
+    </author>
+    <author>
+      <name>Mark van Schilfgaarde</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.66.125101</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.66.125101" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1302.5835v1</id>
+    <title>Photonic structures with disorder immunity</title>
+    <updated>2013-02-23T18:46:57Z</updated>
+    <link href="https://arxiv.org/abs/1302.5835v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1302.5835v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Periodic and disordered media are known to possess different transport properties, either classically or quantum-mechanically. This has been exhibited by effects such as Anderson localization in systems with disorder and the existence of photonic bandgaps in the periodic case. In this paper we analyze the transport properties of disordered waveguides with corners at very low frequencies, finding that the spectrum, conductance and wavefunctions are immune to disorder. Our waveguides are constructed by means of randomly oriented straight segments and connected by corners at right angles. Taking advantage of a trapping effect that manifests in the corner of a bent waveguide, we can show that a tight-binding approximation describes the system reasonably well for any degree of disorder. This provides a wide set of non-periodic geometries that preserve all the interesting transport properties of periodic media.</summary>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-02-23T18:46:57Z</published>
+    <arxiv:comment>9 pages, 10 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.dis-nn"/>
+    <author>
+      <name>E. Sadurni</name>
+    </author>
+    <author>
+      <name>J. A. Mendez-Bermudez</name>
+    </author>
+  </entry>
+</feed>

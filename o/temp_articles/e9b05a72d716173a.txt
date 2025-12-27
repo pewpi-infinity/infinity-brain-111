@@ -1,0 +1,79 @@
+TERMS: hydrogen, quantum, fusion, plasma
+COLORS: purple, blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/06FnoB1sNImYIrHpknaAQPkdNa8</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:quantum AND all:fusion AND all:plasma&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:38:51Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:quantum+AND+(all:fusion+AND+all:plasma))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>10</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2003.02680v1</id>
+    <title>Atomic data for calculation of the intensities of Stark components of excited hydrogen atoms in fusion plasmas</title>
+    <updated>2020-03-05T14:51:15Z</updated>
+    <link href="https://arxiv.org/abs/2003.02680v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2003.02680v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Motional Stark effect (MSE) spectroscopy represents a unique diagnostic tool capable of determining the magnitude of the magnetic field and its direction in the core of fusion plasmas. The primary excitation channel for fast hydrogen atoms in injected neutral beams, with energy in the range of 25-1000 keV, is due to collisions with protons and impurity ions (e.g., He$^{2+}$ and heavier impurities). As a result of such excitation, at the particle density of 10$^{13}$-10$^{14}$ cm$^{-3}$, the line intensities of the Stark multiplets do not follow statistical expectations (i.e., the populations of fine-structure levels within the same principal quantum number $n$ are not proportional to their statistical weights). Hence, any realistic modeling of MSE spectra has to include the relevant collisional atomic data. In this paper we provide a general expression for the excitation cross sections in parabolic states within $n$=3 for an arbitrary orientation between the direction of the motion-induced electric field and the proton-atom collisional axis. The calculations make use of the density matrix obtained with the atomic orbital close coupling method and the method can be applied to other collisional systems (e.g., He$^{2+}$, Be$^{4+}$, C$^{6+}$, etc.). The resulting cross sections are given as simple fits that can be directly applied to spectral modeling. For illustration we note that the asymmetry detected in the first classical cathode ray experiments between the red- and blue-shifted spectral components can be quantitatively studied using the proposed approach.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-03-05T14:51:15Z</published>
+    <arxiv:comment>11 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <arxiv:journal_ref>Atoms 8, 8 (2020)</arxiv:journal_ref>
+    <author>
+      <name>Oleksandr Marchuk</name>
+    </author>
+    <author>
+      <name>David R. Schultz</name>
+    </author>
+    <author>
+      <name>Yuri Ralchenko</name>
+    </author>
+    <arxiv:doi>10.3390/atoms8010008</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/atoms8010008" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2408.09293v1</id>
+    <title>Demarcating the classical and quantum approaches for the Coulomb logarithm in plasmas</title>
+    <updated>2024-08-17T20:57:10Z</updated>
+    <link href="https://arxiv.org/abs/2408.09293v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2408.09293v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Coulomb logarithm often enters various plasma models and simulation methods for computing the transport and relaxation properties of plasmas. Traditionally, a classical pair collision picture was used to calculate the Coulomb logarithm for different plasma parameters. With the recent emergence of the high interest in dense plasmas with partially degenerate electrons, new approaches have been developed to treat electron-ion collisions in a quantum-mechanical way. In this context, gaining a deeper physical understanding of the criteria for the applicability of classical plasma models is crucial. We have analyzed the Coulomb logarithm describing the electron-ion collisions in hydrogen plasmas in a wide range of temperatures and densities relevant to inertial confinement fusion experiments. The electron-ion collision cross-sections were computed using both quantum and classical scattering theories. We found that the classical description of the electron-ion scattering in plasmas and related plasma models is applicable if the de Broglie wavelength of electrons is smaller than the ion charge screening length in plasmas. Additionally, we show that the quantum first-order Born approximation for describing the electron-ion collision is accurate only in the regime where classical scattering theory is accurate.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-08-17T20:57:10Z</published>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>S. K. Kodanova</name>
+    </author>
+    <author>
+      <name>T. S. Ramazanov</name>
+    </author>
+    <author>
+      <name>M. K. Issanova</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1108.4826v1</id>
+    <title>The hydrogen equation of state at high densities</title>
+    <updated>2011-08-24T12:45:36Z</updated>
+    <link href="https://arxiv.org/abs/1108.4826v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1108.4826v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We use a two-fluid model combining the quantum Green's function technique for the electrons and a classical HNC description for the ions to calculate the high-density equation of state of hydrogen. This approach allows us to describe fully ionized plasmas of any electron degeneracy and any ionic coupling strength which are important for the modeling of a variety of astrophysical objects and inertial confinement fusion targets. We have also performed density functional molecular dynamics simulations (DFT-MD) and show that the data obtained agree with our approach in the high density limit. Good agreement is also found between DFT-MD and quantum Monte Carlo simulations. The thermodynamic properties of dense hydrogen can thus be obtained for the entire density range using only calculations in the physical picture.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-08-24T12:45:36Z</published>
+    <arxiv:comment>10 pages, 6 figures, 1 table</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>J. Vorberger</name>
+    </author>
+    <author>
+      <name>D. O. Gericke</name>
+    </author>
+    <author>
+      <name>W. -D. Kraeft</name>
+    </author>
+  </entry>
+</feed>

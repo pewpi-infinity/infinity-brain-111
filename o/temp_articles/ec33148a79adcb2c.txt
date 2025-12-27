@@ -1,0 +1,74 @@
+TERMS: ionization, plasma, singularity
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ETTUlmAiP95Ths4L3gC2dlzNu54</id>
+  <title>arXiv Query: search_query=all:ionization AND all:plasma AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:30:21Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:ionization+AND+(all:plasma+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>17</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2410.23314v1</id>
+    <title>Multi-Physics Mathematical Model for Weakly-Ionized Plasma Flows</title>
+    <updated>2024-10-29T14:52:19Z</updated>
+    <link href="https://arxiv.org/abs/2410.23314v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2410.23314v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This work presents a multidisciplinary mathematical model, as a set of coupled governing equations and auxiliary relations describing the fluid-flow, thermal, and electric fields of partially-ionized plasma with low magnetic Reynolds numbers. The model is generic enough to handle three-dimensionality, Hall effect, compressibility, and variability of fluid, thermal, and electric properties of the plasma. The model can be of interest to computational modelers aiming to build a solver that quantitatively assesses direct extraction of electric energy from a plasma flow. Three different approaches are proposed to solve numerically for the electric fields with different levels of tolerance toward possible numerical instability encountered at a large Hall parameter, where the effective conductivity tensor loses diagonal dominance and becomes close to singular. A submodel for calculating the local electric properties of the plasma is presented in detail and is applied to demonstrate the effect of different factors on the electric conductivity, including the fuel's carbon/hydrogen ratio and the alkaline seed element that acts as the ionizing species. An analytical expression for the collision cross-section for argon is developed, such that this noble gas can be included as one of the gaseous species comprising the plasma.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-10-29T14:52:19Z</published>
+    <arxiv:comment>16 pages, 90 equations, 3 figures, journal paper</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <arxiv:journal_ref>American Journal of Modern Physics, vol. 7(2), pp. 87-102, 2018</arxiv:journal_ref>
+    <author>
+      <name>Osama A. Marzouk</name>
+    </author>
+    <arxiv:doi>10.11648/j.ajmp.20180702.14</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.11648/j.ajmp.20180702.14" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2109.02006v2</id>
+    <title>Ion Temperature Effects on Plasma Flow in the Magnetic Mirror Configuration</title>
+    <updated>2022-02-23T19:53:40Z</updated>
+    <link href="https://arxiv.org/abs/2109.02006v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2109.02006v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Effects of finite ion temperature on plasma flow in the converging-diverging magnetic field, the magnetic mirror, or equivalently, magnetic nozzle configuration, are studied using a quasineutral paraxial two-fluid MHD model with isothermal electrons and warm magnetized ions. The ion acceleration was studied with an emphasis on the role of the singularity at the sonic point transition. It is shown that the regularity of the sonic point defines a global solution describing plasma acceleration from subsonic to supersonic velocity. Stationary accelerating solutions were obtained and compared with the time dependent dynamics, confirming that the solutions of the time-dependent equations converge to the stationary solutions and therefore are stable. The effects of the ion pressure anisotropy were analyzed using Chew-Goldberger-Low model and its generalization. It is shown that the mirror force (manifested by the perpendicular ion pressure) enhances plasma acceleration. The role of ionization and charge exchange on plasma flow acceleration have been investigated.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-09-05T06:26:18Z</published>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>A. Sabo</name>
+    </author>
+    <author>
+      <name>A. I. Smolyakov</name>
+    </author>
+    <author>
+      <name>P. Yushmanov</name>
+    </author>
+    <author>
+      <name>S. Putvinskii</name>
+    </author>
+    <arxiv:doi>10.1063/5.0088534</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/5.0088534" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1204.0099v1</id>
+    <title>Uniqueness theorem for the non-local ionization source in glow discharge and hollow cathode</title>
+    <updated>2012-03-31T13:20:15Z</updated>
+    <link href="https://arxiv.org/abs/1204.0099v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1204.0099v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The paper is devoted to the proof of the uniqueness theorem for solution of the equation for the non-local ionization source in a glow discharge and a hollow cathode in general 3D geometry. The theorem is applied to wide class of electric field configurations, and to the walls of discharge volume, which have a property of incomplete absorption of the electrons. Cathode is regarded as interior singular source, which is placed arbitrarily close to the wall. The existence of solution is considered also. During the proof of the theorem many of useful structure formulae are obtained. Elements of the proof structure, which have arisen, are found to have physical sense. It makes clear physical construction of non-local electron avalanche, which builds a source of ionization in glow discharge at low pressures. Last has decisive significance to understand the hollow cathode discharge configuration and the hollow cathode effect.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-03-31T13:20:15Z</published>
+    <arxiv:comment>31 pages. Short text (2 pages) was published in the Book of abstracts of IV CESPC, August 21 - 25, 2011, Zlatibor, Serbia</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <arxiv:journal_ref>V. Gorin, Uniqueness Theorem for the Non-Local Ionization Source in Glow Discharge and Hollow Cathode // Journal of Modern Physics. - 2012. - Vol. 3, No. 30, pp. 1647-1662. doi: 10.4236/jmp.2012.330202</arxiv:journal_ref>
+    <author>
+      <name>Vladimir V. Gorin</name>
+    </author>
+    <arxiv:doi>10.4236/jmp.2012.330202</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.4236/jmp.2012.330202" title="doi"/>
+  </entry>
+</feed>

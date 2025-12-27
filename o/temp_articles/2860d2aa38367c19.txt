@@ -1,0 +1,53 @@
+TERMS: frequency, fusion, boson
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/NfdFf3yIv8xecFCEoq+POc9xOCc</id>
+  <title>arXiv Query: search_query=all:frequency AND all:fusion AND all:boson&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:10:21Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:fusion+AND+all:boson)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2007.10661v2</id>
+    <title>Accessing the ordered phase of correlated Fermi systems: vertex bosonization and mean-field theory within the functional renormalization group</title>
+    <updated>2020-11-27T13:47:48Z</updated>
+    <link href="https://arxiv.org/abs/2007.10661v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2007.10661v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a consistent fusion of functional renormalization group and mean-field theory which explicitly introduces a bosonic field via a Hubbard-Stratonovich transformation at the critical scale, at which the order sets in. We show that a minimal truncation of the flow equations, that neglects order parameter fluctuations, is integrable and fulfills fundamental constraints as the Goldstone theorem and the Ward identity connected with the broken global symmetry. To introduce the bosonic field, we present a technique to factorize the most singular part of the vertex, even when the full dependence on all its arguments is retained. We test our method on the two-dimensional attractive Hubbard model at half-filling and calculate the superfluid gap as well as the Yukawa couplings and residual two fermion interactions in the ordered phase as functions of fermionic Matsubara frequencies. Furthermore, we analyze the gap and the condensate fraction for weak and moderate couplings and compare our results with previous functional renormalization group studies, and with quantum Monte Carlo data. Our formalism constitutes a convenient starting point for the inclusion of order parameter fluctuations by keeping a full, non simplified, dependence on fermionic momenta and/or frequencies.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-07-21T08:42:00Z</published>
+    <arxiv:comment>20 pages, 10 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Phys. Rev. B 102, 235160 (2020)</arxiv:journal_ref>
+    <author>
+      <name>Pietro M. Bonetti</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.102.235160</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.102.235160" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1110.5317v2</id>
+    <title>Theory and LHC Phenomenology of Classicalon Decays</title>
+    <updated>2012-05-10T22:01:34Z</updated>
+    <link href="https://arxiv.org/abs/1110.5317v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1110.5317v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>It has been recently proposed by Dvali et al that high energy scattering in non-renormalizable theories, like the higgsless Standard Model, can be unitarized by the formation of classical configurations called classicalons. In this work we argue that classicalons should have analogs of thermodynamic properties like temperature and entropy and perform a model-independent statistical mechanical analysis of classicalon decays. We find that, in the case of massless quanta, the decay products have a Planck distribution with an effective temperature T~1/r_* where r_* is the classicalon radius. These results, in particular a computation of the decay multiplicity, N_*, allow us to make the first collider analysis of classicalization. In the model for unitarization of WW scattering by classicalization of longitudinal Ws and Zs we get spectacular multi-W/Z final states that decay into leptons, missing energy and a very high multiplicity (at least 10) of jets. We find that for the classicalization scale, M_* = v=246 GeV (M_*=1 TeV) discovery should be possible in the present 7 TeV (14 TeV) run of the LHC with about 10 /fb (100 /fb) data. We also consider a model to solve the hierarchy problem, where the classicalons are configurations of the Higgs field which decay into to multi-Higgs boson final states. We find that, in this case, for M_*=500 GeV (M_*=1 TeV), discovery should be possible in the top fusion process with about 10 /fb (100 /fb) data at 14 TeV LHC.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-10-24T19:59:16Z</published>
+    <arxiv:comment>43 Pages, 10 Figures; v2: added comment on the implications of a maximum allowed cut-off frequency analogous to the Debye frequency</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Christophe Grojean</name>
+    </author>
+    <author>
+      <name>Rick S. Gupta</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP05(2012)114</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP05(2012)114" title="doi"/>
+  </entry>
+</feed>

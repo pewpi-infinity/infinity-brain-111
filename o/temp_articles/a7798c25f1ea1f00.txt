@@ -1,0 +1,75 @@
+TERMS: crystal, boson, vacuum
+COLORS: orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/sr3XVQmEWTYVH0Pa9Z90sGpxWNg</id>
+  <title>arXiv Query: search_query=all:crystal AND all:boson AND all:vacuum&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:28:35Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:crystal+AND+(all:boson+AND+all:vacuum)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>10</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2206.14008v2</id>
+    <title>Phase structure of electroweak vacuum in a strong magnetic field: the lattice results</title>
+    <updated>2023-12-17T11:31:00Z</updated>
+    <link href="https://arxiv.org/abs/2206.14008v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2206.14008v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Using first-principle lattice simulations, we demonstrate that in the background of a strong magnetic field (around $10^{20}$ T), the electroweak sector of the vacuum experiences two consecutive crossover transitions associated with dramatic changes in the zero-temperature dynamics of the vector $W$ bosons and the scalar Higgs particles, respectively. Above the first crossover, we observe the appearance of large, inhomogeneous structures consistent with a classical picture of the formation of $W$ and $Z$ condensates pierced by vortices. The presence of the $W$ and $Z$ condensates supports the emergence of the exotic superconducting and superfluid properties induced by a strong magnetic field in the vacuum. We find evidence that the vortices form a disordered solid or a liquid rather than a crystal. The second transition restores the electroweak symmetry. Such conditions can be realized in the near-horizon region of the magnetized black holes.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-06-28T13:50:36Z</published>
+    <arxiv:comment>11 pages, 4 figures (text + supplementary material); v2: minor improvements, matches published version; a short illustratory video is available at https://www.youtube.com/watch?v=-TCZcLZWIBk</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 130, 111802 (2023)</arxiv:journal_ref>
+    <author>
+      <name>M. N. Chernodub</name>
+    </author>
+    <author>
+      <name>V. A. Goy</name>
+    </author>
+    <author>
+      <name>A. V. Molochkov</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.130.111802</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.130.111802" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1801.02277v1</id>
+    <title>Bosonic Surface States and Acoustic Spectroscopy of Confined Superfluid $^3$He-B</title>
+    <updated>2018-01-08T00:05:44Z</updated>
+    <link href="https://arxiv.org/abs/1801.02277v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1801.02277v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Using an effective field theory we study the low-lying bosonic excitations and their couplings to phonons at ultrasonic frequencies in superfluid $^3$He-B under strong confinement. We show that confinement induces a rich spectrum of low-lying bosons, including surface-bound bosonic states, as well as fine structure of long-lived massive bosons. Under sufficiently strong confinement we find a dynamical instability of the $^3$He-B film: the frequency of the surface-bound boson softens at finite wavevector, then develops a pole in the upper half of the complex frequency plane, signalling a dynamical instability of the translationally invariant superfluid vacuum towards pair-density-wave "crystallization". We discuss the signatures and observability of the low-lying bosonic spectrum based on analysis of the ultrasound attenuation from resonant excitation of the bosonic modes. We also note that surface-bound bosonic modes are not unique to $^3$He-B, but are expected to be common to unconventional superconductors with a multi-component order parameter.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-01-08T00:05:44Z</published>
+    <arxiv:comment>5 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>Takeshi Mizushima</name>
+    </author>
+    <author>
+      <name>J. A. Sauls</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-th/0208214v2</id>
+    <title>The Spontaneous Compactification of the Closed Bosonic String</title>
+    <updated>2002-09-19T12:00:00Z</updated>
+    <link href="https://arxiv.org/abs/hep-th/0208214v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-th/0208214v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We argue that the higher space-time derivative terms that occur in closed bosonic string field theory are reminiscent of those found in the Landau theory of liquid-crystal transitions. We examine the lowest level approximation of the closed bosonic string and find evidence for the existence of a new vacuum that spontaneously breaks Lorentz and translation symmetries. This effect can be interpreted as a spontaneous compactification of the theory.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-08-29T13:39:40Z</published>
+    <arxiv:comment>7 pages, plain tex (one reference added)</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Phys.Lett.B548:92-96,2002</arxiv:journal_ref>
+    <author>
+      <name>P. West</name>
+    </author>
+    <arxiv:doi>10.1016/S0370-2693(02)02807-1</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/S0370-2693(02)02807-1" title="doi"/>
+  </entry>
+</feed>

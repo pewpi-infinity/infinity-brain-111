@@ -1,0 +1,55 @@
+TERMS: frequency, fusion, vapor
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/qXXx843m3KPmgl3PBPOwxyIAbO0</id>
+  <title>arXiv Query: search_query=all:frequency AND all:fusion AND all:vapor&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:10:12Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:fusion+AND+all:vapor)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2508.13492v1</id>
+    <title>Airborne acoustic emission enables sub-scanline keyhole porosity quantification and effective process characterization for metallic laser powder bed fusion</title>
+    <updated>2025-08-19T03:59:50Z</updated>
+    <link href="https://arxiv.org/abs/2508.13492v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.13492v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Keyhole-induced (KH) porosity, which arises from unstable vapor cavity dynamics under excessive laser energy input, remains a significant challenge in laser powder bed fusion (LPBF). This study presents an integrated experimental and data-driven framework using airborne acoustic emission (AE) to achieve high-resolution quantification of KH porosity. Experiments conducted on an LPBF system involved in situ acquisition of airborne AE and ex situ porosity imaging via X-ray computed tomography (XCT), synchronized spatiotemporally through photodiode signals with submillisecond precision. We introduce KHLineNum, a spatially resolved porosity metric defined as the number of KH pores per unit scan length, which serves as a physically meaningful indicator of the severity of KH porosity in geometries and scanning strategies. Using AE scalogram data and scan speed, we trained a lightweight convolutional neural network to predict KHLineNum with millisecond-scale temporal resolution, achieving an R-squared value exceeding 0.8. Subsequent analysis identified the 35-45 kHz frequency band of AE as particularly informative, consistent with known KH oscillations. Beyond defect quantification, the framework also enables AE-driven direct inference of KH regime boundaries on the power-velocity process map, offering a noninvasive and scalable component to labor-intensive post-process techniques such as XCT. We believe this framework advances AE-based monitoring in LPBF, providing a pathway toward improved quantifiable defect detection and process control.</summary>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-19T03:59:50Z</published>
+    <arxiv:comment>40 pages, 18 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.app-ph"/>
+    <author>
+      <name>Haolin Liu</name>
+    </author>
+    <author>
+      <name>David Guirguis</name>
+    </author>
+    <author>
+      <name>Xuzhe Zeng</name>
+    </author>
+    <author>
+      <name>Logan Maurer</name>
+    </author>
+    <author>
+      <name>Vigknesh Rajan</name>
+    </author>
+    <author>
+      <name>Niloofar Sanaei</name>
+    </author>
+    <author>
+      <name>Chi-Ta Yang</name>
+    </author>
+    <author>
+      <name>Jack L. Beuth</name>
+    </author>
+    <author>
+      <name>Anthony D. Rollett</name>
+    </author>
+    <author>
+      <name>Levent Burak Kara</name>
+    </author>
+  </entry>
+</feed>

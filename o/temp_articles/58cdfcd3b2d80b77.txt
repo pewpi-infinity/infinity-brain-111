@@ -1,0 +1,99 @@
+TERMS: crystal, ionization, oxidation
+COLORS: orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/RWHrxpEfJqgNivJjNwEtcRwuhQ8</id>
+  <title>arXiv Query: search_query=all:crystal AND all:ionization AND all:oxidation&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:27:16Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:crystal+AND+(all:ionization+AND+all:oxidation)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>17</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0201502v1</id>
+    <title>p-Type semiconducting properties in lithium-doped MgO single crystals</title>
+    <updated>2002-01-28T15:30:27Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0201502v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0201502v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The phenomenally large enhancement in conductivity observed when Li-doped MgO crystals are oxidized at elevated temperatures was investigated by dc and ac electrical measurements in the temperature interval 250-673 K. The concentration of ([Li]^{0}) centers (Li^{+} ions each with a trapped hole) resulting from oxidation was monitored by optical absorption measurements.
+  Both dc and ac experiments provide consistent values for the bulk resistance. The electricalconductivity of oxidized MgO:Li crystals increases linearly with the concentration of ([Li]^{0}) centers. The conductivity is thermally activated with an activation energy of (0.70 +/- 0.01) eV, which is independent of the ([Li]^{0}) content. The \textit{standard semiconducting} mechanism satisfactorily explains these results. Free holes are the main contribution to band conduction as they are trapped at or released from the ([Li]^{0})-acceptor centers.
+  In as-grown MgO:Li crystals, electrical current increases dramatically with time due to the formation of ([Li]^{0}) centers. The activation energy values between 1.3 and 0.7 eV are likely a combination of the activation energy for the creation of ([Li]^{0}) centers and the activation energy of ionization of these centers. Destruction of ([Li]^{0}) centers can be induced in oxidized crystals by application of an electric field due to Joule heating up to temperatures at which ([Li]^{0}) centers are not stable.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-01-28T15:30:27Z</published>
+    <arxiv:comment>LaTeX, 20 pages, 9 Encapsulated Postscript Format Figures, use the version 4.0 of REVTEX 4 macro package</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>M. M. Tardio</name>
+    </author>
+    <author>
+      <name>R. Ramirez</name>
+    </author>
+    <author>
+      <name>R. Gonzalez</name>
+    </author>
+    <author>
+      <name>Y. Chen</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.66.134202</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.66.134202" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2503.16880v1</id>
+    <title>Measurements on Time Resolution of BGO, PWO and BSO Crystals</title>
+    <updated>2025-03-21T06:29:26Z</updated>
+    <link href="https://arxiv.org/abs/2503.16880v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2503.16880v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A high-granularity crystal calorimeter (HGCCAL) has been proposed for the future Circular Electron Positron Collider (CEPC). This study investigates the time resolution of various crystal - Silicon Photomultiplier (SiPM) detection units for HGCCAL, focusing on Bismuth Germanate (BGO), Lead Tungstate (PWO), and Bismuth Silicon Oxide (BSO) crystals. Beam tests were conducted using 10 GeV pions at CERN and 5 GeV electrons at DESY, enabling systematic comparisons of timing performance under both minimum ionizing particle (MIP) signals and electromagnetic (EM) showers. Three timing methods - constant fraction timing (CFT) with sampled points, linear fitting, and exponential fitting - were evaluated, with an exponential fit combined with a 10% constant fraction providing the best time resolution. Measurements of crystal units with different dimensions revealed that both scintillation light yield and signal rise time influence timing performance. Among similarly sized crystals, PWO exhibited the best time resolution due to its fast signal rise time, while BGO and BSO demonstrated comparable timing performance. For long BGO bars (40 cm and 60 cm), the time resolution remained uniform along their length, achieving approximately 0.75 ns and 0.95 ns for MIP signals. Under intense EM showers, both bars reached a timing resolution of approximately 200 ps at high amplitudes. And the presence of upstream pre-shower layers can introduce additional timing fluctuations at similar amplitudes.</summary>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-03-21T06:29:26Z</published>
+    <arxiv:primary_category term="physics.ins-det"/>
+    <author>
+      <name>Zhiyu Zhao</name>
+    </author>
+    <author>
+      <name>Dejing Du</name>
+    </author>
+    <author>
+      <name>Yong Liu</name>
+    </author>
+    <author>
+      <name>Jiyuan Chen</name>
+    </author>
+    <author>
+      <name>Junfeng Chen</name>
+    </author>
+    <author>
+      <name>Fangyi Guo</name>
+    </author>
+    <author>
+      <name>Shu Li</name>
+    </author>
+    <author>
+      <name>Baohua Qi</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1806.01687v1</id>
+    <title>Reaction front occurrence on imperfection profiles during oxygen chemical diffusion in oxides. I. Thermodynamic background</title>
+    <updated>2018-06-05T13:39:14Z</updated>
+    <link href="https://arxiv.org/abs/1806.01687v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1806.01687v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a theoretical study of the impact of oxygen diffusion in oxide crystals on metal dopants ionic state and the conduction type under thermal equilibrium. Oxygen vacancy formation acting as a shallow, double-electronic donor is assumed to result from the crystal exposure to a low ambient oxygen pressure. It is shown, that critical transitions from n- to a p-type at an oxygen partial pressure Pi, and in ionization state of the metal dopant at an oxygen partial pressure PM, are usually not simultaneous, and depend on the different reaction constants. Experimental study of the different species concentrations at thermodynamic equilibrium as functions of pressure and temperature should allow assessment of various reversible reaction constants controlling the process. In the Part II companion paper, the kinetic (diffusion) characteristics are considered in detail.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-06-05T13:39:14Z</published>
+    <arxiv:comment>11 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Misha Sinder</name>
+    </author>
+    <author>
+      <name>Zeev Burshtein</name>
+    </author>
+    <author>
+      <name>Joshua Pelleg</name>
+    </author>
+  </entry>
+</feed>

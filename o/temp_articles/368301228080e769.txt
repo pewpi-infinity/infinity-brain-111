@@ -1,0 +1,86 @@
+TERMS: hydrogen, lattice, graphene, resonance
+COLORS: purple, orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ca1otxnY5kVNlnNIX8L2RUWqp/M</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:lattice AND all:graphene AND all:resonance&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:48:06Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:lattice+AND+(all:graphene+AND+all:resonance))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>3</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1507.07714v2</id>
+    <title>Topological features of hydrogenated graphene</title>
+    <updated>2015-07-30T15:59:24Z</updated>
+    <link href="https://arxiv.org/abs/1507.07714v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1507.07714v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Hydrogen adatoms are one of the most the promising proposals for the functionalization of graphene. Hydrogen induces narrow resonances near the Dirac energy, which lead to the formation of magnetic moments. Furthermore, they also create local lattice distortions which enhance the spin-orbit coupling. The combination of magnetism and spin-orbit coupling allows for a rich variety of phases, some of which have non trivial topological features. We analyze the interplay between magnetism and spin-orbit coupling in ordered arrays of hydrogen on graphene monolayers, and classify the different phases that may arise. We extend our model to consider arrays of adsorbates in graphene-like crystals with stronger intrinsic spin-orbit couplings.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-07-28T10:31:30Z</published>
+    <arxiv:comment>6 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Physica B: Condensed Matter 496 (2016): 1-8</arxiv:journal_ref>
+    <author>
+      <name>Luis A. González-Árraga</name>
+    </author>
+    <author>
+      <name>J. L. Lado</name>
+    </author>
+    <author>
+      <name>F. Guinea</name>
+    </author>
+    <arxiv:doi>10.1016/j.physb.2016.05.006</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physb.2016.05.006" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1007.3930v2</id>
+    <title>Modeling electronic structure and transport properties of graphene with resonant scattering centers</title>
+    <updated>2010-09-17T09:32:21Z</updated>
+    <link href="https://arxiv.org/abs/1007.3930v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1007.3930v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present a detailed numerical study of the electronic properties of single-layer graphene with resonant ("hydrogen") impurities and vacancies within a framework of noninteracting tight-binding model on a honeycomb lattice. The algorithms are based on the numerical solution of the time-dependent Schrödinger equation and applied to calculate the density of states, \textit{quasieigenstates}, AC and DC conductivities of large samples containing millions of atoms. Our results give a consistent picture of evolution of electronic structure and transport properties of functionalized graphene in a broad range of concentration of impurities (from graphene to graphane), and show that the formation of impurity band is the main factor determining electrical and optical properties at intermediate impurity concentrations, together with a gap opening when approaching the graphane limit.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-07-22T16:20:06Z</published>
+    <arxiv:comment>17 pages, 17 figures, expanded version to appear in PRB</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Phys. Rev. B 82, 115448 (2010)</arxiv:journal_ref>
+    <author>
+      <name>Shengjun Yuan</name>
+    </author>
+    <author>
+      <name>Hans De Raedt</name>
+    </author>
+    <author>
+      <name>Mikhail I. Katsnelson</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.82.115448</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.82.115448" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1502.01184v2</id>
+    <title>Magnetism and interaction-induced gap opening in graphene with vacancies or hydrogen adatoms: Quantum Monte Carlo study</title>
+    <updated>2015-05-22T00:20:48Z</updated>
+    <link href="https://arxiv.org/abs/1502.01184v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1502.01184v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study electronic properties of graphene with finite concentration of vacancies or other resonant scatterers by a straightforward lattice Quantum Monte Carlo calculations. Taking into account realistic long-range Coulomb interaction we calculate distribution of spin density associated to midgap states and demonstrate antiferromagnetic ordering. Energy gaps are open due to the interaction effects, both in the bare graphene spectrum and in the vacancy/impurity bands. In the case of 5 % concentration of resonant scatterers the latter gap is estimated as 0.7 eV and 1.1 eV for graphene on boron nitride and freely suspended graphene, respectively.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-02-04T13:14:03Z</published>
+    <arxiv:comment>Text is substantially updated, temperature dependence of order parameter is added. Accepted for publication in PRL</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 114, 246801 (2015)</arxiv:journal_ref>
+    <author>
+      <name>M. V. Ulybyshev</name>
+    </author>
+    <author>
+      <name>M. I. Katsnelson</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.114.246801</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.114.246801" title="doi"/>
+  </entry>
+</feed>

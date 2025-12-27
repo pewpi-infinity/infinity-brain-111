@@ -1,0 +1,73 @@
+TERMS: hydrogen, spin, wavefunction
+COLORS: purple, yellow, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/K8IKCpmyhyqGeKYRBYXjR9sF4tk</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:spin AND all:wavefunction&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:04:09Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:spin+AND+all:wavefunction)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>24</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/physics/0408025v1</id>
+    <title>The novel aspect of hydrogen atom: the fine structure and spin can be derived by single component wavefunction</title>
+    <updated>2004-08-05T14:47:56Z</updated>
+    <link href="https://arxiv.org/abs/physics/0408025v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/physics/0408025v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The fine structure of hydrogen energy was calculated by using the usual momentum-wavefunction relation directly, rather than establishing the well-known Dirac wave equation. As the results, the energy levels are completely the same as that of the Dirac wave equation, while the wavefunction is single component that is quite different from Dirac's four component wavefunction, the most important thing is that the present calculation brings out electronic spin in a new way which has never been reported and indicates that the electronic spin is a kind of orbital motion.</summary>
+    <category term="physics.gen-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-08-05T14:47:56Z</published>
+    <arxiv:comment>LaTex2e,7 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.gen-ph"/>
+    <author>
+      <name>H. Y. Cui</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1902.07690v2</id>
+    <title>Symmetry projected Jastrow mean field wavefunction in variational Monte Carlo</title>
+    <updated>2019-04-12T17:39:11Z</updated>
+    <link href="https://arxiv.org/abs/1902.07690v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1902.07690v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We extend our low-scaling variational Monte Carlo (VMC) algorithm to optimize the symmetry projected Jastrow mean field (SJMF) wavefunctions. These wavefunctions consist of a symmetry-projected product of a Jastrow and a general broken-symmetry mean field reference. Examples include Jastrow antisymmetrized geminal power (JAGP), Jastrow-Pfaffians, and resonating valence bond (RVB) states among others, all of which can be treated with our algorithm. We will demonstrate using benchmark systems including the nitrogen molecule, a chain of hydrogen atoms, and the 2-D Hubbard model that a significant amount of correlation can be obtained by optimizing the energy of the SJMF wavefunction. This can be achieved at a relatively small cost when multiple symmetries including spin, particle number, and complex conjugation are simultaneously broken and projected. We also show that reduced density matrices can be calculated using the optimized wavefunctions, which allows us to calculate other observables such as correlation functions and will enable us to embed the VMC algorithm in a complete active space self-consistent field (CASSCF) calculation.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-02-20T18:30:39Z</published>
+    <arxiv:comment>12 pages, 2 figures, 6 tables; added missing references, fixed typos</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <author>
+      <name>Ankit Mahajan</name>
+    </author>
+    <author>
+      <name>Sandeep Sharma</name>
+    </author>
+    <arxiv:doi>10.1021/acs.jpca.9b01583</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1021/acs.jpca.9b01583" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1002.1534v1</id>
+    <title>Comment on "Clock Shift in High Field Magnetic Resonance of Atomic Hydrogen"</title>
+    <updated>2010-02-08T06:07:09Z</updated>
+    <link href="https://arxiv.org/abs/1002.1534v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1002.1534v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this Comment, we reanalyze the experiments on the collision frequency shift of the b-c and a-d hyperfine transitions in three-dimensional atomic hydrogen in the presence of, respectively, a and b-state atoms. Accurate consideration of the symmetry of the spatial and spin part of the diatomic wavefunction yields the difference a_T-a_S=0.30(5) Åbetween the triplet and singlet s-wave scattering lengths of hydrogen atoms. This corrects the factor-of two error of the commented work [Phys. Rev. Lett. 101, 263003 (2008)].</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-02-08T06:07:09Z</published>
+    <arxiv:comment>1 page</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 104, 099301 (2010)</arxiv:journal_ref>
+    <author>
+      <name>A. I. Safonov</name>
+    </author>
+    <author>
+      <name>I. I. Safonova</name>
+    </author>
+    <author>
+      <name>I. S. Yasnikov</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.104.099301</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.104.099301" title="doi"/>
+  </entry>
+</feed>

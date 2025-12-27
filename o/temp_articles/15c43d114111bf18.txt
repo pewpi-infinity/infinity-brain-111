@@ -1,0 +1,99 @@
+TERMS: frequency, fusion
+COLORS: green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/ABui0UylEMhdggFxeNVz0h1SOL0</id>
+  <title>arXiv Query: search_query=all:frequency AND all:fusion&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T00:57:07Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+all:fusion&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1315</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1107.3348v2</id>
+    <title>Arithmetic and Frequency Filtering Methods of Pixel-Based Image Fusion Techniques</title>
+    <updated>2011-07-19T05:20:59Z</updated>
+    <link href="https://arxiv.org/abs/1107.3348v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1107.3348v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In remote sensing, image fusion technique is a useful tool used to fuse high spatial resolution panchromatic images (PAN) with lower spatial resolution multispectral images (MS) to create a high spatial resolution multispectral of image fusion (F) while preserving the spectral information in the multispectral image (MS).There are many PAN sharpening techniques or Pixel-Based image fusion techniques that have been developed to try to enhance the spatial resolution and the spectral property preservation of the MS. This paper attempts to undertake the study of image fusion, by using two types of pixel-based image fusion techniques i.e. Arithmetic Combination and Frequency Filtering Methods of Pixel-Based Image Fusion Techniques. The first type includes Brovey Transform (BT), Color Normalized Transformation (CN) and Multiplicative Method (MLT). The second type include High-Pass Filter Additive Method (HPFA), High-Frequency-Addition Method (HFA) High Frequency Modulation Method (HFM) and The Wavelet transform-based fusion method (WT). This paper also devotes to concentrate on the analytical techniques for evaluating the quality of image fusion (F) by using various methods including Standard Deviation (SD), Entropy(En), Correlation Coefficient (CC), Signal-to Noise Ratio (SNR), Normalization Root Mean Square Error (NRMSE) and Deviation Index (DI) to estimate the quality and degree of information improvement of a fused image quantitatively.</summary>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-07-18T01:41:37Z</published>
+    <arxiv:comment>Image Fusion, Pixel-Based Fusion, Brovey Transform, Color Normalized, High-Pass Filter, Modulation, Wavelet transform</arxiv:comment>
+    <arxiv:primary_category term="cs.CV"/>
+    <arxiv:journal_ref>Journal-ref: International Journal of Advanced Research in Computer Science,Volume 2, No. 5, Sept-Oct 2011,www.ijarcs.info</arxiv:journal_ref>
+    <author>
+      <name>Firouz Abdullah Al-Wassai</name>
+    </author>
+    <author>
+      <name>N. V. Kalyankar</name>
+    </author>
+    <author>
+      <name>Ali A. Al-Zuky</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2506.13127v2</id>
+    <title>I$^2$RF-TFCKD: Intra-Inter Representation Fusion with Time-Frequency Calibration Knowledge Distillation for Speech Enhancement</title>
+    <updated>2025-10-09T15:51:17Z</updated>
+    <link href="https://arxiv.org/abs/2506.13127v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2506.13127v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we propose an intra-inter representation fusion knowledge distillation (KD) framework with time-frequency calibration (I$^2$RF-TFCKD) for SE, which achieves distillation through the fusion of multi-layer teacher-student feature flows. Different from previous distillation strategies for SE, the proposed framework fully utilizes the time-frequency differential information of speech while promoting global knowledge flow. Firstly, we construct a collaborative distillation paradigm for intra-set and inter-set correlations. Within a correlated set, multi-layer teacher-student features are pairwise matched for calibrated distillation. Subsequently, we generate representative features from each correlated set through residual fusion to form the fused feature set that enables inter-set knowledge interaction. Secondly, we propose a multi-layer interactive distillation based on dual-stream time-frequency cross-calibration, which calculates the teacher-student similarity calibration weights in the time and frequency domains respectively and performs cross-weighting, thus enabling refined allocation of distillation contributions across different layers according to speech characteristics. The proposed distillation strategy is applied to the dual-path dilated convolutional recurrent network (DPDCRN) that ranked first in the SE track of the L3DAS23 challenge. To evaluate the effectiveness of I$^2$RF-TFCKD, we conduct experiments on both single-channel and multi-channel SE datasets. Objective evaluations demonstrate that the proposed KD strategy consistently and effectively improves the performance of the low-complexity student model and outperforms other distillation schemes.</summary>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-06-16T06:20:09Z</published>
+    <arxiv:comment>submitted to Information Fusion</arxiv:comment>
+    <arxiv:primary_category term="cs.SD"/>
+    <author>
+      <name>Jiaming Cheng</name>
+    </author>
+    <author>
+      <name>Ruiyu Liang</name>
+    </author>
+    <author>
+      <name>Ye Ni</name>
+    </author>
+    <author>
+      <name>Chao Xu</name>
+    </author>
+    <author>
+      <name>Jing Li</name>
+    </author>
+    <author>
+      <name>Wei Zhou</name>
+    </author>
+    <author>
+      <name>Rui Liu</name>
+    </author>
+    <author>
+      <name>Björn W. Schuller</name>
+    </author>
+    <author>
+      <name>Xiaoshuai Hao</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1005.2949v1</id>
+    <title>Filter Bank Fusion Frames</title>
+    <updated>2010-05-17T15:17:59Z</updated>
+    <link href="https://arxiv.org/abs/1005.2949v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1005.2949v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper we characterize and construct novel oversampled filter banks implementing fusion frames. A fusion frame is a sequence of orthogonal projection operators whose sum can be inverted in a numerically stable way.  When properly designed, fusion frames can provide redundant encodings of signals which are optimally robust against certain types of noise and erasures.  However, up to this point, few implementable constructions of such frames were known; we show how to construct them using oversampled filter banks.  In this work, we first provide polyphase domain characterizations of filter bank fusion frames. We then use these characterizations to construct filter bank fusion frame versions of discrete wavelet and Gabor transforms, emphasizing those specific finite impulse response filters whose frequency responses are well-behaved.</summary>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-05-17T15:17:59Z</published>
+    <arxiv:comment>keywords: filter banks, frames, tight, fusion, erasures, polyphase</arxiv:comment>
+    <arxiv:primary_category term="cs.IT"/>
+    <author>
+      <name>Amina Chebira</name>
+    </author>
+    <author>
+      <name>Matthew Fickus</name>
+    </author>
+    <author>
+      <name>Dustin G. Mixon</name>
+    </author>
+    <arxiv:doi>10.1109/TSP.2010.2097255</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1109/TSP.2010.2097255" title="doi"/>
+  </entry>
+</feed>

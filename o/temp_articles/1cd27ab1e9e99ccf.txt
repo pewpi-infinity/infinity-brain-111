@@ -1,0 +1,34 @@
+TERMS: hydrogen, crystal, ionization, graphene
+COLORS: purple, orange, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/VVBEAwWuOTnNSQIlVSMGtREBS8k</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:crystal AND all:ionization AND all:graphene&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:59:41Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:crystal+AND+(all:ionization+AND+all:graphene))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2210.14133v1</id>
+    <title>Tuning the pH Response of Monolayer Hexagonal Boron Nitride/Graphene Field-Effect Transistors</title>
+    <updated>2022-10-25T16:30:02Z</updated>
+    <link href="https://arxiv.org/abs/2210.14133v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2210.14133v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The chemical activity of ionized hydrogen describes the potency of protons in solution and is used to define the pH with wide-ranging applications in biological and materials sciences. Measuring pH with graphene field-effect transistors (FETs) has been described in the past but has yet to be characterized with a monolayer hexagonal boron nitride (hBN) capping layer. hBN capping is hypothesized to lower the chemical affinity of protons to oxidized defects in the graphene crystal and lower the standard deviation of pH measurement via screening charge density. First, the electronic properties of commercial, monolayer graphene and monolayer hBN/graphene, both on four-inch 90 nm SiO2/p-type Si, were contrasted as a function of solutal pH in 10 mM phosphate buffered solution. The two-dimensional (2D) FETs were fabricated with photoresistless metallization followed by microcentrifuge tube-masking and reactive ion etching to define a quasi-pure 2D sensing mesa for pH sensing. Thereafter, the devices were exposed to phosphate buffer of varying pH and the resistance and liquid-transfer characteristics measured. The hBN/graphene/SiO2 FETs had higher linearity, and both lower standard deviation and range of Dirac voltage shifting than monolayer graphene/SiO2. Then, before microcentrifuge tube-masking, freshly metallized devices were coated with 9 nm of Al2O3 by electron beam deposition. The Al2O3/graphene/SiO2 and Al2O3/hBN/graphene/SiO2 devices showed an altered response to the pH of the phosphate buffered solutions before and after basic etching of the Al2O3 with NaOH (pH = 12). This prompted studying the pH-dependencies of the 2D devices as a function of the thickness of Al2O3 via atomic layer deposition. These results show that modifying the surface of monolayer graphene with nanoscale dielectrics enables tuning of the pH-dependent electronic properties of graphene pH sensors.</summary>
+    <category term="physics.app-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-10-25T16:30:02Z</published>
+    <arxiv:primary_category term="physics.app-ph"/>
+    <author>
+      <name>Nicholas E. Fuhr</name>
+    </author>
+    <author>
+      <name>Mohamed Azize</name>
+    </author>
+    <author>
+      <name>David J. Bishop</name>
+    </author>
+  </entry>
+</feed>

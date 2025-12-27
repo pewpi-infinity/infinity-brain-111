@@ -1,0 +1,34 @@
+TERMS: hydrogen, crystal, singularity
+COLORS: purple, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/GlbIta3gqmfr9BmYhjHn1j2paTk</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:crystal AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:03:39Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:crystal+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1205.4916v1</id>
+    <title>On the Physical Problem of Spatial Dimensions: An Alternative Procedure to Stability Arguments</title>
+    <updated>2012-05-22T13:41:39Z</updated>
+    <link href="https://arxiv.org/abs/1205.4916v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1205.4916v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Why is space 3-dimensional? The first answer to this question, entirely based on Physics, was given by Ehrenfest, in 1917, who showed that the stability requirement for $n$-dimensional two-body planetary system very strongly constrains space dimensionality, favoring 3-d. This kind of approach will be generically called "stability postulate" throughout this paper and was shown by Tangherlini, in 1963, to be still valid in the framework of general relativity as well as for quantum mechanical hydrogen atom, giving the same constraint for space-dimensionality. In the present work, before criticizing this methodology, a brief discussion has been introduced, aimed at stressing and clarifying some general physical aspects of the problem of how to determine the number of space dimensions. Then, the epistemological consequences of Ehrenfest's methodology are critically reviewed. An alternative procedure to get at the proper number of dimensions, in which the stability postulate (and the implicit singularities in three-dimensional physics) are not an essential part of the argument, is proposed. In this way, the main epistemological problems contained in Ehrenfest's original idea are avoided. The alternative methodology proposed in this paper is realized by obtaining and discussing the $n$-dimensional quantum theory as expressed in Planck's law, de Broglie relation and the Heisenberg uncertainty relation. As a consequence, it is possible to propose an experiment, based on thermal neutron diffraction by crystals, to directly measure space dimensionality. Finally the distinguished role of Maxwell's electromagnetic theory in the determination of space dimensionality is stressed.</summary>
+    <category term="physics.hist-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.gen-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-05-22T13:41:39Z</published>
+    <arxiv:comment>23 pages</arxiv:comment>
+    <arxiv:primary_category term="physics.hist-ph"/>
+    <arxiv:journal_ref>Fundamenta Scientiae 8 (1), p. 73-91 (1987)</arxiv:journal_ref>
+    <author>
+      <name>Francisco Caruso</name>
+    </author>
+    <author>
+      <name>Roberto Moreira Xavier</name>
+    </author>
+  </entry>
+</feed>

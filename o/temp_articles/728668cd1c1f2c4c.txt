@@ -1,0 +1,76 @@
+TERMS: frequency, graphene, boson
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/s+sejVtUji38HkHpsgWXGA/PeKA</id>
+  <title>arXiv Query: search_query=all:frequency AND all:graphene AND all:boson&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:12:14Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:graphene+AND+all:boson)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>12</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1409.8449v1</id>
+    <title>Investigation of the bosonic spectrum of two-dimensional optical graphene-type lattices. Normal phase</title>
+    <updated>2014-09-30T09:24:35Z</updated>
+    <link href="https://arxiv.org/abs/1409.8449v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1409.8449v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The band spectrum of bosonic atoms in two-dimensional honeycomb optical lattices with the graphene-type structure has been studied. The dispersion laws in the bands and the one-particle spectral densities are calculated for the normal phase in the random phase approximation. The temperature-dependent gapless spectrum with Dirac points located at the Brillouin zone boundary is obtained for the lattice with energetically equivalent sites, with the corresponding chemical potential lying outside the allowed energy band. Different on-site energies in the sublattices are shown to induce the appearance of a gap in the spectrum, so that the chemical potential can be located between the subbands, which gives rise to a substantial reconstruction of the band spectrum. The frequency dependences of the one-particle spectral density for both sublattices are determined as functions of the chemical potential level, the spectral gap magnitude, and the temperature.</summary>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-09-30T09:24:35Z</published>
+    <arxiv:comment>13 pages, 8 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.quant-gas"/>
+    <arxiv:journal_ref>Ukrainian Journal of Physics, 2014, Vol. 59, no. 9, pp. 888-900</arxiv:journal_ref>
+    <author>
+      <name>I. V. Stasyuk</name>
+    </author>
+    <author>
+      <name>I. R. Dulepa</name>
+    </author>
+    <author>
+      <name>O. V. Velychko</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2307.03392v1</id>
+    <title>Microscopic analysis of relaxation behavior in nonlinear optical conductivity of graphene</title>
+    <updated>2023-07-07T05:30:06Z</updated>
+    <link href="https://arxiv.org/abs/2307.03392v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2307.03392v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present here a general formulation for the interband dynamical optical conductivity in the nonlinear regime of graphene in the presence of a quantum bath comprising phonons and electrons. Our main focus is the relaxation behavior of the quantum solid of graphene perturbed by an oscillatory electric field. Considering the optical range of the frequency and a considerable amount of the amplitude of the field, one can observe a nonlinear response by formulating a quantum master equation of the density operator associated with the Hamiltonian encapsulated in the form of a spin-Boson model of dissipative quantum statistical mechanics. Mapping the valence and conduction states as the eigenstates of the Pauli spin operators and utilizing the rotating wave approximation to omit off-resonant terms, one can solve the rate equation for the mean population of the conduction and valence states and the mixing matrix elements between them. Our results reveal the nonlinear steady-state regime's population inversion and interband coherence. It is characterized by a single dimensionless parameter that is directly proportional to the incident field strength and inversely proportional to the optical frequency. Our method is also capable of calculating the nonlinear interband optical conductivity of doped and gapped graphene at finite temperatures. The effects of different bath spectra for phonons and electrons are examined in detail. Although our general formulation can address a variety of nonequilibrium response of the two-band system, it also facilitates a connection with phenomenological modeling of nonlinear optical conductivity.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-07-07T05:30:06Z</published>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>Bristi Ghosh</name>
+    </author>
+    <author>
+      <name>Sushanta Dattagupta</name>
+    </author>
+    <author>
+      <name>Malay Bandyopadhyay</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1603.01188v2</id>
+    <title>Multilogarithmic velocity renormalization in graphene</title>
+    <updated>2016-06-20T20:30:56Z</updated>
+    <link href="https://arxiv.org/abs/1603.01188v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1603.01188v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We reexamine the effect of long-range Coulomb interactions on the quasiparticle velocity in graphene. Using a nonperturbative functional renormalization group approach with partial bosonization in the forward scattering channel and momentum transfer cutoff scheme, we calculate the quasiparticle velocity, $v (k)$, and the quasiparticle residue, $Z$, with frequency-dependent polarization. One of our most striking results is that $v ( k ) \propto \ln [ C_k (α) / k ]$ where the momentum- and interaction-dependent cutoff scale $C_k (α) $ vanishes logarithmically for $k \rightarrow 0$. Here $k$ is measured with respect to one of the charge neutrality (Dirac) points and $α=2.2$ is the strength of dimensionless bare interaction. Moreover, we also demonstrate that the so-obtained multilogarithmic singularity is reconcilable with the perturbative expansion of $v (k)$ in powers of the bare interaction.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-03-03T17:19:00Z</published>
+    <arxiv:comment>7 pages, 4 figures. Accepted for publication in Phys. Rev. B</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Phys. Rev. B 93, 235425 (2016)</arxiv:journal_ref>
+    <author>
+      <name>Anand Sharma</name>
+    </author>
+    <author>
+      <name>Peter Kopietz</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.93.235425</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.93.235425" title="doi"/>
+  </entry>
+</feed>

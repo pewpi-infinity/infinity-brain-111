@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Infinity One‑Button Deployer — Pages + Workers</title>
+<style>
+  :root{--bg:#0b0f14;--card:#111826;--ink:#e6edf3;--muted:#8aa0b5;--brand:#4fd1c5;--accent:#7aa2f7;--bad:#ff6b6b;--ok:#a6e3a1}
+  html,body{height:100%}
+  body{background:linear-gradient(120deg,#0b0f14,#0d1522 40%,#0b0f14);color:var(--ink);font:500 16px/1.45 ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue",Arial}
+  .wrap{max-width:980px;margin:28px auto;padding:16px}
+  .card{background:linear-gradient(180deg,#0f1727,#0d1420);border:1px solid #1e2a3b;border-radius:18px;box-shadow:0 10px 35px rgba(0,0,0,.35);padding:20px}
+  h1{font-size:20px;letter-spacing:.3px;margin:0 0 12px;display:flex;gap:10px;align-items:center}
+  .tag{font-size:12px;color:#0b141f;background:linear-gradient(90deg,var(--brand),#22d3ee);padding:2px 8px;border-radius:999px;font-weight:700}
+  .grid{display:grid;gap:14px}
+  @media(min-width:820px){.grid{grid-template-columns:1.2fr 1fr}}
+  label{display:block;font-size:12px;color:var(--muted);margin-bottom:6px}
+  input[type=text], input[type=password]{width:100%;padding:12px 14px;border-radius:12px;border:1px solid #233149;background:#0c1320;color:var(--ink);outline:none}
+  input[type=file]{display:block;width:100%;padding:10px;border-radius:12px;border:1px dashed #31405a;background:#0c1320;color:var(--muted)}
+  .row{display:flex;gap:12px;flex-wrap:wrap}
+  .btn{appearance:none;border:0;border-radius:14px;padding:12px 16px;font-weight:800;color:#051018;background:linear-gradient(90deg,var(--brand),#22d3ee);cursor:pointer;box-shadow:0 6px 24px rgba(34,211,238,.2)}
+  .ghost{background:#131b2a;color:#c7d4e6;border:1px solid #203049}
+  .danger{background:linear-gradient(90deg,#ff6b6b,#f59e0b)}
+  .ok{background:linear-gradient(90deg,#34d399,#6ee7b7)}
+  small.mono{font-family:ui-monospace,Menlo,Consolas,monospace;color:#9fb0c3}
+  .log{min-height:160px;white-space:pre-wrap;background:#0b1120;border:1px solid #1f2b42;border-radius:12px;padding:12px;color:#dbeafe}
+  .pill{display:inline-block;padding:2px 8px;border-radius:999px;border:1px solid #1e2a3b;color:#89a3be;margin-right:6px}
+  .muted{color:#89a3be}
+  .hint{font-size:12px;color:#7aa2f7}
+  .divider{height:1px;background:#162238;margin:10px 0}
+  kbd{padding:.2rem .45rem;border-radius:.4rem;border:1px solid #2a3a58;background:#0e1626;color:#dbeafe}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="card">
+      <h1>Infinity One‑Button Deployer <span class="tag">Pages + Workers</span></h1>
+      <div class="muted" style="margin-bottom:12px">Upload your file(s). I auto‑detect whether to deploy a <b>Worker</b> (single JS) or package a <b>Pages</b> static site (HTML/CSS/JS, multi‑file) and push it. One button. No maze.</div>
+
+      <div class="grid">
+        <section>
+          <div class="row">
+            <div style="flex:1">
+              <label>Cloudflare Account ID</label>
+              <input id="acc" type="text" placeholder="e.g. 1234567890abcdef1234567890abcdef" />
+            </div>
+            <div style="flex:1">
+              <label>API Token (Edit Cloudflare Workers + Pages)</label>
+              <input id="tok" type="password" placeholder="Paste token (kept only in this tab)" />
+            </div>
+          </div>
+          <div class="row">
+            <div style="flex:1">
+              <label>Worker Name (optional)</label>
+              <input id="wname" type="text" placeholder="auto‑generated if empty" />
+            </div>
+            <div style="flex:1">
+              <label>Pages Project (optional)</label>
+              <input id="pname" type="text" placeholder="auto‑generated if empty" />
+            </div>
+          </div>
+          <div class="divider"></div>
+          <label>Files (choose a folder for Pages or a single .js for Worker)</label>
+          <input id="files" type="file" multiple webkitdirectory directory />
+          <div class="row" style="margin-top:12px">
+            <button class="btn" id="deploy">AUTO DEPLOY</button>
+            <button class="btn ghost" id="dry">DRY‑RUN (no network)</button>
+            <button class="btn danger" id="clear">CLEAR</button>
+          </div>
+          <div class="hint" style="margin-top:10px">Tip: If your Android browser hides the folder picker, tap the file picker three‑dot menu ➜ "Show internal storage" then pick a folder.</div>
+        </section>
+
+        <section>
+          <div style="margin-bottom:8px"><span class="pill">Mode</span><span id="mode" class="muted">—</span></div>
+          <div class="log" id="log">Ready.
+• Upload a single .js file ⇒ deploy as Worker
+• Upload a folder/multiple files ⇒ package & deploy as Pages
+          </div>
+          <div class="row" style="margin-top:10px">
+            <button class="btn ok" id="copyCurl">COPY cURL PLAN</button>
+            <button class="btn ghost" id="dlZip">DOWNLOAD PAGES .zip</button>
+          </div>
+          <small class="mono">No data leaves this tab unless you hit AUTO DEPLOY. If CORS blocks direct API calls, use the generated cURL plan or deploy via the included proxy Worker.</small>
+        </section>
+      </div>
+    </div>
+
+    <div class="card" style="margin-top:16px">
+      <h1>Optional: Deploy the API Proxy Worker <span class="tag">safest path</span></h1>
+      <div class="muted" style="margin-bottom:10px">Browsers sometimes block direct calls to Cloudflare’s API (CORS). If that happens, deploy this tiny Worker once, set its <code>CF_ACCOUNT_ID</code> and <code>CF_API_TOKEN</code> as encrypted vars, and this page will route your one‑button deploys through it.</div>
+      <div class="row" style="margin-bottom:8px"><button class="btn" id="copyProxy">COPY proxy worker.js</button><button class="btn ghost" id="copyRoutes">COPY wrangler.toml</button></div>
+      <div class="hint">Env required on the Worker: <code>CF_API_TOKEN</code>, <code>CF_ACCOUNT_ID</code>. Route: <code>POST /deploy</code></div>
+    </div>
+  </div>
+
+<script>
+const $ = sel => document.querySelector(sel);
+const logEl = $('#log');
+const modeEl = $('#mode');
+const filesEl = $('#files');
+const accEl = $('#acc');
+const tokEl = $('#tok');
+const wnameEl = $('#wname');
+const pnameEl = $('#pname');
+
+let picked = [];
+
+function log(msg){
+  logEl.textContent += "\n" + msg;
+  logEl.scrollTop = logEl.scrollHeight;
+}
+
+filesEl.addEventListener('change', async (e)=>{
+  picked = Array.from(e.target.files||[]);
+  const jsOnly = picked.length===1 && picked[0].name.toLowerCase().endsWith('.js');
+  modeEl.textContent = jsOnly? 'Worker (single JS)' : 'Pages (multi‑file zip)';
+  logEl.textContent = 'Ready.';
+  log(jsOnly? 'Detected single .js file — will deploy as a Worker.' : 'Detected multiple/HTML files — will package & deploy to Pages.');
+});
+
+$('#clear').onclick = ()=>{ picked=[]; filesEl.value=''; modeEl.textContent='—'; logEl.textContent='Cleared.' };
+
+$('#dry').onclick = async ()=>{
+  if(!picked.length){ log('No files selected.'); return }
+  const plan = await buildPlan(false);
+  log('DRY‑RUN plan built. Use COPY cURL PLAN to get commands.');
+};
+
+$('#copyCurl').onclick = async ()=>{
+  if(!picked.length){ log('No files selected.'); return }
+  const plan = await buildPlan(false);
+  await navigator.clipboard.writeText(plan.curl.join('\n\n'));
+  log('Copied cURL plan to clipboard. Run it in Termux/desktop if browser blocks direct API.');
+};
+
+$('#dlZip').onclick = async ()=>{
+  if(!picked.length){ log('No files selected.'); return }
+  const jsOnly = picked.length===1 && picked[0].name.toLowerCase().endsWith('.js');
+  if(jsOnly){ log('Zip is for Pages (multi‑file). You selected a single JS Worker.'); return }
+  const {zipBlob} = await toZip(picked);
+  const url = URL.createObjectURL(zipBlob);
+  const a = document.createElement('a');
+  a.href = url; a.download = 'pages-deploy.zip'; a.click();
+  URL.revokeObjectURL(url);
+  log('Downloaded pages-deploy.zip');
+};
+
+$('#deploy').onclick = async ()=>{
+  if(!picked.length){ log('No files selected.'); return }
+  const useProxy = false; // flip to true if you deploy the proxy Worker below and change apiBase accordingly
+  const apiBase = useProxy? location.origin.replace(/\/$/,'') : 'https://api.cloudflare.com/client/v4';
+  const plan = await buildPlan(true, apiBase);
+  if(plan.kind==='worker'){
+    log('Deploying Worker…');
+    const ok = await pushWorker(plan, apiBase);
+    if(ok){ log('✓ Worker deployed. URL (workers.dev): https://' + plan.name + '.workers.dev') }
+  } else {
+    log('Deploying Pages project…');
+    const ok = await pushPages(plan, apiBase);
+    if(ok){ log('✓ Pages deployment requested. Check your Cloudflare dashboard for status.') }
+  }
+};
+
+async function buildPlan(attachBlobs=false, apiBase='https://api.cloudflare.com/client/v4'){
+  const acc = accEl.value.trim();
+  const tok = tokEl.value.trim();
+  if(!acc || !tok){ throw log('Missing Account ID or API Token.') }
+  const jsOnly = picked.length===1 && picked[0].name.toLowerCase().endsWith('.js');
+  if(jsOnly){
+    const name = (wnameEl.value || 'infinity-'+Date.now()).toLowerCase().replace(/[^a-z0-9-]/g,'-');
+    const body = await picked[0].text();
+    const curl = [
+`# Deploy Worker (service‑worker syntax)
+curl -sS -X PUT \ 
+  "${apiBase}/accounts/${acc}/workers/scripts/${name}" \
+  -H "Authorization: Bearer ${tok}" \
+  -H "Content-Type: application/javascript" \
+  --data-binary @${picked[0].name}`
+    ];
+    return {kind:'worker', name, acc, tok, body: attachBlobs?body:null, curl};
+  }
+  // Pages plan
+  const project = (pnameEl.value || 'infinity-pages-'+Date.now()).toLowerCase().replace(/[^a-z0-9-]/g,'-');
+  const {zipBlob} = await toZip(picked);
+  const curl = [
+`# 1) Create project (idempotent)
+curl -sS -X POST "${apiBase}/accounts/${acc}/pages/projects" \
+ -H "Authorization: Bearer ${tok}" -H "Content-Type: application/json" \
+ -d '{"name":"${project}","production_branch":"main"}'`,
+`# 2) Direct upload deploy
+curl -sS -X POST "${apiBase}/accounts/${acc}/pages/projects/${project}/deployments" \
+ -H "Authorization: Bearer ${tok}" \
+ -F "deployment=@pages-deploy.zip;type=application/zip"`
+  ];
+  return {kind:'pages', project, acc, tok, zip: attachBlobs?zipBlob:null, curl};
+}
+
+async function pushWorker(plan, apiBase){
+  try{
+    const res = await fetch(`${apiBase}/accounts/${plan.acc}/workers/scripts/${plan.name}`,{
+      method:'PUT',
+      headers:{
+        'Authorization':`Bearer ${plan.tok}`,
+        'Content-Type':'application/javascript'
+      },
+      body: plan.body
+    });
+    const j = await res.json().catch(()=>({}));
+    if(!res.ok){ log('Worker error: '+res.status+' '+JSON.stringify(j)); return false }
+    return true;
+  }catch(e){ log('Network error pushing Worker. Likely CORS. Use cURL plan or proxy.'); return false }
+}
+
+async function pushPages(plan, apiBase){
+  try{
+    // try create project (idempotent)
+    await fetch(`${apiBase}/accounts/${plan.acc}/pages/projects`,{
+      method:'POST',
+      headers:{'Authorization':`Bearer ${plan.tok}`,'Content-Type':'application/json'},
+      body: JSON.stringify({name:plan.project, production_branch:'main'})
+    }).catch(()=>{});
+    // upload deployment
+    const form = new FormData();
+    form.append('deployment', plan.zip, 'pages-deploy.zip');
+    const res = await fetch(`${apiBase}/accounts/${plan.acc}/pages/projects/${plan.project}/deployments`,{
+      method:'POST', headers:{'Authorization':`Bearer ${plan.tok}`}, body: form
+    });
+    const j = await res.json().catch(()=>({}));
+    if(!res.ok){ log('Pages error: '+res.status+' '+JSON.stringify(j)); return false }
+    return true;
+  }catch(e){ log('Network/CORS prevented Pages deploy. Use cURL plan or proxy.'); return false }
+}
+
+// Minimal ZIP builder (no deps). Stores every file at its relative name (no folders beyond given names).
+// NOTE: This writes a very simple ZIP (no compression). Good enough for Pages direct upload.
+async function toZip(fileList){
+  function crc32(buf){ // tiny crc32
+    let table = crc32.table || (crc32.table = (function(){let c,t=[];for(let n=0;n<256;n++){c=n;for(let k=0;k<8;k++) c = (c&1)? (0xedb88320 ^ (c>>>1)) : (c>>>1); t[n]=c>>>0;} return t})());
+    let crc = -1; const dv = new DataView(buf.buffer||buf); for(let i=0;i<dv.byteLength;i++){ crc = (crc>>>8) ^ table[(crc ^ dv.getUint8(i)) & 0xff]; }
+    return (crc ^ -1)>>>0;
+  }
+  const enc = new TextEncoder();
+  const files = await Promise.all(fileList.map(async f=>({name:f.webkitRelativePath||f.name, data:new Uint8Array(await f.arrayBuffer())})));
+  let parts=[]; let central=[]; let offset=0;
+  function pushLocal(nameBytes, data){
+    const sig = [0x50,0x4b,0x03,0x04];
+    const ver=[20,0]; const gp=[0,0]; const method=[0,0]; const time=[0,0]; const date=[0,0];
+    const crc = crc32(new DataView(data.buffer));
+    const crcArr = [crc & 0xff, (crc>>>8)&0xff, (crc>>>16)&0xff, (crc>>>24)&0xff];
+    const size = data.length; const sz = [size & 0xff, (size>>>8)&0xff, (size>>>16)&0xff, (size>>>24)&0xff];
+    const nameLen = [nameBytes.length & 0xff, (nameBytes.length>>>8)&0xff];
+    const extraLen=[0,0];
+    const header = new Uint8Array([ ...sig, ...ver, ...gp, ...method, ...time, ...date, ...crcArr, ...sz, ...sz, ...nameLen, ...extraLen ]);
+    parts.push(header, nameBytes, data);
+    const localSize = header.length + nameBytes.length + data.length;
+    const localStart = offset; offset += localSize; return {crc, size, localStart};
+  }
+  function pushCentral(nameBytes, info){
+    const sig=[0x50,0x4b,0x01,0x02];
+    const verMade=[20,0]; const verNeed=[20,0]; const gp=[0,0]; const method=[0,0]; const time=[0,0]; const date=[0,0];
+    const crcArr=[info.crc & 0xff,(info.crc>>>8)&0xff,(info.crc>>>16)&0xff,(info.crc>>>24)&0xff];
+    const sz=[info.size & 0xff,(info.size>>>8)&0xff,(info.size>>>16)&0xff,(info.size>>>24)&0xff];
+    const nameLen=[nameBytes.length & 0xff,(nameBytes.length>>>8)&0xff];
+    const extraLen=[0,0]; const cmtLen=[0,0]; const disk=[0,0]; const attrs=[0,0]; const extAttrs=[0,0,0,0];
+    const rel = info.localStart; const relArr=[rel & 0xff,(rel>>>8)&0xff,(rel>>>16)&0xff,(rel>>>24)&0xff];
+    const header = new Uint8Array([ ...sig, ...verMade, ...verNeed, ...gp, ...method, ...time, ...date, ...crcArr, ...sz, ...sz, ...nameLen, ...extraLen, ...cmtLen, ...disk, ...attrs, ...extAttrs, ...relArr ]);
+    central.push(header, nameBytes);
+  }
+  for(const f of files){
+    const nameBytes = enc.encode(f.name.replace(/^\/+/,''));
+    const info = pushLocal(nameBytes, f.data);
+    pushCentral(nameBytes, info);
+  }
+  const cenSize = central.reduce((a,b)=>a+b.length,0);
+  const cenStart = offset;
+  const eocdSig=[0x50,0x4b,0x05,0x06];
+  const disk=[0,0]; const disk2=[0,0];
+  const count=files.length; const cnt=[count & 0xff,(count>>>8)&0xff];
+  const cenSz=[cenSize & 0xff,(cenSize>>>8)&0xff,(cenSize>>>16)&0xff,(cenSize>>>24)&0xff];
+  const cenOff=[cenStart & 0xff,(cenStart>>>8)&0xff,(cenStart>>>16)&0xff,(cenStart>>>24)&0xff];
+  const eocd = new Uint8Array([ ...eocdSig, ...disk, ...disk2, ...cnt, ...cnt, ...cenSz, ...cenOff, 0,0 ]);
+  const blob = new Blob([...parts, ...central, eocd], {type:'application/zip'});
+  return {zipBlob: blob};
+}
+
+// --- Proxy Worker template & wrangler.toml ---
+const PROXY_WORKER = `export default {async fetch(req, env){
+  if(req.method!=='POST' || new URL(req.url).pathname!=='/deploy') return new Response('ok',{status:200});
+  const {kind, name, project, body, zip} = await req.json();
+  const base = 'https://api.cloudflare.com/client/v4';
+  const acc = env.CF_ACCOUNT_ID; const tok = env.CF_API_TOKEN;
+  if(kind==='worker'){
+    const r = await fetch(\`${base}/accounts/\${acc}/workers/scripts/\${name}\`,{method:'PUT',headers:{Authorization:`Bearer ${tok}`,'Content-Type':'application/javascript'},body:body});
+    return new Response(await r.text(),{status:r.status, headers:{'content-type':'application/json'}});
+  } else {
+    await fetch(\`${base}/accounts/\${acc}/pages/projects\`,{method:'POST',headers:{Authorization:`Bearer ${tok}`,'Content-Type':'application/json'},body: JSON.stringify({name:project,production_branch:'main'})});
+    const r = await fetch(\`${base}/accounts/\${acc}/pages/projects/\${project}/deployments\`,{method:'POST',headers:{Authorization:`Bearer ${tok}`,'Content-Type':'application/zip'},body: Uint8Array.from(atob(zip),c=>c.charCodeAt(0))});
+    return new Response(await r.text(),{status:r.status, headers:{'content-type':'application/json'}});
+  }
+}}`;
+
+const WRANGLER_TOML = `name = "infinity-deploy-proxy"\nmain = "worker.js"\ncompatibility_date = "2024-10-01"\n`;
+
+$('#copyProxy').onclick = async ()=>{ await navigator.clipboard.writeText(PROXY_WORKER); log('Proxy worker.js copied to clipboard.'); };
+$('#copyRoutes').onclick = async ()=>{ await navigator.clipboard.writeText(WRANGLER_TOML); log('wrangler.toml copied.'); };
+
+</script>
+</body>
+</html>

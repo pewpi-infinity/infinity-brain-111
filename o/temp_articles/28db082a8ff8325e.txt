@@ -1,0 +1,69 @@
+TERMS: hydrogen, frequency, lattice, entropy
+COLORS: purple, green, orange, red
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/RgPYjOhGxDFko/wCr0/xTH+jJ7I</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:frequency AND all:lattice AND all:entropy&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:41:46Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:frequency+AND+(all:lattice+AND+all:entropy))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/0905.4148v1</id>
+    <title>Analytic continuation average spectrum method for quantum liquids</title>
+    <updated>2009-05-26T09:33:20Z</updated>
+    <link href="https://arxiv.org/abs/0905.4148v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0905.4148v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We revisit the problem of determining the real-frequency density response in quantum fluids via analytical continuation of imaginary-time quantum Monte Carlo data. We demonstrate that the average spectrum method (ASM) is capable of revealing resolved modes in the dynamic structure factor of both ortho-deuterium and liquid para-hydrogen, in agreement with experiments and quantum mode-coupling theories, while the maximum entropy approach yields only a smooth unimodal spectrum. Outstanding issues are discussed. Our work provides the first application of the ASM method in realistic off-lattice systems.</summary>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-05-26T09:33:20Z</published>
+    <arxiv:comment>7 pages, 2 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.other"/>
+    <author>
+      <name>David R. Reichman</name>
+    </author>
+    <author>
+      <name>Eran Rabani</name>
+    </author>
+    <arxiv:doi>10.1063/1.3185728</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/1.3185728" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2401.01431v1</id>
+    <title>A study of the magnetocaloric behavior of Dy-substituted YMn$_2$O$_5$ compounds</title>
+    <updated>2024-01-02T20:49:59Z</updated>
+    <link href="https://arxiv.org/abs/2401.01431v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2401.01431v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this paper, we report on the magnetic and magnetocaloric features of Dy-substituted YMn$_2$O$_5$ (Y$_{1-x}$Dy$_x$Mn$_2$O$_5$) with $x=$ 0.6, 0.8, and 1 series elaborated by sol-gel method. X-ray diffraction and Raman measurements attest well the high quality of our polycrystalline samples that crystallize in an orthorhombic structure with the Pbam space group. The Raman phonon frequencies were carried out and compared with the lattice dynamics calculations to identify the vibrational properties of all detected modes at room temperature. As expected, our magnetic study reveals that the magnetization was enhanced by the substitution of Y$^{3+}$ by Dy$^{3+}$. The Dy-substituted YMn$_2$O$_5$ sets the Néel transition [TN (Mn)] in the temperature range going from 40 to 45 K favoring the emergence of a transition at a very low temperature due to the long-range ordering of the Dy3+ magnetic moments below 13K [TN (Dy)]. Dual peaks in the magnetic entropy change curve are also observed being in good agreement with magnetization data, which enlarges the range of application of these materials. On the other hand, a large magnetocaloric effect is observed close to 13 K which is mainly due the ordering of Dy$^{3+}$ magnetic moments. Also, the incommensurate antiferromagnetic transition of Mn magnetic moment taking place around 40 K affects slightly the entropy change. Our refrigerant capacity (RC) findings are higher compared to the average of RC for a, b, c axis of single crystal samples as HoMn$_2$O$_5$ and TbMn$_2$O$_5$, which confirms that our polycrystalline materials stand for promising magnetic refrigerant candidates that can be invested in space technology, hydrogen and helium liquefaction at cryogenic temperature.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-01-02T20:49:59Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>H. Chouaibi</name>
+    </author>
+    <author>
+      <name>S. Mansouri</name>
+    </author>
+    <author>
+      <name>S. Aitjmal</name>
+    </author>
+    <author>
+      <name>M. Balli</name>
+    </author>
+    <author>
+      <name>O. Chdil</name>
+    </author>
+    <author>
+      <name>M. Abbasi Eskandari</name>
+    </author>
+    <author>
+      <name>S. H. Bukhari</name>
+    </author>
+    <author>
+      <name>P. Fournier</name>
+    </author>
+  </entry>
+</feed>

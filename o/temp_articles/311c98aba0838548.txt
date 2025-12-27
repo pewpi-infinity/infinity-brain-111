@@ -1,0 +1,126 @@
+TERMS: graphene, neutrino, plasma
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/M9G4I5ihdKwX5EfZrQG/XHdnnZI</id>
+  <title>arXiv Query: search_query=all:graphene AND all:neutrino AND all:plasma&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:34:42Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:graphene+AND+(all:neutrino+AND+all:plasma)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2204.12002v1</id>
+    <title>Towards the detection of ultra-low energetic neutrinos with plasma metamaterials</title>
+    <updated>2022-04-26T00:00:41Z</updated>
+    <link href="https://arxiv.org/abs/2204.12002v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2204.12002v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Experiments as IceCube or Super-Kamiokande have been successful in detecting highly energetic neutrinos in the. Neutrinos in the ultra-low energy range ($\mathcal{E}&lt;1.0~\rm{eV}$) have been theoretically predicted but their observation remain elusive, and no concrete experimental scheme has been proposed for that job. Here, we propose a novel scheme based on graphene plasmonic metamaterials to designed to detect ultra-low energetic neutrinos. We claim that slow neutrino fluxes, interacting with solid-state plasmas, can generate an instability due to the weak neutrino-plasmon interaction, which is reminiscent of the beam-plasma instability taking place in astrophysics and laboratory plasmas. We make use of the semi-classical limit of the weak interaction to describe the coupling between the neutrinos and electrons in graphene. To render the scheme practical, we investigate the neutrino-plasma instability produced in a graphene metamaterial, composed by a periodic stacking of graphene layers. Our findings reveal that the controlled excitation of plasma waves in such graphene metamaterial allows for the detection of neutrinos in the energy range $\sim 1.0~\rm{μeV}-100~\rm{meV}$, and fluxes in the range $10^{4}-10^{10} \rm{cm^{-2} s^{-1}}$.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-04-26T00:00:41Z</published>
+    <arxiv:comment>Preliminary results on the detection of slow neutrinos with metamaterials. Updates will still take place. Comments are welcome</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>C. Alfisi</name>
+    </author>
+    <author>
+      <name>H. Terças</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1307.4738v2</id>
+    <title>Development of a Relic Neutrino Detection Experiment at PTOLEMY: Princeton Tritium Observatory for Light, Early-Universe, Massive-Neutrino Yield</title>
+    <updated>2013-08-26T13:45:15Z</updated>
+    <link href="https://arxiv.org/abs/1307.4738v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1307.4738v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The PTOLEMY experiment (Princeton Tritium Observatory for Light, Early-Universe, Massive-Neutrino Yield) aims to achieve the sensitivity required to detect the relic neutrino background through a combination of a large area surface-deposition tritium target, MAC-E filter methods, cryogenic calorimetry, and RF tracking and time-of-flight systems. A small-scale prototype is in operation at the Princeton Plasma Physics Laboratory with the goal of validating the technologies that would enable the design of a 100 gram PTOLEMY. With precision calorimetry in the prototype setup, the limitations from quantum mechanical and Doppler broadening of the tritium target for different substrates will be measured, including graphene substrates. Beyond relic neutrino physics, sterile neutrinos contributing to the dark matter in the universe are allowed by current constraints on partial contributions to the number of active neutrino species in thermal equilibrium in the early universe. The current PTOLEMY prototype is expected to have unique sensitivity in the search for sterile neutrinos with electron-flavor content for masses of 0.1--1keV, where less stringent, 10eV, energy resolution is required. The search for sterile neutrinos with electron-flavor content with the 100g PTOLEMY is expected to reach the level $|U_{e4}|^2$ of $10^{-4}$--$10^{-6}$, depending on the sterile neutrino mass.</summary>
+    <category term="astro-ph.IM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-07-17T19:27:46Z</published>
+    <arxiv:primary_category term="astro-ph.IM"/>
+    <author>
+      <name>S. Betts</name>
+    </author>
+    <author>
+      <name>W. R. Blanchard</name>
+    </author>
+    <author>
+      <name>R. H. Carnevale</name>
+    </author>
+    <author>
+      <name>C. Chang</name>
+    </author>
+    <author>
+      <name>C. Chen</name>
+    </author>
+    <author>
+      <name>S. Chidzik</name>
+    </author>
+    <author>
+      <name>L. Ciebiera</name>
+    </author>
+    <author>
+      <name>P. Cloessner</name>
+    </author>
+    <author>
+      <name>A. Cocco</name>
+    </author>
+    <author>
+      <name>A. Cohen</name>
+    </author>
+    <author>
+      <name>J. Dong</name>
+    </author>
+    <author>
+      <name>R. Klemmer</name>
+    </author>
+    <author>
+      <name>M. Komor</name>
+    </author>
+    <author>
+      <name>C. Gentile</name>
+    </author>
+    <author>
+      <name>B. Harrop</name>
+    </author>
+    <author>
+      <name>A. Hopkins</name>
+    </author>
+    <author>
+      <name>N. Jarosik</name>
+    </author>
+    <author>
+      <name>G. Mangano</name>
+    </author>
+    <author>
+      <name>M. Messina</name>
+    </author>
+    <author>
+      <name>B. Osherson</name>
+    </author>
+    <author>
+      <name>Y. Raitses</name>
+    </author>
+    <author>
+      <name>W. Sands</name>
+    </author>
+    <author>
+      <name>M. Schaefer</name>
+    </author>
+    <author>
+      <name>J. Taylor</name>
+    </author>
+    <author>
+      <name>C. G. Tully</name>
+    </author>
+    <author>
+      <name>R. Woolley</name>
+    </author>
+    <author>
+      <name>A. Zwicker</name>
+    </author>
+  </entry>
+</feed>

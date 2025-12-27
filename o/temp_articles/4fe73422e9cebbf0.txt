@@ -1,0 +1,137 @@
+TERMS: quantum, resonance
+COLORS: blue, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/GdaUaHLMeKVUVS8LouoXbaoU06A</id>
+  <title>arXiv Query: search_query=all:quantum AND all:resonance&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T00:56:55Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+all:resonance&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>26504</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/0710.1447v1</id>
+    <title>Quantum information processing using nuclear and electron magnetic resonance: review and prospects</title>
+    <updated>2007-10-07T22:47:34Z</updated>
+    <link href="https://arxiv.org/abs/0710.1447v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0710.1447v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  This paper describes recent progress using nuclear magnetic resonance (NMR) as a platform for implementing quantum information processing (QIP) tasks. The basic ideas of NMR QIP are detailed, examining the successes and limitations of liquid and solid state experiments. Finally, a future direction for implementing quantum processors is suggested,utilizing both nuclear and electron spin degrees of freedom.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2007-10-07T22:47:34Z</published>
+    <arxiv:comment>24 pages, 8 figures (to appear in Physics in Canada, Special Issue on Quantum Computing and Quantum Information, 2007)</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Physics in Canada, Theme Issue - Quantum Computing and Quantum Information, Vol. 63, No. 4, 197-206, Oct.-Dec. 2007</arxiv:journal_ref>
+    <author>
+      <name>J. Baugh</name>
+    </author>
+    <author>
+      <name>J. Chamilliard</name>
+    </author>
+    <author>
+      <name>C. M. Chandrashekar</name>
+    </author>
+    <author>
+      <name>M. Ditty</name>
+    </author>
+    <author>
+      <name>A. Hubbard</name>
+    </author>
+    <author>
+      <name>R. Laflamme</name>
+    </author>
+    <author>
+      <name>M. Laforest</name>
+    </author>
+    <author>
+      <name>D. Maslov</name>
+    </author>
+    <author>
+      <name>O. Moussa</name>
+    </author>
+    <author>
+      <name>C. Negrevergne</name>
+    </author>
+    <author>
+      <name>M. Silva</name>
+    </author>
+    <author>
+      <name>S. Simmons</name>
+    </author>
+    <author>
+      <name>C. A. Ryan</name>
+    </author>
+    <author>
+      <name>D. G. Cory</name>
+    </author>
+    <author>
+      <name>J. S. Hodges</name>
+    </author>
+    <author>
+      <name>C. Ramanathan</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1705.00365v2</id>
+    <title>Measuring Holographic Entanglement Entropy on a Quantum Simulator</title>
+    <updated>2019-04-11T06:10:26Z</updated>
+    <link href="https://arxiv.org/abs/1705.00365v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1705.00365v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Quantum simulation promises to have wide applications in many fields where problems are hard to model with classical computers. Various quantum devices of different platforms have been built to tackle the problems in, say, quantum chemistry, condensed matter physics, and high-energy physics. Here, we report an experiment towards the simulation of quantum gravity by simulating the holographic entanglement entropy. On a six-qubit nuclear magnetic resonance quantum simulator, we demonstrate a key result of Anti-de Sitter/conformal field theory(\adscft) correspondence---the Ryu-Takayanagi formula is demonstrated by measuring the relevant entanglement entropies on the perfect tensor state. The fidelity of our experimentally prepared the six-qubit state is 85.0\% via full state tomography and reaches 93.7\% if the signal-decay due to decoherence is taken into account. Our experiment serves as the basic module of simulating more complex tensor network states that exploring \adscft correspondence. As the initial experimental attempt to study \adscft via quantum information processing, our work opens up new avenues exploring quantum gravity phenomena on quantum simulators.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-04-30T19:22:29Z</published>
+    <arxiv:comment>To appear in NPJ quantum information. All comments are welcome!</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>npj Quantum Information, volume 5, Article number: 30 (2019)</arxiv:journal_ref>
+    <author>
+      <name>Keren Li</name>
+    </author>
+    <author>
+      <name>Muxin Han</name>
+    </author>
+    <author>
+      <name>Dongxue Qu</name>
+    </author>
+    <author>
+      <name>Zichang Huang</name>
+    </author>
+    <author>
+      <name>Guilu Long</name>
+    </author>
+    <author>
+      <name>Yidun Wan</name>
+    </author>
+    <author>
+      <name>Dawei Lu</name>
+    </author>
+    <author>
+      <name>Bei Zeng</name>
+    </author>
+    <author>
+      <name>Raymond Laflamme</name>
+    </author>
+    <arxiv:doi>10.1038/s41534-019-0145-z</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1038/s41534-019-0145-z" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/quant-ph/0008034v1</id>
+    <title>Resonance Offset Tailored Pulses for NMR Quantum Computation</title>
+    <updated>2000-08-07T14:02:22Z</updated>
+    <link href="https://arxiv.org/abs/quant-ph/0008034v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/quant-ph/0008034v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We describe novel composite pulse sequences which act as general rotors and thus are suitable for nuclear magnetic resonance (NMR) quantum computation. The Resonance Offset Tailoring To Enhance Nutations (ROTTEN) approach permits perfect compensation of off-resonance errors at two selected frequencies placed symmetrically around the frequency of the RF source.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2000-08-07T14:02:22Z</published>
+    <arxiv:comment>4 pages, 3 (multipart) figures. Submitted to the Journal of Magnetic Resonance</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>H. K. Cummins</name>
+    </author>
+    <author>
+      <name>J. A. Jones</name>
+    </author>
+  </entry>
+</feed>

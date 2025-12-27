@@ -1,0 +1,69 @@
+TERMS: wavefunction, plasma
+COLORS: yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Wt7f210c3QCNB9jWCLosdXnnH3A</id>
+  <title>arXiv Query: search_query=all:wavefunction AND all:plasma&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:00:00Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:wavefunction+AND+all:plasma&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>90</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/0912.2720v1</id>
+    <title>Resistivity in warm dense plasmas beyond the average-atom model</title>
+    <updated>2009-12-14T20:07:29Z</updated>
+    <link href="https://arxiv.org/abs/0912.2720v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0912.2720v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The exploration of atomic properties of strongly coupled partially degenerate plasmas, also referred to as warm dense matter, is important in astrophysics, since this thermodynamic regime is encountered for instance in Jovian planets' interior. One of the most important issues is the need for accurate equations of state and transport coefficients. The Ziman formula has been widely used for the computation of the static (DC) electrical resistivity. Usually, the calculations are based on the continuum wavefunctions computed in the temperature and density-dependent self-consistent potential of a fictive atom, representing the average ionization state of the plasma (average-atom model). We present calculations of the electrical resistivity of a plasma based on the superconfiguration (SC) formalism. In this modeling, the contributions of all the electronic configurations are taken into account. It is possible to obtain all the situations between the two limiting cases: detailed configurations (a super-orbital is a single orbital) and detailed ions (all orbitals are gathered in the same super-orbital). The ingredients necessary for the calculation are computed in a self-consistent manner for each SC, using a density-functional description of the electrons. Electron exchange-correlation is handled in the local-density approximation. The momentum transfer cross-sections are calculated by using the phase shifts of the continuum electron wavefunctions computed, in the potential of each SC, by the Schroedinger equation with relativistic corrections (Pauli approximation). Comparisons with experimental data are also presented.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-12-14T20:07:29Z</published>
+    <arxiv:comment>submitted to "Contributions to Plasma Physics"</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>Jean-Christophe Pain</name>
+    </author>
+    <author>
+      <name>Gerard Dejonghe</name>
+    </author>
+    <arxiv:doi>10.1002/ctpp.201010010</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1002/ctpp.201010010" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1206.1079v1</id>
+    <title>An introduction to quantum plasmas</title>
+    <updated>2012-06-05T22:10:26Z</updated>
+    <link href="https://arxiv.org/abs/1206.1079v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1206.1079v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Shielding effects in non-degenerate and degenerate plasmas are compared. A detailed derivation of the Wigner-Poisson system is provided for electrostatic quantum plasmas where relativistic, spin and collisional effects are not essential. Later a detailed derivation of a quantum hydrodynamic model starting from the Wigner-Poisson system is shown. The route for this derivation considers the eikonal decomposition of the one-body wavefunctions of the quantum statistical mixture. The merits and limitations of the resulting quantum hydrodynamic model are discussed.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-06-05T22:10:26Z</published>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>Fernando Haas</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1009.5215v2</id>
+    <title>Colloquium: Nonlinear collective interactions in quantum plasmas with degenerate electron fluids</title>
+    <updated>2011-05-10T13:46:10Z</updated>
+    <link href="https://arxiv.org/abs/1009.5215v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1009.5215v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The current understanding of some important nonlinear collective processes in quantum plasmas with degenerate electrons is presented. After reviewing the basic properties of quantum plasmas, we present model equations (e.g. the quantum hydrodynamic and effective nonlinear Schrödinger-Poisson equations) that describe collective nonlinear phenomena at nanoscales. The effects of the electron degeneracy arise due to Heisenberg's uncertainty principle and Pauli's exclusion principle for overlapping electron wavefunctions that result in tunneling of electrons and the electron degeneracy pressure. Since electrons are Fermions (spin-1/2), there also appears an electron spin current and a spin force acting on electrons due to the Bohr magnetization. The quantum effects produce new aspects of electrostatic (ES) and electromagnetic (EM) waves in a quantum plasma that are summarized in here. Furthermore, we discuss nonlinear features of ES ion waves and electron plasma oscillations (ESOs), as well as the trapping of intense EM waves in quantum electron density cavities. Specifically, simulation studies of the coupled nonlinear Schrödinger (NLS) and Poisson equations reveal the formation and dynamics of localized ES structures at nanoscales in a quantum plasma. We also discuss the effect of an external magnetic field on the plasma wave spectra and develop quantum magnetohydrodynamic (Q-MHD) equations. The results are useful for understanding numerous collective phenomena in quantum plasmas, such as those in compact astrophysical objects, in plasma-assisted nanotechnology, and in the next-generation of intense laser-solid density plasma interaction experiments.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-09-27T10:49:31Z</published>
+    <arxiv:comment>25 pages, 14 figures. To be published in Reviews of Modern Physics</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>P. K. Shukla</name>
+    </author>
+    <author>
+      <name>B. Eliasson</name>
+    </author>
+    <arxiv:doi>10.1103/RevModPhys.83.885</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/RevModPhys.83.885" title="doi"/>
+  </entry>
+</feed>

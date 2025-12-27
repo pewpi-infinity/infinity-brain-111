@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Live Page Assembler Demo</title>
+</head>
+<body>
+
+<h1>🧱 Live Page Assembler</h1>
+<p>Click buttons to simulate intent.</p>
+
+<button onclick="addChat()">Add Chat</button>
+<button onclick="addFeed()">Add Feed</button>
+
+<div id="c13b0-root"></div>
+
+<script type="module">
+import { assemble } from "../assembler/assemble.js";
+
+window.addChat = () => {
+  assemble({ action: "add", target: "chat" });
+};
+
+window.addFeed = () => {
+  assemble({ action: "add", target: "feed" });
+};
+</script>
+
+</body>
+</html>

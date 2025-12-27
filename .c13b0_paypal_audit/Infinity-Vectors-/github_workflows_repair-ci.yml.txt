@@ -1,0 +1,40 @@
+name: repair-check
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    paths:
+      - '**/*'
+jobs:
+  scan-and-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+      - name: Install Python dependencies (none required)
+        run: echo "No extra Python deps required for scanner"
+      - name: Run repo scanner
+        run: python3 scripts/repo-scan.py --root .
+      - name: Install Node dependencies and build
+        run: |
+          if [ -f package-lock.json ] || [ -f package.json ]; then
+            npm ci
+            if npm run build --silent; then
+              echo "Build succeeded"
+            else
+              echo "::error ::Build failed"
+              exit 1
+            fi
+          else
+            echo "No package.json found - skipping node build"
+          fi

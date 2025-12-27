@@ -1,0 +1,91 @@
+TERMS: quantum, spin, probability
+COLORS: blue, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/pjG6uoZHnINV7FYYCtZQkf04ptA</id>
+  <title>arXiv Query: search_query=all:quantum AND all:spin AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:08:14Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:spin+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2095</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2105.11685v3</id>
+    <title>Bounds on the recurrence probability in periodically-driven quantum systems</title>
+    <updated>2022-04-05T16:33:33Z</updated>
+    <link href="https://arxiv.org/abs/2105.11685v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2105.11685v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Periodically-driven systems are ubiquitous in science and technology. In quantum dynamics, even a small number of periodically-driven spins leads to complicated dynamics. Hence, it is of interest to understand what constraints such dynamics must satisfy. We derive a set of constraints for each number of cycles. For pure initial states, the observable being constrained is the recurrence probability. We use our constraints for detecting undesired coupling to unaccounted environments and drifts in the driving parameters. To illustrate the relevance of these results for modern quantum systems we demonstrate our findings experimentally on a trapped-ion quantum computer, and on various IBM quantum computers. Specifically, we provide two experimental examples where these constraints surpass fundamental bounds associated with known one-cycle constraints. This scheme can potentially be used to detect the effect of the environment in quantum circuits that cannot be classically simulated. Finally, we show that, in practice, testing an $n$-cycle constraint requires executing only $O(\sqrt{n})$ cycles, which makes the evaluation of constraints associated with hundreds of cycles realistic.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-05-25T05:45:45Z</published>
+    <arxiv:comment>v3: The version accepted to quantum</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Quantum 6, 682 (2022)</arxiv:journal_ref>
+    <author>
+      <name>Tanmoy Pandit</name>
+    </author>
+    <author>
+      <name>Alaina M. Green</name>
+    </author>
+    <author>
+      <name>C. Huerta Alderete</name>
+    </author>
+    <author>
+      <name>Norbert M. Linke</name>
+    </author>
+    <author>
+      <name>Raam Uzdin</name>
+    </author>
+    <arxiv:doi>10.22331/q-2022-04-06-682</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.22331/q-2022-04-06-682" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2412.05997v3</id>
+    <title>Doubly Quantum Mechanics</title>
+    <updated>2025-04-10T16:11:16Z</updated>
+    <link href="https://arxiv.org/abs/2412.05997v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.05997v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Motivated by the expectation that relativistic symmetries might acquire quantum features in Quantum Gravity, we take the first steps towards a theory of ''Doubly'' Quantum Mechanics, a modification of Quantum Mechanics in which the geometrical configurations of physical systems, measurement apparata, and reference frame transformations are themselves quantized and described by ''geometry'' states in a Hilbert space. We develop the formalism for spin-$\frac{1}{2}$ measurements by promoting the group of spatial rotations $SU(2)$ to the quantum group $SU_q(2)$ and generalizing the axioms of Quantum Theory in a covariant way. As a consequence of our axioms, the notion of probability becomes a self-adjoint operator acting on the Hilbert space of geometry states, hence acquiring novel non-classical features. After introducing a suitable class of semi-classical geometry states, which describe near-to-classical geometrical configurations of physical systems, we find that probability measurements are affected, in these configurations, by intrinsic uncertainties stemming from the quantum properties of $SU_q(2)$. This feature translates into an unavoidable fuzziness for observers attempting to align their reference frames by exchanging qubits, even when the number of exchanged qubits approaches infinity, contrary to the standard $SU(2)$ case.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-08T17:10:35Z</published>
+    <arxiv:comment>20 pages + appendices and references, 3 figures; v3 matches the version accepted for publication in Quantum</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Quantum 9, 1721 (2025)</arxiv:journal_ref>
+    <author>
+      <name>Vittorio D'Esposito</name>
+    </author>
+    <author>
+      <name>Giuseppe Fabiano</name>
+    </author>
+    <author>
+      <name>Domenico Frattulillo</name>
+    </author>
+    <author>
+      <name>Flavio Mercati</name>
+    </author>
+    <arxiv:doi>10.22331/q-2025-04-24-1721</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.22331/q-2025-04-24-1721" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1102.2497v1</id>
+    <title>Dynamic Symmetries and Entropic Inequalities in the Probability Representation of Quantum Mechanics</title>
+    <updated>2011-02-12T11:01:43Z</updated>
+    <link href="https://arxiv.org/abs/1102.2497v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1102.2497v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The probability representation of quantum and classical statistical mechanics is discussed. Symplectic tomography, center-of-mass tomography, and spin tomography are studied. The connection of tomographic probabilities with dynamic symmetries like symplectic group is considered. Entropic uncertainty relations and inequalities for spin tomograms are reviewed.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-02-12T11:01:43Z</published>
+    <arxiv:comment>32 pages, 2 figures, PDF, the article is based on lectures given by the authors at the XL Latin American School of Physics "Symmetries in Physics" in memory of Marcos Moshinsky and devoted to the tomographic-probability representation of quantum mechanics</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Margarita A. Man'ko</name>
+    </author>
+    <author>
+      <name>Vladimir I. Man'ko</name>
+    </author>
+    <arxiv:doi>10.1063/1.3555483</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/1.3555483" title="doi"/>
+  </entry>
+</feed>

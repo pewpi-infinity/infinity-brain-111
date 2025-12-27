@@ -1,0 +1,87 @@
+TERMS: entropy, electron, spin
+COLORS: red, green, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/UIOvraAaK7FCxcGZP78GF1vNXC4</id>
+  <title>arXiv Query: search_query=all:entropy AND all:electron AND all:spin&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:17:03Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+(all:electron+AND+all:spin)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>356</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1501.00952v1</id>
+    <title>Heat Bath Algorithmic Cooling with Spins: Review and Prospects</title>
+    <updated>2015-01-05T19:24:43Z</updated>
+    <link href="https://arxiv.org/abs/1501.00952v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1501.00952v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Application of multiple rounds of Quantum Error Correction (QEC) is an essential milestone towards the construction of scalable quantum information processing devices. However, experimental realizations of it are still in their infancy. The requirements for multiple round QEC are high control fidelity and the ability to extract entropy from ancilla qubits. Nuclear Magnetic Resonance (NMR) based quantum devices have demonstrated high control fidelity with up to 12 qubits. On the other hand, the major challenge in the NMR QEC experiment is to efficiently supply ancilla qubits in highly pure states at the beginning of each round of QEC. Purification of qubits in NMR, or in other ensemble based quantum systems can be accomplished through Heat Bath Algorithmic Cooling (HBAC). It is an efficient method for extracting entropy from qubits that interact with a heat bath, allowing cooling below the bath temperature. For practical HBAC, coupled electron-nuclear spin systems are more promising than conventional NMR quantum processors, since electron spin polarization is about $10^3$ times greater than that of a proton under the same experimental conditions. We provide an overview on both theoretical and experimental aspects of HBAC focusing on spin and magnetic resonance based systems, and discuss the prospects of exploiting electron-nuclear coupled systems for the realization of HBAC and multiple round QEC.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-01-05T19:24:43Z</published>
+    <arxiv:comment>26 pages, 17 figures. To appear in Electron Spin Quantum Computing: Electron Spin-Qubit Based Quantum Computing and Quantum Information Processing, Biological Magnetic Resonance Vol. 31 (2015)</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Daniel K. Park</name>
+    </author>
+    <author>
+      <name>Nayeli A. Rodriguez-Briones</name>
+    </author>
+    <author>
+      <name>Guanru Feng</name>
+    </author>
+    <author>
+      <name>Robabeh R. Darabad</name>
+    </author>
+    <author>
+      <name>Jonathan Baugh</name>
+    </author>
+    <author>
+      <name>Raymond Laflamme</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1807.04694v2</id>
+    <title>Entanglement and Entropy in Electron-Electron Scattering</title>
+    <updated>2018-12-13T16:33:11Z</updated>
+    <link href="https://arxiv.org/abs/1807.04694v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1807.04694v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Treating Coulomb scattering of two free electrons in a stationary approach, we explore the momentum and spin entanglement created by the interaction. We show that a particular discretisation provides an estimate of the von Neumann entropy of the one-electron reduced density matrix from the experimentally accessible Shannon entropy. For spinless distinguishable electrons the entropy is sizeable at low energies, indicating strong momentum entanglement, and drops to almost zero at energies of the order of 10 keV when the azimutal degree of freedom is integrated out, i.e. practically no entanglement and almost pure one-electron states. If spin is taken into account, the entropy for electrons with antiparallel spins should be larger than in the parallel-spin case, since it embodies both momentum and spin entanglement. Surprisingly, this difference, as well as the deviation from the spin-less case, is extremely small for the complete scattering state. Strong spin entanglement can however be obtained by post-selecting states at scattering angle pi/2.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-07-12T16:00:09Z</published>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Peter Schattschneider</name>
+    </author>
+    <author>
+      <name>Stefan Löffler</name>
+    </author>
+    <author>
+      <name>Herbert Gollisch</name>
+    </author>
+    <author>
+      <name>Roland Feder</name>
+    </author>
+    <arxiv:doi>10.1016/j.elspec.2018.11.009</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.elspec.2018.11.009" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2309.17325v5</id>
+    <title>Evanescent Electron Wave Spin</title>
+    <updated>2024-09-02T06:41:36Z</updated>
+    <link href="https://arxiv.org/abs/2309.17325v5" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2309.17325v5" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This study demonstrates the existence of an evanescent electron wave outside both finite and infinite quantum wells by solving the Dirac equation and ensuring the continuity of the spinor wavefunction at the boundaries. We show that this evanescent wave shares the spin characteristics of the wave confined within the well, as indicated by analytical expressions for the current density across all regions. Our findings suggest that the electron cannot be confined to a mathematical singularity and that quantum information, or quantum entropy, can leak through any confinement. These results emphasize that the electron wave, fully characterized by Lorentz-invariant charge and current densities, should be considered the true and sole entity of the electron.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-09-29T15:32:37Z</published>
+    <arxiv:comment>6 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Ju Gao</name>
+    </author>
+    <author>
+      <name>Fang Shen</name>
+    </author>
+  </entry>
+</feed>

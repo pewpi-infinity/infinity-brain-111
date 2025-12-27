@@ -1,0 +1,93 @@
+TERMS: frequency, entropy, crystal
+COLORS: green, red, orange
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/KH2vT3A1DRJzg78qzPOSeHsFq9M</id>
+  <title>arXiv Query: search_query=all:frequency AND all:entropy AND all:crystal&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:09:54Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:entropy+AND+all:crystal)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>46</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2402.04738v2</id>
+    <title>Unveiling a crystal's entropy of disorder via electron diffraction. A statistical mechanics approach</title>
+    <updated>2024-02-08T15:22:10Z</updated>
+    <link href="https://arxiv.org/abs/2402.04738v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2402.04738v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Upon melting, the molecules in the crystal explore numerous configurations, reflecting an increase in disorder. The molar entropy of disorder can be defined by Bolzmann's formula dSd = Rln(Wd) where Wd is the increase in the number of microscopic states, so far inaccessible experimentally. We found that the Arrhenius frequency factor A of the electron diffraction signal decay provides Wd via an experimental equation A = AINTWd where AINT is an inelastic scattering cross-section. The method connects Clausius and Boltzmann experimentally and supplements the Clausius approach, being applicable to a femtogram quantity of thermally unstable and biomolecular crystals. The data also showed that crystal disordering and crystallization of melt are reciprocal, both governed by the entropy change, but manifesting in opposite directions.</summary>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-02-07T10:47:36Z</published>
+    <arxiv:comment>18 pages, 5 figures, 1 table</arxiv:comment>
+    <arxiv:primary_category term="physics.chem-ph"/>
+    <author>
+      <name>Dongxin Liu</name>
+    </author>
+    <author>
+      <name>Oren Elishav</name>
+    </author>
+    <author>
+      <name>Jiarui Fu</name>
+    </author>
+    <author>
+      <name>Masaya Sakakibara</name>
+    </author>
+    <author>
+      <name>Kaoru Yamanouchi</name>
+    </author>
+    <author>
+      <name>Barak Hirshberg</name>
+    </author>
+    <author>
+      <name>Takayuki Nakamuro</name>
+    </author>
+    <author>
+      <name>Eiichi Nakamura</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1207.0395v1</id>
+    <title>Dynamics of relaxation, decoherence and entropy of a qubit in anisotropic photonic crystals</title>
+    <updated>2012-07-02T14:17:47Z</updated>
+    <link href="https://arxiv.org/abs/1207.0395v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1207.0395v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the quantum dynamics of relaxation, decoherence and entropy of a qubit embedded in an anisotropic photonic crystal (PhC) through fractional calculus. These quantum measurements are investigated by analytically solving the fractional Langevin equation. The qubit with frequency lying inside the photonic band gap (PBG) exhibits the preserving behavior of energy, coherence and information amount through the steady values of excited-state probability, polarization oscillation and von Neumann entropy. This preservation does not exist in the Markovian system with qubit frequency lying outside the PBG region. These accurate results are based on the appropriate mathematical method of fractional calculus and reasonable inference of physical phenomena.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.optics" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-07-02T14:17:47Z</published>
+    <arxiv:comment>20 pages, 4 figures</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Jing-Nuo Wu</name>
+    </author>
+    <author>
+      <name>Hung-Kuang Chen</name>
+    </author>
+    <author>
+      <name>Wen-Feng Hsieh</name>
+    </author>
+    <author>
+      <name>Szu-Cheng Cheng</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1609.02141v1</id>
+    <title>Correlations in Usage Frequencies and Shannon Entropy for Codons</title>
+    <updated>2016-09-07T19:03:09Z</updated>
+    <link href="https://arxiv.org/abs/1609.02141v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1609.02141v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The usage frequencies for codons belonging to quartets are analized, over the whole exonic region, for 92 biological species. Correlation is put into evidence, between the usage frequencies of synonymous codons with third nucleotide A and C and between the usage frequencies of non synonymous codons, belonging to suitable subsets of the quartets, with the same third nucleotide. A correlation is pointed out between amino acids belonging to subsets of the set encoded by quartets of codons. It is remarked that the computed Shannon entropy for quartets is weakly dependent on the biological species. The observed correlations well fit in the mathematical scheme of the crystal basis model of the genetic code.</summary>
+    <category term="q-bio.OT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-09-07T19:03:09Z</published>
+    <arxiv:comment>42 pages, 12 figures, 33 Tables</arxiv:comment>
+    <arxiv:primary_category term="q-bio.OT"/>
+    <author>
+      <name>Diego Cocurullo</name>
+    </author>
+    <author>
+      <name>Antonino Sciarrino</name>
+    </author>
+  </entry>
+</feed>

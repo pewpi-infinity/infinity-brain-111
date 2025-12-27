@@ -1,0 +1,77 @@
+TERMS: resonance, probability
+COLORS: green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/j8zj1JGZ9eNfpBIlr12laPnUsbQ</id>
+  <title>arXiv Query: search_query=all:resonance AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:00:29Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:resonance+AND+all:probability&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2702</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/math/0503455v1</id>
+    <title>The exit problem for diffusions with time-periodic drift and stochastic resonance</title>
+    <updated>2005-03-22T14:40:28Z</updated>
+    <link href="https://arxiv.org/abs/math/0503455v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0503455v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Physical notions of stochastic resonance for potential diffusions in periodically changing double-well potentials such as the spectral power amplification have proved to be defective. They are not robust for the passage to their effective dynamics: continuous-time finite-state Markov chains describing the rough features of transitions between different domains of attraction of metastable points. In the framework of one-dimensional diffusions moving in periodically changing double-well potentials we design a new notion of stochastic resonance which refines Freidlin's concept of quasi-periodic motion. It is based on exact exponential rates for the transition probabilities between the domains of attraction which are robust with respect to the reduced Markov chains. The quality of periodic tuning is measured by the probability for transition during fixed time windows depending on a time scale parameter. Maximizing it in this parameter produces the stochastic resonance points.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-03-22T14:40:28Z</published>
+    <arxiv:comment>Published at http://dx.doi.org/10.1214/105051604000000530 in the Annals of Applied Probability (http://www.imstat.org/aap/) by the Institute of Mathematical Statistics (http://www.imstat.org)</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <arxiv:journal_ref>Annals of Applied Probability 2005, Vol. 15, No. 1A, 39-68</arxiv:journal_ref>
+    <author>
+      <name>Samuel Herrmann</name>
+    </author>
+    <author>
+      <name>Peter Imkeller</name>
+    </author>
+    <arxiv:doi>10.1214/105051604000000530</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1214/105051604000000530" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/math/0411386v2</id>
+    <title>Transition times and stochastic resonance for multidimensional diffusions with time periodic drift: A large deviations approach</title>
+    <updated>2007-02-09T12:30:45Z</updated>
+    <link href="https://arxiv.org/abs/math/0411386v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/math/0411386v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We consider potential type dynamical systems in finite dimensions with two meta-stable states. They are subject to two sources of perturbation: a slow external periodic perturbation of period $T$ and a small Gaussian random perturbation of intensity $ε$, and, therefore, are mathematically described as weakly time inhomogeneous diffusion processes. A system is in stochastic resonance, provided the small noisy perturbation is tuned in such a way that its random trajectories follow the exterior periodic motion in an optimal fashion, that is, for some optimal intensity $ε(T)$. The physicists' favorite, measures of quality of periodic tuning--and thus stochastic resonance--such as spectral power amplification or signal-to-noise ratio, have proven to be defective. They are not robust w.r.t. effective model reduction, that is, for the passage to a simplified finite state Markov chain model reducing the dynamics to a pure jumping between the meta-stable states of the original system. An entirely probabilistic notion of stochastic resonance based on the transition dynamics between the domains of attraction of the meta-stable states--and thus failing to suffer from this robustness defect--was proposed before in the context of one-dimensional diffusions. It is investigated for higher-dimensional systems here, by using extensions and refinements of the Freidlin--Wentzell theory of large deviations for time homogeneous diffusions. Large deviations principles developed for weakly time inhomogeneous diffusions prove to be key tools for a treatment of the problem of diffusion exit from a domain and thus for the approach of stochastic resonance via transition probabilities between meta-stable sets.</summary>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-11-17T17:14:19Z</published>
+    <arxiv:comment>Published at http://dx.doi.org/10.1214/105051606000000385 in the Annals of Applied Probability (http://www.imstat.org/aap/) by the Institute of Mathematical Statistics (http://www.imstat.org)</arxiv:comment>
+    <arxiv:primary_category term="math.PR"/>
+    <arxiv:journal_ref>Annals of Applied Probability 2006, Vol. 16, No. 4, 1851-1892</arxiv:journal_ref>
+    <author>
+      <name>Samuel Herrmann</name>
+    </author>
+    <author>
+      <name>Peter Imkeller</name>
+    </author>
+    <author>
+      <name>Dierk Peithmann</name>
+    </author>
+    <arxiv:doi>10.1214/105051606000000385</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1214/105051606000000385" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/astro-ph/0507477v2</id>
+    <title>Reducing the Probability of Capture into Resonance</title>
+    <updated>2005-11-03T17:40:57Z</updated>
+    <link href="https://arxiv.org/abs/astro-ph/0507477v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/astro-ph/0507477v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  A migrating planet can capture planetesimals into mean motion resonances. However, resonant trapping can be prevented when the drift or migration rate is sufficiently high. Using a simple Hamiltonian system for first and second order resonances, we explore how the capture probability depends on the order of the resonance, drift rate and initial particle eccentricity. We present scaling factors as a function of the planet mass and resonance strength to estimate the planetary migration rate above which the capture probability drops to less than 1/2. Applying our framework to multiple extra solar planetary systems that have two planets locked in resonance, we estimate lower limits for the outer planet's migration rate allowing resonance capture of the inner planet. Mean motion resonances are comprised of multiple resonant subterms. We find that the corotation subterm can reduce the probability of capture when the planet eccentricity is above a critical value. We present factors that can be used to estimate this critical planet eccentricity. Applying our framework to the migration of Neptune, we find that Neptune's eccentricity is near the critical value that would make its 2:1 resonance fail to capture twotinos. The capture probability is affected by the separation between resonant subterms and so is also a function of the precession rates of the longitudes of periapse of both planet and particle near resonance.</summary>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-07-20T14:25:32Z</published>
+    <arxiv:comment>Accepted for publication in MNRAS</arxiv:comment>
+    <arxiv:primary_category term="astro-ph"/>
+    <arxiv:journal_ref>Mon.Not.Roy.Astron.Soc.365:1367-1382,2006</arxiv:journal_ref>
+    <author>
+      <name>Alice C. Quillen</name>
+      <arxiv:affiliation>U Rochester</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1111/j.1365-2966.2005.09826.x</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1111/j.1365-2966.2005.09826.x" title="doi"/>
+  </entry>
+</feed>

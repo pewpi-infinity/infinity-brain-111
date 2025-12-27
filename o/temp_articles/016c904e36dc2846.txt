@@ -1,0 +1,67 @@
+TERMS: hydrogen, electron, crystal, boson
+COLORS: purple, green, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/+m/2Pbr2b1hzcgOh171Hv26IECc</id>
+  <title>arXiv Query: search_query=all:hydrogen AND all:electron AND all:crystal AND all:boson&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:55:29Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:hydrogen+AND+(all:electron+AND+(all:crystal+AND+all:boson))&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2508.17487v1</id>
+    <title>Mechanisms of superconductivity and inhomogeneous states in metallic hydrogen and electron systems with attraction</title>
+    <updated>2025-08-24T18:35:44Z</updated>
+    <link href="https://arxiv.org/abs/2508.17487v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2508.17487v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In the Review we discuss anomalous aspects of superconductivity (SC) and normal state, as well as formation of inhomogeneous (droplet-like or cluster-like) states in electron systems with attraction. We consider both the models with the retardation (Eliashberg mechanism of SC for strong electron-phonon interaction in metallic hydrogen) and without retardation (but with local onsite attraction). We concentrate on the mechanism of the BCS-BEC crossover for the Hubbard model with local attraction and diagonal disorder for the two-dimensional films of the dirty metal. We analyze also the model of the inhomogeneous spaceseparated Fermi-Bose mixture for the bismuth oxides BaKBiO, which contains the paired clusters of bosonic states as well as unpaired fermionic clusters. Superconductivity is realized in this system due to local pairs tunneling from one bosonic cluster to the neighboring one via the fermionic barrier. For metallic hydrogen and metallic hydrides, we calculate the critical temperature and discuss important possibility for practical applications how to increase the temperature by decreasing pressure in the framework of the generalized Eliashberg approach. We advocate also interesting analogies with the quantum (vortex) crystal for long-living low-dimensional metastable phases of metallic hydrogen including filamentous phase with proton chains embedded in 3D electron Fermi liquid and planar phase with proton plains. We formulate the concept of two Bose-condensates in SC electron and superfluid (SF) ion subsystems and provide the estimate for the lifetime of the long-living metastable phases at normal pressure. The estimate is connected with the formation and growth of the critical seeds of the new (molecular) phase in the process of quantum under-barrier tunneling.</summary>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-08-24T18:35:44Z</published>
+    <arxiv:comment>14 pages, 6 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.supr-con"/>
+    <author>
+      <name>M. Yu. Kagan</name>
+    </author>
+    <author>
+      <name>A. V. Krasavin</name>
+    </author>
+    <author>
+      <name>R. Sh. Ikhsanov</name>
+    </author>
+    <author>
+      <name>E. A. Mazur</name>
+    </author>
+    <author>
+      <name>A. P. Menushenkov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1605.08679v1</id>
+    <title>One Dimensional 1H, 2H and 3H</title>
+    <updated>2016-05-27T15:13:55Z</updated>
+    <link href="https://arxiv.org/abs/1605.08679v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1605.08679v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The ground-state properties of one-dimensional electron-spin-polarized hydrogen $^1$H, deuterium $^2$H, and tritium $^3$H are obtained by means of quantum Monte Carlo methods. The equations of state of the three isotopes are calculated for a wide range of linear densities. The pair correlation function and the static structure factor are obtained and interpreted within the framework of the Luttinger liquid theory. We report the density dependence of the Luttinger parameter and use it to identify different physical regimes: Bogoliubov Bose gas, super-Tonks-Girardeau gas, and quasi-crystal regimes for bosons; repulsive, attractive Fermi gas, and quasi-crystal regimes for fermions. We find that the tritium isotope is the one with the richest behaviour. Our results show unambiguously the relevant role of the isotope mass in the properties of this quantum system.</summary>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-05-27T15:13:55Z</published>
+    <arxiv:comment>19 pages, 7 figures, contribution to special issue in NJP in memory of Marvin Girardeau</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.quant-gas"/>
+    <arxiv:journal_ref>New J. Phys. 18, 055013 (2016)</arxiv:journal_ref>
+    <author>
+      <name>A. J. Vidal</name>
+    </author>
+    <author>
+      <name>G. E. Astrakharchik</name>
+    </author>
+    <author>
+      <name>L. L. Vranješ Markić</name>
+    </author>
+    <author>
+      <name>J. Boronat</name>
+    </author>
+    <arxiv:doi>10.1088/1367-2630/18/5/055013</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1367-2630/18/5/055013" title="doi"/>
+  </entry>
+</feed>

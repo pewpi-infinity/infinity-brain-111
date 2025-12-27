@@ -1,0 +1,97 @@
+TERMS: quantum, spin, oxidation
+COLORS: blue, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/hdzrXHb4h539rsTldxAe2PhBgtk</id>
+  <title>arXiv Query: search_query=all:quantum AND all:spin AND all:oxidation&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:08:13Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:spin+AND+all:oxidation)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>650</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/quant-ph/0209008v1</id>
+    <title>Oxide-Semiconductor Materials for Quantum Computation</title>
+    <updated>2002-08-31T22:40:38Z</updated>
+    <link href="https://arxiv.org/abs/quant-ph/0209008v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/quant-ph/0209008v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Scalable fault-tolerant quantum computer architectures require quantum gates that operate within a small fraction of the qubit decoherence time and with high accuracy over a bandwidth set by the decoherence rate. Electron spin quantum bits in Si are promising because of long decoherence times (~0.5 ms), but electrical gating schemes still seem problematic. Oxide-semiconductor heterostructures have the potential for precise electrical control of gate operations in the semiconductor, using optical rectification in the ferroelectric oxide. Accurate (~80 dB), local (~10 nm), dynamic (&gt;THz) and programmable optical control over electric polarization in the ferroelectric can be achieved using existing technology. Optical techniques may also be useful in rapid initialization of the quantum computer, and for providing a source of initialized qubits to use for quantum error correction. Advantages of optical methods will be discussed within a framework proposed for a quantum information processor using ferroelectrically coupled electron spins and Ge quantum dots in Si.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-08-31T22:40:38Z</published>
+    <arxiv:comment>10 pages, 2 figures, 1 table. To appear in Physica Status Solidi(b), proceedings of 275th Heraeus Seminar on "Hardware Concepts for Quantum Computing"</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Jeremy Levy</name>
+    </author>
+    <arxiv:doi>10.1002/1521-3951(200210)233:3&lt;467::AID-PSSB467&gt;3.0.CO;2-3</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1002/1521-3951(200210)233:3&lt;467::AID-PSSB467&gt;3.0.CO;2-3" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1811.02235v2</id>
+    <title>Effect of surface oxidation on electron spin coherence of single nitrogen-vacancy centers in nanodiamonds</title>
+    <updated>2018-11-07T03:10:15Z</updated>
+    <link href="https://arxiv.org/abs/1811.02235v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1811.02235v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Fluorescent nanodiamonds (NDs) are crystal defect-based light-emitting nanoparticles that can be applied to quantum information science and quantum sensing. Of particular interest are nitrogen vacancy (NV) centers that allow optical access to their coherently controllable electron spin systems, leading to spin-photon quantum devices and nanoscale sensing of various physical parameters. However, the NV spin coherence time (T2) in NDs has been limited to one or two orders of magnitude shorter than those in bulk diamonds owing to the complicated surface effect that decoheres the NV spin systems. Here, we study the relation between the surface properties and T2 of single NV centers in NDs by systematically analyzing the effect of surface oxidation. We apply aerobic and acidic oxidation methods with various heating temperatures and processing times and find that aerobic oxidation most effectively oxidizes the surface and extends T2 by a factor of 1.6 to the original NDs. The ND-size dependence of T2 clearly shows that the surface oxidation removes a constant decoherence contribution irrespective of the ND size and that a new surface derived decoherence source emerges when the ND size reduces below 50 nm. The present results provide quantitative information on the decoherence sources of NV spin systems of NDs and will enable a strategic surface modification for better spin manipulations of NV centers in the context of quantum information science and nanoscale quantum sensing.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-11-06T09:01:25Z</published>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>ACS Appl. Nano Mater. 2, 3701 (2019)</arxiv:journal_ref>
+    <author>
+      <name>Ryuta Tsukahara</name>
+    </author>
+    <author>
+      <name>Masazumi Fujiwara</name>
+    </author>
+    <author>
+      <name>Yoshihiko Sera</name>
+    </author>
+    <author>
+      <name>Yushi Nishimura</name>
+    </author>
+    <author>
+      <name>Yuko Sugai</name>
+    </author>
+    <author>
+      <name>Christian Jentgens</name>
+    </author>
+    <author>
+      <name>Yoshio Teki</name>
+    </author>
+    <author>
+      <name>Hideki Hashimoto</name>
+    </author>
+    <author>
+      <name>Shinichi Shikata</name>
+    </author>
+    <arxiv:doi>10.1021/acsanm.9b00614</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1021/acsanm.9b00614" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2409.00246v2</id>
+    <title>An NV- center in magnesium oxide as a spin qubit for hybrid quantum technologies</title>
+    <updated>2025-01-24T04:58:33Z</updated>
+    <link href="https://arxiv.org/abs/2409.00246v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2409.00246v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Recent predictions suggest that oxides, such as MgO and CaO, could serve as hosts of spin defects with long coherence times and thus be promising materials for quantum applications. However, in most cases specific defects have not yet been identified. Here, by using a high-throughput first-principles framework and advanced electronic structure methods, we identify a negatively-charged complex between a nitrogen interstitial and a magnesium vacancy in MgO with favorable electronic and optical properties for hybrid quantum technologies. We show that this NV- center has stable triplet ground and excited states, with singlet shelving states enabling optical initialization and spin-dependent readout. We predict several properties, including absorption, emission, and zero-phonon line energies, as well as zero-field splitting tensor, and hyperfine interaction parameters, which can aid in the experimental identification of this defect. Our calculations show that due to a strong pseudo-Jahn Teller effect and low frequency phonon modes, the NV- center in MgO is subject to a substantial vibronic coupling. We discuss design strategies to reduce such coupling and increase the Debye-Waller factor, including the effect of strain and the localization of the defect states. We propose that the favorable properties of the NV- defect, along with the technological maturity of MgO, could enable hybrid classical-quantum applications, such as spintronic quantum sensors and single qubit gates.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-08-30T20:32:40Z</published>
+    <arxiv:comment>16 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <author>
+      <name>Vrindaa Somjit</name>
+    </author>
+    <author>
+      <name>Joel Davidsson</name>
+    </author>
+    <author>
+      <name>Yu Jin</name>
+    </author>
+    <author>
+      <name>Giulia Galli</name>
+    </author>
+  </entry>
+</feed>

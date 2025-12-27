@@ -1,0 +1,68 @@
+TERMS: wavefunction, singularity
+COLORS: yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/hlqTv75mHacJk9cJlYyVOEOhrVg</id>
+  <title>arXiv Query: search_query=all:wavefunction AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:00:07Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:wavefunction+AND+all:singularity&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>278</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2304.06760v1</id>
+    <title>Quantum gravitational non-singular tunneling wavefunction proposal</title>
+    <updated>2023-04-13T18:03:25Z</updated>
+    <link href="https://arxiv.org/abs/2304.06760v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2304.06760v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>It was recently shown that tunneling wavefunction proposal is consistent with loop quantum geometry corrections including both holonomy and inverse scale factor corrections in the gravitational part of a spatially closed isotropic model with a positive cosmological constant. However, in presence of an inflationary potential the initial singularity is kinetic dominated and the effective minisuperspace potential again diverges at zero scale factor. Since the wavefunction in loop quantum cosmology cannot increase towards the zero scale factor, the tunneling wavefunction seems incompatible. We show that consistently including inverse scale factor modifications in scalar field Hamiltonian changes the effective potential into a barrier potential allowing the tunneling proposal. We also discuss a potential quantum instability of the cyclic universe resulting from tunneling.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-04-13T18:03:25Z</published>
+    <arxiv:comment>Generalizes results of 2212.14065 by authors. Proceedings paper of 2nd ECU conference. 10 pages. 5 figures</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Phys. Sci. Forum 2023, 7(1), 44</arxiv:journal_ref>
+    <author>
+      <name>Meysam Motaharfar</name>
+    </author>
+    <author>
+      <name>Parampreet Singh</name>
+    </author>
+    <arxiv:doi>10.3390/ECU2023-14101</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.3390/ECU2023-14101" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2012.00166v1</id>
+    <title>The presence of non-analyticities and singularities in the wavefunction and the role of invisible delta potentials</title>
+    <updated>2020-11-30T23:37:00Z</updated>
+    <link href="https://arxiv.org/abs/2012.00166v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2012.00166v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This article examines the suggestion made in Ref. [EPL, 115 (2016) 60001] that a solution to a particle in an infinite spherical well model, if it is square-integrable, is a physically valid solution, even if at the precise location of the singularity there is no underlying physical cause, therefore, the divergence would have to be a nonlocal phenomenon caused by confining walls at a distance. In this work we examine this claim more carefully. By identifying the correct differential equation for a divergent square-integrable solution and rewriting it in the form of the Schroedinger equation, we infer that the divergent wavefunction would be caused by the potential V(r)=-r delta(r), which is a kind of attractive delta potential. Because of its peculiar form and the fact that it leads to a divergent potential energy &lt;V&gt; = - infinity, the potential V(r) and the divergent wavefunction associated with it are not physically meaningful.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-11-30T23:37:00Z</published>
+    <arxiv:comment>5</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Jorge Munzenmayer</name>
+    </author>
+    <author>
+      <name>Derek Frydel</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2310.01525v2</id>
+    <title>From Amplitudes to Analytic Wavefunctions</title>
+    <updated>2024-04-19T13:39:01Z</updated>
+    <link href="https://arxiv.org/abs/2310.01525v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2310.01525v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The field-theoretic wavefunction has received renewed attention with the goal of better understanding observables at the boundary of de Sitter spacetime and studying the interior of Minkowski or general FLRW spacetime. Understanding the analytic structure of the wavefunction potentially allows us to establish bounds on physical observables. In this paper we develop an amplitude representation for the flat space wavefunction, which allow us to write the flat space wavefunction as an amplitude-like Feynman integral integrated over an energy-fixing kernel. With this representation it is possible to separate the wavefunction into an amplitude part and a subleading part which is less divergent as the total energy goes to zero. In turn the singularities of the wavefunction can be classified into two sets: amplitude-type singularities, which can be mapped to singularities found in amplitudes (including anomalous thresholds), and wavefunction-type singularities, which are unique to the wavefunction. As an example we study several tree level and one loop diagrams for scalars, and explore their singularities in detail.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-10-02T18:15:08Z</published>
+    <arxiv:comment>29 pages, 15 figures; added appendix B, updated references and fixed typos</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Mang Hei Gordon Lee</name>
+    </author>
+  </entry>
+</feed>

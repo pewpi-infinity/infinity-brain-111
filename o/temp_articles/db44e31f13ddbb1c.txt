@@ -1,0 +1,97 @@
+TERMS: frequency, electron, spin
+COLORS: green, green, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Bn6LnwCaM9fZYqshc75CKbN3Z2g</id>
+  <title>arXiv Query: search_query=all:frequency AND all:electron AND all:spin&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:10:32Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:electron+AND+all:spin)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2572</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0610716v2</id>
+    <title>Electron spin as a spectrometer of nuclear spin noise and other fluctuations</title>
+    <updated>2006-11-19T02:07:27Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0610716v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0610716v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  This chapter describes the relationship between low frequency noise and coherence decay of localized spins in semiconductors. Section 2 establishes a direct relationship between an arbitrary noise spectral function and spin coherence as measured by a number of pulse spin resonance sequences. Section 3 describes the electron-nuclear spin Hamiltonian, including isotropic and anisotropic hyperfine interactions, inter-nuclear dipolar interactions, and the effective Hamiltonian for nuclear-nuclear coupling mediated by the electron spin hyperfine interaction. Section 4 describes a microscopic calculation of the nuclear spin noise spectrum arising due to nuclear spin dipolar flip-flops with quasiparticle broadening included. Section 5 compares our explicit numerical results to electron spin echo decay experiments for phosphorus doped silicon in natural and nuclear spin enriched samples.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-10-26T01:58:47Z</published>
+    <arxiv:comment>Book chapter in "Electron spin resonance and related phenomena in low dimensional structures", edited by Marco Fanciulli. To be published by Springer-Verlag in the TAP series. 35 pages, 9 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>R. de Sousa, Top. Appl. Phys. 115, 183 (2009)</arxiv:journal_ref>
+    <author>
+      <name>Rogerio de Sousa</name>
+    </author>
+    <arxiv:doi>10.1007/978-3-540-79365-6_10</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/978-3-540-79365-6_10" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2306.07474v1</id>
+    <title>Effect of geometry on the frequency limit of GaAs/AlGaAs 2-Dimensional Electron Gas (2DEG) Hall effect sensors</title>
+    <updated>2023-06-13T00:40:36Z</updated>
+    <link href="https://arxiv.org/abs/2306.07474v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2306.07474v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this work, we experimentally investigate the frequency limit of Hall effect sensor designs based on a 2 dimensional electron gas (2DEG) gallium arsenide/aluminum gallium arsenide (GaAs/AlGaAs) heterostructure. The frequency limit is measured and compared for four GaAs/AlGaAs Hall effect sensor designs where the Ohmic contact length (contact geometry) is varied across the four devices. By varying the geometry, the trade-off in sensitivity and frequency limit is explored and the underlying causes of the frequency limit from the resistance and capacitance perspective is investigated. Current spinning, the traditional method to remove offset noise, imposes a practical frequency limit on Hall effect sensors. The frequency limit of the Hall effect sensor, without current spinning, is significantly higher. Wide-frequency Hall effect sensors can measure currents in power electronics that operate at higher frequencies is one such application.</summary>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-06-13T00:40:36Z</published>
+    <arxiv:comment>Hall effect sensors, magnetic sensing, frequency limit, 2DEGs</arxiv:comment>
+    <arxiv:primary_category term="physics.ins-det"/>
+    <author>
+      <name>Anand Lalwani</name>
+    </author>
+    <author>
+      <name>Miriam Giparakis</name>
+    </author>
+    <author>
+      <name>Kanika Arora</name>
+    </author>
+    <author>
+      <name>Avidesh Maharaj</name>
+    </author>
+    <author>
+      <name>Akash Levy</name>
+    </author>
+    <author>
+      <name>Gottfried Strasser</name>
+    </author>
+    <author>
+      <name>Aaron Maxwell Andrews</name>
+    </author>
+    <author>
+      <name>Helmut Köck</name>
+    </author>
+    <author>
+      <name>Debbie G. Senesky</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1805.09605v1</id>
+    <title>Electron Spin Noise under the Conditions of Nuclei Induced Frequency Focusing</title>
+    <updated>2018-05-24T11:10:33Z</updated>
+    <link href="https://arxiv.org/abs/1805.09605v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1805.09605v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study theoretically the electron spin noise in quantum dots under non-equilibrium conditions caused by the pumping by a train of circularly polarized optical pulses. In such a situation, the nuclear spins are known to adjust in such a way, that the electron spin precession frequencies become multiples of the pump pulse repetition frequency. This so called phase synchronization effect was uncovered in [Science {\bf 317}, 1896 (2007)] and termed nuclei-induced frequency focusing of electron spin coherence. Using the classical approach to the central spin model we evaluate the nuclear spin distribution function and the electron spin noise spectrum. We show that the electron spin noise spectrum consists of sharp peaks corresponding to the phase synchronization conditions and directly reveal the distribution of the nuclear spins. We discuss the effects of nuclear spin relaxation after the pumping is over and analyze the corresponding evolution of nuclear spin distributions and electron spin noise spectra.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-05-24T11:10:33Z</published>
+    <arxiv:comment>8 pages, 5 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Phys. Rev. B 98, 045307 (2018)</arxiv:journal_ref>
+    <author>
+      <name>Natalie Jäschke</name>
+    </author>
+    <author>
+      <name>Frithjof B. Anders</name>
+    </author>
+    <author>
+      <name>Mikhail M. Glazov</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.98.045307</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.98.045307" title="doi"/>
+  </entry>
+</feed>

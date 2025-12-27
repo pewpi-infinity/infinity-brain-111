@@ -1,0 +1,81 @@
+TERMS: ionization, muon, probability
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/kuSyuh0Iv0zF0ZArYibaYjxVYpM</id>
+  <title>arXiv Query: search_query=all:ionization AND all:muon AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:30:03Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:ionization+AND+(all:muon+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>16</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1801.07795v1</id>
+    <title>A Generalized Muon Trajectory Estimation Algorithm with Energy Loss for Application to Muon Tomography</title>
+    <updated>2018-01-23T22:27:17Z</updated>
+    <link href="https://arxiv.org/abs/1801.07795v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1801.07795v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>This work presents a generalized muon trajectory estimation (GMTE) algorithm to estimate the path of a muon in either uniform or nonuniform media. The use of cosmic ray muons in nuclear nonproliferation and safeguards verification applications has recently gained attention due to the nonintrusive and passive nature of the inspection, penetrating capabilities, as well as recent advances in detectors that measure position and direction of the individual muons before and after traversing the imaged object. However, muon image reconstruction techniques are limited in resolution due to low muon flux and the effects of multiple Coulomb scattering (MCS). Current reconstruction algorithms rely on overly simple assumptions for muon path estimation through the imaged object. For robust muon tomography, efficient and flexible physics based algorithms are needed to model the MCS process and accurately estimate the most probable trajectory of a muon as it traverses an object. In the present work, the use of a Bayesian framework and a Gaussian approximation of MCS are explored for estimation of the most likely path of a cosmic ray muon traversing uniform or nonuniform media and undergoing MCS. The algorithm's precision is compared to Monte Carlo simulated muon trajectories. It was found that the algorithm is expected to be able to predict muon tracks to less than 1.5 mm RMS for 0.5 GeV muons and 0.25 mm RMS for 3 GeV muons, a 50 percent improvement compared to SLP and 15 percent improvement when compared to PoCA. Further, a 30 percent increase in useful muon flux was observed relative to PoCA. Muon track prediction improved for higher muon energies or smaller penetration depth where energy loss is not significant. The effect of energy loss due to ionization is investigated, and a linear energy loss relation that is easy to use is proposed.</summary>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.ins-det" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-01-23T22:27:17Z</published>
+    <arxiv:primary_category term="physics.comp-ph"/>
+    <author>
+      <name>Stylianos Chatzidakis</name>
+    </author>
+    <author>
+      <name>Zhengzhi Liu</name>
+    </author>
+    <author>
+      <name>Jason P. Hayward</name>
+    </author>
+    <author>
+      <name>John M. Scaglione</name>
+    </author>
+    <arxiv:doi>10.1063/1.5024671</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/1.5024671" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/physics/0605206v2</id>
+    <title>Alpha-muon sticking and chaos in muon-catalysed "in flight" d-t fusion</title>
+    <updated>2006-07-31T11:37:11Z</updated>
+    <link href="https://arxiv.org/abs/physics/0605206v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/physics/0605206v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We discuss the alpha-muon sticking coefficient in the muon-catalysed ``in flight" d-t fusion in the framework of the Constrained Molecular Dynamics model. Especially the influence of muonic chaotic dynamics on the sticking coefficient is brought into focus. The chaotic motion of the muon affects not only the fusion cross section but also the $μ-α$ sticking coefficient. Chaotic systems lead to larger enhancements with respect to regular systems because of the reduction of the tunneling region. Moreover they give smaller sticking probabilities than those of regular events. By utilizing a characteristic of the chaotic dynamics one can avoid losing the muon in the $μ$CF cycle. We propose the application of the so-called ``microwave ionization of a Rydberg atom" to the present case which could lead to the enhancement of the reactivation process by using X-rays.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.CD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2006-05-24T06:41:47Z</published>
+    <arxiv:comment>7 pages 4 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>Sachie Kimura</name>
+    </author>
+    <author>
+      <name>Aldo Bonasera</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0811.4038v1</id>
+    <title>Application of the X-ray laser to muon-catalyzed d-t fusion</title>
+    <updated>2008-11-25T09:40:18Z</updated>
+    <link href="https://arxiv.org/abs/0811.4038v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0811.4038v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We discuss the alpha-muon sticking coefficient in the muon-catalysed d-t fusion in the framework of the Constrained Molecular Dynamics model. Especially the influence of muonic chaotic dynamics on the sticking coefficient is brought into focus. The chaotic motion of the muon affects not only the fusion cross section but also the muon-alpha sticking coefficient. Chaotic systems lead to lar ger enhancements with respect to regular systems because of the reduction of the tunneling region. Moreover they give smaller sticking probabilities than those of regular events. By utilizing a characteristic of the chaotic dynamics one can avoid losing the muon in the muCF cycle. W e propose that the application of the so-called microwave ionization of a Rydberg atom to the present case could lead to the enhancement of the reactivation process by using X-rays.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-ex" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-11-25T09:40:18Z</published>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <arxiv:journal_ref>Radiation effects and Defects in Solids Vol. 163, (2008) 287</arxiv:journal_ref>
+    <author>
+      <name>Sachie Kimura</name>
+    </author>
+    <author>
+      <name>Aldo Bonasera</name>
+    </author>
+    <arxiv:doi>10.1080/10420150701777991</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1080/10420150701777991" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,80 @@
+TERMS: ionization, probability, singularity
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/fJiNUs4rnWfqPqMLu3Lt37qJGOA</id>
+  <title>arXiv Query: search_query=all:ionization AND all:probability AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:30:29Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:ionization+AND+(all:probability+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>3</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/0901.0724v1</id>
+    <title>Ionization in damped time-harmonic fields</title>
+    <updated>2009-01-06T21:41:43Z</updated>
+    <link href="https://arxiv.org/abs/0901.0724v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0901.0724v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We study the asymptotic behavior of the wave function in a simple one dimensional model of ionization by pulses, in which the time-dependent potential is of the form $V(x,t)=-2δ(x)(1-e^{-λt} \cosωt)$, where $δ$ is the Dirac distribution. We find the ionization probability in the limit $t\to\infty$ for all $λ$ and $ω$. The long pulse limit is very singular, and, for $ω=0$, the survival probability is $const λ^{1/3}$, much larger than $O(λ)$, the one in the abrupt transition counterpart, $V(x,t)=δ(x)\mathbf{1}_{\{t\ge 1/λ\}}$ where $\mathbf{1}$ is the Heaviside function.</summary>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2009-01-06T21:41:43Z</published>
+    <arxiv:primary_category term="math-ph"/>
+    <author>
+      <name>O. Costin</name>
+    </author>
+    <author>
+      <name>M. Huang</name>
+    </author>
+    <author>
+      <name>Z. Qiu</name>
+    </author>
+    <arxiv:doi>10.1088/1751-8113/42/32/325202</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/1751-8113/42/32/325202" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2411.06199v1</id>
+    <title>Control of the classical dynamics of a particle in the Morse-soft-Coulomb potential</title>
+    <updated>2024-11-09T14:50:24Z</updated>
+    <link href="https://arxiv.org/abs/2411.06199v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2411.06199v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce the one-dimensional Morse-soft-Coulomb (MsC) potential consisting of a Morse repulsive barrier smoothly connected with a soft-core Coulomb potential at the origin. This new potential has a single parameter that controls the softness of the repulsive barrier and the well depth. When this softening-depth parameter tends to zero, the MsC potential approaches the Coulomb potential with an infinite repulsive barrier, a known successful model for the hydrogen atom. We investigate the classical chaotic dynamics of the MsC potential subjected to time-dependent external fields, comparing the results with the Coulomb potential. We show that the MsC potential reproduces the dynamics and the ionization probabilities of the Coulomb potential for sufficiently small values of the softening parameter. We also investigate the role of the softening parameter in the phase-space structures, showing that the increasing of its value leads to the increasing of the chaotic sea and consequently to the rise of the ionization probability. Finally, we address the problem of controlling the dynamics of a particle in the MsC potential from the perspective of optimal control theory, which cannot be easily applied in the case of the Coulomb potential due to the singularity at the origin. We analize a particular optimal solution to the problem of transferring a given amount of energy to the system at minimum cost. Our results show that the MsC potential can be a useful simple model for investigating the hydrogen atom.</summary>
+    <category term="nlin.CD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-11-09T14:50:24Z</published>
+    <arxiv:primary_category term="nlin.CD"/>
+    <author>
+      <name>Gabriel Albertin Amici</name>
+    </author>
+    <author>
+      <name>José Andrés Guzmán Morán</name>
+    </author>
+    <author>
+      <name>Emanuel Fernandes de Lima</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1403.6979v3</id>
+    <title>A toolkit for semiclassical computations for strongly-driven molecules: "frustrated" ionization of H$_{2}$ driven by elliptical laser fields</title>
+    <updated>2014-10-21T18:40:36Z</updated>
+    <link href="https://arxiv.org/abs/1403.6979v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1403.6979v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the formation of highly excited neutral atoms during the break-up of strongly-driven molecules. Past work on this significant phenomenon has shown that during the formation of highly excited neutral atoms ($\mathrm{H^{*}}$) during the break-up of H$_{2}$ in a linear laser field the electron that escapes does so either very quickly or after remaining bound for a few periods of the laser field. Here, we address the electron-nuclear dynamics in $\mathrm{H^{*}}$ formation in elliptical laser fields, through Coulomb explosion. We show that with increasing ellipticity two-electron effects are effectively "switched-off". We perform these studies using a toolkit we have developed for semiclassical computations for strongly-driven multi-center molecules. This toolkit includes the formulation of the probabilities of strong-field phenomena in a transparent way. This allows us to identify the shortcomings of currently used initial phase space distributions for the electronic degrees of freedom. In addition, it includes a 3-dimensional method for time-propagation that fully accounts for the Coulomb singularity. This technique has been previously developed in the context of celestial mechanics and we currently adopt it to strongly-driven systems. Moreover, we allow for tunneling during the time-propagation. We find that this is necessary in order to accurately describe the fragmentation of strongly-driven molecules.</summary>
+    <category term="physics.atom-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-03-27T11:13:46Z</published>
+    <arxiv:comment>12 pages, 9 figures</arxiv:comment>
+    <arxiv:primary_category term="physics.atom-ph"/>
+    <author>
+      <name>H. Price</name>
+    </author>
+    <author>
+      <name>C. Lazarou</name>
+    </author>
+    <author>
+      <name>A. Emmanouilidou</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.90.053419</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.90.053419" title="doi"/>
+  </entry>
+</feed>

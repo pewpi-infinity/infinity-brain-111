@@ -1,0 +1,87 @@
+TERMS: frequency, resonance, bandgap
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/pDACKNQWBaGWBldsqVmObt3sTRg</id>
+  <title>arXiv Query: search_query=all:frequency AND all:resonance AND all:bandgap&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:12:27Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:resonance+AND+all:bandgap)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>158</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1503.09048v1</id>
+    <title>Local resonance and Bragg bandgaps in sandwich beams containing periodically inserted resonators</title>
+    <updated>2015-03-31T13:58:33Z</updated>
+    <link href="https://arxiv.org/abs/1503.09048v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1503.09048v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the low frequency wave propagation behavior of sandwich beams containing periodically embedded internal resonators. A closed form expression for the propagation constant is obtained using a phased array approach and verified using finite element simulations. We show that local resonance and Bragg bandgaps coexist in such a system and that the width of both bandgaps is a function of resonator parameters as well as their periodicity. The interaction between the two bandgaps is studied by varying the local resonance frequency. We find that a single combined bandgap does not exist for this system and that the Bragg bandgaps transition into sub-wavelength bandgaps when the local resonance frequency is above their associated classical Bragg frequency.</summary>
+    <category term="physics.class-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-03-31T13:58:33Z</published>
+    <arxiv:primary_category term="physics.class-ph"/>
+    <author>
+      <name>Bhisham Sharma</name>
+    </author>
+    <author>
+      <name>Chin-Teh Sun</name>
+    </author>
+    <arxiv:doi>10.1016/j.jsv.2015.11.019</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.jsv.2015.11.019" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1612.03130v1</id>
+    <title>A General Theory for Bandgap Estimation in Locally Resonant Metastructures</title>
+    <updated>2016-12-09T18:57:56Z</updated>
+    <link href="https://arxiv.org/abs/1612.03130v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1612.03130v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Locally resonant metamaterials are characterized by bandgaps at wavelengths that are much larger than the lattice size, enabling low-frequency vibration attenuation. Typically, bandgap analyses and predictions rely on the assumption of traveling waves in an infinite medium, and do not take advantage of modal representations typically used for the analysis of the dynamic behavior of finite structures. Recently, we developed a method for understanding the locally resonant bandgap in uniform finite metamaterial beams using modal analysis. Here we extend that framework to general locally resonant metastructures with specified boundary conditions using a general operator formulation. Using this approach, along with the assumption of an infinite number of resonators tuned to the same frequency, the frequency range of the locally resonant bandgap is easily derived in closed form. Furthermore, the bandgap expression is shown to be the same regardless of the type of vibration problem under consideration, depending only on the added mass ratio and target frequency. It is shown that the number of resonators required for the bandgap to appear increases with the target frequency range, i.e. respective modal neighborhood. Furthermore, it is observed that there is an optimal, finite number of resonators which gives a bandgap that is wider than the infinite-absorber bandgap, and that the optimal number of resonators increases with target frequency and added mass ratio. As the number of resonators becomes sufficiently large, the bandgap converges to the derived infinite-absorber bandgap. The derived bandgap edge frequencies are shown to agree with results from dispersion analysis using the plane wave expansion method. Numerical and experimental investigations are performed regarding the effects of mass ratio, non-uniform spacing of resonators, and parameter variations among the resonators.</summary>
+    <category term="physics.class-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-12-09T18:57:56Z</published>
+    <arxiv:primary_category term="physics.class-ph"/>
+    <author>
+      <name>C. Sugino</name>
+    </author>
+    <author>
+      <name>Y. Xia</name>
+    </author>
+    <author>
+      <name>S. Leadenham</name>
+    </author>
+    <author>
+      <name>M. Ruzzene</name>
+    </author>
+    <author>
+      <name>A. Erturk</name>
+    </author>
+    <arxiv:doi>10.1016/j.jsv.2017.06.004</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.jsv.2017.06.004" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2007.14814v2</id>
+    <title>Waveguide bandgap N-qubit array with a tunable transparency resonance</title>
+    <updated>2020-09-20T15:25:49Z</updated>
+    <link href="https://arxiv.org/abs/2007.14814v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2007.14814v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study a single photon transmission through 1D N- qubit chain. The qubits are supposed to be identical with equal distance between neighbors. We express the transfer matrix of N- qubit chain in terms of Chebyshev polynomials, which allows us to obtain simple expressions for the transmission and reflection amplitudes for arbitrarily large N. If the distance between neighbor qubits is equal to half wavelength, the transmission spectrum exhibits a flat bandgap structure with very steep walls. We show that for odd N the tuning of the excitation frequency of a central qubit gives rise to the appearance within a bandgap of a narrow resonance with a full transmission. The position of the resonance and its width can be controlled by the frequency of a central qubit. We show that the formation of the bandgap and of the transmission resonance is conditioned by the overlapping the widths of individual qubits which results from the strong coupling between qubits and waveguide photons.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-07-29T13:02:15Z</published>
+    <arxiv:comment>Two figures and several new references have been added</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Phys. Rev. A 103, 023508 (2021)</arxiv:journal_ref>
+    <author>
+      <name>Ya. S. Greenberg</name>
+    </author>
+    <author>
+      <name>A. A. Shtygashev</name>
+    </author>
+    <author>
+      <name>A. G. Moiseev</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevA.103.023508</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevA.103.023508" title="doi"/>
+  </entry>
+</feed>

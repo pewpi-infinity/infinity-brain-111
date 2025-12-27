@@ -1,0 +1,73 @@
+TERMS: fusion, spin
+COLORS: green, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/q9vTcIAT0mNYT5e4WD/Qc5LD8f0</id>
+  <title>arXiv Query: search_query=all:fusion AND all:spin&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T00:58:14Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:fusion+AND+all:spin&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>643</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/0804.0483v3</id>
+    <title>Explicit demonstration of nonabelian anyon, braiding matrix and fusion rules in the Kitaev-type spin honeycomb lattice models</title>
+    <updated>2008-04-07T15:59:11Z</updated>
+    <link href="https://arxiv.org/abs/0804.0483v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0804.0483v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The exact solubility of the Kitaev-type spin honeycomb lattice model was proved by means of a Majorana fermion representation or a Jordan-Wigner transformation while the explicit form of the anyon in terms of Pauli matrices became not transparent. The nonabelian statistics of anyons and the fusion rules can only be expressed in indirect ways to Pauli matrices. We convert the ground state and anyonic excitations back to the forms of Pauli matrices and explicitly demonstrate the nonabelian anyonic statistics as well as the fusion rules. These results may instruct the experimental realization of the nonabelian anyons. We suggest a proof-in-principle experiment to verify the existence of the nonabelian anyons in nature.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-04-03T06:50:55Z</published>
+    <arxiv:comment>4 pages, 2 figures; references added; some discussions on the A phase added; derivations to the fusion rules and braiding matrix are refined</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <author>
+      <name>Yue Yu</name>
+    </author>
+    <author>
+      <name>Tieyan Si</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2309.10961v2</id>
+    <title>An index for quantum cellular automata on fusion spin chains</title>
+    <updated>2024-03-18T18:26:13Z</updated>
+    <link href="https://arxiv.org/abs/2309.10961v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2309.10961v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Interpreting the GNVW index for 1D quantum cellular automata (QCA) in terms of the Jones index for subfactors leads to a generalization of the index defined for QCA on more general abstract spin chains. These include fusion spin chains, which arise as the local operators invariant under a global (categorical/MPO) symmetry, and as the boundary operators of 2D topological codes. We show that for the fusion spin chains built from the fusion category $\mathbf{Fib}$, the index is a complete invariant for the group of QCA modulo finite depth circuits.</summary>
+    <category term="math.OA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-09-19T23:14:51Z</published>
+    <arxiv:comment>22 pages</arxiv:comment>
+    <arxiv:primary_category term="math.OA"/>
+    <author>
+      <name>Corey Jones</name>
+    </author>
+    <author>
+      <name>Junhwi Lim</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1309.0210v1</id>
+    <title>Equivalence of string and fusion loop-spin structures</title>
+    <updated>2013-09-01T12:12:39Z</updated>
+    <link href="https://arxiv.org/abs/1309.0210v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1309.0210v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The importance of the fusion relation of loops was recognized in the context of spin structures on the loop space by Stolz and Teichner and further developed by Waldorf. On a spin manifold M the equivalence classes of `fusive' spin structures on the loop space LM, incorporating the fusion property, strong regularity and reparameterization-invariance, are shown to be in 1-1 correspondence with equivalence classes of string structures on M. The identification is through the affine space of `string' cohomology classes considered by Redden.</summary>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-09-01T12:12:39Z</published>
+    <arxiv:comment>47 pages</arxiv:comment>
+    <arxiv:primary_category term="math.DG"/>
+    <author>
+      <name>Chris Kottke</name>
+    </author>
+    <author>
+      <name>Richard Melrose</name>
+    </author>
+  </entry>
+</feed>

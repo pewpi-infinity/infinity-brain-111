@@ -1,0 +1,91 @@
+TERMS: fusion, spin, wavefunction
+COLORS: green, yellow, yellow
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/lZsmanPYTMbkbv2Xq8pGdkqx30Q</id>
+  <title>arXiv Query: search_query=all:fusion AND all:spin AND all:wavefunction&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:21:09Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:fusion+AND+(all:spin+AND+all:wavefunction)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>5</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2203.14992v1</id>
+    <title>Operator fusion from wavefunction overlaps: Universal finite-size corrections and application to Haagerup model</title>
+    <updated>2022-03-28T18:01:54Z</updated>
+    <link href="https://arxiv.org/abs/2203.14992v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2203.14992v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Given a critical quantum spin chain described by a conformal field theory (CFT) at long distances, it is crucial to understand the universal conformal data. One most important ingredient is the operator product expansion (OPE) coefficients, which describe how operators fuse into each other. It has been proposed in [Zou, Vidal, Phys. Rev. B 105, 125125] that the OPE coefficients can be computed from overlaps of low-energy wavefunctions of the spin chain. In this work, we establish that all conformal data including central charge, conformal dimensions, and OPE coefficients are encoded in the wavefunction overlaps, with universal finite-size corrections that depend on the operator content of the cyclic orbifold CFT. Thus this method allows us to numerically compute all the conformal data based solely on the low-energy eigenstates. The predictions are verified in the Ising and XXZ model. As an application, we study the recently proposed Haagerup model built from the Haagerup fusion category. We find that the CFT has central charge $c \approx 2.1$ and the lowest spin-$1$ operator in the twisted sector has scaling dimension $1 &lt; Δ_J \leq 1.4$.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-03-28T18:01:54Z</published>
+    <arxiv:comment>22 pages, 12 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <author>
+      <name>Yuhan Liu</name>
+    </author>
+    <author>
+      <name>Yijian Zou</name>
+    </author>
+    <author>
+      <name>Shinsei Ryu</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.107.155124</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.107.155124" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1609.05217v2</id>
+    <title>Many-body Lattice Wavefunctions From Conformal Blocks</title>
+    <updated>2016-12-29T18:01:31Z</updated>
+    <link href="https://arxiv.org/abs/1609.05217v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1609.05217v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We introduce a general framework to construct many-body lattice wavefunctions starting from the conformal blocks (CBs) of rational conformal field theories (RCFTs). We discuss the different ways of encoding the physical degrees of freedom of the lattice system using both the internal symmetries of the theory and the fusion channels of the CBs. We illustrate this construction both by revisiting the known Haldane-Shastry model and by providing a novel implementation for the Ising RCFT. In the latter case, we find a connection to the Ising transverse field (ITF) spin chain via the Kramers-Wannier duality and the Temperley-Lieb-Jones algebra. We also find evidence that the ground state of the finite-size critical ITF Hamiltonian corresponds exactly to the wavefunction obtained from CBs of spin fields.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-09-16T20:02:54Z</published>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Phys. Rev. B 95, 085146 (2017)</arxiv:journal_ref>
+    <author>
+      <name>Sebastian Montes</name>
+    </author>
+    <author>
+      <name>Javier Rodríguez-Laguna</name>
+    </author>
+    <author>
+      <name>Hong-Hao Tu</name>
+    </author>
+    <author>
+      <name>Germán Sierra</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.95.085146</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.95.085146" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2409.12948v2</id>
+    <title>Decoherence and wavefunction deformation of $D_4$ non-Abelian topological order</title>
+    <updated>2025-07-02T07:07:33Z</updated>
+    <link href="https://arxiv.org/abs/2409.12948v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2409.12948v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The effect of decoherence on topological order (TO) has been most deeply understood for the toric code, the paragon of Abelian TOs. We show that certain non-Abelian TOs can be analyzed and understood to a similar degree, despite being significantly richer. We consider both wavefunction deformations and quantum channels acting on $D_4$ TO, which has recently been realized on a quantum processor. By identifying the corresponding local statistical mechanical spin or rotor model with $D_4$ symmetry, we find a remarkable stability against proliferating non-Abelian anyons. This is shown by leveraging a reformulation in terms of the tractable O$(2)$ loop model in the pure state case, and $n$ coupled O$(2)$ loop models for Rényi-$n$ quantities in the decoherence case -- corresponding to worldlines of the proliferating anyon with quantum dimension $2$. In particular, we find that the purity ($n=2$) remains deep in the $D_4$ TO for any decoherence strength, while the $n \to \infty$ limit becomes critical upon maximally decohering a particular anyon type, similar to our wavefunction deformation result. The information-theoretic threshold ($n\to 1$) appears to be controlled by a disordered version of these stat-mech models, akin to the toric code case although significantly more robust. We furthermore use Monte Carlo simulations to explore the phase diagrams when multiple anyon types proliferate at the same time, leading to a continued stability of the $D_4$ TO in addition to critical phases with emergent $U(1)$ symmetry. Instead of loop models, these are now described by net models corresponding to different anyon types coupled together according to fusion rules.This opens up the exploration of statistical mechanical models for decohered non-Abelian TO, which can inform optimal decoders, and which in an ungauged formulation examples of non-Abelian strong-to-weak symmetry breaking.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-09-19T17:56:21Z</published>
+    <arxiv:comment>27 + 19 pages. Close to published version</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Phys. Rev. X 15, 031002 (2025)</arxiv:journal_ref>
+    <author>
+      <name>Pablo Sala</name>
+    </author>
+    <author>
+      <name>Jason Alicea</name>
+    </author>
+    <author>
+      <name>Ruben Verresen</name>
+    </author>
+    <arxiv:doi>10.1103/5ywn-6d3q</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/5ywn-6d3q" title="doi"/>
+  </entry>
+</feed>

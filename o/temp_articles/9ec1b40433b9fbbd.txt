@@ -1,0 +1,66 @@
+TERMS: quantum, electron, tachyon
+COLORS: blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/2+RKWNmw1GdVEntkEf6nMskvRuk</id>
+  <title>arXiv Query: search_query=all:quantum AND all:electron AND all:tachyon&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:06:55Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:electron+AND+all:tachyon)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>11</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1204.1042v1</id>
+    <title>The Fractional Quantum Hall Effect of Tachyons in a Topological Insulator Junction</title>
+    <updated>2012-04-04T19:23:17Z</updated>
+    <link href="https://arxiv.org/abs/1204.1042v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1204.1042v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We have studied the tachyonic excitations in the junction of two topological insulators in the presence of an external magnetic field. The Landau levels, evaluated from an effective two-dimensional model for tachyons, and from the junction states of two topological insulators, show some unique properties not seen in conventional electrons systems or in graphene. The $ν=1/3$ fractional quantum Hall effect has also a strong presence in the tachyon system.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2012-04-04T19:23:17Z</published>
+    <arxiv:comment>5 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <author>
+      <name>Vadim M. Apalkov</name>
+    </author>
+    <author>
+      <name>Tapash Chakraborty</name>
+    </author>
+    <arxiv:doi>10.1209/0295-5075/100/67008</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1209/0295-5075/100/67008" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2209.10520v3</id>
+    <title>Tachyon Interactions</title>
+    <updated>2023-01-08T23:28:03Z</updated>
+    <link href="https://arxiv.org/abs/2209.10520v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2209.10520v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A consistent theory of free tachyons has shown how tachyon neutrinos can explain major cosmological phenomena, Dark Energy and Dark Matter. Now we investigate how tachyon neutrinos might interact with other particles: the weak interactions. Using the quantized field operators for electrons and tachyon neutrinos, the simplest interaction shows how the chirality selection rule, put in by force in the Standard Model, comes out naturally. Then I wander into a re-study of what we do with negative frequencies of plane wave solutions of relativistic wave equations. The findings are simple and surprising, leading to a novel understanding of how to construct quantum field theories.</summary>
+    <category term="physics.gen-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-09-15T18:37:38Z</published>
+    <arxiv:comment>13 pages, major additions</arxiv:comment>
+    <arxiv:primary_category term="physics.gen-ph"/>
+    <arxiv:journal_ref>Symmetry 15 (1), 209 (2023)</arxiv:journal_ref>
+    <author>
+      <name>Charles Schwartz</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1108.3041v1</id>
+    <title>Specific heat and entropy of tachyon Fermi gas</title>
+    <updated>2011-08-15T17:54:29Z</updated>
+    <link href="https://arxiv.org/abs/1108.3041v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1108.3041v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We consider an ideal Fermi gas of tachyons and derive a low temperature expansion of its thermodynamical functions. The tachyonic specific heat is linear dependent on temperature $C_V=ε_Fk_FT$ and formally coincides with the specific heat of electron gas if the tachyon Fermi energy is defined as $ε_F=\sqrt{k_F-m^2}$.</summary>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-08-15T17:54:29Z</published>
+    <arxiv:comment>10 pages</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.CO"/>
+    <author>
+      <name>Ernst Trojan</name>
+    </author>
+  </entry>
+</feed>

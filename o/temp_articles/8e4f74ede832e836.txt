@@ -1,0 +1,76 @@
+TERMS: frequency, muon, probability
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/BsZhOVSkqWxnfK7soS97PbqaPBQ</id>
+  <title>arXiv Query: search_query=all:frequency AND all:muon AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:12:44Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:muon+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>13</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1111.1980v1</id>
+    <title>A Bayesian approach to magnetic moment determination using muSR</title>
+    <updated>2011-11-08T17:23:41Z</updated>
+    <link href="https://arxiv.org/abs/1111.1980v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1111.1980v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>A significant challenge in zero-field muSR experiments arises from the uncertainty in the muon site. It is possible to calculate the dipole field (and hence precession frequency nu) at any particular site given the magnetic moment mu and magnetic structure. One can also evaluate f(nu), the probability distribution function of nu assuming that the muon site can be anywhere within the unit cell with equal probability, excluding physically forbidden sites. Since nu is obtained from experiment, what we would like to know is g(mu|nu), the probability density function of mu given the observed nu. This can be obtained from our calculated f(nu/mu) using Bayes' theorem. We describe an approach to this problem which we have used to extract information about real systems including a low-moment osmate compound, a family of molecular magnets, and an iron-arsenide compound.</summary>
+    <category term="cond-mat.other" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.data-an" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-11-08T17:23:41Z</published>
+    <arxiv:comment>To be published in the proceedings of 12th International Conference on Muon Spin Rotation, Relaxation and Resonance</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.other"/>
+    <author>
+      <name>S. J. Blundell</name>
+    </author>
+    <author>
+      <name>A. J. Steele</name>
+    </author>
+    <author>
+      <name>T. Lancaster</name>
+    </author>
+    <author>
+      <name>J. D. Wright</name>
+    </author>
+    <author>
+      <name>F. L. Pratt</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/hep-ph/9612290v1</id>
+    <title>Charged Lepton Oscillations and (g-2) Measurements</title>
+    <updated>1996-12-08T18:43:20Z</updated>
+    <link href="https://arxiv.org/abs/hep-ph/9612290v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/hep-ph/9612290v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Traditional analysis of $g=2(1+κ)$ experiments for charged leptons use a classical spin vector picture. For muons, we here employ a more exact Dirac quantum four component spinor theory. Survival probabilities (including wave packet effects) are computed. These oscillate with the frequency $Ω=(κeB/Mc)$ as has been assumed in previous muon $(g-2)$ experimental analyses; i.e. muon survival probability oscillations are already at the root of previous succesful $(g-2)$ measurements. Further oscillations should also be observed if mixed neutrino mass matrices were to enter into the reactions (e.g. $π^+ \to μ^+ +ν_μ$) producing muons.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1996-12-08T18:43:20Z</published>
+    <arxiv:comment>Plain TeX, No figures</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>A. Widom</name>
+    </author>
+    <author>
+      <name>Y. N. Srivastava</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/physics/0410022v1</id>
+    <title>Design of a Quantum Source of High-Frequency Gravitational Waves (HFGW) and Test Methodology</title>
+    <updated>2004-10-04T14:15:46Z</updated>
+    <link href="https://arxiv.org/abs/physics/0410022v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/physics/0410022v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The generation of High-Frequency Gravitational Waves (HFGW) has been identified as the required breakthrough that will lead to new forms of space propulsion. Many techniques have been devised to generate HFGW, but most of them exhibit marginal efficiency, therefore the power emitted in form of gravitational waves (GW) is orders of magnitude lower than the input power. The gravitational wave counterpart of the LASER, termed Gravitational-wave LASER or "GASER" is the quantum approach to the efficient generation of gravitational waves. Electrons, protons, muons, etc, all have charge and mass, if accelerated they usually lose energy through the very fast electric and magnetic channels, this causes a negligible emission through the gravitational channel. Quantum systems can be engineered to forbid electric and magnetic transitions, therefore the gravitational spin-2 transitions can take place. A class of active materials, suitable for making a GASER based on electronic transitions in the solid state, is identified along with their relevant physical properties. Means for creating coherence and population inversion and means to increase the emission probability are described. The expected performances of the device are derived from quantum gravitational theories. Additional properties of the active materials are considered to enforce the theoretical foundation of the device. A proof-of-concept device, operating at about 1 THz, is described. Experiments are proposed as a natural starting point of the research.</summary>
+    <category term="physics.gen-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-10-04T14:15:46Z</published>
+    <arxiv:comment>CP699, Space Technology and Applications International Forum-STAIF 2004, proceedings published by AIP and edited by M.S. El-Genk</arxiv:comment>
+    <arxiv:primary_category term="physics.gen-ph"/>
+    <author>
+      <name>Giorgio Fontana</name>
+    </author>
+    <arxiv:doi>10.1063/1.1649680</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1063/1.1649680" title="doi"/>
+  </entry>
+</feed>

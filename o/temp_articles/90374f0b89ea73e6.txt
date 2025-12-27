@@ -1,0 +1,92 @@
+TERMS: quantum, lattice, entropy
+COLORS: blue, orange, red
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/oItet0H/ET+FpM33cANgSjlgJ8c</id>
+  <title>arXiv Query: search_query=all:quantum AND all:lattice AND all:entropy&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:05:52Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:lattice+AND+all:entropy)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>1406</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1908.02829v3</id>
+    <title>Kitaev's quantum double model as an error correcting code</title>
+    <updated>2020-09-22T07:52:51Z</updated>
+    <link href="https://arxiv.org/abs/1908.02829v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1908.02829v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Kitaev's quantum double models in 2D provide some of the most commonly studied examples of topological quantum order. In particular, the ground space is thought to yield a quantum error-correcting code. We offer an explicit proof that this is the case for arbitrary finite groups. Actually a stronger claim is shown: any two states with zero energy density in some contractible region must have the same reduced state in that region. Alternatively, the local properties of a gauge-invariant state are fully determined by specifying that its holonomies in the region are trivial. We contrast this result with the fact that local properties of gauge-invariant states are not generally determined by specifying all of their non-Abelian fluxes -- that is, the Wilson loops of lattice gauge theory do not form a complete commuting set of observables. We also note that the methods developed by P. Naaijkens (PhD thesis, 2012) under a different context can be adapted to provide another proof of the error correcting property of Kitaev's model. Finally, we compute the topological entanglement entropy in Kitaev's model, and show, contrary to previous claims in the literature, that it does not depend on whether the "log dim R" term is included in the definition of entanglement entropy.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-08-07T20:41:58Z</published>
+    <arxiv:comment>added a subsection and two appendices on topological entanglement entropy; fixed some typos; Accepted in Quantum</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Quantum 4, 331 (2020)</arxiv:journal_ref>
+    <author>
+      <name>Shawn X. Cui</name>
+    </author>
+    <author>
+      <name>Dawei Ding</name>
+    </author>
+    <author>
+      <name>Xizhi Han</name>
+    </author>
+    <author>
+      <name>Geoffrey Penington</name>
+    </author>
+    <author>
+      <name>Daniel Ranard</name>
+    </author>
+    <author>
+      <name>Brandon C. Rayhaun</name>
+    </author>
+    <author>
+      <name>Zhou Shangnan</name>
+    </author>
+    <arxiv:doi>10.22331/q-2020-09-24-331</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.22331/q-2020-09-24-331" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2309.15480v1</id>
+    <title>Entanglement entropy from non-equilibrium lattice simulations</title>
+    <updated>2023-09-27T08:22:47Z</updated>
+    <link href="https://arxiv.org/abs/2309.15480v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2309.15480v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Entanglement entropy encodes important features of strongly interacting quantum many-body systems and gauge theories, but its analytical study is still limited to systems with high level of symmetry. This motivates the search for efficient techniques to investigate this quantity numerically, through Monte Carlo calculations on the lattice. In this contribution, we discuss the computation of the entropic c-function by means of an algorithm based on Jarzynski's equality, which is an exact theorem from non equilibrium statistical mechanics. After presenting benchmark results for the Ising model in two dimensions, where our algorithm successfully reproduces the analytical predictions from conformal field theory, we discuss its generalization to the three-dimensional Ising model, for which we were able to extract universal terms beyond the area law. Finally we point out some future generalizations of this calculation.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-09-27T08:22:47Z</published>
+    <arxiv:comment>7 pages, contribution for the 40th International Symposium on Lattice Field Theory (Lattice 2023), July 31st - August 4th, 2023, Fermi National Accelerator Laboratory</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Andrea Bulgarelli</name>
+    </author>
+    <author>
+      <name>Marco Panero</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1012.4164v2</id>
+    <title>Entanglement for discrete-time quantum walks on the line</title>
+    <updated>2011-07-22T02:03:53Z</updated>
+    <link href="https://arxiv.org/abs/1012.4164v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1012.4164v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The discrete-time quantum walk is a quantum counterpart of the random walk. It is expected that the model plays important roles in the quantum field. In the quantum information theory, entanglement is a key resource. We use the von Neumann entropy to measure the entanglement between the coin and the particle's position of the quantum walks. Also we deal with the Shannon entropy which is an important quantity in the information theory. In this paper, we show limits of the von Neumann entropy and the Shannon entropy of the quantum walks on the one dimensional lattice starting from the origin defined by arbitrary coin and initial state. In order to derive these limits, we use the path counting method which is a combinatorial method for computing probability amplitude.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-12-19T12:55:21Z</published>
+    <arxiv:comment>Quantum Information and Computation (in press)</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Quantum Information and Computation, Vol.11 No.9&amp;10, pp.855-866 (2011)</arxiv:journal_ref>
+    <author>
+      <name>Yusuke Ide</name>
+    </author>
+    <author>
+      <name>Norio Konno</name>
+    </author>
+    <author>
+      <name>Takuya Machida</name>
+    </author>
+  </entry>
+</feed>

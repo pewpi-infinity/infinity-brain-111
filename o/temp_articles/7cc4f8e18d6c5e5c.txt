@@ -1,0 +1,58 @@
+TERMS: frequency, wavefunction, neutrino
+COLORS: green, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/pa4Mz1ujmJuNK3QFoZBz7Y+CGew</id>
+  <title>arXiv Query: search_query=all:frequency AND all:wavefunction AND all:neutrino&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:12:05Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:wavefunction+AND+all:neutrino)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/gr-qc/0101052v2</id>
+    <title>Scalar, electromagnetic and Weyl perturbations of BTZ black holes: quasi normal modes</title>
+    <updated>2001-04-09T13:55:33Z</updated>
+    <link href="https://arxiv.org/abs/gr-qc/0101052v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/gr-qc/0101052v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We calculate the quasinormal modes and associated frequencies of the Banados, Zanelli and Teitelboim (BTZ) non-rotating black hole. This black hole lives in 2+1-dimensions in an asymptotically anti-de Sitter spacetime. We obtain exact results for the wavefunction and quasi normal frequencies of scalar, electromagnetic and Weyl (neutrino) perturbations.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2001-01-13T17:08:37Z</published>
+    <arxiv:comment>Latex, 14 pages</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Phys.Rev. D63 (2001) 124015</arxiv:journal_ref>
+    <author>
+      <name>Vitor Cardoso</name>
+    </author>
+    <author>
+      <name>Jose' P. S. Lemos</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.63.124015</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.63.124015" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2202.07240v9</id>
+    <title>Cold freeze out of superheavy nonthermal dark matter and Hubble tension</title>
+    <updated>2025-09-02T17:26:26Z</updated>
+    <link href="https://arxiv.org/abs/2202.07240v9" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2202.07240v9" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We present the "X miracle", a framework in which dark matter consists of superheavy, nonthermal X particles whose relic abundance arises not from the weak-scale, semi-relativistic ("hot") freeze-out of WIMPs, but from annihilation or decay within the smallest and earliest gravitationally bound objects. Unlike thermal WIMPs, which decouple at V$\sim$0.3c with relic density set by weak-scale interactions, X particles are produced nonthermally with an initial overabundance $ρ_{ini}\ggρ_{\infty}$, become nonrelativistic very early, and redshift to ultra-cold velocities, allowing them to collapse into compact bound structures characterized by a quantum-gravitational scale, $r_X=4\hbar^2/Gm_X^3=10^{-13}m\gg\hbar/m_Xc$. The framework predicts $m_X=10^{12}$GeV with an enhanced cross section of $10^{-21}$m$^3$/s. Overlap of particle wavefunctions in these compact structures drives a "cold" freeze-out that converts most $ρ_{ini}$ into radiation while leaving a relic density $ρ_{\infty}$. The exact solution to the Boltzmann equation reveals an extreme depletion, with only one particle in a billion surviving, resulting in an extra radiation $ΔN_{eff}\approx$0.4, which potentially alleviates the Hubble tension. The framework predicts an energy production rate density $10^{45}$erg Mpc$^{-3}$Yr$^{-1}$ and particle lifetime $10^{16}$years (or coupling $α_X=0.09$), consistent with UHECR limits. Early collapse at $10^{-6}$s may release high-frequency (100kHz) gravitational waves or ultralight GUT-scale axions. Superheavy sterile neutrino is a natural candidate, linking dark matter to neutrino mass and baryogenesis. If gravitationally produced, the model favors high-scale inflation and efficient reheating. The X miracle demonstrates that gravitational interaction can control freeze-out and evolution, producing multi-messenger signatures in UHECRs, axions, and gravitational waves.</summary>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.GA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2022-02-15T08:05:33Z</published>
+    <arxiv:comment>22 pages, 12 figures</arxiv:comment>
+    <arxiv:primary_category term="astro-ph.CO"/>
+    <author>
+      <name> Zhijie</name>
+      <arxiv:affiliation>Jay</arxiv:affiliation>
+    </author>
+    <author>
+      <name> Xu</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,82 @@
+TERMS: ionization, resonance, boson
+COLORS: green, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/F2Hp6SfCO/91nWbcvJxHfnq5bTM</id>
+  <title>arXiv Query: search_query=all:ionization AND all:resonance AND all:boson&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:29:44Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:ionization+AND+(all:resonance+AND+all:boson)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>8</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2507.15110v2</id>
+    <title>Smooth binary evolution from wide resonances in boson clouds</title>
+    <updated>2025-09-18T18:40:43Z</updated>
+    <link href="https://arxiv.org/abs/2507.15110v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2507.15110v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Ultralight scalars can form superradiant clouds around rotating black holes. These may alter the dynamics of compact binaries and the ensuing waveform through orbital resonances and cloud ionization. We re-examine resonances involving states with nonzero decay width, deriving an effective treatment for resonances that are wider than the binary's frequency chirp. We demonstrate the utility of this approach by calculating an upper bound for the cloud's mass surviving up to the latest stages of the inspiral. Next, we study the accumulation of resonances with high-energy bound states. When these infinitely many, increasingly weak resonances are properly taken into account, they smooth out the "sharp features" in the binary's evolution that had been attributed to the ionization of the cloud. We compare our Newtonian results with recent relativistic calculations, highlighting common features as well as discrepancies. Our conclusions emphasize the need to carefully incorporate resonances in boson cloud waveform modeling.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-07-20T20:17:40Z</published>
+    <arxiv:comment>15 pages, 9 figures. Minor update to match published version</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <author>
+      <name>Giovanni Maria Tomaselli</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2112.14777v2</id>
+    <title>Ionization of Gravitational Atoms</title>
+    <updated>2022-06-06T09:29:40Z</updated>
+    <link href="https://arxiv.org/abs/2112.14777v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2112.14777v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Superradiant instabilities may create clouds of ultralight bosons around rotating black holes, forming so-called "gravitational atoms." It was recently shown that the presence of a binary companion can induce resonant transitions between bound states of these clouds, whose backreaction on the binary's orbit leads to characteristic signatures in the emitted gravitational waves. In this work, we show that the interaction with the companion can also trigger transitions from bound to unbound states of the cloud -- a process that we refer to as "ionization" in analogy with the photoelectric effect in atomic physics. The orbital energy lost in the process overwhelms the losses due to gravitational wave emission and contains sharp features carrying information about the energy spectrum of the cloud. Moreover, we also show that if the companion is a black hole, then the part of the cloud impinging on the event horizon will be absorbed. This "accretion" leads to a significant increase of the companion's mass, which alters the dynamical evolution and ensuing waveform of the binary. We argue that a combined treatment of resonances, ionization, and accretion is crucial to discover and characterize gravitational atoms with upcoming gravitational wave detectors.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2021-12-29T19:00:00Z</published>
+    <arxiv:comment>34+21 pages, 16 figures</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <author>
+      <name>Daniel Baumann</name>
+    </author>
+    <author>
+      <name>Gianfranco Bertone</name>
+    </author>
+    <author>
+      <name>John Stout</name>
+    </author>
+    <author>
+      <name>Giovanni Maria Tomaselli</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.105.115036</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.105.115036" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2505.02866v1</id>
+    <title>Probing Boson Clouds with Supermassive Black Hole Binaries</title>
+    <updated>2025-05-03T14:14:44Z</updated>
+    <link href="https://arxiv.org/abs/2505.02866v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2505.02866v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Rotating black holes can generate boson clouds via superradiance when the boson's Compton wavelength is comparable to the black hole's size. In binary systems, these clouds can produce distinctive observational imprints. Recent studies accounting for nonlinearities induced by orbital backreaction suggest that if the binary forms at a large separation, resonance transitions can significantly deplete the cloud, minimizing later observational consequences except for very specific orbital inclinations. In this paper, we extend this framework to supermassive black hole binaries (SMBHBs), considering the influence of their astrophysical evolutionary histories. We find that, before entering the gravitational wave (GW) radiation stage, the additional energy loss channels can accelerate orbital evolution. This acceleration makes hyperfine resonant transitions inefficient, allowing a sufficient portion of the cloud to remain for later direct observations. We further discuss the ionization effects and cloud depletion occurring at this stage. Based on these theoretical insights, we explore how multi-messenger observations for SMBHBs can be utilized to detect the ionization effects of boson clouds by examining changes in the orbital period decay rate via electromagnetic measurements and variations in GW strain over a wide frequency band. Our findings reveal a complex dependence on the binary's total mass, mass ratio, and boson mass, emphasizing the significant role of astrophysical evolution histories in detecting boson clouds within binaries.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.HE" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-05-03T14:14:44Z</published>
+    <arxiv:comment>27 pages, 12 figures, 1 table</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Ximeng Li</name>
+    </author>
+    <author>
+      <name>Jing Ren</name>
+    </author>
+    <author>
+      <name>Xi-Li Zhang</name>
+    </author>
+  </entry>
+</feed>

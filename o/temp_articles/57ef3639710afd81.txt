@@ -1,0 +1,65 @@
+TERMS: entropy, vapor, boson
+COLORS: red, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/bKkBOVlUzsiKalOx+yzCkPzVynQ</id>
+  <title>arXiv Query: search_query=all:entropy AND all:vapor AND all:boson&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:17:23Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+(all:vapor+AND+all:boson)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2311.10968v2</id>
+    <title>Two-dimensional quantum breakdown model with Krylov subspace many-body localization</title>
+    <updated>2025-02-13T03:30:04Z</updated>
+    <link href="https://arxiv.org/abs/2311.10968v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2311.10968v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a two-dimensional (2d) quantum breakdown model of hardcore bosons interacting with disordered spins which would be classical without the bosons. It resembles particles incident into supersaturated vapor. The model exhibits a set of subsystem symmetries, and has a strong fragmentation into Krylov subspaces in each symmetry sector. The Hamiltonian in each Krylov subspace maps to a single-particle problem in a Cayley tree-like graph. At zero disorder, the Krylov subspaces exhibit either (possible) integrable features, or quantum chaos with quantum scar states showing irregular energy and degeneracy patterns. At nonzero disorders, they enter a 2d many-body localization (MBL) phase beyond certain disorder strength $W_*$, as indicated by Poisson level spacing statistics and entanglement entropy growing as $\log t$ with time $t$. Our theoretical arguments suggest $W_*$ is finite or zero for boson number $N_b\lesssim L^γ/\log L$ ($1/2\le γ\le 1$) as system size $L\rightarrow\infty$. This gives a more stringent condition for MBL than that in the 1d quantum breakdown models. This model reveals the possibility of MBL in systems of quantum particles interacting with classical degrees of freedom.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-11-18T04:33:26Z</published>
+    <arxiv:comment>13 pages, 5+4 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Phys. Rev. B 111, 054302 (2025)</arxiv:journal_ref>
+    <author>
+      <name>Xinyu Liu</name>
+    </author>
+    <author>
+      <name>Biao Lian</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.111.054302</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.111.054302" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2006.13832v3</id>
+    <title>Vaporization dynamics of a dissipative quantum liquid</title>
+    <updated>2021-01-04T09:49:11Z</updated>
+    <link href="https://arxiv.org/abs/2006.13832v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2006.13832v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We investigate the stability of a Luttinger liquid, upon suddenly coupling it to a dissipative environment. Within the Lindblad equation, the environment couples to local currents and heats the quantum liquid up to infinite temperatures. The single particle density matrix reveals the fractionalization of fermionic excitations in the spatial correlations by retaining the initial non-integer power law exponents, accompanied by an exponential decay in time with interaction dependent rate. The spectrum of the time evolved density matrix is gapped, which collapses gradually as $-\ln(t)$. The von Neumann entropy crosses over from the early time $-t\ln(t)$ behaviour to $\ln(t)$ growth for late times. The early time dynamics is captured numerically by performing simulations on spinless interacting fermions, using several numerically exact methods. Our results could be tested experimentally in bosonic Luttinger liquids.</summary>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2020-06-24T16:04:17Z</published>
+    <arxiv:comment>8 pages, 3 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.str-el"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 125, 266803 (2020)</arxiv:journal_ref>
+    <author>
+      <name>Ádám Bácsi</name>
+    </author>
+    <author>
+      <name>Catalin Pascu Moca</name>
+    </author>
+    <author>
+      <name>Gergely Zaránd</name>
+    </author>
+    <author>
+      <name>Balázs Dóra</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.125.266803</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.125.266803" title="doi"/>
+  </entry>
+</feed>

@@ -1,0 +1,85 @@
+TERMS: quantum, lattice, superconductivity
+COLORS: blue, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/skmkCnD/7fl36JaDzTuQr3+i3xg</id>
+  <title>arXiv Query: search_query=all:quantum AND all:lattice AND all:superconductivity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:05:58Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:lattice+AND+all:superconductivity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>2537</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1710.01668v1</id>
+    <title>Phase transitions in quasi-one dimensional system with unconventional superconductivity</title>
+    <updated>2017-10-04T15:52:16Z</updated>
+    <link href="https://arxiv.org/abs/1710.01668v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1710.01668v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The paper is devoted to a study of superconducting properties of population-imbalanced fermionic mixtures in quasi-one dimensional optical lattices. The system can be effectively described by the attractive Hubbard model with the Zeeman magnetic field term. We investigated the ground state phase diagram of the model as a function of the chemical potential and the magnetic field. The ground state of the system exhibits the conventional BCS-type superconductivity as well as the unconventional so-called Fulde-Ferrell-Larkin-Ovchinnikov state, in which the total momentum of Cooper pairs is non-zero. We determine the orders of transitions as well as the behavior of order parameters with a change of the model parameters.</summary>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-10-04T15:52:16Z</published>
+    <arxiv:comment>6 pages, 4 figures; submitted to Journal of Superconductivity and Novel Magnetism</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.quant-gas"/>
+    <arxiv:journal_ref>Journal of Superconductivity and Novel Magnetism, Vol. 31, No. 3, 697-702 (2018)</arxiv:journal_ref>
+    <author>
+      <name>Andrzej Ptok</name>
+    </author>
+    <author>
+      <name>Agnieszka Cichy</name>
+    </author>
+    <author>
+      <name>Karen Rodríguez</name>
+    </author>
+    <author>
+      <name>Konrad Jerzy Kapcia</name>
+    </author>
+    <arxiv:doi>10.1007/s10948-017-4366-0</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s10948-017-4366-0" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1706.05793v1</id>
+    <title>Scalable quantum computing model in the circuit-QED lattice with circulator function</title>
+    <updated>2017-06-19T05:51:52Z</updated>
+    <link href="https://arxiv.org/abs/1706.05793v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1706.05793v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We propose a model for a scalable quantum computing in the circuit-quantum electrodynamics(QED) architecture. In the Kagome lattice of qubits three qubits are connected to each other through a superconducting three-junction flux qubit at the vertices of the lattice. By controlling one of the three Josephson junction energies of the intervening flux qubit we can achieve the circulator function that couples arbitrary pair of two qubits among three. This selective coupling enables the interaction between two nearest neighbor qubits in the Kagome lattice, and further the two-qubit gate operation between any pair of qubits in the whole lattice by performing consecutive nearest neighbor two-qubit gates.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.supr-con" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-06-19T05:51:52Z</published>
+    <arxiv:comment>12 pages, 4 figures, to appear in Quantum Information Processing</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <arxiv:journal_ref>Quantum Information Processing 16, 192 (2017)</arxiv:journal_ref>
+    <author>
+      <name>Mun Dae Kim</name>
+    </author>
+    <author>
+      <name>Jaewan Kim</name>
+    </author>
+    <arxiv:doi>10.1007/s11128-017-1644-5</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s11128-017-1644-5" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1305.1602v1</id>
+    <title>Ultracold Quantum Gases and Lattice Systems: Quantum Simulation of Lattice Gauge Theories</title>
+    <updated>2013-05-07T18:21:23Z</updated>
+    <link href="https://arxiv.org/abs/1305.1602v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1305.1602v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Abelian and non-Abelian gauge theories are of central importance in many areas of physics. In condensed matter physics, Abelian U(1) lattice gauge theories arise in the description of certain quantum spin liquids. In quantum information theory, Kitaev's toric code is a Z(2) lattice gauge theory. In particle physics, Quantum Chromodynamics (QCD), the non-Abelian SU(3) gauge theory of the strong interactions between quarks and gluons, is non-perturbatively regularized on a lattice. Quantum link models extend the concept of lattice gauge theories beyond the Wilson formulation, and are well suited for both digital and analog quantum simulation using ultracold atomic gases in optical lattices. Since quantum simulators do not suffer from the notorious sign problem, they open the door to studies of the real-time evolution of strongly coupled quantum systems, which are impossible with classical simulation methods. A plethora of interesting lattice gauge theories suggests itself for quantum simulation, which should allow us to address very challenging problems, ranging from confinement and deconfinement, or chiral symmetry breaking and its restoration at finite baryon density, to color superconductivity and the real-time evolution of heavy-ion collisions, first in simpler model gauge theories and ultimately in QCD.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.quant-gas" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-05-07T18:21:23Z</published>
+    <arxiv:comment>27 pages, 6 figures, invited contribution to the "Annalen der Physik" topical issue "Quantum Simulation", guest editors: R. Blatt, I. Bloch, J. I. Cirac, and P. Zoller</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>U. -J. Wiese</name>
+    </author>
+    <arxiv:doi>10.1002/andp.201300104</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1002/andp.201300104" title="doi"/>
+  </entry>
+</feed>

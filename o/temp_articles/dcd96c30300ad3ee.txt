@@ -1,0 +1,118 @@
+TERMS: entropy, fusion, plasma
+COLORS: red, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/abVh4zpO2teLrxpSdeyoC6vH2NQ</id>
+  <title>arXiv Query: search_query=all:entropy AND all:fusion AND all:plasma&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:16:53Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+(all:fusion+AND+all:plasma)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>38</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2412.07725v3</id>
+    <title>A Unified Hamiltonian Formulation for Energy Loss, Entropy Evolution, and Fusion Performance in Plasmas</title>
+    <updated>2025-07-07T17:24:54Z</updated>
+    <link href="https://arxiv.org/abs/2412.07725v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2412.07725v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We develop a comprehensive Hamiltonian formulation for plasma dynamics that unifies collisionless gyrokinetic and collisional processes. Our framework rigorously describes the evolution of free energy and entropy during the transition from Maxwellian to non-Maxwellian distributions, explicitly coupling microscopic turbulent processes with macroscopic measures of energy confinement and fusion performance. Unlike standard gyrokinetic treatments that treat collisions as a minor perturbation, our approach incorporates a collision operator directly into the Hamiltonian structure, thereby accounting for irreversible dissipation and entropy production. We derive quantitative relations linking turbulence intensity, entropy production, energy confinement time and fusion yield. Our work builds on recent energetic bounds and optimal mode analyses by Helander and Plunk and on Zhdankin's generalised entropy-production framework, thus providing a bridge between microscopic kinetics and reactor-scale performance.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-12-10T18:17:39Z</published>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <author>
+      <name>Joseph Samper Finberg</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/0806.1069v2</id>
+    <title>Gyrokinetic turbulence: a nonlinear route to dissipation through phase space</title>
+    <updated>2008-11-04T11:46:30Z</updated>
+    <link href="https://arxiv.org/abs/0806.1069v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/0806.1069v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  This paper describes a conceptual framework for understanding kinetic plasma turbulence as a generalized form of energy cascade in phase space. It is emphasized that conversion of turbulent energy into thermodynamic heat is only achievable in the presence of some (however small) degree of collisionality. The smallness of the collision rate is compensated by the emergence of small-scale structure in the velocity space. For gyrokinetic turbulence, a nonlinear perpendicular phase mixing mechanism is identified and described as a turbulent cascade of entropy fluctuations simultaneously occurring at spatial scales smaller than the ion gyroscale and in velocity space. Scaling relations for the resulting fluctuation spectra are derived. An estimate for the collisional cutoff is provided. The importance of adequately modeling and resolving collisions in gyrokinetic simulations is biefly discussed, as well as the relevance of these results to understanding the dissipation-range turbulence in the solar wind and the electrostatic microturbulence in fusion plasmas.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.CD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.space-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2008-06-05T22:29:59Z</published>
+    <arxiv:comment>iop revtex style, 14 pages, 1 figure; submitted to PPCF; invited talk for EPS Conference on Plasma Physics, Crete, June 2008; Replaced to match published version</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <arxiv:journal_ref>Plasma Phys. Control. Fusion 50, 124024 (2008)</arxiv:journal_ref>
+    <author>
+      <name>A. A. Schekochihin</name>
+      <arxiv:affiliation>Imperial</arxiv:affiliation>
+    </author>
+    <author>
+      <name>S. C. Cowley</name>
+      <arxiv:affiliation>UCLA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>W. Dorland</name>
+      <arxiv:affiliation>Maryland</arxiv:affiliation>
+    </author>
+    <author>
+      <name>G. W. Hammett</name>
+      <arxiv:affiliation>Princeton</arxiv:affiliation>
+    </author>
+    <author>
+      <name>G. G. Howes</name>
+      <arxiv:affiliation>Berkeley</arxiv:affiliation>
+    </author>
+    <author>
+      <name>G. G. Plunk</name>
+      <arxiv:affiliation>UCLA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>E. Quataert</name>
+      <arxiv:affiliation>Berkeley</arxiv:affiliation>
+    </author>
+    <author>
+      <name>T. Tatsuno</name>
+      <arxiv:affiliation>Maryland</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1088/0741-3335/50/12/124024</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1088/0741-3335/50/12/124024" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1003.3933v2</id>
+    <title>Gyrokinetic simulation of entropy cascade in two-dimensional electrostatic turbulence</title>
+    <updated>2010-08-16T17:57:45Z</updated>
+    <link href="https://arxiv.org/abs/1003.3933v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1003.3933v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Two-dimensional electrostatic turbulence in magnetized weakly-collisional plasmas exhibits a cascade of entropy in phase space [Phys. Rev. Lett. 103, 015003 (2009)]. At scales smaller than the gyroradius, this cascade is characterized by the dimensionless ratio D of the collision time to the eddy turnover time measured at the scale of the thermal Larmor radius. When D &gt;&gt; 1, a broad spectrum of fluctuations at sub-Larmor scales is found in both position and velocity space. The distribution function develops structure as a function of v_{perp}, the velocity coordinate perpendicular to the local magnetic field. The cascade shows a local-scale nonlinear interaction in both position and velocity spaces, and Kolmogorov's scaling theory can be extended into phase space.</summary>
+    <category term="physics.plasm-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.SR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.comp-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.flu-dyn" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2010-03-20T15:08:43Z</published>
+    <arxiv:comment>8 pages, 10 figures, Conference paper presented at 2009 Asia-Pacific Plasma Theory Conference. Ver.2 includes corrected typos &amp; updated references</arxiv:comment>
+    <arxiv:primary_category term="physics.plasm-ph"/>
+    <arxiv:journal_ref>J. Plasma Fusion Res. SERIES 9, 509 (2010)</arxiv:journal_ref>
+    <author>
+      <name>T. Tatsuno</name>
+    </author>
+    <author>
+      <name>M. Barnes</name>
+    </author>
+    <author>
+      <name>S. C. Cowley</name>
+    </author>
+    <author>
+      <name>W. Dorland</name>
+    </author>
+    <author>
+      <name>G. G. Howes</name>
+    </author>
+    <author>
+      <name>R. Numata</name>
+    </author>
+    <author>
+      <name>G. G. Plunk</name>
+    </author>
+    <author>
+      <name>A. A. Schekochihin</name>
+    </author>
+  </entry>
+</feed>

@@ -1,0 +1,72 @@
+TERMS: entropy, wavefunction, tachyon
+COLORS: red, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/IwA/GkouJ9+x7Z4QvzcVa5gE2K0</id>
+  <title>arXiv Query: search_query=all:entropy AND all:wavefunction AND all:tachyon&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:18:28Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+(all:wavefunction+AND+all:tachyon)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>3</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1905.06708v6</id>
+    <title>Entanglement Entropy from String Field Theory (and a Higher-Spin Example)</title>
+    <updated>2019-08-05T14:20:21Z</updated>
+    <link href="https://arxiv.org/abs/1905.06708v6" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1905.06708v6" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the new class of solutions in linearized open string field theory (OSFT) involving higher-spin modes. Unlike the elementary OSFT solutions (on-shell vertex operators) that, acting on a vacuum, define wavefunctions of pure states (e.g. a tachyon), the solutions that we describe correspond to the reduced density matrices which eigenvalues describe the entanglement between higher-spin modes with different spin values. We compute the entanglement entropy on these OSFT solutions, and the answer is expressed in terms of converging series in inverse weighted partition numbers. In the case of $D$-dimensional bosonic string theory, the entanglement entropy of spin $1$ subsystem and the system of all the spin values is given by $D{\log{λ_0}}+{D\over{λ_0}}\sum_{N=3}^\infty{{|β(N)|}\over{λ(N)}} {\log{({{λ(N)}\over{|β(N)|}})}}$, where $λ(N)$ is the weighted number of partitions of $N$, $β(N)={{(N-1)ζ(3)-ζ(2)}\over{(N-1)^4}}$ and $λ_0=\sum_{N=1}^{\infty}{{β(N)}\over{λ(N)}}$ ($ζ$ is Riemann's zeta-function). The first term, $D{\log{λ_0}}$, represents the entanglement swapping between string vacuum and string excitations.
+  We generalize this result to obtain the entanglement for a subsystem of a given spin $s$ in a given space-time dimension. We also discuss how open string field theory may be used to study the entanglement of systems
+  other than higher spin excitations in string theory.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-05-16T12:59:47Z</published>
+    <arxiv:comment>23 pages, SFT solution is revisited and modified to regularization-free expression to define a normalizable mized state; final answer for entanglement entropy and discussion section are modified accordingly</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Dimitri Polyakov</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1802.00169v2</id>
+    <title>Entanglement Entropy for Open Bosonic Strings on $Dp$-branes</title>
+    <updated>2018-04-22T10:51:29Z</updated>
+    <link href="https://arxiv.org/abs/1802.00169v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1802.00169v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the entanglement entropy for open bosonic strings on multiple $Dp$-branes by using the covariant open string field theory. Choosing one of the spatial coordinates which are tangential to the hyperplane on which $Dp$-branes are located, we divide the hyperplane into two halves. By using the string wavefunction in the Fock space representation, we evaluate the entanglement entropy. The entanglement entropy is found to be proportional to the area of $(p-1)$-dimensional boundary of the bipartite hyperplanes and divergent in the ultraviolet (UV) region as well as in the infrared (IR) region. However, the leading divergences are mainly due to tachyon contributions to the entanglement entropy, which may be absent in supersymmetric string theories. Apart from the divergences thanks to tachyons, the entanglement entropy for open bosonic strings on $Dp$-branes is finite for $2 \le p \le d_{\text{critical}} -2$ and logarithmically divergent for $p =1, d_{\text{critical}}-1$.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-02-01T06:27:09Z</published>
+    <arxiv:comment>8 pages, 1 figure</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Phys. Lett. B 782, 589 (2018)</arxiv:journal_ref>
+    <author>
+      <name>Taejin Lee</name>
+    </author>
+    <arxiv:doi>10.1016/j.physletb.2018.05.080</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physletb.2018.05.080" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2301.06154v2</id>
+    <title>The Nambu-Goto string in QCD: Dipole interactions, scattering and entanglement</title>
+    <updated>2023-12-05T18:01:55Z</updated>
+    <link href="https://arxiv.org/abs/2301.06154v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2301.06154v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We revisit some aspects of the stringy approach to dipole-dipole interactions, scattering and entanglement in QCD, using the Nambu-Goto (NG) string, without recourse to holography. We first show that the potential between two static dipoles exchanging closed NG strings is attractive at all separations. Underlining the exchange there is an emergent entropy, that is dominated by the tachyon at large separation, and vanishes at short separation, a measure of the confinement-deconfinement transition. The same tachyon is dominant in the scattering amplitude, as a correlator of two Wilson loops for two fixed dipole-like hadrons separated at large rapidity gap, where the contribution of the worldsheet fermions is included. While the tachyon causes the mean string bit density to grow exponentially with the rapidity, the total scattering cross section still satisfies the Froissart bound by quantum shadowing. The stringy scattering exchange also carries an entanglement entropy, that saturates when the bound is reached. For hadrons with varying dipole sizes, the tachyon exchange takes place in hyperbolic space in the conformal limit. The result for the full S-matrix is reminiscent of the one from Mueller$^\prime$s evolved dipole wavefunction, for the total dipole-dipole cross section in perturbative QCD.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-01-15T18:33:35Z</published>
+    <arxiv:comment>version published in PRD</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Yizhuang Liu</name>
+    </author>
+    <author>
+      <name>Maciej A. Nowak</name>
+    </author>
+    <author>
+      <name>Ismail Zahed</name>
+    </author>
+  </entry>
+</feed>

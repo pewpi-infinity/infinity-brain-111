@@ -1,0 +1,79 @@
+TERMS: electron, wavefunction, singularity
+COLORS: green, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/oQ9moItJPmFmUHY9aUcia4cFa/U</id>
+  <title>arXiv Query: search_query=all:electron AND all:wavefunction AND all:singularity&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:24:01Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:electron+AND+(all:wavefunction+AND+all:singularity)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>43</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1105.3055v1</id>
+    <title>Second Order Thermal Corrections to Electron Wavefunction</title>
+    <updated>2011-05-16T10:17:19Z</updated>
+    <link href="https://arxiv.org/abs/1105.3055v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1105.3055v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Second order perturbative corrections to electron wavefunction are calculated here at generalized temperature, for the first time. This calculation is important to prove the renormalizeability of QED through order by order cancellation of singularities at higher order. This renormalized wavefunction could be used to calculate the particle processes in the extremely hot systems such as the very early universe and the stellar cores. We have to re-write the second order thermal correction to electron mass in a convenient way to be able to calculate the wavefunction renormalization constant. A procedure for integrations of hot loop momenta before the cold loop momenta integration is maintained throughout to be able to remove hot singularities in an appropriate way. Our results, not only includes the intermediate temperatures T m (where m is the electron mass), the limits of high temperature T&gt;&gt;m and low temperature T&lt;&lt;m are also retrievable. A comparison is also done with the existing results.</summary>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2011-05-16T10:17:19Z</published>
+    <arxiv:comment>12 Pages and 1 figure; Submitted for publication</arxiv:comment>
+    <arxiv:primary_category term="hep-ph"/>
+    <author>
+      <name>Mahnaz Q. Haseeb</name>
+    </author>
+    <author>
+      <name>Samina S. Masood</name>
+    </author>
+    <arxiv:doi>10.1016/j.physletb.2011.08.057</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1016/j.physletb.2011.08.057" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2510.07460v1</id>
+    <title>Analysis of divergent dynamics of exactly factorized electron-nuclear wavefunctions</title>
+    <updated>2025-10-08T19:05:52Z</updated>
+    <link href="https://arxiv.org/abs/2510.07460v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2510.07460v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The Exact Factorization (XF) of molecular wavefunctions can be viewed as an 'electronic wavepacket' framework for quantum dynamics. It is an appealing alternative to the conventional non-adiabatic dynamics, unfolding in the space of coupled electronic eigenstates. However, implementation of the non-linear XF equations for general systems presents a formidable challenge: the XF counterparts to the non-adiabatic coupling involve division by the nuclear probability density, which leads to severe numerical instabilities in the low-density regions of space. In case of the non-adiabatic dynamics the effect of coupling is relatively smooth, but this theoretical framework becomes impractical when numerous electronic states are involved. In this paper the origin of the XF-specific challenge is analyzed analytically. We demonstrate that the problem arises when the factorized wavefunction diverges, even without the explicit coupling of the Born-Huang electronic states used to describe the molecular wavefunction. Using a 'minimal' model of the photodissociation, we derive expressions for the XF dynamics and locate the source of the XF instability. We analyze the dependence of this instability on the nuclear wavefunction bifurcation in the stationary and moving frames of reference, the latter associated with the quantum trajectory ensemble describing the nuclear XF wavepacket in a compact form. We show that the near-singular behavior persists in the moving frame and in the atomic basis representation of the electronic wavefunction. This model and insight into the root of the XF implementation challenge will help to address the issue, leading to further development of the XF methods.</summary>
+    <category term="physics.chem-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2025-10-08T19:05:52Z</published>
+    <arxiv:comment>21 pages, 7 figures, 2 tables</arxiv:comment>
+    <arxiv:primary_category term="physics.chem-ph"/>
+    <author>
+      <name>Julian Stetzler</name>
+      <arxiv:affiliation>Department of Chemistry &amp; Biochemistry, University of South Carolina, Columbia, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Sophya Garashchuk</name>
+      <arxiv:affiliation>Department of Chemistry &amp; Biochemistry, University of South Carolina, Columbia, USA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Vitaly A. Rassolov</name>
+      <arxiv:affiliation>Department of Chemistry &amp; Biochemistry, University of South Carolina, Columbia, USA</arxiv:affiliation>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1612.00360v1</id>
+    <title>On the approximation of electronic wavefunctions by anisotropic Gauss and Gauss-Hermite functions</title>
+    <updated>2016-12-01T17:43:53Z</updated>
+    <link href="https://arxiv.org/abs/1612.00360v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1612.00360v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The electronic Schrödinger equation describes the motion of N electrons under Coulomb interaction forces in a field of clamped nuclei. The solutions of this equation, the electronic wavefunctions, depend on 3N variables, three spatial dimensions for each electron. We study the approximability of these wavefunctions by linear combinations of anisotropic Gauss functions, or more precisely Gauss-Hermite functions, products of polynomials and anisotropic Gauss functions in the narrow sense. We show that the original, singular wavefunctions can up to given accuracy and a negligibly small residual error be approximated with only insignificantly more such terms than their convolution with a Gaussian kernel of sufficiently small width and that basically arbitrary orders of convergence can be reached. This is a fairly surprising result, since it essentially means that by this type of approximation, the intricate hierarchies of non-smooth cusps in electronic wavefunctions have almost no impact on the convergence, once the global structure is resolved.</summary>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-12-01T17:43:53Z</published>
+    <arxiv:comment>To appear in Numerische Mathematik</arxiv:comment>
+    <arxiv:primary_category term="math.NA"/>
+    <author>
+      <name>Stephan Scholz</name>
+    </author>
+    <author>
+      <name>Harry Yserentant</name>
+    </author>
+    <arxiv:doi>10.1007/s00211-016-0856-4</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/s00211-016-0856-4" title="doi"/>
+  </entry>
+</feed>

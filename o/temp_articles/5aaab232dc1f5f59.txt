@@ -1,0 +1,86 @@
+TERMS: spin, boson, probability
+COLORS: yellow, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api//dgTN16TR5hXGMFuMGGnzjqeDU8</id>
+  <title>arXiv Query: search_query=all:spin AND all:boson AND all:probability&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:32:48Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:spin+AND+(all:boson+AND+all:probability)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>158</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1509.02703v2</id>
+    <title>Spin models and boson sampling</title>
+    <updated>2016-03-20T18:21:03Z</updated>
+    <link href="https://arxiv.org/abs/1509.02703v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1509.02703v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>In this work we proof that boson sampling with $N$ particles in $M$ modes is equivalent to short-time evolution with $N$ excitations in an XY model of $2N$ spins. This mapping is efficient whenever the boson bunching probability is small, and errors can be efficiently postselected. This mapping opens the door to boson sampling with quantum simulators or general purpose quantum computers, and highlights the complexity of time-evolution with critical spin models, even for very short times.</summary>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2015-09-09T10:16:34Z</published>
+    <arxiv:comment>Extended supplementary material; typos fixed in the proof equations</arxiv:comment>
+    <arxiv:primary_category term="quant-ph"/>
+    <author>
+      <name>Borja Peropadre</name>
+    </author>
+    <author>
+      <name>Alan Aspuru-Guzik</name>
+    </author>
+    <author>
+      <name>Juan Jose Garcia-Ripoll</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/gr-qc/0205072v1</id>
+    <title>On the spin of gravitational bosons</title>
+    <updated>2002-05-16T21:28:17Z</updated>
+    <link href="https://arxiv.org/abs/gr-qc/0205072v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/gr-qc/0205072v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We unearth spacetime structure of massive vector bosons, gravitinos, and gravitons. While the curvatures associated with these particles carry a definite spin, the underlying potentials cannot be, and should not be, interpreted as single spin objects. For instance, we predict that a spin measurement in the rest frame of a massive gravitino will yield the result 3/2 with probability one half, and 1/2 with probability one half. The simplest scenario leaves the Riemannian curvature unaltered; thus avoiding conflicts with classical tests of the theory of general relativity. However, the quantum structure acquires additional contributions to the propagators, and it gives rise to additional phases.</summary>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-05-16T21:28:17Z</published>
+    <arxiv:comment>Honorable mention, 2002 Gravity Research Foundation Essays</arxiv:comment>
+    <arxiv:primary_category term="gr-qc"/>
+    <arxiv:journal_ref>Int.J.Mod.Phys.D11:1621-1634,2002</arxiv:journal_ref>
+    <author>
+      <name>D. V. Ahluwalia</name>
+    </author>
+    <author>
+      <name>N. Dadhich</name>
+    </author>
+    <author>
+      <name>M. Kirchbach</name>
+    </author>
+    <arxiv:doi>10.1142/S0218271802003031</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/S0218271802003031" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/nucl-th/0304040v1</id>
+    <title>Angular momentum I ground state probabilities of boson systems interacting by random interactions</title>
+    <updated>2003-04-14T03:45:39Z</updated>
+    <link href="https://arxiv.org/abs/nucl-th/0304040v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/nucl-th/0304040v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this paper we report our systematic calculations of angular momentum $I$ ground state probabilities ($P(I)$) of boson systems with spin $l$ in the presence of random two-body interactions. It is found that the P(0) dominance is usually not true for a system with an odd number of bosons, while it is valid for an even number of bosons, which indicates that the P(0) dominance is partly connected to the even number of identical particles. It is also noticed that the $P(I_{max})$'s of bosons with spin $l$ do not follow the 1/N ($N=l+1$, referring to the number of independent two-body matrix elements) relation. The properties of the $P(I)$'s obtained in boson systems with spin $l$ are discussed.</summary>
+    <category term="nucl-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2003-04-14T03:45:39Z</published>
+    <arxiv:comment>8 pages and 3 figures</arxiv:comment>
+    <arxiv:primary_category term="nucl-th"/>
+    <arxiv:journal_ref>Physical Review C68, 014322 (2003)</arxiv:journal_ref>
+    <author>
+      <name>Y. M. Zhao</name>
+    </author>
+    <author>
+      <name>A. Arima</name>
+    </author>
+    <author>
+      <name>N. Yoshinaga</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevC.68.014322</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevC.68.014322" title="doi"/>
+  </entry>
+</feed>

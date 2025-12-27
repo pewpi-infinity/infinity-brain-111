@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Quantum Visualizer</title>
+<style>
+body{font-family:system-ui;background:#010f1a;color:#0ff;margin:0;text-align:center}
+canvas{background:#000;margin-top:40px;border-radius:10px}
+button{background:#09f;color:#fff;border:none;border-radius:10px;padding:10px 20px;margin:20px;font-size:1em}
+</style>
+</head>
+<body>
+<h2>🧬 Quantum Visualizer</h2>
+<canvas id="q" width="360" height="360"></canvas>
+<br><button onclick="window.location.href='../index.html'">⬅ Back to App Builder</button>
+<script>
+const c=document.getElementById('q'),x=c.getContext('2d');
+let a=0;function draw(){
+x.fillStyle='#000';x.fillRect(0,0,c.width,c.height);
+for(let i=0;i<60;i++){
+x.beginPath();x.arc(180+Math.sin(a+i/5)*100,180+Math.cos(a+i/5)*100,2,0,Math.PI*2);
+x.fillStyle=`hsl(${(a*30+i*6)%360},100%,50%)`;x.fill();
+}
+a+=0.02;requestAnimationFrame(draw);
+}draw();
+</script>
+</body></html>

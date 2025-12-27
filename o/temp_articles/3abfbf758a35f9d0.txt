@@ -1,0 +1,74 @@
+TERMS: entropy, spin, vacuum
+COLORS: red, yellow, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/Bjr9dDX9+TlcErHH2preZ2EvlDM</id>
+  <title>arXiv Query: search_query=all:entropy AND all:spin AND all:vacuum&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:18:25Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:entropy+AND+(all:spin+AND+all:vacuum)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>56</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/1406.0520v2</id>
+    <title>Relative entropy in higher spin holography</title>
+    <updated>2014-12-27T05:01:44Z</updated>
+    <link href="https://arxiv.org/abs/1406.0520v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1406.0520v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We examine relative entropy in the context of the higher-spin/CFT duality. We consider 3$d$ bulk configurations in higher spin gravity which are dual to the vacuum and a high temperature state of a CFT with $\mathcal{W}$-algebra symmetries in presence of a chemical potential for a higher spin current. The relative entropy between these states is then evaluated using the Wilson line functional for holographic entanglement entropy. In the limit of small entangling intervals, the relative entropy should vanish for a generic quantum system. We confirm this behaviour by showing that the difference in the expectation values of the modular Hamiltonian between the states matches with the difference in the entanglement entropy in the short-distance regime. Additionally, we compute the relative entropy of states corresponding to smooth solutions in the $SL(2,\mathbb{Z})$ family with respect to the vacuum.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2014-06-02T20:06:35Z</published>
+    <arxiv:comment>29 pages. Published version. All relative entropies are calculated with respect to the vacuum</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Phys. Rev. D 90, 126010 (2014)</arxiv:journal_ref>
+    <author>
+      <name>Shouvik Datta</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.90.126010</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.90.126010" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1710.01110v3</id>
+    <title>Entropy in Born-Infeld Gravity</title>
+    <updated>2018-01-04T14:15:13Z</updated>
+    <link href="https://arxiv.org/abs/1710.01110v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1710.01110v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>There is a class of higher derivative gravity theories that are in some sense natural extensions of cosmological Einstein's gravity with a unique maximally symmetric classical vacuum and only a massless spin-2 excitation about the vacuum and no other perturbative modes. These theories are of the Born-Infeld determinantal form. We show that the macroscopic dynamical entropy as defined by Wald for bifurcate Killing horizons in these theories are equivalent to the geometric Bekenstein-Hawking entropy (or more properly Gibbons-Hawking entropy for the case of de Sitter spacetime) but given with an effective gravitational constant which encodes all the information about the background spacetime and the underlying theory. We also show that the higher curvature terms increase the entropy. We carry out the computations in generic n-dimensions including the particularly interesting limits of three, four and infinite number of dimensions. We also give a preliminary discussion about the black hole entropy in generic dimensions for the BI theories.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2017-10-03T12:42:44Z</published>
+    <arxiv:comment>15 pages, an appendix on black hole entropy added, matches the published version</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <arxiv:journal_ref>Phys. Rev. D 96, 124038 (2017)</arxiv:journal_ref>
+    <author>
+      <name>Gokcen Deniz Ozen</name>
+    </author>
+    <author>
+      <name>Sahin Kurekci</name>
+    </author>
+    <author>
+      <name>Bayram Tekin</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevD.96.124038</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevD.96.124038" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1905.06708v6</id>
+    <title>Entanglement Entropy from String Field Theory (and a Higher-Spin Example)</title>
+    <updated>2019-08-05T14:20:21Z</updated>
+    <link href="https://arxiv.org/abs/1905.06708v6" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1905.06708v6" rel="related" type="application/pdf" title="pdf"/>
+    <summary>We study the new class of solutions in linearized open string field theory (OSFT) involving higher-spin modes. Unlike the elementary OSFT solutions (on-shell vertex operators) that, acting on a vacuum, define wavefunctions of pure states (e.g. a tachyon), the solutions that we describe correspond to the reduced density matrices which eigenvalues describe the entanglement between higher-spin modes with different spin values. We compute the entanglement entropy on these OSFT solutions, and the answer is expressed in terms of converging series in inverse weighted partition numbers. In the case of $D$-dimensional bosonic string theory, the entanglement entropy of spin $1$ subsystem and the system of all the spin values is given by $D{\log{λ_0}}+{D\over{λ_0}}\sum_{N=3}^\infty{{|β(N)|}\over{λ(N)}} {\log{({{λ(N)}\over{|β(N)|}})}}$, where $λ(N)$ is the weighted number of partitions of $N$, $β(N)={{(N-1)ζ(3)-ζ(2)}\over{(N-1)^4}}$ and $λ_0=\sum_{N=1}^{\infty}{{β(N)}\over{λ(N)}}$ ($ζ$ is Riemann's zeta-function). The first term, $D{\log{λ_0}}$, represents the entanglement swapping between string vacuum and string excitations.
+  We generalize this result to obtain the entanglement for a subsystem of a given spin $s$ in a given space-time dimension. We also discuss how open string field theory may be used to study the entanglement of systems
+  other than higher spin excitations in string theory.</summary>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2019-05-16T12:59:47Z</published>
+    <arxiv:comment>23 pages, SFT solution is revisited and modified to regularization-free expression to define a normalizable mized state; final answer for entanglement entropy and discussion section are modified accordingly</arxiv:comment>
+    <arxiv:primary_category term="hep-th"/>
+    <author>
+      <name>Dimitri Polyakov</name>
+    </author>
+  </entry>
+</feed>

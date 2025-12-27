@@ -1,0 +1,100 @@
+TERMS: frequency, lattice, entropy
+COLORS: green, orange, red
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/RWfiEQs9HU4yHDQfEaiqcKA1Jkw</id>
+  <title>arXiv Query: search_query=all:frequency AND all:lattice AND all:entropy&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:09:31Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:lattice+AND+all:entropy)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>91</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/2303.02565v1</id>
+    <title>Indirect Exchange Interaction Leads to Large Lattice Contribution to Magnetocaloric Entropy Change</title>
+    <updated>2023-03-05T03:25:54Z</updated>
+    <link href="https://arxiv.org/abs/2303.02565v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2303.02565v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Materials with a large magnetocaloric response are highly desirable for magnetic cooling applications. It is suggested that a strong spin-lattice coupling tends to generate a large magnetocaloric effect, but no microscopic mechanism has been proposed. In this work, we use spin lattice dynamics simulation to examine the lattice contribution to the magnetocaloric entropy change in bcc iron (Fe) and hcp gadolinium (Gd) with exchange interaction parameters determined from ab initio calculations. We find that indirect Ruderman Kittel Kasuya Yosida (RKKY) exchange interaction in hcp Gd leads to longer range spin lattice coupling and more strongly influences the low frequency long wavelength phonons. This results in a higher lattice contribution towards the total magnetocaloric entropy change as compared to bcc Fe with short range direct exchange interactions. Our analysis provides a framework for understanding the magnetocaloric effect in magnetic materials with strong spin lattice couplings. Our finding suggests that long range indirect RKKY type exchange gives rise to a larger lattice contribution to the magnetocaloric entropy change and is, thus, beneficial for magnetocaloric materials.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2023-03-05T03:25:54Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 131, 066703 (2023)</arxiv:journal_ref>
+    <author>
+      <name>Lokanath Patra</name>
+    </author>
+    <author>
+      <name>Bolin Liao</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.131.066703</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.131.066703" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2405.03071v1</id>
+    <title>Coherent Transfer of Lattice Entropy via Extreme Nonlinear Phononics in Metal Halide Perovskites</title>
+    <updated>2024-05-05T22:42:28Z</updated>
+    <link href="https://arxiv.org/abs/2405.03071v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/2405.03071v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>Entropy transfer in metal halide perovskites, characterized by significant lattice anharmonicity and low stiffness, underlies the remarkable properties observed in their optoelectronic applications, ranging from solar cells to lasers. The conventional view of this transfer involves stochastic processes occurring within a thermal bath of phonons, where lattice arrangement and energy flow from higher to lower frequency modes. Here we unveil a comprehensive chronological sequence detailing a conceptually distinct, coherent transfer of entropy in a prototypical perovskite CH$_3$NH$_3$Pbl$_3$. The terahertz periodic modulation imposes vibrational coherence into electronic states, leading to the emergence of mixed (vibronic) quantum beat between approximately 3 THz and 0.3 THz. We highlight a well-structured, bi-directional time-frequency transfer of these diverse phonon modes, each developing at different times and transitioning from high to low frequencies from 3 to 0.3 THz, before reversing direction and ascending to around 0.8 THz. First-principles molecular dynamics simulations disentangle a complex web of coherent phononic coupling pathways and identify the salient roles of the initial modes in shaping entropy evolution at later stages. Capitalizing on coherent entropy transfer and dynamic anharmonicity presents a compelling opportunity to exceed the fundamental thermodynamic (Shockley-Queisser) limit of photoconversion efficiency and to pioneer novel optoelectronic functionalities.</summary>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2024-05-05T22:42:28Z</published>
+    <arxiv:primary_category term="cond-mat.mtrl-sci"/>
+    <arxiv:journal_ref>PRX Energy, 3, 023009 (2024)</arxiv:journal_ref>
+    <author>
+      <name>Z. Liu</name>
+    </author>
+    <author>
+      <name>Y. Shi</name>
+    </author>
+    <author>
+      <name>T. Jiang</name>
+    </author>
+    <author>
+      <name>L. Luo</name>
+    </author>
+    <author>
+      <name>C. Huang</name>
+    </author>
+    <author>
+      <name>M. Mootz</name>
+    </author>
+    <author>
+      <name>Z. Song</name>
+    </author>
+    <author>
+      <name>Y. Yan</name>
+    </author>
+    <author>
+      <name>Y. Yao</name>
+    </author>
+    <author>
+      <name>J. Zhao</name>
+    </author>
+    <author>
+      <name>J. Wang</name>
+    </author>
+    <arxiv:doi>10.1103/PRXEnergy.3.023009</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PRXEnergy.3.023009" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1311.6618v2</id>
+    <title>The second order hydrodynamic transport coefficient $κ$ for the gluon plasma from the lattice</title>
+    <updated>2014-01-08T13:27:06Z</updated>
+    <link href="https://arxiv.org/abs/1311.6618v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1311.6618v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The quark gluon plasma produced in heavy ion collisions behaves like an almost ideal fluid described by viscous hydrodynamics with a number of transport coefficients. The second order coefficient $κ$ is related to a Euclidean correlator of the energy-momentum tensor at vanishing frequency and low momentum. This allows for a lattice determination without maximum entropy methods or modelling, but the required lattice sizes represent a formidable challenge. We calculate $κ$ in leading order lattice perturbation theory and simulations on $120^3\times 6,8$ lattices with $a&lt;0.1$ fm. In the temperature range $2T_\mathrm{c}-10T_\mathrm{c}$ we find $κ=0.36(15)T^2$. The error covers both a suitably rescaled AdS/CFT prediction as well as, remarkably, the result of leading order perturbation theory. This suggests that appropriate noise reduction methods on the lattice and NLO perturbative calculations could provide an accurate QCD prediction in the near future.</summary>
+    <category term="hep-lat" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2013-11-26T11:00:50Z</published>
+    <arxiv:comment>24 pages, 5 figures. Rescaled AdS/CFT prediction and explained cancelling of trace anomaly</arxiv:comment>
+    <arxiv:primary_category term="hep-lat"/>
+    <author>
+      <name>Owe Philipsen</name>
+    </author>
+    <author>
+      <name>Christian Schäfer</name>
+    </author>
+    <arxiv:doi>10.1007/JHEP02(2014)003</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1007/JHEP02(2014)003" title="doi"/>
+  </entry>
+</feed>

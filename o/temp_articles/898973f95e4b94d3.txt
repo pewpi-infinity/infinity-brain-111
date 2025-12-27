@@ -1,0 +1,79 @@
+TERMS: frequency, crystal, boson
+COLORS: green, orange, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/VsTfnFQaDVbukjD5KSEXOmNGzZk</id>
+  <title>arXiv Query: search_query=all:frequency AND all:crystal AND all:boson&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:11:10Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:frequency+AND+(all:crystal+AND+all:boson)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>68</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0210067v2</id>
+    <title>'Boson peak' and high-frequency excitations in glassy crystals</title>
+    <updated>2004-03-18T22:30:01Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0210067v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0210067v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  The high-frequency excitations in glasses and supercooled liquids belong to the great mysteries of the physics of condensed matter. While the fast process, located at GHz-THz, can be interpreted as encaged molecular motion, the occurrence of the boson peak (BP), dominating at THz frequencies, still is controversially debated. Two scenarios have evolved during recent years: the BP is truly collective in nature or, alternatively, it results from localized modes. To help solving this controversy, we have investigated the high-frequency dielectric loss of plastic crystals (PCs), having long-range translational but no orientational order. Having in mind the well-defined phonon modes in PCs compared to canonical glasses, and the infrared silence of acoustic phonon modes, millimeter-wave and far-infrared spectroscopy should provide valuable hints on the true origin of the BP. Here we show that PCs exhibit a BP-like feature with markedly different spectral shape compared to canonical glasses, evidencing that mixing of collective phonon with local relaxational modes causes the BP. In addition, we find clear evidence for a fast process also in PCs.</summary>
+    <category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2002-10-02T20:27:36Z</published>
+    <arxiv:comment>4 pages, 4 figures; completely revised version with new results</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.soft"/>
+    <author>
+      <name>P. Lunkenheimer</name>
+    </author>
+    <author>
+      <name>A. Loidl</name>
+    </author>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1601.03879v3</id>
+    <title>Local inversion-symmetry breaking controls the boson peak in glasses and crystals</title>
+    <updated>2016-03-21T18:03:56Z</updated>
+    <link href="https://arxiv.org/abs/1601.03879v3" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1601.03879v3" rel="related" type="application/pdf" title="pdf"/>
+    <summary>It is well known that amorphous solids display a phonon spectrum where the Debye $\sim ω^2$ law at low frequency melds into an anomalous excess-mode peak (the boson peak) before entering a quasi-localized regime at higher frequencies dominated by scattering. The microscopic origin of the boson peak has remained elusive despite various attempts to put it in a clear connection with structural disorder at the atomic/molecular level. Using numerical calculations on model systems, we show that the microscopic origin of the boson peak is directly controlled by the local breaking of center-inversion symmetry. In particular, we find that both the boson peak and the nonaffine softening of the material display a strong positive correlation with a new order parameter describing the local inversion symmetry of the lattice. The standard bond-orientational order parameter, instead, is shown to be a poor correlator and cannot explain the boson peak in randomly-cut crystals with perfect bond-orientational order. Our results bring a unifying understanding of the boson peak anomaly for model glasses and defective crystals in terms of a universal local symmetry-breaking principle of the lattice.</summary>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2016-01-15T11:30:39Z</published>
+    <arxiv:comment>10 pages, 7 figures</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.dis-nn"/>
+    <arxiv:journal_ref>Phys. Rev. B 93, 094204 (2016)</arxiv:journal_ref>
+    <author>
+      <name>R. Milkus</name>
+    </author>
+    <author>
+      <name>A. Zaccone</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevB.93.094204</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevB.93.094204" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/1810.09516v4</id>
+    <title>Universal origin of boson peak vibrational anomalies in ordered crystals and in amorphous materials</title>
+    <updated>2019-03-30T12:11:35Z</updated>
+    <link href="https://arxiv.org/abs/1810.09516v4" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/1810.09516v4" rel="related" type="application/pdf" title="pdf"/>
+    <summary>The vibrational spectra of solids, both ordered and amorphous, in the low-energy regime, control the thermal and transport properties of materials, from heat capacity to heat conduction, electron-phonon couplings, conventional superconductivity etc. The old Debye model of vibrational spectra at low energy gives the vibrational density of states (VDOS) as proportional to the frequency squared, but in many materials the spectrum departs from this law which results in a peak upon normalizing the VDOS by frequency squared, which is known as the "boson peak". A description of the VDOS of solids (both crystals and glasses) is presented starting from first principles. Without using any assumptions whatsoever about the existence and nature of "disorder" in the material, it is shown that the boson peak in the VDOS of both ordered crystals and glasses arises naturally from the competition between elastic mode propagation and viscous damping. The theory explains the recent experimental observations of boson peak in perfectly ordered crystals, which cannot be explained based on previous theoretical frameworks. The theory also explains, for the first time, how the vibrational spectrum changes with the atomic density of the solid, and explains recent experimental observations of this effect.</summary>
+    <category term="cond-mat.soft" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.dis-nn" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2018-10-22T19:46:00Z</published>
+    <arxiv:comment>typos corrected; version published in PRL</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.soft"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 122, 145501 (2019)</arxiv:journal_ref>
+    <author>
+      <name>Matteo Baggioli</name>
+    </author>
+    <author>
+      <name>Alessio Zaccone</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.122.145501</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.122.145501" title="doi"/>
+  </entry>
+</feed>

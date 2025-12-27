@@ -1,0 +1,77 @@
+TERMS: quantum, vapor, boson
+COLORS: blue, green, green
+CONTENT:
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom" xmlns="http://www.w3.org/2005/Atom">
+  <id>https://arxiv.org/api/L71lVVTKgcou2AjsARxYyMtQ+sk</id>
+  <title>arXiv Query: search_query=all:quantum AND all:vapor AND all:boson&amp;id_list=&amp;start=0&amp;max_results=3</title>
+  <updated>2025-12-01T01:07:12Z</updated>
+  <link href="https://arxiv.org/api/query?search_query=all:quantum+AND+(all:vapor+AND+all:boson)&amp;start=0&amp;max_results=3&amp;id_list=" type="application/atom+xml"/>
+  <opensearch:itemsPerPage>3</opensearch:itemsPerPage>
+  <opensearch:totalResults>18</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0406013v1</id>
+    <title>Quantum Hall fractions in ultracold atomic vapors</title>
+    <updated>2004-06-01T09:22:31Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0406013v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0406013v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  Atomic vapors can be prepared and manipulated at very low densities and temperatures. When they are rotating, they can reach a quantum Hall regime in which there should be manifestations of the fractional quantum Hall effect. We discuss the appearance of the principal sequence of fractions nu =p/(p+- 1) for bosonic atoms. The termination point of this series is the paired Moore-Read Pfaffian state. Exotic states fill the gap between the paired state and the vortex lattice expected at high filling of the lowest Landau level. In fermionic vapors, the p-wave scattering typical of ultralow energy collisions leads to the hard-core model when restricted to the lowest Landau level.</summary>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2004-06-01T09:22:31Z</published>
+    <arxiv:comment>7 pages, 2 figs, brief review submitted to Modern Physics Letters B</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.mes-hall"/>
+    <arxiv:journal_ref>Mod. Phys. Lett. B18, 1003 (2004).</arxiv:journal_ref>
+    <author>
+      <name>N. Regnault</name>
+      <arxiv:affiliation>ENS Paris</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Th. Jolicoeur</name>
+      <arxiv:affiliation>ENS Paris</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1142/S0217984904007530</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1142/S0217984904007530" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/0504026v2</id>
+    <title>Dissipative quantum dynamics of bosonic atoms in a shallow 1D optical lattice</title>
+    <updated>2005-07-21T16:33:20Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/0504026v2" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/0504026v2" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  We theoretically study the dipolar motion of bosonic atoms in a very shallow, strongly confined 1D optical lattice using the parameters of the recent experiment [Fertig et al., Phys. Rev. Lett. 94, 220402 (2005)]. We find that, due to momentum uncertainty, a small, but non-negligible, atom population occupies the unstable velocity region of the corresponding classical dynamics, resulting in the observed dissipative atom transport. This population is generated even in a static vapor, due to quantum fluctuations which are enhanced by the lattice and the confinement, and is not notably affected by the motion of atoms or finite temperature.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <published>2005-04-01T16:58:21Z</published>
+    <arxiv:comment>to appear in PRL</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 95 (2005) 110403</arxiv:journal_ref>
+    <author>
+      <name>J. Ruostekoski</name>
+    </author>
+    <author>
+      <name>L. Isella</name>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.95.110403</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.95.110403" title="doi"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/cond-mat/9612176v1</id>
+    <title>Quantum Monte Carlo Calculations for a large number of bosons in a harmonic trap</title>
+    <updated>1996-12-19T21:17:45Z</updated>
+    <link href="https://arxiv.org/abs/cond-mat/9612176v1" rel="alternate" type="text/html"/>
+    <link href="https://arxiv.org/pdf/cond-mat/9612176v1" rel="related" type="application/pdf" title="pdf"/>
+    <summary>  In this paper, I present a precise Quantum Monte Carlo calculation at finite temperature for a very large number (many thousands) of bosons in a harmonic trap, which may be anisotropic. The calculation applies directly to the recent experiments of Bose-Einstein condensation of atomic vapors in magnetic traps. I show that the critical temperature of the system decreases with the interaction. I also present profiles for the overall density and the one of condensed particles, and obtain excellent agreement with solutions of the Gross-Pitaevskii equation.</summary>
+    <category term="cond-mat.stat-mech" scheme="http://arxiv.org/schemas/atom"/>
+    <published>1996-12-19T21:17:45Z</published>
+    <arxiv:comment>8 pages, 3 figures, Revtex</arxiv:comment>
+    <arxiv:primary_category term="cond-mat.stat-mech"/>
+    <arxiv:journal_ref>Phys. Rev. Lett. 77, 3695 (1996)</arxiv:journal_ref>
+    <author>
+      <name>Werner Krauth</name>
+      <arxiv:affiliation>LPS - ENS, Paris</arxiv:affiliation>
+    </author>
+    <arxiv:doi>10.1103/PhysRevLett.77.3695</arxiv:doi>
+    <link rel="related" href="https://doi.org/10.1103/PhysRevLett.77.3695" title="doi"/>
+  </entry>
+</feed>

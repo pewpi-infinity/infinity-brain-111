@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+<title>Infinity Quantum Signal Generator</title>
+<style>
+html,body{margin:0;height:100%;overflow:hidden;background:#050510;font-family:monospace;color:#0ff}
+#c{display:block;width:100%;height:100%}
+#hud{position:fixed;bottom:30px;left:0;right:0;text-align:center;z-index:3}
+button{background:#0ff;color:#000;font-weight:bold;padding:12px 26px;
+border:none;border-radius:8px;box-shadow:0 0 15px #0ff;cursor:pointer;}
+button:hover{background:#7ff;box-shadow:0 0 25px #7ff}
+</style>
+</head>
+<body>
+<canvas id="c"></canvas>
+<div id="hud">
+  <button id="auto">Autopilot</button>
+  <a href="index.html" style="margin-left:20px;color:#0ff;text-decoration:none;">⚡ Back to Portal</a>
+</div>
+<div style="position:fixed;bottom:15px;left:0;right:0;text-align:center;background:rgba(0,0,0,.6);padding:14px 0;">
+  <span style="font-size:18px;color:#0ff;margin-right:12px;">Now Build Your Own Signal Generator</span>
+  <input placeholder="Design your own…" style="padding:6px;border-radius:6px;border:none;width:200px;"/>
+  <button style="background:#0ff;color:#000;font-weight:bold;padding:6px 12px;border:none;border-radius:6px;margin-left:6px;">Try Now</button>
+</div>
+
+<script>
+// Infinity Quantum Signal Generator Demo
+const c=document.getElementById("c"),x=c.getContext("2d");
+function fit(){c.width=innerWidth;c.height=innerHeight}
+addEventListener("resize",fit);fit();
+const N=20;const bars=[];const baseY=c.height*0.7;
+for(let i=0;i<N;i++){bars.push({x:(i+1)*(c.width/(N+1)),a:0.5+Math.random()*0.5,phi:Math.random()*6});}
+let autopilot=false,t=0;
+
+function loop(){
+ t+=0.02;x.clearRect(0,0,c.width,c.height);
+ const g=x.createLinearGradient(0,0,0,c.height);
+ g.addColorStop(0,"#02030a");g.addColorStop(1,"#071020");
+ x.fillStyle=g;x.fillRect(0,0,c.width,c.height);
+ bars.forEach((b,i)=>{
+   let amp=b.a;if(autopilot)amp=0.4+0.3*Math.sin(t+i*0.3);
+   const h=200*amp+80*Math.sin(t+b.phi);
+   const y=baseY-h;
+   const col="hsl("+(180+60*amp)+",80%,"+(40+30*amp)+"%)";
+   x.fillStyle=col;x.shadowColor=col;x.shadowBlur=20;
+   x.fillRect(b.x-8,y,16,h);
+   x.beginPath();x.arc(b.x,y-20,6,0,Math.PI*2);
+   x.fillStyle="#0ff";x.fill();
+ });
+ requestAnimationFrame(loop);
+}
+requestAnimationFrame(loop);
+
+let drag=-1;
+c.addEventListener("pointerdown",e=>{
+ const mx=e.offsetX,my=e.offsetY;
+ for(let i=0;i<N;i++){const b=bars[i];
+  const y=baseY-(200*b.a+80*Math.sin(t+b.phi));
+  if(Math.hypot(mx-b.x,my-y+20)<10){drag=i;break;}
+ }
+});
+c.addEventListener("pointerup",()=>drag=-1);
+c.addEventListener("pointermove",e=>{
+ if(drag>=0){const b=bars[drag];const rel=1-(e.offsetY/baseY);
+  b.a=Math.max(0.1,Math.min(1,rel));}
+});
+document.getElementById("auto").onclick=()=>{
+ autopilot=!autopilot;
+ document.getElementById("auto").textContent=autopilot?"Stop Autopilot":"Autopilot";
+};
+</script>
+</body>
+</html>
